@@ -6,5 +6,5 @@ has_children: true
 has_toc: true
 ---
 
-
+# Getting Started - The Basics
 
