@@ -14,7 +14,7 @@ search:
   button: false
 
 nav_external_links:
-  - title: Mod Suggestioins
+  - title: Mod Suggestions
     Url: https://trello.com/b/jQFlf7nY/suggested-mods
     hide_icon: true # set to true to hide the external link icon - defaults to false
   - title: Requiem WIKI
