@@ -16,15 +16,15 @@ search:
 nav_external_links:
   - title: Requiem WIKI
     url: https://www.reddit.com/r/skyrimrequiem/wiki/index
-    hide_icon: false # set to true to hide the external link icon - defaults to false
+    hide_icon: true # set to true to hide the external link icon - defaults to false
   - title: UESP Interactive Skyrim Map
     url: https://srmap.uesp.net/
-    hide_icon: false # set to true to hide the external link icon - defaults to false   
+    hide_icon: true # set to true to hide the external link icon - defaults to false   
   - title: UESP Interactive Solstheim Map
     url: https://dbmap.uesp.net/
-    hide_icon: false # set to true to hide the external link icon - defaults to false   
+    hide_icon: true # set to true to hide the external link icon - defaults to false   
   - title: UESP Skill Book locations
     url: https://en.uesp.net/wiki/Skyrim:Skill_Books
-    hide_icon: false # set to true to hide the external link icon - defaults to false  
+    hide_icon: true # set to true to hide the external link icon - defaults to false  
    
     
