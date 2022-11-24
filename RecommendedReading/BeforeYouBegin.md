@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Before You Begin
-nav_order: 9
-has_children: false
 has_toc: true
 parent: Recommended Reading
 grand-parent: Getting Started - The Basics
+nav_order: 1
 ---
 
 ------
