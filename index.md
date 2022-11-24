@@ -3,28 +3,64 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home. Whether you want to call it immersion, realism, role-playing, or simple masochism, the end-goal is to make you actually feel like an intrepid adventurer climbing snow-covered mountains, delving into ancient ruins, and getting your bits bitten off by packs of hungry wolves.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Wildlander is made up of hundreds of publicly available mods made by almost as many talented mod authors. These mods have been carefully selected, tested, and tweaked by Dylan to iron out any technical difficulties and maintain a consistent experience.
 
-More specifically, the created site:
+Wildlander is also a mod in its own right, as it includes proprietary features not available in the original mods.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+The whole experience is built around [Requiem - the Roleplaying Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/60888) - v5.0.3. Requiem completely retools all of Skyrim to create a challenging, deleveled world with plenty of meaningful choices. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+In general, any Requiem resources you find will be applicable to Wildlander. Some information may be outdated, some may be overwritten by other mods in Wildlander, and some may have been disabled entirely, but the core principles are the same.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+Wildlander can be overwhelming at first, so I highly recommend reading up on it. Start with The Recommended reading section on this wiki and work down from there.
 
-To get started with creating a site, just click "[use this template]"!
+If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channel/UCnVgWmZbuZxl2QFVapKjd3w) has turned the wiki introduction into a video - which you can access clicking the image below.
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/vXRurA0h6NE/0.jpg)](http://www.youtube.com/watch?v=vXRurA0h6NE "Introduction to wildlander")
+
+
+
+
+## Recommended Browser Extensions
+
+To use this wiki - I recommend the following browser extensions - makes the pages full screen, and adds a search box 
+
+* Firefox https://addons.mozilla.org/en-US/firefox/addon/github-wiki-search/ and https://addons.mozilla.org/en-US/firefox/addon/wide-github-chrome/
+* Chrome https://chrome.google.com/webstore/detail/github-wiki-search/neadealkfeligebmmolcibhbcdfplhhg?hl=en and https://chrome.google.com/webstore/detail/wide-github/kaalofacklcidaampbokdplbklpeldpj?hl=en
+
+
+
+## Getting Help
+* Firstly – Most Common Questions are answered in our [FAQ](https://github.com/Wildlander-mod/Support/wiki/FAQ).
+* Secondly – [The known issues document](https://tinyurl.com/WildKI) contains a list of known issues and, if available, fixes for those issues.
+* Support is available primarily on our Discord server [Dylan Perry Discord Server](https://discordapp.com/invite/8VkDrfq). It is great for support, troubleshooting, and reporting bugs since you can speak with other users in real-time. We have many regular users offering help to new players. The Discord is also a good place to meet fellow adventurers and chat about Wildlander and other games.
+* The [Wildlander Subreddit](https://www.reddit.com/r/wildlander/) is a great place to meet fellow players and share stories of your adventures. We also host community events, post screenshots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
+* The [Wildlander YouTube channel](https://www.youtube.com/wildlander) contains a variety of Wildlander video content, including gameplay videos, gameplay tutorials, developer updates, modding tutorials, and other video content not related to Wildlander.
+* Currently, we are not supporting any form of customization. Doing so denies you access to support.
+
+To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a bug report form.
+
+## Important Information 
+
+When you load your savefile, wait at least thirty seconds before saving again. Some scripts will break if you save too soon after loading.
+    
+At least try to avoid saving during combat or other conditions of heavy script load.
+
+### When starting a new character
+
+If you have played a character already and then exit to the main menu, do not attempt to start a new character in the same session. Instead, quit entirely out of Skyrim and restart it from there. If you do not do so, the game will not operate properly and you will get errors such as 'please restart the economy,' or 'Honed Metal has crashed.'
+
+This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new playthrough (hotkeys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
+
+Everytime you want to start a new character, you should be closing and reopening skyrim in its entirety.
+
+Please *DO NOT* report bugs relating to this topic as its a flaw with skyrim itself. There is nothing we can do to make this work!
+
+
+## Thank yous
+We would like to thank Terrorforge, Skjolbir, Goldymires, Semkiry and the whole Requiem Team for the guides used to produce this Wiki.
+
 
 ----
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
