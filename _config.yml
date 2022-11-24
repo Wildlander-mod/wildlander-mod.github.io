@@ -1,9 +1,11 @@
 title: Wildlander Wiki
 description: Starter page for wiki Dev work
-logo: "images/wildlander-icon-dark.png"
-
+theme: just-the-docs
 
 url: wildlander-mod.github.io
+
+aux_links: 
+  To-do-list: todo.md
 
 
 search:
