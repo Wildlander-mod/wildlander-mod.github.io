@@ -14,6 +14,9 @@ search:
   button: false
 
 nav_external_links:
+  - title: Launcher Changelog
+    Url: https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md
+    hide_icon: true # set to true to hide the external link icon - defaults to false
   - title: Mod Suggestions
     Url: https://trello.com/b/jQFlf7nY/suggested-mods
     hide_icon: true # set to true to hide the external link icon - defaults to false
