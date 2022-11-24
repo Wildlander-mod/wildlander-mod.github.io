@@ -9,7 +9,7 @@ parent: RecReading
 ---
 
 ------
-#Before you Begin
+# Before you Begin
 
 # Navigation Structure
 {: .no_toc }
