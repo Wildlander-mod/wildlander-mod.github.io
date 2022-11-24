@@ -4,9 +4,20 @@ title: Before You Begin
 nav_order: 9
 has_children: true
 has_toc: true
-parent: RecReading
+parent: recreading
 ---
 
+------
+#Before you Begin
+
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 
 You should not be starting Skyrim from steam, you should not be running SKSE, you should not be running mod organizer.  Instead, you should be using our dedicated launcher which allows you to customize the Screen resolution, Graphics settings and ENB shaders.
