@@ -2,7 +2,7 @@
 title: CHANGE LOG
 layout: default
 nav_order: 1
-parent: OtherResources
+parent: Other Resources
 ---
 
 # V1.1.10 - release 16/09/22 
