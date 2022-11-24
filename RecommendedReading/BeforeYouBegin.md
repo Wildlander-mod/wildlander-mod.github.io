@@ -2,7 +2,7 @@
 layout: default
 title: Before You Begin
 nav_order: 9
-has_children: true
+has_children: false
 has_toc: true
 parent: RecReading
 
