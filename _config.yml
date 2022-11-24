@@ -1,8 +1,6 @@
 title: Wildlander Wiki
-description: Starter page for wiki Dev work
+description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: wildlander-mod.github.io
+url: https://wildlander-mod.github.io/
 
-aux_links: 
-  To-do-list: todo.md
