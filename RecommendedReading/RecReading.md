@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Recommended Reading
-nav_order: 8
+nav_order: 1
 has_children: true
-parent: Getting Started - The Basics
+parent: Getting Started
 has_toc: true
 ---
 
