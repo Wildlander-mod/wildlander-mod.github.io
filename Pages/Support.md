@@ -6,7 +6,7 @@ has_children: true
 ---
 
 ## Support
-* [FAQ](https://github.com/Wildlander-mod/Support/wiki/FAQ)
+* [FAQ](pages/FAQ.md)
 * [Known Issues](https://github.com/Wildlander-mod/Support/wiki/Known-Issues)
 * [Mod List Summary](https://github.com/Wildlander-mod/Support/wiki/The-Mods)
 * [Launcher/Crashes](https://github.com/Wildlander-mod/Support/wiki/Crash-Help)
