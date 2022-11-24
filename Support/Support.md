@@ -12,4 +12,5 @@ Various Support related Documents
 * [FAQ](Support/FAQ.md)
 * [Known Issues](Support/KnownIssues.md)
 * [Mod List Summary](Support/TheMods.md)
-* [Launcher/Crashes](Support/CrashHelpmd)
+* [Launcher/Crashes](Support/CrashHelp.md)
+
