@@ -5,7 +5,7 @@ nav_order: 9
 has_children: false
 has_toc: true
 parent: Recommended Reading
-grand-parent: basics
+grand-parent: Getting Started - The Basics
 
 ---
 
