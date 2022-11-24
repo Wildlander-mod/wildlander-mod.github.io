@@ -4,7 +4,8 @@ title: Before You Begin
 nav_order: 9
 has_children: false
 has_toc: true
-parent: RecReading
+parent: Recommended Reading
+grand-parent: basics
 
 ---
 
