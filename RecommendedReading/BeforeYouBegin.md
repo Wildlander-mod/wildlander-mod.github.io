@@ -6,14 +6,10 @@ has_children: false
 has_toc: true
 parent: Recommended Reading
 grand-parent: Getting Started - The Basics
-
 ---
 
 ------
 # Before you Begin
-
-# Navigation Structure
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
