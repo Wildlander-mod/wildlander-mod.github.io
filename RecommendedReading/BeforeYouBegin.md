@@ -3,7 +3,7 @@ layout: default
 title: Before You Begin
 has_toc: true
 parent: Recommended Reading
-grand-parent: Getting Started - The Basics
+grand_parent: Getting Started
 nav_order: 1
 ---
 
