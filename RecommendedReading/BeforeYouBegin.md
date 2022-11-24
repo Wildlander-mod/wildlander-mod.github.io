@@ -4,7 +4,7 @@ title: Before You Begin
 nav_order: 2
 has_children: true
 has_toc: true
-parent:RecReading
+parent: RecReading
 ---
 
 
