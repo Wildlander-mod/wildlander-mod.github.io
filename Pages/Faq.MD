@@ -2,86 +2,20 @@
 layout: default
 title: FAQ
 nav_order: 3
-Parent: Support
+parent: Support
 ---
-
-
 ![Image](https://user-images.githubusercontent.com/26418143/144291957-c00567fb-bc21-44e7-b36d-6e8453d277d7.png)
 
 ------
+# Navigation Structure
+{: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
 
-- [What is Wildlander?](#what-is-wildlander)
-- [How do I donate to the project?](#how-do-i-donate-to-the-project)
-- [Wildlander and Antiviruses](#wildlander-and-antiviruses)
-- [Do I need to uninstall Ultsky?](#do-i-need-to-uninstall-ultsky)
-- [What version of Special Edition is needed?](#what-version-of-special-edition-is-needed)
-- [Do I need to buy The Elder Scrolls V: Skyrim Anniversary Upgrade DLC?](#do-i-need-to-buy-the-elder-scrolls-v-skyrim-anniversary-upgrade-dlc)
-- [Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install?](#can-i-add-the-creation-club-content--anniversary-edition-dlc-to-my-wildlander-install)
-- [I already have Skyrim: Legendary Edition, why do I need to buy Special Edition?](#i-already-have-skyrim-legendary-edition-why-do-i-need-to-buy-special-edition)
-- [When is Ultimate Skyrim returning?](#when-is-ultimate-skyrim-returning)
-- [How long to download without Nexus Premium?](#how-long-to-download-without-nexus-premium)
-- [Can I see the mod lists?](#can-i-see-the-mod-lists)
-- [Can I see the differences between Ultimate Skyrim and Wildlander?](#can-i-see-the-differences-between-ultimate-skyrim-and-wildlander)
-- [Does this mod pack support other languages?](#does-this-mod-pack-support-other-languages)
-- [How do I update to the current version?](#how-do-i-update-to-the-current-version)
-- [Do I have to update?](#do-i-have-to-update)
-- [How do I uninstall?](#how-do-i-uninstall)
-- [Can I remove the downloads' folder?](#can-i-remove-the-downloads-folder)
-- [Wabbajack Installation Issues](#wabbajack-installation-issues)
-  - [Do I have to install both game and downloads to same drive?](#do-i-have-to-install-both-game-and-downloads-to-same-drive)
-  - [How much drive space do I need?](#how-much-drive-space-do-i-need)
-  - [How many mods?](#how-many-mods)
-  - [Do I need to download everything if I plan on playing potato?](#do-i-need-to-download-everything-if-i-plan-on-playing-potato)
-  - [Can I just download the Graphics only?](#can-i-just-download-the-graphics-only)
-  - [Wabbajack fails to download mods or hangs for a long time.](#wabbajack-fails-to-download-mods-or-hangs-for-a-long-time)
-  - [Getting a download failed on Original Skyrim files](#getting-a-download-failed-on-original-skyrim-files)
-- [**Launcher Issues**](#launcher-issues)
-  - [What do the Dropdowns mean](#what-do-the-dropdowns-mean)
-  - [Get-cimInstance Error on launch of game](#get-ciminstance-error-on-launch-of-game)
-  - [A JavaScript error in spawning the main process](#a-javascript-error-in-spawning-the-main-process)
-  - [Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error](#game-doesnt-boot-when-launching-skse--cannot-start-skse_loader-error)
-  - [Launcher locks for Skyrimse.exe and immediately unlocks (game doesn't start)](#launcher-locks-for-skyrimseexe-and-immediately-unlocks-game-doesnt-start)
-  - [Update/Install of launcher is Hanging](#updateinstall-of-launcher-is-hanging)
-- [**Customization Questions**](#customization-questions)
-  - [I'm nosey, There are Errors in mod organizer, why is this stuff disabled?](#im-nosey-there-are-errors-in-mod-organizer-why-is-this-stuff-disabled)
-  - [Mod X has been updated, can I install that?](#mod-x-has-been-updated-can-i-install-that)
-  - [Can i edit MCM settings?](#can-i-edit-mcm-settings)
-  - [Can I remove/disable mod X](#can-i-removedisable-mod-x)
-  - [Can I add additional mods?](#can-i-add-additional-mods)
-  - [But I want CBBE/UNP nudes](#but-i-want-cbbeunp-nudes)
-- [**Gameplay Questions**](#gameplay-questions)
-  - [Can I see a list of Known issues](#can-i-see-a-list-of-known-issues)
-  - [How can I see the keybindings?](#how-can-i-see-the-keybindings)
-  - [My keybindings don't work](#my-keybindings-dont-work)
-  - [Some sounds aren't playing! How do I fix this?](#some-sounds-arent-playing-how-do-i-fix-this)
-  - [Why can't I learn the first crafting perk?](#why-cant-i-learn-the-first-crafting-perk)
-  - [Why can't I run or Why is my stamina going down for no reason?](#why-cant-i-run-or-why-is-my-stamina-going-down-for-no-reason)
-  - [Why can't I get a blessing at a shrine?](#why-cant-i-get-a-blessing-at-a-shrine)
-  - [Why am I not healing?](#why-am-i-not-healing)
-  - [Lights are flickering on and off?](#lights-are-flickering-on-and-off)
-  - [Why is everything so expensive in shops?](#why-is-everything-so-expensive-in-shops)
-  - [My character's animations are stuck!](#my-characters-animations-are-stuck)
-  - [Why can't I 'Fast Travel' ?](#why-cant-i-fast-travel-)
-  - [My game freezes during loading screens.](#my-game-freezes-during-loading-screens)
-  - [How do I change the difficulty?](#how-do-i-change-the-difficulty)
-  - [Help! I'm being attacked by Anorath & Uthgard the Unbroken in Whiterun for no reason!](#help-im-being-attacked-by-anorath--uthgard-the-unbroken-in-whiterun-for-no-reason)
-  - [I contracted Sanguinare Vampiris, and now I can't sleep!](#i-contracted-sanguinare-vampiris-and-now-i-cant-sleep)
-  - [Can I remove Block/Parry from control](#can-i-remove-blockparry-from-control)
-  - [How do I put my shield on my back](#how-do-i-put-my-shield-on-my-back)
-  - [Night eye is too dark](#night-eye-is-too-dark)
-  - [How Do I Enable Permadeath](#how-do-i-enable-permadeath)
-  - [Why are kill-moves disabled?](#why-are-kill-moves-disabled)
-- [**Questing Questions**](#questing-questions)
-  - [How do I start the main quest](#how-do-i-start-the-main-quest)
-  - [Why can't I obtain the Dragonstone?](#why-cant-i-obtain-the-dragonstone)
-  - [How do I Become Thane of Whiterun?](#how-do-i-become-thane-of-whiterun)
-  - [I can't start the Thieves Guild through Brynjolf?](#i-cant-start-the-thieves-guild-through-brynjolf)
-  - [How do I start the Dragonborn quest line?](#how-do-i-start-the-dragonborn-quest-line)
-  - [How do I progress The Companions storyline?](#how-do-i-progress-the-companions-storyline)
-- [**Crafting Questions**](#crafting-questions)
-  - [How do I craft Snowberry Extract](#how-do-i-craft-snowberry-extract)
-  - [How do I craft Healing Poultice?](#how-do-i-craft-healing-poultice)
+1. TOC
+{:toc}
+
 ------
 # What is Wildlander?
 
