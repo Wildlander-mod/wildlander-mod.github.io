@@ -3,4 +3,5 @@ layout: default
 title: Known Issues
 nav_order: 4
 has_children: false
+Parent: Support
 ---
