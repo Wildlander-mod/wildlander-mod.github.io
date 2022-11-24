@@ -3,41 +3,19 @@ layout: default
 title: Known Issues
 nav_order: 4
 has_children: false
-Parent: Support
+parent: Support
 ---
 
-This document will contain all of the known gameplay related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this Spreadsheet https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529 
+This document will contain all of the known gameplay related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this Spreadsheet https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529 ---
 
-# Table of contents
+# Navigation Structure
+{: .no_toc }
 
-- [When will these be fixed?](#when-will-these-be-fixed)
-- [Getting asked to restart for the economy on a new game. DiD players - please read.](#getting-asked-to-restart-for-the-economy-on-a-new-game-did-players---please-read)
-- [M/O 2 issues](#mo-2-issues)
-- [Lighting issues](#lighting-issues)
-  - [Camera Issues](#camera-issues)
-- [UI](#ui)
-- [Gameplay Issues](#gameplay-issues)
-  - [The Companions](#the-companions)
-  - [Thieves Guild](#thieves-guild)
-- [Mod Issues.](#mod-issues)
-  - [Outlaw Refuges.](#outlaw-refuges)
-  - [Bathing](#bathing)
-  - [When I equip my Backpack I get a pouch/book/holder/carpet appearing at my feet](#when-i-equip-my-backpack-i-get-a-pouchbookholdercarpet-appearing-at-my-feet)
-  - [Crossbow Infinitely reloads](#crossbow-infinitely-reloads)
-  - [Properties Without Pestering](#properties-without-pestering)
-- [Quests](#quests)
-  - [* Talking to Ulfric Incorrect Travel Marker to Fort Kastav](#-talking-to-ulfric-incorrect-travel-marker-to-fort-kastav)
-- [Immersion issues](#immersion-issues)
-  - [NPC's](#npcs)
-  - [Objects / Buildings](#objects--buildings)
-  - [Houses](#houses)
-  - [Sounds](#sounds)
-  - [Crafting](#crafting)
-  - [Exploits](#exploits)
-  - [Followers](#followers)
-  - [Visuals](#visuals)
-  - [* In Rainy Weather, Interiors have Broken Green Lighting Workaround: Restart Skyrim](#-in-rainy-weather-interiors-have-broken-green-lighting-workaround-restart-skyrim)
-- [Civil war](#civil-war)
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ---
 
