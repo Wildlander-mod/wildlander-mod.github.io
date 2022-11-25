@@ -1,3 +1,13 @@
+---
+layout: default
+title: Properties Without Pestering
+has_toc: false
+has_children: false
+parent: Deep Dives
+---
+
+# Properties Without Pestering
+
 Properties Without Pestering allows players to purchase homes from Jarls without the need to do "favor" quests. The following houses can be purchased from the start of the game:
 
 * Vlindrel Hall in Markarth

@@ -1,4 +1,10 @@
-
+---
+layout: default
+title: Fishing
+has_toc: false
+has_children: false
+parent: Deep Dives
+---
 
 Fishing is a completely new mechanic in Skyrim Anniversary Edition update that adds a Fishing mini-game, dozens of new quests, and even places to display your prized catches in player homes. It's easy to start Fishing, and there's a surprisingly high number of new fish and unique items that can only be acquired through this new minigame.
 

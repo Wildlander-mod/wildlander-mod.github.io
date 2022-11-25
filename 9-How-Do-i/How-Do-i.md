@@ -1,3 +1,11 @@
+---
+layout: default
+title: How Do i?
+nav_order: 9
+has_toc: false
+has_children: false
+---
+
 ## How Do I tweak the difficulty??
 
 If you find combat is still not to your liking on Easy mode, you can adjust the amount of damage you take in the Requiem MCM.

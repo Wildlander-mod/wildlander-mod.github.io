@@ -1,3 +1,11 @@
+---
+layout: default
+title: Hunterborn
+has_toc: false
+has_children: false
+parent: Deep Dives
+---
+
 A mod for the hunter who has nothing.
 
 ## Introduction

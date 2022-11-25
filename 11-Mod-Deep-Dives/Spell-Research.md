@@ -1,3 +1,11 @@
+---
+layout: default
+title: Spell Research
+has_toc: false
+has_children: false
+parent: Deep Dives
+---
+
 This page was taken from the Ultimate Skyrim Reddit Sub and has been posted Verbatim .
 
 Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to[ u/Alexandregd](https://www.reddit.com/u/Alexandregd) for creating this very useful[ reference sheet](https://github.com/Wildlander-mod/Support/wiki/Spell-Research-Cheat-Sheet-(Spells)), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. You may also find this[ video tutorial](https://youtu.be/KDunu-3Q1Lc) useful.
