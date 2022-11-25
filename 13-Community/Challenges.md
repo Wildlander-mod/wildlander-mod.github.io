@@ -1,3 +1,12 @@
+---
+layout: default
+title: Challenges
+nav_order: 6
+has_toc: true
+has_children: false
+parent: Community
+---
+
 # Introduction
 
 These are challenges set by the community - for those lacking inspiration for what to do
