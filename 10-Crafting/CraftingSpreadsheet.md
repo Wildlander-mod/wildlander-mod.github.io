@@ -7,4 +7,4 @@ parent: Crafting
 
 # Crafting spreadsheet
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTaSOU228InOvH9vMAJmY2OFHVUIOTqlZEMFhtkKkiwkbo5MRiej3kq8XbkAw1AqOCEDcuDeg6nXbXq/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTaSOU228InOvH9vMAJmY2OFHVUIOTqlZEMFhtkKkiwkbo5MRiej3kq8XbkAw1AqOCEDcuDeg6nXbXq/pubhtml?widget=true&amp;headers=false" width="1500" height="1000"></iframe>
