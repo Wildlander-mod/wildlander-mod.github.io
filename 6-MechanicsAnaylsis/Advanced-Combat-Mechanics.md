@@ -140,43 +140,43 @@ Any aditional perks that the Enemy may have which affects game play.
 
 ### The Guides 
 
-[Animals](AdvancedCombatMecanics/Animals.Html) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
+[Animals](AdvancedCombatMecanics/Animals.html) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
 
         Ash Hopper • Bear • Bristleback • Chicken • Cow • Deer • Dog • Elk • Fox • Goat • Husky •  Horker • Horse 
         • Mammoth • Mudcrab  Rabbit • Sabre Cat • Skeever • Slaughterfish • Wolf
 
-[Monsters](AdvancedCombatMecanics/Monsters.Html) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
+[Monsters](AdvancedCombatMecanics/Monsters.html) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
 
              Chaurus • Falmer •  Frostbite Spider • Giant • Hagraven • Ice Wraith 
              • Magic Anomaly • Netch • Riekling • Spiders • Spriggan • Troll • Werewolf • WereBear • Wisp • Wispmother
         
-[Automations](AdvancedCombatMecanics/Automations.Html) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
+[Automations](AdvancedCombatMecanics/Automations.html) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
 
             Dwarven Ballista • Dwarven Centurion • Dwarven Sphere • Dwarven Spider • Enchanted Sphere •  Forgemaster
             
-[Daedra](AdvancedCombatMecanics/Daedra.Html) – Daedra are creatures from the planes of Oblivion.
+[Daedra](AdvancedCombatMecanics/Daedra.html) – Daedra are creatures from the planes of Oblivion.
               
             Ash Guardian • Flame Atronach • Frost Atronach • Lurker • Seeker • Storm Atronach • The Slighted • Dremora
             
-[Dragons](AdvancedCombatMecanics/Dragons.Html) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
+[Dragons](AdvancedCombatMecanics/Dragons.html) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
               
             Fire • Fire Spectral Dragon •  Ice • Poison • Skeletal • Serpantine • Durnehviir • Paarthurnax 
             • Vulthuryol  • Krosulhah • Naaslaarum • Sahrotaar • Voslaarum         
             
-[Undead](AdvancedCombatMecanics/Undead.Html) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
+[Undead](AdvancedCombatMecanics/Undead.html) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
               
             Ash Spawn • Dragon Priest • Draugr • Gargoyles • Ghost • Shades • Skeleton • Vampires       
             
-[Unique and Named creature](AdvancedCombatMecanics/UniqueCreatures.Html) – The various Named Unique Enemies found in Requiems world
+[Unique and Named creature](AdvancedCombatMecanics/UniqueCreatures.html) – The various Named Unique Enemies found in Requiems world
   
 Bosses – The Bosses
-* [Ancano](AdvancedCombatMecanics/Ancano.Html)  
-* [Aldiun](AdvancedCombatMecanics/Aldiun.Html) 
-* [Champion of Boethiah](AdvancedCombatMecanics/Champion-of-Boethiah.Html) 
-* [Ebony Warrior](AdvancedCombatMecanics/Ebony-Warrior.Html)
-* [Lord Harkon](AdvancedCombatMecanics/Lord-Harkon.Html) 
-* [Malkorian](AdvancedCombatMecanics/Malkoran.Html)
-* [Miraak](AdvancedCombatMecanics/Miraak.Html)
-* [Old Orc](AdvancedCombatMecanics/Old-Orc.Html)
-* [Potema](AdvancedCombatMecanics/Potema.Html) 
-* [The Reaper](AdvancedCombatMecanics/The-Reaper.Html)
+* [Ancano](AdvancedCombatMecanics/Ancano.html)  
+* [Aldiun](AdvancedCombatMecanics/Aldiun.html) 
+* [Champion of Boethiah](AdvancedCombatMecanics/Champion-of-Boethiah.html) 
+* [Ebony Warrior](AdvancedCombatMecanics/Ebony-Warrior.html)
+* [Lord Harkon](AdvancedCombatMecanics/Lord-Harkon.html) 
+* [Malkorian](AdvancedCombatMecanics/Malkoran.html)
+* [Miraak](AdvancedCombatMecanics/Miraak.html)
+* [Old Orc](AdvancedCombatMecanics/Old-Orc.html)
+* [Potema](AdvancedCombatMecanics/Potema.html) 
+* [The Reaper](AdvancedCombatMecanics/The-Reaper.html)
