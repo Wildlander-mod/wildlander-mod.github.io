@@ -5,22 +5,6 @@ description: Wildlander is a total conversion modpack for _The Elder Scrolls V: 
 nav_order: 1
 ---
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
 Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home. Whether you want to call it immersion, realism, role-playing, or simple masochism, the end-goal is to make you actually feel like an intrepid adventurer climbing snow-covered mountains, delving into ancient ruins, and getting your bits bitten off by packs of hungry wolves.
 
 Wildlander is made up of hundreds of publicly available mods made by almost as many talented mod authors. These mods have been carefully selected, tested, and tweaked by Dylan to iron out any technical difficulties and maintain a consistent experience.
