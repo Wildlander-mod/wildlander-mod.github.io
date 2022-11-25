@@ -1,8 +1,6 @@
 title: Wildlander Wiki
 description: A starter template for a Jeykll site using the Just the Docs theme!
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
-icon:  "/assets/wildlander-icon-light.png"
-site-logo:  "/assets/wildlander-icon-light.png"
 back_to_top: true
 back_to_top_text: "Back to top"
 color_scheme: wider
