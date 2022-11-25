@@ -1,3 +1,12 @@
+---
+layout: default
+title: Whiterun
+nav_order: 8
+has_toc: false
+has_children: false
+parent: Dungeon Guides
+grand_parent: Getting Started
+---
 
 ### Caves, Mines, & Passes
 

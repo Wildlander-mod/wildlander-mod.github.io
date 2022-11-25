@@ -1,3 +1,12 @@
+---
+layout: default
+title: Winterhold
+nav_order: 9
+has_toc: false
+has_children: false
+parent: Dungeon Guides
+grand_parent: Getting Started
+---
 
 ### Caves, Mines, & Passes
 

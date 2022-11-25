@@ -1,3 +1,12 @@
+---
+layout: default
+title: Falkreath
+nav_order: 2
+has_toc: false
+has_children: false
+parent: Dungeon Guides
+grand_parent: Getting Started
+---
 
 ### Caves, Mines, & Passes
 

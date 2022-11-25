@@ -1,3 +1,12 @@
+---
+layout: default
+title: Eastmarch
+nav_order: 1
+has_toc: false
+has_children: false
+parent: Dungeon Guides
+grand_parent: Getting Started
+---
 
 ### Caves, Mines, & Passes
 

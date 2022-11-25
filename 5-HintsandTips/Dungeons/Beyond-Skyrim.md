@@ -1,3 +1,15 @@
+---
+layout: default
+title: Beyond Skyrim
+nav_order: 10
+has_toc: false
+has_children: false
+parent: Dungeon Guides
+grand_parent: Getting Started
+---
+
+###  Apocrypha 
+
 |   | Apocrypha |
 | :--- | --- |
 | Occupants | Lurkers / Seekers / Slighted / Miraak |
@@ -6,13 +18,17 @@
 |||
 | Tactical | Threat Level: Perilous-Endgame<br/>- Only accessible via the various Black Books found throughout Solstheim and during the Main Quest of Dragonborn.<br/>- Tentacles can whip out of the water and deal significant damage if they hit you, additionally the water is corrosive and will damage you.<br/>- Some areas are covered in consuming darkness, damaging you upon entering that area; to avoid this damage you must seek out light sources such as the floating Wisp-Lanterns.<br/>- Miraak utilizes various Destruction spells and Dragon Shouts in addition to his unique Sword and Staff.<br/>- Three times throughout the fight Miraak (at around 10-20$% of his hp remaining) will absorb the soul of one of the three Dragons overhead, healing himself to full.<br/>- Defeating Miraak will yield 10 Dragon Souls in addition to any he has stolen from you over the course of Dragonborn's Main Quest.<br/>- Followers can not accompany you. |
 
-|   | Azura's Star Interior |
+###  Azura's Star Interior 
+
+|   | Azura's Star |
 | :--- | --- |
 | Occupants | Slighted / Malyn Varen |
 | Special Features | None |
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Perilous<br/>- Only accessible during *The Black Star*.<br/>- Malyn is a powerful mage who wields a Destruction staff and utilizes both Destruction and Restoration spells.<br/>- Additionally, he is accompanied by a host of Slighted! You can't escape this zone so come heavy or not at all.<br/>- Followers can not accompany you. |
+
+###  Sovengarde 
 
 |   | Sovengarde |
 | :--- | --- |
