@@ -7,6 +7,7 @@ grand_parent: Getting Started
 nav_order: 7
 ---
 
+
 One of the most common questions I get asked is "how difficult is Wildlander"
 
 For new players I say this Wildlander is intended to be a challenging experience, with several new mechanics which cannot be turned off or bypassed (low quality bows breaking for example). For completely new players who have never played a requiem based list before I say this.

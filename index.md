@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+description: Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home.
 nav_order: 1
 ---
 
