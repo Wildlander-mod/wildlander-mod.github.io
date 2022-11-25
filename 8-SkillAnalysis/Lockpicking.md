@@ -1,3 +1,11 @@
+---
+layout: default
+title: Lockpick Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Perk Analysis--
 ![image](https://user-images.githubusercontent.com/26418143/157954801-39939a81-8507-473b-b1de-86f54fdf4084.png)
 

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Heavy Armor Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157921477-e9a2e4b6-b731-4a40-a5a6-47003dae882f.png)

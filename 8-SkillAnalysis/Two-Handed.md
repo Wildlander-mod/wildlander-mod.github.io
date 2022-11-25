@@ -1,3 +1,11 @@
+---
+layout: default
+title: Two-handed Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Perk Analysis--
 ![image](https://user-images.githubusercontent.com/26418143/157991809-b89bf86c-9ff8-47a0-b3ba-b266fb9570e2.png)
 

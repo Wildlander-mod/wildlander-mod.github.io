@@ -1,3 +1,11 @@
+---
+layout: default
+title: Pickpocket Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Mechanics--
 
 Without a perk your chance to success is 0% and therefore requires a perk to be invested to even attempt pickpocketing.

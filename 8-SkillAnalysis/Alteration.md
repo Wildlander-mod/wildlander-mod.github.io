@@ -1,3 +1,10 @@
+---
+layout: default
+title: Alteration Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
 # --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157915098-daf2e60d-3cdc-4a53-889e-509aaef62476.png)

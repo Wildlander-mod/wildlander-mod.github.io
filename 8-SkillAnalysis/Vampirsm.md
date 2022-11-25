@@ -1,3 +1,11 @@
+---
+layout: default
+title: Vampirism Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 from https://www.reddit.com/r/skyrimrequiem/comments/1zm5li/analysis_of_requiem_mechanics_vampirism/ 
 
 Vampires are pretty infamous if you've been playing Requiem, and god forbid you get a quest from your companion shield brothers to go slay one before they've offered you their special gift.

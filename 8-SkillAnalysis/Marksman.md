@@ -1,3 +1,11 @@
+---
+layout: default
+title: Marksman Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Mechanics--
 
 Bow-Breaking: If you or the enemy is hit with a melee weapon while having a low quality bow or crossbow in hand, that weapon is broken and Completely destroyed. 

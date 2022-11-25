@@ -1,3 +1,11 @@
+---
+layout: default
+title: Enchanting Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # Introduction
 
 Enchanting is the arcane art of infusing matter permanently with magic energy.

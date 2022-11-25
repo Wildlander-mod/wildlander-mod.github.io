@@ -1,3 +1,11 @@
+---
+layout: default
+title: Blacksmithing Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157993712-0d3255e6-1a90-4b39-9e1e-f61e2bf970fe.png)

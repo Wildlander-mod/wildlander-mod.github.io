@@ -1,3 +1,11 @@
+---
+layout: default
+title: Destruction Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157954028-3ff4f5a1-d250-4f4a-85d7-e2aab91288a4.png)

@@ -1,3 +1,13 @@
+---
+layout: default
+title: Conjuration Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
+# Conjuration
+
 # --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157917075-d45174bd-cf01-4e44-a28f-ee86e8f92513.png)

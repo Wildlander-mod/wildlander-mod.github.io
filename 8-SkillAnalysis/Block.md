@@ -1,3 +1,11 @@
+---
+layout: default
+title: Block Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # Mechanics
 
 In Skyrim, you block a flat amount of damage with no skill, and this baseline amount of damage blocked is improved by your skill level and respective perks in the block tree. The Higher your Skill and perks, the more damage is stopped. It should be noted that it is impossible the block all damage via blocking and armor, as like all other of resistance, Armor is capped. 

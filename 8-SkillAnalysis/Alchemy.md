@@ -1,3 +1,13 @@
+---
+layout: default
+title: Alchemy Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
+# Alchemy
+
 # _Mechanics_
 
 As with all requiem perk trees, potions produced without perks will next next to useless. Alchemy is considered to be extremely powerful - and in many ways broken - due to the ease of being able to make money with it.

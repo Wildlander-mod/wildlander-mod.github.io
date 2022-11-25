@@ -1,4 +1,10 @@
-
+---
+layout: default
+title: Speech Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
 
 ![image](https://user-images.githubusercontent.com/26418143/157977949-8848f8b7-d310-4220-abaa-42f03c2651a6.png)
 

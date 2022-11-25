@@ -1,3 +1,11 @@
+---
+layout: default
+title: Werewolf Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 ## Becoming a Werewolf
 
 In Wildlander, post character creation the only way to become a Werewolf is to complete the quest line for the Companions of Jorrvaskr in Whiterun, up until the quest "The Silver Hand." Skjor will lead the Dragonborn to The Underforge, there he will offer the opportunity to drink the blood of Aela the Huntress when she is in Werewolf form, and become a Werewolf. 

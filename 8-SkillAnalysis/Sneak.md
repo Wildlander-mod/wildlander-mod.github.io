@@ -1,3 +1,11 @@
+---
+layout: default
+title: Sneak Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
 # --Mechanics --
 
 Unperked your odds of being detected are tripled, and therefore you are guarenteed to be detected. 

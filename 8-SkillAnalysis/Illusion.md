@@ -1,3 +1,13 @@
+---
+layout: default
+title: Illusion Analysis
+has_toc: false
+has_children: false
+parent: Skill Analysis
+---
+
+#Illusion 
+
 # --Mechanics--
 
 Illusion is a school of magic which affects the mind of either the target or the caster. It is the only school of magic with silent casting abilities for its spells.
