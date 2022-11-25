@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Changes from Ultsky
+title: Introduction to Wildlander
 has_toc: true
 parent: Recommended Reading
 grand_parent: Getting Started
