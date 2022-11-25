@@ -14,21 +14,17 @@ $pink-300: #dd2cd4;
   }
 }
 
-code {
-  font-size: 14px;
-  padding: 0.2em 0.4em;
-  border: none;
+@media mq(lg) {
+  .side-bar{
+      width: $nav-width + 15;
+  }
+  .main-content {
+    max-width: 100%;
+    margin-left: Auto;
+  }
 }
 
 iframe {
   max-width: 100%;
 }
 
-.main-content {
-  max-width: 100%;
-}
-
-.side-bar {
-  margin: 1em;
-  max-width: $nav-width;
-}
