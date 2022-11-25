@@ -7,7 +7,8 @@ grand_parent: Getting Started
 has_toc: true
 ---
 
-<details open>
+ 
+<details open markdown="block">
   <summary>
     Available Followers
   </summary>
@@ -15,6 +16,7 @@ has_toc: true
 1. TOC
 {:toc}
 </details>
+
 
 
 # FAQ
@@ -54,6 +56,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  <summary> Argis the Bulwark </summary>
 
 <div class="Info" markdown="1"> 
+
 #### Info
 
 |Race/Class |Male Nord Warrior| Location |Vlindrel Hall, Markarth           
@@ -70,6 +73,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 #### Perks
 
 Block
+
 |Improved Blocking   |Blocking technique mitigates 25% more damage.
 |Experienced Blocking   |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
    
@@ -140,6 +144,8 @@ One Handed
 <details>
  <summary> Gregor </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Warrior |Location |The White Hall, Dawnstar       
   
 |Level Min/Max |10/None  |Prerequisite |Thane of The Pale     
@@ -184,6 +190,8 @@ One Handed
 <details>
  <summary> Iona </summary>
   
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Warrior |Location |Honeyside, Riften              
  
 |Level Min/Max |10/None  |Prerequisite |Thane of The Rift     
@@ -222,7 +230,10 @@ One Handed
 
 <details>
  <summary> Jordis the Sword-Maiden </summary>
+ 
   
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Warrior |Location |Proudspire Manor, Solitude     
   
 |Level Min/Max |10/None  |Prerequisite |Thane of Haafingar    
@@ -261,7 +272,10 @@ One Handed
 
 <details>
  <summary> Lydia </summary>
+
   
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Warrior |Location |Breezehome, Whiterun           
   
 |Level Min/Max |6/None  |Prerequisite |Thane of Whiterun     
@@ -301,6 +315,8 @@ One Handed
 <details>
  <summary> Rayya </summary>
   
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Redguard Warrior |Location |Jarl's Longhouse, Falkreath    
   
 |Level Min/Max |10/None  |Prerequisite |Thane of Falkreath    
@@ -340,6 +356,8 @@ One Handed
 <details>
  <summary> Valdimar </summary>
   
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Sorcerer |Location |Highmoon Hall, Morthal               
   
 |Level Min/Max |10/None  |Prerequisite |Thane of Hjaalmarch    
@@ -487,6 +505,8 @@ Restoration
 <details>
  <summary> J'zargo </summary>
 
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Khajiit Sorcerer         | Location |Hall of Attainment             
  
 |Level Min/Max |None   |Prerequisite |J'zargo's Experiment  
@@ -562,6 +582,8 @@ Restoration
 <details>
  <summary> Onmund </summary>
 
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Sorcerer |Location |Hall of Attainment             
   
 |Level Min/Max |1/30   |Prerequisite |Onmund's Request
@@ -640,6 +662,8 @@ Restoration
 <details>
  <summary> Aela the Huntress </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Ranger |Location |Jorrvaskr
   
 |Level Min/Max |1/50   |Prerequisite |Glory of the Dead
@@ -712,6 +736,8 @@ Sneak
 <details>
  <summary> Athis </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Dunmer Warrior |Location |Jorrvaskr
  
 |Level Min/Max |1/25   |Prerequisite |Glory of the Dead
@@ -767,6 +793,8 @@ Sneak
 <details>
  <summary> Farkas </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Warrior |Location |Jorrvaskr
   
 |Level Min/Max |1/50   |Prerequisite |Glory of the Dead
@@ -836,6 +864,8 @@ Sneak
 <details>
  <summary> Njada Stonearm </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Warrior |Location |Jorrvaskr
   
 |Level Min/Max |1/25   |Prerequisite |Glory of the Dead
@@ -892,6 +922,8 @@ Sneak
 <details>
  <summary> Ria </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Imperial Warrior |Location |Jorrvaskr
   
 |Level Min/Max |1/25   |Prerequisite |Glory of the Dead
@@ -941,6 +973,8 @@ Sneak
 <details>
  <summary> Torvar </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Warrior |Location |Jorrvaskr
  
 |Level Min/Max |1/25   |Prerequisite |Glory of the Dead
@@ -991,6 +1025,8 @@ Sneak
 <details>
  <summary> Vilkas </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Warrior |Location |Jorrvaskr
   
 |Level Min/Max |1/50   |Prerequisite |Glory of the Dead
@@ -1062,6 +1098,8 @@ Sneak
 <details>
  <summary> Cicero </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Imperial Assassin |Location |Dawnstar Sanctuary             
   
 |Level Min/Max |1/50   |Prerequisite |Hail Sithis!          
@@ -1092,6 +1130,8 @@ Lockpicking
 <details>
   <summary> Male Dark Brotherhood Initiate </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Assassin |Location |Hjerim, Windhelm               
  
 |Level Min/Max |1/100   |Prerequisite |Hail Sithis!    
@@ -1129,6 +1169,8 @@ Marksman
 <details>
  <summary> Female Dark Brotherhood Initiate </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Assassin |Location |Hjerim, Windhelm               
  
 |Level Min/Max |None/100  |Prerequisite |Hail Sithis!    
@@ -1161,6 +1203,8 @@ Lockpicking
 <details>
  <summary> Agmaer </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Nord Bandit  |Location |Fort Dawnguard
   
 |Level Min/Max |5/25   |Prerequisite |Prophet
@@ -1231,6 +1275,8 @@ Lockpicking
 <details>
  <summary> Beleval </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Bosmer Bandit  |Location |Fort Dawnguard 
   
 |Level Min/Max |5/25   |Prerequisite |Prophet
@@ -1302,6 +1348,8 @@ Lockpicking
 <details>
  <summary> Celann </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Breton Warrior  |Location |Fort Dawnguard 
   
 |Level Min/Max |None   |Prerequisite |Prophet
@@ -1384,6 +1432,8 @@ Restoration
 <details>
  <summary> Durak </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Orismer Ranger  |Location |Fort Dawnguard
   
 |Level Min/Max |None   |Prerequisite |Prophet
@@ -1453,6 +1503,8 @@ Lockpicking
 <details>
  <summary> Ingjard </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Nord Warrior  |Location |Fort Dawnguard
   
 |Level Min/Max |None   |Prerequisite |Prophet
@@ -1515,6 +1567,8 @@ Lockpicking
 <details>
  <summary> Serana </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Vampire |Location |Dimhollow Cavern
   
 |Level Min/Max |None   |Prerequisite |Kindred Judgment
@@ -1574,6 +1628,8 @@ Destruction
 <details>
  <summary> Adelasia Vendicci </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Imperial Citizen  |Location |Solitude
   
 |Level Min/Max |1/25   |Prerequisite |Rise in the East
@@ -1623,6 +1679,8 @@ Destruction
 <details>
  <summary> Annekke Crag-Jumper </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Nord Ranger  |Location |Darkwater Crossing
   
 |Level Min/Max |1/30   |Prerequisite |Kill the Bandit Leader
@@ -1656,6 +1714,8 @@ Lockpicking
 <details>
  <summary> Aranea Lenith </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Dumer Mage  |Location |Shrine of Azura
   
 |Level Min/Max |1/30   |Prerequisite |The Black Star (Side with Azura)
@@ -1758,6 +1818,8 @@ Restoration
 <details>
  <summary> Belrand </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Nord Spellsword  |Location |Solitude
   
 |Level Min/Max |1/40   |Prerequisite |Pay them
@@ -1822,6 +1884,8 @@ Restoration
 <details>
  <summary> Benor </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Redguard Warrior  |Location |Morthal
   
 |Level Min/Max |1/30   |Prerequisite |Defeat in a Brawl
@@ -1849,6 +1913,8 @@ Restoration
 <details>
  <summary> Borgakh the Steel Heart </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Orismer Warrior |Location |Mor Khazgur
   
 |Level Min/Max |1/30   |Prerequisite |Pay their dowry, or presuade them
@@ -1911,6 +1977,8 @@ Sneak
 <details>
  <summary> Cosnach </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Breton Warrior  |Location |Markath
   
 |Level Min/Max |1/30   |Prerequisite |Defeat in a Brawl, or give them a drink
@@ -1933,6 +2001,8 @@ Sneak
 <details>
  <summary> Derkeethus </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Argonian Ranger  |Location |Darkwater Pass / Darkwater Crossing
   
 |Level Min/Max |1/30   |Prerequisite |???
@@ -1976,6 +2046,8 @@ Sneak
 <details>
  <summary> Eola </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Breton Nightblade |Location |Markarth
   
 |Level Min/Max |1/30   |Prerequisite |The Taste of Death
@@ -2039,6 +2111,8 @@ Restoration
 <details>
  <summary> Erandur </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Dunmer Healer |Location |Dawnstar
   
 |Level Min/Max |1/50   |Prerequisite |Spare his life in Waking Nightmare
@@ -2115,6 +2189,8 @@ Restoration
 <details>
  <summary> Erik The Slayer </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Barbarian |Location |Rorikstead
   
 |Level Min/Max |1/40   |Prerequisite |Pay them
@@ -2146,6 +2222,8 @@ Restoration
 <details>
  <summary> Frea </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Warrior |Location |Skaal Village
   
 |Level Min/Max |None   |Prerequisite |The Fate of the Skaal
@@ -2226,6 +2304,8 @@ Restoration
 <details>
  <summary> Ghorbash the Iron Hand </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Orismer Ranger  |Location |Dushnikh Yal
   
 |Level Min/Max |1/30   |Prerequisite |Convince them to travel with the Dragonborn
@@ -2289,6 +2369,8 @@ Sneak
 <details>
  <summary> Golldir </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Warrior |Location |Hillgrund's Tomb
   
 |Level Min/Max |1/30   |Prerequisite |Help them in Ancestral Worship
@@ -2355,6 +2437,8 @@ Sneak
 <details>
  <summary> Illia </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Imperial Mage |Location |Darklight Tower
   
 |Level Min/Max |1/40   |Prerequisite |Help them in Repentance
@@ -2447,6 +2531,8 @@ Restoration
 <details>
  <summary> Jenassa </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Dunmer Ranger |Location |Whiterun
   
 |Level Min/Max |1/40   |Prerequisite |Pay them
@@ -2504,6 +2590,8 @@ Sneak
 <details>
  <summary> Kharjo </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Khajiit Warrior |Location |Khajiit Caravan
   
 |Level Min/Max |1/30   |Prerequisite |Retrieve his Moon Amulet
@@ -2548,6 +2636,8 @@ Lockpicking
 <details>
  <summary> Lob </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Orismer Ranger |Location |Largashbur
   
 |Level Min/Max |1/30   |Prerequisite |The Cursed Tribe
@@ -2569,6 +2659,8 @@ Lockpicking
 <details>
  <summary> Marcurio </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Imperial Mage |Location |Riften
   
 |Level Min/Max |1/40   |Prerequisite |Pay them
@@ -2627,6 +2719,8 @@ Restoration
 <details>
  <summary> Mjoll the Lioness </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Warrior |Location |Riften
   
 |Level Min/Max |1/40   |Prerequisite |Retrieve Grimsever
@@ -2666,6 +2760,8 @@ Restoration
 <details>
  <summary> Ogol </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Orismer Warrior  |Location |Largashbur
   
 |Level Min/Max |1/30   |Prerequisite |The Cursed Tribe
@@ -2687,6 +2783,8 @@ Restoration
 <details>
  <summary> Ralis Sedarys </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Dunmer Nightblade |Location |Kolbjorn Barrow
   
 |Level Min/Max |1/60   |Prerequisite |Spare them at the end of Unearthed
@@ -2732,6 +2830,8 @@ Destruction
 <details>
  <summary> Roggi Knot-Beard </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Miner  |Location |Kynesgrove
   
 |Level Min/Max |1/20   |Prerequisite |Find Roggi Knot-Beard's Ancestral Shield
@@ -2753,6 +2853,8 @@ Destruction
 <details>
  <summary> Stenvar </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Warrior |Location |Windhelm
   
 |Level Min/Max |1/40   |Prerequisite |Pay them
@@ -2779,6 +2881,8 @@ Destruction
 <details>
  <summary> Talvas Fathryon </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Dunmer Conjurer |Location |Tel Mithryn
   
 |Level Min/Max |1/25   |Prerequisite |From the Ashes
@@ -2848,6 +2952,8 @@ Restoration
 <details>
  <summary> Teldryn Sero </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Dunmer Spellsword |Location |Raven Rock
   
 |Level Min/Max |1/60   |Prerequisite |Pay them
@@ -2917,6 +3023,8 @@ Restoration
 <details>
  <summary> Ugor </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Orismer Ranger  |Location |Largashbur
   
 |Level Min/Max |1/30   |Prerequisite |The Cursed Tribe
@@ -2944,6 +3052,8 @@ Restoration
 <details>
  <summary> Uthgerd the Unbroken </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Nord Warrior |Location |Whiterun
   
 |Level Min/Max |1/30   |Prerequisite |Defeat in a Brawl, Character Lv15
@@ -3010,6 +3120,8 @@ Sneak
 <details>
  <summary> Vorstag </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord Warrior |Location |Markarth
   
 |Level Min/Max |1/40   |Prerequisite |Pay them
@@ -3034,6 +3146,8 @@ Sneak
 <details>
  <summary> Amanra Solas </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Redguard Elemental Mage |Location |College of Winterhold
   
 |Level Min/Max |25/75   |Prerequisite |None(?)
@@ -3102,6 +3216,8 @@ Restoration
 <details>
  <summary> Brijitte </summary>
 
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Breton "Forsworn Missile"|Location |Druadach Redoubt Cave
   
 |Level Min/Max |5/80    |Prerequisite |None(?)
@@ -3143,6 +3259,8 @@ Restoration
 <details>
  <summary> Jensen Honey-Hand </summary>
 
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Male Nord "Forsworn Missile"|Location |Markarth Silverblood Inn
   
 |Level Min/Max |5/80    |Prerequisite |None(?)
@@ -3184,6 +3302,8 @@ Restoration
 <details>
  <summary> Ralya </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Female Breton Assassin |Location |Cidhna Mine
   
 |Level Min/Max |None(?)  |Prerequisite |None(?)
@@ -3218,6 +3338,8 @@ Sneak
 <details>
  <summary> Runs-With-Sticks </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Argonian Spellsword |Location |Cidhna Mine
   
 |Level Min/Max |None(?)  |Prerequisite |None(?)
@@ -3260,6 +3382,8 @@ Sneak
 <details>
  <summary> Sameth </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Breton Elemental Mage |Location |College of Winterhold
   
 |Level Min/Max |25/75   |Prerequisite |None(?)
@@ -3298,6 +3422,8 @@ Restoration
 <details>
  <summary> Soh'ja Zahan </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Khajiit Assassin  |Location |Dawnstar Sanctuary
   
 |Level Min/Max |10/100  |Prerequisite |Hail Sithis(?)
@@ -3339,6 +3465,8 @@ Restoration
 <details>
  <summary> Tae-Ja </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Argonian Assassin Vampire|Location |Dawnstar Sanctuary
   
 |Level Min/Max |10/100  |Prerequisite |Hail Sithis(?)
@@ -3375,6 +3503,8 @@ Illusion
 <details>
  <summary> Various Misc Mercenaries </summary>
  
+<div class="Info" markdown="1"> 
+#### Info 
 |Race/Class |Varies   |Location |Inn's of Main Cities
   
 |Level Min/Max |Varies  |Prerequisite |Pay them
