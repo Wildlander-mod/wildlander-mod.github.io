@@ -8,11 +8,12 @@ nav_order: 8
 ---
 
 ## 1.1 Keybindings
-![image](../Assets/1-1Keybind.png)
+[![image](../Assets/1-1Keybind.png)](../Assets/1-1Keybind.png)
+
 
 ## 1.0 Keybindings
+[![keybindings](../Assets/1-0Keybind.png)](../Assets/1-0Keybind.png)
 
-![keybindings](../Assets/1-0Keybind.png)
 
 
 PRESS F11 IN GAME
@@ -230,7 +231,7 @@ PRESS F11 IN GAME
   <tr>
    <td>Forage
    </td>
-   <td>&rt;
+   <td>&gt;
    </td>
    <td>Hunterborn
    </td>

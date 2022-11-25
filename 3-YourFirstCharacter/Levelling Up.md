@@ -13,10 +13,8 @@ Once you have the basics of food/water/cleanliness/warmth and shelter covered. Y
  
 Wildlander is a deleveled world - The importance of understanding this can not be overrated, and people misunderstanding it are a constant source for the kind of question I'm trying to answer with this guide. A very common occurrence is people who think they understand the concept, and promptly ask, why they get their butt handed to them at bleak falls barrow when they try it at level 1. The answer is simply:-
 
-```diff
-@@ If it kicks you in the teeth for the 20th time, it's above your paygrade. @@
-```
-
+{: .warning }
+> If it kicks you in the teeth for the 20th time, it's above your paygrade. 
 
 Confronted with this, a lot of people ask what they are supposed to do on Lv 1-5, then. The answer is: anything. Save often, try to run from a fight when you start losing, hunt, chop wood, collect ingredients and mix potions, mine ore, craft stuff. Anything. As long as it gets you gold and/or level-ups do it! Following on from that - Training your skills and armor.
  
