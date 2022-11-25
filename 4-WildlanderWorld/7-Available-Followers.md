@@ -1,3 +1,12 @@
+---
+layout: default
+title: Followers and Mercenaries
+nav_order: 7
+parent: Wildlander World
+grand_parent: Getting Started
+has_toc: true
+---
+
 # Available Followers
 
 <details open markdown="block">
@@ -48,9 +57,9 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 #### Info
 
-	| Race/Class - Male Nord Warrior		| Location - Vlindrel Hall, Markarth           
+	| Race/Class - Male Nord Warrior| Location - Vlindrel Hall, Markarth           
 
-	| Level Min/Max - 10/None			| Prerequisite - Thane of Markarth  
+	| Level Min/Max - 10/None		| Prerequisite - Thane of Markarth  
 
 	| Blades - Yes					| Marriage - Yes
 		
