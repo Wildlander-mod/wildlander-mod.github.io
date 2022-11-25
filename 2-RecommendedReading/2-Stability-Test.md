@@ -31,7 +31,9 @@ _This guide has been created for new users in mind that want to stress test the 
           as fast as possible.
 1.  Run to Solitude Docks
 1.  Once at the end of the docks (There is a _boat on your right_ ), spin and generally move around erratically
-1.  If you do not experience any crashes during this process, your installation should be fine and you have a stable game - Make sure to Exit and Restart Skyrim COMPLETELY before creating your first character to prevent script contaimination from the stability test.
+1.  If you do not experience any crashes during this process, your installation should be fine and you have a stable game - 
+
+**Make sure to Exit and Restart Skyrim COMPLETELY before creating your first character to prevent script contaimination from the stability test.**
 
 
 ### I Crashed Jumping and Spinning at The Solitude Docks, Now What?
