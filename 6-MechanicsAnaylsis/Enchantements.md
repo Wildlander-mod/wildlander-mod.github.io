@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Shout Analysis
+title: Enchantments Analysis
 nav_order: 4
 has_toc: false
 has_children: false
@@ -93,6 +93,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td>+10% damage blocked</td>
 <td>100</td>
+</tr>
 <tr>
 
 <th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Conjuration" title="Skyrim:Fortify Conjuration">Conjuration</a></th>
@@ -144,6 +145,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td></td>
 <td>-4% casting cost</td>
 <td>100</td>
+</tr>
 <tr>
 
 <th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Light_Armor" title="Skyrim:Fortify Light Armor">Light Armor</a></th>
@@ -169,6 +171,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td></td>
 <td>+5 Skill & +5 Expertise</td>
 <td>100</td>
+</tr>
 <tr>
 
 <th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_One-handed" title="Skyrim:Fortify One-handed">One-Handed</a></th>
@@ -246,6 +249,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td></td>
 <td>+5% damage</td>
 <td>100</td>
+</tr>
 <tr>
 <th rowspan="6"><span style="white-space:nowrap">Fortify Attribute</span></th>
 
@@ -340,7 +344,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>100</td>
 </tr>
 <tr>
-
 <th><span style="white-space:nowrap">Potent Alteration</span></th>
 <td></td>
 <td></td>
@@ -353,7 +356,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-
 <th><span style="white-space:nowrap">Potent Conjuration </span></th>
 <td></td>
 <td></td>
@@ -366,7 +368,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>199</td>
 </tr>
 <tr>
-
 <th><span style="white-space:nowrap"> Potent Destruction </span></th>
 <td></td>
 <td></td>
@@ -379,7 +380,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-
 <th><span style="white-space:nowrap"> Potent Illusion </span></th>
 <td></td>
 <td></td>
@@ -392,7 +392,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-
 <th><span style="white-space:nowrap">Potent Restoration </span></th>
 <td></td>
 <td></td>
@@ -405,7 +404,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-
 <th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Unarmed_Damage" title="Skyrim:Fortify Unarmed Damage">Unarmed</a></th>
 <td></td>
 <td></td>
@@ -430,6 +428,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>+25%</td>
 <td>100</td>
 </tr>
+<tr>
 <th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Fire" title="Skyrim:Resist Fire">Fire</a></th>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -454,7 +453,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>200</td>
 </tr>
 <tr>
-
 <th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Magic" title="Skyrim:Resist Magic">Magic</a><sup id="cite_ref-TwoVersions_4-0" class="reference"><a href="#cite_note-TwoVersions-4">[4]</a></sup></th>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -465,8 +463,8 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td>+8%</td>
 <td>500</td>
+</tr>
 <tr>
-
 <th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Poison" title="Skyrim:Resist Poison">Poison</a></th>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -489,6 +487,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td>+10%</td>
 <td>200</td>
+</tr>
 <tr>
 <th rowspan="2">Other</th>
 
@@ -517,7 +516,9 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>100</td>
 </tr>
 
-</tbody><tfoot><tr>
+</tbody>
+<tfoot>
+<tr>
 <th colspan="2">Armor Effect</th>
 <th>Head</th>
 <th>Neck</th>
@@ -545,12 +546,15 @@ Notes:
 Base magnitude is the number shown when you hover over an enchantment without selecting it, if you have no perks. It is equivalent to the magnitude with a Grand soul, 0 skill, and no perks. Base uses is defined the same way but cannot be seen directly without the use of the console.
 
 <table class="wikitable sortable jquery-tablesorter" style="text-align:center" width="100%">
-<thead><tr>
+<thead>
+<tr>
 <th colspan="2" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Weapon Effect</th>
 <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">School</th>
 <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Base Magnitude</th>
 <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><span style="white-space:nowrap">Base Cost</span><sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[1]</a></sup></th>
-</tr></thead><tbody>
+</tr>
+</thead>
+<tbody>
 <tr>
 <th rowspan="3" width="1">Absorb</th>
 <th width="1"><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Health" title="Skyrim:Absorb Health">Health</a></th>
