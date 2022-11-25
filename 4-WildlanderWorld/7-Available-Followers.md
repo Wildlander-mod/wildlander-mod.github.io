@@ -1,13 +1,14 @@
 # Available Followers
 
 <details open markdown="block">
-	<summary> Contents </summary>
-	
+  <summary>
+    Table of contents
+  </summary>
   {: .text-delta }
 1. TOC
 {:toc}
-
 </details>
+
 
 # FAQ
 
@@ -42,7 +43,7 @@ A: By quirk of code or some other error, some followers lack either some of thei
 
 All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. A Housecarl's main skills are Heavy Armor, with variations in One-Handed, Archery and Blocking perks, again with the exception being Valdimar (Heavy Armor, One-Handed, Alteration, Destruction and Restoration). 
 
-<details markdown="block">
+<details>
 	<summary> Argis the Bulwark </summary>
 
 #### Info
