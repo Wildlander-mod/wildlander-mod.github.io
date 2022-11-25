@@ -3,6 +3,7 @@ layout: default
 title: The Milk Drinkers Guide to Power Leveling
 nav_order: 2
 parent: Hints and Tips
+grand_parent: Getting Started
 has_toc: true
 ---
 

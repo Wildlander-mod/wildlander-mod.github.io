@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Hints and Tips
+title: Dungeon Guides
 nav_order: 5
 has_toc: false
 has_children: true
-parent: Hints and Tips
+parent: Getting Started
 ---
 
 ## Disclaimers
