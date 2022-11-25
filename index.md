@@ -1,8 +1,9 @@
 ---
-title: Home
 layout: default
-description: "Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home."
+title: Home
 nav_order: 1
+description: "Wildlander Knowledgebase."
+permalink: /
 ---
 
 
