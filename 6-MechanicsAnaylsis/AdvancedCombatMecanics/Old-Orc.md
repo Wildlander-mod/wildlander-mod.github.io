@@ -1,3 +1,11 @@
+---
+layout: default
+title: Old Orc
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 *Basic Stats*
 |Stat| Value |

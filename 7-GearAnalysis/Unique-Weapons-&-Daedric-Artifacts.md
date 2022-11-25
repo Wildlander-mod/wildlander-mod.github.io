@@ -1,5 +1,19 @@
-# Daedric Artifacts 
+---
+layout: default
+title: Unique Weapons and Artifacts
+nav_order: 2
+has_toc: true
+has_children: false
+parent: Gear Analysis
+---
 
+# Index
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+# Daedric Artifacts 
 
 | **Azura's Star/The Black Star** \| (Soul Gem) |
 | :--- |

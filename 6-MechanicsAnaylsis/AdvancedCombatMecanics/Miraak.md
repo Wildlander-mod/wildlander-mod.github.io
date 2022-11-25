@@ -1,3 +1,11 @@
+---
+layout: default
+title: Miraak
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 Shouts (do 130% damage, shout recovery is 150% )
 - "Dragon Aspect" Take on the mighty aspect of a dragon, delivering colossal blows, with an armored hide, and more powerful shout (For 720 seconds, armor rating increases by 150, power attacks deal 75% more damage, fire & frost resistance improves by 25%, and shout cooldown reduces by 20%. Also, if His health is below 50%, an Ancient Dragonborn will manifest to protect him

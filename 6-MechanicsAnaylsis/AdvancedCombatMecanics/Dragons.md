@@ -1,4 +1,11 @@
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics#about-these-guides)
+---
+layout: default
+title: Dragons
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 Dragons in wildlander are not the easy to kill creatures the were in vanilla. They are Heavily armored, Magic breathing flying tanks with teeth which can cut through allow low to mid quality armours with one bite and you think you can send a follower to the teeth end while you rain damage down on the tail - think again, as the tail is capable of knockdowns.
 
@@ -26,25 +33,10 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 * Slow time shout - really useful if you cast marked for death then slow time as melee - lets you get a lot of hits in and take off a good chunk of health.
 
 # Index
-- [Shouts](#shouts)
-- [Standard Fire](#standard-fire)
-- [Standard Frost](#standard-frost)
-- [Poison](#poison)
-- [Undead](#undead)
-  * [Labyrinthian](#labyrinthian)
-  * [Others](#others)
-  * [Fire Spectral Dragon](#fire-spectral-dragon)
-- [Serpentine](#serpentine)
-  * [Fire](#fire)
-  * [Frost](#frost)
-- [Named](#named)
-  * [Durnehviir](#durnehviir)
-  * [Krosulhah](#krosulhah)
-  * [Naaslaarum](#naaslaarum)
-  * [Paarthurnax](#paarthurnax)
-  * [Sahrotaar](#sahrotaar)
-  * [Voslaarum](#voslaarum)
-  * [Vulthuryol](#vulthuryol)
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 # Shouts
 

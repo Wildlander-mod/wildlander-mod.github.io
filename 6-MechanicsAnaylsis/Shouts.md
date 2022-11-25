@@ -1,3 +1,12 @@
+---
+layout: default
+title: Shout Analysis
+nav_order: 3
+has_toc: true
+has_children: true
+parent: Mechanic Analysis
+---
+
 Contents of this page are taken from [Requiem Analysis: Shouts](https://www.reddit.com/r/skyrimrequiem/comments/63hpt1/requiem_analysis_shouts/)
 
 # Animal Allegiance (Predator's Might)

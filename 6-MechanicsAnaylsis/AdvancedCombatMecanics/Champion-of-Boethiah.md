@@ -1,3 +1,11 @@
+---
+layout: default
+title: Champion of Boethiah
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 NPC id:000834FE
 

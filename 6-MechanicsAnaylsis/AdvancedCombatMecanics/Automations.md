@@ -1,15 +1,20 @@
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)
+---
+layout: default
+title: Automations
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 Automatons are constructs of dwarven origin and can most often be found in dwemer ruins. Those encountered in Skyrim seem to be magically operated, as soul gems can be found in their remains, but how they function as a whole remains a secret. In general, they all share a strong resistance to physical damage due to their massive metal bodies, but can be dispatched relatively easily with shock based spells and enchantments, probably because they disrupt the magic that animates them.
 They are golden colored, strong robotic creations made by the Dwemer. 
 
 # Index
-- [Dwarven Spider](#dwarven-spider)
-- [Dwarven Sphere](#dwarven-sphere)
-- [Dwarven Ballista](#dwarven-ballista)
-- [Dwarven Centurion](#dwarven-centurion)
-- [The Forgemaster](#the-forgemaster)
-- [Enchanted Sphere](#enchanted-sphere)
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Dwarven Spider
 

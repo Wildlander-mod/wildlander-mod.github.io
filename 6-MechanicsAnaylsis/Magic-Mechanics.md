@@ -1,3 +1,12 @@
+---
+layout: default
+title: Magic Analysis
+nav_order: 2
+has_toc: true
+has_children: true
+parent: Mechanic Analysis
+---
+
 # Magic in Wildlander
 
 There are lots of expansions to the magic systems in wildlander, the biggest change being that your skill in magic means nothing without perks. you can have 100 skill in a specific school, and casting a novice tier spell will do the same damage, and cost the same as if you were at level one if you have no perks in that specific tree. Learning specific perks (novice, apprentice, adept, expert and master perks)  also grants you free spells from that tier.  

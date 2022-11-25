@@ -1,4 +1,14 @@
-This Page was intended to be a reference guide to enable the player to be able to work out how the heck to kill some things in wildlander. It Kinda grew from there to include all sorts of reference materiel from Requiem so that players wouldnt have to go look up a billion & one perks, spells and the like to work out what the enemies were shooting at them. 
+---
+layout: default
+title: Advanced Combat Analysis
+nav_order: 1
+has_toc: false
+has_children: true
+parent: Mechanic Analysis
+---
+
+
+This Page was intended to be a reference guide to enable the player to be able to work out how the heck to kill some things in Wildlander. It Kinda grew from there to include all sorts of reference materiel from Requiem so that players wouldnt have to go look up a billion & one perks, spells and the like to work out what the enemies were shooting at them. 
 
 This guide is broken up into several sections - The resistances used by enemies and, how those resistances are applied. The diseases that enemies carry, the weapons and damage types and the like.  Bandits / Mages / Forsworn / Necromancers will not be covered in the guide (with the exception to the Named Unique bosses) as there are far to many varieties to list, all of which have different perks, weapons, armor. The next section contains reference material to identify weaknesses of the armor specific human type enemies can do and the weapons they use.
 
@@ -10,7 +20,7 @@ The final section of this page contains links to the various enemy types in the 
 
 ## Mass Effect
 
-The weight of your currently equipped gear has a significant impact on many things you do. It affects mobility, spellcasting and combat effectiveness. (Requiem manual p122 Located in Mods\Requiem \Documentation)
+The weight of your currently equipped gear has a significant impact on many things you do. It affects mobility, spell casting and combat effectiveness. (Requiem manual p122 Located in Mods\Requiem \Documentation)
 
 Mass effect isn't directly linked to the type of armor you are wearing, but rather its weight. Your weapon is also taken in account. 
 
@@ -23,8 +33,8 @@ High mass (wearing HA most of the time) cons :
 * noise, it makes sneaking harder (but not impossible)
 
 High mass pros :
-* better resistance to stagger and knockback effect
-* better chance to trigger stagger and knockback effect on enemies. Bullrushing mechanics is your friend.
+* better resistance to stagger and knock back effect
+* better chance to trigger stagger and knock back effect on enemies. Charge mechanics are your friend.
 * high level of AR ('cause you are wearing heavier armor)
 
 
@@ -55,7 +65,7 @@ Melee attacks and ranged attacks can penetrate armor, which reduces the effectiv
 
 About Magic/Elemental Resistances Values.
 - Magic Resistance protects against all magic damage including elemental magic such as fire, frost and Shock .
-- The effect of magic resistance is  multiplicative when combined with elemental resistance. Let's say you have 90% magic and fire resist. This will mean that you only receive (100%-90%) * (100%-90%)= (10% * 10%) = 1% fire damage, which is equal to 99% fire resistance. This also means that your effective resistences raises exponentialy as your resistance %'s become higher.
+- The effect of magic resistance is  multiplicative when combined with elemental resistance. Let's say you have 90% magic and fire resist. This will mean that you only receive (100%-90%) * (100%-90%)= (10% * 10%) = 1% fire damage, which is equal to 99% fire resistance. This also means that your effective resistances raises exponential as your resistance %'s become higher.
 - Magic resistance protects you from Shouts, Fears and other none elemental spells E.g those in the illusion tree. 
 - Unlike Vanilla, NPC's can have both elemental resistance and magic resistances.
 
@@ -117,56 +127,56 @@ Movement Speed, Melee/Ranged damage or spells that the Enemy can cast, Standard 
 Bonus armor that the Enemy gains if attacked by weapon damage types.
  
 **Resistances & Weaknesses**
-If the Enemy has protection or vunerability to Fire/Frost/Shock/Poison, If the Enemy has Knockdown, Sneak Attack or Paralysis protection, and if the enemy has any additional protections - E.g Drain life, Unrelenting force.
+If the Enemy has protection or vulnerability to Fire/Frost/Shock/Poison, If the Enemy has Knockdown, Sneak Attack or Paralysis protection, and if the enemy has any additional protections - E.g Drain life, Unrelenting force.
 
-**Materiel Protection**
-If the Enemy has protection or vunerability to Weapon materiels such as Silver or Daedric, or if they take reduced damage from converntional materiels.
+**Material Protection**
+If the Enemy has protection or vulnerability to Weapon materials such as Silver or Daedric, or if they take reduced damage from conventional materials.
 
 **Weapon Resistances**
 If the Enemy has protection from Damage types, will also contain damage reduction by type.
 
 **Additional Perks**
-Any aditional perks that the Enemy may have which affects gameplay.
+Any aditional perks that the Enemy may have which affects game play.
 
 ### The Guides 
 
-[Animals](https://github.com/Wildlander-mod/Support/wiki/Animals) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
+[Animals](AdvancedCombatMecanics/Animals.Html) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
 
         Ash Hopper • Bear • Bristleback • Chicken • Cow • Deer • Dog • Elk • Fox • Goat • Husky •  Horker • Horse 
         • Mammoth • Mudcrab  Rabbit • Sabre Cat • Skeever • Slaughterfish • Wolf
 
-[Monsters](https://github.com/Wildlander-mod/Support/wiki/Monsters) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
+[Monsters](AdvancedCombatMecanics/Monsters.Html) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
 
              Chaurus • Falmer •  Frostbite Spider • Giant • Hagraven • Ice Wraith 
              • Magic Anomaly • Netch • Riekling • Spiders • Spriggan • Troll • Werewolf • WereBear • Wisp • Wispmother
         
-[Automations](https://github.com/Wildlander-mod/Support/wiki/Automations) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
+[Automations](AdvancedCombatMecanics/Automations.Html) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
 
             Dwarven Ballista • Dwarven Centurion • Dwarven Sphere • Dwarven Spider • Enchanted Sphere •  Forgemaster
             
-[Daedra](https://github.com/Wildlander-mod/Support/wiki/Daedra) – Daedra are creatures from the planes of Oblivion.
+[Daedra](AdvancedCombatMecanics/Daedra.Html) – Daedra are creatures from the planes of Oblivion.
               
             Ash Guardian • Flame Atronach • Frost Atronach • Lurker • Seeker • Storm Atronach • The Slighted • Dremora
             
-[Dragons](https://github.com/Wildlander-mod/Support/wiki/Dragons) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
+[Dragons](AdvancedCombatMecanics/Dragons.Html) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
               
             Fire • Fire Spectral Dragon •  Ice • Poison • Skeletal • Serpantine • Durnehviir • Paarthurnax 
             • Vulthuryol  • Krosulhah • Naaslaarum • Sahrotaar • Voslaarum         
             
-[Undead](https://github.com/Wildlander-mod/Support/wiki/Undead) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
+[Undead](AdvancedCombatMecanics/Undead.Html) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
               
             Ash Spawn • Dragon Priest • Draugr • Gargoyles • Ghost • Shades • Skeleton • Vampires       
             
-[Unique and Named creature](https://github.com/Wildlander-mod/Support/wiki/UniqueCreatures) – The various Named Unique Enemies found in Requiems world
+[Unique and Named creature](AdvancedCombatMecanics/UniqueCreatures.Html) – The various Named Unique Enemies found in Requiems world
   
 Bosses – The Bosses
-* [Ancano](https://github.com/Wildlander-mod/Support/wiki/Ancano)  
-* [Aldiun](https://github.com/Wildlander-mod/Support/wiki/Aldiun) 
-* [Champion of Boethiah](https://github.com/Wildlander-mod/Support/wiki/Champion-of-Boethiah) 
-* [Ebony Warrior](https://github.com/Wildlander-mod/Support/wiki/Ebony-Warrior)
-* [Lord Harkon](https://github.com/Wildlander-mod/Support/wiki/Lord-Harkon) 
-* [Malkorian](https://github.com/Wildlander-mod/Support/wiki/Malkoran)
-* [Miraak](https://github.com/Wildlander-mod/Support/wiki/Miraak)
-* [Old Orc](https://github.com/Wildlander-mod/Support/wiki/Old-Orc)
-* [Potema](https://github.com/Wildlander-mod/Support/wiki/Potema) 
-* [The Reaper](https://github.com/Wildlander-mod/Support/wiki/The-Reaper)
+* [Ancano](AdvancedCombatMecanics/Ancano.Html)  
+* [Aldiun](AdvancedCombatMecanics/Aldiun.Html) 
+* [Champion of Boethiah](AdvancedCombatMecanics/Champion-of-Boethiah.Html) 
+* [Ebony Warrior](AdvancedCombatMecanics/Ebony-Warrior.Html)
+* [Lord Harkon](AdvancedCombatMecanics/Lord-Harkon.Html) 
+* [Malkorian](AdvancedCombatMecanics/Malkoran.Html)
+* [Miraak](AdvancedCombatMecanics/Miraak.Html)
+* [Old Orc](AdvancedCombatMecanics/Old-Orc.Html)
+* [Potema](AdvancedCombatMecanics/Potema.Html) 
+* [The Reaper](AdvancedCombatMecanics/The-Reaper.Html)

@@ -1,4 +1,11 @@
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics#the-guides)
+---
+layout: default
+title: Unique Creatures
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 # **Aldhissla** Sewer Troll
 

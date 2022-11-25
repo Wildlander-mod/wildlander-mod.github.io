@@ -1,36 +1,18 @@
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)
-
+---
+layout: default
+title: Monsters
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
 
-# Index
-- [Chaurus](#chaurus)
-- [Falmer](#falmer)
-  * [Melee](#melee)
-  * [SpellSword](#spellsword)
-  * [Archers](#archers)
-  * [Shaman](#shaman)
-  * [Bosses](#bosses)
-  * [Frozen Vampire](#frozen-vampire)
-    + [Melee](#melee-1)
-    + [Shaman](#shaman-1)
-  * [Feral](#feral)
-- [Giants](#giants)
-- [Hagraven](#hagraven)
-- [Ice Wraith](#ice-wraith)
-- [Magic Anomaly](#magic-anomaly)
-- [Netch](#netch)
-- [Riekling](#riekling)
-  * [Standard](#standard)
-  * [Mounted](#mounted)
-  * [Thirsk Mead Hall Chief](#thirsk-mead-hall-chief)
-- [Spiders](#spiders)
-  * [Frostbite](#frostbite)
-  * [Solsheim](#solsheim)
-- [Spriggan](#spriggan)
-- [Troll](#troll)
-- [WereWolf](#werewolf)
-- [Werebear](#werebear)
-- [Wisps](#wisps)
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Chaurus 
 

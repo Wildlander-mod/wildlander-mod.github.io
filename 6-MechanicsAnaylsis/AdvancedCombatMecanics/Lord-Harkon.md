@@ -1,3 +1,11 @@
+---
+layout: default
+title: Lord Harkon
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 *Basic Stats*
 |Stat| Value |

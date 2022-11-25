@@ -1,3 +1,12 @@
+---
+layout: default
+title: Shout Analysis
+nav_order: 4
+has_toc: true
+has_children: true
+parent: Mechanic Analysis
+---
+
 # Armor Enchantments
 
 Armor enchantments improve the player's attributes, or provide the player with useful new abilities or resistances. An enchantment's base magnitude is the number shown when you hover over that enchantment (in the enchanting menu) without selecting it. This number specifies the magnitude of the enchantment when a Grand soul is used by a player with level 0 enchanting skill and no enchanting perks.

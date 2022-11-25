@@ -1,3 +1,11 @@
+---
+layout: default
+title: The Reaper
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 Npc: 0201A73E
 

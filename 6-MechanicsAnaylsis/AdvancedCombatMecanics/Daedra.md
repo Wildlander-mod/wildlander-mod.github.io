@@ -1,33 +1,20 @@
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)
-
+---
+layout: default
+title: Daedra
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 The Daedra are creatures that roam the Planes of Oblivion, and are usually summoned by powerful mages, usually of the Conjuration school. 
 A Dremora is a devilish humanoid being wearing Daedric armor and wielding burning Daedric weaponry, but can also be extremely adept at using magic and casting spells.
 Atronachs are humanoid beings (except the Storm Atronach) that are formed out of their own element of power: Flame, Frost, or Storm. 
 
 # Index
-- [Ash Guardian](#ash-guardian)
-- [Atronach](#atronach)
-  * [Flame](#flame)
-    + [*Shared*](#shared)
-    + [**Standard**](#standard)
-    + [**Potent Flame Thrall**](#potent-flame-thrall)
-  * [Frost Atronach](#frost-atronach)
-    + [*Shared*](#shared-1)
-    + [**Standard**](#standard-1)
-    + [**Potent Thrall**](#potent-thrall)
-  * [Storm](#storm)
-    + [*Shared*](#-shared--2)
-    + [**Standard**](#--standard---2)
-    + [**Potent Thrall**](#potent-thrall-1)
-  * [Dremora](#dremora)
-- [Lurker](#lurker)
-- [Seeker](#seeker)
-- [Slighted](#slighted)
-  * [Melee Variations](#melee-variations)
-    + [1 hander](#1-hander)
-    + [2 Hander](#2-hander)
-  * [Caster Variations](#caster-variations)
-  * [Archer Variations](#archer-variations)
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 # Ash Guardian
 

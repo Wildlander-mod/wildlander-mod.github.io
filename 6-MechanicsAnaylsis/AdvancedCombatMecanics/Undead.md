@@ -1,43 +1,17 @@
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)
+---
+layout: default
+title: Aldiun
+nav_exclude: true
+has_children: false
+parent: Advanced Combat Analysis
+grand_parent: Mechanic Analysis
+---
 
 # Index
-- [Ash Spawn](#ash-spawn)
-  * [Shared](#shared)
-  * [1 hander](#1-hander)
-  * [2 Hander](#2-hander)
-  * [Unarmed](#unarmed)
-- [Death Hound](#death-hound)
-- [Dragon Priest](#dragon-priest)
-- [Draugr](#draugr)
-  * [Shared](#shared-1)
-  * [Standard](#standard)
-  * [Hulking](#hulking)
-  * [Keeper](#keeper)
-  * [Spectral](#spectral)
-- [Spectral Warhound](#spectral-warhound)
-- [Gargoyles](#gargoyles)
-  * [Shared](#shared-2)
-  * [*Green*](#-green-)
-  * [*Grey*](#-grey-)
-  * [*Albino*](#-albino-)
-- [Ghost](#ghost)
-- [Shades](#shades)
-  * [Shared](#shared-3)
-  * [Corrupted Shade](#corrupted-shade)
-  * [Malkoran's Shade](#malkoran-s-shade)
-- [Skeleton](#skeleton)
-  * [Standard](#standard-1)
-  * [Physical](#physical)
-  * [Caster](#caster)
-  * [**Armored**](#armored)
-  * [**Boneman**](#boneman)
-  * [**Mistman**](#mistman)
-  * [**Wrathman**](#wrathman)
-- [Vampires](#vampires)
-  * [Shared](#shared-4)
-  * [**Ebony**](#ebony)
+{: .no_toc .text-delta }
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+1. TOC
+{:toc}
 
 ---
 ## Ash Spawn 
