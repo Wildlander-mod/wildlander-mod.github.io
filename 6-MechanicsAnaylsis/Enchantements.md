@@ -2,8 +2,8 @@
 layout: default
 title: Shout Analysis
 nav_order: 4
-has_toc: true
-has_children: true
+has_toc: false
+has_children: false
 parent: Mechanic Analysis
 ---
 
@@ -11,13 +11,15 @@ parent: Mechanic Analysis
 
 Armor enchantments improve the player's attributes, or provide the player with useful new abilities or resistances. An enchantment's base magnitude is the number shown when you hover over that enchantment (in the enchanting menu) without selecting it. This number specifies the magnitude of the enchantment when a Grand soul is used by a player with level 0 enchanting skill and no enchanting perks.
 
-<table style="text-align:center" width="100%">
-<thead><tr>
+<table>
+<thead>
+<tr>
 <th colspan="2" rowspan="2"  tabindex="0" role="columnheader button" >Armor Effect</th>
 <th colspan="7">Body Area</th>
 <th rowspan="2"  tabindex="0" role="columnheader button"  width="1">Base Magnitude</th>
 <th rowspan="2"  tabindex="0" role="columnheader button"  width="1"><span style="white-space:nowrap">Base Cost</span><sup id="#cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></th>
-</tr><tr>
+</tr>
+<tr>
 <th  tabindex="0" role="columnheader button"  width="40"><span title="Circlets, Helmets, and Hoods" style="border-bottom:1px dotted">Head</span></th>
 <th  tabindex="0" role="columnheader button"  width="40"><span title="Amulets and Necklaces" style="border-bottom:1px dotted">Neck</span></th>
 <th  tabindex="0" role="columnheader button"  width="40"><span title="Body Armor and Clothing" style="border-bottom:1px dotted">Chest</span></th>
@@ -25,9 +27,9 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <th  tabindex="0" role="columnheader button"  width="40"><span title="Rings" style="border-bottom:1px dotted">Finger</span></th>
 <th  tabindex="0" role="columnheader button"  width="40"><span title="Boots and Shoes" style="border-bottom:1px dotted">Feet</span></th>
 <th  tabindex="0" role="columnheader button"  width="40">Shield</th>
-</tr></thead>
+</tr>
+</thead>
 <tbody>
-
 <tr>
 <th rowspan="17" width="1">Fortify Skill</th>
 <th width="1"><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Alchemy" title="Skyrim:Fortify Alchemy">Alchemy</a></th>
@@ -526,9 +528,12 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <th>Shield</th>
 <th>Base Magnitude</th>
 <th>Base Cost</th>
-</tr></tfoot></table>
+</tr>
+</tfoot>
+</table>
 
 Notes:
+
 <a name="cite_note-1"></a><li id="cite_note-1">[1] <span class="reference-text">Rounded down.</span></li>
 <a name="cite_note-Source_and_Target-2"></a><li id="cite_note-Source_and_Target-2">[2] <span class="reference-text"> Although armors, necklaces and <i>rings</i> can be disenchanted in order to gain the enchantment, armors, necklaces and <i>foot apparel</i> can be enchanted. Therefore you can equip four items (neck, chest, finger, feet) with that enchantment.</span></li>
 <a name="cite_note-FixedMagnitude-3"></a><li id="cite_note-FixedMagnitude-3">[3]<span class="reference-text">The magnitude of this part of the effect is fixed regardless of skill, soul used, or perks.</span></li>
@@ -536,6 +541,7 @@ Notes:
 
 
 # Weapon Enchantments
+
 Base magnitude is the number shown when you hover over an enchantment without selecting it, if you have no perks. It is equivalent to the magnitude with a Grand soul, 0 skill, and no perks. Base uses is defined the same way but cannot be seen directly without the use of the console.
 
 <table class="wikitable sortable jquery-tablesorter" style="text-align:center" width="100%">
