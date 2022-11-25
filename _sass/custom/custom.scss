@@ -3,38 +3,23 @@ $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
-
-.side-bar {
-  z-index: 0;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: $sidebar-color;
-
-  @include mq(md) {
-    flex-wrap: nowrap;
-    width: $nav-width-md;
-    height: 100%;
-    flex-direction: column;
-    border-right: $border $border-color;
-    align-items: flex-end;
+@media print {
+  .side-bar
+  .page-header {
+    display: none;
   }
-
-  @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
-    min-width: $nav-width;
+  .main-content {
+    max-width: auto;
+    margin: 1em;
   }
 }
 
-.main {
-  @include mq(md) {
-    position: relative;
-    max-width: $content-width;
-    margin-left: $nav-width-md;
-  }
+code {
+  font-size: 14px;
+  padding: 0.2em 0.4em;
+  border: none;
+}
 
-  @include mq(lg) {
-    margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
-    );
-  }
+iframe {
+  max-width: 100%;
 }
