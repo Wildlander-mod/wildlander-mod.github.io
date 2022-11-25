@@ -3,7 +3,7 @@ layout: default
 title: How Do i?
 nav_order: 9
 has_toc: false
-has_children: false
+has_children: true
 ---
 
 ## How Do I tweak the difficulty??

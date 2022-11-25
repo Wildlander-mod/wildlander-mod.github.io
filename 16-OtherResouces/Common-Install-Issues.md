@@ -1,3 +1,11 @@
+---
+layout: default
+title: Common Install Issues
+has_toc: false
+has_children: false
+parent: Other Resources
+---
+
 # Wabbajack Installation Issues
 ---------
 

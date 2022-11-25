@@ -1,3 +1,11 @@
+---
+layout: default
+title: Update
+has_toc: false
+has_children: false
+parent: How Do i?
+---
+
 ### **To ensure you perform a clean install - Delete your Game-files\Mods folder before continuing (the folder circled in the example below).**  
 ![image](https://user-images.githubusercontent.com/26418143/194085051-7e3ffb22-3a21-44e6-8e5d-c4ffa587ac53.png)
 

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Smithing Book Locations
+has_toc: false
+has_children: false
+parent: Other Resources
+---
 
 # Craftsmanship: The Craftsman's Manual [xx35B997]
 
