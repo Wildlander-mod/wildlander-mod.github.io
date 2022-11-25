@@ -9,7 +9,7 @@ has_toc: true
 
 # Available Followers
 
-<details open markdown="block">
+<details open>
   <summary>
     Table of contents
   </summary>
