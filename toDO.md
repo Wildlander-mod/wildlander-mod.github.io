@@ -1,3 +1,10 @@
+---
+layout: default
+title: To Do
+nav_order: 111
+has_children: false
+---
+
 Vampire lord - check and verify
 
 To each perk page - Any "none vanilla" mechanics, Standardise Format (mostly done)
