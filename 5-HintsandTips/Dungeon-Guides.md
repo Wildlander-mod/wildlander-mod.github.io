@@ -2,7 +2,7 @@
 layout: default
 title: Dungeon Guides
 nav_order: 5
-has_toc: false
+has_toc: true
 has_children: true
 parent: Getting Started
 ---
@@ -44,8 +44,5 @@ The threat level of each dungeon is as follows but doesn't include *every* enemy
 | Endgame | Alduin; Miraak; Harkon; Dawnguard Leaders; The Ebony Warrior |
 
 ## The Holds
-{: .no_toc .text-delta }
 
-1. TOC
-{:toc}
 	
