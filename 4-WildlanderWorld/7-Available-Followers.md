@@ -55,7 +55,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <details>
 	<summary> Argis the Bulwark </summary>
 
-#### Info
+<div class="Info" markdown="1"> #### Info
 
 	| Race/Class - Male Nord Warrior| Location - Vlindrel Hall, Markarth           
 
@@ -89,7 +89,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 ***
 
-</details>
+</div></details>
 
 <details>
 	<summary> Calder </summary>
