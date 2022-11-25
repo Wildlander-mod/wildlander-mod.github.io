@@ -1,9 +1,10 @@
 ---
 title: Home
-layout: home
-description: Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home.
+layout: default
+description: "Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home."
 nav_order: 1
 ---
+
 
 Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home. Whether you want to call it immersion, realism, role-playing, or simple masochism, the end-goal is to make you actually feel like an intrepid adventurer climbing snow-covered mountains, delving into ancient ruins, and getting your bits bitten off by packs of hungry wolves.
 
