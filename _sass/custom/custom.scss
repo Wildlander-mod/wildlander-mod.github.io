@@ -22,6 +22,13 @@ $pink-300: #dd2cd4;
     max-width: 100%;
     margin-left: 1em;
   }
+  .main {
+    position: relative;
+    max-width: 100%;
+    margin-left: $nav-width + 15;
+  }
+}
+  
 }
 
 iframe {
