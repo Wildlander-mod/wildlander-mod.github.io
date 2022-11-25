@@ -4,6 +4,22 @@ layout: home
 nav_order: 1
 ---
 
+<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Preview dark color scheme';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Return to the light side';
+  }
+});
+</script>
+
 Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home. Whether you want to call it immersion, realism, role-playing, or simple masochism, the end-goal is to make you actually feel like an intrepid adventurer climbing snow-covered mountains, delving into ancient ruins, and getting your bits bitten off by packs of hungry wolves.
 
 Wildlander is made up of hundreds of publicly available mods made by almost as many talented mod authors. These mods have been carefully selected, tested, and tweaked by Dylan to iron out any technical difficulties and maintain a consistent experience.
@@ -19,17 +35,6 @@ Wildlander can be overwhelming at first, so I highly recommend reading up on it.
 If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channel/UCnVgWmZbuZxl2QFVapKjd3w) has turned the wiki introduction into a video - which you can access clicking the image below.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/vXRurA0h6NE/0.jpg)](http://www.youtube.com/watch?v=vXRurA0h6NE "Introduction to wildlander")
-
-
-
-
-## Recommended Browser Extensions
-
-To use this wiki - I recommend the following browser extensions - makes the pages full screen, and adds a search box 
-
-* Firefox https://addons.mozilla.org/en-US/firefox/addon/github-wiki-search/ and https://addons.mozilla.org/en-US/firefox/addon/wide-github-chrome/
-* Chrome https://chrome.google.com/webstore/detail/github-wiki-search/neadealkfeligebmmolcibhbcdfplhhg?hl=en and https://chrome.google.com/webstore/detail/wide-github/kaalofacklcidaampbokdplbklpeldpj?hl=en
-
 
 
 ## Getting Help
