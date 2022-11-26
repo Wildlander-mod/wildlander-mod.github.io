@@ -17,12 +17,6 @@ search:
   button: false
 
 nav_external_links:
-  - title: Launcher Changelog
-    Url: https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md
-    hide_icon: true # set to true to hide the external link icon - defaults to false
-  - title: Mod Suggestions
-    Url: https://trello.com/b/jQFlf7nY/suggested-mods
-    hide_icon: true # set to true to hide the external link icon - defaults to false
   - title: Requiem WIKI
     url: https://www.reddit.com/r/skyrimrequiem/wiki/index
     hide_icon: true # set to true to hide the external link icon - defaults to false
@@ -35,6 +29,15 @@ nav_external_links:
   - title: UESP Skill Book locations
     url: https://en.uesp.net/wiki/Skyrim:Skill_Books
     hide_icon: true # set to true to hide the external link icon - defaults to false  
+  - title: Launcher Changelog
+    Url: https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md
+    hide_icon: true # set to true to hide the external link icon - defaults to false
+  - title: Mod Suggestions Trello
+    Url: https://trello.com/b/jQFlf7nY/suggested-mods
+    hide_icon: true # set to true to hide the external link icon - defaults to false
+  - title: Bug report Form
+    Url: https://forms.gle/cERpfAgmPzNjmbgM6
+    hide_icon: true # set to true to hide the external link icon - defaults to false
     
 
 # Footer content
