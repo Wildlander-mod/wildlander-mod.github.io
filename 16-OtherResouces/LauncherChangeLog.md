@@ -6,7 +6,7 @@ description: Launcher change log
 parent: Other Resources
 ---
 
-Direct Link:  https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md
+Direct Link:  [Changelog](https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md)
 
 <iframe src="https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md" width="1200" height="700"></iframe>
 
