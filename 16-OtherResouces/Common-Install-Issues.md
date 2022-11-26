@@ -5,82 +5,83 @@ has_toc: false
 has_children: false
 parent: Other Resources
 ---
+# Common Install Issues
 
-# Wabbajack Installation Issues
+## Wabbajack Installation Issues
 ---------
 
-## Why is the list showing "in maintenance on wabbajack"
+### Why is the list showing "in maintenance on wabbajack"
 
-### What does it mean?
+#### What does it mean?
 
 When a mod is updated, hidden or taken offline, any lists using that mod will automatically be put into maintenance mode to prevent users from downloading a incompletable Wabbajack install.
 
 If Skyrim updates - this will also force the list into maintenance as it will need to be checked and recompiled using the new source files. 
 
-### How long does maintenance last?
+#### How long does maintenance last?
 As long as necessary. No one can give you a ETA - It will take as long as it takes. Please don't give our support staff a migraine asking for a update.
 
 On discord, You can subscribe to the !notifyme bot command to be notified when it is released. On Reddit, Dylan will post a official post to say when it is available.
 
-### Can I download the list anyway?
+#### Can I download the list anyway?
 
 No - Forcing the list into Maintenance mode is a last resort. 
 
 It will either resolve itself when the mod causing the issue is unhidden, or for Skyrim updates - need Dylan's intervention to resolve.
 
-### Can I download the other mods in the list?
+#### Can I download the other mods in the list?
 
 If you want to do it manually via the list manifest on the Wabbajack website, sure. Automatically, no.
 
-### My install was in progress, Can't someone just give me the missing file(s)?
+#### My install was in progress, Can't someone just give me the missing file(s)?
 
 No, Wildlander respects all mod author permissions. If a mod or file has been taken down, and  has not allowed redistribution from another source, we will not provide you a link. 
 
 Asking for one anyway is a violation of rules. (Even if you ask staff in a private chat) Sharing a link "you found" or reuploading a file is strictly prohibited unless you can prove you have permission to do so.
 
-### Can't I just manually install / Is there a "Manual Installation" guide?
+#### Can't I just manually install / Is there a "Manual Installation" guide?
 
 Not any more - As wabbajack is a more reliable install method which requires little user interactions and produces a consistent install every time - the manual installation guide was removed.
 
-### Can I edit the Wabbajack file so it installs anyway?
+#### Can I edit the Wabbajack file so it installs anyway?
 
 No. Wabbajack files are compiled and cannot be manually edited. 
 
 
 ---------
 
-## Do I have to install both game and downloads to same drive
+### Do I have to install both game and downloads to same drive
 
 No, you can have them on separate drives - just make sure you point your Download location to where you want the zip files it live.
 
 ----------
 
-## How much drive space do I need
+### How much drive space do I need
 
 Around 135gb
 
 ----------
 
-## How many mods
+### How many mods
 
 521
 
 ----------
 
-## Do I need to download everything if I plan on playing potato 
+### Do I need to download everything if I plan on playing potato 
 
 Yes - Wabbajack wont install unless it has all mods, creating a list for potato users only is not easy to do and would require a completely separate wabbajack installer.
 
 ----------
 
 
-## Can I just download the Graphics only
+### Can I just download the Graphics only
 
 No, again this would be a completely separate list which would need its own separate wabbajack installer.
 
 ----------
 
-## Wabbajack fails to download mods or hangs for a long time.
+### Wabbajack fails to download mods or hangs for a long time.
 
 Check Task manager, if wabbajack is not using any network resources, its likely the download has failed/timed out - then please use the suggestions below.
 
@@ -104,11 +105,12 @@ in the event of this occuring for you you can try downloading Resources - Wildla
 **Nexus mods in general**
 
 you may need to use a VPN and/or different browsers to download these files. We are not sure why nexus is blocking access. Premium users can try this 
+
 ![img](https://cdn.discordapp.com/attachments/881254575640838254/929341753885085738/unknown.png)
 
 For any failed mods which are not mentioned above Search this for the mod(s) and manually download.
-https://github.com/wabbajack-tools/mod-lists/blob/master/reports/wildlander/status.md 
 
+https://github.com/wabbajack-tools/mod-lists/blob/master/reports/wildlander/status.md 
 
 ----------
 
@@ -118,7 +120,6 @@ If you get the following error - Make sure Steam is installed in English, valida
 - Unable to download Skyrim_Default.ini
 
 ![image](https://user-images.githubusercontent.com/26418143/169777216-29de696c-b3bc-4829-9bf4-05a571a7aab7.png)
-
 
 Wildlander requires Anniversary edition, If you get any of the following - update your Skyrim. If you have used Halgari's downgrade patcher - you will need to validate your game fields from Steam > Right Click > Properties > Local files tab.
 
