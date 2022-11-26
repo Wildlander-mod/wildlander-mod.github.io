@@ -10,7 +10,10 @@ Direct Link:  https://trello.com/b/jQFlf7nY/suggested-mods
 
 ### Trello Board
 
-<iframe src="https://trello.com/b/jQFlf7nY.html" frameBorder="0" width="1200" height="700"></iframe>
+<blockquote class="trello-board-compact">
+<a href="https://trello.com/b/jQFlf7nY">Trello Board</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
 
 
 ### Make a suggestion
