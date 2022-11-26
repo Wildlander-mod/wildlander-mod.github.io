@@ -1,9 +1,10 @@
 ---
-title: Minimum requirements and Installation
 layout: default
+title:  Minimum requirements and Installation
 nav_order: 1
-description: Installation
+has_children: false
 parent: Getting Started
+has_toc: true
 ---
 
 
