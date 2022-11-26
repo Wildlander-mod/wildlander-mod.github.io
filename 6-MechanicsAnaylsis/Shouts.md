@@ -3,7 +3,7 @@ layout: default
 title: Shout Analysis
 nav_order: 3
 has_toc: true
-has_children: true
+has_children: false
 parent: Mechanic Analysis
 ---
 

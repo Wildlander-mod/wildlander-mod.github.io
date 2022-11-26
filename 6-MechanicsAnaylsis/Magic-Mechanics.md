@@ -3,7 +3,7 @@ layout: default
 title: Magic Analysis
 nav_order: 2
 has_toc: true
-has_children: true
+has_children: false
 parent: Mechanic Analysis
 ---
 
