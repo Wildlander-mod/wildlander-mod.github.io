@@ -3,6 +3,7 @@ layout: default
 title: Aldiun
 nav_exclude: true
 has_children: false
+description: Aldiun's Stats and abilities
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
 ---

@@ -1,3 +1,12 @@
+---
+layout: default
+title: Release notes 1.1.0
+nav_exclude: true
+has_children: false
+---
+
+# Release notes - Wildlander - Version 1.1.0
+
 ### Bug
 <details>
   <summary>Click to expand!</summary>

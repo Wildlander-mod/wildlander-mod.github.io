@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aldiun
+title: Undead
 nav_exclude: true
 has_children: false
 parent: Advanced Combat Analysis
@@ -18,7 +18,8 @@ grand_parent: Mechanic Analysis
 
 ### Shared
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
@@ -27,14 +28,18 @@ grand_parent: Mechanic Analysis
 
 
  *Weapon Protection*
-| Type | Change|
+
+| Type | Damage change |
 |--|--|
 |Pierce(Daggers)           | 80% Damage reduction |
 |Blunt (Maces & Hammers)   | 50% Damage reduction |
 |Ranged (Bows & Crossbows)  | Tier 3 |
 
  *Resistances*
-|Type  | Protection | Weakness|
+
+
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | N/A | -30 |
 |Fire | Immune | N/A |
@@ -47,13 +52,16 @@ grand_parent: Mechanic Analysis
 * Cremation - high-tier fire spells can set ablaze those who are susceptible to fire, and force them to flee in fear. Undead, Automatons and Daedra are immune to the Fear effect.
 
 ### 1 hander
+
 *Variations*
+
 |Stat| Level 55 |Level 60 |Level 70 |
 |--|--|--|--|
 |Health| 550 | 700 | 850 |
 |Stamina| 10005 |10005 | 10300|
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 300 |
@@ -85,6 +93,7 @@ grand_parent: Mechanic Analysis
 |Stamina| 10094 | 10102 | 10098 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 300 |
@@ -109,7 +118,9 @@ grand_parent: Mechanic Analysis
 * Barbaric Might Two-handed power attacks are easier to execute, and further penetrate enemy armor. [-50% power attack stamina cost, +5 armor penetration]
 
 ### Unarmed
+
 *Variations*
+
 |Stat| Level 55 |Level 60 |Level 70 |
 |--|--|--|--|
 |Health| 663 | 867 | 972 |
@@ -117,6 +128,7 @@ grand_parent: Mechanic Analysis
 |Stamina| 10005 |10005 | 10300|
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 300 |
@@ -139,6 +151,7 @@ grand_parent: Mechanic Analysis
 ## Death Hound
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 380 |
@@ -155,14 +168,17 @@ grand_parent: Mechanic Analysis
 | Diseased | Yes - Chills |
 |Can Knockdown Player| None |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
 |Silver (Arrows)     | 150% |
 
  *Resistances*
-|Type  | Protection | 
+
+
+|Type  | Protection |  
 |--|--|
 |Frost  | 33% |  
 |Sneak Attack | Immune |  
@@ -177,6 +193,7 @@ In Requiem - these guys are various shades of "utter bastard"
 **Shared**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1500 |
@@ -193,7 +210,8 @@ In Requiem - these guys are various shades of "utter bastard"
 |Can Knockdown Player| No |
 
  *Resistances*
-|Type  | Protection |
+
+|Type  | Protection |  
 |--|--|
 |Frost  | 90 |  
 |Fire | 50 |  
@@ -204,7 +222,8 @@ In Requiem - these guys are various shades of "utter bastard"
 |Unrelenting Force| Immune |
 
  *Spells*
-|Type  | Description |
+
+|Type  | Description | 
 |--|--|
 |Magical Protection| Mage Armor on Self (Rank IV) - Improves the caster's armor rating by 150 points for 60 seconds. |
 |Utility | Command Daedra - The caster takes over the control of the target summoned or raised creature. |
@@ -223,7 +242,8 @@ In Requiem - these guys are various shades of "utter bastard"
 **Shock Priest**
 
  *Spells*
-|Type  | Description |
+
+|Type  | Description | 
 |--|--|
 |Magical Damage|  Chain Lightning  The caster evokes a lightning bolt that deals 0.5 Stagger, 40 points of shock damage to Health and half to Magicka and hits multiple targets at once if they stand close to each other.  Shock damage disintegrates targets if their health is low (below 25%) 
 |      | Thunderbolt The caster evokes a thunderbolt that deals a 0.25 stagger, 65 points of shock damage to Health and half that to Magicka. Shock damage disintegrates targets if their health is low (below 20%) 
@@ -238,7 +258,8 @@ In Requiem - these guys are various shades of "utter bastard"
 **Frost Priest**
 
  *Spells*
-|Type  | Description |
+
+|Type  | Description | 
 |--|--|
 |Magical Damage|   Icy Spear -   A spear of ice that does a 0.25 stagger, 35 points of frost damage to Health and Stamina and 40% slow.|
 |      |Ice Storm -  The caster evokes a freezing whirlwind that deals 45 points of frost damage per second to Health and Stamina and 35% slow .
@@ -254,7 +275,8 @@ In Requiem - these guys are various shades of "utter bastard"
 **Fire Priest**
 
  *Spells*
-|Type  | Description |
+
+|Type  | Description | 
 |--|--|
 |Magical Damage|  Fireball - The caster evokes a flaming projectile that deals 40 points of damage to everything in its impact radius. Targets on fire take extra damage. Targets take a 0.5 Stagger. Targets burn for 10/s for 4 seconds after impact. Targets with under 50% magic resistance or under 80% fire resistance will flee for 120 seconds.|
 |      | Incinerate  The caster evokes a blast of fire that deals 65 points of damage and a 0.2 Stagger. Targets on fire take extra damage. Targets with under 50% magic resistance or under 80% fire resistance will flee for 120 seconds. Targets burn for 4/s for 10 seconds after impact.|
@@ -272,7 +294,8 @@ In Requiem - these guys are various shades of "utter bastard"
 Note: Does not have the shared spells.
 
  *Resistances*
-|Type  | Protection |
+
+|Type  | Protection | 
 |--|--|
 |Frost  | Immune |  
 |Fire | 50 |  
@@ -283,7 +306,8 @@ Note: Does not have the shared spells.
 |Unrelenting Force| Immune |
 
  *Spells*
-|Type  | Description |
+
+|Type  | Description | 
 |--|--|
 |Magical Damage|   Icy Spear -   A spear of ice that does a 0.25 stagger, 35 points of frost damage to Health and Stamina and 40% slow.|
 |      |Snow Spume -  The caster manifests an explosion of ice shards at the target location, dealing 45 points of damage in its radius..
@@ -295,18 +319,19 @@ Has the shared perks, plus Same as Standard Frost priests.
 
 ---
 **Krosis** 
-A standard Frost Varient Dragon priest.
+A standard Frost Variant Dragon priest.
 
 ---
 **Hevnoraak** 
-A standard Storm Varient Dragon priest.
+A standard Storm Variant Dragon priest.
 
 ---
 **Morokei** 
 
-A Stronger Fire Varient Dragon priest.
+A Stronger Fire Variant Dragon priest.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 4000 |
@@ -320,35 +345,36 @@ A Stronger Fire Varient Dragon priest.
 
 ---
 **Nahkriin** 
-A Standard Fire Varient Dragon priest.
+A Standard Fire Variant Dragon priest.
 
 ---
 **Otar The Mad** 
-A Standard Storm Varient Dragon priest.
+A Standard Storm Variant Dragon priest.
 
 ---
 **Rahgot** 
-A Standard Fire Varient Dragon priest.
+A Standard Fire Variant Dragon priest.
 
 ---
 **Vokun** 
-A Standard Fire Varient Dragon priest.
+A Standard Fire Variant Dragon priest.
 
 ---
 **Volsung** 
-A Standard Frost Varient Dragon priest.
+A Standard Frost Variant Dragon priest.
 
 ---
 
 **Jsashe** 
-A Standard Storm Varient Dragon priest.
+A Standard Storm Variant Dragon priest.
 
 ---
 **Ahzidal** 
 
-A Stronger Fire Varient Dragon priest.
+A Stronger Fire Variant Dragon priest.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 4000 |
@@ -372,7 +398,8 @@ A Stronger Fire Varient Dragon priest.
 |Can Knockdown Player| No |
 
  *Resistances*
-|Type  | Protection |
+
+|Type  | Protection | 
 |--|--|
 |Frost  | 90 |  
 |Fire | Immune |  
@@ -391,9 +418,10 @@ A Stronger Fire Varient Dragon priest.
 ---
 **Dukaan** 
 
-A Stronger Ice Varient Dragon priest.
+A Stronger Ice Variant Dragon priest.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 4000 |
@@ -417,7 +445,8 @@ A Stronger Ice Varient Dragon priest.
 |Can Knockdown Player| No |
 
  *Resistances*
-|Type  | Protection |
+
+|Type  | Protection | 
 |--|--|
 |Frost  | Immune |  
 |Fire | 50% |  
@@ -437,10 +466,11 @@ A Stronger Ice Varient Dragon priest.
 ---
 **Zahkriisos** 
 
-A Stronger Storm Varient Dragon priest.
+A Stronger Storm Variant Dragon priest.
 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 5500 |
@@ -465,7 +495,8 @@ A Stronger Storm Varient Dragon priest.
 |Can Knockdown Player| No |
 
  *Resistances*
-|Type  | Protection |
+
+|Type  | Protection | 
 |--|--|
 |Frost  | 90% |  
 |Fire | 50% |  
@@ -486,6 +517,7 @@ A Stronger Storm Varient Dragon priest.
 **Vahlok the Jailer** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1647 |
@@ -512,7 +544,8 @@ A Stronger Storm Varient Dragon priest.
 |Can Knockdown Player| No |
 
  *Resistances*
-|Type  | Protection |
+
+|Type  | Protection | 
 |--|--|
 |Frost  | 90% |  
 |Fire | 50% |  
@@ -536,14 +569,16 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 
 ### Shared
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
 |Silver (Arrows)     | 100% Damage Done (after armor Mitigation) |
 |Standard (Arrows)   | 10% damage |
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Change|
 |--|--|
 |Pierce(Daggers)            | 50% Damage reduction |
@@ -554,7 +589,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 * Frostbite  The caster evokes a blast of cold that freezes everyone inside for 20 points per second, draining both health and stamina. When the spell is released, the cold slowly ebbs away.  
 * Ice Spike A spike of ice that does 30 points of frost damage to Health and Stamina. 
 * Draugr Frost Cloak (Armored (Horned Helmet)) - For 50 seconds, opponents in melee range take 10 points frost damage and Stamina damage per second and gainst 30% of fire resistance.
-* Summon Frost Atronach (Armored (no Helmet) Draugr Only) Summon Frost Atronach (Standard Varient) for 60 seconds.
+* Summon Frost Atronach (Armored (no Helmet) Draugr Only) Summon Frost Atronach (Standard Variant) for 60 seconds.
 
  *Weapons*
 * Note: Spellsword dragur weapons can Spawn with Frost Enchants. (Chills, Frost or Ice)
@@ -580,23 +615,24 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 * Mace  Focus II- His advanced skill with one-handed maces further enhances armor penetration.[Power attack damage x 1.1, +30 armor penetration]
 
 *Two Handers* 
-Warhammer Focus basic warhammer skill enhances all attacks with blunt two-handers.<br>[Power attack damage x 1.05, +15 armor penetration]
-Warhammer Focus advanced warhammer skill further enhances all attacks with blunt two-handers.<br>[Power attack damage x 1.1, +30 armor penetration]
-Battle Axe Focus I His basic battleaxe skill increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.05, +10 armor penetration]
-Battle Axe Focus II - His advanced battleaxe skill further increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.15, +20 armor penetration]
-Barbaric Might - Two-handed power attacks are easier to execute, and further penetrate enemy armor. [-50% power attack stamina cost, +5 armor penetration]
+* Warhammer Focus basic warhammer skill enhances all attacks with blunt two-handers.<br>[Power attack damage x 1.05, +15 armor penetration]
+* Warhammer Focus advanced warhammer skill further enhances all attacks with blunt two-handers.<br>[Power attack damage x 1.1, +30 armor penetration]
+* Battle Axe Focus I His basic battleaxe skill increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.05, +10 armor penetration]
+* Battle Axe Focus II - His advanced battleaxe skill further increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.15, +20 armor penetration]
+* Barbaric Might - Two-handed power attacks are easier to execute, and further penetrate enemy armor. [-50% power attack stamina cost, +5 armor penetration]
 
 *Archers*
-Ranged Combat Training Basic ranged training enhances damage with bows and crossbows.<br>[Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration]
-Precise Aim reveals weak spots in the enemy's defenses.[Damage x 1.2 with bow and crossbow attacks]
-Piercing Shot - He's learned to hit the weakest parts of armor, rendering armored foes more vulnerable to ranged weapons.[+10 armor penetration, +50% armor penetration from ammunition]
-Penetrating Shot He can keenly spot the gaps in armor, further increasing armor penetration with ranged weapons.<br>[+15 Armor penetration, +100% armor penetration from ammunition]
+* Ranged Combat Training Basic ranged training enhances damage with bows and crossbows.<br>[Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration]
+* Precise Aim reveals weak spots in the enemy's defenses.[Damage x 1.2 with bow and crossbow attacks]
+* Piercing Shot - He's learned to hit the weakest parts of armor, rendering armored foes more vulnerable to ranged weapons.[+10 armor penetration, +50% armor penetration from ammunition]
+* Penetrating Shot He can keenly spot the gaps in armor, further increasing armor penetration with ranged weapons.<br>[+15 Armor penetration, +100% armor penetration from ammunition]
 
 
 ### Standard 
 
  *Resistances*
-|Type  | Protection | Weakness|
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
 |Frost  | 85% | N/A |
@@ -608,6 +644,7 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 **Armored (No Helmet)** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Standard AR| 360 |
@@ -617,6 +654,7 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 **Death lords (Armored Horned Helmet)**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Standard AR| 600 |
@@ -629,6 +667,7 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 ### Hulking
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 600 |
@@ -646,7 +685,8 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 |Can Knockdown Player|  No|
 
  *Resistances*
-|Type  | Protection | Weakness|
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
 |Frost  | 85% | N/A |
@@ -660,7 +700,6 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 |--|--|
 |Ancient Nord Sword + Dented Iron Shield | 48  +  153 Armor from Shield|
 |Ancient Nord War Axe + Dented Iron Shield | 54  +  153 Armor from Shield|
-
 
 **Additional Perks**
 * Powerful Strike - His one-handed and unarmed power attacks shatter bone and sinew.[Power attack damage x 1.2]
@@ -683,6 +722,7 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 ### Keeper
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 2050 |
@@ -702,7 +742,8 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 
 
  *Resistances*
-|Type  | Protection | Weakness|
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | 105 | N/A |
 |Fire | N/A  | -5 |
@@ -757,7 +798,8 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 
 **Shared**
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
@@ -772,7 +814,8 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 |Blunt (Maces & Hammers)    | 50% Damage reduction |
 |Ranged (Bows & Crossbows)  | Tier 3 |
 
-|Type  | Protection |
+
+|Type  | Protection | 
 |--|--|
 |Frost  | 95|  
 |Fire | 50 |  
@@ -783,7 +826,8 @@ Penetrating Shot He can keenly spot the gaps in armor, further increasing armor 
 
 **Phyicial**
 
-Weapons
+*Weapons*
+
 |Name|Stats|
 |--|--|
 |Spectral Battleaxe| 126 Damage can Spawn enchanted with 15 point absorb health enchantment.
@@ -791,6 +835,7 @@ Weapons
 |Spectral Sword    | 66 Damage can Spawn enchanted with 15 point absorb Stamina enchantment.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 772 |
@@ -831,7 +876,6 @@ Weapons
 * Battle Axe Focus III - He's become a master of battle axe combat, allowing Him to perform devastating attacks with them. [Damage x 1.3, +30 armor penetration]*
 * Mighty Strike - A single strike from His two-handed weapon can fell almost any foe.<br>[damage x 1.25, +20 armor penetration]
 
-
 *Archers*
 * Power Shot - His shots land with tremendous impact, occasionally staggering foes.[70% chance to stagger targets]
 * Ranger - You've improved His footwork with light ranged weaponry.<br>[Allows running while attacking with light bows and crossbows]
@@ -846,6 +890,7 @@ Weapons
 **Caster**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 772 |
@@ -857,7 +902,7 @@ Weapons
 |Magical Damage| Frostbite  The caster evokes a blast of cold that freezes everyone inside for 20 points per second, draining both health and stamina. When the spell is released, the cold slowly ebbs away.  |
 | | Ice Spike A spike of ice that does 30 points of frost damage to Health and Stamina. |
 | | Ice Storm A freezing whirlwind that does 40  points of frost damage per second to Health and Stamina. Targets in this whirlwind also get afflicted by a 35% slow. |
-|Magical Summon| Summon Frost Atronach (Standard Varient) for 60 seconds. |
+|Magical Summon| Summon Frost Atronach (Standard Variant) for 60 seconds. |
 |Standard AR| None |
 |Magical AR| None has a 33% weakness to magic |
 |AP| None |
@@ -875,6 +920,7 @@ Weapons
 ## Spectral Warhound
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 427 |
@@ -891,14 +937,16 @@ Weapons
 | Diseased | None |
 |Can Knockdown Player| No |
 
+*Material Protection*
 
-*Materiel Protection*
 | Type | Damage change |
 |--|--|
 |Standard (Melee)    | 10% damage |
 |Standard (Arrows)   | 10% damage |
 
-|Type  | Protection |
+*Resistances*
+
+|Type  | Protection | 
 |--|--|
 |Frost  | 95|  
 |Poison  | Immune |  
@@ -910,6 +958,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 
 ### Shared
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 0 |
@@ -921,7 +970,9 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 | Diseased | No |
 |Can Knockdown Player| Power Attacks Stagger |
 
-|Type  | Protection |
+*Resistances*
+ 
+|Type  | Protection | 
 |--|--|
 |Poison  | Immune |  
 |Paralysis  | Immune|  
@@ -937,6 +988,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 ### *Green*
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 913  |
@@ -950,6 +1002,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 ### *Grey*
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1013 |
@@ -962,6 +1015,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 ### *Albino*
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 963 |
@@ -977,7 +1031,8 @@ Ghosts are spirits that haunt this world for whatever reason. One should note th
 
 As Ghosts are essentially treated as bandits by the engine, they can spawn with any weapon, any armor and any spells than bandits can.  The Only difference is ghosts have protection from standard weaponry.
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Standard (Melee)    | 10% damage |
@@ -996,7 +1051,8 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 |Pierce(Daggers)            | 80% reduction |
 |Ranged (Bows & Crossbows)  | 75% reduction |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
@@ -1005,6 +1061,7 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 ### Corrupted Shade
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 87 |
@@ -1022,6 +1079,7 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 |Can Knockdown Player| None |
 
 *Weapon Stats*
+
 |Name| Damage |
 |--|--|
 |Iron Warhammer| 48 |
@@ -1038,6 +1096,7 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 ### Malkoran's Shade
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 112 |
@@ -1074,18 +1133,23 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 ### Standard
 
 **Shared**
- *Weapon Protection*
+
+*Weapon Protection*
+ 
 | Type | Reductions |
 |--|--|
 |Slash (Swords & Axes)      | 50% reduction |
 |Pierce(Daggers)            | 80% reduction |
 |Ranged (Bows & Crossbows)  | 75% reduction |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
 |Standard (Arrows)   | 20% |
+
+*Weapons*
 
 | Weapons/Shield | Damage / Defence |
 |--|--|
@@ -1101,6 +1165,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 ### Physical
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 170 |
@@ -1114,7 +1179,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 | Diseased | No |
 |Can Knockdown Player| No |
 
-One handed
+*One handed*
 * Powerful Strike - His one-handed and unarmed power attacks shatter bone and sinew.[Power attack damage x 1.2]
 * Penetrating Strikes - One-handed power attacks are easier to execute, and further penetrate enemy armor.<br>[-50% power attack stamina cost, +5 armor penetration]
 * Armsman - One-Handed weapons do 140% damage.
@@ -1122,20 +1187,20 @@ One handed
 * Mace Focus I - His basic skill with one-handed maces enhances armor penetration.[Power attack damage x 1.05, +15 armor penetration]
 * Sword Focus I - Your basic skill with one-handed blades enhances your attacks.<br>[+8% attack speed, +7 armor penetration]
 
-Two-handed
+*Two-handed*
 * Barbaric Might - Two-handed power attacks are easier to execute, and further penetrate enemy armor. [-50% power attack stamina cost, +5 armor penetration]
 * Devastating Charge - You've learned to perform a leaping power attack while sprinting, reducing His enemies to smithereens. [Unlocks sprinting power attack, -25% weapon weight penalties]
 * Barbarian - 2 Handed Weapons do 150% damage.
-Battle Axe Focus I His basic battleaxe skill increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.05, +10 armor penetration]
+* Battle Axe Focus I His basic battleaxe skill increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.05, +10 armor penetration]
 * Greatsword Focus His basic skill with bladed two-handers enhances your attacks.[+10% attack speed with greatswords, +7 armor penetration]
 * Warhammer Focus His basic warhammer skill enhances all attacks with blunt two-handers.[Power attack damage x 1.05, +15 armor penetration]
 
-Archer
+*Marksman*
 * OverDraw - Bows do 140% damage.
 
  *Resistances*
- 
-|Type  | Protection | Weakness|
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | 80 | N/A  |
 |Fire | N/A | 25 |
@@ -1146,6 +1211,7 @@ Archer
 ### Caster
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 150 |
@@ -1161,7 +1227,8 @@ Archer
 |Can Knockdown Player| No |
 
  *Resistances*
-|Type  | Protection |
+
+|Type  | Protection | 
 |--|--|
 |Frost  | 80 |  
 |Fire | 5 |  
@@ -1176,6 +1243,7 @@ Cryomancy - All frost spells deal 15% more damage.
 ### **Armored** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 200 |
@@ -1189,8 +1257,8 @@ Cryomancy - All frost spells deal 15% more damage.
 |Can Knockdown Player|  |
 
  *Resistances*
- 
-|Type  | Protection | Weakness|
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | 85 | N/A  |
 |Fire | N/A | 50 |
@@ -1199,6 +1267,7 @@ Cryomancy - All frost spells deal 15% more damage.
 |Sneak Attack | Immune | N/A  |
 
  *Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 3 |
@@ -1215,6 +1284,7 @@ Cryomancy - All frost spells deal 15% more damage.
 A variety of skeleton which inhabit the Soul Cairn. 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 220 |
@@ -1256,7 +1326,7 @@ A variety of skeleton which inhabit the Soul Cairn.
 
 *Resistances*
 
-|Type  | Protection | Weakness|
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | 80% | N/A |
 |Fire | N/A  | 25% |
@@ -1270,6 +1340,7 @@ A variety of skeleton which inhabit the Soul Cairn.
 Floating, legless, black skeletons found in the Soul Cairn. You can summon them after learning Conjure Mistman from a spell tome in the Soul Cairn.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 500 |
@@ -1286,9 +1357,9 @@ Floating, legless, black skeletons found in the Soul Cairn. You can summon them 
 | Diseased | No |
 |Can Knockdown Player| Yes - Wall of frost Can Paralyse if frost resist is under 25% |
 
- *Resistances*
+*Resistances*
  
- |Type  | Protection | Weakness|
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | 80% | N/A |
 |Fire | N/A  | 5% |
@@ -1306,6 +1377,7 @@ Floating, legless, black skeletons found in the Soul Cairn. You can summon them 
 Black skeleton warriors found in the Soul Cairn. You can summon them after learning Conjure Wrathman from a spell tome in the Soul Cairn.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1000 |
@@ -1324,20 +1396,23 @@ Black skeleton warriors found in the Soul Cairn. You can summon them after learn
 |Can Knockdown Player| Yes - With Cleaves |
 
  *Weapon Protection*
+ 
 | Type | Reductions |
 |--|--|
 |Slash (Swords & Axes)      | 50% reduction |
 |Pierce(Daggers)            | 80% reduction |
 |Ranged (Bows & Crossbows)  | 75% reduction + Tier 3 protection |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
 |Standard (Arrows)   | 20% |
 
 *Resistances*
-|Type  | Protection | Weakness|
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | 85% | N/A |
 |Fire | N/A  | 50% |
@@ -1348,18 +1423,17 @@ Black skeleton warriors found in the Soul Cairn. You can summon them after learn
 |Knock Down| Minor | N/A|
 
 **Additional Perks**
-Battle Axe Focus I His basic battleaxe skill increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.05, +10 armor penetration]
-Battle Axe Focus II - His advanced battleaxe skill further increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.15, +20 armor penetration]
-Battle Axe Focus III - He's become a master of battle axe combat, allowing Him to perform devastating attacks with them. [Damage x 1.3, +30 armor penetration]
-Barbaric Might - Two-handed power attacks are easier to execute, and further penetrate enemy armor. [-50% power attack stamina cost, +5 armor penetration]
-Cleave - His power attacks are truly devastating and he can cut down multiple foes with a single sweeping blow. [Sideways power attack can hit multiple targets]
-Devastating Cleave - You've enhanced His cleave with terrifying finesse and power.[Sideways power attacks can knock down]
-Devastating Strike  - His two-handed power attacks are even deadlier, and absolutely devastate foes. [Power attack damage x 1.25]
-Great Weapon Mastery I  - Diligent practice bolsters the damage and ease of His two-handed weapon attacks. [Damage x 1.2, -50% weapon weight penalties]
-Great Weapon Mastery II - Advanced martial techniques further increase the damage and ease of His two-handed attacks. [Damage x 1.4, -50% weapon weight penalties]
-Devastating Charge - You've learned to perform a leaping power attack while sprinting, reducing His enemies to smithereens. [Unlocks sprinting power attack, -25% weapon weight penalties]
-Mighty Strike - A single strike from His two-handed weapon can fell almost any foe.<br>[damage x 1.25, +20 armor penetration]
-
+* Battle Axe Focus I His basic battleaxe skill increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.05, +10 armor penetration]
+* Battle Axe Focus II - His advanced battleaxe skill further increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.15, +20 armor penetration]
+* Battle Axe Focus III - He's become a master of battle axe combat, allowing Him to perform devastating attacks with them. [Damage x 1.3, +30 armor penetration]
+* Barbaric Might - Two-handed power attacks are easier to execute, and further penetrate enemy armor. [-50% power attack stamina cost, +5 armor penetration]
+* Cleave - His power attacks are truly devastating and he can cut down multiple foes with a single sweeping blow. [Sideways power attack can hit multiple targets]
+* Devastating Cleave - You've enhanced His cleave with terrifying finesse and power.[Sideways power attacks can knock down]
+* Devastating Strike  - His two-handed power attacks are even deadlier, and absolutely devastate foes. [Power attack damage x 1.25]
+* Great Weapon Mastery I  - Diligent practice bolsters the damage and ease of His two-handed weapon attacks. [Damage x 1.2, -50% weapon weight penalties]
+* Great Weapon Mastery II - Advanced martial techniques further increase the damage and ease of His two-handed attacks. [Damage x 1.4, -50% weapon weight penalties]
+* Devastating Charge - You've learned to perform a leaping power attack while sprinting, reducing His enemies to smithereens. [Unlocks sprinting power attack, -25% weapon weight penalties]
+* Mighty Strike - A single strike from His two-handed weapon can fell almost any foe.<br>[damage x 1.25, +20 armor penetration]
 
 ## Vampires
 
@@ -1370,15 +1444,15 @@ Vampires are known to reside throughout Tamriel and Skyrim is no exception. The 
 Vampires (like bandits) have too manu variations of Health/Magic/Stamina to list. however the minimums are listed below.
 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
 |Standard (Arrows)   | 33% |
 
 *Basic Stats*
-|Stat| Value |
-|--|--|
+
 |Stat| Value |
 |--|--|
 |Starting Health| 620+ |
@@ -1393,7 +1467,9 @@ Vampires (like bandits) have too manu variations of Health/Magic/Stamina to list
 | Diseased | Yes - Sanguine Vampiris |
 |Can Knockdown Player| No |
 
-|Type  | Protection | Weakness|
+*Resistances*
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | 95 - 145 | N/A |
 |Fire |  N/A  | -75 |
@@ -1403,7 +1479,8 @@ Vampires (like bandits) have too manu variations of Health/Magic/Stamina to list
 |Knockdown| Minor | N/A |
 |Unrelenting Force| Immune | N/A |
 
-Weapons
+*Weapons*
+
 |Name|Base Stats|
 |--|--|
 |Iron Sword       | 42 |
@@ -1449,7 +1526,7 @@ Weapons
 
 ### **Ebony** 
 
-The "boss" of all vampires. Equiped with a fullset of Enchanted Ebony armor, a Enchanted Ebony bow and arrows, and a enchanted melee weapon.
+The "boss" of all vampires. Equipped with a full set of Enchanted Ebony armor, a Enchanted Ebony bow and arrows, and a enchanted melee weapon.
 
 Each Piece of armor can be enchanted with one of 
 - Extreme Health
@@ -1463,6 +1540,7 @@ Each Piece of armor can be enchanted with one of
 - Extreme Illusion
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1820 |
@@ -1487,7 +1565,8 @@ Each Piece of armor can be enchanted with one of
 | Diseased | Yes - Sanguine Vampiris |
 |Can Knockdown Player| Yes |
 
-Weapons
+*Weapons*
+
 |Name|Base Stats|
 |--|--|
 |Ebony Mace     | 90               |
@@ -1510,7 +1589,9 @@ Weapon Enchants
 - Absorb Magika
 - Absorb Stamina
 
-|Type  | Protection | Weakness|
+*Resistances*
+
+|Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | Immune | N/A |
 |Fire |  | -5 |
