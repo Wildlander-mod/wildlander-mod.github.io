@@ -34,10 +34,15 @@ If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channe
 
 To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a bug report form.
 
+### Save Advice
 {: .warning }
-> When you load your savefile, wait at least thirty seconds before saving again. Some scripts will break if you save too soon after loading.
+> When you load your save file, wait at least a minute before saving again. Some scripts will break if you save too soon after loading.
 >  
-> At least try to avoid saving during combat or other conditions of heavy script load.
+> Avoid saving during combat or other conditions of heavy script load. 
+>
+> Never save more than once a minute.
+>
+> Never save within 30 seconds of entering a building / cell / dungeon.
 
 ### When starting a new character
 
