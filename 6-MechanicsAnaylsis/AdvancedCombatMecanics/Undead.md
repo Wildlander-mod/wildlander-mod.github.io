@@ -37,8 +37,6 @@ grand_parent: Mechanic Analysis
 
  *Resistances*
 
-
-
 |Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | N/A | -30 |

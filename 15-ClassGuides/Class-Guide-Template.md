@@ -1,3 +1,14 @@
+---
+title: Class Guide
+layout: default
+description: Class Guide Template
+has_toc: true
+has_children: true
+nav_order: 15
+---
+
+# Template
+
 # < Name of Class>
 
 # Description
@@ -19,3 +30,6 @@
 # Strengths
 
 # Weaknesses
+
+
+---

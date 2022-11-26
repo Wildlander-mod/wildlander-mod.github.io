@@ -1,3 +1,11 @@
+---
+title: Alchemy Ingredient effect
+layout: default
+nav_order: 1
+description: Alchemy Ingredient effect lists
+parent: Cheat Sheets
+---
+
 Alchemy Tab on the crafting spreadsheet also includes useful information - https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=243189268
 
 

@@ -1,3 +1,10 @@
+---
+title: Alchemy Recipes
+layout: default
+description: Recipes lists
+parent: Cheat Sheets
+---
+
 # *Super Poisons*
 
 ### Flawless Bear Tooth + Wolf Eye + Venomous Spittle

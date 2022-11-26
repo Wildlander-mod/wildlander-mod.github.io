@@ -1,10 +1,20 @@
-This document contains a list of all Artefacts in the game which can be examined by spell research
+---
+title: Spell Research (Artifacts) 
+layout: default
+nav_order: 1
+description: Recipes lists
+parent: Cheat Sheets
+---
+
+# Spell Research (Artifacts) 
+
+This document contains a list of all Artifacts in the game which can be examined by spell research
 
 
 
 <table>
   <tr>
-   <td><strong>Artefact</strong>
+   <td><strong>Artifacts</strong>
    </td>
    <td><strong>Archtypes</strong>
    </td>

@@ -1,3 +1,10 @@
+---
+title: Mine Locations
+layout: default
+description: Recipes lists
+parent: Cheat Sheets
+---
+
 Bilegulch Mine — Situated southwest of Fort Sungard and directly west of Sunderstone Gorge. 
 
 * Occupied by Orc Bandits

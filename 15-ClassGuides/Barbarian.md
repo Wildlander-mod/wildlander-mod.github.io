@@ -1,3 +1,10 @@
+---
+title: Class Guide (Barbarian) - WIP
+layout: default
+description: Class Guide (Barbarian) - WIP
+parent: Class Guide
+---
+
 ### This page is a WIP
 
 # Barbarian

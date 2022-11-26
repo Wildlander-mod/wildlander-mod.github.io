@@ -1,3 +1,13 @@
+---
+title: Spell Research (Alchemy) 
+layout: default
+nav_order: 1
+description: Recipes lists
+parent: Cheat Sheets
+---
+
+# Spell Research (Alchemy) 
+
 Spell Research extends the alchemy/spell system with the introduction of magical liquids (solutions) that are produced by breaking down ingredients, potions, or enchanted artifacts, using an alembic or a cauldron.
 
 Alchemy can be a much quicker way to gain experience about spell archetypes, however, it notoriously requires a large amount of material.

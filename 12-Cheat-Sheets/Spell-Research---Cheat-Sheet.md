@@ -1,3 +1,14 @@
+---
+title: Spell (Locations and Research)  
+layout: default
+nav_order: 1
+description: Recipes lists
+parent: Cheat Sheets
+---
+
+# Spell  (Locations and Research) 
+
+
 # Alteration
 
 # --Spells--
@@ -152,7 +163,7 @@
 
 | Type | Value  |
 |--|--|
-|**Source**  |Vendor, Spell research |
+|**Source**  |Random Loot, Spell Research |
 |**Archtypes**  |Armor, Magical Force, Fire and Forget  |
 
 
