@@ -34,21 +34,20 @@ If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channe
 
 To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a bug report form.
 
-{: .important }
+{: .Warning }
 > When you load your savefile, wait at least thirty seconds before saving again. Some scripts will break if you save too soon after loading.
-    
+>  
 > At least try to avoid saving during combat or other conditions of heavy script load.
 
 ### When starting a new character
 
 {: .highlight }
-
 > If you have played a character already and then exit to the main menu, do not attempt to start a new character in the same session. Instead, quit entirely out of Skyrim and restart it from there. If you do not do so, the game will not operate properly and you will get errors such as 'please restart the economy,' or 'Honed Metal has crashed.'
-
+>
 > This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new playthrough (hotkeys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
-
+>
 > Every time you want to start a new character, you should be closing and reopening skyrim in its entirety.
-
+>
 > Please *DO NOT* report bugs relating to this topic as its a flaw with skyrim itself. There is nothing we can do to make this work!
 
 
