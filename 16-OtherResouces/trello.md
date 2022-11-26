@@ -13,7 +13,7 @@ Direct Link:  https://trello.com/b/jQFlf7nY/suggested-mods
 <blockquote class="trello-board-compact">
 <a href="https://trello.com/b/jQFlf7nY">Trello Board</a>
 </blockquote>
-<script src="https://p.trellocdn.com/embed.min.js"></script>
+<script src="https://p.trellocdn.com/embed.min.js"></script>  
 
 
 ### Make a suggestion
