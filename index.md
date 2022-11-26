@@ -34,8 +34,7 @@ If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channe
 
 To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a bug report form.
 
-{: .Warning }
-
+{: .warning }
 > When you load your savefile, wait at least thirty seconds before saving again. Some scripts will break if you save too soon after loading.
 >  
 > At least try to avoid saving during combat or other conditions of heavy script load.
