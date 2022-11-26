@@ -29,36 +29,36 @@ Hunterborn is designed to be highly configurable, but you can also run it withou
 
 Want less meat? Want the material drops from a different mod? Want your pelts to sell for more with Economics of Skyrim configured for Inconceivable? Read on...
 
-[ Features ]
+### Features 
 
-Time
-----
+#### Time
+
 By default when you field dress, skin, harvest, or butcher an animal, it will take time to complete. How much time is determined by a formula and you do get faster with experience (see the sections below), but if you'd rather that one or more of these actions never takes any time at all, you can toggle each of them with these options. Foraging can also be toggled; when on, using the Forage ability takes 1 game hour.
 
-Small game
-----------
+#### Small game
+
 You can take away the Hunterborn interface for various small animals, here. For example, if you consider it more of a hassle than a feature to pluck and butcher a chicken, just uncheck that option. Note however that, with the exception of chickens, Hunterborn does add new processed goods to each of these animals - and some of them could be quite useful.
 
-[ Tweaks ]
+### Tweaks 
 
-Default actions
----------------
+#### Default actions
+
 When clicking on ("activating") a carcass, Hunterborn by default shows you a menu of options. You can change this default behavior, and use a different default behavior when you're sneaking, with these options. The first two control the default action for a newly-slain, "fresh" carcass. The second two options control the default action for a carcass you have "cleaned" by field dressing it.
 
 The option to "Process" is available for a dressed kill. This conveniently combines skinning, harvesting, and butchering; but be cautious with this option at lower levels, since a large amount of game time may pass when processing bigger carcasses. If your default action is Process and you click / activate a carcass that has been completely processed, the carcass will be disposed.
 
 Note that for monsters (see Monster Hunter, below), most of these options have no effect. The Process action can be used as a substitute for Search.
 
-Presets
--------
+#### Presets
+
 Here you can change options for the goods that animals yield, as well as one for hunting knives:
 * Pelt values: If you have a mod that boosts or reduces merchant trading prices, it may help to configure pelt values accordingly.
 * Material yield: If you want more or less miscellaneous materials from animals, like teeth and claws and bones, change this option to suit.
 * Meat yield: Hunterborn can give you a realistic amount of meat from a carcass, down to just a single cut of meat. You can even pick a custom %, based on animal weight.
 * Knives at merchants: If you want to buy hunting knives from various merchants, you can adjust how easy they are to find (including the more powerful versions).
 
-Realism
--------
+#### Realism
+
 Several options that are intended to make Hunterborn more 'realistic'. They may just be more hassle than they're worth for some players, though, so Hunterborn lets you toggle each on or off.
 
 * Re-weight vanilla meat: Sets the weights of default raw meats, like beef, to something more realistic. (Beef goes from 0.2 to 2.0.) Naturally, this affects how many individual cuts of meat you receive when butchering.
@@ -85,31 +85,32 @@ Several options that are intended to make Hunterborn more 'realistic'. They may 
 
 A note on "stashing": When you store an animal carcass inside of a container - for example, if you put a rabbit carcass into a chest at your camp - Hunterborn will no longer link that carcass to its original slain animal. Most of the time this won't matter and you shouldn't worry about storing small carcasses for later processing or sale. However, you will not be able to retrieve arrows from that carcass or use "manual loot" on it for any other custom loot that it had; it will revert to having the default loot for its species.
 
-[ Hotkeys ]
+#### Hotkeys 
+
 I do not recommend anything in this section be changed as in wildlander some features have been reused for other functionality.
 
-[ Stats ]
+### Stats 
 
-Proficiency
------------
+#### Proficiency
+
 Hunterborn has three different "skills" which you can level up: Skinning, Harvesting, and Foraging. (There is a fourth, "hidden" system for Strange Brew, you can find details about it in the spoiler readme if you so choose!) Your current level in each is listed here, as well as how many total animals you have cleaned (with field dress). More cleans mean you work faster (dressing / skinning / harvesting / butchering), simply because of hands-on experience. Your Skinning level also makes you faster at skinning, and gives you a better chance at a higher quality pelt. Your Harvesting level makes you faster at harvesting, and gives you a better chance at higher quality materials - it is also used as a requirement in several Player Crafting recipes (see below). Your Foraging level does not make you faster at foraging (you will always spend 1 hour of time foraging), but does increase your chances of finding any materials (even in harsh terrain) and allows you to forage for specific resources, like firewood or alchemy ingredients from local flora. If you use Sense Direction, your sense gets more accurate with levels in foraging, as well.
 
-Times
------
+#### Times
+
 This shows an example of how long it would take your character to dress, skin, harvest and butcher an average-size carcass - a deer. As noted above, these times go down as you accrue cleans and levels; see the sections below for more information. These estimates take into account your current hunting knife, if you've turned that requirement on.
 
-Experience
-----------
+#### Experience
+
 Use this feature if you've decided your character has a background in hunting and should have several levels in Skinning / Harvesting / Foraging already. You can also use this feature to experiment, then reset yourself back to zero with the "Novice" choice.
 
-[ Monster Hunter ]
+### Monster Hunter 
 
-Monster list
-------------
+#### Monster list
+
 If you want to use Monster Hunter but only for certain monster types, toggle them on and off here. Dragons in particular may be troublesome with Monster Hunter, depending on other mods you have installed.
 
-Options
--------
+#### Options
+
 Tweaks for Monster Hunter. Currently there's only one:
 
 * Corporeal dragons: When toggled on (requiring that you have dragons enabled on the monster list), you can extract blood, butcher meat, and harvest fleshy parts (eyes, heart) from dead dragons. This may seem a little unusual in the default game, where dragons are reduced to skeletons when slain - though there is at least one mod which keep the dragon's original appearance, named Dragon Remains. These additional components, particularly Dragon's Blood, can be fairly powerful: They are balanced with high-risk mods like Deadly Dragons in mind.
@@ -136,8 +137,8 @@ First, you receive a penalty equal to 3 * (20 - total cleans). This represents e
 
 Second, the size of the animal determines how long the action itself takes.
 
-Sizes
------
+#### Sizes
+
 Size 1: Chicken, hare, mudcrab, skeever, slaughterfish.
 Size 2: Deer, dog, elk female, fox, goat, giant mudcrab, wolf.
 Size 3: Bear, elk male, horse, sabre cat. Chaurus, frostbite spider.
@@ -194,11 +195,11 @@ There are two additional perks to leveling up foraging: Bounty, and Botany. Boun
 
 This is a crafting system unique to Hunterborn and been expanded upon in wildlander, intended to provide multiple uses for the bones you harvest from animal (or monster) carcasses. Although there are not a great many Player Crafting recipes, the items you can craft can be very useful at low levels, especially in a game configured for less loot and a tough economy. Consequently, most items are not very powerful and won't make you a lot of money, although at higher levels (in your Harvest skill) you will be able to craft a few more potent weapons and arrows.
 
-Using the ability doesn't require any furniture like a forge or tanning rack, but does require that you have one of the Hunterborn hunting knives in your inventory if you've made knives non-optional in the MCM. Thus, the easiest way to get started is to craft or purchase an iron hunting knife. However, if you're stranded in a remote area or have no access to the materials or septims you'd need for an iron knife, forage until you've found a sharp rock; use this for scrimshaw, with which you can subsequently craft a bone or stone hunting knife.
+Using the ability doesn't require any furniture like a forge or tanning rack, but does require that you have one of the wildlander toolkits in your inventory. 
 
-Which items you can craft depends on your harvesting level, which represents your skill and knowledge with the bones and organs of animals, and to a certain extent your manual dexterity in working with them. There are several categories of items you can craft with scrimshaw: Bone bits, arrows, weapons, hunting knives, engraved bones, bone amulets, and bone rings. Outside of these categories, there are also cache markers, the flute (merely a flavor item in the vanilla game), and Frostfall's own mortar and pestle.
+Which items you can craft depends on your harvesting level, which represents your skill and knowledge with the bones and organs of animals, and to a certain extent your manual dexterity in working with them. There are several categories of items you can craft with Player Crafting: Bone bits, arrows, weapons, hunting knives, engraved bones, bone amulets, and bone rings. Outside of these categories, there are also cache markers, the flute (merely a flavor item in the vanilla game), and Frostfall's own mortar and pestle.
 
-Some additional crafting recipes only show up in Player Crafting under the right conditions. Check the spoilers readme for full details, or try experimenting!
+Some additional crafting recipes only show up in Player Crafting under the right conditions.
 
 Bone bits are a material requirement for other Player Crafting items, including most of the metal-based hunting knives at a forge, though with Player Crafting itself you can craft a bone or stone hunting knife as a crude basic necessity. Bone arrows also use bone bits for the heads.
 
@@ -219,7 +220,7 @@ When you're first starting out or if circumstances become particularly dire, you
 
 Using a hunting knife for dressing, skinning, harvesting, and butchering is recommended in Hunterborn, but it isn't required. By default, Hunterborn uses a baseline assumption (equivalent to an iron hunting knife) for any operation that uses a hunting knife. The information below only applies if you've turned the hunting knife requirement on, in the MCM.
 
-As a Khajiit or Argonian, you can use your claws as a substitute knife, by checking the relevant option in the MCM. Claws are actually just as good as a steel hunting knife for skinning and harvesting, better than iron, because of the dexterity and experience your character will have with their own claws. However, you can't use claws for scrimshaw.
+As a Khajiit or Argonian, you can use your claws as a substitute knife, by checking the relevant option in the MCM. Claws are actually just as good as a steel hunting knife for skinning and harvesting, better than iron, because of the dexterity and experience your character will have with their own claws. However, you can't use claws for Player Crafting.
 
 If you're starting with nothing (and have no claws), you should forage until you find a sharp rock. The rock won't have any bonuses or penalties, though it will require extra time to dress, skin, harvest, and butcher.
 
@@ -227,7 +228,7 @@ Without even a sharp rock, you will incur a heavy penalty for skinning and harve
 
 You don't need to choose which knife Hunterborn will use - it will automatically pick the best from your inventory.
 
-Note that hunting knives have inferior damage compared to their combat dagger equivalents - they also aren't as valuable, making them inferior as a crafting commodity. The hunting knives range in quality from bone to stone to iron to steel to dwarven / elven to orcish to glass to ebony to daedric to dragonbone. All of these can be crafted (bone and stone with scrimshaw), and require the corresponding smithing perks. They can also usually be purchased from Hunters and from blacksmiths (honed metal will also allow you to commission these for production).
+Note that hunting knives have inferior damage compared to their combat dagger equivalents - they also aren't as valuable, making them inferior as a crafting commodity. The hunting knives range in quality from bone to stone to iron to steel to dwarven / elven to orcish to glass to ebony to daedric to dragonbone. All of these can be crafted (bone and stone with Player Crafting), and require the corresponding smithing perks. They can also usually be purchased from Hunters and from blacksmiths (honed metal will also allow you to commission these for production).
 
 Knife    	|Skinning	        |Harvesting	|Other Effects|
 |--|--|--|--|
