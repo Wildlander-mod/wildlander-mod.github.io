@@ -20,13 +20,15 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 
 *Shared Attributes*
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 5 |
 |Ranged (Bows & Crossbows)  | 4 |
 
 *Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 75 |  
@@ -34,6 +36,7 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 **Chaurus**
 
 *Size Variations*
+
 |Stat| Small| Large| 
 |--|--|--|
 |Health | 225 | 200 | 
@@ -42,6 +45,7 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 |Movement Speed| 110 | 100 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Melee Damage| 20, Plus chance of Chaurus Bite - A vile poison harming the victim's health by 0.3 points for 240 seconds.|
@@ -58,6 +62,7 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 **Chaurus Reaper**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 300 |
@@ -78,11 +83,13 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 **Frozen Chaurus**
 
 *Size Variations*
+
 |Stat| Up to Level 39 | Up to Level 40 and above| 
 |--|--|--|
 |Health | 125 | 375 | 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 4 |
@@ -98,7 +105,8 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 | Diseased | yes - Rattles |
 |Can Knockdown Player| Chaurus Bite can apply Paralysis |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness |
 |--|--|--|
 |Frost  | 100% | N/A|
@@ -109,6 +117,7 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 **Chaurus Hunter**
 
 *Size Variations*
+
 |Stat| Small| Large| 
 |--|--|--|
 |Health | 375 | 400 | 
@@ -117,6 +126,7 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 |Movement Speed| 110 | 100|
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Melee Damage| 50, Plus chance of Chaurus Bite - A vile poison harming the victim's health by 0.4 points for 300 seconds.|
@@ -130,6 +140,7 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 |Can Knockdown Player| Chaurus Bite can apply Paralysis |
 
 *Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Paralysis  | Immune | 
@@ -138,6 +149,7 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 **Chaurus Hunter Fledgling**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 375 |
@@ -154,15 +166,18 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 | Diseased | yes - Rattles |
 |Can Knockdown Player| Chaurus Bite can apply Paralysis |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Paralysis  | Immune | 
 
 ## Falmer
+
 The Falmer are humanoid-like creatures that dwell in Skyrim's underground areas, mostly in the parts of forsaken ruins of the dwemer. Without mentioning the astonishing history behind this race, it shall be noted that they're blind, yet can perceive their evironment exceptionally well via their other senses. They're highly intelligent and fight in groups while many of them also make use of potent poisons, making them formidable foes that aren't easily dispatched. However, they're somewhat vulnerable to fire - while, on the other hand, they're highly resistant to all kinds of poisons. They should be avoided by all but the most experienced adventurers.
 
 ### Melee
+
 A Falmer fighter carrying a Melee weapon
 
 These Falmer prefer to fight up close, wielding a fearsome weapon in one hand and a shield in the other. In addition to a Falmer Shield, they carry either a Falmer Sword, a Honed Falmer Sword, a Falmer War Axe, or a Honed Falmer War Axe. 
@@ -170,6 +185,7 @@ These Falmer prefer to fight up close, wielding a fearsome weapon in one hand an
 Falmer's armor like the players depends on what they are wearing.
    
 *Weapons Stats*
+
 |Stat| Value | 
 |--|--|
 |Falmer Sword| 42 |
@@ -178,6 +194,7 @@ Falmer's armor like the players depends on what they are wearing.
 |Honed Falmer Axe| 66 |
     
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 400 |
@@ -191,15 +208,19 @@ Falmer's armor like the players depends on what they are wearing.
 | Diseased | Yes - Damp worms |
 |Can Knockdown Player| Falmer Poison Paralyses for 7 seconds |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 20% |
 |Poison  | 75% | N/A |
 
 ### SpellSword
+
 Falmer spellswords mix the martial attacks of their melee cousins and the magical attacks of the Falmer shaman. They wield either a Falmer Sword, a Honed Falmer Sword, a Falmer War Axe, or a Honed Falmer War Axe, and they do not carry a shield, preferring instead to keep a hand free for spells. 
+
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 400 |
@@ -218,9 +239,11 @@ Falmer spellswords mix the martial attacks of their melee cousins and the magica
 |Can Knockdown Player| Falmer Poison Paralyses for 7 seconds  |
 
 ### Archers
+
 Some Falmer prefer to stay at a distance and assault you with missile attacks. These archers wield a Falmer Bow and carry 12 Falmer Arrows, and have a chance to carry a small number of other arrows (of any quality from iron to Daedric). Archers also carry a Falmer Sword, and is equipped with a Falmer Helmet.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 400 |
@@ -235,18 +258,21 @@ Some Falmer prefer to stay at a distance and assault you with missile attacks. T
 | Diseased | Yes - Damp worms |
 |Can Knockdown Player| Falmer Poison Paralyses for 7 seconds  |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 20% |
 |Poison  | 75% | N/A |
 
 ### Shaman
+
 Falmer shaman are skilled spellcasters, relying primarily on the use of offensive spells in combat. 
 
 All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice or storms) or a bound sword with the following enchantments: Banish Summoned (an effect that functions like the Oblivion Binding perk), Soul Trap (5 seconds), and Turn Raised Undead (essentially a Turn Undead effect)
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 350|
@@ -266,7 +292,8 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 | Diseased | Yes - Damp worms |
 |Can Knockdown Player| Venomous Blast can paralyse |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | 10% |   
@@ -279,6 +306,7 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 ### Bosses
 
 *Weapons Stats*
+
 |Stat| Value | 
 |--|--|
 |Falmer Sword| 42 |
@@ -289,6 +317,7 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 **Melee** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 522 |
@@ -302,7 +331,8 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 | Diseased | Yes - Damp worms |
 |Can Knockdown Player| Falmer Poison Paralyses for 7 seconds |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 20% |
@@ -311,6 +341,7 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 **SpellSword** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 500 |
@@ -330,7 +361,8 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 | Diseased | Yes - Damp worms |
 |Can Knockdown Player| Falmer Poison Paralyses for 7 seconds |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 20% |
@@ -341,6 +373,7 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 #### Melee
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 300 |
@@ -361,6 +394,7 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 350 |
@@ -386,6 +420,7 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 ### Feral
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 300 |
@@ -416,6 +451,7 @@ Giants are what their name suggests and can be found a plenty in the mountains a
 **Standard**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1250 |
@@ -432,14 +468,16 @@ Giants are what their name suggests and can be found a plenty in the mountains a
 | Diseased | No |
 |Can Knockdown Player| Yes - Giant Stomp |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 4 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Poison  | 60% | 
@@ -448,7 +486,9 @@ Giants are what their name suggests and can be found a plenty in the mountains a
 
 ---
 **Frost**
+
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1500 |
@@ -465,14 +505,16 @@ Giants are what their name suggests and can be found a plenty in the mountains a
 | Diseased | No |
 |Can Knockdown Player| Yes - Giant Stomp |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 4 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 33% |
@@ -487,6 +529,7 @@ Hagravens seem to be part woman and part raven. Generally, they're creatures tha
 **Standard**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 401 |
@@ -516,6 +559,7 @@ Hagravens seem to be part woman and part raven. Generally, they're creatures tha
 Same as standard except for spells.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magical Damage| Frostbite - The caster evokes a blast of cold that freezes everyone inside for 20 points per second, draining both health and stamina and applying a 20% slow. When the spell is released, the cold slowly ebbs away. Casting multiple Frostbite at the same target will not increase the applied damage.|
@@ -525,7 +569,9 @@ Same as standard except for spells.
 
 ---
 **Lucerne**
+
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 301 |
@@ -549,6 +595,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 **Ettiene / Fallaise / Isobel**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 419 |
@@ -579,6 +626,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 ## Ice Wraith
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 126 |
@@ -595,7 +643,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | No |
 |Can Knockdown Player| |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
@@ -618,6 +667,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 ## Magic Anomaly
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 100 |
@@ -634,7 +684,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | None |
 |Can Knockdown Player| None |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Sneak Attack | Immune |  
@@ -657,6 +708,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 **Netch**
 
 *Size Variations*
+
 |Stat| Small| Large| 
 |--|--|--|
 |Level  | 50 | 52 | 
@@ -666,6 +718,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Movement Speed| 100 |
@@ -679,7 +732,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Shock  | 85% |  
@@ -687,7 +741,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Paralysis  | Immune |  
 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
@@ -699,6 +754,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 **Netch Baby (level 38)** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1873 |
@@ -716,7 +772,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Can Knockdown Player| No |
 
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Shock  | 85% |  
@@ -732,16 +789,20 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Ranged (Bows & Crossbows)  | 3 |
 
 ## Riekling 
+
 ### Standard
+
 **Melee**
 
 *Size Variations*
+
 |Stat| Level 18 | Level 21| Level 24|  
 |--|--|--|--|
 |Health | 231 | 240 | 249|
 |Stamina| 284 | 290 | 296|
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 0 |
@@ -756,7 +817,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | No  |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
@@ -765,16 +827,17 @@ They can detect steath players So Sneak attacks are impossible to perform
 |--|--|
 |Frost  | 35 |  
 
-**Missle**
-
+**Missile**
 
 *Size Variations*
+
 |Stat| Level 18 | Level 21| Level 24|  
 |--|--|--|--|
 |Health | 231 | 240 | 249|
 |Stamina| 284 | 290 | 296|
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 0 |
@@ -789,7 +852,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | No  |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
@@ -801,6 +865,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 ### Mounted
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 381 |
@@ -817,7 +882,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | No  |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
@@ -830,6 +896,7 @@ They can detect steath players So Sneak attacks are impossible to perform
 ## Thirsk Mead Hall Chief
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 249 |
@@ -846,7 +913,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | No  |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
@@ -858,11 +926,13 @@ They can detect steath players So Sneak attacks are impossible to perform
 ## Spiders
 
 ### Frostbite
-These spiders are far more dangerous than those that dwell in the dungeons of High Rock, as they grow much larger and have an even thicker carapace. Their poison can easily kill an adult human and, if applied by their fangs, can also paralyze the victim if it is not protected greatly from poisons. Again, blunt weapons and magic are the best way to deal with their natural armor, however, they show a slight weakness to fire, which should be the prefered form of spell or enchantment if dealing with this specimen. Using poisons against them, however, is not advised, as they show a great resistance to it and also are immune to their own, which only the most experienced alchemists can extract from their very unaccessible poison sacks. Amatures will only be able to collect their less potent spittle from their fangs.
+
+These spiders are far more dangerous than those that dwell in the dungeons of High Rock, as they grow much larger and have an even thicker carapace. Their poison can easily kill an adult human and, if applied by their fangs, can also paralyze the victim if it is not protected greatly from poisons. Again, blunt weapons and magic are the best way to deal with their natural armor, however, they show a slight weakness to fire, which should be the preferred form of spell or enchantment if dealing with this specimen. Using poisons against them, however, is not advised, as they show a great resistance to it and also are immune to their own, which only the most experienced alchemists can extract from their very unaccessible poison sacks. Amateurs will only be able to collect their less potent spittle from their fangs.
 
 **Baby**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 95 |
@@ -879,7 +949,8 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 | Diseased | None |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
@@ -890,6 +961,7 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 **Tiny**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 95 |
@@ -907,7 +979,8 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 |Can Knockdown Player| No |
 
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
@@ -917,6 +990,7 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 **Medium**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 250 |
@@ -933,12 +1007,14 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 | Diseased | Yes - Chills |
 |Can Knockdown Player|  Can apply Paralysis |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
@@ -947,6 +1023,7 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 **Large**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 250 |
@@ -963,12 +1040,14 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 | Diseased | Yes - Chills |
 |Can Knockdown Player| Can apply Paralysis |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
@@ -978,6 +1057,7 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 **Wounded Giant**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 650 |
@@ -994,12 +1074,14 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 | Diseased | Yes - Chills |
 |Can Knockdown Player| Can apply Paralysis |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
@@ -1010,6 +1092,7 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 **Giant**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1250 |
@@ -1026,21 +1109,26 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 | Diseased | Yes - Chills |
 |Can Knockdown Player| Can apply Paralysis |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
 |Poison  | 60% | N/A |
 |Knock Down| Minor | N/A |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
 ### Solsheim
+
 **Albino Spider**
+
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 28 |
@@ -1058,6 +1146,7 @@ These spiders are far more dangerous than those that dwell in the dungeons of Hi
 |Can Knockdown Player| Paralyzing Poison - A poison that burns like fire, paralyzing those unfortunate enough to make contact with it for 15 seconds. |
 
 **Flame Cloaked Spider**
+
 Same as Albino.
 
 Has Flame cloak Spell 20/s in melee Range. Immune to its element.
@@ -1106,17 +1195,18 @@ Same as Albino.
 Jumps and Explodes for 96 Shock Damage. Immune to its element.
 
 **Oil Spider**
-Same as Albino, not hostile, leaves a tail of flamanble oil behind itself.
+
+Same as Albino, not hostile, leaves a tail of flammable oil behind itself.
 
   
 ## Spriggan
 
-
-Spriggans are somewhat like Nymphs, but are more associated with forests and groves. They actually do look like they consist mostly of wood and arcane energies, however, this doesn't prevent them from having a weakness against fire. On the other hand, they also show great regenerative abilities that can only be surpressed by setting them ablaze. In combat, they generally attack the target with claws and poisonous spells, while quickly retreating and regenerating if heavily injured.
+Spriggans are somewhat like Nymphs, but are more associated with forests and groves. They actually do look like they consist mostly of wood and arcane energies, however, this doesn't prevent them from having a weakness against fire. On the other hand, they also show great regenerative abilities that can only be suppressed by setting them ablaze. In combat, they generally attack the target with claws and poisonous spells, while quickly retreating and regenerating if heavily injured.
 
 **Shared Protections**
 
 *Weapon Protection*
+
 | Type | Bonus Armor |
 |--|--|
 |Pierce(Daggers)    | 66% damage reduction |
@@ -1134,6 +1224,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 **Spriggan**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 300 |
@@ -1150,7 +1241,8 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | None | 33% |
@@ -1162,6 +1254,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 **Spriggan Matron**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 400 |
@@ -1179,7 +1272,8 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 |Can Knockdown Player| No |
 
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | None | 33% |
@@ -1192,6 +1286,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 **Spriggan Earth Mother**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 547 |
@@ -1208,7 +1303,8 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 | Diseased | None |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | None | 25% |
@@ -1222,6 +1318,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 **Burnt Spriggan** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 467 |
@@ -1238,7 +1335,8 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 | Diseased | None |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | 99% | 
@@ -1258,6 +1356,7 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 **Standard**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health | 500 |  
@@ -1274,7 +1373,8 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No |
 |Can Knockdown Player| |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
@@ -1282,7 +1382,8 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 |Knockdown  | Minor | N/A |
 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
@@ -1293,6 +1394,7 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 **Large**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health | 800 |  
@@ -1309,7 +1411,8 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No  |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
@@ -1317,7 +1420,8 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 |Knockdown  | Minor | N/A |
 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
@@ -1328,6 +1432,7 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 **Frost**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 550 |
@@ -1344,14 +1449,16 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No  |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
 |Frost  | 33% | N/A |
 |Knockdown  | Minor | N/A |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
@@ -1363,6 +1470,7 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 **Cave**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 182 |
@@ -1379,7 +1487,8 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No  |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
@@ -1388,9 +1497,10 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 
 ---
 
-**Armoured**
+**Armored**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health|500  |
@@ -1407,14 +1517,16 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No  |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
 |Frost  | 25% | N/A |
 |Knock Down| Minor | N/A | 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 1 |
@@ -1423,9 +1535,10 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 
 ---
 
-**Armoured Frost**
+**Armored Frost**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 550 |
@@ -1442,14 +1555,16 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
 |Frost  | 33% | N/A |
 |Knock Down| Minor | N/A | 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 1 |
@@ -1463,6 +1578,7 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 |Health | 1100 | 1250 | 1250 | 1250 | 1250 | 1400 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 0 |
@@ -1478,13 +1594,15 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 75% |  
 |Knock Down| Minor |  
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
@@ -1493,6 +1611,7 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 ## Werebear
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 3185 |
@@ -1509,7 +1628,8 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 75% |  
@@ -1531,6 +1651,7 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 **Wisp** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 100 |
@@ -1558,7 +1679,8 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 |Standard (Melee)    | 1% |
 
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Sneak Attack | Immune |  
@@ -1568,6 +1690,7 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 **Shade** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 8 |
@@ -1584,14 +1707,14 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Sneak Attack | Immune |  
 
+*Material Protection*
 
-
-*Materiel Protection*
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 100% |
@@ -1602,9 +1725,11 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 |Standard (Melee)    | 1% |
 
 ---
+
 **Wispmother**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 800 |
@@ -1622,7 +1747,8 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 |Can Knockdown Player| No |
 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 100% |
@@ -1632,7 +1758,8 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 |Standard (Arrows)   | 1% |
 |Standard (Melee)    | 1% |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Sneak Attack | Immune |  
@@ -1645,7 +1772,9 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 ---
 
 **Wispering Spirit** 
+
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 50 |
@@ -1662,4 +1791,3 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 | Diseased | None |
 |Can Knockdown Player| None |
 
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)

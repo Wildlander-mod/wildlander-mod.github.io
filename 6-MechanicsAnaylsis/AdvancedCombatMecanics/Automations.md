@@ -21,7 +21,9 @@ They are golden colored, strong robotic creations made by the Dwemer.
 The weakest form of dwarven automatons. Shaped like a spider, they're also the smallest of constructs encountered. However, they are even faster than the Spheres and sometimes have an active crystal mounted on their top that is capable of producing lethal strikes of lightning. When approaching in large numbers, it is highly advised to either flee or make use of spells that damage multiple ones.
 
 *Standard Resistances & protections*
- *Resistances*
+
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | 80% |  
@@ -33,7 +35,8 @@ The weakest form of dwarven automatons. Shaped like a spider, they're also the s
 |Life Drain| Immune |  
 
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 5 |
@@ -48,6 +51,7 @@ The weakest form of dwarven automatons. Shaped like a spider, they're also the s
 |Magical Damage| 0 | Lightning Bolt - 85 Damage |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 200 |
@@ -67,6 +71,7 @@ The weakest form of dwarven automatons. Shaped like a spider, they're also the s
 **Warped**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 162 |
@@ -90,7 +95,8 @@ A less durable form of the dwarven automatons, the dwarven sphere is more common
 
 *Standard Resistances & protections*
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | 80% |  
@@ -101,7 +107,8 @@ A less durable form of the dwarven automatons, the dwarven sphere is more common
 |Paralysis  | Immune |  
 |Life Drain| Immune |  
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 5 |
@@ -119,6 +126,7 @@ A less durable form of the dwarven automatons, the dwarven sphere is more common
 |Ranged Damage| 0 | Crossbow 60 Damage per shot + 84 for Ammo with 30 Additional AP |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 650 |
@@ -138,6 +146,7 @@ A less durable form of the dwarven automatons, the dwarven sphere is more common
 **Malfunctioning**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 445 |
@@ -159,6 +168,7 @@ A less durable form of the dwarven automatons, the dwarven sphere is more common
 **Warped**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 293 |
@@ -181,6 +191,7 @@ A less durable form of the dwarven automatons, the dwarven sphere is more common
 Ballistae are ranged attackers that will make every effort to stay as far away from their targets as possible and assail them with high-power ballista bolts from a distance. Their attacks are particularly powerful, will stagger those they hit. For this reason, they are high priority targets to remove as soon as possible whenever they are encountered. An effective strategy for combating them is to stay at range and evade their attack, and then rush them and attempt to defeat them before they have a chance to reload their ballista bolt. 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 743 |
@@ -197,7 +208,8 @@ Ballistae are ranged attackers that will make every effort to stay as far away f
 | Diseased | None |
 |Can Knockdown Player| Can Stagger |
 
- *Resistances*
+*Resistances*
+ 
 |Type  | Protection | 
 |--|--|
 |Fire  | 80% |  
@@ -209,7 +221,8 @@ Ballistae are ranged attackers that will make every effort to stay as far away f
 |Life Drain| Immune |  
 
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 5 |
@@ -223,6 +236,7 @@ Ballistae are ranged attackers that will make every effort to stay as far away f
 The Centurion is one of the greatest inventions of dwemic craftmanship and proves to be a very dangerous foe. It's massive metal body provides an exceptional protection from all forms of physical damage and is unpenetrable by common arrows, making unenchanted bows practically useless and turning every melee fight into a very long lasting encounter. It's only weakness seems to be electric energy, as the exposure to such seems to overcharge the construct and thereby destroying the magical mechanisms that keep it running. However, some if not all of them have the ability to shoot forth streams of hot steam that can cook human-like creatures alive. If one wants to approach them in melee combat, it's most likely suicide if the daredevil does not use some sort of fire protection.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 3100 |
@@ -239,7 +253,8 @@ The Centurion is one of the greatest inventions of dwemic craftmanship and prove
 | Diseased | None |
 |Can Knockdown Player| None |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | 80% |  
@@ -252,7 +267,8 @@ The Centurion is one of the greatest inventions of dwemic craftmanship and prove
 |Life Drain| Immune |  
 
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Tier + Bonus  |
 |--|--|
 |Slash (Swords & Axes)  | T5 + 60% damage reduction |
@@ -266,6 +282,7 @@ The Centurion is one of the greatest inventions of dwemic craftmanship and prove
 The Forgemaster is a powerful Dwarven Centurion that guards the Aetherium Forge. The Forgemaster is slightly larger in size than normal Centurions, still appearing partially molten due to its long slumber in the lava, and breathes a gout of fire instead of steam. The fire it breathes will also linger on the ground for some time, causing low-medium fire damage. 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 6000 |
@@ -282,7 +299,8 @@ The Forgemaster is a powerful Dwarven Centurion that guards the Aetherium Forge.
 | Diseased | None |
 |Can Knockdown Player| None |
 
- *Resistances*
+*Resistances*
+ 
 |Type  | Protection | 
 |--|--|
 |Fire  | Immune |  
@@ -295,7 +313,8 @@ The Forgemaster is a powerful Dwarven Centurion that guards the Aetherium Forge.
 |Life Drain| Immune |  
 
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Tier + Bonus  |
 |--|--|
 |Slash (Swords & Axes)  | T5 + 60% damage reduction |
@@ -310,6 +329,7 @@ A much more Larger, rarer form of the Dwarven Sphere, and much more dangerous. I
 For any adventure foolish enough to take one on, poison and shock resistance is therefore a must, along with shock enchanted blunt weaponry to reduce its healing.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1577 |
@@ -326,7 +346,8 @@ For any adventure foolish enough to take one on, poison and shock resistance is 
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+ 
 |Type  | Protection | 
 |--|--|
 |Fire  | Immune|  
@@ -338,7 +359,8 @@ For any adventure foolish enough to take one on, poison and shock resistance is 
 |Life Drain| Immune |  
 
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Tier + Bonus  |
 |--|--|
 |Slash (Swords & Axes)  | t5 + 60% Damage reduction|
@@ -347,4 +369,4 @@ For any adventure foolish enough to take one on, poison and shock resistance is 
 |Blunt (Maces & Hammers)   | 25% Damage Reduction |
 
 
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)
+

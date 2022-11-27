@@ -21,7 +21,8 @@ Domesticated animals are usually found in camps, villages, cities or occasionall
 
 ## **Chicken**
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 5 |
@@ -40,7 +41,8 @@ Domesticated animals are usually found in camps, villages, cities or occasionall
 
 ## **Dog**
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 190 |
@@ -59,7 +61,8 @@ Domesticated animals are usually found in camps, villages, cities or occasionall
 
 ## **Cow**
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 185 |
@@ -78,7 +81,8 @@ Domesticated animals are usually found in camps, villages, cities or occasionall
 
 ## **Goat**
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 75 |
@@ -95,14 +99,16 @@ Domesticated animals are usually found in camps, villages, cities or occasionall
 | Diseased | None |
 |Can Knockdown Player| No|
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% | 
 
 ## **Horse**
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 350 |
@@ -121,7 +127,8 @@ Domesticated animals are usually found in camps, villages, cities or occasionall
 
 ## **Husky**
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 100 |
@@ -138,7 +145,8 @@ Domesticated animals are usually found in camps, villages, cities or occasionall
 | Diseased | None |
 |Can Knockdown Player| No|
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 2 |
@@ -151,6 +159,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Ash Hopper**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 325 |
@@ -167,12 +176,14 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 | Diseased | Yes - Droops |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Fire  | 25% |  
@@ -183,6 +194,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Small Deer**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 200 |
@@ -203,6 +215,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Deer**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 200 |
@@ -222,6 +235,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Vale Deer** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 50 |
@@ -241,6 +255,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Small Elk**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 400 |
@@ -261,6 +276,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Elk**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 375 |
@@ -280,6 +296,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Wild Goat**
 
 *Size Variations*
+
 |Stat| Small| Medium| Large|
 |--|--|--|--|
 |Level  | 1 | 1 | 1 |
@@ -289,6 +306,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 |Movement Speed| 110 | 120 | 95 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Melee Damage| 7.5 |
@@ -301,7 +319,8 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% | 
@@ -309,6 +328,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 ## **Rabbit**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 5 |
@@ -328,6 +348,7 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 **Fox & Snow Fox**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 14 |
@@ -344,7 +365,8 @@ Wild prey are usually not hostile unless attacked or if one gets to close.
 | Diseased | Yes - RockJoint |
 |Can Knockdown Player| No |
 
- *Resistances - Snow Fox Only*
+*Resistances - Snow Fox Only*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% | 
@@ -355,6 +377,7 @@ Mammoths are found a plenty on the plains of Skyrim, either roaming the land wil
 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 3000 |
@@ -371,7 +394,8 @@ Mammoths are found a plenty on the plains of Skyrim, either roaming the land wil
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 33% | 
@@ -379,7 +403,8 @@ Mammoths are found a plenty on the plains of Skyrim, either roaming the land wil
 |Paralysis  | Immune |  
  
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 3 |
@@ -389,6 +414,7 @@ Mammoths are found a plenty on the plains of Skyrim, either roaming the land wil
 ## **Bristleback** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 265 |
@@ -406,11 +432,13 @@ Mammoths are found a plenty on the plains of Skyrim, either roaming the land wil
 |Can Knockdown Player| No |
 
 # Predators
+
 ## Skeevers
 
 Looking somewhat like the giant rats that dwell in Cyrodiil, Morrowind, Highrock and other provinces, Skeevers are the representation of these creatures in the land of Skyrim. They are rather small and a little skittish and will only prove to be a nuisance for anyone who can (and does) carry a weapon of any sort. 
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 25 |
@@ -435,6 +463,7 @@ Horkers are a common form of life at Skyrim's coasts. Their appearance is somewh
 ### **Horker Youngling**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 669 |
@@ -451,7 +480,8 @@ Horkers are a common form of life at Skyrim's coasts. Their appearance is somewh
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% |  
@@ -460,6 +490,7 @@ Horkers are a common form of life at Skyrim's coasts. Their appearance is somewh
 ### **Horker**
 
 *Size Variations*
+
 |Stat| Small| Medium| Large|
 |--|--|--|--|
 |Level  | 3 | 5 | 8 |
@@ -469,7 +500,8 @@ Horkers are a common form of life at Skyrim's coasts. Their appearance is somewh
 |Movement Speed| 105 | 100| 95 |
 |Melee Damage| 135 | 235 | 235 |
 
- *Basic Stats*
+*Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Ranged Damage| None |
@@ -480,7 +512,8 @@ Horkers are a common form of life at Skyrim's coasts. Their appearance is somewh
 |Health Regeneration| None |
 | Diseased | None |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% |  
@@ -501,6 +534,7 @@ Just before they leap, dodge to the side. Its tricky at first but with practice 
 ### **Wolf**
 
 *Size Variations*
+
 |Stat| Small| Medium| Large|
 |--|--|--|--|
 |Level  | 2 | 2 | 3 |
@@ -511,6 +545,7 @@ Just before they leap, dodge to the side. Its tricky at first but with practice 
 |Damage  | 25 | 25 | 25 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Ranged Damage| None  |
@@ -527,6 +562,7 @@ Just before they leap, dodge to the side. Its tricky at first but with practice 
 ### **Ice Wolf**
 
 *Size Variations*
+
 |Stat| Small| Medium| Large|
 |--|--|--|--|
 |Level  | 5 | 6 | 7 |
@@ -537,6 +573,7 @@ Just before they leap, dodge to the side. Its tricky at first but with practice 
 |Damage  | 35 | 35 | 35 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Ranged Damage| None  |
@@ -548,7 +585,8 @@ Just before they leap, dodge to the side. Its tricky at first but with practice 
 | Diseased | Yes - Rockjoint or Feeble Limb  |
 |Can Knockdown Player| no |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% |  
@@ -558,6 +596,7 @@ Just before they leap, dodge to the side. Its tricky at first but with practice 
 ### **Pit Wolf**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 125 |
@@ -581,6 +620,7 @@ As in many other provinces, mudcrabs can also be found in Skyrim, though their a
 ### **Small**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 100 |
@@ -597,7 +637,8 @@ As in many other provinces, mudcrabs can also be found in Skyrim, though their a
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 2 |
@@ -608,6 +649,7 @@ As in many other provinces, mudcrabs can also be found in Skyrim, though their a
 ### **Large**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 200 |
@@ -624,12 +666,14 @@ As in many other provinces, mudcrabs can also be found in Skyrim, though their a
 | Diseased | No |
 |Can Knockdown Player|  |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Knock Down| Minor | 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 3 |
@@ -639,6 +683,7 @@ As in many other provinces, mudcrabs can also be found in Skyrim, though their a
 ### **Giant**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 325 |
@@ -655,12 +700,14 @@ As in many other provinces, mudcrabs can also be found in Skyrim, though their a
 | Diseased | No |
 |Can Knockdown Player| |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Knock Down| Minor | 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 3 |
@@ -672,12 +719,14 @@ Skyrim is home of many bears, with many variations depending on the given territ
 
 ### **Shared**
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Knock Down| Minor |  
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 4 |
@@ -687,6 +736,7 @@ Skyrim is home of many bears, with many variations depending on the given territ
 ### **Standard**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 650 |
@@ -707,6 +757,7 @@ Skyrim is home of many bears, with many variations depending on the given territ
 ### **Cave**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health | 700 |
@@ -727,6 +778,7 @@ Skyrim is home of many bears, with many variations depending on the given territ
 ### **Snow**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health | 600 |
@@ -743,7 +795,8 @@ Skyrim is home of many bears, with many variations depending on the given territ
 | Diseased | Chance of Bone Break Fever or Feeble Limb |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% | 
@@ -760,6 +813,7 @@ The snow ones like jumpscares - you have been warned.
 ### **Standard**
 
 *Size Variations*
+
 |Stat| Small| Normal| Large|
 |--|--|--|--|
 |Level  | 6 | 6 | 9 |
@@ -768,6 +822,7 @@ The snow ones like jumpscares - you have been warned.
 |Stamina| 200 | 200  | 300 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Movement Speed| 175 |
@@ -781,7 +836,8 @@ The snow ones like jumpscares - you have been warned.
 | Diseased | Yes - Witbane or Wither |
 |Can Knockdown Player| Yes |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus Armor |
 |--|--|
 |Pierce(Daggers)    | 120 |
@@ -792,6 +848,7 @@ The snow ones like jumpscares - you have been warned.
 ### **Snow**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 575 |
@@ -808,14 +865,16 @@ The snow ones like jumpscares - you have been warned.
 | Diseased | Yes - Witbane or Wither  |
 |Can Knockdown Player| Yes |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 3 |
 |Blunt (Maces & Hammers)   | 3 |
 |Ranged (Bows & Crossbows)  | 3 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% | 
@@ -825,6 +884,7 @@ The snow ones like jumpscares - you have been warned.
 ### **Vale**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 500 |
@@ -841,7 +901,8 @@ The snow ones like jumpscares - you have been warned.
 | Diseased | Yes - Witbane or Wither  |
 |Can Knockdown Player| Yes |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 3 |
@@ -854,6 +915,7 @@ As they can be found in many provinces, Slaughterfish are also a common sight in
 ### **Standard**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 80 |
@@ -874,6 +936,7 @@ As they can be found in many provinces, Slaughterfish are also a common sight in
 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 325 |
@@ -890,14 +953,16 @@ As they can be found in many provinces, Slaughterfish are also a common sight in
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 2 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 60% | 
@@ -905,6 +970,7 @@ As they can be found in many provinces, Slaughterfish are also a common sight in
 ### **Giant**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1232 |
@@ -921,16 +987,18 @@ As they can be found in many provinces, Slaughterfish are also a common sight in
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 2 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 60% | 
 
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics#about-these-guides)
+

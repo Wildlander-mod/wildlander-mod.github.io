@@ -8,6 +8,7 @@ grand_parent: Mechanic Analysis
 ---
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 5110 |
@@ -27,13 +28,15 @@ grand_parent: Mechanic Analysis
 | Diseased | No |
 |Can Knockdown Player| Yes - From Bull Rush |
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  |  5 |
 |Ranged (Bows & Crossbows)  | 4 |
 
- *Resistances*
+*Resistances*
+ 
 |Type  | Protection |
 |--|--|
 |Frost  | 95|  

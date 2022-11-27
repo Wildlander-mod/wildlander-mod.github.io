@@ -27,7 +27,7 @@ grand_parent: Mechanic Analysis
 |Standard (Arrows)   | 10% damage |
 
 
- *Weapon Protection*
+*Weapon Protection*
 
 | Type | Damage change |
 |--|--|
@@ -35,7 +35,7 @@ grand_parent: Mechanic Analysis
 |Blunt (Maces & Hammers)   | 50% Damage reduction |
 |Ranged (Bows & Crossbows)  | Tier 3 |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |  Weakness|
 |--|--|--|
@@ -173,7 +173,7 @@ grand_parent: Mechanic Analysis
 |Silver (Melee)      | 150% |
 |Silver (Arrows)     | 150% |
 
- *Resistances*
+*Resistances*
 
 
 |Type  | Protection |  
@@ -207,7 +207,7 @@ In Requiem - these guys are various shades of "utter bastard"
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |  
 |--|--|
@@ -291,7 +291,7 @@ In Requiem - these guys are various shades of "utter bastard"
 
 Note: Does not have the shared spells.
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection | 
 |--|--|
@@ -395,7 +395,7 @@ A Stronger Fire Variant Dragon priest.
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection | 
 |--|--|
@@ -442,7 +442,7 @@ A Stronger Ice Variant Dragon priest.
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection | 
 |--|--|
@@ -492,7 +492,7 @@ A Stronger Storm Variant Dragon priest.
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection | 
 |--|--|
@@ -541,7 +541,7 @@ A Stronger Storm Variant Dragon priest.
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection | 
 |--|--|
@@ -628,7 +628,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 
 ### Standard 
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |  Weakness|
 |--|--|--|
@@ -682,7 +682,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 | Diseased | No |
 |Can Knockdown Player|  No|
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |  Weakness|
 |--|--|--|
@@ -739,7 +739,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Can Knockdown Player| Yes |
 
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |  Weakness|
 |--|--|--|
@@ -805,7 +805,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Standard (Melee)    | 10% damage |
 |Standard (Arrows)   | 10% damage |
 
- *Weapon Protection*
+*Weapon Protection*
 | Type | Change|
 |--|--|
 |Pierce(Daggers)            | 50% Damage reduction |
@@ -976,7 +976,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 |Paralysis  | Immune|  
 |Knock Down| Minor | 
 
- *Weapon Protection*
+*Weapon Protection*
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 4  |
@@ -1042,7 +1042,7 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 
 ### Shared
 
- *Weapon Protection*
+*Weapon Protection*
 | Type | Bonus Armor |
 |--|--|
 |Slash (Swords & Axes)      | 50% reduction |
@@ -1196,7 +1196,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 *Marksman*
 * OverDraw - Bows do 140% damage.
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |  Weakness|
 |--|--|--|
@@ -1224,7 +1224,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection | 
 |--|--|
@@ -1254,7 +1254,7 @@ Cryomancy - All frost spells deal 15% more damage.
 | Diseased | No |
 |Can Knockdown Player|  |
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |  Weakness|
 |--|--|--|
@@ -1264,7 +1264,7 @@ Cryomancy - All frost spells deal 15% more damage.
 |Poison  | Immune | N/A  |
 |Sneak Attack | Immune | N/A  |
 
- *Weapon Protection*
+*Weapon Protection*
  
 | Type | Tier |
 |--|--|
@@ -1393,7 +1393,7 @@ Black skeleton warriors found in the Soul Cairn. You can summon them after learn
 | Diseased | None |
 |Can Knockdown Player| Yes - With Cleaves |
 
- *Weapon Protection*
+*Weapon Protection*
  
 | Type | Reductions |
 |--|--|

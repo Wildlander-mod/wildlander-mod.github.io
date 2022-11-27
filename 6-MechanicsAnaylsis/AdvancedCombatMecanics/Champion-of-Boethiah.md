@@ -12,6 +12,7 @@ NPC id:000834FE
 Wears Ebony Mail, Gauntlets and Boots.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 550 |
@@ -29,12 +30,14 @@ Wears Ebony Mail, Gauntlets and Boots.
 |Can Knockdown Player| Yes |
 
 *Weapons*
+
 |Name|Base Stats|
 |--|--|
 |Ebony Mace of the Vampire    | 90 + 25 Health Absorb from enchant |
 |Ebony Shield      | 270 Armor When blocking |
 
  *Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 5  |

@@ -10,6 +10,7 @@ grand_parent: Mechanic Analysis
 Npc: 0201A73E
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 2350 |
@@ -27,6 +28,7 @@ Npc: 0201A73E
 |Can Knockdown Player| Yes |
 
 *Skills*
+
 |Name| Stats|
 |--|--|
 |One handed  |100|
@@ -35,6 +37,33 @@ Npc: 0201A73E
 |Block       |100|
 |Light Armor |100|
 |Illusion    |40|
+
+
+*Material Protection*
+
+| Type | Damage change |
+|--|--|
+|Standard (Melee)    | 10% damage |
+|Standard (Arrows)   | 10% damage |
+
+ *Weapon Protection*
+ 
+| Type | Reductions |
+|--|--|
+|Slash (Swords & Axes)      | 50% reduction |
+|Pierce(Daggers)            | 80% reduction |
+|Ranged (Bows & Crossbows)  | 75% reduction |
+
+*Resistances*
+ 
+|Type  | Protection | Weakness|
+|--|--|--|
+|Frost  | 80% | N/A |
+|Fire |N/A |  25% |
+|Poison  | 100 | N/A |
+|Paralysis  | Immune | N/A |
+|Sneak Attack | Immune | N/A |
+|Unrelenting Force|Immune | N/A |
 
 **Additional Perks**
 * Mighty Strike - A single strike from His two-handed weapon can fell almost any foe.<br>[damage x 1.25, +20 armor penetration]
@@ -54,25 +83,3 @@ Npc: 0201A73E
 * Cleave - His power attacks are truly devastating and he can cut down multiple foes with a single sweeping blow. [Sideways power attack can hit multiple targets]
 * Devastating Cleave - You've enhanced His cleave with terrifying finesse and power.[Sideways power attacks can knock down]
 
-*Materiel Protection*
-| Type | Damage change |
-|--|--|
-|Standard (Melee)    | 10% damage |
-|Standard (Arrows)   | 10% damage |
-
- *Weapon Protection*
- | Type | Reductions |
-|--|--|
-|Slash (Swords & Axes)      | 50% reduction |
-|Pierce(Daggers)            | 80% reduction |
-|Ranged (Bows & Crossbows)  | 75% reduction |
-
- *Resistances*
- |Type  | Protection | Weakness|
-|--|--|--|
-|Frost  | 80% | N/A |
-|Fire |N/A |  25% |
-|Poison  | 100 | N/A |
-|Paralysis  | Immune | N/A |
-|Sneak Attack | Immune | N/A |
-|Unrelenting Force|Immune | N/A |

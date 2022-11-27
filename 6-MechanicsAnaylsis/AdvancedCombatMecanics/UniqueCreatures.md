@@ -14,6 +14,7 @@ NPC_:5F01EBCF
 Mod: Skyrim Sewers
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 220 |
@@ -30,14 +31,16 @@ Mod: Skyrim Sewers
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
 |Frost  | 25% | N/A |
 |Knockdown  | Minor | N/A |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
@@ -51,6 +54,7 @@ NPC_:81AD36E3
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 375 |
@@ -66,6 +70,8 @@ Mod: Requiem
 |Health Regeneration| None  |
 | Diseased | No |
 |Can Knockdown Player| No |
+
+*Resistances*
 
 |Type  | Protection | 
 |--|--|
@@ -88,7 +94,7 @@ Mod: Requiem
 * Experienced Blocking - She blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina
 * Great Weapon Mastery II - Advanced martial techniques further increase the damage and ease of her two-handed attacks. [Damage x 1.4, -50% weapon weight penalties]
 * Improved Blocking - Her honed blocking technique mitigates 25% more damage.
-Devastating Charge - She's learned to perform a leaping power attack while sprinting, reducing her enemies to smithereens. [Unlocks sprinting power attack, -25% weapon weight penalties]
+* Devastating Charge - She's learned to perform a leaping power attack while sprinting, reducing her enemies to smithereens. [Unlocks sprinting power attack, -25% weapon weight penalties]
 * Conditioning - After some basic training, stamina drain from wearing heavy armor is negated.Armor weight penalties are reduced.
 * Martial Arts - Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 
@@ -100,6 +106,7 @@ NPC: 81046761
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 3025 |
@@ -116,13 +123,15 @@ Mod: Requiem
 | Diseased | No |
 |Can Knockdown Player| Yes - Swamp Fever |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 60% |  
 |Knock Down| Minor |  
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus Armor |
 |--|--|
 |Slash (Swords & Axes)  | 250 |
@@ -136,6 +145,7 @@ NPC: 81044BF2
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1250 |
@@ -152,14 +162,16 @@ Mod: Requiem
 | Diseased | None |
 |Can Knockdown Player| Yes - Giant Stomp |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus Armor |
 |--|--|
 |Pierce(Daggers)    | 100 |
 |Blunt (Maces & Hammers)   | 100 |
 |Ranged (Bows & Crossbows)  | 200 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 60% |  
@@ -173,6 +185,7 @@ Mod: Requiem
 NPC: 814B1DAA
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 368 |
@@ -189,8 +202,8 @@ NPC: 814B1DAA
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
- 
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50 |  
@@ -203,6 +216,7 @@ Mod: Skyrim Sewers
 NPC: 5F031342
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 397 |
@@ -220,7 +234,8 @@ NPC: 5F031342
 | Diseased | no |
 |Can Knockdown Player| No |
    
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Frost  | Immune | N/A |
@@ -230,13 +245,15 @@ NPC: 5F031342
 |Sneak Attack | Immune | N/A |
 |Knock Down| Minor | N/A |
    
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
@@ -250,6 +267,7 @@ NPC: 04019665
 Mod: Dragonborn
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 8282|
@@ -266,6 +284,8 @@ Mod: Dragonborn
 | Diseased | No |
 |Can Knockdown Player| Yes - Giant Stomp |
 
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Frost  | Immune |  
@@ -276,18 +296,20 @@ Mod: Dragonborn
 |Wabbajack| Immune|  
 |Unrelenting Force| Immune|  
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 4 |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
-|Standard (Melee)    | 10% |
-|Standard (Arrows)   | 10% |
+|Standard (Melee)    | 10% Damage Done|
+|Standard (Arrows)   | 10% Damage Done|
 
 **Additional Perks**
 Cryomancy 2  All frost spells deal 30% more damage.
@@ -299,6 +321,7 @@ NPC: 81AD38BF
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1300 |
@@ -317,21 +340,24 @@ Mod: Requiem
 | Diseased | No |
 |Can Knockdown Player| Yes - Unrelenting Force|
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
 |Silver (Arrows)     | 100% Damage Done (after armor Mitigation) |
 |Standard (Arrows)   | 10% damage |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 50% Damage reduction |
 |Blunt (Maces & Hammers)   | 50% Damage reduction |
 |Ranged (Bows & Crossbows)  | 3 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
@@ -360,6 +386,7 @@ NPC: 8104517E
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 2750 |
@@ -376,7 +403,8 @@ Mod: Requiem
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
@@ -384,7 +412,8 @@ Mod: Requiem
 |Poison  | 60% | N/A |
 |Knockdown  | Minor | N/A |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
@@ -398,6 +427,7 @@ NPC_:841C3377
 Mod: Fozar's Requiem.
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1200 |
@@ -420,7 +450,8 @@ Mod: Fozar's Requiem.
 **Additional Perks**
 Electromancy - All shock spells deal 15% more damage.
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Shock | Immune |
@@ -429,13 +460,15 @@ Electromancy - All shock spells deal 15% more damage.
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
-|Daedric (Melee)     | 150% |
-|Daedric (Arrows)     | 150% |
+|Daedric (Melee)     | 150% damage done|
+|Daedric (Arrows)     | 150% damage done|
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
@@ -449,6 +482,7 @@ NPC: 000A19FE
 Mod: Base Game
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 200 |
@@ -465,12 +499,14 @@ Mod: Base Game
 | Diseased | Yes - Chills |
 |Can Knockdown Player|  Yes - Spider poison Paralysis |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
@@ -483,6 +519,7 @@ NPC: 04026196
 Mod Fozar's Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 925 |
@@ -499,7 +536,8 @@ Mod Fozar's Requiem
 | Diseased | None |
 |Can Knockdown Player|  None |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Frost  | 50% |  
@@ -518,6 +556,7 @@ ACHR: 00060BB5
 Mod: Base Game
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1250 |
@@ -534,14 +573,16 @@ Mod: Base Game
 | Diseased | Yes - Chills |
 |Can Knockdown Player| Can apply Paralysis |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
 |Poison  | 60% | N/A |
 |Knock Down| Ninor | N/A |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
@@ -553,6 +594,7 @@ NPC: 0401D77A
 Mod: Fozar's Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 325 |
@@ -569,7 +611,8 @@ Mod: Fozar's Requiem
 | Diseased | None |
 |Can Knockdown Player| None |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 3 |
@@ -582,6 +625,7 @@ NPC: 8135214E
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 3000 |
@@ -598,14 +642,16 @@ Mod: Requiem
 | Diseased | No |
 |Can Knockdown Player| Yes - Giant Stomp|
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 4 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 33% |
@@ -621,6 +667,7 @@ NPC: 810731D2
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 470 |
@@ -668,6 +715,7 @@ NPC: 0006C1B7
 Mod: Base Game
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1400 |
@@ -684,18 +732,20 @@ Mod: Base Game
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 75% | 
 |Paralysis  | Immune | 
 |Knock Down| Minor |  
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
-|Silver (Melee)      | 150% |
-|Silver (Arrows)     | 150% |
+|Silver (Melee)      | 150% Damage Done|
+|Silver (Arrows)     | 150% Damage Done|
 
 #  **Sos** : Named Atronoch
 
@@ -704,6 +754,7 @@ NPC: 841C337A
 Mod: Fozar's Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1700 |
@@ -723,7 +774,8 @@ Mod: Fozar's Requiem
 | Diseased | No |
 |Can Knockdown Player|  No|
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Shock | Immune |
@@ -732,13 +784,15 @@ Mod: Fozar's Requiem
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
@@ -755,6 +809,7 @@ NPC: 813A8C1F
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 900 |
@@ -771,11 +826,14 @@ Mod: Requiem
 | Diseased | Yes - Witbane  |
 |Can Knockdown Player| Yes |
 
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Frost  | 50% |  
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
@@ -789,6 +847,7 @@ NPC: 000D37F4
 Mod: Base Game
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 800 |
@@ -805,7 +864,8 @@ Mod: Base Game
 | Diseased | No |
 |Can Knockdown Player| No |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 100% |
@@ -815,7 +875,8 @@ Mod: Base Game
 |Standard (Arrows)   | 1% |
 |Standard (Melee)    | 1% |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Sneak Attack | Immune |  
@@ -839,6 +900,7 @@ NPC: 81210246
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 2200 |
@@ -859,7 +921,8 @@ Mod: Requiem
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Shock | Immune |
@@ -868,13 +931,15 @@ Mod: Requiem
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
@@ -891,6 +956,7 @@ NPC: 8104517A
 Mod: Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1850 |
@@ -907,7 +973,8 @@ Mod: Requiem
 | Diseased | yes - Swamp Fever |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 50% |
@@ -922,6 +989,7 @@ NPC: 000D0575
 Mod: Base game
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 420 |
@@ -942,6 +1010,8 @@ Mod: Base game
 | Diseased | No |
 |Can Knockdown Player| Yes - Unrelenting force |
 
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Frost  | 50|  
@@ -950,7 +1020,8 @@ Mod: Base game
 |Paralysis  | Immune |  
 |Unrelenting Force| Immune |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  |  3 |
@@ -992,6 +1063,7 @@ NPC_:5F023A38
 Mod: Skyrim Sewers
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1097 |
@@ -1008,13 +1080,15 @@ Mod: Skyrim Sewers
 | Diseased | No |
 |Can Knockdown Player| Yes |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Poison  | 75% |  
 |Knock Down| Minor |  
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
@@ -1027,6 +1101,7 @@ NPC: 841C3375
 Mod: Fozar's Requiem
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 700 |
@@ -1046,7 +1121,8 @@ Mod: Fozar's Requiem
 | Diseased | No |
 |Can Knockdown Player|  No|
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Shock | Immune |
@@ -1055,13 +1131,15 @@ Mod: Fozar's Requiem
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
@@ -1071,4 +1149,3 @@ Mod: Fozar's Requiem
 **Additional Perks**
 * Electromancy - All shock spells deal 15% more damage.
 
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics#the-guides)

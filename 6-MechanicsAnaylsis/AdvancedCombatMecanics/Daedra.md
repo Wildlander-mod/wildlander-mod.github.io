@@ -19,6 +19,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 # Ash Guardian
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1000 |
@@ -38,7 +39,8 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 **Additional Perks**
 * Pyromancy  - All frost spells deal 15% more damage.
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | Immune |
@@ -47,13 +49,15 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Bonus  |
 |--|--|
 |Slash (Swords & Axes)      | 50% damage reduction |
@@ -67,13 +71,15 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 ### *Shared* 
 
-*Materiel Weaknesses*
+*Material Weaknesses*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | Immune | N/A |
@@ -86,6 +92,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ### **Standard** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 300 |
@@ -110,6 +117,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ### **Potent Flame Thrall** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 825 |
@@ -142,7 +150,8 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 ### *Shared* 
 
- *Resistances*
+*Resistances*
+ 
 |Type  | Protection | Weakness|
 |--|--|--|
 |Frost  | Immune | N/A |
@@ -152,13 +161,15 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Sneak Attack | Immune | N/A |
 |Knock Down| Minor | N/A |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
@@ -168,6 +179,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ### **Standard**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1000 |
@@ -188,6 +200,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ### **Potent Thrall**
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1300 |
@@ -211,7 +224,8 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 ### *Shared*
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Shock | Immune |
@@ -221,12 +235,14 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Knock Down| Minor | 
 
 *Materiel Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
@@ -236,6 +252,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ### **Standard** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 800 |
@@ -259,6 +276,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ### **Potent Thrall** 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 950 |
@@ -321,27 +339,28 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 |Magical AR| 50% | 50% | 80% |
 |Ap| 5 | 50 + 14 from arrows | 0 |
 
-*shared Stats*
+*Shared stats*
+
 |Stat| Value |
 |--|--|
 |Health Regeneration| No - But caster varients do have a self heal spell |
 | Diseased | No |
 |Can Knockdown Player| Melee Varients Can |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | 85% | 
 |Unrelenting Force  | Immune | 
 |Knock Down| Minor |
-
-**Additional Perks**
 
 
 ---
@@ -355,6 +374,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 |Stamina| 3862 |3871|3892|3914|
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 1015 |
@@ -370,14 +390,16 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 4 |
 |Ranged (Bows & Crossbows)  | 4 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Frost  | 80% |  
@@ -397,6 +419,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Stamina| 400 |
@@ -412,14 +435,16 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 |Can Knockdown Player| Yes |
 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 5 |
 |Blunt (Maces & Hammers)   | 4 |
 |Ranged (Bows & Crossbows)  | 4 |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | Weakness|
 |--|--|--|
 |Frost  | N/A  | 20% |
@@ -438,9 +463,11 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 Slighted a a new type of Dremora introduced by Requiem. they (mostly) have identical stats, the differences come with weaponry or spells. The Melee varients use weapons exclusivly and do not employ magic. The caster Varients come Equiped with a Sword and nothing in the offhand.
 
 *Weapons*
+
 Can have any Daedric varient of weapon in both 1h or 2h varients (Sword, Axe, Bow & arrows, Mace) and a shield for 1 handers.
 
 * Caster varient Spell *
+
 Summon Flame, Frost and Storm Thrall - Summons a potent varient of each atronoch type for 300 seconds.
 
 |Stat| Oberoth |  All others |
@@ -448,6 +475,7 @@ Summon Flame, Frost and Storm Thrall - Summons a potent varient of each atronoch
 |Health| 930 | 1430 |
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 800 |
@@ -461,13 +489,15 @@ Summon Flame, Frost and Storm Thrall - Summons a potent varient of each atronoch
 | Diseased | No |
 |Can Knockdown Player| yes |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Daedric (Melee)     | 150% |
 |Daedric (Arrows)     | 150% |
 
- *Resistances*
+*Resistances*
+
 |Type  | Protection | 
 |--|--|
 |Fire  | 85% | 
@@ -613,4 +643,3 @@ Precise Aim reveals weak spots in the enemy's defenses.[Damage x 1.2 with bow an
 * Conditioning - After some basic training, stamina drain from wearing heavy armor is negated.Armor weight penalties are reduced.
 
 
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)

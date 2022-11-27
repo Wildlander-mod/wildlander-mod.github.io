@@ -8,6 +8,7 @@ grand_parent: Mechanic Analysis
 ---
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 1722 |
@@ -29,6 +30,7 @@ grand_parent: Mechanic Analysis
 |Can Knockdown Player| No |
 
  *Resistances*
+ 
 |Type  | Protection |
 |--|--|
 |Shock | 25 |  

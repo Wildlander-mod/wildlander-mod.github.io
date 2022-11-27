@@ -54,9 +54,9 @@ Perks
 * Cognitive Flexibility 2 - mastered the art of Cognitive Flexibility and can now maintain three summons of any type.
 * Spell Armor - His Mage Armor spells reduce incoming elemental damage by 15%.
 * Twin Souls - He can maintain two atronachs or reanimated zombies.
-                                                                                                                     
-                                                                                                                                 
+
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 4995 |
@@ -72,7 +72,9 @@ Perks
 |Health Regeneration|  No |
 | Diseased | No |
 |Can Knockdown Player| Yes. through various methods. |             
-                                                                                                                                 
+                          
+*Resistances*
+					  
 |Type  | Protection |
 |--|--|
 |Frost  | 85 |  
@@ -88,9 +90,9 @@ Perks
 |Bend Will|Immune |     
 |Moras Grasp| Immune|     
 |Aetherial Shield| Immune|     
-                                                                                                                                 
 
  *Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  |  2 |

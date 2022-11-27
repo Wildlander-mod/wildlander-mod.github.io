@@ -8,6 +8,7 @@ grand_parent: Mechanic Analysis
 ---
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 470 |
@@ -27,6 +28,7 @@ grand_parent: Mechanic Analysis
 |Can Knockdown Player|  Yes - See Perks|
 
 *Skills*
+
 |Name| Stats|
 |--|--|
 |One handed  |100|
@@ -36,6 +38,7 @@ grand_parent: Mechanic Analysis
 |Heavy Armor |100|
 
 *Weapons*
+
 |Name|Base Stats|
 |--|--|
 | Orcish War Axe of Depleting  | 66 + Deals 40 points of Magicka damage. |
@@ -44,10 +47,17 @@ grand_parent: Mechanic Analysis
 | Orcish Shield ( Can be tempered)   | Minimum 216 |
 
  *Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Pierce(Daggers)    | 5 |
 |Ranged (Bows & Crossbows)  | 3 |
+
+*Resistances*
+ 
+|Type  | Protection |
+|--|--|
+|Poison  | 80% |  
 
 **Additional Perks**
 *Regardless of weapon*
@@ -101,8 +111,4 @@ grand_parent: Mechanic Analysis
 * Penetrating Shot He can keenly spot the gaps in armor, further increasing armor penetration with ranged weapons.<br>[+15 Armor penetration, +100% armor penetration from ammunition]
 * Rapid Reload  advanced mechanical knowledge lessens reload time for all crossbows.[+10 armor penetration, +50% reload speed with crossbows]
 
- *Resistances*
- 
-|Type  | Protection |
-|--|--|
-|Poison  | 80% |  
+

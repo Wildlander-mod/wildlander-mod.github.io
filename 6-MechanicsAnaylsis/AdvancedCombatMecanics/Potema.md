@@ -8,6 +8,7 @@ grand_parent: Mechanic Analysis
 ---
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 385 |
@@ -57,20 +58,23 @@ grand_parent: Mechanic Analysis
 **Additional Perks**
 * Necromancy Undead and ghostly summons last 50% longer. He can reanimate more powerful corpses (3x higher level) that last 10x longer.
 
- *Weapon Protection*
+*Weapon Protection*
+ 
 | Type | Reductions |
 |--|--|
 |Slash (Swords & Axes)      | 50% reduction |
 |Pierce(Daggers)            | 80% reduction |
 |Ranged (Bows & Crossbows)  | 75% reduction |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
 |Standard (Arrows)   | 20% |
 
- *Resistances*
+*Resistances*
+ 
 |Type  | Protection | Weakness|
 |--|--|--|
 |Frost  | 80 | N/A  |

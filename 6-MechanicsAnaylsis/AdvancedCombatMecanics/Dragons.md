@@ -54,6 +54,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 # Standard Fire
 
 *Variations*
+
 |Stat / Color| Gold (level 40) | Silver | Gold with Black Spots | Gold (level 30)| Fantail Gold(Purple Back)  | Purple |
 |--|--|--|--|--|--|--|
 |Health| 7400 |  7000  |  7400 | 7300 | 7600| 7800 
@@ -66,6 +67,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 * Fire Breath
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 5000 |
@@ -78,7 +80,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 |Can Knockdown Player| Tail swipe can Stagger |
 
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection | Weakness|
 |--|--|--|
@@ -88,7 +90,8 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 |Paralysis  | Immune |  N/A  |
 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier and reductions|
 |--|--|
 |Slash (Swords & Axes)  | 3 + 70% Damage reduction |
@@ -109,6 +112,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 |Shout| Ice Storm, Frost Breath |  | Ice Storm|  Disarm | Ice Storm, Disarm | Ice Storm, Disarm|
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Magicka| 5000 |
@@ -121,7 +125,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 |Can Knockdown Player| Tail swipe can Stagger |
 
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection | Weakness|
 |--|--|--|
@@ -130,7 +134,8 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 |Poison  | 60% |  N/A |
 |Paralysis  | Immune |  N/A  |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier and reductions|
 |--|--|
 |Slash (Swords & Axes)  | 3 + 70% Damage reduction |
@@ -143,6 +148,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 # Poison 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7200 |
@@ -162,7 +168,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 * Disarm
 * Vile Vapor
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection |
 |--|--|
@@ -170,7 +176,8 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 |Paralysis  | Immune |  
 
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier and reductions|
 |--|--|
 |Slash (Swords & Axes)  | 3 + 70% Damage reduction |
@@ -183,6 +190,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 ## Labyrinthian
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 15000 |
@@ -200,21 +208,23 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 | Diseased | No |
 |Can Knockdown Player| No |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  |   50% Damage reduction |
 |Pierce(Daggers)           | 80% Damage reduction |
 |Ranged (Bows & Crossbows)  | 75% Damage reduction |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
 |Standard (Arrows)   | 20% damage |
 
 
- *Resistances*
+*Resistances*
 
 |Type  | Protection |
 |--|--|
@@ -232,16 +242,17 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 Identical to Labyrinthian Undead dragon - Except
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |AP| 30 |
-
 
 ---
 
 ## Fire Spectral Dragon 
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 846 |
@@ -261,7 +272,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Frost Breath
 * Ice Storm
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection | Weakness|
 |--|--|--|
@@ -278,6 +289,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Fire
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7653 |
@@ -297,7 +309,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Fire Breath
 * Fire Ball
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection | Weakness|
 |--|--|--|
@@ -306,7 +318,8 @@ Identical to Labyrinthian Undead dragon - Except
 |Poison  | 60% |  N/A |
 |Paralysis  | Immune |  N/A  |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier and reductions|
 |--|--|
 |Slash (Swords & Axes)  | 3 + 70% Damage reduction |
@@ -319,6 +332,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Frost
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7646 |
@@ -338,7 +352,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Frost Breath
 * Ice Storm
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection | Weakness|
 |--|--|--|
@@ -347,7 +361,8 @@ Identical to Labyrinthian Undead dragon - Except
 |Poison  | 60% |  N/A |
 |Paralysis  | Immune |  N/A  |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier and reductions|
 |--|--|
 |Slash (Swords & Axes)  | 3 + 70% Damage reduction |
@@ -360,6 +375,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Durnehviir
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 18900 |
@@ -380,7 +396,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Drain Vitality
 * Frost Breath
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection | Weakness|
 |--|--|--|
@@ -390,7 +406,8 @@ Identical to Labyrinthian Undead dragon - Except
 |Paralysis  | Immune |  N/A  |
 |Sneak Attack  | Immune |  N/A  |
 
- *Weapon Protection*
+*Weapon Protection*
+
 | Type | Tier and reductions|
 |--|--|
 |Slash (Swords & Axes)  | 3 + 70% Damage reduction |
@@ -401,6 +418,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Krosulhah
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7350 |
@@ -420,6 +438,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Naaslaarum
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7800 |
@@ -439,6 +458,7 @@ Identical to Labyrinthian Undead dragon - Except
 
 ## Paarthurnax
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7000 |
@@ -457,6 +477,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Sahrotaar
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7646 |
@@ -475,6 +496,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Voslaarum
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 7800 |
@@ -495,6 +517,7 @@ Identical to Labyrinthian Undead dragon - Except
 ## Vulthuryol
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 17000 |
@@ -511,4 +534,3 @@ Identical to Labyrinthian Undead dragon - Except
 * Fire ball
 
 
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics#about-these-guides)

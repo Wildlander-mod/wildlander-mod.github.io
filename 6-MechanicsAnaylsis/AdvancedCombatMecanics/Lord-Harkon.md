@@ -8,6 +8,7 @@ grand_parent: Mechanic Analysis
 ---
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 2600 |
@@ -30,7 +31,7 @@ grand_parent: Mechanic Analysis
 | Diseased | Yes - Sanguine Vampiris  |
 |Can Knockdown Player| |
 
- *Resistances*
+*Resistances*
  
 |Type  | Protection | Weakness|
 |--|--|--|
@@ -43,6 +44,7 @@ grand_parent: Mechanic Analysis
 |Aetherial Shield | Immune | N/A |
 
 *Materiel Protection*
+
 |Type | 	Damage change|
 |--|--|
 |Silver (Melee) |	150%|

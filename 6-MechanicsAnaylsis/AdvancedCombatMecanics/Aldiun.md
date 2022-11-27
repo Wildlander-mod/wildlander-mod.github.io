@@ -9,6 +9,7 @@ grand_parent: Mechanic Analysis
 ---
 
 *Basic Stats*
+
 |Stat| Value |
 |--|--|
 |Health| 16580 |
@@ -47,6 +48,7 @@ grand_parent: Mechanic Analysis
 
 
  *Weapon Protection*
+ 
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 3 + 70% Damage reduction  |
@@ -64,4 +66,4 @@ grand_parent: Mechanic Analysis
 |Poison  | 80 |  
 |Paralysis  | Immune |  
 |Knock Down| Minor | 
-| Mehrunes Razor| Immune |  
+|Mehrunes Razor| Immune |  
