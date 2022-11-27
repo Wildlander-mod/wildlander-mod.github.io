@@ -60,4 +60,4 @@ nav_order: 5
 
 * You are not forced to perk into lock picking. Spells for unlocking, scrolls for unlocking and just plain smacking the lock can be used instead.
 
-* If you have played our legendary edition mod pack and want to see the differences between that build and the SE release, You can do so [here](https://github.com/Wildlander-mod/Support/wiki/Changes-From-Ultsky)
+* If you have played our legendary edition mod pack and want to see the differences between that build and the SE release, You can do so [here](..\2-RecommendedReading\Changes-From-Ultsky.html)

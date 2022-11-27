@@ -12,7 +12,8 @@ One of the most common questions I get asked is "how difficult is Wildlander"
 
 For new players I say this Wildlander is intended to be a challenging experience, with several new mechanics which cannot be turned off or bypassed (low quality bows breaking for example). For completely new players who have never played a requiem based list before I say this.
 
->``` Imagine you, having just finished high school are magically picked up and dropped into skyrim.  You find at your feet a weapon, maybe some armor, a potion and a day's supply of food - that's how you start wildlander.  You don't have a clue how to use the weapon, wear the armor, cast a spell, mix a potion or even something as simple as making a fire.  You need to learn how to do everything. Waving a sword around at a wolf like a madman is only going to give you a sore arm and the wolf some lunch. ```
+{: .highlight }
+> Imagine you, having just finished high school are magically picked up and dropped into skyrim.  You find at your feet a weapon, maybe some armor, a potion and a day's supply of food - that's how you start wildlander.  You don't have a clue how to use the weapon, wear the armor, cast a spell, mix a potion or even something as simple as making a fire.  You need to learn how to do everything. Waving a sword around at a wolf like a madman is only going to give you a sore arm and the wolf some lunch. 
 
 So the basic "rules"
 
@@ -23,6 +24,7 @@ So the basic "rules"
 * Creatures which look dangerous are dangerous - see a sabercat charging at you, you're probably too close to survive. 
 
 Make preparations
+
 * Look around the area you are in - is there high ground you can get to, to see further
 * Use all your senses - Hear a wolf - he won't be alone.
 * Have appropriate potion, poison, ammunition, stew, etc
@@ -75,7 +77,7 @@ In comparison - Valheim towers near Whiterun, while containing the (generally) s
 
 ## Religion and Blessings
 
-Detailed information: https://github.com/Wildlander-mod/Support/wiki/The-Divines
+Detailed information: [here](..\4-WildlanderWorld\The-Divines.html)
 
 Your crime record affects your ability to use shrines. Too much crime and you are locked out permanently from taking blessings, and only with a perk will you be able to use them to cure disease.
 

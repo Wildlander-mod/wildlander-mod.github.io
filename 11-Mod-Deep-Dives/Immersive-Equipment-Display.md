@@ -65,7 +65,7 @@ However many matching animations can be assigned in XPMSE, so if you edit the po
 > My character is stuck blocking after I exit the IED menu.
 * The last thing the game "remembers" is that you pressed Left Control, which is the hotkey for Dual Wield Block. Press it again to go back to normal.
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -85,7 +85,7 @@ Even though many of the settings have an accompanying [?] to inform you of its p
 
 You have been warned! [*cue spooky echo*]
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -102,7 +102,7 @@ Displays the tabs and filters for:
 * Custom - *Anything that typically isn't equipped and you want to display.*
 * Gear Positioning - *Weapons and Shields. This affects displayed AND equipped models. If you want the gear you use in combat to stay in its displayed spot you'll need to edit the position both here AND in the aforementioned Equipment section.*
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -140,7 +140,7 @@ Of which, the only two you need to mess with are Displays and UI.
 * Freeze Time - *Stops time when the menu is open, handy if you don't want to be snuck up on or want days passing while you readjust your gear.*
 * Select Crosshair Actor - *Automatically selects the actor/npc/race in your crosshairs.*
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -175,7 +175,7 @@ Within each of those is a Preset drop menu:
 
 Finally, we have the filters. Which show the various items you can alter for all the above.
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -218,7 +218,7 @@ Ta-da! Easy, right?
 
 Keep in mind that this only affects gear you actually equip and you cannot alter its placement beyond the above. If you have gear that you want displayed, but don't plan on actually equipping (say, a hunting knife in a 'shoulder sheath') then please refer to the Placement tab.
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -279,7 +279,7 @@ Time to attach our potions to a general area! Select Lower Spine and don't worry
 
 Please reference the next tab to determine its final placement.
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -331,7 +331,7 @@ There you have it, you're ready to get to making all sorts of awesomeness! Like 
 
 ![image](https://user-images.githubusercontent.com/88904551/177070636-d9dcb469-ef30-44e9-b469-8572fb9f8517.png)
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>
 
@@ -347,6 +347,6 @@ I'm still fumbling around with it but it only took a bit of time over a few days
 
 I don't know when custom support get released but when it does I'll update the guide as soon as reasonably possible to include the presets so you can get that drip you've been after!
 
-[top](https://github.com/Wildlander-mod/Support/wiki/Immersive-Equipment-Display#the-guide)
+[top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
 
 </details>

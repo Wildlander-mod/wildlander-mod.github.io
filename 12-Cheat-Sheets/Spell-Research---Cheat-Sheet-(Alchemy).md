@@ -41,7 +41,7 @@ You can either select "Analyze Liquids", which will have you perform some tests 
 
 You can also select "Mix Ingredients". This will allow to mix together three of these liquids to create alchemical ingredients (elixirs) to be used in the vanilla alchemy system. You can also create rare vanilla ingredients and other useful materials if you find the required materials.
 
-Liquids can be mixed into potent elixirs (a type of ingredient), and different salts, e.g. void/fire/frost salts. Please see the [Elixers cheat sheet](https://github.com/Wildlander-mod/Support/wiki/Spell-Research-Cheat-Sheet-(Elixers)) for recipes
+Liquids can be mixed into potent elixirs (a type of ingredient), and different salts, e.g. void/fire/frost salts. Please see the [Elixers cheat sheet](..\12-cheat-sheets\Spell-Research-Cheat-Sheet-(Elixers).html) for recipes
 
 If you manage to find the right recipes (or use the cheat sheet) you can mass produce a large amount of powerful potions.
 

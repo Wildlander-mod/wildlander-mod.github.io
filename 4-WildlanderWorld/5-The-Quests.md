@@ -15,7 +15,7 @@ Kill a dragon.
 
 ## How do I join the College of Winterhold?
 
-Get to 50 skill in any magical skill tree, then speak to Faralda at the college entrance. (If she isn't there, try [this](https://github.com/Wildlander-mod/Support/wiki/Known-Issues#gameplay-issues))
+Get to 25 skill in any magical skill tree, then speak to Faralda at the college entrance. (If she isn't there, press the doorbell, by the ramp)
 
 ----------
 
