@@ -37,12 +37,27 @@ Or support Dylan himself on [Patreon](https://www.patreon.com/dylanbperry )
 ----------
 # Wildlander and Antiviruses
 
-Several Antivirus programs are known to cause issues with the list.
+Several Antivirus programs are known to cause issues with the list, Some cause issues with Wabbajack itself, others with running the list once installed.
+
+If you are experiencing problems running Wabbajack such as the exe being deleted or no progress during the installation phase, try adding your Wabbajack folder (where the executable is located) and your selected modlist installation location to exclusions in your antivirus of choice. Find out how to via [Here](https://lmgtfy.app/?q=how+to+add+exclusions+to+antivirus)
+
+Note: If you're using a 3rd party antivirus (such as AVG, Avast, BitDefender, Webroot, Kaspersky, Norton, McAfee etc.) it's likely that adding the folders to exclusions will not be enough and you may need to disable or uninstall your 3rd party AV as they can incorrectly mark files like usvfs_proxy_x86.exe (required for MO2), The launcher or SKSE itself as a virus.
+
+We recommend doing so anyway as Windows Defender is likely much better at stopping threats, according to data from av-test.org: https://www.av-test.org/en/antivirus/home-windows/.
+
+For Specific issues with individual Antivirus software, Please see below.
 
 #### Bitdefender
 
 {: .save}
 > * Does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
+
+1. Disable Bitdefender 
+1. Delete game-files\Stock game
+1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+1. you should now be able to launch.
+
+{: .save}
 > * Causes crashes while saving.
 
  Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
@@ -56,11 +71,11 @@ OR
 #### Webroot
 
 {: .save}
->  Webroot Antivirus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
+>  Webroot Anti-virus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
 >
->  To play, you need to shut down the antivirus completely from the system tray. 
+>  To play, you need to shut down the anti-virus completely from the system tray. 
 >
->  There are no options you can tick, and no exclusions you can apply to make this antivirus play nice.
+>  There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice.
  
  ![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
 
@@ -77,9 +92,9 @@ OR
 #### Norton
 
 {: .save}
-> If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure these settings: https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/ to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases.
+> If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure [these settings](https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/) to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases. Please note - Support are not able to assist you in how to apply these settings - we dont have Norton installed.
 >
-> If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall norton. Your only method of playing wildlander would be to use Mod organiser to launch and manually install the ENB in the stock game folder.
+> If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall Norton. Your only method of playing Wildlander would be to use Mod organizer to launch and manually install the ENB in the stock game folder.
 
 #### Avast
 
@@ -94,8 +109,6 @@ OR
 1. you should now be able to launch using the launcher.
 1. Shutdown Avast running whenever you want to play
 
-
-
 ----------
 
 # Do I need to uninstall Ultsky?
@@ -106,9 +119,9 @@ Not unless you're short of hard drive space - Ultsky uses Oldrim, Wildlander use
 
 # What version of Special Edition is needed?
 
-The Steam version of Elder Scrolls V: Skyrim Special Edition - Update 1.6.640 (AKA the free Anniversary update) installed in English (https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/). You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time
+The Steam version of Elder Scrolls V: Skyrim Special Edition - Update 1.6.640 (AKA the free Anniversary update) installed in English [Here](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/). You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time. 
 
-If you have downgraded back to Special edition version 1.5.97, you will need to verify game files.
+If you have downgraded back to Special edition version 1.5.97, you will need to verify game files to reupdate to the latest version.
 
 ----------
 
@@ -151,9 +164,9 @@ There have been reports of anywhere from 4 hours to 4 days, depending on how muc
 
 # Can I see the mod lists?
 
-> Full: (https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods)
+> Standard: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods)
 > 
-> Potato: (https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods)
+> Performance: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods)
 
 ----------
 

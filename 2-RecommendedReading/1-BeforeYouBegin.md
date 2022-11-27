@@ -51,7 +51,7 @@ These control the level of ENB Shaders being applied. The Shaders dropdown deter
 
 ## Suggestions for various GFX cards
 
-GEFORCE® GTX 9 SERIES or Equivalent cards, potato/low Graphics No shaders. Depending on Ram and CPU Can push this to a Medium graphics.
+GEFORCE® GTX 9 SERIES or Equivalent cards (or worse), potato/low Graphics No shaders. Depending on Ram and CPU Can push this to a Medium graphics.
 
 GEFORCE® GTX 10 SERIES or Equivalent cards, Medium graphics, No shaders. Depending on Ram and CPU Can push this to a high graphics.
 
@@ -75,7 +75,7 @@ If you've never touched the pagefile, try performing the following steps:
 3. Go to the Advanced tab at the top, and at the Virtual memory section press 'Change...'
 4. Disable 'Automatically manage paging file size for all drives'
 5. If you have more than one drive, try enabling it for at least one more drive as a backup (make sure it has a decent bit of free space, like 15GB). Set the size to 'System managed size'.
-Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB.
+Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB (Minimum size can be set as your current usage).
 
 Important note: The Pagefile is different to System Ram.
 
@@ -85,29 +85,65 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 Several Antivirus programs are known to cause issues with the list.
 
-**1) BitDefender**
+#### Bitdefender
 
-* Does not like Wabbajack's Downgrading routine and can cause corruption preventing the game to launch.
-* Causes crashes while saving.
+{: .save}
+> * Does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
 
-Recommendations: Disable BitDefender during wabbajack install. Apply the following fixes after install to prevent crash on save
-      a) Easy solution - Turn off Advance Threat Defence when playing wildlander
-      b) proper Solutions Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
+1. Disable Bitdefender 
+1. Delete game-files\Stock game
+1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+1. you should now be able to launch.
 
-If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
+{: .save}
+> * Causes crashes while saving.
 
-**2) Webroot**
+ Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
+1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
 
-*  Webroot Antivirus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
-   To Play you need to shut down the antivirus completely from the system tray. 
-   There are no options you can tick, and no exclusions you can apply to make this antivirus play nice.
+OR 
 
-![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
+1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
+1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
 
-**3) Norton**
+#### Webroot
 
-* Causes Intermittent problems starting the launcher for updates, Falsely flagging it for intrusive activity
+{: .save}
+>  Webroot Anti-virus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
+>
+>  To play, you need to shut down the anti-virus completely from the system tray. 
+>
+>  There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice.
+ 
+ ![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
 
-Recommend the following guide to Configure Intrusion Prevention settings
-https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/
+#### McAfee Antivirus.
+
+{: .save}
+> It is known to cause a corruption in the Skyrim downgrade during installation process from wabbajack
+
+1. Disable McAfee 
+1. Delete game-files\Stock game
+1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+1. you should now be able to launch.
+
+#### Norton
+
+{: .save}
+> If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure [these settings](https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/) to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases. Please note - Support are not able to assist you in how to apply these settings - we dont have Norton installed.
+>
+> If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall Norton. Your only method of playing Wildlander would be to use Mod organizer to launch and manually install the ENB in the stock game folder.
+
+#### Avast
+
+{: .save}
+> Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users) and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder. 
+>
+> Should you wish to keep using Avast.
+
+1. Disable Avast 
+1. Delete game-files\Stock game
+1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+1. you should now be able to launch using the launcher.
+1. Shutdown Avast running whenever you want to play
 
