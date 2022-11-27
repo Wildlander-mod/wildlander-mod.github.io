@@ -70,3 +70,5 @@ callouts:
   warning:
     title: Warning
     color: red
+  save:
+    color: purple
