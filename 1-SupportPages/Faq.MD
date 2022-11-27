@@ -44,18 +44,18 @@ Several Antivirus programs are known to cause issues with the list.
 {: .save}
 > * Does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
 > * Causes crashes while saving.
-> 
-> Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
-> 1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
-> 1. proper Solutions Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
-> 1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
+
+ Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
+1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
+1. proper Solutions Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
+1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
 
 2) Webroot
-{: .save}
-> *  Webroot Antivirus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
-> To play, you need to shut down the antivirus completely from the system tray. 
-> There are no options you can tick, and no exclusions you can apply to make this antivirus play nice.
-> ![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
+
+*  Webroot Antivirus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
+ To play, you need to shut down the antivirus completely from the system tray. 
+ There are no options you can tick, and no exclusions you can apply to make this antivirus play nice.
+ ![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
 
 3) McAfee Antivirus is known to cause a corruption in the Skyrim downgrade during installation.
 
