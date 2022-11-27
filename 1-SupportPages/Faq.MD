@@ -135,7 +135,7 @@ There have been reports of anywhere from 4 hours to 4 days, depending on how muc
 
 # Can I see the differences between Ultimate Skyrim and Wildlander?
 
-Yes - Click [Here](https://github.com/Wildlander-mod/Support/wiki/Changes-From-Ultsky)
+Yes - Click [Here](..\2-RecommendedReading\6-Changes-From-Ultsky.html)
 
 ----------
 
@@ -149,7 +149,7 @@ No, and if you try, then SKSE crashes from Mod Organizer. You will need to insta
 
 Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with `[NoDelete]` to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
 
-Then follow the instructions [here](https://github.com/Wildlander-mod/Support/wiki/How-to-update)
+Then follow the instructions [here](..\16-OtherResources\How-to-update.html)
 
 The latest version will always be available [here](https://www.wildlandermod.com/download) for clean installations
 
@@ -204,18 +204,46 @@ Around 120gb.
 
 ----------
 
-## Do I need to download everything if I plan on playing potato?
+# Do I need to download everything if I plan on playing potato?
 
 Yes. Wabbajack won't install unless it has all mods. Creating a list for potato users only is not easy to do and would require a completely separate Wabbajack installer.
 
 ----------
 
 
-## Can I just download the Graphics only?
+# Can I just download the Graphics only?
 
 No. Again, this would be a completely separate list which would need its own separate Wabbajack installer.
 
 ----------
+# **Installation Issues**
+
+## Wabbajack fails to start with a "Unknown Error".
+
+Delete Wabbajack.exe, Redownload from http:\\Wabbajack.org.
+
+----
+## Wabbajack fails to start "You Cannot run as a Admin".
+
+Wabbajack cannot be run as an Admin. 
+
+If you are not manually running the game as an Admin, check your windows UAC settings and make sure that UAC is not "off" as this will run everything as an admin.
+
+[![img](https://cdn.discordapp.com/attachments/666599178788536331/1041355863832678500/image.png)
+
+Reboot your PC after making this change.
+
+Note: If you have installed a custom version of windows and cannot turn on UAC (or you have and it doesnt work)
+
+Create a basic user account (Accounts -> Other users then add other user, click on Users, more actions and create new user.
+
+login to that account - start Skyrim to add the registry entries for that user.
+
+Log back into your primary account.
+
+Then Holding shift, right click the .exe which will give a "Run as different user" command, select your created basic user and if that user is not administrator it should work
+
+----
 
 ## Wabbajack fails to download mods or hangs for a long time.
 
@@ -288,9 +316,26 @@ Shaders Drop down
 
 These control the level of ENB Shaders being applied. The Shaders' dropdown determines the quality of post-processing effects, such as environment lighting, particle lighting, ambient occlusion, sun rays, and water effects. These elements are very heavy on the GPU.
 
+- Ultra  - Default Zangdar's ENB Everything on, All the bells and whistles with grass collision
 - High   - Default Zangdar's ENB Everything on, All the bells and whistles 
 - Low    - Zangdar ENB Performance pre-set W/o Ambient Occlusion 
 - No ENB - Run without shaders at all
+
+----------
+## Trampoline Error
+
+![image](..\Assets\TrampolineError.png)
+
+This error is caused by your "My documents" folder being managed by OneDrive.
+
+The only fix for this issue is to sever the link between OneDrive and your "my documents" folder. Adding the folder to the exceptions simply doesn't work, neither does disabling OneDrive.
+
+The following guide will assist you in the method to do so. https://steamcommunity.com/app/489830/discussions/0/2263565217515804221/
+
+----------
+## Error launching game Error: Unsupported type of line: [1] Error
+
+This means that Mod Organizer Crashed during Boot up and wiped its files. a reinstall (overwrite) using wabbajack of the list will resolve this issue.
 
 ----------
 ## Get-cimInstance Error on launch of game
@@ -419,7 +464,7 @@ Answer is still no. Go straight to horny jail. Do not pass go. Do not collect 20
 
 ## Can I see a list of Known issues
 
-Sure. Here's a [link](https://github.com/Wildlander-mod/Support/wiki/Known-Issues)
+Sure. Here's a [link](Known-Issues.html)
 
 ----------
 
@@ -435,7 +480,7 @@ Dylan is based in the US, so the key bindings were based on a standard QWERTY US
 
 For any other types of keyboards you will need to rebind the keys yourself from the MCM menus.
 
-There is an appropriate guide [here](https://github.com/Wildlander-mod/Support/wiki/Keybindings) 
+There is an appropriate guide [here](..\2-RecommendedReading\8-Keybindings.html) 
 
 ----------
 
@@ -486,7 +531,7 @@ For 1.1 onwards: If you want to re-enable this functionality, then you can do so
 
 ## Why can't I run or Why is my stamina going down for no reason?
 
-Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](https://github.com/Wildlander-mod/Support/wiki/Your-First-Character#stamina-management) provides more detailed information.
+Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\3-Your-First-Character\stamina.html) provides more detailed information.
 
 **NO, YOU CANNOT DISABLE IT, PLEASE DON'T ASK!**
 
@@ -494,7 +539,7 @@ Requiem applies a stamina draining effect when you run, and when you wear armor 
 
 ## Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime, or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](https://github.com/Wildlander-mod/Support/wiki/The-Divines) for more information.
+Requiem's gods are unforgiving of crime. Too much crime, or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](..\4-wildlanderworld\4-The-Divines.html) for more information.
 
 ----------
 
@@ -507,7 +552,7 @@ When you get hurt fighting - the only ways to heal are :-
 * Restoration spells (for the living)
 * Conjuration spells (for the undead)
 * Health potions (For undead, only max level healing potions (superlative) will work.)
-* [Healing Poultice](https://github.com/Wildlander-mod/Support/wiki/Your-First-Character#healing-poultice)
+* [Healing Poultice](..\3-YourFirstCharacter\health.html#healing-poultice)
 * Alchemy Perk
 * Raw Ingredients
 * Enchantments
@@ -730,4 +775,4 @@ The extract requires the following items/tools:
 
 ## How do I craft Healing Poultice?
 
-The Healing poultice [Guide](https://github.com/Wildlander-mod/Support/wiki/Your-First-Character#healing-poultice) explains the crafting method and requirements.
+The Healing poultice [Guide](..\3-YourFirstCharacter\health.html#healing-poultice) explains the crafting method and requirements.

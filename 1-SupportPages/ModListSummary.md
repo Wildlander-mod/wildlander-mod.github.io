@@ -17,7 +17,7 @@ parent: Support
 
 # Mod List Summary
 
-**As the List contains twice as many mods as the original Legendary Edition list, I will only be summarizing the gameplay and functionality mods in this section. A full list containing both the summarized mods below, plus of all of the audio, graphical, utility and bug related fixes are located [here](https://github.com/Wildlander-mod/Support/wiki/V1.1.0).**
+**As the List contains twice as many mods as the original Legendary Edition list, I will only be summarizing the gameplay and functionality mods in this section. A full list containing both the summarized mods below, plus of all of the audio, graphical, utility and bug related fixes are located [here](..\14-ModlistVersions\V1.1.6.html).**
 
 
 ## Core Mods
