@@ -43,3 +43,8 @@ Note: this skill requires a Skill point, earned from taking care of yourself and
 # Horses
 
 Or as i prefer to call them, mobile storage. Each Horse has 600 carry weight and can easily carry most the supplies you need. You can even store your chest on the horse, making it have infinite storage.
+
+# Faction Safe Storage
+
+Containers in the faction (companions / Dark brotherhood / Thieves guild / Mage's college) which are marked with a "*" are safe storage. You can safely stash you loot here. All other containers should be considered unsafe and you will lose the contents if you reload a save, or the cell resets after 30 days of you not visiting.
+

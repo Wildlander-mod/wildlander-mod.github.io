@@ -1644,4 +1644,3 @@ Weapon Enchants
 * Shock Mastery - His fascination with Shock now grants him 25% resistance to it, while Shock spells are 5% stronger and 10% less costly.
 * Cognitive Flexibility His expanded mental focus allows you to maintain two summons at once, including those outside the school of Conjuration.
 
-[Back](https://github.com/Wildlander-mod/Support/wiki/Advanced-Combat-Mechanics)

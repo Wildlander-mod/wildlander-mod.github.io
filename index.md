@@ -21,14 +21,14 @@ Wildlander can be overwhelming at first, so I highly recommend reading up on it.
 
 If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channel/UCnVgWmZbuZxl2QFVapKjd3w) has turned the wiki introduction into a video - which you can access clicking the image below.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/vXRurA0h6NE/0.jpg)](http://www.youtube.com/watch?v=vXRurA0h6NE "Introduction to wildlander")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/vXRurA0h6NE/0.jpg)](http://www.youtube.com/watch?v=vXRurA0h6NE "Introduction to Wildlander")
 
 
 ## Getting Help
-* Firstly – Most Common Questions are answered in our [FAQ](https://github.com/Wildlander-mod/Support/wiki/FAQ).
+* Firstly – Most Common Questions are answered in our [FAQ](..\1-SupportPages\FAQ.html).
 * Secondly – [The known issues document](https://tinyurl.com/WildKI) contains a list of known issues and, if available, fixes for those issues.
 * Support is available primarily on our Discord server [Dylan Perry Discord Server](https://discordapp.com/invite/8VkDrfq). It is great for support, troubleshooting, and reporting bugs since you can speak with other users in real-time. We have many regular users offering help to new players. The Discord is also a good place to meet fellow adventurers and chat about Wildlander and other games.
-* The [Wildlander Subreddit](https://www.reddit.com/r/wildlander/) is a great place to meet fellow players and share stories of your adventures. We also host community events, post screenshots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
+* The [Wildlander Subreddit](https://www.reddit.com/r/wildlander/) is a great place to meet fellow players and share stories of your adventures. We also host community events, post screen shots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
 * The [Wildlander YouTube channel](https://www.youtube.com/wildlander) contains a variety of Wildlander video content, including gameplay videos, gameplay tutorials, developer updates, modding tutorials, and other video content not related to Wildlander.
 * Currently, we are not supporting any form of customization. Doing so denies you access to support.
 
@@ -51,11 +51,11 @@ To report a bug – First query with support, as it might have already been repo
 {: .highlight }
 > If you have played a character already and then exit to the main menu, do not attempt to start a new character in the same session. Instead, quit entirely out of Skyrim and restart it from there. If you do not do so, the game will not operate properly and you will get errors such as 'please restart the economy,' or 'Honed Metal has crashed.'
 >
-> This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new playthrough (hotkeys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
+> This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because Skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new play-through (hot-keys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
 >
-> Every time you want to start a new character, you should be closing and reopening skyrim in its entirety.
+> Every time you want to start a new character, you should be closing and reopening Skyrim in its entirety.
 >
-> Please *DO NOT* report bugs relating to this topic as its a flaw with skyrim itself. There is nothing we can do to make this work!
+> Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
 
 
 ## Thank yous

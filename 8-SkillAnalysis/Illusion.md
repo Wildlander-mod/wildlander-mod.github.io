@@ -12,7 +12,7 @@ parent: Skill Analysis
 
 Illusion is a school of magic which affects the mind of either the target or the caster. It is the only school of magic with silent casting abilities for its spells.
 
-Whenever an offensive illusion spell is cast, the game calculates a ”break-free chance” for the victim. There is more discussed on the Math behind this calculation within [Magic Mechanics](https://github.com/Wildlander-mod/Support/wiki/Magic-Mechanics#resistance-versus-illusion-spells) but in summary - Illusion spells can fail.
+Whenever an offensive illusion spell is cast, the game calculates a ”break-free chance” for the victim. There is more discussed on the Math behind this calculation within [Magic Mechanics](..\\6-MechanicsAnalysis\Magic-Mechanics.html#resistance-versus-illusion-spells) but in summary - Illusion spells can fail.
 
 ## Upkeep
 Several Illusion spells feature the upkeep mechanic. This means that you can keep a spell active for a small magic drain after casting. The proceed to cast further spells. Casting the spell again will cancel the spell and stop the magic drain.
@@ -21,7 +21,7 @@ Several Illusion spells feature the upkeep mechanic. This means that you can kee
 ## Hiding spells
 Any illusion spell that contains either "muffle" and/or "invisibility" components is considered a hiding spell, which are all mutually exclusive. So yes, having Veil of Silence active and casting an invisibility spell will cancel the Veil of Silence.
 
-Veil of Silence, Arcane Resonance and the Rune of Dampening are always cast without any noises NPCs could notice. So if necessary (as in "Intended by your playstyle") you can cast Shadow Stride or simple Invisibility to move into position unseen near an NPC, hide behind a corner with no line of sight to the target, cast a silencing spell and then cast whatever harmful spell you intended to invoke on the unaware target.
+Veil of Silence, Arcane Resonance and the Rune of Dampening are always cast without any noises NPCs could notice. So if necessary (as in "Intended by your play-style") you can cast Shadow Stride or simple Invisibility to move into position unseen near an NPC, hide behind a corner with no line of sight to the target, cast a silencing spell and then cast whatever harmful spell you intended to invoke on the unaware target.
 
 
 # --Perk Analysis--
@@ -238,7 +238,7 @@ Perks Required : Master Illusion and Obliterate the Mind
 | Fog of Shadows | 750 | - | 120s | The caster weaves shadows and madness into a fog that lasts for <120> seconds, slowing its victims and rendering them more susceptible to illusions.<br/>If empowered, it also cripples their magicka regeneration. |  |
 | Invisibility Sphere | 200 | 10 (48) | 86400s | The caster creates a \<mag> foot wide sphere which renders nearby allies and himself invisible until they interact with the environment. All inside the sphere also gain \<mag> armor rating and they cannot be aimed at precisely.<br/>If not empowered, swift movement will break the spell. | Upkeep: 5 |
 | Muffling Sphere | 200 | 40 (11.5) | 86400s | The caster creates a sphere which dampens all sound caused by movement by \<mag>%. The sphere has a radius of (mag)ft.<br/>If not empowered, the spell breaks if the caster attempts to move swiftly. | Upkeep: 3 |
-| Phantasmal Killer | 900 | - | 3s | The caster commands a weak-minded target to commit suicide but slicing their wrist.<br/>Empowered, the spell's message becomes even darker and universal, causing an immediate heart attack to most living creatures. |  |
+| Phantasmal Killer | 900 | - | 3s | The caster commands a weak-minded target to commit suicide but slicing their wrist.<br/>Empowered, the spells message becomes even darker and universal, causing an immediate heart attack to most living creatures. |  |
 | Shadow Simulacrum | 300 | - | 86400s | The caster calls upon the power of shadow magic, weaving darkness into a semi-real illusion of a dremora. Those who realize the deception suffer less grievous wounds from him.<br/>Empowering the spell allows the shadow weave to quickly restore itself after being severed. | Upkeep: 7 |
 | Veil of Silence | 200 | 40 | 86400s | The caster enshrouds himself in a veil of silencing shadows that absorbs whatever sound is caused by his illusion spells and \<mag>% of the noises caused by his movement.<br/>If not empowered, the caster cannot maintain the spell while moving swiftly. | Upkeep: 6 |
 
@@ -249,5 +249,5 @@ Perks Required : Master Illusion and Obliterate the Mind
 | Mind Maelstrom | 1100 | - | 20 | The caster unleashes an orb which will release a huge mind maelstrom upon impact. Its victims may be affected randomly by fear or charm effects.<br/>If empowered, the victims can also be affected by frenzy or sleep. |  |
 | Mistress of the Dark | 500 | - | 86400s | The caster calls upon the power of shadow magic, weaving darkness into a semi-real illusion of a dremora countess. Those who realize the deception suffer less grievous wounds from her.<br/>Empowering the spell will make her move like lightning. | Upkeep: 5 |
 | Phantasmal Miasma | 300 | 10 (40) | 86400s | The caster creates a \<mag> foot wide sphere of doom and suffering, causing illusions of painful injuries. Targets who do not resist the spell have their health reduced by \<mag> as long they stay within the bounds of the aura.<br/>If empowered, the severe pain also reduces movement speed by (mag)%. | Upkeep: 5 |
-| Shadow Sancturary | 500 | 40 | 86400s | The caster shifts his body out of this plane, becoming invisible and invulnerable.It also reduces his movement noises by \<mag>% and negates all his damage done.<br/>If the spell is not empowered, running or sprinting will break it. | Upkeep: 6 |
+| Shadow Sanctuary | 500 | 40 | 86400s | The caster shifts his body out of this plane, becoming invisible and invulnerable.It also reduces his movement noises by \<mag>% and negates all his damage done.<br/>If the spell is not empowered, running or sprinting will break it. | Upkeep: 6 |
 | Veil of Shadows | 400 | 11 (40) [48]  | 86400s | The caster creates a \<mag> foot wide sphere which enshrouds nearby allies and himself, making them invisible until they interact with the environment. The sphere also reduces the noise caused by movement by (mag)% and grants \<mag> armor rating.<br/>If not empowered, the caster cannot maintain the spell while moving swiftly. | Upkeep: 4 |
