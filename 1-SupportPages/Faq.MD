@@ -30,9 +30,9 @@ You can download and install from [here](https://www.wildlandermod.com/download)
 ----
 # How do I donate to the project?
 
-If you would like to buy your friendly neighborhood support person a drink of [KO-FI](https://ko-fi.com/wildlanderteam)
+If you would like to buy your friendly neighborhood support person a drink of [KO-FI](https://ko-fi.com/wildlanderteam){: .btn }
 
-Or support Dylan himself on [Patreon](https://www.patreon.com/dylanbperry )
+Or support Dylan himself on [Patreon](https://www.patreon.com/dylanbperry ){: .btn }
 
 ----------
 # Wildlander and Antiviruses
@@ -43,7 +43,7 @@ If you are experiencing problems running Wabbajack such as the exe being deleted
 
 Note: If you're using a 3rd party antivirus (such as AVG, Avast, BitDefender, Webroot, Kaspersky, Norton, McAfee etc.) it's likely that adding the folders to exclusions will not be enough and you may need to disable or uninstall your 3rd party AV as they can incorrectly mark files like usvfs_proxy_x86.exe (required for MO2), The launcher or SKSE itself as a virus.
 
-We recommend doing so anyway as Windows Defender is likely much better at stopping threats, according to data from av-test.org: https://www.av-test.org/en/antivirus/home-windows/.
+We recommend doing so anyway as Windows Defender is likely much better at stopping threats, according to data from [av-test.org](https://www.av-test.org/en/antivirus/home-windows/).
 
 For Specific issues with individual Antivirus software, Please see below.
 
@@ -99,7 +99,7 @@ OR
 #### Avast
 
 {: .save}
-> Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users) and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder. 
+> Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users){: .btn } and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder. 
 >
 > Should you wish to keep using Avast.
 
