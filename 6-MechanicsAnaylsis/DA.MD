@@ -48,7 +48,7 @@ In the table below: M, H, S stand for base magicka, health and stamina, respecti
 </tr>
 <tr>
 	<td><strong>Magicka Regeneration</strong></td>
-	<td">8x sqrt{Z - 100}</td>
+	<td>8x sqrt{Z - 100}</td>
 	<td>M</td>
 	<td>125 --- 200 --- 325</td>
 	<td>40% --- 80% --- 120%</td>
