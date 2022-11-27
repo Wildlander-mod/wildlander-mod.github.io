@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Ancano
-nav_exclude: true
+nav_order: 8
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Ancano - Shouts, Spells, Stats
 ---
+
+# Ancano
 
 *Basic Stats*
 

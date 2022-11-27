@@ -1,11 +1,14 @@
 ---
 layout: default
 title: The Reaper
-nav_exclude: true
+nav_order: 16
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: The Reaper - Shouts, Spells, Stats
 ---
+
+# The Reaper
 
 Npc: 0201A73E
 

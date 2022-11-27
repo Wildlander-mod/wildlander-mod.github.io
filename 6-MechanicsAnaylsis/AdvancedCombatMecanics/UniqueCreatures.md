@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Unique Creatures
-nav_exclude: true
+nav_order: 7
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Unique Creatues - Shouts, Spells, Stats
 ---
 
 # **Aldhissla** Sewer Troll

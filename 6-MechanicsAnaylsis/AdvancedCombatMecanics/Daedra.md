@@ -1,11 +1,15 @@
 ---
 layout: default
 title: Daedra
-nav_exclude: true
 has_children: false
+nav_order: 4
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Daedra - Shouts, Spells, Stats
 ---
+
+# The Daedra
+
 The Daedra are creatures that roam the Planes of Oblivion, and are usually summoned by powerful mages, usually of the Conjuration school. 
 A Dremora is a devilish humanoid being wearing Daedric armor and wielding burning Daedric weaponry, but can also be extremely adept at using magic and casting spells.
 Atronachs are humanoid beings (except the Storm Atronach) that are formed out of their own element of power: Flame, Frost, or Storm. 
@@ -69,7 +73,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 ## Flame
 
-### *Shared* 
+### Shared 
 
 *Material Weaknesses*
 
@@ -89,7 +93,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Paralysis  | Immune | N/A  |
 |Knock Down| Minor | N/A  |
 
-### **Standard** 
+### Standard
 
 *Basic Stats*
 
@@ -114,7 +118,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 **Additional Perks**
 * Pyromancy  - All frost spells deal 15% more damage.
 
-### **Potent Flame Thrall** 
+### Potent Flame Thrall
 
 *Basic Stats*
 
@@ -148,7 +152,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 ## Frost Atronach
 
-### *Shared* 
+### Shared
 
 *Resistances*
  
@@ -176,7 +180,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Pierce(Daggers)    | 25% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
-### **Standard**
+### Standard
 
 *Basic Stats*
 
@@ -197,7 +201,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 | Diseased | None |
 |Can Knockdown Player| No |
 
-### **Potent Thrall**
+### Potent Thrall
 
 *Basic Stats*
 
@@ -222,7 +226,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ---
 ## Storm
 
-### *Shared*
+### Shared
 
 *Resistances*
 
@@ -249,7 +253,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Pierce(Daggers)    | 50% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
-### **Standard** 
+### Standard
 
 *Basic Stats*
 
@@ -273,7 +277,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 **Additional Perks**
 * Electromancy - All shock spells deal 15% more damage.
 
-### **Potent Thrall** 
+### Potent Thrall 
 
 *Basic Stats*
 

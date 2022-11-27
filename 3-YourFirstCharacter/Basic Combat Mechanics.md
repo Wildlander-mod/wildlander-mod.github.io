@@ -49,17 +49,36 @@ Mudcrabs hunch up right before doing the power attack - if you see this it makes
 
 A single wolf will always retreat, focus your attacks rather than trying to kill all at once.
 
-Important note: Any other types of the enemy not covered above have their strengths and weaknesses covered in the “Bestiary of Skyrim” (or in the advanced combat mechanics section of this wiki). Some require specialist weapons or spells, others take less damage from certain types of damage, or have health regeneration.  
+Important note: Any other types of the enemy not covered above have their strengths and weaknesses covered in the “Bestiary of Skyrim” (or in the Mechanic Analysis\Advanced Combat Mechanics section of this wiki). Some require specialist weapons or spells, others take less damage from certain types of damage, or have health regeneration.  
  
 ## Kill order and tactics
 The first thing I always think about is ranged enemies, and because of them, cover. Where are they now? Where will they go when I go behind this cover? How long can I stay behind that stone before the melees reach me and I have to move?
 
 The second thing is the armor. Or, more importantly, who wears which kind? Because lightly armored bandits are squishy. Even with no perks invested, a few slashes with a one-hander, or a few arrows at medium range, and they go down. They don't necessarily die, but surrenders are more permanent than vanilla.
 
-Another important factor is speed. If you have enough ground between you and the bandits, and you play your cards right, you can kill off the light melee faction before the heavy melee faction even gets there. You could even go so far and try to rush to the ranged guys after killing the light melees, leaving the heavy's panting in the middle. But your speed is important as well. Mostly, because speed usually costs more stamina, and power attacks do as well. And power attacks are useful.
+Another important factor is speed. If you have enough ground between you and the bandits, and you play your cards right, you can kill off the evasion melee faction before the heavy melee faction even gets there. You could even go so far and try to rush to the ranged guys after killing the light melees, leaving the heavy's panting in the middle. But your speed is important as well. Mostly, because speed usually costs more stamina, and power attacks do as well. And power attacks are useful.
 
 There is no shame in cheesy tactics like kiting stronger enemies to guards and letting them deal with them.
 
 Don't be afraid to run away - if the content is too hard - recruit some friends or temper/enchant your gear (or get a mage or blacksmith to do it for you) and come back later. Enemies in Wildlander stay the same level, so there is no shame in getting more levels and skills under your belt and coming back later. 
 
-There’s power in numbers and wildlander is no exception, if you find somewhere too challenging go recruit some friends!
+There’s power in numbers and Wildlander is no exception, if you find somewhere too challenging go recruit some friends!
+
+## Mass Effect
+
+The weight of your currently equipped gear has a significant impact on many things you do. It affects mobility, spell casting and combat effectiveness. (Requiem manual p122 Located in Mods\Requiem \Documentation)
+
+Mass effect isn't directly linked to the type of armor you are wearing, but rather its weight. Your weapon is also taken in account. 
+
+What you need to remember :
+
+High mass (wearing HA most of the time) cons :
+* Less movement speed
+* Higher casting cost
+* Higher stamina cost for attack
+* noise, it makes sneaking harder (but not impossible)
+
+High mass pros :
+* better resistance to stagger and knock back effect
+* better chance to trigger stagger and knock back effect on enemies. Charge mechanics are your friend.
+* high level of AR ('cause you are wearing heavier armor)

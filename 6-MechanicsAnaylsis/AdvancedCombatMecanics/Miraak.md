@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Miraak
-nav_exclude: true
+nav_order: 17
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Miraak - Shouts, Spells, Stats
 ---
+
+# Miraak
 
 Shouts (do 130% damage, shout recovery is 150% )
 - "Dragon Aspect" Take on the mighty aspect of a dragon, delivering colossal blows, with an armored hide, and more powerful shout (For 720 seconds, armor rating increases by 150, power attacks deal 75% more damage, fire & frost resistance improves by 25%, and shout cooldown reduces by 20%. Also, if His health is below 50%, an Ancient Dragonborn will manifest to protect him
@@ -18,12 +21,12 @@ Shouts (do 130% damage, shout recovery is 150% )
 
 Spells (Last 5 times longer than any durations listed)
 - "Ethereal" Miraak Gains 1000 armor and 1000% magic resistance
-- "Erupt Fire" The evokes an explosion of fire, dealing 100 points of fire damage. The damage increases as the target becomes closer. Summons 2 [Fire Spectral Dragon](https://github.com/Wildlander-mod/Support/blob/master/Docs/EnemyDragons.MD#fire-spectral-dragon)  for 8 seconds wherever the caster aims.
+- "Erupt Fire" The evokes an explosion of fire, dealing 100 points of fire damage. The damage increases as the target becomes closer. Summons 2 [Fire Spectral Dragon](Dragons.html#fire-spectral-dragon)  for 8 seconds wherever the caster aims.
 - "Elemental Cloak" For 40 seconds, enemies in melee range receive 15 points of frost, fire, Shock and stamina damage per second. and gain 250% Weakness to Frost, Fire and Shock for 20 Seconds.
-- "Knowledge Drain" The caster drains the soul fo the target for 150 Health and magicka damage, dealing a 0.5 Stagger, and Target is 75% weaker to magic for 5 seconds.
+- "Knowledge Drain" The caster drains the soul of the target for 150 Health and magicka damage, dealing a 0.5 Stagger, and Target is 75% weaker to magic for 5 seconds.
 - "Blizzard" Targets receive 50  points of frost and stamina damage for 9 seconds.
 - "Chain Lightning" The caster evokes a lightning bolt that deals 100 points of shock damage to Health and half to Magicka and hits multiple targets at once if they stand close to each other. Dealing a 0.5 Stagger to each person hit.
-- "Summons Thralls" Summon Flame, Frost and Storm Thrall - Summons a potent varient of each [atronoch](https://github.com/Wildlander-mod/Support/blob/master/Docs/EnemyDaedra.md#atronach) type for 30 seconds. 
+- "Summons Thralls" Summon Flame, Frost and Storm Thrall - Summons a potent variant of each [atronoch](Daedra.html#atronach) type for 30 seconds. 
 
 
 Perks

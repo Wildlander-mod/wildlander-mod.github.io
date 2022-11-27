@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Champion of Boethiah
-nav_exclude: true
+nav_order: 10
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Champion of Boethiah - Shouts, Spells, Stats
 ---
+
+# Champion of Boethiah
 
 NPC id:000834FE
 

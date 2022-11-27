@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Ebony Warrior
-nav_exclude: true
+nav_order: 11
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Ebony Warrior - Shouts, Spells, Stats
 ---
+
+description: Ebony Warrior - Shouts, Spells, Stats
 
 *Basic Stats*
 

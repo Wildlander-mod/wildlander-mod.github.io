@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Animals
-nav_exclude: true
+nav_order: 1
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Animals - Shouts, Spells, Stats
 ---
+
+# Animals of Skyrim
 
 Before we shall delve in details, let it be noted that almost any animal (with the exception of domesticated) might be infected with potent diseases that could even cause a mighty warrior to decay within days. Thus, I can only advise you to have the means at hand to cure such vile afflictions, as they can affect the victim's body almost immediately after the contraction, as they posses a truly unique magical nature.
 

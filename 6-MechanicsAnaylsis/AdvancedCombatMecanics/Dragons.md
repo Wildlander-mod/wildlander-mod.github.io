@@ -1,25 +1,24 @@
 ---
 layout: default
 title: Dragons
-nav_exclude: true
 has_children: false
+nav_order: 5
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Dragons - Shouts, Spells, Stats
 ---
 
-Dragons in wildlander are not the easy to kill creatures the were in vanilla. They are Heavily armored, Magic breathing flying tanks with teeth which can cut through allow low to mid quality armours with one bite and you think you can send a follower to the teeth end while you rain damage down on the tail - think again, as the tail is capable of knockdowns.
+# Dragons of Skyrim
+
+Dragons in Wildlander are not the easy to kill creatures the were in vanilla. They are Heavily armored, Magic breathing flying tanks with teeth which can cut through allow low to mid quality armors with one bite and you think you can send a follower to the teeth end while you rain damage down on the tail - think again, as the tail is capable of knockdowns.
 
 The trick to fighting any dragon, in my mind, isn't stats, its tactics. Even if a dragon's attacks can 1-shot you, it's possible to take them down. 
 
-1) Choose your battlefield: In most cases, you have some control over where most the fight occurs. Even if a dragon swoops in on you, there is a small window to re-position yourself. Try to pick an area that has several pieces of full cover (tall enough to fully block their breath weapon from both the ground and a low hover). Ideally, this cover can be circled (in case the dragon lands/hovers behind you), and is in such a spot that the dragon cannot land on top of you. Practice this at word walls, where the wall itself can be used as cover.
-
-2) Cover is life: A dragon cannot kill what it cannot hit. Make sure that there is always at least a piece of full cover adjacent to you so you can duck behind it in that split second before the dragon breathes. The Become Ethereal shout is especially useful for those "Oh shit" moments when you get caught out of cover.
-
-3) If you melee a dragon, you're gonna have a bad day: Ranged damage is far superior to melee. Even if the dragon lands, resist the temptation to run in to score a few whacks....it often ends with you rag-dolling across the ground. A bow might take longer, but it will keep you 100% more alive.
-
-4) Patience is a virtue: Dragons aren't short fights, so resist the urge to leave your cover spot deal damage, all it takes is a single bad move, the dragon to turn around and bite your face off to end a long fight (and not in your favor). A dragon has the advantage in terms of stats, the only advantage you have is your brain.
-
-5) Know when to run: Sometimes, it just isn't your time to shine. Don't be afraid of a tactical withdraw, either to fully flee, or to regroup. Just make sure that you do it carefully (sticking to cover). Also, if 2 dragons engage you at once...NOPE the hell outta there. They WILL kill you.
+1. Choose your battlefield: In most cases, you have some control over where most the fight occurs. Even if a dragon swoops in on you, there is a small window to re-position yourself. Try to pick an area that has several pieces of full cover (tall enough to fully block their breath weapon from both the ground and a low hover). Ideally, this cover can be circled (in case the dragon lands/hovers behind you), and is in such a spot that the dragon cannot land on top of you. Practice this at word walls, where the wall itself can be used as cover.
+1. Cover is life: A dragon cannot kill what it cannot hit. Make sure that there is always at least a piece of full cover adjacent to you so you can duck behind it in that split second before the dragon breathes. The Become Ethereal shout is especially useful for those "Oh shit" moments when you get caught out of cover.
+1. If you melee a dragon, you're gonna have a bad day: Ranged damage is far superior to melee. Even if the dragon lands, resist the temptation to run in to score a few whacks....it often ends with you rag-dolling across the ground. A bow might take longer, but it will keep you 100% more alive.
+1. Patience is a virtue: Dragons aren't short fights, so resist the urge to leave your cover spot deal damage, all it takes is a single bad move, the dragon to turn around and bite your face off to end a long fight (and not in your favor). A dragon has the advantage in terms of stats, the only advantage you have is your brain.
+1. Know when to run: Sometimes, it just isn't your time to shine. Don't be afraid of a tactical withdraw, either to fully flee, or to regroup. Just make sure that you do it carefully (sticking to cover). Also, if 2 dragons engage you at once...NOPE the hell outta there. They WILL kill you.
 
 Here are some things that make fighting dragons easier. You don't need all, but depending on your build, some become more necessary than others:
 
@@ -79,7 +78,6 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 | Diseased | None |
 |Can Knockdown Player| Tail swipe can Stagger |
 
-
 *Resistances*
  
 |Type  | Protection | Weakness|
@@ -88,7 +86,6 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 |Fire | 90% |  N/A |
 |Poison  | 60% |  N/A |
 |Paralysis  | Immune |  N/A  |
-
 
 *Weapon Protection*
 
@@ -104,6 +101,7 @@ Here are some things that make fighting dragons easier. You don't need all, but 
 # Standard Frost
 
 *Variations*
+
 |Stat / Color| Gold | Silver | Green | Purple (level 79) |Gold with Black Spots | Purple (level 75) 
 |--|--|--|--|--|--|--|
 |Health| 7400 |  7000  | 7200  | 7350  | 7600 |  7800|
@@ -326,8 +324,6 @@ Identical to Labyrinthian Undead dragon - Except
 |Pierce(Daggers)    | 2 + 70% Damage reduction |
 |Blunt (Maces & Hammers)   | 85% Damage reduction |
 |Ranged (Bows & Crossbows)  | 4 + 85% Damage reduction|
-
-
 
 ## Frost
 

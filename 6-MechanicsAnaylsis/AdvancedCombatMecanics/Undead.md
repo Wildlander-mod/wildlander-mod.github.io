@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Undead
-nav_exclude: true
+nav_order: 6
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Undead - Shouts, Spells, Stats
 ---
+
+# The Undead
 
 # Index
 {: .no_toc .text-delta }

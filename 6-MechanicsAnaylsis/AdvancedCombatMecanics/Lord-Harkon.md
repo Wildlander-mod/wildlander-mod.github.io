@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Lord Harkon
-nav_exclude: true
+nav_order: 12
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Lord Harkon - Shouts, Spells, Stats
 ---
+
+# Lord Harkon
 
 *Basic Stats*
 

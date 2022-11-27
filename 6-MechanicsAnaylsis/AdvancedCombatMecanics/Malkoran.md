@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Malkorian
-nav_exclude: true
+nav_order: 13
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Malkoran - Shouts, Spells, Stats
 ---
+
+# Malkoran
 
 *Basic Stats*
 

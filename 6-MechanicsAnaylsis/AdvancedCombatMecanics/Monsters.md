@@ -1,11 +1,15 @@
 ---
 layout: default
 title: Monsters
-nav_exclude: true
+nav_order: 2
 has_children: false
 parent: Advanced Combat Analysis
 grand_parent: Mechanic Analysis
+description: Monsters - Shouts, Spells, Stats
 ---
+
+# Monsters of Skyrim
+
 Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
 
 ## Table of contents
