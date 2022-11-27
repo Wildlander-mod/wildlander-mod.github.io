@@ -186,7 +186,7 @@ No, and if you try, then SKSE crashes from Mod Organizer. You will need to insta
 
 Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with `[NoDelete]` to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
 
-Then follow the instructions [here](..\16-OtherResources\How-to-update.html)
+Then follow the instructions [here](..\16-OtherResouces\How-to-update.html)
 
 The latest version will always be available [here](https://www.wildlandermod.com/download) for clean installations
 
@@ -503,7 +503,7 @@ Answer is still no. Go straight to horny jail. Do not pass go. Do not collect 20
 
 ## Can I see a list of Known issues
 
-Sure. Here's a [link](Known-Issues.html)
+Sure. Here's a [link](..\1-SupportPages\KnownIssues.html)
 
 ----------
 
@@ -570,7 +570,7 @@ For 1.1 onwards: If you want to re-enable this functionality, then you can do so
 
 ## Why can't I run or Why is my stamina going down for no reason?
 
-Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\3-Your-First-Character\stamina.html) provides more detailed information.
+Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\3-YourFirstCharacter\Stamina.html) provides more detailed information.
 
 **NO, YOU CANNOT DISABLE IT, PLEASE DON'T ASK!**
 
@@ -578,7 +578,7 @@ Requiem applies a stamina draining effect when you run, and when you wear armor 
 
 ## Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime, or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](..\4-wildlanderworld\4-The-Divines.html) for more information.
+Requiem's gods are unforgiving of crime. Too much crime, or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](..\4-WildlanderWorld\4-The-Divines.html) for more information.
 
 ----------
 
@@ -591,7 +591,7 @@ When you get hurt fighting - the only ways to heal are :-
 * Restoration spells (for the living)
 * Conjuration spells (for the undead)
 * Health potions (For undead, only max level healing potions (superlative) will work.)
-* [Healing Poultice](..\3-YourFirstCharacter\health.html#healing-poultice)
+* [Healing Poultice](..\3-YourFirstCharacter\Health.html#healing-poultice)
 * Alchemy Perk
 * Raw Ingredients
 * Enchantments
@@ -814,4 +814,4 @@ The extract requires the following items/tools:
 
 ## How do I craft Healing Poultice?
 
-The Healing poultice [Guide](..\3-YourFirstCharacter\health.html#healing-poultice) explains the crafting method and requirements.
+The Healing poultice [Guide](..\3-YourFirstCharacter\Health.html#healing-poultice) explains the crafting method and requirements.
