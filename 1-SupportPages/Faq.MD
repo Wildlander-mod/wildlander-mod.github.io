@@ -47,26 +47,45 @@ Several Antivirus programs are known to cause issues with the list.
 
  Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
 1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
-1. proper Solutions Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
+
+OR 
+
+1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
 1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
 
 2) Webroot
 
-*  Webroot Antivirus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
- To play, you need to shut down the antivirus completely from the system tray. 
- There are no options you can tick, and no exclusions you can apply to make this antivirus play nice.
+{: .save}
+>  Webroot Antivirus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
+>
+>  To play, you need to shut down the antivirus completely from the system tray. 
+>
+>  There are no options you can tick, and no exclusions you can apply to make this antivirus play nice.
+ 
  ![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
 
-3) McAfee Antivirus is known to cause a corruption in the Skyrim downgrade during installation.
+3) McAfee Antivirus.
 
-         1) Disable McAfee 
-         2) Delete game-files\Stock game
-         3) Rerun Step 2 - Wildlander.Wabbajack, choosing Overwrite installation and wait for install to complete.
-         4) you should now be able to launch.
+{: .save}
+> It is known to cause a corruption in the Skyrim downgrade during installation process from wabbajack
+
+1. Disable McAfee 
+1. Delete game-files\Stock game
+1. Rerun Step 2 - Wildlander.Wabbajack, choosing Overwrite installation and wait for install to complete.
+1. you should now be able to launch.
 
 4) Norton
 
-If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure these settings: https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/ to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases
+{: .save}
+> If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure these settings: https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/ to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases.
+>
+> If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall norton. Your only method of playing wildlander would be to use Mod organiser to launch and manually install the ENB in the stock game folder.
+
+4) Avast
+
+{: .save}
+> Is known to be Spyware in its own right and sensible people uninstalled this years ago. Even stock windows offers better protection. 
+
 
 
 ----------
@@ -82,8 +101,6 @@ Not unless you're short of hard drive space - Ultsky uses Oldrim, Wildlander use
 The Steam version of Elder Scrolls V: Skyrim Special Edition - Update 1.6.640 (AKA the free Anniversary update) installed in English (https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/). You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time
 
 If you have downgraded back to Special edition version 1.5.97, you will need to verify game files.
-
-
 
 ----------
 
@@ -161,7 +178,6 @@ Please Note: Some updates will require a brand-new game and are not save compati
 No. All updates require you to manually run Wabbajack to download and install the latest mods for the new build.
 
 
-
 ----------
 
 # How do I uninstall?
@@ -219,7 +235,7 @@ No. Again, this would be a completely separate list which would need its own sep
 
 ## Wabbajack fails to start with a "Unknown Error".
 
-Delete Wabbajack.exe, Redownload from http:\\Wabbajack.org.
+Delete Wabbajack.exe, Redownload from [Wabbajack](http:\\Wabbajack.org).
 
 ----
 ## Wabbajack fails to start "You Cannot run as a Admin".
@@ -263,7 +279,7 @@ You may need to use a VPN and/or different browsers to download these files. We 
 
 ![img](https://cdn.discordapp.com/attachments/881254575640838254/929341753885085738/unknown.png)
 
-Search this for the failing mod(s) https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md  Manually download and copy the files, still zipped into your Wildlander download folder. Once done—restart Wabbajack install process one last time.
+[Search this for the failing mod(s).](https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md)  Manually download and copy the files, still zipped into your Wildlander download folder. Once done—restart Wabbajack install process one last time.
 
 ----------
 
@@ -301,24 +317,29 @@ Wildlander requires an up-to-date steam installation of special edition (also kn
 
 ## What do the Dropdowns mean
 
-Quality Drop down
+#### Modlist Drop down
+
+* Standard- Everything on.
+* Performance - All graphics mods turned off.
+
+#### Quality Drop down
 
 These are your standard Skyrim parameters. The Graphics dropdown determines the quality of basic graphical elements, such as the draw distance of grass and shadows, the number of effects visible at once, and the quality of distant objects. These elements use a mix of CPU and GPU.
 
-- Ultra  - Everything on, All the bells and whistles—For “beast” PC's
-- High   - Reduced Draw distances compared to Ultra, but still the full mod package.
-- Medium - Reduced Draw distances compared to High, but still the full mod package.
-- Low    - No grass, no shadows, but still the full mod package.
-- Potato - Stripped down lists for PCs which were build when oldrim was first released. 
+* Ultra - Everything on, All the bells and whistles - For "beast" PC's
+* High - Reduced Draw distances compared to Ultra, but still the full mod package.
+* Medium - Reduced Draw distances compared to High, but still the full mod package.
+* Low - No grass, no shadows, but still the full mod package.
+* Potato - Stripped down graphics for PC's which were built when oldrim was first released.
 
-Shaders Drop down
+#### Shaders Drop down
 
 These control the level of ENB Shaders being applied. The Shaders' dropdown determines the quality of post-processing effects, such as environment lighting, particle lighting, ambient occlusion, sun rays, and water effects. These elements are very heavy on the GPU.
 
-- Ultra  - Default Zangdar's ENB Everything on, All the bells and whistles with grass collision
-- High   - Default Zangdar's ENB Everything on, All the bells and whistles 
-- Low    - Zangdar ENB Performance pre-set W/o Ambient Occlusion 
-- No ENB - Run without shaders at all
+* Ultra - Default Zangdar's ENB Everything on, All the bells and whistles plus grass collision
+* High  - Default Zangdar's ENB Everything on, All the bells and whistles
+* Low   - Zangdar ENB Performance preset 
+* No ENB - Run without shaders at all
 
 ----------
 ## Trampoline Error
@@ -329,7 +350,7 @@ This error is caused by your "My documents" folder being managed by OneDrive.
 
 The only fix for this issue is to sever the link between OneDrive and your "my documents" folder. Adding the folder to the exceptions simply doesn't work, neither does disabling OneDrive.
 
-The following guide will assist you in the method to do so. https://steamcommunity.com/app/489830/discussions/0/2263565217515804221/
+The following guide will assist you in the method to do so. [Guide](https://steamcommunity.com/app/489830/discussions/0/2263565217515804221/)
 
 ----------
 ## Error launching game Error: Unsupported type of line: [1] Error
@@ -370,11 +391,9 @@ PSmodulePath should contain an entry for “%SystemRoot%\system32\WindowsPowerSh
 
 Ensure the following:
 
-1.  Check that your Antivirus is not flagging SKSE or any Skyrim related files, the best Solution is to add Antivirus exceptions to the Wildlander Directory and subdirectories.
-    
-2.  Make sure your content folder contains usvfs_proxy_x64.exe & usvfs_proxy_x86.exe. If these files are missing, it's likely your antivirus has moved them to the virus vault.
-    
-3.  Restore missing files from Mod Organiser Zip file in your Wildlander\download directory if you cannot find them in the virus vault
+1.  Check that your Antivirus is not flagging SKSE or any Skyrim related files, the best Solution is to add Antivirus exceptions to the Wildlander Directory and subdirectories.   
+1.  Make sure your content folder contains usvfs_proxy_x64.exe & usvfs_proxy_x86.exe. If these files are missing, it's likely your antivirus has moved them to the virus vault.    
+1.  Restore missing files from Mod Organiser Zip file in your Wildlander\download directory if you cannot find them in the virus vault
 
 ----
 ##  Launcher locks for Skyrimse.exe and immediately unlocks (game doesn't start)
@@ -404,7 +423,7 @@ If you have them - repair them anyway. Make sure you reboot.
 
 Firstly—try a PC reboot, it's possible that one of the files we use is locked by a crashed session of Wildlander.
 
-Uninstall the launcher from Add-remove programs, then download and manually install the most recent from https://github.com/Wildlander-mod/Launcher/releases/ 
+Un-install the launcher from Add-remove programs, then download and manually install the most recent from [here](https://github.com/Wildlander-mod/Launcher/releases/)
 
 ----
 
@@ -498,7 +517,7 @@ Then go to Mod Configuration Menu and Skyrim. From there you can use 'Skyrim Unb
 
 If you are unable to hear most of the combat sounds such as sword swings, spell useage (ex: flame, heal, etc.), opening a container, footsteps, etc but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance:
 
-If you are willing to customise (and know how to use mod organiser to install mods) https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description may fix the issue.
+If you are willing to customize (and know how to use mod organizer to install mods) https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description may fix the issue.
 
 If not check first to see if your Skyrim install is in the 'C' drive (C:). Installing Skyrim outside the C: has been known to cause this issue. If you do not want to reinstall the game to C:, a quick fix originally posted by Kepache may be attempted:
 
