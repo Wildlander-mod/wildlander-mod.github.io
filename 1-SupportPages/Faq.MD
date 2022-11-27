@@ -39,7 +39,7 @@ Or support Dylan himself on [Patreon](https://www.patreon.com/dylanbperry )
 
 Several Antivirus programs are known to cause issues with the list.
 
-1) Bitdefender
+#### Bitdefender
 
 {: .save}
 > * Does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
@@ -53,7 +53,7 @@ OR
 1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
 1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
 
-2) Webroot
+#### Webroot
 
 {: .save}
 >  Webroot Antivirus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
@@ -64,27 +64,35 @@ OR
  
  ![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
 
-3) McAfee Antivirus.
+#### McAfee Antivirus.
 
 {: .save}
 > It is known to cause a corruption in the Skyrim downgrade during installation process from wabbajack
 
 1. Disable McAfee 
 1. Delete game-files\Stock game
-1. Rerun Step 2 - Wildlander.Wabbajack, choosing Overwrite installation and wait for install to complete.
+1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
 1. you should now be able to launch.
 
-4) Norton
+#### Norton
 
 {: .save}
 > If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure these settings: https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/ to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases.
 >
 > If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall norton. Your only method of playing wildlander would be to use Mod organiser to launch and manually install the ENB in the stock game folder.
 
-4) Avast
+#### Avast
 
 {: .save}
-> Is known to be Spyware in its own right and sensible people uninstalled this years ago. Even stock windows offers better protection. 
+> Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users) and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder. 
+>
+> Should you wish to keep using Avast.
+
+1. Disable Avast 
+1. Delete game-files\Stock game
+1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+1. you should now be able to launch using the launcher.
+1. Shutdown Avast running whenever you want to play
 
 
 
