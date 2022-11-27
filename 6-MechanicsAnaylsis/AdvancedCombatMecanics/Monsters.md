@@ -654,7 +654,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Paralysis  | Immune | N/A |
 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 100% |
@@ -693,7 +694,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 
 
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 100% |
@@ -771,7 +773,6 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Diseased | No |
 |Can Knockdown Player| No |
 
-
 *Resistances*
 
 |Type  | Protection | 
@@ -781,8 +782,9 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Paralysis  | Immune |  
 
 
+*Weapon Protection*
+
 | Type | Tier |
-| Type | Bonus Armor |
 |--|--|
 |Pierce(Daggers)    | 3 |
 |Blunt (Maces & Hammers)   | 3 |
@@ -823,6 +825,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Frost  | 35 |  
@@ -858,6 +862,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
+*Resistances*
+
 |Type  | Protection |
 |--|--|
 |Frost  | 35 |  
@@ -887,6 +893,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
+
+*Resistances*
 
 |Type  | Protection |
 |--|--|
@@ -918,6 +926,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 | Type | Tier |
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
+
+*Resistances*
 
 |Type  | Protection |
 |--|--|
@@ -1637,7 +1647,8 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 |Paralysis  | Immune |  
 |Knock Down| Minor |  
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
@@ -1668,7 +1679,8 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 | Diseased | None |
 |Can Knockdown Player| None |
 
-*Materiel Protection*
+*Material Protection*
+
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 100% |
