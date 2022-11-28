@@ -55,7 +55,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <details>
  <summary> Argis the Bulwark </summary>
 <div class="Info" markdown="1"> 
-{: .text-epsilon} Info 
+<p class="text-epsilon">Info </p>
  
 |Race/Class |Male Nord Warrior| Location |Vlindrel Hall, Markarth 
 |Level Min/Max |10/None |Prerequisite |Thane of Markarth
