@@ -10,6 +10,6 @@ has_toc: true
 
 Direct Link:  [Download and Install Instructions](https://www.wildlandermod.com/download)
 
-<iframe src="https://www.wildlandermod.com/download" width="1200" height="700"></iframe>
+<iframe src="https://www.wildlandermod.com/download"></iframe>
 
 
