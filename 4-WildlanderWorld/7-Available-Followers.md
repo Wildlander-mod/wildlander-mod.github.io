@@ -56,7 +56,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  <summary> Argis the Bulwark </summary>
  
 <div class="Info" markdown="1"> 
-<p class="text-beta">Info</p>
+
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior| Location |Vlindrel Hall, Markarth 
 |Level Min/Max |10/None |Prerequisite |Thane of Markarth
@@ -67,14 +68,13 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-beta">Perks</p>
 
-Block  
-<p class="text-gamma">Block</p>
 
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -82,11 +82,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 
@@ -99,7 +99,7 @@ One Handed{:.text-delta}
  <summary> Calder </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
 
 |Race/Class |Male Nord Warrior |Location |Hjerim, Windhelm 
 |Level Min/Max |10/None|Prerequisite |Thane of Eastmarch
@@ -107,14 +107,14 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
  
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
  
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -122,11 +122,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
  
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
  
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 
@@ -138,7 +138,7 @@ One Handed{:.text-delta}
  <summary> Gregor </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |The White Hall, Dawnstar 
 |Level Min/Max |10/None|Prerequisite |Thane of The Pale 
@@ -146,16 +146,16 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -163,11 +163,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
@@ -181,20 +181,20 @@ One Handed{:.text-delta}
  <summary> Iona </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon} 
+<p class="text-gamma">Info</p> 
 
 |Race/Class |Female Nord Warrior |Location |Honeyside, Riften
 |Level Min/Max |10/None|Prerequisite |Thane of The Rift 
 |Blades |Yes|Marriage |Yes|Steward |Yes|RefID |000A2C93
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -202,11 +202,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
 |War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
@@ -219,7 +219,7 @@ One Handed{:.text-delta}
  
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon} 
+<p class="text-gamma">Info</p> 
 |Race/Class |Female Nord Warrior |Location |Proudspire Manor, Solitude
 |Level Min/Max |10/None|Prerequisite |Thane of Haafingar
 |Blades |Yes|Marriage |Yes
@@ -227,14 +227,14 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -242,11 +242,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
 
@@ -258,7 +258,7 @@ One Handed{:.text-delta}
 
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon} 
+<p class="text-gamma">Info</p> 
 
 |Race/Class |Female Nord Warrior |Location |Breezehome, Whiterun 
 |Level Min/Max |6/None|Prerequisite |Thane of Whiterun 
@@ -267,14 +267,14 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -282,11 +282,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 ***
@@ -297,7 +297,7 @@ One Handed{:.text-delta}
  <summary> Rayya </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon} 
+<p class="text-gamma">Info</p> 
 |Race/Class |Female Redguard Warrior |Location |Jarl's Longhouse, Falkreath
 
 |Level Min/Max |10/None|Prerequisite |Thane of Falkreath
@@ -306,13 +306,13 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -320,11 +320,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Flurry II|One-handed and unarmed attacks are 25% faster.
@@ -336,7 +336,7 @@ One Handed{:.text-delta}
  <summary> Valdimar </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Sorcerer |Location |Highmoon Hall, Morthal 
 |Level Min/Max |10/None|Prerequisite |Thane of Hjaalmarch
@@ -345,22 +345,22 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Cryomancy |
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -369,31 +369,31 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 
-#### Spells
+<p class="text-gamma">Spells</p>
 
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor on Self (Rank I)
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Ice Spike
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank I)
 |Turn Undead (Rank I)
@@ -416,55 +416,55 @@ Restoration{:.text-delta}
 
 | Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Expert Alteration |Expert spells cost 55% less magicka, and improve 4% per skill level.
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Magic Resistance
 
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Conjuration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
 
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Pyromancy I|All fire spells deal 15% more damage.
 
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 |Improved Healing |Healing spells are 25% more effective.
 
-#### Spells
+<p class="text-gamma">Spells</p>
 
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor n Self (Rank I)
 |Mage Armor on Self (Rank II)
 |Mage Armor on Self (Rank III)
 |Paralyze (Rank I)
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Summon Spirit Wolf
 |Summon Flame Atronach
 |Summon Frost Atronach
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Fireball
 |Firebolt
 |Flames
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank I)
 |Arcane Ward (Rank II)
@@ -480,7 +480,7 @@ Restoration{:.text-delta}
  <summary> J'zargo </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Khajiit Sorcerer | Location |Hall of Attainment 
 |Level Min/Max |None |Prerequisite |J'zargo's Experiment
@@ -489,13 +489,13 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -503,29 +503,29 @@ Destruction{:.text-delta}
 |Electromancy
 |Pyromancy I|All fire spells deal 15% more damage.
 
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
 |Improved Wards |Arcane wards are 25% more effective, absorb 25% Magicka from hostile spells, and cost 5% less Magicka to cast.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
  
-#### Spells
+<p class="text-gamma">Spells</p>
 
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Magelight
 |Paralyze (Rank I)
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Soul Trap (Rank I)
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Firesparks
 |Firebolt
@@ -537,11 +537,11 @@ Destruction{:.text-delta}
 |Lightning Sparks
 |Sparks
  
-Illusion{:.text-delta}
+<p class="text-delta">Illusion</p>
 
 |Enraging Orb 
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank II)
 |Healing Hands (Rank II)
@@ -555,7 +555,7 @@ Restoration{:.text-delta}
  <summary> Onmund </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Sorcerer |Location |Hall of Attainment 
 |Level Min/Max |1/30 |Prerequisite |Onmund's Request
@@ -564,16 +564,16 @@ Info{:.text-epsilon}
 
 | Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Magic Resistance
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -581,7 +581,7 @@ Conjuration{:.text-delta}
 |Expert Conjuration |Expert spells cost 55% less magicka, and improve 4% per skill level.
 |Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -593,15 +593,15 @@ Destruction{:.text-delta}
 |Electromancy I |All lightning spells deal 15% more damage.
 |Pyromancy I|All fire spells deal 15% more damage.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
 
-#### Spells
+<p class="text-gamma">Spells</p>
 
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Banish Daedra (Rank II)
 |Command Daedra
@@ -609,7 +609,7 @@ Conjuration{:.text-delta}
 |Summon Frost Atronach
 |Summon Storm Atronach
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Chain Lightning
 |Icy Lance
@@ -617,7 +617,7 @@ Destruction{:.text-delta}
 |Lightning Bolt
 |Lightning Strike
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank I)
 |Fast Healing
@@ -633,7 +633,7 @@ Restoration{:.text-delta}
  <summary> Aela the Huntress </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Nord Ranger |Location |Jorrvaskr
 |Level Min/Max |1/50 |Prerequisite |Glory of the Dead
@@ -642,16 +642,16 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina. 
 
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina
@@ -659,7 +659,7 @@ Evasion{:.text-delta}
 |Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
@@ -672,7 +672,7 @@ Marksman{:.text-delta}
 |Penetrating Shot |+100% armor penetration from ammunition.
 |Stunning Precision |Staggering hits will also stun your target.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
@@ -682,7 +682,7 @@ One Handed{:.text-delta}
 |Powerful Strike |Power attack damage x 1.2.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Stealth II|Sneaking ability is 35% more effective. Heavy armor nullifies this bonus. |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
 |Muffled Movement |While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
@@ -692,7 +692,7 @@ Sneak{:.text-delta}
 |Anatomical Lore |Against humanoid targets, Crossbows and Bows will deal 200% more damage in sneak attacks, while everything else will deal 500% more damage.
 
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Resist Magic 75%
  
@@ -705,7 +705,7 @@ Unique{:.text-delta}
  <summary> Athis </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Dunmer Warrior |Location |Jorrvaskr
 |Level Min/Max |1/25 |Prerequisite |Glory of the Dead
@@ -714,16 +714,16 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina
@@ -731,14 +731,14 @@ Evasion{:.text-delta}
 |Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Eagle Eye|Adds armor penetration.
 
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
 |Flurry II|One-handed and unarmed attacks are 25% faster.
@@ -760,7 +760,7 @@ One Handed{:.text-delta}
  <summary> Farkas </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |Jorrvaskr
 |Level Min/Max |1/50 |Prerequisite |Glory of the Dead
@@ -769,9 +769,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
@@ -780,7 +780,7 @@ Block{:.text-delta}
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -789,12 +789,12 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
@@ -803,7 +803,7 @@ One Handed{:.text-delta}
 |Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
 |Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
  
-Two Handed{:.text-delta}
+<p class="text-delta">Two Handed</p>
 
 |Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
@@ -816,7 +816,7 @@ Two Handed{:.text-delta}
 |Devastating Cleave |Sideways power attacks can knock down.
 |Mighty Strike|Damage +25%, +20 armor penetration.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Resist Magic 75%
  
@@ -829,7 +829,7 @@ Unique{:.text-delta}
  <summary> Njada Stonearm </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Nord Warrior |Location |Jorrvaskr
 |Level Min/Max |1/25 |Prerequisite |Glory of the Dead
@@ -838,9 +838,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -851,21 +851,21 @@ Block{:.text-delta}
 |Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
 |Unstoppable Charge |Can now sprint with shield raised, knocking down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced. 
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Eagle Eye|Adds armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
@@ -885,7 +885,7 @@ One Handed{:.text-delta}
  <summary> Ria </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Imperial Warrior |Location |Jorrvaskr
 |Level Min/Max |1/25 |Prerequisite |Glory of the Dead
@@ -894,15 +894,15 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina
@@ -910,14 +910,14 @@ Evasion{:.text-delta}
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
 |Marksman's Focus |-25% weapon weight penalties.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -934,7 +934,7 @@ One Handed{:.text-delta}
  <summary> Torvar </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |Jorrvaskr
 |Level Min/Max |1/25 |Prerequisite |Glory of the Dead
@@ -943,30 +943,30 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Eagle Eye|Adds armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -985,7 +985,7 @@ One Handed{:.text-delta}
  <summary> Vilkas </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |Jorrvaskr
 |Level Min/Max |1/50 |Prerequisite |Glory of the Dead
@@ -994,9 +994,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
@@ -1005,7 +1005,7 @@ Block{:.text-delta}
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -1013,12 +1013,12 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
@@ -1029,7 +1029,7 @@ One Handed{:.text-delta}
 |Powerful Strike |Power attack damage x 1.2.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
-Two Handed{:.text-delta}
+<p class="text-delta">Two Handed</p>
 
 |Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
@@ -1042,7 +1042,7 @@ Two Handed{:.text-delta}
 |Devastating Cleave |Sideways power attacks can knock down.
 |Mighty Strike|Damage +25%, +20 armor penetration.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Resist Magic 75%
  
@@ -1058,7 +1058,7 @@ Unique{:.text-delta}
  
 <div class="Info" markdown="1"> 
 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Imperial Assassin |Location |Dawnstar Sanctuary 
 |Level Min/Max |1/50 |Prerequisite |Hail Sithis!
@@ -1067,9 +1067,9 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
 |Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
@@ -1089,7 +1089,7 @@ Unique
  
 <div class="Info" markdown="1"> 
 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Assassin |Location |Hjerim, Windhelm 
 |Level Min/Max |1/100 |Prerequisite |Hail Sithis!
@@ -1098,21 +1098,21 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
 |Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
 
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Armsman|One-Handed weapons do 140% damage.
 |Overdraw|Bows do 140% damage.
@@ -1126,7 +1126,7 @@ Unique{:.text-delta}
  <summary> Female Dark Brotherhood Initiate </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Nord Assassin |Location |Hjerim, Windhelm 
 |Level Min/Max |None/100|Prerequisite |Hail Sithis!
@@ -1135,14 +1135,14 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
 |Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Armsman|One-Handed weapons do 140% damage.
 |Overdraw|Bows do 140% damage
@@ -1158,7 +1158,7 @@ Unique{:.text-delta}
  <summary> Agmaer </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Nord Bandit|Location |Fort Dawnguard
 |Level Min/Max |5/25 |Prerequisite |Prophet
@@ -1167,9 +1167,9 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
@@ -1179,13 +1179,13 @@ Block{:.text-delta}
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Unstoppable Charge |Can now sprint with shield raised, knocking down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -1194,7 +1194,7 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
@@ -1203,7 +1203,7 @@ Marksman{:.text-delta}
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
@@ -1215,7 +1215,7 @@ One Handed{:.text-delta}
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Flurry I|One-handed and unarmed attacks are 10% faster.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
@@ -1229,7 +1229,7 @@ Unique{:.text-delta}
  <summary> Beleval </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Bosmer Bandit|Location |Fort Dawnguard 
 |Level Min/Max |5/25 |Prerequisite |Prophet
@@ -1238,20 +1238,20 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -1260,11 +1260,11 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
@@ -1276,7 +1276,7 @@ Marksman{:.text-delta}
 |Penetrating Shot |+100% armor penetration from ammunition.
 |Stunning Precision |Staggering hits will also stun your target.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -1286,7 +1286,7 @@ One Handed{:.text-delta}
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
@@ -1300,7 +1300,7 @@ Unique{:.text-delta}
  <summary> Celann </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Breton Warrior|Location |Fort Dawnguard 
 |Level Min/Max |None |Prerequisite |Prophet
@@ -1309,9 +1309,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1322,7 +1322,7 @@ Block{:.text-delta}
 |Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
 |Unstoppable Charge |Can now sprint with shield raised, knockig down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
@@ -1332,7 +1332,7 @@ Evasion{:.text-delta}
 |Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -1342,7 +1342,7 @@ One Handed{:.text-delta}
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Stunning Charge |Forward power attacks can knock down.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Resotration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -1354,18 +1354,18 @@ Restoration{:.text-delta}
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 |Power of Life|Can cast Power of Life 1/day. Cures all poisons, and heals 5000 health/s for 12 seconds.
  
-Two Handed{:.text-delta}
+<p class="text-delta">Two Handed</p>
 
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
  
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank II)
 |Heal Self (Rank II)
@@ -1382,7 +1382,7 @@ Restoration{:.text-delta}
  <summary> Durak </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Orismer Ranger|Location |Fort Dawnguard
 |Level Min/Max |None |Prerequisite |Prophet
@@ -1391,9 +1391,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experience Blocking
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1404,7 +1404,7 @@ Block{:.text-delta}
 |Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
 |Unstoppable Charge |Can now sprint with shield raised, knocking down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
@@ -1412,12 +1412,12 @@ Evasion{:.text-delta}
 |Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
  
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
 |Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
@@ -1427,7 +1427,7 @@ Marksman{:.text-delta}
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -1437,7 +1437,7 @@ One Handed{:.text-delta}
 |Powerful Strike |Power attack damage x 1.2.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
@@ -1451,7 +1451,7 @@ Unique{:.text-delta}
  <summary> Ingjard </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Nord Warrior|Location |Fort Dawnguard
 |Level Min/Max |None |Prerequisite |Prophet
@@ -1460,15 +1460,15 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Defensive Stance |Blocking no longer slows you down.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
@@ -1476,7 +1476,7 @@ Evasion{:.text-delta}
 |Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
@@ -1486,7 +1486,7 @@ Marksman{:.text-delta}
 |Penetrating Shot |+100% armor penetration from ammunition.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
  
-Two Handed{:.text-delta}
+<p class="text-delta">Two Handed</p>
 
 |Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
@@ -1499,7 +1499,7 @@ Two Handed{:.text-delta}
 |Devastating Cleave |Sideways power attacks can knock down.
 |Mighty Strike|Damage +25%, +20 armor penetration.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
@@ -1513,7 +1513,7 @@ Unique{:.text-delta}
  <summary> Serana </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Nord Vampire |Location |Dimhollow Cavern
 |Level Min/Max |None |Prerequisite |Kindred Judgment
@@ -1522,39 +1522,39 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Magic Resistance I |Gain 10% Magic Resist
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |War Axe Focus II |Damage x 1.15, +20 armor penetration with War Axes.
 |Mace Focus II|Power attack damage x 1.1, +30 armor penetration with Maces.
 |Sword Focus II |+16% attack speed, +14 armor penetration with Swords.
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration 
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Necromancy|Undead and ghostly summons last 50% longer. You can reanimate more powerful corpses (3x higher level) that last 10x longer.
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Cryomancy I|All frost spells deal 15% more damage.
  
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Raise Zombie
 |Revenant
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Ice Spike
 |Ice Storm
@@ -1572,7 +1572,7 @@ Destruction{:.text-delta}
  <summary> Adelasia Vendicci </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Imperial Citizen|Location |Solitude
 |Level Min/Max |1/25 |Prerequisite |Rise in the East
@@ -1581,9 +1581,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -1605,7 +1605,7 @@ Heavy Armor{:.text-delta}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
  None
 
@@ -1618,7 +1618,7 @@ Perks{:.text-epsilon}
  <summary> Annekke Crag-Jumper </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Nord Ranger|Location |Darkwater Crossing
 |Level Min/Max |1/30 |Prerequisite |Kill the Bandit Leader
@@ -1627,17 +1627,17 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
  
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
@@ -1651,7 +1651,7 @@ Marksman{:.text-delta}
  <summary> Aranea Lenith </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Dumer Mage|Location |Shrine of Azura
 |Level Min/Max |1/30 |Prerequisite |The Black Star (Side with Azura)
@@ -1660,9 +1660,9 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -1670,7 +1670,7 @@ Alteration{:.text-delta}
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Magic Resistance III |Gain 30% Magic Resist
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -1680,7 +1680,7 @@ Conjuration{:.text-delta}
 |Summoner's Insight |Can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
 |Cognitive Flexibility |Can maintain two/three summons at once, including those outside the school of Conjuration. II
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -1689,13 +1689,13 @@ Destruction{:.text-delta}
 |Electromancy I |All lightning spells deal 15% more damage.
 |Electrostatic Discharge|Your shock spells damage your opponent's Magicka alongside their Health.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Agile Spellcasting |Specialized training allows you to cast spells in light armor without penalties.
 |Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -1704,19 +1704,19 @@ Restoration{:.text-delta}
 |Respite|Healing spells restore both health and stamina.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
  
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Absorb Health
 |Mage Armor on Self (Rank III)
 |Mage Armor on Target (Rank I)
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Command Daedra
 |Spectral Arrow
@@ -1724,7 +1724,7 @@ Conjuration{:.text-delta}
 |Summon Storm Atronach
 |Summon Storm Thrall
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Firebolt
 |Firesparks
@@ -1737,7 +1737,7 @@ Destruction{:.text-delta}
 |Lightning Shackles
 |Lightning Strike
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank IV)
 |Heal Self (Rank III)
@@ -1753,7 +1753,7 @@ Restoration{:.text-delta}
  <summary> Belrand </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Nord Spellsword|Location |Solitude
 |Level Min/Max |1/40 |Prerequisite |Pay them
@@ -1762,48 +1762,48 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Cryomancy I |All frost spells deal 15% more damage.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning |Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslight
 |Combat Training|Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Penetrating Strikes|-50% power attack stamina cost, +5 armor penetration
 |War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Improved Healing|Healing spells are 25% more effective.
 |Focused Mind |Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor on Self (Rank I)
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Summon Spirit Wolf
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Ice Spike
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank I)
 |Fast Healing
@@ -1817,7 +1817,7 @@ Restoration{:.text-delta}
  <summary> Benor </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Redguard Warrior|Location |Morthal
 |Level Min/Max |1/30 |Prerequisite |Defeat in a Brawl
@@ -1826,9 +1826,9 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -1844,7 +1844,7 @@ Heavy Armor{:.text-delta}
  <summary> Borgakh the Steel Heart </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Orismer Warrior |Location |Mor Khazgur
 |Level Min/Max |1/30 |Prerequisite |Pay their dowry, or presuade them
@@ -1853,9 +1853,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1864,7 +1864,7 @@ Block{:.text-delta}
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -1873,14 +1873,14 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -1893,7 +1893,7 @@ One Handed{:.text-delta}
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 
@@ -1906,7 +1906,7 @@ Sneak{:.text-delta}
  <summary> Cosnach </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Breton Warrior|Location |Markath
 |Level Min/Max |1/30 |Prerequisite |Defeat in a Brawl, or give them a drink
@@ -1915,7 +1915,7 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
  None
 
@@ -1928,7 +1928,7 @@ Perks{:.text-epsilon}
  <summary> Derkeethus </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Argonian Ranger|Location |Darkwater Pass / Darkwater Crossing
 |Level Min/Max |1/30 |Prerequisite |???
@@ -1937,27 +1937,27 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
  
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 |Muffled Movement |While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
@@ -1971,7 +1971,7 @@ Sneak{:.text-delta}
  <summary> Eola </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Breton Nightblade |Location |Markarth
 |Level Min/Max |1/30 |Prerequisite |The Taste of Death
@@ -1980,37 +1980,37 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Magic Resistance I |Gain 10% Magic Resist
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Electromancy I |All lightning spells deal 15% more damage.
 |Pyromancy I|All fire spells deal 15% more damage.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor on Self (Rank I)
 |Mage Armor on Self (Rank III)
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Raise Zombie
 |Reanimate Corpse
 |Summon Flame Atronach
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Chain Lightning
 |Fireball
@@ -2019,7 +2019,7 @@ Destruction{:.text-delta}
 |Lightning Bolt
 |Thunderbolt
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank II)
 |Fast Healing
@@ -2034,7 +2034,7 @@ Restoration{:.text-delta}
  <summary> Erandur </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Dunmer Healer |Location |Dawnstar
 |Level Min/Max |1/50 |Prerequisite |Spare his life in Waking Nightmare
@@ -2043,13 +2043,13 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Magic Resistance III |Gain 30% Magic Resist
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -2059,13 +2059,13 @@ Conjuration{:.text-delta}
 |Summoner's Insight |Can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
 |Cognitive Flexibility |Can maintain two/three summons at once, including those outside the school of Conjuration. II
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Agile Spellcasting |Specialized training allows you to cast spells in light armor without penalties.
 |Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -2074,13 +2074,13 @@ Restoration{:.text-delta}
 |Respite|Healing spells restore both health and stamina.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Banish Daedra (Rank II)
 |Command Daedra
@@ -2088,12 +2088,12 @@ Conjuration{:.text-delta}
 |Summon Spectral Warhound
 |Summon Storm Atronach
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Firebolt
 |Firesparks
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank II)
 |Arcane Ward (Rank IV)
@@ -2110,7 +2110,7 @@ Restoration{:.text-delta}
  <summary> Erik The Slayer </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Barbarian |Location |Rorikstead
 |Level Min/Max |1/40 |Prerequisite |Pay them
@@ -2119,16 +2119,16 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Armsman|One-Handed weapons do 140% damage.
 
@@ -2141,7 +2141,7 @@ Unique{:.text-delta}
  <summary> Frea </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Nord Warrior |Location |Skaal Village
 |Level Min/Max |None |Prerequisite |The Fate of the Skaal
@@ -2150,9 +2150,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Stability|All Alteration spells last 50% longer.
 |Metamagical Thesis |Decreases magicka cost for all spells by 10%.
@@ -2160,12 +2160,12 @@ Alteration{:.text-delta}
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Spell Armor|Mage Armor spells reduce incoming elemental damage by 15%.
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -2174,14 +2174,14 @@ Heavy Armor{:.text-delta}
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Eagle Eye|Adds armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
@@ -2192,20 +2192,20 @@ One Handed{:.text-delta}
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 |Power of Life|Can cast Power of Life 1/day. Cures all poisons, and heals 5000 health/s for 12 seconds.
  
-#### Spells
+<p class="text-gamma">Spells</p>
 
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor on Self (Rank II)
 |Mage Armor on Self (Rank IV) 
 
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Fast Healing
 |Healing Hands (Rank I)
@@ -2221,7 +2221,7 @@ Restoration{:.text-delta}
  <summary> Ghorbash the Iron Hand </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Orismer Ranger|Location |Dushnikh Yal
 |Level Min/Max |1/30 |Prerequisite |Convince them to travel with the Dragonborn
@@ -2230,9 +2230,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -2241,7 +2241,7 @@ Block{:.text-delta}
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -2250,7 +2250,7 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
@@ -2258,7 +2258,7 @@ Marksman{:.text-delta}
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -2271,7 +2271,7 @@ One Handed{:.text-delta}
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 
@@ -2284,7 +2284,7 @@ Sneak{:.text-delta}
  <summary> Golldir </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |Hillgrund's Tomb
 |Level Min/Max |1/30 |Prerequisite |Help them in Ancestral Worship
@@ -2293,9 +2293,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
@@ -2307,7 +2307,7 @@ Block{:.text-delta}
 |Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
 |Unstoppable Charge |Can now sprint with shield raised, knocking down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relenteless Onslaught
@@ -2316,7 +2316,7 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
@@ -2325,7 +2325,7 @@ Marksman{:.text-delta}
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -2337,7 +2337,7 @@ One Handed{:.text-delta}
 |Stunning Charge |Forward power attacks can knock down.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
  
@@ -2350,7 +2350,7 @@ Sneak{:.text-delta}
  <summary> Illia </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Imperial Mage |Location |Darklight Tower
 |Level Min/Max |1/40 |Prerequisite |Help them in Repentance
@@ -2359,9 +2359,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -2373,7 +2373,7 @@ Alteration{:.text-delta}
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -2381,13 +2381,13 @@ Destruction{:.text-delta}
 |Cryomancy I|All frost spells deal 15% more damage.
 |Deep Freeze|Many of your ice spells can freeze enemies who are susceptible to frost.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Agile Spellcasting |Specialized training allows you to cast spells in light armor without penalties.
 |Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -2396,26 +2396,26 @@ Restoration{:.text-delta}
 |Respite|Healing spells restore both health and stamina.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Absorb Health
 |Mage Armor on Self (Rank III)
 |Mage Armor on Target (Rank I)
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Banish Daedra (Rank I)
 |Specral Arrow
 |Summon Flame Atronach
 |Summon Spectral Warhound
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Firebolt
 |Firesparks
@@ -2426,7 +2426,7 @@ Destruction{:.text-delta}
 |Icy Shard
 |Lightning Bolt
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank IV)
 |Heal Self (Rank III)
@@ -2442,7 +2442,7 @@ Restoration{:.text-delta}
  <summary> Jenassa </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Dunmer Ranger |Location |Whiterun
 |Level Min/Max |1/40 |Prerequisite |Pay them
@@ -2451,41 +2451,41 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
  Alchemy
 |Immunization | Gain +50% Disease Resist and +25% Poison Resist.
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Combat Reflexes |Can enter a Combat Trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
  
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
 |Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
 |Piercing Shot|+50% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery I |Damage x 120%, -50% weapon weight penalties.
 |Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
 |Flurry I|One-handed and unarmed attacks are 10% faster.
  
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Stealth II|Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
 |Light Steps|Will not trigger traps.
@@ -2499,7 +2499,7 @@ Sneak{:.text-delta}
  <summary> Kharjo </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Khajiit Warrior |Location |Khajiit Caravan
 |Level Min/Max |1/30 |Prerequisite |Retrieve his Moon Amulet
@@ -2508,13 +2508,13 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Defensive Stance |Blocking no longer slows you down.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -2523,11 +2523,11 @@ Heavy Armor{:.text-delta}
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
  
-Lockpicking{:.text-delta}
+<p class="text-delta">Lockpicking</p>
 
 |Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
 |Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
@@ -2543,7 +2543,7 @@ One Handed{:.text-delta}
  <summary> Lob </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Orismer Ranger |Location |Largashbur
 |Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
@@ -2552,7 +2552,7 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own. 
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
  None
 
@@ -2564,7 +2564,7 @@ Perks{:.text-epsilon}
  <summary> Marcurio </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Imperial Mage |Location |Riften
 
@@ -2574,14 +2574,14 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Magic Resistance I |Gain 10% Magic Resist
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -2589,26 +2589,26 @@ Destruction{:.text-delta}
 |Electromancy I |All lightning spells deal 15% more damage.
 |Empowered Elements |Can dual-cast Destruction spells to augment their power by 125% for double magicka cost.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
 |Respite|Healing spells restore both health and stamina.
 |Improved Wards |Arcane wards are 25% more effective, absorb 25% Magicka from hostile spells, and cost 5% less Magicka to cast.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor on Self (Rank III)
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Chain Lightning
 |Firebolt
 |Lightning Bolt
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank II)
 |Fast Healing
@@ -2623,7 +2623,7 @@ Restoration{:.text-delta}
  <summary> Mjoll the Lioness </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Nord Warrior |Location |Riften
 |Level Min/Max |1/40 |Prerequisite |Retrieve Grimsever
@@ -2632,9 +2632,9 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -2643,14 +2643,14 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Two Handed{:.text-delta}
+<p class="text-delta">Two Handed</p>
 
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
 |Battleaxe Focus I |Damage +5%, +10 armor penetration with Battleaxes.
 |Greatsword Focus I |Attack speed +10%, +7 armor penetration with Greatswords.
 |Warhammer Focus III |Power attack damage +15%, +45 armor penetration with Warhammers.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Barbarian|Two-Handed weapons deal 150% damage.
 
@@ -2662,7 +2662,7 @@ Unique{:.text-delta}
  <summary> Ogol </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Orismer Warrior|Location |Largashbur
 
@@ -2672,7 +2672,7 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
  None
 
@@ -2684,7 +2684,7 @@ Perks{:.text-epsilon}
  <summary> Ralis Sedarys </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Dunmer Nightblade |Location |Kolbjorn Barrow
 |Level Min/Max |1/60 |Prerequisite |Spare them at the end of Unearthed
@@ -2693,17 +2693,17 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Cryomancy I|All frost spells deal 15% more damage.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
@@ -2711,7 +2711,7 @@ Evasion{:.text-delta}
 |Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves.
 |Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
@@ -2729,7 +2729,7 @@ One Handed{:.text-delta}
  <summary> Roggi Knot-Beard </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Miner|Location |Kynesgrove
 |Level Min/Max |1/20 |Prerequisite |Find Roggi Knot-Beard's Ancestral Shield
@@ -2738,7 +2738,7 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
  None
 
@@ -2750,7 +2750,7 @@ Perks{:.text-epsilon}
  <summary> Stenvar </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |Windhelm
 
@@ -2760,9 +2760,9 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -2777,7 +2777,7 @@ Heavy Armor{:.text-delta}
  <summary> Talvas Fathryon </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Dunmer Conjurer |Location |Tel Mithryn
 |Level Min/Max |1/25 |Prerequisite |From the Ashes
@@ -2786,54 +2786,54 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Magic Resistance II |Gain 20% Magic Resist
 |Stability|All Alteration spells last 50% longer.
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Stabilized Binding |Extends the duration of summoned Spirits and Daedra by 50%.
 |Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Pyromancy I|All fire spells deal 15% more damage.
 |Cryomancy I|All frost spells deal 15% more damage.
 |Impact|Dual-casted projectile Destruction spells have 25% chance of staggering your foes.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
 |Respite|Healing spells restore both health and stamina.
 |Mysticism|Spells that affect the Undead and Daedra are 10% more effective and last 25% longer.
 |Improved Wards |Arcane wards are 25% more effective, absorb 25% Magicka from hostile spells, and cost 5% less Magicka to cast.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Muffled Movement |While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
 |Light Steps|Will not trigger traps.
  
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor on Self (Rank II)
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Summon Flame Atronach
 |Summon Frost Atronach
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Fireball
 |Firebolt
 |Ice Storm
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank II)
 |Fast Healing
@@ -2846,7 +2846,7 @@ Restoration{:.text-delta}
  <summary> Teldryn Sero </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Dunmer Spellsword |Location |Raven Rock
 |Level Min/Max |1/60 |Prerequisite |Pay them
@@ -2855,9 +2855,9 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -2866,7 +2866,7 @@ Conjuration{:.text-delta}
 |Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
 |Summoner's Insight |Can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
@@ -2878,7 +2878,7 @@ Evasion{:.text-delta}
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
 |Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
@@ -2886,24 +2886,24 @@ One Handed{:.text-delta}
 |Powerful Strike |Power attack damage x 1.2.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Summon Flame Atronach
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Firebolt
 |Lightning Bolt
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Fast Healing
  
@@ -2915,7 +2915,7 @@ Restoration{:.text-delta}
  <summary> Ugor </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Orismer Ranger|Location |Largashbur
 
@@ -2925,9 +2925,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -2943,7 +2943,7 @@ Heavy Armor{:.text-delta}
  <summary> Uthgerd the Unbroken </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
 
 |Race/Class |Female Nord Warrior |Location |Whiterun
 |Level Min/Max |1/30 |Prerequisite |Defeat in a Brawl, Requires Character Lv15
@@ -2952,9 +2952,9 @@ Info{:.text-epsilon}
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Block{:.text-delta}
+<p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
@@ -2963,7 +2963,7 @@ Block{:.text-delta}
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
 |Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
  
-Heavy Armor{:.text-delta}
+<p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
 |Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
@@ -2972,7 +2972,7 @@ Heavy Armor{:.text-delta}
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
 |Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
@@ -2980,11 +2980,11 @@ Marksman{:.text-delta}
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
  
-Two Handed{:.text-delta}
+<p class="text-delta">Two Handed</p>
 
 |Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
@@ -2997,7 +2997,7 @@ Two Handed{:.text-delta}
 |Devastating Cleave |Sideways power attacks can knock down.
 |Mighty Strike|Damage +25%, +20 armor penetration.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
  
@@ -3009,7 +3009,7 @@ Sneak{:.text-delta}
  <summary> Vorstag </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |Markarth
 |Level Min/Max |1/40 |Prerequisite |Pay them
@@ -3018,7 +3018,7 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
  None
 
@@ -3033,7 +3033,7 @@ Perks{:.text-epsilon}
  <summary> Amanra Solas </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Redguard Elemental Mage |Location |College of Winterhold
 |Level Min/Max |25/75 |Prerequisite |None(?)
@@ -3042,22 +3042,22 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Expert Destruction |Expert spells cost 55% less magicka, and improve 4% per skill level.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
@@ -3068,18 +3068,18 @@ Restoration{:.text-delta}
 |Myticism
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
  
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Candlelight
 |Mage Armor on Self (Rank II)
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Incinerate
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank III)
 |Arcane Ward (Rank IV)
@@ -3101,7 +3101,7 @@ Restoration{:.text-delta}
  <summary> Brijitte </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Breton "Forsworn Missile"|Location |Druadach Redoubt Cave
 |Level Min/Max |5/80|Prerequisite |None(?)
@@ -3110,26 +3110,26 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
  
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Overdraw|Bows do 140% damage
 
-#### Spells
+<p class="text-gamma">Spells</p>
 
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Heal Self (Rank I)
 
@@ -3142,7 +3142,7 @@ Restoration{:.text-delta}
  <summary> Jensen Honey-Hand </summary>
 
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord "Forsworn Missile"|Location |Markarth Silverblood Inn
 |Level Min/Max |5/80|Prerequisite |None(?)
@@ -3151,26 +3151,26 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Marksman{:.text-delta}
+<p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
 |Precise Aim|Damage x 1.2 with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Overdraw|Bows do 140% damage
 
-#### Spells
+<p class="text-gamma">Spells</p>
 
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Heal Self (Rank I)
 
@@ -3183,7 +3183,7 @@ Restoration{:.text-delta}
  <summary> Ralya </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Female Breton Assassin |Location |Cidhna Mine
 
@@ -3193,17 +3193,17 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Pickpocket{:.text-delta}
+<p class="text-delta">Pickpocket</p>
  
 |Cutpurse|Ability to pickpocket gold is 40% easier, ability to pickpocket keys is doubled. Wearing heavy armor removes this effect.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Backstab|You've learned to exploit weaknesses in your foes' armor 25pts when sneak attacking with daggers, swords and ranged weapons.
 |Reduce Damage|Reduce incoming damage by 90% while escaping Cidhna Mine.
@@ -3219,7 +3219,7 @@ Unique{:.text-delta}
  <summary> Runs-With-Sticks </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Argonian Spellsword |Location |Cidhna Mine
 |Level Min/Max |None(?)|Prerequisite |None(?)
@@ -3228,27 +3228,27 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Master Conjuration |Master spells cost 55% less magicka, and improve 5% per skill level.
  
-Evasion{:.text-delta}
+<p class="text-delta">Evasion</p>
 
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
  
-One Handed{:.text-delta}
+<p class="text-delta">One Handed</p>
 
 |Sword Focus II |+16% attack speed, +14 armor penetration with Swords.
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Conjuration{:.text-delta}
+<p class="text-delta">Conjuration</p>
 
 |Bound Sword
 
@@ -3261,7 +3261,7 @@ Conjuration{:.text-delta}
  <summary> Sameth </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Breton Elemental Mage |Location |College of Winterhold
 |Level Min/Max |25/75 |Prerequisite |None(?)
@@ -3270,22 +3270,22 @@ Info{:.text-epsilon}
 
 |Morality: ?
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
  None
  
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Alteration{:.text-delta}
+<p class="text-delta">Alteration</p>
 
 |Mage Armor on Self (Rank II)
 |Paralyze (Rank I)
  
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Firebolt
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Arcane Ward (Rank II)
 |Fast Healing
@@ -3299,7 +3299,7 @@ Restoration{:.text-delta}
  <summary> Soh'ja Zahan </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Khajiit Assassin|Location |Dawnstar Sanctuary
 |Level Min/Max |10/100|Prerequisite |Hail Sithis(?)
@@ -3308,15 +3308,15 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Illusion{:.text-delta}
+<p class="text-delta">Illusion</p>
 
 |Calm
 |Frenzy
@@ -3326,7 +3326,7 @@ Illusion{:.text-delta}
 |Mayhem
 |Pacify
  
-Restoration{:.text-delta}
+<p class="text-delta">Restoration</p>
 
 |Turn Greater Undead
 |Turn Lesser Undead
@@ -3340,7 +3340,7 @@ Restoration{:.text-delta}
  <summary> Tae-Ja </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Argonian Assassin Vampire|Location |Dawnstar Sanctuary
 
@@ -3350,15 +3350,15 @@ Info{:.text-epsilon}
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Sneak{:.text-delta}
+<p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
 
-#### Spells
+<p class="text-gamma">Spells</p>
  
-Illusion{:.text-delta}
+<p class="text-delta">Illusion</p>
 
 |Calm
 |Frenzy
@@ -3377,7 +3377,7 @@ Illusion{:.text-delta}
  <summary> Various Misc Mercenaries </summary>
  
 <div class="Info" markdown="1"> 
-Info{:.text-epsilon}
+<p class="text-gamma">Info</p>
  
 |Race/Class |Varies |Location |Inn's of Main Cities
 |Level Min/Max |Varies|Prerequisite |Pay them
@@ -3386,7 +3386,7 @@ Info{:.text-epsilon}
 
 |Morality: ?
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
 Varies
 
@@ -3400,12 +3400,13 @@ Varies
 <details>
  <summary> Armored Troll / Armored Frost Troll </summary>
  
+<div class="Info" markdown="1"> 
 |Race |Troll |Location |Fort Dawnguard
 |Prerequisite |A New Order & pay Gunmar 500 septims|RefID |02011BA6; 02011BA7; 02011BA8
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Armor Penetration 25%
 
@@ -3417,6 +3418,7 @@ Unique{:.text-delta}
 <details>
  <summary> Barbas </summary>
  
+<div class="Info" markdown="1"> 
 |Race |Daedra |Location |Outside Falkreath
 |Prerequisite |Speak to Lod |RefID |00052535
 
@@ -3427,6 +3429,7 @@ Unique{:.text-delta}
 
 <details>
  <summary> Bran </summary>
+<div class="Info" markdown="1"> 
  
 |Race |Armored War Dog |Location |For Dawnguard
 |Prerequisite |A New Order |RefID |0201AA7B
@@ -3439,6 +3442,7 @@ Unique{:.text-delta}
 
 <details>
  <summary> CuSith </summary>
+ <div class="Info" markdown="1"> 
  
 |Race |Death Hound|Location |Castle Volkihar
 |Prerequisite |The Bloodstone Chalice|RefID |0201AA7A
@@ -3450,9 +3454,8 @@ Unique{:.text-delta}
 
 <details>
  <summary> Garmr </summary>
- 
+<div class="Info" markdown="1"> 
 |Race |Death Hound|Location |Castle Volkihar
-
 |Prerequisite |The Bloodstone Chalice|RefID |0201AA79
 
 ***
@@ -3462,7 +3465,7 @@ Unique{:.text-delta}
 
 <details>
  <summary> Meeko </summary>
- 
+ <div class="Info" markdown="1"> 
 |Race |Dog |Location |Wandering near Meeko's Shack
 |Prerequisite |None|RefID |000D95EA
 
@@ -3473,7 +3476,7 @@ Unique{:.text-delta}
 
 <details>
  <summary> Riekling </summary>
- 
+ <div class="Info" markdown="1"> 
 |Race |Riekling|Location |Thirsk Mead Hall
 |Prerequisite |The Chief of Thirsk Hall |RefID |???
 
@@ -3485,26 +3488,26 @@ Unique{:.text-delta}
 
 <details>
  <summary> Steadfast Dwarven Spider </summary>
- 
+<div class="Info" markdown="1"> 
 |Race |Dwemer Automaton |Location |Kagrumez
 |Prerequisite |The Kagrumez Gauntlet (First Trial)|RefID |???
  
 |Note: Should it be killed, it will respawn after a day. Pulling the lever in front of the place where it was first found and waiting one day will make it respawn.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
 
-Destruction{:.text-delta}
+<p class="text-delta">Destruction</p>
 
 |Electromancy II |All lightning spells deal 30% more damage.
  
- Enchanted Sphere Abilities (Yes, even though it's a Spider) {:.text-delta}
+<p class="text-delta"> Enchanted Sphere Abilities (Yes, even though it's a Spider) </p>
  
 |Absorb Magicka 25%
 |Fortify Unarmed 100pts
 |Resist Damage 100pts
 |Restore Health 20pts per second unless shocked; Restore Health 10pts per second if shocked
 
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Armor Penetration 75%
 
@@ -3515,23 +3518,22 @@ Unique{:.text-delta}
 
 <details>
  <summary> Steadfast Dwarven Sphere </summary>
- 
+<div class="Info" markdown="1"> 
 |Race |Dwemer Automaton |Location |Kagrumez
-
 |Prerequisite |The Kagrumez Gauntlet (Second Trial)|RefID |???
  
 |Note: Should it be killed, it will respawn after a day. Pulling the lever in front of the place where it was first found and waiting one day will make it respawn.
 
-Perks{:.text-epsilon}
+<p class="text-gamma">Perks</p>
  
-Enchanted Sphere Abilities {:.text-delta}
+<p class="text-delta"> Enchanted Sphere Abilities</p>
  
 |Absorb Magicka 25%
 |Fortify Unarmed 100pts
 |Resist Damage 100pts
 |Restore Health 20pts per second unless shocked; Restore Health 10pts per second if shocked
  
-Unique{:.text-delta}
+<p class="text-delta">Unique</p>
 
 |Armor Penetration 75%
  
@@ -3542,7 +3544,7 @@ Unique{:.text-delta}
 
 <details>
  <summary> Vigilance </summary>
- 
+<div class="Info" markdown="1">  
 |Race |Dog |Location |Markarth Stables
 |Prerequisite |Pay Banning 500 septims |RefID |0009A7AB
 
@@ -3556,39 +3558,41 @@ Unique{:.text-delta}
 <details>
  <summary> Missing/Inappropriate Perks </summary>
 
+<div class="Info" markdown="1"> 
 #### Housecarls
 
- Valdimar{:.text-delta}
+ Valdimar
  
  |Has "Focused Mind" w/o having the "Apprentice Restoration" perk.
  |Has Apprentice level Destruction Spell "Ice Spike" (assuming this is Icy Shard) but not the "Apprentice Destruction" perk.
  |Lacks the HA casting perks, making his magicka usage astronomical.
 
+
 #### Brotherhood
  
- Cicero{:.text-delta}
+ Cicero
  
  |Lacks any weapon perks outside of "Armsman", nor does he have any armor perks.
  
- Dark Brotherhood Initiate Female{:.text-delta}
+ Dark Brotherhood Initiate Female
  
  |Has "Penetrating Shot" perk, but none of the pre-reqs including "Ranged Combat Training" perk.
  |Lacks Armor perks.
  
- Dark Brotherhood Initiate Male{:.text-delta}
+ Dark Brotherhood Initiate Male
  
  |Lacks Armor perks.
  
 #### College
  
- J'zargo{:.text-delta}
+ J'zargo
  
  |Has "Improved Mage Armor" with none of the pre-reqs, nor does he have any rank of the Mage Armor spell.
  |Has "Paralyze (Rank I)" and "Magelight", but no Alteration casting perks, point-of-fact, he has no alteration perks whatsoever
  |Has "Enraging Orb" and "Soul Trap (Rank I)" with no appropriate perks for either spell.
  |J'zargo is a very confused magic cat man...
  
- Brelyna{:.text-delta}
+ Brelyna
  
  |Doesn't have the "Novice Alteration" or "Apprentice Alteration" perks, but has ones beyond them.
  |Doesn't have the "Novive Conjuration" perk, but has ones beyond it.
@@ -3596,52 +3600,52 @@ Unique{:.text-delta}
 
 #### Companions
  
- Njada Stonearm{:.text-delta}
+ Njada Stonearm
  
  |Doesn't have "Power of the Combatant" like other HA Companions.
  
- Ria{:.text-delta}
+ Ria
  
  |Has "Marksmans Focus" w/o having "Eagle Eye".
  |Doesn't have "Ranger" like other companions.
 
- Torvar{:.text-delta}
+ Torvar
  
  |Doesn't have "Power of the Combatant" like other HA Companions.
  
 
 #### Dawnguard
 
- Ingjard{:.text-delta}
+ Ingjard
  
  |Don't know if they need "Vexing Flanker" to take "Combat Reflexes".
  |Has "Rapid Reload" and "Power Shot" w/o "Eagle Eye".
  |Has "Defensive Stance" w/o "Strong Grip" or "Elemental Protection".
  |Has "Meteoric Reflexes" w/o "Windrunner".
  
- Durak{:.text-delta}
+ Durak
  
  |Don't know if they need "Vexing Flanker" to take "Combat Reflexes".
  |Has "Rapid Reload" and "Power Shot" w/o "Eagle Eye".
  |Has "Meteoric Reflexes" w/o "Windrunner".
  
- Agmaer{:.text-delta}
+ Agmaer
  
  |Don't know they also need the right side of the Block tree to get "Unstoppable Charge".
  |Has "Finesse", "Dexterity", and "Combat Reflexes" w/o "Agility".
  |Has "Rapid Reload" and "Quick Shot" w/o "Eagle Eye".
  
- Beleval{:.text-delta}
+ Beleval
  
  |Has "Rapid Reload", "Power Shot", "Quick Shot", and "Stunning Precision" w/o "Eagle Eye".
  |Has "Dexterity" despite being specialized in HA and w/o pre-req perks.
  
- Celann{:.text-delta}
+ Celann
  
  |Has "Meteoric Reflexes" w/o "Windrunner".
  |Has "Barbaric Might" but no other 2H perks.
  
- Serana{:.text-delta}
+ Serana
  
  |Has "Finesse" and no other Evasion perks.
  |Has multiple 1H perks w/o "Weapon Mastery".
@@ -3650,22 +3654,22 @@ Unique{:.text-delta}
  
 #### Misc Followers
  
- Adelasia Vendicci{:.text-delta}
+ Adelasia Vendicci
  
  |Lacks any perks, save the 4 they have in HA.
  
- Annekke Crag-Jumper{:.text-delta}
+ Annekke Crag-Jumper
  
  |Only possesses 4 perks in total, all are correct but maybe they need a few more?
  
- Aranea Lenith{:.text-delta}
+ Aranea Lenith
  
  |Has "Agility", "Agile Spellcasting", and "Windrunner" but no other perks between them.
  |Has "Light Steps" but no other perks.
  |Despite only being an Apprentice Conjurer, possesses multiple high-level spells, including the master-tier "Summon Storm Thrall".
  |Same issue as above but with Destruction, lacking the appropriate perks for their expert-tier shock spell.
  
- Belrand{:.text-delta}
+ Belrand
  
  |Dude's a fuckin mess.
  |Aside from "Cryomancy", lacks any Destruction perks whatsoever.
@@ -3674,24 +3678,24 @@ Unique{:.text-delta}
  |Specializes in HA and magic, but lacks any of the HA Casting perks.
  |Has "Penetrating Strikes" and "War Axe Focus I" but not "Weapon Mastery".
  
- Benor{:.text-delta}
+ Benor
  
  |Lacks weapon perks, only has HA perks.
  
- Borgakh the Steel Heart{:.text-delta}
+ Borgakh the Steel Heart
  
  |Has "Light Steps" w/o any pre-req perks.
  
- Derkeethus{:.text-delta}
+ Derkeethus
  
  |Has multiple perks w/o their pre-reqs and in-fact lacks the first perk in any tree they have perks in. (O_o)
  
- Eola{:.text-delta}
+ Eola
  
  |Same problem, lacks many pre-req perks.
  |Has no cost-reduction perks despite possessing a few powerful spells.
  
- Erandur{:.text-delta}
+ Erandur
  
  |These mages' be fuckin cheatin!
  |Has "Magic Resistance III" w/o any pre-reqs.
@@ -3700,31 +3704,31 @@ Unique{:.text-delta}
  |Has Destruction spells w/o cost-reduction perks.
  |Has Expert-tier Conjuration spells w/o the appropriate cost-reduction perks.
  
- Erik The Slayer{:.text-delta}
+ Erik The Slayer
  
  |Lacks any weapons perks save for the unique "Armsman".
  
- Frea{:.text-delta}
+ Frea
  
  |Lacks cost-reduction perks for Alteration (Expert) and Restoration (Adept) despite having spells in those schools.
  |Same as above, has many Alteration and Restoration perks w/o their pre-reqs.
  
- Ghorbash the Iron Hand{:.text-delta}
+ Ghorbash the Iron Hand
  
  |Has "Power Shot" w/o "Eagle Eye".
  
- Golldir{:.text-delta}
+ Golldir
  
  |Has "Power Shot" and "Quick Shot" w/o "Eagle Eye".
  
- Illia{:.text-delta}
+ Illia
  
  |Has "Windrunner" and "Agile Spellcasting" w/o "Dexterity" and "Finesse".
  |Has "Light Steps" w/o any pre-reqs.
  |Has Expert-tier Restoration spells w/o cost-reduction perks.
  |Has Adept-tier Conjuration spell w/o cost-reduction perks.
  
- Jenassa{:.text-delta}
+ Jenassa
  
  |Has "Strong Grip" but w/o "Improved Blocking".
  |Has "Power Shot" and "Piercing Shot" w/o "Eagle Eye" and "Precise Aim" respectively.
@@ -3732,75 +3736,75 @@ Unique{:.text-delta}
  |Has "Light Steps" w/o "Muffled Movement".
  |Has "Immunization" w/o any pre-reqs.
  
- Kharjo{:.text-delta}
+ Kharjo
  
  |Has "Combat Meditation" w/o pre-reqs and despite having no spells at all... Must have been a career change?
  |Has "Defensive Stance" w/o any other block perks.
  |Lacks the "Weapon Mastery" and "Penetrating Strikes" perks for One-Handed.
  
- Marcurio{:.text-delta}
+ Marcurio
  
  |Missing a swathe of perks.
  |Has Adept-tier Alteration spells but missing ALL cost-reduction perks, also lacks pre-reqs for the two Alteration perks they have.
  |He forgot to grab "Adept Destruction" for Chain Lighting.
  |Skipped over "Novice Restoration".
  
- Mjoll the Lioness{:.text-delta}
+ Mjoll the Lioness
  
  |Skipped over "Great Weapon Mastery" to grab other 2H perks.
  
- Ralis Sedarys{:.text-delta}
+ Ralis Sedarys
  
  |"Dexterity" on the way to "Windrunner".
  |Must be one cold, heartless bitch cause she's got "Cryomancy I" but no spells.
  
- Stenvar{:.text-delta}
+ Stenvar
  
  |Lacks any weapon perks.
  
- Talvas Fathryon{:.text-delta}
+ Talvas Fathryon
  
  |Has "Muffled Movement" and "Light Steps" w/o pre-reqs.
  |Lacks any cost-reduction perks for their spells.
  |Has "Magic Resistance II" and "Stability" w/o any other Alteration perks.
  |Has "Impact" w/o "Empowered Elements"
  
- Teldryn Sero{:.text-delta}
+ Teldryn Sero
  
  |SO close. Has Destruction spells but no Destruction perks.
  
- Ugor{:.text-delta}
+ Ugor
  
  |Has no weapon perks.
  
- Uthgerd the Unbroken{:.text-delta}
+ Uthgerd the Unbroken
  
  |Has "Power Shot" w/o "Eagle Eye".
  |Has "Light Steps" w/o any pre-reqs.
  
 #### Mod-added Followers
 
- Ralya{:.text-delta}
+ Ralya
  
  |Has "Cutpurse" w/o "Nimble Fingers". How's she succeeding w/o the first perk? Can followers even pickpocket?
  
- Runs-With-Sticks{:.text-delta}
+ Runs-With-Sticks
  
  |Has "Light Steps" w/o any pre-reqs.
  |Has "Finesse" w/o "Agillity".
  |Has "Master Conjuration" but only a single, novice-tier spell (Bound Sword).
  |Has "Sword Focus II" w/o "Weapon Mastery".
  
- Amanra Solas{:.text-delta}
+ Amanra Solas
  
  |Has "Respite" w/o "Improved Healing".
  
- Soh'ja Zahan{:.text-delta}
+ Soh'ja Zahan
  
  |Has "Light Steps" w/o any pre-reqs.
  |Lacks any other perks.
  
- Tae-Ja{:.text-delta}
+ Tae-Ja
  
  |Has "Light Steps" w/o any pre-reqs.
  |Lacks any other perks.
