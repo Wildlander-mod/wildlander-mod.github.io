@@ -2568,7 +2568,6 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Male Imperial Mage |Location |Riften
-
 |Level Min/Max |1/40 |Prerequisite |Pay them
 |Blades |Yes|Marriage |Yes 
 |Steward |Yes|RefID |000B9986
@@ -2666,7 +2665,6 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Orismer Warrior|Location |Largashbur
-
 |Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |00019E23
@@ -2754,7 +2752,6 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord Warrior |Location |Windhelm
-
 |Level Min/Max |1/40 |Prerequisite |Pay them
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |000B998C
@@ -2919,7 +2916,6 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Orismer Ranger|Location |Largashbur
-
 |Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |00019E1B
@@ -3187,7 +3183,6 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Female Breton Assassin |Location |Cidhna Mine
-
 |Level Min/Max |None(?)|Prerequisite |None(?)
 |Blades |?|Marriage |No
 |Steward |?|RefID |440073D0
