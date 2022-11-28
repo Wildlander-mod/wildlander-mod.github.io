@@ -57,7 +57,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <div class="Info" markdown="1"> 
 
-<p class="text-gamma">Info</p>
+<p class="text-beta">Info</p>
  
 |Race/Class |Male Nord Warrior| Location |Vlindrel Hall, Markarth 
 |Level Min/Max |10/None |Prerequisite |Thane of Markarth
@@ -99,7 +99,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  <summary> Calder </summary>
 
 <div class="Info" markdown="1"> 
-<p class="text-gamma">Info</p>
+<p class="text-beta">Info</p>
 
 |Race/Class |Male Nord Warrior |Location |Hjerim, Windhelm 
 |Level Min/Max |10/None|Prerequisite |Thane of Eastmarch
@@ -297,9 +297,10 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  <summary> Rayya </summary>
 
 <div class="Info" markdown="1"> 
-<p class="text-gamma">Info</p> 
-|Race/Class |Female Redguard Warrior |Location |Jarl's Longhouse, Falkreath
 
+<p class="text-gamma">Info</p> 
+
+|Race/Class |Female Redguard Warrior |Location |Jarl's Longhouse, Falkreath
 |Level Min/Max |10/None|Prerequisite |Thane of Falkreath
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |03005216
@@ -3813,12 +3814,12 @@ Varies
  
 #### Misc Followers
  
- Ahtar the Jailer
- Lob
- Ogol
- Roggi Knot-Beard
- Vorstag
- Sameth
+* Ahtar the Jailer
+* Lob
+* Ogol
+* Roggi Knot-Beard
+* Vorstag
+* Sameth
 
 </div>
 </details>
