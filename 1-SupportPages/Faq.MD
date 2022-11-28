@@ -523,7 +523,7 @@ There is an appropriate guide [here](..\2-RecommendedReading\8-Keybindings.html)
 
 ----------
 
-### How Do I do a customized start (vampire, werewolf, no perks)
+## How Do I do a customized start (vampire, werewolf, no perks)
 
 When you get the message that Wildlander is finalizing and have clicked OK, hit F10.
 
