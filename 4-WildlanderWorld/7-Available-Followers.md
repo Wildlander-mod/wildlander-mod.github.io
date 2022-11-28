@@ -57,17 +57,18 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <div class="Info" markdown="1"> 
 
-Info{:.text-epsilon}
-
-|Race/Class |Male Nord Warrior| Location |Vlindrel Hall, Markarth |Level Min/Max |10/None |Prerequisite |Thane of Markarth
+{:.text-epsilon} Info
+ 
+|Race/Class |Male Nord Warrior| Location |Vlindrel Hall, Markarth 
+|Level Min/Max |10/None |Prerequisite |Thane of Markarth
 |Blades |Yes|Marriage |Yes|Steward |No|RefID |000A2C92
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
 
-Perks{:.text-epsilon}
+{:.text-epsilon} Perks
 
-Block{:.text-delta}
+{:.text-delta} Block
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
@@ -99,7 +100,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
 
-|Race/Class |Male Nord Warrior |Location |Hjerim, Windhelm |Level Min/Max |10/None|Prerequisite |Thane of Eastmarch
+|Race/Class |Male Nord Warrior |Location |Hjerim, Windhelm 
+|Level Min/Max |10/None|Prerequisite |Thane of Eastmarch
 |Blades |Yes|Marriage |Yes|Steward |Yes|RefID |000A2C96
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
@@ -137,7 +139,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Warrior |Location |The White Hall, Dawnstar |Level Min/Max |10/None|Prerequisite |Thane of The Pale 
+|Race/Class |Male Nord Warrior |Location |The White Hall, Dawnstar 
+|Level Min/Max |10/None|Prerequisite |Thane of The Pale 
 |Blades |Yes|Marriage |Yes|Steward |Yes|RefID |0300521F
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
@@ -179,7 +182,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon} 
 
-|Race/Class |Female Nord Warrior |Location |Honeyside, Riften|Level Min/Max |10/None|Prerequisite |Thane of The Rift 
+|Race/Class |Female Nord Warrior |Location |Honeyside, Riften
+|Level Min/Max |10/None|Prerequisite |Thane of The Rift 
 |Blades |Yes|Marriage |Yes|Steward |Yes|RefID |000A2C93
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
@@ -215,7 +219,8 @@ One Handed{:.text-delta}
 
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon} 
-|Race/Class |Female Nord Warrior |Location |Proudspire Manor, Solitude|Level Min/Max |10/None|Prerequisite |Thane of Haafingar
+|Race/Class |Female Nord Warrior |Location |Proudspire Manor, Solitude
+|Level Min/Max |10/None|Prerequisite |Thane of Haafingar
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |000A2C95
 
@@ -254,7 +259,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon} 
 
-|Race/Class |Female Nord Warrior |Location |Breezehome, Whiterun |Level Min/Max |6/None|Prerequisite |Thane of Whiterun 
+|Race/Class |Female Nord Warrior |Location |Breezehome, Whiterun 
+|Level Min/Max |6/None|Prerequisite |Thane of Whiterun 
 |Blades |Yes|Marriage |Yes 
 |Steward |Yes|RefID |000A2C94
 
@@ -292,7 +298,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon} 
 |Race/Class |Female Redguard Warrior |Location |Jarl's Longhouse, Falkreath
-|Level Min/Max |10/None|Prerequisite |Thane of Falkreath
+
+|Level Min/Max |10/None|Prerequisite |Thane of Falkreath
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |03005216
 
@@ -330,7 +337,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Sorcerer |Location |Highmoon Hall, Morthal |Level Min/Max |10/None|Prerequisite |Thane of Hjaalmarch
+|Race/Class |Male Nord Sorcerer |Location |Highmoon Hall, Morthal 
+|Level Min/Max |10/None|Prerequisite |Thane of Hjaalmarch
 |Blades |Yes|Marriage |Yes 
 |Steward |Yes|RefID |0300521D
 
@@ -473,7 +481,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Khajiit Sorcerer | Location |Hall of Attainment |Level Min/Max |None |Prerequisite |J'zargo's Experiment
+|Race/Class |Male Khajiit Sorcerer | Location |Hall of Attainment 
+|Level Min/Max |None |Prerequisite |J'zargo's Experiment
 |Blades |Yes|Marriage |No 
 |Steward |No|RefID |0009BCB0
 
@@ -547,7 +556,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Sorcerer |Location |Hall of Attainment |Level Min/Max |1/30 |Prerequisite |Onmund's Request
+|Race/Class |Male Nord Sorcerer |Location |Hall of Attainment 
+|Level Min/Max |1/30 |Prerequisite |Onmund's Request
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |0001C1A2
 
@@ -624,7 +634,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Female Nord Ranger |Location |Jorrvaskr|Level Min/Max |1/50 |Prerequisite |Glory of the Dead
+|Race/Class |Female Nord Ranger |Location |Jorrvaskr
+|Level Min/Max |1/50 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |0001A697
 
@@ -695,7 +706,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Dunmer Warrior |Location |Jorrvaskr|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
+|Race/Class |Male Dunmer Warrior |Location |Jorrvaskr
+|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |0001A6D6
 
@@ -749,7 +761,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Warrior |Location |Jorrvaskr|Level Min/Max |1/50 |Prerequisite |Glory of the Dead
+|Race/Class |Male Nord Warrior |Location |Jorrvaskr
+|Level Min/Max |1/50 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |0001A693
 
@@ -817,7 +830,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Female Nord Warrior |Location |Jorrvaskr|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
+|Race/Class |Female Nord Warrior |Location |Jorrvaskr
+|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |0001A6DA
 
@@ -872,7 +886,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Female Imperial Warrior |Location |Jorrvaskr|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
+|Race/Class |Female Imperial Warrior |Location |Jorrvaskr
+|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |0001A6D8
 
@@ -920,7 +935,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Warrior |Location |Jorrvaskr|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
+|Race/Class |Male Nord Warrior |Location |Jorrvaskr
+|Level Min/Max |1/25 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |0001A6DC
 
@@ -970,7 +986,8 @@ One Handed{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Warrior |Location |Jorrvaskr|Level Min/Max |1/50 |Prerequisite |Glory of the Dead
+|Race/Class |Male Nord Warrior |Location |Jorrvaskr
+|Level Min/Max |1/50 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |0001A695
 
@@ -1042,7 +1059,8 @@ Unique{:.text-delta}
 
 Info{:.text-epsilon}
  
-|Race/Class |Male Imperial Assassin |Location |Dawnstar Sanctuary |Level Min/Max |1/50 |Prerequisite |Hail Sithis!
+|Race/Class |Male Imperial Assassin |Location |Dawnstar Sanctuary 
+|Level Min/Max |1/50 |Prerequisite |Hail Sithis!
 |Blades |No|Marriage |No
 |Steward |No|RefID |0009BCB0
 
@@ -1072,7 +1090,8 @@ Unique
 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Assassin |Location |Hjerim, Windhelm |Level Min/Max |1/100 |Prerequisite |Hail Sithis!
+|Race/Class |Male Nord Assassin |Location |Hjerim, Windhelm 
+|Level Min/Max |1/100 |Prerequisite |Hail Sithis!
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |00015D07
 
@@ -1108,7 +1127,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Female Nord Assassin |Location |Hjerim, Windhelm |Level Min/Max |None/100|Prerequisite |Hail Sithis!
+|Race/Class |Female Nord Assassin |Location |Hjerim, Windhelm 
+|Level Min/Max |None/100|Prerequisite |Hail Sithis!
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |00015D09
 
@@ -1139,7 +1159,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Nord Bandit|Location |Fort Dawnguard|Level Min/Max |5/25 |Prerequisite |Prophet
+|Race/Class |Nord Bandit|Location |Fort Dawnguard
+|Level Min/Max |5/25 |Prerequisite |Prophet
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |02003474
 
@@ -1209,7 +1230,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Bosmer Bandit|Location |Fort Dawnguard |Level Min/Max |5/25 |Prerequisite |Prophet
+|Race/Class |Bosmer Bandit|Location |Fort Dawnguard 
+|Level Min/Max |5/25 |Prerequisite |Prophet
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |02015C14
 
@@ -1279,7 +1301,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Breton Warrior|Location |Fort Dawnguard |Level Min/Max |None |Prerequisite |Prophet
+|Race/Class |Breton Warrior|Location |Fort Dawnguard 
+|Level Min/Max |None |Prerequisite |Prophet
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |02015C15
 
@@ -1360,7 +1383,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Orismer Ranger|Location |Fort Dawnguard|Level Min/Max |None |Prerequisite |Prophet
+|Race/Class |Orismer Ranger|Location |Fort Dawnguard
+|Level Min/Max |None |Prerequisite |Prophet
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |02015C16
 
@@ -1428,7 +1452,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Nord Warrior|Location |Fort Dawnguard|Level Min/Max |None |Prerequisite |Prophet
+|Race/Class |Nord Warrior|Location |Fort Dawnguard
+|Level Min/Max |None |Prerequisite |Prophet
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |02015C17
 
@@ -1489,7 +1514,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Female Nord Vampire |Location |Dimhollow Cavern|Level Min/Max |None |Prerequisite |Kindred Judgment
+|Race/Class |Female Nord Vampire |Location |Dimhollow Cavern
+|Level Min/Max |None |Prerequisite |Kindred Judgment
 |Blades |No|Marriage |No
 |Steward |No|RefID |02002B74
 
@@ -1626,7 +1652,8 @@ Marksman{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Dumer Mage|Location |Shrine of Azura|Level Min/Max |1/30 |Prerequisite |The Black Star (Side with Azura)
+|Race/Class |Dumer Mage|Location |Shrine of Azura
+|Level Min/Max |1/30 |Prerequisite |The Black Star (Side with Azura)
 |Blades |Yes|Marriage |No
 |Steward |No|RefID |00028AD1
 
@@ -1727,7 +1754,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Nord Spellsword|Location |Solitude|Level Min/Max |1/40 |Prerequisite |Pay them
+|Race/Class |Nord Spellsword|Location |Solitude
+|Level Min/Max |1/40 |Prerequisite |Pay them
 |Blades |Yes|Marriage |No
 |Steward |No|RefID |000B9988
 
@@ -1790,7 +1818,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Redguard Warrior|Location |Morthal|Level Min/Max |1/30 |Prerequisite |Defeat in a Brawl
+|Race/Class |Redguard Warrior|Location |Morthal
+|Level Min/Max |1/30 |Prerequisite |Defeat in a Brawl
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |0001AA65
 
@@ -1816,7 +1845,8 @@ Heavy Armor{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Female Orismer Warrior |Location |Mor Khazgur|Level Min/Max |1/30 |Prerequisite |Pay their dowry, or presuade them
+|Race/Class |Female Orismer Warrior |Location |Mor Khazgur
+|Level Min/Max |1/30 |Prerequisite |Pay their dowry, or presuade them
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |
 
@@ -2005,7 +2035,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Dunmer Healer |Location |Dawnstar|Level Min/Max |1/50 |Prerequisite |Spare his life in Waking Nightmare
+|Race/Class |Male Dunmer Healer |Location |Dawnstar
+|Level Min/Max |1/50 |Prerequisite |Spare his life in Waking Nightmare
 |Blades |Yes|Marriage |No
 |Steward |No|RefID |00024280
 
@@ -2080,7 +2111,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Barbarian |Location |Rorikstead|Level Min/Max |1/40 |Prerequisite |Pay them
+|Race/Class |Male Nord Barbarian |Location |Rorikstead
+|Level Min/Max |1/40 |Prerequisite |Pay them
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |000652E2
 
@@ -2110,7 +2142,8 @@ Unique{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Female Nord Warrior |Location |Skaal Village|Level Min/Max |None |Prerequisite |The Fate of the Skaal
+|Race/Class |Female Nord Warrior |Location |Skaal Village
+|Level Min/Max |None |Prerequisite |The Fate of the Skaal
 |Blades |Yes|Marriage |No
 |Steward |No|RefID |04017A0D
 
@@ -2189,7 +2222,8 @@ Restoration{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Orismer Ranger|Location |Dushnikh Yal|Level Min/Max |1/30 |Prerequisite |Convince them to travel with the Dragonborn
+|Race/Class |Orismer Ranger|Location |Dushnikh Yal
+|Level Min/Max |1/30 |Prerequisite |Convince them to travel with the Dragonborn
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |00019930
 
@@ -2532,7 +2566,8 @@ Perks{:.text-epsilon}
 Info{:.text-epsilon}
  
 |Race/Class |Male Imperial Mage |Location |Riften
-|Level Min/Max |1/40 |Prerequisite |Pay them
+
+|Level Min/Max |1/40 |Prerequisite |Pay them
 |Blades |Yes|Marriage |Yes 
 |Steward |Yes|RefID |000B9986
 
@@ -2629,7 +2664,8 @@ Unique{:.text-delta}
 Info{:.text-epsilon}
  
 |Race/Class |Orismer Warrior|Location |Largashbur
-|Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
+
+|Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |00019E23
 
@@ -2716,7 +2752,8 @@ Perks{:.text-epsilon}
 Info{:.text-epsilon}
  
 |Race/Class |Male Nord Warrior |Location |Windhelm
-|Level Min/Max |1/40 |Prerequisite |Pay them
+
+|Level Min/Max |1/40 |Prerequisite |Pay them
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |000B998C
 
@@ -2880,7 +2917,8 @@ Restoration{:.text-delta}
 Info{:.text-epsilon}
  
 |Race/Class |Orismer Ranger|Location |Largashbur
-|Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
+
+|Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
 |Blades |Yes|Marriage |No
 |Steward |Yes|RefID |00019E1B
 
@@ -2906,7 +2944,8 @@ Heavy Armor{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
 
-|Race/Class |Female Nord Warrior |Location |Whiterun|Level Min/Max |1/30 |Prerequisite |Defeat in a Brawl, Requires Character Lv15
+|Race/Class |Female Nord Warrior |Location |Whiterun
+|Level Min/Max |1/30 |Prerequisite |Defeat in a Brawl, Requires Character Lv15
 |Blades |Yes|Marriage |Yes
 |Steward |Yes|RefID |00091918
 
@@ -2971,7 +3010,8 @@ Sneak{:.text-delta}
 <div class="Info" markdown="1"> 
 Info{:.text-epsilon}
  
-|Race/Class |Male Nord Warrior |Location |Markarth|Level Min/Max |1/40 |Prerequisite |Pay them
+|Race/Class |Male Nord Warrior |Location |Markarth
+|Level Min/Max |1/40 |Prerequisite |Pay them
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |000B9984
 
@@ -3145,7 +3185,8 @@ Restoration{:.text-delta}
 Info{:.text-epsilon}
  
 |Race/Class |Female Breton Assassin |Location |Cidhna Mine
-|Level Min/Max |None(?)|Prerequisite |None(?)
+
+|Level Min/Max |None(?)|Prerequisite |None(?)
 |Blades |?|Marriage |No
 |Steward |?|RefID |440073D0
 
@@ -3301,7 +3342,8 @@ Restoration{:.text-delta}
 Info{:.text-epsilon}
  
 |Race/Class |Argonian Assassin Vampire|Location |Dawnstar Sanctuary
-|Level Min/Max |10/100|Prerequisite |Hail Sithis(?)
+
+|Level Min/Max |10/100|Prerequisite |Hail Sithis(?)
 |Blades |?|Marriage |Yes(?)
 |Steward |?|RefID |4201720D
 
