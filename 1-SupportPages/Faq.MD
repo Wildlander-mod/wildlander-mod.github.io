@@ -30,9 +30,9 @@ You can download and install from [here](https://www.wildlandermod.com/download)
 ----
 # How do I donate to the project?
 
-If you would like to buy your friendly neighborhood support person a drink of [KO-FI](https://ko-fi.com/wildlanderteam){: .btn }
+If you would like to buy your friendly neighborhood support person a drink of [KO-FI](https://ko-fi.com/wildlanderteam)
 
-Or support Dylan himself on [Patreon](https://www.patreon.com/dylanbperry ){: .btn }
+Or support Dylan himself on [Patreon](https://www.patreon.com/dylanbperry )
 
 ----------
 # Wildlander and Antiviruses
@@ -99,7 +99,7 @@ OR
 #### Avast
 
 {: .save}
-> Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users){: .btn } and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder. 
+> Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder.  [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users){: .btn }
 >
 > Should you wish to keep using Avast.
 
