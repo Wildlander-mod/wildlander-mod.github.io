@@ -6,7 +6,9 @@ has_children: false
 parent: Support
 ---
 
-This document will contain all of the known gameplay related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this Spreadsheet https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529 ---
+This document will contain all of the known game play related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this [Spreadsheet](https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529)
+
+---
 
 # Navigation Structure
 {: .no_toc }
@@ -21,23 +23,23 @@ This document will contain all of the known gameplay related issues. It excludes
 
 # When will these be fixed?
 
-Depending on the severity - some maybe hotfixed immediately, other will wait til next major release.
+Depending on the severity - some maybe hot-fixed immediately, other will wait til next major release.
 
 --- 
 # Getting asked to restart for the economy on a new game. DiD players - please read.
 
-This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new playthrough (hotkeys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
+This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because Skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new playthrough (hotkeys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
 
-Everytime you want to start a new character, you should be closing and reopening skyrim in its entirety.
+Every time you want to start a new character, you should be closing and reopening Skyrim in its entirety.
 
-Please *DO NOT* report bugs relating to this topic as its a flaw with skyrim itself. There is nothing we can do to make this work!
+Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
 
 ---
 # M/O 2 issues
-1) Reporting files in the overwrite - these are your crash logs
-2) All the Npc overhauls are disabled - They are supposed to be - they are for Dylan's use only - Hence "DEV RESOURCES" label.
-3) There are mods with Red X's - these are merged into the wildlander ESP - its perfectly normal
-4) Mod XXX is out of date - Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
+1. Reporting files in the overwrite - these are your crash logs
+1. All the Npc overhauls are disabled - They are supposed to be - they are for Dylan's use only - Hence "DEV RESOURCES" label.
+1. There are mods with Red X's - these are merged into the Wildlander ESP - its perfectly normal
+1. Mod XXX is out of date - Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
 
                                                                                                                                                
 ---
@@ -54,9 +56,10 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 ----
 
 ## Camera Issues
- - Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
- - Waking nightmare - when on step release the miasma  - And your pretending to be casimir - you can see your player's body in front of camera. the effect only lasts for the duration of this step - and can be safely ignored.
+- Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
+- Waking nightmare - when on step release the miasma  - And your pretending to be casimir - you can see your player's body in front of camera. The effect only lasts for the duration of this step - and can be safely ignored.
 - Camera is too close to head when running
+- Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
 
 ----
 # UI
@@ -95,7 +98,7 @@ You can force the horse to equip armor by the following process.
 
 ## The Companions
 
-You need to do 5 Radient quests between each quest.
+You need to do 5 Radiant quests between each quest.
 
 ---
 
@@ -104,7 +107,7 @@ You need to do 5 Radient quests between each quest.
 Thieves guild has some issues...... As a general rule - save Before handing in a quest to Brynjolf - so if you have issues you dont have to redo it.
 
 ### Quest XYZ isnt starting
-You need to do Radiant quests before the next quest will start - these settings can be seen in the MCM
+You need to do Radiant quests before the next quest will start - these settings can be seen in the MCM.
 
 ### Issues with A Chance Arrangement / Loud and Clear
 
@@ -133,7 +136,9 @@ Occurs if you have *any* other thieves guild quests active when Brynjolf directs
 
 Make sure you finish (or quit) any jobs you have active for Vex, Delvin or Tonika before handing in a Loud and Clear.
 
-Failing that - After complateing, but before handing in a Loud and Clear - wait 24 hours in game.
+Failing that - After completing, but before handing in a Loud and Clear - wait 24 hours in game.
+
+Failing That - close skyrim, reopen skyrim and load the save before handing in loud and clear.
 
 ### Brynjolf is stalking me!
 
@@ -290,7 +295,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 *  Npcs can get stuck in the snow outside of mehrune dagons shrine, this causes them to sink slightly into the ground and are unable to move.
 *  Wuunferth the Unliving grants 3 levels to Destruction
 *  Lightning speed has infinite duration. Unlike the double cast bug in UltSky pressing T to wait ends the spell. However this always happens, doublecast by default.
-* Trolls - When hitted by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
+*  Trolls - When hit by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
 *  Hunterborn isn't properly passing the amount of time that it supposed to - more details inside
 *  Certain equipment don't seem to be affected by Durability mod.
 *  Morthal - Thurmatugists Hut Greenhouse Item Ownership
