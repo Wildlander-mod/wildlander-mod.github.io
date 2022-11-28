@@ -27,7 +27,7 @@ Here are several things you can do with this mod:
 
 - **_Alembic_**: Required for analyzing or mixing magical liquids. Can break down (dissolve) small quantities of ingredients into liquids. Can be purchased, or crafted at a forge using 1x steel ingot + 5x building glass + Craftsmanship perk + Alchemy toolkit.
 
-- **_Cauldron_**: Used to break down large quantities of ingredients, potions _[v2.0+]_, and enchanted artifacts, into magical liquids. Requires fuel to work. Any ingredients or poisons that have a ‘weakness’ effect can fuel the cauldron (e.g. Salt pies). Can be purchased from alchemists, or crafted at a forge using 8x Iron Ingots + Craftsmanship perk + Alchemy toolkit.
+- **_Cauldron_**: Used to break down large quantities of ingredients, potions _[v2.0+]_, Misc Items, Ore, Pelts and enchanted artifacts, into magical liquids. Requires fuel to work. Any ingredients or poisons that have a ‘weakness’ effect can fuel the cauldron (e.g. Salt pies). Can be purchased from alchemists, or crafted at a forge using 8x Iron Ingots + Craftsmanship perk + Alchemy toolkit.
 
 - **_Tongs_**: Required _[v2.0+]_ for studying/disenchanting ancient artifacts. Can be crafted at a forge using 1x Iron Ingot + Craftsmanship perk + Smithing toolkit.
 
@@ -215,7 +215,7 @@ Note: XP from liquids has been reduced in Spell Research 2.1
 
 Elixirs are not potions, as the name may suggest. They are in fact ingredients that can be used to craft potions. Elixirs are created from magical liquids in the _Mix Ingredients_ menu of the alembic.
 
-There are 6 tiers of elixirs based on potency: _Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Mitis_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the[ cheat sheet](..\12-cheat-sheets\Spell-Research-Cheat-Sheet-(Elixers).html).
+There are 6 tiers of elixirs based on potency: _Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Mitis_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the[cheat sheet](..\12-cheat-sheets\Spell-Research-Cheat-Sheet-(Elixers).html).
 
 **Note**: many of the elixir recipes will not appear in the alembic menu until you have at least one of the required liquids for the recipe.
 
@@ -242,3 +242,12 @@ The alembic can dissolve small quantities of materials - **up to 0.5 units of we
 A cauldron can break down large quantities of material including heavy items like enchanted artifacts. The downside of using a cauldron is that it is not very portable (100 weight), and it requires **fuel** to work. Most ingredients or poisons with a _weakness_ effect, e.g. Arcane Disruption, Cryolysis, Electrolysis, Pyrolysis, Toxicity, can be used as fuel (see [alchemy sheet](..\12-cheat-sheets\Spell-Research---Cheat-Sheet-(Alchemy).html)  for a list of fuels). Salt pies are an abundant source of fuel, found in many containers. With at least one perk in alchemy, crafted weakness poisons become **more efficient** at fueling the cauldron than raw ingredients like salt. For example, a Salt pie and a Creep cluster provide a total of 0.6 units of fuel, when used directly (Salt=0.2, Creep=0.4). However, if you first combine them into a poison (10% Arcane Disruption with alchemy 5 and one point in the base perk), it will provide 2.0 units of fuel which is higher than the original 0.6. In general, a poison with 'X% weakness' effect will provide [X/5] units of fuel, which goes up with alchemy level and perks, whereas the fuel from raw ingredients remains constant.
 
 Note: Fuel is measured in units of material weight. For example, 2.0 units of fuel will dissolve 2.0 units (pounds) of material.
+
+Item categories which can be broken down inside of a couldron include the following (N.B not all items in the catagory will produce results):-
+* Ingredients
+* Potions
+* Misc Clutter Items 
+* Imbued bones, Enchanted weapon heads, Soul gem fragments
+* Ores and ingots
+* Animal Skins / Bones
+
