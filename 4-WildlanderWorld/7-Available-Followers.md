@@ -54,8 +54,9 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <details>
  <summary> Argis the Bulwark </summary>
+ 
 <div class="Info" markdown="1"> 
-<p class="text-epsilon">Info </p>
+<p class="text-beta">Info</p>
  
 |Race/Class |Male Nord Warrior| Location |Vlindrel Hall, Markarth 
 |Level Min/Max |10/None |Prerequisite |Thane of Markarth
@@ -64,9 +65,11 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-{: .text-epsilon} Perks
+<p class="text-beta">Perks</p>
 
-{: .text-delta} Block  
+Block  
+<p class="text-gamma">Block</p>
+
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
