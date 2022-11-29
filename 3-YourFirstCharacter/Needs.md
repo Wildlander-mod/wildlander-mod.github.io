@@ -179,19 +179,22 @@ There are 4 stages of Dirt or blood. Your character will become dirtier every ab
 If you've reached stages 3 or 4 of the dirt/bloody level, you will get small buffs/debuffs to your speech related abilities (prices, persuasion, intimidation) as well as disease resistance. 
 
 ### Clean
+
 You take your appearance seriously and those around you take notice. You are more likely to get a good price at shops, less likely to catch a disease and more likely to succeed when using your persuasion skills. (+5 Speech, +5% disease resistance)
 
 ### Dirty
-You are slightly dirty, but still clean judging by the local standards.
-You are somewhat dirty, but no more than the usual adventurer.
-You are quite dirty. Your lack of hygiene can affect your persuasion skills. Time to take a swim? (-5 Speech, -5% disease resistance)
-Dirt has been accumulating on you for a while. Merchants will dislike you and you will have a hard time persuading those around you. Your lack of hygiene also makes you more susceptible to disease. (-10 Speech, -10% disease resistance)
+
+1. You are slightly dirty, but still clean judging by the local standards.
+1. You are somewhat dirty, but no more than the usual adventurer.
+1. You are quite dirty. Your lack of hygiene can affect your persuasion skills. Time to take a swim? (-5 Speech, -5% disease resistance)
+1. Dirt has been accumulating on you for a while. Merchants will dislike you and you will have a hard time persuading those around you. Your lack of hygiene also makes you more susceptible to disease. (-10 Speech, -10% disease resistance)
 
 ### Bloody
-You have some blood on you, but nothing the locals are not used to.
-You have some blood on you, but no more than your average adventurer. The locals will not pay attention to it.
-You have blood all over you. You are no longer sure if it belongs to you or your enemies, but it certainly helps intimidating those around you. (-5 Speech, -5% disease resistance)
-You are covered in blood and dirt. Although very intimidating, you'll have a hard time getting a good bargain or persuading anyone with your current appearance. (-10 Speech, -10% disease resistance)
+
+1. You have some blood on you, but nothing the locals are not used to.
+1. You have some blood on you, but no more than your average adventurer. The locals will not pay attention to it.
+1. You have blood all over you. You are no longer sure if it belongs to you or your enemies, but it certainly helps intimidating those around you. (-5 Speech, -5% disease resistance)
+1. You are covered in blood and dirt. Although very intimidating, you'll have a hard time getting a good bargain or persuading anyone with your current appearance. (-10 Speech, -10% disease resistance)
 
 To wash yourself, you only to find a small patch of water, like a pond, river, or lake. Almost all of the water in Skyrim will work, even if it's only foot deep. You simply need to stand in water and use a soap from your inventory (in the potion category) or press the keybind to take a bath. Your equipped items will be automatically unequipped and re-equipped after the animation has played. Taking a swim will wash most of the dirt and blood away. Standing in the rain also gets you clean, but it's not as effective as bathing properly.
 
