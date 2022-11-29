@@ -533,6 +533,8 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tfoot>
 </table>
 
+<br>
+
 <div class="referencesArmor references-columns" style="column-count: 1; -moz-column-count: 1; -webkit-column-count: 1;">
 <ol class="referencesArmor">
 <a name="cite_note-1"></a><li id="cite_note-1">[1] <span class="reference-text">Rounded down.</span></li>
@@ -541,8 +543,6 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <a name="cite_note-TwoVersions-4"></a><li id="cite_note-TwoVersions-4">[4]<span class="reference-text">There are two versions of this effect, allowing it to be applied twice. The second version is from the <a href="/wiki/Skyrim:Shield_of_Solitude" title="Skyrim:Shield of Solitude">Shield of Solitude</a> and has a base magnitude of 10%.</span>
 </ol>
 </div>
-
-
 
 # Weapon Enchantments
 
