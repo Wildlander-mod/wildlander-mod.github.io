@@ -540,7 +540,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <a name="cite_note-1"></a><li id="cite_note-1">[1] <span class="reference-text">Rounded down.</span></li>
 <a name="cite_note-Source_and_Target-2"></a><li id="cite_note-Source_and_Target-2">[2] <span class="reference-text"> Although armors, necklaces and <i>rings</i> can be disenchanted in order to gain the enchantment, armors, necklaces and <i>foot apparel</i> can be enchanted. Therefore you can equip four items (neck, chest, finger, feet) with that enchantment.</span></li>
 <a name="cite_note-FixedMagnitude-3"></a><li id="cite_note-FixedMagnitude-3">[3]<span class="reference-text">The magnitude of this part of the effect is fixed regardless of skill, soul used, or perks.</span></li>
-<a name="cite_note-TwoVersions-4"></a><li id="cite_note-TwoVersions-4">[4]<span class="reference-text">There are two versions of this effect, allowing it to be applied twice. The second version is from the <a href="/wiki/Skyrim:Shield_of_Solitude" title="Skyrim:Shield of Solitude">Shield of Solitude</a> and has a base magnitude of 10%.</span>
+<a name="cite_note-TwoVersions-4"></a><li id="cite_note-TwoVersions-4">[4]<span class="reference-text">There are two versions of this effect, allowing it to be applied twice. The second version is from the <a href="/wiki/Skyrim:Shield_of_Solitude" title="Skyrim:Shield of Solitude">Shield of Solitude</a> and has a base magnitude of 10%.</span></li>
 </ol>
 </div>
 
