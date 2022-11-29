@@ -11,8 +11,15 @@ has_toc: true
 
 Diseases in Wildlander are not something the can be ignored. Each disease has progression, whereby if not cured they will get worse. Wait too long snd it may prove Fatal.... or worse
 
+Every 24 hours you go without curing a disease, the disease will progress to the next stage.
+The stages are as follows:
 
-|Name|What it does|Rank 1| Rank 2 | Rank 3 | Carriers
+    Basic - Just the disease name (ie. Ataxia)
+    Acute (ie. Acute Ataxia)
+    Severe (ie. Severe Ataxia)
+
+
+|Name|What it does|Basic| Acute | Severe | Carriers
 |--|--|--|--|--|--|
 |Ataxia| Picking locks and picking pockets is {mag}% harder.| 10 |25|50| Skeevers
 |Black Heart Blight | Carry Weight  is reduced by {mag} points.| 10 | 10 | 10 | Ash Spawn
@@ -28,7 +35,7 @@ Diseases in Wildlander are not something the can be ignored. Each disease has pr
 |Sanguine Vampiris|This vile miasma rots your body, negating restorative power. Healing potions are still effective, but unless the malediction is cleansed within three days, the victim will become a vampire. | Constant Health Drain for 3 days | N/A | N/A | Vampires Drain life spell, Vampire dust 
 |Wit Bane|Magicka regeneration is reduced by {mag}%.| 10 |25|50|Sabrecats
 |Wither|Armor rating reduced by {mag} points. | 50 | 100 |150|Sabrecats
-|Food Poisoning|Health is reduced by 40 points. Food restores 75% less hunger.|40|N/A|N/A| Eating Raw food. Strong stomach does not prevent this effect |
+|Food Poisoning|Health is reduced by 40 points. Food restores 75% less hunger.|40|N/A|N/A| If you eat raw food, you will now have a 30% chance to catch food poisoning.. Strong stomach does not prevent this effect |
 
 # How to cure?
 
