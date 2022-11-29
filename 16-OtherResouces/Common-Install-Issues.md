@@ -5,9 +5,8 @@ has_toc: false
 has_children: false
 parent: Other Resources
 ---
-# Common Install Issues
 
-## Wabbajack Installation Issues
+## Wabbajack Installation Questions
 ---------
 
 ### Why is the list showing "in maintenance on wabbajack"
