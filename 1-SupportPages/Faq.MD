@@ -334,8 +334,8 @@ Wildlander requires an up-to-date steam installation of special edition (also kn
 - Unable to download Data_Skyrim - Textures0.bsa 
 
 
+{% capture my_include %}{% include_relative ..\16-OtherResouces\Common-Install-Issues.md %}{% endcapture %}
 
-{% include_relative "16-OtherResouces\Common-Install-Issues.md" %}
 
 
 ---
