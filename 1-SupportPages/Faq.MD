@@ -148,12 +148,12 @@ You can however safely move your download folder to another hard drive.
 
 ----------
 
-{% include_relative Wabbajack_Install.md %}
+{% include Wabbajack_Install.md %}
 
 ---
 # **Launcher Questions**
 
-{% include_relative Wabbajack_Install.md %}
+{% include Wabbajack_Install.md %}
 
 ----
 

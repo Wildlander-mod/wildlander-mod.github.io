@@ -17,7 +17,7 @@ parent: Support
 
 # Launcher Issues
 
-{% include_relative Wabbajack_Launcher.md %}
+{% include Wabbajack_Launcher.md %}
 
 # Crashing while Playing
 

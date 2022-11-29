@@ -16,4 +16,4 @@ parent: Other Resources
 {:toc}
 
 
-{% include_relative Wabbajack_Install.md %}
+{% include Wabbajack_Install.md %}
