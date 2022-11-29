@@ -335,9 +335,7 @@ Wildlander requires an up-to-date steam installation of special edition (also kn
 
 
 
-{% assign myOtherPost = site.posts | where:"url", "16-OtherResouces\Common-Install-Issues.md" | first %}
-
-{{ myOtherPost.content }}
+{% include_relative 16-OtherResouces\Common-Install-Issues.md %}
 
 
 ---
