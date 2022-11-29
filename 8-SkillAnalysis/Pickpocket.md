@@ -77,7 +77,7 @@ Perk Required : Cutpurse
 
 _Effect_ :
 
-Increases Pickpocket chance on sleeping targets to 100%. Wearing heavy armor removes this effect.
+Increases Pickpocket chance on sleeping targets to 95%. Wearing heavy armor removes this effect.
 
 ---
 
@@ -105,7 +105,7 @@ Perk Required : Misdirection
 
 _Effect_ :
 
-Increases pickpocket chance to 100% provided player remains undetected.
+Increases pickpocket chance to 95% provided player remains undetected.
 
 _Note_: No penalty for wearing heavy armor.
 
