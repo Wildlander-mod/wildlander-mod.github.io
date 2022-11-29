@@ -10,4 +10,8 @@ Direct Link:  [Changelog](https://github.com/Wildlander-mod/Launcher/blob/main/C
 
 <iframe src="https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md" width="1200" height="700"></iframe>
 
+{% assign myOtherPost = site.posts | where:"url", "https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md" | first %}
+
+{{ myOtherPost.content }}
+
 
