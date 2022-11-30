@@ -5,6 +5,7 @@ has_toc: true
 nav_order: 5
 grand_parent: Getting Started
 parent: Your First Character
+descrption: Health Management
 ---
 
 
@@ -14,14 +15,13 @@ Wildlander has no passive health regeneration. You will not heal from your wound
 
 When you get hurt fighting - the only ways to heal are :-
 
-    - Restoration spells (for the living)
-    - Conjouration spells (for the undead)
-    - Health potions (For undead, only max level healing potions (superlative) will work.)
-    - Healing Poultice (see note below) 
-    - Alchemy Perk
-    - Raw Ingredients
-    - Enchantments
-
+- Restoration spells (for the living)
+- Conjouration spells (for the undead)
+- Health potions (For undead, only max level healing potions (superlative) will work.)
+- Healing Poultice (see note below) 
+- Alchemy Perk
+- Raw Ingredients
+- Enchantments
 
 ## Healing Poultice 
 

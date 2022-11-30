@@ -5,6 +5,7 @@ has_toc: true
 nav_order: 7
 grand_parent: Getting Started
 parent: Your First Character
+description:  Carry Weight Management
 ---
 
 Carry Weight is intentionally at a premium within Wildlander. 

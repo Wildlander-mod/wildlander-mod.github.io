@@ -5,6 +5,7 @@ nav_order: 2
 parent: Wildlander World
 grand_parent: Getting Started
 has_toc: true
+descrption: The Econemy 
 ---
 
 The Local Holds Economy have also had a tidy up - and now have a immersive regional economy by dynamically adjusting the gold value and merchant supply of food, drinks, animal parts, ingredients, ores, ingots, gems, soul gems and spell tomes according to the actual supply and logical demand of each item in each hold. These regional differences serve to create a network of profitable trade routes, and can also be influenced by the player's activities (where appropriate).
@@ -29,12 +30,12 @@ Therefore you should - only sell excess potions/reagents to Alchemists, ore, hid
 
 Having higher skills is also useful:-
 
-	* Blacksmiths will respect your skill at the forge and give you better prices the higher your Smithing skill.
+* Blacksmiths will respect your skill at the forge and give you better prices the higher your Smithing skill.
 
-	* Apothecaries recognize your knowledge of alchemical properties and will give you better  prices the higher your Alchemy skill.
+* Apothecaries recognize your knowledge of alchemical properties and will give you better  prices the higher your Alchemy skill.
 
-	* Spell merchants respect your knowledge of the arcane and will give you better prices the higher your Enchanting skill.
+* Spell merchants respect your knowledge of the arcane and will give you better prices the higher your Enchanting skill.
 
-	* Fletchers recognize a fellow marksman and will give you better prices the higher your Archery skill.
+* Fletchers recognize a fellow marksman and will give you better prices the higher your Archery skill.
 
 And as a final note - Location - Major cities have better prices than the smaller towns. So if you are playing a trader character, take the extra mile to go to a Major city instead of the small towns.

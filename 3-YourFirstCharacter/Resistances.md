@@ -5,6 +5,7 @@ has_toc: true
 nav_order: 8
 grand_parent: Getting Started
 parent: Your First Character
+description:  Resistances & Weapon Types
 ---
 
 # Resistances & Weapon Types

@@ -5,6 +5,7 @@ has_toc: true
 nav_order: 2
 grand_parent: Getting Started
 parent: Your First Character
+descrption: Starting your first day
 ---
 
 
@@ -38,6 +39,7 @@ For a free place to sleep before you leave Riverwood a tent should be purchased.
 Checking the nearest cities missive board for delivery quests is a great way to get early gold to get you started.
 
 Shopping list for Beginners before exploring
+
 * Primary weapon (2H weapon, 1H + shield, Bow, Staff etc.)
 * Backup weapon (Just in case)
 * Hunting knife

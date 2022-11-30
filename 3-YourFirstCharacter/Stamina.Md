@@ -5,6 +5,7 @@ has_toc: true
 nav_order: 4
 grand_parent: Getting Started
 parent: Your First Character
+description: Stamina Management
 ---
 
 #  Stamina Management

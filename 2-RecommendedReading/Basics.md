@@ -4,6 +4,7 @@ title: Getting Started
 nav_order: 3
 has_children: true
 has_toc: true
+description: Getting Started - Index
 ---
 
 This section Contains everything you need to know about Wildlander and how to get started in the world.

@@ -5,6 +5,7 @@ has_toc: true
 nav_order: 1
 grand_parent: Getting Started
 parent: Your First Character
+descrption: Character creation - The Basics
 ---
 
 

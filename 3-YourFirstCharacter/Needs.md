@@ -5,21 +5,21 @@ has_toc: true
 nav_order: 9
 grand_parent: Getting Started
 parent: Your First Character
+description: Needs & Survival
 ---
 
 ## Hunger
 
 All food will be classified as one of the following:
 
-    ﻿Light
-    ﻿Medium
-    ﻿Heavy
-    ﻿Soup (will restore hunger and thirst)
+* Light (Such as a apple or sweet roll)
+* ﻿Medium (Cooked Meat normally drop into thie catagory)
+* ﻿Heavy (Meals made from the chef kit live here)
+* ﻿Soup (Such as Apple Cabbage Soup will restore hunger and thirst)
 
-Heavy foods obviously restoring the most hunger, while light foods restore the least.
+Heavy foods obviously restoring the most hunger, while light foods restore the least. All Heavy and medium foods give you a bonus to your character which increases your warmth.
 
 Innkeepers have the ability to serve you a full meal (20 Gold).
-
 
 <table>
   <tr>
@@ -77,6 +77,8 @@ Innkeepers have the ability to serve you a full meal (20 Gold).
 * Mead barrels will give you a bottle of mead every 30 days (if you dont enter the cell using that period)
 
 Water has also been added to innkeepers to sell. They should almost always have a stock of water to sell. You can also ask them to refill water (10 Gold).
+
+Alcohol will give you a wamrth bonus - but at the expense of a not nice to look at visual effect.
 
 <table>
   <tr>

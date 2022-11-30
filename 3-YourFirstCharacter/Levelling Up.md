@@ -5,6 +5,7 @@ has_toc: true
 nav_order: 3
 grand_parent: Getting Started
 parent: Your First Character
+description: Leveling up Your Character
 ---
 
 # Leveling your Character
@@ -46,6 +47,13 @@ Using the skill will level this up. Higher levels are able to specify what to lo
 
 Crafting is based on selling price, so anything crafted at a forge for low cost materiels, high sell price can level this. Smithing XP has diminishing returns so first craft will generate 3X base XP and second craft will generate 2X. You should always craft everything at least twice.
 
+## Endureance
+
+Run around in cold area's to passivly leave this up
+
+## Survival
+
+When you get any of your needs to their max value, your survival skill will increase.
 
 ***
 # I’ve finished training - Now what?
