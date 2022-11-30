@@ -63,56 +63,56 @@ In the table below: M, H, S stand for base magicka, health and stamina, respecti
 <tr>
 	<td><strong>Movement Speed</strong></td>
 	<td>(3/4)x sqrt{Z - 125}</td>
-	<td>(H + 4S) / 5</td>
+	<td>(20% H +  80% S) </td>
 	<td>141 --- 190 --- 270 --- 381</td>
 	<td>3% --- 6% ---   9% --- 12%</td>
 </tr>
 <tr>
 	<td><strong>1H Damage</strong></td>
 	<td>4x sqrt{Z - 150}</td>
-	<td>(H + S)/2</td>
+	<td>(50% H + 50% S)</td>
 	<td>175 --- 250 --- 375</td>
 	<td>20% --- 40% --- 60%</td>
 </tr>
 <tr>
 	<td><strong>2H Damage</strong></td>
 	<td>4x sqrt{Z - 150}</td>
-	<td>(4H + S) / 5</td>
+	<td>(80% H + 20% S) </td>
 	<td>175 --- 250 --- 375</td>
 	<td>20% --- 40% --- 60%</td>
 </tr>
 <tr>
 	<td><strong>Bow/Xbow Damage</strong></td>
 	<td>4x sqrt{Z - 150}</td>
-	<td>(H + 4S) / 5</td>
+	<td>(20% H + 80% S) </td>
 	<td>175 --- 250 --- 375</td>
 	<td>20% --- 40% --- 60%</td>
 </tr>
 <tr>
 	<td><strong>Unarmed Damage</strong></td>
 	<td>4x sqrt{Z - 110}</td>
-	<td>(H + S) / 2</td>
+	<td>(50% H + 50% S) </td>
 	<td>135 --- 210 --- 335</td>
 	<td>20 --- 40 --- 60 (no %)</td>
 </tr>
 <tr>
 	<td><strong>Carry Weight</strong></td>
 	<td>4x sqrt{Z - 110}</td>
-	<td>(4H + S) / 5</td>
+	<td>(80% H + 20% S) / 5</td>
 	<td>135 --- 210 --- 335</td>
 	<td>20 --- 40 --- 60</td>
 </tr>
 <tr>
 	<td><strong>Poison Resistance</strong></td>
 	<td>4x sqrt{Z - 140}</td>
-	<td>(3H + 2S) / 5</td>
+	<td>(60% H +  40% S) </td>
 	<td>165 --- 240 --- 365</td>
 	<td>20% --- 40% --- 60%</td>
 </tr>
 <tr>
 	<td><strong>Disease Resistance</strong></td>
 	<td>4x sqrt{Z - 100}</td>
-	<td>(2H + 3S) / 5</td>
+	<td>(40% H + 60% S) / 5</td>
 	<td>125 --- 200 --- 325</td>
 	<td>20% --- 40% --- 60%</td>
 </tr>
