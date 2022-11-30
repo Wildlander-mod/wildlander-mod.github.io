@@ -3,12 +3,13 @@ title: Breakdown Recipes
 layout: default
 nav_order: 3
 parent: Crafting
+description: Breakdown recipes
 ---
 
 
-## Requires Perks
+## Breakdowns Requiring Perks
 
-QtyMade | Item | Mats  | Requires
+Qty Made from Breaking Down | Item Produced | Breaking Down  | Perk Required
 -- | -- | -- | -- 
 20 | Fragment: Gold | 1 Ingot: Gold |    Advanced Blacksmithing
 20 | Fragment: Quicksilver | 1 Ingot: Quicksilver |    Advanced Blacksmithing
@@ -28,7 +29,7 @@ QtyMade | Item | Mats  | Requires
 
 ## Drinks
 
-QtyMade | Item | Mats  
+Qty Made from Breaking Down | Item Produced | Breaking Down  
 -- | -- | -- 
 1 | Glass Bottle (Empty) | 1 Ale
 1 | Glass Bottle (Empty) | 1 Alto Blanc Wine
@@ -65,7 +66,7 @@ QtyMade | Item | Mats
 
 ## Ammunitions
 
-QtyMade | Item | Mats  
+Qty Made from Breaking Down | Item Produced | Breaking Down  
 -- | -- | -- 
 1 | Fragment: Iron | 1 Arrow: Ancient Nordic
 1 | Kindling | 1 Arrow: Ancient Nordic
@@ -122,7 +123,7 @@ QtyMade | Item | Mats
 
 ## Armor
 
-QtyMade | Item | Mats  
+Qty Made from Breaking Down | Item Produced | Breaking Down  
 -- | -- | -- 
 10 | Fragment: Corundum | 1 Amulet of Akatosh Replica
 10 | Fragment: Corundum | 1 Amulet of Arkay Replica
@@ -980,7 +981,7 @@ QtyMade | Item | Mats
 
 ## Horse Armor
 
-QtyMade | Item | Mats  
+Qty Made from Breaking Down | Item Produced | Breaking Down  
 -- | -- | -- 
 10 | Leather Strips | 1 Horse Armor: Big Game Saddle
 60 | Fragment: Steel | 1 Horse Armor: Black Hand Barding and Saddle
@@ -1012,7 +1013,7 @@ QtyMade | Item | Mats
 10 | Leather Strips | 1 Horse Armor: Traveler's Saddle
 
 ## Ingridients
-QtyMade | Item | Mats  
+Qty Made from Breaking Down | Item Produced | Breaking Down  
 -- | -- | -- 
 1 | Fragment: Bone | 2 Bear Claws
 5 | Fragment: Bone | 10 Bear Claws
@@ -1046,7 +1047,7 @@ QtyMade | Item | Mats
 
 ## Misc
 
-QtyMade | Item | Mats  
+Qty Made from Breaking Down | Item Produced | Breaking Down  
 -- | -- | -- 
 1 | Bandage | 1 Cotton Cloth - Black
 1 | Bandage | 1 Cotton Cloth - Blue
@@ -1211,7 +1212,7 @@ QtyMade | Item | Mats
 
 ## Weapons
 
-QtyMade | Item | Mats  
+Qty Made from Breaking Down | Item Produced | Breaking Down  
 -- | -- | -- 
 20 | Fragment: Steel | 1 Akaviri Katana
 10 | Fragment: Quicksilver | 1 Alik'ri Fishing Rod

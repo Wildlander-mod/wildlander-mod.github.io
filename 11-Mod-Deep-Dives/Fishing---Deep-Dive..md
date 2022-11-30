@@ -4,6 +4,7 @@ title: Fishing
 has_toc: false
 has_children: false
 parent: Deep Dives
+description: Fishing Deep Dive
 ---
 
 Fishing is a completely new mechanic in Skyrim Anniversary Edition update that adds a Fishing mini-game, dozens of new quests, and even places to display your prized catches in player homes. It's easy to start Fishing, and there's a surprisingly high number of new fish and unique items that can only be acquired through this new minigame.
@@ -212,7 +213,7 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 ## Fishing Items
 
 <html><body>
-<!--StartFragment--><h2><span class="mw-headline" id="Apparel">Apparel</span></h2>
+<h2><span class="mw-headline" id="Apparel">Apparel</span></h2>
 
 Name (ID) | Weight | Value
 | -- | -- | --
@@ -224,9 +225,9 @@ Vagrant Boots (xx000E4C) | 2 | 1
 Vagrant Hood (xx000E4B) | 1 | 1
 Vagrant Robes (xx000E4A) | 1 | 5
 
-<!--EndFragment-->
 
-<!--StartFragment--><h3><span class="mw-headline" id="Unique_Apparel">Unique Apparel</span></h3>
+
+<h3><span class="mw-headline" id="Unique_Apparel">Unique Apparel</span></h3>
 
 Name (ID) | Weight | Value | Enchantment / Notes
 -- | -- | -- | -- | 
@@ -243,9 +244,9 @@ Name (ID) | Weight | Value | Enchantment / Notes
  Viriya's Charm (xx000F07) | 0.5 | 944 | Can swim underwater without drowning. Increases Light Armor skill by 22 points. Increases Heavy Armor skill by 22 points.
  Warlock's Ring (xx000B2A) | 0.25 | 1392 | While blocking, creates a ward that protects against spells for  up to 25 points. Health regenerates 30% faster. You move 5% faster.
 
-<!--EndFragment-->
 
-<!--StartFragment--><h2><span class="mw-headline" id="Weapons">Weapons</span></h2>
+
+<h2><span class="mw-headline" id="Weapons">Weapons</span></h2>
 
  Name (ID) | Type | Tempering | Weight | Value | Damage | Description
 -- | -- | -- | -- | -- | -- | -- | 
@@ -267,9 +268,9 @@ Nord Hero Dagger (xx08A1E4) | 1 Hand Dagger | Steel Ingot; Perk: Steel | 2 | 55
 Nord Hero Mace (xx08A1E5) | 1 Hand Mace | Steel Ingot; Perk: Steel | 13 | 195 | 13
 Nord Hero Warhammer (xx08A1E6) | 2 Hand Warhammer | Steel Ingot; Perk: Steel | 24 | 350 | 23
 
-<!--EndFragment-->
 
-<!--StartFragment--><h2><span class="mw-headline" id="Food">Food</span></h2><h3><span class="mw-headline" id="Raw_Food">Raw Food</span></h3>
+
+<h2><span class="mw-headline" id="Food">Food</span></h2><h3><span class="mw-headline" id="Raw_Food">Raw Food</span></h3>
 
 Name (ID) | Weight | Value | HungerCC | Effect(s) | Notes
 -- | -- | -- | -- | -- | -- | 
@@ -290,17 +291,17 @@ Tripod Spiderfish (xx00089E) | 0.5 | 10 | Very Small | Restore Health, 2 pts | D
 Vampire Fish (xx00088B) | 1 | 10 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Uncommon  Sources:  Underground fishing spots Castle Volkihar - 10 can be found in the surrounding waters. Lost Knife Hideout Inside Reachwater Rock Dead Drop Falls Dimhollow Crypt - 5 can be found in the water surrounding Serana's coffin.
 Crab Meat (xx000EFE) | 0.1 | 2 | Very Small | Restore Health, 2 pts | Sources:  Mudcrabs Fish Barrels; e.g. Outside the Riften Fishery on the docks.
 
-<!--EndFragment-->
+
 <html><body>
-<!--StartFragment--><h3><span class="mw-headline" id="Baked_Food">Baked Food</span></h3>
+<h3><span class="mw-headline" id="Baked_Food">Baked Food</span></h3>
 
   | Name (ID) | Weight | Value | HungerCC | Effect(s) | Ingredients
 -- | -- | -- | -- | -- | -- | --
   | Crab Cakes (xx000F78) | 0.1 | 5 | Medium | Restore Health, 15 pts Fortify Block, 5 pts for 60 seconds | Salt Pile Sack of Flour Crab Meat
 
-<!--EndFragment-->
+
 <html><body>
-<!--StartFragment--><h3><span class="mw-headline" id="Cooked_Food">Cooked Food</span></h3>
+<h3><span class="mw-headline" id="Cooked_Food">Cooked Food</span></h3>
 
 Name (ID) | Weight | Value | HungerCC | Effect(s) | Ingredients
 -- | -- | -- | -- | -- | -- | 
@@ -334,18 +335,18 @@ Name (ID) | Weight | Value | HungerCC | Effect(s) | Ingredients
    Hot Roasted Tomato Crab Bisque (xx000F0C) | 0.5 | 5 | Large | Restore Health, 15 pts Restore Health, 1 pt for 720 seconds Fortify Warmth, 25 pts for 300 seconds Restore Cold, 200 pts | Fire Salts Tomato Butter Crab Meat
    Crab Stew (xx000F76) | 0.5 | 5 | Large | Restore Health, 1 pt for 720 seconds Restore Stamina, 2 pts for 720 seconds | Garlic Potato Leek Crab Meat
    Hot Crab Stew (xx000F77) | 0.5 | 5 | Large | Restore Health, 1 pt for 720 seconds Restore Stamina, 2 pts for 720 seconds Fortify Warmth, 25 pts for 300 seconds Restore Cold, 200 pts | Garlic Fire Salts Potato Leek Crab Meat
-<!--EndFragment-->
 
-<!--StartFragment--><h3><span class="mw-headline" id="Beverages">Beverages</span></h3>
+
+<h3><span class="mw-headline" id="Beverages">Beverages</span></h3>
 
 Name (ID) | Weight | Value | Effect(s) | Notes
 -- | -- | -- | -- | -- | 
 Aged Flin (xx000C2D) | 0.5 | 180 | Restore Stamina, 40 pts Damage Stamina Regen, 40 pts for 120 seconds | Sources:  Quest items for Spirits Away.
 
-<!--EndFragment-->
+
 
 <html><body>
-<!--StartFragment--><h2><span class="mw-headline" id="Ingredients">Ingredients</span></h2>
+<h2><span class="mw-headline" id="Ingredients">Ingredients</span></h2>
 
 Ingredient Name (ID) | Primary Effect | Secondary Effect | Tertiary Effect | Quaternary Effect |   |  
 -- | -- | -- | -- | -- | -- | --
@@ -359,5 +360,5 @@ Ingredient Name (ID) | Primary Effect | Secondary Effect | Tertiary Effect | Qua
    Pygmy Sunfish xx0008ED |  Restore Stamina | Lingering Damage Magicka | Damage Magicka Regen | Fortify Restoration | 2 | 0.25
    Spadefish xx0008F3 | Restore Health | Fortify Lockpicking | Fortify Pickpocket | Cure Disease | 15 | 0.25
 
-<!--EndFragment-->
+
 

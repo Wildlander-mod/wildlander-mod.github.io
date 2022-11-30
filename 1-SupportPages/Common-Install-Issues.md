@@ -4,6 +4,7 @@ title: Common Install Issues
 has_toc: false
 has_children: false
 parent: Other Resources
+description: Common Install Issues
 ---
 
 # Navigation Structure

@@ -4,6 +4,7 @@ title: Properties Without Pestering
 has_toc: false
 has_children: false
 parent: Deep Dives
+description: Properties without Pestering
 ---
 
 # Properties Without Pestering

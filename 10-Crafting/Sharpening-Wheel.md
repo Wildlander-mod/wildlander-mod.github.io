@@ -3,10 +3,11 @@ title: Sharpening Wheel Recipes
 layout: default
 nav_order: 5
 parent: Crafting
+description: Sharpening Wheel 
 ---
 
 
-Item | Mats | Requires
+Item To Temper| Mats | Requires Perk
 -- | -- | --
 Aegisbane | 1 Ingot: Iron |    Craftmanship
 Akaviri Katana | 1 Ingot: Corundum| Craftmanship

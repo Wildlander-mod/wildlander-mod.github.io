@@ -4,6 +4,7 @@ title: Hunterborn
 has_toc: false
 has_children: false
 parent: Deep Dives
+description: Hunterborn Deep Dive
 ---
 
 A mod for the hunter who has nothing.

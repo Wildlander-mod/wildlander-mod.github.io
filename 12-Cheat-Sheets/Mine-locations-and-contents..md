@@ -1,7 +1,7 @@
 ---
 title: Mine Locations
 layout: default
-description: Recipes lists
+description: Mine Locations and contents
 parent: Cheat Sheets
 ---
 

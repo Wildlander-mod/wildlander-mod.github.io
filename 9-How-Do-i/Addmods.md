@@ -4,6 +4,7 @@ title: How Do I Add Mods?
 has_toc: false
 has_children: false
 parent: How Do i?
+description: Adding Mods Wiki Page
 ---
 
 ## How Do I Add Mods?

@@ -1,8 +1,8 @@
 ---
-title: Spell Research (Spells) 
+title: Spell Research (Spells & ArchTypes) 
 layout: default
 nav_order: 1
-description: Recipes lists
+description: Spell Research (Spells & ArchTypes) 
 parent: Cheat Sheets
 ---
 

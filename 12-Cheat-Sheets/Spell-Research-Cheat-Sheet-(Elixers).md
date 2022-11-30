@@ -2,7 +2,7 @@
 title: Spell Research (Elixers) 
 layout: default
 nav_order: 1
-description: Recipes lists
+description: Spell Research (Elixers) 
 parent: Cheat Sheets
 ---
 

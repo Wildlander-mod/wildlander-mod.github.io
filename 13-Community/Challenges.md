@@ -5,6 +5,7 @@ nav_order: 6
 has_toc: true
 has_children: false
 parent: Community
+description: Community Challeges
 ---
 
 # Introduction
@@ -13,12 +14,9 @@ These are challenges set by the community - for those lacking inspiration for wh
 
 ## Wildlander: The Serf Start
 
-
-	Is your Wildlander experience too easy? Well with just three easy steps, find out how you can make your early game an even more miserable experience, the medieval way.
+Is your Wildlander experience too easy? Well with just three easy steps, find out how you can make your early game an even more miserable experience, the medieval way.
 
 The goal of this challenge is to begin your Wildlander character as truly helpless as possible, emulating the life of a peasant farmer in the dark ages. This will make the early game incredibly difficult, and force the player to rely on non-combat methods of increasing their skills, like training and studying.
-
-
 
 1. After creating your character, remove all background related skills and perks.
     1. Lower your background related skills by using the command player.setav (skill id) 0. You may optionally keep your race related skill bonuses, ie if you pick the Nord race, you may keep the skill bonuses you recieve from your race.
@@ -30,15 +28,13 @@ The goal of this challenge is to begin your Wildlander character as truly helple
 
 Congratulations you are now ready to experience the world of Skyrim as its people would, like a true medieval peasant. For even more added difficulty, consider the following optional challenges.
 
-
-
 1. Lower skill gain in the Requiem MCM menu. I recommend 50%.
 2. Do not commit any crimes. The Divines frown upon unseemly deeds.
 3. Only save at the start of each day, after waking up.
 
-
 Note: This challenge was intended to be played alongside DamnPeasants’s own challenge, to create a truly miserable experience. Being the dragonborn is optional, but for true serfdom, pick non-dragonborn.
 
+--- 
 
 ## Lizzy's 
 
@@ -49,6 +45,8 @@ Note: This challenge was intended to be played alongside DamnPeasants’s own ch
 * YOU CANNOT STEAL MIDNIGHT (or Frost)
 * be respectful of the dead - you cannot strip corpses of anything except Gold, jewelry or weapons
 
+---
+
 ## Wes's 
 
 * no chopping wood
@@ -57,9 +55,10 @@ Note: This challenge was intended to be played alongside DamnPeasants’s own ch
 * no use of potions &/or food while in combat
 * press the x key & never use your hud. (Only get hints from sounds & message popups)
 
+--- 
 ## DamnPeasants 
 
-### EXPERIENCE AND SKILLS:
+#### EXPERIENCE AND SKILLS:
  
 You start from the F10 start, with no perk points. 
  
@@ -73,11 +72,11 @@ Skill books may only be studied between the hours 6pm-12am (you are an adventure
  
 Once you DO become a student, at the college of winterhold you may spend the weekends in the library studying - no, not any day will do; ONLY WEEKENDS SPECIFICALLY.
  
-### HUNTERBORN
+#### HUNTERBORN
  
 Do not interfere with the time mechanics - leave them as is.
  
-### CRAFTING
+#### CRAFTING
  
 No, you may NOT sell paper crafted with an alembic or made from broken down ruined books.
 
@@ -90,7 +89,7 @@ Should you want to craft jewellery, then you must find the raw materials for it 
 And, lastly, you may not haul dwarven metal and raise your smithing to the moon with it. Maximum of 3 sets of armor and 3 of every weapon may be crafted and tempered.
 (Generous, aren't I?)
  
-### DECISION MAKING / BEHAVIOR
+#### DECISION MAKING / BEHAVIOR
 
 You may not loot anything the guards killed - this includes animals which strayed into towns or vampires from missive quests. If you didnt kill it yourself with no assistance, you cant loot it.
  
@@ -119,13 +118,14 @@ If you are a summoner with the "Cognitive flexibility" perk you may NOT have any
 You are also limited to a maximum of one follower, with the exception of when dragon hunting - you may bring as big a party as you can afford for such occasions. For RP reasons, ofc.
  
 Last, and most important, you may only save at dungeon enterances and (before or after) walking through doors with loading screens. I recommend you disable all forms of auto saves in the settings > Gameplay menu.
-
  
-### OPTIONAL 
+#### OPTIONAL 
  
 Restoration is very powerful and easy to level - that's why I suggest restricting yourself from the "Power of life perk", or at the verk least the perk "Essence of life"
  
 Orc not allowed - because they're OP.
+
+---
 
 ## JU12000's Wandering Merchant Challenge
 

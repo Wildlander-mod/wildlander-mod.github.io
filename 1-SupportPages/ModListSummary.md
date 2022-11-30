@@ -3,6 +3,7 @@ layout: default
 title: Mod List Summary
 nav_order: 5
 parent: Support
+description: Modlist Summary
 ---
 
 # Navigation Structure

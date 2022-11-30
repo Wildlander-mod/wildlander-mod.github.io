@@ -2,7 +2,7 @@
 title: Spell Research (Alchemy) 
 layout: default
 nav_order: 1
-description: Recipes lists
+description: Spell Research (Alchemy) 
 parent: Cheat Sheets
 ---
 

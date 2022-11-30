@@ -4,6 +4,7 @@ title: Immersive Equipment Display
 has_toc: false
 has_children: false
 parent: Deep Dives
+description: Immersive Equipment Display
 ---
 
 # Immersive Equipment Display
@@ -35,37 +36,47 @@ Think I've missed something or gotten it wrong? Please tag me @3DJutsu in Discor
 <details>
 <summary>FAQ</summary>
 <br>
-
+<div class="Info" markdown="1"> 
 
 > Are there preset available to save time on setup?
+
 * There are, actually, but until customization is opened installing a preset will void your access to official support unless you can replicate the issue on an unmodified Wildlander list. When customization opens I plan to update the guide with presets and more!
 
 > More?
+
 * Yes! There's a number of additional mods that play into IED and combined they're really cool! Can't wait to show you. =]
 
 > Why isn't item XYZ upgrading based on my inventory?
+
 * When setting your list of additional item models to draw on, you've either missed a model or you've goofed the priority of the model you're after.
 
 > Why can't I locate Two-Handed Hammers in the filters?
+
 * They fall under the Two-Handed Axe filter for some reason.
 
 > Why is my Weapon jumping around when I equip it? It won't stay where I want it to!
+
 * You edited it through View>Equipment instead of View>Gear Positioning. Editing through the former only affects the display, use the latter to affect the actual equipment. Edit both to possess so the gear stays in the assigned spot whether or not it's equipped.
 
 > Why don't the animations match up?
+
 * Because to do so requires FNIS, and we use Nemesis which seems to be incompatible for whatever reason. 
 
 However many matching animations can be assigned in XPMSE, so if you edit the position of any given display in IED with a node available in XPMSE remember to set it in there as well. Otherwise your back-worn sword will still be drawn from your hips! 
 
 > The MCM won't open up!
+
 * As many people possess a non-standard keyboard, it's (usually) the key between [=] and [Insert]
 
 ![image](https://user-images.githubusercontent.com/88904551/177057693-0332bb42-8786-4d0b-8462-c3861b02e645.png)
 
 > My character is stuck blocking after I exit the IED menu.
+
 * The last thing the game "remembers" is that you pressed Left Control, which is the hotkey for Dual Wield Block. Press it again to go back to normal.
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
+
+</div>
 
 </details>
 
@@ -92,6 +103,7 @@ You have been warned! [*cue spooky echo*]
 <details>
 <summary>VIEW</summary>
 <br>
+<div class="Info" markdown="1"> 
 
 ![image](https://user-images.githubusercontent.com/88904551/177027447-36896d7d-a4f1-4f6b-a7eb-beb1165ba4a8.png)
 ![image](https://user-images.githubusercontent.com/88904551/177027401-5a5a019e-b71f-4365-97ff-2a3a7fa1c413.png)
@@ -103,13 +115,13 @@ Displays the tabs and filters for:
 * Gear Positioning - *Weapons and Shields. This affects displayed AND equipped models. If you want the gear you use in combat to stay in its displayed spot you'll need to edit the position both here AND in the aforementioned Equipment section.*
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
-
+</div>
 </details>
 
 <details>
 <summary>TOOLS</summary>
 <br>
-
+<div class="Info" markdown="1"> 
 ![image](https://user-images.githubusercontent.com/88904551/177028430-d3188847-71e6-4f7d-a8d6-1f831604dff4.png)
 ![image](https://user-images.githubusercontent.com/88904551/177029612-73c03af2-bad2-4297-84e7-1192948ebd15.png)
 
@@ -141,13 +153,13 @@ Of which, the only two you need to mess with are Displays and UI.
 * Select Crosshair Actor - *Automatically selects the actor/npc/race in your crosshairs.*
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
-
+</div>
 </details>
 
 <details>
 <summary>TABS</summary>
 <br>
-
+<div class="Info" markdown="1"> 
 ![image](https://user-images.githubusercontent.com/88904551/177023953-8d499d05-d921-418d-9df0-ae353f2960e1.png)
 
 Near the top there are four different tabs, these will determine what you're altering the look of and are as follows:
@@ -176,13 +188,13 @@ Within each of those is a Preset drop menu:
 Finally, we have the filters. Which show the various items you can alter for all the above.
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
-
+</div>
 </details>
 
 <details>
 <summary>EQUIPMENT</summary>
 <br>
-
+<div class="Info" markdown="1"> 
 ![image](https://user-images.githubusercontent.com/88904551/177056173-be5c779f-e6e7-4322-814c-5e812ec387d1.png)
 
 This section will cover displaying equipment, more specifically weapons and shields. Do note that you have a limited number of slots to modify, only one of each weapon can be displayed at a time, with off-hand variants allowed an extra slot. 
@@ -219,13 +231,13 @@ Ta-da! Easy, right?
 Keep in mind that this only affects gear you actually equip and you cannot alter its placement beyond the above. If you have gear that you want displayed, but don't plan on actually equipping (say, a hunting knife in a 'shoulder sheath') then please refer to the Placement tab.
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
-
+</div>
 </details>
 
 <details>
 <summary>CUSTOM</summary>
 <br>
-
+<div class="Info" markdown="1"> 
 Here we will explore how to display items that aren't normally equipped (in the same context as weapons anyways); potions, scrolls, soul gems, and more! 
 To my knowledge, there isn't a hard limit on what you can display. So long as you have the memory to spare you can show a great many things! Why, a Wildlander that is dedicated (and bored) enough could probably make a suit of armor made entirely of soul gems!
 
@@ -280,7 +292,7 @@ Time to attach our potions to a general area! Select Lower Spine and don't worry
 Please reference the next tab to determine its final placement.
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
-
+</div>
 </details>
 
 
@@ -288,7 +300,7 @@ Please reference the next tab to determine its final placement.
 <details>
 <summary>PLACEMENT</summary>
 <br>
-
+<div class="Info" markdown="1"> 
 ![image](https://user-images.githubusercontent.com/88904551/177060637-e9782b62-54a8-4ee1-ae0c-a06983904ca0.png)
 
 Now comes the tedious part. Placement. This section applies to both equipment and custom items as the process is the same either way.
@@ -348,5 +360,5 @@ I'm still fumbling around with it but it only took a bit of time over a few days
 I don't know when custom support get released but when it does I'll update the guide as soon as reasonably possible to include the presets so you can get that drip you've been after!
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
-
+</div>
 </details>

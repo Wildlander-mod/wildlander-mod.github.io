@@ -4,6 +4,7 @@ title: Spell Research
 has_toc: false
 has_children: false
 parent: Deep Dives
+description: Spell Research
 ---
 
 This page was taken from the Ultimate Skyrim Reddit Sub and has been posted Verbatim .

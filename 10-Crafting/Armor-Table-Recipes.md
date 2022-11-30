@@ -3,10 +3,11 @@ title: Armor Table Recipes
 layout: default
 nav_order: 4
 parent: Crafting
+description: Armor Table recipes
 ---
 
 
-Item | Mats | Requires
+Item To Temper| Mats | Requires Perk
 -- | -- | --
 Ancient Nordic Boots | 1 Ingot: Iron | Craftmanship
 Ancient Nordic Cuirass | 1 Ingot: Iron | Craftmanship

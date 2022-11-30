@@ -5,6 +5,7 @@ nav_order: 4
 has_toc: false
 has_children: false
 parent: Mechanic Analysis
+description:  Enchantments Analysis
 ---
 
 # Armor Enchantments

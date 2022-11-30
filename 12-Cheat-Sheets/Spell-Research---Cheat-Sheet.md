@@ -2,7 +2,7 @@
 title: Spell (Locations and Research)  
 layout: default
 nav_order: 1
-description: Recipes lists
+description: Spell (Locations and Research)  
 parent: Cheat Sheets
 ---
 
