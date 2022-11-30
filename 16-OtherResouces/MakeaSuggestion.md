@@ -1,8 +1,8 @@
 ---
-title: Make A Mod Suggestions 
+title: Make A Mod Suggestion
 layout: default
-nav_order: 1
-description: Mod Suggestions Trello Board
+nav_order: 4
+description: Make A Mod Suggestion
 parent: Other Resources
 ---
 

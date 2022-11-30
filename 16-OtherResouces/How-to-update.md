@@ -4,9 +4,10 @@ title: Update
 has_toc: false
 has_children: false
 parent: How Do i?
+description: How Do I Update ?
 ---
 
-### **To ensure you perform a clean install - Delete your Game-files\Mods folder before continuing (the folder circled in the example below).**  
+# **To ensure you perform a clean install - Delete your Game-files\Mods folder before continuing (the folder circled in the example below).**  
 ![image](https://user-images.githubusercontent.com/26418143/194085051-7e3ffb22-3a21-44e6-8e5d-c4ffa587ac53.png)
 
 
@@ -44,10 +45,10 @@ This should be in the same folder as Game-files and Step 1 - Wabbajack launcher.
 
 6) Open your launcher and click launch.
 
+---
 
 
-
-### After updating to 1.1.3 
+### After updating to 1.1.3 (onwards)
 
 If you load into the game after updating and your face is missing, please 
      

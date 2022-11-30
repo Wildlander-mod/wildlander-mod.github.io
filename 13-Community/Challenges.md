@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Challenges
-nav_order: 6
+nav_order: 1
 has_toc: true
 has_children: false
 parent: Community

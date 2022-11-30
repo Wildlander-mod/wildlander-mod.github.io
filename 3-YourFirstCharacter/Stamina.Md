@@ -18,6 +18,7 @@ So don't sprint too much, don't attack too much, become a true warrior, observe 
 For Caster characters, you dont escape either - Severe spell cost penalties apply if you drop below 20% stamina and you will be slower at running, allowing your opponents to be able to catch and kill you.
 
 There are tools in order to help you manage your stamina at lower level :
+
     * Stews - 2 hours of stamina regeneration. Keep on on you at all times. (Apple Cabbage Stew for a quick and cheap to obtain , 1 Salt, 1 Red Apple, 1 Cabbage, 1 Bottled Water)
     * Bestial stew : 3 stamina / sec for strong stomach race. It's a huge advantage at low levels.
     * Stamina Potion are pretty rare. But easy to brew if you have alchemy.

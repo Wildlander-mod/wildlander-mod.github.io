@@ -1,7 +1,7 @@
 ---
 title: Mod Suggestions Trello Board
 layout: default
-nav_order: 1
+nav_order: 5
 description: Mod Suggestions Trello Board
 parent: Other Resources
 ---

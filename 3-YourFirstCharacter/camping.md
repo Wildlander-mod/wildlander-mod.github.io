@@ -30,10 +30,13 @@ Roaring Campfire|	6 Deadwood or 4 Firewood|	12 Hours|	"Inspired" - All skills im
 Campfires can be put out. If there was any unspent fuel before the campfire was put out, it will be given to you when you click on the campfire again.
 
 ---
+
 ### Fuel
 The starting fuels for a campfire are branches, kindling, or ruined books.
 
 Kindling can be crafted from player crafting from most wooden objects, or from deadwood you find while Foraging
+
+---
 
 ### Tinder
 
@@ -61,7 +64,7 @@ Lantern Oil |	1 sec	|14 sec
 > 
 > A good strategy is to already have enough fuel for at least a flickering campfire ready before you begin building a campfire. That way you won’t run the risk of your campfire burning out before you can find more fuel.
 
-### light your fire
+### Light your fire
 
 To light your fire, select either Light Fire (Strike Stone) or Light Fire (Magic).
 
@@ -69,6 +72,7 @@ If you select Strike Stone, your Firecraft Camping perk reduces how long it take
 
 If you select Magic, your Destruction skill reduces how long it takes to light your campfire (7 seconds for every 20 points). When you light the fire, you will gain Destruction skill experience.
 
+---
 
 ## Camping Perks
 

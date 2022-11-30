@@ -12,6 +12,7 @@ parent: Your First Character
 ## Resistances List
 
 List of basic resistances used in Skyrim.
+
 |Type 	|	Cap|
 |--|--|
 |Damage (Armor Rating)| 	 	80%
