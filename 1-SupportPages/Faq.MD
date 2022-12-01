@@ -252,19 +252,19 @@ If you are willing to customize (and know how to use mod organizer to install mo
 
 If not check first to see if your Skyrim install is in the 'C' drive (C:). Installing Skyrim outside the C: has been known to cause this issue. If you do not want to reinstall the game to C:, a quick fix originally posted by Kepache may be attempted:
 
-1) First download and install Link Shell Extension, which can be found here: http://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html.
-2) Navigate to your Skyrim/Data folder and look for a file named Skyrim - Sounds.bsa. Copy this file and paste it somewhere on your main drive (I suggest creating a folder for this purpose).
-3) Delete Skyrim - Sounds.bsa from the Data folder.
-4) Go back to where you copied Skyrim - Sounds.bsa on your main drive. Right click on it, and you should see an option that says “Pick Link Source”. Click that.
-5) Go back to your Skyrim/Data folder. Right click anywhere and choose “Drop As” and then “Symbolic Link”. You will see your sounds file with a shortcut symbol.
+1. First download and install Link Shell Extension, which can be found [here](http://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html).
+2. Navigate to your Skyrim/Data folder and look for a file named Skyrim - Sounds.bsa. Copy this file and paste it somewhere on your main drive (I suggest creating a folder for this purpose).
+3. Delete Skyrim - Sounds.bsa from the Data folder.
+4. Go back to where you copied Skyrim - Sounds.bsa on your main drive. Right click on it, and you should see an option that says “Pick Link Source”. Click that.
+5. Go back to your Skyrim/Data folder. Right click anywhere and choose “Drop As” and then “Symbolic Link”. You will see your sounds file with a shortcut symbol.
 
 You also need to do the above for Skyrim - Voices_en0.bsa also found in the Skyrim Data folder
 
 You may need to do it for the following 3 folders. Some people do, some don't:
 
-1) Audio Overhaul Skyrim for SE sound folder found in Game-files\mods\Audio Overhaul for Skyrim SE—All files in sound subdirectory
-2) Immersive Sound – Compendium sound folder found in Game-files\mods\Immersive Sounds – Compendium – All Files in sound subdirectory
-3) Unofficial High Definition Audio Project – all BSA files in all three folders found in Game-files\mods
+1. Audio Overhaul Skyrim for SE sound folder found in Game-files\mods\Audio Overhaul for Skyrim SE—All files in sound subdirectory
+2. Immersive Sound – Compendium sound folder found in Game-files\mods\Immersive Sounds – Compendium – All Files in sound subdirectory
+3. Unofficial High Definition Audio Project – all BSA files in all three folders found in Game-files\mods
 
 ----------
 
@@ -320,10 +320,10 @@ This is caused by Skyrim's engine limitation of 4 "shadow casting" light sources
 
 There are several possible reasons:
  
-1) You're NAKED! Put some clothes on, ya filthy animal!
-2) You're covered in BLOOD and/or MUD!  Honestly! Traipsing mud over my clean floors! I am gonna charge you a cleaning fee! Go take a BATH!
-3) You may also be hated by the community or the shopkeeper for... reasons you likely remember, but won't tell anyone about! Grease those palms with the Speechcraft menu and give that shopkeeper a little gift, such as gems or coin off the cuff! That should help lower the prices...
-4) You may also just suck at talking. Level your Speechcraft so you're not tripping over your words like a milkdrinker fresh to the local inn. You can't honestly expect to sell your wares for a decent price when your best sales pitch is 'Unga-bunga!' 
+1. You're NAKED! Put some clothes on, ya filthy animal!
+2. You're covered in BLOOD and/or MUD!  Honestly! Traipsing mud over my clean floors! I am gonna charge you a cleaning fee! Go take a BATH!
+3. You may also be hated by the community or the shopkeeper for... reasons you likely remember, but won't tell anyone about! Grease those palms with the Speechcraft menu and give that shopkeeper a little gift, such as gems or coin off the cuff! That should help lower the prices...
+4. You may also just suck at talking. Level your Speechcraft so you're not tripping over your words like a milkdrinker fresh to the local inn. You can't honestly expect to sell your wares for a decent price when your best sales pitch is 'Unga-bunga!' 
 
 ----------
 
@@ -343,9 +343,9 @@ SetPlayerAIDriven 0
 Because we disable it 🙂 There are multiple methods of moving around the map quickly without editing these settings – There are boats near most large area of water, and Carriage drivers at the cities.
 
 You will need to edit the following in-game MCM settings to reenabled fast travel:
-1) Frostfall
-2) Requiem 
-3) Sunhelm 
+1. Frostfall
+2. Requiem 
+3. Sunhelm 
 
 In addition in 1.1.X – A SKSE mod disables fast travel around the map. This can be turned off in game-files\mods\Disable Fast Travel SKSE - No Janky Map UI\SKSE\Plugins\DisableFastTravel.ini
 
@@ -354,6 +354,8 @@ In addition in 1.1.X – A SKSE mod disables fast travel around the map. This ca
 ## My game freezes during loading screens.
 
 The game will pause if you are alt-tabbed out, including some load screens. Make sure Skyrim window has focus!
+
+The primary cause for this is a insufficiant [page file](../2-RecommendedReading/1-BeforeYouBegin.html#page-files). You can click the link for instructions on how to increase.
 
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
@@ -406,11 +408,12 @@ Yes! The keybinding for this is in Dual Wield Block. Lizzy (being the sensible p
 
 Go to game-files\mods\Simple Dual Sheath\SKSE\Plugins\SimpleDualSheath.ini and edit the flags on the below section:
 
-```
-    [ShieldOnBack]
-    # Add 'Player' or 'NPC' flags to enable.
-    Flags=
-```
+{: .save}
+>[ShieldOnBack]
+>
+> # Add 'Player' or 'NPC' flags to enable.
+> Flags=
+
 
 Save and next time you boot the game. Your shield will now be on your back, you 🐢 cosplayer! 
 
