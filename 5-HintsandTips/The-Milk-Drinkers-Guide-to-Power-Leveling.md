@@ -126,7 +126,7 @@ Deliver the sword to Proventus Avenicci. Once delivered, you can take everything
 
 At Farengar, get the quest to deliver frost salts to Arcadia. Sell him the enchanted robes you collected from helgan.
 
-If you join the Companions you can get a lot more free weapons and armor from Jorrvaskr, including powerful two-handed weapons. When "testing your arm" against Vilkas you can get some free one-handed experience bashing his shield. WARNING: In some rare instances he will kill you, usually for casting mage armor and using magic. If not - you can use the dummies at Jorrvaskr to train a few hours for safe experience. again after joining - strip the place of anything not nailed down.
+If you join the Companions you can get a lot more free weapons and armor from Jorrvaskr, including powerful two-handed weapons. When "testing your arm" against Vilkas you can get some free one-handed experience bashing his shield. WARNING: In some rare instances he will kill you, usually for casting mage armor and using magic. If not - you can use the dummies at Jorrvaskr to train a few hours for safe experience. again after joining - strip the place of anything not nailed down(, take all silver plates, goblets, bowls and decanters from the main hall and what you can from downstairs).
 
 Deliver frost salts to Arcadia, then use her alchemy table to begin crafting potions with the herbs you gathered on the way from Helgan. Sell them to her one at a time, along with any ale, wine and mead that you picked up from Dragonreach. Buy training with the surplus money. Maintain a surplus of 3000 septims for wagon rides to other cities. Stop next door at Belethor and sell all the Glazed items you looted from dragon reach - these can't be broken down.
 
