@@ -3,6 +3,7 @@ layout: default
 title: How to contribute to the wiki and To Do list
 nav_order: 111
 has_children: false
+description: todo list
 ---
 # How to contribute
 

@@ -167,11 +167,11 @@ Firstly - Make sure you are logged into the steam account which owns Skyrim.
 
 If you are - You are missing a prerequisite from the installation guide. https://www.wildlandermod.com/download#before-we-begin
 
-Download https://aka.ms/vs/16/release/vc_redist.x64.exe
+Download [c++](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
-AND https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe
+AND [Desktop runtime](https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe)
 
-AND https://download.visualstudio.microsoft.com/download/pr/fccf43d2-3e62-4ede-b5a5-592a7ccded7b/6339f1fdfe3317df5b09adf65f0261ab/dotnet-runtime-5.0.13-win-x64.exe
+AND [Dotnet runtime](https://download.visualstudio.microsoft.com/download/pr/fccf43d2-3e62-4ede-b5a5-592a7ccded7b/6339f1fdfe3317df5b09adf65f0261ab/dotnet-runtime-5.0.13-win-x64.exe)
 
 Install ALL THREE. Yes, even the one which says consoles. Yes, we are SURE you need it. 
 
@@ -185,6 +185,5 @@ Firstly—try a PC reboot, it's possible that one of the files we use is locked 
 
 Un-install the launcher from Add-remove programs, then download and manually install the most recent from [here](https://github.com/Wildlander-mod/Launcher/releases/)
 
-if using Norton and it blocks the launcher for intrusive activity (During startup - while its checking for updates) you may want to configure these settings https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/ to Exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases
-
+If you are using norton, please see the [Wildlander and Antivirus section.]([Faq.html#norton])
 

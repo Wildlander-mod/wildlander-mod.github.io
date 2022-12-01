@@ -40,10 +40,11 @@ No. Wabbajack files are compiled and cannot be manually edited.
 
 ## Wabbajack browser not loading anything on the login to Nexus Page.
 
-Please install WebView2 by using the installer from this link: (Evergreen Standalone Installer)
-https://developer.microsoft.com/en-us/microsoft-edge/webview2/
+Please install WebView2 by using the installer from this link: [Evergreen Standalone Installer](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
 
 If you already have it - uninstall and reinstall
+
+----
 
 ## Wabbajack fails to start with a "Unknown Error".
 
