@@ -86,9 +86,14 @@ There are a lot different kinds of liquids - one for each elemental archetype. T
 
 *Ranks* 
 
-        Strongest ------------------------------ Weakest
-           5   -   4    -   3   -   2    -   1   -   0 
-         Sila - Adonai - Baume - Gravia - Goria - Haelia
+Potions Equivilent | Suffix (weakest to strongest)
+-- | --
+Dilute | sa Haelia
+Weak | sa Goria
+Mild | sa Gravia
+Strong | sa Baune
+Potent | sa Adonai
+Concentrated | sa Sila
 
 Each one can be upgraded or downgraded using an alembic (Mix ingredients menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
