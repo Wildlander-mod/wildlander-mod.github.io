@@ -141,4 +141,5 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
 
 
 **In Progress Effects and Ingredient Spreadsheet**
-https://docs.google.com/spreadsheets/d/1sNWiM32s9iA1pUlxBmPh13sd1e2DYMjHn17gqjkvO0U/edit?usp=sharing
+
+[Link](https://docs.google.com/spreadsheets/d/1sNWiM32s9iA1pUlxBmPh13sd1e2DYMjHn17gqjkvO0U/edit?usp=sharing)

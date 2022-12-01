@@ -83,6 +83,7 @@ However many matching animations can be assigned in XPMSE, so if you edit the po
 <details>
 <summary>MCM</summary>
 <br>
+<div class="Info" markdown="1"> 
 
 ![image](https://user-images.githubusercontent.com/88904551/177034722-6c6598de-7e04-4b86-a89a-885d091e8b3f.png)
 
@@ -97,7 +98,7 @@ Even though many of the settings have an accompanying [?] to inform you of its p
 You have been warned! [*cue spooky echo*]
 
 [top](https://wildlander-mod.github.io/11-Mod-Deep-Dives/Immersive-Equipment-Display.html#the-guide)
-
+</div>
 </details>
 
 <details>
