@@ -567,20 +567,20 @@ Base magnitude is the number shown when you hover over an enchantment without se
 <td width="1">40</td>
 </tr>
 <tr>
-<td><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Magicka" title="Skyrim:Absorb Magicka">Magicka</a><sup id="cite_ref-DuplicateEffect_6-0" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Magicka" title="Skyrim:Absorb Magicka">Magicka</a><sup id="cite_ref-DuplicateEffect_6-0" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>10</td>
 <td>21</td>
 </tr>
 <tr>
-<td><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Stamina" title="Skyrim:Absorb Stamina">Stamina</a><sup id="cite_ref-DuplicateEffect_6-1" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Stamina" title="Skyrim:Absorb Stamina">Stamina</a><sup id="cite_ref-DuplicateEffect_6-1" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>10</td>
 <td>22</td>
 </tr>
 <tr>
-<td rowspan="6">Damage</td>
-<td><a href="http://en.uesp.net/wiki/Skyrim:Chaos_Damage" title="Skyrim:Chaos Damage">Chaos</a><sup style="line-height:1.0"><a href="http://en.uesp.net/wiki/Skyrim:Dragonborn" title="Skyrim:Dragonborn">DB</a></sup></th>
+<th rowspan="6">Damage</th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Chaos_Damage" title="Skyrim:Chaos Damage">Chaos</a><sup style="line-height:1.0"><a href="http://en.uesp.net/wiki/Skyrim:Dragonborn" title="Skyrim:Dragonborn">DB</a></sup></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>12</td>
 <td>19</td>
@@ -663,7 +663,7 @@ Base magnitude is the number shown when you hover over an enchantment without se
 <td>3</td>
 </tr>
 <tr>
-<th><span style="white-space:nowrap"><a href="http://en.uesp.net/wiki/Skyrim:Silent_Moons_Enchant" class="mw-redirect" title="Skyrim:Silent Moons Enchant">Moonfire</a></span></th>
+<td><span style="white-space:nowrap"><a href="http://en.uesp.net/wiki/Skyrim:Silent_Moons_Enchant" class="mw-redirect" title="Skyrim:Silent Moons Enchant">Moonfire</a></span></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td data-sort-value="10"><span style="white-space:nowrap">+10 damage between 9pm and 5am</span></td>
 <td>5</td>
