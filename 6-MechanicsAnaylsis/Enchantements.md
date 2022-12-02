@@ -33,7 +33,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <tbody>
 <tr>
 <th rowspan="17" width="1">Fortify Skill</th>
-<th width="1"><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Alchemy" title="Skyrim:Fortify Alchemy">Alchemy</a></th>
+<td width="1"><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Alchemy" title="Skyrim:Fortify Alchemy">Alchemy</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -45,7 +45,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>56</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Alteration" title="Skyrim:Fortify Alteration">Alteration</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Alteration" title="Skyrim:Fortify Alteration">Alteration</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -58,7 +58,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Archery" title="Skyrim:Fortify Archery">Marksman (Archery)</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Archery" title="Skyrim:Fortify Archery">Marksman (Archery)</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -71,7 +71,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Barter" title="Skyrim:Fortify Barter">Barter</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Barter" title="Skyrim:Fortify Barter">Barter</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -84,7 +84,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Block" title="Skyrim:Fortify Block">Block</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Block" title="Skyrim:Fortify Block">Block</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -97,7 +97,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Conjuration" title="Skyrim:Fortify Conjuration">Conjuration</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Conjuration" title="Skyrim:Fortify Conjuration">Conjuration</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -110,7 +110,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Destruction" title="Skyrim:Fortify Destruction">Destruction</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Destruction" title="Skyrim:Fortify Destruction">Destruction</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -123,7 +123,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Heavy_Armor" title="Skyrim:Fortify Heavy Armor">Heavy Armor</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Heavy_Armor" title="Skyrim:Fortify Heavy Armor">Heavy Armor</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -136,7 +136,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Illusion" title="Skyrim:Fortify Illusion">Illusion</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Illusion" title="Skyrim:Fortify Illusion">Illusion</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -149,7 +149,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Light_Armor" title="Skyrim:Fortify Light Armor">Light Armor</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Light_Armor" title="Skyrim:Fortify Light Armor">Light Armor</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -162,7 +162,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Lockpicking" title="Skyrim:Fortify Lockpicking">Lockpicking</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Lockpicking" title="Skyrim:Fortify Lockpicking">Lockpicking</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -175,7 +175,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_One-handed" title="Skyrim:Fortify One-handed">One-Handed</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_One-handed" title="Skyrim:Fortify One-handed">One-Handed</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -188,7 +188,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Pickpocket" title="Skyrim:Fortify Pickpocket">Pickpocket</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Pickpocket" title="Skyrim:Fortify Pickpocket">Pickpocket</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -201,7 +201,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Restoration" title="Skyrim:Fortify Restoration">Restoration</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Restoration" title="Skyrim:Fortify Restoration">Restoration</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -214,7 +214,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Smithing" title="Skyrim:Fortify Smithing">Smithing</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Smithing" title="Skyrim:Fortify Smithing">Smithing</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -227,7 +227,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Sneak" title="Skyrim:Fortify Sneak">Sneak</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Sneak" title="Skyrim:Fortify Sneak">Sneak</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -240,7 +240,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Two-handed" title="Skyrim:Fortify Two-handed">Two-Handed</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Two-handed" title="Skyrim:Fortify Two-handed">Two-Handed</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -254,7 +254,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <tr>
 <th rowspan="6"><span style="white-space:nowrap">Fortify Attribute</span></th>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Health" title="Skyrim:Regenerate Health">Healing Rate</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Health" title="Skyrim:Regenerate Health">Healing Rate</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -267,7 +267,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Health" title="Skyrim:Fortify Health">Health</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Health" title="Skyrim:Fortify Health">Health</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -280,7 +280,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Magicka" title="Skyrim:Fortify Magicka">Magicka</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Magicka" title="Skyrim:Fortify Magicka">Magicka</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -293,7 +293,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Magicka" title="Skyrim:Regenerate Magicka">Magicka Regen</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Magicka" title="Skyrim:Regenerate Magicka">Magicka Regen</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -306,7 +306,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Stamina" title="Skyrim:Fortify Stamina">Stamina</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Stamina" title="Skyrim:Fortify Stamina">Stamina</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -319,7 +319,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Stamina" title="Skyrim:Regenerate Stamina">Stamina Regen</a><sup id="cite_ref-Source_and_Target_2-0" class="reference"><a href="#cite_note-Source_and_Target-2">[2]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Stamina" title="Skyrim:Regenerate Stamina">Stamina Regen</a><sup id="cite_ref-Source_and_Target_2-0" class="reference"><a href="#cite_note-Source_and_Target-2">[2]</a></sup></th>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -333,7 +333,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <tr>
 <th rowspan="7">Fortify Other</th>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Carry_Weight" title="Skyrim:Fortify Carry Weight">Carry Weight</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Carry_Weight" title="Skyrim:Fortify Carry Weight">Carry Weight</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -405,7 +405,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Unarmed_Damage" title="Skyrim:Fortify Unarmed Damage">Unarmed</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fortify_Unarmed_Damage" title="Skyrim:Fortify Unarmed Damage">Unarmed</a></td>
 <td></td>
 <td></td>
 <td></td>
@@ -418,7 +418,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 <th rowspan="6">Resist</th>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Disease" title="Skyrim:Resist Disease">Disease</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Disease" title="Skyrim:Resist Disease">Disease</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -430,7 +430,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>100</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Fire" title="Skyrim:Resist Fire">Fire</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Fire" title="Skyrim:Resist Fire">Fire</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -442,7 +442,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>200</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Frost" title="Skyrim:Resist Frost">Frost</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Frost" title="Skyrim:Resist Frost">Frost</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -454,7 +454,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>200</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Magic" title="Skyrim:Resist Magic">Magic</a><sup id="cite_ref-TwoVersions_4-0" class="reference"><a href="#cite_note-TwoVersions-4">[4]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Magic" title="Skyrim:Resist Magic">Magic</a><sup id="cite_ref-TwoVersions_4-0" class="reference"><a href="#cite_note-TwoVersions-4">[4]</a></sup></th>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -466,7 +466,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>500</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Poison" title="Skyrim:Resist Poison">Poison</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Poison" title="Skyrim:Resist Poison">Poison</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -478,7 +478,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>150</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Resist_Shock" title="Skyrim:Resist Shock">Shock</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Shock" title="Skyrim:Resist Shock">Shock</a></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -492,7 +492,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <tr>
 <th rowspan="2">Other</th>
 
-<th><a href="http://en.uesp.net/wiki/Skyrim:Muffle_(effect)" title="Skyrim:Muffle (effect)">Muffle</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Muffle_(effect)" title="Skyrim:Muffle (effect)">Muffle</a></td>
 <td></td>
 <td></td>
 <td></td>
@@ -505,7 +505,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Waterbreathing_(effect)" title="Skyrim:Waterbreathing (effect)">Waterbreathing</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Waterbreathing_(effect)" title="Skyrim:Waterbreathing (effect)">Waterbreathing</a></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -561,103 +561,103 @@ Base magnitude is the number shown when you hover over an enchantment without se
 <tbody>
 <tr>
 <th rowspan="3" width="1">Absorb</th>
-<th width="1"><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Health" title="Skyrim:Absorb Health">Health</a></th>
+<th width="1"><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Health" title="Skyrim:Absorb Health">Health</a></td>
 <td width="1"><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td width="1">10</td>
 <td width="1">40</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Magicka" title="Skyrim:Absorb Magicka">Magicka</a><sup id="cite_ref-DuplicateEffect_6-0" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Magicka" title="Skyrim:Absorb Magicka">Magicka</a><sup id="cite_ref-DuplicateEffect_6-0" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></th>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>10</td>
 <td>21</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Stamina" title="Skyrim:Absorb Stamina">Stamina</a><sup id="cite_ref-DuplicateEffect_6-1" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Stamina" title="Skyrim:Absorb Stamina">Stamina</a><sup id="cite_ref-DuplicateEffect_6-1" class="reference"><a href="#cite_note-DuplicateEffect-6">[2]</a></sup></th>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>10</td>
 <td>22</td>
 </tr>
 <tr>
 <th rowspan="6">Damage</th>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Chaos_Damage" title="Skyrim:Chaos Damage">Chaos</a><sup style="line-height:1.0"><a href="http://en.uesp.net/wiki/Skyrim:Dragonborn" title="Skyrim:Dragonborn">DB</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Chaos_Damage" title="Skyrim:Chaos Damage">Chaos</a><sup style="line-height:1.0"><a href="http://en.uesp.net/wiki/Skyrim:Dragonborn" title="Skyrim:Dragonborn">DB</a></sup></th>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>12</td>
 <td>19</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fire_Damage" title="Skyrim:Fire Damage">Fire</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fire_Damage" title="Skyrim:Fire Damage">Fire</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>10 (plus 1/dps for 4 seconds)</td>
 <td>11</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Frost_Damage" title="Skyrim:Frost Damage">Frost</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Frost_Damage" title="Skyrim:Frost Damage">Frost</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>10<sup id="cite_ref-FrostMagnitude_7-0" class="reference"><a href="#cite_note-FrostMagnitude-7">[3]</a></sup><br>
 25%<sup id="cite_ref-FixedMagnitude_8-0" class="reference"><a href="#cite_note-FixedMagnitude-8">[4]</a></sup> slow for 2 seconds<sup id="cite_ref-FixedDuration_9-0" class="reference"><a href="#cite_note-FixedDuration-9">[5]</a></sup></td>
 <td>13</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Damage_Magicka" title="Skyrim:Damage_Magicka">Spellbane</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Damage_Magicka" title="Skyrim:Damage_Magicka">Spellbane</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>15</td>
 <td>15</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Shock_Damage" title="Skyrim:Shock Damage">Lightning (Rank I)</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Shock_Damage" title="Skyrim:Shock Damage">Lightning (Rank I)</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>10<sup id="cite_ref-ShockMagnitude_10-0" class="reference"><a href="#cite_note-ShockMagnitude-10">[6]</a></sup></td>
 <td>14</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Damage_Stamina" title="Skyrim:Damage Stamina">Effeteness</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Damage_Stamina" title="Skyrim:Damage Stamina">Effeteness</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>15</td>
 <td>29</td>
 </tr>
 <tr>
 <th rowspan="3">Repel</th>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Banish" title="Skyrim:Banish">Banish</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Banish" title="Skyrim:Banish">Banish</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Conjuration" title="Skyrim:Conjuration">Conjuration</a></td>
 <td data-sort-value="10">Level 10 Plus deals 20 damage to target</td>
 <td>35</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fear_(effect)" title="Skyrim:Fear (effect)">Fear</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fear_(effect)" title="Skyrim:Fear (effect)">Fear</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Illusion" title="Skyrim:Illusion">Illusion</a></td>
 <td data-sort-value="10">Level 10, for 3 seconds</td>
 <td>10</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Turn_Undead_(effect)" title="Skyrim:Turn Undead (effect)">Turn Undead</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Turn_Undead_(effect)" title="Skyrim:Turn Undead (effect)">Turn Undead</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Restoration" title="Skyrim:Restoration">Restoration</a></td>
 <td data-sort-value="10">Level 10, for 5 seconds, plus 10 damage to target</td>
 <td>20</td>
 </tr>
 <tr>
 <th rowspan="2"><span style="white-space:nowrap">Apply Effect</span></th>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Paralyze_(effect)" title="Skyrim:Paralyze (effect)">Paralyze</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Paralyze_(effect)" title="Skyrim:Paralyze (effect)">Paralyze</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Alteration" title="Skyrim:Alteration">Alteration</a></td>
 <td data-sort-value="2">26%<sup id="cite_ref-FixedMagnitude_8-1" class="reference"><a href="#cite_note-FixedMagnitude-8">[4]</a></sup> chance for 1 seconds<sup id="cite_ref-VariableDuration_11-0" class="reference"><a href="#cite_note-VariableDuration-11">[7]</a></sup></td>
 <td>100</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Soul_Trap_(effect)" title="Skyrim:Soul Trap (effect)">Soulreaping</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Soul_Trap_(effect)" title="Skyrim:Soul Trap (effect)">Soulreaping</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Conjuration" title="Skyrim:Conjuration">Conjuration</a></td>
 <td data-sort-value="4">4 seconds<sup id="cite_ref-VariableDuration_11-1" class="reference"><a href="#cite_note-VariableDuration-11">[7]</a></sup></td>
 <td>9</td>
 </tr>
 <tr>
 <th rowspan="5">Special</th>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Fiery_Soul_Trap" title="Skyrim:Fiery Soul Trap">Fiery Soul Trap</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Fiery_Soul_Trap" title="Skyrim:Fiery Soul Trap">Fiery Soul Trap</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Conjuration" title="Skyrim:Conjuration">Conjuration</a></td>
 <td data-sort-value="5">5 seconds<sup id="cite_ref-VariableDuration_11-2" class="reference"><a href="#cite_note-VariableDuration-11">[7]</a></sup><br>
 10 fire damage<sup id="cite_ref-FixedMagnitude_8-2" class="reference"><a href="#cite_note-FixedMagnitude-8">[4]</a></sup></td>
 <td>11</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Huntsman%27s_Prowess" title="Skyrim:Huntsman's Prowess">Huntsman's Prowess</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Huntsman%27s_Prowess" title="Skyrim:Huntsman's Prowess">Huntsman's Prowess</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td data-sort-value="3">+3 damage vs. Animals</td>
 <td>3</td>
@@ -669,7 +669,7 @@ Base magnitude is the number shown when you hover over an enchantment without se
 <td>5</td>
 </tr>
 <tr>
-<th><a href="http://en.uesp.net/wiki/Skyrim:Smithing_Expertise" title="Skyrim:Smithing Expertise">Smithing Expertise</a></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Smithing_Expertise" title="Skyrim:Smithing Expertise">Smithing Expertise</a></td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td data-sort-value="5">5 shock damage<br>
 +5 Smithing<sup id="cite_ref-FixedMagnitude_8-3" class="reference"><a href="#cite_note-FixedMagnitude-8">[4]</a></sup></td>
