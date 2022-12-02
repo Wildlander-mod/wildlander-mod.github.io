@@ -86,12 +86,12 @@ When interacting with your fire - you can select the skills option.
 
 Skilled campers can build a fire even in the worst weather and make more effective use of their surroundings. Light campfires to earn perks. Each new perk requires a few more successfully lit campfires.
 
-<table><tbody><tr>
-<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;" >
-<span>Perk</span></td>
-<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Rank</span></td>
-<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Description</span></td>
-<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Perk Req.</span></td>
+<table><tbody>
+<tr>
+	<th><span>Perk</span></th>
+	<th><span >Rank</span></th>
+	<th><span >Description</span></th>
+	<th><span >Perk Req.</span></th>
 </tr>
 <tr>
 <td style="font-weight: bold;" ><span >Firecraft</span></td>
@@ -182,10 +182,10 @@ After lighting your campfire, select “Skills”, and select one of the torchbu
 <table class="tg">
   <tbody>
   <tr>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;" > <span>Perk</span></td>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Rank</span></td>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Description</span></td>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Perk Req.</span></td>
+	<th><span>Perk</span></th>
+	<th><span >Rank</span></th>
+	<th><span >Description</span></th>
+	<th><span >Perk Req.</span></th>
   </tr>
   <tr>
     <td class="tg-9hbo">Adaptation<br></td>
@@ -244,10 +244,9 @@ When you get any of your needs to their max value, your survival skill will incr
 <table>
 <tbody>
   <tr>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;" > <span>Perk</span></td>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Rank</span></td>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Description</span></td>
-	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Perk Req.</span></td>
+	<th><span>Perk</span></th>
+	<th><span >Rank</span></th>
+	<th><span >Description</span></th>
   </tr>
   <tr>
     <td>Unyielding</td>
