@@ -65,7 +65,8 @@ Those blessed by Kynareth are granted additional stamina. The chosen of Kynareth
 > If you've not used the stolen Eldergleam Sap to repair the Gildergreen, increases stamina by 25.
 > If you bring the sapling to grow into a new Gildergreen for Danica Pure-Spring, increases stamina by additional 75.
 
-Note: Kynareth will no longer bless you or allow you to use her shrines if you Steal the Sap 
+{: .highlight }
+Kynareth will no longer bless you or allow you to use her shrines if you Steal the Sap 
 
 **Mara**
 
@@ -74,7 +75,8 @@ Those blessed by Mara find it somewhat easier to cast restoration spells. The me
 > Restoration spells are 10% stronger.
 > If you are Agent of Mara or destroyed the Skull of Corruption, increases health by 50.
 
-Note: Mara will not bless you if Erandur is Dead.
+{: .highlight } 
+Mara will not bless you if Erandur is Dead.
 
 **Stendarr**
 
@@ -83,7 +85,8 @@ Those blessed by Stendarr block slightly more damage and are protected from almo
 > If you're not a Werewolf, Vampire, and if your Conjuration is below 31 (not equal or less than, only less than), increases protection from drain effects by 10%.
 > If you've killed 50 or more Daedra, increases health by 50.
 
-Note: Stendarr will not bless nor Cure Disease a Vampire or Werewolf. 
+{: .highlight } 
+Stendarr will not bless nor Cure Disease a Vampire or Werewolf. 
 
 **Talos**
 
@@ -106,6 +109,9 @@ Those blessed by Nocturnal can move slightly more silently.
 > Makes sneaking 10% easier.
 > For each of the following: 100 backstabs, 100 locks picked, 100 sneak attacks, 250 items stolen, 200 pockets picked, sneaking is improved by 3% for a maximum 15%, which makes total buff from Nocturnal equal 25%
 
+{: .highlight }
+Nocturnal will only bless those who have completed the thieves guild quest
+
 **Auriel**
 
 Those blessed by Auriel are better at penetrating armor with ranged weapons. The champions of Auriel are exalted with substantial increases in all three attributes.
@@ -113,4 +119,5 @@ Those blessed by Auriel are better at penetrating armor with ranged weapons. The
 > Bows get 10% more Armor Penetration damage
 > +100 Magicka, Health, Stamina, if you have finished the quest Touching the Sky.
 
-Note: Auriel will not bless nor Cure Disease a Vampire.
+{: .highlight }
+Auriel will not bless nor Cure Disease a Vampire.
