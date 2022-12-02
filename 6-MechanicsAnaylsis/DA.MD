@@ -98,7 +98,7 @@ In the table below: M, H, S stand for base magicka, health and stamina, respecti
 <tr>
 	<td><strong>Carry Weight</strong></td>
 	<td>4x sqrt{Z - 110}</td>
-	<td>(80% H + 20% S) / 5</td>
+	<td>(80% H + 20% S) </td>
 	<td>135 --- 210 --- 335</td>
 	<td>20 --- 40 --- 60</td>
 </tr>
@@ -112,7 +112,7 @@ In the table below: M, H, S stand for base magicka, health and stamina, respecti
 <tr>
 	<td><strong>Disease Resistance</strong></td>
 	<td>4x sqrt{Z - 100}</td>
-	<td>(40% H + 60% S) / 5</td>
+	<td>(40% H + 60% S) </td>
 	<td>125 --- 200 --- 325</td>
 	<td>20% --- 40% --- 60%</td>
 </tr>
