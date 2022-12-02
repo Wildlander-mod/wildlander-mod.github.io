@@ -22,7 +22,7 @@ You understand basic craftsmanship, allowing you to craft and improve a wide var
 
 Level Required : 0
 
-Perk Required : None, must have The Craftsman's Manual in inventory
+Perk Required : None
 
 ---
 
@@ -69,7 +69,7 @@ After studying forgotten Dwemer schematics, you've acquired the secret knowledge
 
 Level Required : 25
 
-Perk Required : Craftsmanship, must have The Art of Dwarven Blacksmithing in inventory
+Perk Required : Craftsmanship
 
 ---
 
@@ -79,7 +79,7 @@ Orichalcum is hard to shape, but you've got what it takes. You can now craft Orc
 
 Level Required : 50
 
-Perks Required : Dwarven Smithing, Morrowind Smithing, must have The Almanac of Orcish Blacksmithing in inventory
+Perks Required : Dwarven Smithing
 
 ---
 
@@ -89,7 +89,7 @@ You've learned the Dunmer art of crafting items from fine chitin - a technique p
 
 Level Required : 50
 
-Perks Required : Craftsmanship, must have Blacksmithing of Morrowind in inventory
+Perks Required : Craftsmanship
 
 ---
 
@@ -99,7 +99,7 @@ You can now craft contemporary Nordic equipment by combining Quicksilver & Ebony
 
 Level Required : 55
 
-Perks Required : Dwarven Smithing, Morrowind Smithing, must have Art of the Nordic Blacksmiths in inventory
+Perks Required : Dwarven Smithing, Morrowind Smithing
 
 ---
 
@@ -109,7 +109,7 @@ Ebony cracks under most hammers... but not yours. Your diligent study and superi
 
 Level Required : 75
 
-Perks Required : Orcish Smithing, Nordic Smithing, must have Harder than Steel - How to work with Ebony in inventory
+Perks Required : Orcish Smithing, Nordic Smithing
 
 ---
 
@@ -119,8 +119,7 @@ Your smithing skill transcends the mortal plane. You can craft and temper Daedri
 
 Level Required : 100
 
-Perk Required : Ebony Smithing, must have Daedric Craftsmanship in inventory
-
+Perk Required : Ebony Smithing
 ---
 
 ## Light Armor Branch
@@ -135,7 +134,7 @@ Your growing skill with light materials allows you to craft scale armors, and im
 
 Level Required : 25
 
-Perk Required : Craftsmanship, must have An Introduction to Scale Armors in inventory
+Perk Required : Craftsmanship
 
 ---
 
@@ -145,7 +144,7 @@ You've unlocked the mysteries of Elven craftsmanship allowing you to forge Elven
 
 Level Required : 50
 
-Perk Required : Advanced Light Armor, must have About Elven Craftsmanship in inventory
+Perk Required : Advanced Light Armor
 
 ---
 
@@ -155,7 +154,7 @@ You've mastered the subtle art of hardened Glass. You can now craft Glass equipm
 
 Level Required : 75
 
-Perks Required : Elven Smithing, Morrowind Smithing, must have An Introduction to Malachite in inventory
+Perks Required : Elven Smithing, Morrowind Smithing
 
 ---
 
@@ -181,6 +180,6 @@ You've mastered the impossible art of shaping Dragon materials. You can temper D
 
 Level Required : 100
 
-Perks Required : Glass Smithing, Ebony Smithing, must have The Compendium of Draconic Armor in inventory
+Perks Required : Glass Smithing, Ebony Smithing
 
 ---
