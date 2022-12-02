@@ -81,6 +81,7 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 * The Nightmother's Coffin can be searched and is Empty While helping Cicero 
 * Alessandra says Anders is located in Windhelm instead of Whiterun
 * Users report every time they sleep they get deer pelt and 2 charcoal drop into inventory
+* Tempering Labels currently do not work.
 
 
 With workarounds
