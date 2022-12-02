@@ -7,6 +7,14 @@ grand_parent: Getting Started
 has_toc: true
 ---
 
+# Tempering
+
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Introduction
 
 Both Armor and weapons within wildlander make tempering your equipment relevant.
 
@@ -26,6 +34,7 @@ Iequip icons on your UI give a visual repesentation of how close your weapon is 
 
 
 ## Temper Tiers
+
 Low%|High%|Label| Damage/protection of item
 |--|--|--|--|
 0|20|Ruined   | Item Has No Damage/Armor
@@ -42,6 +51,7 @@ Low%|High%|Label| Damage/protection of item
 700|Onwards|Legendary| 60 Minumum
 
 ## Degrade Rules 
+
 * On hit a random piece of armor is degraded.
 * Shields only degrade when blocking
 * Weapons degrade on contact with anything (not just enemies).
@@ -59,13 +69,15 @@ E.g Orcish Weapon
 * 1.3(Orcish)  * 0.2% = 0.26% Durability loss per standard attack
 * 1.3(Orcish)  * 3%   = 3.9% Durability loss per Power attack
 
-Armor Type
+#### Armor Type
+
 |Materiel| Multiplier| 
 |--|--|
 Light|1|
 Heavy|0.7|
 
-Armor Material
+#### Armor Material
+
 |Materiel| Multiplier| 
 |--|--|
 Missing Material|2.5| 
@@ -106,7 +118,8 @@ Stalhrim Heavy|0.9|
 Dragonplate|0.85|
 Daedric|0.8|
 
-Weapon Material
+#### Weapon Material
+
 |Materiel| Multiplier| 
 |--|--|
 Draugr|2.5|

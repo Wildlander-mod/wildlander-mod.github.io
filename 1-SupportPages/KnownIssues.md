@@ -81,6 +81,7 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 * The Nightmother's Coffin can be searched and is Empty While helping Cicero 
 * Alessandra says Anders is located in Windhelm instead of Whiterun
 * Users report every time they sleep they get deer pelt and 2 charcoal drop into inventory
+* Tempering Labels currently do not work.
 
 
 With workarounds
@@ -105,10 +106,21 @@ You need to do 5 Radiant quests between each quest.
 
 ## Thieves Guild
 
-Thieves guild has some issues...... As a general rule - save Before handing in a quest to Brynjolf - so if you have issues you dont have to redo it.
+Thieves guild has some issues for a small percentage of people. As a general rule - save Before handing in a quest to Brynjolf - so if you have issues you dont have to redo it.
 
 ### Quest XYZ isnt starting
+
 You need to do Radiant quests before the next quest will start - these settings can be seen in the MCM.
+
+If you have met these objectives but the next quest does not start.
+
+(optional) Load a save before handing in previous quest and move to Brynjolf.
+
+1) Save your game.
+2) Exit Wildlander and re-start using the Wildlander Launcher.
+3) Load your game.
+4) Speak to Brynjolf hand in quest - next should start.
+
 
 ### Issues with A Chance Arrangement / Loud and Clear
 
@@ -119,10 +131,10 @@ Only fix is to reload a save before it starts, and avoid him until he is at his 
 Failing that:
 1) Meet the requirements to start the thieves guild (250 items stolen, 25 items pickpocketed, Sneak Skill at 25).
 2) Open a save before you have met Brynjolf.
-3) Be inside a cell that is not where the marketplace OR Brynjolf is, aka, not Riften. (the stables work fine for this purpose)
-4) Get to 10am gametime outside.
+3) Go to Riften Stables (or outside of riften itself)
+4) Get to 10am gametime.
 5) Save your game.
-6) Exit Wildlander and re-initialize using the Wildlander Launcher.
+6) Exit Wildlander and re-start using the Wildlander Launcher.
 7) Load your game.
 8) Go to the riften marketplace and allow Brynjolf to come up to you and start the conversation.
 9) Complete the marketplace quest by planting the ring on Brand-Shei.
@@ -149,11 +161,13 @@ Enter in console: completequest TG03
 # Mod Issues.
 
 ## Outlaw Refuges. 
+
 - The stores contain static items which can't be stolen
 - Several beds have owned markers
 - Several objects (e.g. training dummies) are not interactable and should be
 
 ## Bathing
+
 If bathing in very cold water, it can kill you before the animation finishes. 
 
 Work around: don't take a bath in cold water ;)
@@ -202,11 +216,13 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * The carriage during Compelling Tribute quest vanishes upon immediate completion
 * Failing to Garrison outside of Fort Sungard causes Unfinishable Questline
 * Talking to Ulfric Incorrect Travel Marker to Fort Kastav
+
 ---
 
 # Immersion issues
 
 ## NPC's
+
 * Several NPC's are sleeping in unrealistic places. (e.g. Orphans are found sleeping on the ground, in Windhelm in the middle of a snowstorm not near a fire)
 * Some vendors don't show a inventory/show limited inventory when you open them for the first time.
 * Wylandriah doesn't train Enchanting until after her quest
@@ -241,6 +257,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Stuck NPCs - Adrianne (ref ID: 0001A67C) is stuck on a ledge in Whiterun Market. Belethor is stuck at forge
 
 ### Idle markers
+
 * Brand-Shei is supposed to be seated on a crate, however he is sitting on nothing.
 * College NPC Idle marker in the Arcarnem - Leaning on invisible table
 * Marise Aravel, the produce merchant in Riften, has an idle marker inside of a barrel
@@ -291,7 +308,8 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Tempering/Enchanting are way too cheap - I had Eurland temper my warhammer to legendary which only cost 1200 gold. The warhammer was doing 600+ damage after tempering
 
 ## Exploits
-*  i probably should mention that if a container isn't marked as stealing is not red then you can take anything inside thats marked as stolen right in front of the owner without theft
+
+*  I probably should mention that if a container isn't marked as stealing is not red then you can take anything inside thats marked as stolen right in front of the owner without theft
 *  Put armor on mannequins  in breezehome. Logged off for the night. Re logged in and went inside the items the mannequins  were wearing was then sent directly to my inventory.
 *  Npcs can get stuck in the snow outside of mehrune dagons shrine, this causes them to sink slightly into the ground and are unable to move.
 *  Wuunferth the Unliving grants 3 levels to Destruction
@@ -304,6 +322,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 
 ## Followers
+
 1) Delphine cannot accept followers to join the blades - Current work around is to console skip the quest setstage FreeformSkyhavenTempleA 40  
 2) Taught follower the spell Sunfire through the dialog. They use it in combat even on enemies which aren't undead and they seem to prioritize using only that. 
 3) I gave my follower Marcurio 2 scrolls of Summon Fire Atronach and 2 Scrolls of Summon Wolf Familiar (Ghost wolf w/e its called) and he is able to summon either (one at a time) infinitely during battle. In other words, he never consumes the scrolls.
@@ -325,10 +344,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 ----
 
 # Civil war
-- It exists. 
+
 - Its full of vanilla bugs.
+- It exists (Why bethesda did you include this mess in the release). 
+- We (wildlander) do not edit any quest assosiated with civil war therefore any bugs you encounter are original issues.
 - Several immersion breaking issues during battle for Whiterun (Vendors in market are trying to make a living, The carriage driver be vibing as explosions happen all around him)
 - Lights within Korvanjund Hall beyond the sealed door are lit (should be dark)
 
-If you are having a issue for a civil war quest - please check https://en.uesp.net/wiki/Main_Page - there maybe a work around here.
+If you are having a issue for a civil war quest - please check [UESP WIki](https://en.uesp.net/wiki/Main_Page) - there maybe a work around here.
 
