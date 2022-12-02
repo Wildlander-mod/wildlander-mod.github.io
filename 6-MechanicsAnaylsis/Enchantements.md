@@ -684,7 +684,7 @@ Base magnitude is the number shown when you hover over an enchantment without se
 <a name="cite_note-DuplicateEffect-6"></a><li id="cite_note-DuplicateEffect-6"> <span class="reference-text">There are two versions of this effect, allowing it to be applied twice.</span></li>
 <a name="cite_note-FrostMagnitude-7"></a><li id="cite_note-FrostMagnitude-7"> <span class="reference-text">The magnitude of this effect applies to both damage and stamina damage.</span></li>
 <a name="cite_note-FixedMagnitude-8"></a><li id="cite_note-FixedMagnitude-8"> <span class="reference-text">The magnitude of this part of the effect is fixed regardless of skill, soul used, or perks.</span></li>
-<a name="cite_note-FixedDuration-9""></a><li id="cite_note-FixedDuration-9"> <span class="reference-text">The duration of this part of the effect is fixed regardless of skill, soul used, or perks.</span></li>
+<a name="cite_note-FixedDuration-9"></a><li id="cite_note-FixedDuration-9"> <span class="reference-text">The duration of this part of the effect is fixed regardless of skill, soul used, or perks.</span></li>
 <a name="cite_note-ShockMagnitude-10"></a><li id="cite_note-ShockMagnitude-10"> <span class="reference-text">The magnitude of this effect applies to both damage and, at half value rounding down, magicka damage.</span></li>
 <a name="cite_note-VariableDuration-11"></a><li id="cite_note-VariableDuration-11"> <span class="reference-text">Only the duration is affected by Enchanting level and perks.</span></li>
 </ol>
