@@ -16,6 +16,11 @@ description: Religion and the Divines.
 
 – The restoration perk tree now offers the perk “Painful Regrets” which can be taken without prerequisite nodes once your crime record passed the limits tolerated by the divines. By taking it you can get Cure Disease effect back, but the blessings are lost forever, once you lose them. To take this perk you need to have less than 30 items stolen or less than 3 murders or 3000-5999 lifetime bounty, and you need to have 0 current bounty. In such scenario it's much better to stock on cleansing potions, since Painful Regrets gives you some serious debuffs. The only exception is Nocturnal - she doesn't care if player is stealing or murdering, so her blessing should be available at all times.
 
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ## Crimes According to the divines.
 
 * Stolen more than 10 items
