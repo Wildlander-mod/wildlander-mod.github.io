@@ -319,7 +319,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </tr>
 <tr>
 
-<td><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Stamina" title="Skyrim:Regenerate Stamina">Stamina Regen</a><sup id="cite_ref-Source_and_Target_2-0" class="reference"><a href="#cite_note-Source_and_Target-2">[2]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Regenerate_Stamina" title="Skyrim:Regenerate Stamina">Stamina Regen</a><sup id="cite_ref-Source_and_Target_2-0" class="reference"><a href="#cite_note-Source_and_Target-2">[2]</a></sup></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
