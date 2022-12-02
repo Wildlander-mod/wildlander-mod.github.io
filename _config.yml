@@ -29,7 +29,9 @@ nav_external_links:
   - title: UESP Skill Book locations
     url: https://en.uesp.net/wiki/Skyrim:Skill_Books
     hide_icon: false # set to true to hide the external link icon - defaults to false  
-   
+  - title: UESP Wiki 
+    url: https://en.uesp.net/wiki/Main_Page
+    hide_icon: false # set to true to hide the external link icon - defaults to false      
 
 # Footer content
 # appears at the bottom of every page's main content
