@@ -7,6 +7,15 @@ grand_parent: Getting Started
 has_toc: true
 ---
 
+# Tempering
+
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Introduction
+
 Both Armor and weapons within wildlander make tempering your equipment relevant.
 
 The higher the temper on the weapon, the more damage it does. 
