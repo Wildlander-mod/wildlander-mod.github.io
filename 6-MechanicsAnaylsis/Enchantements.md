@@ -345,7 +345,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>100</td>
 </tr>
 <tr>
-<th><span style="white-space:nowrap">Potent Alteration</span></th>
+<td><span style="white-space:nowrap">Potent Alteration</span></td>
 <td></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -357,7 +357,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-<th><span style="white-space:nowrap">Potent Conjuration </span></th>
+<td><span style="white-space:nowrap">Potent Conjuration </span></td>
 <td></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -369,7 +369,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>199</td>
 </tr>
 <tr>
-<th><span style="white-space:nowrap"> Potent Destruction </span></th>
+<td><span style="white-space:nowrap"> Potent Destruction </span></td>
 <td></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -381,7 +381,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-<th><span style="white-space:nowrap"> Potent Illusion </span></th>
+<td><span style="white-space:nowrap"> Potent Illusion </span></td>
 <td></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -393,7 +393,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>250</td>
 </tr>
 <tr>
-<th><span style="white-space:nowrap">Potent Restoration </span></th>
+<td><span style="white-space:nowrap">Potent Restoration </span></td>
 <td></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
@@ -454,7 +454,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 <td>200</td>
 </tr>
 <tr>
-<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Magic" title="Skyrim:Resist Magic">Magic</a><sup id="cite_ref-TwoVersions_4-0" class="reference"><a href="#cite_note-TwoVersions-4">[4]</a></sup></th>
+<td><a href="http://en.uesp.net/wiki/Skyrim:Resist_Magic" title="Skyrim:Resist Magic">Magic</a><sup id="cite_ref-TwoVersions_4-0" class="reference"><a href="#cite_note-TwoVersions-4">[4]</a></sup></td>
 <td></td>
 <td><span title="Yes"><img alt="☑" src="https://raw.githubusercontent.com/Wildlander-mod/Support/master/Images/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"></span><span style="display:none">Yes</span></td>
 <td></td>
@@ -561,7 +561,7 @@ Base magnitude is the number shown when you hover over an enchantment without se
 <tbody>
 <tr>
 <th rowspan="3" width="1">Absorb</th>
-<th width="1"><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Health" title="Skyrim:Absorb Health">Health</a></td>
+<td width="1"><a href="http://en.uesp.net/wiki/Skyrim:Absorb_Health" title="Skyrim:Absorb Health">Health</a></td>
 <td width="1"><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td width="1">10</td>
 <td width="1">40</td>
@@ -579,7 +579,7 @@ Base magnitude is the number shown when you hover over an enchantment without se
 <td>22</td>
 </tr>
 <tr>
-<th rowspan="6">Damage</th>
+<td rowspan="6">Damage</td>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Chaos_Damage" title="Skyrim:Chaos Damage">Chaos</a><sup style="line-height:1.0"><a href="http://en.uesp.net/wiki/Skyrim:Dragonborn" title="Skyrim:Dragonborn">DB</a></sup></th>
 <td><a href="http://en.uesp.net/wiki/Skyrim:Destruction" title="Skyrim:Destruction">Destruction</a></td>
 <td>12</td>
