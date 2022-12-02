@@ -87,11 +87,11 @@ When interacting with your fire - you can select the skills option.
 Skilled campers can build a fire even in the worst weather and make more effective use of their surroundings. Light campfires to earn perks. Each new perk requires a few more successfully lit campfires.
 
 <table><tbody><tr>
-<td style="background-color:#b21500;color: #ffffff;font-weight: bold;" >
+<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;" >
 <span>Perk</span></td>
-<td style="background-color:#b21500;color: #ffffff;font-weight: bold;text-align:center;" ><span >Rank</span></td>
-<td style="background-color:#b21500;color: #ffffff;font-weight: bold;text-align:center;" ><span >Description</span></td>
-<td style="background-color:#b21500;color: #ffffff;font-weight: bold;text-align:center;" ><span >Perk Req.</span></td>
+<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Rank</span></td>
+<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Description</span></td>
+<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Perk Req.</span></td>
 </tr>
 <tr>
 <td style="font-weight: bold;" ><span >Firecraft</span></td>
@@ -180,11 +180,12 @@ After lighting your campfire, select “Skills”, and select one of the torchbu
 
 
 <table class="tg">
-  <tbody><tr>
-    <th>Perk<br></th>
-    <th>Ranks<br></th>
-    <th>Description<br></th>
-    <th>Perk Req.<br></th>
+  <tbody>
+  <tr>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;" > <span>Perk</span></td>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Rank</span></td>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Description</span></td>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Perk Req.</span></td>
   </tr>
   <tr>
     <td class="tg-9hbo">Adaptation<br></td>
@@ -241,10 +242,12 @@ Notes
 When you get any of your needs to their max value, your survival skill will increase. Each level will require you to replenish your needs more times.
 
 <table>
-<tbody><tr>
-    <th>Perk</th>
-    <th>Ranks</th>
-    <th>Description</th>
+<tbody>
+  <tr>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;" > <span>Perk</span></td>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Rank</span></td>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Description</span></td>
+	<td style="background-color:#7253ed;color: #ffffff;font-weight: bold;text-align:center;" ><span >Perk Req.</span></td>
   </tr>
   <tr>
     <td>Unyielding</td>
