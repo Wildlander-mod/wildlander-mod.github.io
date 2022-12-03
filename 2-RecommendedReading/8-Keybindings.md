@@ -106,7 +106,7 @@ PRESS F11 IN GAME
    </td>
    <td>X
    </td>
-   <td>Wildlander
+   <td>Ultimate Immersion Toggle
    </td>
   </tr>
   <tr>
@@ -128,7 +128,7 @@ PRESS F11 IN GAME
   <tr>
    <td>Quick Restore
    </td>
-   <td>Left Ctrl
+   <td>V
    </td>
    <td>iEquip
    </td>
@@ -243,6 +243,14 @@ PRESS F11 IN GAME
    <td>Right Alt
    </td>
    <td> Campfire (Instincts )
+   </td>
+  </tr>
+  <tr>
+   <td>Parry
+   </td>
+   <td>Left Control
+   </td>
+   <td> Duel Wield Parry
    </td>
   </tr>
 </table>
