@@ -192,6 +192,7 @@ Perks Required : Master Illusion and Obliterate the Mind
 # --Spells--
 
 ## Novice
+
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Charming Touch | 150 | 2 | 40s | The touched target considers the caster a good friend and stops all hostilities for up to \<dur> seconds. <br/>If empowered, the strain drains \<mag> magicka and stamina per second. | |

@@ -166,6 +166,7 @@ Perk Required : Power of Life
 # --Spells--
 
 ## Novice
+
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Arcane Ward (Rank I) | 50/s| 20 | Concentration | The caster creates a protective shield that negates a moderate amount of physical damage and negates up to \<mag> points of spell damage. |  |

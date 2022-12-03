@@ -4,6 +4,7 @@ title: Conjuration Analysis
 has_toc: false
 has_children: false
 parent: Skill Analysis
+description: Conjuration Skill
 ---
 
 # Conjuration
@@ -14,56 +15,167 @@ parent: Skill Analysis
 
 ## Basic Perk
 
-Novice Conjuration - You've acquired two Conjuration spells from the Novice tier. Novice spells cost 55% less magicka, and improve 1% per skill level.
+**Novice Conjuration**
 
+You've acquired two Conjuration spells from the Novice Conjuration tier. Novice Conjuration spells cost 55% less magicka, and improve 1% per skill level.
+
+Level Required : 0
+
+Perk Required : None
 ## Oblivion Branch
 
-Stabilized Binding (25 Conjuration required) - You bend the barriers between realms, extending the duration of summoned Spirits and Daedra by 50%.
+**Stabilized Binding**
 
-Spiritual Binding (35 Conjuration required) - Your knowledge of Oblivion's spiritual aspects increases health, stamina and damage of all your summoned spirits.
+You bend the barriers between realms, extending the duration of summoned Spirits and Daedra by 50%.
 
-Extended Binding (50 Conjuration required) - You can summon Daedra and Spirits up to five times farther away for 25% less magicka.
+Level Required : 25
 
-Elemental Binding (75 Conjuration required) - Your Atronachs are much stronger, and high-level Thralls are immune to Banishment and Control spells.
+Perk Required : None
+
+**Spiritual Binding**
+
+Your knowledge of Oblivion's spiritual aspects increases health, stamina and damage of all your summoned spirits.
+
+Level Required : 25
+
+Perk Required : Stabilized Binding
+
+**Extended Binding**
+
+You can summon Daedra and Spirits up to five times farther away for 25% less magicka.
+
+Level Required : 50
+
+Perk Required : Stabilized Binding
+
+**Elemental Binding**
+
+Your Atronachs are much stronger, and high-level Thralls are immune to Banishment and Control spells.
+
+Level Required : 75
+
+Perk Required : Extended Binding
+
 
 ## Summoning Branch
 
-Summoner's Insight (25 Conjuration required) - You can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
+**Summoner's Insight**
 
-Cognitive Flexibility (50/100 Conjuration required) - Your expanded mental focus allows you to maintain two/three summons at once, including those outside the school of Conjuration.
+You can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
+
+Level Required : 25
+
+Perk Required : Novice Conjuration
+
+**Cognitive Flexibility**
+
+Rank 1: Your expanded mental focus allows you to maintain two summons at once, including those outside the school of Conjuration.
+
+Rank 2: Your expanded mental focus allows you to maintain three summons at once, including those outside the school of Conjuration.
+
+Level Required : 50 / 100
+
+Perk Required : Summoner's Insight / Cognitive Flexibility Rank 1
 
 ## Necromancy Branch
 
-Necromancy (25 Conjuration required) - Undead and ghostly summons last 50% longer. You can reanimate more powerful corpses (3x higher level) that last 10x longer.
+**Necromancy**
 
-Ritualism (50 Conjuration required) - Raising the dead and summoning ghosts costs 25% less magicka.
+Undead and ghostly summons last 50% longer. You can reanimate more powerful corpses (3x higher level) that last 10x longer.
 
-Dark Infusion (75 Conjuration required) - Reanimated entities have more health, higher resistance to elemental damage, and they no longer decay into dust.
+Level Required : 25
+
+Perk Required : Novice Conjuration
+
+**Ritualism**
+
+Raising the dead and summoning ghosts costs 25% less magicka.
+
+Level Required : 50
+
+Perk Required : Necromancy
+
+**Dark Infusion**
+
+Reanimated entities have more health, higher resistance to elemental damage, and they no longer decay into dust.
+
+Level Required : 75
+
+Perk Required : Ritualism
 
 ## Bound Weapon Branch
 
-Mystic Binding (25 Conjuration required) - Your bound weapons deal more damage and last twice as long.
+**Mystic Binding**
 
-Mystic Maelstrom (50 Conjuration required) - Your bound weapons make your target vulnerable to soul gems for 3 seconds.
+Your bound weapons deal more damage and last twice as long.
 
-Mystic Banishment (75 Conjuration required) -  Your bound weapons send summoned daedra back to Oblivion and turn the undead.
+Level Required : 25
 
-Mystic Disruption (100 Conjuration required) - Bound weapons penetrate 20% of your opponent's armor.
+Perk Required : Novice Conjuration
+
+**Mystic Maelstrom**
+
+Your bound weapons make your target vulnerable to soul gems for 3 seconds.
+
+Level Required : 50
+
+Perk Required : Mystic Binding
+
+**Mystic Banishment**
+
+Your bound weapons send summoned daedra back to Oblivion and turn the undead.
+
+Level Required : 75
+
+Perk Required : Mystic Maelstrom
+
+**Mystic Disruption**
+
+Bound weapons penetrate 20% of your opponent's armor.
+
+Level Required : 100
+
+Perk Required : Mystic Banishment
+
 
 ## Mastery Branch
 
-Apprentice Conjuration (25 Conjuration required) - You've acquired two Conjuration spells from the Apprentice tier. Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+**Apprentice Conjuration**
 
-Adept Conjuration (50 Conjuration required) - You've acquired two Conjuration spells from the Adept tier. Adept spells cost 55% less magicka, and improve 3% per skill level.
+You've acquired two Conjuration spells from the Apprentice Conjuration tier. Apprentice Conjuration spells cost 55% less magicka, and improve 2% per skill level.
 
-Expert Conjuration (75 Conjuration required) - You've acquired two Conjuration spells from the Expert tier. Expert spells cost 55% less magicka, and improve 4% per skill level.
+Level Required : 25
 
-Master Conjuration (100 Conjuration required) - You've acquired one Conjuration spell from the Master tier. Master spells cost 55% less magicka, and improve 5% per skill level.
+Perk Required : Novice Conjuration
 
+**Adept Conjuration**
+
+You've acquired two Conjuration spells from the Adept Conjuration tier. Adept Conjuration spells cost 55% less magicka, and improve 3% per skill level.
+
+Level Required : 50
+
+Perk Required : Apprentice Conjuration
+
+**Expert Conjuration**
+
+You've acquired two Conjuration spells from the Expert Conjuration tier. Expert Conjuration spells cost 55% less magicka, and improve 5% per skill level.
+
+Level Required : 75
+
+Perk Required : Adept Conjuration
+
+**Master Conjuration**
+
+You've acquired two Conjuration spells from the Master Conjuration tier. Master Conjuration spells cost 55% less magicka, and improve 5% per skill level.
+
+Level Required : 100
+
+Perk Required : Expert Conjuration
 
 # --Spells--
 
 ## Novice 
+
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 Bound Dagger | 180 | - | 120s | Creates a magic dagger for \<dur> seconds. Sheathe it to dispel. | |
@@ -114,6 +226,7 @@ Summon Spirit Bear | 400 | - | 8s | The caster summons the spirit of a furious b
 Summon Spirit Troll | 500 | - | 8s | The caster summons the spirit of a rampaging troll for \<dur> seconds. | |
 
 ## Expert 
+
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 Banish Daedra (Rank II) | 215 | 30 | - | The caster sends even powerful creatures back to the realms of Oblivion. | |
