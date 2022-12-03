@@ -82,6 +82,8 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 * Alessandra says Anders is located in Windhelm instead of Whiterun
 * Users report every time they sleep they get deer pelt and 2 charcoal drop into inventory
 * Tempering Labels currently do not work.
+* Bathing can teleport the player to a seemingly random location.
+
 
 
 With workarounds
