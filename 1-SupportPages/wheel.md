@@ -11,7 +11,7 @@ description: The Great Wheel of Feedback / Discussion Topics
 
 There has been a great amount of feedback over the last 12 months relating to the pack - a lot of it Duplicated - to the extent that its spawned a Meme on the official discord.
 
-![Img](https://cdn.discordapp.com/attachments/348579473727160321/1048646278558519506/wildlander_discord_wheel_of_topics.png)
+<img src="https://cdn.discordapp.com/attachments/348579473727160321/1048646278558519506/wildlander_discord_wheel_of_topics.png" alt="drawing" width="400"/>
 
 To cover some of the topics commonly discussed
 
