@@ -16,7 +16,7 @@ $pink-300: #dd2cd4;
 
 @media screen and (min-width: 800px) {
   .side-bar{
-      width: $nav-width + 15;
+      width: $nav-width + 30;
   }
   .main-content {
     max-width: 100%;
@@ -25,7 +25,7 @@ $pink-300: #dd2cd4;
   .main {
     position: relative;
     max-width: 100%;
-    margin-left: $nav-width + 15;
+    margin-left: $nav-width + 30;
   }
 }
   
