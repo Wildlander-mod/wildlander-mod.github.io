@@ -30,43 +30,43 @@ This is currently default requiem and is scheduled for correction at the same ti
 
 ### 3. NPC Appearances
 
-We get people complaining they are too pretty. We get people complaining they are too Ugly. At the end of the day - its Dylans List - He likes them this way. 
+We get people complaining they are too pretty. We get people complaining they are too Ugly. At the end of the day - it's Dylan's List - He likes them this way. 
 
 ### 4. Favorite Mod not being included
 
 We currently have nearly 1000 suggested mods on the trello - If everyone's Favorite Mod was included - it would be 5 times the size and released in about a decade.
 
-### 5. Spell Research too Complex.
+### 5. Spell Research too complex.
 
 We know, and Agree - thats why it isn't compulsory to use it.
 
-### 6. Asking About Customization.
+### 6. Asking About customization.
 
 Soon. The list is in a stable enough state to open it - we are just waiting on Dylan to write up the supporting documents
 
-### 7. List is too Easy / Difficult.
+### 7. List is too easy.
 
 For Requiem Veteran's this list is probably too easy - not everyone is a veteran. Staff are actively discussing a "hard mode" version of the modpack.
 
 ---
 ## Other feedback
 
-### 8. Why is nightvision So rubbish?
+### 8. Why is nightvision so rubbish?
 
 Because we have a ENB - and the default preset for Rudy makes it this way - The FAQ has some settings to improve it.
 
-### 9. Vampire is terrible
+### 9. Sun damage on a Vampire is terrible
 
-Yes, We agree that the instant death when you go into sunlight is a bit much - perhaps we will change it to a Damage over time.
+Yes, We agree that the instant death when you go into sunlight is a bit much - perhaps we will change it to a Damage over time or use a alternate vampire overhaul.
 
-### 10. I hate the follower Mod. They never do what i want and just stand there.
+### 10. I hate the follower Mod. They never do what I want and just stand there.
 
 We know there are issues with followers not doing what you want - we will be taking a look.
 
-### 11. Enchanted Spheres / Enemies with regen
+### 11. Enchanted Spheres / Enemies with regen too strong
 
 We will be addressing this.
 
 ### 12. Loot in chests is Rubbish
 
-More dangerous the chest is to get to... the better the loot. Openworld chests have the worst - Boss chests have the best. 
+More dangerous the chest is to get to... the better the loot. Open world chests have the worst - Boss chests have the best. 
