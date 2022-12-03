@@ -84,7 +84,7 @@ Level Required : 50
 
 Perk Required : Adept Alteration
 
-**Metamagical Thesis **
+**Metamagical Thesis**
 
 Your fundamental knowledge of Aetherial power decreases magicka cost for all spells by 10%.
 
@@ -94,7 +94,7 @@ Perk Required : Stability
 
 Note: All spells are affected by this perk, not just alteration school.
 
-**Metamagical Empowerment **
+**Metamagical Empowerment**
 
 You are a master spellcaster. Duration and magnitude of all spells are enhanced by 20%.
 
