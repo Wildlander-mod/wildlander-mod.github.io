@@ -154,6 +154,12 @@ New enchantments are an additional 15% stronger.
 
 Allows you to craft Glass Staves at the Forge.
 
+- Arcane Power: deals 5 points of unresistable damage
+- Flameburst: causes a fiery explosion on hit, and deals 25 points of fire damage.
+- Force: has a chance to do 20 points of additional damage and send the target flying (chance is 25%)
+- Frostburst: causes an icy explosion on hit, dealing 25 points of frost damage.
+- Shockburst: causes a lightning explosion on hit, dealing 25 points of shock damage.
+
 ---
 
 **Artificer's Insight**
@@ -171,6 +177,12 @@ New lesser power called 'Artificer's Insight' is added. Activating the power con
 New enchantments are an additional 15% stronger.
 
 Allows you to craft Ebony Staves at the Forge.
+
+- Toxicity: deals 10 points of stamina and health damage per second for 5 seconds (stacks)
+- Spellbreaking: Has a 33% chance to deal 100 points of magicka damage and dispel all magic from the target.
+- Elemental Fury: Deals 0.33 points of Fire damage per second for 4 seconds, and deals 1 point of Frost damage and 1 point of Shock Damage
+- Annihilation: Deals 20 points of unresistable damage. with a chance to do greater damage
+- Greater Force: Has a 25% chance to deal 50 points of additional damage and send the target flying.
 
  
 ## [ More Information about Enchanting ]
