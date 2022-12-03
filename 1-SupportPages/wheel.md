@@ -46,7 +46,7 @@ Soon. The list is in a stable enough state to open it - we are just waiting on D
 
 ### 7. List is too Easy / Difficult.
 
-For Requiem Veteran's this list is probably too easy - not not everyone is a veteran. Staff are actively discussing a "hard mode" version of the modpack.
+For Requiem Veteran's this list is probably too easy - not everyone is a veteran. Staff are actively discussing a "hard mode" version of the modpack.
 
 ---
 ## Other feedback
