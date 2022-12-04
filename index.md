@@ -32,7 +32,7 @@ If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channe
 * The [Wildlander YouTube channel](https://www.youtube.com/wildlander) contains a variety of Wildlander video content, including gameplay videos, gameplay tutorials, developer updates, modding tutorials, and other video content not related to Wildlander.
 * Currently, we are not supporting any form of customization. Doing so denies you access to support.
 
-To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a bug report form.
+To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a [bug report form](..\16-OtherResouces\bugreport.html).
 
 
 {: .save }
