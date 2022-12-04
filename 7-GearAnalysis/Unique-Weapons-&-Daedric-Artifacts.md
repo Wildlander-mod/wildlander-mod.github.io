@@ -81,7 +81,7 @@ parent: Gear Analysis
 
 | **Wabbajack** \| (Staff) |
 | :--- |
-| - Use in your inventory to turn tomatoes into Soul Tomatoes. (Black Soulgem equivalents.) <br/>  - Use on targets for random effects including, but not limited to:  <br/>	~ Damaging them with a number of offensive spells!  <br/>	~ Healing them! <br/>~ Turn your foe invisible!  <br/>	~ Turn them into cheese!  <br/>	~ Make them run in fear or throw them into a fit of Fury!  <br/>	~ Summmon a Dremora to attack them or just kill them outright! ~ Step on up and take your chances! <br/>- Note: Sheogorath not responsible for any adverse side effects from eating cheese made from your enemies, or responsibility for anything in general, really.* |
+| *- Use in your inventory to turn tomatoes into Soul Tomatoes. (Black Soulgem equivalents.) <br/>  - Use on targets for random effects including, but not limited to:  <br/>	~ Damaging them with a number of offensive spells!  <br/>	~ Healing them! <br/>~ Turn your foe invisible!  <br/>	~ Turn them into cheese!  <br/>	~ Make them run in fear or throw them into a fit of Fury!  <br/>	~ Summmon a Dremora to attack them or just kill them outright! ~ Step on up and take your chances! <br/>- Note: Sheogorath not responsible for any adverse side effects from eating cheese made from your enemies, or responsibility for anything in general, really.* |
 
 # Dragonpriest Masks 
 | **Ahzidal** |
