@@ -121,12 +121,11 @@ Result: Stam Regen 30% for 300sec, Two-handed Expertise 12 for 60sec, Fire resis
 
 Result: Health Increased by 61 pts for 180 sec, Stamina increased by 30 for 300 sec, Armor increased by 61 for 60 sec. Fortify Carry Weight by 18 for 600sec
 
-# Money Potions
+# Power Levelling (High value potions)
 
-**Early game**
+##  Gathering
 
-
-_Safe places to collect_
+_Safe places to collect Groups 1 & 2_
 
 Collect RMF, BMF, Lavender, Thistle Branch on roads around Whiterun and Riverwood
 
@@ -147,15 +146,16 @@ Salt you can find in bags, but I usually buy it
 Slaughterfish Eggs are available in large quantity on the north coast between Dawnstar in the water.
 
 ---
+## Crafting
 
-_Group (1)_
+#### _Group (1)_
 
     Blue Mountain Flower + Lavender or Hawk Feathers + ( Hanging Moss or Spider Eggs if you have them)
 
 Damage magic regeneration + reduce conjouration cost
 
 
-_Group (2)_ Make sure you have the level 25 Elixir perk before making this group.
+#### _Group (2)_ Make sure you have the level 25 Elixir perk before making this group.
 
     Garlic +  Salt +  Slaughterfish Eggs or Thistle Branch
 
@@ -163,39 +163,39 @@ Fortify Magicka Regen + resist poison.
 
 **Mid game onwards**
 
-_Group (3)_
+#### _Group (3)_
  
 	Salmon Roe + Briar Heart + Sapphire Dust
 
 Water Breathing & Fortify Magicka
 
-_Group (4)_
+#### _Group (4)_
 
 	Chaurus Egg + Ice wraith teeth + Torchbug thorax
 	Chaurus Egg + Nirnroot + Torchbug thorax
 
 Invisibility & Fortify Stamina
 
-_Group (5)_
+####_Group (5)_
 
 	Troll Fat + PineThrush Egg + Falmer Ear
 
 Resist Poison & Fortify Lockpicking Expertise
 
-_Group (6)_
+#### _Group (6)_
 
 	Troll Heart + Troll Eye + Giants toe
 
 Tardiness & Damage Stamina
 
-_Group (7)_
+#### _Group (7)_
 
 	Red Glitterdust + Nirnroot + Creep cluster
 	Red Glitterdust + Nirnroot + Giants Toe
 
 Fortify Carry Weight, drain health, drain Stamina
 
-_Group (8)_
+#### _Group (8)_
 
 	Red Glitterdust + Red Mountain Flower + Giants Toe
 	Red Glitterdust + Red Mountain Flower + Creep cluster
