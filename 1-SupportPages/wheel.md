@@ -11,7 +11,7 @@ description: The Great Wheel of Feedback / Discussion Topics
 
 There has been a great amount of feedback over the last 12 months relating to the pack - a lot of it Duplicated - to the extent that its spawned a Meme on the official discord.
 
-<img src="https://cdn.discordapp.com/attachments/348579473727160321/1048646278558519506/wildlander_discord_wheel_of_topics.png" alt="drawing" width="400"/>
+<img src="https://cdn.discordapp.com/attachments/348579473727160321/1049048934154252408/new_and_improved_wildlander_discord_wheel_of_topics.png" alt="drawing" width="600"/>
 
 To cover some of the topics commonly discussed
 
@@ -48,8 +48,6 @@ Soon. The list is in a stable enough state to open it - we are just waiting on D
 
 For Requiem Veteran's this list is probably too easy - not everyone is a veteran. Staff are actively discussing a "hard mode" version of the modpack.
 
----
-## Other feedback
 
 ### 8. Why is nightvision so rubbish?
 
