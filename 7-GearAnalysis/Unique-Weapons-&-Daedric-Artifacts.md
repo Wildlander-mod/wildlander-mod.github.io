@@ -713,6 +713,7 @@ parent: Gear Analysis
 |- *Extra Damage 20%(?) to Elves.<br/>- Counts as Daedric.* |
 
 ## Ranged
+
 | **Auriel's Bows** \| (Light Bow; Elven) |
 |:---|
 | - *Sun Damage 20 points.<br/>- Extra Damage 77 points to Undead.* |
