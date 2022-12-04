@@ -16,7 +16,7 @@ The contents of this guide should be considered spoilers
 
 ## Know yourself and know thy enemy.
 - This section is merely intended to be a rough guideline for Wildlanders looking to make their mark in the world. 
-- As every playstyle has its own pros and cons it is left to the experience of each individual Wildlander to guesstimate their own chances of success in any given situation, remember that while fortune favors the bold, Lady Luck favors the prepared!
+- As every play-style has its own pros and cons it is left to the experience of each individual Wildlander to guesstimate their own chances of success in any given situation, remember that while fortune favors the bold, Lady Luck favors the prepared!
 - As it contains several spoilers in terms of the foes and important treasures within each dungeon, I encourage newer players to "Learn the Hard Way". 
 - Throw yourself into the fray, slip through the shadows, or make a calculated advance. It matters not how you meet your foes on the field of battle, so long as you emerge victorious in the end.
 - If it proves too much, or you're one to be well-prepared (nothing wrong there) then feel free to check the relevant section to discover what awaits you within, or even what treasure you might have missed.
@@ -24,12 +24,12 @@ The contents of this guide should be considered spoilers
 
 ### How to use this guide.
 - Most of the information was taken from UESP directly in terms of what enemies lay in wait and unique treasures to be found within as well as crafting-related amenities found within. 
-- Take your prepared-ness to Witcher levels by knowing how to fight the [various enemies found throughout the world](\..\6-MechanicAnalysis\Advanced-Combat-Mechanics.html#about-these-guides)
+- Take your prepared-ness to Witcher levels by knowing how to fight the [various enemies found throughout the world](..\6-MechanicsAnalysis\Advanced-Combat-Mechanics.html#about-these-guides)
 - Note that some dungeons may be upgraded in threat level based on sheer number, Bandits may be average in difficulty but a platoon of Bandit Archers is more Difficult (lookin at you Valtheim Towers).
 - Fishing Supplies have been added in with the expectation they'll be available in 1.1, if this ends up not being they case they'll be removed from the guide.
 - To save on repeating myself a *lot*, automatically assume that:
 	- Any fight involving Dangerous enemies will require above-average resistances in the relevant category (physical/magic/elemental/poison)
-	- You'll want high levels of resistances for Perilous enemies, combining both magical *and* elemental to face spellcasters
+	- You'll want high levels of resistances for Perilous enemies, combining both magical *and* elemental to face spell-casters
 	- Endgame enemies will test you even after you've maxed out your resistances
 
 The threat level of each dungeon is as follows but doesn't include *every* enemy in the game:
