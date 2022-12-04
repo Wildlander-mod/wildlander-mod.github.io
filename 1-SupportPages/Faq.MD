@@ -411,8 +411,7 @@ Go to game-files\mods\Simple Dual Sheath\SKSE\Plugins\SimpleDualSheath.ini and e
 {: .save}
 >[ShieldOnBack]
 >
-> # Add 'Player' or 'NPC' flags to enable.
-> Flags=
+> Flags=Player
 
 
 Save and next time you boot the game. Your shield will now be on your back, you 🐢 cosplayer! 
