@@ -127,7 +127,7 @@ grand_parent: Getting Started
 | Occupants | Frostbite Spiders |
 | Special Features | None |
 | Important Treasure | None |
-| Ore Veins | x3 Ebony |
+| Ore Veins | x3 Iron |
 |||
 | Tactical | Threat Level: Average |
 
