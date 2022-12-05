@@ -7,6 +7,11 @@ parent: Other Resources
 ---
 
 # V1.1.10 - release 16/09/22 
+If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.1.8 1.1.9, 1.1.10 your saves are safe.
+
+*Fixed an issue where Ultra graphics were forced, regardless of setting. The other graphics settings will now work as intended (High, Medium, Low, and Potato).*
+
+# V1.1.10 - release 16/09/22 
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.1.8 or 1.1.9, your saves are safe.
 
 * Compatibility with New skyrim update (1.6.640).
