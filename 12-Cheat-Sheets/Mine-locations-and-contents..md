@@ -130,7 +130,7 @@ Raven Rock Mine — A mine located in the settlement of Raven Rock.
 Redbelly Mine — Shor's Stone with a smelter near the entrance. 
 
 * Occupied by Frostbite Spiders.
-* Ebony
+* Iron
 * Shor's Stone, The Rift.
 
 Rockwallow Mine — A small iron mine in Stonehills with a smelter near the entrance. It is owned by Thane Bryling of Solitude. 
