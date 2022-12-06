@@ -43,10 +43,10 @@ iEquip is an antidote- to the endless menu grind which pervades Skyrim, allowing
 -  Optional Extended Keyboard Controls giving direct access to many of the multitap features, plus an additional QuickLight hotkey
 -  Full integration with Gamepad++ giving an unprecedented level of control to gamepad players
 
-﻿<div class="youtube_container">
+
 <iframe class="youtube_video" src="https://www.youtube.com/embed/c5TScewkZLA" allowfullscreen="1" frameborder="0">
 </iframe>
-</div>
+
 
 ### The Widget
 - Advanced, animated SkyUI HUD Widget
@@ -62,10 +62,10 @@ iEquip is an antidote- to the endless menu grind which pervades Skyrim, allowing
 - Choice of six optional widget background styles
 - Many other visual tweaks and options
 
-<div class="youtube_container">
+
 <iframe class="youtube_video" src="https://www.youtube.com/embed/L41cvw8ervg" allowfullscreen="1" frameborder="0">
 </iframe>
-</div>
+
 
 ### MANAGING THE QUEUES 
 
@@ -81,10 +81,10 @@ iEquip is an antidote- to the endless menu grind which pervades Skyrim, allowing
 - Allow queues to grow dynamically or set a hard limit on number of items per queue
 - Optional Queue Position Indicators which adapt automatically to queue length, displaying equipped item and current cycling positions
 
-<div class="youtube_container">
+
 <iframe class="youtube_video" src="https://www.youtube.com/embed/pSgBUyodsyg" allowfullscreen="1" frameborder="0">
 </iframe>
-</div>
+
 
 ### Switching Weapons, Spells, Shouts & Other Items
 
@@ -165,10 +165,10 @@ iEquip is an antidote- to the endless menu grind which pervades Skyrim, allowing
 - For all transformations, all howls, spells and powers are automatically added to the queues the first time they are equipped normally, including through the Undeath spell selection menu.-  Only spells and powers normally available in these forms are added, no cheaty exploits here allowing weapon equipping!
 - Support for all mod-added Werewolf and Vampire Lord spells and powers
 
-<div class="youtube_container">
+
 <iframe class="youtube_video" src="https://www.youtube.com/embed/ejYMi24oAJA" allowfullscreen="1" frameborder="0">
 </iframe>
-</div>
+
 
 <div align="center">
 <img src="https://i.imgur.com/OtPnbGm.png">
