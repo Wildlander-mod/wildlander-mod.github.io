@@ -41,6 +41,18 @@ Created By: Token
 
 Download [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1016519156285321317/child_of_mephala.jslot)
 
+## "Dark Elf Wanderer"
+
+
+Race: Dunmer
+
+Created By: Badger
+
+![Img](https://media.discordapp.net/attachments/1000438888701104190/1049718829808369774/enb2022_12_1_15_15_35.png?width=783&height=780)
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1049718828365533247/DarkElfWanderer.rar)
+
+
 ## "Demonic Orc Lad"
 
 Race: Orc
