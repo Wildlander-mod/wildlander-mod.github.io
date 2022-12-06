@@ -37,6 +37,7 @@ parent: Cheat Sheets
 |**Archtypes**  | Aimed, Health, Concentration  |
 
 ### Absorb Magicka
+
 | Type | Value  |
 |--|--|
 |**Source**  | Vendor, Spell Research |
