@@ -12,16 +12,19 @@ If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1
 * Fixed an issue where Ultra graphics were forced, regardless of setting. The other graphics settings will now work as intended (High, Medium, Low, and Potato).*
 
 # V1.1.10 - release 16/09/22 
+
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.1.8 or 1.1.9, your saves are safe.
 
 * Compatibility with New skyrim update (1.6.640).
 
 # V1.1.9 - release 16/09/22 
+
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, 1.1.7, or 1.1.8, your saves are safe.
 
 * Compatibility with New skyrim update (1.6.629).
 
 # V1.1.8 - release 13/09/22 
+
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, or 1.1.7, your saves are safe.
 
 * Restored the missing carry weight bonus to beef stew
@@ -30,6 +33,7 @@ If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1
 * Horse inventory key was rebound to U
 
 # V1.1.7 - release 08/09/22 
+
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.13, 1.14, 1.15, 1.16 your saves are safe.
 
 * Restored some missing XPMSSE scripts
@@ -37,16 +41,19 @@ If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1
 * Nudged the Frostfall meters into place for ultrawide resolutions
 
 # V1.1.6 - release 07/09/22 
+
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.13, 1.14, 1.15 your saves are safe.
 
 * Full log of changes located [here](../14-ModlistVersions/1.1.6-Release-Notes)
 
 # V1.1.5 - release 29/06/22 
+
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.13, 1.14 your saves are safe.
 
 * Fixed a small issue preventing full ultrawide functionality the first time users launch the game.
 
 # V1.1.4 - release 27/06/22 
+
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, or 1.13 your saves are safe.
 
 * Update to SKSE to cope with stealth change.
@@ -82,6 +89,7 @@ If updating from 1.0 - you will need a new game. If updating from 1.1 or 1.1.0.1
 
 
 # V1.1.1 - release 21/06/22
+
 * Hot fix to fix download of Dyndolod and install the correct version fo wildlander.esp.
 
 # V1.1.0 - release 20/06/22
@@ -89,6 +97,7 @@ If updating from 1.0 - you will need a new game. If updating from 1.1 or 1.1.0.1
 {: .highlight } NOT SAVE COMPATIBLE. Will require a new game.
 
 ## Highlights  
+
 * A brand new crafting system
 * Ultrawide resolution support
 * Significantly reduced filesize (~30% reduction)
@@ -102,6 +111,7 @@ If updating from 1.0 - you will need a new game. If updating from 1.1 or 1.1.0.1
 * Numerous bugfixes, polish tweaks, and other improvements
 
 ## Balance fixes
+
 * Gold levels of various NPC's have been reduced to prevent them hitting gold caps so quickly.
 * Stock levels of alchemy ingredients at vendors have been reduced drastically.
 * Sunhelm "unyielding" carry weight perks have been reduced from 50/100 to 15/30.
