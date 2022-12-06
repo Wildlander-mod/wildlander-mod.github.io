@@ -10,12 +10,22 @@ description: How Do I Update ?
 {: .warning } 
 > # **To ensure you perform a clean install - Delete your Game-files\Mods folder before continuing (the folder circled in the example below).**  
 
+The reason for this is wabbajack reads though and CRC checks everything in the mods folder. Unfortunatly this process takes a long time to do, and cant detect corrupted files 100% of the time.
+
 ![image](https://user-images.githubusercontent.com/26418143/194085051-7e3ffb22-3a21-44e6-8e5d-c4ffa587ac53.png)
 
+---
 
-### Make sure that Mod Organizer is closed, Skyrim is closed, Wabbajack is closed, and the launcher is closed.
+### Before proceeding 
+
+1. Make sure that Mod Organizer is closed.
+1. Skyrim is closed.
+1. Wabbajack is closed.
+1. launcher is closed.
 
 -----
+
+### if upgrading from V1.0 of wildlander
 
 If you previously installed version 1.0 - installed before June 2022
 
