@@ -26,6 +26,8 @@ This document will contain all of the known game play related issues. It exclude
 
 Depending on the severity some maybe hot-fixed immediately, other will wait til next major release.
 
+Some may need to wait for the mods used in the back to be corrected.
+
 --- 
 # Getting asked to restart for the economy on a new game. DiD players * please read.
 
@@ -134,7 +136,7 @@ If you have met these objectives but the next quest does not start.
 
 ### Issues with A Chance Arrangement / Loud and Clear
 
-90% of the time * this Happens if Brynjolf starts the quest "A Chance Arrangement" *anywhere* except in Riften's market place. (typically in the bee and barb)
+90% of the time - this Happens if Brynjolf starts the quest "A Chance Arrangement" *anywhere* except in Riften's market place. (typically in the bee and barb)
 
 Only fix is to reload a save before it starts, and avoid him until he is at his market stall (during the day).
 
@@ -148,10 +150,10 @@ Failing that:
 1. Load your game.
 1. Go to the riften marketplace and allow Brynjolf to come up to you and start the conversation.
 1. Complete the marketplace quest by planting the ring on Brand-Shei.
-1. make a save.
+1. Make a save.
 1. Talk to Brynjolf once that is complete.
 
-at this point - check your journal to make sure if Loud and Clear has started. If not - close skyrim, reopen skyim and load the save you made before handing the quest in.
+At this point - check your journal to make sure if Loud and Clear has started. If not - close skyrim, reopen skyim and load the save you made before handing the quest in.
 
 If Brynjolf is not at the ragged flagon when you get there for Loud and Clear
 
@@ -278,8 +280,8 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Dawnstar carriage driver apparently thinks that standing inside his carriage, instead of sitting on the seat is a great place to stand (his horse is disconnected too)  
 * Hemming Blackbriar is wearing a Khajiit Mask :)
 * College NPCs cannot clear steps leaving Winterhold in order to walk to Saarthal
-* "Ancient Mudcrab" [NPC_:8B056F89] from depths of skyrim missing Requiem's natural mudcrab armor
-* Borkul "Borkul the Beast" [NPC_:0001338A] If he dies during escape from cidhna mine * his body lies dead forever (missing cleanup script)
+* Ancient Mudcrab [NPC_:8B056F89] from depths of skyrim missing Requiem's natural mudcrab armor
+* Borkul the Beast [NPC_:0001338A] If he dies during escape from cidhna mine - his body lies dead forever (missing cleanup script)
 * Bull & betty netch's have calf armor & calf netch  [NPC_:0402857F] has the adult.
 * Gerda has oldwoman voice
 * Guards should carry Torches at Night
@@ -345,11 +347,11 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Insect noise is overly loud.
 * Some interiors have ghost children playing sound effect.
 * When NPC drinks potion, sound is too loud and sounds like player is drinking the potion
-* If you go to a place like Bleak Falls   Barrow, you can hear the wind blowing on those high hills,. But if you leave the place and go to anywhere else the windy sound doesn't stop until you enter a new cell
-* combat music plays on infinite loop   sometimes despite no enemies, despite changing area (like going into an inn),   or quicksave/loading. the only workaround is to close the game and boot it  back up
-* Audio Bug — Lowering the slider under   Settings>Audio>Horse Steps does nothing. I am trying to reduce the   audio of horse steps when riding.
+* If you go to a place like Bleak Falls Barrow, you can hear the wind blowing on those high hills,. But if you leave the place and go to anywhere else the windy sound doesn't stop until you enter a new cell
+* combat music plays on infinite loop sometimes despite no enemies, despite changing area (like going into an inn),   or quicksave/loading. the only workaround is to close the game and boot it  back up
+* Audio Bug — Lowering the slider under Settings>Audio>Horse Steps does nothing.
 * Candlehearth Hall, snowstorm  outside and inside had a very loud wind whistling sound effect.
-* Dawnstar's White Hall (and   interiors in general) are too reverby
+* Dawnstar's White Hall (and interiors in general) are too reverby
 
 ---
 
