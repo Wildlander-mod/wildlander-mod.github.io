@@ -123,7 +123,7 @@ If these files hang, manually download and add to your wabbajack specified downl
 
 This file is quite large - and on slower internet connections' may timeout.
 
-in the event of this occuring for you you can try downloading Resources - Wildlander Full from nexus manually, and placing it in your downloads folder still zipped: https://www.nexusmods.com/skyrimspecialedition/mods/70016? 
+In the event of this occuring for you you can try downloading [Resources - Wildlander Full](https://www.nexusmods.com/skyrimspecialedition/mods/70016? ) from nexus manually, and placing it in your downloads folder still zipped.
 
 **Nexus mods in general**
 
