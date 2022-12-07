@@ -389,7 +389,7 @@ Solution: Removed Recipes
 
 [WL-1094](https://ultimateskyrim.atlassian.net/browse/WL-1094) Hunters still have various callouts when attacking animals
 
-**Solution:** I covered many of the uncovered attack dialogues \(listed in dialogue topic `00013ee3`\) with a condition to not attack if the actor has the animal keyword.
+**Solution:** I covered many of the uncovered attack dialogues \(listed in dialogue topic &#96;00013ee3&#96;\) with a condition to not attack if the actor has the animal keyword.
 
 [WL-1092](https://ultimateskyrim.atlassian.net/browse/WL-1092) J's bugfixes
 
@@ -443,11 +443,11 @@ In any case, moved it closer to be surer the situation will not happen.
 
 [WL-1032](https://ultimateskyrim.atlassian.net/browse/WL-1032) Immersive Speech/Dialogue affects children
 
-**Interim solution:** Added `ischild == 0` conditions on Immersive Speechcraft dialogue topics and quest. In the future, would be cool if this were doable via vaSynth or whatevs.
+**Interim solution:** Added &#96;ischild == 0&#96; conditions on Immersive Speechcraft dialogue topics and quest. In the future, would be cool if this were doable via vaSynth or whatevs.
 
 [WL-1030](https://ultimateskyrim.atlassian.net/browse/WL-1030) Innkeepers keep repeating their "greeting" dialogue; doubly annoying when re-entering the cell from a bath, or card game
 
-**Solution:** Created custom script `WL_TavernGreetingsPreventer` that updates a global for each of the 10 tavern greetings. I also added a global condition to the dialogues. This prevents the dialogues from playing more than once per character.
+**Solution:** Created custom script &#96;WL_TavernGreetingsPreventer&#96; that updates a global for each of the 10 tavern greetings. I also added a global condition to the dialogues. This prevents the dialogues from playing more than once per character.
 
 [WL-1027](https://ultimateskyrim.atlassian.net/browse/WL-1027 )	Aetherial Helmet night vision bug	
 
@@ -503,7 +503,7 @@ In any case, moved it closer to be surer the situation will not happen.
 
 [WL-984](https://ultimateskyrim.atlassian.net/browse/WL-984) Starting a new game, when finish mapping the keys and show a modal saying its all ready and crash in the character creation menu fiss.dll\+4481
 
-**Potential solution:** Added some `Utility.Wait()`'s to the FISS loading operations in the Wildlander startup script. There are still FISS operations in Hunterborn and MoreHUD that this would not account for, but this padding will hopefully be enough to prevent the issue.
+**Potential solution:** Added some &#96;Utility.Wait()&#96;'s to the FISS loading operations in the Wildlander startup script. There are still FISS operations in Hunterborn and MoreHUD that this would not account for, but this padding will hopefully be enough to prevent the issue.
 
 [WL-982](https://ultimateskyrim.atlassian.net/browse/WL-982) Hunterborn not giving some materials
 
@@ -606,7 +606,7 @@ In any case, moved it closer to be surer the situation will not happen.
 
 [WL-919](https://ultimateskyrim.atlassian.net/browse/WL-919) moreHUD carry weight does not update properly when bathing; reequipping a backpack, for example, will not update the total carry weight until player enters magic menu or receives an item
 
-**Solution:** I added moreHUD’s refresh function `UI.Invoke("HUD Menu", "_root.AHZWidgetContainer.AHZWidget" + ".RefreshWidgets")` to the end of the animation events for bathing, both with and without soap.
+**Solution:** I added moreHUD’s refresh function &#96;UI.Invoke("HUD Menu", "_root.AHZWidgetContainer.AHZWidget" + ".RefreshWidgets")&#96; to the end of the animation events for bathing, both with and without soap.
 
 [WL-914](https://ultimateskyrim.atlassian.net/browse/WL-914) Put EbonyMail armor crafting under Ebony crafting perk
 
@@ -686,7 +686,7 @@ In any case, moved it closer to be surer the situation will not happen.
 
 In the future, when we expand the starts, we should revisit the implementation. This will give us a chance to revisit the random feature as well.
 
-A useful bit of code for implementing our own random feature will be `Utility.RandomInt()`, which allows us to cast an int’s value randomly \(e.g. `int option = Utility.RandomInt(0,10)`
+A useful bit of code for implementing our own random feature will be &#96;Utility.RandomInt()&#96;, which allows us to cast an int’s value randomly \(e.g. &#96;int option = Utility.RandomInt(0,10)&#96;
 
 [WL-873](https://ultimateskyrim.atlassian.net/browse/WL-873) CTD on saving, be it manual or quick, after getting the necromancers amulet and leaving the windhelm area. I can sometimes save once or twice after the amulet, usually thou CTD immediately. 0X0, 0x143CAC20360 and SkyrimSE.exe\+128C07
 

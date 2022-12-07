@@ -110,7 +110,7 @@ No, and if you try, then SKSE crashes from Mod Organizer. You will need to insta
 
 # How do I update to the current version?
 
-Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with `[NoDelete]` to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
+Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
 
 Then follow the instructions [here](..\16-OtherResouces\How-to-update.html)
 
