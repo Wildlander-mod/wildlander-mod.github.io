@@ -49,7 +49,7 @@ To report a bug – First query with support, as it might have already been repo
 
 ### When starting a new character
 
-{: .highlight }
+{: .warning } 
 > If you have played a character already and then exit to the main menu, do not attempt to start a new character in the same session. Instead, quit entirely out of Skyrim and restart it from there. If you do not do so, the game will not operate properly and you will get errors such as 'please restart the economy,' or 'Honed Metal has crashed.'
 >
 > This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because Skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new play-through (hot-keys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
@@ -61,7 +61,6 @@ To report a bug – First query with support, as it might have already been repo
 
 ## Thank yous
 We would like to thank Terrorforge, Skjolbir, Goldymires, Semkiry and the whole Requiem Team for the guides used to produce this Wiki.
-
 
 ----
 
