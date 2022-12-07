@@ -50,5 +50,8 @@ th {
    text-align:center;
 }
 
+.btn-pink {
+  @include btn-color($white, $pink-000);
+}
 
 
