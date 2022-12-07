@@ -35,9 +35,11 @@ If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channe
 
 To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a [bug report form](..\16-OtherResouces\bugreport.html).
 
+---
+
+### Save Advice
 
 {: .note}
-> **Save Advice**
 >
 > When you load your save file, wait at least a minute before saving again. Some scripts will break if you save too soon after loading.
 >  
@@ -46,6 +48,8 @@ To report a bug – First query with support, as it might have already been repo
 > Never save more than once a minute.
 >
 > Never save within 30 seconds of entering a building / cell / dungeon.
+
+---
 
 ### When starting a new character
 
@@ -58,6 +62,7 @@ To report a bug – First query with support, as it might have already been repo
 >
 > Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
 
+---
 
 ## Thank yous
 We would like to thank Terrorforge, Skjolbir, Goldymires, Semkiry and the whole Requiem Team for the guides used to produce this Wiki.
