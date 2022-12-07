@@ -3,7 +3,7 @@ $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
-$lt-purple-000 #c59ee9;
+$lt-purple-000:#c59ee9;
 $lt-purple-300:#b479ea;
 
 @media print {
@@ -15,20 +15,6 @@ $lt-purple-300:#b479ea;
     max-width: auto;
     margin: 1em;
   }
-}
-
-@media screen and (min-width: 800px) {
-  .side-bar{
-      width: $nav-width + 15;
-  }
-  .main-content {
-    max-width: 100%;
-    margin-left: 1em;
-  }
-  .main {
-    position: relative;
-    max-width: 65%;
-    margin-left: $nav-width + 40;}
 }
   
 iframe {
