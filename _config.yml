@@ -63,7 +63,7 @@ callouts:
     color: yellow
   important:
     title: Important
-    color: blue
+    color: yellow
   new:
     title: Log Section
     color: green
@@ -76,5 +76,5 @@ callouts:
     title: Warning
     color: red
   save:
-    color: purple
+    color: pink
     opacity: 0.3
