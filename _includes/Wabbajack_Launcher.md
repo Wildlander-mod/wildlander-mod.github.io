@@ -57,7 +57,7 @@ OR
 #### Norton
 
 {: .save}
-> If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure [these settings](https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/) to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases. Please note - Support are not able to assist you in how to apply these settings - we dont have Norton installed.
+> If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure <a href="https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/" style="color: #AF1DA8" >these settings</a>  to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases. Please note - Support are not able to assist you in how to apply these settings - we dont have Norton installed.
 >
 > If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall Norton. Your only method of playing Wildlander would be to use Mod organizer to launch and manually install the ENB in the stock game folder.
 
