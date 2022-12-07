@@ -198,6 +198,7 @@ Happens if you switch gender using showracemenu. Simple fix - switch gender back
 complex fix
 
 {: .note}
+
 > using [ReSaver from FallrimTools](https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files)
 >
 > Loaded the savegame > search for hzNECRAliasScript
