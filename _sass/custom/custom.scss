@@ -3,8 +3,8 @@ $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
-$lt-purple-000:#c59ee9;
-$lt-purple-300:#b479ea;
+$lt-purple-000: #c59ee9;
+$lt-purple-300: #b479ea;
 
 @media print {
   .side-bar
@@ -40,7 +40,6 @@ th {
 }
 
 btn-pink {
-  @include btn-color($grey-dk-000, $lt-purple-000);
+  @include btn-color($lt-purple-300, $grey-dk-000);
 }
-
 
