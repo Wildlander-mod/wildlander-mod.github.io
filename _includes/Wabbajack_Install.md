@@ -131,9 +131,9 @@ you may need to use a VPN and/or different browsers to download these files. We 
 
 ![img](https://cdn.discordapp.com/attachments/881254575640838254/929341753885085738/unknown.png)
 
-For any failed mods which are not mentioned above Search this for the mod(s) and manually download.
+For any failed mods which are not mentioned above Search the following link for the mod(s) and manually download.
 
-https://github.com/wabbajack-tools/mod-lists/blob/master/reports/wildlander/status.md 
+[Modlist links](https://github.com/wabbajack-tools/mod-lists/blob/master/reports/wildlander/status.md) 
 
 ----------
 
