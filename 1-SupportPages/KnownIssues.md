@@ -7,7 +7,7 @@ parent: Support
 description: Known Issues and Fixes
 ---
 
-This document will contain all of the known game play related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this [Spreadsheet](https://docs.google.com/spreadsheets/d/1nKzS_b*aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529)
+This document will contain all of the known game play related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this [Spreadsheet](https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529)
 
 ---
 
@@ -169,13 +169,15 @@ Occurs if you have *any* other thieves guild quests active when Brynjolf directs
 
 Make sure you finish (or quit) any jobs you have active for Vex, Delvin or Tonika before handing in a Loud and Clear.
 
-Failing that * After completing, but before handing in a Loud and Clear * wait 24 hours in game.
+Failing that - After completing, but before handing in a Loud and Clear - wait 24 hours in game.
 
-Failing That * close skyrim, reopen skyrim and load the save before handing in loud and clear.
+Failing That - close skyrim, reopen skyrim and load the save before handing in loud and clear.
 
 ---
 
 ### Brynjolf is stalking me!
+
+This is because of of the quests wasnt set to completed.
 
 {: .console}
 >
@@ -228,7 +230,7 @@ complex fix
 >
 > Delete Everything using the right click menu.
 
-![image](https://user*images.githubusercontent.com/26418143/175317923*9cdc1a68*4653*4e18*a274*d48cf8feeea0.png)
+![image](https://user-images.githubusercontent.com/26418143/175317923-9cdc1a68-4653-4e18-a274-d48cf8feeea0.png)
 
 ---
 
