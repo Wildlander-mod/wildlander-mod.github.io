@@ -24,7 +24,7 @@ This document will contain all of the known game play related issues. It exclude
 
 # When will these be fixed?
 
-Depending on the severity * some maybe hot*fixed immediately, other will wait til next major release.
+Depending on the severity some maybe hot-fixed immediately, other will wait til next major release.
 
 --- 
 # Getting asked to restart for the economy on a new game. DiD players * please read.
@@ -37,10 +37,11 @@ Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim its
 
 ---
 # M/O 2 issues
-1. Reporting files in the overwrite * these are your crash logs
-1. All the Npc overhauls are disabled * They are supposed to be * they are for Dylan's use only * Hence "DEV RESOURCES" label.
-1. There are mods with Red X's * these are merged into the Wildlander ESP * its perfectly normal
-1. Mod XXX is out of date * Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
+
+1. Reporting files in the overwrite - these are your crash logs
+1. All the Npc overhauls are disabled - They are supposed to be _they are for Dylan's use only_ Hence "DEV RESOURCES" label.
+1. There are mods with Red X's - these are merged into the Wildlander ESP - its perfectly normal
+1. Mod XXX is out of date - Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
 
                                                                                                                                                
 ---
@@ -57,14 +58,16 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 ---
 
 ## Camera Issues
+
 * Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
-* Waking nightmare * when on step release the miasma  * And your pretending to be casimir * you can see your player's body in front of camera. The effect only lasts for the duration of this step * and can be safely ignored.
+* Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
 * Camera is too close to head when running
-* Arms clipping or off to one side when casting spells * Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
+* Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
 
 ---
 
 # UI
+
 * On ultrawide monitor (2560x1080), perk names appear VERY right aligned to perk "stars" making it awkward to use the perk menu as perk names appear over other perk "stars" in many cases.
 * certain elements of the UI will disappear (the compass and the H/M/S bars) after pressing X or when an inventory window is open
 
@@ -73,7 +76,7 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 # Gameplay Issues
 
 * Bookshelves can be used to duplicate items placed upon them
-* Waking nightmare * when on step release the miasma  * And your pretending to be casimir * you can see your player's body in front of camera. the effect only lasts for the duration of this step * and can be safely ignored.
+* Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
 * Drawing weapon when stealthed increases speed 
 * Got a bounty for opening a unlocked door in Whiterun's halls of the dead.
 * Prices of the summon tomes are WAY higher than the other ones
@@ -85,19 +88,18 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 * Tempering Labels currently do not work.
 * Bathing can teleport the player to a seemingly random location.
 
-
-
 With workarounds
-* when weapons are pulled out and you alt*tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away Workaround: hit Alt. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
+* when weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away 
+
+Hit Control. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
 
 * Horses occasionally forget to spawn with armor, despite having it in their inventory. 
+
 You can force the horse to equip armor by the following process.
-
-
-1) Drop the armor on the floor
-2) open console, Click on it and make a note of the base id for the horse armor.
-3) close console, Pick it up and place it in the horse's inventory.
-4) In console again click the horse replacing "baseid" with the number you made note of use the following console command 
+1. Drop the armor on the floor
+2. open console, Click on it and make a note of the base id for the horse armor.
+3. close console, Pick it up and place it in the horse's inventory.
+4. In console again click the horse replacing "baseid" with the number you made note of use the following console command 
 
 {: .console}
 >
@@ -115,20 +117,17 @@ You need to do 5 Radiant quests between each quest.
 
 ## Thieves Guild
 
-Thieves guild has some issues for a small percentage of people. As a general rule * save Before handing in a quest to Brynjolf * so if you have issues you dont have to redo it.
+Thieves guild has some issues for a small percentage of people. As a general rule - save **before** handing in a quest to Brynjolf, so if you have issues you dont have to redo it.
 
 ### Quest XYZ isnt starting
 
-You need to do Radiant quests before the next quest will start * these settings can be seen in the MCM.
+You need to do Radiant quests before the next quest will start these settings can be seen in the MCM.
 
 If you have met these objectives but the next quest does not start.
 
-(optional) Load a save before handing in previous quest and move to Brynjolf.
-
-1) Save your game.
-2) Exit Wildlander and re*start using the Wildlander Launcher.
-3) Load your game.
-4) Speak to Brynjolf hand in quest * next should start.
+1. Exit Wildlander and restart using the Wildlander Launcher.
+1. Load your game using a save before you handed in the previous quest.
+1. Speak to Brynjolf hand in quest - next should start.
 
 
 ### Issues with A Chance Arrangement / Loud and Clear
@@ -138,20 +137,25 @@ If you have met these objectives but the next quest does not start.
 Only fix is to reload a save before it starts, and avoid him until he is at his market stall (during the day).
 
 Failing that:
-1) Meet the requirements to start the thieves guild (250 items stolen, 25 items pickpocketed, Sneak Skill at 25).
-2) Open a save before you have met Brynjolf.
-3) Go to Riften Stables (or outside of riften itself)
-4) Get to 10am gametime.
-5) Save your game.
-6) Exit Wildlander and re*start using the Wildlander Launcher.
-7) Load your game.
-8) Go to the riften marketplace and allow Brynjolf to come up to you and start the conversation.
-9) Complete the marketplace quest by planting the ring on Brand*Shei.
-10) Talk to Brynjolf once that is complete.
+1. Meet the requirements to start the thieves guild (250 items stolen, 25 items pickpocketed, Sneak Skill at 25).
+1. Open a save before you have met Brynjolf.
+1. Go to Riften Stables (or outside of riften itself)
+1. Get to 10am gametime.
+1. Save your game.
+1. Exit Wildlander and restart using the Wildlander Launcher.
+1. Load your game.
+1. Go to the riften marketplace and allow Brynjolf to come up to you and start the conversation.
+1. Complete the marketplace quest by planting the ring on Brand-Shei.
+1. make a save.
+1. Talk to Brynjolf once that is complete.
 
-Note: If Brynjolf is not at the ragged flagon when you get there for the second quest, then save your game, open up a prior save where you can select Brynjolf's body using the console, then reload your game in the ragged flagon and enter this.
+at this point - check your journal to make sure if Loud and Clear has started. If not - close skyrim, reopen skyim and load the save you made before handing the quest in.
+
+If Brynjolf is not at the ragged flagon when you get there for Loud and Clear
 
 {: .console}
+>
+> prid 20545
 >
 > moveto player
 
