@@ -45,17 +45,17 @@ Crashlogs usually start with Unhandled native exception occurred at 0x7FF8C00004
 
 The clue for this crash is the below.
 
-```
-Possible relevant objects (2)
+{: .new}
+> Possible relevant objects (2)
+>
+>{
+>
+>  [ 161]    BGSProjectile(FormId: 0007326E, File: `Skyrim.esm`)
+>
+>  [ 161]    GrenadeProjectile(FormId: 851F0CEC, File: `Fozars_Dragonborn_-_Requiem_Patch.esp&`, BaseForm: BGSProjectile(FormId: 0007326E, File: `Skyrim.esm`))
+>
+>}
 
-{
-
-  [ 161]    BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;)
-
-  [ 161]    GrenadeProjectile(FormId: 851F0CEC, File: &#96;Fozars_Dragonborn_-_Requiem_Patch.esp&#96;, BaseForm: BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;))
-
-}
-```
 
 
 1) This is a settings issue with BitDefender
@@ -137,13 +137,13 @@ You will need to use a save cleaner and terminate the offending script (WIDeadBo
 - Located ScriptInstance: WIDeadBodyCleanupScript: *refID=DEFAULT: Followed by the NPC Reference id causing issues (if you don't know which NPC - its safe to remove all WIDeadBodyCleanupScript)
 - terminate the script
 
-```
-Possible relevant objects (5)
-   
-  [  24]    TESObjectREFR(FormId: 000DEFB5, File: &#96;Skyrim.esm&#96;, BaseForm: TESObjectCONT(Name: &#96;Coffin&#96;, FormId: 000F6891, File: &#96;Requiem for the Indifferent.esp <- Requiem Record Fixes.esm <- Unofficial Skyrim Special Edition Patch.esp <- Skyrim.esm&#96;))
-  
-  [  34]    TESObjectARMO(Name: &#96;Wolfskin Cloak - Light Trimmed Black&#96;, FormId: 76002348, File: &#96;Requiem for the Indifferent.esp <- Wildlander.esp <- 1nivWICCloaks.esp&#96;)
-```
+{: .new}
+> Possible relevant objects (5)
+>    
+>  [  24]    TESObjectREFR(FormId: 000DEFB5, File: `Skyrim.esm`, BaseForm: TESObjectCONT(Name: `Coffin`, FormId: 000F6891, File: `Requiem for the Indifferent.esp <- Requiem Record Fixes.esm <- Unofficial Skyrim Special Edition Patch.esp <- Skyrim.esm`))
+>  
+>  [  34]    TESObjectARMO(Name: `Wolfskin Cloak - Light Trimmed Black`, FormId: 76002348, File: `Requiem for the Indifferent.esp <- Wildlander.esp <- 1nivWICCloaks.esp`)
+
 
 Note: you may also be able to fix this by locating the coffin in the hall of the dead of the city where the NPC died and manually removing the offending item from the coffin
 
