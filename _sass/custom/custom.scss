@@ -16,20 +16,6 @@ $lt-purple-300:#b479ea;
     margin: 1em;
   }
 }
-
-@media screen and (min-width: 800px) {
-  .side-bar{
-      width: $nav-width + 15;
-  }
-  .main-content {
-    max-width: 100%;
-    margin-left: 1em;
-  }
-  .main {
-    position: relative;
-    max-width: 65%;
-    margin-left: $nav-width + 40;}
-}
   
 iframe {
   min-width: 100%;
