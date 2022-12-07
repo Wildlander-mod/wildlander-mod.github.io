@@ -45,16 +45,17 @@ Crashlogs usually start with Unhandled native exception occurred at 0x7FF8C00004
 
 The clue for this crash is the below.
 
->Possible relevant objects (2)
->
->{
->
->  [ 161]    BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;)
->
->  [ 161]    GrenadeProjectile(FormId: 851F0CEC, File: &#96;Fozars_Dragonborn_-_Requiem_Patch.esp&#96;, BaseForm: BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;))
->
->}
+<code>
+Possible relevant objects (2)
 
+{
+
+  [ 161]    BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;)
+
+  [ 161]    GrenadeProjectile(FormId: 851F0CEC, File: &#96;Fozars_Dragonborn_-_Requiem_Patch.esp&#96;, BaseForm: BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;))
+
+}
+</code>
 
 
 1) This is a settings issue with BitDefender
