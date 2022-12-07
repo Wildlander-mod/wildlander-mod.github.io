@@ -116,7 +116,8 @@ Then follow the instructions [here](..\16-OtherResouces\How-to-update.html)
 
 The latest version will always be available [here](https://www.wildlandermod.com/download) for clean installations
 
-Please Note: Some updates will require a brand-new game and are not save compatible.
+{: .note}
+Some updates will require a brand-new game and are not save compatible.
 
 ----------
 
@@ -419,7 +420,8 @@ Save and next time you boot the game. Your shield will now be on your back, you 
 ----------
 ## Night eye is too dark
 
-Note: performance modlist does not allow the ENB to show Nightvision correctly. Should you wish to use nightvision, you must either use "standard modlist" or No shaders (to apply vanilla nightvision)
+{: .note}
+performance modlist does not allow the ENB to show Nightvision correctly. Should you wish to use nightvision, you must either use "standard modlist" or No shaders (to apply vanilla nightvision)
 
 Hit Shift+Enter to bring up the ENB, in the center panel expand ENB effect and scroll down until you find the below section:
 
@@ -444,7 +446,8 @@ No, but there is a serious, technical reason! There is no enforced permadeath mo
 
 Think of it as... an exercise in self-discipline, if you like!
 
-NOTE: Creating a new character without restarting Skyrim is known to cause script issues in several mods. Many options during character creation may be missing! Spells and gear during the start-up will not be correctly assigned, and you may get pop-up's from Trade and Barter due to it not initializing correctly, so make sure you restart Skyrim COMPLETELY, through the launcher, before attempting to create a new character!
+{: .note}
+Creating a new character without restarting Skyrim is known to cause script issues in several mods. Many options during character creation may be missing! Spells and gear during the start-up will not be correctly assigned, and you may get pop-up's from Trade and Barter due to it not initializing correctly, so make sure you restart Skyrim COMPLETELY, through the launcher, before attempting to create a new character!
 
 ------
 ---
@@ -488,9 +491,10 @@ This quest is auto completed when you kill a dragon. Also, there will be a book 
 
 There is a new way of becoming a Thane of Whiterun:
 
-Complete “The Blessings of Nature” quest (Danica by the Gildrergreen tree to start) and talk to Jarl Balgruuf when the Gildergreen tree is repaired or the sapling blooms (note: this requires you to complete any other quest outside of whiterun itself to simulate the passing of time). He'll thank you and allow you to do the standard thane quest (help the people of the hold).
+Complete “The Blessings of Nature” quest (Danica by the Gildrergreen tree to start) and talk to Jarl Balgruuf when the Gildergreen tree is repaired or the sapling blooms (This requires you to complete any other quest outside of whiterun itself to simulate the passing of time). He'll thank you and allow you to do the standard thane quest (help the people of the hold).
 
-Note: You can buy Breezehome before this at a much more expensive price, but unless you are thane you do not get a housecarl.
+{: .note}
+You can buy Breezehome before this at a much more expensive price, but unless you are thane you do not get a housecarl.
 
 ----------
 
@@ -518,9 +522,10 @@ Snowberry Extract is made directly from a cookpot, or by using the player crafti
 
 The extract requires the following items/tools:
 
-    - A survivalist's or alchemist's toolkit
-    - Alchemical Lore 1 (perk)
-    - 20 Snowberries
+{: .note}
+> - A survivalist's or alchemist's toolkit
+> - Alchemical Lore 1 (perk)
+> - 20 Snowberries
 
 ----------
 
