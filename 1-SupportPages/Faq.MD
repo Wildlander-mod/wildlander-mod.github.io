@@ -8,14 +8,16 @@ description: Frequently Asked Questions
 ![Image](https://user-images.githubusercontent.com/26418143/144291957-c00567fb-bc21-44e7-b36d-6e8453d277d7.png)
 
 ------
-# Navigation Structure
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
+# Table of contents
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ------
 # What is Wildlander?
