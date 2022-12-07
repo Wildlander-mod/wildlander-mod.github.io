@@ -57,14 +57,13 @@ The clue for this crash is the below.
 >}
 
 
+Apply the following fixes after install to prevent crash on save
+1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
 
-1) This is a settings issue with BitDefender
-2) BitDefender cannot work with mod organiser
-3) a) Easy solution - Turn off Advanced Threat Defence when playing Wildlander
+OR 
 
-   b) Proper Solution - Add an ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
-
-If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe
+1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
+1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe   
 
 ---
 ## Crash to Desktop when entering a building or on "finalising setup" Error code fiss.dll+4481 or SkyrimSE.exe+D6DDDA (Stack: BSResource::anonymous_namespace::LooseFileStream* OR BSResource::ArchiveStream* OR BSResource::CompressedArchiveStream** mentioned somewhere)
