@@ -49,9 +49,9 @@ The clue for this crash is the below.
 >
 >{
 >
->  [ 161]    BGSProjectile(FormId: 0007326E, File: `Skyrim.esm`)
+>  [ 161]    BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;)
 >
->  [ 161]    GrenadeProjectile(FormId: 851F0CEC, File: `Fozars_Dragonborn_-_Requiem_Patch.esp`, BaseForm: BGSProjectile(FormId: 0007326E, File: `Skyrim.esm`))
+>  [ 161]    GrenadeProjectile(FormId: 851F0CEC, File: &#96;Fozars_Dragonborn_-_Requiem_Patch.esp&#96;, BaseForm: BGSProjectile(FormId: 0007326E, File: &#96;Skyrim.esm&#96;))
 >
 >}
 
@@ -138,9 +138,9 @@ You will need to use a save cleaner and terminate the offending script (WIDeadBo
 
 Possible relevant objects (5)
    
-  [  24]    TESObjectREFR(FormId: 000DEFB5, File: `Skyrim.esm`, BaseForm: TESObjectCONT(Name: `Coffin`, FormId: 000F6891, File: `Requiem for the Indifferent.esp <- Requiem Record Fixes.esm <- Unofficial Skyrim Special Edition Patch.esp <- Skyrim.esm`))
+  [  24]    TESObjectREFR(FormId: 000DEFB5, File: &#96;Skyrim.esm&#96;, BaseForm: TESObjectCONT(Name: &#96;Coffin&#96;, FormId: 000F6891, File: &#96;Requiem for the Indifferent.esp <- Requiem Record Fixes.esm <- Unofficial Skyrim Special Edition Patch.esp <- Skyrim.esm&#96;))
   
-  [  34]    TESObjectARMO(Name: `Wolfskin Cloak - Light Trimmed Black`, FormId: 76002348, File: `Requiem for the Indifferent.esp <- Wildlander.esp <- 1nivWICCloaks.esp`)
+  [  34]    TESObjectARMO(Name: &#96;Wolfskin Cloak - Light Trimmed Black&#96;, FormId: 76002348, File: &#96;Requiem for the Indifferent.esp <- Wildlander.esp <- 1nivWICCloaks.esp&#96;)
 
 Note: you may also be able to fix this by locating the coffin in the hall of the dead of the city where the NPC died and manually removing the offending item from the coffin
 
