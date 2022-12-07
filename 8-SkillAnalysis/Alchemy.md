@@ -118,7 +118,9 @@ Perk Required : Improved Elixirs
 
 _Effect :_
 
-Grants the Nightvision Power.
+Grants the Nightvision Power. 
+
+NOTE: this is a power activated like a shout. it cannot be activated using the nightvision hotkey.
 
 ---
 
