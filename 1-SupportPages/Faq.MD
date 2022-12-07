@@ -331,7 +331,7 @@ There are several possible reasons:
 
 This is a vanilla Skyrim bug, which is exacerbated by the scripted mods in Wildlander. If jumping doesn't fix the animation, try the following console commands:
 
-{: .new}
+{: .console}
 > Pushactoraway 14 1
 >
 > SetPlayerAIDriven 0
@@ -385,7 +385,7 @@ You have somehow picked up a bounty in Whiterun hold which does not show on the 
 
 No matter. The following console command will clear it:
 
-{: .new}
+{: .console}
 > paycrimegold 0 0
 
 ----------

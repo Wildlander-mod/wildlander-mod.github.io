@@ -1,33 +1,33 @@
----
+***
 layout: default
 title: Known Issues
 nav_order: 4
 has_children: false
 parent: Support
 description: Known Issues and Fixes
----
+***
 
-This document will contain all of the known game play related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this [Spreadsheet](https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529)
+This document will contain all of the known game play related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date, you can use this [Spreadsheet](https://docs.google.com/spreadsheets/d/1nKzS_b*aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529)
 
----
+***
 
 # Navigation Structure
 {: .no_toc }
 
 ## Table of contents
-{: .no_toc .text-delta }
+{: .no_toc .text*delta }
 
 1. TOC
 {:toc}
 
----
+***
 
 # When will these be fixed?
 
-Depending on the severity - some maybe hot-fixed immediately, other will wait til next major release.
+Depending on the severity * some maybe hot*fixed immediately, other will wait til next major release.
 
---- 
-# Getting asked to restart for the economy on a new game. DiD players - please read.
+*** 
+# Getting asked to restart for the economy on a new game. DiD players * please read.
 
 This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because Skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new playthrough (hotkeys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
 
@@ -35,15 +35,15 @@ Every time you want to start a new character, you should be closing and reopenin
 
 Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
 
----
+***
 # M/O 2 issues
-1. Reporting files in the overwrite - these are your crash logs
-1. All the Npc overhauls are disabled - They are supposed to be - they are for Dylan's use only - Hence "DEV RESOURCES" label.
-1. There are mods with Red X's - these are merged into the Wildlander ESP - its perfectly normal
-1. Mod XXX is out of date - Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
+1. Reporting files in the overwrite * these are your crash logs
+1. All the Npc overhauls are disabled * They are supposed to be * they are for Dylan's use only * Hence "DEV RESOURCES" label.
+1. There are mods with Red X's * these are merged into the Wildlander ESP * its perfectly normal
+1. Mod XXX is out of date * Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
 
                                                                                                                                                
----
+***
 # Lighting issues
 
 **Lights are flickering on and off**
@@ -54,25 +54,25 @@ This is caused by Skyrim's engine limitation of 4 light sources in a 30ft radius
 
 There is nothing we can do to correct this, bug reports on this topic will be deleted.
 
-----
+****
 
 ## Camera Issues
-- Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
-- Waking nightmare - when on step release the miasma  - And your pretending to be casimir - you can see your player's body in front of camera. The effect only lasts for the duration of this step - and can be safely ignored.
-- Camera is too close to head when running
-- Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
+* Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
+* Waking nightmare * when on step release the miasma  * And your pretending to be casimir * you can see your player's body in front of camera. The effect only lasts for the duration of this step * and can be safely ignored.
+* Camera is too close to head when running
+* Arms clipping or off to one side when casting spells * Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
 
-----
+****
 # UI
 * On ultrawide monitor (2560x1080), perk names appear VERY right aligned to perk "stars" making it awkward to use the perk menu as perk names appear over other perk "stars" in many cases.
 * certain elements of the UI will disappear (the compass and the H/M/S bars) after pressing X or when an inventory window is open
 
-----
+****
 
 # Gameplay Issues
 
 * Bookshelves can be used to duplicate items placed upon them
-* Waking nightmare - when on step release the miasma  - And your pretending to be casimir - you can see your player's body in front of camera. the effect only lasts for the duration of this step - and can be safely ignored.
+* Waking nightmare * when on step release the miasma  * And your pretending to be casimir * you can see your player's body in front of camera. the effect only lasts for the duration of this step * and can be safely ignored.
 * Drawing weapon when stealthed increases speed 
 * Got a bounty for opening a unlocked door in Whiterun's halls of the dead.
 * Prices of the summon tomes are WAY higher than the other ones
@@ -87,46 +87,50 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 
 
 With workarounds
-* when weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away Workaround: hit Alt. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
+* when weapons are pulled out and you alt*tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away Workaround: hit Alt. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
 
 * Horses occasionally forget to spawn with armor, despite having it in their inventory. 
 You can force the horse to equip armor by the following process.
 
+
 1) Drop the armor on the floor
 2) open console, Click on it and make a note of the base id for the horse armor.
 3) close console, Pick it up and place it in the horse's inventory.
-4) In console again click the horse and use equipitem baseID 1 replacing "baseid" with the number you made note of.
+4) In console again click the horse and use 
+{: .console}
+> equipitem baseID 1 
+replacing "baseid" with the number you made note of.
 
 
----
+***
 
 ## The Companions
 
 You need to do 5 Radiant quests between each quest.
 
----
+***
 
 ## Thieves Guild
 
-Thieves guild has some issues for a small percentage of people. As a general rule - save Before handing in a quest to Brynjolf - so if you have issues you dont have to redo it.
+Thieves guild has some issues for a small percentage of people. As a general rule * save Before handing in a quest to Brynjolf * so if you have issues you dont have to redo it.
 
 ### Quest XYZ isnt starting
 
-You need to do Radiant quests before the next quest will start - these settings can be seen in the MCM.
+You need to do Radiant quests before the next quest will start * these settings can be seen in the MCM.
 
 If you have met these objectives but the next quest does not start.
 
 (optional) Load a save before handing in previous quest and move to Brynjolf.
 
 1) Save your game.
-2) Exit Wildlander and re-start using the Wildlander Launcher.
+2) Exit Wildlander and re*start using the Wildlander Launcher.
 3) Load your game.
-4) Speak to Brynjolf hand in quest - next should start.
+4) Speak to Brynjolf hand in quest * next should start.
 
 
 ### Issues with A Chance Arrangement / Loud and Clear
 
-90% of the time - this Happens if Brynjolf starts the quest "A Chance Arrangement" *anywhere* except in Riften's market place. (typically in the bee and barb)
+90% of the time * this Happens if Brynjolf starts the quest "A Chance Arrangement" *anywhere* except in Riften's market place. (typically in the bee and barb)
 
 Only fix is to reload a save before it starts, and avoid him until he is at his market stall (during the day).
 
@@ -136,13 +140,16 @@ Failing that:
 3) Go to Riften Stables (or outside of riften itself)
 4) Get to 10am gametime.
 5) Save your game.
-6) Exit Wildlander and re-start using the Wildlander Launcher.
+6) Exit Wildlander and re*start using the Wildlander Launcher.
 7) Load your game.
 8) Go to the riften marketplace and allow Brynjolf to come up to you and start the conversation.
-9) Complete the marketplace quest by planting the ring on Brand-Shei.
+9) Complete the marketplace quest by planting the ring on Brand*Shei.
 10) Talk to Brynjolf once that is complete.
 
-Note: If Brynjolf is not at the ragged flagon when you get there for the second quest, then save your game, open up a prior save where you can select Brynjolf's body using the console, then reload your game in the ragged flagon and enter this, without quotation marks, into the console: "moveto player"
+Note: If Brynjolf is not at the ragged flagon when you get there for the second quest, then save your game, open up a prior save where you can select Brynjolf's body using the console, then reload your game in the ragged flagon and enter this.
+
+{: .console}
+> moveto player
 
 
 ### Dampened Spirits doesn't start
@@ -151,22 +158,23 @@ Occurs if you have *any* other thieves guild quests active when Brynjolf directs
 
 Make sure you finish (or quit) any jobs you have active for Vex, Delvin or Tonika before handing in a Loud and Clear.
 
-Failing that - After completing, but before handing in a Loud and Clear - wait 24 hours in game.
+Failing that * After completing, but before handing in a Loud and Clear * wait 24 hours in game.
 
-Failing That - close skyrim, reopen skyrim and load the save before handing in loud and clear.
+Failing That * close skyrim, reopen skyrim and load the save before handing in loud and clear.
 
 ### Brynjolf is stalking me!
 
-Enter in console: completequest TG03
+{: .console}
+completequest TG03
 
----
+***
 # Mod Issues.
 
 ## Outlaw Refuges. 
 
-- The stores contain static items which can't be stolen
-- Several beds have owned markers
-- Several objects (e.g. training dummies) are not interactable and should be
+* The stores contain static items which can't be stolen
+* Several beds have owned markers
+* Several objects (e.g. training dummies) are not interactable and should be
 
 ## Bathing
 
@@ -176,25 +184,33 @@ Work around: don't take a bath in cold water ;)
 
 ## When I equip my Backpack I get a pouch/book/holder/carpet appearing at my feet
 
-You can possibly solve it by either dropping and buying a new item OR by dropping your item and using console commands help "item" and Player.Additem {itemid} 1
+You can possibly solve it by either dropping and buying a new item OR by dropping your item and using console commands 
+{: .console}
+> help "item" 
+>
+> Player.Additem {itemid} 1
+> 
 
 ## Crossbow Infinitely reloads
 
-Happens if you switch gender using showracemenu. Simple fix - switch back.
+Happens if you switch gender using showracemenu. Simple fix - switch gender back.
 
 complex fix
 
-    using ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files
-    Loaded the savegame > search for hzNECRAliasScript
-    Delete Everything using the right click menu.
+{: .note}
+> using [ReSaver from FallrimTools](https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files)
+>
+> Loaded the savegame > search for hzNECRAliasScript
+>
+> Delete Everything using the right click menu.
 
-![image](https://user-images.githubusercontent.com/26418143/175317923-9cdc1a68-4653-4e18-a274-d48cf8feeea0.png)
+![image](https://user*images.githubusercontent.com/26418143/175317923*9cdc1a68*4653*4e18*a274*d48cf8feeea0.png)
 
 ## Properties Without Pestering
 
 After starting a new game dialogue to purchase player homes will not show at first. This can be fixed by saving the game and loading the save.
 
----
+***
 # Quests
 
 * Rebuilding the Blades cannot be completed.
@@ -214,12 +230,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Captain Valnir does not accept a Missive quest item, the only conversation options available with him are about his quest to go meddle with a dragon priest.
 * When fighting Mikael to leave carmilla alone the quest does not move to the next step, it instead acts like nothing happened. I fought him over and over hoping it would complete that step and it never did.
 * Issue with Paarthurnax quest line (When talking to Paarthurnax during the "Paarthurnax" quest line, both "The Blades say you deserve to die" and "You speak wisely, yet how can I be sure you won't return to your old ways?" dialogue trees lead to Paarthurnax stating that Alduin has been defeated.)
-* Stuck NPC - Greenwall - Stormcloak NPC gets stuck in a door if he can't be killed then the fort won't be cleared, preventing the quest from advancing.
+* Stuck NPC Fort Greenwall - Stormcloak NPC gets stuck in a door if he can't be killed then the fort won't be cleared, preventing the quest from advancing.
 * The carriage during Compelling Tribute quest vanishes upon immediate completion
 * Failing to Garrison outside of Fort Sungard causes Unfinishable Questline
 * Talking to Ulfric Incorrect Travel Marker to Fort Kastav
 
----
+***
 
 # Immersion issues
 
@@ -235,9 +251,9 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Hemming Blackbriar is wearing a Khajiit Mask :)
 * College NPCs cannot clear steps leaving Winterhold in order to walk to Saarthal
 * "Ancient Mudcrab" [NPC_:8B056F89] from depths of skyrim missing Requiem's natural mudcrab armor
-* Borkul "Borkul the Beast" [NPC_:0001338A] If he dies during escape from cidhna mine - his body lies dead forever (missing cleanup script)
+* Borkul "Borkul the Beast" [NPC_:0001338A] If he dies during escape from cidhna mine * his body lies dead forever (missing cleanup script)
 * Bull & betty netch's have calf armor & calf netch  [NPC_:0402857F] has the adult.
-* Gerda has old-woman voice
+* Gerda has oldwoman voice
 * Guards should carry Torches at Night
 * Knjakr the Cannibal spawned in The Bee and Barb
 * Merchant Trader Orc of Dawnstar (Oorlung?). His first line of voice when entering his shop is always silent. 
@@ -246,7 +262,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Dawnstar Carriage driver clips though his coach
 * Janus Mentedius in Farmer's Bounty Mercantile in Rorikstead is missing a voiced greeting.
 * Tekla in Falkreath has old voice, young face
-* During the Siege of Whiterun, mod-added vendors can be traded with
+* During the Siege of Whiterun, mod added vendors can be traded with
 * Male prostitute near ratway entrance need... clearing up (also Yikes)
 * The travel carriage is available during the Siege of Whiterun
 * Ulfric grants permission to purchase property, 2x dialogue options
@@ -260,8 +276,8 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ### Idle markers
 
-* Brand-Shei is supposed to be seated on a crate, however he is sitting on nothing.
-* College NPC Idle marker in the Arcarnem - Leaning on invisible table
+* Brand*Shei is supposed to be seated on a crate, however he is sitting on nothing.
+* College NPC Idle marker in the Arcarnem * Leaning on invisible table
 * Marise Aravel, the produce merchant in Riften, has an idle marker inside of a barrel
 * NPC idle marker inside planter in front of the Winking Skeever
 * Silda the Unseen is standing too far away to warm her hands from the Place of kings brazier
@@ -281,12 +297,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ## Houses
 
-* Two things with fully furnished Honeyside (without the kid's room) - missing wall texture, porch door says Examine Lock Rented House
-* Breezehome doesnt have a alchemy lab after purchasing it well it does - but its hidden behind a wall
-* Proudspire manor - Bar area. Odd Mead crate texture.
-* HJerim issues - After purchase (floating objects in kids bedroom, various clipping issues)
+* Two things with fully furnished Honeyside (without the kid's room) * missing wall texture, porch door says Examine Lock Rented House
+* Breezehome doesnt have a alchemy lab after purchasing it well it does * but its hidden behind a wall
+* Proudspire manor * Bar area. Odd Mead crate texture.
+* HJerim issues * After purchase (floating objects in kids bedroom, various clipping issues)
 * Building jetty took zero time
-* The Skyrim-side door into Honeyside behaves weirdly depending on where on it you point your cursor. See screenshots.
+* The Skyrim*side door into Honeyside behaves weirdly depending on where on it you point your cursor. See screenshots.
 
 ## Sounds
 
@@ -302,12 +318,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 ## Crafting
 
 * No breakdown recipe for flagon
-* Dunmeri Brown Hood - Cannot be dismantled.
+* Dunmeri Brown Hood * Cannot be dismantled.
 * DLC01TortureTool01 "Crushing Device" [MISC:02008E4E] has no breakdown recipe
 * 99% of Circlets / Rings / Necklaces Missing breakdown recipes.
 * Recipe for potion of cleansing bugged
 * I have noticed that when paying a blacksmith to temper a weapon you get smithing experience (I just got a level up due to it)
-* Tempering/Enchanting are way too cheap - I had Eurland temper my warhammer to legendary which only cost 1200 gold. The warhammer was doing 600+ damage after tempering
+* Tempering/Enchanting are way too cheap * I had Eurland temper my warhammer to legendary which only cost 1200 gold. The warhammer was doing 600+ damage after tempering
 
 ## Exploits
 
@@ -316,21 +332,25 @@ After starting a new game dialogue to purchase player homes will not show at fir
 *  Npcs can get stuck in the snow outside of mehrune dagons shrine, this causes them to sink slightly into the ground and are unable to move.
 *  Wuunferth the Unliving grants 3 levels to Destruction
 *  Lightning speed has infinite duration. Unlike the double cast bug in UltSky pressing T to wait ends the spell. However this always happens, doublecast by default.
-*  Trolls - When hit by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
-*  Hunterborn isn't properly passing the amount of time that it supposed to - more details inside
+*  Trolls * When hit by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
+*  Hunterborn isn't properly passing the amount of time that it supposed to * more details inside
 *  Certain equipment don't seem to be affected by Durability mod.
-*  Morthal - Thurmatugists Hut Greenhouse Item Ownership
+*  Morthal * Thurmatugists Hut Greenhouse Item Ownership
 
 
 
 ## Followers
 
-1) Delphine cannot accept followers to join the blades - Current work around is to console skip the quest setstage FreeformSkyhavenTempleA 40  
-2) Taught follower the spell Sunfire through the dialog. They use it in combat even on enemies which aren't undead and they seem to prioritize using only that. 
-3) I gave my follower Marcurio 2 scrolls of Summon Fire Atronach and 2 Scrolls of Summon Wolf Familiar (Ghost wolf w/e its called) and he is able to summon either (one at a time) infinitely during battle. In other words, he never consumes the scrolls.
-4) Janessa has Good lockpicking perks - but - Cant get her to unlock anything?
-5) Follower perks - Missing and/or Inconsistencies (Some followers have no perks)
-6) Followers teleport forward too close
+* Delphine cannot accept followers to join the blades * Current work around is to console skip the quest 
+
+{: .console}
+> setstage FreeformSkyhavenTempleA 40  
+
+* Taught follower the spell Sunfire through the dialog. They use it in combat even on enemies which aren't undead and they seem to prioritize using only that. 
+* I gave my follower Marcurio 2 scrolls of Summon Fire Atronach and 2 Scrolls of Summon Wolf Familiar (Ghost wolf w/e its called) and he is able to summon either (one at a time) infinitely during battle. In other words, he never consumes the scrolls.
+* Janessa has Good lockpicking perks * but * Cant get her to unlock anything?
+* Follower perks * Missing and/or Inconsistencies (Some followers have no perks)
+* Followers teleport forward too close
 
 
 ## Visuals
@@ -343,15 +363,15 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Medium Graphic, Low shaders.  During Rain, there is no rain when i looking north. By looking West and East i can see wall of rain behind me.  Rain is visible only at one side
 * In Rainy Weather, Interiors have Broken Green Lighting Workaround: Restart Skyrim
 
-----
+****
 
 # Civil war
 
-- Its full of vanilla bugs.
-- It exists (Why bethesda did you include this mess in the release). 
-- We (wildlander) do not edit any quest assosiated with civil war therefore any bugs you encounter are original issues.
-- Several immersion breaking issues during battle for Whiterun (Vendors in market are trying to make a living, The carriage driver be vibing as explosions happen all around him)
-- Lights within Korvanjund Hall beyond the sealed door are lit (should be dark)
+* Its full of vanilla bugs.
+* It exists (Why bethesda did you include this mess in the release). 
+* We (wildlander) do not edit any quest assosiated with civil war therefore any bugs you encounter are original issues.
+* Several immersion breaking issues during battle for Whiterun (Vendors in market are trying to make a living, The carriage driver be vibing as explosions happen all around him)
+* Lights within Korvanjund Hall beyond the sealed door are lit (should be dark)
 
 If you are having a issue for a civil war quest - please check [UESP WIki](https://en.uesp.net/wiki/Main_Page) - there maybe a work around here.
 

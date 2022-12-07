@@ -59,15 +59,19 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 callouts_level: loud
 callouts:
   highlight:
+    title: Notice
     color: yellow
   important:
     title: Important
     color: blue
   new:
+    title: Log Section
     color: green
+  console:
+    title: Console Commands
+    color: green    
   note:
-    title: Note
-    color: purple
+    color: pink
   warning:
     title: Warning
     color: red
