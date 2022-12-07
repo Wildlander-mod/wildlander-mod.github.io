@@ -88,7 +88,8 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 * Tempering Labels currently do not work.
 * Bathing can teleport the player to a seemingly random location.
 
-With workarounds
+### With workarounds
+
 * when weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away 
 
 Hit Control. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
@@ -129,6 +130,7 @@ If you have met these objectives but the next quest does not start.
 1. Load your game using a save before you handed in the previous quest.
 1. Speak to Brynjolf hand in quest - next should start.
 
+---
 
 ### Issues with A Chance Arrangement / Loud and Clear
 
@@ -159,6 +161,7 @@ If Brynjolf is not at the ragged flagon when you get there for Loud and Clear
 >
 > moveto player
 
+---
 
 ### Dampened Spirits doesn't start
 
@@ -170,6 +173,8 @@ Failing that * After completing, but before handing in a Loud and Clear * wait 2
 
 Failing That * close skyrim, reopen skyrim and load the save before handing in loud and clear.
 
+---
+
 ### Brynjolf is stalking me!
 
 {: .console}
@@ -177,19 +182,24 @@ Failing That * close skyrim, reopen skyrim and load the save before handing in l
 > completequest TG03
 
 ---
+
 # Mod Issues.
 
 ## Outlaw Refuges. 
 
 * The stores contain static items which can't be stolen
 * Several beds have owned markers
-* Several objects (e.g. training dummies) are not interactable and should be
+* Several objects (e.g. training dummies) are not interactable and should be.
+
+---
 
 ## Bathing
 
 If bathing in very cold water, it can kill you before the animation finishes. 
 
 Work around: don't take a bath in cold water ;)
+
+---
 
 ## When I equip my Backpack I get a pouch/book/holder/carpet appearing at my feet
 
@@ -201,6 +211,8 @@ You can possibly solve it by either dropping and buying a new item OR by droppin
 >
 > Player.Additem {itemid} 1
 > 
+
+--- 
 
 ## Crossbow Infinitely reloads
 
@@ -217,6 +229,8 @@ complex fix
 > Delete Everything using the right click menu.
 
 ![image](https://user*images.githubusercontent.com/26418143/175317923*9cdc1a68*4653*4e18*a274*d48cf8feeea0.png)
+
+---
 
 ## Properties Without Pestering
 
@@ -286,10 +300,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Random scavenger encounter where a guy is standing over some dead people. Scavenger is apparently flagged essential. Tried console /kill and he just took a knee and got back up.
 * Stuck NPCs - Adrianne (ref ID: 0001A67C) is stuck on a ledge in Whiterun Market. Belethor is stuck at forge
 
+---
+
 ### Idle markers
 
-* Brand*Shei is supposed to be seated on a crate, however he is sitting on nothing.
-* College NPC Idle marker in the Arcarnem * Leaning on invisible table
+* Brand-Shei is supposed to be seated on a crate, however he is sitting on nothing.
+* College NPC Idle marker in the Arcarnem - Leaning on invisible table
 * Marise Aravel, the produce merchant in Riften, has an idle marker inside of a barrel
 * NPC idle marker inside planter in front of the Winking Skeever
 * Silda the Unseen is standing too far away to warm her hands from the Place of kings brazier
@@ -299,43 +315,53 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Hulda at Bannered Mare has a quill, a ledger and a mug in her hands
 * Malur Seloth Floating through floor
 * Markarth NPC leaning inside of a support beam
+
+---
    
 ## Objects / Buildings
 
-1) Several wells are missing bucket activators
-2) Imperial Alehouse in Solitude is locked
-3) Training Dummies outside Whiterun (on the battlements) cannot be interacted with
-4) Iron Woodcutting axe is invisible for male characters
+* Several wells are missing bucket activators
+* Imperial Alehouse in Solitude is locked
+* Training Dummies outside Whiterun (on the battlements) cannot be interacted with
+* Iron Woodcutting axe is invisible for male characters
+
+---
 
 ## Houses
 
-* Two things with fully furnished Honeyside (without the kid's room) * missing wall texture, porch door says Examine Lock Rented House
-* Breezehome doesnt have a alchemy lab after purchasing it well it does * but its hidden behind a wall
-* Proudspire manor * Bar area. Odd Mead crate texture.
-* HJerim issues * After purchase (floating objects in kids bedroom, various clipping issues)
+* Two things with fully furnished Honeyside (without the kid's room) - missing wall texture, porch door says Examine Lock Rented House
+* Breezehome doesnt have a alchemy lab after purchasing it well it does - but its hidden behind a wall
+* Proudspire manor - Bar area. Odd Mead crate texture.
+* HJerim issues - After purchase (floating objects in kids bedroom, various clipping issues)
 * Building jetty took zero time
-* The Skyrim*side door into Honeyside behaves weirdly depending on where on it you point your cursor. See screenshots.
+* The Skyrim side door into Honeyside behaves weirdly depending on where on it you point your cursor. 
+
+---
 
 ## Sounds
 
 * Insect noise is overly loud.
 * Some interiors have ghost children playing sound effect.
-* When NPC drinks potion, sound is too loud
+* When NPC drinks potion, sound is too loud and sounds like player is drinking the potion
 * If you go to a place like Bleak Falls   Barrow, you can hear the wind blowing on those high hills,. But if you leave the place and go to anywhere else the windy sound doesn't stop until you enter a new cell
 * combat music plays on infinite loop   sometimes despite no enemies, despite changing area (like going into an inn),   or quicksave/loading. the only workaround is to close the game and boot it  back up
 * Audio Bug — Lowering the slider under   Settings>Audio>Horse Steps does nothing. I am trying to reduce the   audio of horse steps when riding.
 * Candlehearth Hall, snowstorm  outside and inside had a very loud wind whistling sound effect.
 * Dawnstar's White Hall (and   interiors in general) are too reverby
 
+---
+
 ## Crafting
 
 * No breakdown recipe for flagon
-* Dunmeri Brown Hood * Cannot be dismantled.
+* Dunmeri Brown Hood - Cannot be dismantled.
 * DLC01TortureTool01 "Crushing Device" [MISC:02008E4E] has no breakdown recipe
 * 99% of Circlets / Rings / Necklaces Missing breakdown recipes.
 * Recipe for potion of cleansing bugged
 * I have noticed that when paying a blacksmith to temper a weapon you get smithing experience (I just got a level up due to it)
-* Tempering/Enchanting are way too cheap * I had Eurland temper my warhammer to legendary which only cost 1200 gold. The warhammer was doing 600+ damage after tempering
+* Tempering/Enchanting are way too cheap - I had Eurland temper my warhammer to legendary which only cost 1200 gold. The warhammer was doing 600+ damage after tempering
+
+---
 
 ## Exploits
 
@@ -344,12 +370,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 *  Npcs can get stuck in the snow outside of mehrune dagons shrine, this causes them to sink slightly into the ground and are unable to move.
 *  Wuunferth the Unliving grants 3 levels to Destruction
 *  Lightning speed has infinite duration. Unlike the double cast bug in UltSky pressing T to wait ends the spell. However this always happens, doublecast by default.
-*  Trolls * When hit by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
-*  Hunterborn isn't properly passing the amount of time that it supposed to * more details inside
+*  Trolls - When hit by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
+*  Hunterborn isn't properly passing the amount of time that it supposed to 
 *  Certain equipment don't seem to be affected by Durability mod.
-*  Morthal * Thurmatugists Hut Greenhouse Item Ownership
+*  Morthal Thurmatugists Hut Greenhouse Item Ownership
 
-
+---
 
 ## Followers
 
@@ -365,6 +391,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Follower perks * Missing and/or Inconsistencies (Some followers have no perks)
 * Followers teleport forward too close
 
+---
 
 ## Visuals
 
@@ -376,7 +403,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Medium Graphic, Low shaders.  During Rain, there is no rain when i looking north. By looking West and East i can see wall of rain behind me.  Rain is visible only at one side
 * In Rainy Weather, Interiors have Broken Green Lighting Workaround: Restart Skyrim
 
----*
+---
 
 # Civil war
 
