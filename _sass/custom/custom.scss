@@ -48,7 +48,7 @@ btn-pink {
   &:hover,
   &.zeroclipboard-is-hover {
     color: $lt-purple-300;
-    background-color: darken(lt-purple-000, 4%);
+    background-color: darken($lt-purple-000, 4%);
     background-image: linear-gradient((lighten($lt-purple-000, 2%), darken($lt-purple-000, 4%)));
   }
 
