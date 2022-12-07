@@ -9,9 +9,11 @@ description:  Release notes - Wildlander - Version 1.1.0
 # Release notes - Wildlander - Version 1.1.0
 
 ### Bug
+
 <details>
   <summary>Click to expand!</summary>
-
+  
+<div class="Info" markdown="1"> 
 [WL-1288](https://ultimateskyrim.atlassian.net/browse/WL-1288 )	Northwatch keep habour - Overgown	
 
 **Solution**:	Disabled tree
@@ -1364,7 +1366,7 @@ This could be because of the script memory changes.
 
 **Solution:** 	Speedtrees has been removed
 
-
+</div>
 </details>
 
 
@@ -1372,6 +1374,7 @@ This could be because of the script memory changes.
 <details>
   <summary>Click to expand!</summary>
 
+<div class="Info" markdown="1"> 
 [WL-1259](https://ultimateskyrim.atlassian.net/browse/WL-1259) Ultrawide resolution support \(2560 x 1080 and 3440 x 1440\)
 
 **Solution**: 
@@ -1412,12 +1415,16 @@ This could be because of the script memory changes.
 
 **Solution**:  Added torches to Lvli_Survival
 
+<div>
 </details>
 
 ## Mod changes
+
 ### Added Mods
+
 <details>
   <summary>Click to expand!</summary>
+  <div class="Info" markdown="1"> 
 
 * [Skin] -   FAL Skin Shaved Version SE
 * 3rd Person Walk Fix
@@ -1478,11 +1485,14 @@ This could be because of the script memory changes.
 * WIDeadBodyCleanupScript Crash Fix
 * XPMSSE - Nemesis -   Papyrus Stack Fix
 
+</div>
 </details>
 
 ### Updated 
+
 <details>
   <summary>Click to expand!</summary>
+  <div class="Info" markdown="1"> 
 
 * A Quality World Map - Classic   with All Roads
 * Annoying cicada and   insect sound replace
@@ -1567,12 +1577,14 @@ This could be because of the script memory changes.
 * Whiterun Hold Refine   
 
 
-
+</div>
 </details>
 
 ### Removed Mods
+
 <details>
   <summary>Click to expand!</summary>
+  <div class="Info" markdown="1"> 
 
 * alduins wall retexture - concept   art
 * All Geared Up   Derivative SE - AllGUD
@@ -1651,11 +1663,13 @@ This could be because of the script memory changes.
 * Wearable Lanterns - SE and VR Patch
 * WICO - Windsong   Immersive Chracter Overhaul
 
+</div>
 </details>
 
 ### Download folder cleanup - Can be done pre release
 <details>
 
+<div class="Info" markdown="1"> 
 * Wildlander-Output-Full_1-0-0
 * Wildlander-Output-NPC_1-0-0
 * Wildlander-Output-Core_1-0-0
@@ -1689,5 +1703,5 @@ This could be because of the script memory changes.
 * Taarie and Endarie Re-Imagined Plugin Hotfix-44277-hotfix1-1610490485
 * Scrambled Bugs-43532-14-1633526767
 * Obscure's Faces of Winterhold-25691-1-2-4-1578532390
-
+</div>
 </details>
