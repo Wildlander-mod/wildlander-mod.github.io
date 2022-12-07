@@ -40,6 +40,6 @@ th {
 }
 
 btn-pink {
-  @include btn-color($lt-purple-300, $grey-dk-000);
+  @include btn-color($lt-purple-300, $lt-purple-000);
 }
 
