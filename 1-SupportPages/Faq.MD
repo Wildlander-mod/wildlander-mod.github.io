@@ -87,12 +87,11 @@ There have been reports of anywhere from 4 hours to 4 days, depending on how muc
 
 ----------
 
-
 # Can I see the mod lists?
 
-> Standard: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods)
-> 
-> Performance: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods)
+Standard: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods)
+
+Performance: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods)
 
 ----------
 
@@ -421,7 +420,7 @@ Save and next time you boot the game. Your shield will now be on your back, you 
 ## Night eye is too dark
 
 {: .note}
-performance modlist does not allow the ENB to show Nightvision correctly. Should you wish to use nightvision, you must either use "standard modlist" or No shaders (to apply vanilla nightvision)
+**Note:** Performance modlist does not allow the ENB to show Nightvision correctly. Should you wish to use nightvision, you must either use "standard modlist" or No shaders (to apply vanilla nightvision)
 
 Hit Shift+Enter to bring up the ENB, in the center panel expand ENB effect and scroll down until you find the below section:
 
@@ -432,7 +431,6 @@ These are the settings which control the brightness. It is my personal preferenc
 then to scroll down and adjust the following settings 
 
 ![image](https://user-images.githubusercontent.com/26418143/197895203-bf895835-7dbc-44e8-ae8e-dae5e650e3d1.png)
-
 
 Once you are happy with the settings, in the top right section click on “save configuration,” then hit shift+enter again to hide the ENB window.
 
@@ -447,7 +445,7 @@ No, but there is a serious, technical reason! There is no enforced permadeath mo
 Think of it as... an exercise in self-discipline, if you like!
 
 {: .note}
-Creating a new character without restarting Skyrim is known to cause script issues in several mods. Many options during character creation may be missing! Spells and gear during the start-up will not be correctly assigned, and you may get pop-up's from Trade and Barter due to it not initializing correctly, so make sure you restart Skyrim COMPLETELY, through the launcher, before attempting to create a new character!
+**Note:** Creating a new character without restarting Skyrim is known to cause script issues in several mods. Many options during character creation may be missing! Spells and gear during the start-up will not be correctly assigned, and you may get pop-up's from Trade and Barter due to it not initializing correctly, so make sure you restart Skyrim COMPLETELY, through the launcher, before attempting to create a new character!
 
 ------
 ---
@@ -523,9 +521,9 @@ Snowberry Extract is made directly from a cookpot, or by using the player crafti
 The extract requires the following items/tools:
 
 {: .note}
-> - A survivalist's or alchemist's toolkit
-> - Alchemical Lore 1 (perk)
-> - 20 Snowberries
+> * A survivalist's or alchemist's toolkit
+> * Alchemical Lore 1 (perk)
+> * 20 Snowberries
 
 ----------
 
