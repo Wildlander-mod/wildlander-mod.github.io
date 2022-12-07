@@ -31,7 +31,7 @@ You can use the Research journal to research the spells you have equipped in you
 
 Running in armor will also slowly level it.  You can also use the time-honored requiem cheat of allowing slaughterfish to nibble on your toes.
 
-For block the only way to train this is to actually use the skill - head to a nearby mud crab and hide behind your shield.
+For block you can either study a block book, or actually use the skill - head to a nearby mud crab and hide behind your shield.
  
 ## Camping
 
@@ -49,11 +49,33 @@ Crafting is based on selling price, so anything crafted at a forge for low cost 
 
 ## Endureance
 
-Run around in cold area's to passivly leave this up
+Run around in cold area's to passivly leave this up.
 
 ## Survival
 
 When you get any of your needs to their max value, your survival skill will increase.
+
+## Butchering
+
+Processing dead animals levels this skill up.
+
+***
+# None combat methods of training
+
+## Skill books.
+
+Skill books in your inventory can be studied. These will give you training for however long you study for. 
+
+## Research
+
+Spell research journal will allow you to train up magic skills. Simply place a spell in either hand. Use the spell research journal. Select Research option. Wait for it to initialise, then you can either cast the spells or use the research book again to study them for a period of time.
+
+Once you have finished research, activate journal again to exist research mode. Then find a bed to sleep away your fatigue (1 hour of study, 2 hours of sleep)
+
+## Training dummies
+
+You can "use" a training dummy to train with a wespon or spell equipted to train for a period of time. Then find a bed to sleep away your fatigue (1 hour of study, 2 hours of sleep)
+
 
 ***
 # I’ve finished training - Now what?
