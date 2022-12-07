@@ -12,7 +12,7 @@ description: Frequently Asked Questions
 # Table of contents
 <details markdown="block">
   <summary>
-    Table of contents
+    Expand to view
   </summary>
   {: .text-delta }
 1. TOC

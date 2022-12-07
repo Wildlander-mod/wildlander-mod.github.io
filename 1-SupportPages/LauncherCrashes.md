@@ -7,14 +7,15 @@ description: Launcher Issues and CTD's
 ---
 
 
-# Navigation Structure
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
+# Table of contents
+<details markdown="block">
+  <summary>
+    Expand to view
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 # Launcher Issues
 

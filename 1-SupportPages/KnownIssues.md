@@ -11,14 +11,15 @@ This document will contain all of the known game play related issues. It exclude
 
 ---
 
-# Navigation Structure
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text*delta }
-
+# Table of contents
+<details markdown="block">
+  <summary>
+    Expand to view
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ---
 
