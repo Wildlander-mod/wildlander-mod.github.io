@@ -692,6 +692,8 @@ Base magnitude is the number shown when you hover over an enchantment without se
 
 
 # Unique Enchantments gained via enchanting perks
+
+{: .note}
 Note: Numbers in brackets indicate the base values of the enchant. 
  
 * Arcane Power: Deals [5] points of unresistable damage.

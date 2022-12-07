@@ -13,7 +13,8 @@ A mod for the hunter who has nothing.
 
 Hunterborn changes the simple routine of kill-and-loot on animals into something more immersive.  The most significant change Hunterborn makes to the game is taking away the loot window from most wildlife. Instead, you must first choose whether to dress it (clean the carcass and prepare it for processing) where it lies, or pick up the carcass and take it back to your camp / lair / nearest vendor. When you drop the "carcass" from your inventory, the original animal's body will appear at your feet, where again you have the choice to dress it, or pick it back up.
 
-Note: Carcasses are heavy. While you can easily pick up several rabbits, foxes, skeevers and the like, you will struggle to carry more than just one elk carcass, and you may not be able to lift a bear or a cow at all. 
+{: .note}
+**Note:** Carcasses are heavy. While you can easily pick up several rabbits, foxes, skeevers and the like, you will struggle to carry more than just one elk carcass, and you may not be able to lift a bear or a cow at all. 
 
 After dressing a carcass, you're able to skin it, harvest it for ingredients like antlers, eyes, teeth, even hearts, and also butcher it for meat.
 

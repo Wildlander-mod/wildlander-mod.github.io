@@ -29,7 +29,8 @@ This quest is auto completed when you kill a dragon.
 
 There is a new way of becoming a Thane of Whiterun. Complete "The Blessings of Nature" quest (Danica by the Gildrergreen tree to start) and talk to Jarl Balgruuf when the Gildergreen tree is repaired\the sapling blooms (note: this requires you to complete any other quest to simulate the passing of time). He'll thank you and allow you to do the standard thaneship quest (help the people of the hold).
 
-Note: You can buy Breezehome before this at a much more expensive price, but unless you are thane you do not get the housecarl.
+{: .note}
+**Note:** You can buy Breezehome before this at a much more expensive price, but unless you are thane you do not get the housecarl.
 
 ----------
 

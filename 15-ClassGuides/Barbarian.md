@@ -23,7 +23,8 @@ This class revolves around the [Evasion](..\8-skillAnalysis\Evasion.html) and [T
 - [Alchemy](..\8-skillAnalysis\Alchemy.html) (optional)
 - [Speech](..\8-skillAnalysis\Speech.html) (optional)
 
-Note: Alchemy is.....a bit broken. While it is possible to play an alchemy character without breaking the game, in its current state it is easy to even unintentionally become extremely strong very quickly via Alchemy. If you want to have a more challenging experience, I would recommend opting for Speech over Alchemy.
+{: .note}
+**Note:** Alchemy is.....a bit broken. While it is possible to play an alchemy character without breaking the game, in its current state it is easy to even unintentionally become extremely strong very quickly via Alchemy. If you want to have a more challenging experience, I would recommend opting for Speech over Alchemy.
 
 ## Secondary Skills
 

@@ -55,7 +55,8 @@ descrption: Character creation - The Basics
 
 ## STANDING STONES
 
-Note: once you take a stone from given group, you will become locked to that group. For example, after taking Warrior you will be able to change your stone only to Lady/Lord/Steed and not others.
+{: .highlight}
+Once you take a stone from given group, you will become locked to that group. For example, after taking Warrior you will be able to change your stone only to Lady/Lord/Steed and not others.
 
 ## < The Warrior Group >
 * Lady: Those under the sign of the Lady regenerate Stamina faster.

@@ -24,7 +24,10 @@ Perk Required : None
 
 **Empowered Alterations**
 
-You can dual-cast Alteration spells to increase the duration of them by 125% for double magicka cost. NOTE: Does not affect the magnitude of spells, only durations.
+You can dual-cast Alteration spells to increase the duration of them by 125% for double magicka cost. 
+
+{: .note}
+Does not affect the magnitude of spells, only durations.
 
 Level Required : 25
 
@@ -49,6 +52,7 @@ Level Required : 25
 
 Perk Required : Apprentice Alteration
 
+{: .note}
 Note: Shields are included in armor, in addition to any clothing items with the labels "heavy armor" or "evasion armor"
 
 **Magic Resistance**
@@ -92,6 +96,7 @@ Level Required : 75
 
 Perk Required : Stability
 
+{: .note}
 Note: All spells are affected by this perk, not just alteration school.
 
 **Metamagical Empowerment**
@@ -102,6 +107,7 @@ Level Required : 100
 
 Perk Required : Metamagical Thesis
 
+{: .note}
 Note: All spells are affected by this perk, not just alteration school.
 
 ## Expert Branch

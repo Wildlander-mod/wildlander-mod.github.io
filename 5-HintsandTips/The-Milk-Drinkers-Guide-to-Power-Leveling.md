@@ -381,7 +381,8 @@ Visit the docks and pay for a return trip to Windhelm, Use the wagon to Dawnstar
   Behind Hale bales at the rear of Windpeak Inn.
 </details>
 
-Note: Very dangerous to visit because its so cold - make sure you have warm clothing!
+{: .note}
+Very dangerous to visit because its so cold - make sure you have warm clothing!
 
 Read the Skill books: 
 
@@ -410,7 +411,8 @@ Dawnstar doesnt have any "easy quests" So Wagon to Winterhold.
 
 </details>
 
-Note: Very dangerous to visit because its so cold - make sure you have warm clothing!
+{: .note}
+Very dangerous to visit because its so cold - make sure you have warm clothing!
 
 While in Winterhold you can steal Arcane Authority for Malur Seloth(Jarl's Longhouse) and also convince Ranmir to pay his debt to Haran(The Frozen Hearth)
 

@@ -8,7 +8,8 @@ parent: Dungeon Guides
 grand_parent: Getting Started
 ---
 
-*Note: the entire island is high-level, "average" here isn't the same as Skyrim! Threat levels assume you're ready to tackle Dragonborn content!*
+{: .highlight}
+The entire island is high-level, "average" here isn't the same as Skyrim! Threat levels assume you're ready to tackle Dragonborn content!
 
 ### Caves, Mines, & Passes
 

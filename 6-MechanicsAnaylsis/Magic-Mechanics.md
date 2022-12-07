@@ -29,7 +29,8 @@ The specific calculation is below (heavy math - i know)
 
 ![image](https://user-images.githubusercontent.com/26418143/160236172-3d312939-14e8-4de5-b9df-4606ac6dcb3b.png)
 
-Note: Spell specific value is defined as  1 for Novice spells, 5 for Adept spells, 10 for Apprentice spells, 15 for expert spells and 20 for master spells.
+{: .note}
+Spell specific value is defined as  1 for Novice spells, 5 for Adept spells, 10 for Apprentice spells, 15 for expert spells and 20 for master spells.
 
 
 Since this formula might not be very enlightening to people who do not deal with mathematics every day, this image illustrates the practical effect of the above formula for a few enemies and appropriate spell tiers

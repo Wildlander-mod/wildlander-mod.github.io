@@ -92,11 +92,13 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 
 ### With workarounds
 
-* when weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away 
+**When weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away** 
 
 Hit Control. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
 
-* Horses occasionally forget to spawn with armor, despite having it in their inventory. 
+--- 
+
+**Horses occasionally forget to spawn with armor, despite having it in their inventory.** 
 
 You can force the horse to equip armor by the following process.
 1. Drop the armor on the floor
