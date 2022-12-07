@@ -40,6 +40,30 @@ th {
 }
 
 btn-pink {
-  @include btn-color($lt-purple-300, $lt-purple-000);
+  color: $lt-purple-300;
+  background-color: darken($lt-purple-000, 2%);
+  background-image: linear-gradient(lighten($lt-purple-000, 5%), darken($lt-purple-000, 2%));
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
+
+  &:hover,
+  &.zeroclipboard-is-hover {
+    color: $lt-purple-300;
+    background-color: darken(lt-purple-000, 4%);
+    background-image: linear-gradient((lighten($lt-purple-000, 2%), darken($lt-purple-000, 4%)));
+  }
+
+  &:active,
+  &.selected,
+  &.zeroclipboard-is-active {
+    background-color: darken($lt-purple-000, 5%);
+    background-image: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  &.selected:hover {
+    background-color: darken($lt-purple-000, 10%);
+  }
+  
+  
 }
 
