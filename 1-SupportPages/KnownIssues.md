@@ -54,7 +54,7 @@ This is caused by Skyrim's engine limitation of 4 light sources in a 30ft radius
 
 There is nothing we can do to correct this, bug reports on this topic will be deleted.
 
----*
+---
 
 ## Camera Issues
 * Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
@@ -62,12 +62,13 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 * Camera is too close to head when running
 * Arms clipping or off to one side when casting spells * Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
 
----*
+---
+
 # UI
 * On ultrawide monitor (2560x1080), perk names appear VERY right aligned to perk "stars" making it awkward to use the perk menu as perk names appear over other perk "stars" in many cases.
 * certain elements of the UI will disappear (the compass and the H/M/S bars) after pressing X or when an inventory window is open
 
----*
+---
 
 # Gameplay Issues
 
@@ -96,10 +97,12 @@ You can force the horse to equip armor by the following process.
 1) Drop the armor on the floor
 2) open console, Click on it and make a note of the base id for the horse armor.
 3) close console, Pick it up and place it in the horse's inventory.
-4) In console again click the horse and use 
+4) In console again click the horse replacing "baseid" with the number you made note of use the following console command 
+
 {: .console}
+>
 > equipitem baseID 1 
-replacing "baseid" with the number you made note of.
+
 
 
 ---
@@ -149,6 +152,7 @@ Failing that:
 Note: If Brynjolf is not at the ragged flagon when you get there for the second quest, then save your game, open up a prior save where you can select Brynjolf's body using the console, then reload your game in the ragged flagon and enter this.
 
 {: .console}
+>
 > moveto player
 
 
@@ -165,7 +169,8 @@ Failing That * close skyrim, reopen skyrim and load the save before handing in l
 ### Brynjolf is stalking me!
 
 {: .console}
-completequest TG03
+>
+> completequest TG03
 
 ---
 # Mod Issues.
@@ -185,7 +190,9 @@ Work around: don't take a bath in cold water ;)
 ## When I equip my Backpack I get a pouch/book/holder/carpet appearing at my feet
 
 You can possibly solve it by either dropping and buying a new item OR by dropping your item and using console commands 
+
 {: .console}
+>
 > help "item" 
 >
 > Player.Additem {itemid} 1
@@ -198,7 +205,7 @@ Happens if you switch gender using showracemenu. Simple fix - switch gender back
 complex fix
 
 {: .note}
-
+>
 > using [ReSaver from FallrimTools](https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files)
 >
 > Loaded the savegame > search for hzNECRAliasScript
@@ -345,6 +352,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Delphine cannot accept followers to join the blades * Current work around is to console skip the quest 
 
 {: .console}
+>
 > setstage FreeformSkyhavenTempleA 40  
 
 * Taught follower the spell Sunfire through the dialog. They use it in combat even on enemies which aren't undead and they seem to prioritize using only that. 
