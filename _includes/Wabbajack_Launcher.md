@@ -15,7 +15,7 @@ For Specific issues with individual Antivirus software, Please see below.
 #### Bitdefender
 
 {: .save}
-> * Does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
+> 1. Does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
 
 1. Disable Bitdefender 
 1. Delete game-files\Stock game
@@ -23,7 +23,7 @@ For Specific issues with individual Antivirus software, Please see below.
 1. you should now be able to launch.
 
 {: .save}
-> * Causes crashes while saving.
+> 2. Causes crashes while saving.
 
  Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
 1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
@@ -126,7 +126,7 @@ This error occurs when the winmgmt service is corrupt or crashed. It can be simp
 
 Open Command prompt and typing the following 3 commands
 
-{: .new}
+{: .note}
 >
 >net stop winmgmt (and y if prompted)
 >
