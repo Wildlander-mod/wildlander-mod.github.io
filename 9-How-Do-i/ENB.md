@@ -14,7 +14,8 @@ You can edit the various Settings inside of the Shift+Enter menu in game
 
 ## Night eye is too dark
 
-Note: performance modlist does not allow the ENB to show Night-vision correctly. Should you wish to use night-vision, you must either use "standard modlist" or No shaders (to apply vanilla night-vision)
+{: .note}
+** Note:** performance modlist does not allow the ENB to show Night-vision correctly. Should you wish to use night-vision, you must either use "standard modlist" or No shaders (to apply vanilla night-vision)
 
 Hit Shift+Enter to bring up the ENB, in the center panel expand ENB effect and scroll down until you find the below section:
 

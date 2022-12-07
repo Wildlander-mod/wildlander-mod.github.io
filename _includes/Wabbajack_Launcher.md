@@ -6,7 +6,8 @@ Several Antivirus programs are known to cause issues with launching list, Some c
 
 If you are experiencing problems running Wabbajack such as the exe being deleted or no progress during the installation phase, try adding your Wabbajack folder (where the executable is located) and your selected modlist installation location to exclusions in your antivirus of choice. Find out how to via [Here](https://lmgtfy.app/?q=how+to+add+exclusions+to+antivirus)
 
-Note: If you're using a 3rd party antivirus (such as AVG, Avast, BitDefender, Webroot, Kaspersky, Norton, McAfee etc.) it's likely that adding the folders to exclusions will not be enough and you may need to disable or uninstall your 3rd party AV as they can incorrectly mark files like usvfs_proxy_x86.exe (required for MO2), The launcher or SKSE itself as a virus.
+{: .note}
+If you're using a 3rd party antivirus (such as AVG, Avast, BitDefender, Webroot, Kaspersky, Norton, McAfee etc.) it's likely that adding the folders to exclusions will not be enough and you may need to disable or uninstall your 3rd party AV as they can incorrectly mark files like usvfs_proxy_x86.exe (required for MO2), The launcher or SKSE itself as a virus.
 
 We recommend doing so anyway as Windows Defender is likely much better at stopping threats, according to data from [av-test.org](https://www.av-test.org/en/antivirus/home-windows/).
 

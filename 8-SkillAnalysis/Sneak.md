@@ -64,6 +64,7 @@ Rank 1: Removes the penalty for sneaking, and adjusts your skill to behave as if
 
 Rank 2: Adjusts your skill to behave as if you had 35 extra points in it.
 
+{: .note}
 Note: Removes the penalty even if you are wearing heavy armor, but the increased odds to not become detected only apply if you are not wearing heavy armor. Higher ranks overwrite the lower ones.
 
 ---
@@ -80,6 +81,7 @@ _Effects_:
 
 While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
 
+{: .note}
 Note: Does nothing to change your audible noise. 
 
 ---
@@ -176,6 +178,7 @@ _Effects_:
 
 Against all targets, Crossbows and Bows will deal 200% more damage in sneak attacks, while everything else will deal 500% more damage.
 
+{: .note}
 Note: This overwrites the previous perk Anatomical Lore, an odd behavior considering most perks in requiem only normally do that when they are ranks in the same perk.
 
 ---
