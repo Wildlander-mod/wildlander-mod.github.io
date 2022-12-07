@@ -61,16 +61,16 @@ If you are not manually running the game as an Admin, check your windows UAC set
 
 Reboot your PC after making this change.
 
+### If you have installed a custom version of windows and cannot turn on UAC (or you have and it doesnt work)
+
 {: .save}
-If you have installed a custom version of windows and cannot turn on UAC (or you have and it doesnt work)
-
-Create a basic user account (Accounts -> Other users then add other user, click on Users, more actions and create new user.
-
-login to that account - start Skyrim to add the registry entries for that user.
-
-Log back into your primary account.
-
-Then Holding shift, right click the .exe which will give a "Run as different user" command, select your created basic user and if that user is not administrator it should work
+> Create a basic user account (Accounts -> Other users then add other user, click on Users, more actions and create new user.
+> 
+> login to that account - start Skyrim to add the registry entries for that user.
+> 
+> Log back into your primary account.
+> 
+> Then Holding shift, right click the .exe which will give a "Run as different user" command, select your created basic user and if that user is not administrator it should work
 
 ---------
 
