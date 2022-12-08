@@ -40,3 +40,6 @@ th {
    text-align:center;
 }
 
+.btn-pink {
+  @include btn-color(#b479ea, #c59ee9);
+}
