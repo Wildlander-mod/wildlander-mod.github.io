@@ -26,7 +26,7 @@ description: Minimum requirements and Installation
 </div>
 
 {: .important}
->If you don't have a lot of&nbsp;RAM, you may want to <a href="" target="_blank">increase your pagefile size.</a>
+>If you don't have a lot of&nbsp;RAM, you may want to <a href="../2-RecommendedReading/1-BeforeYouBegin.html#page-files" target="_blank">increase your pagefile size.</a>
 >
 > This allocates more memory to the modpack, to prevent memory-related crashes.
 
