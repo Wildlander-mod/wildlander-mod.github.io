@@ -33,7 +33,7 @@ You can download and install from [here](https://www.wildlandermod.com/download)
 ----
 # How do I donate to the project?
 
-If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam"><img src="../Assets/Kofi.png"></a>
+If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam"><img src="../Assets/kofi.png"></a>
 
 Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry"><img src="../Assets/Patreon.png"></a>
 
