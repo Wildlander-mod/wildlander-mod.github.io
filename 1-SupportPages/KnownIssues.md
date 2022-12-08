@@ -229,11 +229,12 @@ You can possibly solve it by either dropping and buying a new item OR by droppin
 
 ## Crossbow Infinitely reloads
 
-Happens if you switch gender using showracemenu. Simple fix - switch gender back.
+Happens if you switch gender using showracemenu. 
 
-complex fix
+Simple fix - switch gender back.
 
-{: .note}
+{: .advice } 
+> **complex fix**
 >
 > using [ReSaver from FallrimTools](https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files)
 >
