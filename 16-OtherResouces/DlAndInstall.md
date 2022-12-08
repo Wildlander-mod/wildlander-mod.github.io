@@ -8,9 +8,6 @@ has_toc: true
 description: Minimum requirements and Installation
 ---
 
-
-[Download and Install Instructions](https://www.wildlandermod.com/download){: .btn .btn-pink }
-
 ## Recommended Specs
 
 <div>
@@ -49,6 +46,7 @@ You’ll need a few things before we begin. Please ensure that you have:
 
 We also **strongly** recommend a <a href="https://users.nexusmods.com/account/billing" target="_blank" class="link-9">Nexus Premium Membership</a>, which speeds up the install by auto-downloading mods. (Without Premium, you are looking at a twelve hour, highly manual task.)
 
+[Download and Install Instructions](https://www.wildlandermod.com/download){: .btn .btn-pink }
 
 
 
