@@ -71,10 +71,9 @@ callouts:
     title: Console Commands
     color: green    
   note:
-    color: pink
+    color: yellow
   warning:
     title: Warning
     color: red
   save:
-    color: pink
-    opacity: 0.3
+    color: yellow
