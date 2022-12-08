@@ -17,22 +17,22 @@ For Specific issues with individual Antivirus software, Please see below.
 
 {: .highlight}
 > It does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
-
-1. Disable Bitdefender 
-1. Delete game-files\Stock game
-1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
-1. you should now be able to launch.
+> 
+> 1. Disable Bitdefender 
+> 1. Delete game-files\Stock game
+> 1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+> 1. you should now be able to launch.
 
 {: .highlight}
 > It causes crashes to desktop while saving.
-
- Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
-1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
-
-OR 
-
-1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
-1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
+>
+> Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
+> 1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
+>
+> Or 
+>
+> 1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
+> 1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
 
 ---
 
@@ -53,11 +53,11 @@ OR
 > #### McAfee Antivirus.
 >
 > It is known to cause a corruption in the Skyrim downgrade during installation process from wabbajack
-
-1. Disable McAfee 
-1. Delete game-files\Stock game
-1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
-1. you should now be able to launch.
+>
+>1. Disable McAfee 
+>1. Delete game-files\Stock game
+>1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+>1. you should now be able to launch.
 
 ---
 
