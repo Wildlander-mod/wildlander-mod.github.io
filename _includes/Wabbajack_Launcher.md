@@ -2,37 +2,37 @@
 
 ## Wildlander and Antiviruses
 
-Several Antivirus programs are known to cause issues with launching list, Some cause issues with Wabbajack itself, others with running the list once installed.
+Several Anti-virus programs are known to cause issues with launching list, Some cause issues with Wabbajack itself, others with running the list once installed.
 
-If you are experiencing problems running Wabbajack such as the exe being deleted or no progress during the installation phase, try adding your Wabbajack folder (where the executable is located) and your selected modlist installation location to exclusions in your antivirus of choice. Find out how to via [Here](https://lmgtfy.app/?q=how+to+add+exclusions+to+antivirus)
+If you are experiencing problems running Wabbajack such as the exe being deleted or no progress during the installation phase, try adding your Wabbajack folder (where the executable is located) and your selected modlist installation location to exclusions in your anti-virus of choice. Find out how to via [Here](https://lmgtfy.app/?q=how+to+add+exclusions+to+antivirus)
 
 {: .warning}
-If you're using a 3rd party antivirus (such as AVG, Avast, BitDefender, Webroot, Kaspersky, Norton, McAfee etc.) it's likely that adding the folders to exclusions will not be enough and you may need to disable or uninstall your 3rd party AV as they can incorrectly mark files like usvfs_proxy_x86.exe (required for MO2), The launcher or SKSE itself as a virus.
+If you're using a 3rd party anti-virus (such as AVG, Avast, BitDefender, Webroot, Kaspersky, Norton, McAfee etc.) it's likely that adding the folders to exclusions will not be enough and you may need to disable or uninstall your 3rd party AV as they can incorrectly mark files like usvfs_proxy_x86.exe (required for MO2), The launcher or SKSE itself as a virus.
 
 We recommend doing so anyway as Windows Defender is likely much better at stopping threats, according to data from [av-test.org](https://www.av-test.org/en/antivirus/home-windows/).
 
-For Specific issues with individual Antivirus software, Please see below.
+For Specific issues with individual Anti-virus software, Please see below.
 
 ### Bitdefender
 
 {: .highlight}
 > It does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
-> 
-> 1. Disable Bitdefender 
-> 1. Delete game-files\Stock game
-> 1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
-> 1. you should now be able to launch.
+
+ 1. Disable Bitdefender 
+ 1. Delete game-files\Stock game
+ 1. Reinstall Wildlander from Wabbajack, choosing Overwrite installation and wait for install to complete.
+ 1. you should now be able to launch.
 
 {: .highlight}
 > It causes crashes to desktop while saving.
->
-> Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
-> 1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
->
-> Or 
->
-> 1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
-> 1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
+
+Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
+ 1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
+
+ Or 
+
+ 1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
+ 1. If you also have "Ransom-ware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
 
 ---
 
@@ -52,11 +52,11 @@ For Specific issues with individual Antivirus software, Please see below.
 {: .save}
 > ### McAfee Antivirus.
 >
-> It is known to cause a corruption in the Skyrim downgrade during installation process from wabbajack
+> It is known to cause a corruption in the Skyrim downgrade during installation process from Wabbajack
 >
 >1. Disable McAfee 
 >1. Delete game-files\Stock game
->1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+>1. Reinstall Wildlander from Wabbajack, choosing Overwrite installation and wait for install to complete.
 >1. you should now be able to launch.
 
 ---
@@ -71,13 +71,13 @@ For Specific issues with individual Antivirus software, Please see below.
 
 {: .save}
 > ### Avast
-> Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder.  [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users)
+> Is known to flag launcher as a false positive for spy-ware. Our launcher is open source, you can check for yourself that it is free of spy-ware. As Avast is known to be Spy-ware in its own right and sensible people un-installed this years ago. Even stock windows offers better protection, without selling your Internet browsing history to the highest bidder.  [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users)
 >
 > Should you wish to keep using Avast.
 > 
 > 1. Disable Avast 
 > 1. Delete game-files\Stock game
-> 1. Reinstall Wildlander from wabbajack, choosing Overwrite installation and wait for install to complete.
+> 1. Reinstall Wildlander from Wabbajack, choosing Overwrite installation and wait for install to complete.
 > 1. you should now be able to launch using the launcher.
 > 1. Shutdown Avast running whenever you want to play
 
