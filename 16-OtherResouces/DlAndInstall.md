@@ -13,18 +13,19 @@ description: Minimum requirements and Installation
 
 ## Recommended Specs
 
-<div class="spec-title">Recommended Specs:</div>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60"><div class="text-block-2">GeForce GTX 1080ti or higher</div>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" id="w-node-_9c2d5aae-97a7-4687-5c72-9392d9bd73e3-f95c1d78" alt="Purple CPU icon" width="60"><div class="text-block-2">Intel Core i7-9700K or higher</div>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" id="w-node-_9c2d5aae-97a7-4687-5c72-9392d9bd73e4-f95c1d78" alt="Purple RAM icon" width="60"><div class="text-block-2">16gb or more RAM</div>
+<div>
+<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60">GeForce GTX 1080ti or higher
+<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" alt="Purple CPU icon" width="60">Intel Core i7-9700K or higher
+<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" alt="Purple RAM icon" width="60">16gb or more RAM
 </div>
 
 
-<div class="spec-title">Minimum Specs:</div>
-<div class="w-layout-grid grid_specs"><img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7f75119b40ca_gpu_gray.svg" loading="lazy" alt="Grey GPU icon" width="60"><div class="text-block-2">GeForce GTX 660or equivalent</div>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01707ce98a3d2c755499f_cpu_gray.svg" loading="lazy" id="w-node-_9c2d5aae-97a7-4687-5c72-9392d9bd73f2-f95c1d78" alt="Grey CPU icon" width="60"><div class="text-block-2">AMD Ryzen 3 2200G or equivalent</div>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7ffc499b40cb_ram_gray.svg" loading="lazy" id="w-node-_9c2d5aae-97a7-4687-5c72-9392d9bd73f3-f95c1d78" alt="Grey RAM icon" width="60"><div class="text-block-2">8gb or more RAM</div>
+## Minimum Specs
 
+<div>
+<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7f75119b40ca_gpu_gray.svg" loading="lazy" alt="Grey GPU icon" width="60">GeForce GTX 660or equivalent
+<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01707ce98a3d2c755499f_cpu_gray.svg" loading="lazy" alt="Grey CPU icon" width="60">AMD Ryzen 3 2200G or equivalent
+<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7ffc499b40cb_ram_gray.svg" loading="lazy" alt="Grey RAM icon" width="60">8gb or more RAM
 </div>
 
 {: .important}
