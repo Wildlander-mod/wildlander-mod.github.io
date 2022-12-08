@@ -20,6 +20,8 @@ A secondary attribute, Wetness, represents if your character is dry or soaked fr
 
 Increasing your Coverage reduces the rate you get wet in the rain. Coverage also helps reduce your exposure rate as well when the weather is severe.
 
+The [frostfall temprature gauges](../2-RecommendedReading/3-The-UI.html#frostfall-temperature-gauges) on the UI page are a visual aid to these settings.
+
 ### Staying warm
 Falling into a lake or getting caught in a blizzard can spell doom for the unprepared. But with a little planning, resourcefulness, and experience, you can easily overcome these challenges. It all comes down to staying warm, and staying dry. Here are some ways you can do that.
 
