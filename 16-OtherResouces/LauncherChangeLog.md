@@ -6,7 +6,7 @@ description: Launcher change log
 parent: Other Resources
 ---
 
-Direct Link:  [Changelog](https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md)
+[Direct Link](https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md){: .btn .btn-pink }
 
 <div> 
 

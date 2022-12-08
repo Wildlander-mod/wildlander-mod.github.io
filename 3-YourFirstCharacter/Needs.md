@@ -7,6 +7,38 @@ grand_parent: Getting Started
 parent: Your First Character
 description: Needs & Survival
 ---
+## Exposure
+Frostfall introduces Exposure, which represents your current condition in the environment. As you get colder, your exposure increases.
+
+Increasing your Warmth causes your exposure to increase more slowly. Clothing, armor, perks, and other items can add to your total Warmth.
+
+When your exposure increases, you will begin suffering penalties. When your exposure is at maximum, you will lose consciousness and re-awaken elsewhere (possibly very far away).
+
+Exposure increases much faster in cold environments, snowstorms, rainstorms, and at night.
+
+A secondary attribute, Wetness, represents if your character is dry or soaked from being in the rain or swimming. When your wetness is high, your exposure increases more rapidly.
+
+Increasing your Coverage reduces the rate you get wet in the rain. Coverage also helps reduce your exposure rate as well when the weather is severe.
+
+### Staying warm
+Falling into a lake or getting caught in a blizzard can spell doom for the unprepared. But with a little planning, resourcefulness, and experience, you can easily overcome these challenges. It all comes down to staying warm, and staying dry. Here are some ways you can do that.
+
+1. **Armor or clothing in every slot.** Clothing and armor increase your Warmth and Coverage ratings, which reduce exposure. Wear something in your head, body, hands, and feet slots.
+1. **Wield a torch, eat soups and stews, Eat Full meals.** Grants small bonuses to Warmth.
+1. **Frost Resistance.** Grants a bonus to Warmth. (This means that Nords start the game with a slightly higher Warmth Rating than others.)
+1. **Endurance perks.** Accessible from any built campfire, Endurance skill perks can enhance your ability to survive in various circumstances. See the [Endurance Skill]() for more information.
+1. **Keep an eye on the skies.** Rain will soak you, greatly increasing your rate of exposure. Blizzards can be swift and deadly.
+
+To warm up and dry off, build a fire (or find one in the world), or go inside. Many homes and inns have lit fireplaces. Simply stand in front of a fire and your exposure and wetness will quickly decrease.
+
+Exposure does not increase while indoors, so ducking into a nearby cave during a snowstorm is often a wise move.
+
+Two new stats are visible on each piece of clothing
+1. **Warmth** – A measure of how well you can endure the cold for long periods of time. Some armors, like fur, have high Warmth. Eating soup and carrying a torch can grant you a temporary bonus to Warmth. There are other ways to increase your Warmth Rating.
+1. **Coverage** – A measure of how quickly you become wet in the rain and how well you resist exposure during severe weather. Some armors, like leather, have high Coverage. Shields add a small bonus to your Coverage as well.
+
+
+---
 
 ## Hunger
 
