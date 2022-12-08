@@ -67,7 +67,7 @@ Many new items and crafting options are added, with a crafting system built arou
  
 ## UI
 
-A combination of[ SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604),[ SkyHud](https://www.nexusmods.com/skyrimspecialedition/mods/12440),[More HUD SE A Matter of Time Iequip](https://www.nexusmods.com/skyrimspecialedition/mods/12688) and a smattering of other mods gives Wildlander a clean GUI that adds a lot of relevant information while removing certain things that tend to leave the player staring at the interface instead of experiencing the game world such as quest markers. The compass has had a much needed tweak to[ Remove Enemies](https://www.nexusmods.com/skyrimspecialedition/mods/30749)
+A combination of[ SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604),[ SkyHud](https://www.nexusmods.com/skyrimspecialedition/mods/12440),[More HUD SE](https://www.nexusmods.com/skyrimspecialedition/mods/12688), [A Matter of Time](https://www.nexusmods.com/skyrimspecialedition/mods/12937), [Iequip](https://www.nexusmods.com/skyrimspecialedition/mods/27008) and a smattering of other mods gives Wildlander a clean GUI that adds a lot of relevant information while removing certain things that tend to leave the player staring at the interface instead of experiencing the game world such as quest markers. The compass has had a much needed tweak to[ Remove Enemies](https://www.nexusmods.com/skyrimspecialedition/mods/30749)
 
 The Map has been replaced with[ A Quality World Map](https://www.nexusmods.com/skyrimspecialedition/mods/5804)
 
