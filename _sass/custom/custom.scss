@@ -30,11 +30,11 @@ table {
   display: table;
   min-width: 25%;
   border-collapse: separate;
-  border: 2px #7253ed solid;
+  border: 2px #50098A solid;
 }
 
 th {
-   background-color:#7253ed;
+   background-color:#50098A;
    color: #ffffff;
    font-weight: bold;
    text-align:center;
@@ -42,4 +42,14 @@ th {
 
 .btn-pink {
   @include btn-color(#ffffff, #50098A); 
+}
+
+// Spacing Sp-1 = 4 pixels, sp-2 = 8 pixels
+
+td {
+  min-width: 100px;
+  padding-top: $sp-2;  
+  padding-right: $sp-1;
+  padding-bottom: $sp-2;
+  padding-left: $sp-1;
 }
