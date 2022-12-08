@@ -62,15 +62,15 @@ Recommendations: Disable Bitdefender during Wabbajack install. Apply the followi
 ---
 
 
- ### Norton
- If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure  [these settings](https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/) to exclude a URL or domain rom monitoring URL: https://github.com/Wildlander-mod/Launcher/releases. Please note - Support are not able to assist you in how to apply these settings - we dont have Norton installed.
+### Norton
+If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure  [these settings](https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/) to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases. Please note - Support are not able to assist you in how to apply these settings - we dont have Norton installed.
 
  If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall Norton. Your only method of playing Wildlander would be to use Mod organizer to launch and manually install the ENB in the stock game folder.
 
 ----
 
- ### Avast
- Is known to flag launcher as a false positive for spy-ware. Our launcher is open source, you can check for yourself that it is free of spy-ware. As Avast is known to be Spy-ware in its own right and sensible people un-installed this years ago. Even stock windows offers better protection, without selling your Internet browsing history to the highest bidder.  [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users)
+### Avast
+Is known to flag launcher as a false positive for spy-ware. Our launcher is open source, you can check for yourself that it is free of spy-ware. As Avast is known to be Spy-ware in its own right and sensible people un-installed this years ago. Even stock windows offers better protection, without selling your Internet browsing history to the highest bidder.  [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users)
 
  Should you wish to keep using Avast.
  
