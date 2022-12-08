@@ -25,14 +25,15 @@ Campfire Type|	Materials|	Duration|	Benefits|
 |--|--|--|--|
 Starting Campfire|	2 Branches, Kindling, or Ruined Books, Tinder|	1 Hour|	Access "Skills"|
 Flickering Campfire|	4 Branches, Kindling, or Ruined Books|	3 Hours|	Cook meat directly on campfire , use Cooking Pot|
-Crackling Campfire|	6 Deadwood or 4 Firewood|	6 Hours|	"Uplifted" - All skills improve 3% faster for 6 hours.|
-Roaring Campfire|	6 Deadwood or 4 Firewood|	12 Hours|	"Inspired" - All skills improve 5% faster for 6 hours.|
+Crackling Campfire|	6 Deadwood or 4 Wood|	6 Hours|	"Uplifted" - All skills improve 3% faster for 6 hours.|
+Roaring Campfire|	6 Deadwood or 4 Wood|	12 Hours|	"Inspired" - All skills improve 5% faster for 6 hours.|
 
 Campfires can be put out. If there was any unspent fuel before the campfire was put out, it will be given to you when you click on the campfire again.
 
 ---
 
 ### Fuel
+
 The starting fuels for a campfire are branches, kindling, or ruined books.
 
 Kindling can be crafted from player crafting from most wooden objects, or from deadwood you find while Foraging
@@ -57,7 +58,7 @@ Dwarven Oil	|1 sec	|14 sec
 Lantern Oil |	1 sec	|14 sec
 
 
-{: .save}
+{: .advice}
 > The time to light a campfire in all weather conditions can be improved with the Firecraft Camping perk if using Strike Stone, or the Destruction skill if using magic.
 
 {: .highlight }

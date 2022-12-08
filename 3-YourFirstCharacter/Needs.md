@@ -26,7 +26,7 @@ Falling into a lake or getting caught in a blizzard can spell doom for the unpre
 1. **Armor or clothing in every slot.** Clothing and armor increase your Warmth and Coverage ratings, which reduce exposure. Wear something in your head, body, hands, and feet slots.
 1. **Wield a torch, eat soups and stews, Eat Full meals.** Grants small bonuses to Warmth.
 1. **Frost Resistance.** Grants a bonus to Warmth. (This means that Nords start the game with a slightly higher Warmth Rating than others.)
-1. **Endurance perks.** Accessible from any built campfire, Endurance skill perks can enhance your ability to survive in various circumstances. See the [Endurance Skill]() for more information.
+1. **Endurance perks.** Accessible from any built campfire, Endurance skill perks can enhance your ability to survive in various circumstances. See the [Endurance Skill](camping.html#endurance-skill) for more information.
 1. **Keep an eye on the skies.** Rain will soak you, greatly increasing your rate of exposure. Blizzards can be swift and deadly.
 
 To warm up and dry off, build a fire (or find one in the world), or go inside. Many homes and inns have lit fireplaces. Simply stand in front of a fire and your exposure and wetness will quickly decrease.

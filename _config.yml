@@ -70,6 +70,8 @@ callouts:
   console:
     title: Console Commands
     color: green    
+  advice:
+    color: green    
   note:
     color: yellow
   warning:

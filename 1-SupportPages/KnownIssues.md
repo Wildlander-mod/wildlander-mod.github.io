@@ -34,11 +34,15 @@ Some may need to wait for the mods used in the back to be corrected.
 --- 
 # Getting asked to restart for the economy on a new game. DiD players * please read.
 
-This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because Skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new playthrough (hotkeys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
+{: .warning } 
+> If you have played a character already and then exit to the main menu, do not attempt to start a new character in the same session. Instead, quit entirely out of Skyrim and restart it from there. If you do not do so, the game will not operate properly and you will get errors such as 'please restart the economy,' or 'Honed Metal has crashed.'
+>
+> This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because Skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new play-through (hot-keys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
+>
+> Every time you want to start a new character, you should be closing and reopening Skyrim in its entirety.
+>
+> Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
 
-Every time you want to start a new character, you should be closing and reopening Skyrim in its entirety.
-
-Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
 
 ---
 # M/O 2 issues
