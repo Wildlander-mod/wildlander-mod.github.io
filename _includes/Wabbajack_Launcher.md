@@ -13,7 +13,7 @@ We recommend doing so anyway as Windows Defender is likely much better at stoppi
 
 For Specific issues with individual Antivirus software, Please see below.
 
-### Bitdefender
+#### Bitdefender
 
 {: .highlight}
 > It does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
@@ -35,7 +35,7 @@ OR
 1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe       
 
 {: .save}
->  ### Webroot
+>  #### Webroot
 >  Webroot Anti-virus is completely incompatible with the .net Crash logging mod we use in the pack. It will cause a crash on Startup. 
 >
 >  To play, you need to shut down the anti-virus completely from the system tray. 
@@ -45,7 +45,7 @@ OR
 > ![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
 
 {: .save}
-> ### McAfee Antivirus.
+> #### McAfee Antivirus.
 >
 > It is known to cause a corruption in the Skyrim downgrade during installation process from wabbajack
 
@@ -55,7 +55,7 @@ OR
 1. you should now be able to launch.
 
 {: .save}
-> ### Norton
+> #### Norton
 > If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure  [these settings](https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/) to exclude a URL or domain from monitoring URL: https://github.com/Wildlander-mod/Launcher/releases. Please note - Support are not able to assist you in how to apply these settings - we dont have Norton installed.
 >
 > If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall Norton. Your only method of playing Wildlander would be to use Mod organizer to launch and manually install the ENB in the stock game folder.
@@ -63,7 +63,7 @@ OR
 
 
 {: .save}
-> ### Avast
+> #### Avast
 > Is known to flag launcher as a false positive for spyware. Our launcher is open source, you can check for yourself that it is free of spyware. As Avast is known to be Spyware in its own right and sensible people uninstalled this years ago. Even stock windows offers better protection, without selling your internet browsing history to the highest bidder.  [Source](https://antivirus-review.com/blog/avast-programs-spy-on-their-users)
 >
 > Should you wish to keep using Avast.
