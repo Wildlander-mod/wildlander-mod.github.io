@@ -39,7 +39,7 @@ To report a bug – First query with support, as it might have already been repo
 
 ### Save Advice
 
-{: .note}
+{: .important}
 >
 > When you load your save file, wait at least a minute before saving again. Some scripts will break if you save too soon after loading.
 >  

@@ -233,8 +233,7 @@ Happens if you switch gender using showracemenu.
 
 Simple fix - switch gender back.
 
-{: .advice } 
-> **complex fix**
+{: .alternative } 
 >
 > using [ReSaver from FallrimTools](https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files)
 >

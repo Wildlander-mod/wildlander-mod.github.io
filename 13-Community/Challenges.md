@@ -33,7 +33,7 @@ Congratulations you are now ready to experience the world of Skyrim as its peopl
 3. Only save at the start of each day, after waking up.
 
 {: .note}
-**Note:** This challenge was intended to be played alongside DamnPeasants’s own challenge, to create a truly miserable experience. Being the dragonborn is optional, but for true serfdom, pick non-dragonborn.
+> This challenge was intended to be played alongside DamnPeasants’s own challenge, to create a truly miserable experience. Being the dragonborn is optional, but for true serfdom, pick non-dragonborn.
 
 --- 
 

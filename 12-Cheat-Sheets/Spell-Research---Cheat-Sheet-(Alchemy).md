@@ -109,9 +109,12 @@ Each ingredient has two Strengths of Solutions which can be generated
 * The item Effect Solutions received depend on the Archetype appearing on more than one item effect for a Ingredient
 * The Strength of the potions for Effects is calculation based on the total magnitude and total durations of the effects.
 
+
+ Strength  = ((Sum of effect Magnitudes / (10)) + (Sum of effect Durations/(300)))
+ 
 {: .note}
-> Strength  = ((Sum of effect Magnitudes / (10)) + (Sum of effect Durations/(300)))
-? **Note:** If the Strength of the potion is greater than 5 - you get no solutions for the Effects.
+>
+> If the Strength of the potion is greater than 5 - you get no solutions for the Effects.
 
 **Ingredient characteristics**
 * The item characteristics are Solutions items defined in the import script - you will always get every one of these

@@ -94,7 +94,7 @@ If updating from 1.0 - you will need a new game. If updating from 1.1 or 1.1.0.1
 
 # V1.1.0 - release 20/06/22
 
-{: .highlight } NOT SAVE COMPATIBLE. Will require a new game.
+{: .warning } NOT SAVE COMPATIBLE. Will require a new game.
 
 ## Highlights  
 

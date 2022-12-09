@@ -58,7 +58,7 @@ Dwarven Oil	|1 sec	|14 sec
 Lantern Oil |	1 sec	|14 sec
 
 
-{: .advice}
+{: .hint}
 > The time to light a campfire in all weather conditions can be improved with the Firecraft Camping perk if using Strike Stone, or the Destruction skill if using magic.
 
 {: .highlight }
@@ -231,11 +231,10 @@ After lighting your campfire, select “Skills”, and select one of the torchbu
   </tr>
 </tbody></table>
 
-Notes
-
-* Time spent near fires, inside a tent, using Inner Fire, and otherwise in shelter will not contribute toward your Endurance skill.
-* Gaining more exposure will not cause your Endurance skill to advance faster; it is advanced strictly based on time spent surviving the elements.
-* You can respec your points at any time by accessing the SkyUI MCM and selecting Advanced > Endurance Skill > Respec Perks.
+{: .hint}
+> * Time spent near fires, inside a tent, using Inner Fire, and otherwise in shelter will not contribute toward your Endurance skill.
+> * Gaining more exposure will not cause your Endurance skill to advance faster; it is advanced strictly based on time spent surviving the elements.
+> * You can respec your points at any time by accessing the SkyUI MCM and selecting Advanced > Endurance Skill > Respec Perks.
 
 
 ### Survival Tree

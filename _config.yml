@@ -64,15 +64,23 @@ callouts:
   important:
     title: Important
     color: yellow
-  new:
+  logfile:
     title: Log Section
+    color: green
+  iniSetting:
+    title: INI Setting
+    color: green
+  alternative:
+    title: Alternative
     color: green
   console:
     title: Console Commands
     color: green    
-  advice:
-    color: green    
+  hint:
+    title: Hint
+    color: green  
   note:
+    title: Note
     color: yellow
   warning:
     title: Warning

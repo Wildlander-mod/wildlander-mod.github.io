@@ -46,7 +46,7 @@ Crashlogs usually start with Unhandled native exception occurred at 0x7FF8C00004
 
 The clue for this crash is the below.
 
-{: .new}
+{: .logfile}
 > Possible relevant objects (2)
 >
 >{
@@ -132,21 +132,18 @@ In the example below you can see a Coffin object (may also be a burial Urn) - ea
 
 You will need to use a save cleaner and terminate the offending script (WIDeadBodyCleanupScript) causing the issue moving the NPC to the coffin.
 
-- using ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031/
+- using [ReSaver from FallrimTools](https://www.nexusmods.com/skyrimspecialedition/mods/5031/)
 - Loaded the savegame > Active Scripts > WIDeadBodyCleanupScript 
 - Located ScriptInstance: WIDeadBodyCleanupScript: *refID=DEFAULT: Followed by the NPC Reference id causing issues (if you don't know which NPC - its safe to remove all WIDeadBodyCleanupScript)
 - terminate the script
 
-{: .new}
+{: .logfile}
 > Possible relevant objects (5)
 >    
 >  [  24]    TESObjectREFR(FormId: 000DEFB5, File: `Skyrim.esm`, BaseForm: TESObjectCONT(Name: `Coffin`, FormId: 000F6891, File: `Requiem for the Indifferent.esp <- Requiem Record Fixes.esm <- Unofficial Skyrim Special Edition Patch.esp <- Skyrim.esm`))
 >  
 >  [  34]    TESObjectARMO(Name: `Wolfskin Cloak - Light Trimmed Black`, FormId: 76002348, File: `Requiem for the Indifferent.esp <- Wildlander.esp <- 1nivWICCloaks.esp`)
 
-
-{: .note}
-You may also be able to fix this by locating the coffin in the hall of the dead of the city where the NPC died and manually removing the offending item from the coffin
 
 ---
 
