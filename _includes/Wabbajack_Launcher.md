@@ -23,8 +23,7 @@ This error occurs when the winmgmt service is corrupt or crashed. It can be simp
 
 Open Command prompt and typing the following 3 commands
 
-{: .note}
->
+
 >net stop winmgmt (and y if prompted)
 >
 >Winmgmt /resetrepository 
