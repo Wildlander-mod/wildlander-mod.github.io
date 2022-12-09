@@ -6,7 +6,8 @@ description: Mod Suggestions Trello Board
 parent: Other Resources
 ---
 
-Direct Link:  https://trello.com/b/jQFlf7nY/suggested-mods
+[Direct Link](https://trello.com/b/jQFlf7nY/suggested-mods){: .btn .btn-pink }
+
 
 ### Trello Board
 
