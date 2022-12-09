@@ -38,7 +38,8 @@ If you've never touched the pagefile, try performing the following steps:
 5. If you have more than one drive, try enabling it for at least one more drive as a backup (make sure it has a decent bit of free space, like 15GB). Set the size to 'System managed size'.
 Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB (Minimum size can be set as your current usage).
 
-{: .important} The Pagefile is different to System Ram.
+{: .important} 
+> The Pagefile is different to System Ram.
 
 The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have DMA - they can't use System ram as a overflow) and it is also used like a staging area for assets from disk. Having 32/64 GB of System ram does not mean that you may not experience page file related issues.
 
