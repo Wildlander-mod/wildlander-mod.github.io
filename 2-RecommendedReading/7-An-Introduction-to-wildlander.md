@@ -13,7 +13,7 @@ One of the most common questions I get asked is "how difficult is Wildlander"
 
 For new players I say this Wildlander is intended to be a challenging experience, with several new mechanics which cannot be turned off or bypassed (low quality bows breaking for example). For completely new players who have never played a requiem based list before I say this.
 
-{: .highlight }
+{: .NoTitleGreen }
 > Imagine you, having just finished high school are magically picked up and dropped into skyrim.  You find at your feet a weapon, maybe some armor, a potion and a day's supply of food - that's how you start wildlander.  You don't have a clue how to use the weapon, wear the armor, cast a spell, mix a potion or even something as simple as making a fire.  You need to learn how to do everything. Waving a sword around at a wolf like a madman is only going to give you a sore arm and the wolf some lunch. 
 
 So the basic "rules"

@@ -18,5 +18,5 @@ TL;DR Autosaves are ok, but timing is what determines if they're safe or more li
 
 Should you want to turn them on against advice - they can be re-enabled By editing the INI files located in Game-files\Launcher\Graphics presets\Preset you play\Skyrimprefs.ini
 
-{: .note}
+{: .warning}
 Please note: Turning them on from in game will only apply for that session and will reset back to defaults next time you hit launch.

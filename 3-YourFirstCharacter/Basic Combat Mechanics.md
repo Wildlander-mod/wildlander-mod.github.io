@@ -50,8 +50,8 @@ Mudcrabs hunch up right before doing the power attack - if you see this it makes
 
 A single wolf will always retreat, focus your attacks rather than trying to kill all at once.
 
-{: .note}
-**Important note:** Any other types of the enemy not covered above have their strengths and weaknesses covered in the “Bestiary of Skyrim” (or in the Mechanic Analysis\Advanced Combat Mechanics section of this wiki). Some require specialist weapons or spells, others take less damage from certain types of damage, or have health regeneration.  
+{: .important}
+Any other types of the enemy not covered above have their strengths and weaknesses covered in the “Bestiary of Skyrim” (or in the Mechanic Analysis\Advanced Combat Mechanics section of this wiki). Some require specialist weapons or spells, others take less damage from certain types of damage, or have health regeneration.  
  
 ## Kill order and tactics
 The first thing I always think about is ranged enemies, and because of them, cover. Where are they now? Where will they go when I go behind this cover? How long can I stay behind that stone before the melees reach me and I have to move?

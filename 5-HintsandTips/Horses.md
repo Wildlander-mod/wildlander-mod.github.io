@@ -13,5 +13,5 @@ has_toc: true
     * Midnight is in a cave underneath Dragonsreach guarded by bandits - taking this one counts as stealing(although you almost never get a bounty for doing so).
 
 
-{: .note}
-**Important note:** You horse is not immortal by default, so if you plan on keeping one, make sure that you keep all of your loot in a crafted chest and you place this outside of any dungeon you plan on entering (as your horse can be killed while you are inside if you havent checked the area before entering)
+{: .important}
+You horse is not immortal by default, so if you plan on keeping one, make sure that you keep all of your loot in a crafted chest and you place this outside of any dungeon you plan on entering (as your horse can be killed while you are inside if you havent checked the area before entering)

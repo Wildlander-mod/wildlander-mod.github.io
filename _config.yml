@@ -85,5 +85,7 @@ callouts:
   warning:
     title: Warning
     color: red
-  save:
+  NoTitleYellow:
     color: yellow
+  NoTitleGreen:
+    color: Green

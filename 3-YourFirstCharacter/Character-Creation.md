@@ -55,7 +55,7 @@ descrption: Character creation - The Basics
 
 ## STANDING STONES
 
-{: .highlight}
+{: .warning}
 Once you take a stone from given group, you will become locked to that group. For example, after taking Warrior you will be able to change your stone only to Lady/Lord/Steed and not others.
 
 ## < The Warrior Group >

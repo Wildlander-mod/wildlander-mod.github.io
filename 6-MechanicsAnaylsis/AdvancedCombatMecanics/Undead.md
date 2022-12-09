@@ -293,7 +293,7 @@ In Requiem - these guys are various shades of "utter bastard"
 **Ghostly Priest**
 
 {: .note}
-**Note:** Does not have the shared spells.
+Does not have the shared spells.
 
 *Resistances*
 

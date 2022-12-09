@@ -201,7 +201,7 @@ You can also buy 'Scrolls of Soul Gem Evocation' (mostly from Court Mages) that 
 You can craft Staves at the Forge, using Battlestaves and filled Soul Gems. Basic staves only require Enchanting skill level, while stronger staves require certain perks in Enchanting skill.
 
 {: .note}
-Note: You will need pre-filled Soul Gems, which means you can't use Soul Gems that you filled by yourself using Soul Trap effects. However, mods that edits how Soul Trapping works may fix this issue.
+You will need pre-filled Soul Gems, which means you can't use Soul Gems that you filled by yourself using Soul Trap effects. However, mods that edits how Soul Trapping works may fix this issue.
 	
 |Materiel| Recipe | Requirement|Applicable Spells|
 |--|--|--|--|

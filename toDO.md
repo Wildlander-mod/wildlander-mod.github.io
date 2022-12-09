@@ -11,8 +11,8 @@ If you wish to make contributions to the wiki - you can go to our support Github
 
 Select the type of submission you would like to make, Fill in the form as appropriate. You can also contact Lizzy or 3djustu on Discord.
 
-{: .note}
-**Please note:** Any Google sheets you provide must be set to share with anyone with the link so we can read it :)
+{: .important}
+Any Google sheets you provide must be set to share with anyone with the link so we can read it :)
 
 # To do list
 
@@ -20,7 +20,7 @@ Vampire lord - check and verify
 
 ---
 
-To each perk page - Any "none vanilla" mechanics, Standardise Format (mostly done)
+To each perk page - Any "none vanilla" mechanics, Standardize Format (mostly done)
 
 ---
 

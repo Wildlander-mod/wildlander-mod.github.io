@@ -40,7 +40,7 @@ Furniture chests
 There is a skill available at a player constructed campfire which increases your carry weight permanently. Press "<" to build a campfire, Increase it in size unstil the skills menu appears when interacting with it. 
 
 {: .note}
-**Note:** this skill requires a Skill point, earned from taking care of yourself and has two levels.
+this skill requires a Skill point, earned from taking care of yourself and has two levels.
 
 # Horses
 

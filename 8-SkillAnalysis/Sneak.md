@@ -8,9 +8,13 @@ parent: Skill Analysis
 
 # --Mechanics --
 
-Unperked your odds of being detected are tripled, and therefore you are guarenteed to be detected. 
+Unperked your odds of being detected are tripled, and therefore you are guaranteed to be detected. 
 
 Wearing Heavy armor is the equivalent of trying to sneak up on someone while dragging a sack of cans behind you - Noisy and not going to happen.
+
+Lighting is much more important for staying hidden - Standing in front of / Near a fire in direct Line of sight to a enemy will cause you to be detected, as will wearing a lantern. 
+
+Running while in stealth at low levels will cause you to be detected, toggle walk and keep to the shadows.
 
 ## Sleeping Targets
 
@@ -65,7 +69,7 @@ Rank 1: Removes the penalty for sneaking, and adjusts your skill to behave as if
 Rank 2: Adjusts your skill to behave as if you had 35 extra points in it.
 
 {: .note}
-Note: Removes the penalty even if you are wearing heavy armor, but the increased odds to not become detected only apply if you are not wearing heavy armor. Higher ranks overwrite the lower ones.
+Removes the penalty even if you are wearing heavy armor, but the increased odds to not become detected only apply if you are not wearing heavy armor. Higher ranks overwrite the lower ones.
 
 ---
 
@@ -82,7 +86,7 @@ _Effects_:
 While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
 
 {: .note}
-Note: Does nothing to change your audible noise. 
+Does nothing to change your audible noise when spell casting or running. 
 
 ---
 
@@ -179,6 +183,6 @@ _Effects_:
 Against all targets, Crossbows and Bows will deal 200% more damage in sneak attacks, while everything else will deal 500% more damage.
 
 {: .note}
-Note: This overwrites the previous perk Anatomical Lore, an odd behavior considering most perks in requiem only normally do that when they are ranks in the same perk.
+This overwrites the previous perk Anatomical Lore, an odd behavior considering most perks in requiem only normally do that when they are ranks in the same perk.
 
 ---
