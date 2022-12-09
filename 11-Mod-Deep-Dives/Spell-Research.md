@@ -13,7 +13,7 @@ Spell Research can be somewhat intimidating to new players, so I thought I would
 
 You may also find this video tutorial useful.
 
-<iframe class="youtube_video" src="http://www.youtube.com/watch?v=KDunu-3Q1Lc" allowfullscreen="1" frameborder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KDunu-3Q1Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here are several things you can do with this mod:
 
