@@ -9,7 +9,11 @@ description: Spell Research
 
 This page was taken from the Ultimate Skyrim Reddit Sub and has been posted Verbatim .
 
-Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to[ u/Alexandregd](https://www.reddit.com/u/Alexandregd) for creating this very useful[ reference sheet](..\12-Cheat-Sheets\Spell-Research-Cheat-Sheet-(Spells).html), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. You may also find this[ video tutorial](https://youtu.be/KDunu-3Q1Lc) useful.
+Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to[ u/Alexandregd](https://www.reddit.com/u/Alexandregd) for creating this very useful[ reference sheet](..\12-Cheat-Sheets\Spell-Research-Cheat-Sheet-(Spells).html), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
+
+You may also find this video tutorial useful.
+
+<iframe class="youtube_video" src="https://youtu.be/KDunu-3Q1Lc" allowfullscreen="1" frameborder="0"></iframe>
 
 Here are several things you can do with this mod:
 
@@ -51,12 +55,9 @@ The magicka requirements for crafting tomes and scrolls are listed in the table 
 
 <table>
   <tr>
-   <td><strong>Tier</strong>
-   </td>
-   <td><strong>Spell Tomes</strong>
-   </td>
-   <td><strong>Scrolls</strong>
-   </td>
+   <th>Tier   </th>
+   <th>Spell Tomes   </th>
+   <th>Scrolls   </th>
   </tr>
   <tr>
    <td>Novice / Fundamental
