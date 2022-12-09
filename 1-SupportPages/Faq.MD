@@ -253,7 +253,7 @@ Then go to Mod Configuration Menu and Skyrim. From there you can use 'Skyrim Unb
 
 If you are unable to hear most of the combat sounds such as sword swings, spell useage (ex: flame, heal, etc.), opening a container, footsteps, etc but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance:
 
-If you are willing to customize (and know how to use mod organizer to install mods) https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description may fix the issue.
+If you are willing to customize (and know how to use mod organizer to install mods) [Latge Sector fix](https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description) may fix the issue.
 
 If not check first to see if your Skyrim install is in the 'C' drive (C:). Installing Skyrim outside the C: has been known to cause this issue. If you do not want to reinstall the game to C:, a quick fix originally posted by Kepache may be attempted:
 

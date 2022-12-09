@@ -24,9 +24,9 @@ List of basic resistances used in Skyrim.
 |Magic |	 	90%
 
 About AR (Armor Resistance) Values
-  -  1 point reduces incoming physical damage by 0.1%. So 800 AR will reach the 80% cap when not considering Armor Penetration.
-  -  1 point of Armor Penetration (AP) effectively reduces target AR by 1%. This means striking target with 500 AR with 10 AP makes the effective AR 450, making the target take 45% reduced damage not 50%.
-  -  The AR cap applies after applying AP.
+-  1 point reduces incoming physical damage by 0.1%. So 800 AR will reach the 80% cap when not considering Armor Penetration.
+-  1 point of Armor Penetration (AP) effectively reduces target AR by 1%. This means striking target with 500 AR with 10 AP makes the effective AR 450, making the target take 45% reduced damage not 50%.
+-  The AR cap applies after applying AP.
 
 About AP (Armor Penetration) Values
 Melee attacks and ranged attacks can penetrate armor, which reduces the effective armor rating and thus damage reduction of the target.

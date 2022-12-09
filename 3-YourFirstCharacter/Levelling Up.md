@@ -59,7 +59,7 @@ When you get any of your needs to their max value, your survival skill will incr
 
 Processing dead animals levels this skill up.
 
-***
+---
 # None combat methods of training
 
 ## Skill books.
@@ -77,7 +77,8 @@ Once you have finished research, activate journal again to exist research mode. 
 You can "use" a training dummy to train with a wespon or spell equipted to train for a period of time. Then find a bed to sleep away your fatigue (1 hour of study, 2 hours of sleep)
 
 
-***
+---
+
 # I’ve finished training - Now what?
 
 Firstly - and always when in a major city - check the missive boards for quests which require “easy” kills (mudcrab, wolf or skeever parts are examples of such). You can also pick up quests for the easier item retrievals or dungeon cleans. Even if you’re not quite ready yet to take on the challenge or retrievals or clears you can pick them up as most don't have a time limit. 

@@ -20,7 +20,7 @@ For Caster characters, you dont escape either - Severe spell cost penalties appl
 
 There are tools in order to help you manage your stamina at lower level :
 
-    * Stews - 2 hours of stamina regeneration. Keep on on you at all times. (Apple Cabbage Stew for a quick and cheap to obtain , 1 Salt, 1 Red Apple, 1 Cabbage, 1 Bottled Water)
-    * Bestial stew : 3 stamina / sec for strong stomach race. It's a huge advantage at low levels.
-    * Stamina Potion are pretty rare. But easy to brew if you have alchemy.
-    * Raw Ingredients : some of them can be eat in combat for 1stam/sec or 2stam/sec
+* Stews - 2 hours of stamina regeneration. Keep on on you at all times. (Apple Cabbage Stew for a quick and cheap to obtain , 1 Salt, 1 Red Apple, 1 Cabbage, 1 Bottled Water)
+* Bestial stew : 3 stamina / sec for strong stomach race. It's a huge advantage at low levels.
+* Stamina Potion are pretty rare. But easy to brew if you have alchemy.
+* Raw Ingredients : some of them can be eat in combat for 1stam/sec or 2stam/sec
