@@ -43,7 +43,7 @@ Otherwise, set a custom size for the drive it's currently on and increase the ma
 The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have DMA - they can't use System ram as a overflow) and it is also used like a staging area for assets from disk. Having 32/64 GB of System ram does not mean that you may not experience page file related issues.
 
 
-{% include Wabbajack_Launcher.md %}
+{% include Wabbajack_AV.md %}
 
 
 ## Suggestions for various GFX cards

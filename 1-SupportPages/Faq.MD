@@ -156,6 +156,9 @@ You can however safely move your download folder to another hard drive.
 ---
 # **Launcher Questions**
 
+{% include Wabbajack_AV.md %}
+
+
 {% include Wabbajack_Launcher.md %}
 
 ----

@@ -19,6 +19,9 @@ description: Launcher Issues and CTD's
 
 # Launcher Issues
 
+{% include Wabbajack_AV.md %}
+
+
 {% include Wabbajack_Launcher.md %}
 
 # Crashing while Playing
