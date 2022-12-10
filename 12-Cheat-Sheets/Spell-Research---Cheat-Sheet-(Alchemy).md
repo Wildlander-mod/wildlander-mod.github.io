@@ -86,7 +86,7 @@ There are a lot different kinds of liquids - one for each elemental archetype. T
 
 *Ranks* 
 
-Potions Equivilent | Suffix (weakest to strongest)
+Potions Equivalent | Suffix (weakest to strongest)
 -- | --
 Dilute | sa Haelia
 Weak | sa Goria
@@ -97,7 +97,7 @@ Concentrated | sa Sila
 
 Each one can be upgraded or downgraded using an alembic (Mix ingredients menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
-For example a liquid called Relleis sa Goria would be a medium strength water archtype liquid. Mixing 3 of these will produce Relleis sa Baume, and so on.
+For example a liquid called Relleis sa Goria would be a medium strength water archetype liquid. Mixing 3 of these will produce Relleis sa Baume, and so on.
 
 ## Ingredient 
 
@@ -118,13 +118,13 @@ Each ingredient has two Strengths of Solutions which can be generated
 
 **Ingredient characteristics**
 * The item characteristics are Solutions items defined in the import script - you will always get every one of these
-* Strength of the potions for characteristics is hardcoded
+* Strength of the potions for characteristics is hard-coded
 
 **Quantities**
 
 The number of solutions for each of the above is  1 + (random number of you your alchemy skill / 25)
 
-You will always get the same Solutions when you break down a materiel, just in differing quantities.
+You will always get the same Solutions when you break down a material, just in differing quantities.
 
 ## Potions
 
@@ -133,13 +133,13 @@ Solutions are calculated based on Potions effects
 * The Strength of the potions for Effects is a calculation 
 
         Strength  = Round(((Sum of effect Magnitudes / (Total number of effects * 25 )) + 
-                           (Sum of effect Durations/(Total number of effects * 120))))
+                             (Sum of effect Durations/(Total number of effects * 120))))
 
 E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one and 150 seconds for 15 magnitude
 
         Strength  = round((25 / (2 * 25 )) + (300s /(2 * 120)))
-                  = round(1.75) 
-                  = 2 - Gravia strength solutions
+                        = round(1.75) 
+                        = 2 - Gravia strength solutions
 
 
 **In Progress Effects and Ingredient Spreadsheet**
