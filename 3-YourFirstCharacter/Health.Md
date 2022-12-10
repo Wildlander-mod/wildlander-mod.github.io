@@ -29,11 +29,13 @@ Healing poultices are SLOW action healers, but heal for a lot. If you engage in 
 
 To Craft:- 
 
+```
 Requirements:-
 * Alchemy Lore (Rank 1) Perk or Craftmanship Perk.
 * 5 Medicinal Salve.
 * 1 Bandage.
 * Survivalists toolkit.
+```
 
 All items are crafted From the “Right Shift” craft menu.
 
