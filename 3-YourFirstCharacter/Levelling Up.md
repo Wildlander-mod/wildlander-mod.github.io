@@ -18,20 +18,89 @@ Wildlander is a deleveled world - The importance of understanding this can not b
 > If it kicks you in the teeth for the 20th time, it's above your paygrade. 
 
 Confronted with this, a lot of people ask what they are supposed to do on Lv 1-5, then. The answer is: anything. Save often, try to run from a fight when you start losing, hunt, chop wood, collect ingredients and mix potions, mine ore, craft stuff. Anything. As long as it gets you gold and/or level-ups do it! Following on from that - Training your skills and armor.
- 
-## Damage Skills
 
-For Melee , archers, or destruction mages - you can head to Whiterun and train on the training dummies at the Jorrvaskr in Whiterun, or to any town – most have dummies. Activate the Dummy and set how long you want to train for. Make sure you monitor your active effects and if you are too tired to train you won’t benefit from the experience. If you get too tired - sleep. 
- 
-## Magic
+## Vanilla Skills
 
-You can use the Research journal to research the spells you have equipped in your hands for “none offensive” spells e.g. conjuration’s spirit wolf. You will need a research journal in your inventory to do this. 
+Some skills will only increase when there is an active component associated with them:
 
-## Armor / Block
+* Sneak will only increase if you are within range of and are avoiding detection by an entity that would otherwise be aware of your presence, or escaping from one that has detected you. You do not need to move for the skill to increase, though completing actions that are more difficult will increase the skill faster, such as moving and, more notably, completing sneak attacks.
+* Pickpocketing increases proportionally to the total value of lifted goods, assuming you are not caught.
+* Lock-picking will gain a small increase for every broken pick, and a substantial increase that varies based on lock level versus skill and perk level for every successfully-picked lock. However, if you successfully pick a lock that you have picked before, there is no XP reward.
+* Smithing, Alchemy, and Enchanting give skill increases based on the value of the crafting.
 
-Running in armor will also slowly level it.  You can also use the time-honored requiem cheat of allowing slaughterfish to nibble on your toes.
 
-For block you can either study a block book, or actually use the skill - head to a nearby mud crab and hide behind your shield.
+### Physical XP
+
+The formula is (<Factor> * Skill Usage Multiplier)
+
+Factor is defined as
+* Weapons skills increase by a percentage of the damage done.
+* Armor skills increase by a percentage of the damage blocked, or by simply moving in the armor 
+* Block increases by a percentage of raw damage blocked, or by shield bashing.
+
+### Spell XP
+
+XP is calculated in general terms much the same as vanilla.
+
+The formula is (Base Magic Cost * Skill Usage Multiplier), but the Base Cost will either be the CK auto-calculated spell cost for the Magic Effects or the fixed Requiem spell cost, whichever is lower. It will not be reduced by any perks you have which affect magic costs or any armor you are wearing which increases the costs - it simply uses the base.
+
+So if in the CK a spell would cost 30 magicka when auto-calced, but Requiem makes it cost 200 magicka you only get the xp as if the cost was 30. It can also be limited the other way, so if a spell auto cost was 200, but Requiem had the manual cost as 50, you would only get 50 magicka as the cost for the calculation.
+
+Dual Casting does not increase XP gain.
+
+In some magic schools, your skills increase only due to the base magicka of the spell:
+
+```
+    Alteration
+    Conjuration (See Note below)
+    Illusion
+    Restoration (for non-healing, None-damaging spells E.g turn undead)
+```
+
+Notes:
+* Alteration derived from Detect Life will only increase if you are actually detecting life forms with the spell.
+
+For other magic schools, your skills increase based upon how much raw damage you cause/heal, on top of the magicka cost XP = % of Damage Done * Skill Usage Multiplier 
+
+* Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
+* Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat.
+
+
+For Conjuration
+
+When summoning creatures, you don't have to be engaged in combat at the time of casting to gain experience in Conjuration, as long as you encounter a hostile enemy before the summons vanishes.
+
+The quickest way to level up your conjuration is by getting the spell Bound Weapon, starting a fight (Mudcrabs are the best opponents for this), casting the spell (one or two hands), when hearing the sound which comes right after you've launched the spell, cancel (so you don't have to wait for the weapons to appear), repeat. Damage done by bound weapons increases the weapon's Skill - not Conjuration.
+
+Banishing your own summoned creatures grants experience. Banishing conjured familiars grant experience.
+
+### Skill Usage Table
+
+
+
+Skill	|Skill Use Mult	| Sources of XP/Notes|
+|--|--|--|
+Speech	|0.36	|1 base XP per gold used in transactions. 75 * Speech level base XP for passing Speech checks.
+Alchemy	|0.75	|1 base XP per gold value created. 1 additional base XP for each successfully created potion.
+Smithing	|1	|Please see [Crafting system - XP gain](http://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System.html#xp-gain)
+Destruction	|1.35	|Base Magicka Cost of the Spell. Damage inflicted †
+Restoration	|2	|base XP damage healed by healing spells. 1 base XP per Magicka used on non-healing spells.
+Conjuration	|2.1	|Base Magicka Cost of the Spell.
+Alteration	|3	|Base Magicka Cost of the Spell.
+Heavy Armor	|3.8	|1 base XP per raw damage received. Additional XP for moving while wearing armor 
+Evasion Armor	|4	|1 base XP per raw damage received. Additional XP for moving while wearing armor 
+Illusion	|4.6	|Base Magicka Cost of the Spell.
+Two-Handed	|5.95	|Base Weapon Damage
+One-Handed	|6.3	|Base Weapon Damage
+Block	8.1	|1 base XP per raw damage blocked. 5 base XP for a shield bash.
+Pickpocket	8.1	|1 base XP per gold value stolen.
+Archery (Marksman)	|9.3|	Base Weapon Damage of the Bow
+Sneak	|11.25	|2.5 base XP for becoming hidden within ~45 feet. 0.625 base XP per second hidden within ~45 feet. 30 base XP for a melee sneak attack. 2.5 base XP for a ranged sneak attack.
+Lockpicking	|45	|0.25 base XP for a broken pick. 2, 3, 5, 8, or 13 base XP for successfully picking a lock.
+Enchanting	|900	|1 base XP per item enchanted. 1 base XP per 400 enchantment gold value of items disenchanted. 0.05(Petty), 0.1(Lesser), 0.2(Common), 0.4(Greater), or 0.6(Grand) base XP for recharging a weapon.
+
+----
+
  
 ## Camping
 
@@ -47,7 +116,7 @@ Using the skill will level this up. Higher levels are able to specify what to lo
 
 Crafting is based on selling price, so anything crafted at a forge for low cost materiels, high sell price can level this. Smithing XP has diminishing returns so first craft will generate 3X base XP and second craft will generate 2X. You should always craft everything at least twice.
 
-## Endureance
+## Endurance
 
 Run around in cold area's to passivly leave this up.
 
@@ -101,5 +170,7 @@ In order of difficulty for starting content :-
 * Everything else.
  
 The final advice regarding early dungeons is that you should not attempt bleak falls barrow or any other draugr areas without decent tempered ‘silver’ weapons and perks in both of your armor and weapon at skill- level 50 at bare minimum! 
+
+
 
 
