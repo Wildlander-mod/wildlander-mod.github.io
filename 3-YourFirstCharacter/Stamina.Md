@@ -12,11 +12,11 @@ description: Stamina Management
 
 Stamina is one of the most important parts of combat - for all classes!
 
-For Melee/Archer characters  The new stamina system will change your gameplay even more. You will fall short if you hack and Slash or worse power attack too often. For a melee character low stamina is death penalty. When your stamina is below a certain threshold you start to be slow, you don't block effectivly anymore and your damage will drop a lot. If you run out - the enemies will knock your weapons clean our of you arms.
+For Melee/Archer characters  The new stamina system will change your game play even more. You will fall short if you hack and Slash or worse power attack too often. For a melee character low stamina is death penalty. When your stamina is below a certain threshold you start to be slow, you don't block effectively anymore and your damage will drop a lot. If you run out - the enemies will knock your weapons clean our of you arms.
 
 So don't sprint too much, don't attack too much, become a true warrior, observe and attack when you will hit.
 
-For Caster characters, you dont escape either - Severe spell cost penalties apply if you drop below 20% stamina and you will be slower at running, allowing your opponents to be able to catch and kill you.
+For Caster characters, you don't escape either - Severe spell cost penalties apply if you drop below 20% stamina and you will be slower at running, allowing your opponents to be able to catch and kill you.
 
 There are tools in order to help you manage your stamina at lower level :
 

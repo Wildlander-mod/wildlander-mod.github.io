@@ -26,7 +26,7 @@ description: Launcher Issues and CTD's
 
 # Crashing while Playing
 
-Skyrin with wildlander creates crashlogs. You can access these crashlogs by using the button on the advanced page of the launcher. 
+Skyrim with Wildlander creates crash-logs. You can access these crash-logs by using the button on the advanced page of the launcher. 
 
 The first line of the Crash indicates the Crash code - and the process which crashes. E.g 
 * Unhandled native exception occurred at 0x7FFEF914CE66 (skse64_1_5_97.dll+5CE66) on thread 7360!
@@ -37,15 +37,15 @@ The first line of the Crash indicates the Crash code - and the process which cra
 ![image](https://user-images.githubusercontent.com/26418143/184343479-0bbafd85-3e81-4411-8c0b-dff9620de663.png)
 
 
-If your crash isn't listed here - you can raise a issue on this github attaching your crash log.
+If your crash isn't listed here - you can raise a issue on this git-hub attaching your crash log.
 
 ## Any Crash related to atidxx64.dll Or nvwgf2umx.dll
 
-This crash is associated with your Graphics card drivers. Make sure they are up to date. If that doesn't work, try updating your windows drivers. Some have also said this can occur if you P.C doesn't fill out all the requirements needed to run Skyrim(P.C too weaksauce). Only assume this after trying out all stated options.
+This crash is associated with your Graphics card drivers. Make sure they are up to date. If that doesn't work, try updating your windows drivers. Some have also said this can occur if you P.C doesn't fill out all the requirements needed to run Skyrim(P.C too weak-sauce). Only assume this after trying out all stated options.
 
 ## Crash to Desktop on save when using the BitDefender Antivirus.
 
-Crashlogs usually start with Unhandled native exception occurred at 0x7FF8C00004FA (other numbers may occur) ! But no "Skyrim.exe Crash code"
+Crash-logs usually start with Unhandled native exception occurred at 0x7FF8C00004FA (other numbers may occur) ! But no "Skyrim.exe Crash code"
 
 The clue for this crash is the below.
 
@@ -72,15 +72,15 @@ OR
 ---
 ## Crash to Desktop when entering a building or on "finalising setup" Error code fiss.dll+4481 or SkyrimSE.exe+D6DDDA (Stack: BSResource::anonymous_namespace::LooseFileStream* OR BSResource::ArchiveStream* OR BSResource::CompressedArchiveStream** mentioned somewhere)
 
-Generally caused by your Pagefile running out.
+Generally caused by your Page-file running out.
 
-Bigger Skyrim modlists need a lot of memory, and when there is not enough available it may fail allocating more. To fix this, you'll want to have a bigger pagefile.
+Bigger Skyrim mod lists need a lot of memory, and when there is not enough available it may fail allocating more. To fix this, you'll want to have a bigger page-file.
 
-A pagefile is a file on your disk Windows will use when there is not enough RAM available.
+A page-file is a file on your disk Windows will use when there is not enough RAM available.
 
-Never disable the pagefile - this may lead to various issues on your system, such as this Skyrim crash.
+Never disable the page-file - this may lead to various issues on your system, such as this Skyrim crash.
 
-If you've never touched the pagefile, try performing the following steps:
+If you've never touched the page-file, try performing the following steps:
 1. Press Windows + R on your keyboard and enter sysdm.cpl ,3
 2. Under the Performance section, press 'Settings'
 3. Go to the Advanced tab at the top, and at the Virtual memory section press 'Change...'
@@ -88,12 +88,15 @@ If you've never touched the pagefile, try performing the following steps:
 5. a) If you have more than one drive, try enabling it for at least one more drive as a backup (make sure it has a decent bit of free space, like 15GB). Set the size to 'System managed size'.
 
    b) Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB.
+   
+   
+This Error can also be caused by a corrupt nif/DDS file. If adding a page file doesn't resolve, then look through the logfiles' stack section for Meshes or Textures. Search your PC for that file. Delete the Mod that texture is located in and the zip file for the mod that the file came from. Then reinstall from Wabbajack.
 
 ---
 
 ## When using a crossbow for the first time Crash code SkyrimSE.exe+7BEC84  (only affects Version 1.0)
 
- - The crossbow mod needs to initialise and cannot do this while in combat causing the CTD. 
+ - The crossbow mod needs to initialize and cannot do this while in combat causing the CTD. 
 
 Fix: When you get your crossbow - equip and unsheathe it right away (unless you obtain while in combat).
 
@@ -118,7 +121,7 @@ Fix: Use the following console commands to make him go away.
 ---
 ## Crash on save with crash code (skse64_1_5_97.dll+5CE66)
 
-Fortunately rare - This is under investigation - but believed to be caused by saving while some form of headtracking is in use (E.g Lock on in True directional movement).
+Fortunately rare - but believed to be caused by saving while some form of head-tracking is in use (E.g Lock on in True directional movement).
 
 ---
 ## Crash on trying to edit Iequip SkyrimSE.exe+C28C8B
@@ -159,10 +162,9 @@ Fix: none, however avoiding the area where the crash occurred for 24 hours norma
 ---
 ### Honed Metal Random Crash (SkyrimSE.exe+DDB796)
 
-This we believe to be caused by scrolling though the honed metal blacksmith menu too quickly, causing skyrim to fail to load item previews.
+This we believe to be caused by scrolling though the honed metal blacksmith menu too quickly, causing Skyrim to fail to load item previews.
 
 This typically happens around the Saddle's - we are not sure if this is the cause or just a co-incidence.
-
 
 ---
 
@@ -182,7 +184,7 @@ Symptom: cant load any save after the initial load into the game (attempting cau
 
 Only solution is to roll back saves until you find one which works correctly.
 
-Recommendations to reduce chance of issue occuring
+Recommendations to reduce chance of issue occurring
 * Don't save more than one a minute
 * Never save in combat
 * Avoid saving right after entering a building/cave/dungeon. 
