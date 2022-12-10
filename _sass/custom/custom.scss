@@ -55,11 +55,22 @@ td {
   padding-left: $sp-1;
 }
 
+code {
+    white-space : pre-wrap !important;
+    word-break: break-word;
+    background-color:#50098A;
+    color: #ffffff;
+    font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
+    font-size:inherit;
+}
+
 pre {
     white-space : pre-wrap !important;
     word-break: break-word;
     background-color:#50098A;
     color: #ffffff;
+    font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
+    font-size:inherit;
 }
 
 .highlight pre {
@@ -67,4 +78,6 @@ pre {
     white-space : pre-wrap !important;
     word-break: break-word;
     color: #ffffff;
+    font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
+    font-size:inherit;
 }
