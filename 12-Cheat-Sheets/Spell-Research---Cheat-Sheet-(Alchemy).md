@@ -138,8 +138,8 @@ Solutions are calculated based on Potions effects
 E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one and 150 seconds for 15 magnitude
 
         Strength  = round((25 / (2 * 25 )) + (300s /(2 * 120)))
-                        = round(1.75) 
-                        = 2 - Gravia strength solutions
+                         = round(1.75) 
+                         = 2 - Gravia strength solutions
 
 
 **In Progress Effects and Ingredient Spreadsheet**
