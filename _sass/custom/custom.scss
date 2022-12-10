@@ -62,7 +62,9 @@ pre {
     color: #ffffff;
 }
 
-highlight pre {
+.highlight pre {
     background-color:#50098A;
+    white-space : pre-wrap !important;
+    word-break: break-word;
     color: #ffffff;
 }
