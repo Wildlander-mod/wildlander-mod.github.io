@@ -19,6 +19,8 @@ Wildlander is a deleveled world - The importance of understanding this can not b
 
 Confronted with this, a lot of people ask what they are supposed to do on Lv 1-5, then. The answer is: anything. Save often, try to run from a fight when you start losing, hunt, chop wood, collect ingredients and mix potions, mine ore, craft stuff. Anything. As long as it gets you gold and/or level-ups do it! Following on from that - Training your skills and armor.
 
+---
+
 ## Vanilla Skills
 
 Some skills will only increase when there is an active component associated with them:
@@ -28,6 +30,7 @@ Some skills will only increase when there is an active component associated with
 * Lock-picking will gain a small increase for every broken pick, and a substantial increase that varies based on lock level versus skill and perk level for every successfully-picked lock. However, if you successfully pick a lock that you have picked before, there is no XP reward (with the exception to training chests in thieves guild).
 * Smithing, Alchemy, and Enchanting give skill increases based on the value of the crafting.
 
+---
 
 ### Physical XP
 
@@ -37,6 +40,8 @@ Factor is defined as:-
 * Weapons skills increase by a percentage of the damage done.
 * Armor skills increase by a percentage of the damage blocked, or by simply moving in the armor 
 * Block increases by a percentage of raw damage blocked, or by shield bashing.
+
+---
 
 ### Spell XP
 
@@ -67,11 +72,11 @@ Restoration will only increase if it is replenishing lost life (with a few excep
 
 #### Additional Notes
 
-For Alteration
+##### For Alteration
 
 Alteration derived from Detect Life will only increase if you are actually detecting life forms with the spell.
 
-For Conjuration
+##### For Conjuration
 
 When summoning creatures, you don't have to be engaged in combat at the time of casting to gain experience in Conjuration, as long as you encounter a hostile enemy before the summons vanishes.
 
@@ -79,9 +84,9 @@ The quickest way to level up your conjuration is by getting the spell Bound Weap
 
 Banishing your own summoned creatures grants experience. Banishing conjured familiars grant experience.
 
+---
+
 ### Skill Usage Table
-
-
 
 Skill	|Skill Use Mult	| Sources of XP/Notes|
 |--|--|--|
