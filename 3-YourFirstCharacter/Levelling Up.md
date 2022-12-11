@@ -25,15 +25,15 @@ Some skills will only increase when there is an active component associated with
 
 * Sneak will only increase if you are within range of and are avoiding detection by an entity that would otherwise be aware of your presence, or escaping from one that has detected you. You do not need to move for the skill to increase, though completing actions that are more difficult will increase the skill faster, such as moving and, more notably, completing sneak attacks.
 * Pickpocketing increases proportionally to the total value of lifted goods, assuming you are not caught.
-* Lock-picking will gain a small increase for every broken pick, and a substantial increase that varies based on lock level versus skill and perk level for every successfully-picked lock. However, if you successfully pick a lock that you have picked before, there is no XP reward.
+* Lock-picking will gain a small increase for every broken pick, and a substantial increase that varies based on lock level versus skill and perk level for every successfully-picked lock. However, if you successfully pick a lock that you have picked before, there is no XP reward (with the exception to training chests in thieves guild).
 * Smithing, Alchemy, and Enchanting give skill increases based on the value of the crafting.
 
 
 ### Physical XP
 
-The formula is (<Factor> * Skill Usage Multiplier)
+The formula is ( Factor * Skill Usage Multiplier)
 
-Factor is defined as
+Factor is defined as:-
 * Weapons skills increase by a percentage of the damage done.
 * Armor skills increase by a percentage of the damage blocked, or by simply moving in the armor 
 * Block increases by a percentage of raw damage blocked, or by shield bashing.
@@ -57,14 +57,19 @@ In some magic schools, your skills increase only due to the base magicka of the 
     Restoration (for non-healing, None-damaging spells E.g turn undead)
 ```
 
-Notes:
-* Alteration derived from Detect Life will only increase if you are actually detecting life forms with the spell.
 
 For other magic schools, your skills increase based upon how much raw damage you cause/heal, on top of the magicka cost XP = % of Damage Done * Skill Usage Multiplier 
 
-* Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
-* Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat.
+```
+Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
+Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat.
+```
 
+#### Additional Notes
+
+For Alteration
+
+Alteration derived from Detect Life will only increase if you are actually detecting life forms with the spell.
 
 For Conjuration
 
@@ -92,8 +97,8 @@ Evasion Armor	|4	|1 base XP per raw damage received. Additional XP for moving wh
 Illusion	|4.6	|Base Magicka Cost of the Spell.
 Two-Handed	|5.95	|Base Weapon Damage
 One-Handed	|6.3	|Base Weapon Damage
-Block	8.1	|1 base XP per raw damage blocked. 5 base XP for a shield bash.
-Pickpocket	8.1	|1 base XP per gold value stolen.
+Block	|8.1	|1 base XP per raw damage blocked. 5 base XP for a shield bash.
+Pickpocket	|8.1	|1 base XP per gold value stolen.
 Archery (Marksman)	|9.3|	Base Weapon Damage of the Bow
 Sneak	|11.25	|2.5 base XP for becoming hidden within ~45 feet. 0.625 base XP per second hidden within ~45 feet. 30 base XP for a melee sneak attack. 2.5 base XP for a ranged sneak attack.
 Lockpicking	|45	|0.25 base XP for a broken pick. 2, 3, 5, 8, or 13 base XP for successfully picking a lock.
