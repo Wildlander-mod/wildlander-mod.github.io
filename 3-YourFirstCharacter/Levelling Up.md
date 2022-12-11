@@ -58,16 +58,18 @@ In some magic schools, your skills increase only due to the base magicka of the 
 ```
     Alteration
     Conjuration (See Note below)
-    Illusion
     Restoration (for non-healing, None-damaging spells E.g turn undead)
 ```
+
+Illusion will gain XP for targeted spells depending on the target, the higher the level, and the longer you keep the spell on a target the more XP you'll gain. Also XP are granted not per cast like in vanilla, but instead a continuous stream of XP while they remain active. For spells such as darkvision, this is as long you can keep the spell active though its upkeep. for mind control spells, this is as long as the target remains afflicted and doesnt break free.
 
 
 For other magic schools, your skills increase based upon how much raw damage you cause/heal, on top of the magicka cost XP = % of Damage Done * Skill Usage Multiplier 
 
 ```
-Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
-Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat.
+	Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
+	Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat. It will also increase when casting damaging Sun spells on undead targets
+	
 ```
 
 #### Additional Notes
@@ -99,7 +101,7 @@ Conjuration	|2.1	|Base Magicka Cost of the Spell.
 Alteration	|3	|Base Magicka Cost of the Spell.
 Heavy Armor	|3.8	|1 base XP per raw damage received. <br> Additional XP for moving while wearing armor 
 Evasion Armor	|4	|1 base XP per raw damage received. <br> Additional XP for moving while wearing armor 
-Illusion	|4.6	|Base Magicka Cost of the Spell.
+Illusion	|4.6	|Base Magicka Cost of the Spell. <br> how long you can warp the targets mind <br>  how resistant the target is to your magic
 Two-Handed	|5.95	|Base Weapon Damage
 One-Handed	|6.3	|Base Weapon Damage
 Block	|8.1	|1 base XP per raw damage blocked. <br> 5 base XP for a shield bash.
