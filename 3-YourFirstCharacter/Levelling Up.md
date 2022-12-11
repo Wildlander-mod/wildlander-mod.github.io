@@ -85,24 +85,24 @@ Banishing your own summoned creatures grants experience. Banishing conjured fami
 
 Skill	|Skill Use Mult	| Sources of XP/Notes|
 |--|--|--|
-Speech	|0.36	|1 base XP per gold used in transactions. 75 * Speech level base XP for passing Speech checks.
-Alchemy	|0.75	|1 base XP per gold value created. 1 additional base XP for each successfully created potion.
+Speech	|0.36	|1 base XP per gold used in transactions. <br> 75 * Speech level base XP for passing Speech checks.
+Alchemy	|0.75	|1 base XP per gold value created. <br> 1 additional base XP for each successfully created potion.
 Smithing	|1	|Please see [Crafting system - XP gain](http://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System.html#xp-gain)
-Destruction	|1.35	|Base Magicka Cost of the Spell. Damage inflicted †
-Restoration	|2	|base XP damage healed by healing spells. 1 base XP per Magicka used on non-healing spells.
+Destruction	|1.35	|Base Magicka Cost of the Spell. <br> Base XP Damage inflicted 
+Restoration	|2	|Base XP damage healed by healing spells. <br> 1 base XP per Magicka used on non-healing spells. <br> Base XP Damage inflicted when using Sun spells on Undead
 Conjuration	|2.1	|Base Magicka Cost of the Spell.
 Alteration	|3	|Base Magicka Cost of the Spell.
-Heavy Armor	|3.8	|1 base XP per raw damage received. Additional XP for moving while wearing armor 
-Evasion Armor	|4	|1 base XP per raw damage received. Additional XP for moving while wearing armor 
+Heavy Armor	|3.8	|1 base XP per raw damage received. <br> Additional XP for moving while wearing armor 
+Evasion Armor	|4	|1 base XP per raw damage received. <br> Additional XP for moving while wearing armor 
 Illusion	|4.6	|Base Magicka Cost of the Spell.
 Two-Handed	|5.95	|Base Weapon Damage
 One-Handed	|6.3	|Base Weapon Damage
-Block	|8.1	|1 base XP per raw damage blocked. 5 base XP for a shield bash.
+Block	|8.1	|1 base XP per raw damage blocked. <br> 5 base XP for a shield bash.
 Pickpocket	|8.1	|1 base XP per gold value stolen.
 Archery (Marksman)	|9.3|	Base Weapon Damage of the Bow
-Sneak	|11.25	|2.5 base XP for becoming hidden within ~45 feet. 0.625 base XP per second hidden within ~45 feet. 30 base XP for a melee sneak attack. 2.5 base XP for a ranged sneak attack.
-Lockpicking	|45	|0.25 base XP for a broken pick. 2, 3, 5, 8, or 13 base XP for successfully picking a lock.
-Enchanting	|900	|1 base XP per item enchanted. 1 base XP per 400 enchantment gold value of items disenchanted. 0.05(Petty), 0.1(Lesser), 0.2(Common), 0.4(Greater), or 0.6(Grand) base XP for recharging a weapon.
+Sneak	|11.25	|2.5 base XP for becoming hidden within ~45 feet. <br> 0.625 base XP per second hidden within ~45 feet. <br> 30 base XP for a melee sneak attack. <br> 2.5 base XP for a ranged sneak attack.
+Lockpicking	|45	|0.25 base XP for a broken pick. <br> 2, 3, 5, 8, or 13 base XP for successfully picking a lock.
+Enchanting	|900	|1 base XP per item enchanted. <br> 1 base XP per 400 enchantment gold value of items disenchanted. <br> 0.05(Petty), 0.1(Lesser), 0.2(Common), 0.4(Greater), or 0.6(Grand) base XP for recharging a weapon.
 
 ----
 
