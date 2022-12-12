@@ -271,7 +271,7 @@ Solstheim | Thirsk Mead Hall | Thirsk | Food, Trainer (Heavy armor - master), Bl
 Whiterun Hold |	Frostfruit Inn |	Rorikstead |	Food, Lodging, Bathing |	Owned by Mralki|Trapdoor on the left side of the bar
 Whiterun Hold |	Sleeping Giant Inn |	Riverwood 	|Food, Lodging, Bathing |	Owned by Delphine. |Trapdoor on the left side of the bar
 Whiterun Hold |	The Bannered Mare| 	The Plains District of Whiterun |	Food, Lodging, Bathing |	Owned by Hulda |  Trapdoor behind the bar
-Whiterun Hold |	The Drunken Huntsman |	The Plains District of Whiterun |	Food, Weapons, Armor, Bathing |	Owned by Elrindir| None.
+Whiterun Hold |	The Drunken Huntsman |	The Plains District of Whiterun |	Food, Weapons, Armor |	Owned by Elrindir| None.
 Winterhold |	The Frozen Hearth |	Winterhold |	Food, Lodging, Spells, Bathing 	|Owned by Haran| Trapdoor on the right side of the fireplace
 
 Note: all directions to the bathing room are relative to the entrance of the tavern.
