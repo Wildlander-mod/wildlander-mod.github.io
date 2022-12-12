@@ -32,7 +32,7 @@ Some skills will only increase when there is an active component associated with
 
 ---
 
-### Physical XP
+### Weapon/Block/Armor XP
 
 The formula is ( Factor * Skill Usage Multiplier)
 
@@ -45,25 +45,36 @@ Factor is defined as:-
 
 ### Spell XP
 
-XP is calculated in general terms much the same as vanilla.
+With the exception to Illusion spells, XP is calculated in general terms much the same as vanilla.
 
 ```
-The formula is (Base Magic Cost * Skill Usage Multiplier), but the Base Cost will either be the CK auto-calculated spell cost for the Magic Effects or the fixed Requiem spell cost, whichever is lower. It will not be reduced by any perks you have which affect magic costs or any armor you are wearing which increases the costs - it simply uses the base.
+For Targeted Spells from destruction and restorations trees, your skills increase based upon how much raw damage you cause/heal
+
+XP = (Base Magic Cost * Skill Usage Multiplier) + (% of Damage Done * Skill Usage Multiplier) 
+
+otherwise
+
+XP = (Base Magic Cost * Skill Usage Multiplier), 
+
+The Base Cost will either be the CK auto-calculated spell cost for the Magic Effects or the fixed Requiem spell cost, whichever is lower. It will not be reduced by any perks you have which affect magic costs or any armor you are wearing which increases the costs - it simply uses the base.
 ```
 
 Notes:
 * if in the CK a spell would cost 30 magicka when auto-calced, but Requiem makes it cost 200 magicka you only get the xp as if the cost was 30. It can also be limited the other way, so if a spell auto cost was 200, but Requiem had the manual cost as 50, you would only get 50 magicka as the cost for the calculation.
 * Dual Casting does not increase XP gain.
+* Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
+* Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat. It will also increase when casting damaging Sun spells on undead targets
+* The % of damage done is calculated at engine level and is identical to vanilla. I am unable to find a exact figure for this component.
+* Alteration derived from Detect Life will only increase if you are actually detecting life forms with the spell.
 
-In some magic schools, your skills increase only due to the base magicka of the spell:
+Notes - Conjuration:
+* When summoning creatures, you don't have to be engaged in combat at the time of casting to gain experience in Conjuration, as long as you encounter a hostile enemy before the summons vanishes.
+* The quickest way to level up your conjuration is by getting the spell Bound Weapon, starting a fight (Mudcrabs are the best opponents for this), casting the spell (one or two hands), when hearing the sound which comes right after you've launched the spell, cancel (so you don't have to wait for the weapons to appear), repeat. Damage done by bound weapons increases the weapon's Skill - not Conjuration.
+* Banishing your own summoned creatures grants experience. Banishing conjured familiars grant experience.
 
-```
-    Alteration
-    Conjuration (See Note below)
-    Restoration (for non-healing, None-damaging spells E.g turn undead)
-```
 
-Illusion will gain XP for targeted spells depending on the target, the higher the level, and the longer you keep the spell on a target the more XP you'll gain. Also XP are granted not per cast like in vanilla, but instead a continuous stream of XP while they remain active. For spells such as dark-vision, this is as long you can keep the spell active though its upkeep. for mind control spells, this is as long as the target remains afflicted and doesnt break free.
+
+Illusion on the other hand, will gain XP for targeted spells depending on the target, the higher the level, and the longer you keep the spell on a target the more XP you'll gain. Also XP are granted not per cast like in vanilla, but instead a continuous stream of XP while they remain active. For spells such as dark-vision, this is as long you can keep the spell active though its upkeep. for mind control spells, this is as long as the target remains afflicted and doesn't break free.
 
 ```
 For targeted spells
@@ -77,36 +88,6 @@ For passive Spells
 Notes:
 * The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](../6-MechanicsAnaylsis/Magic-Mechanics.html#resistance-versus-illusion-spells)
 * The field NPC Level is the NPC's level Divided by 10
-
-
-For Targeted Spells from destruction and restorations trees, your skills increase based upon how much raw damage you cause/heal
-
-```
-
-XP = (Base Magic Cost * Skill Usage Multiplier) + (% of Damage Done * Skill Usage Multiplier) 
-
-```
-
-Notes:
-* Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
-* Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat. It will also increase when casting damaging Sun spells on undead targets
-* The % of damage done is calculated at engine level and is identical to vanilla. I am unable to find a exact figure for this component.
-	
-```
-
-#### Additional Notes
-
-##### For Alteration
-
-Alteration derived from Detect Life will only increase if you are actually detecting life forms with the spell.
-
-##### For Conjuration
-
-When summoning creatures, you don't have to be engaged in combat at the time of casting to gain experience in Conjuration, as long as you encounter a hostile enemy before the summons vanishes.
-
-The quickest way to level up your conjuration is by getting the spell Bound Weapon, starting a fight (Mudcrabs are the best opponents for this), casting the spell (one or two hands), when hearing the sound which comes right after you've launched the spell, cancel (so you don't have to wait for the weapons to appear), repeat. Damage done by bound weapons increases the weapon's Skill - not Conjuration.
-
-Banishing your own summoned creatures grants experience. Banishing conjured familiars grant experience.
 
 ---
 
