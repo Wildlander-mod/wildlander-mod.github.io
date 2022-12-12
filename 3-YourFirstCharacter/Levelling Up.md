@@ -41,6 +41,9 @@ Factor is defined as:-
 * Armor skills increase by a percentage of the damage blocked, or by simply moving in the armor 
 * Block increases by a percentage of raw damage blocked, or by shield bashing.
 
+Note: 
+* The % of damage done is calculated at engine level and is identical to vanilla. I am unable to find a exact figure for this component.
+
 ---
 
 ### Spell XP
@@ -64,7 +67,6 @@ Notes:
 * Dual Casting does not increase XP gain.
 * Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
 * Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat. It will also increase when casting damaging Sun spells on undead targets
-* The % of damage done is calculated at engine level and is identical to vanilla. I am unable to find a exact figure for this component.
 * Alteration derived from Detect Life will only increase if you are actually detecting life forms with the spell.
 
 Notes - Conjuration:
