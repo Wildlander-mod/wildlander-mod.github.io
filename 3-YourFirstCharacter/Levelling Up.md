@@ -61,7 +61,7 @@ In some magic schools, your skills increase only due to the base magicka of the 
     Restoration (for non-healing, None-damaging spells E.g turn undead)
 ```
 
-Illusion will gain XP for targeted spells depending on the target, the higher the level, and the longer you keep the spell on a target the more XP you'll gain. Also XP are granted not per cast like in vanilla, but instead a continuous stream of XP while they remain active. For spells such as darkvision, this is as long you can keep the spell active though its upkeep. for mind control spells, this is as long as the target remains afflicted and doesnt break free.
+Illusion will gain XP for targeted spells depending on the target, the higher the level, and the longer you keep the spell on a target the more XP you'll gain. Also XP are granted not per cast like in vanilla, but instead a continuous stream of XP while they remain active. For spells such as dark-vision, this is as long you can keep the spell active though its upkeep. for mind control spells, this is as long as the target remains afflicted and doesnt break free.
 
 
 For other magic schools, your skills increase based upon how much raw damage you cause/heal, on top of the magicka cost XP = % of Damage Done * Skill Usage Multiplier 
@@ -126,11 +126,11 @@ Using the skill will level this up. Higher levels are able to specify what to lo
  
 ## Crafting 
 
-Crafting is based on selling price, so anything crafted at a forge for low cost materiels, high sell price can level this. Smithing XP has diminishing returns so first craft will generate 3X base XP and second craft will generate 2X. You should always craft everything at least twice.
+Crafting is based on selling price, so anything crafted at a forge for low cost materials, high sell price can level this. Smithing XP has diminishing returns so first craft will generate 3X base XP and second craft will generate 2X. You should always craft everything at least twice.
 
 ## Endurance
 
-Run around in cold area's to passivly leave this up.
+Run around in cold area's to passively leave this up.
 
 ## Survival
 
@@ -149,13 +149,17 @@ Skill books in your inventory can be studied. These will give you training for h
 
 ## Research
 
-Spell research journal will allow you to train up magic skills. Simply place a spell in either hand. Use the spell research journal. Select Research option. Wait for it to initialise, then you can either cast the spells or use the research book again to study them for a period of time.
+Spell research journal will allow you to train up magic skills. Simply place a spell in either hand. Use the spell research journal. Select Research option. Wait for it to initialize, then you can either cast the spells or use the research book again to study them for a period of time.
 
 Once you have finished research, activate journal again to exist research mode. Then find a bed to sleep away your fatigue (1 hour of study, 2 hours of sleep)
 
 ## Training dummies
 
-You can "use" a training dummy to train with a wespon or spell equipted to train for a period of time. Then find a bed to sleep away your fatigue (1 hour of study, 2 hours of sleep)
+You can "use" a training dummy to train with a weapon or spell equipped to train for a period of time. Then find a bed to sleep away your fatigue (1 hour of study, 2 hours of sleep)
+
+{: .hint }
+If your skill is at zero, it will not level via a book or a dummy unless you train the skill to level 1 at a trainer first.
+
 
 
 ---
@@ -164,7 +168,7 @@ You can "use" a training dummy to train with a wespon or spell equipted to train
 
 Firstly - and always when in a major city - check the missive boards for quests which require “easy” kills (mudcrab, wolf or skeever parts are examples of such). You can also pick up quests for the easier item retrievals or dungeon cleans. Even if you’re not quite ready yet to take on the challenge or retrievals or clears you can pick them up as most don't have a time limit. 
 
-Early on, scavenging from battles is an excellent way to get starter equipment, gold and smithing materials. If you run accross a big skermish between Imperials / Stormcloaks, stripsearch those battlefields and keep what you can use, disassemble or sell the rest.
+Early on, scavenging from battles is an excellent way to get starter equipment, gold and smithing materials. If you run across a big skirmish between Imperials / Stormcloaks, strip-search those battlefields and keep what you can use, disassemble or sell the rest.
  
 The next section covers combat tactics in detail, but once you have a few levels and more importantly perks under your belt you can start to pick off wildlife. A good place to start killing is in the Whiterun sewers where the first few rooms contain level 1 and 2 mudcrabs and a few skeevers - Be careful about venturing too deeply as there are a few surprises lurking. Once you're comfortable with whiterun sewers, you can venture to Markarth, solitude or windhelm which also have sewer systems. If you don't want to go north yet - then you can pick off the mudcrabs around the whiterun area, but this is significantly more dangerous with level 10+ sabercats/bears also in the area.
 
