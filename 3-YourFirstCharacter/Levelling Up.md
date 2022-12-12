@@ -47,11 +47,13 @@ Factor is defined as:-
 
 XP is calculated in general terms much the same as vanilla.
 
+```
 The formula is (Base Magic Cost * Skill Usage Multiplier), but the Base Cost will either be the CK auto-calculated spell cost for the Magic Effects or the fixed Requiem spell cost, whichever is lower. It will not be reduced by any perks you have which affect magic costs or any armor you are wearing which increases the costs - it simply uses the base.
+```
 
-So if in the CK a spell would cost 30 magicka when auto-calced, but Requiem makes it cost 200 magicka you only get the xp as if the cost was 30. It can also be limited the other way, so if a spell auto cost was 200, but Requiem had the manual cost as 50, you would only get 50 magicka as the cost for the calculation.
-
-Dual Casting does not increase XP gain.
+Notes:
+* if in the CK a spell would cost 30 magicka when auto-calced, but Requiem makes it cost 200 magicka you only get the xp as if the cost was 30. It can also be limited the other way, so if a spell auto cost was 200, but Requiem had the manual cost as 50, you would only get 50 magicka as the cost for the calculation.
+* Dual Casting does not increase XP gain.
 
 In some magic schools, your skills increase only due to the base magicka of the spell:
 
@@ -77,11 +79,18 @@ Notes:
 * The field NPC Level is the NPC's level Divided by 10
 
 
-For other magic schools, your skills increase based upon how much raw damage you cause/heal, on top of the magicka cost XP = % of Damage Done * Skill Usage Multiplier 
+For Targeted Spells from destruction and restorations trees, your skills increase based upon how much raw damage you cause/heal
 
 ```
-	Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
-	Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat. It will also increase when casting damaging Sun spells on undead targets
+
+XP = (Base Magic Cost * Skill Usage Multiplier) + (% of Damage Done * Skill Usage Multiplier) 
+
+```
+
+Notes:
+* Destruction from runes will only increase if the runes are triggered. Other Destruction spells require a valid target, either a creature or an NPC.
+* Restoration will only increase if it is replenishing lost life (with a few exceptions) and will level up faster when in combat. It will also increase when casting damaging Sun spells on undead targets
+* The % of damage done is calculated at engine level and is identical to vanilla. I am unable to find a exact figure for this component.
 	
 ```
 
