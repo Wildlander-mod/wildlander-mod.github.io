@@ -250,29 +250,29 @@ When using the bath, your player character will feel warmer & more relaxed.
 
 All soap baskets in Inn baths open a merchant container where you can buy some soap and sell yours.
 
-Region 	Name |	Location |	Services |	Details | Location of Bathroom
+Region |	Name |	Location |	Services |	Details | Location of Bathroom
 |--|--|--|--|--|
-Eastmarch |	Braidwood Inn |	In Kynesgrove 	|Food, Lodging 	Owned by Iddra| Trapdoor
-Eastmarch |	Candlehearth Hall| 	The center of Windhelm |	Food, Lodging 	Owned by Elda Early-Dawn| Trapdoor behind bar|
-Eastmarch |	New Gnisis Cornerclub|	The Gray Quarter of Windhelm 	|Food 	Owned by Ambarys Rendar. Frequented by Dunmer.| Door next to the bar
-Falkreath Hold |	Dead Man's Drink |	Falkreath 	|Food, Lodging 	Owned by Valga Vinicia| Trapdoor
-Haafingar |	Four Shields Tavern |	Dragon Bridge 	|Food, Lodging 	Owned by Faida| Trapdoor
-Haafingar |	The Winking Skeever |	Solitude 	|Food, Lodging 	Owned by Corpulus Vinius| Trapdoor
-Hjaalmarch |	Moorside Inn |	Morthal 	|Food, Lodging 	Owned by Jonna| Trapdoor
-The Pale |	Nightgate Inn |	The Pale 	|Food, Lodging 	Owned by Hadring| Door in basement
-The Pale |	Windpeak Inn |	Dawnstar 	|Food, Lodging 	Owned by Thoring| Trapdoor
-The Reach |	Silver-Blood Inn |	At the entrance of Markarth |	Food, Lodging |	Owned by Kleppr | Trapdoor
-The Reach |	Old Hroldan Inn |	East of Markarth and southwest of Rorikstead |	Food, Lodging |	Owned by Eydis| Trapdoor
-The Rift |	The Bee and Barb |	Center of Riften |	Food, Lodging |	Owned by Keerava| Door in basement
+Eastmarch |	Braidwood Inn |	In Kynesgrove 	|Food, Lodging, Bathing |	Owned by Iddra| Trapdoor
+Eastmarch |	Candlehearth Hall| 	The center of Windhelm |	Food, Lodging, Bathing |	Owned by Elda Early-Dawn| Trapdoor behind bar|
+Eastmarch |	New Gnisis Cornerclub|	The Gray Quarter of Windhelm 	|Food, Bathing |	Owned by Ambarys Rendar. Frequented by Dunmer.| Door next to the bar
+Falkreath Hold |	Dead Man's Drink |	Falkreath 	|Food, Lodging, Bathing |	Owned by Valga Vinicia| Trapdoor
+Haafingar |	Four Shields Tavern |	Dragon Bridge 	|Food, Lodging, Bathing 	|Owned by Faida| Trapdoor
+Haafingar |	The Winking Skeever |	Solitude 	|Food, Lodging, Bathing 	|Owned by Corpulus Vinius| Trapdoor
+Hjaalmarch |	Moorside Inn |	Morthal 	|Food, Lodging, Bathing |	Owned by Jonna| Trapdoor
+The Pale |	Nightgate Inn |	The Pale 	|Food, Lodging, Bathing |	Owned by Hadring| Door in basement
+The Pale |	Windpeak Inn |	Dawnstar 	|Food, Lodging, Bathing |	Owned by Thoring| Trapdoor
+The Reach |	Silver-Blood Inn |	At the entrance of Markarth |	Food, Lodging, Bathing |	Owned by Kleppr | Trapdoor
+The Reach |	Old Hroldan Inn |	East of Markarth and southwest of Rorikstead |	Food, Lodging, Bathing |	Owned by Eydis| Trapdoor
+The Rift |	The Bee and Barb |	Center of Riften |	Food, Lodging, Bathing |	Owned by Keerava| Door in basement
 The Rift |	Vilemyr Inn |	Ivarstead |	Food, Lodging |	Owned by Wilhelm| Trapdoor
-The Rift  |	The Ragged Flagon |	Food |	Owned by Vekel the Man | None... unless you wanna swim in the cistern
-Solstheim |	The Retching Netch |	Raven Rock |	Food, Lodging |	Owned by Geldis Sadri|Trapdoor
-Solstheim | Thirsk Mead Hall | Thirsk | Food, Trainer (Heavy armor - master), Blacksmith | Requires retaking from the Rieklings|Trapdoor
-Whiterun Hold |	Frostfruit Inn |	Rorikstead |	Food, Lodging |	Owned by Mralki|Trapdoor
-Whiterun Hold |	Sleeping Giant Inn |	Riverwood 	|Food, Ingredients, Lodging |	Owned by Delphine. |Trapdoor
-Whiterun Hold |	The Bannered Mare| 	The Plains District of Whiterun |	Food, Lodging |	Owned by Hulda | Trapdoor behind bar|
-Whiterun Hold |	The Drunken Huntsman |	The Plains District of Whiterun |	Food, Weapons, Armor |	Owned by Elrindir| None.
-Winterhold |	The Frozen Hearth |	Winterhold |	Food, Lodging, Spells 	|Owned by Haran| Trapdoor
+The Rift  |	The Ragged Flagon |	The Ratway |Food, Facescuplting, Fence |	Owned by Vekel the Man | None... unless you wanna swim in the cistern
+Solstheim |	The Retching Netch |	Raven Rock |	Food, Lodging, Bathing |	Owned by Geldis Sadri|Trapdoor
+Solstheim | Thirsk Mead Hall | Thirsk | Food, Trainer (Heavy armor - master), Blacksmith, Bathing | Requires retaking from the Rieklings|Trapdoor
+Whiterun Hold |	Frostfruit Inn |	Rorikstead |	Food, Lodging, Bathing |	Owned by Mralki|Trapdoor
+Whiterun Hold |	Sleeping Giant Inn |	Riverwood 	|Food, Lodging, Bathing |	Owned by Delphine. |Trapdoor
+Whiterun Hold |	The Bannered Mare| 	The Plains District of Whiterun |	Food, Lodging, Bathing |	Owned by Hulda | Trapdoor behind bar|
+Whiterun Hold |	The Drunken Huntsman |	The Plains District of Whiterun |	Food, Weapons, Armor, Bathing |	Owned by Elrindir| None.
+Winterhold |	The Frozen Hearth |	Winterhold |	Food, Lodging, Spells, Bathing 	|Owned by Haran| Trapdoor
 
 ### Soaps
 
