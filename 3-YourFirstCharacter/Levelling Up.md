@@ -106,7 +106,7 @@ Conjuration	|2.1	|Base Magicka Cost of the Spell.
 Alteration	|3	|Base Magicka Cost of the Spell.
 Heavy Armor	|3.8	|1 base XP per raw damage received. <br> Additional XP for moving while wearing armor 
 Evasion Armor	|4	|1 base XP per raw damage received. <br> Additional XP for moving while wearing armor 
-Illusion	|4.6	|Base Magicka Cost of the Spell. <br> how long you can warp the targets mind <br>  how resistant the target is to your magic
+Illusion	|4.6	|How long you can warp the targets mind Vs how resistant the target is to your magic (see above section)
 Two-Handed	|5.95	|Base Weapon Damage
 One-Handed	|6.3	|Base Weapon Damage
 Block	|8.1	|1 base XP per raw damage blocked. <br> 5 base XP for a shield bash.
