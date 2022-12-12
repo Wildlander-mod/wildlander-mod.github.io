@@ -70,7 +70,7 @@ Perk Required : Elemental Protection
 
 ## Offensive Branch
 
-**Powerful Bashes **
+**Powerful Bashes**
 
 Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 
