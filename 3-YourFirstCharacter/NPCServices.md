@@ -43,7 +43,7 @@ Gunmar  |Fort Dawnguard |Found in the blacksmith section of the fort. Only avail
 Hestla  |Volkihar Keep |Found in the blacksmith section of the castle. Only available to trade if the Volkihar Clan have been joined. |1000 |<img alt="☒" src="../Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |45
 Heimvar |Solitude |Takes over as blacksmith if Beirand dies. | 1000 |<img alt="☒" src="../Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |20
 Lod |Falkreath |After taking carriage to Falkreath, run straight and it will be on the right. |1000 |<img alt="☒" src="../Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |50
-Moth gro-Bagol |Markarth |In Understone Keep, turn right before the Jarl. |500 |<img alt="☒" src="../Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> with unofficial patch |90
+Moth gro-Bagol |Markarth |In Understone Keep, turn right before the Jarl. |500 |<img alt="☒" src="../Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23">|90
 Oengul War-Anvil |Windhelm |After taking carriage to Windhelm, turn left, keep going until you see him on your right-hand side before the market. |1000 |<img alt="☑" src="../Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |60
 Rustleif |Dawnstar |After taking carriage to Dawnstar, run into the town and it's the first house on the right. |1000 |<img alt="☑" src="../Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |29
 Seren| Dawnstar |After taking carriage to Dawnstar, run into the town and it's the first house on the right. |1000 |<img alt="☑" src="../Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |5
@@ -68,6 +68,8 @@ The Reach| 	Markarth|   Hamal | Temple of Dibella	| 90
 The Rift| 	Riften| 	Wylandriah| 	Mistveil Keep| 65
 Whiterun Hold| 	Whiterun| 	Farengar Secret-Fire| 	Dragonsreach| 55
 Winterhold| Winterhold| 	Sergius Turrianus | 	College of Winterhold| 100
+
+## Enchantments
 
 
 
