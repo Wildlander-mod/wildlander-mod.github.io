@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600">
+<defs>
+<radialGradient id="rg" cx="50%" cy="50%" r="50%">
+<stop stop-color="#080" offset="0"/>
+<stop stop-color="#050" offset="1"/>
+</radialGradient></defs>
+<path d="m7.7,404.6c0,0 115.2,129.7 138.2,182.68l99,0c41.5-126.7 202.7-429.1 340.92-535.1c28.6-36.8-43.3-52-101.35-27.62-87.5,36.7-252.5,317.2-283.3,384.64-43.7,11.5-89.8-73.7-89.84-73.7z" fill="url(#rg)"/>
+<style xmlns="http://www.w3.org/1999/xhtml" id="lbo0lsjk.dd">
+        .swi-block {
+            display: inline-block;
+            line-height: initial;
+        }
+        .swi-block.swi-boxed {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            margin: auto 4px auto 4px;
+            padding: 2px 4px 2px 4px;
+            position: relative;
+        }
+        .swi-block &gt; span {
+            cursor: help;
+            margin: 2px;
+        }
+        .swi-block &gt; span &gt; a {
+            cursor: help;
+            text-decoration: none;
+        }
+    </style></svg>
