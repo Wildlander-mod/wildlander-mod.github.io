@@ -212,7 +212,7 @@ Requiem - Static Skill Leveling - https://www.nexusmods.com/skyrimspecialedition
 
 https://docs.google.com/document/d/1ybW3_zI60rtaCIDrKZIz_vNDzu-cXECO5sx6oMisS7U/edit
 
-**Additional Notes*
+*Additional Notes*
 
 Added a final note to the guide to state that the patcher needs to be run every time new mods are added that change perks, quests, or books. Synthesis.esp should remain last in the load order. (Unless the Synthesis changes are manually forwarded into another patch)
   
