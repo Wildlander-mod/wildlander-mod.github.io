@@ -49,7 +49,7 @@ All three specialist fishing rods are acquired during the various quests given b
 There are 6 biomes that you can fish in. These are Freezing Waters, Underground, Temperate Lakes (Clear Weather), Temperate Lakes (Raining), Temperate Streams (Clear Weather), and Temperate Streams (Raining). These biomes determine what fish you can catch, and most fish are exclusive to a small number of biomes. This is also the only effect that the weather can have on fishing: determining the biome of temperate water sources. For example, a goldfish can be caught at a lake when the weather is clear, but cannot be caught when it is raining or at any other biome.
 
 
-<table class="wikitable" style="display: inline-table;text-align: center">
+<table  style="display: inline-table;text-align: center">
 <caption>Freezing Waters</caption>
 <tr>
 <th></th>
@@ -59,20 +59,20 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Abecean_Longfin](view-source:https://en.uesp.net/wiki/Skyrim:Abecean_Longfin)" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Angler_Larvae](view-source:https://en.uesp.net/wiki/Skyrim:Angler_Larvae)" title="Skyrim:Angler Larvae">Angler Larvae</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab](view-source:https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab)" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Abecean_Longfin" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Angler_Larvae" title="Skyrim:Angler Larvae">Angler Larvae</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a></td>
 <td>Junk</td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Arctic_Grayling](view-source:https://en.uesp.net/wiki/Skyrim:Arctic_Grayling)" class="mw-redirect" title="Skyrim:Arctic Grayling">Arctic Grayling</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Arctic_Char](view-source:https://en.uesp.net/wiki/Skyrim:Arctic_Char)" class="mw-redirect" title="Skyrim:Arctic Char">Arctic Char</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Cod](view-source:https://en.uesp.net/wiki/Skyrim:Cod)" class="mw-redirect" title="Skyrim:Cod">Cod</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Angler](view-source:https://en.uesp.net/wiki/Skyrim:Angler)" class="mw-redirect" title="Skyrim:Angler">Angler</a><sup class="reference plainlinks nourlexpansion" id="note_Argonian_Rod"><a href="[#intnote_Argonian_Rod](view-source:https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#intnote_Argonian_Rod)">†</a></sup></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Arctic_Grayling" title="Skyrim:Arctic Grayling">Arctic Grayling</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Arctic_Char" title="Skyrim:Arctic Char">Arctic Char</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Cod" title="Skyrim:Cod">Cod</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Angler" title="Skyrim:Angler">Angler</a><sup class="reference plainlinks nourlexpansion" id="note_Argonian_Rod"><a href="#intnote_Argonian_RodFishing_(activity)#intnote_Argonian_Rod)">†</a></sup></td>
 </tr>
 </table>
-<table class="wikitable" style="display: inline-table;text-align: center">
+<table  style="display: inline-table;text-align: center">
 <caption>Underground</caption>
 <tr>
 <th></th>
@@ -82,21 +82,21 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Silverside_Perch](view-source:https://en.uesp.net/wiki/Skyrim:Silverside_Perch)" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Histcarp](view-source:https://en.uesp.net/wiki/Skyrim:Histcarp)" title="Skyrim:Histcarp">Histcarp</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Silverside_Perch" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Histcarp" title="Skyrim:Histcarp">Histcarp</a></td>
 <td>Junk</td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Direfish](view-source:https://en.uesp.net/wiki/Skyrim:Direfish)" class="mw-redirect" title="Skyrim:Direfish">Direfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Glass_Catfish](view-source:https://en.uesp.net/wiki/Skyrim:Glass_Catfish)" class="mw-redirect" title="Skyrim:Glass Catfish">Glass Catfish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Tripod_Spiderfish](view-source:https://en.uesp.net/wiki/Skyrim:Tripod_Spiderfish)" class="mw-redirect" title="Skyrim:Tripod Spiderfish">Tripod Spiderfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Vampire_Fish](view-source:https://en.uesp.net/wiki/Skyrim:Vampire_Fish)" class="mw-redirect" title="Skyrim:Vampire Fish">Vampire Fish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Scorpion_Fish](view-source:https://en.uesp.net/wiki/Skyrim:Scorpion_Fish)" class="mw-redirect" title="Skyrim:Scorpion Fish">Scorpion Fish</a><sup class="reference plainlinks nourlexpansion" id="note_Argonian_Rod"><a href="[#intnote_Argonian_Rod](view-source:https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#intnote_Argonian_Rod)">†</a></sup></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Direfish" title="Skyrim:Direfish">Direfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Glass_Catfish" title="Skyrim:Glass Catfish">Glass Catfish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Tripod_Spiderfish" title="Skyrim:Tripod Spiderfish">Tripod Spiderfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Vampire_Fish" title="Skyrim:Vampire Fish">Vampire Fish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Scorpion_Fish" title="Skyrim:Scorpion Fish">Scorpion Fish</a><sup class="reference plainlinks nourlexpansion" id="note_Argonian_Rod"><a href="#intnote_Argonian_RodFishing_(activity)#intnote_Argonian_Rod)">†</a></sup></td>
 </tr>
 </table>
 <div style="clear:both"></div>
-<table class="wikitable" style="display: inline-table;text-align: center">
+<table  style="display: inline-table;text-align: center">
 <caption>Temperate Lakes, Clear Weather</caption>
 <tr>
 <th></th>
@@ -106,25 +106,25 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Abecean_Longfin](view-source:https://en.uesp.net/wiki/Skyrim:Abecean_Longfin)" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Glassfish](view-source:https://en.uesp.net/wiki/Skyrim:Glassfish)" title="Skyrim:Glassfish">Glassfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Silverside_Perch](view-source:https://en.uesp.net/wiki/Skyrim:Silverside_Perch)" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail](view-source:https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail)" title="Skyrim:Cyrodilic Spadetail">Cyrodilic Spadetail</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Goldfish](view-source:https://en.uesp.net/wiki/Skyrim:Goldfish)" title="Skyrim:Goldfish">Goldfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab](view-source:https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab)" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Silverside_Perch](view-source:https://en.uesp.net/wiki/Skyrim:Silverside_Perch)" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Angelfish](view-source:https://en.uesp.net/wiki/Skyrim:Angelfish)" title="Skyrim:Angelfish">Angelfish</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="[#intnote_Alik.27ri_Rod](view-source:https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Abecean_Longfin" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Glassfish" title="Skyrim:Glassfish">Glassfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Silverside_Perch" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail" title="Skyrim:Cyrodilic Spadetail">Cyrodilic Spadetail</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Goldfish" title="Skyrim:Goldfish">Goldfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Silverside_Perch" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Angelfish" title="Skyrim:Angelfish">Angelfish</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Salmon_(item)](view-source:https://en.uesp.net/wiki/Skyrim:Salmon_(item))" class="mw-redirect" title="Skyrim:Salmon (item)">Salmon</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Slaughterfish](view-source:https://en.uesp.net/wiki/Skyrim:Slaughterfish)" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Brook_Bass](view-source:https://en.uesp.net/wiki/Skyrim:Brook_Bass)" class="mw-redirect" title="Skyrim:Brook Bass">Brook Bass</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Carp](view-source:https://en.uesp.net/wiki/Skyrim:Carp)" class="mw-redirect" title="Skyrim:Carp">Carp</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Slaughterfish" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Brook_Bass" title="Skyrim:Brook Bass">Brook Bass</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Carp" title="Skyrim:Carp">Carp</a></td>
 <td>Junk</td>
 </tr>
 </table>
-<table class="wikitable" style="display: inline-table;text-align: center">
+<table  style="display: inline-table;text-align: center">
 <caption>Temperate Lakes, Raining</caption>
 <tr>
 <th></th>
@@ -134,23 +134,23 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail](view-source:https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail)" title="Skyrim:Cyrodilic Spadetail">Cyrodilic Spadetail</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Abecean_Longfin](view-source:https://en.uesp.net/wiki/Skyrim:Abecean_Longfin)" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Glassfish](view-source:https://en.uesp.net/wiki/Skyrim:Glassfish)" title="Skyrim:Glassfish">Glassfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Pearlfish](view-source:https://en.uesp.net/wiki/Skyrim:Pearlfish)" title="Skyrim:Pearlfish">Pearlfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Pygmy_Sunfish](view-source:https://en.uesp.net/wiki/Skyrim:Pygmy_Sunfish)" title="Skyrim:Pygmy Sunfish">Pygmy Sunfish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Angelfish](view-source:https://en.uesp.net/wiki/Skyrim:Angelfish)" title="Skyrim:Angelfish">Angelfish</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="[#intnote_Alik.27ri_Rod](view-source:https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail" title="Skyrim:Cyrodilic Spadetail">Cyrodilic Spadetail</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Abecean_Longfin" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Glassfish" title="Skyrim:Glassfish">Glassfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Pearlfish" title="Skyrim:Pearlfish">Pearlfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Pygmy_Sunfish" title="Skyrim:Pygmy Sunfish">Pygmy Sunfish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Angelfish" title="Skyrim:Angelfish">Angelfish</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Catfish](view-source:https://en.uesp.net/wiki/Skyrim:Catfish)" class="mw-redirect" title="Skyrim:Catfish">Catfish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Salmon_(item)](view-source:https://en.uesp.net/wiki/Skyrim:Salmon_(item))" class="mw-redirect" title="Skyrim:Salmon (item)">Salmon</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Slaughterfish](view-source:https://en.uesp.net/wiki/Skyrim:Slaughterfish)" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Catfish" title="Skyrim:Catfish">Catfish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:SlaughterfishS" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
 <td>Junk</td>
 </tr>
 </table>
 <div style="clear:both"></div>
-<table class="wikitable" style="display: inline-table;text-align: center">
+<table  style="display: inline-table;text-align: center">
 <caption>Temperate Streams, Clear Weather</caption>
 <tr>
 <th></th>
@@ -160,22 +160,22 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:River_Betty](view-source:https://en.uesp.net/wiki/Skyrim:River_Betty)" title="Skyrim:River Betty">River Betty</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Histcarp](view-source:https://en.uesp.net/wiki/Skyrim:Histcarp)" title="Skyrim:Histcarp">Histcarp</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab](view-source:https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab)" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Spadefish](view-source:https://en.uesp.net/wiki/Skyrim:Spadefish)" title="Skyrim:Spadefish">Spadefish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias](view-source:https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias)" title="Skyrim:Lyretail Anthias">Lyretail Anthias</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="[#intnote_Alik.27ri_Rod](view-source:https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:River_Betty" title="Skyrim:River Betty">River Betty</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Histcarp" title="Skyrim:Histcarp">Histcarp</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Spadefish" title="Skyrim:Spadefish">Spadefish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias" title="Skyrim:Lyretail Anthias">Lyretail Anthias</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Brook_Bass](view-source:https://en.uesp.net/wiki/Skyrim:Brook_Bass)" class="mw-redirect" title="Skyrim:Brook Bass">Brook Bass</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Pogfish](view-source:https://en.uesp.net/wiki/Skyrim:Pogfish)" class="mw-redirect" title="Skyrim:Pogfish">Pogfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Salmon_(item)](view-source:https://en.uesp.net/wiki/Skyrim:Salmon_(item))" class="mw-redirect" title="Skyrim:Salmon (item)">Salmon</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Carp](view-source:https://en.uesp.net/wiki/Skyrim:Carp)" class="mw-redirect" title="Skyrim:Carp">Carp</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Brook_Bass" title="Skyrim:Brook Bass">Brook Bass</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Pogfish" title="Skyrim:Pogfish">Pogfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Carp" title="Skyrim:Carp">Carp</a></td>
 <td>Junk</td>
 </tr>
 </table>
-<table class="wikitable" style="display: inline-table;text-align: center">
+<table  style="display: inline-table;text-align: center">
 <caption>Temperate Streams, Raining</caption>
 <tr>
 <th></th>
@@ -185,27 +185,27 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:River_Betty](view-source:https://en.uesp.net/wiki/Skyrim:River_Betty)" title="Skyrim:River Betty">River Betty</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Spadefish](view-source:https://en.uesp.net/wiki/Skyrim:Spadefish)" title="Skyrim:Spadefish">Spadefish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Histcarp](view-source:https://en.uesp.net/wiki/Skyrim:Histcarp)" title="Skyrim:Histcarp">Histcarp</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab](view-source:https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab)" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Pearlfish](view-source:https://en.uesp.net/wiki/Skyrim:Pearlfish)" title="Skyrim:Pearlfish">Pearlfish</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias](view-source:https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias)" title="Skyrim:Lyretail Anthias">Lyretail Anthias</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="[#intnote_Alik.27ri_Rod](view-source:https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:River_Betty" title="Skyrim:River Betty">River Betty</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Spadefish" title="Skyrim:Spadefish">Spadefish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Histcarp" title="Skyrim:Histcarp">Histcarp</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Pearlfish" title="Skyrim:Pearlfish">Pearlfish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias" title="Skyrim:Lyretail Anthias">Lyretail Anthias</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Pogfish](view-source:https://en.uesp.net/wiki/Skyrim:Pogfish)" class="mw-redirect" title="Skyrim:Pogfish">Pogfish</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Salmon_(item)](view-source:https://en.uesp.net/wiki/Skyrim:Salmon_(item))" class="mw-redirect" title="Skyrim:Salmon (item)">Salmon</a></td>
-<td><a href="[https://en.uesp.net/wiki/Skyrim:Brook_Bass](view-source:https://en.uesp.net/wiki/Skyrim:Brook_Bass)" class="mw-redirect" title="Skyrim:Brook Bass">Brook Bass</a><br />
-<a href="[https://en.uesp.net/wiki/Skyrim:Slaughterfish](view-source:https://en.uesp.net/wiki/Skyrim:Slaughterfish)" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Pogfish" title="Skyrim:Pogfish">Pogfish</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a></td>
+<td><a href="https://en.uesp.net/wiki/Skyrim:Brook_Bass)" title="Skyrim:Brook Bass">Brook Bass</a><br />
+<a href="https://en.uesp.net/wiki/Skyrim:Slaughterfish" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
 <td>Junk</td>
 </tr>
 </table>
 
 
-[†](https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#note_Argonian_Rod)These fish require an [Argonian Fishing Rod](https://en.uesp.net/wiki/Skyrim:Argonian_Fishing_Rod) to be caught.
+[†]These fish require an [Argonian Fishing Rod](https://en.uesp.net/wiki/Skyrim:Argonian_Fishing_Rod) to be caught.
 
-[‡](https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#note_Alik.27ri_Rod)These fish require an [Alik'ri Fishing Rod](https://en.uesp.net/wiki/Skyrim:Alik%27ri_Fishing_Rod) to be caught.
+[‡]These fish require an [Alik'ri Fishing Rod](https://en.uesp.net/wiki/Skyrim:Alik%27ri_Fishing_Rod) to be caught.
 
 
 ## Fishing Items
