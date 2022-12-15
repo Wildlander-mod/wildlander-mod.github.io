@@ -208,8 +208,6 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 [‡](https://en.uesp.net/wiki/Skyrim:Fishing_(activity)#note_Alik.27ri_Rod)These fish require an [Alik'ri Fishing Rod](https://en.uesp.net/wiki/Skyrim:Alik%27ri_Fishing_Rod) to be caught.
 
 
-## INFORMATION BELOW HERE IS PLACEHOLDER AND NEEDS VERFICATION
-
 ## Fishing Items
 
 <h2><span class="mw-headline" id="Apparel">Apparel</span></h2>
