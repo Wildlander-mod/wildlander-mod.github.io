@@ -27,25 +27,26 @@ After successfully catching a fish for the first time, players are automatically
 The act of fishing has many variables that go into determining what the player catches. The most important of these are the biome the player is fishing in, the time of day, the population of fish, the rod the player is using, and any quests that the player may have active.
 
 
-**Rarity**
+### Rarity
 
 Fish can be common, uncommon, or rare, and are also either large or small. Unless using certain fishing rods, there is an equal chance of a fish being large or small. Junk also has common, uncommon, and rare rarities, with some drops differing depending on whether the fishing area can contain Dwemer items. 
 
-**Time**
+### Time
 
 The time of day is also important for catching fish. During the hours of 6am to 9am and 6pm to 9pm, fishing area's will have more fish in them before running dry. This peak time also reduces the odds of caught fish being of common rarity, and increases the odds of fish being uncommon or rare.
 
-**Population**
+### Population
 
 A fishing area's population is determined each day, and will typically have 5 or 6 fish. If you fish during peak hours, this increases to between 7 and 9 fish. As you empty the fishing spot of its fish, the odds of catching a fish decrease. If there are 4 or more fish left, there is a 90% chance of catching a fish and a 10% chance of catching a junk item. Once the fishing spot drops to 3 fish or fewer, these odds lower to 80% chance of catching a fish and 20% chance of catching junk. When the spot has dried up, there is of course a 0% chance of catching fish, and junk will be fished up every time.
 
-**Fishing Rods**
+### Fishing Rods
 
 The fishing rod used by you has one of the biggest effects on your fishing odds. Alik'ri and Argonian Fishing Rods decrease the chances of a caught fish being common and increases the chance of it being uncommon or rare. All rare fish also can only be caught by using a specific rod. If you are not using that rod when a rare fish is pulled, you will receive the notification "You lost your catch." Alik'ri rods have an 80% chance of the fish being small and are required to catch _Angelfish _and _Lyretail Anthias_, while the Argonian rods have an 80% chance of the catch being large and are required to catch _Angler _and _Scorpion Fish_. The Dwarven Fishing Rod increases the odds of catching junk over fish, and further decreases the chances of catching a fish when the population of a spot is at 3 or less. The Dwarven Fishing Rod also reduces the odds of caught junk being common to increase the chance of it being uncommon and rare.
 
 All three specialist fishing rods are acquired during the various quests given by Viriya](https://en.uesp.net/wiki/Skyrim:Viriya) (Alik'ri and Dwarven rods) and [Swims-In-Deep-Water](https://en.uesp.net/wiki/Skyrim:Swims-In-Deep-Water) (Argonian rod). Acquiring each rod by these means also gives you the ability to craft them yourself if you should lose or sell the original.
 
-**Biomes**
+### Biomes
+
 There are 6 biomes that you can fish in. These are Freezing Waters, Underground, Temperate Lakes (Clear Weather), Temperate Lakes (Raining), Temperate Streams (Clear Weather), and Temperate Streams (Raining). These biomes determine what fish you can catch, and most fish are exclusive to a small number of biomes. This is also the only effect that the weather can have on fishing: determining the biome of temperate water sources. For example, a goldfish can be caught at a lake when the weather is clear, but cannot be caught when it is raining or at any other biome.
 
 
