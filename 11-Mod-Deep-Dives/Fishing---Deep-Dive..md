@@ -302,60 +302,54 @@ Crab Cakes (xx000F78) | 0.1 | 5 | Heavy | Restore Stamina, 40 pts Fortify Block,
 
 Name (ID) | Weight | Value | Hunger | Effect(s) | Ingredients
 -- | -- | -- | -- | -- | -- | 
-   Cooked Cod (xx00087A) | 1 | 18 | Medium | Restore Health, 5 pts | Salt Pile Cod
-   Cooked Pearlfish (xx00087B) | 0.2 | 18 | Medium | Restore Health, 5 pts | Salt Pile Pearlfish
-   Cooked Brook Bass (xx00087C) | 0.5 | 2 | Medium | Restore Health, 5 pts | Salt Pile Brook Bass
-   Cooked Scorpion Fish (xx00087D) | 1 | 40 | Medium | Restore Health, 5 pts | Salt Pile Scorpion Fish
-   Cooked Carp (xx00087E) | 0.5 | 5 | Medium | Restore Health, 5 pts | Salt Pile Carp
-   Cooked Catfish (xx00087F) | 1 | 5 | Medium | Restore Health, 5 pts | Salt Pile Catfish
-   Cooked Direfish (xx000880) | 1 | 5 | Medium | Restore Health, 5 pts | Salt Pile Direfish
-   Cooked Angelfish (xx000881) | 0.2 | 40 | Medium | Restore Health, 5 pts | Salt Pile Angelfish
-   Cooked Glass Catfish (xx000882) | 0.5 | 5 | Medium | Restore Health, 5 pts | Salt Pile Glass Catfish
-   Cooked Goldfish (xx000883) | 0.2 | 15 | Medium | Restore Health, 5 pts | Salt Pile Goldfish
-   Cooked Lyretail Anthias (xx000884) | 0.2 | 40 | Medium | Restore Health, 5 pts | Salt Pile Lyretail Anthias
-   Cooked Pygmy Sunfish (xx000885) | 0.2 | 5 | Medium | Restore Health, 5 pts | Salt Pile Pygmy Sunfish
-   Cooked Spadefish (xx000886) | 0.2 | 18 | Medium | Restore Health, 5 pts | Salt Pile Spadefish
-   Cooked Tripod Spiderfish (xx000887) | 0.5 | 15 | Medium | Restore Health, 5 pts | Salt Pile Tripod Spiderfish
-   Cooked Vampire Fish (xx000888) | 1 | 18 | Medium | Restore Health, 5 pts | Salt Pile Vampire Fish
-   Cooked Pogfish (xx00088A) | 1 | 5 | Medium | Restore Health, 5 pts | Salt Pile Pogfish
-   Cooked Arctic Grayling (xx00088C) | 0.5 | 8 | Medium | Restore Health, 5 pts | Salt Pile Arctic Grayling
-   Cooked Arctic Char (xx00088D) | 1 | 15 | Medium | Restore Health, 5 pts | Salt Pile Arctic Char
-   Cooked Angler Larvae (xx00088E) | 0.2 | 2 | Medium | Restore Health, 5 pts | Salt Pile Angler Larvae
-   Cooked Glassfish (xx00088F) | 0.2 | 2 | Medium | Restore Health, 5 pts | Salt Pile Glassfish
-   Cooked Juvenile Mudcrab (xx00089A) | 0.2 | 15 | Medium | Restore Health, 5 pts | Salt Pile Juvenile Mudcrab
-   Cooked Angler (xx0008A5) | 2 | 40 | Medium | Restore Health, 5 pts | Salt Pile Angler
-   Creamy Crab Bisque (xx000F02) | 0.5 | 8 | Large | Fortify Stamina, 25 pts for 720 seconds Restore Stamina, 2 pts for 720 seconds | Salt Pile Sack of Flour Butter Crab Meat
-   Roasted Tomato Crab Bisque (xx000F04) | 0.5 | 5 | Large | Restore Health, 15 pts Restore Health, 1 pt for 720 seconds | Salt Pile Tomato Butter Crab Meat
-   Potato Crab Chowder (xx000F06) | 0.5 | 8 | Large | Restore Health, 15 pts Restore Stamina, 5 pts | Potato Jug of Milk Butter Crab Meat
-   Hot Creamy Crab Bisque (xx000F0A) | 0.5 | 8 | Large | Fortify Stamina, 25 pts for 720 seconds Restore Stamina, 2 pts for 720 seconds Fortify Warmth, 25 pts for 300 seconds Restore Cold, 200 pts | Fire Salts Sack of Flour Butter Crab Meat
-   Hot Potato Crab Chowder (xx000F0B) | 0.5 | 8 | Large | Restore Health, 15 pts Restore Stamina, 5 pts Fortify Warmth, 25 pts for 300 seconds Restore Cold, 200 pts | Fire Salts Potato Jug of Milk Butter Crab Meat
-   Hot Roasted Tomato Crab Bisque (xx000F0C) | 0.5 | 5 | Large | Restore Health, 15 pts Restore Health, 1 pt for 720 seconds Fortify Warmth, 25 pts for 300 seconds Restore Cold, 200 pts | Fire Salts Tomato Butter Crab Meat
-   Crab Stew (xx000F76) | 0.5 | 5 | Large | Restore Health, 1 pt for 720 seconds Restore Stamina, 2 pts for 720 seconds | Garlic Potato Leek Crab Meat
-   Hot Crab Stew (xx000F77) | 0.5 | 5 | Large | Restore Health, 1 pt for 720 seconds Restore Stamina, 2 pts for 720 seconds Fortify Warmth, 25 pts for 300 seconds Restore Cold, 200 pts | Garlic Fire Salts Potato Leek Crab Meat
+Cooked Angelfish (xx000881) | 0.2 | 40 | Medium | 40 points Restore Stamina (out of combat)  |  1 Angelfish
+Cooked Angler (xx0008A5) | 2 | 40 | Heavy | 150 points Restore  Stamina (out of combat) | 1 Raw Angler
+Cooked Angler Larvae (xx00088E) | 0.2 | 2 | Medium | 40 points Restore  Stamina (out of combat)  | 1 Angler Larvae
+Cooked Arctic Char (xx00088D) | 1 | 15 | Heavy | 100 points Restore Stamina (out of combat) | 1 Raw  Arctic Char
+Cooked Arctic Grayling (xx00088C) | 0.5 | 8 | Heavy | 50 points Restore Stamina (out of combat)  | 1 Raw  Arctic Grayling
+Cooked Brook Bass (xx00087C) | 0.5 | 5 | Heavy | 50 points Restore Stamina (out of combat)  | 1 Raw  Brook Bass
+Cooked Carp (xx00087E) | 0.5 | 5 | Heavy | 50 points Restore Stamina (out of combat) | 1 Raw  Carp
+Cooked Catfish (xx00087F) | 1 | 5 | Heavy | 100 points Restore Stamina (out of combat)  | 1 Raw  Catfish
+Cooked Cod (xx00087A) | 1 | 18 | Heavy | 100 points Restore Magic and Stamina (out of combat) | 1 Raw Cod
+Cooked Direfish (xx000880) | 1 | 5 | Heavy | 100 points Restore Stamina (out of combat)  | 1 Raw  Direfish
+Cooked Glass Catfish (xx000882) | 0.5 | 5 | Heavy | 50 points Restore Magic and Stamina (out of combat) | 1 Raw Glass Catfish
+Cooked Glassfish (xx00088F) | 0.2 | 2 | Medium | 40 points Restore Magic and Stamina (out of combat)  | 1 Glassfish
+Cooked Goldfish (xx000883) | 0.2 | 15 | Medium | 40 points Restore Stamina (out of combat)  | 1 Goldfish
+Cooked Juvenile Mudcrab (xx00089A) | 0.2 | 15 | Medium | 40 points Restore Stamina (out of combat)  | 1 Juvenile Mudcrab
+Cooked Lyretail Anthias (xx000884) | 0.2 | 40 | Medium | 40 points Restore Magic and Stamina (out of combat), Fortify Magicka 50 pts for 300 seconds  | 1 Lyretail Anthias
+Cooked Pearlfish (xx00087B) | 0.2 | 18 | Medium | 40 points Restore Magic and Stamina (out of combat)  | 1 Pearlfish
+Cooked Pogfish (xx00088A) | 1 | 5 | Heavy | 100 points Restore Stamina (out of combat)  | 1 Raw  Pogfish
+Cooked Pygmy Sunfish (xx000885) | 0.2 | 5 | Medium | 40 points Restore Stamina (out of combat)  | 1 Pygmy Sunfish
+Cooked Scorpion Fish (xx00087D) | 1 | 40 | Heavy | 100 points Restore Stamina (out of combat), resist poison 60 for 300 seconds | 1 Raw  Scorpion Fish
+Cooked Spadefish (xx000886) | 0.2 | 18 | Medium | 40 points Restore  Stamina (out of combat) | 1 Spadefish
+Cooked Tripod Spiderfish (xx000887) | 0.5 | 15 | Heavy | 50 points Restore Stamina (out of combat)  | 1 Raw Tripod Spiderfish
+Cooked Vampire Fish (xx000888) | 1 | 18 | Heavy | 100 points Restore Magic and Stamina (out of combat) | 1 Raw  Vampire Fish
+Creamy Crab Bisque (xx000F02) | 0.5 | 8 | Soup | 40 points Restore Magic and Stamina (out of combat), Fortify Stamina 25 pts for 1200 seconds, 1 pt Magic regen for 1200 seconds | 1 Salt, 1 Flour, 1 Butter, 1 Raw Mudcrab Meat, 1 Water bottle
+Crab Stew (xx000F76) | 0.5 | 5 | Soup | 75 points Restore Magic and Stamina (out of combat), 1 pt Stamina regen for 1800 seconds |1 Garlic, 1 Potato, 1 Leek, 1 Raw Mudcrab Meat, 1 Water bottle
+Potato Crab Chowder (xx000F06) | 0.5 | 8 | Soup | 40 points Restore Magic and Stamina (out of combat), 25 points Magic regen for 1200 seconds | 1 Potato,  1 bottle Milk, 1 Butter, 1 Raw Mudcrab Meat, 1 Water bottle
+Roasted Tomato Crab Bisque (xx000F04) | 0.5 | 5 | Soup | 40 points Restore Magic and Stamina (out of combat), Fortify Magicka 20 pts for 1200 seconds , 1 pt Magic regen for 1200 seconds | 1 Salt, 1 Tomato, 1 Butter, 1 Raw Mudcrab Meat, 1 Water bottle
 
 
 <h3><span class="mw-headline" id="Beverages">Beverages</span></h3>
 
 Name (ID) | Weight | Value | Effect(s) | Notes
 -- | -- | -- | -- | -- | 
-Aged Flin (xx000C2D) | 0.5 | 180 | Restore Stamina, 40 pts Damage Stamina Regen, 40 pts for 120 seconds | Sources:  Quest items for Spirits Away.
+Aged Flin (xx000C2D) | 0.5 | 180 |fortify health, 90 points for 900 seconds, slows the regeneration of Stamina by 25% and twice that for Magicka for 1350 seconds. applies Alcohol blur for 900s| Sources:  Quest items for Spirits Away.
 
 
-
-<html><body>
 <h2><span class="mw-headline" id="Ingredients">Ingredients</span></h2>
 
-Ingredient Name (ID) | Primary Effect | Secondary Effect | Tertiary Effect | Quaternary Effect |   |  
+Ingredient Name (ID) | Primary Effect | Secondary Effect | Tertiary Effect | Quaternary Effect | Value | Weight 
 -- | -- | -- | -- | -- | -- | --
-   Angelfish xx0008EB |  Regenerate Health | Resist Fire | Fortify Marksman | Waterbreathing | 30 | 0.25
-   Angler Larvae xx0008F0 |  Lingering Damage Health | Regenerate Stamina | Waterbreathing | Fortify Two-handed | 1 | 0.25
-   Glassfish xx0008EE |  Restore Magicka | Invisibility | Fortify Illusion (0.25×,0.21×) | Fortify Persuasion | 1 | 0.25
-   Goldfish xx0008EF |  Restore Stamina | Fortify Heavy Armor | Waterbreathing | Resist Frost | 10 | 0.25
-   Juvenile Mudcrab xx0008F2 |  Regenerate Stamina | Fortify Carry Weight | Cure Disease | Fortify Two-handed | 10 | 0.25
-   Lyretail Anthias xx0008F1 |  Restore Magicka | Fortify Alteration | Fortify Conjuration | Fortify Carry Weight | 30 | 0.25
-   Pearlfish xx0008EC |  Restore Stamina | Resist Frost | Fortify Smithing | Fortify One-handed | 15 | 0.25
-   Pygmy Sunfish xx0008ED |  Restore Stamina | Lingering Damage Magicka | Damage Magicka Regen | Fortify Restoration | 2 | 0.25
-   Spadefish xx0008F3 | Restore Health | Fortify Lockpicking | Fortify Pickpocket | Cure Disease | 15 | 0.25
+Angelfish xx0008EB |  Regenerate Health | Resist Fire | Fortify Marksman | Waterbreathing | 30 | 0.25
+Angler Larvae xx0008F0 |  Lingering Damage Health | Regenerate Stamina | Waterbreathing | Fortify Two-handed | 1 | 0.25
+Glassfish xx0008EE |  Restore Magicka | Invisibility | Fortify Illusion | Nighteye | 1 | 0.25
+Goldfish xx0008EF |  Restore Stamina | Fortify Armor | Waterbreathing | Resist Frost | 10 | 0.25
+Juvenile Mudcrab xx0008F2 |  Regenerate Stamina | Fortify Carry Weight | Cure Disease | Fortify Two-handed | 10 | 0.25
+Lyretail Anthias xx0008F1 |  Restore Magicka | Fortify Alteration | Fortify Conjuration | Fortify Carry Weight | 30 | 0.25
+Pearlfish xx0008EC |  Restore Stamina | Resist Frost |  Spell Absorb | Fortify One-handed | 15 | 0.25
+Pygmy Sunfish xx0008ED |  Restore Stamina | Lingering Damage Magicka | Damage Magicka Regen | Fortify Restoration | 2 | 0.25
+Spadefish xx0008F3 | Restore Health | Fortify Lockpicking Expertise| Fortify Pickpocket | Cure Disease | 15 | 0.25
 
 
 
