@@ -24,9 +24,9 @@ When your tinder catches the fuel, your campfire will burst to life! Add more fu
 Campfire Type|	Materials|	Duration|	Benefits|
 |--|--|--|--|
 Starting Campfire|	2 Branches, Kindling, or Ruined Books, Tinder|	1 Hour|	Access "Skills"|
-Flickering Campfire|	4 Branches, Kindling, or Ruined Books|	3 Hours|	Cook meat directly on campfire , use Cooking Pot|
-Crackling Campfire|	6 Deadwood or 4 Wood|	6 Hours|	"Uplifted" - All skills improve 3% faster for 6 hours.|
-Roaring Campfire|	6 Deadwood or 4 Wood|	12 Hours|	"Inspired" - All skills improve 5% faster for 6 hours.|
+Flickering  Campfire|	4 Branches, Kindling, or Ruined Books|	3 Hours|	Cook meat directly on campfire , use Cooking Pot|
+Uplifting  Campfire|	6 Deadwood or 4 Wood|	6 Hours|	"Uplifted" - All skills improve 3% faster for 6 hours.|
+Inspiring Campfire|	6 Deadwood or 4 Wood|	12 Hours|	"Inspired" - All skills improve 5% faster for 6 hours.|
 
 Campfires can be put out. If there was any unspent fuel before the campfire was put out, it will be given to you when you click on the campfire again.
 

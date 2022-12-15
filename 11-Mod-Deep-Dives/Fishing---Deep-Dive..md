@@ -212,18 +212,17 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 
 ## Fishing Items
 
-<html><body>
 <h2><span class="mw-headline" id="Apparel">Apparel</span></h2>
 
-Name (ID) | Weight | Value
-| -- | -- | --
-Crabber's Charm (xx1D8FF2) | 1 | 8
-Fishing Boots (xx0008E1) | 1 | 2
-Fishing Clothes (xx0008E2) | 1 | 2
-Fishing Hat (xx0008E4) | 0.5 | 1
-Vagrant Boots (xx000E4C) | 2 | 1
-Vagrant Hood (xx000E4B) | 1 | 1
-Vagrant Robes (xx000E4A) | 1 | 5
+Name (ID) | Weight | Value| Slot
+| -- | -- | -- | -- 
+Crabber's Charm (xx1D8FF2) | 1 | 8| Amulet
+Hide Fishing Boots (xx0008E1) | 1 | 2 | Boots
+Hide Fishing Waders (xx0008E2) | 1 | 2 | Chest
+Hide Fishing Hat (xx0008E4) | 0.5 | 1 | Hat
+Linen Vagrant Boots (xx000E4C) | 2 | 1 | Boots
+Linen Vagrant Hood (xx000E4B) | 1 | 1 | Hat
+Linen Vagrant Robes (xx000E4A) | 1 | 5 | Chest
 
 
 
@@ -231,18 +230,18 @@ Vagrant Robes (xx000E4A) | 1 | 5
 
 Name (ID) | Weight | Value | Enchantment / Notes
 -- | -- | -- | -- | 
- Denstagmer's Ring (xx000B2B) | 0.25 | 1254 | Resistance against fire, frost, and shock is improved by 20%.
- Lynea's Amulet of Dibella (xx000C66) | 1 | 475 | Increases Speech skill by 15 points. Increases your Stamina by 40 points.
- Lucky Fishing Hat (xx000A6F) | 0.5 | 1 | When worn, rainstorms occur whilst fishing at temperate lakes and streams.
- Mentor's Ring (xx000B29) | 0.25 | 2092 | All spells cost 10% less magicka to cast.
- Ring of Khajiit (xx000B94) | 0.25 | 650 | You move 10% faster. Allows you to cast the spell Hide.
- Ring of Kynareth (xx0EA5CC) | 0.25 | 320 | When worn, rainstorms occur whilst fishing at temperate lakes and streams.
- Ring of Phynaster (xx0008E3) | 0.25 | 1347 | Resistance to magic, shock, and poison is improved by 20%.
- Ring of Surroundings (xx000BC0) | 0.25 | 1554 | You are 20% harder to detect.
- Ring of the Wind (xx000BA0) | 0.25 | 650 | You move 15% faster.
- Vampiric Ring (xx000C07) | 0.25 | 400 | Allows you to cast the spell Drain Life.
- Viriya's Charm (xx000F07) | 0.5 | 944 | Can swim underwater without drowning. Increases Light Armor skill by 22 points. Increases Heavy Armor skill by 22 points.
- Warlock's Ring (xx000B2A) | 0.25 | 1392 | While blocking, creates a ward that protects against spells for  up to 25 points. Health regenerates 30% faster. You move 5% faster.
+Denstagmer's Ring (xx000B2B) | 0.25 | 12000 | Resistance against fire, frost, and shock is improved by 20%.
+Lynea's Amulet of Dibella (xx000C66) | 1 | 100 | Increases Speech skill by 15 points. Increases your Stamina by 40 points.
+Hide Lucky Fishing Hat (xx000A6F) | 0.5 | 1 | When worn, rainstorms occur whilst fishing at temperate lakes and streams.
+Mentor's Ring (xx000B29) | 0.25 | 8000 | All spells cost 10% less magicka to cast.
+Ring of Khajiit (xx000B94) | 0.25 | 18000 | You move 10% faster. Allows you to cast the spell Hide.
+Ring of Kynareth (xx0EA5CC) | 0.25 | 2000 | When worn, rainstorms occur whilst fishing at temperate lakes and streams.
+Ring of Phynaster (xx0008E3) | 0.25 | 18000 | Resistance to magic and shock is improved by 20%. Resistance to poison is improved by 40%.
+Ring of Surroundings (xx000BC0) | 0.25 | 12000 | You are 40% harder to detect.
+Ring of the Wind (xx000BA0) | 0.25 | 8000 | You move 15% faster.
+Vampiric Ring (xx000C07) | 0.25 | 12000 | Cloak of drain life - 10/s drain life on targets in melee range while in combat. 
+Emperor Crab Spirit Charm (xx000F07) | 0.5 | 2000 | Can swim underwater without drowning. Increases Evasion Armor skill by 78 points. Increases Heavy Armor skill by 78 points.
+Warlock's Ring (xx000B2A) | 0.25 | 22000 | While blocking, creates a ward that protects against spells for  up to 50 points. Health regenerates 30% faster. You move 5% faster.
 
 
 
@@ -250,60 +249,58 @@ Name (ID) | Weight | Value | Enchantment / Notes
 
  Name (ID) | Type | Tempering | Weight | Value | Damage | Description
 -- | -- | -- | -- | -- | -- | -- | 
-Alik'ri Fishing Rod (xx00084D) | 1 Hand Sword | N/A | 2 | 75 | 4 | Greatly improves the chance of catching small fish when fishing.
-Argonian Fishing Rod (xx000850) | 1 Hand Sword | N/A | 3.5 | 55 | 4 | Greatly improves the chance of catching large fish when fishing.
-Ancient Nord Dagger (xx000E44) | 1 Hand Dagger | Steel Ingot; Perk: Steel | 3.5 | 5 | 5
-Ancient Nord Mace (xx000E46) | 1 Hand Mace | Steel Ingot; Perk: Steel | 16 | 17 | 10
-Ancient Nord Warhammer (xx000E47) | 2 Hand Warhammer | Steel Ingot; Perk: Steel | 26 | 42 | 20
-Dwarven Fishing Rod (xx00084E) | 1 Hand Sword | N/A | 6 | 110 | 5 | Greatly improves the chance of catching items when fishing.
-Fang of Haynekhtnamet (xx000ED3) | 1 Hand Dagger | Dragon Bone; Perk: Dragon | 6.5 | 1446 | 13 | Target takes 25 points of shock damage, and half as much Magicka damage.
-Fishing Rod (xx00084F) | 1 Hand Sword | N/A | 3 | 10 | 3
-Honed Ancient Nord Dagger (xx08A1ED) | 1 Hand Dagger | Steel Ingot; Perk: Dwarven | 4.5 | 9 | 8
-Honed Ancient Nord Mace (xx08A1EE) | 1 Hand Mace | Steel Ingot; Perk: Dwarven | 18 | 31 | 13
-Honed Ancient Nord Warhammer (xx08A1EF) | 2 Hand Warhammer | Steel Ingot; Perk: Dwarven | 29 | 76 | 23
-Irkngthand War Axe (xx07AED6) | 1 Hand War Axe | Dwarven Metal Ingot; Perk: Dwarven | 16 | 265 | 13
-Irkngthand War Axe of Fire (xx0009D9) | 1 Hand War Axe | Dwarven Metal Ingot; Perk: Dwarven | 16 | 699 | 13 | Burns the target for 20 points. Targets on fire take extra damage.
-Irkngthand War Axe of Freezing (xx04D05E) | 1 Hand War Axe | Dwarven Metal Ingot; Perk: Dwarven | 16 | 742 | 13 | Target takes 20 points of frost damage to Health and Stamina.
-Nord Hero Dagger (xx08A1E4) | 1 Hand Dagger | Steel Ingot; Perk: Steel | 2 | 55 | 8
-Nord Hero Mace (xx08A1E5) | 1 Hand Mace | Steel Ingot; Perk: Steel | 13 | 195 | 13
-Nord Hero Warhammer (xx08A1E6) | 2 Hand Warhammer | Steel Ingot; Perk: Steel | 24 | 350 | 23
+Alik'ri Fishing Rod (xx00084D) | 1 Hand Sword | N/A | 2 | 75 | 24 | Greatly improves the chance of catching small fish when fishing.
+Argonian Fishing Rod (xx000850) | 1 Hand Sword | N/A | 3.5 | 55 | 24 | Greatly improves the chance of catching large fish when fishing.
+Ancient Nordic Dagger (xx000E44) | 1 Hand Dagger | Steel Ingot; Perk: Craftmanship | 3.5 | 5 | 30
+Ancient Nordic Mace (xx000E46) | 1 Hand Mace | Steel Ingot; Perk: Craftmanship | 15 | 17 | 60
+Ancient Nordic Warhammer (xx000E47) | 2 Hand Warhammer | Steel Ingot; Perk: Craftmanship | 26 | 42 | 114
+Dwarven Fishing Rod (xx00084E) | 1 Hand Sword | N/A | 6 | 110 | 30 | Greatly improves the chance of catching items when fishing.
+Fang of Haynekhtnamet (xx000ED3) | 1 Hand Dagger | Dragon Bone; Perk: Draconic Blacksmithing | 6.5 | 1446 | 66 | Target takes 30 points of shock damage, and 60 points of irresistible damage to Dwemer constructs.
+Fishing Rod (xx00084F) | 1 Hand Sword | N/A | 3 | 10 | 18
+Honed Ancient Nord Dagger (xx08A1ED) | 1 Hand Dagger | Steel Ingot; Perk: Dwarven | 4.5 | 9 | 48
+Honed Ancient Nord Mace (xx08A1EE) | 1 Hand Mace | Steel Ingot; Perk: Dwarven | 15 | 31 | 78
+Honed Ancient Nord Warhammer (xx08A1EF) | 2 Hand Warhammer | Steel Ingot; Perk: Dwarven | 26 | 76 | 138
+Irkngthand War Axe of Fire (xx07AED6) | 1 Hand War Axe | Dwarven Metal Ingot; Perk: Dwarven | 16 | 742 | 84 | Burns the target for 20 points. Targets on fire take extra damage.
+Irkngthand War Axe of Freezing (xx04D05E) | 1 Hand War Axe | Dwarven Metal Ingot; Perk: Dwarven | 16 | 742 | 84 | Target takes 20 points of frost damage to Health and Stamina.
+Nord Hero Dagger (xx08A1E4) | 1 Hand Dagger | Steel Ingot; Perk: Advanced Blacksmithing | 2 | 210 | 48
+Nord Hero Mace (xx08A1E5) | 1 Hand Mace | Steel Ingot; Perk: Advanced Blacksmithing | 13 | 390 | 78
+Nord Hero Warhammer (xx08A1E6) | 2 Hand Warhammer | Steel Ingot; Perk: Advanced Blacksmithing | 24 | 660| 132
 
 
 
 <h2><span class="mw-headline" id="Food">Food</span></h2><h3><span class="mw-headline" id="Raw_Food">Raw Food</span></h3>
 
-Name (ID) | Weight | Value | HungerCC | Effect(s) | Notes
+Name (ID) | Weight | Value | Hunger | Effect(s) | Notes
 -- | -- | -- | -- | -- | -- | 
-Angler (xx000890) | 2 | 30 | Very Small | Restore Health, 2 pts | Details:  Large Fish, common  Sources:  Freezing waters only while using the Argonian Fishing Rod. Pilgrim's Trench, small cavern on the ocean floor
-Arctic Char (xx0008A4) | 1 | 10 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Uncommon, Any Weather  Sources:  Freezing waters Hela's Folly Orphan's Tear (within the sunken deck) Pilgrim's Trench
-Arctic Grayling (xx0008A3) | 0.5 | 5 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common, Any Weather  Sources:  Freezing waters; e.g. Dawnstar fishing spot near the boat.
-Brook Bass (xx00089C) | 0.5 | 1 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common, Any Weather  Sources:  Outside Mixwater Mill Temperate Lakes and Rivers
-Carp (xx000898) | 0.5 | 2 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common, Any Weather  Sources:  Outside East Empire Company Warehouse Under Dragonsreach bridge. Temperate Lakes
-Catfish (xx000897) | 1 | 2 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common, Rainy Weather  Sources:  Temperate Lakes; e.g. Near Geirmund's Hall, Riften, or Falkreath
-Cod (xx0008A2) | 1 | 15 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common, Any Weather  Sources:  Freezing waters Outside Anga's Mill Outside Bronze Water Cave
-Direfish (xx000896) | 1 | 2 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common  Sources:  Underground fishing spots Inside Broken Oar Grotto Embershard Mine
-Glass Catfish (xx0008A0) | 0.5 | 2 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common  Sources:  Underground fishing spots Blackreach Lost Knife Hideout Inside Reachwater Rock
-Pogfish (xx000891) | 1 | 2 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Uncommon, Any Weather  Sources:  Riverwood fishing spot Temperate Rivers
-Salmon (xx00089B) | 0.5 | 3 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Very Common, Any Weather Can also be used to make Salmon Steak  Sources:  Everywhere
-Scorpion Fish (xx0008A1) | 1 | 30 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Rare  Sources:  Eleven underground fishing spots only while using the Argonian Fishing Rod. Darkfall Cave One (which respawns rarely) to catch by hand.
-Slaughterfish (xx000F25) | 0.5 | 5 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Common, Any Weather  Sources:  Temperate Lakes and Streams
-Tripod Spiderfish (xx00089E) | 0.5 | 10 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Uncommon  Sources:  Underground fishing spots Blackreach Inside Broken Oar Grotto - 19 in total. Embershard Mine Inside Reachwater Rock Lost Prospect Mine Shadowgreen Cavern, under a rock in the pool of water
-Vampire Fish (xx00088B) | 1 | 10 | Very Small | Restore Health, 2 pts | Details:  Large Fish, Uncommon  Sources:  Underground fishing spots Castle Volkihar - 10 can be found in the surrounding waters. Lost Knife Hideout Inside Reachwater Rock Dead Drop Falls Dimhollow Crypt - 5 can be found in the water surrounding Serana's coffin.
-Crab Meat (xx000EFE) | 0.1 | 2 | Very Small | Restore Health, 2 pts | Sources:  Mudcrabs Fish Barrels; e.g. Outside the Riften Fishery on the docks.
+Raw Angler (xx000890) | 2 | 30 | Very Small | Restore Stamina, 90 pts | Details:  Large Fish, common  Sources:  Freezing waters only while using the Argonian Fishing Rod. Pilgrim's Trench, small cavern on the ocean floor  
+Raw Arctic Char (xx0008A4) | 1 | 10 | Very Small | Restore Stamina, 60 pts | Details:  Large Fish, Uncommon, Any Weather  Sources:  Freezing waters Hela's Folly Orphan's Tear (within the sunken deck) Pilgrim's Trench
+Raw Arctic Grayling (xx0008A3) | 0.5 | 5 | Very Small | Restore Stamina, 30 pts | Details:  Large Fish, Common, Any Weather  Sources:  Freezing waters; e.g. Dawnstar fishing spot near the boat.
+Raw Brook Bass (xx00089C) | 0.5 | 2 | Very Small | Restore Stamina, 30 pts | Details:  Large Fish, Common, Any Weather  Sources:  Outside Mixwater Mill Temperate Lakes and Rivers
+Raw Carp (xx000898) | 0.5 | 2 | Very Small | Restore Stamina, 30 pts | Details:  Large Fish, Common, Any Weather  Sources:  Outside East Empire Company Warehouse Under Dragonsreach bridge. Temperate Lakes
+Raw Catfish (xx000897) | 1 | 3 | Very Small | Restore Stamina, 60 pts | Details:  Large Fish, Common, Rainy Weather  Sources:  Temperate Lakes; e.g. Near Geirmund's Hall, Riften, or Falkreath
+Raw Cod (xx0008A2) | 1 | 15 | Very Small | Restore Stamina, 60 pts | Details:  Large Fish, Common, Any Weather  Sources:  Freezing waters Outside Anga's Mill Outside Bronze Water Cave
+Raw Direfish (xx000896) | 1 | 4 | Very Small | Restore Stamina, 60 pts | Details:  Large Fish, Common  Sources:  Underground fishing spots Inside Broken Oar Grotto Embershard Mine
+Raw Glass Catfish (xx0008A0) | 0.5 | 2 | Very Small | Restore Stamina, 30 pts | Details:  Large Fish, Common  Sources:  Underground fishing spots Blackreach Lost Knife Hideout Inside Reachwater Rock
+Raw Pogfish (xx000891) | 1 | 3 | Very Small | Restore Stamina, 60 pts | Details:  Large Fish, Uncommon, Any Weather  Sources:  Riverwood fishing spot Temperate Rivers
+Raw Salmon (xx00089B) | 1 | 3 | Very Small | Restore Stamina, 60 pts | Details:  Large Fish, Very Common, Any Weather Can also be used to make Salmon Steak  Sources:  Everywhere
+Raw Scorpion Fish (xx0008A1) | 1 | 30 | Very Small | Restore Stamina, 60 pts | Details:  Large Fish, Rare  Sources:  Eleven underground fishing spots only while using the Argonian Fishing Rod. Darkfall Cave One (which respawns rarely) to catch by hand.
+Raw Slaughterfish (xx000F25) | 2 | 5 | Very Small | Restore Stamina, 90 pts | Details:  Large Fish, Common, Any Weather  Sources:  Temperate Lakes and Streams
+Tripod Spiderfish (xx00089E) | 0.5 | 10 | Very Small | Restore Stamina, 30 pts | Details:  Large Fish, Uncommon  Sources:  Underground fishing spots Blackreach Inside Broken Oar Grotto - 19 in total. Embershard Mine Inside Reachwater Rock Lost Prospect Mine Shadowgreen Cavern, under a rock in the pool of water
+Raw Vampire Fish (xx00088B) | 1 | 10 | Very Small | Restore Stamina, 30 pts | Details:  Large Fish, Uncommon  Sources:  Underground fishing spots Castle Volkihar - 10 can be found in the surrounding waters. Lost Knife Hideout Inside Reachwater Rock Dead Drop Falls Dimhollow Crypt - 5 can be found in the water surrounding Serana's coffin.
+Raw Mudcrab Meat (xx014D22) | 0.1 | 0 | Very Small | Restore Stamina, 30 pts | Sources:  Mudcrabs Fish Barrels; e.g. Outside the Riften Fishery on the docks.
 
 
-<html><body>
+
 <h3><span class="mw-headline" id="Baked_Food">Baked Food</span></h3>
 
-  | Name (ID) | Weight | Value | HungerCC | Effect(s) | Ingredients
--- | -- | -- | -- | -- | -- | --
-  | Crab Cakes (xx000F78) | 0.1 | 5 | Medium | Restore Health, 15 pts Fortify Block, 5 pts for 60 seconds | Salt Pile Sack of Flour Crab Meat
+Name (ID) | Weight | Value | Hunger | Effect(s) | Ingredients
+| -- | -- | -- | -- | -- | --
+Crab Cakes (xx000F78) | 0.1 | 5 | Heavy | Restore Stamina, 40 pts Fortify Block, 5 pts for 300 seconds | 1 Salt, 1 Sack of Flour, 1 Raw MudCrab Meat
 
 
-<html><body>
 <h3><span class="mw-headline" id="Cooked_Food">Cooked Food</span></h3>
 
-Name (ID) | Weight | Value | HungerCC | Effect(s) | Ingredients
+Name (ID) | Weight | Value | Hunger | Effect(s) | Ingredients
 -- | -- | -- | -- | -- | -- | 
    Cooked Cod (xx00087A) | 1 | 18 | Medium | Restore Health, 5 pts | Salt Pile Cod
    Cooked Pearlfish (xx00087B) | 0.2 | 18 | Medium | Restore Health, 5 pts | Salt Pile Pearlfish
