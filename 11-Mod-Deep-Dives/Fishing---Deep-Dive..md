@@ -351,4 +351,38 @@ Pygmy Sunfish xx0008ED |  Restore Stamina | Lingering Damage Magicka | Damage M
 Spadefish xx0008F3 | Restore Health | Fortify Lockpicking Expertise| Fortify Pickpocket | Cure Disease | 15 | 0.25
 
 
+<h2><span class="mw-headline" id="Junk">Junk</span></h2>
+
+Name | Weight | Value | Rarity
+| -- | -- | -- | -- 
+Wooden Torch | 0.4 | 4 | Common
+Iron Lantern | 1.5 | 18 | Common
+Wood | 2 |2 | Common
+Iron Cooking Pot | 5 | 9 | Common
+Steel Hunting Knife| 2 | 16 | Common
+Iron Hunting Knife| 1.5 | 9 | Common
+Sharp Rock| 0.5 | 0 | Common
+Waterskin (Empty)| 0.5 | 15 | Common
+Fur Bedroll| 2 | 25 | Common
+Tinder (Decent)| 0.1 | 4 | Common
+Flammable Oil| 1 | 4 | Common
+Toolkit: Survivalist's| 1 | 20 | Common
+Iron Pot| 2 | 12 | Rare
+Iron Large Pot| 5 | 23|Rare
+Wooden Bowl| 0.5 |2 |Rare
+Wooden Plate| 0.5 |2 |Rare
+Iron Tankard| 0.5 |3 |Rare
+Iron Clothes Press| 2 | 10 | Rare
+Silver Ewer| 2.5 | 140 | Rare
+Human Skull| 2 | 5 | Rare
+Steel Battleaxe Head| 12| 66| Rare
+Iron War Axe Head| 4 | 12 | Rare
+Building Glass| 1 | 5 | Rare
+Animal Bone (Small)| 0.5 | 5 | Rare
+Animal Bone (Large)| 2 | 10 | Rare
+Child's Doll| 1 | 10 | Rare
+Animal Bone (Superlative)| 10 | 50 | Rare
+
+Note: In addition to above, Leather and hide armors, Iron, Steel, Elven or Orcish weapons and armor can also be fished up rarely.
+
 
