@@ -2,7 +2,7 @@
 layout: default
 title: How Do I Edit Skyrim Settings?
 has_toc: false
-has_children: true
+has_children: false
 parent: How Do i?
 description: How Do I Edit Skyrim Settings?
 ---
