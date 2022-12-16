@@ -65,9 +65,15 @@ code blocks are surrounded by 3 ``` characters
 
 
 [Browse our documentation][Just the Docs] to learn more about how to use this theme.
+
 [Jekyll]: https://jekyllrb.com
+
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
+
 [GitHub Pages]: https://docs.github.com/en/pages
+
 [Bundler]: https://bundler.io
+
 [`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
+
 [`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
