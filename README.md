@@ -38,7 +38,7 @@ description: Keybinds          Optional - a description for the page which will 
 
 ### Code blocks should only be used for crafting recipes & formala's - not as a highlight.
 
-code blocks are surrounded by 3 ``` characters
+code blocks are surrounded by 3 apostrphies, or by being tab indented
 
 ### To include a table of contents
 ```
@@ -64,16 +64,9 @@ code blocks are surrounded by 3 ``` characters
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+### Other links
 
-[Jekyll]: https://jekyllrb.com
+* Jekyll https://jekyllrb.com
+* Just the Docs https://just-the-docs.github.io/just-the-docs/
+* jekyll-default-layout https://github.com/benbalter/jekyll-default-layout
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-
-[GitHub Pages]: https://docs.github.com/en/pages
-
-[Bundler]: https://bundler.io
-
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
