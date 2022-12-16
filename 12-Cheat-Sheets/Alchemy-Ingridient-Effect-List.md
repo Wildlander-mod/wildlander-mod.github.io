@@ -6,7 +6,8 @@ description: Alchemy Ingredient effect lists
 parent: Cheat Sheets
 ---
 
-Alchemy Tab on the crafting spreadsheet also includes useful information - https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=243189268
+Alchemy Tab on the crafting spreadsheet also includes useful information 
+[Alchemy tab]((https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=243189268){: .btn .btn-pink }
 
 
 # Damage
