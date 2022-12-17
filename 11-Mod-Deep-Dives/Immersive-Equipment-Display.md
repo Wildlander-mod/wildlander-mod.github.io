@@ -77,7 +77,6 @@ As many people possess a non-standard keyboard, it's (usually) the key between [
 [top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
 
 </div>
-
 </details>
 
 <details>
@@ -116,6 +115,7 @@ Displays the tabs and filters for:
 * Gear Positioning - *Weapons and Shields. This affects displayed AND equipped models. If you want the gear you use in combat to stay in its displayed spot you'll need to edit the position both here AND in the aforementioned Equipment section.*
 
 [top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
+ 
 </div>
 </details>
 
@@ -161,6 +161,7 @@ Of which, the only two you need to mess with are Displays and UI.
 * Select Crosshair Actor - *Automatically selects the actor/npc/race in your crosshairs.*
 
 [top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
+ 
 </div>
 </details>
 
@@ -201,6 +202,7 @@ Within each of those is a Preset drop menu:
 Finally, we have the filters. Which show the various items you can alter for all the above.
 
 [top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
+ 
 </div>
 </details>
 
@@ -247,6 +249,7 @@ Ta-da! Easy, right?
 Keep in mind that this only affects gear you actually equip and you cannot alter its placement beyond the above. If you have gear that you want displayed, but don't plan on actually equipping (say, a hunting knife in a 'shoulder sheath') then please refer to the Placement tab.
 
 [top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
+ 
 </div>
 </details>
 
@@ -319,8 +322,7 @@ Please reference the PLACEMENT tab to determine its final, well... placement.
 
 [top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
  
-</div>
- 
+</div> 
 </details>
 
 
@@ -375,6 +377,7 @@ There you have it, you're ready to get to making all sorts of awesomeness! Like 
 
 [top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
 
+</div> 
 </details>
 
 <details>
