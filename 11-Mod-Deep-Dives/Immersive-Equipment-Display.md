@@ -393,7 +393,7 @@ I'm still fumbling around with it but it only took a bit of time over a few days
 
 I don't know when custom support get released but when it does I'll update the guide as soon as reasonably possible to include the presets so you can get that drip you've been after!
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html) {: .btn .btn-pink }
+[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink }
  
 </div>
 </details>
