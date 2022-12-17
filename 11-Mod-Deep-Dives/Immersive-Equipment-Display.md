@@ -74,8 +74,6 @@ As many people possess a non-standard keyboard, it's (usually) the key between [
 
 ![image](https://user-images.githubusercontent.com/88904551/177057693-0332bb42-8786-4d0b-8462-c3861b02e645.png)
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink}
-
 </div>
 </details>
 
@@ -160,8 +158,6 @@ Of which, the only two you need to mess with are Displays and UI.
 * Freeze Time - *Stops time when the menu is open, handy if you don't want to be snuck up on or want days passing while you readjust your gear.*
 * Select Crosshair Actor - *Automatically selects the actor/npc/race in your crosshairs.*
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink}
- 
 </div>
 </details>
 
@@ -201,8 +197,6 @@ Within each of those is a Preset drop menu:
 
 Finally, we have the filters. Which show the various items you can alter for all the above.
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink}
- 
 </div>
 </details>
 
@@ -248,8 +242,6 @@ Ta-da! Easy, right?
 
 Keep in mind that this only affects gear you actually equip and you cannot alter its placement beyond the above. If you have gear that you want displayed, but don't plan on actually equipping (say, a hunting knife in a 'shoulder sheath') then please refer to the Placement tab.
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink}
- 
 </div>
 </details>
 
@@ -320,8 +312,6 @@ Time to attach our potions to a general area! Select Lower Spine and don't worry
 
 Please reference the PLACEMENT tab to determine its final, well... placement.
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink}
- 
 </div> 
 </details>
 
@@ -375,8 +365,6 @@ There you have it, you're ready to get to making all sorts of awesomeness! Like 
 
 ![image](https://user-images.githubusercontent.com/88904551/177070636-d9dcb469-ef30-44e9-b469-8572fb9f8517.png)
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink}
-
 </div> 
 </details>
 
@@ -393,7 +381,5 @@ I'm still fumbling around with it but it only took a bit of time over a few days
 
 I don't know when custom support get released but when it does I'll update the guide as soon as reasonably possible to include the presets so you can get that drip you've been after!
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display.html){:.btn.btn-pink }
- 
 </div>
 </details>
