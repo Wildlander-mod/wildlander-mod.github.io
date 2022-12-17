@@ -380,6 +380,7 @@ There you have it, you're ready to get to making all sorts of awesomeness! Like 
 <details>
 <summary>TL;DR</summary>
 <br>
+<div class="Info" markdown="1">
 
 ![image](https://user-images.githubusercontent.com/88904551/177074144-3dcf9bca-ec04-4f82-ba4c-ffb25faf8459.png)
 
