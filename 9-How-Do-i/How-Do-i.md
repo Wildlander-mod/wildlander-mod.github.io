@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How Do i?
+title: How Do I?
 nav_order: 9
 has_toc: true
 has_children: true
