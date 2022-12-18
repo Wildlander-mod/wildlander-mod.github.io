@@ -3835,7 +3835,7 @@ Varies
 * Sameth
 
 #### Dawnguard Followers
-* Knight-Paladin Gelebor
+* Knight-Paladin Gelebor 
 
 </div>
 </details>
