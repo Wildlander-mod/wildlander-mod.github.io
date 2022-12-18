@@ -79,3 +79,21 @@ pre.highlight {
     color: #ffffff;
     font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
 }
+
+.aux-nav-list-item {
+display: inline-block;
+height: 100%;
+padding: 0;
+margin: 0;
+font-family: Averta, sans-serif;
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+text-decoration: none;
+cursor: pointer;
+}
+
+.aux-nav-list-item:hover {
+  color: #8f00ff;
+}
+

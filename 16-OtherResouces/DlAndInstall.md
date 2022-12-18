@@ -10,19 +10,19 @@ description: Minimum requirements and Installation
 
 ## Recommended Specs
 
-<div>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60">   GeForce GTX 1080ti or higher <br>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" alt="Purple CPU icon" width="60">   Intel Core i7-9700K or higher<br>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" alt="Purple RAM icon" width="60">   16gb or more RAM<br>
+<div>     
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60">   GeForce GTX 1080ti or higher <br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" alt="Purple CPU icon" width="60">   Intel Core i7-9700K or higher<br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" alt="Purple RAM icon" width="60">   16gb or more RAM<br>
 </div>
 
 
 ## Minimum Specs
 
 <div>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7f75119b40ca_gpu_gray.svg" loading="lazy" alt="Grey GPU icon" width="60">   GeForce GTX 660or equivalent<br>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01707ce98a3d2c755499f_cpu_gray.svg" loading="lazy" alt="Grey CPU icon" width="60">   AMD Ryzen 3 2200G or equivalent<br>
-<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7ffc499b40cb_ram_gray.svg" loading="lazy" alt="Grey RAM icon" width="60">   8gb or more RAM<br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7f75119b40ca_gpu_gray.svg" loading="lazy" alt="Grey GPU icon" width="60">   GeForce GTX 660or equivalent<br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01707ce98a3d2c755499f_cpu_gray.svg" loading="lazy" alt="Grey CPU icon" width="60">   AMD Ryzen 3 2200G or equivalent<br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7ffc499b40cb_ram_gray.svg" loading="lazy" alt="Grey RAM icon" width="60">   8gb or more RAM<br>
 </div>
 
 {: .important}
