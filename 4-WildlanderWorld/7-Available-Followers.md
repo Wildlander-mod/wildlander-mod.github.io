@@ -1505,7 +1505,25 @@ Unique
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
  
-***
+</div>
+</details>
+
+<details>
+ <summary> Knight-Paladin Gelebor </summary>
+ 
+<div class="Info" markdown="1"> 
+<p class="text-gamma">Info</p>
+ 
+|Race/Class |Male Snow-elf |Location | Chantry of Auri-El
+|Level Min/Max |None |Prerequisite |Touching the Sky
+|Blades |No|Marriage |No
+|Steward |No|RefID |0200a878
+
+|Morality: 0 – Any crime, where the follower will commit any requested crime.
+
+<p class="text-gamma">Perks</p>
+
+ None
 
 </div>
 </details>
@@ -3815,6 +3833,9 @@ Varies
 * Roggi Knot-Beard
 * Vorstag
 * Sameth
+
+#### Dawnguard Followers
+* Knight-Paladin Gelebor
 
 </div>
 </details>

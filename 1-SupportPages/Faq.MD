@@ -251,25 +251,14 @@ Then go to Mod Configuration Menu and Skyrim. From there you can use 'Skyrim Unb
 ----------
 ## Some sounds aren't playing! How do I fix this?
 
-If you are unable to hear most of the combat sounds such as sword swings, spell useage (ex: flame, heal, etc.), opening a container, footsteps, etc but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance:
+If you are unable to hear most of the combat sounds such as sword swings, spell useage (ex: flame, heal, etc.), opening a container, footsteps, etc but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance.
 
-If you are willing to customize (and know how to use mod organizer to install mods) [Latge Sector fix](https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description) may fix the issue.
+Skyrim's engine has a bug that causes audio to not play most of the time when the game is installed to a drive with a sector size other than 512 (usually referred to as Advanced Format). 
 
-If not check first to see if your Skyrim install is in the 'C' drive (C:). Installing Skyrim outside the C: has been known to cause this issue. If you do not want to reinstall the game to C:, a quick fix originally posted by Kepache may be attempted:
+This Mod [Large Sector fix](https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description) will correct the issue, and will be included as standard on the next major release.
 
-1. First download and install Link Shell Extension, which can be found [here](http://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html).
-2. Navigate to your Skyrim/Data folder and look for a file named Skyrim - Sounds.bsa. Copy this file and paste it somewhere on your main drive (I suggest creating a folder for this purpose).
-3. Delete Skyrim - Sounds.bsa from the Data folder.
-4. Go back to where you copied Skyrim - Sounds.bsa on your main drive. Right click on it, and you should see an option that says “Pick Link Source”. Click that.
-5. Go back to your Skyrim/Data folder. Right click anywhere and choose “Drop As” and then “Symbolic Link”. You will see your sounds file with a shortcut symbol.
+To install - download and Unzip Large_sector_fix.dll  to <Install Folder>\game-files\overwrite\SKSE\Plugins\ - you will need to create these folders manually
 
-You also need to do the above for Skyrim - Voices_en0.bsa also found in the Skyrim Data folder
-
-You may need to do it for the following 3 folders. Some people do, some don't:
-
-1. Audio Overhaul Skyrim for SE sound folder found in Game-files\mods\Audio Overhaul for Skyrim SE—All files in sound subdirectory
-2. Immersive Sound – Compendium sound folder found in Game-files\mods\Immersive Sounds – Compendium – All Files in sound subdirectory
-3. Unofficial High Definition Audio Project – all BSA files in all three folders found in Game-files\mods
 
 ----------
 
