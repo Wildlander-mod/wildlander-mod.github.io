@@ -10,7 +10,7 @@ url: https://wildlander-mod.github.io/
 
 # Pages in following dorectories will be excluded from the Export
 exclude:
-  wip
+  - wip/
 
 search:
   heading_level: 2
