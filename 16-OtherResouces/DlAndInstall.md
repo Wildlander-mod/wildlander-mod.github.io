@@ -11,9 +11,9 @@ description: Minimum requirements and Installation
 ## Recommended Specs
 
 <div>     
-	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60" contrast="45" brightness="200">   GeForce GTX 1080ti or higher <br>
-	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" alt="Purple CPU icon" width="60" contrast="45" brightness="200">   Intel Core i7-9700K or higher<br>
-	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" alt="Purple RAM icon" width="60" contrast="45" brightness="200">   16gb or more RAM<br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60" style="filter: contrast(45%) brightness(200%);">   GeForce GTX 1080ti or higher <br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" alt="Purple CPU icon" width="60" sstyle="filter: contrast(45%) brightness(200%);">   Intel Core i7-9700K or higher<br>
+	<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" alt="Purple RAM icon" width="60" style="filter: contrast(45%) brightness(200%);">   16gb or more RAM<br>
 </div>
 
 
