@@ -86,14 +86,16 @@ height: 100%;
 padding: 0;
 margin: 0;
 font-family: Averta, sans-serif;
-color: #fff;
+background: #fff;
 font-size: 14px;
 font-weight: 400;
 text-decoration: none;
 cursor: pointer;
 }
 
-.aux-nav-list-item:hover {
-  color: #8f00ff;
+.site-button:hover {
+	color: #8f00ff;
 }
+
+
 
