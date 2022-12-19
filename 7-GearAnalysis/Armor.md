@@ -57,21 +57,4 @@ The more weight your worn equipment has, the more difficult it will become to kn
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTyzZNzqf63mwv-3l56Owihpp3fKPwZoD_rlgGhpaysoBO_794kqNZibDex2trM8P4Wn1G-1EsHx0e3/pubhtml?widget=true&amp;headers=false" width="1200" height="700"></iframe>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-<script type='text/javascript'>    
-  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1rMVLVouumU45jFfmjmWUVjTYY7_wLnrxwmHMi24R9OU/pubhtml';
-
-  function init() {
-    Tabletop.init( { key: publicSpreadsheetUrl,
-                     callback: showInfo,
-                     simpleSheet: true } )
-  }
-
-  function showInfo(data, tabletop) {
-    alert('Successfully processed!')
-    console.log(data);
-  }
-
-  window.addEventListener('DOMContentLoaded', init)
-</script>
 
