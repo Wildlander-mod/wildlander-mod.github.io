@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Embedded sheet
 nav_order: 1
 description: "Wildlander Weapons Test."
 permalink: /
@@ -40,5 +40,5 @@ function myItems(jsonString){
   )
   table += '</table>'
   return table
-  
+} 
 </script>
