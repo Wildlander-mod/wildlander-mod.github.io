@@ -16,7 +16,7 @@ Wildlander is also a mod in its own right, as it includes proprietary features n
 
 The whole experience is built around [Requiem - the Roleplaying Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/60888) - v5.0.3. Requiem completely retools all of Skyrim to create a challenging, deleveled world with plenty of meaningful choices. 
 
-In general, any Requiem resources you find will be applicable to Wildlander. Some information may be outdated, some may be overwritten by other mods in Wildlander, and some may have been disabled entirely, but the core principles are the same.
+In general, any Requiem resources you find will be applicable to Wildlander. Some information may be outdated, some may be overwritten by other mods in Wildlander, and some may have been disabled entirely, but the core principles are the same. Assume if a mechanic is not covered in either our or requiem's resources - that the mechanic is unchanged from vanilla.
 
 Wildlander can be overwhelming at first, so I highly recommend reading up on it. Start with The Recommended reading section on this wiki and work down from there.
 
