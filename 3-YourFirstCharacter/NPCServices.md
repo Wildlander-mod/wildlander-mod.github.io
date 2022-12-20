@@ -71,6 +71,56 @@ Winterhold| Winterhold| 	Sergius Turrianus | 	College of Winterhold| 100
 
 ## Enchantments
 
+### Weapons
+* Absorb Health 
+* Absorb Magicka               
+* Absorb Stamina                       
+* Banish                       
+* Fear                
+* Fire Damage                      
+* Frost Damage      
+* Magicka Damage      
+* Paralyze  
+* Shock Damage
+* Soul Trap 
+* Stamina Damage
+* Turn Undead   
+
+### Armor        
+* Fortify Alchemy         
+* Fortify Alteration            
+* Fortify Block         
+* Fortify Carry Weight              
+* Fortify Conjuration           
+* Fortify Destruction  
+* Fortify Evasion Armor            
+* Fortify Healing Rate                
+* Fortify Heavy Armor               
+* Fortify Illusion                        
+* Fortify Lockpicking        
+* Fortify Magicka              
+* Fortify Magicka Regen         
+* Fortify Marksman             
+* Fortify One-Handed              
+* Fortify Pickpocket    
+* Fortify Restoration            
+* Fortify Smithing        
+* Fortify Sneak         
+* Fortify Barter   
+* Fortify Speech      
+* Fortify Stamina  
+* Fortify Stamina Regen 
+* Fortify Two-Handed
+* Fortify Unarmed 
+* Muffle     
+* Resist Disease 
+* Resist Fire 
+* Resist Frost   
+* Resist Magic  
+* Resist Poison          
+* Resist Shock     
+* Waterbreathing     
+
 
 
 

@@ -28,10 +28,6 @@ Summons guide - kinda like the enemy guide but for player cast summons (or NPC c
 
 ---
 
-Food & Drink Guide
-
----
-
 Deep Dives
 * FLP
 
@@ -55,7 +51,7 @@ Maintainable! this page is a wall of HTML
 
 Spell-Research---Cheat-Sheet(Locations and spells) - wip
 
-Needs completeing.
+Needs completing.
 
 ---
 
