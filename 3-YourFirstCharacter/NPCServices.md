@@ -58,12 +58,12 @@ Hold| 	Town| Wizard| Location| Skill
 Eastmarch |	Windhelm| 	Wuunferth the Unliving| 	Palace of the Kings| 70
 Eastmarch | Kynesgrove| Dravynea the Stoneweaver | Braidwood Inn (only offers services if Wuunferth dies or is jailed)| 45
 Haafingar| 	Solitude| 	Sybille Stentor| 	Blue Palace| 60
-Haafingar| 	Solitude| 	Melaran | Blue Palace|60
+Haafingar| 	Solitude| 	Melaran | Erikur's House or Blue Palace (only offers enchanting services if Sybille is dead) |60
 Haafingar| 	Solitude| 	Sassia the Enchantress | Outlaw Refuge|60
 Solstheim | Raven Rock| Neloth| Tel Mithryn |100
 The Pale| 	Dawnstar| 	Madena| 	The White Hall| 15
 The Reach| 	Markarth| 	Calcelmo| 	Understone Keep| 80
-The Reach| 	Markarth|   Aicantar |	Understone Keep| 50
+The Reach| 	Markarth|   Aicantar |	Understone Keep (only offers enchanting services if Calcelmo is Dead)| 50
 The Reach| 	Markarth|   Hamal | Temple of Dibella	| 90
 The Rift| 	Riften| 	Wylandriah| 	Mistveil Keep| 65
 Whiterun Hold| 	Whiterun| 	Farengar Secret-Fire| 	Dragonsreach| 55
