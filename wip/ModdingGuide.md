@@ -62,6 +62,20 @@ The following types of mods have Issues
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 
 ---
+## Introduction to Mod Organizer 2
+
+Mod Organizer is divided into two sections, The left side is for loose files, these are loaded into skyrim from the top down. If two identical files exist, the one closest to the botton will be the one loaded.
+The Ride side of the list is the plugins, these are the mods themselves containing instructions on how the game constructs the world. Instructions inside of these plugins can conflict, so again, the ones at the bottom of the list take priority
+
+![image](https://user-images.githubusercontent.com/26418143/173229360-cc431243-c5fb-4f1b-babd-74efc9cb80db.png)
+
+If you have two Plugin's which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1.
+
+## General guidance
+
+If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
+
+You will always be able to switch back to the original profile and load it that way in case you screw up badly.
 
 ### Installing Mods not covered by guides.
 
@@ -90,21 +104,16 @@ If there isn't a specific guide, then as a general rule of thumb
 Close mod organizer - and use the launcher to start the game.
 
 ---
- 
-## General guidance
 
-If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
-You will always be able to switch back to the original profile and load it that way in case you screw up badly. or run loot or otherwise fubar your load order.
+### Adding New Animations with Nemesis/FNIS alternative: 
 
-Quick Links to a variety of Helpful Topics:
+1. Most important - before doing anything - You have to add Nemesis Engine to the windows defender exception list, or whatever Anti Virus you are running otherwise it will crash on startup.
+2. Install your animation mods as normal.
+3. Run Nemesis from Mod organizer dropdown.
 
-### The Distinction between List/Loose Files Load Order and Plugins Load Order: 
 
-![image](https://user-images.githubusercontent.com/26418143/173229360-cc431243-c5fb-4f1b-babd-74efc9cb80db.png)
-
-### Building New Animations with Nemesis/FNIS alternative: 
-
-https://youtu.be/gc8Ai7jYDXc?t=1077
+The following Video shows a tutorial of how to install some Nemesis Animations
+[Skyrim 2022 Ultra Modded - Animation mod recommendations and how to install - Wildlander](https://youtu.be/gc8Ai7jYDXc?t=1077)
 
 The video covers most of it and I already linked to the timestamp that is really important, but there are a few edge cases still left.
 
