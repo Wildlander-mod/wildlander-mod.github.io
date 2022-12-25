@@ -1,5 +1,5 @@
 ---
-title: Class Guide
+title: Class Guide - Warrior (HA/One-handed)
 layout: default
 description: Class Guide - Warrior (HA/One-handed)
 has_children: false
@@ -12,7 +12,9 @@ parent: Class Guide
 
 Nearly identical to the 2hand warrior, but one-handed weapon and shield instead. War axes are chosen again to fit in with the theme of Companions. The build is going to be wearing Pristine Wolf Armor + Ysgramor Shield for the looks and when Enchanting/Smithing is at 100, dragonbone. HA, 1H/Shield builds always rely heavily on the stamina department and movement speed is very low at the start. So, Steed stone is the best starting stone for this build. Later on, when we get an unclear destiny potion we switch to Warrior stone though, as the Stamina and Movement speed from Steed becomes less important. We choose Oghma on stamina though as this build would need larger stam pool compared to 2h.
 
-Race | Stone | Blessing | Supernatural: Nord/Redguard/Orc | Steed -> Warrior | Talos/Stendarr/Zenithar | Werewolf
+Race | Stone | Blessing | Supernatural
+|--|--|--|--|
+Nord/Redguard/Orc | Steed -> Warrior | Talos/Stendarr/Zenithar | Werewolf
 
 # Skills
 

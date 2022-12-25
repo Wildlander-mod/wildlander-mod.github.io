@@ -15,6 +15,10 @@ He chooses Mage Armor and Steed stone for starting spell & Stone. Along with the
 
 Rather than do the traditional character Guide - i'm going to suggest that you watch his video's as its explained very well inside
 
+Race | Stone | Blessing | Supernatural
+|--|--|--|--|
+Orc | Steed | Talos/Stendarr/Zenithar | Werewolf
+
 [Part 1](https://youtu.be/WDFFsRx7vEE?t=1564) 3hrs 30 mins
 [Part 2](https://www.youtube.com/watch?v=8gmDXe_FEto) 12 hours
 

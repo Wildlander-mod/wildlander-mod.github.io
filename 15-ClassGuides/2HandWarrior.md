@@ -1,5 +1,5 @@
 ---
-title: Class Guide
+title: Class Guide - Warrior (HA/Two-handed)
 layout: default
 description: Class Guide - Warrior (HA/Two-handed)
 has_children: false
@@ -14,7 +14,9 @@ A typical Warrior build with Heavy Armor, no-magic. Can go with any type of two-
 
 The build is going to be wearing Pristine Wolf Armor + Wuuthrad for the looks. At late game when Enchanting/Smithing is at 100, we switch to enchanted dragonbone weapons&armor.
 
-Race | Stone | Blessing | Supernatural: Nord/Redguard/Orc | Warrior | Talos/Stendarr/Zenithar | Werewolf
+Race | Stone | Blessing | Supernatural
+|--|--|--|--|
+Nord/Redguard/Orc | Warrior | Talos/Stendarr/Zenithar | Werewolf
 
 # Skills
 

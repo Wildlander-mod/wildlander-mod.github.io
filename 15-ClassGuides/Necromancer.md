@@ -1,5 +1,5 @@
 ---
-title: Class Guide
+title: Class Guide - Necromancer
 layout: default
 description: Class Guide - Necromancer
 has_children: false
@@ -11,6 +11,10 @@ parent: Class Guide
 # Description
 
  A classic build, Necromancer. Breton is the cool race for this, but Altmer/Dunmer would work as well Ritual is the go-to stone.  Necromancer’s Amulet and Necromancer’s Robes are aimed for the looks. We would not do College quest line on this build for a change as the college frowns on necromancy, but instead clear other Necromancer spots for levels and RP. Vampire would go really well with this build, but it’s optional.
+ 
+ Race | Stone | Blessing | Supernatural
+|--|--|--|--|
+Breton/Altmer/Dunmer | Ritual | Julianos | Vampire(optional)
 
 # Skills
 ## Starting Skills
