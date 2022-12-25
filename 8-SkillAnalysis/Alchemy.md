@@ -182,7 +182,7 @@ Perk Required : Immunization
 
 _Effect :_
 
-All Spell durations and magnitude permanently increased by 5%, spell cost permanently  decreased by 5%. Adds a passive to your character which permanently increases Magicka by 100 and adds 1 Magicka regeneration per second.
+All Spell durations and magnitude permanently increased by 5%, spell cost permanently  decreased by 5%. Adds a passive to your character which permanently increases Magicka by 150 and adds 3 Magicka regeneration per second.
 
 ---
 
