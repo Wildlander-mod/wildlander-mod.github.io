@@ -15,6 +15,10 @@ nav_order: 15
 
 < Description of the Class, including recommended Races and standing stone selected during character creation. If there is a blessing the player should get - that should also go here >
 
+Race | Stone | Blessing | Supernatural
+|--|--|--|--|
+<Race> | <Stones> | <>blessings> | Werewolf / Vampire or None
+
 # Skills
 
 ## Starting Skills
