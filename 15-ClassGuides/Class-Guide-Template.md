@@ -23,6 +23,8 @@ nav_order: 15
 # Perks
 < Suggested perks selected for this class>
 
+https://banananaut.github.io/NannerPlanner/ Can be used to show this.
+
 # Recommended weapons / Spells
 
 # Recommended armor / Clothing
