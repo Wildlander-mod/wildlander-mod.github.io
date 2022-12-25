@@ -13,7 +13,10 @@ nav_order: 15
 
 # Description
 
+< Description of the Class, including recommended Races and standing stone selected during character creation. If there is a blessing the player should get - that should also go here >
+
 # Skills
+
 ## Starting Skills
 < Description of the Skills selected during character creation >
 
@@ -25,13 +28,15 @@ nav_order: 15
 
 https://banananaut.github.io/NannerPlanner/ Can be used to show this.
 
+# Level ups
+
+< How to assign Level up stats>
+
 # Recommended weapons / Spells
 
 # Recommended armor / Clothing
 
-# Strengths
-
-# Weaknesses
+# Content 
 
 
 ---

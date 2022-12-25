@@ -23,7 +23,9 @@ Evasion(2 perks, Dodge) / Illusion (2 perks, Blur) / Speech (2 perks, Indomitabl
 
 [Perk tree link](https://banananaut.github.io/NannerPlanner/?p=0&b=AgAAAAA3KwsAZGQFZGRkZAVkBQUFBWQFMjIFAAEHAOv_v_AHw_CHBegGAACCAAAAAAAADkIAAAAFAAAA)
 
-# Level ups: Magicka until base 175 Magicka(for Necro Amulet) -> All Health, Oghma - Health
+# Level ups
+
+Magicka until base 175 Magicka(for Necro Amulet) -> All Health, Oghma - Health
 
 # Recommended weapons / Spells
 
