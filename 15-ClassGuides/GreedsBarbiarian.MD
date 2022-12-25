@@ -20,6 +20,7 @@ Race | Stone | Blessing | Supernatural
 Orc | Steed | Talos/Stendarr/Zenithar | Werewolf
 
 [Part 1](https://youtu.be/WDFFsRx7vEE?t=1564) 3hrs 30 mins
+
 [Part 2](https://www.youtube.com/watch?v=8gmDXe_FEto) 12 hours
 
 #Skills 

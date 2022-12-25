@@ -17,8 +17,10 @@ Race | Stone | Blessing | Supernatural
 Dunmer/Altmer/Breton | Mage | Julianos | None
 
 # Skills
+
 ## Starting Skills
-: Destruction / Alteration / Conjuration / Alchemy / Restoration / Illusion
+
+Destruction / Alteration / Conjuration / Alchemy / Restoration / Illusion
 
 ## Secondary Skills
 
@@ -41,16 +43,17 @@ Backup Staff of IceStorm - In-case running across something which is Fire Immune
 # Recommended armor / Clothing
 
 Armor:
+
 	Helm: Magicka Hoods -> Mage’s Circlet -> Nahkriin
 	Chest: Novice Robes of Destruction -> Expert (Rannveig's Fast/Sunderstone Gorge) -> Master Robes of Destruction (Shrine of Dagon) -> Arch-Mage Robes
 	Gloves: Gloves of Magic Resist -> Ancano’s Gloves
 	Boots: Boots of Magicka -> Arch Mage’s Boots
 	
 Jewelry:
+
 	Necklace: Saarthal Amulet -> Savos Aren’s Amulet 
 	Ring: Enchanted Ring -> Ring of Peerless Destruction (Orchendor)
 	
-
 
 # Content 
 

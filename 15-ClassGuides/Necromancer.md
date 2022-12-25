@@ -17,10 +17,13 @@ parent: Class Guide
 Breton/Altmer/Dunmer | Ritual | Julianos | Vampire(optional)
 
 # Skills
+
 ## Starting Skills
+
 Conjuration / Alteration / Destruction /  Restoration / Alchemy
 
 ## Secondary Skills
+
 Evasion(2 perks, Dodge) / Illusion (2 perks, Blur) / Speech (2 perks, Indomitable Force) / Enchanting 1 perk - to unlock recharing your own weapons and to get skill points to make the build
 
 # Perks
@@ -40,12 +43,14 @@ Backup Staff of Fireball - In-case running across something which is Ice Immune.
 # Recommended armor / Clothing
 
 Armor:
+
 	Helm:   Linen / Cotton / Silk Hood with Magicka Enchant -> Vokun
 	Chest:  Linen / Cotton / Silk Robes with Magicka Enchant -> Linen Robes of Peerless Conjuration - Necromancer's -> Archmage's Robes(if going college) OR Vampire Cuirass of Peerless Conjuration - Dark (if going Vampire)
 	Gloves: Gloves of Magic Resist (until MR is 50%) -> Linen / Cotton / Silk Gloves with Magicka Enchant
 	Boots:  Linen / Cotton / Silk Boots with Magicka Enchant
 	
 Jewelry:
+
 	Necklace: Necromancer's Amulet 
 	Ring: Ring of Peerless Conjuration (Malkoran)
 	

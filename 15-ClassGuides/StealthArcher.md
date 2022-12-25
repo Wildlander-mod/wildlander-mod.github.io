@@ -17,10 +17,13 @@ Race | Stone | Blessing | Supernatural
  Bosmer | Thief -> Apprentice | Kynareth -> Nocturnal (just because only blessing that allows murderers)
 
 # Skills
+
 ## Starting Skills
+
 Marksman /  Smithing / Illusion / Alchemy / Sneak / Lockpicking
 
 ## Secondary Skills
+
  Evasion (2 perks, Dodge) / Speech (2 perks, Indomitable Force)
 
 # Perks
@@ -34,15 +37,20 @@ Marksman /  Smithing / Illusion / Alchemy / Sneak / Lockpicking
 # Recommended weapons / Spells
 
 Heavy Bow: Zephyr / Necrobane for Undead -> Dragonbone Bow&Arrows 
+
 Light bow: Spectral Bow -> Auri-el Bow
 
 # Recommended armor / Clothing
 
 Armor: DB Shrouded Armor -> Ancient Shrouded Armor
 
-Jewelry: %16 MR Necklace -> %22 MR Necklace(Illinalta’s Deep) OR Farengar’s Magicka Ring -> Nightweaver’s Band
+Jewelry:
+
+	%16 MR Necklace -> %22 MR Necklace(Illinalta’s Deep)
+    Farengar’s Magicka Ring -> Nightweaver’s Band
 
 # Content 
+
 Dark Brotherhood & Thieves guide.
 
 Note: This build has difficulties much past midgame - so attempting the endgame content is extremely challenging due to NPC's Sneak immunities.

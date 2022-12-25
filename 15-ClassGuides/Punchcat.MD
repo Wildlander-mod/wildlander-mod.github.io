@@ -17,6 +17,7 @@ Race | Stone | Blessing | Supernatural
 Khajit | Apprentice | Take your pick
 
 # Skills
+
 ## Starting Skills
 
 Evasion / One-handed / Alteration / Illusion /  Alchemy / Smithing 
@@ -42,3 +43,7 @@ None.
 Any LA, unarmed enchanted gloves
 
 # Content 
+
+Companions
+
+Note: not a end game build - Punchcat runs out of steam once you get to enemies with regen.
