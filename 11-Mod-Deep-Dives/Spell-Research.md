@@ -104,15 +104,15 @@ The magicka requirements for crafting tomes and scrolls are listed in the table 
 
 ## Spell structure, archetypes, performing research
 
-Researching and composing spells is the core feature of the mod. It allows mages to level up the magic schools and learn almost any spell in the game including master-level spells. This means that mage characters no longer need to join the College of Winterhold in order to master the mage craft, which is ideal for roleplaying as a freelancer or a rogue mage.
+Researching and composing spells is the core feature of the mod. It allows mages to level up the magic schools and learn almost any spell in the game including master-level spells. This means that mage characters no longer need to join the College of Winterhold in order to master the mage craft, which is ideal for role-playing as a freelancer or a rogue mage.
 
-Analyzing spells with the research journal reveals the associated archetypes, in the format shown below.[ The reference sheet](..\12-Cheat-Sheets\Spell-Research-Cheat-Sheet-(Spells).html) contains all known spells and their archtypes.
+Analyzing spells with the research journal reveals the associated archetypes, in the format shown below.[ The reference sheet](..\12-Cheat-Sheets\Spell-Research-Cheat-Sheet-(Spells).html) contains all known spells and their archetypes.
 
 1. Casting / School techniques
 2. Elements
 3. Targeting / Misc techniques
 
-There are two _casting archetypes:_ Fire & Forget and Concentration (listed under archetypes MCM page 1). Every spell in the game uses one of those two casting methods. The _school technique_ (MCM pages 8-9) is determined by the spell’s magic school, e.g. all Destruction spells have the _Destruction technique_. There are 34 _elemental_ archetypes in total (MCM pages 1-8), and several _Targeting / Miscellaneous_ archetypes (MCM pages 9-12).
+There are two _casting archetypes:_ Fire & Forget and Concentration (listed under archetypes MCM page 1). Every spell in the game uses one of those two casting methods. The _school technique_ (MCM pages 8-9) is determined by the spells magic school, e.g. all Destruction spells have the _Destruction technique_. There are 34 _elemental_ archetypes in total (MCM pages 1-8), and several _Targeting / Miscellaneous_ archetypes (MCM pages 9-12).
 
 An archetype becomes visible in the MCM once the player receives at least 1 XP in that archetype.
 
@@ -154,7 +154,7 @@ Below are some baseline XP values, which in my experience almost always result i
 * Expert / Superior: **8000 XP** in Expert archetypes
 * Master / Masterly: **25,000 XP** in Master archetypes
 
-To my knowledge, fundamental (novice) spells can be composed as soon as the spell's archetypes are discovered, i.e. have some amount of XP in each archetype.
+To my knowledge, fundamental (novice) spells can be composed as soon as the spells archetypes are discovered, i.e. have some amount of XP in each archetype.
 
 ### Composing spells while missing some archetypes
 
@@ -171,8 +171,6 @@ There are many artifacts found in loot, such as broken weapon parts and soul fra
 1. Analyze - this will reveal clues about the associated archetypes
 2. Study (disenchant) Item – requires tongs _[v2.0+]_. Grants XP in archetypes and enchanting. Has a chance of destroying the item (details below)
 3. Break Item _[v2.0+ feature]_ – requires a blacksmith's hammer. Grants enchanting XP.
-
-**Note:** As of SR v2.1, the enchanting XP from breaking an enchanted item has been significantly reduced, and a new MCM setting has been added which allows the user to adjust it.
 
 When studying an artifact, the player can choose between _Primary_ properties and _Secondary_ properties. The primary properties relate to the base material of the item; e.g. enchanted weapon fragments usually have _Metal_ or _Weapon_ archetype as a primary. The secondary properties relate to the enchantment(s) of the item, which in most cases are other elemental archetypes.
 

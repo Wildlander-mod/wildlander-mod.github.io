@@ -25,4 +25,5 @@ There are tools in order to help you manage your stamina at lower level :
 * Bestial stew : 3 stamina / sec for strong stomach race. It's a huge advantage at low levels.
 * Stamina Potion are pretty rare. But easy to brew if you have alchemy.
 * Raw Ingredients : some of them can be eat in combat for 1stam/sec or 2stam/sec
+* Engraved bones (hircine) give passive Regen
 ```
