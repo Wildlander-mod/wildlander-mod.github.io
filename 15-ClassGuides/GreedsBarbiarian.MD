@@ -23,7 +23,7 @@ Orc | Steed | Talos/Stendarr/Zenithar | Werewolf
 
 [Part 2](https://www.youtube.com/watch?v=8gmDXe_FEto) 12 hours
 
-#Skills 
+# Skills 
 
 ## Starting Skills
 
