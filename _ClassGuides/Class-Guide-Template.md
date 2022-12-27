@@ -1,10 +1,8 @@
 ---
-title: Class Guide
+title: Class Guide Template
 layout: default
 description: Class Guide Template
-has_toc: true
-has_children: true
-nav_order: 15
+nav_order: 1
 ---
 
 # Template

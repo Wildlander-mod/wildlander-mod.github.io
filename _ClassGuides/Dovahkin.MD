@@ -3,7 +3,6 @@ title: Class Guide - Dovahkiin (OG Dragonborn)
 layout: default
 description: Class Guide - Dovahkiin (OG Dragonborn)
 has_children: false
-parent: Class Guide
 ---
 
 # The Dovahkiin (OG Dragonborn)

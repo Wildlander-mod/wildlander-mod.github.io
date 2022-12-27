@@ -3,7 +3,6 @@ title: Class Guide - Necromancer
 layout: default
 description: Class Guide - Necromancer
 has_children: false
-parent: Class Guide
 ---
 
 # The Necromancer

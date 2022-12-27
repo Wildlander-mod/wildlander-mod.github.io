@@ -3,7 +3,6 @@ title: Bug Reports
 layout: default
 nav_order: 3
 description: Report a Bug
-parent: Other Resources
 ---
 
 

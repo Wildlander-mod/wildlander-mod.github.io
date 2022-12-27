@@ -3,7 +3,6 @@ title: Class Guide - Pure Archer
 layout: default
 description: Class Guide - Pure Archer 
 has_children: false
-parent: Class Guide
 ---
 
 # The Pure Archer 

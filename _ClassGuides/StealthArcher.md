@@ -3,7 +3,6 @@ title: Class Guide - Stealth Archer
 layout: default
 description: Class Guide - Stealth Archer
 has_children: false
-parent: Class Guide
 ---
 
 # The Stealth Archer

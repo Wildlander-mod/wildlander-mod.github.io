@@ -3,7 +3,6 @@ title: Class Guide - Warrior (HA/Two-handed)
 layout: default
 description: Class Guide - Warrior (HA/Two-handed)
 has_children: false
-parent: Class Guide
 ---
 
 # The Warrior (HA/Two-handed)

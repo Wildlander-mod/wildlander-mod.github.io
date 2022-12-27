@@ -3,7 +3,6 @@ title: Class Guide - Pure Mage
 layout: default
 description: Class Guide - Pure Mage
 has_children: false
-parent: Class Guide
 ---
 
 # The Pure Mage

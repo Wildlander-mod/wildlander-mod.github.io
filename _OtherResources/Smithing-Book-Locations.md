@@ -3,7 +3,6 @@ layout: default
 title: Smithing Book Locations
 has_toc: false
 has_children: false
-parent: Other Resources
 description: Smithing Book locations
 ---
 

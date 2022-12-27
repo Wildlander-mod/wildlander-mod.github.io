@@ -3,7 +3,6 @@ title: Launcher Change Log
 layout: default
 nav_order: 2
 description: Launcher change log
-parent: Other Resources
 ---
 
 [Direct Link](https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md){: .btn .btn-pink }

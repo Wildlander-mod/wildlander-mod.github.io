@@ -2,7 +2,6 @@
 title: Class Guide (Barbarian) - Greed's Variant
 layout: default
 description: Class Guide (Barbarian - Greed's Variant) 
-parent: Class Guide
 ---
 
 # Barbarian

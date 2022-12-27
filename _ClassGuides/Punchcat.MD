@@ -3,7 +3,6 @@ title: Class Guide - Punchcat
 layout: default
 description: Class Guide - Punchcat
 has_children: false
-parent: Class Guide
 ---
 
 # The Punchcat

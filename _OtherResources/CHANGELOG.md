@@ -3,7 +3,6 @@ title: CHANGE LOG
 layout: default
 nav_order: 1
 description: Wildlander change log
-parent: Other Resources
 ---
 
 # V1.1.11 - release 05/12/22 

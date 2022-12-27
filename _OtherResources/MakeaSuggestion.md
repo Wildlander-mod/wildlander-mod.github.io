@@ -3,7 +3,6 @@ title: Make A Mod Suggestion
 layout: default
 nav_order: 4
 description: Make A Mod Suggestion
-parent: Other Resources
 ---
 
 {: .important}
