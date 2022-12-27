@@ -1,14 +1,14 @@
 title: Wildlander Wiki
 description: Wildlander Wiki
-# theme: just-the-docs
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
+#remote_theme: just-the-docs\just-the-docs
 back_to_top: true
 back_to_top_text: "Back to top"
 color_scheme: wildlander-dark
 
 url: https://wildlander-mod.github.io/
 
-# Pages in following dorectories will be excluded from the Export
+# Pages in following directories will be excluded from the Export
 exclude:
   - wip/
 
