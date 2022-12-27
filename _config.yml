@@ -114,3 +114,15 @@ collections:
   ClassGuides:
     permalink: "/:collection/:path/"
     output: true
+  OtherResources:
+    permalink: "/:collection/:path/"
+    output: true
+    
+just_the_docs:
+  collections:
+    ClassGuides:
+      name: Class Guides
+      nav_fold: true
+    OtherResources:
+      name: Other Resources
+      nav_fold: true
