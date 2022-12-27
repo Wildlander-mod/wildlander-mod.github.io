@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 gem "jekyll", "~> 4.3" # installed by `gem jekyll`
 # gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
 
-# gem "just-the-docs", "0.4.0.rc3" # currently the latest pre-release
+gem "just-the-docs", "0.4.0.rc3" # currently the latest pre-release
 
-gem "just-the-docs", git: "git://github.com/just-the-docs/just-the-docs", branch: "main"
+
 
 
 
