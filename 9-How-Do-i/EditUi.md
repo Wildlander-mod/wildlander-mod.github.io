@@ -3,7 +3,7 @@ layout: default
 title: How Do I edit the UI?
 has_toc: false
 has_children: false
-parent: How Do i?
+parent: How Do I?
 ---
 
 

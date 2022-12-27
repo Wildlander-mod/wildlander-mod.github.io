@@ -3,7 +3,7 @@ layout: default
 title: Turn on/off Autosaves?
 has_toc: false
 has_children: false
-parent: How Do i?
+parent: How Do I?
 ---
 
 ## Turn on/off Autosaves

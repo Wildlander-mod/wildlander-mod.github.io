@@ -3,7 +3,7 @@ layout: default
 title: How Do I Enable Fast travel?
 has_toc: false
 has_children: false
-parent: How Do i?
+parent: How Do I?
 ---
 
 ## Enable Fast travel

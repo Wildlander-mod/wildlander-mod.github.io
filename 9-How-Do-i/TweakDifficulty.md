@@ -3,7 +3,7 @@ layout: default
 title: How Do I tweak the difficulty??
 has_toc: false
 has_children: false
-parent: How Do i?
+parent: How Do I?
 ---
 
 ## How Do I tweak the difficulty??
