@@ -8,6 +8,10 @@ parent: Class Guide
 
 # The Pure Mage
 
+# Submitted By
+
+Wulfdur
+
 # Description
 
 Typical destruction mage build, master of all magic schools. A power hungry Arch-mage - Destruction with Fire focus is the main way to kill things. Conjuration is only to help out with summons focused in the Atronach branch. Restoration for the overall healing and arcane disjunction. Alteration to survive with robes and Illusion just for the Blur (make sure to buy/train the spell asap). College questline is the main goal of the build. (To kill Dragon Priests in Laby with Destruction: you need slow time shout, -% destruction cost potion and bunch of incinerates.)

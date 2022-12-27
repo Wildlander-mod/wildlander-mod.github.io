@@ -7,6 +7,10 @@ parent: Class Guide
 
 # Barbarian
 
+# Submitted By
+
+GreedGaming
+
 # Description
 
 This is the "standard" Barbarian for Requiem according to GreedGaming. The video guide was Created using the 1.0 version of pack but 90% of the information is still valid (Alchemy has less Ingredient availability and Eorland's not available until you are part of the circle) .

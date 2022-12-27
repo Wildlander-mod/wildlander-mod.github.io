@@ -8,6 +8,10 @@ parent: Class Guide
 
 # The Stealth Archer
 
+# Submitted By
+
+Wulfdur
+
 # Description
 
 The classic of them all, Stealth Archer build. We will only focus on Marksman to kill things but with Illusion magic and stealth at disposal. Using heavy bows from stealth, switching to light bows at melee and using a dagger to break bows and finish kills. Occasional Fears and Enraging orbs for CC. Utilizes poisons, enchants, exploding arrows from Smithing. Main goal is to finish the Dark Brotherhood & thieves questline with this build.

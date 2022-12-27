@@ -8,6 +8,10 @@ parent: Class Guide
 
 # The Pure Archer 
 
+# Submitted By
+
+Wulfdur
+
 # Description
 
 Just pure Marksman build, no magic, no stealth. Using heavy bows at start, switching to light bows at melee and using a dagger to break bows and finish kills. Utilizes poisons + enchants + exploding arrows from Smithing. Later on, can go werewolf with the Companions.

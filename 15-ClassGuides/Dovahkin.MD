@@ -8,6 +8,10 @@ parent: Class Guide
 
 # The Dovahkiin (OG Dragonborn)
 
+# Submitted By
+
+Wulfdur
+
 # Description
 
 Trailer Dragonborn aka correct way to play this game, envisioned by Todd. We can opt to go exactly like trailer armor which would be a mixed armor build, but since that is complicated and would not work for a hybrid build, we go full HA instead. Starting with Iron Armor then going for Blades Armor for the looks and at the very late game, Dragonplate. Akatosh is the blessing for the RP and since it gives an elemental dmg buff, we go Destruction, with focus on Fire magic. We start worshiping Stendarr at first but later, Akatosh is worshiped (when Dragonborn is learned). Apprentice stone is chosen to reduce high spell costs (can’t go Atronach because it invalidates Akatosh blessing’ mag.regen buff). Restoration is the 2nd magic school chosen, as it makes sense for this heroic character.

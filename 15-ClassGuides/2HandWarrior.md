@@ -8,6 +8,10 @@ parent: Class Guide
 
 # The Warrior (HA/Two-handed)
 
+# Submitted By
+
+Wulfdur
+
 # Description
 
 A typical Warrior build with Heavy Armor, no-magic. Can go with any type of two-handed weapon. Goal is to finish Companions Questline so here is a typical version with Nord, wielding battleaxes as befits Companions. Crossbows used for ranged damage. 

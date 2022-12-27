@@ -8,6 +8,10 @@ parent: Class Guide
 
 # The Punchcat
 
+# Submitted By
+
+Wulfdur
+
 # Description
 
 Unarmed build with Light Armor instead. Speedy Cat clawing down people left and right. Alteration is picked for Transmute Muscles. Illusion for Shadow Shield attack speed later.
