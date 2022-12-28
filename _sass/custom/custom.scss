@@ -129,7 +129,7 @@ background: #transparent;
   > .nav-list-item {
     margin: 0;
 	color: fff;
-	
+	line-height: 1;
 
     > .nav-list {
       padding: 0;
@@ -146,6 +146,45 @@ background: #transparent;
     }
   }
 }
+
+    .nav-list-expander {
+      position: absolute;
+      @if $nav-list-expander-right {
+        right: 0;
+      }
+
+	  line-height: 0.25;
+      width: 24px;
+      height: 24px;
+      padding-top: 0.25rem;
+      padding-right: 0.25rem;
+      padding-bottom: 0.25rem;
+      padding-left: 0.25rem;
+      color: $link-color;
+
+      @include mq(md) {
+        width: 24px;
+        height: $24px;
+        padding-top: 0.25rem;
+        padding-right: 0.25rem;
+        padding-bottom: 0.25rem;
+        padding-left: 0.25rem;
+      }
+
+      &:hover {
+        background-image: linear-gradient(
+          -90deg,
+          rgba($feedback-color, 1) 0%,
+          rgba($feedback-color, 0.8) 100%
+        );
+      }
+
+      @if $nav-list-expander-right {
+        svg {
+          transform: rotate(90deg);
+        }
+      }
+    }
 
 
 
