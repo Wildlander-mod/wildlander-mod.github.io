@@ -58,18 +58,27 @@ layout: table_wrappers
       {% if pages_top_size > 0 %}
         {% include nav.html pages=site.html_pages key=nil %}
       {% endif %}
+	  
       {%- if site.nav_external_links -%}
         <ul class="nav-list">
-          {%- for node in site.nav_external_links -%}
-            <li class="nav-list-item external">
-              <a href="{{ node.url | absolute_url }}" class="nav-list-link external">
-                {{ node.title }}
-                {% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
-              </a>
-            </li>
-          {%- endfor -%}
+		  
+            <li class="nav-list-item">
+			  <a href="#" class="nav-list-expander" aria-label="toggle links in External Links category">
+				<svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+			  </a>	
+		
+			  {%- for node in site.nav_external_links -%}
+				<li class="nav-list-item external">
+				  <a href="{{ node.url | absolute_url }}" class="nav-list-link external">
+					{{ node.title }}
+					{% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
+				  </a>
+				</li>
+			  {%- endfor -%}
+		   </li>
         </ul>
       {%- endif -%}
+	  
       {% if site.just_the_docs.collections %}
         {% assign collections_size = site.just_the_docs.collections | size %}
         {% for collection_entry in site.just_the_docs.collections %}
@@ -131,14 +140,6 @@ layout: table_wrappers
       {% if site.aux_links %}
         <nav aria-label="Auxiliary" class="aux-nav">
           <ul class="aux-nav-list">
-
-		  
-            <li class="nav-list-item">
-			  <a href="#" class="nav-list-expander" aria-label="toggle links in External Links category">
-				<svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
-			  </a>
-			
-    
             {% for link in site.aux_links %}
               <li class="aux-nav-list-item">
                 <a href="{{ link.last }}" class="site-button"
@@ -150,11 +151,11 @@ layout: table_wrappers
                 </a>
               </li>
             {% endfor %}
-			</li>
           </ul>
         </nav>
       {% endif %}
     </div>
+	
     <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}
         {% if page.parent %}
