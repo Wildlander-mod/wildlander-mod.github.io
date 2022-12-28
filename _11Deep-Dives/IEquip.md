@@ -37,3 +37,35 @@ iEquip is an antidote:-
 <div align="center">
 	<img src="https://imgur.com/7HbPnEd.png">
 </div>
+
+### The Controls
+-  Four main gameplay hotkeys - one each for left and right hand, one for shouts/powers, and one controlling both the consumables and poison slots
+-  Multiple controls per key - press, double press, triple press, hold - each with different functions
+-  Configurable multi-tap and hold delays
+-  Utility Key gives access to the in-game Utility Menu, and acts as a combo key allowing reverse cycling and more
+-  Utility Menu gives access to the Queue Management Menu, Edit Mode and the in-game Help Menu
+-  Optional Extended Keyboard Controls giving direct access to many of the multitap features, plus an additional QuickLight hotkey
+-  Full integration with Gamepad++ giving an unprecedented level of control to gamepad players
+
+
+<iframe class="youtube_video" src="https://www.youtube.com/embed/c5TScewkZLA" allowfullscreen="1" frameborder="0">
+</iframe>
+
+
+### The Widget
+- Advanced, animated SkyUI HUD Widget
+- Real Time WYSIWYG Edit Mode - every individual element is fully customisable (position, scale, transparency, rotation, text colour and alignment)
+- Five widget 'slots' - Left Hand, Right Hand, Shouts/Powers, Consumables (beneficial potions, food and drink), and Poisons
+- Option to disable shout/power, consumable and poison slots and all associated features
+- Ammo display when ranged weapon equipped with ammo count and choice of three ammo icon styles
+- Health/Magicka/Stamina Potion Groups with Potion Type Selector and early warning system for number of Restore potions remaining
+- Enchantment charge display - customisable meters or dynamic-fill soulgems
+- Poison info display - currently applied poison names and remaining charge counts with several display options
+- Temper level display - dynamic % based icons with poor condition warning, and various textual display options
+- Customisable widget &amp; text fadeout with contextual display options
+- Choice of six optional widget background styles
+- Many other visual tweaks and options
+
+
+<iframe class="youtube_video" src="https://www.youtube.com/embed/L41cvw8ervg" allowfullscreen="1" frameborder="0">
+</iframe>
