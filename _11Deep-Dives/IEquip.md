@@ -69,3 +69,43 @@ iEquip is an antidote:-
 
 <iframe class="youtube_video" src="https://www.youtube.com/embed/L41cvw8ervg" allowfullscreen="1" frameborder="0">
 </iframe>
+
+### MANAGING THE QUEUES 
+
+- Add items to your queues from within your Inventory and Magic menus by highlighting them and pressing your main hotkeys
+- Auto-Add items to your queues when equipping directly, either through the menus or other hotkey methods
+- 2H weapons, ranged weapons (including bound ranged weapon spells) and 2H spells restricted to right hand queue
+- Shields, ward spells and torches restricted to left hand queue
+- Choose to restrict single 1H items to one queue, or allow to be added to both (with option to allow hand to hand switching)
+- All mod added items and spells supported
+- Queue Management menu accessed through the in-game Utility Menu so you can re-order the queues, remove items or clear the queue completely
+- Optional blacklist so items previously removed are not auto-added if subsequently equipped
+- Removed item caching - items are removed from the queues when stored/disarmed/etc and re-added to the previous queue when added back into your inventory
+- Allow queues to grow dynamically or set a hard limit on number of items per queue
+- Optional Queue Position Indicators which adapt automatically to queue length, displaying equipped item and current cycling positions
+
+
+<iframe class="youtube_video" src="https://www.youtube.com/embed/pSgBUyodsyg" allowfullscreen="1" frameborder="0">
+</iframe>
+
+
+### Switching Weapons, Spells, Shouts & Other Items
+
+- Tap main hotkeys to cycle the left, right, shout/power and consumable slots
+- Double tap consumable key to cycle poison slot
+- Hold the Utility Key while cycling to cycle backwards through the queues
+- Configurable Equip On Pause delay allows continuous cycling with nothing being equipped until you pause on an item
+- Disabling Equip On Pause forces each item to be equipped immediately on cycling
+- Shouts and Powers are equipped immediately when cycling
+- Cycling to items in the consumable and poison slots makes the displayed item available for consumption or application
+- Option to skip auto-added items while cycling
+- With any 'either hand' spell equipped, double tap that hand key to automatically equip the same spell in the other hand ready for dual casting
+- Optional attribute icons give a quick indication while cycling that items are enchanted and/or poisoned
+- Unique identification system handles multiple items of the same type, guaranteeing the correct item is always equipped
+- Enchantment charge level, temper level, poison info and item names update automatically each time an item is equipped
+- Destruction spell type display (fire, frost, shock)
+- Integrated support with custom icons for Complete Alchemy &amp; Cooking Overhaul grenades, Throwing Weapons Lite and other popular mods
+- 'Unarmed' shortcut in right hand queue to allow you to quickly disarm both hands ready for brawling
+- Disarm protection - if disarmed or weapon breaks the next item in the queue will equip automatically.-  In the case of ranged weapons and shields iEquip will search the queue for a like for like replacement first, then fall back on something else if no direct replacement found
+- Full bound spell support with animated switching from spell school to bound weapon icons when spell is successfully cast and back again when sheathed
+

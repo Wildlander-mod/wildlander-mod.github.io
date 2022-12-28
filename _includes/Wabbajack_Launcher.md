@@ -84,5 +84,5 @@ Firstly—try a PC reboot, it's possible that one of the files we use is locked 
 
 Un-install the launcher from Add-remove programs, then download and manually install the most recent from [here](https://github.com/Wildlander-mod/Launcher/releases/)
 
-If you are using Norton, please see the [Wildlander and Antivirus section.](Faq.html#norton)
+If you are using Norton, please see the [Wildlander and Antivirus section.](http://wiki.wildlandermod.com/01Support/Faq/#wildlander-and-antiviruses)
 
