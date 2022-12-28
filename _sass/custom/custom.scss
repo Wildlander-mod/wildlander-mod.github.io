@@ -141,43 +141,22 @@ background: #transparent;
 
         > .nav-list-expander {
           color: $link-color;
+	      line-height: 0.25;
+		  width: 24px;
+		  height: 24px;
+		  padding-top: 0.25rem;
+		  padding-right: 0.25rem;
+		  padding-bottom: 0.25rem;
+		  padding-left: 0.25rem;
         }
       }
     }
   }
 }
 
-.nav-list .nav-list-item .nav-list-expander {
-	position: absolute;
-	@if $nav-list-expander-right {
-	right: 0;
-	}
-
-	line-height: 0.25;
-	width: 24px;
-	height: 24px;
-	padding-top: 0.25rem;
-	padding-right: 0.25rem;
-	padding-bottom: 0.25rem;
-	padding-left: 0.25rem;
-	color: $link-color;
-
-	@include mq(md) {
-	width: 24px;
-	height: 24px;
-	padding-top: 0.25rem;
-	padding-right: 0.25rem;
-	padding-bottom: 0.25rem;
-	padding-left: 0.25rem;
-	}
 
 
-  @if $nav-list-expander-right {
-	svg {
-	  transform: rotate(90deg);
-	}
-  }
-}
+
 
 
 
