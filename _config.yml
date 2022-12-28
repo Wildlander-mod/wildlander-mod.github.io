@@ -90,6 +90,12 @@ callouts:
 # Define Jekyll collections
 collections:
   # Define a collection named "ClassGuides", its documents reside in the "_ClassGuides" directory
+  11Deep-Dives:
+    permalink: "/:collection/:path/"
+    output: true
+  12Cheat-Sheets:
+    permalink: "/:collection/:path/"
+    output: true
   13Community:
     permalink: "/:collection/:path/"
     output: true
@@ -105,6 +111,12 @@ collections:
     
 just_the_docs:
   collections:
+    11Cheat-Sheets:
+      name: Mod Deep Dives
+      nav_fold: true 
+    12Cheat-Sheets:
+      name: Cheat Sheets
+      nav_fold: true 
     13Community:
       name: Community
       nav_fold: true 

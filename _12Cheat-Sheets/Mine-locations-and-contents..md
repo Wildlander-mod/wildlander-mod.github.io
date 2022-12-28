@@ -2,7 +2,6 @@
 title: Mine Locations
 layout: default
 description: Mine Locations and contents
-parent: Cheat Sheets
 ---
 
 Bilegulch Mine — Situated southwest of Fort Sungard and directly west of Sunderstone Gorge. 

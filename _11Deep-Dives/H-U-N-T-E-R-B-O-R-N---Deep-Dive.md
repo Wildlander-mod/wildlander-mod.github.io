@@ -3,7 +3,6 @@ layout: default
 title: Hunterborn
 has_toc: false
 has_children: false
-parent: Deep Dives
 description: Hunterborn Deep Dive
 ---
 

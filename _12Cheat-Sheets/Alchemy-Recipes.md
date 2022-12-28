@@ -2,7 +2,6 @@
 title: Alchemy Recipes
 layout: default
 description: Recipes lists
-parent: Cheat Sheets
 ---
 
 # *Super Poisons*

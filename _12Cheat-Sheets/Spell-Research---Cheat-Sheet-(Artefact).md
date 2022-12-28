@@ -3,7 +3,6 @@ title: Spell Research (Artifacts)
 layout: default
 nav_order: 1
 description: Recipes lists
-parent: Cheat Sheets
 ---
 
 # Spell Research (Artifacts) 

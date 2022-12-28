@@ -2,7 +2,6 @@
 title: Hand Placed Items
 layout: default
 description: Recipes lists
-parent: Cheat Sheets
 ---
 
 

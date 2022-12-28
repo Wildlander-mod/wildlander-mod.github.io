@@ -3,7 +3,6 @@ layout: default
 title: Iequip
 has_toc: false
 has_children: false
-parent: Deep Dives
 description: Iequip Deep Dive
 ---
 iEquip is an antidote- to the endless menu grind which pervades Skyrim, allowing you to switch weapons, spells, shouts, powers and other equipment on the fly, without menus to pause and interrupt gameplay.-  You can cycle and select ammo for an equipped ranged weapon, cycle through and consume potions, food and drink, apply poisons to equipped weapons, recharge your weapon enchantments and much more besides.

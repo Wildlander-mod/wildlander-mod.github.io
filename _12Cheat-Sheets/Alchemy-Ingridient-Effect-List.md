@@ -3,7 +3,6 @@ title: Alchemy Ingredient effect
 layout: default
 nav_order: 1
 description: Alchemy Ingredient effect lists
-parent: Cheat Sheets
 ---
 
 Alchemy Tab on the crafting spreadsheet also includes useful information 
