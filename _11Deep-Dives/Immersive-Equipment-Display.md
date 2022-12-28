@@ -3,7 +3,6 @@ layout: default
 title: Immersive Equipment Display
 has_toc: false
 has_children: false
-parent: Deep Dives
 description: Immersive Equipment Display
 ---
 
