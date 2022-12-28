@@ -7,7 +7,7 @@ description: Class Guide (Barbarian)
 # Barbarian
 
 # Description
-This class revolves around the [Evasion](..\8-skillAnalysis\Evasion.html) and [Two-Handed](..\8-skillAnalysis\Two-Handed) skills in order to dodge attacks and deliver heavy blows. As this build is a bit more risky than other Warrior-archetype builds but is considered the begineer "meta" build.
+This class revolves around the [Evasion](..\..\08-SkillAnalysis\Evasion) and [Two-Handed](..\..\08-SkillAnalysis\Two-Handed) skills in order to dodge attacks and deliver heavy blows. As this build is a bit more risky than other Warrior-archetype builds but is considered the begineer "meta" build.
 
 Classic Barbarian build who have no clue about magic or stealth. Uses War-hammers as main weapon and Bows as a ranged dmg source. Though, Greatsword/Battleaxe can be used in the early game since they are faster & more effective. The build uses Savior's Hide and enchanted Scaled armor for the looks. It's theoretically a max melee damage build with Evasion perks + Warhammer + Orc. Defensively Zenithar's 350 AR covers the lack of AR from wearing a Light Armor, bringing it to a decent heavy armor levels of AR 900+ which is required for late game. Volendrung for the big hammer dmg and solving any kind of stamina problems late game.
 
@@ -20,19 +20,19 @@ Food: Potato Soup -> Bestial Stew
 #Skills 
 
 ## Starting Skills
-- [Two-handed](..\8-skillAnalysis\Two-handed.html)
-- [Evasion](..\8-skillAnalysis\Evasion.html) 
-- [Smithing](..\8-skillAnalysis\Smithing.html) 
-- [Archery](..\8-skillAnalysis\Archery.html) 
-- [Enchanting](..\8-skillAnalysis\Enchanting.html) 
-- [Alchemy](..\8-skillAnalysis\Alchemy.html) 
+- [Two-handed](..\..\08-SkillAnalysis\Two-handed)
+- [Evasion](..\..\08-SkillAnalysis\Evasion) 
+- [Smithing](..\..\08-SkillAnalysis\Smithing) 
+- [Archery](..\..\08-SkillAnalysis\Archery) 
+- [Enchanting](..\..\08-SkillAnalysis\Enchanting) 
+- [Alchemy](..\..\08-SkillAnalysis\Alchemy) 
 
 {: .note}
  Alchemy is.....a bit broken. While it is possible to play an alchemy character without breaking the game, in its current state it is easy to even unintentionally become extremely strong very quickly via Alchemy. If you want to have a more challenging experience, I would recommend opting for Speech over Alchemy.
 
 ## Secondary Skills
  
-- [Speech](..\8-skillAnalysis\Speech.html) (optional)
+- [Speech](..\..\08-SkillAnalysis\Speech) (optional)
 
 # Perks
 
@@ -61,5 +61,5 @@ Companions(until Werewolf), Liar's Retreat, Pinemoon Cave (for Health 2 ring), I
 - This build shines against nearly every melee opponent, especially if you have a variety of two-handed weapon types at your disposal. You should be able to dodge most melee adversaries, especially with effects such as Slow Time, which allows you to position yourself for a devastating counterattack.
 
 # Weaknesses
-- Archers, especially at close range. As this build doesn't contain [Illusion](..\8-skillAnalysis\Illusion.html) or [Heavy Armor](..\8-skillAnalysis\Heavy-Armor.html) and arrows are difficult to dodge, you should be careful when facing such enemies. Using a shout like Slow Time or the Combat Reflex [Evasion](..\8-skillAnalysis\Evasion.html) perk.
+- Archers, especially at close range. As this build doesn't contain [Illusion](..\..\08-SkillAnalysis\Illusion) or [Heavy Armor](..\..\08-SkillAnalysis\Heavy-Armor) and arrows are difficult to dodge, you should be careful when facing such enemies. Using a shout like Slow Time or the Combat Reflex [Evasion](..\..\08-SkillAnalysis\Evasion) perk.
 - Frost mages and mages that use AOE spells might prove challenging, which is why it is paramount to build up your magic resistance, and ideally, elemental resistances as quickly as possible. If you are really struggling with a group of mages, it could help to recruit a follower or two to drain your opponenets' magicka reserves and distract them.

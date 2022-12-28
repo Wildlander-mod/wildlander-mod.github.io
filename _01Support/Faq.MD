@@ -98,7 +98,7 @@ Performance: [Version](https://loadorderlibrary.com/lists/wildlander-11-official
 
 # Can I see the differences between Ultimate Skyrim and Wildlander?
 
-Yes - Click [Here](..\2-RecommendedReading\6-Changes-From-Ultsky.html)
+Yes - Click [Here](..\..\02BeginnersGuide\2-RecommendedReading\6-Changes-From-Ultsky)
 
 ----------
 
@@ -112,7 +112,7 @@ No, and if you try, then SKSE crashes from Mod Organizer. You will need to insta
 
 Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
 
-Then follow the instructions [here](..\16-OtherResouces\How-to-update.html)
+Then follow the instructions [here](../../09-How-Do-i/How-to-update/)
 
 The latest version will always be available [here](https://www.wildlandermod.com/download) for clean installations
 
@@ -217,7 +217,7 @@ Answer is still no. Go straight to horny jail. Do not pass go. Do not collect 20
 
 ## Can I see a list of Known issues
 
-Sure. Here's a [link](..\1-SupportPages\KnownIssues.html)
+Sure. Here's a [link](..\..\01Support\KnownIssues\)
 
 ----------
 
@@ -233,7 +233,7 @@ Dylan is based in the US, so the key bindings were based on a standard QWERTY US
 
 For any other types of keyboards you will need to rebind the keys yourself from the MCM menus.
 
-There is an appropriate guide [here](..\2-RecommendedReading\8-Keybindings.html) 
+There is an appropriate guide [here](..\..\02BeginnersGuide\2-RecommendedReading\8-Keybindings\) 
 
 ----------
 
@@ -273,7 +273,7 @@ For 1.1 onwards: If you want to re-enable this functionality, then you can do so
 
 ## Why can't I run or Why is my stamina going down for no reason?
 
-Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\3-YourFirstCharacter\Stamina.html) provides more detailed information.
+Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\..\02BeginnersGuide\3-YourFirstCharacter\Stamina\) provides more detailed information.
 
 **NO, YOU CANNOT DISABLE IT, PLEASE DON'T ASK!**
 
@@ -281,7 +281,7 @@ Requiem applies a stamina draining effect when you run, and when you wear armor 
 
 ## Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime, or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](..\4-WildlanderWorld\4-The-Divines.html) for more information.
+Requiem's gods are unforgiving of crime. Too much crime, or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](..\..\02BeginnersGuide\4-WildlanderWorld\4-The-Divines\) for more information.
 
 ----------
 
@@ -294,7 +294,7 @@ When you get hurt fighting - the only ways to heal are :-
 * Restoration spells (for the living)
 * Conjuration spells (for the undead)
 * Health potions (For undead, only max level healing potions (superlative) will work.)
-* [Healing Poultice](..\3-YourFirstCharacter\Health.html#healing-poultice)
+* [Healing Poultice](..\..\02BeginnersGuide\3-YourFirstCharacter\Health\#healing-poultice)
 * Alchemy Perk
 * Raw Ingredients
 * Enchantments
@@ -349,7 +349,7 @@ In addition in 1.1.X – A SKSE mod disables fast travel around the map. This ca
 
 The game will pause if you are alt-tabbed out, including some load screens. Make sure Skyrim window has focus!
 
-The primary cause for this is a insufficiant [page file](../../2-RecommendedReading/1-BeforeYouBegin.html#page-files). You can click the link for instructions on how to increase.
+The primary cause for this is a insufficiant [page file](..\..\02BeginnersGuide\2-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase.
 
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
@@ -521,4 +521,4 @@ The extract requires the following items/tools:
 
 ## How do I craft Healing Poultice?
 
-The Healing poultice [Guide](..\3-YourFirstCharacter\Health.html#healing-poultice) explains the crafting method and requirements.
+The Healing poultice [Guide](..\..\02BeginnersGuide\03-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.

@@ -26,14 +26,14 @@ If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channe
 
 
 ## Getting Help
-* Firstly – Most Common Questions are answered in our [FAQ](..\1-SupportPages\FAQ.html).
-* Secondly – [The known issues document](..\1-SupportPages\KnownIssues.html) contains a list of known issues and, if available, fixes for those issues.
+* Firstly – Most Common Questions are answered in our [FAQ](01Support\FAQ\).
+* Secondly – [The known issues document](01Support\KnownIssues) contains a list of known issues and, if available, fixes for those issues.
 * Support is available primarily on our Discord server [Dylan Perry Discord Server](https://discordapp.com/invite/8VkDrfq). It is great for support, troubleshooting, and reporting bugs since you can speak with other users in real-time. We have many regular users offering help to new players. The Discord is also a good place to meet fellow adventurers and chat about Wildlander and other games.
 * The [Wildlander Subreddit](https://www.reddit.com/r/wildlander/) is a great place to meet fellow players and share stories of your adventures. We also host community events, post screen shots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
 * The [Wildlander YouTube channel](https://www.youtube.com/wildlander) contains a variety of Wildlander video content, including gameplay videos, gameplay tutorials, developer updates, modding tutorials, and other video content not related to Wildlander.
 * Currently, we are not supporting any form of customization. Doing so denies you access to support.
 
-To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a [bug report form](..\16-OtherResouces\bugreport.html).
+To report a bug – First query with support, as it might have already been reported. They will advise you if you need to fill out a [bug report form](..\16OtherResources\bugreport\).
 
 ---
 
