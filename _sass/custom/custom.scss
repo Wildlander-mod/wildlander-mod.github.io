@@ -129,17 +129,11 @@ background: #transparent;
   > .nav-list-item {
     margin: 0;
 	color: fff;
+	line-height: 1.025;
 
-    > .nav-list {
-      padding: 0;
-
-      > .nav-list-item {
-        > .nav-list-link {
-          color: $link-color;
-        }
-
+ 
         > .nav-list-expander {
-          color: $link-color;
+          color: fff;
 	      line-height: 0.25;
 		  width: 24px;
 		  height: 24px;
@@ -148,9 +142,7 @@ background: #transparent;
 		  padding-bottom: 0.25rem;
 		  padding-left: 0.25rem;
         }
-      }
     }
-  }
 }
 
 
