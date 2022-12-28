@@ -8,11 +8,11 @@ description: Keybinds
 ---
 
 ## 1.1 Keybindings
-[![image](../Assets/1-1Keybind.png)](../Assets/1-1Keybind.png)
+[![image](../../Assets/1-1Keybind.png)](../../Assets/1-1Keybind.png)
 
 
 ## 1.0 Keybindings
-[![keybindings](../Assets/1-0Keybind.png)](../Assets/1-0Keybind.png)
+[![keybindings](../../Assets/1-0Keybind.png)](../../Assets/1-0Keybind.png)
 
 
 

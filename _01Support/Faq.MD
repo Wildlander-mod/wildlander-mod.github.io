@@ -32,9 +32,9 @@ You can download and install from [here](https://www.wildlandermod.com/download)
 ----
 # How do I donate to the project?
 
-If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam"><img src="../Assets/kofi.png"></a>
+If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam"><img src="../../Assets/kofi.png"></a>
 
-Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry"><img src="../Assets/Patreon.png"></a>
+Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry"><img src="../../Assets/Patreon.png"></a>
 
 ----------
 
@@ -349,7 +349,7 @@ In addition in 1.1.X – A SKSE mod disables fast travel around the map. This ca
 
 The game will pause if you are alt-tabbed out, including some load screens. Make sure Skyrim window has focus!
 
-The primary cause for this is a insufficiant [page file](../2-RecommendedReading/1-BeforeYouBegin.html#page-files). You can click the link for instructions on how to increase.
+The primary cause for this is a insufficiant [page file](../../2-RecommendedReading/1-BeforeYouBegin.html#page-files). You can click the link for instructions on how to increase.
 
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
