@@ -90,19 +90,31 @@ callouts:
 # Define Jekyll collections
 collections:
   # Define a collection named "ClassGuides", its documents reside in the "_ClassGuides" directory
-  ClassGuides:
+  13Community:
     permalink: "/:collection/:path/"
     output: true
-  OtherResources:
+  14ModlistVersions:
+    permalink: "/:collection/:path/"
+    output: true
+  15ClassGuides:
+    permalink: "/:collection/:path/"
+    output: true
+  16OtherResources:
     permalink: "/:collection/:path/"
     output: true
     
 just_the_docs:
   collections:
-    ClassGuides:
+    13Community:
+      name: Community
+      nav_fold: true 
+    14ModlistVersions:
+      name: Modlist Versions
+      nav_fold: true  
+    15ClassGuides:
       name: Class Guides
       nav_fold: true
-    OtherResources:
+    16OtherResources:
       name: Other Resources
       nav_fold: true
 
