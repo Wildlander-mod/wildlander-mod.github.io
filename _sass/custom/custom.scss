@@ -102,10 +102,31 @@ background: #transparent;
 	color: #f4abff;
 }
 
+.nav-category {
+  padding-right: $gutter-spacing-sm;
+  padding-left: $gutter-spacing-sm;
+  font-weight: 600;
+  text-align: start;
+  text-transform: uppercase;
+  border-bottom: $border $border-color;
+  @include fs-2;
+
+  @include mq(md) {
+    padding-right: $gutter-spacing;
+    padding-left: $gutter-spacing;
+    margin-top: $gutter-spacing-sm;
+    text-align: start;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
 .nav-list.nav-category-list {
   > .nav-list-item {
     margin: 0;
-	color: $link-color;
+	color: fff;
 
     > .nav-list {
       padding: 0;
