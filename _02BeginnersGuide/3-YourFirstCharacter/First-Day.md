@@ -3,7 +3,7 @@ layout: default
 title: Your First Day
 has_toc: true
 nav_order: 2
-grand_parent: Getting Started
+
 parent: Your First Character
 descrption: Starting your first day
 ---

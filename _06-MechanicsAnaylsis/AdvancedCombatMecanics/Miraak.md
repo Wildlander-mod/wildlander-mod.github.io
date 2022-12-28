@@ -4,7 +4,6 @@ title: Miraak
 nav_order: 17
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Miraak - Shouts, Spells, Stats
 ---
 

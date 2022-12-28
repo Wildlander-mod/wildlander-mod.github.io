@@ -4,7 +4,6 @@ title: Lord Harkon
 nav_order: 12
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Lord Harkon - Shouts, Spells, Stats
 ---
 

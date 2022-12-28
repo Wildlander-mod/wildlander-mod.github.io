@@ -3,7 +3,7 @@ layout: default
 title: Opening Locks
 nav_order: 5
 parent: Tips and Tricks
-grand_parent: Getting Started
+
 has_toc: true
 ---
 

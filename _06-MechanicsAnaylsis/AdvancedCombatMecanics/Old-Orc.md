@@ -4,7 +4,6 @@ title: Old Orc
 nav_order: 14
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: The Old Orc - Shouts, Spells, Stats
 ---
 

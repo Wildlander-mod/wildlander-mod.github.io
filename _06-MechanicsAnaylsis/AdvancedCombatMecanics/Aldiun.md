@@ -5,7 +5,6 @@ nav_order: 9
 has_children: false
 description: Aldiun's Stats and abilities
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Aldiun - Shouts, Spells, Stats
 ---
 

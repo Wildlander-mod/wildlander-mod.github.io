@@ -3,7 +3,7 @@ layout: default
 title: Do's and Donts
 nav_order: 3
 parent: Hints and Tips
-grand_parent: Getting Started
+
 has_toc: true
 ---
 

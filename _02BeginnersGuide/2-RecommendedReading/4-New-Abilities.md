@@ -3,7 +3,6 @@ layout: default
 title: New Abilities
 has_toc: true
 parent: Recommended Reading
-grand_parent: Getting Started
 nav_order: 4
 description: New Abilities
 ---

@@ -4,7 +4,6 @@ title: Undead
 nav_order: 6
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Undead - Shouts, Spells, Stats
 ---
 

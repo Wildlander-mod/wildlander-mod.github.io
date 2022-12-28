@@ -3,7 +3,7 @@ layout: default
 title: The Quests
 nav_order: 5
 parent: Wildlander World
-grand_parent: Getting Started
+
 has_toc: true
 ---
 

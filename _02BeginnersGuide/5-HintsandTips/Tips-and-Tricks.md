@@ -3,7 +3,7 @@ layout: default
 title: Hints & Tips
 nav_order: 1
 parent: Tips and Tricks
-grand_parent: Getting Started
+
 has_toc: true
 ---
 

@@ -3,7 +3,6 @@ layout: default
 title: Camping & Campfire Perks
 has_toc: true
 nav_order: 8
-grand_parent: Getting Started
 parent: Your First Character
 description: Camping & Campfire Perks
 ---

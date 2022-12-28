@@ -3,7 +3,6 @@ layout: default
 title: The UI
 has_toc: true
 parent: Recommended Reading
-grand_parent: Getting Started
 nav_order: 3
 description: The UI
 ---

@@ -4,7 +4,6 @@ title: Animals
 nav_order: 1
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Animals - Shouts, Spells, Stats
 ---
 

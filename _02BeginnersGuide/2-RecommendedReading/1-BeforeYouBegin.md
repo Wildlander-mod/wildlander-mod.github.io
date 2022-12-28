@@ -3,7 +3,6 @@ layout: default
 title: Before You Begin
 has_toc: true
 parent: Recommended Reading
-grand_parent: Getting Started
 nav_order: 1
 description: Before You Begin Playing
 ---

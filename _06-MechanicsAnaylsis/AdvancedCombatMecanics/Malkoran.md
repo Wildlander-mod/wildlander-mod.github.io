@@ -4,7 +4,6 @@ title: Malkorian
 nav_order: 13
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Malkoran - Shouts, Spells, Stats
 ---
 

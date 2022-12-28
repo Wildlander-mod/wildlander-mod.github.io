@@ -3,7 +3,7 @@ layout: default
 title: Health Management
 has_toc: true
 nav_order: 5
-grand_parent: Getting Started
+
 parent: Your First Character
 descrption: Health Management
 ---

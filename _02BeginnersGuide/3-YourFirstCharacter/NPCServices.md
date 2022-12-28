@@ -4,7 +4,7 @@ title: NPC Crafting and Enchanting Services
 has_toc: false
 has_children: false
 nav_order: 12
-grand_parent: Getting Started
+
 parent: Your First Character
 description: NPC Crafting and Enchanting Services
 ---

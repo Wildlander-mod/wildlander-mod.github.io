@@ -4,7 +4,6 @@ title: The Reaper
 nav_order: 16
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: The Reaper - Shouts, Spells, Stats
 ---
 

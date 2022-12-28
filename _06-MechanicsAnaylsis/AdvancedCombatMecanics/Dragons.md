@@ -4,7 +4,6 @@ title: Dragons
 has_children: false
 nav_order: 5
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Dragons - Shouts, Spells, Stats
 ---
 

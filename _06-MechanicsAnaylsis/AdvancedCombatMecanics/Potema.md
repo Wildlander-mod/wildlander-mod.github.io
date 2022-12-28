@@ -4,7 +4,6 @@ title: Potema
 nav_order: 15
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Potema - Shouts, Spells, Stats
 ---
 

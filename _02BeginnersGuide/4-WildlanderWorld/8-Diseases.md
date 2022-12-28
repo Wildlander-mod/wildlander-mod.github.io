@@ -3,7 +3,7 @@ layout: default
 title: Diseases
 nav_order: 8
 parent: Wildlander World
-grand_parent: Getting Started
+
 has_toc: true
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: The Divines
 nav_order: 4
 parent: Wildlander World
-grand_parent: Getting Started
+
 has_toc: true
 description: Religion and the Divines.
 ---

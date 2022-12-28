@@ -3,7 +3,7 @@ layout: default
 title: Essential Adventuring & Travel Gear
 nav_order: 1
 parent: Wildlander World
-grand_parent: Getting Started
+
 has_toc: true
 description: Essential Adventuring & Travel Gear
 ---

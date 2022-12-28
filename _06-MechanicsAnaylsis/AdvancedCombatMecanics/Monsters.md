@@ -4,7 +4,6 @@ title: Monsters
 nav_order: 2
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Monsters - Shouts, Spells, Stats
 ---
 

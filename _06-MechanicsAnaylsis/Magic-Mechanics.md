@@ -4,7 +4,6 @@ title: Magic Analysis
 nav_order: 2
 has_toc: true
 has_children: false
-parent: Mechanic Analysis
 ---
 
 # Magic in Wildlander

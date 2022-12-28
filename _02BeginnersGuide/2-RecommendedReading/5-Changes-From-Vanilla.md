@@ -3,7 +3,6 @@ layout: default
 title: Changes From Vanilla
 has_toc: true
 parent: Recommended Reading
-grand_parent: Getting Started
 nav_order: 5
 description: Changes From Vanilla
 ---

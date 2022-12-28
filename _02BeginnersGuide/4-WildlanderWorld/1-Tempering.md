@@ -3,7 +3,7 @@ layout: default
 title: Tempering
 nav_order: 1
 parent: Wildlander World
-grand_parent: Getting Started
+
 has_toc: true
 ---
 

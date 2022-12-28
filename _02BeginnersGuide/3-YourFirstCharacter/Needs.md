@@ -3,7 +3,7 @@ layout: default
 title: Needs & Survivial
 has_toc: true
 nav_order: 9
-grand_parent: Getting Started
+
 parent: Your First Character
 description: Needs & Survival
 ---

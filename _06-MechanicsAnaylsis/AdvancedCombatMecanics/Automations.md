@@ -4,7 +4,6 @@ title: Automations
 has_children: false
 nav_order: 3
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Automations - Shouts, Spells, Stats
 ---
 

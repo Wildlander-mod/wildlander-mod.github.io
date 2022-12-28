@@ -4,7 +4,6 @@ title: Ebony Warrior
 nav_order: 11
 has_children: false
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Ebony Warrior - Shouts, Spells, Stats
 ---
 

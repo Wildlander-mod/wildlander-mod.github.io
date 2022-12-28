@@ -4,7 +4,6 @@ title: Advanced Combat Analysis
 nav_order: 1
 has_toc: false
 has_children: true
-parent: Mechanic Analysis
 description: Advanced Combat Analysis
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Carry Weight Management
 has_toc: true
 nav_order: 7
-grand_parent: Getting Started
+
 parent: Your First Character
 description:  Carry Weight Management
 ---

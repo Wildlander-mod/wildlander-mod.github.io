@@ -3,7 +3,6 @@ layout: default
 title: Changes from Ultsky
 has_toc: true
 parent: Recommended Reading
-grand_parent: Getting Started
 nav_order: 6
 description: Changes from Ultksy
 ---

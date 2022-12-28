@@ -18,7 +18,7 @@ title: Keybindings             Required - Title of the page (appears on nav bar)
 has_toc: true                  Optional - If the page has children - Does it include a Table of contents for its children
 has_children: true             Optional - If this page is going to have children underneath it.
 parent: Recommended Reading    Optional - If the page is a child - Its parent should go here
-grand_parent: Getting Started  Optional - If the parent is a child - the parents parent title does here
+  Optional - If the parent is a child - the parents parent title does here
 nav_order: 8                   Optional - Position in the Nav bar under its parent (e.g 1 is the first page under the parent) 
 description: Keybinds          Optional - a description for the page which will appear if the page is linked.
 ---                            Required

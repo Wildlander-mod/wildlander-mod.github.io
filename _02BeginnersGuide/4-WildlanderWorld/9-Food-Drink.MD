@@ -5,7 +5,7 @@ nav_order: 9
 has_toc: true
 has_children: false
 parent: Wildlander World
-grand_parent: Getting Started
+
 ---
 
 ## Food

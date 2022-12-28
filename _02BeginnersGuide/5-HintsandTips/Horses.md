@@ -3,7 +3,7 @@ layout: default
 title: Horses
 nav_order: 4
 parent: Tips and Tricks
-grand_parent: Getting Started
+
 has_toc: true
 ---
 

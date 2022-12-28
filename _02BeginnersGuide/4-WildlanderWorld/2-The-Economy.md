@@ -3,7 +3,7 @@ layout: default
 title: The Economy
 nav_order: 2
 parent: Wildlander World
-grand_parent: Getting Started
+
 has_toc: true
 descrption: The Econemy 
 ---
