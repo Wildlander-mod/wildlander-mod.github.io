@@ -4,7 +4,7 @@ title: Unique Weapons and Artifacts
 nav_order: 2
 has_toc: true
 has_children: false
-parent: Gear Analysis
+
 ---
 
 # Index

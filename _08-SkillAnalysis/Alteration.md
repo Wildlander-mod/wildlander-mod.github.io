@@ -3,7 +3,6 @@ layout: default
 title: Alteration Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 description: Alteration Skill
 ---
 

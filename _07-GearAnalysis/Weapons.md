@@ -4,7 +4,7 @@ title: Weapons
 nav_order: 2
 has_toc: true
 has_children: false
-parent: Gear Analysis
+
 ---
 
 [Direct link](https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0){: .btn .btn-pink }

@@ -3,7 +3,6 @@ layout: default
 title: Conjuration Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 description: Conjuration Skill
 ---
 

@@ -3,7 +3,6 @@ layout: default
 title: Werewolf Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 ---
 
 ## Becoming a Werewolf

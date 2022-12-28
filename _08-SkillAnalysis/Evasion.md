@@ -3,7 +3,6 @@ layout: default
 title: Evasion Armor Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 ---
 
 # --Perk Analysis--

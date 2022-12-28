@@ -3,7 +3,6 @@ layout: default
 title: Heavy Armor Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 ---
 # Heavy Armor
 

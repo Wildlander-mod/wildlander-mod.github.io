@@ -4,7 +4,7 @@ title: Armor
 nav_order: 1
 has_toc: true
 has_children: false
-parent: Gear Analysis
+
 ---
 
 What armor is the best? Is a question I get asked a lot. 

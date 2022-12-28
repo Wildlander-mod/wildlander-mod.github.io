@@ -3,7 +3,6 @@ layout: default
 title: Block Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 description: Block Skill
 ---
 

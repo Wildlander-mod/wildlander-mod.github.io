@@ -3,7 +3,6 @@ layout: default
 title: One-handed Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 ---
 
 # --Mechanics--

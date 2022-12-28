@@ -3,7 +3,6 @@ layout: default
 title: Pickpocket Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 description: Pickpocket Skill
 ---
 

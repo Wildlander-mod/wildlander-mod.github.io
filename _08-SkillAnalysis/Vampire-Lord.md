@@ -3,7 +3,6 @@ layout: default
 title: Vampire Lord Analysis
 has_toc: false
 has_children: false
-parent: Skill Analysis
 ---
 
 PLACE HOLDER Needs checking in SSE Edit!

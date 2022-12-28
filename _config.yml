@@ -90,6 +90,15 @@ callouts:
 # Define Jekyll collections
 collections:
   # Define a collection named "ClassGuides", its documents reside in the "_ClassGuides" directory
+  07-GearAnalysis:
+    permalink: "/:collection/:path/"
+    output: true
+  08-SkillAnalysis:
+    permalink: "/:collection/:path/"
+    output: true
+  09-How-Do-i:
+    permalink: "/:collection/:path/"
+    output: true
   10-Crafting:
     permalink: "/:collection/:path/"
     output: true
@@ -114,6 +123,15 @@ collections:
     
 just_the_docs:
   collections:
+    07-GearAnalysis:
+      name: Gear Analysis
+      nav_fold: true 
+    08-SkillAnalysis:
+      name: Skill Analysis
+      nav_fold: true 
+    09-How-Do-i:
+      name: How Do I?
+      nav_fold: true 
     10-Crafting:
       name: Crafting
       nav_fold: true 
