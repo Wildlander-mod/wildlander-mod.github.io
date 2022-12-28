@@ -2,9 +2,7 @@
 layout: default
 title: Community Presets
 nav_order: 2
-has_toc: true
 has_children: false
-parent: Community
 description: Wildlander Presets Created by the community.
 ---
 
@@ -94,13 +92,23 @@ Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1042
 
 ## Izobel
 
-Race: Woodelf
+Race: Wood elf
 
 Created By: MaddyCodes
 
 ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1024818636583604274/unknown.png?width=783&height=780)
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1024818636906569819/Izobel.jslot)
+
+## Jondoe's Dunmer 
+
+Race: Dunmer
+
+Created By: Jondoe
+
+![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1057474648520007780/image.png?width=783&height=780)
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1057474648901697556/Dunmer_Female_01.jslot)
 
 ## Rookie Legionaire
 

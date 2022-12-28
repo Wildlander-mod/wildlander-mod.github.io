@@ -43,7 +43,7 @@ If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1
 
 If updating from 1.0, you will need a new game. If updating from 1.1, 1.1.0.1, 1.1.2, 1.13, 1.14, 1.15 your saves are safe.
 
-* Full log of changes located [here](1.1.6-Release-Notes.html)
+* Full log of changes located [here](..\1.1.6-Release-Notes.html)
 
 # V1.1.5 - release 29/06/22 
 
@@ -118,9 +118,9 @@ If updating from 1.0 - you will need a new game. If updating from 1.1 or 1.1.0.1
 * Eorland greymane will no longer work for anyone and temper you weapons from level 1.
 * Mr. Greymane has has his perks tweaked so he's no longer able to craft weapons from the plane of oblivion or temper equiptment to bonkers levels.
 
-## [Bugfixes](Release-notes---Wildlander---Version-1.1.0.html#bug)
-## [Functionality](Release-notes---Wildlander---Version-1.1.0.html#Functionality)
-## [Mod changes](Release-notes---Wildlander---Version-1.1.0.html#mod-changes)
+## [Bugfixes](..\Release-notes---Wildlander---Version-1.1.0.html#bug)
+## [Functionality](..\Release-notes---Wildlander---Version-1.1.0.html#Functionality)
+## [Mod changes](..\Release-notes---Wildlander---Version-1.1.0.html#mod-changes)
 
 ----
 
