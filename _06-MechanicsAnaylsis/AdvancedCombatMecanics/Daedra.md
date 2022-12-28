@@ -4,7 +4,6 @@ title: Daedra
 has_children: false
 nav_order: 4
 parent: Advanced Combat Analysis
-grand_parent: Mechanic Analysis
 description: Daedra - Shouts, Spells, Stats
 ---
 

@@ -323,4 +323,4 @@ Allows the crafting placement of a more comfortable bed, Table or chair - for wh
 
 ### Chests and barrels
 
-Can be crafted near a forge using player crafting - Can be placed to provide unlimited storage. Covered in more detail on the [Carry weight mechanics](../../02BeginnersGuide/3-YourFirstCharacter/CarryWeight/) page
+Can be crafted near a forge using player crafting - Can be placed to provide unlimited storage. Covered in more detail on the [Carry weight mechanics](http://wiki.wildlandermod.com/02BeginnersGuide/3-YourFirstCharacter/CarryWeight/) page

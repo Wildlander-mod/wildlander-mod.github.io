@@ -11,7 +11,7 @@ has_children: false
 
 Illusion is a school of magic which affects the mind of either the target or the caster. It is the only school of magic with silent casting abilities for its spells.
 
-Whenever an offensive illusion spell is cast, the game calculates a ”break-free chance” for the victim. There is more discussed on the Math behind this calculation within [Magic Mechanics](..\\6-MechanicsAnalysis\Magic-Mechanics.html#resistance-versus-illusion-spells) but in summary - Illusion spells can fail.
+Whenever an offensive illusion spell is cast, the game calculates a ”break-free chance” for the victim. There is more discussed on the Math behind this calculation within [Magic Mechanics](http://wiki.wildlandermod.com/06-MechanicsAnaylsis/Magic-Mechanics/#resistance-versus-illusion-spells) but in summary - Illusion spells can fail.
 
 ## Upkeep
 Several Illusion spells feature the upkeep mechanic. This means that you can keep a spell active for a small magic drain after casting. The proceed to cast further spells. Casting the spell again will cancel the spell and stop the magic drain.

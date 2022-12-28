@@ -21,7 +21,7 @@ A secondary attribute, Wetness, represents if your character is dry or soaked fr
 
 Increasing your Coverage reduces the rate you get wet in the rain. Coverage also helps reduce your exposure rate as well when the weather is severe.
 
-The [Frostfall temperature gauges](../../02-RecommendedReading/3-The-UI/frostfall-temperature-gauges) on the UI page are a visual aid to these settings.
+The [Frostfall temperature gauges](http://wiki.wildlandermod.com/02BeginnersGuide/02-RecommendedReading/3-The-UI/frostfall-temperature-gauges) on the UI page are a visual aid to these settings.
 
 ### Staying warm
 Falling into a lake or getting caught in a blizzard can spell doom for the unprepared. But with a little planning, resourcefulness, and experience, you can easily overcome these challenges. It all comes down to staying warm, and staying dry. Here are some ways you can do that.
@@ -30,7 +30,7 @@ Falling into a lake or getting caught in a blizzard can spell doom for the unpre
 1. **Armor or clothing in every slot.** Clothing and armor increase your Warmth and Coverage ratings, which reduce exposure. Wear something in your head, body, hands, and feet slots.
 1. **Wield a torch, eat soups and stews, Eat Full meals.** Grants small bonuses to Warmth.
 1. **Frost Resistance.** Grants a bonus to Warmth. (This means that Nords start the game with a slightly higher Warmth Rating than others.)
-1. **Endurance perks.** Accessible from any built campfire, Endurance skill perks can enhance your ability to survive in various circumstances. See the [Endurance Skill](camping.html#endurance-skill) for more information.
+1. **Endurance perks.** Accessible from any built campfire, Endurance skill perks can enhance your ability to survive in various circumstances. See the [Endurance Skill](http://wiki.wildlandermod.com/02BeginnersGuide/3-YourFirstCharacter/camping/#endurance-skill) for more information.
 1. **Keep an eye on the skies.** Rain will soak you, greatly increasing your rate of exposure. Blizzards can be swift and deadly.
 1. **Use New spells to Bolster warmth.** Spells such as Mage Coat, Soothe or bound cloak have been added to provide warmth. Kindle Consumes 1 wood to instantly lose 20 exposure - the "I'm freezing to death" panic button
 
@@ -42,7 +42,7 @@ Two new stats are visible on each piece of clothing, as well as in the inventory
 1. **Warmth** – A measure of how well you can endure the cold for long periods of time. Some armors, like fur, have high Warmth. Eating soup and carrying a torch can grant you a temporary bonus to Warmth. There are other ways to increase your Warmth Rating.
 1. **Coverage** – A measure of how quickly you become wet in the rain and how well you resist exposure during severe weather. Some armors, like leather, have high Coverage. Shields add a small bonus to your Coverage as well.
 
-![img](../Assets/SkyUI.png)
+![img](http://wiki.wildlandermod.com/Assets/SkyUI.png)
 
 ---
 

@@ -891,7 +891,7 @@ NPC :81094B16
 
 Modd:Reqiuem
 
-Named Version of a standard [troll](6-MechanicsAnaylsis\AdvancedCombatMecanics\Monsters.html#troll)
+Named Version of a standard [troll](http://wiki.wildlandermod.com/06-MechanicsAnaylsis/AdvancedCombatMecanics/Monsters/#troll)
 
 #  **Thunder** : Giant Storm Atronach
 

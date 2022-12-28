@@ -8,7 +8,7 @@ description: Spell Research
 
 This page was taken from the Ultimate Skyrim Reddit Sub and has been posted Verbatim .
 
-Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to[ u/Alexandregd](https://www.reddit.com/u/Alexandregd) for creating this very useful[ reference sheet](..\12-Cheat-Sheets\Spell-Research-Cheat-Sheet-(Spells).html), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
+Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to[ u/Alexandregd](https://www.reddit.com/u/Alexandregd) for creating this very useful[ reference sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
 
 You may also find this video tutorial useful.
 
@@ -105,7 +105,7 @@ The magicka requirements for crafting tomes and scrolls are listed in the table 
 
 Researching and composing spells is the core feature of the mod. It allows mages to level up the magic schools and learn almost any spell in the game including master-level spells. This means that mage characters no longer need to join the College of Winterhold in order to master the mage craft, which is ideal for role-playing as a freelancer or a rogue mage.
 
-Analyzing spells with the research journal reveals the associated archetypes, in the format shown below.[ The reference sheet](..\12-Cheat-Sheets\Spell-Research-Cheat-Sheet-(Spells).html) contains all known spells and their archetypes.
+Analyzing spells with the research journal reveals the associated archetypes, in the format shown below.[ The reference sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)) contains all known spells and their archetypes.
 
 1. Casting / School techniques
 2. Elements
@@ -165,7 +165,7 @@ I had learned the spell _Soothe Rank 1_ (Novice Illusion), which contains the fo
 
 ### Enchanted artifacts
 
-There are many artifacts found in loot, such as broken weapon parts and soul fragments. Activating an enchanted item in the inventory opens the following options: [Cheat Sheet](..\12-Cheat-Sheets\Spell-Research---Cheat-Sheet-(Artefact).html)
+There are many artifacts found in loot, such as broken weapon parts and soul fragments. Activating an enchanted item in the inventory opens the following options: [Cheat Sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Artefact))
 
 1. Analyze - this will reveal clues about the associated archetypes
 2. Study (disenchant) Item – requires tongs _[v2.0+]_. Grants XP in archetypes and enchanting. Has a chance of destroying the item (details below)
@@ -198,7 +198,7 @@ Spell Research extends the alchemy/spell system with the introduction of magical
 * Liquids can be mixed into potent elixirs (a type of ingredient), and different salts, e.g. void/fire/frost salts.
 * Liquids can be upgraded or downgraded.
 
-There are 34 different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency: _Extenuant, Mollis, Mitis, Valens, Aeque, Saturatus_ (from weakest to strongest). Refer to the[ cheat sheet](..\12-Cheat-Sheets\Spell-Research---Cheat-Sheet-(Alchemy).html) for a list of liquids and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
+There are 34 different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency: _Extenuant, Mollis, Mitis, Valens, Aeque, Saturatus_ (from weakest to strongest). Refer to the[ cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of liquids and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
 ### Analyzing liquids
 
@@ -206,7 +206,7 @@ Each liquid is associated with one elemental archetype (the middle-line archetyp
 
 Depending on the tier of the liquid being analyzed, XP is added to different archetype tiers. For example, Extenuant and Mollis liquids mostly grant XP to _novice_ and _apprentice_ levels of an archetype, and little XP in the higher levels. The stronger liquids, e.g. Aeque and Saturatus, grant high XP in all the archetype tiers including expert and master.
 
-Analyzing liquids in bulk grants **exponentially higher XP** than analyzing them one at a time. For example, a single Extenuant grants 4 XP in the novice tier, while 50 Extenuates grant 3125 novice XP, instead of the expected 50*4=200 XP. So, to substantially increase the XP gain from liquids, it is worth amassing large quantities of them before analyzing them all at once. I have added a table to the[cheat sheet](..\12-Cheat-Sheets\Spell-Research---Cheat-Sheet-(Alchemy).html).
+Analyzing liquids in bulk grants **exponentially higher XP** than analyzing them one at a time. For example, a single Extenuant grants 4 XP in the novice tier, while 50 Extenuates grant 3125 novice XP, instead of the expected 50*4=200 XP. So, to substantially increase the XP gain from liquids, it is worth amassing large quantities of them before analyzing them all at once. I have added a table to the[cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)).
 
 Note: XP from liquids has been reduced in Spell Research 2.1
 
@@ -214,7 +214,7 @@ Note: XP from liquids has been reduced in Spell Research 2.1
 
 Elixirs are not potions, as the name may suggest. They are in fact ingredients that can be used to craft potions. Elixirs are created from magical liquids in the _Mix Ingredients_ menu of the alembic.
 
-There are 6 tiers of elixirs based on potency: _Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Mitis_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the[cheat sheet](..\12-Cheat-Sheets\Spell-Research-Cheat-Sheet-(Elixers).html).
+There are 6 tiers of elixirs based on potency: _Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Mitis_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the[cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixers)).
 
 **Note**: many of the elixir recipes will not appear in the alembic menu until you have at least one of the required liquids for the recipe.
 
@@ -238,7 +238,7 @@ Ingredients, potions _[v2.0]_, and enchanted artifacts can be dissolved into mag
 
 The alembic can dissolve small quantities of materials - **up to 0.5 units of weight** at a time, e.g. a single potion, or 5 Blue Mountain flowers (0.1 each), or 25 Orange dartwings (0.02 each), etc.
 
-A cauldron can break down large quantities of material including heavy items like enchanted artifacts. The downside of using a cauldron is that it is not very portable (100 weight), and it requires **fuel** to work. Most ingredients or poisons with a _weakness_ effect, e.g. Arcane Disruption, Cryolysis, Electrolysis, Pyrolysis, Toxicity, can be used as fuel (see [alchemy sheet](..\12-Cheat-Sheets\Spell-Research---Cheat-Sheet-(Alchemy).html)  for a list of fuels). Salt pies are an abundant source of fuel, found in many containers. With at least one perk in alchemy, crafted weakness poisons become **more efficient** at fueling the cauldron than raw ingredients like salt. For example, a Salt pie and a Creep cluster provide a total of 0.6 units of fuel, when used directly (Salt=0.2, Creep=0.4). However, if you first combine them into a poison (10% Arcane Disruption with alchemy 5 and one point in the base perk), it will provide 2.0 units of fuel which is higher than the original 0.6. In general, a poison with 'X% weakness' effect will provide [X/5] units of fuel, which goes up with alchemy level and perks, whereas the fuel from raw ingredients remains constant.
+A cauldron can break down large quantities of material including heavy items like enchanted artifacts. The downside of using a cauldron is that it is not very portable (100 weight), and it requires **fuel** to work. Most ingredients or poisons with a _weakness_ effect, e.g. Arcane Disruption, Cryolysis, Electrolysis, Pyrolysis, Toxicity, can be used as fuel (see [alchemy sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy))  for a list of fuels). Salt pies are an abundant source of fuel, found in many containers. With at least one perk in alchemy, crafted weakness poisons become **more efficient** at fueling the cauldron than raw ingredients like salt. For example, a Salt pie and a Creep cluster provide a total of 0.6 units of fuel, when used directly (Salt=0.2, Creep=0.4). However, if you first combine them into a poison (10% Arcane Disruption with alchemy 5 and one point in the base perk), it will provide 2.0 units of fuel which is higher than the original 0.6. In general, a poison with 'X% weakness' effect will provide [X/5] units of fuel, which goes up with alchemy level and perks, whereas the fuel from raw ingredients remains constant.
 
 Note: Fuel is measured in units of material weight. For example, 2.0 units of fuel will dissolve 2.0 units (pounds) of material.
 

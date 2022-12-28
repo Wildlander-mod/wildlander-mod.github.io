@@ -10,7 +10,7 @@ has_children: false
 
 There are lots of expansions to the magic systems in Wildlander, the biggest change being that your skill in magic means nothing without perks. you can have 100 skill in a specific school, and casting a novice tier spell will do the same damage, and cost the same as if you were at level one if you have no perks in that specific tree. Learning specific perks (novice, apprentice, adept, expert and master perks)  also grants you free spells from that tier.  
 
-In addition to this, with the introduction of [spell research](..\11-Mod-Deep-Dives\Spell-Research.html) you are no longer restricted to gaining spells though buying or finding spell books, you can learn spells simply though researching and combining thesis based on your studies.
+In addition to this, with the introduction of [spell research](http://wiki.wildlandermod.com/11Deep-Dives/Spell-Research/) you are no longer restricted to gaining spells though buying or finding spell books, you can learn spells simply though researching and combining thesis based on your studies.
 
 Enemy resistances to your illusion spells has also been introduced, when you cast a spell, your skill in that tree is compared to the enemy mental resistance, and can break free of your spells based on that resistance value - more on this in the next section.
 

@@ -94,7 +94,7 @@ If there isn't a specific guide, then as a general rule of thumb
 - Anything that adds spells, weapons, followers or other types of NPCs should go ABOVE Requiem.esp (right pane of MO2)
 - Patches always have to be below the mod they are patching, thus the requiem patches will be below Requiem.esp by the other requiem patches while your mod will be above Requiem.esp.
 
-![image](../../Assets/RequiremPatch.png)
+![image](http://wiki.wildlandermod.com/Assets/RequiremPatch.png)
 
 - Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the wildlander Full mod(E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
 - Run the reqtificator whenever you change the load order.

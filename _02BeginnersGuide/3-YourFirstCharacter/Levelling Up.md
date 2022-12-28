@@ -88,7 +88,7 @@ For passive Spells
 ```
  
 Notes:
-* The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](../../06-MechanicsAnaylsis/Magic-Mechanics.html#resistance-versus-illusion-spells)
+* The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](http://wiki.wildlandermod.com/06-MechanicsAnaylsis/Magic-Mechanics/#resistance-versus-illusion-spells)
 * The field NPC Level is the NPC's level Divided by 10
 
 ---

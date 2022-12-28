@@ -32,9 +32,9 @@ You can download and install from [here](https://www.wildlandermod.com/download)
 ----
 # How do I donate to the project?
 
-If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam"><img src="../../Assets/kofi.png"></a>
+If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam"><img src="http://wiki.wildlandermod.com/Assets/kofi.png"></a>
 
-Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry"><img src="../../Assets/Patreon.png"></a>
+Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry"><img src="http://wiki.wildlandermod.com/Assets/Patreon.png"></a>
 
 ----------
 
@@ -112,7 +112,7 @@ No, and if you try, then SKSE crashes from Mod Organizer. You will need to insta
 
 Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
 
-Then follow the instructions [here](../../09-How-Do-i/How-to-update/)
+Then follow the instructions [here](http://wiki.wildlandermod.com/09-How-Do-i/How-to-update/)
 
 The latest version will always be available [here](https://www.wildlandermod.com/download) for clean installations
 
