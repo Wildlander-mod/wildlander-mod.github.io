@@ -2,7 +2,6 @@
 title: Crafting spreadsheet
 layout: default
 nav_order: 2
-parent: Crafting
 description: Crafting Spreadsheet
 ---
 

@@ -2,7 +2,6 @@
 title: Sharpening Wheel Recipes
 layout: default
 nav_order: 5
-parent: Crafting
 description: Sharpening Wheel 
 ---
 

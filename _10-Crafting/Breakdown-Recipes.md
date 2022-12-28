@@ -2,7 +2,6 @@
 title: Breakdown Recipes
 layout: default
 nav_order: 3
-parent: Crafting
 description: Breakdown recipes
 ---
 

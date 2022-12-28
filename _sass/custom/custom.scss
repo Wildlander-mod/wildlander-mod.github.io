@@ -102,6 +102,27 @@ background: #transparent;
 	color: #f4abff;
 }
 
+.nav-list.nav-category-list {
+  > .nav-list-item {
+    margin: 0;
+	color: $link-color;
+
+    > .nav-list {
+      padding: 0;
+
+      > .nav-list-item {
+        > .nav-list-link {
+          color: $link-color;
+        }
+
+        > .nav-list-expander {
+          color: $link-color;
+        }
+      }
+    }
+  }
+}
+
 
 
 

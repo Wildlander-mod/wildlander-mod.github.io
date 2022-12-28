@@ -2,7 +2,6 @@
 title: Armor Table Recipes
 layout: default
 nav_order: 4
-parent: Crafting
 description: Armor Table recipes
 ---
 
