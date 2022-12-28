@@ -26,7 +26,7 @@ If Videos are more your speed - then [Liam(Parz)](https://www.youtube.com/channe
 
 
 ## Getting Help
-* Firstly – Most Common Questions are answered in our [FAQ](01Support\FAQ\).
+* Firstly – Most Common Questions are answered in our [FAQ](01Support/Faq/).
 * Secondly – [The known issues document](01Support\KnownIssues) contains a list of known issues and, if available, fixes for those issues.
 * Support is available primarily on our Discord server [Dylan Perry Discord Server](https://discordapp.com/invite/8VkDrfq). It is great for support, troubleshooting, and reporting bugs since you can speak with other users in real-time. We have many regular users offering help to new players. The Discord is also a good place to meet fellow adventurers and chat about Wildlander and other games.
 * The [Wildlander Subreddit](https://www.reddit.com/r/wildlander/) is a great place to meet fellow players and share stories of your adventures. We also host community events, post screen shots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
