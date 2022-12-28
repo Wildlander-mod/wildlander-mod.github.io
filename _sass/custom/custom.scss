@@ -102,9 +102,12 @@ background: #transparent;
 	color: #f4abff;
 }
 
+
+
 .nav-category {
   padding-right: $gutter-spacing-sm;
   padding-left: $gutter-spacing-sm;
+  padding-top: 0;
   font-weight: 600;
   text-align: start;
   text-transform: uppercase;
@@ -126,6 +129,7 @@ background: #transparent;
   > .nav-list-item {
     margin: 0;
 	color: fff;
+	
 
     > .nav-list {
       padding: 0;
