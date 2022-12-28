@@ -4,7 +4,6 @@ title: Community Guides
 nav_order: 2
 has_toc: true
 has_children: false
-parent: Community
 description: Wildlander Guides Written by the community.
 
 ---
