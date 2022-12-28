@@ -111,7 +111,7 @@ collections:
     
 just_the_docs:
   collections:
-    11Cheat-Sheets:
+    11Deep-Dives:
       name: Mod Deep Dives
       nav_fold: true 
     12Cheat-Sheets:
