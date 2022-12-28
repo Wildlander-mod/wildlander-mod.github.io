@@ -93,9 +93,6 @@ collections:
   13Community:
     permalink: "/:collection/:path/"
     output: true
-  14ModlistVersions:
-    permalink: "/:collection/:path/"
-    output: true
   15ClassGuides:
     permalink: "/:collection/:path/"
     output: true
@@ -108,9 +105,6 @@ just_the_docs:
     13Community:
       name: Community
       nav_fold: true 
-    14ModlistVersions:
-      name: Modlist Versions
-      nav_fold: true  
     15ClassGuides:
       name: Class Guides
       nav_fold: true
