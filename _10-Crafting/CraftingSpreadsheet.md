@@ -4,6 +4,7 @@ layout: default
 nav_order: 2
 description: Crafting Spreadsheet
 ---
+# Crafting spreadsheet
 
 ## [All Recipes Spreadsheet](https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=0)
 

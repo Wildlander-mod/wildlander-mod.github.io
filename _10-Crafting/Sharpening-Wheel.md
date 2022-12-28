@@ -5,6 +5,8 @@ nav_order: 5
 description: Sharpening Wheel 
 ---
 
+# Sharpening Wheel Recipes
+
 
 Item To Temper| Mats | Requires Perk
 -- | -- | --

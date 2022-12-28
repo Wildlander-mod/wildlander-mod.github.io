@@ -7,7 +7,7 @@ has_children: false
 
 ---
 
-# Index
+# Unique Weapons and Artifacts
 {: .no_toc .text-delta }
 
 1. TOC

@@ -3,6 +3,7 @@ layout: default
 title: Destruction Analysis
 has_toc: false
 has_children: false
+description: Destruction Skill
 ---
 
 # --Perk Analysis--

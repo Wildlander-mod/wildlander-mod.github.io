@@ -5,6 +5,8 @@ nav_order: 4
 description: Armor Table recipes
 ---
 
+#  Armor Table Recipes
+
 
 Item To Temper| Mats | Requires Perk
 -- | -- | --
