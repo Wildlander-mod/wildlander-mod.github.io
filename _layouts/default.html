@@ -90,7 +90,9 @@ layout: table_wrappers
       {% endif %}
 	  
 	  <ul class="nav-list nav-category-list">
-	  <div class="nav-category">External Links</div>
+		  <li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
+			<div class="nav-category">External Links</div>
+		  </li>  
 	  </ul>
 	  
       {%- if site.nav_external_links -%}
