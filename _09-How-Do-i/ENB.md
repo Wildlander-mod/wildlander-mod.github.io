@@ -3,7 +3,7 @@ layout: default
 title: How Do I Change The ENB Settings?
 has_toc: false
 has_children: false
-parent: How Do I?
+
 ---
 
 ## How Do I Change The ENB Settings?

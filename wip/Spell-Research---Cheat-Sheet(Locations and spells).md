@@ -3,7 +3,6 @@ title: Spell (Locations and Research)   - WIP
 layout: default
 nav_order: 1
 description: Spell (Locations and Research)  
-parent: Cheat Sheets
 ---
 
 # Spell  (Locations and Research )  - WIP

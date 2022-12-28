@@ -3,7 +3,6 @@ title: Spell (Sources and Archtypes) - WIP
 layout: default
 nav_order: 1
 description: Spell (Sources and Archtypes)  
-parent: Cheat Sheets
 ---
 
 # Spell  (Locations and Research )  - WIP

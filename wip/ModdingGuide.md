@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Modding Wildlander
+title: How Do I mod Wildlander?
 has_toc: false
 has_children: false
-parent: How Do I Add Mods?
-grand_parent: How Do i?
 description:  How Do I mod Wildlander?
 ---
 

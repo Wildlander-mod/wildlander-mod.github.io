@@ -3,7 +3,7 @@ layout: default
 title: How Do I Add Mods?
 has_toc: false
 has_children: true
-parent: How Do I?
+
 description: Adding Mods Wiki Page
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: How Do I Enable Permadeath?
 has_toc: false
 has_children: false
-parent: How Do I?
+
 ---
 
 Short Answer: We don't have permadeath functionality instead, the user's self control not to load a save on death.

@@ -2,7 +2,6 @@
 title: Class Guide (Barbarian) - WIP
 layout: default
 description: Class Guide (Barbarian) 
-parent: Class Guide
 ---
 
 # Barbarian
