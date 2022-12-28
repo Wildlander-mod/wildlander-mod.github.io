@@ -173,3 +173,45 @@ iEquip is an antidote:-
 <iframe class="youtube_video" src="https://www.youtube.com/embed/ejYMi24oAJA" allowfullscreen="1" frameborder="0">
 </iframe>
 
+
+<div align="center">
+<img src="https://i.imgur.com/OtPnbGm.png">
+</div>
+
+A suite of fully configurable 'heat of battle' features designed to give you quick access to exactly what you need, when you need it most.
+
+### QUICK SHIELD
+
+-  Triple tap left key to automatically equip the first shield (or ward spell) found in the left hand queue.-  If nothing is found in the queue then iEquip will scan your wider inventory for something suitable.
+-  Option to always 'Prefer Magic' in which case look for ward first, then shield
+-  Otherwise check current right hand item and match shield for weapon, or ward for spell
+-  If 2H weapon equipped then equip a shield and 1H weapon, or ward and spell from preferred school
+
+### QUICK RANGED
+
+-  Triple tap right key to automatically equip first of preferred ranged weapon type or ranged bound weapon spell found in right hand queue.If nothing is found in the queue then iEquip will scan your wider inventory for something suitable.
+-  Various options for what to switch back to on second right key triple tap
+
+### QUICK RESTORE & QUICK BUFF
+
+-  Triple tap consumable key to automatically consume restore and/or buff potions for enabled stats as required
+-  Fully configurable activation thresholds and intelligent 'Smart Select' with active effect and combat state checking
+-  Allows intelligent smart selection and consumption of up to nine potions with a single activation
+-  Option to 'Prefer Magic' for Healing, in which case a healing spell will be equipped (with option to dual cast) rather than consuming a healing potion. If magic preferred but no spell found then a potion will be consumed, if potion preferred but none found then optionally a healing spell will be equipped if found.-  If spells are equipped then triple tapping again will switch back to the previous items, with an option to automatically consume a restore magicka potion.
+
+### QUICK DUALCAST
+
+-  When equipping 'either hand' spells from the chosen schools always equip them in both hands ready for dual casting
+-  Option to only allow QuickDualCast if the spell has been added to both queues
+-  Differs from the regular double tap to dual cast feature in that spells will always be dual equipped based on the QuickDualCast settings without the need for an additional action 
+
+### PRESELECT - MODE
+
+-  Triple tap shout/power key to activate Preselect Mode
+-  Three additional slots will be displayed alongside left, right and shout/power slots
+-  Tapping to cycle will no cycle the preselect slots, leaving the current items equipped, allowing you to queue up next item or group of items
+-  Double tap left, right or shout/power key to equip the preselected item
+-  Hold left or right key to equip both hands at the same time, or hold shout to equip all three preselected items at once (dynamic equip sets)
+-  Option when equipping the preselected item to either swap with current item, or equip and cycle the preselect slot on one position
+-  Option to toggle back out of Preselect Mode when equipping all items
+-  QuickShield/QuickRanged options to equip or preselect when Preselect Mode active.
