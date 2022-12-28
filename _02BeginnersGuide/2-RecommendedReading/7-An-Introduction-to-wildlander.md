@@ -77,7 +77,7 @@ In comparison - Valheim towers near Whiterun, while containing the (generally) s
 
 ## Religion and Blessings
 
-Detailed information: [here](..\4-WildlanderWorld\The-Divines.html)
+Detailed information: [here](..\..\02BeginnersGuide\4-WildlanderWorld\4-The-Divines\)
 
 Your crime record affects your ability to use shrines. Too much crime and you are locked out permanently from taking blessings, and only with a perk will you be able to use them to cure disease.
 

@@ -521,4 +521,4 @@ The extract requires the following items/tools:
 
 ## How do I craft Healing Poultice?
 
-The Healing poultice [Guide](..\..\02BeginnersGuide\03-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
+The Healing poultice [Guide](..\..\02BeginnersGuide\3-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
