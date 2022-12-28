@@ -147,7 +147,7 @@ background: #transparent;
   }
 }
 
-.nav-list-expander {
+.nav-list .nav-list-item .nav-list-expander {
 	position: absolute;
 	@if $nav-list-expander-right {
 	right: 0;
