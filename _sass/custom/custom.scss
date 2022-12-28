@@ -109,7 +109,6 @@ background: #transparent;
   text-align: start;
   text-transform: uppercase;
   border-bottom: $border $border-color;
-  @include fs-2;
 
   @include mq(md) {
     padding-right: $gutter-spacing;
