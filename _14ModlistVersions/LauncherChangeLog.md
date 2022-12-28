@@ -1,7 +1,7 @@
 ---
 title: Launcher Change Log
 layout: default
-nav_order: 2
+nav_order: 3
 description: Launcher change log
 ---
 
