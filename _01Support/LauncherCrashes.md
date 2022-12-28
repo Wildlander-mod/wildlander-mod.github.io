@@ -2,7 +2,6 @@
 layout: default
 title: Launcher and CTD's
 nav_order: 6
-parent: Support
 description: Launcher Issues and CTD's
 ---
 

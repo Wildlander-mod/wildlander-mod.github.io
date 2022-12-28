@@ -3,7 +3,6 @@ layout: default
 title: Known Issues
 nav_order: 4
 has_children: false
-parent: Support
 description: Known Issues and Fixes
 ---
 

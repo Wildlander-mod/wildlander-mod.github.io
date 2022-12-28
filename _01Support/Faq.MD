@@ -2,7 +2,6 @@
 layout: default
 title: FAQ
 nav_order: 3
-parent: Support
 description: Frequently Asked Questions
 ---
 ![Image](https://user-images.githubusercontent.com/26418143/144291957-c00567fb-bc21-44e7-b36d-6e8453d277d7.png)
