@@ -2,7 +2,6 @@
 layout: default
 title: Tips and Tricks
 nav_order: 4
-parent: Getting Started
 has_toc: true
 has_children: true
 ---

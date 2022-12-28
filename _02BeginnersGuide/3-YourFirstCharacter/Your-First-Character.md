@@ -4,7 +4,6 @@ title: Your First Character
 has_toc: true
 has_children: true
 nav_order: 2
-parent: Getting Started
 description: Your First Character Index
 ---
 

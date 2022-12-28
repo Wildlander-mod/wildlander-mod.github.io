@@ -4,7 +4,6 @@ title: Dungeon Guides
 nav_order: 5
 has_toc: true
 has_children: true
-parent: Getting Started
 ---
 
 ## Disclaimers

@@ -3,7 +3,6 @@ layout: default
 title: Character Creation
 has_toc: true
 nav_order: 1
-
 parent: Your First Character
 descrption: Character creation - The Basics
 ---
