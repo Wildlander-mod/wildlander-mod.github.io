@@ -109,3 +109,67 @@ iEquip is an antidote:-
 - Disarm protection - if disarmed or weapon breaks the next item in the queue will equip automatically.-  In the case of ranged weapons and shields iEquip will search the queue for a like for like replacement first, then fall back on something else if no direct replacement found
 - Full bound spell support with animated switching from spell school to bound weapon icons when spell is successfully cast and back again when sheathed
 
+
+### Ranged Ammo
+
+-  Left slot becomes cycleable ammo queue when a ranged weapon is equipped
+-  Option to sort ammo queue by damage (and always equip best ammo), name (always equip last ammo) or quantity (always equip most plentiful ammo)
+-  Simple Ammo Mode - Only ranged weapon and ammo are displayed
+-  Advanced Ammo Mode - Additional cycleable slot shows item to be re-equipped in left hand when switching back from ranged weapon
+-  In Advanced Ammo Mode single tap on left key cycles ammo, double tap cycles next left hand item
+-  Enchanted ammo support with enchantment type display, with higher priority sorting (by damage) than base ammo
+-  Various options for what to do when last ammo for current ranged weapon is used up, including switching ranged weapon type, equipping another weapon, or doing nothing and waiting for more ammo to be found
+
+### Using Poisons
+
+-  Double tap consumable key to cycle poison queue
+-  Double tap left or right key to apply displayed poison to currently equipped weapon
+-  Option to allow 'topping up' current poison - charges stack
+-  Option to 'clean off' current poison and apply displayed poison (if different)
+-  Integrated support for Complete Alchemy &amp; Cooking Overhaul waxes, and Smithing Oils oils with 10 charges applied
+-  Optional sliders for Charges Per Vial and Concentrated Poison perk multiplier
+-  Optional poisoning messages
+
+### Recharging
+
+-  Optional fully configurable enchantment charge meters or dynamic fill soulgems
+-  Low charge warnings
+-  Hold left/right key to recharge currently equipped weapon
+-  Intelligent soul selection
+-  Option to use largest soul required to recharge, or use up smaller souls first
+-  Option to disallow use of oversized souls (no wastage)
+-  Integrated support for GIST - Genuinely Intelligent Soul Trap, including option to disallow use of partially filled soul gems
+
+### Potions and Consumables
+
+-  Single press to cycle consumable queue, hold to consume displayed item
+-  Health, Magicka and Stamina Potion Groups with group counts, containing all relevant potions sorted into separate Restore/Fortify/Regen Rate sub-queues
+-  Intelligent, customisable 'Smart Select' so you can define when and which potions should be consumed
+-  Potion Type Selector with contextual display options and individual potion type counts allows you to cycle and consume potion types with each group
+-  Low Restore potion count early warning system alters text colour of Potion Group count as restore potions run low
+-  Active effect checking blocks consumption if potion effect (buff or restore over time) already active on player, reducing wastage
+
+### QuickLight & Torches
+
+- Dedicated QuickLight hotkey allowing you to instantly equip either a torch or the Candlelight spell, and press again to switch back to previous item(s)
+- Fully customisable torch life meter displaying remaining torch life
+- Finite Torch Life toggle - removes vanilla infinite torch exploit where unequipping and re-equipping resets the torch life timer. Now remaining torch life will be remembered no matter how many times you unequip and re-equip a torch. Timer only resets when a torch is removed from your inventory.
+- Option to adjust how long torches last for, from default value (eg 4 minutes in vanilla, 30 minutes in Requiem) down to just one minute- 
+- 'Burn Out' system allows torches to gradually burn out (light radius reduces in stages) during the final 30s of torch life
+- Option to automatically equip another torch when current one expires, with configurable Realistic Re-Equip delay
+- Integrated Simple Drop Lit Torches function (double tap left to drop lit torch), courtesy of Snotgurg, with several options for what happens when you drop a torch, including drop another, cycle the left hand, equip a shield, etc.
+- If a torch is dropped during 'Burn Out', the dropped torch retains reduced light radius and burns out completely after 30 seconds
+
+### Beast Form
+ 
+- Werewolf transformation support including claw icons and howl switching (shout slot) once multiple howls learnt
+- Dawnguard Vampire Lord transformation support with power and left hand spell switching, and dynamic switching on land/take off
+- Undeath Lich transformation support with power and left hand spell switching
+- Path of Transcendence Bone Tyrant transformation support with power and spell switching
+- For all transformations, all howls, spells and powers are automatically added to the queues the first time they are equipped normally, including through the Undeath spell selection menu.-  Only spells and powers normally available in these forms are added, no cheaty exploits here allowing weapon equipping!
+- Support for all mod-added Werewolf and Vampire Lord spells and powers
+
+
+<iframe class="youtube_video" src="https://www.youtube.com/embed/ejYMi24oAJA" allowfullscreen="1" frameborder="0">
+</iframe>
+
