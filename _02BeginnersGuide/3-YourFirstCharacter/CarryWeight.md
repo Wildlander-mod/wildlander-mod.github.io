@@ -51,3 +51,21 @@ Or as i prefer to call them, mobile storage. Each Horse has 600 carry weight and
 
 Containers in the faction (companions / Dark brotherhood / Thieves guild / Mage's college) which are marked with a "*" are safe storage. You can safely stash you loot here. All other containers should be considered unsafe and you will lose the contents if you reload a save, or the cell resets after 30 days of you not visiting.
 
+# Bag of Holding
+
+These Misc items guarantee a massive magical increase in carry weight so long as they are in your inventory. The effects of these items stack. There are only 7 in the entire game.
+
+<details>
+<summary> click for spoilers </summary>
+
+1. Mehrunes Shrine
+2. Thoroughfare of the Labyrinthian - On a bookshelf
+3. Ysgramor’s Tomb
+4. Twilight Sepulchre - Statue of Nocturnal loot room right before you return the skeleton key and unlock nightingale powers.
+5. Soul Carin’s Boneyard - Near where you find Valerica 
+6. one on Nahkriin, who guards Alduin’s portal to Sovengardge.
+7. Black Book: The Sallow Reagent - In a side room towards the end of the book.
+
+</details>
+
+
