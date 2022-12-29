@@ -2,7 +2,6 @@
 title: Class Guide - Daedric Battlemage (Battlestaff)
 layout: default
 description: Class Guide Daedric Battlemage (Battlestaff)
-nav_order: 1
 ---
 
 # Daedric Battlemage (Battlestaff)

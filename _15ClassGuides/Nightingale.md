@@ -2,7 +2,7 @@
 title: Class Guide - Nightingale
 layout: default
 description: Class Guide Nightingale
-nav_order: 1
+
 ---
 
 # Nightingale
