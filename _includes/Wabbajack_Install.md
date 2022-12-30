@@ -131,7 +131,7 @@ you may need to use a VPN and/or different browsers to download these files. We 
 
 For any failed mods which are not mentioned above Search the following link for the mod(s) and manually download.
 
-[Modlist links](https://github.com/wabbajack-tools/mod-lists/blob/master/reports/wildlander/status.md) 
+[Modlist links](https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md) 
 
 ----------
 
