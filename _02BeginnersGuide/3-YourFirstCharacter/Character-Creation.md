@@ -7,6 +7,20 @@ parent: Your First Character
 descrption: Character creation - The Basics
 ---
 
+## Questions about is your build viable?
+
+Any build is viable in the early game. it genuinely does not matter, you can run pretty much anything you want.
+
+Build viability only becomes a problem once you reach the mid and late game, because thats when you start hitting some pretty hard dps checks like dragon priests.
+
+If you just want to Play around killing bandits or whatever, you can pretty much play anything you want, but if you wanna complete all the content, defeat Alduin, kill Miraak, etc. you're gonna run into trouble.
+
+Going a Spellsword build is not recommended for beginners - as there are a lot of mechanics relating to heavy armor & spell casting that make this one of the hardest builds to master.
+
+General rules for successful build - One ranged ability, One Defense ability, One melee ability and 3 support skills. 
+
+For more guidance on builds and examples - you can see the class guides section of the wiki.
+
 
 # Character Creation
 ## STARTING SKILLS AND ATTRIBUTES
