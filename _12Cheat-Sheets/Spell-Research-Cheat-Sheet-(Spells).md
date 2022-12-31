@@ -1216,12 +1216,23 @@ Target: Location
 Technique: Control
 <br>
 Technique: Summoning
-   </td>
-   <td>Summon Spectral Archer
-   </td>
+</td>
+<td>Summon Spectral Archer
+</td>
   </tr>
   <tr>
    <td> 
+		Adept
+		<br>
+		Fire & Forget
+		<br>
+		Element: Soul
+		<br>
+		Conjuration
+		<br>
+		Target: Actor
+		<br>
+		Technique: Curse
    </td>
    <td>Spectral Arrow
    </td>
