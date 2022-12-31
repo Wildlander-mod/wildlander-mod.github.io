@@ -455,7 +455,22 @@ Technique: Telekinesis
 </td>
 </tr>
 <tr>
-<td> 
+<td> Master
+<br>
+Concentration
+<br>
+Alteration
+<br>
+<br>
+Element: Health
+<br>
+Element: Magicka 
+<br>
+Element: Stamina
+<br>
+Actor	
+<br>
+Technique: Siphon
 </td>
 <td>Absorb Essence
 </td>
@@ -1875,6 +1890,7 @@ Target: Location
   </tr>
   <tr>
    <td> 
+   Cannot be Researched
    </td>
    <td>Firerune (Rank II)
    </td>
@@ -1901,6 +1917,7 @@ Target: Location
   </tr>
   <tr>
    <td> 
+   Cannot be Researched
    </td>
    <td>Icerune (Rank II)
    </td>
@@ -1971,6 +1988,7 @@ Target: Location
   </tr>
   <tr>
    <td> 
+    Cannot be Researched
    </td>
    <td>Lightning Rune (Rank II)
    </td>
@@ -2550,7 +2568,17 @@ Technique: Sense
    </td>
   </tr>
   <tr>
-   <td> 
+   <td>Novice
+		<br>
+		Fire & Forget
+		<br>
+		Illusion
+		<br>
+		Target: Self
+		<br>
+		Technique: Sense
+		<br>
+		Technique: Strengthen
    </td>
    <td>Darkvision
    </td>
@@ -2991,6 +3019,7 @@ Technique: Control
   </tr>
   <tr>
    <td>
+   Cant be reserached
    </td>
    <td>Mind Maelstrom
    </td>
@@ -3016,19 +3045,60 @@ Technique: Control
    </td>
   </tr>
   <tr>
-   <td>
+   <td>Master
+<br>
+Fire & Forget
+<br>
+Element: Human
+<br>
+Element: Creature
+<br>
+Illusion
+<br>
+Target: AOE
+<br>
+Technique: Fear
+
    </td>
    <td>Phantasmal Miasma
    </td>
   </tr>
   <tr>
-   <td>
+   <td>Master
+	<br>
+	Fire & Forget
+	<br>
+	Element: Human
+	<br>
+	Element: Creature
+	<br>
+	Element: Shield
+	<br>
+	Illusion
+	<br>
+	Target: Self
+	<br>
+	Technique: Cloak
+	<br>
+	Technique: Control
    </td>
    <td>Shadow Sanctuary
    </td>
   </tr>
   <tr>
-   <td>
+   <td>Master
+	<br>
+	Fire & Forget
+	<br>
+	Element: Human
+	<br>
+	Illusion
+	<br>
+	Target: Self
+	<br>
+	Target: AOE
+	<br>
+	Technique: Cloak
    </td>
    <td>Veil of Shadows
    </td>
