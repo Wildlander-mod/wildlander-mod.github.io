@@ -53,6 +53,8 @@ Typically caused by network management software "killer control panel" which com
 
 To resolve, disable the Prioritization Center and  Auto Bandwidth. Then restart Wabbajack.
 
+![image](https://user-images.githubusercontent.com/26418143/210167325-998f3644-447e-43f5-8aad-49209c20edd2.png)
+
 
 ----
 
@@ -191,5 +193,7 @@ If you are unable to download it though wabbajack, then visit [here](https://www
 Once downloaded Navigate to the Wabbajack folder and find the downloaded_mod_lists folder. unzip the backup into this location.
 
 Start Wabbajack - then select "install from disk" Point it at the Wabbajack file you just unzipped.
+
+![image](https://user-images.githubusercontent.com/26418143/210167336-ab3c1a56-54c4-40ec-88a0-ae28f4025c28.png)
 
 ----
