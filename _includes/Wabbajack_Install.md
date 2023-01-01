@@ -46,6 +46,16 @@ If you already have it - uninstall and reinstall
 
 ----
 
+## Wabbajack Finds no results.
+
+Typically caused by network management software "killer control panel" which comes pre-installed with some laptops and PC's. (It may also be called Killer Intelligence Center or it's a K icon in your system tray)
+
+
+To resolve, disable the Prioritization Center and  Auto Bandwidth. Then restart Wabbajack.
+
+
+----
+
 ## Wabbajack fails to start with a "Unknown Error".
 
 Delete Wabbajack.exe, Redownload from [Wabbajack](http:\\Wabbajack.org).
@@ -169,3 +179,17 @@ If Skyrim has updated recently - then it might require the list to be recompiled
 - Unable to download Data_Skyrim - Textures0.bsa 
 
 ![image](https://user-images.githubusercontent.com/26418143/169777545-a0377c57-60bc-4271-929c-5707c7b8277a.png)
+
+----------
+
+## Wabbajack wont download the Wildlander installer.
+
+This is typically caused by a mis-configured firewall between your PC and the wabbajack build server.
+
+If you are unable to download it though wabbajack, then visit [here](https://www.nexusmods.com/skyrimspecialedition/mods/70016?tab=files) and download the Install File Backup.
+
+Once downloaded Navigate to the Wabbajack folder and find the downloaded_mod_lists folder. unzip the backup into this location.
+
+Start Wabbajack - then select "install from disk" Point it at the Wabbajack file you just unzipped.
+
+----
