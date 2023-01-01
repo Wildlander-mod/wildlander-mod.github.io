@@ -255,15 +255,14 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Impossible to complete Finding Velehk Sain quest without console commands
 * You don't get any reward for returning the Ring of Pure Mixtures to Dawnstars Pestle and Mortar
 * Asking the blacksmith in dawnstar and possibly other location to "process some pelts for me" causes lots of messages about completed soul gem missions with incorrect value collected, then lots more corrected values after 
-* Upon entering Frostflow Lighthouse and finding the dead bodies, the related quest does not register.
+* Upon entering Frostflow Lighthouse and finding the dead bodies, the related quest does not register. However manually looting the giant Chaurus provides you with Habd's remains which you can burn at the top of the lighthouse to complete the quest anyway.
 * "Accept Jarl Balgruuf the Greater's surrender" objective during Battle for Whiterun (Stormcloaks) is stuck.
 * Pieces of the Past quest is broken
 * halldir's "summons" in halldir's cairn are located in the walls, and simply "move" when they're summoned
-* Silus would not leave his house for me to go to mehrunes' shrine for his quest
+* Silus would not leave his house for me to go to mehrunes' shrine for his quest Using Console commands to move him allows the quest to proceed.
 * When doing the first real Dark Brotherhood Mission. You get an optional Objective of killing someone in Windhelm.
 * Trying to become thane of riften so that I can get the house for cheaper. Did the the entire skooma quest and I didn’t asked by her at all to help the people of riften.
 * Forced Brawls (Various)
-* Legate Rikke will tell you to meet her outside Korvanjund. She did not appear
 * Courier missives too easy due to receiving NPCs travelling to quest origin location.
 * Captain Valnir does not accept a Missive quest item, the only conversation options available with him are about his quest to go meddle with a dragon priest.
 * When fighting Mikael to leave carmilla alone the quest does not move to the next step, it instead acts like nothing happened. I fought him over and over hoping it would complete that step and it never did.
