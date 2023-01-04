@@ -2,7 +2,7 @@
 ----------
 ## Trampoline Error
 
-![image](..\Assets\TrampolineError.png)
+![image](http://wiki.wildlandermod.com/Assets/TrampolineError.png)
 
 This error is caused by your "My documents" folder being managed by OneDrive.
 
