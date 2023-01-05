@@ -44,8 +44,12 @@ Rewrite Spell research(Spells) table so its
 
 1) broken into sections by school
 2) the archtypes are broken into columns for elements spell level, Technique, target, cast type
+3) Add Frostfall (and any other missing spells)
 
 Maintainable! this page is a wall of HTML
+
+Spell research(Alchemy)
+1) Add fish
 
 --
 
