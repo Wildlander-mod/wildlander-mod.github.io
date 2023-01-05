@@ -11,7 +11,7 @@ Carry Weight is intentionally at a premium within Wildlander.
 
 In addition to reduced base carry weight, Money weighs you down. Each coin weighs 0.0001 unit an d this weight is shown in the coin purse Misc object(this item is just a representation of your gold - you need to deposit the gold itself in a chest not the coin purse item). Like Money, Arrows/Bolts also have weights. These are shown in the Quiver item and differ based on the material the Arrow/Bolt is crafted from. More "rustic" wooden shafted arrows (such as iron, forsworn or steel) weight less then the more rarer Orcish, Ebony or Daedric projectiles.
 
-While you will gradually gain carry weight with [Derived Attributes](http://wiki.wildlandermod.com/06-MechanicsAnaylsis/DA/) Obviously the canny adventurer needs some place to store his or her Ill gotten gains.
+While you will gradually gain carry weight with [Derived Attributes](/06-MechanicsAnaylsis/DA/) Obviously the canny adventurer needs some place to store his or her Ill gotten gains.
 
 # Backpacks
 
@@ -58,13 +58,15 @@ These Misc items guarantee a massive magical increase in carry weight so long as
 <details>
 <summary> click for spoilers </summary>
 
-1. Mehrunes Shrine
-2. Thoroughfare of the Labyrinthian - On a bookshelf
-3. Ysgramor’s Tomb
-4. Twilight Sepulchre - Statue of Nocturnal loot room right before you return the skeleton key and unlock nightingale powers.
-5. Soul Carin’s Boneyard - Near where you find Valerica 
-6. one on Nahkriin, who guards Alduin’s portal to Sovengardge.
-7. Black Book: The Sallow Reagent - In a side room towards the end of the book.
+<ol>
+	<li>Mehrunes Shrine</li>
+	<li>Thoroughfare of the Labyrinthian - On a bookshelf</li>
+	<li>Ysgramor’s Tomb</li>
+	<li>Twilight Sepulchre - Statue of Nocturnal loot room right before you return the skeleton key and unlock nightingale powers</li>
+	<li>Soul Carin’s Boneyard - Near where you find Valerica</li>
+	<li>One on Nahkriin, who guards Alduin’s portal to Sovengardge</li>
+	<li>Black Book: The Sallow Reagent - In a side room towards the end of the book</li>
+</ol>
 
 </details>
 

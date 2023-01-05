@@ -7,16 +7,15 @@ nav_order: 8
 description: Keybinds
 ---
 
-## 1.1 Keybindings
-[![image](http://wiki.wildlandermod.com/Assets/1-1Keybind.png)](http://wiki.wildlandermod.com/Assets/1-1Keybind.png)
+{: .important}
+>Keybindings can be shown and hidden at any time by pressing `F11`.
 
+## 1.1 Keybindings
+[![image](../../../Assets/1-1Keybind.png)](../../../Assets/1-1Keybind.png)
+<link rel="prefetch" href="http://wiki.wildlandermod.com/Assets/1-1Keybind.png"/>
 
 ## 1.0 Keybindings
-[![keybindings](http://wiki.wildlandermod.com/Assets/1-0Keybind.png)](http://wiki.wildlandermod.com/Assets/1-0Keybind.png)
-
-
-
-PRESS F11 IN GAME
+[![keybindings](../../../Assets/1-0Keybind.png)](../../../Assets/1-0Keybind.png)
 
 
 <table>

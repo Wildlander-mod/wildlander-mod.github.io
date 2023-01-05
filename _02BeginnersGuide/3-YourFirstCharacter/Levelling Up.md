@@ -88,7 +88,7 @@ For passive Spells
 ```
  
 Notes:
-* The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](http://wiki.wildlandermod.com/06-MechanicsAnaylsis/Magic-Mechanics/#resistance-versus-illusion-spells)
+* The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](/06-MechanicsAnaylsis/Magic-Mechanics/#resistance-versus-illusion-spells)
 * The field NPC Level is the NPC's level Divided by 10
 
 ---
@@ -99,7 +99,7 @@ Skill	|Skill Use Mult	| Sources of XP/Notes|
 |--|--|--|
 Speech	|0.36	|1 base XP per gold used in transactions. <br> 75 * Speech level base XP for passing Speech checks.
 Alchemy	|0.75	|1 base XP per gold value created. <br> 1 additional base XP for each successfully created potion.
-Smithing	|1	|Please see [Crafting system - XP gain](http://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/#xp-gain)
+Smithing	|1	|Please see [Crafting system - XP gain](/10-Crafting/1.1-Crafting-System/#xp-gain)
 Destruction	|1.35	|Base Magicka Cost of the Spell. <br> Base XP Damage inflicted 
 Restoration	|2	|Base XP damage healed by healing spells. <br> 1 base XP per Magicka used on non-healing spells. <br> Base XP Damage inflicted when using Sun spells on Undead
 Conjuration	|2.1	|Base Magicka Cost of the Spell.

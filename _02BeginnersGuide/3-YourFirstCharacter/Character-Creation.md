@@ -44,24 +44,24 @@ For more guidance on builds and examples - you can see the class guides section 
 
 ## Background
 
-* Acrobat: Lockpicking, Marksman, One-Handed, Pickpocket, Sneak, Speechcraft
-* Agent: Illusion, Lockpicking, Marksman, One-Handed, Sneak, Speechcraft
-* Assassin: Alchemy, Evasion, Lockpicking, Marksman, One-Handed, Sneak
-* Barbarian: Block, Evasion, Marksman, One-Handed, Smithing, Two-Handed
-* Bard: Block, Enchanting, Illusion, Evasion, One-Handed, Speechcraft
-* Battlemage: Alteration, Conjuration, Destruction, Enchanting, Heavy Armor, Two-Handed
-* Crusader: Alchemy, Block, Destruction, Heavy Armor, One-Handed, Restoration
-* Healer: Alchemy, Alteration, Destruction, Illusion, Restoration, Speechcraft
-* Knight: Block, Enchanting, Heavy Armor, One-Handed, Restoration, Speechcraft
-* Monk: Alteration, Illusion, Lockpicking, Marksman, One-Handed, Sneak
-* Nightblade: Alteration, Destruction, Evasion, Lockpicking, One-Handed, Restoration
-* Pilgrim: Block, Illusion, Evasion, One-Handed, Smithing, Speechcraft
-* Scout: Alchemy, Evasion, Marksman, One-Handed, Smithing, Sneak
-* Sorcerer: Alteration, Conjuration, Destruction, Enchanting, Heavy Armor, Restoration
-* Spellsword: Alteration, Destruction, Heavy Armor, Illusion, One-Handed, Restoration
-* Thief: Alchemy, Evasion, Lockpicking, Pickpocket, Sneak, Speechcraft
-* Warrior: Block, Heavy Armor, Marksman, One-Handed, Smithing, Two-Handed
-* Witchhunter: Alchemy, Destruction, Lockpicking, Marksman, One-Handed, Sneak
+* **Acrobat**: Lockpicking, Marksman, One-Handed, Pickpocket, Sneak, Speechcraft
+* **Agent**: Illusion, Lockpicking, Marksman, One-Handed, Sneak, Speechcraft
+* **Assassin**: Alchemy, Evasion, Lockpicking, Marksman, One-Handed, Sneak
+* **Barbarian**: Block, Evasion, Marksman, One-Handed, Smithing, Two-Handed
+* **Bard**: Block, Enchanting, Illusion, Evasion, One-Handed, Speechcraft
+* **Battlemage**: Alteration, Conjuration, Destruction, Enchanting, Heavy Armor, Two-Handed
+* **Crusader**: Alchemy, Block, Destruction, Heavy Armor, One-Handed, Restoration
+* **Healer**: Alchemy, Alteration, Destruction, Illusion, Restoration, Speechcraft
+* **Knight**: Block, Enchanting, Heavy Armor, One-Handed, Restoration, Speechcraft
+* **Monk**: Alteration, Illusion, Lockpicking, Marksman, One-Handed, Sneak
+* **Nightblade**: Alteration, Destruction, Evasion, Lockpicking, One-Handed, Restoration
+* **Pilgrim**: Block, Illusion, Evasion, One-Handed, Smithing, Speechcraft
+* **Scout**: Alchemy, Evasion, Marksman, One-Handed, Smithing, Sneak
+* **Sorcerer**: Alteration, Conjuration, Destruction, Enchanting, Heavy Armor, Restoration
+* **Spellsword**: Alteration, Destruction, Heavy Armor, Illusion, One-Handed, Restoration
+* **Thief**: Alchemy, Evasion, Lockpicking, Pickpocket, Sneak, Speechcraft
+* **Warrior**: Block, Heavy Armor, Marksman, One-Handed, Smithing, Two-Handed
+* **Witchhunter**: Alchemy, Destruction, Lockpicking, Marksman, One-Handed, Sneak
 
 
 ***
