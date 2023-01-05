@@ -198,39 +198,51 @@ Spell Research extends the alchemy/spell system with the introduction of magical
 * Liquids can be mixed into potent elixirs (a type of ingredient), and different salts, e.g. void/fire/frost salts.
 * Liquids can be upgraded or downgraded.
 
-There are 34 different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency: _Extenuant, Mollis, Mitis, Valens, Aeque, Saturatus_ (from weakest to strongest). Refer to the[ cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of liquids and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
+There are 34 different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency:
+
+*Tiers* 
+
+Potions Equivalent | Suffix (weakest to strongest)
+-- | --
+Dilute | sa Haelia
+Weak | sa Goria
+Mild | sa Gravia
+Strong | sa Baune
+Potent | sa Adonai
+Concentrated | sa Sila
+
+
+ Refer to the[ cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of liquids and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
 ### Analyzing liquids
 
 Each liquid is associated with one elemental archetype (the middle-line archetype when analyzing a spell). Analyzing liquids with an alembic provides another source of XP in those archetypes, as well as some alchemy XP.
 
-Depending on the tier of the liquid being analyzed, XP is added to different archetype tiers. For example, Extenuant and Mollis liquids mostly grant XP to _novice_ and _apprentice_ levels of an archetype, and little XP in the higher levels. The stronger liquids, e.g. Aeque and Saturatus, grant high XP in all the archetype tiers including expert and master.
+Depending on the tier of the liquid being analyzed, XP is added to different archetype tiers. For example, Haelia and Goria liquids mostly grant XP to _novice_ and _apprentice_ levels of an archetype, and little XP in the higher levels. The stronger liquids, e.g. Adonai and Sila, grant high XP in all the archetype tiers including expert and master.
 
-Analyzing liquids in bulk grants **exponentially higher XP** than analyzing them one at a time. For example, a single Extenuant grants 4 XP in the novice tier, while 50 Extenuates grant 3125 novice XP, instead of the expected 50*4=200 XP. So, to substantially increase the XP gain from liquids, it is worth amassing large quantities of them before analyzing them all at once. I have added a table to the[cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)).
-
-Note: XP from liquids has been reduced in Spell Research 2.1
+Analyzing liquids in bulk grants **exponentially higher XP** than analyzing them one at a time. For example, a single Haelia grants 4 XP in the novice tier, while 50 Haelia's grant 3125 novice XP, instead of the expected 50*4=200 XP. So, to substantially increase the XP gain from liquids, it is worth amassing large quantities of them before analyzing them all at once. 
 
 ### Elixirs
 
 Elixirs are not potions, as the name may suggest. They are in fact ingredients that can be used to craft potions. Elixirs are created from magical liquids in the _Mix Ingredients_ menu of the alembic.
 
-There are 6 tiers of elixirs based on potency: _Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Mitis_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the[cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixers)).
+There are 6 tiers of elixirs based on potency: Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Gravia_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the[cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixers)).
 
 **Note**: many of the elixir recipes will not appear in the alembic menu until you have at least one of the required liquids for the recipe.
 
-Unlike standard ingredients, elixirs have 4 _identical_ effects, which means that each elixir can be used to craft a single type of potion. Despite this limitation, some of the elixir types (e.g. potent, concentrated) are much stronger than standard ingredients, and can be used to craft much better potions.
+Unlike standard ingredients, elixirs have 4 _identical_ effects, which means that each elixir can be used to craft a single type of potion. Despite this limitation, some of the elixir types (e.g. potent, concentrated) are much stronger than standard ingredients, and can be used to craft much better potions. using the best standard ingredients, with a elixer will produce a potion 4 times stronger than the best and second best combined. 
 
-For example, the strongest Ably Fighting potion that can be made using standard ingredients (level 50 alchemy, both levels of Alchemical Lore perk, no gear or items), is a potion with +13% increase in 1H damage. If one of the ingredients is replaced with a Potent Elixir with the Ably Fighting effect, the resulting potion will have +22% 1H damage; and if it's replaced with a Concentrated Elixir, the potion will have +31% damage. That's a significant improvement which gets even more pronounced at higher alchemy levels. 
+For example, the strongest "Fortify 1 hand" potion that can be made using standard ingredients (level 50 alchemy, both levels of Alchemical Lore perk, no gear or items), is a potion with +13% increase in 1H damage. If one of the ingredients is replaced with a Potent Elixir with the fortify 1 hand effect, the resulting potion will have +22% 1H damage; and if it's replaced with a Concentrated Elixir, the potion will have +31% damage. That's a significant improvement which gets even more pronounced at higher alchemy levels. 
 
 Elixirs can benefit any alchemist character who relies heavily on potions. Instead of using up all the available ingredients to craft standard potions, it may be worth saving some of them to dissolve into liquids, then mix the liquids to craft stronger ingredients (elixirs), and then craft stronger potions using the elixirs. The process is lengthy and more involved than simply using an alchemy table, but the end result could certainly justify the effort.
 
-One drawback when working with elixirs is the naming convention. All elixirs of the same rank have identical names, regardless of flavor, e.g. a Dilute Elixir with the Ably Fighting effect has the same name as a Dilute Elixir with the Spellpower effect – both are called just “Dilute Elixir”. And like standard ingredients, the elixir’s effect remains hidden until the player ‘discovers’ them either by consuming it, or by using it to make a potion. This means that when you first start mixing liquids with an alembic, you won’t be able to see what kind of an elixir you are producing.
+One drawback when working with elixirs is the naming convention. All elixirs of the same rank have identical names, regardless of flavor, e.g. a Dilute Elixir with the "Fortify 1 hand" effect has the same name as a Dilute Elixir with the Spell power effect – both are called just “Dilute Elixir”. And like standard ingredients, the elixir’s effect remains hidden until the player ‘discovers’ them either by consuming it, or by using it to make a potion. This means that when you first start mixing liquids with an alembic, you won’t be able to see what kind of an elixir you are producing.
 
 ### Other Alembic recipes
 
-The _Mix Ingredients_ menu provides various other recipes for items such as inkwell, paper rolls, different kinds of salts (fire/frost/void), glow dust.
+The _Mix Ingredients_ menu provides various other recipes for items such as inkwell, paper rolls, different kinds of salts (fire/frost/void), glow dust. The [Elixer cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixers)/#other-recipes) had the specific recipes if you prefer not to discover them yourselves.
 
-For example, if you are short on paper rolls, you can make some by mixing a firewood with one of these liquids: Natura Mare Extenuant, or Belua Stagnum Extenuant, or Viscus Cruor Extenuant. The first one, Natura Mare Extenuant, is a product of breaking down most plant ingredients, which makes it easy to obtain. Belua Stagnum is obtained by breaking down various animal parts (hearts, fats, tusks, various fish, butterflies, etc.). Refer to the Alchemy tab of the cheat sheet for more info.
+For example, if you are short on paper rolls, you can make some by mixing a wood with one of these liquids Betayammis sa Haelia, Mer Garlas sa Haelia or Mora sa Haelia. for more info on  how to produce these items, refer to the Alchemy tab of the [ cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)). 
 
 ### Breaking down materials with an alembic or a cauldron
 

@@ -92,5 +92,12 @@ Salt | Relleis sa Goria | Bal sa Goria | - | -
 Glow Dust | Malatu Magicka sa Baune | Volen Magicka sa Baune | Agea sa Baune | Latta sa Baune
 Frost Salts | Pelleni Ayammis sa Baune | Agea Arden sa Baune | Mafre sa Baune | -
 Fire Salts | Pelleni Ayammis sa Baune | Molag sa Baune | Agea Arden sa Baune | -
+Paper rolls | Wood | Betayammis sa Haelia | - | -
+Paper rolls | Wood | Mer Garlas sa Haelia| - | -
+Paper rolls | Wood | Mora sa Haelia | - | -
+Inkwells | charcoal | Mora sa Goria | - | -
+Inkwells | charcoal | Betayammis sa Goria| - | -
+Inkwells | iron ore | Mora sa Goria| - | -
+
 
 
