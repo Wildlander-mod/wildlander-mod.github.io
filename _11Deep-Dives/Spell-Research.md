@@ -8,11 +8,11 @@ description: Spell Research
 
 This page was taken from the Ultimate Skyrim Reddit Sub and has been posted Verbatim .
 
-Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to[ u/Alexandregd](https://www.reddit.com/u/Alexandregd) for creating this very useful[ reference sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
+Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to <a href="https://www.reddit.com/u/Alexandregd" target="_blank" rel="noopener noreferrer">u/Alexandregd <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for creating this very useful[ reference sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
 
 You may also find this video tutorial useful.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KDunu-3Q1Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="yt-embed" width="640" height="360" src="https://www.youtube.com/embed/KDunu-3Q1Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here are several things you can do with this mod:
 
@@ -105,7 +105,7 @@ The magicka requirements for crafting tomes and scrolls are listed in the table 
 
 Researching and composing spells is the core feature of the mod. It allows mages to level up the magic schools and learn almost any spell in the game including master-level spells. This means that mage characters no longer need to join the College of Winterhold in order to master the mage craft, which is ideal for role-playing as a freelancer or a rogue mage.
 
-Analyzing spells with the research journal reveals the associated archetypes, in the format shown below.[ The reference sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)) contains all known spells and their archetypes.
+Analyzing spells with the research journal reveals the associated archetypes, in the format shown below. [The reference sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)) contains all known spells and their archetypes.
 
 1. Casting / School techniques
 2. Elements
@@ -165,7 +165,7 @@ I had learned the spell _Soothe Rank 1_ (Novice Illusion), which contains the fo
 
 ### Enchanted artifacts
 
-There are many artifacts found in loot, such as broken weapon parts and soul fragments. Activating an enchanted item in the inventory opens the following options: [Cheat Sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Artefact))
+There are many artifacts found in loot, such as broken weapon parts and soul fragments. Activating an enchanted item in the inventory opens the following options: [Cheat Sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Artefact))
 
 1. Analyze - this will reveal clues about the associated archetypes
 2. Study (disenchant) Item – requires tongs _[v2.0+]_. Grants XP in archetypes and enchanting. Has a chance of destroying the item (details below)
@@ -212,7 +212,7 @@ Potent | sa Adonai
 Concentrated | sa Sila
 
 
- Refer to the[ cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of liquids and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
+ Refer to the[ cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of liquids and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
 ### Analyzing liquids
 
@@ -226,11 +226,11 @@ Analyzing liquids in bulk grants **exponentially higher XP** than analyzing them
 
 Elixirs are not potions, as the name may suggest. They are in fact ingredients that can be used to craft potions. Elixirs are created from magical liquids in the _Mix Ingredients_ menu of the alembic.
 
-There are 6 tiers of elixirs based on potency: Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Gravia_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the[cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixers)).
+There are 6 tiers of elixirs based on potency: Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Gravia_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the [cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)).
 
 **Note**: many of the elixir recipes will not appear in the alembic menu until you have at least one of the required liquids for the recipe.
 
-Unlike standard ingredients, elixirs have 4 _identical_ effects, which means that each elixir can be used to craft a single type of potion. Despite this limitation, some of the elixir types (e.g. potent, concentrated) are much stronger than standard ingredients, and can be used to craft much better potions. using the best standard ingredients, with a elixer will produce a potion 4 times stronger than the best and second best combined. 
+Unlike standard ingredients, elixirs have 4 _identical_ effects, which means that each elixir can be used to craft a single type of potion. Despite this limitation, some of the elixir types (e.g. potent, concentrated) are much stronger than standard ingredients, and can be used to craft much better potions. using the best standard ingredients, with a elixir will produce a potion 4 times stronger than the best and second best combined. 
 
 For example, the strongest "Fortify 1 hand" potion that can be made using standard ingredients (level 50 alchemy, both levels of Alchemical Lore perk, no gear or items), is a potion with +13% increase in 1H damage. If one of the ingredients is replaced with a Potent Elixir with the fortify 1 hand effect, the resulting potion will have +22% 1H damage; and if it's replaced with a Concentrated Elixir, the potion will have +31% damage. That's a significant improvement which gets even more pronounced at higher alchemy levels. 
 
@@ -240,9 +240,9 @@ One drawback when working with elixirs is the naming convention. All elixirs of 
 
 ### Other Alembic recipes
 
-The _Mix Ingredients_ menu provides various other recipes for items such as inkwell, paper rolls, different kinds of salts (fire/frost/void), glow dust. The [Elixer cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixers)/#other-recipes) had the specific recipes if you prefer not to discover them yourselves.
+The _Mix Ingredients_ menu provides various other recipes for items such as inkwell, paper rolls, different kinds of salts (fire/frost/void), glow dust. The [Elixir cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)#other-recipes) had the specific recipes if you prefer not to discover them yourselves.
 
-For example, if you are short on paper rolls, you can make some by mixing a wood with one of these liquids Betayammis sa Haelia, Mer Garlas sa Haelia or Mora sa Haelia. for more info on  how to produce these items, refer to the Alchemy tab of the [ cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)). 
+For example, if you are short on paper rolls, you can make some by mixing a wood with one of these liquids Betayammis sa Haelia, Mer Garlas sa Haelia or Mora sa Haelia. for more info on  how to produce these items, refer to the Alchemy tab of the [cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)). 
 
 ### Breaking down materials with an alembic or a cauldron
 
@@ -250,7 +250,7 @@ Ingredients, potions _[v2.0]_, and enchanted artifacts can be dissolved into mag
 
 The alembic can dissolve small quantities of materials - **up to 0.5 units of weight** at a time, e.g. a single potion, or 5 Blue Mountain flowers (0.1 each), or 25 Orange dartwings (0.02 each), etc.
 
-A cauldron can break down large quantities of material including heavy items like enchanted artifacts. The downside of using a cauldron is that it is not very portable (100 weight), and it requires **fuel** to work. Most ingredients or poisons with a _weakness_ effect, e.g. Arcane Disruption, Cryolysis, Electrolysis, Pyrolysis, Toxicity, can be used as fuel (see [alchemy sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy))  for a list of fuels). Salt pies are an abundant source of fuel, found in many containers. With at least one perk in alchemy, crafted weakness poisons become **more efficient** at fueling the cauldron than raw ingredients like salt. For example, a Salt pie and a Creep cluster provide a total of 0.6 units of fuel, when used directly (Salt=0.2, Creep=0.4). However, if you first combine them into a poison (10% Arcane Disruption with alchemy 5 and one point in the base perk), it will provide 2.0 units of fuel which is higher than the original 0.6. In general, a poison with 'X% weakness' effect will provide [X/5] units of fuel, which goes up with alchemy level and perks, whereas the fuel from raw ingredients remains constant.
+A cauldron can break down large quantities of material including heavy items like enchanted artifacts. The downside of using a cauldron is that it is not very portable (100 weight), and it requires **fuel** to work. Most ingredients or poisons with a _weakness_ effect, e.g. Arcane Disruption, Cryolysis, Electrolysis, Pyrolysis, Toxicity, can be used as fuel (see [alchemy sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy))  for a list of fuels). Salt pies are an abundant source of fuel, found in many containers. With at least one perk in alchemy, crafted weakness poisons become **more efficient** at fueling the cauldron than raw ingredients like salt. For example, a Salt pie and a Creep cluster provide a total of 0.6 units of fuel, when used directly (Salt=0.2, Creep=0.4). However, if you first combine them into a poison (10% Arcane Disruption with alchemy 5 and one point in the base perk), it will provide 2.0 units of fuel which is higher than the original 0.6. In general, a poison with 'X% weakness' effect will provide [X/5] units of fuel, which goes up with alchemy level and perks, whereas the fuel from raw ingredients remains constant.
 
 Note: Fuel is measured in units of material weight. For example, 2.0 units of fuel will dissolve 2.0 units (pounds) of material.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hunterborn
+nav_order: 2
 has_toc: false
 has_children: false
 description: Hunterborn Deep Dive

@@ -9,4 +9,4 @@ description: How Do I Change my Gear position.
 
 Use the Control+Backspace key-bind to access Immersive Equipment display
 
-you can find a detailed guide [here](http://wiki.wildlandermod.com/_11Deep-Dives/Immersive-Equipment-Display/)
+you can find a detailed guide [here](/11Deep-Dives/Immersive-Equipment-Display/)

@@ -25,6 +25,11 @@ iframe {
   margin: 0;
 }
 
+.yt-embed {
+	min-width: 0;
+	height: 360px;
+}
+
 table {
   display: table;
   min-width: 25%;
@@ -177,7 +182,3 @@ background: transparent;
 		flex-direction: column;
 	}
 }
-
-
-
-

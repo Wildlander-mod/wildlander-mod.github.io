@@ -5,7 +5,6 @@ has_toc: false
 has_children: false
 description: Immersive Equipment Display
 ---
-
 # Immersive Equipment Display
 
 ### If you're here just to find out how to turn off displaying favorited equipment and do not wish to use the mod.
@@ -93,7 +92,7 @@ Even though many of the settings have an accompanying [?] to inform you of its p
 
 You have been warned! [*cue spooky echo*]
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display/){:.btn.btn-pink }
+[top](/11Deep-Dives/Immersive-Equipment-Display/#top){:.btn.btn-pink }
 </div>
 </details>
 
@@ -111,7 +110,7 @@ Displays the tabs and filters for:
 * Custom - *Anything that typically isn't equipped and you want to display.*
 * Gear Positioning - *Weapons and Shields. This affects displayed AND equipped models. If you want the gear you use in combat to stay in its displayed spot you'll need to edit the position both here AND in the aforementioned Equipment section.*
 
-[top](http://wiki.wildlandermod.com/11-Mod-Deep-Dives/Immersive-Equipment-Display/){:.btn.btn-pink}
+[top](/11Deep-Dives/Immersive-Equipment-Display/#top){:.btn.btn-pink}
  
 </div>
 </details>

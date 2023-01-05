@@ -54,7 +54,7 @@ The more weight your worn equipment has, the more difficult it will become to kn
 – executing power attacks in heavy armor costs you extra until you have the respective perk
 
 #### Armor Spreadsheet
-[Direct link](https://docs.google.com/spreadsheets/d/1rMVLVouumU45jFfmjmWUVjTYY7_wLnrxwmHMi24R9OU/edit?usp=sharing){: .btn .btn-pink }
+<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1rMVLVouumU45jFfmjmWUVjTYY7_wLnrxwmHMi24R9OU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Direct link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTyzZNzqf63mwv-3l56Owihpp3fKPwZoD_rlgGhpaysoBO_794kqNZibDex2trM8P4Wn1G-1EsHx0e3/pubhtml?widget=true&amp;headers=false" width="1200" height="700"></iframe>
 

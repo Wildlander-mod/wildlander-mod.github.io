@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Fishing
+nav_order: 1
 has_toc: false
 has_children: false
 description: Fishing Deep Dive
@@ -42,7 +43,7 @@ A fishing area's population is determined each day, and will typically have 5 or
 
 The fishing rod used by you has one of the biggest effects on your fishing odds. Alik'ri and Argonian Fishing Rods decrease the chances of a caught fish being common and increases the chance of it being uncommon or rare. All rare fish also can only be caught by using a specific rod. If you are not using that rod when a rare fish is pulled, you will receive the notification "You lost your catch." Alik'ri rods have an 80% chance of the fish being small and are required to catch _Angelfish _and _Lyretail Anthias_, while the Argonian rods have an 80% chance of the catch being large and are required to catch _Angler _and _Scorpion Fish_. The Dwarven Fishing Rod increases the odds of catching junk over fish, and further decreases the chances of catching a fish when the population of a spot is at 3 or less. The Dwarven Fishing Rod also reduces the odds of caught junk being common to increase the chance of it being uncommon and rare.
 
-All three specialist fishing rods are acquired during the various quests given by Viriya](https://en.uesp.net/wiki/Skyrim:Viriya) (Alik'ri and Dwarven rods) and [Swims-In-Deep-Water](https://en.uesp.net/wiki/Skyrim:Swims-In-Deep-Water) (Argonian rod). Acquiring each rod by these means also gives you the ability to craft them yourself if you should lose or sell the original.
+All three specialist fishing rods are acquired during the various quests given by  <a href="https://en.uesp.net/wiki/Skyrim:Viriya" target="_blank" rel="noopener noreferrer">Viriya <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>  (Alik'ri and Dwarven rods) and <a href="https://en.uesp.net/wiki/Skyrim:Swims-In-Deep-Water" target="_blank" rel="noopener noreferrer">Swims-In-Deep-Water <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> (Argonian rod). Acquiring each rod by these means also gives you the ability to craft them yourself if you should lose or sell the original.
 
 ### Biomes
 
@@ -59,17 +60,17 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Abecean_Longfin" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Angler_Larvae" title="Skyrim:Angler Larvae">Angler Larvae</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a></td>
+<td>Abecean Longfin <br />
+Angler Larvae</td>
+<td>Juvenile Mudcrab</td>
 <td>Junk</td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Arctic_Grayling" title="Skyrim:Arctic Grayling">Arctic Grayling</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Arctic_Char" title="Skyrim:Arctic Char">Arctic Char</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Cod" title="Skyrim:Cod">Cod</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Angler" title="Skyrim:Angler">Angler</a><sup class="reference plainlinks nourlexpansion" id="note_Argonian_Rod"><a href="#intnote_Argonian_RodFishing_(activity)#intnote_Argonian_Rod)">†</a></sup></td>
+<td>Arctic Grayling</td>
+<td>Arctic Char<br />
+Cod</td>
+<td>Angler<sup>†</sup></td>
 </tr>
 </table>
 <table  style="display: inline-table;text-align: center">
@@ -82,17 +83,17 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Silverside_Perch" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Histcarp" title="Skyrim:Histcarp">Histcarp</a></td>
+<td>Silverside Perch</td>
+<td>Histcarp</td>
 <td>Junk</td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Direfish" title="Skyrim:Direfish">Direfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Glass_Catfish" title="Skyrim:Glass Catfish">Glass Catfish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Tripod_Spiderfish" title="Skyrim:Tripod Spiderfish">Tripod Spiderfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Vampire_Fish" title="Skyrim:Vampire Fish">Vampire Fish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Scorpion_Fish" title="Skyrim:Scorpion Fish">Scorpion Fish</a><sup class="reference plainlinks nourlexpansion" id="note_Argonian_Rod"><a href="#intnote_Argonian_RodFishing_(activity)#intnote_Argonian_Rod)">†</a></sup></td>
+<td>Direfish<br />
+Glass Catfish</td>
+<td>Tripod Spiderfish<br />
+Vampire Fish</td>
+<td>Scorpion Fish<sup>†</sup></td>
 </tr>
 </table>
 <div style="clear:both"></div>
@@ -106,21 +107,21 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Abecean_Longfin" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Glassfish" title="Skyrim:Glassfish">Glassfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Silverside_Perch" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail" title="Skyrim:Cyrodilic Spadetail">Cyrodilic Spadetail</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Goldfish" title="Skyrim:Goldfish">Goldfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Silverside_Perch" title="Skyrim:Silverside Perch">Silverside Perch</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Angelfish" title="Skyrim:Angelfish">Angelfish</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td>Abecean Longfin<br />
+Glassfish<br />
+Silverside Perch</td>
+<td>Cyrodilic Spadetail<br />
+Goldfish<br />
+Juvenile Mudcrab<br />
+Silverside Perch</td>
+<td>Angelfish<sup>‡</sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Slaughterfish" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Brook_Bass" title="Skyrim:Brook Bass">Brook Bass</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Carp" title="Skyrim:Carp">Carp</a></td>
+<td>Salmon<br />
+Slaughterfish</td>
+<td>Brook Bass<br />
+Carp</td>
 <td>Junk</td>
 </tr>
 </table>
@@ -134,18 +135,18 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Cyrodilic_Spadetail" title="Skyrim:Cyrodilic Spadetail">Cyrodilic Spadetail</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Abecean_Longfin" title="Skyrim:Abecean Longfin">Abecean Longfin</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Glassfish" title="Skyrim:Glassfish">Glassfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Pearlfish" title="Skyrim:Pearlfish">Pearlfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Pygmy_Sunfish" title="Skyrim:Pygmy Sunfish">Pygmy Sunfish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Angelfish" title="Skyrim:Angelfish">Angelfish</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td>Cyrodilic Spadetail</td>
+<td>Abecean Longfin<br />
+Glassfish<br />
+Pearlfish<br />
+Pygmy Sunfish</td>
+<td>Angelfish<sup>‡</sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Catfish" title="Skyrim:Catfish">Catfish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:SlaughterfishS" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
+<td>Catfish</td>
+<td>Salmon<br />
+Slaughterfish</td>
 <td>Junk</td>
 </tr>
 </table>
@@ -160,18 +161,18 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:River_Betty" title="Skyrim:River Betty">River Betty</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Histcarp" title="Skyrim:Histcarp">Histcarp</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Spadefish" title="Skyrim:Spadefish">Spadefish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias" title="Skyrim:Lyretail Anthias">Lyretail Anthias</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td>River Betty</td>
+<td>Histcarp<br />
+Juvenile Mudcrab<br />
+Spadefish</td>
+<td>Lyretail Anthias<sup>‡</sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Brook_Bass" title="Skyrim:Brook Bass">Brook Bass</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Pogfish" title="Skyrim:Pogfish">Pogfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Carp" title="Skyrim:Carp">Carp</a></td>
+<td>Brook Bass<br />
+Pogfish<br />
+Salmon</td>
+<td>Carp</td>
 <td>Junk</td>
 </tr>
 </table>
@@ -185,27 +186,28 @@ There are 6 biomes that you can fish in. These are Freezing Waters, Underground,
 </tr>
 <tr>
 <th>Small</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:River_Betty" title="Skyrim:River Betty">River Betty</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Spadefish" title="Skyrim:Spadefish">Spadefish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Histcarp" title="Skyrim:Histcarp">Histcarp</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Juvenile_Mudcrab" title="Skyrim:Juvenile Mudcrab">Juvenile Mudcrab</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Pearlfish" title="Skyrim:Pearlfish">Pearlfish</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Lyretail_Anthias" title="Skyrim:Lyretail Anthias">Lyretail Anthias</a><sup class="reference plainlinks nourlexpansion" id="note_Alik.27ri_Rod"><a href="#intnote_Alik.27ri_RodFishing_(activity)#intnote_Alik.27ri_Rod)">‡</a></sup></td>
+<td>River Betty<br />
+Spadefish</td>
+<td>Histcarp<br />
+Juvenile Mudcrab<br />
+Pearlfish</td>
+<td>Lyretail Anthias<sup>‡</sup></td>
 </tr>
 <tr>
 <th>Large</th>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Pogfish" title="Skyrim:Pogfish">Pogfish</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Salmon_(item)" title="Skyrim:Salmon (item)">Salmon</a></td>
-<td><a href="https://en.uesp.net/wiki/Skyrim:Brook_Bass)" title="Skyrim:Brook Bass">Brook Bass</a><br />
-<a href="https://en.uesp.net/wiki/Skyrim:Slaughterfish" title="Skyrim:Slaughterfish">Slaughterfish</a></td>
+<td>Pogfish<br />
+Salmon</td>
+<td>Brook Bass<br />
+Slaughterfish</td>
 <td>Junk</td>
 </tr>
 </table>
 
 
-[†]These fish require an [Argonian Fishing Rod](https://en.uesp.net/wiki/Skyrim:Argonian_Fishing_Rod) to be caught.
 
-[‡]These fish require an [Alik'ri Fishing Rod](https://en.uesp.net/wiki/Skyrim:Alik%27ri_Fishing_Rod) to be caught.
+[†]These fish require an <a href="https://en.uesp.net/wiki/Skyrim:Argonian_Fishing_Rod" target="_blank" rel="noopener noreferrer">Argonian Fishing Rod <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> to be caught.
+
+[‡]These fish require an <a href="https://en.uesp.net/wiki/Skyrim:Alik%27ri_Fishing_Rod" target="_blank" rel="noopener noreferrer">Alik'ri Fishing Rod <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> to be caught.
 
 
 ## Fishing Items

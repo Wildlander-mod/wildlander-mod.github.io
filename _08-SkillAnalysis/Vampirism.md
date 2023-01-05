@@ -17,7 +17,7 @@ There are two ways, you can either consume vampire dust, which has a chance of g
 
 Once infected it takes 3 days to turn into a vampire. During this time you are taking consistant damage and cannot sleep. To pass a time, you can train at a dummy, study a book, spell research or kill and harvest animals.
 
-When you get converted to a vampire, you are *instantly* in [stage 4](#Stage-4). It is recommended that you make sure that you are inside (out of sunlight), and have dead bodies nearby that you can feed on.
+When you get converted to a vampire, you are *instantly* in [stage 4](/08-SkillAnalysis/Vampirism#stage4). It is recommended that you make sure that you are inside (out of sunlight), and have dead bodies nearby that you can feed on.
 
 ## --Minor Knockdown Immunity--
 
@@ -94,7 +94,7 @@ Vampires also share a weakness of fire, so it is a good idea to slay a vampire w
 
 ## --Special Equipment--
 
-[The Dawnbreaker](http://elderscrolls.wikia.com/wiki/Dawnbreaker_(Skyrim) in Requiem is tagged as having the same properties as silver and thus receives the 80 damage bonus against undead, in addition to this it is enchanted to deal 50 fire damage against undead targets, and as it turns out vampires are undead. Furthermore, it has a 2% chance to deal 2500 HP in fire damage, and will make undead up to level 35 flee on contact.
+<a href="http://elderscrolls.wikia.com/wiki/Dawnbreaker_(Skyrim" target="_blank" rel="noopener noreferrer">The Dawnbreaker <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> in Requiem is tagged as having the same properties as silver and thus receives the 80 damage bonus against undead, in addition to this it is enchanted to deal 50 fire damage against undead targets, and as it turns out vampires are undead. Furthermore, it has a 2% chance to deal 2500 HP in fire damage, and will make undead up to level 35 flee on contact.
 
 ## --Vampire Traits--
 
@@ -198,7 +198,7 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
     300 Damage to Health, Stamina, and Magicka while in outdoor cells between 5AM-7PM.
 
 ### Stage 4
-
+<a href="#" id="stage4"></a> <!-- anchor for the above link to scroll to this -->
     Searing Sun - Health, Stamina, and Magicka reduced by 400
 
     Drain Life will drain 10 Health, 5 Stamina, and 5 Magicka per second

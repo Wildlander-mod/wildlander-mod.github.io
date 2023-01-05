@@ -125,4 +125,4 @@ The Wildlander team have created a calculator to allow you to work out what Attr
 
 IMPORTANT: use the Make a copy from the file menu to edit your own version!!!!!
 
-[Calculator](https://docs.google.com/spreadsheets/d/10AUNfoiFYwpAHNHgkAmDXLxQdlAVKSJmm5O5fqHXfio/edit#gid=0){: .btn .btn-pink }
+<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/10AUNfoiFYwpAHNHgkAmDXLxQdlAVKSJmm5O5fqHXfio/edit#gid=0" target="_blank" rel="noopener noreferrer">Calculator <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>

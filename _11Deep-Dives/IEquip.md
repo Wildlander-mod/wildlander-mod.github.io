@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Iequip
+title: iEquip
+nav_order: 3
 has_toc: false
 has_children: false
 description: Iequip
 ---
-# IEquip
+# iEquip
 
 iEquip is an antidote:-
 - To the endless menu grind which pervades Skyrim, allowing you to switch weapons, spells, shouts, powers and other equipment on the fly, without menus to pause and interrupt gameplay.

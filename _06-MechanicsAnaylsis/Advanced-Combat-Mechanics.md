@@ -19,9 +19,9 @@ Ghosts and Dragur will only be in summary form for the various types. They will 
 
 ## Humanoid Enemies 
 
-For enemies wearing standard armor, and therefore with standard resistances you can check the armor guide [here](https://docs.google.com/spreadsheets/d/1rMVLVouumU45jFfmjmWUVjTYY7_wLnrxwmHMi24R9OU/edit?usp=sharing) 
+For enemies wearing standard armor, and therefore with standard resistances you can check the armor guide <a href="https://docs.google.com/spreadsheets/d/1rMVLVouumU45jFfmjmWUVjTYY7_wLnrxwmHMi24R9OU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> 
 
-For enemies weapons and arrows you can check the weapon guide [here](https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0)
+For enemies weapons and arrows you can check the weapon guide <a href="https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 For the Afflicted, the only difference between a Bandit and them is the addition of the Poisonous Breath ability - This brutally painful poison deals 50 damage for 2 seconds.
 
@@ -50,43 +50,43 @@ Any aditional perks that the Enemy may have which affects game play.
 
 ### The Guides 
 
-[Animals](AdvancedCombatMecanics\Animals\) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
+[Animals](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Animals) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
 
         Ash Hopper • Bear • Bristleback • Chicken • Cow • Deer • Dog • Elk • Fox • Goat • Husky •  Horker • Horse 
         • Mammoth • Mudcrab  Rabbit • Sabre Cat • Skeever • Slaughterfish • Wolf
 
-[Monsters](AdvancedCombatMecanics\Monsters\) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
+[Monsters](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Monsters) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
 
              Chaurus • Falmer •  Frostbite Spider • Giant • Hagraven • Ice Wraith 
              • Magic Anomaly • Netch • Riekling • Spiders • Spriggan • Troll • Werewolf • WereBear • Wisp • Wispmother
         
-[Automations](AdvancedCombatMecanics\Automations\) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
+[Automations](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Automations) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
 
             Dwarven Ballista • Dwarven Centurion • Dwarven Sphere • Dwarven Spider • Enchanted Sphere •  Forgemaster
             
-[Daedra](AdvancedCombatMecanics\Daedra\) – Daedra are creatures from the planes of Oblivion.
+[Daedra](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Daedra) – Daedra are creatures from the planes of Oblivion.
               
             Ash Guardian • Flame Atronach • Frost Atronach • Lurker • Seeker • Storm Atronach • The Slighted • Dremora
             
-[Dragons](AdvancedCombatMecanics\Dragons\) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
+[Dragons](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Dragons) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
               
             Fire • Fire Spectral Dragon •  Ice • Poison • Skeletal • Serpantine • Durnehviir • Paarthurnax 
             • Vulthuryol  • Krosulhah • Naaslaarum • Sahrotaar • Voslaarum         
             
-[Undead](AdvancedCombatMecanics\Undead\) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
+[Undead](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Undead) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
               
             Ash Spawn • Dragon Priest • Draugr • Gargoyles • Ghost • Shades • Skeleton • Vampires       
             
-[Unique and Named creature](AdvancedCombatMecanics\UniqueCreatures\) – The various Named Unique Enemies found in Requiems world
+[Unique and Named creature](/06-MechanicsAnaylsis/AdvancedCombatMecanics/UniqueCreatures) – The various Named Unique Enemies found in Requiems world
   
 Bosses – The Bosses
-* [Ancano](AdvancedCombatMecanics\Ancano\)  
-* [Aldiun](AdvancedCombatMecanics\Aldiun\) 
-* [Champion of Boethiah](AdvancedCombatMecanics\Champion-of-Boethiah\) 
-* [Ebony Warrior](AdvancedCombatMecanics\Ebony-Warrior\)
-* [Lord Harkon](AdvancedCombatMecanics\Lord-Harkon\) 
-* [Malkorian](AdvancedCombatMecanics\Malkoran\)
-* [Miraak](AdvancedCombatMecanics\Miraak\)
-* [Old Orc](AdvancedCombatMecanics\Old-Orc\)
-* [Potema](AdvancedCombatMecanics\Potema\) 
-* [The Reaper](AdvancedCombatMecanics\The-Reaper\)
+* [Ancano](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Ancano)  
+* [Aldiun](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Aldiun) 
+* [Champion of Boethiah](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Champion-of-Boethiah) 
+* [Ebony Warrior](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Ebony-Warrior)
+* [Lord Harkon](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Lord-Harkon) 
+* [Malkorian](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Malkoran)
+* [Miraak](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Miraak)
+* [Old Orc](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Old-Orc)
+* [Potema](/06-MechanicsAnaylsis/AdvancedCombatMecanics/Potema) 
+* [The Reaper](/06-MechanicsAnaylsis/AdvancedCombatMecanics/The-Reaper)
