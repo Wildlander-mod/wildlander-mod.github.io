@@ -40,7 +40,7 @@ No. Wabbajack files are compiled and cannot be manually edited.
 
 ## Wabbajack browser not loading anything on the login to Nexus Page.
 
-Please install WebView2 by using the installer from this link: [Evergreen Standalone Installer](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
+Please install WebView2 by using the installer from this link: <a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">Evergreen Standalone Installer <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 If you already have it - uninstall and reinstall
 
@@ -60,7 +60,7 @@ To resolve, disable the Prioritization Center and  Auto Bandwidth. Then restart 
 
 ## Wabbajack fails to start with a "Unknown Error".
 
-Delete Wabbajack.exe, Redownload from [Wabbajack](http:\\Wabbajack.org).
+Delete Wabbajack.exe, Redownload from <a href="http:\\Wabbajack.org" target="_blank" rel="noopener noreferrer">Wabbajack <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>.
 
 ----
 ## Wabbajack fails to start "You Cannot run as a Admin".
@@ -133,7 +133,7 @@ If these files hang, manually download and add to your wabbajack specified downl
 
 This file is quite large - and on slower internet connections' may timeout.
 
-In the event of this occuring for you you can try downloading [Resources - Wildlander Full](https://www.nexusmods.com/skyrimspecialedition/mods/70016? ) from nexus manually, and placing it in your downloads folder still zipped.
+In the event of this occuring for you you can try downloading <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016? " target="_blank" rel="noopener noreferrer">Resources - Wildlander Full <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> from nexus manually, and placing it in your downloads folder still zipped.
 
 **Nexus mods in general**
 
@@ -143,7 +143,7 @@ you may need to use a VPN and/or different browsers to download these files. We 
 
 For any failed mods which are not mentioned above Search the following link for the mod(s) and manually download.
 
-[Modlist links](https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md) 
+<a href="https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md" target="_blank" rel="noopener noreferrer">Modlist links <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> 
 
 ----------
 
@@ -188,7 +188,7 @@ If Skyrim has updated recently - then it might require the list to be recompiled
 
 This is typically caused by a mis-configured firewall between your PC and the wabbajack build server.
 
-If you are unable to download it though wabbajack, then visit [here](https://www.nexusmods.com/skyrimspecialedition/mods/70016?tab=files) and download the Install File Backup.
+If you are unable to download it though wabbajack, then visit <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016?tab=files" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> and download the Install File Backup.
 
 Once downloaded Navigate to the Wabbajack folder and find the downloaded_mod_lists folder. unzip the backup into this location.
 

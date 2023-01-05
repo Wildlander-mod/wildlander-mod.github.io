@@ -2,13 +2,13 @@
 ----------
 ## Trampoline Error
 
-![image](http://wiki.wildlandermod.com/Assets/TrampolineError.png)
+![image](..\..\Assets\TrampolineError.png)
 
 This error is caused by your "My documents" folder being managed by OneDrive.
 
 The only fix for this issue is to sever the link between OneDrive and your "my documents" folder. Adding the folder to the exceptions simply doesn't work, neither does disabling OneDrive.
 
-The following guide will assist you in the method to do so. [Guide](https://steamcommunity.com/app/489830/discussions/0/2263565217515804221/)
+The following guide will assist you in the method to do so. <a href="https://steamcommunity.com/app/489830/discussions/0/2263565217515804221/" target="_blank" rel="noopener noreferrer">Guide <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ----------
 ## Error launching game Error: Unsupported type of line: [1] Error
@@ -40,9 +40,9 @@ Generally this is caused by an Environment variable fault with PowerShell not in
 
 Type “envir” in the “Search the web and Windows” box and selected “Edit environment variables for your account” under the “Best Match”.
 
-Path should contain an entry for your equivalent of “C:\windows\System32\WindowsPowerShell\v1.0\”
+Path should contain an entry for your equivalent of `C:\windows\System32\WindowsPowerShell\v1.0\`
 
-PSmodulePath should contain an entry for “%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules” and “%ProgramFiles%\WindowsPowerShell\Modules”
+PSmodulePath should contain an entry for `%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules` and `%ProgramFiles%\WindowsPowerShell\Modules`
 
 ----------
 ## Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
@@ -66,11 +66,11 @@ Firstly - Make sure you are logged into the steam account which owns Skyrim.
 
 If you are - You are missing a prerequisite from the installation guide. https://www.wildlandermod.com/download#before-we-begin
 
-Download [c++](https://aka.ms/vs/16/release/vc_redist.x64.exe)
+Download <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe" target="_blank" rel="noopener noreferrer">c++ <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
-AND [Desktop runtime](https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe)
+AND <a href="https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe" target="_blank" rel="noopener noreferrer">Desktop runtime <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
-AND [Dotnet runtime](https://download.visualstudio.microsoft.com/download/pr/fccf43d2-3e62-4ede-b5a5-592a7ccded7b/6339f1fdfe3317df5b09adf65f0261ab/dotnet-runtime-5.0.13-win-x64.exe)
+AND <a href="https://download.visualstudio.microsoft.com/download/pr/fccf43d2-3e62-4ede-b5a5-592a7ccded7b/6339f1fdfe3317df5b09adf65f0261ab/dotnet-runtime-5.0.13-win-x64.exe" target="_blank" rel="noopener noreferrer">Dotnet runtime <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 Install ALL THREE. Yes, even the one which says consoles. Yes, we are SURE you need it. 
 
@@ -82,7 +82,7 @@ If you have them - repair them anyway. Make sure you reboot.
 
 Firstly—try a PC reboot, it's possible that one of the files we use is locked by a crashed session of Wildlander.
 
-Un-install the launcher from Add-remove programs, then download and manually install the most recent from [here](https://github.com/Wildlander-mod/Launcher/releases/)
+Un-install the launcher from Add-remove programs, then download and manually install the most recent from <a href="https://github.com/Wildlander-mod/Launcher/releases/" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
-If you are using Norton, please see the [Wildlander and Antivirus section.](http://wiki.wildlandermod.com/01Support/Faq/#wildlander-and-antiviruses)
+If you are using Norton, please see the [Wildlander and Antivirus section.](..\..\01Support/Faq/#wildlander-and-antiviruses)
 

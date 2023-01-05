@@ -7,23 +7,19 @@ nav_order: 4
 description: New Abilities
 ---
 
+# New Abilities
 
-Ability - Build Campfire (Hotkey < ) allows you to place a campfire that you can then interact with in order to build a fire for warmth, placement of a cooking pot, or primitive cooking.
+| Ability      | Hotkey    | Effect |
+|:-------------|:---------:|:------|
+| Build Campfire | < |  Allows you to place a campfire that you can then interact with in order to build a fire for warmth, placement of a cooking pot, or primitive cooking |
+| Change Difficulty | Right CTRL | Switch between easy and standard difficulties |
+| Forage | Right Alt | Allows you to spend time looking for wood, bones, alchemy ingredients, or even food from the ground around you |
+| Frisk | None | Loot a fleeing target |
+| Horse Inventory | U | Access your horse's inventory |
+| Horse Whistle | H | Allows you to summon your horse | 
+| Primitive Cooking | > | Allows the user to use a sufficiently sized fire to cook any meat in the inventory |
+| Recall Followers | B | Prevents your followers from attacking when you don't want them to |
 
-Ability - Recall Followers (Hotkey B ) prevents your followers from attacking when you don’t want them too.
-
-Ability - Forage (Hotkey Right Alt ) allows you to spend time looking for wood, bones, alchemy ingredients, or even food from the floor around you.
-
-Ability - Frisk (No Hotkey ) loot a fleeing target.
-
-Ability -  Horse Whistle (Hotkey H ) allows you to summon your horse.
-
-Ability -  Horse Inventory (Hotkey U ) Access your horses Inventory.
-
-Ability – Change difficulty (Hotkey Right control) Switch between Easy and standard difficulties.
-
-Ability – Primitive Cooking (Hotkey > )  allows the user to use a sufficiently sized fire to BBQ any meat in the inventory.
-
-
-Keybinding can be shown and hidden at any time by pressing F11.
+{: .important}
+>Keybindings can be shown and hidden at any time by pressing `F11`.
 

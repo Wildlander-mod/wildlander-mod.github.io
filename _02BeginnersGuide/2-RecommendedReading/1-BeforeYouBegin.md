@@ -48,17 +48,11 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 ## Suggestions for various GFX cards
 
-
-GEFORCE® GTX 9 SERIES or Equivalent cards (or worse), potato/low Graphics No shaders. Depending on Ram and CPU Can push this to a Medium graphics.
-
-GEFORCE® GTX 10 SERIES up to 1060 GTX or Equivalent cards, Medium graphics, No shaders. Depending on Card Generation, Ram and CPU Can push this to a high graphics.
-
-GEFORCE® GTX 10 SERIES from 1070 GTX or Equivalent cards, High graphics, No shaders. Depending on Card Generation, Ram and CPU Can push this to a Low shaders.
-
-GEFORCE® GTX 20 SERIES up to 2060 GTX or Equivalent cards, High Graphics, Low shaders. Depending on Card Generation, Ram and CPU Can push this to high shaders.
-
-GEFORCE® GTX 20 SERIES from 2070 GTX or Equivalent cards, High graphics, high shaders. Depending on Card Generation, Ram and CPU Can push this to Ultra Graphics.
-
-GEFORCE® GTX 30 SERIES up to 3060 GTX or Equivalent cards, Ultra Graphics, high shaders.  Depending on Card Generation, Ram and CPU Can push this to ultra shaders.
-
-Anything better than a 3060 GTX - Knock yourself out with whatever takes your fancy.
+| Card        | Graphics        | Shaders | Comments |
+|:-------------|:------------------:|:------:|------|
+| GTX 9 series equivalent or worse | Potato/Low | None  | Depending on Ram and CPU Can push this to a Medium graphics. |
+| GTX 10 series up to `GTX 1060` or equivalent | Medium | None | Depending on generation, RAM and CPU, can push this to a high graphics |
+| GTX 10 series from `GTX 1070` or equivalent | High | None | Depending on generation, RAM and CPU, can push this to a low shaders |
+| RTX 20 series from `RTX 2070` or equivalent | High | High | Depending on generation, RAM and CPU, can push this to ultra graphics |
+| RTX 30 series up to `RTX 3060` or equivalent | Ultra | High | Depending on generation, RAM and CPU, can push this to ultra shaders |
+| `RTX 3060` or better | Any | Any | Knock yourself out with whatever takes your fancy |

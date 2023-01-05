@@ -4,7 +4,8 @@ title: FAQ
 nav_order: 3
 description: Frequently Asked Questions
 ---
-![Image](https://user-images.githubusercontent.com/26418143/144291957-c00567fb-bc21-44e7-b36d-6e8453d277d7.png)
+<!-- ![Image](https://user-images.githubusercontent.com/26418143/144291957-c00567fb-bc21-44e7-b36d-6e8453d277d7.png) -->
+![Image](..\..\Assets\wildlander-header.png)
 
 ------
 
@@ -27,14 +28,14 @@ The Wildlander mod list is completely rebuilt from the ground up, so some of the
 
 This isn't to say some of these features won't return in some fashion in the next few builds, just that they didn't make the deadline for compatibility for this one. 
 
-You can download and install Wildlander from [here](https://www.wildlandermod.com/download)
+You can download and install from <a href="https://www.wildlandermod.com/download" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ----
 # How do I donate to the project?
 
-If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam"><img src="http://wiki.wildlandermod.com/Assets/kofi.png"></a>
+If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam" target="_blank" rel="noopener noreferrer"><img src="https://wiki.wildlandermod.com/Assets/kofi.png"></a>
 
-Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry"><img src="http://wiki.wildlandermod.com/Assets/Patreon.png"></a>
+Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry" target="_blank" rel="noopener noreferrer"><img src="https://wiki.wildlandermod.com/Assets/Patreon.png"></a>
 
 ----------
 
@@ -46,7 +47,7 @@ Not unless you're short of hard drive space! Ultimate Skyrim uses The Elder Scro
 
 # What version of Skyrim Special Edition is needed?
 
-The Steam version of Elder Scrolls V: Skyrim Special Edition - Update 1.6.640 (AKA the free Anniversary update) installed in English [Here](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/). You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time. 
+The Steam version of Elder Scrolls V: Skyrim Special Edition - Update 1.6.640 (AKA the free Anniversary update) installed in English <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/" target="_blank" rel="noopener noreferrer">Here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>. You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time. 
 
 If you have downgraded back to Special edition version 1.5.97, you will need to verify game files to reupdate to the latest version.
 
@@ -90,9 +91,9 @@ There have been reports of anywhere from 4 hours to 4 days, depending on how muc
 
 # Can I see the mod lists?
 
-Standard: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods)
+Standard: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods" target="_blank" rel="noopener noreferrer">Version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
-Performance: [Version](https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods)
+Performance: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods" target="_blank" rel="noopener noreferrer">Version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ----------
 
@@ -112,9 +113,9 @@ No, and if you try, then SKSE crashes from Mod Organizer. You will need to insta
 
 Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
 
-Then follow the instructions [here](http://wiki.wildlandermod.com/09-How-Do-i/How-to-update/).
+Then follow the instructions [here](..\..\09-How-Do-i\How-to-update)
 
-The latest version will always be available [here](https://www.wildlandermod.com/download) for clean installations.
+The latest version will always be available <a href="https://www.wildlandermod.com/download" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for clean installations
 
 {: .warning}
 Some updates will require a new game and are **_not_** save compatible.
@@ -254,7 +255,7 @@ If you are unable to hear most of the combat sounds such as sword swings, spell 
 
 Skyrim's engine has a bug that causes audio to not play most of the time when the game is installed to a drive with a sector size other than 512 (usually referred to as Advanced Format). 
 
-This Mod [Large Sector fix](https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description) will correct the issue, and will be included as standard on the next major release.
+This Mod <a href="https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description" target="_blank" rel="noopener noreferrer">Large Sector fix <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> will correct the issue, and will be included as standard on the next major release.
 
 To install, download and Unzip Large_sector_fix.dll  to <Install Folder>\game-files\overwrite\SKSE\Plugins\ - you will need to create these folders manually.
 

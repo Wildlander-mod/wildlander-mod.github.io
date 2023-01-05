@@ -14,23 +14,24 @@ Wildlander is made up of hundreds of publicly available mods made by almost as m
 
 Wildlander is also a mod in its own right as it includes proprietary features not available in the original included mods.
 
-The whole experience is built around <a href="https://www.nexusmods.com/skyrimspecialedition/mods/60888" target="_blank" rel="noopener noreferrer">Requiem - the Roleplaying Overhaul</a> - v5.0.3. Requiem completely retools all of Skyrim to create a challenging, deleveled world with plenty of meaningful choices.
+The whole experience is built around <a href="https://www.nexusmods.com/skyrimspecialedition/mods/60888" target="_blank" rel="noopener noreferrer">Requiem - the Roleplaying Overhaul <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> - v5.0.3. Requiem completely retools all of Skyrim to create a challenging, deleveled world with plenty of meaningful choices.
 
 In general, any Requiem resources you find online will be applicable to Wildlander. Some information may be outdated, overwritten by other mods in Wildlander, or disabled entirely, but the core principles remain the same. Assume that mechanics not covered in Wildlander's or Requiem's resources remain unchanged from the vanilla game.
 
 Wildlander can be overwhelming at first, so I highly recommend reading up on it. Start with The Recommended reading section on this wiki and work down from there.
 
-If videos are more your speed, then [Liam (Parz)](https://www.youtube.com/channel/UCnVgWmZbuZxl2QFVapKjd3w) has turned the wiki introduction into a video, which you can access clicking the image below.
+If videos are more your speed, then <a href="https://www.youtube.com/channel/UCnVgWmZbuZxl2QFVapKjd3w" target="_blank" rel="noopener noreferrer">Liam (Parz) <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> has turned the wiki introduction into a video, which you can access clicking the image below.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/vXRurA0h6NE/0.jpg)](http://www.youtube.com/watch?v=vXRurA0h6NE "Introduction to Wildlander")
-
+<a href="http://www.youtube.com/watch?v=vXRurA0h6NE" target="_blank" rel="noopener noreferrer">
+<img src="http://img.youtube.com/vi/vXRurA0h6NE/0.jpg" alt="Introduction to Wildlander">
+</a>
 
 ## Getting Help
 * Firstly – Most Common Questions are answered in our [FAQ](01Support/Faq/).
 * Secondly – [The known issues document](01Support\KnownIssues) contains a list of known issues and, if available, fixes for those issues.
-* Support is available primarily on our Discord server [Dylan Perry Discord Server](https://discordapp.com/invite/8VkDrfq). It is great for support, troubleshooting, and reporting bugs since you can speak with staff and other users in real-time. We have many regular users offering help to new players. The Discord is also a good place to meet fellow adventurers and chat about Wildlander and other games.
-* The [Wildlander Subreddit](https://www.reddit.com/r/wildlander/) is a great place to meet fellow players and share stories of your adventures. We also host community events, post screenshots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
-* The [Wildlander YouTube channel](https://www.youtube.com/wildlander) contains a variety of Wildlander video content, including gameplay videos, gameplay tutorials, developer updates, modding tutorials, and other video content not related to Wildlander.
+* Support is available primarily on our Discord server <a href="https://discordapp.com/invite/8VkDrfq" target="_blank" rel="noopener noreferrer">Dylan Perry Discord Server <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>. It is great for support, troubleshooting, and reporting bugs since you can speak with staff and other users in real-time. We have many regular users offering help to new players. The Discord is also a good place to meet fellow adventurers and chat about Wildlander and other games.
+* The <a href="https://www.reddit.com/r/wildlander/" target="_blank" rel="noopener noreferrer">Wildlander Subreddit <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> is a great place to meet fellow players and share stories of your adventures. We also host community events, post screenshots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
+* The <a href="https://www.youtube.com/wildlander" target="_blank" rel="noopener noreferrer">Wildlander YouTube channel <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> contains a variety of Wildlander video content, including gameplay videos, gameplay tutorials, developer updates, modding tutorials, and other video content not related to Wildlander.
 * Currently, we are not supporting any form of customization. Doing so denies you access to support.
 
 To report a bug, first query with support as it may have already been reported. They will advise you if you need to fill out a [bug report form](..\16OtherResources\bugreport\).

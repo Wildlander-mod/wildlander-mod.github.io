@@ -22,8 +22,7 @@ iframe {
   min-width: 100%;
   height: 700px;
   border: none;
-  marginheight: 0;
-  marginwidth: 0; 
+  margin: 0;
 }
 
 table {
@@ -50,9 +49,9 @@ th {
 td {
   min-width: 100px;
   padding-top: $sp-2;  
-  padding-right: $sp-1;
+  padding-right: $sp-2;
   padding-bottom: $sp-2;
-  padding-left: $sp-1;
+  padding-left: $sp-2;
 }
 
 code {
@@ -91,7 +90,7 @@ font-weight: 400;
 text-decoration: none;
 cursor: pointer;
 color: #fff;
-background: #transparent;
+background: transparent;
 }
 
 .site-button{
@@ -146,7 +145,38 @@ background: #transparent;
 
 
 
+// Phin was here
+// Stylings for the recommended/minimum specs
+// on the /DlAndInstall/ page
+.minimum-specs {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
 
+	.section {
+		font-size: 1.2em;
+	}
+
+	.specs {
+		display: inherit;
+		flex-direction: column;
+	}
+
+	.component {
+		display: inherit;
+		align-items: center;
+		img {
+			margin-right: 0.5em;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.minimum-specs {
+		display: flex;
+		flex-direction: column;
+	}
+}
 
 
 

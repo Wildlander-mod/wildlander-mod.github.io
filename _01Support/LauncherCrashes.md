@@ -65,8 +65,8 @@ Apply the following fixes after install to prevent crash on save
 
 OR 
 
-1. proper Solutions - Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe
-1. If you also have "Ransomware Remediation" on Add Wildlander\game-files\ModOrganizer.exe   
+1. proper Solutions - Add a ADT exception for `Wildlander\game-files\Stock Game\SkyrimSE.exe`
+1. If you also have "Ransomware Remediation" on Add `Wildlander\game-files\ModOrganizer.exe`
 
 ---
 ## Crash to Desktop when entering a building or on "finalising setup" Error code fiss.dll+4481 or SkyrimSE.exe+D6DDDA (Stack: BSResource::anonymous_namespace::LooseFileStream* OR BSResource::ArchiveStream* OR BSResource::CompressedArchiveStream** mentioned somewhere)
@@ -137,7 +137,7 @@ In the example below you can see a Coffin object (may also be a burial Urn) - ea
 
 You will need to use a save cleaner and terminate the offending script (WIDeadBodyCleanupScript) causing the issue moving the NPC to the coffin.
 
-- using [ReSaver from FallrimTools](https://www.nexusmods.com/skyrimspecialedition/mods/5031/)
+- using <a href="https://www.nexusmods.com/skyrimspecialedition/mods/5031/" target="_blank" rel="noopener noreferrer">ReSaver from FallrimTools <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 - Loaded the savegame > Active Scripts > WIDeadBodyCleanupScript 
 - Located ScriptInstance: WIDeadBodyCleanupScript: *refID=DEFAULT: Followed by the NPC Reference id causing issues (if you don't know which NPC - its safe to remove all WIDeadBodyCleanupScript)
 - terminate the script
