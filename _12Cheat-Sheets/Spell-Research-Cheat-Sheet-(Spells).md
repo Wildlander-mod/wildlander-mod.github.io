@@ -5,7 +5,7 @@ nav_order: 1
 description: Spell Research (Spells & ArchTypes) 
 ---
 
-# Spell Research (Spells) 
+# Spell Research (Vanilla & Spells) 
 
 <table>
 	<tr>
@@ -14,15 +14,15 @@ description: Spell Research (Spells & ArchTypes)
 	</tr>
 	<tr>
 		<td>Novice
-		<br>
+		 <br>
 		Fire & Forget
-		<br>
+		 <br>
 		Element: Health
-		<br>
+		 <br>
 		Alteration
-		<br>
+		 <br>
 		Actor
-		<br>
+		 <br>
 		Technique: Siphon
 		</td>
 		<td>Absorbing Grasp
@@ -30,15 +30,15 @@ description: Spell Research (Spells & ArchTypes)
 	</tr>
 	<tr>
 		<td>Novice
-		<br>
+		 <br>
 		Fire & Forget
-		<br>
+		 <br>
 		Element: Construct
-		<br>
+		 <br>
 		Element: Light
-		<br>
+		 <br>
 		Alteration
-		<br>
+		 <br>
 		Target: Self
 		</td>
 		<td>Candlelight
@@ -46,19 +46,19 @@ description: Spell Research (Spells & ArchTypes)
 	</tr>
 <tr>
 <td>Novice
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Technique: Infuse
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Nature
 </td>
 <td>Mage Armor on Self (Rank I)
@@ -66,15 +66,15 @@ Element: Nature
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Featherfalling
@@ -82,15 +82,15 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Metal
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Knock (Rank I)
@@ -98,19 +98,19 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Earth
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
 </td>
 <td>Mage Armor on Self (Rank II)
@@ -118,15 +118,15 @@ Technique: Infuse
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Light
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
 </td>
 <td>Magelight
@@ -134,15 +134,15 @@ Target: Location
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Self
-<br>
+ <br>
 Technique: Strengthen
 </td>
 <td>Transmute Muscles on Self
@@ -150,15 +150,15 @@ Technique: Strengthen
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Siphon
 </td>
 <td>Absorb Health
@@ -166,15 +166,15 @@ Technique: Siphon
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Stamina
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Siphon
 </td>
 <td>Absorb Stamina
@@ -182,17 +182,17 @@ Technique: Siphon
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Sense
 </td>
 <td>Detect Life
@@ -200,15 +200,15 @@ Technique: Sense
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Metal
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Knock (Rank II)
@@ -216,19 +216,19 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Metal
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
 </td>
 <td>Mage Armor on Self (Rank III)
@@ -236,15 +236,15 @@ Technique: Infuse
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Force
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
 </td>
 <td>Mage Armor on Target (Rank I)
@@ -252,13 +252,13 @@ Actor
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Telekinetic Hand
@@ -266,15 +266,15 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Strengthen
 </td>
 <td>Transmute Muscles on Target
@@ -282,19 +282,19 @@ Technique: Strengthen
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Element: Water
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Transform
 </td>
 <td>Transmute: Water
@@ -302,15 +302,15 @@ Technique: Transform
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Magicka
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Siphon
 </td>
 <td>Absorb Magicka
@@ -318,21 +318,21 @@ Technique: Siphon
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Metal
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Arcane Mending
@@ -340,15 +340,15 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Sense
 </td>
 <td>Detect Death
@@ -356,19 +356,19 @@ Technique: Sense
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Metal
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
 </td>
 <td>Mage Armor on Self (Rank IV)
@@ -376,15 +376,15 @@ Technique: Infuse
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Force
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
 </td>
 <td>Mage Armor on Target (Rank II)
@@ -392,15 +392,15 @@ Actor
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Paralyze (Rank I)
@@ -408,19 +408,19 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Transform
 </td>
 <td>Polymorph
@@ -428,13 +428,13 @@ Technique: Transform
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Telekinetic Disarray
@@ -442,13 +442,13 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 AOE
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Telekinetic Nova
@@ -456,20 +456,20 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td> Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Alteration
-<br>
-<br>
+ <br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Magicka 
-<br>
+ <br>
 Element: Stamina
-<br>
+ <br>
 Actor	
-<br>
+ <br>
 Technique: Siphon
 </td>
 <td>Absorb Essence
@@ -477,21 +477,21 @@ Technique: Siphon
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Self
-<br>
+ <br>
 Technique: Sense
 </td>
 <td>Detect Aura
@@ -499,15 +499,15 @@ Technique: Sense
 </tr>
 <tr>
 <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Metal
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Knock (Rank III)
@@ -515,17 +515,17 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Self
-<br>
+ <br>
 Technique: Sense
-<br>
+ <br>
 Technique: Strengthen
 </td>
 <td>Lightning Speed
@@ -533,21 +533,21 @@ Technique: Strengthen
 </tr>
 <tr>
 <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
 </td>
 <td>Mage Armor on Self (Rank V)
@@ -555,15 +555,15 @@ Technique: Infuse
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Armor
-<br>
+ <br>
 Element: Force
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
 </td>
 <td>Mage Armor on Target (Rank III)
@@ -571,15 +571,15 @@ Actor
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Paralyze (Rank II)
@@ -587,15 +587,15 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Telekinetic Blast
@@ -603,15 +603,15 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Telekinetic Execution
@@ -619,13 +619,13 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Telekinesis
 </td>
 <td>Telekinetic Grab
@@ -633,21 +633,21 @@ Technique: Telekinesis
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Telekinesis
-<br>
+ <br>
 Technique: Transform
 </td>
 <td>Transcendance on Self
@@ -655,21 +655,21 @@ Technique: Transform
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Telekinesis
-<br>
+ <br>
 Technique: Transform
 </td>
 <td>Transcendance on Target
@@ -677,15 +677,15 @@ Technique: Transform
 </tr>
 <tr>
 <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Alteration
-<br>
+ <br>
 Actor
-<br>
+ <br>
 Technique: Transform
 </td>
 <td>Transmute: Corpus
@@ -693,23 +693,23 @@ Technique: Transform
 </tr>
 <tr>
 <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Weapon
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
-<br>
+ <br>
 Technique: Transform
 </td>
 <td>Bound Sword
@@ -717,27 +717,27 @@ Technique: Transform
 </tr>
 <tr>
 <td>Novice
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Infuse
-<br>
+ <br>
 Technique: Summoning
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
 </td>
 <td>Raise Dead (Rank I)
@@ -745,19 +745,19 @@ Element: Undead
 </tr>
 <tr>
 <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Summon Skeletal Soldier
@@ -765,21 +765,21 @@ Technique: Summoning
 </tr>
 <tr>
 <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Summon Spirit Wolf
@@ -787,19 +787,19 @@ Technique: Summoning
 </tr>
 <tr>
 <td>Novice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Summon Swarm (Rank I)
@@ -807,21 +807,21 @@ Technique: Summoning
 </tr>
 <tr>
 <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Apparition
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Summon Arniel Gane
@@ -829,23 +829,23 @@ Technique: Summoning
 </tr>
 <tr>
 <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Summon Arvak
@@ -853,23 +853,23 @@ Technique: Summoning
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Weapon
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
-<br>
+ <br>
 Technique: Transform
 </td>
 <td>Bound Axe
@@ -877,21 +877,21 @@ Technique: Transform
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
 </td>
 <td>Summon Flaming Familiar
@@ -899,17 +899,17 @@ Technique: Control
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
 </td>
 <td>Necromantic Empowerment on Target
@@ -917,27 +917,27 @@ Technique: Curing
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Infuse
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Raise Dead (Rank II)
@@ -945,19 +945,19 @@ Technique: Summoning
 </tr>
 <tr>
 <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Summon Skeletal Archer
@@ -965,19 +965,19 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Skeletal Hero
@@ -985,19 +985,19 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Skeletal Warlock
@@ -1005,21 +1005,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Soulcairn Summoning (Rank I)
@@ -1027,17 +1027,17 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
-<br>
+ <br>
 Technique: Siphon
    </td>
    <td>Soul Trap (Rank I)
@@ -1045,21 +1045,21 @@ Technique: Siphon
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spectral Warhound
@@ -1067,21 +1067,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spirit Mudcrab
@@ -1089,19 +1089,19 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Swarm (Rank II)
@@ -1109,17 +1109,17 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Banish Daedra (Rank I)
@@ -1127,21 +1127,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Flame Atronach
@@ -1149,17 +1149,17 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Necromantic Empowerment on Self
@@ -1167,25 +1167,25 @@ Technique: Curing
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Infuse
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Raise Dead (Rank III)
@@ -1193,21 +1193,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Soulcairn Summoning (Rank II)
@@ -1215,21 +1215,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
 </td>
 <td>Summon Spectral Archer
@@ -1238,15 +1238,15 @@ Technique: Summoning
   <tr>
    <td> 
 		Adept
-		<br>
+		 <br>
 		Fire & Forget
-		<br>
+		 <br>
 		Element: Soul
-		<br>
+		 <br>
 		Conjuration
-		<br>
+		 <br>
 		Target: Actor
-		<br>
+		 <br>
 		Technique: Curse
    </td>
    <td>Spectral Arrow
@@ -1254,21 +1254,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spectral Warrior
@@ -1276,21 +1276,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spirit Bear
@@ -1298,21 +1298,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spirit Troll
@@ -1320,17 +1320,17 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Banish Daedra (Rank II)
@@ -1338,23 +1338,23 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Weapon
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
-<br>
+ <br>
 Technique: Transform
    </td>
    <td>Bound Bow
@@ -1362,19 +1362,19 @@ Technique: Transform
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Command Daedra
@@ -1382,21 +1382,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Frost Atronach
@@ -1404,15 +1404,15 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Mark & Recall
@@ -1420,27 +1420,27 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Infuse
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Raise Dead (Rank IV)
@@ -1448,21 +1448,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Soulcairn Summoning (Rank III)
@@ -1470,21 +1470,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Ice Spirit
@@ -1492,21 +1492,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spirit Sabrecat
@@ -1514,21 +1514,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Storm Atronach
@@ -1536,15 +1536,15 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Teleport Vitals
@@ -1552,19 +1552,19 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Dremora Archer
@@ -1572,19 +1572,19 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Dremora Lord
@@ -1592,19 +1592,19 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Dremora Archmage
@@ -1612,23 +1612,23 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Flame Thrall
@@ -1636,23 +1636,23 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Frost Thrall
@@ -1660,21 +1660,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Ghostly Dragonpriest
@@ -1682,27 +1682,27 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Infuse
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Raise Dead (Rank V)
@@ -1710,21 +1710,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spirit Steed
@@ -1732,21 +1732,21 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Spirit Werewolf
@@ -1754,23 +1754,23 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Storm Thrall
@@ -1778,15 +1778,15 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Teleport
@@ -1794,19 +1794,19 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Conjuration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Summon Unbound Dremora
@@ -1814,13 +1814,13 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Firesparks
@@ -1828,13 +1828,13 @@ Target: Self
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Element: Frost
    </td>
    <td>Icewind
@@ -1842,13 +1842,13 @@ Element: Frost
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Lightning Sparks
@@ -1856,13 +1856,13 @@ Target: Self
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Firebolt
@@ -1870,19 +1870,19 @@ Target: Self
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Element: Trap
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Location
    </td>
    <td>Firerune (Rank I)
@@ -1897,19 +1897,19 @@ Target: Location
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Element: Trap
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Location
    </td>
    <td>Icerune (Rank I)
@@ -1924,13 +1924,13 @@ Target: Location
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Icy Shard
@@ -1938,13 +1938,13 @@ Target: Self
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Lightning Bolt
@@ -1952,15 +1952,15 @@ Target: Self
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Telekinesis
    </td>
    <td>Lightning Jolt
@@ -1968,19 +1968,19 @@ Technique: Telekinesis
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Element: Trap
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Location
    </td>
    <td>Lightning Rune (Rank I)
@@ -1995,13 +1995,13 @@ Target: Location
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Arcane Missile
@@ -2009,15 +2009,15 @@ Target: Self
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Lightning Shackles
@@ -2025,17 +2025,17 @@ Target: AOE
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
    </td>
    <td>Fiery Grasp
@@ -2043,15 +2043,15 @@ Technique: Infuse
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Fireball
@@ -2059,15 +2059,15 @@ Target: AOE
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
    </td>
    <td>Flame Cloak
@@ -2075,15 +2075,15 @@ Technique: Cloak
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
    </td>
    <td>Frost Cloak
@@ -2091,15 +2091,15 @@ Technique: Cloak
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Icesphere
@@ -2107,17 +2107,17 @@ Target: AOE
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
    </td>
    <td>Icy Grasp
@@ -2125,15 +2125,15 @@ Technique: Infuse
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
    </td>
    <td>Lightning Cloak
@@ -2141,17 +2141,17 @@ Technique: Cloak
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
    </td>
    <td>Lightning Grasp
@@ -2159,15 +2159,15 @@ Technique: Infuse
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Snow Spume
@@ -2175,15 +2175,15 @@ Target: AOE
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Element: Water
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Steam Cloud
@@ -2191,17 +2191,17 @@ Target: Self
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
    </td>
    <td>Venomous Grasp
@@ -2209,13 +2209,13 @@ Technique: Infuse
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Venomous Spray
@@ -2223,15 +2223,15 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Self
    </td>
    <td>Firenova
@@ -2239,15 +2239,15 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Telekinesis
    </td>
    <td>Fireshock
@@ -2255,17 +2255,17 @@ Technique: Telekinesis
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Telekinesis
    </td>
    <td>Iceshock
@@ -2273,13 +2273,13 @@ Technique: Telekinesis
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Icy Lance
@@ -2287,13 +2287,13 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Incinerate
@@ -2301,13 +2301,13 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Lightning Ray
@@ -2315,13 +2315,13 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Lightning Strike
@@ -2329,13 +2329,13 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Venomous Blast
@@ -2343,17 +2343,17 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Element: Trap
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
    </td>
    <td>Firewall
@@ -2361,17 +2361,17 @@ Target: Location
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Element: Trap
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
    </td>
    <td>Icewall
@@ -2379,17 +2379,17 @@ Target: Location
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Element: Trap
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: Location
    </td>
    <td>Lightning Wall
@@ -2397,13 +2397,13 @@ Target: Location
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Arcane Volley
@@ -2411,15 +2411,15 @@ Target: Self
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Arcane Vortex
@@ -2427,13 +2427,13 @@ Target: AOE
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Frost
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Icestorm
@@ -2441,13 +2441,13 @@ Target: AOE
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Firestorm
@@ -2455,15 +2455,15 @@ Target: AOE
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Firestrike
@@ -2471,19 +2471,19 @@ Target: AOE
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Telekinesis
    </td>
    <td>Lightning Cascade
@@ -2491,13 +2491,13 @@ Technique: Telekinesis
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Shock
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
    </td>
    <td>Lightning Vortex
@@ -2505,15 +2505,15 @@ Target: Self
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Telekinesis
    </td>
    <td>Venomous Shock
@@ -2521,15 +2521,15 @@ Technique: Telekinesis
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Venomous Storm
@@ -2537,17 +2537,17 @@ Target: AOE
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Pacify
    </td>
    <td>Charming Touch
@@ -2555,13 +2555,13 @@ Technique: Pacify
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Sense
    </td>
    <td>Clairvoyance
@@ -2569,15 +2569,15 @@ Technique: Sense
   </tr>
   <tr>
    <td>Novice
-		<br>
+		 <br>
 		Fire & Forget
-		<br>
+		 <br>
 		Illusion
-		<br>
+		 <br>
 		Target: Self
-		<br>
+		 <br>
 		Technique: Sense
-		<br>
+		 <br>
 		Technique: Strengthen
    </td>
    <td>Darkvision
@@ -2585,17 +2585,17 @@ Technique: Sense
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Fear
@@ -2603,23 +2603,23 @@ Technique: Fear
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Stamina
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Courage
-<br>
+ <br>
 Technique: Strengthen
    </td>
    <td>Lionheart
@@ -2627,17 +2627,17 @@ Technique: Strengthen
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Telekinesis
    </td>
    <td>Arcane Resonance
@@ -2645,17 +2645,17 @@ Technique: Telekinesis
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Light
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Blur
@@ -2663,17 +2663,17 @@ Technique: Control
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Frenzy
    </td>
    <td>Enraging Orb
@@ -2681,15 +2681,15 @@ Technique: Frenzy
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curse
-<br>
+ <br>
 Technique: Pacify
    </td>
    <td>Hibernation Touch
@@ -2697,17 +2697,17 @@ Technique: Pacify
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Light
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Invisibility
@@ -2715,17 +2715,17 @@ Technique: Control
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Muffle
@@ -2733,19 +2733,19 @@ Technique: Control
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Rune of Dampening
@@ -2753,19 +2753,19 @@ Technique: Control
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Frenzy
    </td>
    <td>Enraging Rune
@@ -2773,19 +2773,19 @@ Technique: Frenzy
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Frightening Sphere
@@ -2793,17 +2793,17 @@ Technique: Fear
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Curse
-<br>
+ <br>
 Technique: Pacify
    </td>
    <td>Hibernation Spray
@@ -2811,15 +2811,15 @@ Technique: Pacify
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Apparition
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Nightmare
@@ -2827,15 +2827,15 @@ Technique: Fear
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Apparition
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
    </td>
    <td>Phantasmal Pain
@@ -2843,15 +2843,15 @@ Target: Self
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shadow
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Shadow Shield
@@ -2859,15 +2859,15 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shadow
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Summoning
    </td>
    <td>Shadow Stride
@@ -2875,15 +2875,15 @@ Technique: Summoning
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Magicka
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curse
    </td>
    <td>Blackout
@@ -2891,17 +2891,17 @@ Technique: Curse
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Element: Flesh
-<br>
+ <br>
 Destruction
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
    </td>
    <td>Fade Other
@@ -2909,15 +2909,15 @@ Technique: Infuse
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Shadow
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Location
    </td>
    <td>Fog of Shadows
@@ -2925,19 +2925,19 @@ Target: Location
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Light
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Invisibility Sphere
@@ -2945,19 +2945,19 @@ Technique: Control
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Muffling Sphere
@@ -2965,15 +2965,15 @@ Technique: Control
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Phantasmal Killer
@@ -2981,19 +2981,19 @@ Technique: Control
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Apparition
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Shadow
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Shadow Simulacrum
@@ -3001,17 +3001,17 @@ Technique: Control
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Air
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Veil of Silence
@@ -3026,19 +3026,19 @@ Technique: Control
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Apparition
-<br>
+ <br>
 Element: Daedra
-<br>
+ <br>
 Element: Shadow
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Control
    </td>
    <td>Mistress of the Dark
@@ -3046,17 +3046,17 @@ Technique: Control
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Illusion
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Fear
 
    </td>
@@ -3065,21 +3065,21 @@ Technique: Fear
   </tr>
   <tr>
    <td>Master
-	<br>
+	 <br>
 	Fire & Forget
-	<br>
+	 <br>
 	Element: Human
-	<br>
+	 <br>
 	Element: Creature
-	<br>
+	 <br>
 	Element: Shield
-	<br>
+	 <br>
 	Illusion
-	<br>
+	 <br>
 	Target: Self
-	<br>
+	 <br>
 	Technique: Cloak
-	<br>
+	 <br>
 	Technique: Control
    </td>
    <td>Shadow Sanctuary
@@ -3087,17 +3087,17 @@ Technique: Fear
   </tr>
   <tr>
    <td>Master
-	<br>
+	 <br>
 	Fire & Forget
-	<br>
+	 <br>
 	Element: Human
-	<br>
+	 <br>
 	Illusion
-	<br>
+	 <br>
 	Target: Self
-	<br>
+	 <br>
 	Target: AOE
-	<br>
+	 <br>
 	Technique: Cloak
    </td>
    <td>Veil of Shadows
@@ -3105,15 +3105,15 @@ Technique: Fear
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Force
-<br>
+ <br>
 Element: Shield
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
    </td>
    <td>Arcane Ward (Rank I)
@@ -3121,17 +3121,17 @@ Target: Self
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Healing Aura on Self
@@ -3139,17 +3139,17 @@ Technique: Curing
   </tr>
   <tr>
    <td>Novice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Healing Aura on Target
@@ -3157,15 +3157,15 @@ Technique: Curing
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Force
-<br>
+ <br>
 Element: Shield
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
    </td>
    <td>Arcane Ward (Rank II)
@@ -3173,15 +3173,15 @@ Target: Self
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Soul
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Infuse
    </td>
    <td>Dispel Soul Gems
@@ -3189,19 +3189,19 @@ Technique: Infuse
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Healing Hands (Rank I)
@@ -3209,15 +3209,15 @@ Technique: Curing
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Heal Self (Rank I)
@@ -3225,15 +3225,15 @@ Technique: Curing
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Heal Self (Rank II)
@@ -3241,17 +3241,17 @@ Technique: Curing
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Element: Resistance
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Strengthen
    </td>
    <td>Protection from Poison on Self
@@ -3259,17 +3259,17 @@ Technique: Strengthen
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Element: Resistance
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Strengthen
    </td>
    <td>Protection from Poison on Target
@@ -3277,13 +3277,13 @@ Technique: Strengthen
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Sun
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
    </td>
    <td>Sunfire
@@ -3291,15 +3291,15 @@ Target: Self
   </tr>
   <tr>
    <td>Apprentice
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Turn Undead (Rank I)
@@ -3307,17 +3307,17 @@ Technique: Fear
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Element: Resistance
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curse
    </td>
    <td>Arcane Disjunction (Rank I)
@@ -3325,15 +3325,15 @@ Technique: Curse
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Force
-<br>
+ <br>
 Element: Shield
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
    </td>
    <td>Arcane Ward (Rank III)
@@ -3341,19 +3341,19 @@ Target: Self
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Element: Disease
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Dispel on Self
@@ -3361,19 +3361,19 @@ Technique: Curing
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Healing Hands (Rank II)
@@ -3381,19 +3381,19 @@ Technique: Curing
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Healing Ray
@@ -3401,15 +3401,15 @@ Technique: Curing
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Heal Self (Rank III)
@@ -3417,17 +3417,17 @@ Technique: Curing
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Repel Undead (Rank I)
@@ -3435,15 +3435,15 @@ Technique: Fear
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Sun
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
    </td>
    <td>Sunburst
@@ -3451,15 +3451,15 @@ Target: AOE
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Sun
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
    </td>
    <td>Sunfire Cloak
@@ -3467,15 +3467,15 @@ Technique: Cloak
   </tr>
   <tr>
    <td>Adept
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Turn Undead (Rank II)
@@ -3483,17 +3483,17 @@ Technique: Fear
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Element: Resistance
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curse
    </td>
    <td>Arcane Disjunction (Rank II)
@@ -3501,15 +3501,15 @@ Technique: Curse
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Force
-<br>
+ <br>
 Element: Shield
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
    </td>
    <td>Arcane Ward (Rank IV)
@@ -3517,17 +3517,17 @@ Target: Self
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Circle of Protection
@@ -3535,17 +3535,17 @@ Technique: Fear
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Powerful Healing Aura on Self
@@ -3553,17 +3553,17 @@ Technique: Curing
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Cloak
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Powerful Healing Aura on Target
@@ -3571,21 +3571,21 @@ Technique: Curing
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Creature
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Human
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Healing Hands (Rank III)
@@ -3593,17 +3593,17 @@ Technique: Curing
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Repel Undead (Rank II)
@@ -3611,15 +3611,15 @@ Technique: Fear
   </tr>
   <tr>
    <td>Expert
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Turn Undead (Rank III)
@@ -3627,21 +3627,21 @@ Technique: Fear
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Construct
-<br>
+ <br>
 Element: Health
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Location
-<br>
+ <br>
 Technique: Curing
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Circle of Palladium
@@ -3649,19 +3649,19 @@ Technique: Fear
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Element: Disease
-<br>
+ <br>
 Element: Poison
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: Self
-<br>
+ <br>
 Technique: Curing
    </td>
    <td>Dispel on Target
@@ -3669,17 +3669,17 @@ Technique: Curing
   </tr>
   <tr>
    <td>Master
-<br>
+ <br>
 Fire & Forget
-<br>
+ <br>
 Element: Fire
-<br>
+ <br>
 Element: Undead
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Fear
    </td>
    <td>Repel Undead (Rank III)
@@ -3687,19 +3687,19 @@ Technique: Fear
   </tr>
   <tr>
    <td>Cannot be discovered via Spell research
-<br>
+ <br>
 Master
-<br>
+ <br>
 Concentration
-<br>
+ <br>
 Element: Arcane
-<br>
+ <br>
 Restoration
-<br>
+ <br>
 Target: AOE
-<br>
+ <br>
 Technique: Control
-<br>
+ <br>
 Technique: Siphon
    </td>
    <td>Shalidor's Mirror
@@ -3708,4 +3708,20 @@ Technique: Siphon
 </table>
 
 
- 
+# Spell Research (Frostfall) 
+
+| Archtypes | Spell |
+|-|-|
+| Expert <br> Fire & Forget <br> Element: Nature <br> Alteration <br> Target: Actor <br> Technique: Transform| Transmute wood|
+| Apprentice <br> Fire & Forget <br> Element: Creature <br> Element: Fire <br> Element: Flesh <br> Alteration <br> Target: Self <br> Technique: Infuse | Foxskin|
+| Adept <br> Fire & Forget <br> Element: Creature <br> Element: Fire <br> Element: Flesh <br> Alteration <br> Target: Self <br> Technique: Infuse| Wolfskin|
+| Expert <br> Fire & Forget <br> Element: Creature <br> Element: Fire <br> Element: Flesh <br> Alteration <br> Target: Self <br> Technique: Infuse| bearskin|
+| Adept <br> Fire & Forget <br> Element: Fire <br> Element: Nature <br> Restoration <br> Target: Self <br> Technique: Transform| Kindle|
+| Apprentice <br> Fire & Forget <br> Element: Armor <br> Element: Daedra <br> Element: Soul <br> Conjuration <br> Target: Self <br> Technique: Summoning <br>| Lesser Bound Cloak |
+| Adept <br> Fire & Forget <br> Element: Armor <br> Element: Daedra <br> Element: Soul <br> Conjuration <br> Target: Self <br> Technique: Summoning <br>| greater bound cloak|
+| Expert <br> Fire & Forget <br> Element: Construct <br> Element: Nature <br> Element: Soul <br> Conjuration <br> Target: Actor <br> Target: Location <br> Technique: Summoning| Conjour Shelter, Lesser|
+| Master <br> Fire & Forget <br> Element: Construct <br> Element: Nature <br> Element: Soul <br> Conjuration <br> Target: Actor <br> Target: Location <br> Technique: Summoning| Conjour shelter, Greater |
+| Novice <br> Fire & Forget <br> Element: Fire <br> Element: Resistance <br> Illusion <br> Target: Self| Soothe Rank 1|
+| Apprentice <br> Fire & Forget <br> Element: Fire <br> Element: Resistance <br> Illusion <br> Target: Self| Soothe Rank 2|
+| Adept <br> Fire & Forget <br> Element: Fire <br> Element: Resistance <br> Illusion <br> Target: Self| Soothe Rank 3|
+| Adept <br> Fire & Forget <br> Element: Air <br> Element: Fire <br> Element: Water <br> Destruction <br> Target: Actor <br> Technique: Transform| Vapor Blast|
