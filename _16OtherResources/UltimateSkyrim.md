@@ -15,9 +15,9 @@ description: Ultimate Skyrim Installation Guide
 {:toc}
 </details>
 
-## Ultimate Skyrim<
+## Ultimate Skyrim
 
-<div><p class="" style="white-space:pre-wrap;">Welcome to <em>Ultimate Skyrim</em>, and thank you for your interest in the project! This page will guide you through the install process.
+<p class="" style="white-space:pre-wrap;">Welcome to <em>Ultimate Skyrim</em>, and thank you for your interest in the project! This page will guide you through the install process.
   
 <p class="" style="white-space:pre-wrap;"><strong><em>Ultimate Skyrim</em> requires <em>Skyrim </em>Classic Edition with all DLC’s</strong>, otherwise known as <strong><em>Skyrim Legendary Edition</em>. </strong><a href="https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-legendary-edition" target="_blank">You can purchase this edition here</a></p></div>
 
@@ -113,7 +113,8 @@ Next up, we'll move through the "Known Issues" guide to fix some remaining bugs 
 </div>
 <div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1612971028342_12846"><div class="sqs-block-content"><hr></div>
 </div>
-<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1556836927652_142076"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">STEP FOUR: in-game configuration</h3><p class="" style="white-space:pre-wrap;">Before you can play, <em>Ultimate Skyrim </em>requires the configuration of several in-game settings. We’ll configure these now.</p><ol data-rte-list="default">
+<p class="" style="white-space:pre-wrap;">Before you can play, <em>Ultimate Skyrim </em>requires the configuration of several in-game settings. We’ll configure these now.</p>
+
 <li><p class="" style="white-space:pre-wrap;">Navigate to your “content” folder, and <a href="https://imgur.com/a/sqJnfEl" target="_blank">double-click “Launch Ultimate Skyrim.bat”.</a><br>(Note: If this does not launch your game, refer back to the <a href="https://docs.google.com/document/d/10jxUuBhmnLne5e4lb7ifAz9rByrTy_wEOpojmItyScM/preview" target="_blank">Known Issues guide</a> for a fix.)</p></li>
 <li><p class="" style="white-space:pre-wrap;"><a href="https://imgur.com/a/MrjOhXI" target="_blank">Select a performance profile</a> within the launcher.</p></li>
 <li><p class="" style="white-space:pre-wrap;"><strong>(Optional)</strong> <a href="https://imgur.com/a/mwRo6x4" target="_blank">Click “Create Desktop Shortcut”</a> to generate a <a href="https://imgur.com/6fDCp1U" target="_blank">desktop shortcut</a> for the preset you selected. (This will also create a shortcut for the launcher.)</p></li>
