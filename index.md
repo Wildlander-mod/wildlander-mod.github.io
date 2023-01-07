@@ -22,9 +22,8 @@ Wildlander can be overwhelming at first, so I highly recommend reading up on it.
 
 If videos are more your speed, then <a href="https://www.youtube.com/channel/UCnVgWmZbuZxl2QFVapKjd3w" target="_blank" rel="noopener noreferrer">Liam (Parz) <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> has turned the wiki introduction into a video, which you can access clicking the image below.
 
-<a href="http://www.youtube.com/watch?v=vXRurA0h6NE" target="_blank" rel="noopener noreferrer">
-<img src="http://img.youtube.com/vi/vXRurA0h6NE/0.jpg" alt="Introduction to Wildlander">
-</a>
+
+<iframe class="yt-embed" width="640" height="360" src="https://www.youtube.com/embed/vXRurA0h6NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Getting Help
 * Firstly – Most Common Questions are answered in our [FAQ](01Support/Faq/).
