@@ -66,7 +66,7 @@ There are a few things you’ll need before we begin. Please ensure that you hav
 1. An archive tool, such as <a href="https://www.7-zip.org/" target="_blank">7-Zip</a> or <a href="https://www.win-rar.com/download.html?L=0" target="_blank">WinRAR</a>.
 1. <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" target="_blank">The latest version of Microsoft’s Visual C++.</a> (You’ll need both the <a href="https://i.imgur.com/GD6QJeu.png" target="_blank">32-bit</a> _and_ the <a href="https://imgur.com/a/P76cONh" target="_blank">64-bit</a> versions.)
 1. <a href="https://dotnet.microsoft.com/download/dotnet-framework" target="_blank">The latest version of the .NET Framework Runtime.</a>
-1. <p class="" style="white-space: pre-wrap; overflow: visible;">No _Skyrim_ mod subscriptions on the <a href="https://steamcommunity.com/app/72850/workshop/" target="_blank" class="swi">Steam Workshop</a><div class="swi-block swi-boxed" data-appid="72850">
+1. No _Skyrim_ mod subscriptions on the <a href="https://steamcommunity.com/app/72850/workshop/" target="_blank" class="swi">Steam Workshop</a>
 1. A clean, **ENGLISH** version of _Skyrim_ installed through Steam, <a href="https://i.imgur.com/nFkzKu7.jpg" target="_blank">as shown here</a>. (Non-English versions unfortunately crash the game.)
 1. The **GamePass** version of _Skyrim_ is unfortunately not compatible at this time.
 
