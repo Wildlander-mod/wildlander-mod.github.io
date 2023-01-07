@@ -153,4 +153,3 @@ Need help surviving your first few days? Check out our [gameplay guide](https://
 
 Encountering issues, or have questions? Check out our [Frequently Asked Questions](https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md).
 
-Check out the News page to stay current with the latest UltSky news, and visit the Community page to join forces with other adventurers.
