@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Ultimate Skyrim
-nav_order: 5
 description: Ultimate Skyrim Installation Guide
 ---
 
@@ -17,9 +16,9 @@ description: Ultimate Skyrim Installation Guide
 
 ## Ultimate Skyrim
 
-<p class="" style="white-space:pre-wrap;">Welcome to <em>Ultimate Skyrim</em>, and thank you for your interest in the project! This page will guide you through the install process.
-  
-<p class="" style="white-space:pre-wrap;"><strong><em>Ultimate Skyrim</em> requires <em>Skyrim </em>Classic Edition with all DLC’s</strong>, otherwise known as <strong><em>Skyrim Legendary Edition</em>. </strong><a href="https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-legendary-edition" target="_blank">You can purchase this edition here</a></p>
+Welcome to _Ultimate Skyrim_, and thank you for your interest in the project! This page will guide you through the install process.
+
+**_Ultimate Skyrim_ requires _Skyrim_ Classic Edition with all DLC’s**, otherwise known as **_Skyrim Legendary Edition_**. <a href="https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-legendary-edition" target="_blank">You can purchase this edition here
 
 {: .important}
 > Ultimate Skyrim is no longer supported or under development, if the list breaks, this guide will disappear. 
@@ -57,7 +56,9 @@ description: Ultimate Skyrim Installation Guide
 </div>
 
 ## Before we begin
+	
 There are a few things you’ll need before we begin. Please ensure that you have:
+	
 <li><p class="" style="white-space:pre-wrap;">At least 40gb of free space.</p></li>
 <li><p class="" style="white-space:pre-wrap;">An archive tool, such as <a href="https://www.7-zip.org/" target="_blank">7-Zip</a> or <a href="https://www.win-rar.com/download.html?L=0" target="_blank">WinRAR</a>.</p></li>
 <li><p class="" style="white-space:pre-wrap;"><a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" target="_blank">The latest version of Microsoft’s Visual C++.</a> (You’ll need both the <a href="https://i.imgur.com/GD6QJeu.png" target="_blank">32-bit</a> <em>and </em>the <a href="https://imgur.com/a/P76cONh" target="_blank">64-bit</a> versions.)</p></li>
