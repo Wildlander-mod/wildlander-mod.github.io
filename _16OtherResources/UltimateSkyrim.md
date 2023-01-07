@@ -27,7 +27,7 @@ Welcome to _Ultimate Skyrim_, and thank you for your interest in the project! Th
 
 <div class="minimum-specs">
 	<div class="specs">
-		<p class="section">**Recommended Specs:** </p>
+		<p class="section"><Strong>Recommended Specs:</Strong> </p>
 		<div class="component">
 			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60" style="filter: contrast(45%) brightness(200%);"> <span> GeForce GTX 970 or higher</span>
 		</div>	
@@ -40,7 +40,7 @@ Welcome to _Ultimate Skyrim_, and thank you for your interest in the project! Th
 	</div>	
 	
 	<div class="specs">
-		<p class="section">**Minimum Specs:** </p>
+		<p class="section"><Strong>Minimum Specs:</Strong> </p>
 		<div class="component">
 			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7f75119b40ca_gpu_gray.svg" loading="lazy" alt="Grey GPU icon" width="60">
 			<span> GeForce GTX 660 or equivalent</span>
