@@ -19,7 +19,7 @@ description: Ultimate Skyrim Installation Guide
 
 <p class="" style="white-space:pre-wrap;">Welcome to <em>Ultimate Skyrim</em>, and thank you for your interest in the project! This page will guide you through the install process.
   
-<p class="" style="white-space:pre-wrap;"><strong><em>Ultimate Skyrim</em> requires <em>Skyrim </em>Classic Edition with all DLC’s</strong>, otherwise known as <strong><em>Skyrim Legendary Edition</em>. </strong><a href="https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-legendary-edition" target="_blank">You can purchase this edition here</a></p></div>
+<p class="" style="white-space:pre-wrap;"><strong><em>Ultimate Skyrim</em> requires <em>Skyrim </em>Classic Edition with all DLC’s</strong>, otherwise known as <strong><em>Skyrim Legendary Edition</em>. </strong><a href="https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-legendary-edition" target="_blank">You can purchase this edition here</a></p>
 
 {: .important}
 > Ultimate Skyrim is no longer supported or under development, if the list breaks, this guide will disappear. 
@@ -66,7 +66,7 @@ There are a few things you’ll need before we begin. Please ensure that you hav
 <li><p class="" style="white-space:pre-wrap;">A clean, <strong>ENGLISH </strong>version of <em>Skyrim </em>installed through Steam, <a href="https://i.imgur.com/nFkzKu7.jpg" target="_blank">as shown here</a>. (Non-English versions unfortunately crash the game.)</p></li>
 <li><p class="" style="white-space:pre-wrap;">The <strong>GamePass </strong>version of <em>Skyrim </em>is unfortunately not compatible at this time.</p></li></ul>
 
-<p class="" style="white-space:pre-wrap;">We also highly recommend a <a href="https://forums.nexusmods.com/index.php?%2Fstore%2Fcategory%2F1-premium-membership%2F">Nexus Premium membership</a> for automating the download process. This feature is controlled by <em>NexusMods</em> - <em>Ultimate Skyrim </em>is not affiliated.</p></div>
+<p class="" style="white-space:pre-wrap;">We also highly recommend a <a href="https://forums.nexusmods.com/index.php?%2Fstore%2Fcategory%2F1-premium-membership%2F">Nexus Premium membership</a> for automating the download process. This feature is controlled by <em>NexusMods</em> - <em>Ultimate Skyrim </em>is not affiliated.</p>
 
 Once that’s squared away, we can begin!
 
@@ -78,12 +78,13 @@ The first task is to run <em>Skyrim </em>through Steam, which will prepare your 
 <li><p class="" style="white-space:pre-wrap;"><a href="https://imgur.com/XI0wjdr" target="_blank">Launch “<em>The Elder Scrolls V: Skyrim</em>”</a> from your Steam library.</p></li>
 <li><p class="" style="white-space:pre-wrap;">When the launcher offers to auto-detect your settings, <a href="https://imgur.com/a/ztPt9zn" target="_blank">click “OK”</a> and then <a href="https://imgur.com/a/2RCmEXT" target="_blank">dismiss the follow-up window.</a> (These settings do not matter, and will be replaced.)</p></li>
 <li><p class="" style="white-space:pre-wrap;"><a href="https://imgur.com/a/T5euYTf" target="_blank">Click “Play” to launch the game.</a></p></li>
-<li><p class="" style="white-space:pre-wrap;">Once the main menu has loaded, <a href="https://imgur.com/a/zZw5bLA">select “Quit” to return to desktop.</a></p></li></ol></div>
+<li><p class="" style="white-space:pre-wrap;">Once the main menu has loaded, <a href="https://imgur.com/a/zZw5bLA">select “Quit” to return to desktop.</a></p></li>
 
 Running the game generates files that Ultimate Skyrim needs to function. Now it's time to download & install!
 
 ## Step TWO: download & installation
-<p class="" style="white-space:pre-wrap;">Next, we’ll download &amp; install <em>Ultimate Skyrim</em> using the <em>Wabbajack</em> modlist installer<strong>. <br></strong>If you encounter any issues with the <em>Wabbajack </em>install, please visit the <a href="https://discord.gg/wabbajack" target="_blank"><em>Wabbajack </em>Discord server</a> (channel: <a href="https://imgur.com/a/YBW5xDx" title="" target="_blank">“ultimate-skyrim-support”</a>).</p><ol data-rte-list="default">
+<p class="" style="white-space:pre-wrap;">Next, we’ll download &amp; install <em>Ultimate Skyrim</em> using the <em>Wabbajack</em> modlist installer<strong>. <br></strong>If you encounter any issues with the <em>Wabbajack </em>install, please visit the <a href="https://discord.gg/wabbajack" target="_blank"><em>Wabbajack </em>Discord server</a> (channel: <a href="https://imgur.com/a/YBW5xDx" title="" target="_blank">“ultimate-skyrim-support”</a>).</p>
+	
 <li><p class="" style="white-space:pre-wrap;"><a href="https://mega.nz/file/HZl2WIhD#5WmvkefR-ZKv0NqrxbgpRWfZcbM9AikOXAZYAf1Ac9g" target="_blank">Click this link to download the install package.</a></p></li>
 <li><p class="" style="white-space:pre-wrap;">Download Manually the Wabbajack File <a href="https://build.wabbajack.org/authored_files/direct_link/Ultimate%20Skyrim.wabbajack_4b99a0c2-7207-44d7-998d-6dadaa890591" target="_blank">from here</a></p></li>
 <li><p class="" style="white-space:pre-wrap;"><a href="https://imgur.com/a/WAuTDVD" target="_blank">Open the download</a> and then <a href="https://imgur.com/a/jefvfES" target="_blank">place the “UltSky” folder</a> in the location you’d like for your <em>Ultimate Skyrim</em> install. <br><strong>It is <em>highly recommended </em>to install <em>Ultimate Skyrim</em> on a fast SSD<em>, </em>on the same drive as <em>Skyrim, </em>and NOT within the “Program Files” or “Program Files (x86) folders.</strong></p></li>
@@ -96,8 +97,8 @@ Running the game generates files that Ultimate Skyrim needs to function. Now it'
 <li><p class="" style="white-space:pre-wrap;">When installation completes, <a href="https://imgur.com/a/3ynKuVf" target="_blank">click “Install Folder” to open up the install.</a></p></li>
 <li><p class="" style="white-space:pre-wrap;"><a href="https://imgur.com/a/pUXhAKL" target="_blank">Open “Game Folder Files”</a>, and then <a href="https://imgur.com/a/1OVC0tv" target="_blank">copy all files within the folder.</a></p></li>
 <li><p class="" style="white-space:pre-wrap;">Navigate to your root “Skyrim” folder &amp; <a href="https://imgur.com/a/rkFkLHw" target="_blank">paste the files you copied.</a></p></li>
-<li><p class="" style="white-space:pre-wrap;">One of the files you pasted is called “enblocal.ini”. <a href="https://imgur.com/a/Uoxw2Tl" target="_blank">Open the file</a>, and then <a href="https://imgur.com/yfBDnJI" target="_blank">configure it according to this guide.</a></p></li></ol></div>
-</div>
+<li><p class="" style="white-space:pre-wrap;">One of the files you pasted is called “enblocal.ini”. <a href="https://imgur.com/a/Uoxw2Tl" target="_blank">Open the file</a>, and then <a href="https://imgur.com/yfBDnJI" target="_blank">configure it according to this guide.</a></p></li>
+
 
 Next up, we'll move through the "Known Issues" guide to fix some remaining bugs with the current build.
 
