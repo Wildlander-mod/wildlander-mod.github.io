@@ -5,7 +5,7 @@ nav_order: 5
 description: Mod Suggestions Trello Board
 ---
 
-[Direct Link](https://trello.com/b/jQFlf7nY/suggested-mods){: .btn .btn-pink }
+<a class="btn btn-pink" href="https://trello.com/b/jQFlf7nY/suggested-mods" target="_blank" rel="noopener noreferrer">Direct Link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 
 ### Trello Board

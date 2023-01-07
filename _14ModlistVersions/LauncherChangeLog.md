@@ -5,7 +5,7 @@ nav_order: 3
 description: Launcher change log
 ---
 
-[Direct Link](https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md){: .btn .btn-pink }
+<a class="btn btn-pink" href="https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">Direct Link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 <div> 
 

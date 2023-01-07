@@ -6,7 +6,8 @@ description: Alchemy Ingredient effect lists
 ---
 
 Alchemy Tab on the crafting spreadsheet also includes useful information 
-[Alchemy tab]((https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=243189268){: .btn .btn-pink }
+
+<a class="btn btn-pink" href="(https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=243189268" target="_blank" rel="noopener noreferrer">Alchemy tab <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 
 # Damage

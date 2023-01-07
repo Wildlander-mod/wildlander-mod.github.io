@@ -31,7 +31,7 @@ Marksman /  Smithing / Illusion / Alchemy / Sneak / Lockpicking
 
 # Perks
 
-[Perk build](https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAEpDwAZUAUFBQUFSwVLClAFCgVkS1oFAAkBCOrgAAAAAAAAAAAHAAD2MB_4AAAAAABw58AFAAAE)
+<a href="https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAEpDwAZUAUFBQUFSwVLClAFCgVkS1oFAAkBCOrgAAAAAAAAAAAHAAD2MB_4AAAAAABw58AFAAAE" target="_blank" rel="noopener noreferrer">Perk build <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 # Level ups
 

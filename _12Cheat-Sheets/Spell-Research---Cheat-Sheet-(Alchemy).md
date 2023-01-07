@@ -40,7 +40,7 @@ You can either select "Analyze Liquids", which will have you perform some tests 
 
 You can also select "Mix Ingredients". This will allow to mix together three of these liquids to create alchemical ingredients (elixirs) to be used in the vanilla alchemy system. You can also create rare vanilla ingredients and other useful materials if you find the required materials.
 
-Liquids can be mixed into potent elixirs (a type of ingredient), and different salts, e.g. void/fire/frost salts. Please see the [Elixers cheat sheet](http://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixers)/) for recipes
+Liquids can be mixed into potent elixirs (a type of ingredient), and different salts, e.g. void/fire/frost salts. Please see the [Elixirs cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)/) for recipes
 
 If you manage to find the right recipes (or use the cheat sheet) you can mass produce a large amount of powerful potions.
 
@@ -143,4 +143,4 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
 
 **In Progress Effects and Ingredient Spreadsheet**
 
-[Link](https://docs.google.com/spreadsheets/d/1sNWiM32s9iA1pUlxBmPh13sd1e2DYMjHn17gqjkvO0U/edit?usp=sharing){: .btn .btn-pink }
+<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1sNWiM32s9iA1pUlxBmPh13sd1e2DYMjHn17gqjkvO0U/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>

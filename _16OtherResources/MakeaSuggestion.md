@@ -6,7 +6,7 @@ description: Make A Mod Suggestion
 ---
 
 {: .important}
-> Please search https://trello.com/b/jQFlf7nY/suggested-mods to see if the mod you want to suggest has already been suggested!
+> Please search <a href="https://trello.com/b/jQFlf7nY/suggested-mods " target="_blank" rel="noopener noreferrer">https://trello.com/b/jQFlf7nY/suggested-mods  <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> to see if the mod you want to suggest has already been suggested!
 
 Notes:
 * Skyrim Together Reborn is not compatible so please, please, please stop suggesting it.

@@ -37,7 +37,7 @@ Speech (2 perks, Indomitable Force) / Block (when perks availale)
 
 # Perks
 
-[Perk Tree](https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAElJAAAUAUKBQVLCksFBVAKBQVkBQVLEAYNDergAAAAAAAAAA_wAw4AABQ4AAAAAABH6AAFH4HE)
+<a href="https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAElJAAAUAUKBQVLCksFBVAKBQVkBQVLEAYNDergAAAAAAAAAA_wAw4AABQ4AAAAAABH6AAFH4HE" target="_blank" rel="noopener noreferrer">Perk Tree <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 Note: Morrowind Smithing is not required but the Perk tree site forces it for orcish (a Requirement Wildlander removes)
 
