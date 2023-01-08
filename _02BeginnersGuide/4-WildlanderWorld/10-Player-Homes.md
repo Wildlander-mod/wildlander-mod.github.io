@@ -266,3 +266,5 @@ Once you use the item from your inventory, it becomes placed in the world at you
 
 You can use the following image as a guide for the controls to move items to where you want them.
 
+![image](https://user-images.githubusercontent.com/26418143/211219744-ee1cfc67-45e6-4b04-927e-b58f5b77cdb4.png)
+
