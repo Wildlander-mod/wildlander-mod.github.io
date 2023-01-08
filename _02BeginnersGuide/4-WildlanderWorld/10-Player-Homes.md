@@ -21,8 +21,22 @@ parent: Player Homes
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Breezehome TNF - Trapdoors of Whiterun SE <a href='https://www.nexusmods.com/skyrimspecialedition/mods/20281'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/20281'> Breezehome TNF - Trapdoors of Whiterun SE</a></dd>
 </dl>
+
+Purchase List :
+Loft-------------Blacksmith workshop(basement area ), Alchemy Lab(basement area), Enchanting table(basement area), Loft armory area, Trophy room(basement area)
+Bedroom----------Main bedroom, Underground hot spring
+Living room------Living room, Porch
+Alchemy Lab------Extra room with 2 beds for followers
+Child's room-----Child's room
+Become thane-----Housecarl room(automatically) 
+
+Notes:
+* Oven & cooking pot area near the dining area.
+* Alchemy & enchanting table down in the smithing room because climbing up and down the narrow stairs to enchant every shiny new weapon I crafted or to brew some smithing/enchantment enhancing potions only to find Lydia blocking my path was rather annoying. Now you can test the weapons on her straight away. 
+* The Basement now contains a Bathroom right at the end of the corridor
+* The Loft area as Planters for growing herbs
 
 
 ### Honeyside - Riften
@@ -33,12 +47,23 @@ parent: Player Homes
   <dt>Post-Thane Cost</dt>
   <dd>11250</dd>
   <dt>How to Obtain Thane</dt>
-  <dd></dd>
+  <dd>The quest can be started at the Fishery outside Riften; look for an Argonian woman, Wujeeta, working inside the Fishery. However, you need not contact her at the Fishery to start the quest since she can be contacted outside work hours to initiate the quest as well.
+
+Note that the Jarl will not even mention selling the house until you have completed the associated quests Helping Hand, The Raid and Supply and Demand, and also built a reputation with Riften citizens by doing a few miscellaneous quests for the people of the town (see I Done Got Thaned! for details). Honeyside must be purchased from her steward Anuriel in order to complete the quest and receive the title of Thane of Riften.
+
+Alternatively, if you give Riften to the Empire during Season Unending or conquer it during Reunification of Skyrim, Honeyside can be purchased from Hemming Black-Briar without having to complete or begin the quests for the Jarl.</dd>
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Honeyside TNF - By Goatk <a href='https://www.nexusmods.com/skyrimspecialedition/mods/4935'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/4935'>Honeyside TNF - By Goatk</a></dd>
 </dl>
+
+Purchase List :
+Bedroom----------Main bedroom, Armory area
+AlchemyLab-------Alchemy table, Small Library
+Garden-----------Garden with planters, Blacksmith workshop, Bath Room
+Porch------------Porch with planters, Trophy stands
+Become thane-----Housecarl room(automatically)
 
 ### Vlindrel Hall - Markarth
 
@@ -48,12 +73,21 @@ parent: Player Homes
   <dt>Post-Thane Cost</dt>
   <dd>26250</dd>
   <dt>How to Obtain Thane</dt>
-  <dd> then return to Jarl for standard "help people of my hold quest" </dd>
+  <dd> If Igmund is Jarl, you must complete Kill the Forsworn Leader, followed by Dungeon Delving, the latter of which requires you to be at least level 20. If Thongvor Silver-Blood becomes Jarl, either due to the events of The Battle for Fort Sungard or Season Unending, he will grant you permission to buy it out of gratitude for your efforts in making him Jarl.  </dd>
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Vlindrel Hall TNF SSE Port <a href='https://www.nexusmods.com/skyrimspecialedition/mods/10527'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/10527'>Vlindrel Hall TNF SSE Port</a></dd>
 </dl>
+
+Purchase List: 
+Living room-----Kitchen, Dining table, Small librry, bar 
+Bedroom---------Main bedroom, Bath Room 
+EnchantLab------Enchant table, Armory area, Blacksmith workshop 
+Hallway---------Hallway, Trophy stands, Planters
+AlchemyLab------AlchemyLab
+Childroom-------Childroom, Alchemy workbench
+Become thane----Housecarl room(automatically) 
 
 ### Severin Manor - Raven Rock
 
@@ -61,13 +95,13 @@ parent: Player Homes
   <dt>Pre-Thane Cost</dt>
   <dd> N/A </dd>
   <dt>Post-Thane Cost</dt>
-  <dd></dd>
-  <dt>How to Obtain Thane</dt>
-  <dd> </dd>
+  <dd>N/A</dd>
+  <dt>How to Obtain </dt>
+  <dd>Completing the quest Served Cold. </dd>
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Severin Manor (No Portals or General Stores)|<a href='https://www.nexusmods.com/skyrimspecialedition/mods/9096'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/9096'>Severin Manor (No Portals or General Stores)</a></dd>
 </dl>
 
 ### Hjerim - Windhelm
@@ -82,10 +116,18 @@ parent: Player Homes
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Hjerim TNF - SSE Port <a href='https://www.nexusmods.com/skyrimspecialedition/mods/6248'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd> <a href='https://www.nexusmods.com/skyrimspecialedition/mods/6248'>Hjerim TNF - SSE Port</a></dd>
 </dl>
 
-
+Purchase List : 
+Living room-----Dining table, Book shelves, Bar, Bath
+Armory---------Armory, Trophy stands
+EnchantLab------Enchant table, Blacksmith workshop
+AlchemyLab------Alchemy table, Planters
+Kitchen---------Kitchen
+Bedroom---------Main bedroom
+Childroom-------Childroom
+Become thane----Housecarl room(automatically)
 
 ### Proudspire Manor - Solitude
 
@@ -99,8 +141,18 @@ parent: Player Homes
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Proudspire Manor TNF SE <a href='https://www.nexusmods.com/skyrimspecialedition/mods/12906'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/12906'>Proudspire Manor TNF SE </a></dd>
 </dl>
+
+Purchase List :
+Bedroom---------Bedroom, Small library
+Enchanting------Enchanting table, Armory area, Blacksmith workshop
+Alchemy lab-----Alchemy lab, Planters
+Living room-----Living room, Trophy pedestals, Bathroom
+Kitchen---------Kitchen, Dining area, Bar counter
+Patio-----------(out of back door)table, chairs, planters
+Childroom-------Childroom
+Become thane----Housecarl room
 
 ## Faction Homes
 
@@ -112,8 +164,13 @@ parent: Player Homes
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Obscure's College of Winterhold <a href='https://www.nexusmods.com/skyrimspecialedition/mods/20514'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/20514'>Obscure's College of Winterhold </a></dd>
 </dl>
+
+A new take on the Arch-Mage's quarters by adding the ability to transform the central dais into one of six variations, right before your eyes.  Savos Aren's default setup is a cluttered office, but once you're Arch-Mage you may transform it into a laboratory, council chamber, secret archive, heated spa, or back into the original vanilla grove.  The chamber itself has been divided into public, semi-private, and private zones, separated by newly placed locked doors.  The front lobby area is now totally public, allowing any member of the college to have access to the tower roof.  The "horseshoe" in the back is now fully private, allowing the Arch-Mage to feel undisturbed at home.  This private space includes many player-home features, such as weapon racks and mounts, a mannequin, a hearth with cooking pot, bookshelves, and additional storage space.
+• The laboratory variation features an Alchemy lab, an Enchanting table, a dis-enchanter, a Staff Enchanter, and some storage.
+• NPCs will undress when entering the heated spa.  Bring your friends!
+• If you Choose Your Own Arch-Mage they will select one of the six variations for themselves.
 
 ### Dark Brotherhood - Dawnstar
 
@@ -126,7 +183,8 @@ parent: Player Homes
   <dd>Dark Brotherhood Reborn - Dawnstar Sanctuary SSE|<a href='https://www.nexusmods.com/skyrimspecialedition/mods/22070'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
 </dl>
 
-### 
+Not every super cool assassin organization wants to live in a filthy dark damp hole in the ground that has no real storage and not enough beds for everybody. Its time for the Sanctuary to become a proper base of operations, more storage space, more crafting stations, and a working shrine to Sithis. 
+
 
 ## Hearthfire Homes
 
@@ -201,7 +259,7 @@ Hearthfire Extended allows you to build and place furniture anywhere, not just h
 **Furniture crafting**
 A special new carpenter's workbench allows you to make furniture that you can place anywhere. You can build this workbench in your basement, craft one at the regular workbench outside your homestead to place anywhere, or find one in the warehouses in Windhelm and Riften.
 
-**Placing Furnature**
+**Placing Furniture**
 This requires the use of a mod included in the pack called Jaxon's positioner.
 
 Once you use the item from your inventory, it becomes placed in the world at your feet. 
