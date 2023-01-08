@@ -48,13 +48,7 @@ Class build Guide - each of https://docs.google.com/document/d/1cNxdbVA-1_Zdtsb1
 Add more pictures for clarification and/or ease of identification where appropriate.
 
 ---
-Rewrite Spell research(Spells) table so its 
-
-1) broken into sections by school
-2) the archtypes are broken into columns for elements spell level, Technique, target, cast type
-3) Add any other missing spells
-
-Maintainable! this page is a wall of HTML
+Spell research(Spells) table -  Add any other missing spells
 
 Spell research(Alchemy)
 1) Add fish
