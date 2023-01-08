@@ -4,7 +4,7 @@ title: Player Homes
 nav_order: 10
 has_toc: true
 has_children: false
-parent: Player Homes
+parent: Wildlander World
 ---
 
 ## Standard Homes
