@@ -136,9 +136,9 @@ Armory|Armory, Trophy stands
 EnchantLab|Enchant table, Blacksmith workshop
 AlchemyLab|Alchemy table, Planters
 Kitchen|Kitchen
-Bedroom---------Main bedroom
-Childroom-------Childroom
-Become thane----Housecarl room(automatically)
+Bedroom|Main bedroom
+Childroom|Childroom
+Become thane|Housecarl room(automatically)
 
 -------
 
