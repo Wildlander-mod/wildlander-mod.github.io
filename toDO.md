@@ -28,12 +28,20 @@ Summons guide - kinda like the enemy guide but for player cast summons (or NPC c
 
 ---
 
-Deep Dives
-* FLP
+Houses guide
+* changes from vanilla
+* Costs
+* screenshots of various rooms
+* Use of Jaxon's and hearthfire extended to enable decoration.
 
 ---
 
-Class build Guide
+Deep Dives
+* FLP 
+
+---
+
+Class build Guide - each of https://docs.google.com/document/d/1cNxdbVA-1_Zdtsb1Bmxv1ffQ5jNCPcVOW-mwgAyIx_A/edit#heading=h.hxtgddckas1 need adding where appropriate for Wildlander (some arent as they rely on mods we dont use)
 
 ---
 
@@ -44,7 +52,7 @@ Rewrite Spell research(Spells) table so its
 
 1) broken into sections by school
 2) the archtypes are broken into columns for elements spell level, Technique, target, cast type
-3) Add Frostfall (and any other missing spells)
+3) Add any other missing spells
 
 Maintainable! this page is a wall of HTML
 
