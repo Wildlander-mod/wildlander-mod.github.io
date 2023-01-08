@@ -164,7 +164,7 @@ Enchanting|Enchanting table, Armory area, Blacksmith workshop
 Alchemy lab|Alchemy lab, Planters
 Living room|Living room, Trophy pedestals, Bathroom
 Kitchen|Kitchen, Dining area, Bar counter
-Patio|out of back door)table, chairs, planters
+Patio|(out of back door)table, chairs, planters
 Childroom|Childroom
 Become thane|Housecarl room
 
