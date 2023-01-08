@@ -25,12 +25,13 @@ parent: Player Homes
 </dl>
 
 Purchase List :
-Loft-------------Blacksmith workshop(basement area ), Alchemy Lab(basement area), Enchanting table(basement area), Loft armory area, Trophy room(basement area)
-Bedroom----------Main bedroom, Underground hot spring
-Living room------Living room, Porch
-Alchemy Lab------Extra room with 2 beds for followers
-Child's room-----Child's room
-Become thane-----Housecarl room(automatically) 
+
+Loft|Blacksmith workshop(basement area ), Alchemy Lab(basement area), Enchanting table(basement area), Loft armory area, Trophy room(basement area)
+Bedroom|Main bedroom, Underground hot spring
+Living room|Living room, Porch
+Alchemy Lab|Extra room with 2 beds for followers
+Child's room|Child's room
+Become thane|Housecarl room(automatically) 
 
 Notes:
 * Oven & cooking pot area near the dining area.
@@ -59,11 +60,12 @@ Alternatively, if you give Riften to the Empire during Season Unending or conque
 </dl>
 
 Purchase List :
-Bedroom----------Main bedroom, Armory area
-AlchemyLab-------Alchemy table, Small Library
-Garden-----------Garden with planters, Blacksmith workshop, Bath Room
-Porch------------Porch with planters, Trophy stands
-Become thane-----Housecarl room(automatically)
+
+Bedroom|Main bedroom, Armory area
+AlchemyLab|Alchemy table, Small Library
+Garden|Garden with planters, Blacksmith workshop, Bath Room
+Porch|Porch with planters, Trophy stands
+Become thane|Housecarl room(automatically)
 
 ### Vlindrel Hall - Markarth
 
@@ -81,13 +83,14 @@ Become thane-----Housecarl room(automatically)
 </dl>
 
 Purchase List: 
-Living room-----Kitchen, Dining table, Small librry, bar 
-Bedroom---------Main bedroom, Bath Room 
-EnchantLab------Enchant table, Armory area, Blacksmith workshop 
-Hallway---------Hallway, Trophy stands, Planters
-AlchemyLab------AlchemyLab
-Childroom-------Childroom, Alchemy workbench
-Become thane----Housecarl room(automatically) 
+
+Living room|Kitchen, Dining table, Small librry, bar 
+Bedroom|Main bedroom, Bath Room 
+EnchantLab|Enchant table, Armory area, Blacksmith workshop 
+Hallway|Hallway, Trophy stands, Planters
+AlchemyLab|AlchemyLab
+Childroom|Childroom, Alchemy workbench
+Become thane|Housecarl room(automatically) 
 
 ### Severin Manor - Raven Rock
 
@@ -119,12 +122,13 @@ Become thane----Housecarl room(automatically) 
   <dd> <a href='https://www.nexusmods.com/skyrimspecialedition/mods/6248'>Hjerim TNF - SSE Port</a></dd>
 </dl>
 
-Purchase List : 
-Living room-----Dining table, Book shelves, Bar, Bath
-Armory---------Armory, Trophy stands
-EnchantLab------Enchant table, Blacksmith workshop
-AlchemyLab------Alchemy table, Planters
-Kitchen---------Kitchen
+Purchase List :
+
+Living room|Dining table, Book shelves, Bar, Bath
+Armory|Armory, Trophy stands
+EnchantLab|Enchant table, Blacksmith workshop
+AlchemyLab|Alchemy table, Planters
+Kitchen|Kitchen
 Bedroom---------Main bedroom
 Childroom-------Childroom
 Become thane----Housecarl room(automatically)
@@ -145,14 +149,15 @@ Become thane----Housecarl room(automatically)
 </dl>
 
 Purchase List :
-Bedroom---------Bedroom, Small library
-Enchanting------Enchanting table, Armory area, Blacksmith workshop
-Alchemy lab-----Alchemy lab, Planters
-Living room-----Living room, Trophy pedestals, Bathroom
-Kitchen---------Kitchen, Dining area, Bar counter
-Patio-----------(out of back door)table, chairs, planters
-Childroom-------Childroom
-Become thane----Housecarl room
+
+Bedroom|Bedroom, Small library
+Enchanting|Enchanting table, Armory area, Blacksmith workshop
+Alchemy lab|Alchemy lab, Planters
+Living room|Living room, Trophy pedestals, Bathroom
+Kitchen|Kitchen, Dining area, Bar counter
+Patio|out of back door)table, chairs, planters
+Childroom|Childroom
+Become thane|Housecarl room
 
 ## Faction Homes
 
