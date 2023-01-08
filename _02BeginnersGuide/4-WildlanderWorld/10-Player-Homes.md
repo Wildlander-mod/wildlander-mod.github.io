@@ -39,6 +39,7 @@ Notes:
 * The Basement now contains a Bathroom right at the end of the corridor
 * The Loft area as Planters for growing herbs
 
+-------
 
 ### Honeyside - Riften
 
@@ -67,6 +68,8 @@ Garden|Garden with planters, Blacksmith workshop, Bath Room
 Porch|Porch with planters, Trophy stands
 Become thane|Housecarl room(automatically)
 
+-------
+
 ### Vlindrel Hall - Markarth
 
 <dl>
@@ -92,6 +95,8 @@ AlchemyLab|AlchemyLab
 Childroom|Childroom, Alchemy workbench
 Become thane|Housecarl room(automatically) 
 
+-------
+
 ### Severin Manor - Raven Rock
 
 <dl>
@@ -106,6 +111,8 @@ Become thane|Housecarl room(automatically) 
   <dt>Mod used to change</dt>
   <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/9096'>Severin Manor (No Portals or General Stores)</a></dd>
 </dl>
+
+-------
 
 ### Hjerim - Windhelm
 
@@ -133,6 +140,8 @@ Bedroom---------Main bedroom
 Childroom-------Childroom
 Become thane----Housecarl room(automatically)
 
+-------
+
 ### Proudspire Manor - Solitude
 
 <dl>
@@ -159,6 +168,8 @@ Patio|out of back door)table, chairs, planters
 Childroom|Childroom
 Become thane|Housecarl room
 
+-------
+
 ## Faction Homes
 
 ### Archmage's Quarters - College of winterhold
@@ -177,6 +188,8 @@ A new take on the Arch-Mage's quarters by adding the ability to transform the ce
 • NPCs will undress when entering the heated spa.  Bring your friends!
 • If you Choose Your Own Arch-Mage they will select one of the six variations for themselves.
 
+-------
+
 ### Dark Brotherhood - Dawnstar
 
 <dl>
@@ -185,7 +198,7 @@ A new take on the Arch-Mage's quarters by adding the ability to transform the ce
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
-  <dd>Dark Brotherhood Reborn - Dawnstar Sanctuary SSE|<a href='https://www.nexusmods.com/skyrimspecialedition/mods/22070'><img src='http://wiki.wildlandermod.com/Assets/NexusLink.png'></a></dd>
+  <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/22070'>Dark Brotherhood Reborn - Dawnstar Sanctuary SSE</a></dd>
 </dl>
 
 Not every super cool assassin organization wants to live in a filthy dark damp hole in the ground that has no real storage and not enough beds for everybody. Its time for the Sanctuary to become a proper base of operations, more storage space, more crafting stations, and a working shrine to Sithis. 
@@ -197,7 +210,7 @@ Once the main building or a wing has been constructed, an interior workbench can
 
 NOTE: You must leave your home for at least 30 days for the steward to decorate. Returning before this time will reset the timer.
 
-** Expanded Cellar **
+**Expanded Cellar**
 Choose from just one extra room or a hallway leading to two other wings. With a choice of 5 different room designs, and more still to come, there's definitely one to suit every playthrough:
 - Main hall with desk, shelves and a choice of alchemy lab or arcane enchanter
 - Brewery with brewers and barrels (North wing)
