@@ -57,12 +57,18 @@ Transmute: Wood|Alteration|Fire & Forget|Expert |Actor |Transform|Nature |
 
 Spell|School|Cast Type|Spell Level|Target|Technique|Elements|Notes
 --|--|--|--|--|--|--|--|
+Banish Daedra (Rank I) |Conjuration |Fire & Forget|Adept |Self <br> Location|Summoning| Daedra |
 Banish Daedra (Rank II) |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning|Daedra |
 Bound Axe |Conjuration|Fire & Forget|Apprentice |Self |Summoning <br> Transform |Daedra <br> Soul <br> Weapon |
 Bound Bow |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning <br> Transform |Daedra <br> Soul <br> Weapon |
 Bound Sword |Conjuration|Fire & Forget|Novice |Self |Summoning <br> Transform |Daedra <br> Soul <br> Weapon |
+Bound Cloak (Rank I)|Conjuration |Fire & Forget|Apprentice |Self|Summoning|Armor <br> Daedra <br> Soul |
+Bound Cloak (Rank 2)|Conjuration |Fire & Forget|Adept |Self|Summoning|Armor <br> Daedra <br> Soul |
+Conjure Shelter (Rank I)|Conjuration |Fire & Forget|Expert |Actor <br> Location |Summoning|Construct <br> Nature <br> Soul |
+Conjure Shelter (Rank 2)|Conjuration |Fire & Forget|Master|Actor <br> Location |Summoning|Construct <br> Nature <br> Soul|
 Command Daedra |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning <br> Control|Daedra |
 Mark & Recall |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning||
+Raise Dead (Rank I) |Conjuration |Fire & Forget|Novice |Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Human <br> Soul <br> Undead |
 Raise Dead (Rank II) |Conjuration|Fire & Forget|Apprentice |Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Human <br> Soul <br> Undead |
 Raise Dead (Rank III) |Conjuration|Fire & Forget|Adept|Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Soul <br> Undead |
 Raise Dead (Rank IV) |Conjuration|Fire & Forget|Expert |Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Human <br> Soul <br> Undead |
@@ -77,6 +83,7 @@ Summon Arvak |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning|Cr
 Summon Dremora Archer |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra |
 Summon Dremora Archmage |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra |
 Summon Dremora Lord |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra |
+Summon Flame Atronach |Conjuration |Fire & Forget|Adept |Self <br> Location|Control <br> Summoning|Daedra <br> Fire |
 Summon Flame Thrall |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra <br> Fire |Cannot be discovered via Spell research 
 Summon Flaming Familiar |Conjuration|Fire & Forget|Apprentice |Self <br> Location |Control|Creature <br> Fire <br> Soul |
 Summon Frost Atronach |Conjuration|Fire & Forget|Adept |Self <br> Location |Summoning <br> Control|Daedra <br> Frost |
@@ -104,70 +111,60 @@ Summon Swarm (Rank II) |Conjuration|Concentration|Apprentice |Self |Control <br>
 Summon Unbound Dremora |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning|Daedra |Cannot be discovered via Spell research 
 Teleport |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning||
 Teleport Vitals |Conjuration|Fire & Forget|Expert |Self |Summoning|Flesh |
-Banish Daedra (Rank I) |Conjuration |Fire & Forget|Adept |Self <br> Location|Summoning| Daedra |
-Bound Cloak (Rank 2)|Conjuration |Fire & Forget|Adept |Self|Summoning|Armor <br> Daedra <br> Soul |
-Bound Cloak (Rank I)|Conjuration |Fire & Forget|Apprentice |Self|Summoning|Armor <br> Daedra <br> Soul |
-Conjure Shelter (Rank 2)|Conjuration |Fire & Forget|Master|Actor <br> Location |Summoning|Construct <br> Nature <br> Soul|
-Conjure Shelter (Rank I)|Conjuration |Fire & Forget|Expert |Actor <br> Location |Summoning|Construct <br> Nature <br> Soul |
-Raise Dead (Rank I) |Conjuration |Fire & Forget|Novice |Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Human <br> Soul <br> Undead |
-Summon Flame Atronach |Conjuration |Fire & Forget|Adept |Self <br> Location|Control <br> Summoning|Daedra <br> Fire |
 
 ## Destruction
 
 Spell|School|Cast Type|Spell Level|Target|Technique|Elements|Notes
 --|--|--|--|--|--|--|--|
+Arcane Missile |Destruction |Fire & Forget|Adept |Self || Arcane |
 Arcane Volley |Destruction|Concentration|Master |Self ||Arcane |
 Arcane Vortex |Destruction|Concentration|Master |Self <br> AOE||Arcane |
+Fade Other |Destruction |Fire & Forget|Adept|Self | Infuse |Fire <br> Flesh |
+Fiery Grasp |Destruction |Fire & Forget|Adept|Self | Infuse |Fire <br> Flesh |
+Fireball |Destruction |Fire & Forget|Adept |Self <br> AOE|| Fire |
+Firebolt |Destruction |Fire & Forget|Apprentice |Actor||Fire |
 Firenova |Destruction|Fire & Forget|Expert |Self <br> AOE|| Fire |
+Firerune (Rank I) |Destruction |Fire & Forget|Apprentice |AOE <br> Location|| Construct <br>  Fire <br>  Trap |
+Firerune (Rank II) |Destruction |Concentration|||||Cannot be Researched, Cannot be discovered via Spell research 
 Fireshock |Destruction|Concentration|Expert |AOE|Telekinesis|Fire |
 Firesparks |Destruction|Concentration|Novice |Self ||Fire |
 Firestorm |Destruction|Fire & Forget|Master |AOE|| Fire |
 Firestrike |Destruction|Fire & Forget|Master |Self <br> AOE|| Fire |
 Firewall |Destruction|Concentration|Expert |Self <br> Location||Fire <br> Trap |
+Flame Cloak |Destruction |Fire & Forget|Adept |AOE|Cloak | Fire |
+Frost Cloak |Destruction |Fire & Forget|Adept |Self |Cloak | Frost |
+Icerune (Rank I) |Destruction |Fire & Forget|Apprentice |AOE <br>Location|| Construct <br>  Frost <br>  Trap |
+Icerune (Rank II) |Destruction |Concentration|||||Cannot be Researched, Cannot be discovered via Spell research 
+Icesphere |Destruction |Fire & Forget|Adept |Self <br> AOE|| Frost |
 Iceshock |Destruction|Concentration|Expert |Self |Telekinesis|Frost <br> Shock |
 Icestorm |Destruction|Fire & Forget|Master |AOE|| Frost |
 Icewall |Destruction|Concentration|Expert |Self <br> Location||Frost <br> Trap |
 Icewind |Destruction|Concentration|Novice |Self ||Frost |
+Icy Grasp |Destruction |Fire & Forget|Adept|AOE| Infuse |Flesh <br> Frost |
 Icy Lance |Destruction|Fire & Forget|Expert |Self || Frost |
+Icy Shard |Destruction |Fire & Forget|Apprentice |Self || Frost |
 Incinerate |Destruction|Fire & Forget|Expert |Self || Fire |
+Lightning Bolt |Destruction |Fire & Forget|Apprentice |Self || Shock |
 Lightning Cascade |Destruction|Fire & Forget|Master |Self |Telekinesis <br> Control|Air <br> Shock |
+Lightning Cloak |Destruction |Fire & Forget|Adept |Self || Shock |
+Lightning Grasp |Destruction |Fire & Forget|Adept|Self |Cloak |Flesh <br> Shock |
+Lightning Jolt |Destruction |Fire & Forget|Apprentice |Self |Telekinesis|Shock |
 Lightning Ray |Destruction|Concentration|Expert |Self ||Shock |
+Lightning Rune (Rank I) |Destruction |Fire & Forget|Apprentice |AOE <br>Location|| Construct <br>  Shock <br>  Trap |
+Lightning Rune (Rank II) |Destruction ||||||Cannot be Researched, Cannot be discovered via Spell research 
+Lightning Shackles |Destruction |Fire & Forget|Adept |Self <br> AOE|| Shock |
 Lightning Sparks |Destruction|Concentration|Novice |Self ||Shock |
 Lightning Strike |Destruction|Fire & Forget|Expert |Self || Shock |
 Lightning Vortex |Destruction|Concentration|Master |Self ||Shock |
 Lightning Wall |Destruction|Concentration|Expert |Self <br> Location||Shock <br> Trap |
+Snow Spume |Destruction |Fire & Forget|Adept |Self <br> AOE|| Frost |
 Steam Cloud |Destruction|Concentration|Adept |AOE||Fire <br> Water |
 Vapor Blast|Destruction|Fire & Forget|Adept |Actor |Transform|Air <br> Fire <br> Water |
 Venomous Blast |Destruction|Fire & Forget|Expert |Self || Poison |
+Venomous Grasp |Destruction |Fire & Forget|Adept|Self | Infuse |Flesh <br> Poison |
 Venomous Shock |Destruction|Concentration|Master |Self |Telekinesis|Poison |
 Venomous Spray |Destruction|Concentration|Adept |Self ||Poison |
 Venomous Storm |Destruction|Fire & Forget|Master |Self <br> AOE|| Poison |
-Arcane Missile |Destruction |Fire & Forget|Adept |Self || Arcane |
-Fade Other |Destruction |Fire & Forget|Adept|Self | Infuse |Fire <br> Flesh |
-Fiery Grasp |Destruction |Fire & Forget|Adept|Self | Infuse |Fire <br> Flesh |
-Fireball |Destruction |Fire & Forget|Adept |Self <br> AOE|| Fire |
-Firebolt |Destruction |Fire & Forget|Apprentice |Actor||Fire |
-Firerune (Rank I) |Destruction |Fire & Forget|Apprentice |AOE
-Location|| Construct <br>  Fire <br>  Trap |
-Firerune (Rank II) |Destruction |Concentration|||||Cannot be Researched, Cannot be discovered via Spell research 
-Flame Cloak |Destruction |Fire & Forget|Adept |AOE|Cloak | Fire |
-Frost Cloak |Destruction |Fire & Forget|Adept |Self |Cloak | Frost |
-Icerune (Rank I) |Destruction |Fire & Forget|Apprentice |AOE
-Location|| Construct <br>  Frost <br>  Trap |
-Icerune (Rank II) |Destruction |Concentration|||||Cannot be Researched, Cannot be discovered via Spell research 
-Icesphere |Destruction |Fire & Forget|Adept |Self <br> AOE|| Frost |
-Icy Grasp |Destruction |Fire & Forget|Adept|AOE| Infuse |Flesh <br> Frost |
-Icy Shard |Destruction |Fire & Forget|Apprentice |Self || Frost |
-Lightning Bolt |Destruction |Fire & Forget|Apprentice |Self || Shock |
-Lightning Cloak |Destruction |Fire & Forget|Adept |Self || Shock |
-Lightning Grasp |Destruction |Fire & Forget|Adept|Self |Cloak |Flesh <br> Shock |
-Lightning Jolt |Destruction |Fire & Forget|Apprentice |Self |Telekinesis|Shock |
-Lightning Rune (Rank I) |Destruction |Fire & Forget|Apprentice |AOE
-Location|| Construct <br>  Shock <br>  Trap |
-Lightning Rune (Rank II) |Destruction ||||||Cannot be Researched, Cannot be discovered via Spell research 
-Lightning Shackles |Destruction |Fire & Forget|Adept |Self <br> AOE|| Shock |
-Snow Spume |Destruction |Fire & Forget|Adept |Self <br> AOE|| Frost |
-Venomous Grasp |Destruction |Fire & Forget|Adept|Self | Infuse |Flesh <br> Poison |
 
 ## Illusion
 
@@ -197,15 +194,14 @@ Nightmare |Illusion|Fire & Forget|Adept |Self |Fear| Apparition |
 Phantasmal Killer |Illusion|Fire & Forget|Expert |Self |Control | Human |
 Phantasmal Miasma |Illusion|Fire & Forget|Master |AOE|Fear| Human <br>  Creature |
 Phantasmal Pain |Illusion|Fire & Forget|Adept |Self || Apparition <br>  Flesh |
-Rune of Dampening |Illusion|Fire & Forget|Apprentice |AOE
-Location|Control| Air <br>  Construct |
+Rune of Dampening |Illusion|Fire & Forget|Apprentice |AOE <br> Location|Control| Air <br>  Construct |
 Shadow Sanctuary |Illusion|Fire & Forget|Master |Self |Cloak <br> Control | Human <br>  Creature <br>  Shield |
 Shadow Shield |Illusion|Fire & Forget|Adept |Self |Summoning | Shadow |
 Shadow Simulacrum |Illusion|Fire & Forget|Expert |Location|Control| Apparition <br>  Daedra <br>  Shadow |
 Shadow Stride |Illusion|Fire & Forget|Adept |Self |Summoning | Shadow |
 Soothe (Rank 1)|Illusion|Fire & Forget|Novice|Self||Fire <br> Resistance |
+Soothe (Rank 2)|Illusion|Fire & Forget|Apprentice |Self||Fire <br> Resistance |
 Soothe (Rank 3)|Illusion|Fire & Forget|Adept |Self||Fire <br> Resistance |
-Soothe (Rank II)|Illusion|Fire & Forget|Apprentice |Self||Fire <br> Resistance |
 Veil of Shadows |Illusion|Fire & Forget|Master |Self <br> AOE|Cloak | Human |
 Veil of Silence |Illusion|Fire & Forget|Expert |Self |Cloak <br> Control | Air |
 
@@ -213,28 +209,27 @@ Veil of Silence |Illusion|Fire & Forget|Expert |Self |Cloak <br> Control | Air |
 
 Spell|School|Cast Type|Spell Level|Target|Technique|Elements|Notes
 --|--|--|--|--|--|--|--|
-Arcane Disjunction (Rank II) |Restoration|Concentration|Expert |Self |Curse|Arcane <br> Resistance |
+Arcane Disjunction (Rank I) |Restoration |Fire & Forget|Adept |Self |Curse| Arcane <br>  Resistance |
+Arcane Disjunction (Rank II) |Restoration|Concentration|Expert |Actor |Curse|Arcane <br> Resistance |
 Arcane Ward (Rank I) |Restoration|Concentration|Novice |Self ||Force <br> Shield |
 Arcane Ward (Rank II) |Restoration|Concentration|Apprentice |Self ||Force <br> Shield |
 Arcane Ward (Rank III) |Restoration|Concentration|Adept |Self ||Force <br> Shield |
 Arcane Ward (Rank IV) |Restoration|Concentration|Expert |Self ||Force <br> Shield |
-Heal Self (Rank I) |Restoration|Concentration|Apprentice |Self |Curing |Health |
-Healing Hands (Rank I) |Restoration|Concentration|Apprentice |Self |Curing |Creature <br> Health <br> Human |
-Healing Ray |Restoration|Concentration|Adept |Self |Curing|Creature <br> Health <br> Human |
-Kindle|Restoration|Fire & Forget|Adept |Self||Fire <br> Nature |
-Arcane Disjunction (Rank I) |Restoration |Fire & Forget|Adept |Self |Curse| Arcane <br>  Resistance |
-Circle of Palladium |Restoration |Fire & Forget|Master |Location|Curing
-Fear| Construct <br>  Health <br>  Undead |
+Circle of Palladium |Restoration |Fire & Forget|Master |Location|Curing <br> Fear| Construct <br>  Health <br>  Undead |
 Circle of Protection |Restoration |Fire & Forget|Expert |Location|Fear| Construct <br>  Undead |
 Dispel on Self |Restoration |Fire & Forget|Adept |Self | Curing | Arcane <br>  Disease <br>  Poison |
 Dispel on Target |Restoration |Fire & Forget|Master |Self |Curing| Arcane <br>  Disease <br>  Poison |
 Dispel Soul Gems |Restoration |Fire & Forget|Apprentice |Self | Infuse |Soul |
+Heal Self (Rank I) |Restoration|Concentration|Apprentice |Self |Curing |Health |
 Heal Self (Rank II) |Restoration |Fire & Forget|Apprentice |Self | Curing | Health |
 Heal Self (Rank III) |Restoration |Fire & Forget|Adept |Self |Curing||
 Healing Aura on Self |Restoration |Fire & Forget|Novice |Self |Cloak <br> Curing | Health |
 Healing Aura on Target |Restoration |Fire & Forget|Novice |Self |Cloak <br> Curing | Health |
+Healing Hands (Rank I) |Restoration|Concentration|Apprentice |Self |Curing |Creature <br> Health <br> Human |
 Healing Hands (Rank II) |Restoration |Fire & Forget|Adept |Self |Curing| Creature <br>  Health <br>  Human |
 Healing Hands (Rank III) |Restoration |Fire & Forget|Expert |Self <br> AOE|Curing| Creature <br>  Health <br>  Human |
+Healing Ray |Restoration|Concentration|Adept |Self |Curing|Creature <br> Health <br> Human |
+Kindle|Restoration|Fire & Forget|Adept |Self||Fire <br> Nature |
 Necromantic Empowerment on Self |Restoration |Fire & Forget|Adept |Self |Curing|Health <br> Undead |
 Necromantic Empowerment on Target |Restoration |Concentration|Apprentice |Actor|Curing|Health <br> Undead |
 Powerful Healing Aura on Self |Restoration |Fire & Forget|Expert |Self |Curing| Health |
