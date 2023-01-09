@@ -7,7 +7,7 @@ description: Alchemy Ingredient effect lists
 
 Alchemy Tab on the crafting spreadsheet also includes useful information 
 
-<a class="btn btn-pink" href="(https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=243189268" target="_blank" rel="noopener noreferrer">Alchemy tab <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=243189268" target="_blank" rel="noopener noreferrer">Alchemy tab <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 
 # Damage
@@ -28,7 +28,7 @@ Source: Bear Tooth, Boar Heart, Monarch Wing, Charred Hawk Beak, Chaurus Eggs, G
 
 Decreases the target's Magicka regeneration by <mag>% for <dur> seconds.
  
-Source: Ancestor Moth Wing, Blue Butterfly Wing, Blue Mountain Flower, Burnt Spriggan Wood, Chaurus Hunter Antennae, Chicken's Egg, Glow Dust, Hanging Moss, Hawk Egg, Human Heart, Jarrin Root, Nightshade, Spider Egg, Spriggan Sap
+Source: Ancestor Moth Wing, Blue Butterfly Wing, Blue Mountain Flower, Burnt Spriggan Wood, Chaurus Hunter Antennae, Chicken's Egg, Glow Dust, Hanging Moss, Hawk Egg, Human Heart, Jarrin Root, Nightshade, Spider Egg, Spriggan Sap, Pygmy Sunfish
 
 ## Damage Maximum Health
 
@@ -70,13 +70,13 @@ Source: Boar Heart, Bonehawk Claw, Buck Antlers, Creep Cluster, Frost Mirriam, G
 
 Increases armor rating by <mag> points for <dur> seconds.
 
-Source: Ash Hopper Jelly, Bear Claws, Bear Tooth, Beehive Husk, Dragon Eye (Polished), Felsaad Tern Feathers, Fox Eye, Hawk Feathers, Honeycomb, Large Mudcrab Chitin, Luna Moth Wing, Mammoth Heart, Sabre Cat Tooth, Skeever Tail, Slaughterfish Scales, Thistle Branch, White Cap
+Source: Ash Hopper Jelly, Bear Claws, Bear Tooth, Beehive Husk, Dragon Eye (Polished), Felsaad Tern Feathers, Fox Eye, Hawk Feathers, Honeycomb, Large Mudcrab Chitin, Luna Moth Wing, Mammoth Heart, Sabre Cat Tooth, Skeever Tail, Slaughterfish Scales, Thistle Branch, White Cap, Goldfish
 
 ## Fortify Alteration
 
 Alteration spells cost <mag>% less for <dur> seconds.
  
-Source: Bear Tooth, Burnt Spriggan Wood, Grass Pod, River Betty, Spriggan Sap
+Source: Bear Tooth, Burnt Spriggan Wood, Grass Pod, River Betty, Spriggan Sap, Lyretail Anthias
  
 ## Fortify Barter
 
@@ -94,13 +94,13 @@ Source: Bleeding Crown, Boar Tusk, Briar Heart, Honeycomb, Mammoth Eye, Pearl, S
 
 Carrying capacity increases by <mag> for <dur> seconds.
  
-Source: Bull Horn, Creep Cluster, Giant's Toe, Hawk Beak, Mammoth Eye, Mammoth Eye(Polished), Mammoth Heart, Netch Jelly, Poison Bloom, Red Glitterdust, River Betty, Scaly Pholiata, Troll Eye, Wisp Wrappings
+Source: Bull Horn, Creep Cluster, Giant's Toe, Hawk Beak, Mammoth Eye, Mammoth Eye(Polished), Mammoth Heart, Netch Jelly, Poison Bloom, Red Glitterdust, River Betty, Scaly Pholiata, Troll Eye, Wisp Wrappings, Lyretail Anthias, Juvenille Mudcrab
  
 ## Fortify Conjuration
 
 Conjurations spells cost <mag>% less for <dur> seconds.
  
-Source: Ancestor Moth Wing,Berit's Ashes, Blue Butterfly Wing, Blue Mountain Flower, Bone Meal, Bonehawk Claw, Chaurus Hunter Antennae, Frost Salts, Hagraven Feathers, Lavender
+Source: Ancestor Moth Wing,Berit's Ashes, Blue Butterfly Wing, Blue Mountain Flower, Bone Meal, Bonehawk Claw, Chaurus Hunter Antennae, Frost Salts, Hagraven Feathers, Lavender, Lyretail Anthias
  
 ## Fortify Destruction
 
@@ -118,13 +118,13 @@ Source: Bear Eye (Polished), Bear Heart, Blue Mountain Flower, Boar Tusk, Bull H
 
 Health regenerates <mag>% faster for <dur> seconds.
 
-Source: Bear Eye, Boar Eye (Polished), Bonesap, Cremated Remains, Emporer Parasol Moss, Garlic, Gleamblossom, Juniper Berries, Luna Moth Wing, Mammoth Eye, Namira's Rot, Nordic Barnacle, Troll Eye, Werewolf Heart
+Source: Bear Eye, Boar Eye (Polished), Bonesap, Cremated Remains, Emporer Parasol Moss, Garlic, Gleamblossom, Juniper Berries, Luna Moth Wing, Mammoth Eye, Namira's Rot, Nordic Barnacle, Troll Eye, Werewolf Heart, Angelfish
  
 ## Fortify Illusion
 
 Illusion spells cost <mag>% less for <dur> seconds.
  
-Source: Blue Butterfly Wing, Dragon's Tongue, Dwarven Oil, Hagraven Claw, Mora Tapinella, Sabre cat claws, Scaly Pholiata, Spawn Ash, Spriggan Sap, Taproot
+Source: Blue Butterfly Wing, Dragon's Tongue, Dwarven Oil, Hagraven Claw, Mora Tapinella, Sabre cat claws, Scaly Pholiata, Spawn Ash, Spriggan Sap, Taproot, Glassfish
  
 ## Fortify Lockpicking
 
@@ -136,7 +136,7 @@ Source: Ashen Grass Pod, Hare Eye (Polished), Large Sabercat Claws
  
 Lockpicking expertise is increased by <mag> for <dur> seconds.
 
-Source: Falmer Ear, Namira's Rot, Pine Thrush Egg, Spider Egg
+Source: Falmer Ear, Namira's Rot, Pine Thrush Egg, Spider Egg, Spadefish
 
 
 ## Fortify Magicka
@@ -155,25 +155,25 @@ Source: Dwarven Oil, Fire Salts, Garlic, Jazbay Grapes, Moon Sugar, Salt Pile, T
 
 Ranged weapons deal <mag>% more damage for <dur> seconds.
  
-Source: Bonehawk Claw, Buck Antlers (superlative), Canis Root, Elves Ear, Hare Eye (Polished), Juniper Berries, Spider Egg, Wolf Claws
+Source: Bonehawk Claw, Buck Antlers (superlative), Canis Root, Elves Ear, Hare Eye (Polished), Juniper Berries, Spider Egg, Wolf Claws, Angelfish
  
 ## Fortify One-Handed
 
 One-handed weapons do <mag>% more damage for <dur> seconds.
  
-Source: Canine Tooth, Canis Root Hanging Moss, Hawk Feathers, Rock Warbler Egg, Small Pearl
+Source: Canine Tooth, Canis Root Hanging Moss, Hawk Feathers, Rock Warbler Egg, Small Pearl, Pearlfish
  
 ## Fortify Pickpocket
 
 Pickpocketing is <mag>% easier for <dur> seconds.
  
-Source: Blue Dartwing, Hare Eye, Nordic Barnacle, Orange Dartwing, Slaughterfish Egg
+Source: Blue Dartwing, Hare Eye, Nordic Barnacle, Orange Dartwing, Slaughterfish Egg, Spadefish
 
 ## Fortify Restoration
 
 Restoration spells cost <mag>% less for <dur> seconds.
  
-Source: Abecean Longfin, Cyrodilic Spadetail, Doe Antlers, Hare Eye (Polished), Northen Flax, Salt Pile, Small Antlers, Small Pearl, Spriggan Sap, Yellow Mountain Flower
+Source: Abecean Longfin, Cyrodilic Spadetail, Doe Antlers, Hare Eye (Polished), Northen Flax, Salt Pile, Small Antlers, Small Pearl, Spriggan Sap, Yellow Mountain Flower, Pygmy Sunfish
 
 ## Fortify Shouts
 
@@ -197,13 +197,13 @@ Source: Boar Tusk, Buck Antlers, Bull Horn, Chaurus Eggs, Dyed Hawk Feathers, Ga
 
 Stamina regenerates <mag>% faster for <dur> seconds.
 
-Source: Bear Claws, Bee, Blisterwort, Boar Eye, Charred Hawk Beak, Fly Amanita, Hare Eye, Mora Tapinella, Salmon Roe, Scaly Pholiata, Snowberries, Troll Heart
+Source: Bear Claws, Bee, Blisterwort, Boar Eye, Charred Hawk Beak, Fly Amanita, Hare Eye, Mora Tapinella, Salmon Roe, Scaly Pholiata, Snowberries, Troll Heart, Angler Larvae, Juvenille Mudcrab
  
 ## Fortify Two-Handed
 
 Two-handed weapons do <mag>% more damage for <dur> seconds.
  
-Source: Animal Fat, Bear tooth (Flawless), Dragon's Tongue, Emperor Parasol Moss, Fly Amanita, Troll Fat
+Source: Animal Fat, Bear tooth (Flawless), Dragon's Tongue, Emperor Parasol Moss, Fly Amanita, Troll Fat, Angler Larvae, Juvenille Mudcrab
 
 ## Fortify Unarmed Damage
 
@@ -219,13 +219,13 @@ Source: Polished Werewolf Eye
 
 Drains the target's Health by <mag> points per second for <dur> seconds.
  
-Source: Bear Eye, Canine Tooth, Charred Hawk Beak, Daedra Heart, Doe Antlers (Superlative), Dragon Heart, Imp Stool, Mora Tapinella, Oil of Vitriol, Orange Dartwing, Scathecraw, Slaughterfish Egg, Slaughterfish Scales, Venomous Spittle, Wolf Eye
+Source: Bear Eye, Canine Tooth, Charred Hawk Beak, Daedra Heart, Doe Antlers (Superlative), Dragon Heart, Imp Stool, Mora Tapinella, Oil of Vitriol, Orange Dartwing, Scathecraw, Slaughterfish Egg, Slaughterfish Scales, Venomous Spittle, Wolf Eye, Angler Larvae
  
 ## Lingering Damage Magicka
 
 Drains the target's Magicka by <mag> points per second for <dur> seconds.
  
-Source: Hagraven Claw, Northern Flax, Purple Mountain Flower, Sabre Cat Tooth (Flawless), Swamp Fungal Pod, Torchbug Abdomen, Wheat
+Source: Hagraven Claw, Northern Flax, Purple Mountain Flower, Sabre Cat Tooth (Flawless), Swamp Fungal Pod, Torchbug Abdomen, Wheat, Pygmy Sunfish
  
 ## Lingering Damage Stamina
 
@@ -242,7 +242,7 @@ Source: Bear tooth (Flawless), Bonehawk Claw, Monarch Wing, Chicken's Egg, Doe A
 
 Resists <mag>% of fire damage for <dur> seconds.
  
-Source: Ash Creep Cluster, Ashen Grass Pod, Berit's Ashes, Boar Eye, Bone Meal, Cremated Remains, Deer Heart, Dragon Heart, Dragon's Tongue, Elves Ear, Fire Salts, Fly Amanita, Mudcrab Chitin, Sabre Cat Eye(Polished), Snowberries, Spawn Ash, Troll Eye(Polished)
+Source: Ash Creep Cluster, Ashen Grass Pod, Berit's Ashes, Boar Eye, Bone Meal, Cremated Remains, Deer Heart, Dragon Heart, Dragon's Tongue, Elves Ear, Fire Salts, Fly Amanita, Mudcrab Chitin, Sabre Cat Eye(Polished), Snowberries, Spawn Ash, Troll Eye(Polished), Angelfish
  
 ## Resist Frost
 
@@ -277,19 +277,19 @@ Source: Ash Hopper Jelly, Blue Dartwing, Glowing Mushroom, Hawk Beak, Mammoth Ey
 
 Restores <mag> points of Health for <dur> seconds.
  
-Source: Ash Hopper Jelly, Blisterwort, Blue Dartwing, Blue Mountain Flower, Monarch Wing, Charred Skeever Hide, Cured Skeever Hide, Daedra Heart, Felsaad Tern Feathers, Imp Stool, Northern Flax, Panacea, Rock Warbler Egg, Sabre Cat Eye, Swamp Fungal Pod, Velehk Sain's Heart, Wheat
+Source: Ash Hopper Jelly, Blisterwort, Blue Dartwing, Blue Mountain Flower, Monarch Wing, Charred Skeever Hide, Cured Skeever Hide, Daedra Heart, Felsaad Tern Feathers, Imp Stool, Northern Flax, Panacea, Rock Warbler Egg, Sabre Cat Eye, Swamp Fungal Pod, Velehk Sain's Heart, Wheat, Spadefish
  
 ## Restore Magicka
 
 Restores <mag> Magicka for <dur> seconds.
  
-Source: Bear Tooth, Briar Heart, Creep Cluster, Cremated Remains, Daedra Heart, Dwarven Oil, Ectoplasm, Elves Ear, Fire Salts, Frost Salts, Giant Lichen, Grass Pod, Human Flesh, Moon Sugar, Mora Tapinella, Panacea, Pearl, Red Glitterdust, Red Mountain Flower, Sabre cat claws, Taproot, White Cap
+Source: Bear Tooth, Briar Heart, Creep Cluster, Cremated Remains, Daedra Heart, Dwarven Oil, Ectoplasm, Elves Ear, Fire Salts, Frost Salts, Giant Lichen, Grass Pod, Human Flesh, Moon Sugar, Mora Tapinella, Panacea, Pearl, Red Glitterdust, Red Mountain Flower, Sabre cat claws, Taproot, White Cap, Glassfish, Lyretail Anthias
  
 ## Restore Stamina
 
 Restores <mag> points of Stamina for <dur> seconds.
  
-Source: Bear Claws, Buck Antlers, Charred Skeever Hide, Daedra Heart, Hawk Beak, Histcarp, Honeycomb, Large Antlers, Mudcrab Chitin, Orange Dartwing, Panacea, Pearl, Pine Thrush Egg, Powdered Mammoth Tusk, Purple Mountain Flower, Sabre Cat Eye, Sabre Cat Tooth, Salmon Roe, Silverside Perch, Small Pearl, Torchbug Abdomen, Troll Eye(Polished)
+Source: Bear Claws, Buck Antlers, Charred Skeever Hide, Daedra Heart, Hawk Beak, Histcarp, Honeycomb, Large Antlers, Mudcrab Chitin, Orange Dartwing, Panacea, Pearl, Pine Thrush Egg, Powdered Mammoth Tusk, Purple Mountain Flower, Sabre Cat Eye, Sabre Cat Tooth, Salmon Roe, Silverside Perch, Small Pearl, Torchbug Abdomen, Troll Eye(Polished), Pearlfish, Pygmy Sunfish, Goldfish
  
 ---
 
@@ -305,7 +305,7 @@ Source: Bleeding Crown, Burnt Spriggan Wood, Canine Tooth, Fox Eye, Fox eye (Pol
 
 The target is <mag>% weaker to frost damage for <dur> seconds.
  
-Source: Abecean Longfin,Ash Hopper Jelly, Elves Ear, Fire Salts, Ice Wraith Teeth, White Cap
+Source: Abecean Longfin,Ash Hopper Jelly, Elves Ear, Fire Salts, Ice Wraith Teeth, White Cap, Pearlfish, Goldfish
  
 ## Weakness to Magic
 
@@ -339,7 +339,7 @@ Source: Goat Heart, Powdered Mudcrab Chittin
 
 Cures all diseases.
 
-Source: Cremated Remains, Dyed Hawk Feathers, Hare Eye,  Hawk Feathers, Large Mudcrab Chitin, Panacea,  Sapphire Dust, Vampire Dust, 
+Source: Cremated Remains, Dyed Hawk Feathers, Hare Eye,  Hawk Feathers, Large Mudcrab Chitin, Panacea,  Sapphire Dust, Vampire Dust, Juvenille Mudcrab, Spadefish
 
 ## Detect Life
 
@@ -393,7 +393,7 @@ Source: Boar Eye (Polished), Boiled Skeever Tail, Goat Heart, Moon Moon Sugar
 
 Grants invisibility for <dur> seconds.
 
-Source: Ash Creep Cluster, Chaurus Eggs, Crimson Nirnroot, Fox eye (Polished), Ice Wraith Teeth, Luna Moth Wing,  Nirnroot, Sabre Cat Eye(Polished), Strange Remains, Vampire Dust, Werewolf Eye(Polished), 
+Source: Ash Creep Cluster, Chaurus Eggs, Crimson Nirnroot, Fox eye (Polished), Ice Wraith Teeth, Luna Moth Wing,  Nirnroot, Sabre Cat Eye(Polished), Strange Remains, Vampire Dust, Werewolf Eye(Polished), Glassfish
 
 
 ## Muddle
@@ -406,7 +406,7 @@ Source: Goat Heart, Sabre Cat Tooth (Flawless)
 
 Night Eye for <dur> seconds.
 
-Source: Glow Dust, Sabre Cat Eye, Wolf Eye
+Source: Glow Dust, Sabre Cat Eye, Wolf Eye, Glassfish
  
 ## Paralysis
 
@@ -425,6 +425,12 @@ Source: Fox Eye
 You are <mag>% harder to detect. The effect ends indoors.
 
 Source: Cured Skeever Hide, Sabre Cat Eye(Polished), 
+
+## Spell Absorbtion
+
+Allows you to absorb <mag>% of the Magicka from hostile spells for <dur> seconds.
+
+Source: Pearlfish
 
 ## Tardiness
 
@@ -448,6 +454,6 @@ Source: Boar Heart, Dyed Hawk Feathers, Goat Heart
 
 The imbiber grants the ability to breathe underwater for <dur> seconds.
  
-Source: Charred Skeever Hide, Chicken's Egg, Hawk Egg, Histcarp, Nordic Barnacle, Salmon Roe, Sapphire Dust, Slaughterfish Scales(Polished), 
+Source: Charred Skeever Hide, Chicken's Egg, Hawk Egg, Histcarp, Nordic Barnacle, Salmon Roe, Sapphire Dust, Slaughterfish Scales(Polished), Angelfish, Goldfish, Angler Larvae
 
  
