@@ -29,11 +29,7 @@ Summons guide - kinda like the enemy guide but for player cast summons (or NPC c
 ---
 
 Houses guide
-* changes from vanilla
-* Costs
-* screenshots of various rooms
-* Use of Jaxon's and hearthfire extended to enable decoration.
-
+* screenshots of various rooms need adding
 ---
 
 Deep Dives
@@ -41,7 +37,7 @@ Deep Dives
 
 ---
 
-Class build Guide - each of https://docs.google.com/document/d/1cNxdbVA-1_Zdtsb1Bmxv1ffQ5jNCPcVOW-mwgAyIx_A/edit#heading=h.hxtgddckas1 need adding where appropriate for Wildlander (some arent as they rely on mods we dont use)
+Class build Guide - each of https://docs.google.com/document/d/1cNxdbVA-1_Zdtsb1Bmxv1ffQ5jNCPcVOW-mwgAyIx_A/edit#heading=h.hxtgddckas1 need adding where appropriate for Wildlander (some aren't as they rely on mods we dont use)
 
 ---
 
