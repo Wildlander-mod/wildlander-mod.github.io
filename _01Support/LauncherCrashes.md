@@ -113,9 +113,11 @@ NPC Irlof is causing the game to bomb out. Fortunately he is just a "flavor" NPC
 
 Fix: Use the following console commands to make him go away.
 
+```
    - prid 0005226B
    - markfordelete
    - disable
+```
 
 ---
 ## Crash on save with crash code (skse64_1_5_97.dll+5CE66)
