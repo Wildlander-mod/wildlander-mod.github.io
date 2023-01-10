@@ -25,9 +25,7 @@ Open Command prompt and typing the following 3 commands
 
 ```
 net stop winmgmt (and y if prompted)
-
 Winmgmt /resetrepository 
-
 Winmgmt /verifyrepository should say it's consistent.
 
 ```
