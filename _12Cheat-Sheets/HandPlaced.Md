@@ -296,7 +296,7 @@ Staff of Firebolts (at Shalidor's Maze, and 3 other largely useless staffs that 
 
 # Other Armor
 
-* Helm of Yngol, (unique look, resist frost 30%, available at level 1)
+* Helm of Yngol, (unique look, resist frost 30%, available at level 1) Yngol's Barrow, east of Windhelm, north of Traitor's Post. No fighting needed aside from 1 optional Draugr.
 
 
 
