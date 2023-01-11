@@ -46,9 +46,6 @@ Add more pictures for clarification and/or ease of identification where appropri
 ---
 Spell research(Spells) table -  Add any other missing spells
 
-Spell research(Alchemy)
-1) Add fish
-
 --
 
 Spell-Research---Cheat-Sheet(Locations and spells) - wip
