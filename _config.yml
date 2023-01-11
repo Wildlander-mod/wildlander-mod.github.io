@@ -192,3 +192,6 @@ nav_external_links:
   - title: Skyrim Random Character Generator - Wildlander Edition 
     url: https://docs.google.com/spreadsheets/d/1vhTgVT3SoMtaE_LDpY_3Tb40zrhoBW4Lz4k-_8PWkWs/edit#gid=0
     hide_icon: false # set to true to hide the external link icon - defaults to false      
+    
+ga_tracking: G-DSSX8SK5DC,GT-NFDHDNK
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
