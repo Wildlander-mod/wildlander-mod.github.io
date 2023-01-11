@@ -111,11 +111,13 @@ In follower Live package MCM - there's a option which says followers summon hors
 
 NPC Irlof is causing the game to bomb out. Fortunately he is just a "flavor" NPC so can be safely deleted. 
 
-Fix: Use the following console commands to make him go away.
+Fix: Use the following console commands to make him go away (one per line).
 
-   - prid 0005226B
-   - markfordelete
-   - disable
+```
+prid 0005226B
+markfordelete
+disable
+```
 
 ---
 ## Crash on save with crash code (skse64_1_5_97.dll+5CE66)

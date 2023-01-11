@@ -3,7 +3,7 @@
 
 ### What does it mean?
 
-When a mod is updated, hidden or taken offline, any lists using that mod will automatically be put into maintenance mode to prevent users from downloading a incompletable Wabbajack install.
+When a mod is updated, hidden or taken offline, any lists using that mod will automatically be put into maintenance mode to prevent users from downloading a incomplete install.
 
 If Skyrim updates - this will also force the list into maintenance as it will need to be checked and recompiled using the new source files. 
 
@@ -48,7 +48,7 @@ If you already have it - uninstall and reinstall
 
 ## Wabbajack Finds no results.
 
-Typically caused by network management software "killer control panel" which comes pre-installed with some laptops and PC's. (It may also be called Killer Intelligence Center or it's a K icon in your system tray)
+Typically caused by network management software "Killer control panel" which comes pre-installed with some laptops and PC's. (It may also be called Killer Intelligence Center or it's a K icon in your system tray)
 
 
 To resolve, disable the Prioritization Center and  Auto Bandwidth. Then restart Wabbajack.
@@ -85,7 +85,9 @@ Reboot your PC after making this change.
 
 ## Do I have to install both game and downloads to same drive
 
-No, you can have them on separate drives - just make sure you point your Download location to where you want the zip files it live.
+No, you can have them on separate drives - just make sure you point your Download location to where you want the zip files to live.
+
+you can even share download folders between multiple modlists.
 
 ----------
 
@@ -103,22 +105,22 @@ Around 135gb
 
 ## Do I need to download everything if I plan on playing potato 
 
-Yes - Wabbajack wont install unless it has all mods, creating a list for potato users only is not easy to do and would require a completely separate wabbajack installer.
+Yes - Wabbajack wont install unless it has all mods, creating a list for potato users only is not easy to do and would require a completely separate Wabbajack Modlist.
 
 ----------
 
 
 ## Can I just download the Graphics only
 
-No, again this would be a completely separate list which would need its own separate wabbajack installer.
+No, again this would be a completely separate list which would need its own separate Wabbajack Modlist.
 
 ----------
 
 ## Wabbajack fails to download mods or hangs for a long time.
 
-Check Task manager, if wabbajack is not using any network resources, its likely the download has failed/timed out - then please use the suggestions below.
+Check Task manager, if Wabbajack is not using any network resources, its likely the download has failed/timed out - then please use the suggestions below.
 
-1.  Close and restart Wabbajack - Start the Wildlander install process again, entering same criteria as originally. Wababjack will CRC check your existing files and should resume where it failed & complete the install without any further intervention.
+1.  Close and restart Wabbajack - Start the Wildlander install process again, entering same criteria as originally. Wabbajack will CRC check your existing files and should resume where it failed & complete the install without any further intervention.
 2.  If you are experiencing issues with Wabbajack repeatedly failing to download one or more files (same files every time), try enabling the Network Workaround in Wabbajack settings.
 
 [![img](https://camo.githubusercontent.com/72d29a1cda8ff5fa29f42ff8232ea890764cbae1c17344c50a8deea51645cf3c/68747470733a2f2f696d616765732d6578742d322e646973636f72646170702e6e65742f65787465726e616c2f4f506f423576314f734e516c3749315f592d2d636a3967527567553759734f4655536b47633234345753632f68747470732f692e6962622e636f2f4644504472666b2f446973636f72642d56504e2e706e67)](https://camo.githubusercontent.com/72d29a1cda8ff5fa29f42ff8232ea890764cbae1c17344c50a8deea51645cf3c/68747470733a2f2f696d616765732d6578742d322e646973636f72646170702e6e65742f65787465726e616c2f4f506f423576314f734e516c3749315f592d2d636a3967527567553759734f4655536b47633234345753632f68747470732f692e6962622e636f2f4644504472666b2f446973636f72642d56504e2e706e67)
@@ -131,9 +133,9 @@ If these files hang, manually download and add to your wabbajack specified downl
 
 **Wildlander Resources**
 
-This file is quite large - and on slower internet connections' may timeout.
+This file is quite large - and on slower Internet connections' may timeout.
 
-In the event of this occuring for you you can try downloading <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016? " target="_blank" rel="noopener noreferrer">Resources - Wildlander Full <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> from nexus manually, and placing it in your downloads folder still zipped.
+In the event of this occurring for you you can try downloading <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016? " target="_blank" rel="noopener noreferrer">Resources - Wildlander Full <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> from nexus manually, and placing it in your downloads folder still zipped.
 
 **Nexus mods in general**
 
@@ -186,9 +188,9 @@ If Skyrim has updated recently - then it might require the list to be recompiled
 
 ## Wabbajack wont download the Wildlander installer.
 
-This is typically caused by a mis-configured firewall between your PC and the wabbajack build server.
+This is typically caused by a mis-configured firewall between your PC and the Wabbajack build server.
 
-If you are unable to download it though wabbajack, then visit <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016?tab=files" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> and download the Install File Backup.
+If you are unable to download it though Wabbajack, then visit <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016?tab=files" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> and download the Install File Backup.
 
 Once downloaded Navigate to the Wabbajack folder and find the downloaded_mod_lists folder. unzip the backup into this location.
 
