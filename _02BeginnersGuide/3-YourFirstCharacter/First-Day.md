@@ -14,13 +14,11 @@ Once you spawn into the world the first thing you should do is allocate your per
 
 To start earning money in order to feed yourself, you should get a wood chopping axe or a war axe and “Attack” to harvest trees (or use the chopping blocks at the lumber mills). Sell this wood to give yourself a bit of coin. Another good way to earn some early game gold is with fishing. You can purchase a fishing rod from a general merchant - Equip it as a weapon then "attack" a water source to start fishing. Follow the onscreen instructions. Once you have caught your first item - you can the hit "e" to cast again.
 
-If you select “smithing” as a starting skill and have a building toolkit, use the gold to purchase some salt. You should then activate the cows to collect the milk they produce. Finally,  move to a cooking pot and use the crafting (Hotkey “right shift”) to turn the wood into flutes and sell to the Riverwood Trader. If you are not a smith, you can still harvest the cows and drink or sell the milk. Building toolkits can be purchased from a smith.
-
 You can also use the wood you obtain to level your camping skills by making kindling and tinder, which will allow you to make a campfire (Hotkey “<“) to keep yourself warm. You should also frequently use the forage(Hotkey “>”) ability to look for edibles and alchemy ingredients. And when the “drink” icon appears, use the river to drink (Hotkey “ ; “). You should also pick any herbs you spot on your travels - even if you don't plan on being an alchemist - everything sells.
 
 Bathing should be done regularly using the (Hotkey “’ ‘/@ ”) in the river - there are penalties applied to speech and disease resistance the dirtier you are so before selling or buying anything, always bathe.
 
-Food can be purchased from the Inn or by cooking raw meat at the fire using the (Hotkey Right Shift). More Complex meals can be cooked using a Chef's toolkit purchasable from a inn keeper
+Food can be purchased from the Inn or by cooking raw meat at the fire using the (Hotkey Right Shift). More Complex meals can be cooked using a Chef's toolkit purchasable from a inn keeper. You should activate any cows you see to collect the milk they produce (just press E when standing near them). These can be drank to satisfy thirst, or stored for use in baking recipes.
 
 Up until you have a few levels under your belt - beware of wildlife - they will kill you.
 
@@ -32,7 +30,7 @@ Waterskins are a portable source of water that can be filled from any water sour
 
 Armor/clothing now has two additional statistics - Cover which protects you from wet weather, and warmth which protects from cold. So if upgrading your gear - make sure you pick appropriate stats for where you plan on traveling to. 
 
-Weapons can now degrade in quality, so tempering your weapons to keep them a peak damage either via providing the blacksmith with the materials to do so(for none crafters) or doing it yourself.. A well-made weapon is always better than a basic equivalent. Low quality bows can break if you are hit with a melee attack - so a good backup weapon should be aquired as well
+Weapons can now degrade in quality, so tempering your weapons to keep them a peak damage either via providing the blacksmith with the materials to do so(for none crafter) or doing it yourself.. A well-made weapon is always better than a basic equivalent. Low quality bows can break if you are hit with a melee attack - so a good backup weapon should be acquired as well
 
 For a free place to sleep before you leave Riverwood a tent should be purchased. A fur tent protects you from the cold, and a leather tent protects you from rain. If you need to cook while in the middle of nowhere then a cooking pot can be purchased to use with your constructed campfires.
 Checking the nearest cities missive board for delivery quests is a great way to get early gold to get you started.
