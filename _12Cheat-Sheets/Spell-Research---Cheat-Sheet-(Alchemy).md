@@ -111,10 +111,6 @@ Each ingredient has two Strengths of Solutions which can be generated
 
  Strength  = ((Sum of effect Magnitudes / (10)) + (Sum of effect Durations/(300)))
  
-{: .note}
->
-> If the Strength of the potion is greater than 5 - you get no solutions for the Effects.
-
 **Ingredient characteristics**
 * The item characteristics are Solutions items defined in the import script - you will always get every one of these
 * Strength of the potions for characteristics is hard-coded
@@ -141,6 +137,6 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
                          = 2 - Gravia strength solutions
 
 
-**In Progress Effects and Ingredient Spreadsheet**
+**Ingredient Spreadsheet**
 
 <a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1sNWiM32s9iA1pUlxBmPh13sd1e2DYMjHn17gqjkvO0U/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
