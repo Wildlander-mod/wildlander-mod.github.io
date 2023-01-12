@@ -6,7 +6,10 @@ description: "Wildlander Knowledgebase."
 permalink: /
 has_toc: true
 ---
+![Image](https://wiki.wildlandermod.com/Assets/wildlander-header.png)
 
+{: .important}
+> **This wiki will officially launch on the 31st January. Until then - it will be prone to disappearing while we finalize the layout. Use at own risk**
 
 Wildlander is a total conversion modpack for _The Elder Scrolls V: Skyrim Special Edition_ that aims to bring the frozen north into your home. Whether you want to call it immersion, realism, role-playing, or simple masochism, the end-goal is to make you actually feel like an intrepid adventurer climbing snow-covered mountains, delving into ancient ruins, and getting your bits bitten off by packs of hungry wolves.
 
