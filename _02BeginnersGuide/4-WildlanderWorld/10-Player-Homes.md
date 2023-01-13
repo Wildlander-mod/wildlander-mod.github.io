@@ -344,6 +344,88 @@ Become thane|Housecarl room(automatically) 
   <dd><a href='https://www.nexusmods.com/skyrimspecialedition/mods/9096'>Severin Manor (No Portals or General Stores)</a></dd>
 </dl>
 
+#### Severin Manor Slideshow
+ <!-- Slideshow container -->
+<div ID="severinSlideshow" class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/EntranceHall.png" style="width:100%">
+    <div class="Captiontext">Entrance Hall</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Fireplace.png" style="width:100%">
+    <div class="Captiontext">Fireplace</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Kitchen.png" style="width:100%">
+    <div class="Captiontext">Kitchen Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Library.png" style="width:100%">
+    <div class="Captiontext">Library Room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Masterbedroom.png" style="width:100%">
+    <div class="Captiontext">Master Bedroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Bedrooms.png" style="width:100%">
+    <div class="Captiontext">Other Bedroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Crafting.png" style="width:100%">
+    <div class="Captiontext">Crafting room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Enchanting.png" style="width:100%">
+    <div class="Captiontext">Enchanting area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Study.png" style="width:100%">
+    <div class="Captiontext">Study area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Dining_Room.png" style="width:100%">
+    <div class="Captiontext">Dining area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/AlchemyLab.png" style="width:100%">
+    <div class="Captiontext">Alchemy area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 12</div>
+    <img src="https://wiki.wildlandermod.com/Assets/severin/Forge.png" style="width:100%">
+    <div class="Captiontext">Forge area</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, severinSlideshow)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, severinSlideshow)">&#10095;</a>
+
 -------
 
 ### Hjerim - Windhelm
@@ -527,19 +609,19 @@ var slideshow2 = document.getElementById("HoneysideSlideshow");
 slideshow2.currentSlideIndex = 1;
 showSlides(slideshow2.currentSlideIndex, slideshow2);
 
-var slideshow3 = document.getElementById("VindrellHall");
+var slideshow3 = document.getElementById("VindrellHallSlideshow");
 slideshow3.currentSlideIndex = 1;
 showSlides(slideshow3.currentSlideIndex, slideshow3);
 
-var slideshow4 = document.getElementById("Severin");
+var slideshow4 = document.getElementById("severinSlideshow");
 slideshow4.currentSlideIndex = 1;
 showSlides(slideshow4.currentSlideIndex, slideshow4);
 
-var slideshow5 = document.getElementById("hjerim");
+var slideshow5 = document.getElementById("hjerimSlideshow");
 slideshow5.currentSlideIndex = 1;
 showSlides(slideshow5.currentSlideIndex, slideshow5);
 
-var slideshow6 = document.getElementById("Proudspire");
+var slideshow6 = document.getElementById("ProudspireSlideshow");
 slideshow6.currentSlideIndex = 1;
 showSlides(slideshow6.currentSlideIndex, slideshow6);
 
