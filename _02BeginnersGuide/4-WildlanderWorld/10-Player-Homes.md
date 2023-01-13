@@ -39,7 +39,92 @@ Notes:
 * The Basement now contains a Bathroom right at the end of the corridor
 * The Loft area as Planters for growing herbs
 
-<iframe src="https://wiki.wildlandermod.com/Assets/Breezehome/breezehomeSlideshow.html" width="100%" height="600" align="left" frameborder="0" marginheight="0" marginwidth="0"> Loading…</iframe>
+
+ <!-- Slideshow container -->
+<div ID= "Breezehomeslideshow" class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">1 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/HouseEntrace.png" style="width:100%">
+    <div class="text">House Entrace</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Kitchen.png" style="width:100%">
+    <div class="text">Kitchen Area</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">3 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/TrophyRoomAndRoofAccess.png" style="width:100%">
+    <div class="text">Trophy Room And Roof Access</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">4 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Roof.png" style="width:100%">
+    <div class="text">Roof</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">5 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/UpstairsLanding.png" style="width:100%">
+    <div class="text">Upstairs Landing</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">6 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/MasterBedroom.png" style="width:100%">
+    <div class="text">Master Bedroom</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">8 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/BasementEntrace.png" style="width:100%">
+    <div class="text">Basement Entrace</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">9 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Bathtub.png" style="width:100%">
+    <div class="text">Bathroom (Straight ahead)</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">10 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/CraftingRoom.png" style="width:100%">
+    <div class="text">Crafting room (on the right)</div>
+  </div>
+
+  <div class="BreezehomeSlides fade">
+    <div class="numbertext">11 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/FollowersChildrens.png" style="width:100%">
+    <div class="text">Followers sleep area(on the left)</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+</div> 
+
 
 
 -------
@@ -289,3 +374,38 @@ You can use the following image as a guide for the controls to move items to whe
 
 ![image](https://user-images.githubusercontent.com/26418143/211219744-ee1cfc67-45e6-4b04-927e-b58f5b77cdb4.png)
 
+<script>
+var slideshow1 = document.getElementById("Breezehomeslideshow");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+}
+</script>
