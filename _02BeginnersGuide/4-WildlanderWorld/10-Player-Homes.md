@@ -147,7 +147,7 @@ Become thane|Housecarl room(automatically)
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 13</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_exterior.png style="width:100%">
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_exterior.png" style="width:100%">
     <div class="Captiontext">House Entrance</div>
   </div>
 
