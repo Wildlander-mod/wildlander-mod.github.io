@@ -61,13 +61,17 @@ No. It is not required to play Wildlander.
 
 We use an installation method called stock game, which copies the Skyrim files we need to the Wildlander directory. This method allows you to have Wildlander installed and a separate, untouched Steam installation of Skyrim.
 
-If you already have the DLC, you can still install the content as it is ignored during the installation process and not copied over. 
+If you already have the DLC, you can still install on your stream install, however it is ignored during the installation process and not copied over to our stock game folder and therefore will not be used or activated in Wildlander. 
 
 ----------
 
-# Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install?
+# Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install on my own?
 
-No, this content counts as customization. It is unsupported and untested. Some of them are known to conflict and cause crashes and issues with other mods in the list.
+No.
+
+It is unsupported and untested. Some of them are known to conflict and cause crashes and issues with other mods in the list. 
+
+We have deliberately disabled the creation club menu option to prevent people adding it accidentally
 
 ----------
 
