@@ -403,9 +403,9 @@ function showSlides(n, slideshow) {
       slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" dotactive", "");
   }
   slides[slideshow.currentSlideIndex-1].style.display = "block";  
-  dots[slideshow.currentSlideIndex-1].className += " active";
+  dots[slideshow.currentSlideIndex-1].className += " dotactive";
 }
 </script>
