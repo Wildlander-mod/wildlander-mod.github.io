@@ -39,7 +39,7 @@ Notes:
 * The Basement now contains a Bathroom right at the end of the corridor
 * The Loft area as Planters for growing herbs
 
-
+#### Breezehome Slideshow
  <!-- Slideshow container -->
 <div ID="BreezehomeSlideshow" class="slideshow-container">
 
