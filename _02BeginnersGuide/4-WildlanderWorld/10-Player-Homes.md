@@ -39,6 +39,91 @@ Notes:
 * The Basement now contains a Bathroom right at the end of the corridor
 * The Loft area as Planters for growing herbs
 
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/HouseEntrace.png" style="width:100%">
+    <div class="text">House Entrace</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Kitchen.png" style="width:100%">
+    <div class="text">Kitchen Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/TrophyRoomAndRoofAccess.png" style="width:100%">
+    <div class="text">Trophy Room And Roof Access</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/roof.png" style="width:100%">
+    <div class="text">Roof</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/UpstairsLanding.png" style="width:100%">
+    <div class="text">Upstairs Landing</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/MasterBedroom.png" style="width:100%">
+    <div class="text">Master Bedroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/BasementEntrace.png" style="width:100%">
+    <div class="text">Basement Entrace</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Bathtub.png" style="width:100%">
+    <div class="text">Bathroom (Straight ahead)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/CraftingRoom.png" style="width:100%">
+    <div class="text">Crafting room (on the right)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 11</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/FollowersChildrens.png" style="width:100%">
+    <div class="text">Followers sleep area(on the left)</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+</div> 
+
 -------
 
 ### Honeyside - Riften
