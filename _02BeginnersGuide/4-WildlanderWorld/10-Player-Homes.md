@@ -45,63 +45,63 @@ Notes:
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 11</div>
+    <div class="numbertext">1 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/HouseEntrace.png" style="width:100%">
-    <div class="Captiontext">House Entrace</div>
+    <div class="Captiontext">House Entrance</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 11</div>
+    <div class="numbertext">2 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Kitchen.png" style="width:100%">
     <div class="Captiontext">Kitchen Area</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 11</div>
+    <div class="numbertext">3 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/TrophyRoomAndRoofAccess.png" style="width:100%">
     <div class="Captiontext">Trophy Room And Roof Access</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">4 / 11</div>
+    <div class="numbertext">4 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Roof.png" style="width:100%">
     <div class="Captiontext">Roof</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">5 / 11</div>
+    <div class="numbertext">5 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/UpstairsLanding.png" style="width:100%">
     <div class="Captiontext">Upstairs Landing</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">6 / 11</div>
+    <div class="numbertext">6 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/MasterBedroom.png" style="width:100%">
     <div class="Captiontext">Master Bedroom</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">8 / 11</div>
+    <div class="numbertext">7 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/BasementEntrace.png" style="width:100%">
-    <div class="Captiontext">Basement Entrace</div>
+    <div class="Captiontext">Basement Entrance</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">9 / 11</div>
+    <div class="numbertext">8 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Bathtub.png" style="width:100%">
-    <div class="Captiontext">Bathroom (Straight ahead)</div>
+    <div class="Captiontext">Bathroom (Basement - Straight ahead)</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">10 / 11</div>
+    <div class="numbertext">9 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/CraftingRoom.png" style="width:100%">
-    <div class="Captiontext">Crafting room (on the right)</div>
+    <div class="Captiontext">Crafting room (Basement - on the right)</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">11 / 11</div>
+    <div class="numbertext">10 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/FollowersChildrens.png" style="width:100%">
-    <div class="Captiontext">Followers sleep area(on the left)</div>
+    <div class="Captiontext">Followers sleep area(Basement - on the left)</div>
   </div>
 
   <!-- Next and previous buttons -->
