@@ -1,24 +1,18 @@
+<!DOCTYPE html>
 <html>
-<Style>
-
-* {box-sizing:border-box}
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width : 1000px;
-  max-height: 500px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-.mySlides > img {
-    height: 100%;
-    width: 100%;
 }
 
 /* Next & previous buttons */
@@ -27,8 +21,8 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -83,52 +77,25 @@
 .active, .dot:hover {
   background-color: #717171;
 }
-</Style>
-<head>
-<script>
-  let slideIndex = 0;
-  let timeoutId = null;
-  const slides = document.getElementsByClassName("mySlides");
-  const dots = document.getElementsByClassName("dot");
-  
-  showSlides();
-  function currentSlide(index) {
-	   slideIndex = index;
-	   showSlides();
-  }
- function plusSlides(step) {
-	
-	if(step < 0) {
-		slideIndex -= 2;
-		
-		if(slideIndex < 0) {
-		  slideIndex = slides.length - 1;
-		}
-	}
-	
-	showSlides();
- }
-  function showSlides() {
-	for(let i = 0; i < slides.length; i++) {
-	  slides[i].style.display = "none";
-	  dots[i].classList.remove('active');
-	}
-	slideIndex++;
-	if(slideIndex > slides.length) {
-	  slideIndex = 1
-	}
-	slides[slideIndex - 1].style.display = "block";
-	dots[slideIndex - 1].classList.add('active');
-	 if(timeoutId) {
-		clearTimeout(timeoutId);
-	 }
-	timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
-  }
-</script>
 
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
 </head>
 <body>
-
 
  <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -215,4 +182,34 @@
   <span class="dot" onclick="currentSlide(11)"></span>
 </div> 
 
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
 </body>
+</html> 
