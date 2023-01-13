@@ -351,7 +351,7 @@ Become thane|Housecarl room(automatically) 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 12</div>
-    <img src="https://wiki.wildlandermod.com/Assets/severin/EntranceHall.png" style="width:100%">
+    <img src="https://wiki.wildlandermod.com/Assets/severin/EntraceHall.png" style="width:100%">
     <div class="Captiontext">Entrance Hall</div>
   </div>
 
@@ -537,7 +537,7 @@ Become thane|Housecarl room(automatically)
   <div class="mySlides fade">
     <div class="numbertext">13 / 13</div>
     <img src="https://wiki.wildlandermod.com/Assets/hjerim/childrens.png" style="width:100%">
-    <div class="Captiontext">childrens Bedroom</div>
+    <div class="Captiontext">Children's Bedroom</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -578,7 +578,7 @@ Become thane|Housecarl room
 
 #### Proudspire Manor Slideshow
  <!-- Slideshow container -->
-<div ID="proudspiremanorSlideshow" class="slideshow-container">
+<div ID="ProudspiremanorSlideshow" class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
@@ -656,7 +656,7 @@ Become thane|Housecarl room
   <div class="mySlides fade">
     <div class="numbertext">13 / 15</div>
     <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Childrens.png" style="width:100%">
-    <div class="Captiontext">Childrens Bedroom</div>
+    <div class="Captiontext">Children's Bedroom</div>
   </div>
 
 
@@ -818,7 +818,7 @@ var slideshow5 = document.getElementById("hjerimSlideshow");
 slideshow5.currentSlideIndex = 1;
 showSlides(slideshow5.currentSlideIndex, slideshow5);
 
-var slideshow6 = document.getElementById("ProudspireSlideshow");
+var slideshow6 = document.getElementById("ProudspiremanorSlideshow");
 slideshow6.currentSlideIndex = 1;
 showSlides(slideshow6.currentSlideIndex, slideshow6);
 
