@@ -256,14 +256,14 @@ AlchemyLab|AlchemyLab
 Childroom|Childroom, Alchemy workbench
 Become thane|Housecarl room(automatically) 
 
-#### VindrellHall Slideshow
+#### Vindrell Hall Slideshow
  <!-- Slideshow container -->
 <div ID="VindrellHallSlideshow" class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 10</div>
-    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Exterior.png style="width:100%">
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Exterior.png" style="width:100%">
     <div class="Captiontext">House Entrance</div>
   </div>
 
