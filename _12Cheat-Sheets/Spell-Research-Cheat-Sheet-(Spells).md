@@ -4,6 +4,9 @@ layout: default
 nav_order: 1
 description: Spell Research (Spells & ArchTypes) 
 ---
+
+Note: There is a spell Dispel Soulgems, in the current version of Wildlander which can be learned via spell research. This spell is not functional, and will be removed in 1.2.
+
 ## Alteration
 
 Spell|School|Cast Type|Spell Level|Target|Technique|Elements|Notes
@@ -219,7 +222,6 @@ Circle of Palladium |Restoration |Fire & Forget|Master |Location|Curing <br> Fea
 Circle of Protection |Restoration |Fire & Forget|Expert |Location|Fear| Construct <br>  Undead |
 Dispel on Self |Restoration |Fire & Forget|Adept |Self | Curing | Arcane <br>  Disease <br>  Poison |
 Dispel on Target |Restoration |Fire & Forget|Master |Self |Curing| Arcane <br>  Disease <br>  Poison |
-Dispel Soul Gems |Restoration |Fire & Forget|Apprentice |Self | Infuse |Soul |
 Heal Self (Rank I) |Restoration|Concentration|Apprentice |Self |Curing |Health |
 Heal Self (Rank II) |Restoration |Fire & Forget|Apprentice |Self | Curing | Health |
 Heal Self (Rank III) |Restoration |Fire & Forget|Adept |Self |Curing||
