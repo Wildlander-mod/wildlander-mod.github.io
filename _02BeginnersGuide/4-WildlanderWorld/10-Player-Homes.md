@@ -7,47 +7,6 @@ has_children: false
 parent: Wildlander World
 ---
 
-<script>
-  let slideIndex = 0;
-  let timeoutId = null;
-  const slides = document.getElementsByClassName("mySlides");
-  const dots = document.getElementsByClassName("dot");
-  
-  showSlides();
-  function currentSlide(index) {
-	   slideIndex = index;
-	   showSlides();
-  }
- function plusSlides(step) {
-	
-	if(step < 0) {
-		slideIndex -= 2;
-		
-		if(slideIndex < 0) {
-		  slideIndex = slides.length - 1;
-		}
-	}
-	
-	showSlides();
- }
-  function showSlides() {
-	for(let i = 0; i < slides.length; i++) {
-	  slides[i].style.display = "none";
-	  dots[i].classList.remove('active');
-	}
-	slideIndex++;
-	if(slideIndex > slides.length) {
-	  slideIndex = 1
-	}
-	slides[slideIndex - 1].style.display = "block";
-	dots[slideIndex - 1].classList.add('active');
-	 if(timeoutId) {
-		clearTimeout(timeoutId);
-	 }
-	timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
-  }
-</script>
-
 ## Standard Homes
 
 ### Breezehome - Whiterun
@@ -80,90 +39,8 @@ Notes:
 * The Basement now contains a Bathroom right at the end of the corridor
 * The Loft area as Planters for growing herbs
 
- <!-- Slideshow container -->
-<div class="slideshow-container">
+<iframe src="https://wiki.wildlandermod.com/Assets/Breezehome/breezehomeSlidehow.html" width="100%" height="600" align="left" frameborder="0" marginheight="0" marginwidth="0"> Loading…</iframe>
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/HouseEntrace.png" style="width:100%">
-    <div class="text">House Entrace</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Kitchen.png" style="width:100%">
-    <div class="text">Kitchen Area</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/TrophyRoomAndRoofAccess.png" style="width:100%">
-    <div class="text">Trophy Room And Roof Access</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/roof.png" style="width:100%">
-    <div class="text">Roof</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/UpstairsLanding.png" style="width:100%">
-    <div class="text">Upstairs Landing</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/MasterBedroom.png" style="width:100%">
-    <div class="text">Master Bedroom</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">8 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/BasementEntrace.png" style="width:100%">
-    <div class="text">Basement Entrace</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">9 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Bathtub.png" style="width:100%">
-    <div class="text">Bathroom (Straight ahead)</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">10 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/CraftingRoom.png" style="width:100%">
-    <div class="text">Crafting room (on the right)</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">11 / 11</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Breezehome/FollowersChildrens.png" style="width:100%">
-    <div class="text">Followers sleep area(on the left)</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span>
-  <span class="dot" onclick="currentSlide(8)"></span>
-  <span class="dot" onclick="currentSlide(9)"></span>
-  <span class="dot" onclick="currentSlide(10)"></span>
-  <span class="dot" onclick="currentSlide(11)"></span>
-</div> 
 
 -------
 
