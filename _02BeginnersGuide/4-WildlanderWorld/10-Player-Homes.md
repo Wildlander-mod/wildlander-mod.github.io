@@ -101,7 +101,7 @@ Notes:
   <div class="mySlides fade">
     <div class="numbertext">10 / 10</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/FollowersChildrens.png" style="width:100%">
-    <div class="Captiontext">Followers sleep area(Basement - on the left)</div>
+    <div class="Captiontext">Childrens Bedroom(Basement - on the left)</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -153,7 +153,7 @@ Become thane|Housecarl room(automatically)
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 13</div>
-    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_Kitchen.png" style="width:100%">
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_kitchen.png" style="width:100%">
     <div class="Captiontext">Kitchen Area</div>
   </div>
 
@@ -255,6 +255,77 @@ Hallway|Hallway, Trophy stands, Planters
 AlchemyLab|AlchemyLab
 Childroom|Childroom, Alchemy workbench
 Become thane|Housecarl room(automatically) 
+
+#### VindrellHall Slideshow
+ <!-- Slideshow container -->
+<div ID="VindrellHallSlideshow" class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Exterior.png style="width:100%">
+    <div class="Captiontext">House Entrance</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Entrance_Hall.png" style="width:100%">
+    <div class="Captiontext">Entrance Hall</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Kitchen.png" style="width:100%">
+    <div class="Captiontext">Kitchen Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Trophy_Room.png" style="width:100%">
+    <div class="Captiontext">Trophy Room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Bedroom.png" style="width:100%">
+    <div class="Captiontext">Master Bedroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Bath.png" style="width:100%">
+    <div class="Captiontext">Bathroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Crafting_Room.png" style="width:100%">
+    <div class="Captiontext">Crafting room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Trophy_Room_Enchanting.png" style="width:100%">
+    <div class="Captiontext">Enchanting area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Fireplace.png" style="width:100%">
+    <div class="Captiontext">Fireplace area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="https://wiki.wildlandermod.com/Assets/VindrellHall/Dining_Room.png" style="width:100%">
+    <div class="Captiontext">Dining area</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, VindrellHallSlideshow)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, VindrellHallSlideshow)">&#10095;</a>
+</div>
+<br>
 
 -------
 
@@ -459,6 +530,18 @@ showSlides(slideshow2.currentSlideIndex, slideshow2);
 var slideshow3 = document.getElementById("VindrellHall");
 slideshow3.currentSlideIndex = 1;
 showSlides(slideshow3.currentSlideIndex, slideshow3);
+
+var slideshow4 = document.getElementById("Severin");
+slideshow4.currentSlideIndex = 1;
+showSlides(slideshow4.currentSlideIndex, slideshow4);
+
+var slideshow5 = document.getElementById("hjerim");
+slideshow5.currentSlideIndex = 1;
+showSlides(slideshow5.currentSlideIndex, slideshow5);
+
+var slideshow6 = document.getElementById("Proudspire");
+slideshow6.currentSlideIndex = 1;
+showSlides(slideshow6.currentSlideIndex, slideshow6);
 
 
 function plusSlides(n, slideshow) {
