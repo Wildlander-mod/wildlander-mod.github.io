@@ -177,7 +177,6 @@ Perk Required : Power of Life
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Arcane Ward (Rank II) | 70/s | 40 | Concentration | The caster creates a protective shield that negates a great amount of physical damage and negates up to \<mag> points of spell damage. |  |
-| Dispel Soulgems | 150 | 100 | - | The caster sets free all souls currently captured in carried soul gems. |  |
 | Heal Self (Rank I) | 40/s | 10 | Concentration | Heals the caster by \<mag> points per second. |  |
 | Heal Self (Rank II) | 100 | 20 | - | Heals the caster by \<mag> points. The spell does not affect undead, atronachs and automatons. |  |
 | Healing Hands (Rank I) | 25/s | 5 | Concentration | Heals the target by \<mag> points per second, but not the undead, atronachs or constructs. |  |

@@ -219,7 +219,6 @@ Circle of Palladium |Restoration |Fire & Forget|Master |Location|Curing <br> Fea
 Circle of Protection |Restoration |Fire & Forget|Expert |Location|Fear| Construct <br>  Undead |
 Dispel on Self |Restoration |Fire & Forget|Adept |Self | Curing | Arcane <br>  Disease <br>  Poison |
 Dispel on Target |Restoration |Fire & Forget|Master |Self |Curing| Arcane <br>  Disease <br>  Poison |
-Dispel Soul Gems |Restoration |Fire & Forget|Apprentice |Self | Infuse |Soul |
 Heal Self (Rank I) |Restoration|Concentration|Apprentice |Self |Curing |Health |
 Heal Self (Rank II) |Restoration |Fire & Forget|Apprentice |Self | Curing | Health |
 Heal Self (Rank III) |Restoration |Fire & Forget|Adept |Self |Curing||
