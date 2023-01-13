@@ -39,7 +39,7 @@ Notes:
 * The Basement now contains a Bathroom right at the end of the corridor
 * The Loft area as Planters for growing herbs
 
-<iframe src="https://wiki.wildlandermod.com/Assests/Breezehome/breezehomeSlideshow.html" width="100%" height="600" align="left" frameborder="0" marginheight="0" marginwidth="0"> Loading…</iframe>
+<iframe src="https://wiki.wildlandermod.com/Assets/Breezehome/breezehomeSlideshow.html" width="100%" height="600" align="left" frameborder="0" marginheight="0" marginwidth="0"> Loading…</iframe>
 
 
 -------
