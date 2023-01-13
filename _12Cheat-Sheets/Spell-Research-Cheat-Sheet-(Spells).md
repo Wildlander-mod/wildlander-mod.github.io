@@ -4,6 +4,9 @@ layout: default
 nav_order: 1
 description: Spell Research (Spells & ArchTypes) 
 ---
+
+Note: There is a spell Dispel Soulgems, in the current version of Wildlander which can be learned via spell research. This spell is not functional, and will be removed in 1.2.
+
 ## Alteration
 
 Spell|School|Cast Type|Spell Level|Target|Technique|Elements|Notes
