@@ -110,22 +110,6 @@ Notes:
 </div>
 <br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(2, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(3, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(4, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(5, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(6, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(7, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(8, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(9, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(10, BreezehomeSlideshow)"></span>
-  <span class="dot" onclick="currentSlide(11, BreezehomeSlideshow)"></span>
-</div> 
-
-
 
 -------
 
@@ -388,24 +372,16 @@ function plusSlides(n, slideshow) {
   showSlides(slideshow.currentSlideIndex += n, slideshow);
 }
 
-function currentSlide(n, slideshow) {
-  showSlides(slideshow.currentSlideIndex = n, slideshow);
-}
-
 function showSlides(n, slideshow) {
 
   var i;
   var slides = slideshow.getElementsByClassName("mySlides");
-  var dots = slideshow.getElementsByClassName("dot");
   if (n > slides.length) {slideshow.currentSlideIndex = 1}    
   if (n < 1) {slideshow.currentSlideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" dotactive", "");
-  }
+
   slides[slideshow.currentSlideIndex-1].style.display = "block";  
-  dots[slideshow.currentSlideIndex-1].className += " dotactive";
 }
 </script>
