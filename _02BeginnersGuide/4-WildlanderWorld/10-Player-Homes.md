@@ -457,7 +457,98 @@ Bedroom|Main bedroom
 Childroom|Childroom
 Become thane|Housecarl room(automatically)
 
+#### Hjerim Slideshow
+ <!-- Slideshow container -->
+<div ID="hjerimSlideshow" class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Exterior.png" style="width:100%">
+    <div class="Captiontext">Exterior</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Bar.png" style="width:100%">
+    <div class="Captiontext">Bar</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Kitchen.png" style="width:100%">
+    <div class="Captiontext">Kitchen Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/DiningRoom.png" style="width:100%">
+    <div class="Captiontext">Dining Room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/MasterBedroom.png" style="width:100%">
+    <div class="Captiontext">Master Bedroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/MasterBedroom-1.png" style="width:100%">
+    <div class="Captiontext">Master Bedroom (alt view)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Forge.png" style="width:100%">
+    <div class="Captiontext">Forge room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Enchanting.png" style="width:100%">
+    <div class="Captiontext">Enchanting area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Office.png" style="width:100%">
+    <div class="Captiontext">Study area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Trophy.png" style="width:100%">
+    <div class="Captiontext">Trophy area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/AlchemyLab.png" style="width:100%">
+    <div class="Captiontext">Alchemy area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/Bath.png" style="width:100%">
+    <div class="Captiontext">Bath area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/hjerim/childrens.png" style="width:100%">
+    <div class="Captiontext">childrens Bedroom</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, hjerimSlideshow)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, hjerimSlideshow)">&#10095;</a>
+</div>
+<br>
+
 -------
+
+
 
 ### Proudspire Manor - Solitude
 
@@ -484,6 +575,109 @@ Kitchen|Kitchen, Dining area, Bar counter
 Patio|(out of back door)table, chairs, planters
 Childroom|Childroom
 Become thane|Housecarl room
+
+#### Proudspire Manor Slideshow
+ <!-- Slideshow container -->
+<div ID="proudspiremanorSlideshow" class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Exterior.png" style="width:100%">
+    <div class="Captiontext">Exterior</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/EntraceHall.png" style="width:100%">
+    <div class="Captiontext">Entrance Hall</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Balcony.png" style="width:100%">
+    <div class="Captiontext">Balcony Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Dining.png" style="width:100%">
+    <div class="Captiontext">Dining Room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/MasterBedroom.png" style="width:100%">
+    <div class="Captiontext">Master Bedroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Bar.png" style="width:100%">
+    <div class="Captiontext">Bar</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Forge.png" style="width:100%">
+    <div class="Captiontext">Forge room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Enchanting.png" style="width:100%">
+    <div class="Captiontext">Enchanting area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Office.png" style="width:100%">
+    <div class="Captiontext">Study area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Planters.png" style="width:100%">
+    <div class="Captiontext">Planting area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/AlchemyLab.png" style="width:100%">
+    <div class="Captiontext">Alchemy area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Bath.png" style="width:100%">
+    <div class="Captiontext">Bath area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Childrens.png" style="width:100%">
+    <div class="Captiontext">Childrens Bedroom</div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">14 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Kitchen.png" style="width:100%">
+    <div class="Captiontext">Kitchen (cookpot) Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">15 / 15</div>
+    <img src="https://wiki.wildlandermod.com/Assets/proudspiremanor/Kitchen-2.png" style="width:100%">
+    <div class="Captiontext">Kitchen (oven) Area</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, proudspiremanorSlideshow)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, proudspiremanorSlideshow)">&#10095;</a>
+</div>
+<br>
 
 -------
 
