@@ -140,6 +140,95 @@ Garden|Garden with planters, Blacksmith workshop, Bath Room
 Porch|Porch with planters, Trophy stands
 Become thane|Housecarl room(automatically)
 
+#### Honeyside Slideshow
+ <!-- Slideshow container -->
+<div ID="HoneysideSlideshow" class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_exterior.png style="width:100%">
+    <div class="Captiontext">House Entrance</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_Kitchen.png" style="width:100%">
+    <div class="Captiontext">Kitchen Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_displays.png" style="width:100%">
+    <div class="Captiontext">Trophy Room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_dock.png" style="width:100%">
+    <div class="Captiontext">Dock</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_stairwell_top.png" style="width:100%">
+    <div class="Captiontext">Upstairs Landing</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_bedroom.png" style="width:100%">
+    <div class="Captiontext">Master Bedroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_stairwell_bottom.png" style="width:100%">
+    <div class="Captiontext">Stairwell Bottom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_bath.png" style="width:100%">
+    <div class="Captiontext">Bathroom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_forge.png" style="width:100%">
+    <div class="Captiontext">Forge room</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_children_room.png" style="width:100%">
+    <div class="Captiontext">Children sleep area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_enchanting.png" style="width:100%">
+    <div class="Captiontext">Enchanting area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_fireplace.png" style="width:100%">
+    <div class="Captiontext">Fireplace area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 13</div>
+    <img src="https://wiki.wildlandermod.com/Assets/Honeyside/Honeyside_porch.png" style="width:100%">
+    <div class="Captiontext">Porch area</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, HoneysideSlideshow)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, HoneysideSlideshow)">&#10095;</a>
+</div>
+<br>
+
 -------
 
 ### Vlindrel Hall - Markarth
@@ -363,9 +452,13 @@ var slideshow1 = document.getElementById("BreezehomeSlideshow");
 slideshow1.currentSlideIndex = 1;
 showSlides(slideshow1.currentSlideIndex, slideshow1);
 
-var slideshow2 = document.getElementById("slideshow2");
+var slideshow2 = document.getElementById("HoneysideSlideshow");
 slideshow2.currentSlideIndex = 1;
 showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+var slideshow3 = document.getElementById("VindrellHall");
+slideshow3.currentSlideIndex = 1;
+showSlides(slideshow3.currentSlideIndex, slideshow3);
 
 
 function plusSlides(n, slideshow) {
