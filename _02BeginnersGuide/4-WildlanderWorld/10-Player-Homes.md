@@ -674,8 +674,8 @@ Become thane|Housecarl room
 
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1, proudspiremanorSlideshow)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, proudspiremanorSlideshow)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1, ProudspiremanorSlideshow)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, ProudspiremanorSlideshow)">&#10095;</a>
 </div>
 <br>
 
