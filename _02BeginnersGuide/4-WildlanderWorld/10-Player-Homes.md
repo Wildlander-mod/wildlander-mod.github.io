@@ -41,64 +41,64 @@ Notes:
 
 
  <!-- Slideshow container -->
-<div ID= "Breezehomeslideshow" class="slideshow-container">
+<div ID= "mySlideshow" class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">1 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/HouseEntrace.png" style="width:100%">
     <div class="Captiontext">House Entrace</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">2 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Kitchen.png" style="width:100%">
     <div class="Captiontext">Kitchen Area</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">3 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/TrophyRoomAndRoofAccess.png" style="width:100%">
     <div class="Captiontext">Trophy Room And Roof Access</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">4 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Roof.png" style="width:100%">
     <div class="Captiontext">Roof</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">5 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/UpstairsLanding.png" style="width:100%">
     <div class="Captiontext">Upstairs Landing</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">6 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/MasterBedroom.png" style="width:100%">
     <div class="Captiontext">Master Bedroom</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">8 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/BasementEntrace.png" style="width:100%">
     <div class="Captiontext">Basement Entrace</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">9 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/Bathtub.png" style="width:100%">
     <div class="Captiontext">Bathroom (Straight ahead)</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">10 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/CraftingRoom.png" style="width:100%">
     <div class="Captiontext">Crafting room (on the right)</div>
   </div>
 
-  <div class="BreezehomeSlides fade">
+  <div class="mySlides fade">
     <div class="numbertext">11 / 11</div>
     <img src="https://wiki.wildlandermod.com/Assets/Breezehome/FollowersChildrens.png" style="width:100%">
     <div class="Captiontext">Followers sleep area(on the left)</div>
@@ -375,7 +375,7 @@ You can use the following image as a guide for the controls to move items to whe
 ![image](https://user-images.githubusercontent.com/26418143/211219744-ee1cfc67-45e6-4b04-927e-b58f5b77cdb4.png)
 
 <script>
-var slideshow1 = document.getElementById("Breezehomeslideshow");
+var slideshow1 = document.getElementById("mySlideshow");
 slideshow1.currentSlideIndex = 1;
 showSlides(slideshow1.currentSlideIndex, slideshow1);
 
