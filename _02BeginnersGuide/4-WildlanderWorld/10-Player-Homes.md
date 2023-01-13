@@ -41,7 +41,7 @@ Notes:
 
 
  <!-- Slideshow container -->
-<div ID= "mySlideshow" class="slideshow-container">
+<div ID= "BreezehomeSlideshow" class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
@@ -105,24 +105,24 @@ Notes:
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1),BreezehomeSlideshow">&#10094;</a>
+  <a class="next" onclick="plusSlides(1),BreezehomeSlideshow">&#10095;</a>
 </div>
 <br>
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span>
-  <span class="dot" onclick="currentSlide(8)"></span>
-  <span class="dot" onclick="currentSlide(9)"></span>
-  <span class="dot" onclick="currentSlide(10)"></span>
-  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(1,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(2,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(3,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(4,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(5,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(6,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(7,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(8,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(9,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(10,BreezehomeSlideshow)"></span>
+  <span class="dot" onclick="currentSlide(11,BreezehomeSlideshow)"></span>
 </div> 
 
 
@@ -375,7 +375,7 @@ You can use the following image as a guide for the controls to move items to whe
 ![image](https://user-images.githubusercontent.com/26418143/211219744-ee1cfc67-45e6-4b04-927e-b58f5b77cdb4.png)
 
 <script>
-var slideshow1 = document.getElementById("mySlideshow");
+var slideshow1 = document.getElementById("BreezehomeSlideshow");
 slideshow1.currentSlideIndex = 1;
 showSlides(slideshow1.currentSlideIndex, slideshow1);
 
