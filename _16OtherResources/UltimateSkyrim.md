@@ -155,7 +155,7 @@ Check out our [gameplay guide](http://shorturl.at/achCW) for new players!
 
 ### Encountering issues, or have questions? 
 
-Check out our [Frequently Asked Questions](https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md).
+Check out our [Frequently Asked Questions](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/).
 
 A reminder: This List is no longer supported. 
 
