@@ -19,27 +19,28 @@ Backpacks are the early game source of carry weight - they can be crafted (see c
 
 # Barrels and Chests
 
-There are two variety of chests in the game - Camping chest/barrels - Crafted from player crafting - these can be picked up and placed with the "campfire" system anywhere which isn't settled.
+There are two variety of chests in the game - Wooden chests/barrels - Crafted from player crafting - these can be picked up and placed with the "campfire" system anywhere which isn't settled.
 
-The other type is a furniture item which was added to decorate your player homes and requires a Furniture workstation to craft. These workstations are in Riften or Windhelm warehouses or in your hearthfire home.
+The other type is a "Hearthfire extended" furniture item which was added to decorate your player homes and requires a Furniture workstation to craft. These workstations are in Riften or Windhelm warehouses or in your hearthfire home.
 
 Campfire Chests
 * Cannot be placed in cities
 * Have linked Storage (multiple chests share the same inventory)
-* can be picked up Easily by interacting with the chest.
-* can be crafted anywhere.
+* Can be picked up Easily by interacting with the chest.
+* Can be crafted anywhere.
+* Don't have to be emptied to be moved.
 
-Furniture chests
-* Can be placed Anywhere
-* Have separate storage 
+Hearthfire Furniture chests
+* Can be placed Anywhere.
+* Have separate storage.
 * Require the use of Jaxon's positioner to move.
-* Require a specific crafting work station
-* MUST be emptied before moving (e.g. if moving it from inside of a building to outside - you must empty it first else you will lose the contents)
+* Require a specific crafting work station.
+* MUST be emptied before moving (e.g. if moving it from inside of a building to outside - you must empty it first else you will lose the contents).
 
 
 # Campfire Skills
 
-There is a skill available at a player constructed campfire which increases your carry weight permanently. Press "<" to build a campfire, Increase it in size unstil the skills menu appears when interacting with it. 
+There is a skill available at a player constructed campfire which increases your carry weight permanently. Press "<" to build a campfire, Increase it in size until the skills menu appears when interacting with it. 
 
 {: .note}
 this skill requires a Skill point, earned from taking care of yourself and has two levels.
