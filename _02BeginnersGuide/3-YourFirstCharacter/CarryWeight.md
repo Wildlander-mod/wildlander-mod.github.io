@@ -34,6 +34,7 @@ Furniture chests
 * Have separate storage 
 * Require the use of Jaxon's positioner to move.
 * Require a specific crafting work station
+* MUST be emptied before moving (e.g. if moving it from inside of a building to outside - you must empty it first else you will lose the contents)
 
 
 # Campfire Skills
