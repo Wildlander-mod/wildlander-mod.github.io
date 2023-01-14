@@ -2,6 +2,7 @@
 layout: default
 title: Ultimate Skyrim
 description: Ultimate Skyrim Installation Guide
+has_children: true
 ---
 
 ## Table of Contents
@@ -134,6 +135,8 @@ Before you can play, _Ultimate Skyrim_ requires the configuration of several in-
   
 ---
   
+Pat yourself on the back, buckaroo - Ultimate Skyrim is ready to play! Thanks for your patience, and we hope you enjoy your time in Tamriel.
+  
 ### Save Advice
 
 {: .important}
@@ -146,10 +149,22 @@ Before you can play, _Ultimate Skyrim_ requires the configuration of several in-
 >
 > Never save within 30 seconds of entering a building / cell / dungeon.
 
----
-  
-Pat yourself on the back, buckaroo - Ultimate Skyrim is ready to play! Thanks for your patience, and we hope you enjoy your time in Tamriel.
-Need help surviving your first few days? Check out our [gameplay guide](https://web.archive.org/web/20211222222434/http://shorturl.at/achCW) for new players!
+### Need help surviving your first few days?
 
-Encountering issues, or have questions? Check out our [Frequently Asked Questions](https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md).
+Check out our [gameplay guide](http://shorturl.at/achCW) for new players!
+
+### Encountering issues, or have questions? 
+
+Check out our [Frequently Asked Questions](https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md).
+
+A reminder: This List is no longer supported. 
+
+### Want to add mods / customize?
+
+Ultimate Skyrim - Modding Guides are now Consolidated [here](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/UltimateSkyrimGuides/ModdingUltSky.md)
+
+If you plan on modding your game - Make sure you read the  Modding Basics first!
+
+>>>>>THESE GUIDES ARE NOT FOR WILDLANDER<<<<< 
+
 
