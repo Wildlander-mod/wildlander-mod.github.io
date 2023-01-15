@@ -161,10 +161,10 @@ A reminder: This List is no longer supported.
 
 ### Want to add mods / customize?
 
-Ultimate Skyrim - Modding Guides are now Consolidated [here](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/UltimateSkyrimGuides/ModdingUltSky.md)
+Ultimate Skyrim - Modding Guides are now Consolidated [here](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/)
 
 If you plan on modding your game - Make sure you read the  Modding Basics first!
 
->>>>>THESE GUIDES ARE NOT FOR WILDLANDER<<<<< 
+THESE GUIDES ARE NOT FOR WILDLANDER 
 
 

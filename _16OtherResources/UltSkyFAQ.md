@@ -218,15 +218,15 @@ Many mods have a Mod Configuration Menu (MCM) where they can be turned off. Also
 
 ## Can I Add Additional mods?
 
-For a list of known mods which have Issues/Incompatibilities/ please click [here](https://github.com/Wildlander-mod/Support/blob/master/Docs/UltimateSkyrimGuides/ModdingUltSky.md#known-mod-issuesincompatibilities)
+For a list of known mods which have Issues/Incompatibilities/ please click [here](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#known-mod-issuesincompatibilities)
 
-Before you begin modding Please read the [basics](https://github.com/Wildlander-mod/Support/blob/master/Docs/UltimateSkyrimGuides/ModdingUltSky.md#ultimate-skyrim-modding-basics) which contains the rules for modding in ultsky and are slightly different to other modlists you might have tried. The most important rule is
+Before you begin modding Please read the [basics](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#ultimate-skyrim-modding-basics) which contains the rules for modding in ultsky and are slightly different to other modlists you might have tried. The most important rule is
 
 ▶️ **YOU CANT USE LOOT**  ◀️
 
 The support Team has put together a set of guides for adding popularly requested additional mods.
 
-Please visit [this page](https://github.com/Wildlander-mod/Support/blob/master/Docs/UltimateSkyrimGuides/ModdingUltSky.md#guides-list) for install guides or the Wildlander discord (Ultsky-customization channel) advice for other type of mods.
+Please visit [this page](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#guides-list) for install guides or the Wildlander discord (Ultsky-customization channel) advice for other type of mods.
 
 ---
 
@@ -238,15 +238,15 @@ No and if you try then SKSE crashes from Mod Organizer. You will need to install
 
 ## Can I backup and restore Ultimate Skyrim
 
-Yes, please follow this guide https://github.com/Wildlander-mod/Support/blob/master/Docs/Backup.md
+Yes, please follow this [guide](https://github.com/Wildlander-mod/Support/blob/master/Docs/Backup.md)
 
 
 ---
 ## I want to setup rodericktech guide for fancy graphics - where are the patcher instructions.
 
-Reqtificator is located [here]( https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md#how-do-i-install-the-reqtificator)
+Reqtificator is located [here](#how-do-i-install-the-reqtificator)
 
-Other Patchers(AV, Dyndolod ect) are located [here]( https://github.com/Wildlander-mod/Support/blob/master/Docs/Patchers.md)
+Other Patchers(AV, Dyndolod ect) are located [here](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/)
 
 ---
 
@@ -379,13 +379,22 @@ There is no way to recover you game once this occurs.
 
 The problem in a heavily modded set up is that it has a ton of script heavy mods. Sometimes a script will get paused for saving, and that script won't be able to recover properly from it's paused state. This leads to a corrupted save. Another possibility is that your computer is already under so much strain from the scripts that the save function can actually cause a ctd when trying to save, usually during some script-intensive moment.
 
-The point being that not using autosave can help with avoiding ctds (if you've been experiencing them on loading Screens) and hence corrupted save files when you try to load one after a CTD. In addition Auto-saves increase cell loading times by 500%, so its preferable to manually save once inside of a cell, rather than have it integrated into the loading screen. 
+The point being that not using auto-save can help with avoiding ctds (if you've been experiencing them on loading Screens) and hence corrupted save files when you try to load one after a CTD. In addition Auto-saves increase cell loading times by 500%, so its preferable to manually save once inside of a cell, rather than have it integrated into the loading screen. 
 
 Quicksaves are fine as long as you know when to save (i.e. during low intensity moments, giving plenty of time for your crazy mod scripts to finish running) and not while hiding behind a pillar in stealth trying to avoid 50 bandits whom you just woke. 
 
-Auto/Quicksaves are not bad intrinsically (in and of themselves), it's that there are an insufficient number of them if something goes wrong, leading to the possibility of many lost hours of gameplay progress. You would be forced to use a previous 'hard save.'.
+Auto/Quicksaves are not bad intrinsically (in and of themselves), it's that there are an insufficient number of them if something goes wrong, leading to the possibility of many lost hours of game-play progress. You would be forced to use a previous 'hard save.'.
 
 TL;DR  Auto/Quicksaves are ok, but timing is what determines if they're safe or more likely to corrupt.  Having multiple saves to use limits the amount of play lost to script-death.
+
+Instead Practice Safe Hard saves:-
+> When you load your save file, wait at least a minute before saving again. Some scripts will break if you save too soon after loading.
+>  
+> Avoid saving during combat or other conditions of heavy script load. 
+>
+> Never save more than once a minute.
+>
+> Never save within 30 seconds of entering a building / cell / dungeon.
 
 ---
 
