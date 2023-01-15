@@ -60,6 +60,7 @@ Eastmarch | Kynesgrove| Dravynea the Stoneweaver | Braidwood Inn (only offers se
 Haafingar| 	Solitude| 	Sybille Stentor| 	Blue Palace| 60
 Haafingar| 	Solitude| 	Melaran | Erikur's House or Blue Palace (only offers enchanting services if Sybille is dead) |60
 Haafingar| 	Solitude| 	Sassia the Enchantress | Outlaw Refuge|60
+HjaalMarch | 	Morthal| 	Falion | Falion's Hut | 50
 Solstheim | Raven Rock| Neloth| Tel Mithryn |100
 The Pale| 	Dawnstar| 	Madena| 	The White Hall| 15
 The Reach| 	Markarth| 	Calcelmo| 	Understone Keep| 80
