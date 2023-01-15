@@ -529,9 +529,9 @@ Once you have checked all of those you can apply the following tweaks.
 	
 2) Lower your Graphics preset, or adjust content\profiles\UltSky (preset you play)\Skyrimpref.ini	reduce the iShadowMapResolution (can be changed to 1024 or 512), fShadowDistance and fGrassMaxStartFadeDistance.
 	
-3) Open Mod Organizer, Disable the Mod Ultsky <version> Dyndolod on the left pane, setup and run the Reqtificator [guide here]( https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md#how-do-i-install-the-reqtificator). (This one affects the performance by about 3 to 6 fps in certain open areas at the expense of  a better looking far landscape
+3) Open Mod Organizer, Disable the Mod Ultsky <version> Dyndolod on the left pane, setup and run the Reqtificator [guide here]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#how-do-i-install-the-reqtificator). (This one affects the performance by about 3 to 6 fps in certain open areas at the expense of  a better looking far landscape
 	
-4) [Lower]( https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md#my-pc-cant-handle-the-enb---can-i-reduce-the-settings) or [uninstall]( https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) the ENB	
+4) [Lower]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb---can-i-reduce-the-settings) or [uninstall]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) the ENB	
 
 ---
 
@@ -607,12 +607,12 @@ The game may appear frozen or have a unusually long loading time, but it's usual
 
 Can also be caused by
 
-* Your PC being below the minimum requirements to play the pack as shown on the install Readme. You can try removing the ENB [using](  https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it).	
+* Your PC being below the minimum requirements to play the pack as shown on the install Readme. You can try removing the ENB [using](  https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it).	
 * Ultimate Skyrim folders(or subfolders) being read-only.
 * Ultimate skyrim being on a different drive to skyrim - Only resolution to this is to move Ultimate skyrim to same hard drive.
 * Ultimate skyrim being installed inside of program files - Move the ultimate skyrim to a folder outside of program files.
 * Additional mods in skyrim\data folder from previous modding or workshop subscriptions are causing a conflict.
-* Conflict between 5000 & 6000 series AMD drivers and the ENB - only resolution to this is to either roll back until you find working AMD drivers or disable ENB graphics using [step 6 of](  https://github.com/Wildlander-mod/Support/blob/master/Docs/FAQ.md#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) until a working driver is available.
+* Conflict between 5000 & 6000 series AMD drivers and the ENB - only resolution to this is to either roll back until you find working AMD drivers or disable ENB graphics using [step 6 of](  https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) until a working driver is available.
 * A Corrupt Skyrim installation (to check, launch skyrim from steam and see if it crashes on loading screen)
 * Antivirus real-time scanning your Skyrim\ultimate skyrim folders - add ultimate skyrim and skyrim folders to your exceptions. 
 * [Direct X](#game-hard-CTD-on-SplashScreen) and/or [C++](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) installations are broken (You’ll need both the 32-bit and the 64-bit versions of C++.)
