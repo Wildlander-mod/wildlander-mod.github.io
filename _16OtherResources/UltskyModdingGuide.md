@@ -11,34 +11,24 @@ parent: Ultimate Skyrim
 
 ## Important Terms
 
-1) mod organizer      - The tool which makes everything work - Installed as part of the Wabbajack installation in <Ultsky install directory>\Content\Mod Organizer.exe
-2) Reqtificator       - The requiem patcher - Makes 3rd party mods compatible with the Ultsky install. If you are going to do any modding at all this must be setup first. Instructions for how to do this are [here](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#Reqtificator-questions)
-3) Reqtificator.ini   - The configuration parameters for the requiem patcher - needed if you are going to make any appearance changes or add any new races. Located in 
+1. mod organizer      - The tool which makes everything work - Installed as part of the Wabbajack installation in <Ultsky install directory>\Content\Mod Organizer.exe
+2. Reqtificator       - The requiem patcher - Makes 3rd party mods compatible with the Ultsky install. If you are going to do any modding at all this must be setup first. Instructions for how to do this are [here](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#Reqtificator-questions)
+3. Reqtificator.ini   - The configuration parameters for the requiem patcher - needed if you are going to make any appearance changes or add any new races. Located in 
 <Ultsky install directory>\Content\mods\Ultsky Core Files\SkyProc Patchers\Requiem
-4) [Dyndolod](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md#dyndolod)           - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
-5) [Automatic Varients](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md#automatic-variants) - The tool which makes creatures in the game have different appearances rather than all having the same appearance.
-6) Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
+4. [Dyndolod](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md#dyndolod)           - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
+5. [Automatic Varients](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md#automatic-variants) - The tool which makes creatures in the game have different appearances rather than all having the same appearance.
+6. Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
 
 
 ## Guides list
-<!-- TOC -->
-- [Ultimate Skyrim Basics - READ ME!!!!](#ultimate-skyrim-modding-basics)
-- [Known Mod Issues or Incompatibilities](#known-mod-issuesincompatibilities)
-- [How do I Re-run Automatic variants, FNiS or Dyndolod?](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md)
-- [Graphics Overhaul Guide](#ultimate-skyrim-Basics)
-- [NPC Overhaul Guide](#npc-overhaul-guide)
-- [BMX Gameplay Overhaul Guide](#bmx-gameplay-overhaul-guide)
-- [Anna Gameplay Overhaul Guide](#Anna-gameplay-overhaul-guide)   
-- [Autosave Manager](#autosave-manager)
-- [EnaiSiaion mods](#EnaiSiaion-mods)
-- [SNBCJ's mods](#SNBCJs-mods)
-- [Rain Ash and Snow Shaders](#Rain-Ash-and-Snow-Shaders)
-- [Discord Community Patches](#Discord-Community-Patches)
-- [None ESP mods](#None-ESP-mods)
-- [Other mods & Tweaks](#other-mods)
-- [What About legacy of the Dragonborn](#What-About-legacy-of-the-Dragonborn)
-
-<!-- /TOC -->
+<details markdown="block">
+  <summary>
+    Expand to view
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 
 ---
