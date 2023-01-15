@@ -29,6 +29,9 @@ Inspiring Campfire|	6 Deadwood or 4 Wood|	12 Hours|	"Inspired" - All skills impr
 
 Campfires can be put out. If there was any unspent fuel before the campfire was put out, it will be given to you when you click on the campfire again.
 
+{: .NoTitleGreen}
+Note: Uplifted and Inspired buffs will only apply when you leave the radius of the campfire, or the campfire goes out.
+
 ---
 
 ### Fuel
