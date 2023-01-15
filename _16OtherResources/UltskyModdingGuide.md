@@ -13,8 +13,7 @@ parent: Ultimate Skyrim
 
 1. mod organizer      - The tool which makes everything work - Installed as part of the Wabbajack installation in <Ultsky install directory>\Content\Mod Organizer.exe
 2. Reqtificator       - The requiem patcher - Makes 3rd party mods compatible with the Ultsky install. If you are going to do any modding at all this must be setup first. Instructions for how to do this are [here](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#Reqtificator-questions)
-3. Reqtificator.ini   - The configuration parameters for the requiem patcher - needed if you are going to make any appearance changes or add any new races. Located in 
-<Ultsky install directory>\Content\mods\Ultsky Core Files\SkyProc Patchers\Requiem
+3. Reqtificator.ini   - The configuration parameters for the requiem patcher - needed if you are going to make any appearance changes or add any new races. Located in {Ultsky install directory}\Content\mods\Ultsky Core Files\SkyProc Patchers\Requiem
 4. [Dyndolod](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md#dyndolod)           - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
 5. [Automatic Varients](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md#automatic-variants) - The tool which makes creatures in the game have different appearances rather than all having the same appearance.
 6. Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
