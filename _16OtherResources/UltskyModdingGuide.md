@@ -12,7 +12,7 @@ parent: Ultimate Skyrim
 ## Important Terms
 
 1. mod organizer      - The tool which makes everything work - Installed as part of the Wabbajack installation in <Ultsky install directory>\Content\Mod Organizer.exe
-2. Reqtificator       - The requiem patcher - Makes 3rd party mods compatible with the Ultsky install. If you are going to do any modding at all this must be setup first. Instructions for how to do this are [here](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#Reqtificator-questions)
+2. Reqtificator       - The requiem patcher - Makes 3rd party mods compatible with the Ultsky install. If you are going to do any modding at all this must be setup first. Instructions for how to do this are [here](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)
 3. Reqtificator.ini   - The configuration parameters for the requiem patcher - needed if you are going to make any appearance changes or add any new races. Located in {Ultsky install directory}\Content\mods\Ultsky Core Files\SkyProc Patchers\Requiem
 4. [Dyndolod](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/#dyndolod)           - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
 5. [Automatic Varients](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/#automatic-variants) - The tool which makes creatures in the game have different appearances rather than all having the same appearance.
@@ -57,7 +57,7 @@ If there isn't a specific guide, then as a general rule of thumb
 
 ![Modding Rules](https://cdn.discordapp.com/attachments/790534021380964382/834791598964604948/unknown.png)
 
-Setup and run the Reqtificator as per the instructions in the [FAQ](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#Reqtificator-questions)
+Setup and run the Reqtificator as per the instructions in the [FAQ](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)
 
 Close mod organizer - and use the launcher to start the game.
 
@@ -66,7 +66,7 @@ Close mod organizer - and use the launcher to start the game.
 ## Known Mod Issues/Incompatibilities
 
 The following Types of mods are NOT Compatible. (cause game breaking bugs)
-> * Any Alternate start mod. (Ultimate Skyrim reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with somthing else)
+> * Any Alternate start mod. (Ultimate Skyrim reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
 > * Any Mod which affects the perk trees E.g. Ordinator 
 > * Truly Absorb Dragon Souls, DSAMG - Dragon Soul Absorb More Glorious and Dragon Remains (prevents the main quest from firing upon killing a dragon)
 > * UltSky Starting items for 4.0.6hf2 (Breaks Ultimate Skyrim reborn, character wont teleport after creating and doesn’t have the promised items anyway!)
@@ -189,7 +189,7 @@ To install:
 1. Download and install[ Wintersun 3.1.5](https://www.nexusmods.com/skyrim/mods/95545?tab=files) with MO2. Load the esp plugin anywhere between _Book Covers Skyrim.esp_ and _Requiem.esp._ On the screenshot below it is right before _Requiem.esp_. Mod position on the left side of MO does not matter (end of the mod list is fine).
 2. Download and install[ Wintersun - Requiem patch (v1.4)](https://www.nexusmods.com/skyrim/mods/95859?tab=files) from Segolia94's patch collection. Load the esp between _Ultimate Skyrim.esp_ and _Requiem for the Indifferent.esp_.
 3. Install [Wintersun 3.1.5 - Seg 1.4 - Ultsky 407](https://drive.google.com/file/d/1hP53c8KQQz4plQGNl-qlLSpMnYFRVy0d/view?usp=sharing) On the left side of MO2 keep this patch **after** Wintersun mod and Seg's patch. On the right side of MO load the esp **after** Seg's patch and also **after** _Ultimate Skyrim - Book Covers Skyrim.esp_ **_._** You can place both patches there, as shown on the screenshot below.
-4. Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions). Done.
+4. Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions). Done.
 
 _Note: If you are a Sanguine worshipper, and you are also using SNBCJ's "Requiem - Classic Food and Drink (R-CFD)" mod, make sure to load the Wintersun patches after the R-CFD patch, so that you'll get the correct effect from alcohol which boosts favor with Sanguine the more you drink._
 
@@ -234,7 +234,7 @@ To install:
 
 1. Download and install[ Sacrosanct v5.15](https://www.nexusmods.com/skyrim/mods/80159?tab=files) using MO2. On the left side keep the mod after Ultimate Skyrim mod (end of the mod list is fine). On the right side load _Sacrosanct - Vampires of Skyrim.esp_ anywhere **between** _Ultimate Skyrim.esp_ and _Warburg's 3D Paper World Map_.
 2. Download and install[ Requiem 3.x - SCS 5.15 - RaceCompat 1.107 Patch](https://drive.google.com/file/d/1eSqCffbxL2BKPc7auVkS8bsPhcQwwLsS/view?usp=sharing) and place it after Sacrosanct mod on the left side of MO. Load the esp plugin **after** _Sacrosanct - Vampires of Skyrim.esp_ on the right. _[Note: Load both esp's_ **_after_** _SNBCJ's mods and patches if you have any of them installed (e.g. Classic Food and Drink or Immersive Divine Blessings).]_
-3. Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions). Done.
+3. Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions). Done.
 
 Load Order: Left and right side of MO2 shown below.
 
@@ -277,7 +277,7 @@ To install:
 1. Download and install[ Andromeda 1.0.9](https://www.nexusmods.com/skyrim/mods/89219?tab=files) with MO2. Load the esp **after** _Ultimate Skyrim.esp_ on the right side of MO.
 2. Download and install[ Andromeda 1.0.9 - Ultsky 4.0.7 MCM Descriptions](https://mega.nz/file/aVsl0YJa#6yaVKCFutL85qcqChc668d7udVCu8ASKO5YT9KhTBQU) to update the descriptions in the Ult Sky MCM. No plugin here, just a text file. On the left side of MO keep this patch **after** _Ultimate Skyrim_ mod.
 3. [Optional] Install the patch[ Andromeda - Undeath Ritual Stone patch](https://drive.google.com/open?id=141SgIO7hjle7Y2j-YHv2-edYak74AROS) if you intend to play the Undeath quest line. Load the plugin **after** _Andromeda - Unique Standing Stones of Skyrim.esp_ on the right side.
-4. Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions). Done.
+4. Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions). Done.
 
 
 
@@ -338,7 +338,7 @@ _To install:_
 1. _Download and install the main file[ Requiem - Immersive Divine Blessings 1.31](https://www.nexusmods.com/skyrim/mods/90691?tab=files) using MO2. On the right side of MO the plugin should be loaded **between** Requiem.esp and Ultimate Skyrim.esp (screenshot below). On the left side of MO, R-IDB should override Requiem 3.0.x to win any file conflicts. It's fine to leave it at the end of the mod list._
 2. _Download the patch archive ([R-IDB 1.31 UltSky 406HF2 patch](https://drive.google.com/open?id=1vZRbFBXgjlJ-2GvkUcNiqhf3y0guDmM8)) and install in MO2. On the right side move the plugin **between** Ultimate Skyrim.esp and Automatic Variants.esp. If you don't have AV installed, the plugin can be loaded anywhere between Ultimate Skyrim.esp and Requiem for the Indifferent.esp. Mod order on the left side is not important._
 3. _Run the [Automatic Variants](https://github.com/phinocio/UltimateSkyrim/blob/master/Docs/Patchers.md#automatic-variants)  patcher.
-4. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions). Done. (**Note: Remember to re-run both patchers if you remove IDB from your load order later on.**)_
+4. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions). Done. (**Note: Remember to re-run both patchers if you remove IDB from your load order later on.**)_
 
 
 _*Installing **R-IDB** on an existing save: All shrines and amulets should work right off the bat, but make sure to clear any active effects from old blessings._
@@ -358,7 +358,7 @@ _To install:_
 
 1. _Download and install[ Requiem - Immersive Abilities 8.0](https://www.nexusmods.com/skyrim/mods/96880?tab=files) (**main file only!**). Mod placement on the left side of MO2 doesn't matter. On the right side place Requiem - Immersive Abilities.esp **between** Ultimate Skyrim.esp and Requiem for the Indifferent.esp._
 2. _Install[ R-IA 1.6 UltSky 406 HF2 patch](https://drive.google.com/file/d/1G6MP_qGJnUUKoLrzR3_BizkcelddyWWx/view?usp=sharing) (works with R-IA v8.0) and load the esp anywhere **between** Requiem - Immersive Abilities.esp and Requiem for the Indifferent.esp. (Note: this patch contains the file "Requiem - IA Chasing the Dragon Plus patch 1.2" needed for Requiem 3.X compatibility on the Nexus downloads page, so there is no need to install that file.)_
-3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions)._
+3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)._
 
 _*Installing **R-IA** mid-game is not recommended._
 
@@ -374,7 +374,7 @@ _To install:_
 
 1. _Download the main file[ Requiem - Standing Stone Rebalance 3.6](https://www.nexusmods.com/skyrim/mods/88988?tab=files) using MO2, and install. Mod order (left side of MO) doesn't matter. On the right side, place the esp plugin **between** Ultimate Skyrim.esp and Requiem for the Indifferent.esp._
 2. _[Optional] Download and install[ UltSky 4.x R-SSR MCM Standing Stone Info](https://mega.nz/file/vU8TiALY#3Xx6BdDhvI58gEsp8UWNlKXconHaXAJYq3vD2GdRclk) to update the stone descriptions in the Ult Sky MCM. This is only useful at the start of a new game. No esp plugin here, just a text file. Place it **after** Ultimate Skyrim mod on the left side of MO2._
-3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions)._
+3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)._
 
 _*Installing **R-SSR** on an existing save:_
 
@@ -391,7 +391,7 @@ _To install:_
 
 1. _Download[ Requiem - Classic Alchemy Overhaul 6.2](https://www.nexusmods.com/skyrim/mods/86504?tab=files) and install with MO2. On the right side of MO move the esp plugin anywhere **between** Ultimate Skyrim.esp and Requiem for the Indifferent.esp. Left side of MO doesn't matter (end of the mod list is fine)._
 2. _Download the patch[ R-CAO 6.2 UltSky 4.0.6 HF2 patch v2](https://drive.google.com/open?id=15ZPY7eBkEPNt_PbNaoJTpaMFuoI03tLA) and install. Move the the patch esp **between** Requiem - Classic Alchemy Overhaul.esp and Requiem for the Indifferent.esp. Left side of MO doesn't matter._
-3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions). Done._
+3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions). Done._
 
 _*Installing **R-AR** on an existing save:_
 
@@ -408,7 +408,7 @@ _To install:_
 
 1. _Download and install[ Requiem - Classic Food and Drink (R-CFD) 3.3](https://www.nexusmods.com/skyrim/mods/90714?tab=files). On the right side of MO load the plugin **after** Ultimate Skyrim - Expanded Towns and Cities.esp. Mod order on the left side of MO does not matter._
 2. _Install the patch[ R-CFD 3.3 UltSky 406 HF2 patch](https://drive.google.com/open?id=1EvaHyIVUaKqkZE_HqC3_u9t3AKfX1hoa) and load the esp **after** Requiem - Classic Food and Drink.esp. If you are also using Wintersun or Sacrosanct mods, make sure to load their patches after the R-CFD patch._
-3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator-questions)._
+3. _Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)._
 
 _*Installing mid-playthrough should be safe._
 
