@@ -24,9 +24,10 @@ Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1028
 Race: Breton
 Created By: Talvos
 
-![Img](https://media.discordapp.net/attachments/1000438888701104190/1060341032979546223/enb2023_1_4_05_44_52.png?width=1202&height=676?width=783&height=780)
+![Img](https://media.discordapp.net/attachments/1000438888701104190/1051254160915443743/enb2022_12_10_22_46_41.png?width=783&height=780)
 
-Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1060341032568508446/Ash.jslot)
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1051254160504397864/Male_Breton.jslot)
+
 
 ## Ash
 
@@ -34,10 +35,9 @@ Race: Any Human
 
 Created By: Giblets
 
-![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1028541744696008734/ScreenShot274.png?width=783&height=780)
+![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1060341032979546223/enb2023_1_4_05_44_52.png?width=783&height=780)
 
-Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1028541744255606784/Alice.jslot)
-
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1060341032568508446/Ash.jslot)
 
 ## Aurelia
 
