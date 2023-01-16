@@ -310,9 +310,9 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Wuunferth the Unliving is wearing an Illusion robe (clearly visible with the retexture) but he specialises and provides training in Destruction. Should be wearing a Destruction robe for obvious thematic reasons.
 * Ever since Afflicted Refugees entered began spawning, it seems like they are spawning a lot. Granted, I've been traveling the roads a lot due to Thieves' Guild side quests, but they still feel over-represented in encounters.
 * Melaran, Sybille Stentor replacement, can be invested in multiple times, but with no effect
-* NPCs bunch around to loot dropped items
+* NPCs bunch around to loot dropped items / Dead bodies
 * Random scavenger encounter where a guy is standing over some dead people. Scavenger is apparently flagged essential. Tried console /kill and he just took a knee and got back up.
-* Stuck NPCs - Adrianne (ref ID: 0001A67C) is stuck on a ledge in Whiterun Market. Belethor is stuck at forge
+* Stuck NPCs - Adrianne (ref ID: 0001A67C) is stuck on a ledge in Whiterun Market. Belethor is stuck at forge.
 
 ---
 
