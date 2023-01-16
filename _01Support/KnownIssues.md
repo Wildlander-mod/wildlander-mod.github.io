@@ -6,9 +6,9 @@ has_children: false
 description: Known Issues and Fixes
 ---
 
-This document will contain all of the known game play related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date
+This document will contain all of the Main Known Issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date
 
-<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529" target="_blank" rel="noopener noreferrer">All Known issues Spreadsheet <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+<a class="btn btn-pink" href="https://wiki.wildlandermod.com/01Support/FullKnownissues/index.html">All Known issues</a>
 
 ---
 
@@ -429,3 +429,6 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 If you are having a issue for a civil war quest - please check <a href="https://en.uesp.net/wiki/Main_Page" target="_blank" rel="noopener noreferrer">UESP WIki <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> - there maybe a work around here.
 
+
+
+## Full List of issues
