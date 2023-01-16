@@ -29,6 +29,16 @@ Created By: Talvos
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1051254160504397864/Male_Breton.jslot)
 
 
+## Ash
+
+Race: Any Human
+
+Created By: Giblets
+
+![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1060341032979546223/enb2023_1_4_05_44_52.png?width=783&height=780)
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1060341032568508446/Ash.jslot)
+
 ## Aurelia
 
 Race: Imperial

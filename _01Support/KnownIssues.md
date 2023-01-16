@@ -6,9 +6,9 @@ has_children: false
 description: Known Issues and Fixes
 ---
 
-This document will contain all of the known game play related issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date
+This document will contain all of the Main Known Issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date
 
-<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1nKzS_b-aPHgSQHRT42IZQC7uSx3tXFFA73f5THh1ypU/edit#gid=1619905529" target="_blank" rel="noopener noreferrer">All Known issues Spreadsheet <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+<a class="btn btn-pink" href="https://wiki.wildlandermod.com/01Support/FullKnownissues/index.html">All Known issues</a>
 
 ---
 
@@ -213,9 +213,11 @@ Work around: don't take a bath in cold water ;)
 
 ---
 
-## When I equip my Backpack I get a pouch/book/holder/carpet appearing at my feet
+## I get a pouch/book/holder/carpet appearing at my feet (or my followers) / Crafting opening when Zoneing.
 
-You can possibly solve it by either dropping and buying a new item OR by dropping your item and using console commands 
+Firstly: NEVER give followers backpacks. using these items causes scripts to fine unintentionally, you to get crafting experience unexpectedly and carpets to appear whenever they are stationary.
+
+If you dont HAVE followers, You can possibly solve it by either seeling your existing backpack and buying a new backpack OR by dropping your backpack and using console commands 
 
 {: .console}
 >
@@ -224,6 +226,7 @@ You can possibly solve it by either dropping and buying a new item OR by droppin
 > Player.Additem {itemid} 1
 > 
 
+to console yourself a replacement.
 --- 
 
 ## Crossbow Infinitely reloads
@@ -307,9 +310,9 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Wuunferth the Unliving is wearing an Illusion robe (clearly visible with the retexture) but he specialises and provides training in Destruction. Should be wearing a Destruction robe for obvious thematic reasons.
 * Ever since Afflicted Refugees entered began spawning, it seems like they are spawning a lot. Granted, I've been traveling the roads a lot due to Thieves' Guild side quests, but they still feel over-represented in encounters.
 * Melaran, Sybille Stentor replacement, can be invested in multiple times, but with no effect
-* NPCs bunch around to loot dropped items
+* NPCs bunch around to loot dropped items / Dead bodies
 * Random scavenger encounter where a guy is standing over some dead people. Scavenger is apparently flagged essential. Tried console /kill and he just took a knee and got back up.
-* Stuck NPCs - Adrianne (ref ID: 0001A67C) is stuck on a ledge in Whiterun Market. Belethor is stuck at forge
+* Stuck NPCs - Adrianne (ref ID: 0001A67C) is stuck on a ledge in Whiterun Market. Belethor is stuck at forge.
 
 ---
 
@@ -426,3 +429,6 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 If you are having a issue for a civil war quest - please check <a href="https://en.uesp.net/wiki/Main_Page" target="_blank" rel="noopener noreferrer">UESP WIki <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> - there maybe a work around here.
 
+
+
+## Full List of issues
