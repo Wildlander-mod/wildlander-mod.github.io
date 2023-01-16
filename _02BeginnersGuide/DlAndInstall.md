@@ -11,28 +11,28 @@ description: Minimum requirements and Installation
 	<div class="specs">
 		<p class="section"><strong>Recommended Specs:</strong></p>
 		<div class="component">
-			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60" style="filter: contrast(45%) brightness(200%);"> <span>GeForce GTX 1080 Ti or better</span>
+			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014948752dd058f207c8a_gpu_purple.svg" loading="lazy" alt="Purple GPU icon" width="60" style="filter: contrast(45%) brightness(200%);"> <span> GeForce GTX 1080 Ti or better</span>
 		</div>
 		<div class="component">
-			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" alt="Purple CPU icon" width="60" style="filter: contrast(45%) brightness(200%);"> <span>Intel Core i7-9700K or better</span>
+			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01494b4e7123538f73c9e_cpu_purple.svg" loading="lazy" alt="Purple CPU icon" width="60" style="filter: contrast(45%) brightness(200%);"> <span> Intel Core i7-9700K or better</span>
 		</div>
 		<div class="component">
-			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" alt="Purple RAM icon" width="60" style="filter: contrast(45%) brightness(200%);"> <span>16GB or more RAM</span>
+			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c014940248ef28abf69c8f_ram_purple.svg" loading="lazy" alt="Purple RAM icon" width="60" style="filter: contrast(45%) brightness(200%);"> <span> 16GB or more RAM</span>
 		</div>
 	</div>
 	<div class="specs">
 		<p class="section"><strong>Minimum Specs:</strong></p>
 		<div class="component">
 			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7f75119b40ca_gpu_gray.svg" loading="lazy" alt="Grey GPU icon" width="60">
-			<span>GeForce GTX 660or equivalent</span>
+			<span> GeForce GTX 660 or equivalent</span>
 		</div>
 		<div class="component">
 			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c01707ce98a3d2c755499f_cpu_gray.svg" loading="lazy" alt="Grey CPU icon" width="60">
-			<span>AMD Ryzen 3 2200G or equivalent</span>
+			<span> AMD Ryzen 3 2200G or equivalent</span>
 		</div>
 		<div class="component">
 			<img src="https://uploads-ssl.webflow.com/619450a087513368f47876f8/61c0170758ac7ffc499b40cb_ram_gray.svg" loading="lazy" alt="Grey RAM icon" width="60">
-			<span>8GB or more RAM</span>
+			<span> 8GB or more RAM</span>
 		</div>
 	</div>
 </div>
