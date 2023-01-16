@@ -6,4 +6,4 @@ has_children: false
 description: All Known Issues and Fixes
 ---
 
-{% include knownissues.html %}
+{% include Knownissues.html %}
