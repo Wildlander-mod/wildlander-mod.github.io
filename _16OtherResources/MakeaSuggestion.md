@@ -10,10 +10,10 @@ description: Make A Mod Suggestion
 
 Notes:
 * Skyrim Together Reborn is not compatible so please, please, please stop suggesting it.
-* Arthmoors & Nether's work is deliberately not included in Wildlander, and suggestions for mods from these author's will be automatically denied.
-* This list is strictly SFW which means sexmods and nude skins will also be declined.
+* Elsopa, Wizkid's,  Arthmoors & Nether's work is deliberately not included in wildlander, and suggestions for mods from these author's will be most likely denied.
+* In addition - this list is strictly SFW which means sexmods and nude skins will also be declined.
 
-Suggesting a mod does not guarantee its inclusion into the list - and just because your suggestion is "Needs further Assessment" does not mean that it will defiantly be included. We offer no timescales of when approved mods are added, only that they will be added at the time it best fits the road-map
+Suggesting a mod does not guarantee its inclusion into the list - and just because your suggestion is "Needs further Assessment" does not mean that it will defiantly be included. We offer no timescales of when approved mods are added, only that they will be added at the time it best fits the road-map. 
 
 ### Make a suggestion
 
