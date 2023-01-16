@@ -213,9 +213,11 @@ Work around: don't take a bath in cold water ;)
 
 ---
 
-## When I equip my Backpack I get a pouch/book/holder/carpet appearing at my feet
+## I get a pouch/book/holder/carpet appearing at my feet (or my followers) / Crafting opening when Zoneing.
 
-You can possibly solve it by either dropping and buying a new item OR by dropping your item and using console commands 
+Firstly: NEVER give followers backpacks. using these items causes scripts to fine unintentionally, you to get crafting experience unexpectedly and carpets to appear whenever they are stationary.
+
+If you dont HAVE followers, You can possibly solve it by either seeling your existing backpack and buying a new backpack OR by dropping your backpack and using console commands 
 
 {: .console}
 >
@@ -224,6 +226,7 @@ You can possibly solve it by either dropping and buying a new item OR by droppin
 > Player.Additem {itemid} 1
 > 
 
+to console yourself a replacement.
 --- 
 
 ## Crossbow Infinitely reloads
