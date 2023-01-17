@@ -23,7 +23,7 @@ Orc | Warrior | Zenithar | Werewolf
 
 Food: Potato Soup -> Bestial Stew
 
-#Skills 
+# Skills 
 
 ## Starting Skills
 
