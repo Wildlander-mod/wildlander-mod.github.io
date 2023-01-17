@@ -27,7 +27,7 @@ Food: Potato Soup -> Bestial Stew
 
 ## Starting Skills
 
-2H(Warhammer) / Evasion / Marksman / Enchanting / Smithing / Block
+2H(Warhammer) / Evasion / Marksman / Enchanting / Smithing / Block (No perks - just for skillups)
 
 ## Secondary Skills
 
