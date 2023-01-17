@@ -55,10 +55,3 @@ Other slots: Enchanted Scaled Armor -> Enchanted Glass
 
 # Content
 Companions(until Werewolf), Liar's Retreat, Pinemoon Cave (for Health 2 ring), Ill mey by Moonlight, Volendrung quest…
-
-# Strengths
-- This build shines against nearly every melee opponent, especially if you have a variety of two-handed weapon types at your disposal. You should be able to dodge most melee adversaries, especially with effects such as Slow Time, which allows you to position yourself for a devastating counterattack.
-
-# Weaknesses
-- Archers, especially at close range. As this build doesn't contain [Illusion](..\..\08-SkillAnalysis\Illusion) or [Heavy Armor](..\..\08-SkillAnalysis\Heavy-Armor) and arrows are difficult to dodge, you should be careful when facing such enemies. Using a shout like Slow Time or the Combat Reflex [Evasion](..\..\08-SkillAnalysis\Evasion) perk.
-- Frost mages and mages that use AOE spells might prove challenging, which is why it is paramount to build up your magic resistance, and ideally, elemental resistances as quickly as possible. If you are really struggling with a group of mages, it could help to recruit a follower or two to drain your opponenets' magicka reserves and distract them.
