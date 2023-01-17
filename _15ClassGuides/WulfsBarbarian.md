@@ -35,7 +35,9 @@ Food: Potato Soup -> Bestial Stew
 
 # Perks
 
-https://banananaut.github.io/NannerPlanner/?p=0&b=AgAAAAAwJAsAZAUyBQVkZA8FBWQKBQVkBTJkEAcNDqvgAAAAAAAAAA_3vAAAABf8AAAAAABHwAIFHA_w
+<a href="https://banananaut.github.io/NannerPlanner/?p=0&b=AgAAAAAwJAsAZAUyBQVkZA8FBWQKBQVkBTJkEAcNDqvgAAAAAAAAAA_3vAAAABf8AAAAAABHwAIFHA_w" target="_blank" rel="noopener noreferrer">Perk build <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+
+
 
 # Level ups
 
