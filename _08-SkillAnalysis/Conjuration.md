@@ -342,7 +342,7 @@ Summon Spirit Troll	|225
 
 **Expert Conjuration**
 
-You've acquired two Conjuration spells from the Expert Conjuration tier. Expert Conjuration spells cost 55% less magicka, and improve 4% per skill level.
+You've acquired two Conjuration spells from the Expert Conjuration tier. Expert Conjuration spells cost 55% less magicka, and improve 3% per skill level.
 
 Level Required : 75
 
