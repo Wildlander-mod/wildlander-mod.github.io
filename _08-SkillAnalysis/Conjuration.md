@@ -21,6 +21,24 @@ You've acquired two Conjuration spells from the Novice Conjuration tier. Novice 
 Level Required : 0
 
 Perk Required : None
+
+_Effect_ :
+
+* All Conjuration Spells: Duration increases by 1% per Conjuration level
+* All Raise Dead Spells - Level's of enemies which can be raised dead increase by 1% for every conjuration skillpoint. 
+* All Damaging Conjuration spells are increased by 1% per Conjuration level.
+* You can learn two spells for free from the below list.
+
+| **Spells** | **Altered Cost** | 
+| :---: | :---: | 
+Bound Dagger | 81 | 
+Bound Hunting Knife | 48 | 
+Bound Sword | 90 | 
+Raise Dead (Rank I) | 90 |
+Summon Skeletal Soldier |  56 |
+Summon Spirit Wolf | 56 |
+Summon Swarm (Rank I) | 18/s | 
+
 ## Oblivion Branch
 
 **Stabilized Binding**
@@ -31,6 +49,10 @@ Level Required : 25
 
 Perk Required : None
 
+_Effect_ :
+
+Summon Wolf, mudcrab, bear, troll, Ice spirit, Sabercat, Steed and werewolves, or is a daedra Summon duration is extended by 50%. Does not affect raise dead / Zombie spells.
+
 **Spiritual Binding**
 
 Your knowledge of Oblivion's spiritual aspects increases health, stamina and damage of all your summoned spirits.
@@ -38,6 +60,13 @@ Your knowledge of Oblivion's spiritual aspects increases health, stamina and dam
 Level Required : 25
 
 Perk Required : Stabilized Binding
+
+_Effect_ :
+
+Only affects:- Summon Wolf, mudcrab, bear, troll, Ice spirit, Sabercat, Steed and werewolves.
+
+Replaces standard summon spells with a potent variety which has better Base Health, Stamina and Damage.
+
 
 **Extended Binding**
 
@@ -47,6 +76,14 @@ Level Required : 50
 
 Perk Required : Stabilized Binding
 
+_Effect_ :
+
+Only affects:- Summon Wolf, mudcrab, bear, troll, Ice spirit, Sabercat, Steed and werewolves, or is a daedra 
+
+* Spell costs are reduced by a further 25% in addition to mastery perks.
+* Summons can be cast generated 5 times further away than normal.
+
+
 **Elemental Binding**
 
 Your Atronachs are much stronger, and high-level Thralls are immune to Banishment and Control spells.
@@ -54,6 +91,10 @@ Your Atronachs are much stronger, and high-level Thralls are immune to Banishmen
 Level Required : 75
 
 Perk Required : Extended Binding
+
+_Effect_ :
+* Flame, Frost or Storm Thrall and Potent variety of the same are immune to the spells Banish and Control Daedra spells.
+* Flame, Frost or Storm atronochs Spells summon a potent variety 
 
 
 ## Summoning Branch
@@ -66,6 +107,11 @@ Level Required : 25
 
 Perk Required : Novice Conjuration
 
+_Effect_ :
+* Allows conjuration spells to be duel cast.
+* Increases duration for duel cast spells by 25%
+
+
 **Cognitive Flexibility**
 
 Rank 1: Your expanded mental focus allows you to maintain two summons at once, including those outside the school of Conjuration.
@@ -75,6 +121,7 @@ Rank 2: Your expanded mental focus allows you to maintain three summons at once,
 Level Required : 50 / 100
 
 Perk Required : Summoner's Insight / Cognitive Flexibility Rank 1
+
 
 ## Necromancy Branch
 
@@ -86,6 +133,12 @@ Level Required : 25
 
 Perk Required : Novice Conjuration
 
+_Effect_ :
+
+* Skeletons, Ghostly, and Spectral Summons  are increased by 50%
+* Raised minions duration is increased by 1000% 
+* Raise dead Magnitude is multiple by 3 (Magnitude of the spell is the maxium level each spell can raise) 
+
 **Ritualism**
 
 Raising the dead and summoning ghosts costs 25% less magicka.
@@ -94,6 +147,11 @@ Level Required : 50
 
 Perk Required : Necromancy
 
+_Effect_ :
+
+* Skeletons, Ghostly, and Spectral Summons cast cost are reduced by 25% (stacks on top of existing mastery reductions) 
+* Raised minions  cast cost are reduced by 25% (stacks on top of existing mastery reductions) 
+
 **Dark Infusion**
 
 Reanimated entities have more health, higher resistance to elemental damage, and they no longer decay into dust.
@@ -101,6 +159,23 @@ Reanimated entities have more health, higher resistance to elemental damage, and
 Level Required : 75
 
 Perk Required : Ritualism
+
+_Effect_ :
+
+All raised dead minions gain
+* 500 fortify health
+* resist poison 100%
+* resist disease 100%
+* Resist shock 60
+* resist frost 95
+* fortify Unarmed 50.
+
+If cast while wearing Ahzidal's ring of necromancy they get in addition
+* weakness to fire is reduced to 25.
+* resist Damage 250
+* resist Magic 25
+
+On spell running out, the minion will return to a dead body and can be raised again.
 
 ## Bound Weapon Branch
 
@@ -112,6 +187,11 @@ Level Required : 25
 
 Perk Required : Novice Conjuration
 
+_Effect_ :
+
+* Bound Dagger, Bow, Sword or Axe duration increased by 100% 
+* Bound Dagger, Bow, Sword or Axe- replaces standard summons with Mystic Variations.
+
 **Mystic Maelstrom**
 
 Your bound weapons make your target vulnerable to soul gems for 3 seconds.
@@ -119,6 +199,10 @@ Your bound weapons make your target vulnerable to soul gems for 3 seconds.
 Level Required : 50
 
 Perk Required : Mystic Binding
+
+_Effect_ :
+
+* Adds a 3 second soultrap enchantment to Bound Dagger, Bow, Sword or Axe. 
 
 **Mystic Banishment**
 
@@ -128,6 +212,10 @@ Level Required : 75
 
 Perk Required : Mystic Maelstrom
 
+_Effect_ :
+
+* Adds a turn undead, and banish daedra enchantment to Bound Dagger, Bow, Sword or Axe. 
+
 **Mystic Disruption**
 
 Bound weapons penetrate 20% of your opponent's armor.
@@ -135,6 +223,10 @@ Bound weapons penetrate 20% of your opponent's armor.
 Level Required : 100
 
 Perk Required : Mystic Banishment
+
+_Effect_ :
+
+* Adds a 20AP effect to Bound Dagger, Bow, Sword or Axe.
 
 
 ## Mastery Branch
@@ -147,6 +239,33 @@ Level Required : 25
 
 Perk Required : Novice Conjuration
 
+_Effect_ :
+
+Note: Novice Spells remain at 1% improvement and do not benefit from this perk. The effects below replace the 1% on affected spells, rather than cumulative.
+
+* All Conjuration Spells Apprentice or better: Duration increases by 2% per Conjuration level 
+* All Raise Dead Spells Apprentice or better - Level's of enemies which can be raised dead increase by 2% for every conjuration skillpoint. 
+* All Damaging Conjuration spells Apprentice or better are increased by 2% per Conjuration level.
+* You can learn two spells for free from the below list (With the exception to Bound Cloak, Summon Arvak, Flaming Familiar, Gargoyle or Soulcairn Summoning (Rank I)).
+
+| **Spells** | **Altered Cost** | 
+| :---: | :---: | 
+Bound Axe|112.5
+Bound Cloak (Rank I)|79.2
+Necromantic Empowerment on Target|45
+Raise Dead (Rank II)|151.2
+Soul Trap|48.15
+Soulcairn Summoning (Rank I)|112.5
+Summon Arvak|61.2
+Summon Flaming Familiar	|25.65
+Summon Gargoyle	|31.95
+Summon Skeletal Archer	|90
+Summon Skeletal Hero	|90
+Summon Skeletal Warlock	|90
+Summon Spectral Warhound|90
+Summon Spirit Mudcrab|90
+Summon Swarm (Rank II)|18/s
+
 **Adept Conjuration**
 
 You've acquired two Conjuration spells from the Adept Conjuration tier. Adept Conjuration spells cost 55% less magicka, and improve 3% per skill level.
@@ -155,13 +274,66 @@ Level Required : 50
 
 Perk Required : Apprentice Conjuration
 
+_Effect_ :
+
+Note: All lower tiered spells remain at their perks improvement and do not benefit from this perk.  The effects below replace the 2% on affected spells, rather than cumulative.
+
+* All Conjuration Spells Adept or better: Duration increases by 3% per Conjuration level 
+* All Raise Dead Spells Adept or better - Level's of enemies which can be raised dead increase by 3% for every conjuration skillpoint. 
+* All Damaging Conjuration spells Adept or better are increased by 3% per Conjuration level.
+* You can learn two spells for free from the below list. ( With the exception to Soulcairn Summoning (Rank II), Summon Gargoyle Brute, Conjure Ash Spawn,  Bound Cloak (Rank II) and Summon Spectral Warrior)
+
+| **Spells** | **Altered Cost** | 
+| :---: | :---: | 
+Banish Daedra (Rank I)	|88.2
+Bound Cloak (Rank II)	|120.6
+Conjure Ash Spawn	|83.7
+Necromantic Empowerment on Self	|18/s
+Raise Dead (Rank III)	|202.5
+Soulcairn Summoning (Rank II)	|180
+Spectral Arrow	|90
+Summon Flame Atronach	|180
+Summon Gargoyle Brute	|99
+Summon Spectral Archer	|180
+Summon Spectral Warrior	|180
+Summon Spirit Bear	|180
+Summon Spirit Troll	|225
+
+
+
 **Expert Conjuration**
 
-You've acquired two Conjuration spells from the Expert Conjuration tier. Expert Conjuration spells cost 55% less magicka, and improve 5% per skill level.
+You've acquired two Conjuration spells from the Expert Conjuration tier. Expert Conjuration spells cost 55% less magicka, and improve 4% per skill level.
 
 Level Required : 75
 
 Perk Required : Adept Conjuration
+
+_Effect_ :
+
+Note: All lower tiered spells remain at their perks improvement and do not benefit from this perk. The effects below replace the 4% on affected spells, rather than cumulative.
+
+* All Conjuration Spells Expert or better: Duration increases by 4% per Conjuration level 
+* All Raise Dead Spells Expert or better - Level's of enemies which can be raised dead increase by 4% for every conjuration skillpoint. 
+* All Damaging Conjuration spells Expert or better are increased by 5% per Conjuration level.
+* You can learn two spells for free from the below list.( With the exception to Conjure Ash Guardian, Conjure Shelter (Rank I), Mark & Recall, Soulcairn Summoning (Rank III), Summon Gargoyle Sentinel and Summon Ice Spirit)
+
+| **Spells** | **Altered Cost** | 
+| :---: | :---: | 
+Banish Daedra (Rank II)	|96.75
+Bound Bow	|135
+Command Daedra	|108.9
+Conjure Ash Guardian	|153
+Conjure Shelter (Rank I)	|158.85
+Mark & Recall	|450
+Raise Dead (Rank IV)	|303.75
+Soulcairn Summoning (Rank III)	|270
+Summon Frost Atronach	|270
+Summon Gargoyle Sentinel	|234
+Summon Ice Spirit	|90
+Summon Spirit Sabrecat	|180
+Summon Storm Atronach	|303.75
+Teleport Vitals	|225
 
 **Master Conjuration**
 
@@ -170,6 +342,31 @@ You've acquired two Conjuration spells from the Master Conjuration tier. Master 
 Level Required : 100
 
 Perk Required : Expert Conjuration
+
+_Effect_ :
+
+Note: All lower tiered spells remain at their perks improvement and do not benefit from this perk. The effects below replace the 4% on affected spells, rather than cumulative.
+
+* Master Conjuration Spells: Duration increases by 5% per Conjuration level 
+* Master Raise Dead Spells Expert or better - Level's of enemies which can be raised dead increase by 5% for every conjuration skillpoint. 
+* Master Damaging Conjuration spells Expert or better are increased by 5% per Conjuration level.
+* You can learn two spells for free from the below list.( With the exception to Conjure Shelter (Rank II) and Summon Seeker)
+
+| **Spells** | **Altered Cost** | 
+| :---: | :---: | 
+Conjure Shelter (Rank II)|443.25
+Raise Dead (Rank V)	|450
+Summon Dremora Archer	|450
+Summon Dremora Archmage	|450
+Summon Dremora Lord	|450
+Summon Flame Thrall	|630
+Summon Frost Thrall	|675
+Summon Ghostly Dragonpriest	|450
+Summon Seeker	|292.5
+Summon Spirit Steed	|225
+Summon Spirit Werewolf	|450
+Summon Storm Thrall	|720
+Teleport	|270
 
 # --Spells--
 
