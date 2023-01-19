@@ -54,7 +54,10 @@ Perk Required : None
 
 _Effect_ :
 
-Summon Wolf, mudcrab, bear, troll, Ice spirit, Sabercat, Steed and werewolves, or is a daedra Summon duration is extended by 50%. Does not affect raise dead / Zombie spells.
+Only affects:- Summon Wolf, mudcrab, bear, troll, Ice spirit, Sabercat, Steed and werewolves, or is a  or is a Dremora, Thrall or Atronach. 
+
+* Summon duration is extended by 50%. 
+
 
 ---
 
@@ -84,7 +87,7 @@ Perk Required : Stabilized Binding
 
 _Effect_ :
 
-Only affects:- Summon Wolf, mudcrab, bear, troll, Ice spirit, Sabercat, Steed and werewolves, or is a daedra 
+Only affects:- Summon Wolf, Mudcrab, Bear, Troll, Ice spirit, Sabercat, Steed and werewolves, or is a Dremora, Thrall or Atronach.
 
 * Spell costs are reduced by a further 25% in addition to mastery perks.
 * Summons can be cast generated 5 times further away than normal.
@@ -184,16 +187,17 @@ _Effect_ :
 
 All raised dead minions gain
 * 500 fortify health
-* resist poison 100%
-* resist disease 100%
+* Resist poison 100%
+* Resist disease 100%
 * Resist shock 60
-* resist frost 95
-* fortify Unarmed 50.
+* Resist frost 95
+* Fortify Unarmed 50.
 
-If cast while wearing Ahzidal's ring of necromancy they get in addition
-* weakness to fire is reduced to 25.
-* resist Damage 250
-* resist Magic 25
+If Raise dead spell is cast while wearing Ahzidal's ring of necromancy the minion will get in addition to the above:-
+
+* Weakness to fire is reduced to 25.
+* Resist Damage 250
+* Resist Magic 25
 
 On spell running out, the minion will return to a dead body and can be raised again.
 
@@ -281,7 +285,7 @@ _Effect_ :
 Note: Novice Spells remain at 1% improvement and do not benefit from this perk. The effects below replace the 1% on affected spells, rather than cumulative.
 
 * All Conjuration Spells Apprentice or better: Duration increases by 2% per Conjuration level 
-* All Raise Dead Spells Apprentice or better - Level's of enemies which can be raised dead increase by 2% for every conjuration skillpoint. 
+* All Raise Dead Spells Apprentice or better - Levels of enemies which can be raised dead increase by 2% for every conjuration skill point. 
 * All Damaging Conjuration spells Apprentice or better are increased by 2% per Conjuration level.
 * You can learn two spells for free from the below list (With the exception to Bound Cloak, Summon Arvak, Flaming Familiar, Gargoyle or Soulcairn Summoning (Rank I)).
 
