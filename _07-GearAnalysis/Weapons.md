@@ -23,11 +23,11 @@ $(document).ready(function(){
 
 <a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0" target="_blank" rel="noopener noreferrer">Direct link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
+Note: Swing speed is defined as the amount of swings the weapon can do in a second,  the higher number the faster the weapon.
 
 <input type="text" id="myInputBox" placeholder="Search for Weapon.." >
 
-
-FULL Name|Base Damage (excluding perks)|Value|Weight|Time Per Swing (Seconds)|Reach|Damage Per Second (Not including Enchants)
+FULL Name|Base Damage (excluding perks)|Value|Weight|Swing Speed|Reach|Damage Per Second (Not including Enchants)
 --|--|--|--|--|--|--|
 Aegisbane|114|60|24|0.6|0.91|68
 Aetherial Staff|0|1250|8|1|1.3|0
