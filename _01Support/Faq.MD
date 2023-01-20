@@ -244,6 +244,30 @@ There is an appropriate guide [here](..\..\02BeginnersGuide\2-RecommendedReading
 
 ----------
 
+## My Haircut token doesn't allow me to change race/gender Why?
+
+Skyrim doesn't handle switching race or gender mid-play-though. 
+
+Doing so will break your racial perks, and cause a crossbow to infinitely reload.
+
+----------
+
+## What are these toolkit things?
+
+Part of the Wildlander propitiatory crafting system.
+
+Please see [here](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/) for more info.
+
+----------
+
+## What are these weird named Misc Items / Weapon heads / Imbued things?
+
+Part of the Spell Research mod
+
+Please see [here](https://wiki.wildlandermod.com/11Deep-Dives/Spell-Research/) for more info.
+
+----------
+
 ## How do I do a customized start (vampire, werewolf, no perks)
 
 When you get the message that Wildlander is finalizing and have clicked OK, hit F10.
@@ -336,6 +360,7 @@ This is a vanilla Skyrim bug, which is exacerbated by the scripted mods in Wildl
 >
 > SetPlayerAIDriven 0
 
+If you get stuck using a crafting table - this is generally caused by the 1st person camera mod (Improved Camera) and the only fix is to reload the game.
 
 ----
 
@@ -361,11 +386,10 @@ The primary cause for this is a insufficient [page file](..\..\02BeginnersGuide\
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
 - Wildlander folders (or subfolders) being read-only.
-- Wildlander being on a different drive to Skyrim: It is recommended that you have Wildlander and Skyrim on the same drive. 
-- Wildlander being installed inside of program files: Move the Wildlander folder outside of program files.
-- Additional mods in Skyrim/data folder from previous modding or workshop subscriptions are causing a conflict.
+- Wildlander being installed inside of program files, Users folder, cloud folders such as one drive or other UAC controlled area.
+- Additional mods you may have added are causing a conflict.
 - Conflict between AMD drivers and the ENB: The only resolution to this is to either roll back until you find working AMD drivers or disable ENB graphics until a working driver is available.
-- A corrupt Skyrim installation: To check, launch Skyrim from steam and see if it crashes on loading screen. If it crashes, the installation is corrupted.
+- A corrupt Wildlander installation: To check, launch Skyrim from the "Stock game" folder and see if it crashes on loading screen. If it crashes, the installation is corrupted. a purple dragon is normal - crashing on new game is normal as you will be running without mods during this test.
 - Antivirus real-time scanning your Wildlander folders: Make sure you add it to your exceptions.
 - You have lost permissions to write to “My Documents\My Games\Skyrim” or Wildlander install folder
 - OneDrive and/or Dropbox is Syncing your “my documents\My Games\Skyrim” or Wildlander install folder
@@ -398,7 +422,7 @@ You cannot Wait or Sleep to pass the time; however, spell research and training 
 
 ----------
 
-## Can I remove Block/Parry from control?
+## Can I remove Block/Parry from left control?
 
 Yes! The keybinding for this is in Dual Wield Block. Lizzy (being the sensible player that she is) switches it to 'C' and moves crouch using the Skyrim standard controls back to the default keybind.
 
