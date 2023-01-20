@@ -36,7 +36,7 @@ function myFunction() {
 <a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0" target="_blank" rel="noopener noreferrer">Direct link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 
-<input type="text" id="myInputBox" onkeyup="FilterTable()" placeholder="Search for names.." >
+<input type="text" id="myInputBox" onkeyup="myFunction()" placeholder="Search for Weapon.." >
 
 
 FULL Name|Base Damage (excluding perks)|Value|Weight|Time Per Swing (Seconds)|Reach|Damage Per Second (Not including Enchants)
