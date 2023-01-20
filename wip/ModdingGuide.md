@@ -16,8 +16,7 @@ Helping you will basically be a waste of volunteer time that should go to those 
 
 Should you customize your list - You will be ON YOUR OWN unless another member of the community takes pity on you.
 
-If you accept this, then Grab yourself a custom build role on discord and continue!
-
+Wildlander Staff have no obligations to assist you with customizing your install.
 
 ## Modding Basics
 
@@ -62,7 +61,7 @@ The following types of mods have Issues
 ---
 ## Introduction to Mod Organizer 2
 
-Mod Organizer is divided into two sections, The left side is for loose files, these are loaded into skyrim from the top down. If two identical files exist, the one closest to the botton will be the one loaded.
+Mod Organizer is divided into two sections, The left side is for loose files, these are loaded into Skyrim from the top down. If two identical files exist, the one closest to the bottom will be the one loaded.
 The Ride side of the list is the plugins, these are the mods themselves containing instructions on how the game constructs the world. Instructions inside of these plugins can conflict, so again, the ones at the bottom of the list take priority
 
 ![image](https://user-images.githubusercontent.com/26418143/173229360-cc431243-c5fb-4f1b-babd-74efc9cb80db.png)
@@ -74,6 +73,8 @@ If you have two Plugin's which touch the same records then you need to make a de
 If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
 
 You will always be able to switch back to the original profile and load it that way in case you screw up badly.
+
+---
 
 ### Installing Mods not covered by guides.
 
@@ -96,10 +97,36 @@ If there isn't a specific guide, then as a general rule of thumb
 
 ![image](http://wiki.wildlandermod.com/Assets/RequiremPatch.png)
 
-- Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the wildlander Full mod(E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
-- Run the reqtificator whenever you change the load order.
+- Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the Wildlander Full mod(E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
+- Run the Reqtificator whenever you change the load order.
 
 Close mod organizer - and use the launcher to start the game.
+
+---
+
+## Can i add.....?
+
+How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
+
+First thing to check
+1. Mod Conflicts from Mod organizer tool - this will tell you if the files being changed as touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
+2. Record conflict resolution. The next thing to check is the actual ESP/ESL/ESM files for conflicts. I would recommend the following guide <https://tes5edit.github.io/docs/5-conflict-detection-and-resolution.html> to help you to learn how to check for mod conflicts within SSEEdit. If there are any then most likely you would need to write a conflict resolution patch.
+
+---
+
+## Can i Remove.....?
+
+The Wildlander mod itself has a lot of Master files (144 plugins). 
+
+Files which are masters are required by the mod itself, and disabling the master will cause the game to crash.
+
+I'm commonly asked about the following mods. They are all Masters of Wildlander and cannot be removed without extensively editing the Wildlander mod itself :-
+* Suspicious city guards
+* Sunhelm
+* Frostfall
+* Requiem
+* Immersive Horses
+* Follower Live Package
 
 ---
 
@@ -146,6 +173,13 @@ I strongly recommend reading the modpage And/or watching tutorial videos before 
 
 ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files
 
+
+### Xedit / tesvedit/ SSEedit
+
+If you want to mod Wildlander - then you need to know how to use this tool to check for conflicts. 
+
+The bible for the tool is located <https://tes5edit.github.io/docs/>
+
 -----
 # Tool Setup
 
@@ -163,7 +197,7 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 ## Papyrus Compiler SE
 	
 1) Download and install creation kit as per above instructions
-2) Open program from mod organiser
+2) Open program from mod organizer
 	
 ![image](https://user-images.githubusercontent.com/26418143/180988545-9a2f1b18-553e-455c-ba28-73c67f225e5a.png)
 	
@@ -175,6 +209,8 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 -----
 
 # Guides
+
+The following Guides have been submitted by members of the community. 
 
 ## Inn's can be closed
 
