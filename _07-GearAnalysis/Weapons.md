@@ -368,7 +368,7 @@ Wooden Sword|12|10|3|1|0.7|12
 Wuuthrad|150|15269|25|0.7|0.91|105
 Wuuthrad Replica|138|1585|26|0.7|0.91|97
 Zephyr|60|550|10|0.48152|1|29
-
+{: #FilterTable }
 
 
 
@@ -378,7 +378,7 @@ function FilterTable(){
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
-  table = document.getElementsByTagName("table");
+  table = document.getElementById("FilterTable");
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
