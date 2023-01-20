@@ -9,7 +9,7 @@ has_children: false
 # Weapons 
 
 <script>
-function FilterTable() {
+function FilterTable(){
 // Declare variables
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput");
