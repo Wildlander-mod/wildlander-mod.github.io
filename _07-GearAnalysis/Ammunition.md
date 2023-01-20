@@ -10,9 +10,8 @@ has_children: false
 
 <a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0" target="_blank" rel="noopener noreferrer">Direct link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
-FULL Name|Damage|Value|AP% |Materiel Flags|Reach|Damage Per Second (Not including Enchants)
+FULL Name|Damage|Value|AP% |Materiel Flags|
 --|--|--|--|--|--|--|
-FULL Name|Damage|Value|AP% |Materiel Flags
 Ancient Nord Arrow|54|1|6|Standard
 Arrow from the Soulcairn|25|1|14|Standard
 Bloodcursed Elven Arrow|66|100|20|Standard, Enchanted
