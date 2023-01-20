@@ -14,6 +14,7 @@ has_children: false
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
 FULL Name|Base Damage (excluding perks)|Value|Weight|Time Per Swing (Seconds)|Reach|Damage Per Second (Not including Enchants)
+--|--|--|--|--|--|--|
 Aegisbane|114|60|24|0.6|0.91|68
 Aetherial Staff|0|1250|8|1|1.3|0
 Akaviri Katana|66|315|10|1|0.7|66
@@ -378,7 +379,7 @@ function myFunction() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
-  table = document.getElementsByTagName("Table");
+  table = document.getElementsByTagName("table");
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
