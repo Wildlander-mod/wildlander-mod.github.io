@@ -509,7 +509,7 @@ You can "g" toggle formation key to make them stop.
 
 You have edited Follow live package's MCM to tell them to mine or pick herbs.
 
-This behavior is their priority - not saving you bacon. 
+This behavior is their priority - not saving your bacon. 
 
 Its disabled for a reason. 
 
