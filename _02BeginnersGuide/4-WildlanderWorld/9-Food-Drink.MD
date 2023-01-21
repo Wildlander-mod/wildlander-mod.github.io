@@ -7,8 +7,22 @@ has_children: false
 parent: Wildlander World
 
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInputBox").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tbody tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
 
-## Food
+
+## Food & Drink
+
+<input type="text" id="myInputBox" placeholder="Search for Food/Drink.." >
 
 Food Item|Ingredients|Effects
 |--|--|--|
@@ -211,10 +225,8 @@ Raw Horse Meat||Consumed out of combat, it restores 90 Stamina.,Its raw taste is
 Raw Human Meat||Consumed out of combat, it restores 50 Stamina and Magicka.,Restores 2 points of Stamina and Magicka per second for 300 seconds - there's just nothing more motivating than the sweet taste of a slain enemy's flesh.,
 Raw Mammoth Meat||Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 15 Stamina and Magicka.
 Raw Mammoth Snout||Consumed out of combat, it restores 125 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
-||
 Raw Mudcrab Legs||Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
 Raw Mudcrab Meat||Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
-||
 Raw Ox Heart||Carrying capacity increases by 10 if outdoors.,Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.
 Raw Pheasant Breast||Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
 Raw Pogfish||Consumed out of combat, it restores 60 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
@@ -225,9 +237,7 @@ Raw Salmon||Consumed out of combat, it restores 60 Stamina.,Its raw taste is rev
 Raw Salmon Steak|1 Raw Salmon|Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
 Raw Scorpion Fish||Consumed out of combat, it restores 60 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
 Raw Skeever Meat||Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 5 Stamina and Magicka.
-||
 Raw Slaughterfish||Consumed out of combat, it restores 90 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
-||
 Raw Spider Meat||Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.,Tastes as nasty as it smells, feels as nasty as it looks.
 Raw Tripod Spiderfish||Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.
 Raw Troll Meat||Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 15 Stamina and Magicka.
@@ -276,11 +286,6 @@ Watermelon Gazpacho|1 Salt 1 Elves Ear 1 Goat Cheese Slice 1 Tomato 1 Watermelon
 Wolf Cabbage Stew|1 Cabbage 1 Raw Wolf Meat 1 Glass Bottle (Water)|Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 3000 seconds.,Your meal improves your warmth
 Wolf Jerky|6 Salt 1 Raw Wolf Meat|Consumed out of combat, it restores 1 Stamina.,A cheap iron ration.
 Wyrm and Chips|1 Salt 2 Potato 1 Raw Dragon Meat|Consumed out of combat, it restores 35 Stamina and Magicka.,Restores 1 points of Stamina per second for 3000 seconds.,Tastes best with hot Nord mead.,Restores 1 points of Magicka per second for 1200 seconds.
-
-## Drinks
-
-Food Item|Ingredients|Effects
-|--|--|--|
 Ale|4 Wheat|Numbs your sense of pain, making you feel 15 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 10% and twice that for Magicka for 450 seconds. 
 Alto Blanc Wine||Numbs your sense of pain, making you feel 75 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. 
 Alto Noir Wine||Numbs your sense of pain, making you feel 75 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. 
@@ -326,3 +331,4 @@ Waterskin |1 Waterskin (Salt Water) Or Fill Empty Waterskin from a fresh water s
 Waterskin (Salt Water)||Drinking saltwater will increase thirst. Distill at a cooking station for drinkable water.
 Wheat Boon Tea|3 Wheat 1 Hanging Moss 1 Glass Bottle (Water)|Consumed out of combat, it restores 15 Stamina and Magicka.,Bitter tasting but reputed for its balsamaceous properties.,Your meal improves your warmth .
 White-Gold Tower|1 Nord Mead 1 Lavender 1 Dragon's Tongue 1 Bottled Milk|Numbs your sense of pain, making you feel 60 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 900 seconds. ,Resists 10% of fire damage for 600 seconds.
+{: #myTable }
