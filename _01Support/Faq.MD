@@ -420,7 +420,7 @@ This is a Requiem change that prevents weak characters from acquiring Vampirism.
 
 You cannot Wait or Sleep to pass the time; however, spell research and training do work.
 
-----------
+---------
 
 ## Can I remove Block/Parry from left control?
 
@@ -492,6 +492,44 @@ Kill moves literally mean that when such a move plays, 90% of the time it kills 
 **Will it break anything if I turn them on anyway?**
 
 Possibly your mouse, controller or keyboard when you throw them from frustration from the fifth time one of the above events happens to you?
+
+
+---
+# **Follower Questions**
+
+## My followers are running away from me in a circles
+
+Your followers are in a "stay behind me" formation. They are trying to stay behind you ;-)
+  
+You can "g" toggle formation key to make them stop.
+
+----------
+
+## My followers aren't fighting but instead running to random places 
+
+You have edited Follow live package's MCM to tell them to mine or pick herbs.
+
+This behavior is their priority - not saving you bacon. 
+
+Its disabled for a reason. 
+
+----------
+
+## Why is Summon ride disabled / How do I give my followers horses
+
+Summon ride is disabled because it causes crashes to desktop.
+
+You give your follower a horse using the Horse "crouch" menu and changing ownership of one of your horses.
+
+Note: giving them a horse doesnt mean they will keep up with you - just means it looks slightmy more immersive than the teleport stuff.
+
+----------
+
+## I've lost my follower!
+
+Fear not - The scroll lock keybind contains a command to emergency teleport them to your side!
+
+----------
 
 ---
 
