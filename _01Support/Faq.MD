@@ -194,7 +194,7 @@ The answer to this is support strongly recommends that you leave them alone. Eve
 
 We are not responsible for any errors or bugs which occur if you edit them.
 
-FLP MCM should be treated as though it doesn't exist. Seriosuly. Touch nothing in here unless you enjoy for followers picking up random shit and running around in circles while you are fighting for your life.
+FLP MCM should be treated as though it doesn't exist. Seriously. Touch nothing in here unless you enjoy for followers picking up random shit and running around in circles while you are fighting for your life.
 
 ----------
 
@@ -230,7 +230,7 @@ Sure. Here's a [link](..\..\01Support\KnownIssues\).
 
 ## How can I see the keybindings?
 
-The in-game hotkey F11 will bring up a Gamepad / keyboard layout of all key bindings. Pressing F11 again will hide it.
+The in-game hot-key F11 will bring up a Gamepad / keyboard layout of all key bindings. Pressing F11 again will hide it.
 
 ----------
 
@@ -346,8 +346,8 @@ There are several possible reasons:
  
 1. You're NAKED! Put some clothes on, ya filthy animal!
 2. You're covered in BLOOD and/or MUD!  Honestly! Traipsing mud over my clean floors! I am gonna charge you a cleaning fee! Go take a BATH!
-3. You may also be hated by the community or the shopkeeper for... reasons you likely remember, but won't tell anyone about! Grease those palms with the Speechcraft menu and give that shopkeeper a little gift, such as gems or coin off the cuff! That should help lower the prices...
-4. You may also just suck at talking. Level your Speechcraft so you're not tripping over your words like a milkdrinker fresh to the local inn. You can't honestly expect to sell your wares for a decent price when your best sales pitch is 'Unga-bunga!' 
+3. You may also be hated by the community or the shopkeeper for... reasons you likely remember, but won't tell anyone about! Grease those palms with the Speech craft menu and give that shopkeeper a little gift, such as gems or coin off the cuff! That should help lower the prices...
+4. You may also just suck at talking. Level your Speech-craft so you're not tripping over your words like a milk-drinker fresh to the local inn. You can't honestly expect to sell your wares for a decent price when your best sales pitch is 'Unga-bunga!' 
 
 ----------
 
@@ -385,12 +385,12 @@ The primary cause for this is a insufficient [page file](..\..\02BeginnersGuide\
 
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
-- Wildlander folders (or subfolders) being read-only.
+- Wildlander folders (or sub-folders) being read-only.
 - Wildlander being installed inside of program files, Users folder, cloud folders such as one drive or other UAC controlled area.
 - Additional mods you may have added are causing a conflict.
 - Conflict between AMD drivers and the ENB: The only resolution to this is to either roll back until you find working AMD drivers or disable ENB graphics until a working driver is available.
 - A corrupt Wildlander installation: To check, launch Skyrim from the "Stock game" folder and see if it crashes on loading screen. If it crashes, the installation is corrupted. a purple dragon is normal - crashing on new game is normal as you will be running without mods during this test.
-- Antivirus real-time scanning your Wildlander folders: Make sure you add it to your exceptions.
+- Anti-virus real-time scanning your Wildlander folders: Make sure you add it to your exceptions.
 - You have lost permissions to write to “My Documents\My Games\Skyrim” or Wildlander install folder
 - OneDrive and/or Dropbox is Syncing your “my documents\My Games\Skyrim” or Wildlander install folder
 - Can be caused by a corrupt save. You can try using a previous save or start a new game.
@@ -399,7 +399,7 @@ Can also be caused by :
 
 ## How do I change the difficulty?
 
-The in-game difficulty sliders do not work with Wildlander. Please use the Change Difficulty hotkey instead (Right-CTRL).
+The in-game difficulty sliders do not work with Wildlander. Please use the Change Difficulty hot-key instead (Right-CTRL).
 
 ----------
 
@@ -424,7 +424,7 @@ You cannot Wait or Sleep to pass the time; however, spell research and training 
 
 ## Can I remove Block/Parry from left control?
 
-Yes! The keybinding for this is in Dual Wield Block. Lizzy (being the sensible player that she is) switches it to 'C' and moves crouch using the Skyrim standard controls back to the default keybind.
+Yes! The key-binding for this is in Dual Wield Block. Lizzy (being the sensible player that she is) switches it to 'C' and moves crouch using the Skyrim standard controls back to the default key-bind.
 
 ----------
 
@@ -444,7 +444,7 @@ Save and next time you boot the game. Your shield will now be on your back, you 
 ## Night eye is too dark!
 
 {: .note}
-Performance modlist does not allow the ENB to show nightvision correctly. Should you wish to use nightvision, you must either use "standard modlist" or No shaders (to apply vanilla nightvision).
+Performance modlist does not allow the ENB to show night-vision correctly. Should you wish to use night-vision, you must either use "standard modlist" or No shaders (to apply vanilla night-vision).
 
 Hit Shift+Enter to bring up the ENB, in the center panel expand ENB effect and scroll down until you find the below section:
 
@@ -482,10 +482,10 @@ Below are a few reasons why:
 - You are attacked by a melee opponent. You plan to 🛡️ the attack and will survive it, but the game engine decides otherwise and plays a kill move. Under standard Requiem, kill moves can be performed on the player. The result is now you are eating dirt when you should be bashing skulls! (the same if you plan to evade the attack).
 - You are sneaking and aim an arrow on a mage. This will one-shot the mage. The kill move plays, the mage becomes aware of you, suddenly it's no longer a sneak attack, the mage lives and turns you into one of three elemental flavors of magically prepared rump roast. 
 - You sneak behind a bandit, you plan to one-shot him with a dagger attack. The attack succeeds, the kill move plays, nobody detects you, but the bandit didn't die, is still full health turns around, says ~~"Omae wa, mou shindaeru..."~~ and kills you.
-- You are sniping with a bow. Every arrow will kill a bandit. Every time you release the arrow, a kill-move plays. But thanks to the kill move, every arrow lands on the ground before it reaches the bandit, therefore the bandit didn't die, and now instead of being 'Legolas' you have become 'Legless' thanks to that big bandit with the greatsword.
+- You are sniping with a bow. Every arrow will kill a bandit. Every time you release the arrow, a kill-move plays. But thanks to the kill move, every arrow lands on the ground before it reaches the bandit, therefore the bandit didn't die, and now instead of being 'Legolas' you have become 'Legless' thanks to that big bandit with the great-sword.
 - You are attacking a group of enemies with a 2-handed Axe and mid-fight a kill move fires (as in Requiem they can happen on any enemy), and his friends kill you while the cinematic plays, because you are not in fact Neo from blockbuster hit 'The Matrix.'
 - You are sneaking on a ridge above Valheim Towers and shoot arrows to the bandits below you. All arrows hit and one-shot, except the one from the kill move, which collides with the invisible barrier of the ridge. You are now detected. You proceed to beat your keyboard into a fine pulp, then craft it into a sword because archery is now for pansies.
-- You are shooting ⚡ from your fingertips like some kind of unspecified villain in a space opera. It has been an intense battle, and you are about to win. You channel your last reserves of magic at your foe, and the kill camera activates, missing your target and attacking the aggressive invisible ant which threatens to nibble your toes. The vampire mage you almost slew then summons a Storm Atronach, which proceeds to turn you into an ad-hoc Christmas tree in approximately three seconds. As a reward for your heroism, Todd Howard grants you the sight of another kill cam, this time of the aformentioned Storm Atronach putting little a wreathe around your neck while the vampire dances on your twitching, electrified corpse.
+- You are shooting ⚡ from your fingertips like some kind of unspecified villain in a space opera. It has been an intense battle, and you are about to win. You channel your last reserves of magic at your foe, and the kill camera activates, missing your target and attacking the aggressive invisible ant which threatens to nibble your toes. The vampire mage you almost slew then summons a Storm Atronach, which proceeds to turn you into an ad-hoc Christmas tree in approximately three seconds. As a reward for your heroism, Todd Howard grants you the sight of another kill cam, this time of the aforementioned Storm Atronach putting little a wreathe around your neck while the vampire dances on your twitching, electrified corpse.
 
 Kill moves literally mean that when such a move plays, 90% of the time it kills you, the other 10% of the time nothing happens. 
 
@@ -521,13 +521,13 @@ Summon ride is disabled because it causes crashes to desktop.
 
 You give your follower a horse using the Horse "crouch" menu and changing ownership of one of your horses.
 
-Note: giving them a horse doesnt mean they will keep up with you - just means it looks slightmy more immersive than the teleport stuff.
+Note: giving them a horse doesn't mean they will keep up with you - just means it looks slightly more immersive than teleporting to your bum-cheeks.
 
 ----------
 
 ## I've lost my follower!
 
-Fear not - The scroll lock keybind contains a command to emergency teleport them to your side!
+Fear not - The scroll lock key-bind contains a command to emergency teleport them to your side!
 
 ----------
 
@@ -578,11 +578,11 @@ You need to do five (5) radiant quests for members of the Circle in-between each
 
 ## How do I craft Snowberry Extract?
 
-Snowberry Extract is made directly from a cookpot, or by using the player crafting menu when in proximity to a cookpot
+Snowberry Extract is made directly from a cook-pot, or by using the player crafting menu when in proximity to a cook-pot
 
 The extract requires the following items/tools:
 
-> * A survivalist's or alchemist's toolkit
+> * A survivalists or alchemist's toolkit
 > * Alchemical Lore 1 (perk)
 > * 20 Snowberries
 
