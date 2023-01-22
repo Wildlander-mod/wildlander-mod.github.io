@@ -13,5 +13,5 @@ A tool exists to help you plan your builds before you start playing.
 
 Some Notes:
 
-1. Ruleset chosen should be requiem 4.0 + fozar as its the closest to wildlander
-1. then smithing tree forces you to take morrowing smithing before you take orcish - in wildlander we dont do this, so this perk can be ignored.
+1. Ruleset chosen should be requiem 4.0 + fozar as its the closest to Wildlander
+1. The smithing tree forces you to take morrowind smithing before you take Orcish - in Wildlander we don't do this, so this perk can be ignored.
