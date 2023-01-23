@@ -6,11 +6,11 @@ has_children: false
 description:  How Do I mod Wildlander?
 ---
 
-## A warning before proceeding
+# A warning before proceeding
 
 Adding mods is generally considered a bad idea unless you know what you are doing. 
 
-Any form of customization "support" will be in the Dedicated Customization channels. Should you ask in general or either of the support channels, your posts will be deleted and you will be directed to ask in the appropriate locations.
+Any form of customization "support" will be in the dedicated customization channels. Should you ask in general or either of the support channels, your posts will be deleted and you will be directed to ask in the appropriate locations.
 
 Helping you will basically be a waste of volunteer time that should go to those who have NOT customized the modlist. 
 
@@ -18,15 +18,11 @@ Should you customize your list - You will be ON YOUR OWN unless another member o
 
 Wildlander Staff have no obligations to assist you with customizing your install.
 
-## Modding Basics
+# Modding Basics
 
 NEVER EVER uninstall mods unless you are starting a new play-through.
 
 Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
-
-When you load your save file, wait at least thirty seconds before saving again. Some scripts will break if you save too soon after loading.
-    
-At least try to avoid saving during combat or other conditions of heavy script load.
 
 Vortex / Wyrebash / Loot have their place, that place is 2 billion miles away from Wildlander and should not be used.
     
@@ -68,17 +64,17 @@ The Ride side of the list is the plugins, these are the mods themselves containi
 
 If you have two Plugin's which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1.
 
-## General guidance
-
-If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
-
-You will always be able to switch back to the original profile and load it that way in case you screw up badly.
+{: .important}
+> 
+> If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
+> 
+> You will always be able to switch back to the original profile and load it that way in case you screw up badly.
 
 ---
 
 ### Installing Mods not covered by guides.
 
-All most should be added to Mod organizer, not to your Skyrim directory. 
+All mods should be added to Mod organizer, not to your Skyrim directory. 
 
 - Download it to your Wildlander download folder (this will be the directory you entered on the Wabbajack installer when you first installed the list)
 open < Wildlander install directory >\Game-files\mod organizer.exe. Once open - top left drop-down - select the profile you plan on playing.
@@ -116,11 +112,11 @@ First thing to check
 
 ## Can i Remove.....?
 
-The Wildlander mod itself has a lot of Master files (144 plugins). 
+The Wildlander mod itself has a lot of Master files (144 plugins) which cannot be disabled without removing all of the relevant records from wildlander.esp. 
 
 Files which are masters are required by the mod itself, and disabling the master will cause the game to crash.
 
-I'm commonly asked about the following mods. They are all Masters of Wildlander and cannot be removed without extensively editing the Wildlander mod itself :-
+I'm commonly asked about the following mods. They are all Masters of Wildlander and cannot be removed:-
 * Suspicious city guards
 * Sunhelm
 * Frostfall
@@ -153,7 +149,7 @@ A: You have to add Nemesis Engine to the windows defender exception list, or wha
 ![image](https://user-images.githubusercontent.com/26418143/173229406-08b78e3a-6ec5-4eaf-9647-5d618559c6e0.png)
 
 
-### A quick guide to NetScriptFramework Error Codes
+### A quick guide to NetScriptFramework Error Codes (AKA - I'm crashing help!)
 
 https://www.nexusmods.com/skyrimspecialedition/articles/3031/
 
@@ -210,53 +206,9 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 
 # Guides
 
-The following Guides have been submitted by members of the community. 
+The only resource available currently is the unofficial patches and guides on <https://trello.com/b/77lxgykg/wildlander-customization>. These guides have *Not* been tested by staff - nor can we guarantee quality of install instructions. Any issues with these should be reported to the author.
 
-## Inn's can be closed
+Should you wish to submit a single Patch you can do so here <https://forms.gle/D6zwQ9XiywDpqVfR7>
 
-**Original Mod name. and link**
+Should you wish to submit a Guide containing multiple patches you can do so here <https://forms.gle/BFnvGTPpAhTYjw8q9>
 
-Inns Can be Closed - https://www.nexusmods.com/skyrimspecialedition/mods/57407?tab=description
-
-**What does your patch do?**
-
-This is only a patch to keep the possibility of inns having no free beds, while also keeping the changes from Relationship Dialogue Overhaul and Wildlander for the different NPC answers.
-
-**Patch URL**
-
-https://www.nexusmods.com/skyrimspecialedition/mods/62112?tab=description
-
-
-**Load order**
-
-On the RIGHT side:
-
-	Wildlander.esp
-	-
-	-
-	Inns Can Be Closed
-	Inns Can Be Closed Wildlander Patch.esp
-	-
-	-
-	Requiem for the indifferent.esp
-
-On the LEFT side:
-
-	Doesn't matter
-  
----
-### Requiem - Static Skill Leveling (Experience Mod Add-on)
-
-**Original Mod name. and link**
-
-Requiem - Static Skill Leveling - https://www.nexusmods.com/skyrimspecialedition/mods/43185
-
-**Guide URL**
-
-https://docs.google.com/document/d/1ybW3_zI60rtaCIDrKZIz_vNDzu-cXECO5sx6oMisS7U/edit
-
-*Additional Notes*
-
-Added a final note to the guide to state that the patcher needs to be run every time new mods are added that change perks, quests, or books. Synthesis.esp should remain last in the load order. (Unless the Synthesis changes are manually forwarded into another patch)
-  
----

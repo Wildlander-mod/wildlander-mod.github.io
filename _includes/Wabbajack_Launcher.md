@@ -13,7 +13,12 @@ The following guide will assist you in the method to do so. <a href="https://ste
 ----------
 ## Error launching game Error: Unsupported type of line: [1] Error OR TypeError: Cannot set properties of undefined (setting 'lock_gui') 
 
-This means that Mod Organizer Crashed during Boot up and wiped its INI files. A reinstall (overwrite) using wabbajack of the list will resolve this issue.
+This means that Mod Organizer Crashed during Boot up or Shutdown and wiped its INI files. A reinstall (overwrite) using Wabbajack of the list will resolve this issue.
+
+1. Start up Wabbajack, search the Modlist and click the Download Button again.
+2. I choose the Installation and download location to match your original install path
+3. In bottom right - toggle Overwrite Installation
+4. Hit the start/play Button.
 
 An issue has been raised with launcher team to implement a backup and restore function for this file to prevent user's having to perform this action.
 
@@ -52,9 +57,9 @@ PSmodulePath should contain an entry for `%SystemRoot%\system32\WindowsPowerShel
 
 Ensure the following:
 
-1.  Check that your Antivirus is not flagging SKSE or any Skyrim related files, the best Solution is to add Antivirus exceptions to the Wildlander Directory and subdirectories.   
+1.  Check that your Antivirus is not flagging SKSE or any Skyrim related files, the best Solution is to add Antivirus exceptions to the Wildlander Directory and sub-directories.   
 1.  Make sure your content folder contains usvfs_proxy_x64.exe & usvfs_proxy_x86.exe. If these files are missing, it's likely your antivirus has moved them to the virus vault.    
-1.  Restore missing files from Mod Organiser Zip file in your Wildlander\download directory if you cannot find them in the virus vault
+1.  Restore missing files from Mod Organizer Zip file in your Wildlander\download directory if you cannot find them in the virus vault
 
 ----
 ##  Launcher locks for Skyrimse.exe and immediately unlocks (game doesn't start)
