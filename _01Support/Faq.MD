@@ -83,9 +83,9 @@ Special Edition is a completely different version of game engine (64-bit instead
 
 # When is Ultimate Skyrim returning?
 
-It won't be returning to the Wabbajack gallery. The Wabbajack file, along with install instructions, are currently pinned in the Ultsky Support channel on Discord.
+It won't be returning to the Wabbajack gallery. The Wabbajack file, along with install instructions, are available from [Here](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/).
 
-I have no further information as to if it will be formally re-released on the Wildlander website.
+This is the final release of Ultimate Skyrim. If it breaks, it wont be repaired.
 
 ----------
 
@@ -200,24 +200,29 @@ FLP MCM should be treated as though it doesn't exist. Seriously. Touch nothing i
 
 ## Can I remove/disable mod X
 
-Many mods have a Mod Configuration Menu (MCM) where they can be turned off. You cannot disable anything completely from Mod Organizer, and doing so will deny you access to support.
+Many mods have a Mod Configuration Menu (MCM) where they can be turned off. 
+
+For other Mods
+1. SKSE mods should be OK to disable unless they have a plugin as well
+1. For mods with plugin's The vast majority (144) are required by the Wildlander Mod itself. These can't be disabled without a lot of work on your part.
+1. For texture mods - These should be OK.
 
 ----------
 
 ## Can I add additional mods?
 
-Currently, we are not supporting any form of modification of Wildlander.
+Adding mods is generally considered a bad idea unless you know what you are doing.
 
-Any modifications are done at your own risk and will deny you access to support.
+Should you customize your list - You will be ON YOUR OWN. Any modifications are done at your own risk, Wildlander Staff have no obligations to assist you with customizing your install.. Helping you will basically be a waste of volunteer time that should go to those who have NOT customized the modlist. 
 
 Changing the mod list (even simple changes) can break Wildlander in surprising ways. Requiem touches all parts of Skyrim and generally requires patches to add anything.
 
-If you want to do it anyway, I will give this free advice: DO NOT run LOOT! It will break the mod list. Any mods should be added and ordered manually. Remember that, again, this _WILL_ deny you access to support.
+If you want to do it anyway, I will give this free advice: DO NOT run LOOT! It will break the mod list. Any mods should be added and ordered manually. 
 
 ---
 ##  But I want CBBE/UNP nudes
 
-Answer is still no. Go straight to horny jail. Do not pass go. Do not collect 200 Septims.
+Please see above, and in addition go straight to horny jail. Do not pass go. Do not collect 200 Septims.
 
 ---
 # **Gameplay Questions**
