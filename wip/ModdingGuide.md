@@ -206,9 +206,7 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 
 # Guides
 
-The only resource available currently is the patches and guides on <https://trello.com/b/77lxgykg/wildlander-customization>.
-
-These guides have *Not* been tested by staff - nor can we guarantee quality of install instructions.
+The only resource available currently is the unofficial patches and guides on <https://trello.com/b/77lxgykg/wildlander-customization>. These guides have *Not* been tested by staff - nor can we guarantee quality of install instructions. Any issues with these should be reported to the author.
 
 Should you wish to submit a single Patch you can do so here <https://forms.gle/D6zwQ9XiywDpqVfR7>
 
