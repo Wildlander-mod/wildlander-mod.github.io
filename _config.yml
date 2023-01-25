@@ -8,7 +8,7 @@ color_scheme: wildlander-dark
 
 url: https://wildlander-mod.github.io/
 
-gems:
+plugins:
   - jekyll-tidy
 
 # Pages in following directories will be excluded from the Export
