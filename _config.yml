@@ -199,11 +199,3 @@ nav_external_links:
 ga_tracking: G-DSSX8SK5DC
 #ga_tracking_anonymize_ip: nil  # Use GDPR compliant Google Analytics settings (true/nil by default)
 
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
