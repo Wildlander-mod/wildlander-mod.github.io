@@ -8,9 +8,6 @@ color_scheme: wildlander-dark
 
 url: https://wildlander-mod.github.io/
 
-plugins:
-  - jekyll-tidy
-
 # Pages in following directories will be excluded from the Export
 exclude:
   - wip/
@@ -201,3 +198,12 @@ nav_external_links:
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
 ga_tracking: G-DSSX8SK5DC
 #ga_tracking_anonymize_ip: nil  # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
