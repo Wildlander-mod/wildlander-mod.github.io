@@ -10,11 +10,11 @@ description: Religion and the Divines.
 
 # Introduction
 
-– The divines now also offer an empowered blessing for those in their favor. To obtain this blessing you usually have to solve the quest associated with their temple and/or fulfill some other conditions related to the god.
+– The Divines/Daedra now also offer an empowered blessing for those in their favor. To obtain this blessing you usually have to solve the quest associated with their temple and/or fulfill some other conditions related to the god.
 
 – Your crime record will now determine if the divines will bless you or not.
 
-– The restoration perk tree now offers the perk “Painful Regrets” which can be taken without prerequisite nodes once your crime record passed the limits tolerated by the divines. By taking it you can get Cure Disease effect back, but the blessings are lost forever, once you lose them. To take this perk you need to have less than 30 items stolen or less than 3 murders or 3000-5999 lifetime bounty, and you need to have 0 current bounty. In such scenario it's much better to stock on cleansing potions, since Painful Regrets gives you some serious debuffs. The only exception is Nocturnal - she doesn't care if player is stealing or murdering, so her blessing should be available at all times.
+– The restoration perk tree now offers the perk “Painful Regrets” which can be taken without prerequisite nodes once your crime record passed the limits tolerated by the divines. By taking it you can get Cure Disease effect back, but the blessings are lost forever, once you lose them. To take this perk you need to have less than 30 items stolen or less than 3 murders or 3000-5999 lifetime bounty, and you need to have 0 current bounty. In such scenario it's much better to stock on cleansing potions, since Painful Regrets gives you some serious debuffs. The only exceptions are the Daedra - they doesn't care if player is stealing or murdering, so those blessing should be available at all times.
 
 {: .no_toc .text-delta }
 
@@ -67,11 +67,10 @@ Those blessed by Julianos are granted additional magicka. The disciples of Julia
 
 Those blessed by Kynareth are granted additional stamina. The chosen of Kynareth are exalted with even more stamina.
 
-> * If you've not used the stolen Eldergleam Sap to repair the Gildergreen, increases stamina by 25.
 > * If you bring the sapling to grow into a new Gildergreen for Danica Pure-Spring, increases stamina by additional 75.
 
 {: .highlight }
-Kynareth will no longer bless you or allow you to use her shrines if you Steal the Sap 
+Kynareth will no longer bless you or allow you to use her shrines if you use nettlebane on the Eldergleam.
 
 **Mara**
 
@@ -88,11 +87,11 @@ Mara will not bless you if Erandur is Dead.
 
 Those blessed by Stendarr block slightly more damage and are protected from almost any draining magic effects. The champions of Stendarr are exalted with additional health.
 
-> * If you're not a Werewolf, Vampire, and if your Conjuration is below 31 (not equal or less than, only less than), increases protection from drain effects by 10%.
+> * If your Conjuration is below 31, increases protection from drain effects by 10%.
 > * If you've killed 50 or more Daedra, increases health by 50.
 
 {: .highlight } 
-Stendarr will not bless nor Cure Disease a Vampire or Werewolf. 
+Stendarr will not bless or allow you to use his shrines if you are a Vampire or Werewolf. 
 
 **Talos**
 
@@ -108,16 +107,6 @@ Those blessed by Zenithar are granted a slight discount at all merchants. The pa
 > * Haggling increased by 5%.
 > * For each of the following: 100 weapons made, 100 weapons improved, 100 armor made, 100 armor improved, 100 potions mixed, haggling increased by 3% each for a maximum value of 15%, which means that complete Zenithar buff gives makes the blessed haggle 20% better.
 
-**Nocturnal**
-
-Those blessed by Nocturnal can move slightly more silently.
-
-> * Makes sneaking 10% easier.
-> * For each of the following: 100 backstabs, 100 locks picked, 100 sneak attacks, 250 items stolen, 200 pockets picked, sneaking is improved by 3% for a maximum 15%, which makes total buff from Nocturnal equal 25%
-
-{: .highlight }
-Nocturnal will only bless those who have completed the thieves guild quest
-
 **Auriel**
 
 Those blessed by Auriel are better at penetrating armor with ranged weapons. The champions of Auriel are exalted with substantial increases in all three attributes.
@@ -127,3 +116,38 @@ Those blessed by Auriel are better at penetrating armor with ranged weapons. The
 
 {: .highlight }
 Auriel will not bless nor Cure Disease a Vampire.
+
+## Daedra
+
+**Azura**
+
+Those Blessed By Azura are more resistant to Magic. Those who cleanse her Star are blessed to a greater degree
+
+> * 1% magic resistance as standard.
+> * 5% for those who have cleansed her star.
+
+**Boethiah**
+
+
+Those Blessed By Boethiah are more skilled with One-handed Weaponry. Those who are her champion blessed to a greater degree.
+
+> * 2 fortify one-handed as standard.
+> * 10 for those who have completed Boethiah's calling.
+
+**Mephala**
+
+Those Blessed By Mephala are granted a slight discount at all merchants. Those who are her champion blessed to a greater degree.
+
+> * Haggling increased by 2% as standard.
+> * 10% for those who have completed The whispering Door.
+
+
+**Nocturnal**
+
+Those blessed by Nocturnal can move slightly more silently.
+
+> * Makes sneaking 10% easier.
+> * For each of the following: 100 backstabs, 100 locks picked, 100 sneak attacks, 250 items stolen, 200 pockets picked, sneaking is improved by 3% for a maximum 15%, which makes total buff from Nocturnal equal 25%
+
+{: .highlight }
+Nocturnal will only bless those who have completed the thieves guild quest.
