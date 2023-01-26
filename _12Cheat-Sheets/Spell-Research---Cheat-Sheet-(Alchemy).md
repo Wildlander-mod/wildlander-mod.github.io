@@ -67,7 +67,7 @@ Ghartok | Stamina | (n.)  hand(s).  [Ehlnofex]
 Karan | Armor | (n.) armor. [Ayleid]
 Karen Kogo | Force | literal translation "Armor unbreakable" [Ayleid and Dunmari]
 Karan ry Ayammis | Health  | literal translation "Armor of life" [Ayleid]
-Latta | Light | - (n.) light. [Ayleid]
+Latta | Light | (n.) light. [Ayleid]
 Latta Loria | Shadow | literal translation "light darkens" [Ayleid]
 Mafre | Frost | (n.) frost. [Ayleid]
 Mallari | Metal|  (n.) gold. [Ayleid]
@@ -90,11 +90,11 @@ Wel sa bell | Shock |Literally translated "Sky thunderous"[Ayleid]
 Potions Equivalent | Suffix (weakest to strongest) | Translation
 -- | -- | -- |
 Dilute | sa Haelia | (adj.) So terrible.[Ayleid]
-Weak | sa Goria|  (adj.) So ugly. [Aylied]
-Mild | sa Gravia|  (adj.) So obscure [Ayleid]
-Strong | sa Baune| - (adj.)So  mighty.[Ayleid]
-Potent | sa Adonai|  (adj.) So lordly. [Ayleid]
-Concentrated | sa Sila |  (v.) So shiny. [Ayleid]
+Weak | sa Goria| (adj.) So ugly. [Aylied]
+Mild | sa Gravia| (adj.) So obscure [Ayleid]
+Strong | sa Baune| (adj.)So mighty.[Ayleid]
+Potent | sa Adonai| (adj.) So lordly. [Ayleid]
+Concentrated | sa Sila | (v.) So shiny. [Ayleid]
 
 Each one can be upgraded or downgraded using an alembic (Mix ingredients menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
