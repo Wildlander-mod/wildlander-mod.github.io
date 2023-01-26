@@ -279,6 +279,8 @@ Item categories which can be broken down inside of a couldron include the follow
 
 This Section was taken from the Wildlander Reddit Sub from a post written by Irondusk.
 
+Disclaimer: I should mention I'm not actually using the modpack. I just make mods Dylan happens to like. So your effects may vary in the pack itself or with just Requiem.
+
 <p>So, let's walk through how my character made some potions. My character is an artificer, and so uses Bound Sword almost exclusively. A good potion for them would then be a Fortify One-Handed, Fortify Conjuration, and Fortify Stamina potion. It'd be hard to find the right ingredients for that, but I can make that potion relatively easily through this system.</p>
 <p>First, I just experiment. I find some imbued and enchanted items in my journey, toss them into the cauldron, and see what I can make with the solutions that come out. I also make sure to use only 'Sa Haelia' solutions, as they're the weakest, and I won't lose much by experimenting with them.</p>
 <p>I mix some elixirs, taste them, and see their effects. I might not get the exact effects I want, but I might get close. For example, instead of a Fortify Conjuration elixir, I found out I made a Fortify Destruction elixir.</p>
