@@ -120,9 +120,10 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 * Suspicious city guards
 * Sunhelm
 * Frostfall
-* Requiem
 * Immersive Horses
 * Follower Live Package
+
+Finally Requiem is the core foundation of the list. It cannot be removed.
 
 ---
 
