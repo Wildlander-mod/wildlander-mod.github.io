@@ -46,53 +46,55 @@ If you manage to find the right recipes (or use the cheat sheet) you can mass pr
 
 Analyzing liquids with an alembic grants elemental archetype XP and some alchemy XP.
 
-There are a lot different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency. The naming of the liquids is < name > sa < potency >
+There are a lot different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency. The naming of the liquids is < name > sa < potency > for trivia - the translations of these items come from <https://www.imperial-library.info/content/alphabetical>
 
-* Agea - Magicka 
-* Agea Arden - Resistances
-* Aka ry Relleis - Time
-* Altadoon - Weapons
-* Altadoon ry Bet - Diseases
-* Arden - Sheild
-* Ayammis - Life 
-* Ayammis Malata - Souls
-* Bal - Earth
-* Betaltadoon - Poisons
-* Betayammis - Creatures
-* Dunayammis - Undead
-* Dunruhn - Trap
-* Ghartok - Stamina 
-* Karan - Armor
-* Karen Kogo - Force
-* Karan ry Ayammis - Health 
-* Latta - Light
-* Latta Loria - Shadow
-* Mafre - Frost
-* Mallari - Metal
-* Malatu Magicka - Arcane Energy
-* Mer Ayammis - Mortals
-* Mer ry Wel - Apparitions
-* Mer Garlas - Flesh
-* Molag - Fire
-* Mora - Nature
-* Pellenni Ayammis - Daedra
-* Relleis - Water
-* Rellers ry Molag - Acid
-* Varla ye Wel - Sun
-* Volen Magicka - Magical Constructs
-* Wel - Air
-* Wel sa bell - Shock
+Name | Archtype | Translation
+--|--|--
+Agea | Magicka |  (n.) lore, knowledge [Ayleid]
+Agea Arden | Resistances | literal translation "knowledge savior" [Ayleid (see Arden for source)]
+Aka ry Relleis | Time | literal translation "dragon of streams" [Aldmeri and Ayleid]
+Altadoon | Weapons | (N.) weapon. [Ehlnofex]
+Altadoon ry Bet | Diseases | Literally translated to 'Weapon as Beast', ie a weapon that's alive but non-sentient, ie a disease. [Ehlnofex]
+Arden | Sheild | Most likely to come from Arden-Sul. He was the first Duke of the Shivering Isles, said to be "the greatest Duke of the ages" and "a savior."
+Ayammis | Life |  (n.) life. [Ayleid]
+Ayammis Malata | Souls | literal translation "Life truth" [Ayleid]
+Bal | Earth |  (n.) stone. [Ehlnofex]
+Betaltadoon | Poisons | literally translates to 'Beast-Weapon' [Aldmeri and Ayleid]
+Betayammis | Creatures | literally translates to 'Beast-Life' [Aldmeri and Ayleid]
+Dunayammis | Undead | literally translates to 'Cursed-Life'[Aldmeri and Ayleid]
+Dunruhn | Trap| literally translates to 'Cursed-home'[Aldmeri and Dunmari]
+Ghartok | Stamina | (n.)  hand(s).  [Ehlnofex]
+Karan | Armor | (n.) armor. [Ayleid]
+Karen Kogo | Force | literal translation "Armor unbreakable" [Ayleid and Dunmari]
+Karan ry Ayammis | Health  | literal translation "Armor of life" [Ayleid]
+Latta | Light | - (n.) light. [Ayleid]
+Latta Loria | Shadow | literal translation "light darkens" [Ayleid]
+Mafre | Frost | (n.) frost. [Ayleid]
+Mallari | Metal|  (n.) gold. [Ayleid]
+Malatu Magicka | Arcane Energy |  Literally translated "truth magic."  [Ayleid]
+Mer Ayammis | Mortals | Literally translated "People Life" [Aldmeri]
+Mer ry Wel | Apparitions| Literally translated "People as " [Aldmeri]
+Mer Garlas | Flesh | Literally translated "People " [Aldmeri]
+Molag | Fire | (n.) fire. [Aldmeri]
+Mora | Nature | (n.) forest, wood. [Aldmeri]
+Pellenni Ayammis | Daedra |  Literally translated "Outsides Life" [Ayleid]
+Relleis | Water |  (n.) streams  [Ayleid]
+Rellers ry Molag | Acid |  Literally translated "streams as fire" [Ayleid and Aldmeri]
+Varla ye Wel | Sun |  Literally translated "star as sky"  [Ayleid]
+Volen Magicka | Magical Constructs |  Literally translated "hammer magic." [Dwemeri and Ayleid]
+Wel | Air |  (n.) sky.  [Ayleid]
+Wel sa bell | Shock |Literally translated "Sky thunderous"[Ayleid]
 
 *Ranks* 
 
-Potions Equivalent | Suffix (weakest to strongest)
--- | --
-Dilute | sa Haelia
-Weak | sa Goria
-Mild | sa Gravia
-Strong | sa Baune
-Potent | sa Adonai
-Concentrated | sa Sila
+Potions Equivalent | Suffix (weakest to strongest) | Translation
+-- | -- | -- |
+Dilute | sa Haelia | (adj.) So terrible.[Ayleid]
+Weak | sa Goria|  (adj.) So ugly. [Aylied]
+Mild | sa Gravia|  (adj.) So obscure [Ayleid]
+Strong | sa Baune| - (adj.)So  mighty.[Ayleid]
+Potent | sa Adonai|  (adj.) So lordly. [Ayleid]
+Concentrated | sa Sila |  (v.) So shiny. [Ayleid]
 
 Each one can be upgraded or downgraded using an alembic (Mix ingredients menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
