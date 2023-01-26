@@ -6,6 +6,7 @@ has_children: false
 description: Spell Research
 ---
 
+The bulk of this page was originally posted by u/hazardoss on the Ultimate Skyrim Reddit page. I've retained as much the original post that is still relevant, however have made edits specific to wildlander itself.
 
 Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to <a href="https://www.reddit.com/u/Alexandregd" target="_blank" rel="noopener noreferrer">u/Alexandregd <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for creating this very useful[ reference sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
 
@@ -30,11 +31,11 @@ Here are several things you can do with this mod:
 
 - **_Alembic_**: Required for analyzing or mixing magical solutions. Can break down (dissolve) small quantities of ingredients into solutions. Can be purchased, or crafted at a forge using 1x steel ingot + 5x building glass + Craftsmanship perk + Alchemy toolkit.
 
-- **_Cauldron_**: Used to break down large quantities of ingredients, potions _[v2.0+]_, Misc Items, Ore, Pelts and enchanted artifacts, into magical solutions. Requires fuel to work. Any ingredients or poisons that have a ‘weakness’ effect can fuel the cauldron (e.g. Salt pies). Can be purchased from alchemists, or crafted at a forge using 8x Iron Ingots + Craftsmanship perk + Alchemy toolkit.
+- **_Cauldron_**: Used to break down large quantities of ingredients, potions, Misc Items, Ore, Pelts and enchanted artifacts, into magical solutions. Requires fuel to work. Any ingredients or poisons that have a ‘weakness’ effect can fuel the cauldron (e.g. Salt pies). Can be purchased from alchemists, or crafted at a forge using 8x Iron Ingots + Craftsmanship perk + Alchemy toolkit.
 
-- **_Tongs_**: Required _[v2.0+]_ for studying/disenchanting ancient artifacts. Can be crafted at a forge using 1x Iron Ingot + Craftsmanship perk + Smithing toolkit.
+- **_Tongs_**: Required for studying/disenchanting ancient artifacts. Can be crafted at a forge using 1x Iron Ingot + Craftsmanship perk + Smithing toolkit.
 
-- **_Hammer_** : Required for safely breaking ancient artifacts _[v2.0+ feature]_. Can be crafted at a forge using 1x Iron Ingot + 1x Wood + Craftsmanship perk + Smithing toolkit.
+- **_Hammer_** : Required for safely breaking ancient artifacts. Can be crafted at a forge using 1x Iron Ingot + 1x Wood + Craftsmanship perk + Smithing toolkit.
 
 ## Mental Exhaustion
 
@@ -44,7 +45,7 @@ ME is cured with sleep. In the early stages of the game you can try the followin
 
 ## Crafting spell tomes and scrolls
 
-Crafting tomes and scrolls is a relatively easy way to make some gold, and gain some magic XP in the process. All you need is writing supplies and at least one learned spell. In Ult Sky 3.4, a level-1 Orc with only 60 base magicka is able to craft Novice and Apprentice spell tomes, as well as Adept level scrolls (see table below). Some useful scrolls to consider crafting are Animate Lockpick scroll (unlocks Expert level locks), or powerful Conjuration and Restoration scrolls. These scrolls can be useful to non-mage characters who can't cast the spells.
+Crafting tomes and scrolls is a relatively easy way to make some gold, and gain some magic XP in the process. All you need is writing supplies and at least one learned spell. A level-1 Orc with only 60 base magicka is able to craft Novice and Apprentice spell tomes, as well as Adept level scrolls (see table below). Some useful scrolls to consider crafting are Knock III scroll (unlocks Expert level locks), or powerful Conjuration and Restoration scrolls. These scrolls can be useful to non-mage characters who can't cast the spells.
 
 The magicka requirements for crafting tomes and scrolls are listed in the table below. To craft a tome or a scroll, simply equip the spell, activate the research journal, and select “Craft Tome / Scroll”.
 
@@ -167,8 +168,8 @@ I had learned the spell _Soothe Rank 1_ (Novice Illusion), which contains the fo
 There are many artifacts found in loot, such as broken weapon parts and soul fragments. Activating an enchanted item in the inventory opens the following options: [Cheat Sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Artefact))
 
 1. Analyze - this will reveal clues about the associated archetypes
-2. Study (disenchant) Item – requires tongs _[v2.0+]_. Grants XP in archetypes and enchanting. Has a chance of destroying the item (details below)
-3. Break Item _[v2.0+ feature]_ – requires a blacksmith's hammer. Grants enchanting XP.
+2. Study (disenchant) Item – requires tongs . Grants XP in archetypes and enchanting. Has a chance of destroying the item (details below)
+3. Break Item – requires a blacksmith's hammer. Grants enchanting XP.
 
 When studying an artifact, the player can choose between _Primary_ properties and _Secondary_ properties. The primary properties relate to the base material of the item; e.g. enchanted weapon fragments usually have _Metal_ or _Weapon_ archetype as a primary. The secondary properties relate to the enchantment(s) of the item, which in most cases are other elemental archetypes.
 
@@ -226,8 +227,6 @@ Concentrated | sa Sila
 
  Refer to the[ cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of solutions and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading solutions requires 3 of the same kind to produce one stronger solution, or each one can be reduced to 2 weaker solutions.
  
-
-
 ### Analyzing solutions
 
 Each solution is associated with one elemental archetype (the middle-line archetype when analyzing a spell). Analyzing solutions with an alembic provides another source of XP in those archetypes, as well as some alchemy XP.
@@ -281,9 +280,7 @@ Item categories which can be broken down inside of a couldron include the follow
 This Section was taken from the Wildlander Reddit Sub from a post written by Irondusk.
 
 <p>So, let's walk through how my character made some potions. My character is an artificer, and so uses Bound Sword almost exclusively. A good potion for them would then be a Fortify One-Handed, Fortify Conjuration, and Fortify Stamina potion. It'd be hard to find the right ingredients for that, but I can make that potion relatively easily through this system.</p>
-<p>&nbsp;</p>
 <p>First, I just experiment. I find some imbued and enchanted items in my journey, toss them into the cauldron, and see what I can make with the solutions that come out. I also make sure to use only 'Sa Haelia' solutions, as they're the weakest, and I won't lose much by experimenting with them.</p>
-<p>&nbsp;</p>
 <p>I mix some elixirs, taste them, and see their effects. I might not get the exact effects I want, but I might get close. For example, instead of a Fortify Conjuration elixir, I found out I made a Fortify Destruction elixir.</p>
 <details>
     <summary>Spoiler</summary>
@@ -291,7 +288,6 @@ This Section was taken from the Wildlander Reddit Sub from a post written by Iro
 </details>
 <p>Okay, so I look through the Alembic, and see there's 4 other Dilute Elixirs colored Blue that require the exact same solutions. They must all be Fortify Magic Skill Elixirs! I make them and finally find which one is Fortify Conjuration.</p>
 <p>I do the same with tracking down Fortify One Handed, and Fortify Stamina.</p>
-<p>&nbsp;</p>
 <p>Now that I know how to make the effects I want, I need to find the materials to mass produce the solutions needed. To get some clues, I analyze the solutions needed for the effects:</p>
 <details>
     <summary>Spoiler</summary>
@@ -299,7 +295,7 @@ This Section was taken from the Wildlander Reddit Sub from a post written by Iro
 	<p>Fortify One-Handed: Flesh, Mortals, Weapons</p>
 	<p>Fortify Stamina: Nature, Resistances, Stamina</p>
 </details>
-<p>&nbsp;</p>
+
 <p>Now that I know what the solutions mean, I can easily track down ingredients or clutter to produce them.</p>
 <p>Magicka and Stamina solutions are relatively easy to make, as I can salvage weak or unusable Magicka and Stamina potions or poisons with my Alembic to produce those solutions.</p>
 <p>Resistance solutions can likewise be made by salvaging weak or unusable Resistance Potions or Weakness Poisons. Or, I can always produce more of these with standard alchemy with the expressed purpose of turning them into solutions. Weakness to Poison is a very common effect, so I can make a few dozen of those poisons for this purpose.</p>
@@ -314,10 +310,9 @@ This Section was taken from the Wildlander Reddit Sub from a post written by Iro
 	<p>Hagraven Feathers and Claws, and Nirnroot give Arcane solutions</p>
 </details>
 
-<p>&nbsp;</p>
 <p>Now that I have all the solutions, and know where to get more, I can concentrate them to make the Elixirs of the strength I want. Let's say I want to go for the 2nd Highest concentration. Those would be Potent Elixirs, and they require Adonai solutions.</p>
 <p>If I was just making them all from Haelia solutions, it'd be a lot of work, as it takes 81 Haelia solutions to make one Adonai. But, I can be smart and use rarer but still plentiful ingredients to skip a few levels. For example, using Nightshade instead of Mountain Flowers produces Gravia (Tier 3) Nature solutions. Of which I only need 9 to make an Adonai. I can also make stronger Poisons of Weakness to Poison to make higher rank Resistance solutions, and stronger simple Magicka and Stamina potions to get higher Magicka and Stamina solutions.</p>
-<p>&nbsp;</p>
+
 <p>After all the work, my character, with a +12% Alchemy Necklace, and +120% Potion magnitude from perks, produced a potion that gives:</p>
 <p>+<strong>115</strong>% Damage with One Handed Weapons</p>
 <p>+<strong>145</strong>% Duration to Conjuration Spells</p>
