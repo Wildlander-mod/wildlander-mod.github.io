@@ -6,7 +6,6 @@ has_children: false
 description: Spell Research
 ---
 
-This page was taken from the Ultimate Skyrim Reddit Sub and has been posted Verbatim .
 
 Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to <a href="https://www.reddit.com/u/Alexandregd" target="_blank" rel="noopener noreferrer">u/Alexandregd <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for creating this very useful[ reference sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
 
@@ -29,9 +28,9 @@ Here are several things you can do with this mod:
 
 - **_Writing materials: rolls of paper + inkwell + a quill_**. Required for composing theses, crafting spell tomes and scrolls. Sold by merchants, or found in containers around Skyrim. Paper rolls and inkwell can be crafted using the alembic (Mix Solutions menu). Also, one **_ruined book_** can be converted to paper rolls using breakdown keybind.
 
-- **_Alembic_**: Required for analyzing or mixing magical liquids. Can break down (dissolve) small quantities of ingredients into liquids. Can be purchased, or crafted at a forge using 1x steel ingot + 5x building glass + Craftsmanship perk + Alchemy toolkit.
+- **_Alembic_**: Required for analyzing or mixing magical solutions. Can break down (dissolve) small quantities of ingredients into solutions. Can be purchased, or crafted at a forge using 1x steel ingot + 5x building glass + Craftsmanship perk + Alchemy toolkit.
 
-- **_Cauldron_**: Used to break down large quantities of ingredients, potions _[v2.0+]_, Misc Items, Ore, Pelts and enchanted artifacts, into magical liquids. Requires fuel to work. Any ingredients or poisons that have a ‘weakness’ effect can fuel the cauldron (e.g. Salt pies). Can be purchased from alchemists, or crafted at a forge using 8x Iron Ingots + Craftsmanship perk + Alchemy toolkit.
+- **_Cauldron_**: Used to break down large quantities of ingredients, potions _[v2.0+]_, Misc Items, Ore, Pelts and enchanted artifacts, into magical solutions. Requires fuel to work. Any ingredients or poisons that have a ‘weakness’ effect can fuel the cauldron (e.g. Salt pies). Can be purchased from alchemists, or crafted at a forge using 8x Iron Ingots + Craftsmanship perk + Alchemy toolkit.
 
 - **_Tongs_**: Required _[v2.0+]_ for studying/disenchanting ancient artifacts. Can be crafted at a forge using 1x Iron Ingot + Craftsmanship perk + Smithing toolkit.
 
@@ -125,7 +124,7 @@ Archetype XP is increased mainly through researching learned spells, which also 
 
 The maximum research duration depends on the player’s available magicka. Research causes mental exhaustion of -10 pts of magicka per spell rank, per hour. For example, researching a Novice spell for 12 hours will cause 12*10=120 magicka reduction, while researching a master-level spell will cause 12*50=600 magicka reduction.
 
-Another way of adding XP to elemental archetypes (the middle archetype) is by analyzing magical liquids. For more on this read further down.
+Another way of adding XP to elemental archetypes (the middle archetype) is by analyzing magical solutions. For more on this read further down.
 
 ### Composing theses and spells, chance of success
 
@@ -192,13 +191,26 @@ Although texts and tomes can be fun and add immersion to the game, they are not 
 
 ### Magical solutions, alembic, cauldron
 
-Spell Research extends the alchemy/spell system with the introduction of magical liquids (solutions) that are produced by breaking down ingredients, potions, or enchanted artifacts, using an alembic or a cauldron. These liquids can be used with an alembic in a few ways:
+Spell Research extends the alchemy/spell system with the introduction of magical solutions (solutions).
 
-* Analyzing liquids with an alembic grants elemental archetype XP and some alchemy XP.
-* Liquids can be mixed into potent elixirs (a type of ingredient), and different salts, e.g. void/fire/frost salts.
-* Liquids can be upgraded or downgraded.
+First of all, why should you bother with this complicated system when vanilla alchemy is sitting right there? Well, there are a few reasons:
 
-There are 34 different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency:
+1. 'Elixirs' have 4 identical effects on them, so they can be combined with standard ingredients to add an extra effect to your potions/poisons. A Dilute Paralysis Elixir would be a great addition to your poisons for example.
+1. Any 3 Elixirs can be combined together to make any 3 effect potions or poisons.
+1. Elixirs can be concentrated to make potions and poisons much much stronger than ones made with vanilla ingredients.
+1. And, for our users, this system is the only way to make Fortify Enchanting potions.
+
+The basics are this: ingredients, potions, 'imbued' or 'broken enchanted' objects, and some clutter can be broken down with an Alembic or Cauldron to make alchemical solutions, which have obfuscated names. These can then be combined at an alembic to make alchemical elixirs, which have obfuscated effects.
+
+This system is a step away from alchemy, and a step towards chemistry. Think Victorian-Era medicine. The goal here is to find what effects are produced by different solutions, and what patterns there are. (And there are some patterns if you look close enough.)
+
+These solutions can be used with an alembic in a few ways:
+
+* Analyzing solutions with an alembic grants elemental archetype XP and some alchemy XP.
+* Solutions can be mixed into potent elixirs, and different salts, e.g. void/fire/frost salts.
+* Solutions can be upgraded or downgraded.
+
+There are 34 different kinds of solutions - one for each elemental archetype. They are categorized into six tiers based on potency:
 
 *Tiers* 
 
@@ -212,41 +224,43 @@ Potent | sa Adonai
 Concentrated | sa Sila
 
 
- Refer to the[ cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of liquids and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
+ Refer to the[ cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of solutions and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading solutions requires 3 of the same kind to produce one stronger solution, or each one can be reduced to 2 weaker solutions.
+ 
 
-### Analyzing liquids
 
-Each liquid is associated with one elemental archetype (the middle-line archetype when analyzing a spell). Analyzing liquids with an alembic provides another source of XP in those archetypes, as well as some alchemy XP.
+### Analyzing solutions
 
-Depending on the tier of the liquid being analyzed, XP is added to different archetype tiers. For example, Haelia and Goria liquids mostly grant XP to _novice_ and _apprentice_ levels of an archetype, and little XP in the higher levels. The stronger liquids, e.g. Adonai and Sila, grant high XP in all the archetype tiers including expert and master.
+Each solution is associated with one elemental archetype (the middle-line archetype when analyzing a spell). Analyzing solutions with an alembic provides another source of XP in those archetypes, as well as some alchemy XP.
 
-Analyzing liquids in bulk grants **exponentially higher XP** than analyzing them one at a time. For example, a single Haelia grants 4 XP in the novice tier, while 50 Haelia's grant 3125 novice XP, instead of the expected 50*4=200 XP. So, to substantially increase the XP gain from liquids, it is worth amassing large quantities of them before analyzing them all at once. 
+Depending on the tier of the solution being analyzed, XP is added to different archetype tiers. For example, Haelia and Goria solutions mostly grant XP to _novice_ and _apprentice_ levels of an archetype, and little XP in the higher levels. The stronger solutions, e.g. Adonai and Sila, grant high XP in all the archetype tiers including expert and master.
+
+Analyzing solutions in bulk grants **exponentially higher XP** than analyzing them one at a time. For example, a single Haelia grants 4 XP in the novice tier, while 50 Haelia's grant 3125 novice XP, instead of the expected 50*4=200 XP. So, to substantially increase the XP gain from solutions, it is worth amassing large quantities of them before analyzing them all at once. 
 
 ### Elixirs
 
-Elixirs are not potions, as the name may suggest. They are in fact ingredients that can be used to craft potions. Elixirs are created from magical liquids in the _Mix Ingredients_ menu of the alembic.
+Elixirs are not potions, as the name may suggest. They are in fact ingredients that can be used to craft potions. Elixirs are created from magical solutions in the _Mix Ingredients_ menu of the alembic.
 
-There are 6 tiers of elixirs based on potency: Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different liquids of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Gravia_ liquids. Refer to the table of elixir recipes that I've added to the alchemy section of the [cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)).
+There are 6 tiers of elixirs based on potency: Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different solutions of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Gravia_ solutions. Refer to the table of elixir recipes that I've added to the alchemy section of the [cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)).
 
-**Note**: many of the elixir recipes will not appear in the alembic menu until you have at least one of the required liquids for the recipe.
+**Note**: many of the elixir recipes will not appear in the alembic menu until you have at least one of the required solutions for the recipe.
 
 Unlike standard ingredients, elixirs have 4 _identical_ effects, which means that each elixir can be used to craft a single type of potion. Despite this limitation, some of the elixir types (e.g. potent, concentrated) are much stronger than standard ingredients, and can be used to craft much better potions. using the best standard ingredients, with a elixir will produce a potion 4 times stronger than the best and second best combined. 
 
 For example, the strongest "Fortify 1 hand" potion that can be made using standard ingredients (level 50 alchemy, both levels of Alchemical Lore perk, no gear or items), is a potion with +13% increase in 1H damage. If one of the ingredients is replaced with a Potent Elixir with the fortify 1 hand effect, the resulting potion will have +22% 1H damage; and if it's replaced with a Concentrated Elixir, the potion will have +31% damage. That's a significant improvement which gets even more pronounced at higher alchemy levels. 
 
-Elixirs can benefit any alchemist character who relies heavily on potions. Instead of using up all the available ingredients to craft standard potions, it may be worth saving some of them to dissolve into liquids, then mix the liquids to craft stronger ingredients (elixirs), and then craft stronger potions using the elixirs. The process is lengthy and more involved than simply using an alchemy table, but the end result could certainly justify the effort.
+Elixirs can benefit any alchemist character who relies heavily on potions. Instead of using up all the available ingredients to craft standard potions, it may be worth saving some of them to dissolve into solutions, then mix the solutions to craft stronger ingredients (elixirs), and then craft stronger potions using the elixirs. The process is lengthy and more involved than simply using an alchemy table, but the end result could certainly justify the effort.
 
-One drawback when working with elixirs is the naming convention. All elixirs of the same rank have identical names, regardless of flavor, e.g. a Dilute Elixir with the "Fortify 1 hand" effect has the same name as a Dilute Elixir with the Spell power effect – both are called just “Dilute Elixir”. And like standard ingredients, the elixir’s effect remains hidden until the player ‘discovers’ them either by consuming it, or by using it to make a potion. This means that when you first start mixing liquids with an alembic, you won’t be able to see what kind of an elixir you are producing.
+One drawback when working with elixirs is the naming convention. All elixirs of the same rank have identical names, regardless of flavor, e.g. a Dilute Elixir with the "Fortify 1 hand" effect has the same name as a Dilute Elixir with the Spell power effect – both are called just “Dilute Elixir”. And like standard ingredients, the elixir’s effect remains hidden until the player ‘discovers’ them either by consuming it, or by using it to make a potion. This means that when you first start mixing solutions with an alembic, you won’t be able to see what kind of an elixir you are producing.
 
 ### Other Alembic recipes
 
 The _Mix Ingredients_ menu provides various other recipes for items such as inkwell, paper rolls, different kinds of salts (fire/frost/void), glow dust. The [Elixir cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)#other-recipes) had the specific recipes if you prefer not to discover them yourselves.
 
-For example, if you are short on paper rolls, you can make some by mixing a wood with one of these liquids Betayammis sa Haelia, Mer Garlas sa Haelia or Mora sa Haelia. for more info on  how to produce these items, refer to the Alchemy tab of the [cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)). 
+For example, if you are short on paper rolls, you can make some by mixing a wood with one of these solutions Betayammis sa Haelia, Mer Garlas sa Haelia or Mora sa Haelia. for more info on  how to produce these items, refer to the Alchemy tab of the [cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)). 
 
 ### Breaking down materials with an alembic or a cauldron
 
-Ingredients, potions _[v2.0]_, and enchanted artifacts can be dissolved into magical liquids.
+Ingredients, potions _[v2.0]_, and enchanted artifacts can be dissolved into magical solutions.
 
 The alembic can dissolve small quantities of materials - **up to 0.5 units of weight** at a time, e.g. a single potion, or 5 Blue Mountain flowers (0.1 each), or 25 Orange dartwings (0.02 each), etc.
 
@@ -262,3 +276,50 @@ Item categories which can be broken down inside of a couldron include the follow
 * Ores and ingots
 * Animal Skins / Bones
 
+## Why and How to use Spell Research Elixirs
+
+This Section was taken from the Wildlander Reddit Sub from a post written by Irondusk.
+
+<p>So, let's walk through how my character made some potions. My character is an artificer, and so uses Bound Sword almost exclusively. A good potion for them would then be a Fortify One-Handed, Fortify Conjuration, and Fortify Stamina potion. It'd be hard to find the right ingredients for that, but I can make that potion relatively easily through this system.</p>
+<p>&nbsp;</p>
+<p>First, I just experiment. I find some imbued and enchanted items in my journey, toss them into the cauldron, and see what I can make with the solutions that come out. I also make sure to use only 'Sa Haelia' solutions, as they're the weakest, and I won't lose much by experimenting with them.</p>
+<p>&nbsp;</p>
+<p>I mix some elixirs, taste them, and see their effects. I might not get the exact effects I want, but I might get close. For example, instead of a Fortify Conjuration elixir, I found out I made a Fortify Destruction elixir.</p>
+<details>
+    <summary>Spoiler</summary>
+    The Destruction Elixir is made through Maluta Magicka, Mer Ayammis, and Agea solutions. 
+</details>
+<p>Okay, so I look through the Alembic, and see there's 4 other Dilute Elixirs colored Blue that require the exact same solutions. They must all be Fortify Magic Skill Elixirs! I make them and finally find which one is Fortify Conjuration.</p>
+<p>I do the same with tracking down Fortify One Handed, and Fortify Stamina.</p>
+<p>&nbsp;</p>
+<p>Now that I know how to make the effects I want, I need to find the materials to mass produce the solutions needed. To get some clues, I analyze the solutions needed for the effects:</p>
+<details>
+    <summary>Spoiler</summary>
+	<p>Fortify Conjuration: Arcane Energy, Mortals, Magicka</p>
+	<p>Fortify One-Handed: Flesh, Mortals, Weapons</p>
+	<p>Fortify Stamina: Nature, Resistances, Stamina</p>
+</details>
+<p>&nbsp;</p>
+<p>Now that I know what the solutions mean, I can easily track down ingredients or clutter to produce them.</p>
+<p>Magicka and Stamina solutions are relatively easy to make, as I can salvage weak or unusable Magicka and Stamina potions or poisons with my Alembic to produce those solutions.</p>
+<p>Resistance solutions can likewise be made by salvaging weak or unusable Resistance Potions or Weakness Poisons. Or, I can always produce more of these with standard alchemy with the expressed purpose of turning them into solutions. Weakness to Poison is a very common effect, so I can make a few dozen of those poisons for this purpose.</p>
+<p>Nature is also very easy to make, as any plant matter produces it. So I can dissolve some bushels of the several hundred mountain flowers I've collected.</p>
+<p>The last 4: Flesh, Weapons, Mortals, and Arcane Energy, are a bit harder to get. They are common in the imbued/enchanted artifacts you find. Broken Weapons give Weapon Solutions, and Imbued Remains give Mortal essence, and occasionally Flesh essence depending on how...<em>recent</em> they were made. Arcane Energy is also a common secondary characteristic in these artifacts, particularly filled soul gem fragments. So, my character actually had a stockpile of these built up.</p>
+<p>But, if I wanted to ensure I had an avenue of producing more of these elements, a bit more experimentation, and some common sense, would produce the ingredients I needed to focus on collecting:</p>
+<details>
+    <summary>Spoiler</summary>
+<p>Fish Ingredients and Troll Fat give Flesh solutions</p>
+<p>Human Flesh, Hearts, and Skulls give Mortal solutions<p>
+<p>Claws, Antlers, and Tusks give Weapon solutions</p>
+<p>Hagraven Feathers and Claws, and Nirnroot give Arcane solutions</p>
+</details>
+
+<p>&nbsp;</p>
+<p>Now that I have all the solutions, and know where to get more, I can concentrate them to make the Elixirs of the strength I want. Let's say I want to go for the 2nd Highest concentration. Those would be Potent Elixirs, and they require Adonai solutions.</p>
+<p>If I was just making them all from Haelia solutions, it'd be a lot of work, as it takes 81 Haelia solutions to make one Adonai. But, I can be smart and use rarer but still plentiful ingredients to skip a few levels. For example, using Nightshade instead of Mountain Flowers produces Gravia (Tier 3) Nature solutions. Of which I only need 9 to make an Adonai. I can also make stronger Poisons of Weakness to Poison to make higher rank Resistance solutions, and stronger simple Magicka and Stamina potions to get higher Magicka and Stamina solutions.</p>
+<p>&nbsp;</p>
+<p>After all the work, my character, with a +12% Alchemy Necklace, and +120% Potion magnitude from perks, produced a potion that gives:</p>
+<p>+<strong>115</strong>% Damage with One Handed Weapons</p>
+<p>+<strong>145</strong>% Duration to Conjuration Spells</p>
+<p>+<strong>115</strong> Points of Stamina.</p>
+<p>And, now that I know how to acquire the ingredients for this potion, I can make a dozen more with relative ease. I'd say that's worth it, don't you think?</p>
