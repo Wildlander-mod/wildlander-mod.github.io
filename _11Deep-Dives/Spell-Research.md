@@ -308,10 +308,10 @@ This Section was taken from the Wildlander Reddit Sub from a post written by Iro
 <p>But, if I wanted to ensure I had an avenue of producing more of these elements, a bit more experimentation, and some common sense, would produce the ingredients I needed to focus on collecting:</p>
 <details>
     <summary>Spoiler</summary>
-<p>Fish Ingredients and Troll Fat give Flesh solutions</p>
-<p>Human Flesh, Hearts, and Skulls give Mortal solutions<p>
-<p>Claws, Antlers, and Tusks give Weapon solutions</p>
-<p>Hagraven Feathers and Claws, and Nirnroot give Arcane solutions</p>
+	<p>Fish Ingredients and Troll Fat give Flesh solutions</p>
+	<p>Human Flesh, Hearts, and Skulls give Mortal solutions<p>
+	<p>Claws, Antlers, and Tusks give Weapon solutions</p>
+	<p>Hagraven Feathers and Claws, and Nirnroot give Arcane solutions</p>
 </details>
 
 <p>&nbsp;</p>
