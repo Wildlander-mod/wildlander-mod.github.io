@@ -99,10 +99,21 @@ In the top right area of mod organizer are the shortcuts to run the various tool
 #### How to backup the original profile
 
 If it is your first time Modding the list. Then use the profiles dropdown and select 'manage'. From there make sure the profile "performance" or "standard" is highlighted (depending on which one you want to mod) and select Copy. Give the backup a name.
+	
+![image](https://user-images.githubusercontent.com/26418143/215202472-e996627a-664d-4230-a04a-0eb00fb78c98.png)
+	
 
 #### How to backup the Load Orders
 
-On the left side next to the "active" mod count there is a button which looks like a white box with a blue arrow pointing at it. This will create a backup of the modlist at the current point.
+On the left side next to the "active" mod count there is a button which looks like a white box with a blue arrow pointing at it. This will create a backup of the Left side at the current point.
+	
+![image](https://user-images.githubusercontent.com/26418143/215202535-0b276616-4826-4bac-9614-783292cd28ec.png)
+	
+On the Right side next to the "active" mod count there is a button which looks like a white box with a blue arrow pointing at it. This will create a backup of the Plugins side at the current point.
+	
+![image](https://user-images.githubusercontent.com/26418143/215202610-e6368e81-22d0-44be-827a-a361e88d6413.png)
+
+The yellow arrow button next to the backup (both sides) will allow you to restore from previous settings in case you make a oopsie.	
 
 ---
 
