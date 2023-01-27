@@ -6,7 +6,7 @@ description: Help i'm getting CTD's
 ---
 
 
-# Table of contents
+## Table of contents
 {: .no_toc }
 <details markdown="block">
   <summary>
@@ -37,13 +37,13 @@ If you have crashes which are not included in this list, they are repeatable and
 - The version of Wildlander - as shown in the bottom left of the launcher.
 
 
-# Crashing on Startup (before main menu appears)
+## Crashing on Startup (before main menu appears)
 
 Typically Caused by a corrupt plugin which is also master. Rerunning the wabbajack installer choosing "overwrite install" will generally resolve these issues.
 
 Note: If you are running a customized build - this can also be caused by a missing Dependency of a mod you installed.
 
-# Crashing on "new character"
+## Crashing on "new character"
 
 May generate crashes with codes SkyrimSE.exe+132BEF or SkyrimSE.exe+1BF04F
 
@@ -51,13 +51,13 @@ If you have played a character, exited to the menu and tried to create a new cha
 
 If it is your first character after a clean install, then it could be caused by a mod which didn't install correctly. Rerunning the wabbajack installer choosing "overwrite install" will generally resolve these issues.
 
-# Crashing while Playing your character
+## Crashing while Playing your character
 
-## Any Crash related to atidxx64.dll Or nvwgf2umx.dll
+### Any Crash related to atidxx64.dll Or nvwgf2umx.dll
 
 This crash is associated with your Graphics card drivers. Make sure they are up to date. If that doesn't work, try updating your windows drivers. Some have also said this can occur if you P.C doesn't fill out all the requirements needed to run Skyrim(P.C too weak-sauce). Only assume this after trying out all stated options.
 
-## Crash to Desktop on save when using the BitDefender Antivirus (No crash code, just an exception code).
+### Crash to Desktop on save when using the BitDefender Antivirus (No crash code, just an exception code).
 
 Crash-logs usually start with Unhandled native exception occurred at 0x7FF8C00004FA (other numbers may occur) ! But no "Skyrim.exe Crash code"
 
@@ -84,11 +84,11 @@ OR
 1. If you also have "Ransomware Remediation" on Add `Wildlander\game-files\ModOrganizer.exe`
 
 ---
-## Crash to Desktop when entering a building or on "finalising setup". Crash code fiss.dll+4481 or SkyrimSE.exe+D6DDDA. 
+### Crash to Desktop when entering a building or on "finalising setup". Crash code fiss.dll+4481 or SkyrimSE.exe+D6DDDA. 
 
 These Error codes have two causes
 
-### Out of memory crash. Caused by System Ram and page file overflowing.
+#### Out of memory crash. Caused by System Ram and page file overflowing.
 
 Bigger Skyrim mod lists need a lot of memory, and when there is not enough available it may fail allocating more. To fix this, you'll want to have a bigger page-file.
 
@@ -106,7 +106,7 @@ If you've never touched the page-file, try performing the following steps:
    b) Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB - the minimum can be left at the default.
    
    
-### This Error can also be caused by a corrupt NIF/DDS file. 
+#### This Error can also be caused by a corrupt NIF/DDS file. 
 
 If adding a page file doesn't resolve, then look through the logfiles' stack section for Meshes(nif files) or Textures(dds). The below log snippet shows a example of the type of file you are looking for. Search your PC for the file(s) shown. Delete the Mod folder that texture is located in, Important: It wont be in the folder in the log (e.g data\TEXTURES\) as these come from the virtual filesystem - you will need to search.  Then reinstall from Wabbajack - choosing overwrite installation.
 
@@ -122,7 +122,7 @@ If adding a page file doesn't resolve, then look through the logfiles' stack sec
 
 ---
 
-## When using a crossbow for the first time. Crash code SkyrimSE.exe+7BEC84  (only affects Version 1.0)
+### When using a crossbow for the first time. Crash code SkyrimSE.exe+7BEC84  (only affects Version 1.0)
 
 The crossbow mod needs to initialize and cannot do this while in combat causing the CTD. 
 
@@ -130,13 +130,13 @@ Fix: When you get your crossbow - equip and unsheathe it right away (unless you 
 
 ---
 
-## When mounting horse with a follower. SkyrimSE.exe+6441D0 (affects Version 1.1 - 1.1.5)
+### When mounting horse with a follower. SkyrimSE.exe+6441D0 (affects Version 1.1 - 1.1.5)
 
 In follower Live package MCM - there's a option which says followers summon horses - turn this off.
 
 ---
 
-## Entering Windpeak Inn in dawnstar while on quest  "Rise in the East".  SkyrimSE.exe+C28E26 (only affects Version 1.0)
+### Entering Windpeak Inn in dawnstar while on quest  "Rise in the East".  SkyrimSE.exe+C28E26 (only affects Version 1.0)
 
 NPC Irlof is causing the game to bomb out. Fortunately he is just a "flavor" NPC so can be safely deleted. 
 
@@ -149,18 +149,18 @@ disable
 ```
 
 ---
-## Crash on save with crash code (skse64_1_5_97.dll+5CE66)
+### Crash on save with crash code (skse64_1_5_97.dll+5CE66)
 
 Fortunately rare - but believed to be caused by saving while some form of head-tracking is in use (E.g Lock on in True directional movement).
 
 ---
-## Crash on trying to edit Iequip. SkyrimSE.exe+C28C8B
+### Crash on trying to edit Iequip. SkyrimSE.exe+C28C8B
 
 This is caused by a conflict between consoleutil and Iequip. If you want to edit the Iequip screen, then you need to Disable consoleutil in mod organiser, make your changes, then re-enable it afterwards
 
 ---
 
-## Crash on save with crash code making no reference to skyrimSe.exe (e.g Unhandled native exception occurred at 0x0 on thread) AKA the coffin crash
+### Crash on save with crash code making no reference to skyrimSe.exe (e.g Unhandled native exception occurred at 0x0 on thread) AKA the coffin crash
 
 Caused by a City NPC dying while wearing cold weather gear (e.g cloaks, gloves, facemasks). 
 
