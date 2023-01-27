@@ -57,7 +57,7 @@ If it is your first character after a clean install, then it could be caused by 
 
 This crash is associated with your Graphics card drivers. Make sure they are up to date. If that doesn't work, try updating your windows drivers. Some have also said this can occur if you P.C doesn't fill out all the requirements needed to run Skyrim(P.C too weak-sauce). Only assume this after trying out all stated options.
 
-## Crash to Desktop on save when using the BitDefender Antivirus.
+## Crash to Desktop on save when using the BitDefender Antivirus (No crash code, just an exception code).
 
 Crash-logs usually start with Unhandled native exception occurred at 0x7FF8C00004FA (other numbers may occur) ! But no "Skyrim.exe Crash code"
 
@@ -84,11 +84,11 @@ OR
 1. If you also have "Ransomware Remediation" on Add `Wildlander\game-files\ModOrganizer.exe`
 
 ---
-## Crash to Desktop when entering a building or on "finalising setup" Crash code fiss.dll+4481 or SkyrimSE.exe+D6DDDA. 
+## Crash to Desktop when entering a building or on "finalising setup". Crash code fiss.dll+4481 or SkyrimSE.exe+D6DDDA. 
 
 These Error codes have two causes
 
-### "out of memory" crash - Caused by System Ram and page file overflowing.
+### Out of memory crash. Caused by System Ram and page file overflowing.
 
 Bigger Skyrim mod lists need a lot of memory, and when there is not enough available it may fail allocating more. To fix this, you'll want to have a bigger page-file.
 
@@ -122,7 +122,7 @@ If adding a page file doesn't resolve, then look through the logfiles' stack sec
 
 ---
 
-## When using a crossbow for the first time Crash code SkyrimSE.exe+7BEC84  (only affects Version 1.0)
+## When using a crossbow for the first time. Crash code SkyrimSE.exe+7BEC84  (only affects Version 1.0)
 
 The crossbow mod needs to initialize and cannot do this while in combat causing the CTD. 
 
@@ -130,13 +130,13 @@ Fix: When you get your crossbow - equip and unsheathe it right away (unless you 
 
 ---
 
-## When mounting horse with a follower SkyrimSE.exe+6441D0 (affects Version 1.1 - 1.1.5)
+## When mounting horse with a follower. SkyrimSE.exe+6441D0 (affects Version 1.1 - 1.1.5)
 
 In follower Live package MCM - there's a option which says followers summon horses - turn this off.
 
 ---
 
-## Entering Windpeak Inn in dawnstar while on quest  "Rise in the East"  SkyrimSE.exe+C28E26 (only affects Version 1.0)
+## Entering Windpeak Inn in dawnstar while on quest  "Rise in the East".  SkyrimSE.exe+C28E26 (only affects Version 1.0)
 
 NPC Irlof is causing the game to bomb out. Fortunately he is just a "flavor" NPC so can be safely deleted. 
 
@@ -154,7 +154,7 @@ disable
 Fortunately rare - but believed to be caused by saving while some form of head-tracking is in use (E.g Lock on in True directional movement).
 
 ---
-## Crash on trying to edit Iequip SkyrimSE.exe+C28C8B
+## Crash on trying to edit Iequip. SkyrimSE.exe+C28C8B
 
 This is caused by a conflict between consoleutil and Iequip. If you want to edit the Iequip screen, then you need to Disable consoleutil in mod organiser, make your changes, then re-enable it afterwards
 
@@ -183,14 +183,14 @@ You will need to use a save cleaner and terminate the offending script (WIDeadBo
 
 ---
 
-### Noble with Bodyguard crash (SkyrimSE.exe+10B9F52) (only affects Version 1.0)
+### Noble with Bodyguard crash. (SkyrimSE.exe+10B9F52) (only affects Version 1.0)
 
 This crash is caused by a random roadside spawn of a NPC with a bodyguard. The Noble has a bad facegen. This bug will be fixed in 1.1.
 
 Fix: none, however avoiding the area where the crash occurred for 24 hours normally "rerolls" the encounter.
 
 ---
-### Honed Metal Random Crash (SkyrimSE.exe+DDB796)
+### Honed Metal Random Crash. (SkyrimSE.exe+DDB796)
 
 This we believe to be caused by scrolling though the honed metal blacksmith menu too quickly, causing Skyrim to fail to load item previews.
 
@@ -198,7 +198,7 @@ This typically happens around the Saddle's - we are not sure if this is the caus
 
 ---
 
-### Unidentified Random Crash (SkyrimSE.exe+C2A5F3)
+### Unidentified Random Crash. (SkyrimSE.exe+C2A5F3)
 
 This crash basically means something went wrong somewhere. Every report we have received is for different "relevant objects". It is not reproducible on demand.
 
@@ -206,7 +206,7 @@ Fix: reload and redo.
 
 ---
 
-### Collision Crash (SkyrimSE.exe+E014EC)
+### Collision Crash. (SkyrimSE.exe+E014EC)
 
 This crash basically means someone - when coming out of a building, collided with something.
 
@@ -216,7 +216,7 @@ Fix: If the crash occurs in Whiterun, then disable the scrubbing tub using conso
                                                                                                 
 ---    
 
-### Save corruption (SkyrimSE.exe+12DC5B)  
+### Save corruption. (SkyrimSE.exe+12DC5B)  
 
 This crash means your save has corrupted - there is no fix. Any save you make after will have the same issue. Typical cause is "save-scumming"
 
