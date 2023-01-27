@@ -6,6 +6,16 @@ has_children: false
 description:  How Do I mod Wildlander?
 ---
 
+# Table of contents
+<details markdown="block">
+  <summary>
+    Expand to view
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # A warning before proceeding
 
 Adding mods is generally considered a bad idea unless you know what you are doing. 
@@ -100,7 +110,7 @@ Close mod organizer - and use the launcher to start the game.
 
 ---
 
-## Can i add.....?
+## Can I add.....?
 
 How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
 
@@ -120,10 +130,9 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 * Suspicious city guards
 * Sunhelm
 * Frostfall
+* Requiem
 * Immersive Horses
 * Follower Live Package
-
-Finally Requiem is the core foundation of the list. It cannot be removed.
 
 ---
 
@@ -183,13 +192,13 @@ The bible for the tool is located <https://tes5edit.github.io/docs/>
 ## Creation Kit
 
 1) Download and install into steam Folder : https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/
-2) Download and install into steam Folde  https://www.nexusmods.com/skyrimspecialedition/mods/67096/
+2) Download and install into steam Folder : https://www.nexusmods.com/skyrimspecialedition/mods/67096/
 
-* Copy Papyrus Compiler folder from Steam skryim into Game-files\Stock game
-* Copy Creation kit.exe from Steam skryim into Game-files\Stock game  
-* Unzip <steam fold>\data\Scripts.zip into Game-files\Stock game\Data
+* Copy Papyrus Compiler folder from Steam skryim into <install folder>\Game-files\Stock game
+* Copy Creation kit.exe from Steam skryim into <install folder>\Game-files\Stock game  
+* Unzip <steam fold>\data\Scripts.zip into <install folder>\Game-files\Stock game\Data
 	
-Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip contents into Game-files\Stock game
+Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip contents into <install folder>\game-files\Stock game
 
 ## Papyrus Compiler SE
 	
