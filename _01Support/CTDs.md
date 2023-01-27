@@ -16,12 +16,10 @@ description: Help i'm getting CTD's
 {:toc}
 </details>
 
-
-# Crashing while Playing
-
-Skyrim with Wildlander creates crash-logs. You can access these crash-logs by using the button on the advanced page of the launcher. 
+Skyrim with Wildlander creates crash logs. You can access these crash logs by using the button on the advanced page of the launcher. Important - If your game is freezing rather than crashing, then the cause of the freeze is most likely to be a ["out of memory" error](https://wiki.wildlandermod.com/01Support/CTDs/#crash-to-desktop-when-entering-a-building-or-on-finalising-setup-error-code-fissdll4481-or-skyrimseexed6ddda)
 
 The first line of the Crash indicates the Crash code - and the process which crashes. E.g 
+
 * Unhandled native exception occurred at 0x7FFEF914CE66 (skse64_1_5_97.dll+5CE66) on thread 7360!
 * Unhandled native exception occurred at 0x7FF6C59F2BEF (SkyrimSE.exe+132BEF) on thread 1552!
 * Unhandled native exception occurred at 0x7FFD09DC23A0 (atidxx64.dll+523A0) on thread 6944!
@@ -29,8 +27,30 @@ The first line of the Crash indicates the Crash code - and the process which cra
 
 ![image](https://user-images.githubusercontent.com/26418143/184343479-0bbafd85-3e81-4411-8c0b-dff9620de663.png)
 
+The brackets are generally the most important line of the crash code E.g (SkyrimSE.exe+132BEF). you should search this page for this code. 
 
-If your crash isn't listed here - you can raise a issue on this git-hub attaching your crash log.
+If you have crashes which are not included in this list, they are repeatable and you are running an **unedited list** - you can copy your crash log to pastebin, and create a [bug report](https://wiki.wildlandermod.com/16OtherResources/bugreport/). We require - minimum - when filling out this form all of the below information. The more information you can give us - the easier it will be to track down.
+
+- What you were doing when the crashes occurred.
+- A Link to your pastebin of the full crash log.
+- The version of Wildlander - as shown in the bottom left of the launcher.
+
+
+# Crashing on Startup (before main menu appears)
+
+Typically Caused by a corrupt plugin which is also master. Rerunning the wabbajack installer choosing "overwrite install" will generally resolve these issues.
+
+Note: If you are running a customized build - this can also be caused by a missing Dependency of a mod you installed.
+
+# Crashing on "new character"
+
+May generate crashes with codes SkyrimSE.exe+132BEF or SkyrimSE.exe+1BF04F
+
+If you have played a character, exited to the menu and tried to create a new character. This is expected behavior. 
+
+If it is your first character after a clean install, then it could be caused by a mod which didn't install correctly. Rerunning the wabbajack installer choosing "overwrite install" will generally resolve these issues.
+
+# Crashing while Playing your character
 
 ## Any Crash related to atidxx64.dll Or nvwgf2umx.dll
 
@@ -63,9 +83,11 @@ OR
 1. If you also have "Ransomware Remediation" on Add `Wildlander\game-files\ModOrganizer.exe`
 
 ---
-## Crash to Desktop when entering a building or on "finalising setup" Error code fiss.dll+4481 or SkyrimSE.exe+D6DDDA (Stack: BSResource::anonymous_namespace::LooseFileStream* OR BSResource::ArchiveStream* OR BSResource::CompressedArchiveStream** mentioned somewhere)
+## Crash to Desktop when entering a building or on "finalising setup" Crash code fiss.dll+4481 or SkyrimSE.exe+D6DDDA. 
 
-Generally caused by your Page-file running out.
+These Error codes have two causes
+
+### Caused by System Ram and page file overflowing.
 
 Bigger Skyrim mod lists need a lot of memory, and when there is not enough available it may fail allocating more. To fix this, you'll want to have a bigger page-file.
 
@@ -83,7 +105,22 @@ If you've never touched the page-file, try performing the following steps:
    b) Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB.
    
    
-This Error can also be caused by a corrupt nif/DDS file. If adding a page file doesn't resolve, then look through the logfiles' stack section for Meshes or Textures. Search your PC for that file. Delete the Mod that texture is located in and the zip file for the mod that the file came from. Then reinstall from Wabbajack.
+### This Error can also be caused by a corrupt nif/DDS file. 
+
+If adding a page file doesn't resolve, then look through the logfiles' stack section for Meshes(nif files) or Textures(dds). The below log snippet shows a example of the type of file you are looking for. Search your PC for the file(s) shown. Delete the Mod folder that texture is located in Then reinstall from Wabbajack - choosing overwrite installation.
+
+{: .logfile}
+>  [SP+200]  0x1EC0CCCD990      (BSResource::anonymous_namespace::LooseFileStream*)
+>  [SP+208]  0x1EC00000002      (void*)
+>  [SP+210]  0x1EC0CCD3418      (char*) "data\TEXTURES\plants\shrub01half_n.dds"
+>  [SP+218]  0x1EC0CCD3458      (char*) "data\TEXTURES\plants\shrub01half.dds"
+>  [SP+220]  0xFFFFFFFF00000000 (i64):[-4294967296]
+>  [SP+228]  0x0                (NULL)
+>  [SP+230]  0x1EC0CCCD990      (BSResource::anonymous_namespace::LooseFileStream*)
+>  [SP+238]  0x1EC0CCD3458      (char*) "data\TEXTURES\plants\shrub01half.dds"
+>  [SP+240]  0xFFFFFFFFFFFFFFFE (i64):[-2]
+>  [SP+248]  0x0                (NULL)
+>  [SP+250]  0x10               (u8):[16]
 
 ---
 
@@ -168,6 +205,14 @@ This typically happens around the Saddle's - we are not sure if this is the caus
 This crash basically means something went wrong somewhere. Every report we have received is for different "relevant objects". It is not reproducible on demand.
 
 Fix: reload and redo.
+
+---
+
+### Collision Crash (SkyrimSE.exe+E014EC)
+
+Generally caused by a NPC Loading inside of a static object such as a scrubbing tub. (example at the rear of arcadia's there are two farmhouses which have a Scrubbing tub near them - NPC's leaving the house occasionally spawn inside of the scrubtub, instead of outside of the door) 
+
+Fix: If the crash occurs in Whiterun, then disable the scrubbing tub using console, For all other locations, please raise a bug report.
                                                                                                 
 ---    
 

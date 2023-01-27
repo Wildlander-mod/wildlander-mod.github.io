@@ -51,11 +51,11 @@ There are a lot different kinds of liquids - one for each elemental archetype. T
 Name | Archtype | Translation
 --|--|--
 Agea | Magicka |  (n.) lore, knowledge [Ayleid]
-Agea Arden | Resistances | literal translation "knowledge savior" [Ayleid (see Arden for source)]
+Agea Arden | Resistances | literal translation "knowledge shield" [Ayleid and Dwemeri]
 Aka ry Relleis | Time | literal translation "dragon of streams" [Aldmeri and Ayleid]
 Altadoon | Weapons | (N.) weapon. [Ehlnofex]
 Altadoon ry Bet | Diseases | Literally translated to 'Weapon as Beast', ie a weapon that's alive but non-sentient, ie a disease. [Ehlnofex]
-Arden | Sheild | Most likely to come from Arden-Sul. He was the first Duke of the Shivering Isles, said to be "the greatest Duke of the ages" and "a savior."
+Arden | Sheild | From vvarden- - (n.) strong shield. (vv = Strong, Arden = shield) [Dwemeri]
 Ayammis | Life |  (n.) life. [Ayleid]
 Ayammis Malata | Souls | literal translation "Life truth" [Ayleid]
 Bal | Earth |  (n.) stone. [Ehlnofex]
