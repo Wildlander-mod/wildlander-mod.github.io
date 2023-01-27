@@ -1,9 +1,9 @@
 ---
 layout: default
-title: How Do I mod Wildlander?
+title: How Do I Add Mods?
 has_toc: false
-has_children: false
-description:  How Do I mod Wildlander?
+has_children: true
+description: Customization Guide
 ---
 
 # Table of contents

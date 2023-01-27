@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Launcher and CTD's
+title: Help i'm getting CTD's
 nav_order: 6
-description: Launcher Issues and CTD's
+description: Help i'm getting CTD's
 ---
 
 
@@ -16,12 +16,6 @@ description: Launcher Issues and CTD's
 {:toc}
 </details>
 
-# Launcher Issues
-
-{% include Wabbajack_AV.md %}
-
-
-{% include Wabbajack_Launcher.md %}
 
 # Crashing while Playing
 
