@@ -21,6 +21,10 @@ This system means
 * Power attacks drain a lot of stamina
 * Holding a bow with arrow ready to fire - you guessed it drains stamina. 
 
+If your stamina inst regenerating - check active effects. the following also affect your base stamina and regeneration
+* Diseases, If you have one - cure it.
+* Training fatigue, Sleep it off.
+
 As you gain more perks in armor - the stamina drain of some of these things reduce. Obviously, raising your base stamina will also increase your stamina regen so that these things become unnoticeable at higher levels.
 
 ## For Melee characters  
@@ -43,11 +47,11 @@ So don't sprint around like Usain Bolt, Dont jump around like a rabbit, don't wa
 
 There are tools in order to help you manage your stamina at lower level :
 
-```
-* Stews - 2 hours of stamina regeneration. Keep on on you at all times. (Apple Cabbage Stew for a quick and cheap to obtain , 1 Salt, 1 Red Apple, 1 Cabbage, 1 Bottled Water)
+* Stews : 2 hours of stamina regeneration. Keep on on you at all times. (Apple Cabbage Stew for a quick and cheap to obtain , 1 Salt, 1 Red Apple, 1 Cabbage, 1 Bottled Water)
 * Bestial stew : 3 stamina / sec for strong stomach race. It's a huge advantage at low levels.
 * Stamina Potion are pretty rare. But easy to brew if you have alchemy.
-* Raw Ingredients : some of them can be eat in combat for 1stam/sec or 2stam/sec
-* Engraved bones (hircine) give passive Regen
-* Enchantments! Fortify Stamina regen is your best friend at low levels.
-```
+* Raw Ingredients: some of them can be eat in combat for 1stam/sec or 2stam/sec
+* Cooked Meat/Veggies: Eat out of combat for 1stam/sec or 2stam/sec regeneration
+* Engraved bones (Hircine): gives passive stammina Regen for the duration. 
+* Enchantments: Fortify Stamina regen is your best friend at low levels.
+
