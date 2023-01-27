@@ -1,6 +1,6 @@
 
 ----------
-## Trampoline Error
+### Trampoline Error
 
 ![image](..\..\Assets\TrampolineError.png)
 
@@ -11,7 +11,7 @@ The only fix for this issue is to sever the link between OneDrive and your "my d
 The following guide will assist you in the method to do so. <a href="https://steamcommunity.com/app/489830/discussions/0/2263565217515804221/" target="_blank" rel="noopener noreferrer">Guide <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ----------
-## Error launching game Error: Unsupported type of line: [1] Error OR TypeError: Cannot set properties of undefined (setting 'lock_gui') 
+### Error launching game Error: Unsupported type of line: [1] Error OR TypeError: Cannot set properties of undefined (setting 'lock_gui') 
 
 This means that Mod Organizer Crashed during Boot up or Shutdown and wiped its INI files. A reinstall (overwrite) using Wabbajack of the list will resolve this issue.
 
@@ -23,7 +23,7 @@ This means that Mod Organizer Crashed during Boot up or Shutdown and wiped its I
 An issue has been raised with launcher team to implement a backup and restore function for this file to prevent user's having to perform this action.
 
 ----------
-## Get-cimInstance Error on launch of game
+### Get-cimInstance Error on launch of game
 ![image](https://user-images.githubusercontent.com/26418143/162614762-bc1ea263-2e61-4e68-9669-c580f157dac8.png)
 
 This error occurs when the winmgmt service is corrupt or crashed. It can be simply repaired by
@@ -38,7 +38,7 @@ Winmgmt /verifyrepository should say it's consistent.
 ```
 
 ----------
-## A JavaScript error in spawning the main process
+### A JavaScript error in spawning the main process
 
 ![image](https://user-images.githubusercontent.com/26418143/166228493-43f26798-a7d4-4d04-84e1-e1a8a5ce0c47.png)
 
@@ -51,7 +51,7 @@ Path should contain an entry for your equivalent of `C:\windows\System32\Windows
 PSmodulePath should contain an entry for `%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules` and `%ProgramFiles%\WindowsPowerShell\Modules`
 
 ----------
-## Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
+### Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
 
 [![image of SKSE Error](https://camo.githubusercontent.com/d1e2036affcaac1d9ca807db293176917ba048b5d0a53ad07c718ddef81618ad/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3334383537393439353533373830333237342f3738343630333430313939353638313739342f436170747572652e504e47)](https://camo.githubusercontent.com/d1e2036affcaac1d9ca807db293176917ba048b5d0a53ad07c718ddef81618ad/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3334383537393439353533373830333237342f3738343630333430313939353638313739342f436170747572652e504e47)
 
@@ -62,7 +62,7 @@ Ensure the following:
 1.  Restore missing files from Mod Organizer Zip file in your Wildlander\download directory if you cannot find them in the virus vault
 
 ----
-##  Launcher locks for Skyrimse.exe and immediately unlocks (game doesn't start)
+###  Launcher locks for Skyrimse.exe and immediately unlocks (game doesn't start)
 
 V1.0 issue only.
 
@@ -84,7 +84,7 @@ If you have them - repair them anyway. Make sure you reboot.
 
 ----
 
-## Update/Install of launcher is Hanging  
+### Update/Install of launcher is Hanging  
 
 Firstly—try a PC reboot, it's possible that one of the files we use is locked by a crashed session of Wildlander.
 

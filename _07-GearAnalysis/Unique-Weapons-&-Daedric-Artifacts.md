@@ -7,11 +7,16 @@ has_children: false
 
 ---
 
-# Unique Weapons and Artifacts
+## Index
 {: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+<details markdown="block">
+	<summary>
+	   Expand to view
+	</summary>
+	{: .text-delta }
+	1. TOC
+	  {:toc}
+</details>
 
 # Daedric Artifacts 
 

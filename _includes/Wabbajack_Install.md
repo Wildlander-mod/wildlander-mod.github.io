@@ -1,44 +1,44 @@
 
-## Why is the list showing "in maintenance on wabbajack"
+### Why is the list showing "in maintenance on wabbajack"
 
-### What does it mean?
+#### What does it mean?
 
 When a mod is updated, hidden or taken offline, any lists using that mod will automatically be put into maintenance mode to prevent users from downloading a incomplete install.
 
 If Skyrim updates - this will also force the list into maintenance as it will need to be checked and recompiled using the new source files. 
 
-### How long does maintenance last?
+#### How long does maintenance last?
 As long as necessary. No one can give you a ETA - It will take as long as it takes. Please don't give our support staff a migraine asking for a update.
 
 On discord, You can subscribe to the !notifyme bot command to be notified when it is released. On Reddit, Dylan will post a official post to say when it is available.
 
-### Can I download the list anyway?
+#### Can I download the list anyway?
 
 No - Forcing the list into Maintenance mode is a last resort. 
 
 It will either resolve itself when the mod causing the issue is unhidden, or for Skyrim updates - need Dylan's intervention to resolve.
 
-### Can I download the other mods in the list?
+#### Can I download the other mods in the list?
 
 If you want to do it manually via the list manifest on the Wabbajack website, sure. Automatically, no.
 
-### My install was in progress, Can't someone just give me the missing file(s)?
+#### My install was in progress, Can't someone just give me the missing file(s)?
 
 No, Wildlander respects all mod author permissions. If a mod or file has been taken down, and  has not allowed redistribution from another source, we will not provide you a link. 
 
 Asking for one anyway is a violation of rules. (Even if you ask staff in a private chat) Sharing a link "you found" or reuploading a file is strictly prohibited unless you can prove you have permission to do so.
 
-### Can't I just manually install / Is there a "Manual Installation" guide?
+#### Can't I just manually install / Is there a "Manual Installation" guide?
 
 Not any more - As wabbajack is a more reliable install method which requires little user interactions and produces a consistent install every time - the manual installation guide was removed.
 
-### Can I edit the Wabbajack file so it installs anyway?
+#### Can I edit the Wabbajack file so it installs anyway?
 
 No. Wabbajack files are compiled and cannot be manually edited. 
 
 ---------
 
-## Wabbajack browser not loading anything on the login to Nexus Page.
+### Wabbajack browser not loading anything on the login to Nexus Page.
 
 Please install WebView2 by using the installer from this link: <a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/" target="_blank" rel="noopener noreferrer">Evergreen Standalone Installer <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
@@ -46,7 +46,7 @@ If you already have it - uninstall and reinstall
 
 ----
 
-## Wabbajack Finds no results.
+### Wabbajack Finds no results.
 
 Typically caused by network management software "Killer control panel" which comes pre-installed with some laptops and PC's. (It may also be called Killer Intelligence Center or it's a K icon in your system tray)
 
@@ -58,12 +58,12 @@ To resolve, disable the Prioritization Center and  Auto Bandwidth. Then restart 
 
 ----
 
-## Wabbajack fails to start with a "Unknown Error".
+### Wabbajack fails to start with a "Unknown Error".
 
 Delete Wabbajack.exe, Redownload from <a href="http:\\Wabbajack.org" target="_blank" rel="noopener noreferrer">Wabbajack <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>.
 
 ----
-## Wabbajack fails to start "You Cannot run as a Admin".
+### Wabbajack fails to start "You Cannot run as a Admin".
 
 Wabbajack cannot be run as an Admin. 
 
@@ -73,7 +73,7 @@ If you are not manually running the game as an Admin, check your windows UAC set
 
 Reboot your PC after making this change.
 
-### If you have installed a custom version of windows and cannot turn on UAC (or you have and it doesnt work)
+#### If you have installed a custom version of windows and cannot turn on UAC (or you have and it doesnt work)
 
 
 1. Create a basic user account (Accounts -> Other users then add other user, click on Users, more actions and create new user.
@@ -83,7 +83,7 @@ Reboot your PC after making this change.
 
 ---------
 
-## Do I have to install both game and downloads to same drive
+### Do I have to install both game and downloads to same drive
 
 No, you can have them on separate drives - just make sure you point your Download location to where you want the zip files to live.
 
@@ -91,32 +91,32 @@ you can even share download folders between multiple modlists.
 
 ----------
 
-## How much drive space do I need
+### How much drive space do I need
 
 Around 135gb
 
 ----------
 
-## How many mods do I need to Download?
+### How many mods do I need to Download?
 
 521
 
 ----------
 
-## Do I need to download everything if I plan on playing potato 
+### Do I need to download everything if I plan on playing potato 
 
 Yes - Wabbajack wont install unless it has all mods, creating a list for potato users only is not easy to do and would require a completely separate Wabbajack Modlist.
 
 ----------
 
 
-## Can I just download the Graphics only
+### Can I just download the Graphics only
 
 No, again this would be a completely separate list which would need its own separate Wabbajack Modlist.
 
 ----------
 
-## Wabbajack fails to download mods or hangs for a long time.
+### Wabbajack fails to download mods or hangs for a long time.
 
 Check Task manager, if Wabbajack is not using any network resources, its likely the download has failed/timed out - then please use the suggestions below.
 
@@ -149,7 +149,7 @@ For any failed mods which are not mentioned above Search the following link for 
 
 ----------
 
-## Getting a download failed on Original Skyrim files
+### Getting a download failed on Original Skyrim files
 
 If you get the following error - Make sure Steam is installed in English, validate your game files in Steam. Steam > Right Click > Properties > Language tab
 - Unable to download Skyrim_Default.ini
@@ -186,7 +186,7 @@ If Skyrim has updated recently - then it might require the list to be recompiled
 
 ----------
 
-## Wabbajack wont download the Wildlander installer.
+### Wabbajack wont download the Wildlander installer.
 
 This is typically caused by a mis-configured firewall between your PC and the Wabbajack build server.
 

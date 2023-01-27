@@ -1,5 +1,5 @@
 
-## Wildlander and Antiviruses
+### Wildlander and Antiviruses
 
 Several Anti-virus programs are known to cause issues with launching list, Some cause issues with Wabbajack itself, others with running the list once installed.
 
@@ -79,15 +79,16 @@ Is known to flag launcher as a false positive for spy-ware. Our launcher is open
  1. you should now be able to launch using the launcher.
  1. Shutdown Avast running whenever you want to play
 
+---
 
-## What do the Dropdowns mean
+### What do the Dropdowns mean
 
-### Modlist Drop down
+#### Modlist Drop down
 
 * Standard- Everything on.
 * Performance - All graphics mods turned off.
 
-### Quality Drop down
+#### Quality Drop down
 
 These are your standard Skyrim parameters. The Graphics dropdown determines the quality of basic graphical elements, such as the draw distance of grass and shadows, the number of effects visible at once, and the quality of distant objects. These elements use a mix of CPU and GPU.
 
@@ -97,7 +98,7 @@ These are your standard Skyrim parameters. The Graphics dropdown determines the 
 * Low - No grass, no shadows, but still the full mod package.
 * Potato - Stripped down graphics for PC's which were built when oldrim was first released.
 
-### Shaders Drop down
+#### Shaders Drop down
 
 These control the level of ENB Shaders being applied. The Shaders' dropdown determines the quality of post-processing effects, such as environment lighting, particle lighting, ambient occlusion, sun rays, and water effects. These elements are very heavy on the GPU.
 

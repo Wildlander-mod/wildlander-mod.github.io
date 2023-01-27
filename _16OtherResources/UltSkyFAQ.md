@@ -5,29 +5,30 @@ description: Ultimate Skyrim - Frequently Asked Questions
 parent: Ultimate Skyrim
 ---
 	
-# Table of contents
+## Table of contents
+{: .no_toc }
 <details markdown="block">
-  <summary>
-    Expand to view
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
+	<summary>
+	   Expand to view
+	</summary>
+	{: .text-delta }
+	1. TOC
+	  {:toc}
 </details>
 
 
 ## Does this mod pack support SSE?
 
-#### Does this mod pack support SSE/AE?
+### Does this mod pack support SSE/AE?
 Ultimate Skyrim is only for Legal copies of Skyrim Classic Edition w/ All DLC’s, otherwise known as Skyrim Legendary Edition.
 
-#### Where can I buy legendary Edition?
+### Where can I buy legendary Edition?
 You can buy Legendary Edition from one of the places linked in Wabbajack's Reddit post:
 
 [Wabbajack:How to get Skyrim LE in 2021](https://www.reddit.com/r/wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/)
 
 ---
-# How Do I Update to the current Version.
+## How Do I Update to the current Version.
 Please note the 4.3 is not save game compatible. Updating will require a fresh game with new MCM setup.
 
 If Updating from a Older version than 4.0.7 - then remove your old Ultsky install folder completely -  follow the install instructions from [here](https://www.ultimateskyrim.com/ultsky-install)
@@ -38,7 +39,7 @@ Then you follow the install guide from step 2.3 [here](https://www.ultimateskyri
 	
 ---
 	
-# How do I Uninstall?
+## How do I Uninstall?
 	
 Were sorry to see you leave!
 	
@@ -47,9 +48,9 @@ Removing Ultsky is a simple matter of removing the files from your steam Skyrim 
 ![image](https://user-images.githubusercontent.com/26418143/124308354-1674dc00-db61-11eb-92d5-11ff65d4e601.png)
 	
 ---
-# **Wabbajack Issues**
+## **Wabbajack Issues**
 
-## Wabbajack Fails to install with GameFileSourceDownloader Error
+### Wabbajack Fails to install with GameFileSourceDownloader Error
 If you have Wabbajack Fail with the following messages
 ![Image of GameFileSourceDownloader error](https://cdn.discordapp.com/attachments/348579495537803274/759424545957871616/unknown.png)
 
@@ -73,7 +74,7 @@ There are Four Known causes
 After doing the solution 2,3  or 4, you will need to restart Wabbajack.
 
 ---
-## Wabbajack Fails to download mods or hangs for a long time.
+### Wabbajack Fails to download mods or hangs for a long time.
 Sometimes Wabbajack gets stuck downloading.
 
 1) Close and restart Wabbajack - Start the Ultimate Skyrim install process again, entering same criteria as originally. Wabbajack will the CRC check your existing files and will normally resume where it failed & complete the install without any further intervention.
@@ -84,9 +85,9 @@ Sometimes Wabbajack gets stuck downloading.
 3) If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Ultimate Skyrim is not affiliated with and does not endorse any specific VPN service. We does not provide user support for VPN services. Use at your own discretion.)
 
 ---
-# **Current Version Issues**
+## **Current Version Issues**
 
-## Can't Launch Ultimate Skyrim Bat file
+### Can't Launch Ultimate Skyrim Bat file
 Symptom: a screen flashes up for a half a second before disappearing. The launcher doesn't Start *at all* 
 	
 Cause: Windows UAC is preventing running of this program. 
@@ -100,12 +101,12 @@ Work Around:
 Note: If the launcher does start but crashes after clicking "play" please see this FAQ entry [Game Hard CTD on Splashscreen](#game-hard-CTD-on-SplashScreen)
 
 ---
-## Can I see a list of Known issues?
+### Can I see a list of Known issues?
 
 Sure - Here's a [link](https://docs.google.com/document/d/10jxUuBhmnLne5e4lb7ifAz9rByrTy_wEOpojmItyScM/preview)
 
 ---
-## What do the presets mean?
+### What do the presets mean?
 
 High   - Intended for top end PC, grass is visible from maximum distance Skyrim is capable of drawing (equivalent to Ultra)
 
@@ -114,15 +115,15 @@ Medium - Intended for Mid-range PC's - grass is visible from approx 10 meters(eq
 Low    - Intended for minimum specification PC - grass is only drawn literally a meter away - may have odd visual effects during heavy snow 
 
 ---
-# **Install Questions**
+## **Install Questions**
 
-## How do i setup a steam library outside of program files
+### How do i setup a steam library outside of program files
 
 The wabbajack team has a handy utility to help you do that [here](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)
 
 ---
 
-## I’m missing master for HighResTexturePack01-03 or My game CTD after Skyrim Logo
+### I’m missing master for HighResTexturePack01-03 or My game CTD after Skyrim Logo
 
 If you are experiencing a missing master for HighResTexturePack01-03 the simplest fix is to download and enable the High Res DLC from https://store.steampowered.com/app/202485/Skyrim_High_Resolution_Texture_Pack_Free_DLC/
 
@@ -132,7 +133,7 @@ If you have issues viewing the DL, try this work around https://www.reddit.com/r
 
 ---
 
-## Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
+### Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
 
 ![image of SKSE Error](https://cdn.discordapp.com/attachments/348579495537803274/784603401995681794/Capture.PNG)
 
@@ -146,7 +147,7 @@ Ensure the following:
 
 ---
 
-## Game Hard CTD on Splashscreen
+### Game Hard CTD on Splashscreen
 
 Note: You may get a error messages about missing d3dx9_43.dll.
 
@@ -169,7 +170,7 @@ Other things which can cause this issue:-
 
 ---
 
-## Skyrim has failed to allocate memory! or Possibly running out of memory
+### Skyrim has failed to allocate memory! or Possibly running out of memory
 
 If your game CTDs with an error from Crash Fixes saying "Skyrim has failed to allocate memory! Possibly running out of memory...", or it crashes during/after the character creation screen, the most likely cause is a bad ENB installation.
 
@@ -177,8 +178,8 @@ Open  “enblocal.ini” in your Skyrfilm folder and then configure it according
 
 ---
 
-# **Customization Questions**
-## Can someone help with my load order?
+## **Customization Questions**
+### Can someone help with my load order?
 
 The Ultimate Skyrim Support Team cannot assist with this issue as there are too many variables. 
 
@@ -204,19 +205,19 @@ Finally if you had profile specific saves - recreated the saves directory and re
 
 ---
 
-## Mod X has been updated, can I install that?
+### Mod X has been updated, can I install that?
 
 No, For stability reasons - only the versions installed by Wabbajack are supported.
 
 ---
 
-## Can I remove/disable mod X?
+### Can I remove/disable mod X?
 
 Many mods have a Mod Configuration Menu (MCM) where they can be turned off. Also, some mods are considered optional, so they can be disabled or uninstalled in Mod Organizer. If you remove an optional mod that has an esp plugin, you will need to run the Reqtificator and possibly Automatic Variants patcher. 
 
 ---
 
-## Can I Add Additional mods?
+### Can I Add Additional mods?
 
 For a list of known mods which have Issues/Incompatibilities/ please click [here](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#known-mod-issuesincompatibilities)
 
@@ -230,19 +231,19 @@ Please visit [this page](https://wiki.wildlandermod.com/16OtherResources/UltskyM
 
 ---
 
-## Does This mod pack Support other languages?
+### Does This mod pack Support other languages?
 
 No and if you try then SKSE crashes from Mod Organizer. You will need to install English Skyrim to play this mod pack.
 
 ---
 
-## Can I backup and restore Ultimate Skyrim
+### Can I backup and restore Ultimate Skyrim
 
 Yes, please follow this [guide](https://github.com/Wildlander-mod/Support/blob/master/Docs/Backup.md)
 
 
 ---
-## I want to setup rodericktech guide for fancy graphics - where are the patcher instructions.
+### I want to setup rodericktech guide for fancy graphics - where are the patcher instructions.
 
 Reqtificator is located [here](#how-do-i-install-the-reqtificator)
 
@@ -250,7 +251,7 @@ Other Patchers(AV, Dyndolod ect) are located [here](https://wiki.wildlandermod.c
 
 ---
 
-## My PC can't handle the ENB - Can I reduce the Settings?
+### My PC can't handle the ENB - Can I reduce the Settings?
 
 If you prefer to keep Dylan's lighting preferences - then open up ENBseries.ini in you Steam Skyrim folder and change the effects section to match the following
 
@@ -260,7 +261,7 @@ If on the other hand you want absolute best performance, but retaining the ENB w
 
 ---
 
-## It's too dark at night, can I make it brighter?
+### It's too dark at night, can I make it brighter?
 
 for regular vision
 
@@ -280,7 +281,7 @@ For Nighteye Settings
 
 ---
 
-## My PC Can't handle the ENB Graphics even on low settings - Can I remove it?
+### My PC Can't handle the ENB Graphics even on low settings - Can I remove it?
 
 Skyrim can't handle modern PC's RAM capacity So if you PC has more than 4GB you cannot disable the ENB entirely - so the most you are able to do is deactivate the ENB graphics and just use the memory boost (ENBboost) aspects.
 
@@ -295,8 +296,8 @@ Delete ENBseries folder and ENBseries.ini from your Steam Skyrim folder
 
 ---
 
-# **Reqtificator Questions**
-## How do i Install the Reqtificator?
+## **Reqtificator Questions**
+### How do i Install the Reqtificator?
 Firstly make sure you have Java installed in Program Files. the version in Program Files(x86) does not work. If you don't have it - you can download it [here](https://java.com/en/download/manual.jsp) The version you want is Windows Offline (64-bit).
 
 after checking that -
@@ -313,7 +314,7 @@ Once Reqtificator is running - Leave all options at defaults, Simply hit the pat
 
 ---
 
-## There was no consistency file found
+### There was no consistency file found
 
 ![Image of consistency error](https://cdn.discordapp.com/attachments/348579495537803274/732081869386022942/unknown.png)
 
@@ -321,7 +322,7 @@ Select “Yes, this is a new game.”
 
 ---
 
-## Automatically allocating memory failed
+### Automatically allocating memory failed
 
 ![Image of memory error](https://cdn.discordapp.com/attachments/565772668318646272/740336349202087958/unknown.png)
 
@@ -329,7 +330,7 @@ Your binary path for java is wrong. The Reqtificator error message tells you tha
 
 ---
 
-## It says I am using more than 100 plugins
+### It says I am using more than 100 plugins
 
 ![Image of more than 100 plugins error](https://media.discordapp.net/attachments/348579495537803274/731601149848977518/unknown.png)
 
@@ -337,15 +338,15 @@ Select ignore from now on
 
 ---
 
-## The Reqtificator won't start. When I press "Run", MO2 locks up, then unlocks and nothing happens; or MO2 returns a "Directory name is invalid" error.
+### The Reqtificator won't start. When I press "Run", MO2 locks up, then unlocks and nothing happens; or MO2 returns a "Directory name is invalid" error.
 
 In most cases this is due to a typo in the folder path for the Requiem Skyproc patcher. The path should be: **\<path to your Skyrim installation>\Data\SkyProc Patchers\Requiem**. Many users omit the 's' at the end of "SkyProc Patchers" when creating the folder. Also confirm that the "Start in" path in your MO2 Reqtificator configuration matches the path.
 
 ---
 
-# **MCM Questions**
+## **MCM Questions**
 
-## What does the MCM guide mean about template saves?
+### What does the MCM guide mean about template saves?
 
 There is unfortunately no way to Copy MCM settings over to a new character for every mod. 
 
@@ -358,7 +359,7 @@ Disclaimer
 *Certain elements of a game are *baked* into Skyrim the *exact moment* Start New Game is selected. These types of elements are; Locations of certain items*
 
 ---
-## iNeeds MCM page is blank Or Requiem Cannot be added to a existing save.
+### iNeeds MCM page is blank Or Requiem Cannot be added to a existing save.
 
 This happens when you start MCM config before the mod has finished initialising - indicated by scrolling messages in the top left of your screen. 
 
@@ -372,10 +373,10 @@ There is no way to recover you game once this occurs.
 ----
 
 
-# **Gameplay Questions**
+## **Gameplay Questions**
 
 ---
-## Why are auto-saves disabled or quicksaves not recommended for use in Ultsky
+### Why are auto-saves disabled or quicksaves not recommended for use in Ultsky
 
 The problem in a heavily modded set up is that it has a ton of script heavy mods. Sometimes a script will get paused for saving, and that script won't be able to recover properly from it's paused state. This leads to a corrupted save. Another possibility is that your computer is already under so much strain from the scripts that the save function can actually cause a ctd when trying to save, usually during some script-intensive moment.
 
@@ -398,7 +399,7 @@ Instead Practice Safe Hard saves:-
 
 ---
 
-## My Keyboard isnt working
+### My Keyboard isnt working
 
 Normally occurs if you have ran special Edition version of skyrim prior to loading Ultimate skyrim. Special edition doesnt release all of the files Legendary edition needs to run so disables the keyboard.
 
@@ -407,7 +408,7 @@ Normally occurs if you have ran special Edition version of skyrim prior to loadi
 
 ---
 
-## My Compass has disappeared!
+### My Compass has disappeared!
 
 This is intentional. Immersive HUD hides this functionality by default. To make the compass _temporarily_ visible again press the 'N' key.
 
@@ -415,13 +416,13 @@ This is intentional. Immersive HUD hides this functionality by default. To make 
 
 ---
 
-## Why can't I select the first crafting perk?
+### Why can't I select the first crafting perk?
 
 You need a book called The Craftsman’s Manual in your inventory. It can be purchased from most blacksmiths. Most of the Requiem crafting perks require their own books, some of which can be bought while others must be found in the world.
 
 ---
 
-## Why Can't I Run or Why is my stamina going down for no reason?
+### Why Can't I Run or Why is my stamina going down for no reason?
 
 Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the heavy/evasion armor tree. Running is the normal speed you move at if you aren’t sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for X seconds” effect and keep that buff up at all times.
 
@@ -429,41 +430,41 @@ Requiem applies a stamina draining effect when you run, and when you wear armor 
 
 ---
 
-## Why can't I get a blessing at a shrine?
+### Why can't I get a blessing at a shrine?
 
 Requiem's Gods are unforgiving of crime. Too much crime and they will no longer bless you or heal you!
 
 ---
-## Why arent I healing?
+### Why arent I healing?
 
 Requiem disables passive health regeneration, you will need to obtain a healing poultice or a potion to regenerate health. 
 
 ---
-## My character is glowing ugly orange patches at night.
+### My character is glowing ugly orange patches at night.
 
 This is how the ENB expresses the dirt shader - Take a bath!
 
 ---
 
-## Error: Incompatible menu file(Map.swf) when opening the map.
+### Error: Incompatible menu file(Map.swf) when opening the map.
 
 You missed an MCM setting in SkyUI! Open SkyUI MCM Menu > Advanced > uncheck 'Map menu' in  SWF Version Checking section.
 
 ---
 
-## My vision is all Blurry/Messed up!
+### My vision is all Blurry/Messed up!
 
  1) This can happen if you eat too many alchemy ingredients too quickly. Find and eat a Nirnroot to remove the effect.
  2) Check you active effects, you might have picked up a disease and require a potion of cleansing.
 
 ---
 
-## The screen randomly went dark shortly after I entered &lt;insert name here &gt;.
+### The screen randomly went dark shortly after I entered &lt;insert name here &gt;.
 
 This is caused by Darker Dungeons. If you would like to disable this option, open up Darker Dungeons MCM > General Configuration > _untick_ Do Fadeout On Dungeon Entry.
 
 ---
-## Lights are Flickering on and off
+### Lights are Flickering on and off
 
 Most noticabled in Breezehome but can happen everywhere.
 
@@ -473,19 +474,19 @@ Only resolution is to use Cobb Positioner's to identify lightsources, and delete
 
 ---
 
-## I tried to learn a spell from a Tome - the book disappeared but I still don't know it
+### I tried to learn a spell from a Tome - the book disappeared but I still don't know it
 
 You missed loading SV Mods Preset during your Post-Start MCM Setup. To fix navigate to SV’s MCM menu > Save/Load Preset > FISS > Click ‘Load Preset’.
 
 ---
 
-## Why does the NPC dialogue cut out when talking to Aela?
+### Why does the NPC dialogue cut out when talking to Aela?
 
 Enhanced Skyrim Factions - The Companions Guild adds new conversation options to NPCs that aren’t voiced. Other NPCs have the same behavior.
 
 ---
 
-## My game has no grass or has very little grass
+### My game has no grass or has very little grass
 
 Ensure the following are set in Content\Profiles\<Profile you play>\:
 
@@ -497,13 +498,13 @@ Ensure the following are set in Content\Profiles\<Profile you play>\:
 
 ---
 
-## Why is everything so expensive in shops?
+### Why is everything so expensive in shops?
 
 You’re Naked - Put some clothes on ya filthy animal!
 
 ---
 
-## I am getting a lot of stutter / CTD / Low FPS?
+### I am getting a lot of stutter / CTD / Low FPS?
 
 *Ultimate Skyrim will never go above 60 FPS due to limitations of skyrim's engine. if you think 60fps is low - too bad. It cannot run any higher.*
 
@@ -535,19 +536,19 @@ Once you have checked all of those you can apply the following tweaks.
 
 ---
 
-## When I equip my Lantern/Backpack I get a pouch/book/holder/carpet appearing in my inventory
+### When I equip my Lantern/Backpack I get a pouch/book/holder/carpet appearing in my inventory
 
 This is a bug - cause unknown. Although there is no permanent fix, you can _possibly_ solve it by either dropping and buying a new item OR by dropping your item and consoling one in.
 
 ---
 
-## When I equip my Belt items it doesn’t ask me which slot I want to put it in
+### When I equip my Belt items it doesn’t ask me which slot I want to put it in
 
 Drop the item, and pick it back up then it will ask you where you would like to place it.
 
 ---
 
-## When I drop items on the ground, they sometimes vanish
+### When I drop items on the ground, they sometimes vanish
 
 1. This seems to happen occasionally when dropping items in 1st person view. Try switching to 3rd person before dropping them.
 
@@ -555,19 +556,19 @@ Drop the item, and pick it back up then it will ask you where you would like to 
 
 ---
 
-## My Lantern/Tent is asking me where I’d like it equipped
+### My Lantern/Tent is asking me where I’d like it equipped
 
 This is due to a bad ID, breaking down your lantern and re-crafting it in the crafting ledger usually fixes your lantern, if you have the craftsman perk it's advisable to make your own, if you don't just purchase a new tent from any vendor.
 
 ---
 
-## How do I re-enable menus pausing?
+### How do I re-enable menus pausing?
 
 SkyrimSouls.ini controls which functions pause the game. You can edit the INI file from Mod Organiser. Right click the `Ultimate Skyrim 4.0.6 hf2`, `Ultimate Skyrim 4.0.7 core files` or  `Ultimate Skyrim 4.1.0 core files` or  `Ultimate Skyrim 4.2.0 core files` mod in the left pane -> Information -> ini files tab.
 
 ---
 
-## My character's animations are stuck.
+### My character's animations are stuck.
 This is a vanilla Skyrim bug, exacerbated by the scripted mods in Ultimate Skyrim. If jumping doesn’t fix the animation, try the following console commands:
 
 	Pushactoraway 14 1
@@ -575,29 +576,29 @@ This is a vanilla Skyrim bug, exacerbated by the scripted mods in Ultimate Skyri
 
 ---
 
-## I keep hearing strange noises around me or objects floating around
+### I keep hearing strange noises around me or objects floating around
 
 This is usually a symptom of a known physics engine limitation, causing game instability at frame-rates higher than 60 FPS.  The easiest workaround is to limit the frame-rate to 60 FPS, either in the ENB configuration (Shift+Enter opens it in-game), or in the GPU software.
 
 ---
 
-## If you have Clouds on your Paper world map
+### If you have Clouds on your Paper world map
 
 This is a Known issue - Please visit the Official discord #ultsky-FAQ channel for the list of known issues and correction instructions
 	
 ---
-## My Character Spawned Underwater
+### My Character Spawned Underwater
 
 If you load into the game (or start a new character) and your character is underwater while outside, usually near either Whiterun or Markarth's bridges. The Fix is to Enter a nearby building then exit again to force skyrim to re-load the cell.
 
 
 ----
-## Why Can't I Fast Travel
+### Why Can't I Fast Travel
 
 Requiem disables Fast travel. There are multiple methods of moving around the map quickly without using this - There are boats near most large area of water, and Carriage drivers at the cities.
 
 ----
-## My game freezes during loading screens.
+### My game freezes during loading screens.
 
 The game may appear frozen or have a unusually long loading time, but it's usually still loading in the background. This is caused by OneTweak's Windowless Bordered mode. 
 
@@ -622,17 +623,17 @@ Can also be caused by
 
 
 ----
-## How do I change the difficulty?
+### How do I change the difficulty?
 
 The in-game difficulty sliders do not work with Requiem. Use the Damage Dealt/Taken values in the Requiem MCM instead. The recommended setting for both sliders is 100%. Requiem increases the difficulty of the game significantly, so if you're having a hard time doing anything, take a look at the [Beginner Guide for New Requiem Players](https://www.reddit.com/r/skyrimrequiem/comments/1w5cej/surviving_the_first_few_hours_in_requiem_or/).
 
 ----
-## I contracted Sanguinare Vampiris and now I can't sleep!
+### I contracted Sanguinare Vampiris and now I can't sleep!
 
 This is a Minor Arcana change that prevents weak characters from acquiring Vampirism. You must survive for 3 days while Sanguinare Vampiris slowly drains health and negates natural healing, at which point you will become a Vampire.
 
 ----
-## My Grass/Tree's in distance are shimmering/flickering
+### My Grass/Tree's in distance are shimmering/flickering
 
 This is caused by the ENB when used on some graphics cards. 
 
@@ -647,7 +648,7 @@ The original site has long gone - but a mirror of the injector is available here
 Note: this is the only 'fix' support are aware of at this time and if it does not work for you, we won't be able to assist you further
 
 ---
-## Eorland Graymane wont temper/craft stuff for me
+### Eorland Graymane wont temper/craft stuff for me
 
 Eorland Graymane is the best smith in the game, and as such reserves his services for members of the Circle for the companions.
 
@@ -655,17 +656,17 @@ Note: you must be at least at the stage of "Kill the werewolf hunters" for the Q
 
 ---
 
-## How Do I Enable Permadeath
+### How Do I Enable Permadeath
 In short - You cant. Permadeath mod Ashes was removed from the build of ultimate skyrim back in september when 4.0.7 was released.
 
 Instead of a 'permadeath mod' the player, upon dying is presented with the Requiem death dialog telling you to load a save. If you wish to be permadeath, simply load your template save at this point and start a new character (manually deleting all of the saves for your dead character)
 
 ---
 
-# **4.0.6 Issues**
+## **4.0.6 Issues**
 
 
-## I have this really weird red/green/brown/black graphical issue on the bottom half of my screen
+### I have this really weird red/green/brown/black graphical issue on the bottom half of my screen
 
 4.0.6 Issue
 
@@ -675,7 +676,7 @@ You probably messed up installing the custom INI files. Make sure you are instal
 
 ---
 
-## My rain splashes are purple/pink!
+### My rain splashes are purple/pink!
 
 4.0.6 Issue
 
@@ -685,7 +686,7 @@ You need a patch! ([US 406 HF2] Fix for purple/pink rain splashes (Wonders of We
 
 ---
 
-## Why am I not leveling up!
+### Why am I not leveling up!
 
 4.0.6 Issue
 
@@ -693,7 +694,7 @@ You only get experience while sleeping - Take a nap!
 
 ---
 
-## My character is invincible - I get to zero health but don't die!
+### My character is invincible - I get to zero health but don't die!
 
 4.0.6 Issue
 
@@ -703,7 +704,7 @@ You need a patch! `[US 406 HF2] Ashes 0.02 patch v0.6.`  Fix is on [Official Ult
 
 ---
 
-## I'm trying to load my template save and it says my character is dead.
+### I'm trying to load my template save and it says my character is dead.
 
 4.0.6 Issue
 
@@ -711,7 +712,7 @@ This happens when you name your character the default name "Adventurer" and are 
 
 ---
 
-## My Character takes off of his/her clothes off when swimming
+### My Character takes off of his/her clothes off when swimming
 
 4.0.6 Issue
 
@@ -719,46 +720,46 @@ To stop this from happening, open Bathing in Skyrim MCM > Player Animations and 
 
 ---
 
-## Why isn’t my compass showing undiscovered locations?
+### Why isn’t my compass showing undiscovered locations?
 
 iCompass hides the locations by default. To restore your compass to vanilla setting, _uninstall by unchecking_ iCompass in MO2 and rerun Reqtificator.
 
 _Please note, installing or uninstalling mods during a playthrough may break your game and is not recommended_
 
 
-# **Questing Questions**
+## **Questing Questions**
 
-## How do I start the main quest?
+### How do I start the main quest?
 
 Kill a dragon. Make sure you’re set as Dragonborn in the Ultimate Skyrim MCM.
 
 ---
 
-## Why can't I obtain the dragonstone?
+### Why can't I obtain the dragonstone?
 
 This quest is auto completed when you kill a dragon.
 
 ---
 
-## How Do I Become Thane of Whiterun
+### How Do I Become Thane of Whiterun
 
 There is a new way of becoming a thane of Whiterun. Complete The Blessings of Nature quest(Danica by the Gildrergreen tree to start) and talk to Jarl Balgruuf when the Gildergreen tree is repaired\the sappling blooms. He'll thank you and allow you to buy the Breezehome, and the standard thaneship quest (help the people of the hold and buy a house) will be available.
 
 ---
 
-## I can’t start the Thieves Guild through Brynjolf.
+### I can’t start the Thieves Guild through Brynjolf.
 
 **Thieves Guild Requirements** is included in the list, which requires a certain amount of pockets picked/items stolen.
 
 ---
 
-## How do I start the Dragonborn questline?
+### How do I start the Dragonborn questline?
 
 Dragonborn content is available after completing "A Blade in the Dark" during the Main Quest.
 
 ---
 
-## How do I start the Undeath questline?
+### How do I start the Undeath questline?
 
 Undeath content is available after level 30. A quest will appear in your journal with further instructions.
 

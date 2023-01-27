@@ -7,13 +7,16 @@ parent: Advanced Combat Analysis
 description: Undead - Shouts, Spells, Stats
 ---
 
-# The Undead
-
-# Index
+## Index
 {: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+<details markdown="block">
+	<summary>
+	   Expand to view
+	</summary>
+	{: .text-delta }
+	1. TOC
+	  {:toc}
+</details>
 
 ---
 ## Ash Spawn 

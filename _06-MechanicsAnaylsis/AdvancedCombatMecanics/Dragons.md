@@ -7,7 +7,6 @@ parent: Advanced Combat Analysis
 description: Dragons - Shouts, Spells, Stats
 ---
 
-# Dragons of Skyrim
 
 Dragons in Wildlander are not the easy to kill creatures the were in vanilla. They are Heavily armored, Magic breathing flying tanks with teeth which can cut through allow low to mid quality armors with one bite and you think you can send a follower to the teeth end while you rain damage down on the tail - think again, as the tail is capable of knockdowns.
 
@@ -39,13 +38,18 @@ That being said - Dragons can be fought in melee range with the right preperatio
 
 Dragons are NOT stealth Immune, but they have very good eyesight when flying. Its nearly impossible to sneak attack a flying dragon at low to mid levels of sneak.
 
-# Index
+## Index
 {: .no_toc .text-delta }
+<details markdown="block">
+	<summary>
+	   Expand to view
+	</summary>
+	{: .text-delta }
+	1. TOC
+	  {:toc}
+</details>
 
-1. TOC
-{:toc}
-
-# Shouts
+## Shouts
 
 |Name| Description | Effects
 |--|--|--|
@@ -58,7 +62,7 @@ Dragons are NOT stealth Immune, but they have very good eyesight when flying. It
 |Frost breath| Inhale air, exhale Frost, and behold the Thu'um as a a blizzard.| frost damage: 60 per second for 5 seconds,  slow: 50% and Large stagger
 |Vile Vapor  |  Inhale air, vomit poisonous fog, which does lingering health damage.| Poison Spray, 50 points for 2 seconds|
 
-# Standard Fire
+## Standard Fire
 
 *Variations*
 
@@ -106,7 +110,7 @@ Dragons are NOT stealth Immune, but they have very good eyesight when flying. It
 
 ---
 
-# Standard Frost
+## Standard Frost
 
 *Variations*
 
@@ -151,7 +155,7 @@ Dragons are NOT stealth Immune, but they have very good eyesight when flying. It
 
 ---
 
-# Poison 
+## Poison 
 
 *Basic Stats*
 
@@ -191,9 +195,9 @@ Dragons are NOT stealth Immune, but they have very good eyesight when flying. It
 |Blunt (Maces & Hammers)   | 85% Damage reduction |
 |Ranged (Bows & Crossbows)  | 4 + 85% Damage reduction|
 
-# Undead
+## Undead
 
-## Labyrinthian
+### Labyrinthian
 
 *Basic Stats*
 
@@ -243,7 +247,7 @@ Dragons are NOT stealth Immune, but they have very good eyesight when flying. It
 
 ---
 
-## Others
+### Others
 
 Identical to Labyrinthian Undead dragon - Except
 
@@ -255,7 +259,7 @@ Identical to Labyrinthian Undead dragon - Except
 
 ---
 
-## Fire Spectral Dragon 
+### Fire Spectral Dragon 
 
 *Basic Stats*
 
@@ -290,9 +294,9 @@ Identical to Labyrinthian Undead dragon - Except
 
 ---
 
-# Serpentine
+## Serpentine
 
-## Fire
+### Fire
 
 *Basic Stats*
 
@@ -333,7 +337,7 @@ Identical to Labyrinthian Undead dragon - Except
 |Blunt (Maces & Hammers)   | 85% Damage reduction |
 |Ranged (Bows & Crossbows)  | 4 + 85% Damage reduction|
 
-## Frost
+### Frost
 
 *Basic Stats*
 
@@ -374,9 +378,9 @@ Identical to Labyrinthian Undead dragon - Except
 |Blunt (Maces & Hammers)   | 85% Damage reduction |
 |Ranged (Bows & Crossbows)  | 4 + 85% Damage reduction|
 
-# Named
+## Named
 
-## Durnehviir
+### Durnehviir
 
 *Basic Stats*
 
@@ -419,7 +423,7 @@ Identical to Labyrinthian Undead dragon - Except
 |Blunt (Maces & Hammers)   | 85% Damage reduction |
 |Ranged (Bows & Crossbows)  | 4 + 85% Damage reduction|
 
-## Krosulhah
+### Krosulhah
 
 *Basic Stats*
 
@@ -439,7 +443,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Frost Breath
 * Ice Storm
 
-## Naaslaarum
+### Naaslaarum
 
 *Basic Stats*
 
@@ -460,7 +464,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Fire Breath
 * Fire ball
 
-## Paarthurnax
+### Paarthurnax
 *Basic Stats*
 
 |Stat| Value |
@@ -478,7 +482,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Fire Breath
 * Fire ball
 
-## Sahrotaar
+### Sahrotaar
 
 *Basic Stats*
 
@@ -497,7 +501,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Frost Breath
 * Ice Storm
 
-## Voslaarum
+### Voslaarum
 
 *Basic Stats*
 
@@ -518,7 +522,7 @@ Identical to Labyrinthian Undead dragon - Except
 * Fire Breath
 * Fire ball
 
-## Vulthuryol
+### Vulthuryol
 
 *Basic Stats*
 
