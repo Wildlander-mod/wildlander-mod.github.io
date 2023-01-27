@@ -23,10 +23,11 @@ parent: Ultimate Skyrim
 
 
 ## Guides list
+{: .no_toc }
 <details markdown="block">
   <summary>
-    Expand to view
     Table of contents
+  </summary>
   {: .text-delta }
 1. TOC
 {:toc}
