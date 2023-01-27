@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: Home
 title: Home
 nav_order: 1
 description: "Wildlander Knowledgebase."

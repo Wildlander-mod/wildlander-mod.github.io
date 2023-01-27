@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: Home
 title: FAQ
 nav_order: 3
 description: Frequently Asked Questions
@@ -9,7 +9,9 @@ description: Frequently Asked Questions
 
 ------
 
-# Table of contents
+# Frequently Asked Questions
+
+## Table of contents
 <details markdown="block">
   <summary>
     Expand to view
@@ -20,7 +22,7 @@ description: Frequently Asked Questions
 </details>
 
 ------
-# What is Wildlander?
+## What is Wildlander?
 
 
 
@@ -33,7 +35,7 @@ This isn't to say some of these features won't return in some fashion in the nex
 You can download and install from <a href="https://www.wildlandermod.com/download" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ----
-# How do I donate to the project?
+## How do I donate to the project?
 
 If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam" target="_blank" rel="noopener noreferrer"><img src="https://wiki.wildlandermod.com/Assets/kofi.png"></a>
 
@@ -41,13 +43,13 @@ Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry" target
 
 ----------
 
-# Do I need to uninstall Ultimate Skyrim?
+## Do I need to uninstall Ultimate Skyrim?
 
 Not unless you're short of hard drive space! Ultimate Skyrim uses The Elder Scrolls V: Skyrim Legendary Edition (colloquially referred to as Oldrim), whereas Wildlander uses The Elder Scrolls V: Skyrim Special Edition (colloqually referred to as SSE).
 
 ----------
 
-# What version of Skyrim Special Edition is needed?
+## What version of Skyrim Special Edition is needed?
 
 The Steam version of Elder Scrolls V: Skyrim Special Edition - Update 1.6.640 (AKA the free Anniversary update) installed in English <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/" target="_blank" rel="noopener noreferrer">Here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>. You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time. 
 
@@ -55,7 +57,7 @@ If you have downgraded back to Special edition version 1.5.97, you will need to 
 
 ----------
 
-# Do I need to buy The Elder Scrolls V: Skyrim Anniversary Upgrade DLC?
+## Do I need to buy The Elder Scrolls V: Skyrim Anniversary Upgrade DLC?
 
 No. It is not required to play Wildlander. 
 
@@ -65,7 +67,7 @@ If you already have the DLC, you can still install on your stream install, howev
 
 ----------
 
-# Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install on my own?
+## Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install on my own?
 
 No.
 
@@ -75,13 +77,13 @@ We have deliberately disabled the creation club menu option to prevent people ad
 
 ----------
 
-# I already have Skyrim: Legendary Edition, why do I need to buy Special Edition?
+## I already have Skyrim: Legendary Edition, why do I need to buy Special Edition?
 
 Special Edition is a completely different version of game engine (64-bit instead of 32-bit). Wildlander requires the 64-bit game engine, as it uses mods which require the 64-bit version of SKSE. Therefore, Wildlander cannot be installed on Legendary Edition.
 
 ----------
 
-# When is Ultimate Skyrim returning?
+## When is Ultimate Skyrim returning?
 
 It won't be returning to the Wabbajack gallery. The Wabbajack file, along with install instructions, are currently pinned in the Ultsky Support channel on Discord.
 
@@ -89,13 +91,13 @@ I have no further information as to if it will be formally re-released on the Wi
 
 ----------
 
-# How long does it take to download Wildlander without Nexus Premium?
+## How long does it take to download Wildlander without Nexus Premium?
 
 There have been reports of anywhere from 4 hours to 4 days, depending on how much attention you are paying to the Wabbajack downloader and the speeds you are getting from your ISP. Times may also differ based on whether you are downloading to an SSD or an HDD.
 
 ----------
 
-# Can I see the mod lists?
+## Can I see the mod lists?
 
 Standard: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods" target="_blank" rel="noopener noreferrer">Version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
@@ -103,19 +105,19 @@ Performance: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-
 
 ----------
 
-# Can I see the differences between Ultimate Skyrim and Wildlander?
+## Can I see the differences between Ultimate Skyrim and Wildlander?
 
 Yes - Click [Here](..\..\02BeginnersGuide\2-RecommendedReading\6-Changes-From-Ultsky)
 
 ----------
 
-# Does this mod pack support other languages?
+## Does this mod pack support other languages?
 
 No, and if you try, then SKSE crashes from Mod Organizer. You will need to install English Skyrim - Special Edition to play this modpack.
 
 ----------
 
-# How do I update to the current version?
+## How do I update to the current version?
 
 Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
 
@@ -128,14 +130,14 @@ Some updates will require a new game and are **_not_** save compatible.
 
 ----------
 
-# Do I have to update?
+## Do I have to update?
 
 No. All updates require you to manually run Wabbajack to download and install the latest mods for the new build.
 
 
 ----------
 
-# How do I uninstall?
+## How do I uninstall?
 
 We're sorry to see you leave!
 
@@ -145,7 +147,7 @@ Uninstalling the launcher requires you to use Windows “Add / remove program”
 
 ----------
 
-# Can I remove the downloads' folder?
+## Can I remove the downloads' folder?
 
 Yes, but if you want to install an update, or repair your install, you will need to redownload all 500+ mods.
 
@@ -153,14 +155,13 @@ However, you can safely move your download folder to another hard drive.
 
 ----------
 
-# Wabbajack Installation Questions
-
-----------
+## Wabbajack Installation Questions
 
 {% include Wabbajack_Install.md %}
 
 ---
-# **Launcher Questions**
+
+## **Launcher Questions**
 
 {% include Wabbajack_AV.md %}
 
@@ -169,9 +170,9 @@ However, you can safely move your download folder to another hard drive.
 
 ----
 
-# **Customization Questions**
+## **Customization Questions**
 
-## I'm nosey, there are errors in mod organizer, and why is this stuff disabled?
+### I'm nosey, there are errors in mod organizer, and why is this stuff disabled?
 
 1) Reporting files in overwrite folder: These are your crash logs.
 2) All the NPC overhauls are disabled: They are supposed to be, as they are just dummy files to ensure the authors get download credit. Hence the “DEV RESOURCES” label.
@@ -182,13 +183,13 @@ Finally, you should be using the launcher to play. Entering mod organizer is NOT
 
 ---------
 
-## Mod X has been updated, can I install that?
+### Mod X has been updated, can I install that?
 
 No. For stability reasons, only the versions installed by Wabbajack are supported.
 
 ----------
 
-## Can I edit Mod Configuration Menu (MCM) settings?
+### Can I edit Mod Configuration Menu (MCM) settings?
 
 The answer to this is support strongly recommends that you leave them alone. Everything is setup how it is intended to play. We didn't "accidentally" forgot to turn on some settings (Wildcat only exists for its AI and nothing else). 
 
@@ -198,13 +199,13 @@ FLP MCM should be treated as though it doesn't exist. Seriosuly. Touch nothing i
 
 ----------
 
-## Can I remove/disable mod X
+### Can I remove/disable mod X
 
 Many mods have a Mod Configuration Menu (MCM) where they can be turned off. You cannot disable anything completely from Mod Organizer, and doing so will deny you access to support.
 
 ----------
 
-## Can I add additional mods?
+### Can I add additional mods?
 
 Currently, we are not supporting any form of modification of Wildlander.
 
@@ -215,26 +216,26 @@ Changing the mod list (even simple changes) can break Wildlander in surprising w
 If you want to do it anyway, I will give this free advice: DO NOT run LOOT! It will break the mod list. Any mods should be added and ordered manually. Remember that, again, this _WILL_ deny you access to support.
 
 ---
-##  But I want CBBE/UNP nudes
+###  But I want CBBE/UNP nudes
 
 Answer is still no. Go straight to horny jail. Do not pass go. Do not collect 200 Septims.
 
 ---
-# **Gameplay Questions**
+## **Gameplay Questions**
 
-## Can I see a list of Known issues
+### Can I see a list of Known issues
 
 Sure. Here's a [link](..\..\01Support\KnownIssues\).
 
 ----------
 
-## How can I see the keybindings?
+### How can I see the keybindings?
 
 The in-game hotkey F11 will bring up a Gamepad / keyboard layout of all key bindings. Pressing F11 again will hide it.
 
 ----------
 
-## My keybindings don't work
+### My keybindings don't work
 
 Dylan is based in the US, so the key bindings were based on a standard QWERTY US keyboard.
 
@@ -244,7 +245,7 @@ There is an appropriate guide [here](..\..\02BeginnersGuide\2-RecommendedReading
 
 ----------
 
-## My Haircut token doesn't allow me to change race/gender Why?
+### My Haircut token doesn't allow me to change race/gender Why?
 
 Skyrim doesn't handle switching race or gender mid-play-though. 
 
@@ -252,7 +253,7 @@ Doing so will break your racial perks, and cause a crossbow to infinitely reload
 
 ----------
 
-## What are these toolkit things?
+### What are these toolkit things?
 
 Part of the Wildlander propitiatory crafting system.
 
@@ -260,7 +261,7 @@ Please see [here](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System
 
 ----------
 
-## What are these weird named Misc Items / Weapon heads / Imbued things?
+### What are these weird named Misc Items / Weapon heads / Imbued things?
 
 Part of the Spell Research mod
 
@@ -268,7 +269,7 @@ Please see [here](https://wiki.wildlandermod.com/11Deep-Dives/Spell-Research/) f
 
 ----------
 
-## How do I do a customized start (vampire, werewolf, no perks)
+### How do I do a customized start (vampire, werewolf, no perks)
 
 When you get the message that Wildlander is finalizing and have clicked OK, hit F10.
 
@@ -279,7 +280,7 @@ Once you get the message warning you that you hit F10. Hit 'OK', then 'escape.'
 Then go to Mod Configuration Menu and Skyrim. From there you can use 'Skyrim Unbound Reborn' MCM and customize how you want to start exactly.
 
 ----------
-## Some sounds aren't playing! How do I fix this?
+### Some sounds aren't playing! How do I fix this?
 
 If you are unable to hear most of the combat sounds such as sword swings, spell usage (flames, healing, etc.), opening a container, footsteps, etc. but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance...
 
@@ -292,7 +293,7 @@ To install, download and Unzip Large_sector_fix.dll  to <Install Folder>\game-fi
 
 ----------
 
-## Why can't I learn the first crafting perk?
+### Why can't I learn the first crafting perk?
 
 This only affects version 1.0.
 
@@ -302,7 +303,7 @@ For 1.1 onwards: If you want to re-enable this functionality, then you can do so
 
 ----------
 
-## Why can't I run? / Why is my stamina going down for no reason?
+### Why can't I run? / Why is my stamina going down for no reason?
 
 Requiem applies a stamina draining effect when you run and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\..\02BeginnersGuide\3-YourFirstCharacter\Stamina\) provides more detailed information.
 
@@ -310,13 +311,13 @@ Requiem applies a stamina draining effect when you run and when you wear armor w
 
 ----------
 
-## Why can't I get a blessing at a shrine?
+### Why can't I get a blessing at a shrine?
 
 Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](..\..\02BeginnersGuide\4-WildlanderWorld\4-The-Divines\) for more information.
 
 ----------
 
-## Why am I not healing?
+### Why am I not healing?
 
 Wildlander has no passive health regeneration. You will not heal from your wounds by "sleeping it off."
 
@@ -332,7 +333,7 @@ When you get hurt fighting, the only ways to heal are :-
 
 ----------
 
-## Lights are flickering on and off?
+### Lights are flickering on and off?
 
 It's most noticeable in Breezehome and the entrance to Riverwood at night, but this can happen everywhere.
 
@@ -340,7 +341,7 @@ This is caused by Skyrim's engine limitation of 4 "shadow casting" light sources
 
 ----------
 
-## Why is everything so expensive in shops?
+### Why is everything so expensive in shops?
 
 There are several possible reasons:
  
@@ -351,7 +352,7 @@ There are several possible reasons:
 
 ----------
 
-## My character's animations are stuck!
+### My character's animations are stuck!
 
 This is a vanilla Skyrim bug, which is exacerbated by the scripted mods in Wildlander. If jumping doesn't fix the animation, try the following console commands:
 
@@ -364,7 +365,7 @@ If you get stuck using a crafting table - this is generally caused by the 1st pe
 
 ----
 
-## Why can't I Fast Travel?
+### Why can't I Fast Travel?
 
 Because we disable it! 🙂 There are multiple methods of moving around the map quickly without editing these settings. There are boats near most large area of water and carriage drivers at most cities and towns.
 
@@ -377,7 +378,7 @@ In addition in 1.1.X – A SKSE mod disables fast travel around the map. This ca
 
 ----------
 
-## My game freezes during loading screens.
+### My game freezes during loading screens.
 
 The game will pause if you are alt-tabbed out, including some load screens. Make sure the Skyrim window has focus!
 
@@ -397,13 +398,13 @@ Can also be caused by :
 
 ----------
 
-## How do I change the difficulty?
+### How do I change the difficulty?
 
 The in-game difficulty sliders do not work with Wildlander. Please use the Change Difficulty hotkey instead (Right-CTRL).
 
 ----------
 
-## Help! I'm being attacked by Anorath and Uthgerd the Unbroken in Whiterun for no reason!
+### Help! I'm being attacked by Anorath and Uthgerd the Unbroken in Whiterun for no reason!
 
 You have somehow picked up a bounty in Whiterun hold which does not show on the UI, also known as a 'Hidden Bounty.' What have you been doing in secret, HMMM?
 
@@ -414,7 +415,7 @@ No matter. The following console command will clear it:
 
 ----------
 
-## I contracted Sanguinare Vampiris, and now I can't sleep!
+### I contracted Sanguinare Vampiris, and now I can't sleep!
 
 This is a Requiem change that prevents weak characters from acquiring Vampirism. You must survive for three (3) days while Sanguinare Vampiris slowly drains health and negates natural healing, at which point you will become a Vampire. You better hope you can afford healing potions or haven't made enemies of temple healers!
 
@@ -422,13 +423,13 @@ You cannot Wait or Sleep to pass the time; however, spell research and training 
 
 ----------
 
-## Can I remove Block/Parry from left control?
+### Can I remove Block/Parry from left control?
 
 Yes! The keybinding for this is in Dual Wield Block. Lizzy (being the sensible player that she is) switches it to 'C' and moves crouch using the Skyrim standard controls back to the default keybind.
 
 ----------
 
-## How do I put my shield on my back?
+### How do I put my shield on my back?
 
 Go to game-files\mods\Simple Dual Sheath\SKSE\Plugins\SimpleDualSheath.ini and edit the flags on the below section:
 
@@ -441,7 +442,7 @@ Go to game-files\mods\Simple Dual Sheath\SKSE\Plugins\SimpleDualSheath.ini and e
 Save and next time you boot the game. Your shield will now be on your back, you 🐢 cosplayer!
 
 ----------
-## Night eye is too dark!
+### Night eye is too dark!
 
 {: .note}
 Performance modlist does not allow the ENB to show nightvision correctly. Should you wish to use nightvision, you must either use "standard modlist" or No shaders (to apply vanilla nightvision).
@@ -460,7 +461,7 @@ Once you are happy with the settings, in the top right section click on “save 
 
 ----------
 
-## How Do I Enable Permadeath?
+### How Do I Enable Permadeath?
 
 Are you MAD? Skyrim will kill you just for sneezing on a rock wrong and you want...?
 
@@ -473,7 +474,7 @@ Creating a new character without restarting Skyrim is known to cause script issu
 
 ------
 ---
-## Why are kill-moves disabled?
+### Why are kill-moves disabled?
 
 Requiem kill moves have been edited from vanilla settings. They can now be performed on the Player, by enemies. and they can now be performed on any enemy - not just the last.
 
@@ -499,21 +500,21 @@ Violens MCM is how they are currently disabled. If you want to turn them back on
 
 ---
 
-# **Questing Questions**
+## **Questing Questions**
 
-## How do I start the main quest?
+### How do I start the main quest?
 
 Kill a dragon. It's not as simple as it sounds. In Wildlander, dragons are the heavily armored flying tanks with elemental shouts or worse, such as those which drain vitality or other attributes. This turns them into the legitimate threat they should have always been, so stack magic resistances, enchants, and maybe even a good shield! Good luck in not becoming a crispy-critter~!
 
 ----------
 
-## Why can't I obtain the Dragonstone?
+### Why can't I obtain the Dragonstone?
 
 This quest is auto completed when you kill a dragon. Also, there will be a book on 'Racial Phylogeny' inside the crypt, so make sure you bring that to Farengar. He needs it for... research.
 
 ----------
 
-## How do I become Thane of Whiterun?
+### How do I become Thane of Whiterun?
 
 There is a new way of becoming a Thane of Whiterun:
 
@@ -524,25 +525,25 @@ You can buy Breezehome before this at a much more expensive price, but, unless y
 
 ----------
 
-## I can't start the Thieves Guild through Brynjolf!?
+### I can't start the Thieves Guild through Brynjolf!?
 
 [Thieves Guild Requirements SE](https://www.nexusmods.com/skyrimspecialedition/mods/33256) is included in the list, which requires 25 pockets picked and 250 items stolen. So get to it, Robin Hood! They don't just let ANYBODY into the Thieves Guild these days (Even though attendance is low and they aren't exactly in a spot to BE picky...)!
 
 ----------
 
-## How do I start the Dragonborn quest line?
+### How do I start the Dragonborn quest line?
 
 Dragonborn content is available after completing “A Blade in the Dark” during the Main Quest.
 
 ----------
-## How do I progress The Companions storyline?
+### How do I progress The Companions storyline?
 
 You need to do five (5) radiant quests for members of the Circle in-between each faction quest.
 
 
-# **Crafting Questions**
+## **Crafting Questions**
 
-## How do I craft Snowberry Extract?
+### How do I craft Snowberry Extract?
 
 Snowberry Extract is made directly from a cookpot, or by using the player crafting menu when in proximity to a cookpot
 
@@ -554,6 +555,6 @@ The extract requires the following items/tools:
 
 ----------
 
-## How do I craft Healing Poultice?
+### How do I craft Healing Poultice?
 
 The Healing poultice [Guide](..\..\02BeginnersGuide\3-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
