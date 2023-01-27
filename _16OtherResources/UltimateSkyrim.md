@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ultimate Skyrim Installation Guide
+title: Ultimate Skyrim 
 description: Ultimate Skyrim Installation Guide
 has_children: true
 ---
@@ -79,7 +79,7 @@ Once that’s squared away, we can begin!
 
 ## Step ONE: running the game
 
-The first task is to run _Skyrim_ through Steam, which will prepare your install for _Ultimate Skyrim_.<ol data-rte-list="default">
+The first task is to run _Skyrim_ through Steam, which will prepare your install for _Ultimate Skyrim_. 
 1. <a href="https://imgur.com/XI0wjdr" target="_blank">Launch “_The Elder Scrolls V: Skyrim_”</a> from your Steam library.
 1. When the launcher offers to auto-detect your settings, <a href="https://imgur.com/a/ztPt9zn" target="_blank">click “OK”</a> and then <a href="https://imgur.com/a/2RCmEXT" target="_blank">dismiss the follow-up window.</a> (These settings do not matter, and will be replaced.)
 1. <a href="https://imgur.com/a/T5euYTf" target="_blank">Click “Play” to launch the game.</a>
