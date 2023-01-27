@@ -15,6 +15,8 @@ Damage Resistance: Various enemies in the game gain resistance when show with ar
 
 Armor Penetration: Arrows/Bolts once a certain perk is learned, penetrate a percentage of armor. 
 
+Enchanted Ammunition: Using Enchanted Ammunition will overwrite any poisons or enchantments on the equipment. Therefore if you have a "shock" bow, but some across a troll, you can use the "of fire" ammunition to kill it without having to swap bows.
+
 ## --Light vs Heavy Bows vs Crossbows--
 
 ### Crossbows 
