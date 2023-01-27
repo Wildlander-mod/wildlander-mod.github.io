@@ -68,7 +68,8 @@ To report a bug, first query with support as it may have already been reported. 
 ---
 
 ## Thank yous
-We would like to thank Terrorforge, Skjolbir, Goldymires, Semkiry and the whole Requiem Team for the guides used to produce this Wiki.
+
+We would like to thank Alexandregd, Goldymires, Giblets, Hazardoss, Liam, SuicidalKillers, Skjolbir, Semkiry, Terrorforge and the whole Requiem Community for the guides used to produce this Wiki.
 
 ----
 
