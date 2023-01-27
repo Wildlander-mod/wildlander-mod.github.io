@@ -8,6 +8,20 @@ $yellow-300: #7B5F0C;
 $lt-purple-000: #50098A;
 $lt-purple-300: #50098A;
 
+$font-size-1: 9px !default;
+$font-size-1-sm: 10px !default;
+$font-size-2: 11px !default; // h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: 12px !default; // h5
+$font-size-4: 14px !default;
+$font-size-5: 18px !default; // h3
+$font-size-6: 22px !default; // h2
+$font-size-7: 26px !default;
+$font-size-8: 32px !default; // h1
+$font-size-9: 36px !default;
+$font-size-10: 42px !default;
+$font-size-10-sm: 48px !default;
+
+
 @media print {
   .side-bar
   .page-header {
