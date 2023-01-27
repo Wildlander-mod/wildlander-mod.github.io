@@ -149,21 +149,15 @@ background: transparent;
     }
 }
 .main-content {
-
-	 .h1 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6
+	{
 	  color: #50098A;
-	}
-
-	.h2 {
-	  color: #50098A;
-	}
-
-	.h3 {
-	  color: #50098A;
-	}
-
-	.h4 {
-	  color: #50098A;
+	  font-family: Averta, sans-serif;
 	}
 }
 
