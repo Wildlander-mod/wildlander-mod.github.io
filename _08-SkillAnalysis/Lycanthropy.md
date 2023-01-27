@@ -5,20 +5,20 @@ has_toc: false
 has_children: false
 ---
 
-## Becoming a Werewolf
+### Becoming a Werewolf
 
 In Wildlander, post character creation the only way to become a Werewolf is to complete the quest line for the Companions of Jorrvaskr in Whiterun, up until the quest "The Silver Hand." Skjor will lead the Dragonborn to The Underforge, there he will offer the opportunity to drink the blood of Aela the Huntress when she is in Werewolf form, and become a Werewolf. 
 
 You can use the F10 Start to start as a werewolf.
 
-## Strengths (In Player form)
+### Strengths (In Player form)
 * +100 Fortify Stamina
 * +100 Fortify Health
 * +50  Fortify Carry weight
 * +15  Unarmed Damage
 
 
-## Strengths (In werewolf form)
+### Strengths (In werewolf form)
 * +200 Fortify Stamina
 * 100% disease resist
 * +900 Fortify Health
@@ -26,7 +26,7 @@ You can use the F10 Start to start as a werewolf.
 * 75% Resist Poison
 * 1/s Health Regeneration
 
-## Weaknesses
+### Weaknesses
 
 * Increased vulnerability to Silver weapons, even when not transformed. [You take 150% damage from silver based weaponry]
 * No "well-rested" bonus is gained from sleeping.
@@ -41,7 +41,7 @@ You can use the F10 Start to start as a werewolf.
 * If the you are seen transforming, they will incur a 1000 Gold bounty, and most characters will attack them.
 
 
-## Perks
+### Perks
 
 ![image](https://user-images.githubusercontent.com/26418143/157204985-120d797c-5f18-46d1-983d-f99e198efc43.png)
 

@@ -7,8 +7,6 @@ parent: Advanced Combat Analysis
 description: Ancano - Shouts, Spells, Stats
 ---
 
-# Ancano
-
 *Basic Stats*
 
 |Stat| Value |

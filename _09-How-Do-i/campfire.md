@@ -5,7 +5,6 @@ nav_order: 9
 description:  How Do I Cancel placing a campfire Object?
 ---
 
-##  How Do I Cancel placing a Campfire Object?
 
 If you hit the Campfire, or try to place a chest/tent or other object by accident, you can cancel placement by hitting the "E" key.
 

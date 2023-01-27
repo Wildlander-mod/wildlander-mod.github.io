@@ -4,13 +4,13 @@ layout: default
 description: Class Guide (Barbarian - Greed's Variant) 
 ---
 
-# Barbarian
 
-# Submitted By
+
+## Submitted By
 
 GreedGaming
 
-# Description
+## Description
 
 This is the "standard" Barbarian for Requiem according to GreedGaming. The video guide was Created using the 1.0 version of pack but 90% of the information is still valid (Alchemy has less Ingredient availability and Eorland's not available until you are part of the circle) .
 
@@ -26,9 +26,9 @@ Orc | Steed | Talos/Stendarr/Zenithar | Werewolf
 
 <a href="https://www.youtube.com/watch?v=8gmDXe_FEto" target="_blank" rel="noopener noreferrer">Part 2 <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> 12 hours
 
-# Skills 
+## Skills 
 
-## Starting Skills
+### Starting Skills
 
 * Alteration
 * TwoHanded

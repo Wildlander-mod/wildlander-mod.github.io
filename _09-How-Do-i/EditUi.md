@@ -7,8 +7,6 @@ has_children: false
 ---
 
 
-## Edit the UI
-
 The UI elements are controlled by a bunch of INI files
 
 for the main UI elements and positions

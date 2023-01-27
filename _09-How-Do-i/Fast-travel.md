@@ -6,8 +6,6 @@ has_children: false
 
 ---
 
-## Enable Fast travel
-
 
 You will need to edit the following in-game MCM settings to re-enable fast travel:
 

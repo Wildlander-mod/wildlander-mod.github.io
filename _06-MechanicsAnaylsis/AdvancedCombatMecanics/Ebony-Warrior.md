@@ -7,7 +7,6 @@ parent: Advanced Combat Analysis
 description: Ebony Warrior - Shouts, Spells, Stats
 ---
 
-description: Ebony Warrior - Shouts, Spells, Stats
 
 *Basic Stats*
 

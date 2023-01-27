@@ -5,15 +5,15 @@ has_toc: false
 has_children: false
 ---
 
-# --Mechanics--
+## --Mechanics--
 
-## [ Attack Stamina Cost ]
+### [ Attack Stamina Cost ]
 
 In Requiem, attacks with weapons cost a bit of stamina. The cost differs wih 1H / 2H, and scales with weight of the weapon. Meaning, a dagger will cost less stamina per swing than a mace.
 
 Depending on your One-handed skill level, the Stamina cost for attacks with One-handed weapons will decrease more : at 100 One-handed skill, it will cost 1/4 of what it takes at 0 One-handed skill.
 
-## [ Perk Bonus Calculation ]
+### [ Perk Bonus Calculation ]
 
 Attack Speed bonuses are additive for each perks. If you have Flurry (Rank 2) and Sword Focus (Rank 3), the bonus is : 25% (Flurry) + 24% (Sword Focus) = 49% faster attack speed.
 
@@ -21,7 +21,7 @@ Power Attack damage bonuses are multiplicative for each perks. If you have Power
 
 Power Attack cost reduction bonuses are multiplicative for each perks. If you have Penetrating Strikes and Dexterity (in Evasion skill, when wearing no heavy armor), Power Attacks cost : 0.5 * 0.76 = 0.38 --> 62% less Power Attack Stamina cost (38% of original cost).
 
-## [ Armor Penetration when Dual-Wielding ]
+### [ Armor Penetration when Dual-Wielding ]
 
 When Dual-Wielding different types of One-handed weapons, One-handed Armor Penetration given from Focus perks are halved for each weapon. So if you have unperked weapon in one hand, you'll have even less Armor Penetration than when single-handed.
 
@@ -29,14 +29,14 @@ When Dual-Wielding, Armor Penetration is shared for both hands. So if you have p
 
 If you have 14 Armor Penetration for your sword and 30 Armor Penetration for your mace, you will get (14+30)/2 = 22 Armor Penetration.
 
-## [ Abbreviations ]
+### [ Abbreviations ]
 
 * 1H : One-handed (the skill or the weapon type)
 * DW : Dual-Wield
 * AP : Armor Penetration
 * AR : Armor Rating
 
-# --Damage Types--
+## --Damage Types--
 
 Damage Types implemented by Requiem. Weapons are assigned one damage type, and Creatures are Sometimes given extra Damage Type Resistances that function as extra Armor Rating against each damage types.
 
@@ -54,7 +54,7 @@ Damage Types implemented by Requiem. Weapons are assigned one damage type, and C
 |4 |240
 |5 |300
 
-# --Perk Analysis--
+## --Perk Analysis--
 ![image](https://user-images.githubusercontent.com/26418143/157974906-3927905b-d6d6-4615-9f1a-1d76cfce46b6.png)
 
 **Weapon Mastery**

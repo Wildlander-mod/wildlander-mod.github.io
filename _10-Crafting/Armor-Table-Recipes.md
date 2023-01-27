@@ -5,8 +5,21 @@ nav_order: 4
 description: Armor Table recipes
 ---
 
-#  Armor Table Recipes
+##  Armor Table Recipes
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInputBox").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tbody tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<input type="text" id="myInputBox" placeholder="Search for Armor.." >
 
 Item To Temper| Mats | Requires Perk
 -- | -- | --
@@ -340,7 +353,6 @@ Wolf Gauntlets | 1 Ingot: Steel | Craftmanship
 Wolf Helmet | 1 Ingot: Steel | Craftmanship
 Wolf Shield | 1 Ingot: Steel | Craftmanship
 Wooden Walking Stick | 2 Leather Strips | Craftmanship
-|||
 Ahzidal's Boots | 1 Ingot: Steel | Advanced
 Ahzidal's Cuirass | 1 Ingot: Steel | Advanced
 Ahzidal's Gauntlets | 1 Ingot: Steel | Advanced
@@ -401,7 +413,6 @@ Vigilant's Boots | 1 Ingot: Corundum | Advanced
 Vigilant's Cuirass | 1 Ingot: Corundum | Advanced
 Vigilant's Gauntlets | 1 Ingot: Corundum | Advanced
 Vigilant's Helmet | 1 Ingot: Corundum | Advanced
-|||
 Blackguard's Boots | 1 Leather | Advanced Light Smithing
 Blackguard's Cuirass | 1 Leather | Advanced Light Smithing
 Blackguard's Gloves | 1 Leather | Advanced Light Smithing
@@ -450,7 +461,6 @@ Thieves Guild Master's Hood | 1 Leather: Dark | Advanced Light Smithing
 Thieves Guild Master's Sleeveless Cuirass | 1 Leather: Dark | Advanced Light Smithing
 Thieves Guild Sleeveless Improved Cuirass | 1 Leather | Advanced Light Smithing
 Tumblerbane Gloves | 1 Leather: Red | Advanced Light Smithing
-|||
 Aetherial Shield | 1 Ingot: Dwarven | Dwarven
 Dwarven Boots | 1 Ingot: Dwarven | Dwarven
 Dwarven Cuirass | 1 Ingot: Dwarven | Dwarven
@@ -459,7 +469,6 @@ Dwarven Helmet | 1 Ingot: Dwarven | Dwarven
 Dwarven Shield | 1 Ingot: Dwarven | Dwarven
 Horse Armor: Dwarven Barding and Saddle | 1 Ingot: Dwarven | Dwarven
 Visage of Mzund | 1 Ingot: Dwarven | Dwarven
-|||
 Auriel's Shield Replica | 1 Ingot: Moonstone | Elven
 Elven Boots | 1 Ingot: Calcinium | Elven
 Elven Boots - Gilded | 1 Ingot: Calcinium | Elven
@@ -494,7 +503,6 @@ Snow Elf Boots | 1 Ingot: Moonstone | Elven
 Snow Elf Crown | 1 Ingot: Moonstone | Elven
 Snow Elf Cuirass | 1 Ingot: Moonstone | Elven
 Snow Elf Gauntlets | 1 Ingot: Moonstone | Elven
-|||
 Glass Boots | 1 Ingot: Malachite | Glass
 Glass Boots - Thalmor | 1 Ingot: Malachite | Glass
 Glass Boots - Vvardenfell | 1 Ingot: Malachite | Glass
@@ -512,13 +520,11 @@ Glass Shield - Thalmor | 1 Ingot: Malachite | Glass
 Glass Shield - Vvardenfell | 1 Ingot: Malachite | Glass
 Horse Armor: Divine Aegis Barding and Saddle | 1 Ingot: Malachite | Glass
 Horse Armor: Frost Aegis Barding and Saddle | 1 Ingot: Malachite | Glass
-|||
 Orcish Boots | 1 Ingot: Orichalcum | Orcish
 Orcish Cuirass | 1 Ingot: Orichalcum | Orcish
 Orcish Gauntlets | 1 Ingot: Orichalcum | Orcish
 Orcish Helmet | 1 Ingot: Orichalcum | Orcish
 Orcish Shield | 1 Ingot: Orichalcum | Orcish
-|||
 Bonemold Boots | 2 Bone Meal | Morrowind 1
 Bonemold Cuirass | 2 Bone Meal | Morrowind 1
 Bonemold Gauntlets | 2 Bone Meal | Morrowind 1
@@ -532,7 +538,6 @@ Bonemold Improved Shield | 2 Bone Meal | Morrowind 1
 Bonemold Pauldroned Cuirass | 2 Bone Meal | Morrowind 1
 Bonemold Pauldroned Cuirass - Guard's | 2 Bone Meal | Morrowind 1
 Bonemold Shield | 2 Bone Meal | Morrowind 1
-|||
 Chitin Heavy Boots | 1 Chitin Plate | Morrowind 2
 Chitin Heavy Cuirass | 1 Chitin Plate | Morrowind 2
 Chitin Heavy Gauntlets | 1 Chitin Plate | Morrowind 2
@@ -550,7 +555,6 @@ Chitin Morag Tong Elite Bracers | 1 Leather | Morrowind 2
 Chitin Morag Tong Elite Cuirass | 1 Leather | Morrowind 2
 Chitin Morag Tong Elite Hood | 1 Leather | Morrowind 2
 Chitin Morag Tong Hood | 1 Chitin Plate | Morrowind 2
-|||
 Dawnguard Rune Shield Replica | 1 Ingot: Ebony | Ebony
 Ebony Boots | 1 Ingot: Ebony | Ebony
 Ebony Boots - Gilded | 1 Ingot: Ebony | Ebony
@@ -580,14 +584,12 @@ Horse Armor: Ebony Barding and Saddle | 1 Ingot: Ebony | Ebony
 Horse Armor: Ebony Barding and Saddle - Mail | 1 Ingot: Ebony | Ebony
 Shellbug Helmet | 1 Ingot: Ebony | Ebony
 Shield of Ysgramor | 1 Ingot: Ebony | Ebony
-|||
 Daedric Boots | 1 Ingot: Ebony | Daedric
 Daedric Cuirass | 1 Ingot: Ebony | Daedric
 Daedric Gauntlets | 1 Ingot: Ebony | Daedric
 Daedric Helmet | 1 Ingot: Ebony | Daedric
 Daedric Shield | 1 Ingot: Ebony | Daedric
 Horse Armor: Daedric Barding and Saddle | 1 Ingot: Ebony | Daedric
-|||
 Dragonplate Boots | 1 Dragon Bone | Draconic
 Dragonplate Cuirass | 1 Dragon Bone | Draconic
 Dragonplate Gauntlets | 1 Dragon Bone | Draconic
@@ -600,7 +602,6 @@ Dragonscale Helmet | 1 Dragon Scales | Draconic
 Dragonscale Shield | 1 Dragon Scales | Draconic
 Horse Armor: Dragonbone Barding and Saddle | 1 Dragon Scales | Draconic
 Jagged Crown | 1 Dragon Bone | Draconic
-|||
 Aetherium Boots | 1 Ingot: Gold | Legendary
 Aetherium Cuirass | 1 Ingot: Gold | Legendary
 Aetherium Gauntlets | 1 Ingot: Gold | Legendary
@@ -612,7 +613,6 @@ Savior's Hide - Black | 1 Pelt: Cave Bear | Legendary
 Savior's Hide - White | 1 Pelt: Snow Bear | Legendary
 Spellbreaker | 1 Ingot: Dwarven | Legendary
 Ebony Mail | 1 Ingot: Ebony | Legendary
-|||
 Nordic Boots - Black | 1 Ingot: Galatite | Nordic
 Nordic Boots - Brown | 1 Ingot: Galatite | Nordic
 Nordic Boots - White | 1 Ingot: Galatite | Nordic
@@ -626,7 +626,6 @@ Nordic Helmet - Black | 1 Ingot: Galatite | Nordic
 Nordic Shield - Black | 1 Ingot: Galatite | Nordic
 Nordic Shield - Brown | 1 Ingot: Galatite | Nordic
 Nordic Shield - White | 1 Ingot: Galatite | Nordic
-|||
 Deathbrand Boots | 1 Stalhrim | Stalhrim
 Deathbrand Cuirass | 1 Stalhrim | Stalhrim
 Deathbrand Gauntlets | 1 Stalhrim | Stalhrim
@@ -640,7 +639,7 @@ Stalhrim Light Cuirass | 1 Stalhrim | Stalhrim
 Stalhrim Light Gauntlets | 1 Stalhrim | Stalhrim
 Stalhrim Light Helmet | 1 Stalhrim | Stalhrim
 Stalhrim Light Shield | 1 Stalhrim | Stalhrim
-
+{: #myTable }
 
 
 

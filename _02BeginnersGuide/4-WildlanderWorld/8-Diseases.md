@@ -7,7 +7,7 @@ parent: Wildlander World
 has_toc: true
 ---
 
-# Diseases
+## Diseases
 
 Diseases in Wildlander are not something the can be ignored. Each disease has progression, whereby if not cured they will get worse. Wait too long snd it may prove Fatal.... or worse
 
@@ -37,7 +37,7 @@ The stages are as follows:
 |Wither|Armor rating reduced by {mag} points. | 50 | 100 |150|Sabrecats
 |Food Poisoning|Health is reduced by 40 points. Food restores 75% less hunger.|40|N/A|N/A| If you eat raw food, you will now have a 30% chance to catch food poisoning.. Strong stomach does not prevent this effect |
 
-# How to cure?
+## How to cure?
 
 Several methods
 

@@ -6,8 +6,6 @@ has_children: false
 
 ---
 
-## Turn on/off Autosaves
-
 The problem in a heavily modded set up is that it has a ton of script heavy mods. Sometimes a script will get paused for saving, and that script won't be able to recover properly from it's paused state. This leads to a corrupted save. Another possibility is that your computer is already under so much strain from the scripts that the save function can actually cause a ctd when trying to save, usually during some script-intensive moment.
 
 The point being that not using auto-save can help with avoiding ctds (if you've been experiencing them on loading Screens) and hence corrupted save files when you try to load one after a CTD. In addition, Auto-saves increase cell loading times by 500%, so it's preferable to manually save once inside a cell, rather than have it integrated into the loading screen.

@@ -5,11 +5,11 @@ has_toc: false
 has_children: false
 ---
 
-# --Perk Analysis--
+## --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157993712-0d3255e6-1a90-4b39-9e1e-f61e2bf970fe.png)
 
-## Blacksmithing Branch
+### Blacksmithing Branch
 
 These perks will enhance your smithing skills and allow you to smith a wider range of items.
 
@@ -55,7 +55,7 @@ Perk Required : Advanced Blacksmithing
 
 ---
 
-## Heavy Armor Branch
+### Heavy Armor Branch
 
 These perks will allow you to smith a wider range of heavy armors and improve them more effectively.
 
@@ -121,7 +121,7 @@ Level Required : 100
 Perk Required : Ebony Smithing
 ---
 
-## Light Armor Branch
+### Light Armor Branch
 
 These perks will allow you to smith a wider range of light armors and improve them more effectively.
 
@@ -157,7 +157,7 @@ Perks Required : Elven Smithing, Morrowind Smithing
 
 ---
 
-## Mastery Branch
+### Mastery Branch
 
 These perks will allow you to smith rare, extremely powerful armors and improve them more effectively.
 

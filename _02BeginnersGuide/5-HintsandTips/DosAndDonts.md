@@ -7,7 +7,6 @@ parent: Hints and Tips
 has_toc: true
 ---
 
-# Do's and Dont's
 ## Do's
 - Do check the Missive Board for quests ranging from simple deliveries to clearing caves. For beginners, the delivery quests are a good source of gold. Picking up the vampire quests will allow you to claim the reward even if the guards killed it, though you may have to travel to The Pale in order to deliver the missive to a Vigilant of Stendarr in order to collect it.
 - Do plan what you want your character to be, and allocate your perks accordingly. Perks are precious - don't use them for the sake of using them. If you can't get a perk you want right now, save that perk point, especially if there's nothing else WORTH getting for your build at the time.

@@ -6,14 +6,13 @@ has_children: false
 description: Alteration Skill
 ---
 
-# Alteration
 
-# --Perk Analysis--
+## --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157915098-daf2e60d-3cdc-4a53-889e-509aaef62476.png)
 
 
-## Basic Perks
+### Basic Perks
 
 **Novice Alteration**
 
@@ -35,7 +34,7 @@ Level Required : 25
 Perk Required : Novice Alteration
 
 
-## Apprentice Perks
+### Apprentice Perks
 
 **Apprentice Alteration**
 
@@ -68,7 +67,7 @@ Level Required : 25/50/75
 
 Perk Required : Apprentice Alteration
 
-## Adept Tier
+### Adept Tier
 
 **Adept Alteration**
 
@@ -79,7 +78,7 @@ Level Required : 50
 Perk Required : Apprentice Alteration
 
 
-## Absorption Branch
+### Absorption Branch
 
 **Stability**
 
@@ -111,7 +110,7 @@ Perk Required : Metamagical Thesis
 {: .note}
 All spells are affected by this perk, not just alteration school.
 
-## Expert Branch
+### Expert Branch
 
 **Expert Alteration**
 
@@ -137,7 +136,7 @@ Level Required : 100
 
 Perk Required : Expert Alteration
 
-## Master Branch
+### Master Branch
 
 **Master Alteration**
 
@@ -148,9 +147,9 @@ Level Required : 100
 Perk Required : Expert Alteration
 
 
-# --Spells--
+## --Spells--
 
-## Novice
+### Novice
 
 | **Novice** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -160,7 +159,7 @@ Perk Required : Expert Alteration
 | Thermal Glimpse | 10/s | - | Concentration | Predator Vision | Get to the choppa! |
 | Transmute: Blood | 1/s | - | Concentration | The caster transmutes his own health into magicka. Beware, as this spell can be fatal to the caster. |  |
 
-## Apprentice
+### Apprentice
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -171,7 +170,7 @@ Perk Required : Expert Alteration
 | Magelight | 175 | - | 300s | The caster creates a ball of bright light that lasts \<dur> seconds and sticks where it strikes. |  |
 | Transmute Muscles on Self | 250 | 20 | 40s | Reinforces the caster's muscle tissue, fortifying unarmed damage, health and carrying capacity by \<mag> points for \<dur> seconds. |  |
 
-## Adept 
+### Adept 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -187,7 +186,7 @@ Perk Required : Expert Alteration
 | Trasnmuate Muscles on Target | 300 | 20 | 40s | Reinforces the target's muscle tissue, fortifying unarmed damage, health and carrying capacity by \<mag> points for \<dur> seconds. |  |
 | Transmute: Water | 222 | - | 300s | The caster is able to transmute small amounts of water into air, allowing him to breath underwater for \<dur> seconds. Also, the caster's ability to swim becomes improved greatly, negating any stamina penalties while swimming, even when wearing armor. |  |
 
-## Expert 
+### Expert 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -205,7 +204,7 @@ Perk Required : Expert Alteration
 | Thermal Vision | 421 | - | 300s | Predator Vision for \<dur> seconds. | Get to the choppa! Extended Edition. |
 | Transmute: Wood | 380 | - | - | Transmutes one branch to deadwood, or one deadwood to firewood. |  |
 
-## Master 
+### Master 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |

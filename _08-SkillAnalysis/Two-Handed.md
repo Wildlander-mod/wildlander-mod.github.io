@@ -5,10 +5,10 @@ has_toc: false
 has_children: false
 ---
 
-# --Perk Analysis--
+## --Perk Analysis--
 ![image](https://user-images.githubusercontent.com/26418143/157991809-b89bf86c-9ff8-47a0-b3ba-b266fb9570e2.png)
 
-## Mastery Branch
+### Mastery Branch
 
 These perks make your Two-Handed attacks more effective.
 
@@ -114,7 +114,7 @@ Damage +25%, +20 armor penetration
 
 ---
 
-## Specialization Perks
+### Specialization Perks
 
 These perks make you more effective with a specific type of Two-Handed weapon.
 

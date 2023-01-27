@@ -7,7 +7,7 @@ parent: Tips and Tricks
 has_toc: true
 ---
 
-# Intro
+## Intro
 
 A lot of people who are new to Requiem don't know what to do in the early game to gain levels, and even experienced users who want to play Dead is Dead might powergame a bit more before venturing forth. Here is a primer to help survive the first 10-15 levels without even entering dangerous combat.
 
@@ -56,7 +56,7 @@ Carefully follow the paved road and make your way to Helgan.
 ![image](https://user-images.githubusercontent.com/26418143/175818924-ddb55a41-7f0a-4bd4-b89f-fbcd9b6ecc7a.png)
 
 
-# Helgen
+## Helgen
 
 I recommend looting Helgen first before doing anything else - 3 days after game starts it fills with bandits. 
 
@@ -96,7 +96,7 @@ Leave Riverwood and head to whiterun, again picking up herbs & free vegetables f
 
 Once past the fights, pick any herbs or skill a skin critters until you arrive at the whiterun farms. Use ranged attacks to help out the companions with their giant problem. You can generally loot some or all of the crops/barrels in this area. Once you make it to whiterun proper - check the chests and barrels outside the gates - they normally contain items which can be broken down, food or items which can be sold.  
 
-# Whiterun
+## Whiterun
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -182,7 +182,7 @@ If you have collected Unusual gems and don't intend on joining the thieves guild
 Once you have cleared whiterun area, get in the wagon and drive to Riften.
 
 
-# Riften
+## Riften
 
 Lots more skill books here:
 
@@ -218,7 +218,7 @@ If you are feeling brave - you can start the "book of love" quest from Dinya Bal
 
 Use the wagon to Markarth
 
-# Markarth
+## Markarth
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -258,7 +258,7 @@ If you're crazy you can try running it to Burguk's Longhouse in Dishnikh Yal, lo
 
 Use the wagon to Solitude
 
-# Solitude
+## Solitude
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -292,7 +292,7 @@ If you're brave, There's an Alchemy book(Mannimarco, King of Worms) and a Block 
 
 Use the wagon to Windhelm
 
-# Windhelm
+## Windhelm
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -334,7 +334,7 @@ Option 2: Tell Viola - Reward: Gold, Her disposition towards you will increase, 
 
 Visit the docks talk to Gjalund, ask him to take you to Solstheim.
 
-# Raven Rock
+## Raven Rock
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -374,7 +374,7 @@ You can go past the Raven Rock Mine to the North and pick up at least five Ashen
 
 Visit the docks and pay for a return trip to Windhelm, Use the wagon to Dawnstar.
 
-# Dawnstar
+## Dawnstar
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -400,7 +400,7 @@ Empty the mines: There are two in this town - Quicksilver and iron.
 
 Dawnstar doesnt have any "easy quests" So Wagon to Winterhold.
 
-# Winterhold
+## Winterhold
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -445,7 +445,7 @@ Further along the smithing book (Heavy Armor Forging) is located inside Whistlin
 
 Wagon to Morthal
 
-# Morthal
+## Morthal
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -464,7 +464,7 @@ Skill Books:
 
 Wagon to Falkreath
 
-# Falkreath
+## Falkreath
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
@@ -488,7 +488,7 @@ There is also a Archery Book(Father Of The Niben) at hunter's rest - West of hal
 
 
 
-# Other locations
+## Other locations
 
 There are a few other places you can go that aren't too dangerous in the early game
 
@@ -503,7 +503,7 @@ If you travel to Rorikstead, you can get speech experience to convince Erik's fa
 
 
 
-# Unverified Info
+## Unverified Info
 
 There's a ton (250+) of Hanging Moss in the Hall of the Dead in Solitude, protected only by two weak skeletons and an apprentice lock.
 

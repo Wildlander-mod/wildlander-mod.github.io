@@ -6,7 +6,7 @@ has_children: false
 description: Common Install Issues
 ---
 
-# Table of contents
+## Table of contents
 {: .no_toc }
 <details markdown="block">
   <summary>

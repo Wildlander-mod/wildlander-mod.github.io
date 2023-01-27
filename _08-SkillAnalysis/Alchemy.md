@@ -6,18 +6,17 @@ has_children: false
 description: Alchemy Skill
 ---
 
-# Alchemy
 
-# _Mechanics_
+## Introduction
 
 As with all requiem perk trees, potions produced without perks will next next to useless. Alchemy is considered to be extremely powerful - and in many ways broken - due to the ease of being able to make money with it.
 
 
-# --Perk Analysis--
+## --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157913954-5530e7a7-9cf0-4896-bcc3-5474ebd1d975.png)
 
-## Basic Perks
+### Basic Perks
 
 **Alchemical Lore**
 
@@ -37,7 +36,7 @@ _Effect :_
 
 Note: Without rank 1 of this perk, all your potions will be duds (0 magnitude for 0 duration) unless your race can craft without perks.
 
-## Poison Branch
+### Poison Branch
 
 **Concentrated Poisons** 
 
@@ -66,7 +65,7 @@ _Effect :_
 Any poison classified potion you produce will gain a additional 25% magnitude and duration (stacks with Alchemical lore to product poisons up to 175% improvement over base)
 
 
-## Potion Branch
+### Potion Branch
 
 **Improved Elixirs**
 
@@ -137,7 +136,7 @@ _Effect :_
 
 When in water - Grants 5/s passive health regeneration otherwise grants 1/s.
 
-## Mastery Branch
+### Mastery Branch
 
 **Immunization** 
 

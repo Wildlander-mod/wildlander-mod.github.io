@@ -7,10 +7,11 @@ has_children: false
 
 ![image](https://user-images.githubusercontent.com/26418143/157977949-8848f8b7-d310-4220-abaa-42f03c2651a6.png)
 
-# --Perk Analysis--
-## Merchant branch
+## --Perk Analysis--
 
-### Haggling
+### Merchant branch
+
+**Haggling**
 
 Your convincing appraisals net you better prices for goods.
 
@@ -24,7 +25,7 @@ Buy and sell prices are improved 1% per your Speech level.
 
 ---
 
-### Silver Tongue
+**Silver Tongue**
 
 You sure know how to pose an argument. Prices are 10% better with the opposite gender,<br>and you're 3x more intimidating in conversation.
 
@@ -39,7 +40,7 @@ _Effect_ :
 
 ---
 
-### Merchant
+**Merchant**
 
 You're a natural trader! Merchants will buy anything from you except stolen goods.<br>Selling prices are 15% better, and you can invest in shops to permanently increase their available gold.
 
@@ -54,9 +55,9 @@ _Effect_ :
 * Every merchant will buy anything (not stolen) regardless of his profession.
 
 
-***
+---
 
-### Fence
+**Fence**
 
 It's all about who you know. You can sell stolen goods to almost any merchant.
 
@@ -70,7 +71,7 @@ _Effect_ :
 
 ---
 
-### Leadership
+**Leadership**
 
 You inspire those who fight by your side. Followers deal 20% more damage, block 75% more damage, and cast spells for 15% less magicka.<br> Their magicka and stamina are increased by 100 and regenerate 50% faster. Carry weight is increased by 50.
 
@@ -88,7 +89,7 @@ Your followers gain following bonuses:
 * Magicka and Stamina regeneration increased by 50%.
 * Carry Weight increased by 50.
 
-### Masquerade
+**Masquerade**
 
 Rank 1: You can wear faction-specific armor to try to blend in and become undetectable. Success depends on the number of enemies near you. <br>Works for Forsworn (Breton PC only), Imperials, Necromancers, Stormcloaks, Thalmor (Altmer PC only), and Warlock factions.
 
@@ -108,9 +109,9 @@ Rank 2: Improves Success chance
 <li>Found that for Thalmor there are referenced only body and head items, so wearing chest piece and headgear could count as disguise (this is a speculation though).</li>
 <li>When I look at disguise in CK it seems that only Thalmor are covered with the custom message player gets when being successfully disguised, along with chest + head reference..</li>
 
-## Dragonborn branch
+### Dragonborn branch
 
-### Lore of the Thu'um
+**Lore of the Thu'um**
 
 Your diligent study of the Thu'um reduces shout cooldown by 10%.
 
@@ -124,7 +125,7 @@ Improves Shout recovery by 10%.
 
 ---
 
-### Destructive Urge
+**Destructive Urge**
 
 Level Required : 0
 
@@ -136,7 +137,7 @@ All your shouts have magnitude increased by 15%.
 
 ---
 
-### Indomitable Force
+**Indomitable Force**
 
 Damage from enemy shouts is reduced by 50%.
 
@@ -149,7 +150,7 @@ You receive 50% damage from enemy shouts. Also, duration of enemy shouts is redu
 
 ---
 
-### Spiritual Equilibrium
+**Spiritual Equilibrium**
 
 Level Required : 0
 
@@ -161,7 +162,7 @@ Duration of your shouts is improved by 15%.
 
 ---
 
-### The Way of the Voice
+**The Way of the Voice**
 
 Level Required : 0
 
@@ -174,7 +175,7 @@ _Effect_ :
 
 --- 
 
-### Tongue's Insight
+**Tongue's Insight**
 
 Level Required : 0
 
@@ -193,7 +194,7 @@ By taking this perk, you exchange it for free Dragon Soul. You can repeat the pr
 
 ---
 
-### Unrelenting Force
+**Unrelenting Force**
 
 * Rank 1 - knocks you down and deals 20 damage when you have 25 magic resist or less AND 250 health or less. It means that when you get either 26 magic resist OR 251 current health (not base), you will stop the effect.
 * Rank 2 - deals 40 damage, needs more than 35% magic resist or more than 400 health to be resisted.
@@ -201,7 +202,7 @@ By taking this perk, you exchange it for free Dragon Soul. You can repeat the pr
 
 ---
 
-### Disarm Shout
+**Disarm Shout**
 
 * Rank 1 - needs more than 25% magic resist or more than 250 current stamina to be resisted.
 * Rank 2 - needs more than 35% magic resist or more than 400 current stamina to be resisted.

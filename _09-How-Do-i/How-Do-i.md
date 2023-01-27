@@ -5,7 +5,6 @@ nav_order: 9
 description: How Do I Change my Gear position.
 ---
 
-## Change my Gear position?
 
 Use the Control+Backspace key-bind to access Immersive Equipment display
 

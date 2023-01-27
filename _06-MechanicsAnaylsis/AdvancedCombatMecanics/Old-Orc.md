@@ -7,8 +7,6 @@ parent: Advanced Combat Analysis
 description: The Old Orc - Shouts, Spells, Stats
 ---
 
-# The Old Orc
-
 *Basic Stats*
 
 |Stat| Value |

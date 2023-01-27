@@ -6,7 +6,6 @@ has_children: true
 description: customization Guide
 ---
 
-## How Do I Add Mods?
 
 At present this is unsupported and not recommended. 
 

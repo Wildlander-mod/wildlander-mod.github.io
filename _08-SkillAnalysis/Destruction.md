@@ -6,11 +6,10 @@ has_children: false
 description: Destruction Skill
 ---
 
-# --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157954028-3ff4f5a1-d250-4f4a-85d7-e2aab91288a4.png)
 
-## Basic Perks
+### Basic Perks
 
 Novice Destruction - You've acquired two Destruction spells from the Novice tier. Novice spells cost 55% less magicka, and improve 1% per skill level.
 
@@ -18,7 +17,7 @@ Empowered Elements (25 Destruction required) - You can dual-cast Destruction spe
 
 Impact (50 Destruction required) - Dual-casted projectile Destruction spells have 25% chance of staggering your foes. 
 
-## Fire Branch
+### Fire Branch
 
 Pyromancy (25/50 Destruction required) - All fire spells deal 15/30% more damage.
 
@@ -26,7 +25,7 @@ Cremation (75 Destruction required) - Your high-tier fire spells can set ablaze 
 
 Fire Mastery (100 Destruction required) - Your fascination with fire now grants you 25% resistance to it, while your fire spells are 5% stronger and 10% less costly.
 
-## Frost Branch
+### Frost Branch
 
 Cryomancy (25/50 Destruction required) - All frost spells deal 15/30% more damage.
 
@@ -34,7 +33,7 @@ Deep Freeze (75 Destruction required) - Many of your ice spells can freeze enemi
 
 Frost Mastery (100 Destruction required) - Your understanding of frost magic grants you 25% resistance to it, while your frost spells are 5% stronger and 10% less costly.
 
-## Lightning Branch
+### Lightning Branch
 
 Electromancy (25/50 Destruction required) - All lightning spells deal 15/30% more damage.
 
@@ -42,7 +41,7 @@ Electrostatic Discharge (75 Destruction required) - Your shock spells damage you
 
 Lightning Mastery (100 Destruction required) - Your aptitude for lightning grants you 25% resistance to it, while your shock spells are 5% stronger and 10% less costly.
 
-## Mastery Branch
+### Mastery Branch
 
 Apprentice Destruction (25 Destruction required) - You've acquired two Destruction spells from the Apprentice tier. Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 
@@ -52,13 +51,13 @@ Expert Destruction (75 Destruction required) - You've acquired two Destruction s
 
 Master Destruction (100 Destruction required) - You've acquired one Destruction spell from the Master tier. Master spells cost 55% less magicka, and improve 5% per skill level.
 
-## Rune Branch
+### Rune Branch
 
 Rune Mastery (50 Destruction required, must have Apprentice Destruction and Fire, Frost, and Lightning runes) - You can cast more powerful Runes at longer distances, and you can maintain three Runes at the same time.
 
-# --Spells--
+## --Spells--
 
-## Novice
+### Novice
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -66,7 +65,7 @@ Rune Mastery (50 Destruction required, must have Apprentice Destruction and Fire
 |Icewind | 40/s | 17 | Concentration | The caster evokes a blast of cold that freezes everyone inside for \<mag> points per second, draining both health and stamina. When the spell is released, the cold slowly ebbs away. Casting multiple Icewinds at the same target will not increase the applied damage. | |
 |Lightning Sparks | 40/s | 20 | Concentration | The caster causes lightning arcs to spring forth that shocks everyone inside for \<mag> points per second, draining both health and magicka. When the spell is released, the currents slowly ebbs away. Casting multiple Lightning Sparks at the same target will not increase the applied damage. | |
 
-## Apprentice
+### Apprentice
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -81,7 +80,7 @@ Rune Mastery (50 Destruction required, must have Apprentice Destruction and Fire
 |Lightningrune (Rank I) | 200 | 60 | - | The caster creates a magical rune that explodes when enemies come near, dealing \<mag> points of shock damage. | |
 |Lightningrune (Rank II) | 250 | 130 | - | The caster creates a magical rune that explodes when enemies come near, dealing \<mag> points of shock damage. | Only available with the Destruction perk *Rune Mastery*. |
 
-## Adept
+### Adept
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -106,7 +105,7 @@ Rune Mastery (50 Destruction required, must have Apprentice Destruction and Fire
 |Venomous Spray | 250/s | 10 | Concentration | Deals \<mag> poison damage for \<dur> seconds. | |
 |Whirlwind Cloak | 320 | 15 (10) | 20s | The caster cloaks themselves in a windstorm for \<dur> seconds. Enemies in melee range have a chance to be flung away, dealing \<mag> points of magic damage. Increase Magic Resistance by (mag)% | |
 
-## Expert
+### Expert
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -122,7 +121,7 @@ Rune Mastery (50 Destruction required, must have Apprentice Destruction and Fire
 |Lightning Wall | 145/s | 20 | Concentration | Sprayed on the ground, it creates a wall of lightning that does \<mag> points of shock damage per second. | |
 |Venomous Blast | 300 | 10 | 300s |  Deals \<mag> poison damage for \<dur> seconds. |  | |
 
-## Master
+### Master
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |

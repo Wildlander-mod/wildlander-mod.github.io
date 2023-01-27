@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Challenges
+title: Community Challenges
 nav_order: 1
 has_toc: true
 has_children: false
-description: Community Challeges
+description: Community Challenges
 ---
 
-# Introduction
+
 
 These are challenges set by the community - for those lacking inspiration for what to do
 

@@ -198,7 +198,7 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
     300 Damage to Health, Stamina, and Magicka while in outdoor cells between 5AM-7PM.
 
 ### Stage 4
-<a href="#" id="stage4"></a> <!-- anchor for the above link to scroll to this -->
+
     Searing Sun - Health, Stamina, and Magicka reduced by 400
 
     Drain Life will drain 10 Health, 5 Stamina, and 5 Magicka per second

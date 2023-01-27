@@ -5,8 +5,19 @@ nav_order: 5
 description: Sharpening Wheel 
 ---
 
-# Sharpening Wheel Recipes
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInputBox").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tbody tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
 
+<input type="text" id="myInputBox" placeholder="Search for Weapon.." >
 
 Item To Temper| Mats | Requires Perk
 -- | -- | --
@@ -287,3 +298,4 @@ Miraak's Sword | 1 Daedra Heart 1 Ingot: Ebony| Legendary
 Miraak's Sword Replica | 1 Ingot: Ebony| Legendary
 Rueful Axe | 1 Ingot: Ebony| Legendary
 Volendrung | 1 Ingot: Ebony| Legendary
+{: #myTable }

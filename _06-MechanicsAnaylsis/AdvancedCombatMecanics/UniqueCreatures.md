@@ -7,7 +7,7 @@ parent: Advanced Combat Analysis
 description: Unique Creatues - Shouts, Spells, Stats
 ---
 
-# **Aldhissla** Sewer Troll
+## **Aldhissla** Sewer Troll
 
 NPC_:5F01EBCF
 
@@ -47,7 +47,7 @@ Mod: Skyrim Sewers
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 4 |
 
-#  **Elsi the Spiker** (Humanoid)  
+##  **Elsi the Spiker** (Humanoid)  
 
 NPC_:81AD36E3
 
@@ -99,7 +99,7 @@ Mod: Requiem
 * Martial Arts - Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 
 
-# **Gigantic Mudcrab** - think bigger than a 18-wheeler Mudcrab 
+## **Gigantic Mudcrab** - think bigger than a 18-wheeler Mudcrab 
 
 NPC: 81046761
 
@@ -138,7 +138,7 @@ Mod: Requiem
 |Pierce(Daggers)    | 100 |
 |Ranged (Bows & Crossbows)  | 250 |
         
-#  **Gorak the Trollslayer** : Named Giant
+##  **Gorak the Trollslayer** : Named Giant
 
 NPC: 81044BF2
 
@@ -178,7 +178,7 @@ Mod: Requiem
 |Paralysis  | Immune |  
 |Knock Down| Minor |  
 
-#  **Jon the Mad**
+##  **Jon the Mad**
 
 Mod: Requiem
 
@@ -209,7 +209,7 @@ NPC: 814B1DAA
 |Frost  | 50 |  
 |Unrelenting Force| Immune | 
 
-#  **Kamel Snow demon** : Sewer Dwelling Ice Atronoch
+##  **Kamel Snow demon** : Sewer Dwelling Ice Atronoch
 
 Mod: Skyrim Sewers
 
@@ -260,7 +260,7 @@ NPC: 5F031342
 |Pierce(Daggers)    | 25% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
-#  **Karstaag** : Powerful ghostly Frost Giant.
+##  **Karstaag** : Powerful ghostly Frost Giant.
 
 NPC: 04019665
 
@@ -314,7 +314,7 @@ Mod: Dragonborn
 **Additional Perks**
 Cryomancy 2  All frost spells deal 30% more damage.
 
-#  **King Olaf**: Called Dragur in game - but is final boss in King Olafs tomb
+##  **King Olaf**: Called Dragur in game - but is final boss in King Olafs tomb
 
 NPC: 81AD38BF
 
@@ -379,7 +379,7 @@ Mod: Requiem
 * Mighty Strike - A single strike from His two-handed weapon can fell almost any foe.<br>[damage x 1.25, +20 armor penetration]
 
 
-# **Kru'ul** : Giant Frost Troll
+## **Kru'ul** : Giant Frost Troll
 
 NPC: 8104517E
 
@@ -420,7 +420,7 @@ Mod: Requiem
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 4 |
 
-#  **Krii** : Named Atronoch
+##  **Krii** : Named Atronoch
 
 NPC_:841C3377
 
@@ -475,7 +475,7 @@ Electromancy - All shock spells deal 15% more damage.
 |Pierce(Daggers)    | 50% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
-#  **Lis** Named Frostbite Spider
+##  **Lis** Named Frostbite Spider
 
 NPC: 000A19FE
 
@@ -512,7 +512,7 @@ Mod: Base Game
 |Fire  | N/A | 25% |
 |Poison  | 60% | N/A |
 
-#  **Lord Tusk** : Big Horker.
+##  **Lord Tusk** : Big Horker.
 
 NPC: 04026196
 
@@ -549,7 +549,7 @@ Mod Fozar's Requiem
 *Weaknesses*
 - These guys attacks are slow as all hell. Just go in close to bait an attack, dodge or block and than attack. rinse and repeat
 
-#  **Nimhe** : Named giant Frostbite Spider
+##  **Nimhe** : Named giant Frostbite Spider
 
 ACHR: 00060BB5
 
@@ -587,7 +587,7 @@ Mod: Base Game
 |--|--|
 |Ranged (Bows & Crossbows)  | 1 |
 
-#  **Old Salty** Named Mudcrab
+##  **Old Salty** Named Mudcrab
 
 NPC: 0401D77A
 
@@ -618,7 +618,7 @@ Mod: Fozar's Requiem
 |Slash (Swords & Axes)  | 3 |
 |Ranged (Bows & Crossbows)  | 3 |
 
-#  **Ragnok** : A Frost Giant
+##  **Ragnok** : A Frost Giant
 
 NPC: 8135214E
 
@@ -660,7 +660,7 @@ Mod: Requiem
 |Knock Down| Minor | N/A |
 
     
-#  **Ron the Crow**: Human Bandit.
+##  **Ron the Crow**: Human Bandit.
 
 NPC: 810731D2
 
@@ -708,7 +708,7 @@ penetration]
 * Battle Axe Focus II - His advanced battleaxe skill further increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.15, +20 armor penetration]
 * 300 - All attacks do 300% damage.
 
-#  **Sinding** : Named Werewolf
+##  **Sinding** : Named Werewolf
 
 NPC: 0006C1B7
 
@@ -747,7 +747,7 @@ Mod: Base Game
 |Silver (Melee)      | 150% Damage Done|
 |Silver (Arrows)     | 150% Damage Done|
 
-#  **Sos** : Named Atronoch
+##  **Sos** : Named Atronoch
 
 NPC: 841C337A
 
@@ -802,7 +802,7 @@ Mod: Fozar's Requiem
 **Additional Perks**
 Electromancy - All shock spells deal 15% more damage.9-
 
-#  **Snow** : Giant Snowy Sabrecat
+##  **Snow** : Giant Snowy Sabrecat
 
 NPC: 813A8C1F
 
@@ -840,7 +840,7 @@ Mod: Requiem
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  |  2 |
     
-#  **The Pale Lady** : Named Wispmother.
+##  **The Pale Lady** : Named Wispmother.
 
 NPC: 000D37F4
 
@@ -885,7 +885,7 @@ Mod: Base Game
 **Additional Perks**
 * Cryomancy 2 - All frost spells deal 30% more damage.
 
-#  **The Beast**:
+##  **The Beast**:
 
 NPC :81094B16
 
@@ -893,7 +893,7 @@ Modd:Reqiuem
 
 Named Version of a standard [troll](http://wiki.wildlandermod.com/06-MechanicsAnaylsis/AdvancedCombatMecanics/Monsters/#troll)
 
-#  **Thunder** : Giant Storm Atronach
+##  **Thunder** : Giant Storm Atronach
 
 NPC: 81210246
 
@@ -949,7 +949,7 @@ Mod: Requiem
 **Additional Perks**
 * Electromancy 2 - All shock spells deal 30% more damage.
 
-#  **Ulik** : Giant Troll
+##  **Ulik** : Giant Troll
 
 NPC: 8104517A
 
@@ -982,7 +982,7 @@ Mod: Requiem
 |Poison  | 60% | N/A |
 |Knock Down| Minor | N/A |  
 
-#  **Ulfric Stormcloak** : Rebel Jarl
+##  **Ulfric Stormcloak** : Rebel Jarl
 
 NPC: 000D0575
 
@@ -1056,7 +1056,7 @@ penetration]
 * ArmorPenetration15 - Targets Damage resistace is lowered to 85%
 
 
-# **Ulvig** Named Werewolf 
+## **Ulvig** Named Werewolf 
 
 NPC_:5F023A38  
 
@@ -1094,7 +1094,7 @@ Mod: Skyrim Sewers
 |Silver (Melee)      | 150% |
 |Silver (Arrows)     | 150% |
 
-#  **Zah** : Named Atronoch
+##  **Zah** : Named Atronoch
 
 NPC: 841C3375
 

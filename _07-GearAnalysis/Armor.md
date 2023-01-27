@@ -6,7 +6,6 @@ has_toc: true
 has_children: false
 
 ---
-# Armor 
 
 What armor is the best? Is a question I get asked a lot. 
 

@@ -5,11 +5,9 @@ description: Class Guide Template
 nav_order: 1
 ---
 
-# Template
+## Submitted By
 
-# < Name of Class>
-
-# Description
+## Description
 
 < Description of the Class, including recommended Races and standing stone selected during character creation. If there is a blessing the player should get - that should also go here >
 
@@ -17,28 +15,28 @@ Race | Stone | Blessing | Supernatural
 |--|--|--|--|
 <Race> | <Stones> | <>blessings> | Werewolf / Vampire or None
 
-# Skills
+## Skills
 
-## Starting Skills
+### Starting Skills
 < Description of the Skills selected during character creation >
 
-## Secondary Skills
+### Secondary Skills
 < Description of the skills added after character creation >
 
-# Perks
+## Perks
 < Suggested perks selected for this class>
 
 https://banananaut.github.io/NannerPlanner/ Can be used to show this.
 
-# Level ups
+## Level ups
 
 < How to assign Level up stats>
 
-# Recommended weapons / Spells
+## Recommended weapons / Spells
 
-# Recommended armor / Clothing
+## Recommended armor / Clothing
 
-# Content 
+## Content 
 
 
 ---

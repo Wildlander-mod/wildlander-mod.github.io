@@ -5,7 +5,7 @@ nav_order: 111
 has_children: false
 description: todo list
 ---
-# How to contribute
+
 
 If you wish to make contributions to the wiki - you can go to our support Github and [raise a issue ticket](https://github.com/Wildlander-mod/Support/issues/new/choose)
 
@@ -14,7 +14,7 @@ Select the type of submission you would like to make, Fill in the form as approp
 {: .important}
 Any Google sheets you provide must be set to share with anyone with the link so we can read it :)
 
-# To do list
+## To do list
 
 Vampire lord - check and verify
 
@@ -26,10 +26,7 @@ To each perk page - Any "none vanilla" mechanics, Standardize Format (mostly don
 
 Summons guide - kinda like the enemy guide but for player cast summons (or NPC cast summons)
 
----
 
-Houses guide
-* screenshots of various rooms need adding
 ---
 
 Deep Dives

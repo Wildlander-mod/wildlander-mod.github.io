@@ -7,8 +7,6 @@ has_children: true
 description: Advanced Combat Analysis
 ---
 
-# Advanced Combat Mechanics
-
 This Page was intended to be a reference guide to enable the player to be able to work out how the heck to kill some things in Wildlander. It Kinda grew from there to include all sorts of reference material from Requiem so that players wouldn't have to go look up a billion & one perks, spells and the like to work out what the enemies were shooting at them. 
 
 This guide is broken up into several sections -  Bandits / Mages / Forsworn / Necromancers will not be covered in the guide (with the exception to the Named Unique bosses) as there are far to many varieties to list, all of which have different perks, weapons, armor. The next section contains reference material to identify weaknesses of the armor specific human type enemies can do and the weapons they use.

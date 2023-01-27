@@ -7,8 +7,6 @@ parent: Advanced Combat Analysis
 description: Miraak - Shouts, Spells, Stats
 ---
 
-# Miraak
-
 Shouts (do 130% damage, shout recovery is 150% )
 - "Dragon Aspect" Take on the mighty aspect of a dragon, delivering colossal blows, with an armored hide, and more powerful shout (For 720 seconds, armor rating increases by 150, power attacks deal 75% more damage, fire & frost resistance improves by 25%, and shout cooldown reduces by 20%. Also, if His health is below 50%, an Ancient Dragonborn will manifest to protect him
 - "Cyclone" A cyclone will be produced, similar in ability to Unrelenting Force, but will instead send the target in an upwards motion whilst dealing 200 damage. 

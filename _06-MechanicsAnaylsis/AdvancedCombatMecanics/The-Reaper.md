@@ -7,7 +7,6 @@ parent: Advanced Combat Analysis
 description: The Reaper - Shouts, Spells, Stats
 ---
 
-# The Reaper
 
 Npc: 0201A73E
 

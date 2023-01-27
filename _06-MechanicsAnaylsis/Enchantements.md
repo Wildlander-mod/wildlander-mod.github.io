@@ -7,7 +7,7 @@ has_children: false
 description:  Enchantments Analysis
 ---
 
-# Armor Enchantments
+## Armor Enchantments
 
 Armor enchantments improve the player's attributes, or provide the player with useful new abilities or resistances. An enchantment's base magnitude is the number shown when you hover over that enchantment (in the enchanting menu) without selecting it. This number specifies the magnitude of the enchantment when a Grand soul is used by a player with level 0 enchanting skill and no enchanting perks.
 
@@ -544,7 +544,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 </ol>
 </div>
 
-# Weapon Enchantments
+## Weapon Enchantments
 
 Base magnitude is the number shown when you hover over an enchantment without selecting it, if you have no perks. It is equivalent to the magnitude with a Grand soul, 0 skill, and no perks. Base uses is defined the same way but cannot be seen directly without the use of the console.
 
@@ -690,7 +690,7 @@ Base magnitude is the number shown when you hover over an enchantment without se
 </div>
 
 
-# Unique Enchantments gained via enchanting perks
+## Unique Enchantments gained via enchanting perks
 
 {: .note}
 Numbers in brackets indicate the base values of the enchant. 
@@ -706,22 +706,22 @@ Numbers in brackets indicate the base values of the enchant.
 * Annihilation: Deals [20] points of unresistable damage and has a small chance to inflict a severe amount of unresistable damage.
 * Toxicity: The weapon is infused with a magical poison, dealing [10] damage to health and stamina for [5] seconds.
 
-# Weapon enchants from Handplaced Items
+## Weapon enchants from Handplaced Items
 * Dawnguard Wax Axe   - Made of a rare silver alloy and enchanted to devastate the undead. (Applies Turn Undead Level 35, for 5 seconds and deals 35 points of unstoppable damage) [ Enchantment can be learned but will be missing the "Silver" component when placed on other Weapons ]
 * Dawnguard Warhammer - Made of a rare silver alloy and enchanted to devastate the undead. (Applies Turn Undead Level 40, for 5 seconds and deals 40 points of unstoppable damage) [ Enchantment can be learned but will be missing the "Silver" component when placed on other Weapons ]
 
 
-# Enchantments the player Cannot learn
-## Campfire
+## Enchantments the player Cannot learn
+### Campfire
 * Backpack - (Applies Fortify carry weight - 70 points)
 
-## Dawnguard
+### Dawnguard
 * Aetherial Staff - Summon a Dwarven Spider or Sphere for [60] seconds wherever the caster is pointing.
 * Dawnguard Rune Warhammer - It consists of a rare silver alloy and is enchanted to magically inscribe nearby surfaces with exploding runes upon bashing (dealing [33] points of fire damage).
 * Dawnguard Rune War Axe - Made of a rare silver alloy, the power of this sanctified Axe grows in power with each undead soul it sends back to the realms beyond. (for every 10 undead killed -  10 additional sun damage to every undead in 15ft)
 * Harkon's Sword - Lord Harkon's sword drains the life and soul of its foe. - The sword bears a unique enchantment, which will only work if the wielder is a vampire. It causes the screen to go slightly dark with each successful strike. ( Absorb Health/Stam/Magic 50 points, apply soul trap for 5 seconds, and a 1 second Paralyse)
 
-## Hunterborn
+### Hunterborn
 * Alchemist's Crown - you will discern an effect of the first ingredient you consume.
 * Amulet of Boethiah - Agent of Boethiah - Sneaking is 10% better. Prices are 10% better. Decreases Light Armor skill by 15 points. Decreases Heavy Armor skill by 15 points.
 * Amulet of Hircine - Agent of Hircine - Bows do 10% more damage. Sneaking is 10% better. Decreases your health by 25 points.

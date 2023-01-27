@@ -7,8 +7,6 @@ parent: Advanced Combat Analysis
 description: Malkoran - Shouts, Spells, Stats
 ---
 
-# Malkoran
-
 *Basic Stats*
 
 |Stat| Value |

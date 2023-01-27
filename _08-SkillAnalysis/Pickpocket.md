@@ -6,14 +6,14 @@ has_children: false
 description: Pickpocket Skill
 ---
 
-# --Mechanics--
+## --Mechanics--
 
 Without a perk your chance to success is 0% and therefore requires a perk to be invested to even attempt pickpocketing.
 
-# --Perk Analysis--
+## --Perk Analysis--
 ![image](https://user-images.githubusercontent.com/26418143/157975399-80bb9953-9740-49d2-905e-fd04c9e78c0b.png)
 
-## Pickpocket Branch
+### Pickpocket Branch
 
 These perks will improve your effectiveness as a pickpocket.
 

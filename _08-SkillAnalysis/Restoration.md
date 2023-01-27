@@ -6,15 +6,15 @@ has_children: false
 ---
 
 
-# Introduction
+## Introduction
 
 In Wildlander, restoration is a insanely useful school of magic to level if you plan on doing anything near undead. With the offensive sun spells, turn spells and healing aura's to keep yourself topped up. lower level enemy undead wont be able to get near to you in order to be able to hit you with theit melee weapons.
 
 
-# --Perk Analysis--
+## --Perk Analysis--
 ![image](https://user-images.githubusercontent.com/26418143/157976504-ad8cea06-1fde-4fe1-aff3-b7487d273d0e.png)
 
-## Mastery Branch
+### Mastery Branch
 
 ---
 
@@ -68,7 +68,7 @@ Perk Required : Expert Restoration
 
 ---
 
-## Restoration perks
+### Restoration perks
 
 ---
 
@@ -162,9 +162,9 @@ Perk Required : Power of Life
 
 ---
 
-# --Spells--
+## --Spells--
 
-## Novice
+### Novice
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -172,7 +172,7 @@ Perk Required : Power of Life
 | Healing Aura on Self | 150 | .25 | 1200s | The recipient is surrounded by an aura that slowly restores health for \<dur> seconds. |  |
 | Healing Aura on Target | 150 | .25 | 1200s | The recipient is surrounded by an aura that slowly restores health for \<dur> seconds. |  |
 
-## Apprentice
+### Apprentice
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -185,7 +185,7 @@ Perk Required : Power of Life
 | Sunfire | 75 | 50 | - | The caster evokes a ball of searing sunlight that deals \<mag> points of sun damage to any undead. |  |
 | Turn Undead (Rank I) | 84 | 6 | 30s | The caster causes Undead up to level \<mag> to flee for \<dur> seconds. |  |
 
-## Adept 
+### Adept 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -201,7 +201,7 @@ Perk Required : Power of Life
 | Sunfire Cloak | 248 | 12 | 60s | The caster enshrouds himself in bright, almost searing light. For \<dur> seconds, undead in its range take \<mag> points of sun damage per second. |  |
 | Turn Undead (Rank II) | 168 | 13 | 30s | The caster causes Undead up to level \<mag> to flee for \<dur> seconds. |  |
 
-## Expert
+### Expert
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -214,7 +214,7 @@ Perk Required : Power of Life
 | Repel Undead (Rank II) | 353 | 16 | 30s | The caster causes Undead up to level \<mag> to flee for \<dur> seconds. |  |
 | Turn Undead (Rank III) | 266 | 21 | 30s | The caster causes Undead up to level \<mag> to flee for \<dur> seconds. |  |
 
-## Master 
+### Master 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |

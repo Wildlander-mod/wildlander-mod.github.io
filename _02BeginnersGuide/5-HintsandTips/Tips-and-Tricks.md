@@ -7,7 +7,7 @@ parent: Tips and Tricks
 has_toc: true
 ---
 
-# Hints & Tips
+
 ## Hints
 - Mudcrabs on both north and south shores of lake Ilinalta are a good place to train Block to 20. Be careful swimming near the Lady Stone in the center as there's a giant slaughterfish nearby.
 - Any damage you take will not heal on its own so having a way to heal yourself reliably is HUGE in Wildlander. You can use the alchemy perk that allows constant healing over time, as it basically functions as a slower, always-on Healing Aura spell (Both healing aura and perk function the same way, but Aura is time limited). Other options are health drain weapons, which is very reliable, or potions. However, potions are generally not fast enough unless you can make sure you're not taking much damage through heavy armor or the like. You can also use a Poultice and wait for an hour which will heal you when not in combat.

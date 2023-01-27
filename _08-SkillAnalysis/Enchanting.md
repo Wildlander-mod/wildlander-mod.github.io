@@ -5,7 +5,7 @@ has_toc: false
 has_children: false
 ---
 
-# Introduction
+## Introduction
 
 Enchanting is the arcane art of infusing matter permanently with magic energy.
 
@@ -28,11 +28,11 @@ Depending on how you build your character, Enchanting has different levels of us
 Overall, Enchanting is not as good as in vanilla, characters benefitting from Enchanting are those of hybrid Warrior/Archer/Paladin types. Mages/thieves/and their subclasses (nightblades etc) may easily ignore the skill. You absolutely can't beat TGM, Nightingale, Ancient Shrouded Armor or the Arch Mage outfit.
 
 
-# _Perk Trees_
+## _Perk Trees_
 
 ![image](https://user-images.githubusercontent.com/26418143/157918096-60bda5e9-bf93-429e-84ec-ab2eabd5742f.png)
 
-## [ Enchantment Branch ]
+### [ Enchantment Branch ]
 The Enchantment Branch consists of perks that improve the strength of your Enchantments.
 
 **Enchanter's Insight** (Rank 1/2)
@@ -115,7 +115,7 @@ Allows you to craft Daedric Staves at the Forge.
 
 
 
-## [ Experimentation Branch ]
+### [ Experimentation Branch ]
 
 The Experiment Branch consists of perks that allow crafting more magical items and acquiring new unique enchantments.
 
@@ -184,8 +184,8 @@ Allows you to craft Ebony Staves at the Forge.
 - Greater Force: Has a 25% chance to deal 50 points of additional damage and send the target flying.
 
  
-## [ More Information about Enchanting ]
-### [ No Perk No Enchanting ]
+### [ More Information about Enchanting ]
+#### [ No Perk No Enchanting ]
 
 Without Enchanter's Insight (Rank 1), you cannot use enchanting tables.
 
@@ -195,7 +195,7 @@ You can also buy 'Scrolls of Soul Gem Evocation' (mostly from Court Mages) that 
 
 +) Even for the Mace of Molag Bal, you need one of the methods that allow you to recharge items, to make the weapon recharge itself.
 
-### [ Staff Crafting ]
+#### [ Staff Crafting ]
 
 You can craft Staves at the Forge, using Battlestaves and filled Soul Gems. Basic staves only require Enchanting skill level, while stronger staves require certain perks in Enchanting skill.
 
@@ -210,7 +210,7 @@ You will need pre-filled Soul Gems, which means you can't use Soul Gems that you
 |Ebony	|	1 Ebony Battlestaff, 1 filled Grand Soul Gem |	75 , Artificer's Insight perk |Frost Atronach, Storm Atronach, Paralysis
 |Daedric	|	1 Daedric Battlestaff, 12 filled Grand Soul Gem| 100 , Enchanting Mastery perk |Infernal Flames, Souldrinker, Torn Heavens
 
-### [ Soul Gem Crafting ]
+#### [ Soul Gem Crafting ]
 With Soul Gem Mastery perk, you can craft Soul Gems at the Smelter.
 
 Soul Gem Recipes & Requirements:

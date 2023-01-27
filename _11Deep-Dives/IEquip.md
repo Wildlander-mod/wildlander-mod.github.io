@@ -6,7 +6,7 @@ has_toc: false
 has_children: false
 description: Iequip
 ---
-# iEquip
+
 
 iEquip is an antidote:-
 - To the endless menu grind which pervades Skyrim, allowing you to switch weapons, spells, shouts, powers and other equipment on the fly, without menus to pause and interrupt gameplay.
@@ -39,7 +39,7 @@ iEquip is an antidote:-
 	<img src="https://imgur.com/7HbPnEd.png">
 </div>
 
-### The Controls
+## The Controls
 -  Four main gameplay hotkeys - one each for left and right hand, one for shouts/powers, and one controlling both the consumables and poison slots
 -  Multiple controls per key - press, double press, triple press, hold - each with different functions
 -  Configurable multi-tap and hold delays
@@ -53,7 +53,7 @@ iEquip is an antidote:-
 </iframe>
 
 
-### The Widget
+## The Widget
 - Advanced, animated SkyUI HUD Widget
 - Real Time WYSIWYG Edit Mode - every individual element is fully customisable (position, scale, transparency, rotation, text colour and alignment)
 - Five widget 'slots' - Left Hand, Right Hand, Shouts/Powers, Consumables (beneficial potions, food and drink), and Poisons
@@ -71,7 +71,7 @@ iEquip is an antidote:-
 <iframe class="youtube_video" src="https://www.youtube.com/embed/L41cvw8ervg" allowfullscreen="1" frameborder="0">
 </iframe>
 
-### MANAGING THE QUEUES 
+## MANAGING THE QUEUES 
 
 - Add items to your queues from within your Inventory and Magic menus by highlighting them and pressing your main hotkeys
 - Auto-Add items to your queues when equipping directly, either through the menus or other hotkey methods
@@ -90,7 +90,7 @@ iEquip is an antidote:-
 </iframe>
 
 
-### Switching Weapons, Spells, Shouts & Other Items
+## Switching Weapons, Spells, Shouts & Other Items
 
 - Tap main hotkeys to cycle the left, right, shout/power and consumable slots
 - Double tap consumable key to cycle poison slot
@@ -111,7 +111,7 @@ iEquip is an antidote:-
 - Full bound spell support with animated switching from spell school to bound weapon icons when spell is successfully cast and back again when sheathed
 
 
-### Ranged Ammo
+## Ranged Ammo
 
 -  Left slot becomes cycleable ammo queue when a ranged weapon is equipped
 -  Option to sort ammo queue by damage (and always equip best ammo), name (always equip last ammo) or quantity (always equip most plentiful ammo)
@@ -121,7 +121,7 @@ iEquip is an antidote:-
 -  Enchanted ammo support with enchantment type display, with higher priority sorting (by damage) than base ammo
 -  Various options for what to do when last ammo for current ranged weapon is used up, including switching ranged weapon type, equipping another weapon, or doing nothing and waiting for more ammo to be found
 
-### Using Poisons
+## Using Poisons
 
 -  Double tap consumable key to cycle poison queue
 -  Double tap left or right key to apply displayed poison to currently equipped weapon
@@ -131,7 +131,7 @@ iEquip is an antidote:-
 -  Optional sliders for Charges Per Vial and Concentrated Poison perk multiplier
 -  Optional poisoning messages
 
-### Recharging
+## Recharging
 
 -  Optional fully configurable enchantment charge meters or dynamic fill soulgems
 -  Low charge warnings
@@ -141,7 +141,7 @@ iEquip is an antidote:-
 -  Option to disallow use of oversized souls (no wastage)
 -  Integrated support for GIST - Genuinely Intelligent Soul Trap, including option to disallow use of partially filled soul gems
 
-### Potions and Consumables
+## Potions and Consumables
 
 -  Single press to cycle consumable queue, hold to consume displayed item
 -  Health, Magicka and Stamina Potion Groups with group counts, containing all relevant potions sorted into separate Restore/Fortify/Regen Rate sub-queues
@@ -150,7 +150,7 @@ iEquip is an antidote:-
 -  Low Restore potion count early warning system alters text colour of Potion Group count as restore potions run low
 -  Active effect checking blocks consumption if potion effect (buff or restore over time) already active on player, reducing wastage
 
-### QuickLight & Torches
+## QuickLight & Torches
 
 - Dedicated QuickLight hotkey allowing you to instantly equip either a torch or the Candlelight spell, and press again to switch back to previous item(s)
 - Fully customisable torch life meter displaying remaining torch life
@@ -161,7 +161,7 @@ iEquip is an antidote:-
 - Integrated Simple Drop Lit Torches function (double tap left to drop lit torch), courtesy of Snotgurg, with several options for what happens when you drop a torch, including drop another, cycle the left hand, equip a shield, etc.
 - If a torch is dropped during 'Burn Out', the dropped torch retains reduced light radius and burns out completely after 30 seconds
 
-### Beast Form
+## Beast Form
  
 - Werewolf transformation support including claw icons and howl switching (shout slot) once multiple howls learnt
 - Dawnguard Vampire Lord transformation support with power and left hand spell switching, and dynamic switching on land/take off
@@ -181,32 +181,32 @@ iEquip is an antidote:-
 
 A suite of fully configurable 'heat of battle' features designed to give you quick access to exactly what you need, when you need it most.
 
-### QUICK SHIELD
+## QUICK SHIELD
 
 -  Triple tap left key to automatically equip the first shield (or ward spell) found in the left hand queue.-  If nothing is found in the queue then iEquip will scan your wider inventory for something suitable.
 -  Option to always 'Prefer Magic' in which case look for ward first, then shield
 -  Otherwise check current right hand item and match shield for weapon, or ward for spell
 -  If 2H weapon equipped then equip a shield and 1H weapon, or ward and spell from preferred school
 
-### QUICK RANGED
+## QUICK RANGED
 
 -  Triple tap right key to automatically equip first of preferred ranged weapon type or ranged bound weapon spell found in right hand queue.If nothing is found in the queue then iEquip will scan your wider inventory for something suitable.
 -  Various options for what to switch back to on second right key triple tap
 
-### QUICK RESTORE & QUICK BUFF
+## QUICK RESTORE & QUICK BUFF
 
 -  Triple tap consumable key to automatically consume restore and/or buff potions for enabled stats as required
 -  Fully configurable activation thresholds and intelligent 'Smart Select' with active effect and combat state checking
 -  Allows intelligent smart selection and consumption of up to nine potions with a single activation
 -  Option to 'Prefer Magic' for Healing, in which case a healing spell will be equipped (with option to dual cast) rather than consuming a healing potion. If magic preferred but no spell found then a potion will be consumed, if potion preferred but none found then optionally a healing spell will be equipped if found.-  If spells are equipped then triple tapping again will switch back to the previous items, with an option to automatically consume a restore magicka potion.
 
-### QUICK DUALCAST
+## QUICK DUALCAST
 
 -  When equipping 'either hand' spells from the chosen schools always equip them in both hands ready for dual casting
 -  Option to only allow QuickDualCast if the spell has been added to both queues
 -  Differs from the regular double tap to dual cast feature in that spells will always be dual equipped based on the QuickDualCast settings without the need for an additional action 
 
-### PRESELECT - MODE
+## PRESELECT - MODE
 
 -  Triple tap shout/power key to activate Preselect Mode
 -  Three additional slots will be displayed alongside left, right and shout/power slots

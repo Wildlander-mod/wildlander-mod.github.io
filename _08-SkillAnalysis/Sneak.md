@@ -5,7 +5,7 @@ has_toc: false
 has_children: false
 ---
 
-# --Mechanics --
+## --Mechanics --
 
 Unperked your odds of being detected are tripled, and therefore you are guaranteed to be detected. 
 
@@ -15,11 +15,11 @@ Lighting is much more important for staying hidden - Standing in front of / Near
 
 Running while in stealth at low levels will cause you to be detected, toggle walk and keep to the shadows.
 
-## Sleeping Targets
+### Sleeping Targets
 
 You deal 100x more damage to a sleeping target.
 
-## Sneak Attack Immune
+### Sneak Attack Immune
 
 Some endgame creatures in Requiem are immune to sneak attacks, while you will still have 'sneak attack was successful' notification, you will only deal normal damage.
 
@@ -44,10 +44,10 @@ Here is a list of creatures which are immune.
 
 Notice almost all of these creatures are either undead, mechanical or otherwise lacking in physical organs.
 
-# --Perk Analysis--
+## --Perk Analysis--
 ![image](https://user-images.githubusercontent.com/26418143/157988086-866c3b4b-575e-4539-84fe-d78e53847742.png)
 
-## Mastery Branch
+### Mastery Branch
 
 This branch improves your sneaking ability and grants you additional stealth capabilities.
 
@@ -135,7 +135,7 @@ While not wearing Heavy Armor, decreases your overall chance to be detected by 1
 
 ---
 
-## Sneak Attack Branch
+### Sneak Attack Branch
 
 This branch makes your sneak attacks more effective.
 

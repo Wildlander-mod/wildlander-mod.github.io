@@ -4,13 +4,12 @@ title: Heavy Armor Analysis
 has_toc: false
 has_children: false
 ---
-# Heavy Armor
 
-# --Perk Analysis--
+## --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157921477-e9a2e4b6-b731-4a40-a5a6-47003dae882f.png)
 
-## Protection Branch
+### Protection Branch
 
 These perks make you more effective while wearing Heavy Armor.
 
@@ -76,7 +75,7 @@ Perk Required : Power of the Combatant
 
 ---
 
-## Battlemage Branch
+### Battlemage Branch
 
 This branch makes you more effective at casting spells while wearing Heavy Armor.
 

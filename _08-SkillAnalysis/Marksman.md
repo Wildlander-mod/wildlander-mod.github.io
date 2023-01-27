@@ -5,7 +5,7 @@ has_toc: false
 has_children: false
 ---
 
-# --Mechanics--
+## --Mechanics--
 
 Bow-Breaking: If you or the enemy is hit with a melee weapon while having a low quality bow or crossbow in hand, that weapon is broken and Completely destroyed. 
 
@@ -15,15 +15,15 @@ Damage Resistance: Various enemies in the game gain resistance when show with ar
 
 Armor Penetration: Arrows once a certain perk is learned, penetrate a percentage of armor. 
 
-# --Light vs Heavy Bows vs Crossbows--
+## --Light vs Heavy Bows vs Crossbows--
 
-## Crossbows 
+### Crossbows 
 
 Crossbows are great backup weapons. They fit a Backup Archer best. Stealth Archers already get nasty amounts of damage penetration via the Deft Strike perk and Gruesome Shot, They'll already have an Armor Penetration of 75% already, and with the innate AP of a crossbow being multiplicative instead of additive, it won't add much. In addition, Crossbows take much longer to reload, and can leave you hanging when you need to get out of position. A bow will be better in the longrun.
 
 An archer, and a pure archer especially, would lose out on DPS and reliability by choosing a crossbow over a bow. Not to mention you have to go through the entire crossbow reload animation before which leaves you quite vulnerable. (unless you don't mind cheesing by constantly holstering it)
 
-## Light Bows
+### Light Bows
 
 Light bows consume much less stamina than Heavy bows. They, in turn, do less damage (usually about half as much of its heavier equivalent)
 
@@ -33,7 +33,7 @@ Unfortunately for them, as soon as you get the level 60 perk Quick Shot, they be
 
 Light Bows: Hunting, Wooden > Ancient Nordic > Elven (Smithing 50) > Glass (Smithing 75)
 
-## Heavy Bows
+### Heavy Bows
 
 An archer's best friend (unless your friend is too exhausting to play with and you can't compensate with stew)
 
@@ -43,12 +43,12 @@ If your race cannot drink Bestial Stew, and you have serious stamina problems, I
 
 Heavy Bows:  Long, Imperial, Iron, Steel > Dwarven (Smithing 25) > Orcish (Smithing 50) > Ebony (Smithing 75) > Dragonbone (Smithing 100) > Daedric (Smithing 100)
 
-# --Perk Analysis--
+## --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157956960-b24226e0-5f13-4365-8731-bbf5bcd3e34b.png)
 
 
-## Basic Perks
+### Basic Perks
 
 **Ranged Combat Training** 
 
@@ -75,7 +75,7 @@ _Effect_ :
 
 Allows running and strafing while attacking with light bows and crossbows
 
-## Trick Branch
+### Trick Branch
 
 **Eagle Eye** 
 
@@ -145,7 +145,7 @@ _Effect_ :
 
 70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.)
 
-## Damage Branch
+### Damage Branch
 
 **Precise Aim** 
 
@@ -188,7 +188,7 @@ _Effect_ :
 +100% armor penetration from ammunition
 
 
-## Mastery
+### Mastery
 
 **Stunning Precision**
 
@@ -203,9 +203,9 @@ _Effect_ :
 Staggering hits will also stun your target
 
 
-# --Ammunition--
+## --Ammunition--
 
-## Arrows
+### Arrows
 
 <table>
   <tr>
@@ -1105,7 +1105,7 @@ Staggering hits will also stun your target
 </table>
 
 
-## Bolts
+### Bolts
 
 <table>
   <tr>

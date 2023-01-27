@@ -4,12 +4,12 @@ title: Ultimate Skyrim Modding Guide
 description: Ultimate Skyrim - Modding Guide
 parent: Ultimate Skyrim
 ---
+{: .warning } 
+> NONE OF THESE PATCHES WILL WORK FOR WILDLANDER. Don't waste your time !!!
 
-NONE OF THESE PATCHES WILL WORK FOR WILDLANDER. Dont waste your time !!!
 
-## Modding Guides
 
-### Important Terms
+## Important Terms
 
 1. mod organizer      - The tool which makes everything work - Installed as part of the Wabbajack installation in <Ultsky install directory>\Content\Mod Organizer.exe
 2. Reqtificator       - The requiem patcher - Makes 3rd party mods compatible with the Ultsky install. If you are going to do any modding at all this must be setup first. Instructions for how to do this are [here](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)
@@ -19,7 +19,7 @@ NONE OF THESE PATCHES WILL WORK FOR WILDLANDER. Dont waste your time !!!
 6. Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
 
 
-### Guides list
+## Guides list
 <details markdown="block">
   <summary>
     Expand to view
@@ -32,7 +32,7 @@ NONE OF THESE PATCHES WILL WORK FOR WILDLANDER. Dont waste your time !!!
 
 ---
 
-### Ultimate Skyrim Modding Basics
+## Ultimate Skyrim Modding Basics
 
 Installing Mods not covered by guides. 
 
@@ -63,7 +63,7 @@ Close mod organizer - and use the launcher to start the game.
 
 ---
 
-### Known Mod Issues/Incompatibilities
+## Known Mod Issues/Incompatibilities
 
 The following Types of mods are NOT Compatible. (cause game breaking bugs)
 > * Any Alternate start mod. (Ultimate Skyrim reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
@@ -87,7 +87,7 @@ The following types of mods have Issues
 
 ---
 
-### Graphics Overhaul Guide
+## Graphics Overhaul Guide
 
 The discord staff have updated the old Rodricktech graphics guide to 4.0.7 and beyond. 
 
@@ -95,14 +95,14 @@ The discord staff have updated the old Rodricktech graphics guide to 4.0.7 and b
 
 
 ---
-### NPC Overhaul Guide
+## NPC Overhaul Guide
 We have an updated WICO, Bijin and EEO guide.
 Please note that this will ONLY work on a NEW game, NO save or template will be compatible with this guide!
 
 [Guide](https://docs.google.com/document/d/1V0W74f-WdmsFP2PwYDRgs9zVtPoJ3wjNPBvBRUeRiss/preview)
 
 ---
-### BMX Gameplay Overhaul Guide
+## BMX Gameplay Overhaul Guide
 This guide (updated regularly) is aimed at helping players create an even more immersive playthrough by implementing some quality-of-life improvements, UI aesthetics along with further gameplay enhancements that allow for a better roleplay experience
 
 [Guide](https://docs.google.com/document/d/1CVO9m8v72BLvwQAqZlG9z7mYFxJPgUOqhP1SDScIoIA/preview)
@@ -110,7 +110,7 @@ This guide (updated regularly) is aimed at helping players create an even more i
 Issues with this guide should be directed to Bmxfreestyle357#6234 on discord.
     
 ---
-### Anna Gameplay Overhaul Guide
+## Anna Gameplay Overhaul Guide
 
 If you enjoy the following playstyles and themes, these MCM settings and extra mods might be perfect for you:
 
@@ -134,7 +134,7 @@ This guide was designed using the 4.0.7 modpack, and some of the mods featured i
 ---
  
     
-### Autosave Manager
+## Autosave Manager
 
 Auto-saves trigger when loading into a Cell - when all the scripts are running that can corrupt a save and increase your load times massively.
 
@@ -167,9 +167,9 @@ Finally
 
 
 ---
-### EnaiSiaion mods
+## EnaiSiaion mods
 
-#### Wintersun - Faiths of Skyrim* [Guide updated 2021/04/02]
+### Wintersun - Faiths of Skyrim* [Guide updated 2021/04/02]
 
 Even if you are familiar with[ Wintersun](https://www.nexusmods.com/skyrim/mods/95545?tab=description), do check out the changes in[ Seg's Requiem patch](https://www.nexusmods.com/skyrim/mods/95859?tab=description) used here. Some of the tweaks are significant.
 
@@ -212,7 +212,7 @@ Right side
 Changelog:
 Enabled the scripts from the mod Alternate House of Horrors. Without the scripts activated the mod would not work.
 ```
-#### Sacrosanct - Vampires of Skyrim with Seg's patch* [Patch updated 2019/08/21]
+### Sacrosanct - Vampires of Skyrim with Seg's patch* [Patch updated 2019/08/21]
 
 
 Refer to the[ Sacrosanct](https://www.nexusmods.com/skyrim/mods/80159?tab=description) page for mod features, and also see the change log for[ Segolia94's Sacrosanct-Requiem Patch v1.2](https://www.nexusmods.com/skyrim/mods/95859?tab=description) which tweaks a few minor aspects of the mod for better synergy with Requiem.
@@ -266,7 +266,7 @@ MCM settings:
 
 _A_ _new game_ _is always recommended with any scripted mod. Having said that, I have not encountered any issues after installing and loading my old template save. I was able to use the vampiric powers right away, including feeding, draining, Vampire's Command / Seduction / Sight / Will._
 
-#### Andromeda - Unique Standing Stones of Skyrim* [Guide updated 2020/09/15]
+### Andromeda - Unique Standing Stones of Skyrim* [Guide updated 2020/09/15]
     
 This[ standing stone overhaul](https://www.nexusmods.com/skyrim/mods/89219?tab=description) allows for some very interesting play styles. It is pretty much compatible out of the box, with one minor exception pertaining to the Undeath mod (optional patch posted). I haven't changed anything in terms of balance because nothing strikes me as balance-breaking at first glance (_EDIT: see comments below_), but I've only just started using the mod. Do leave some feedback if you think something needs tweaking.
 
@@ -295,7 +295,7 @@ Changelog:
 
 ---
 
-### SNBCJ's mods
+## SNBCJ's mods
 
 _A big Thank You to SNBCJ for his great work!_
 
@@ -319,7 +319,7 @@ Changelog:
 ```
 
 
-#### Requiem - Immersive Divine Blessings (R-IDB) v1.31
+### Requiem - Immersive Divine Blessings (R-IDB) v1.31
 
 **_Note: Aside from blessings, the mod also tweaks certain items and gear, so I recommend taking some time to read through the[ Nexus page](https://www.nexusmods.com/skyrim/mods/90691) to learn about the changes. A notable example is the Necromancer's Amulet - the mod raises the minimum magicka requirement to equip it from 150 to 300 base magicka._**
 
@@ -344,7 +344,7 @@ _To install:_
 _*Installing **R-IDB** on an existing save: All shrines and amulets should work right off the bat, but make sure to clear any active effects from old blessings._
 
 
-#### Requiem - Immersive Abilities (R-IA) v8.0
+### Requiem - Immersive Abilities (R-IA) v8.0
 
 **_[The patch for R-IA v1.6 works with R-IA v8.0 and US 4.0.6 HF2]_**
 
@@ -362,7 +362,7 @@ _To install:_
 
 _*Installing **R-IA** mid-game is not recommended._
 
-#### Requiem - Standing Stone Rebalance (R-SSR) v3.6
+### Requiem - Standing Stone Rebalance (R-SSR) v3.6
 
 **_[Mod works with US 4.0.6 HF2 out of the box]_**
 
@@ -381,7 +381,7 @@ _*Installing **R-SSR** on an existing save:_
 _If you install R-SSR mid-game, the standing stones will be updated, but the player's active stone abilities will not be updated automatically and they need to be reset. To reset your character's active powers, travel to a different standing stone in the[ same group](https://www.reddit.com/r/skyrimrequiem/wiki/standing_stones#wiki_standing_stones_of_requiem_.28v_3.0.29) and activate it. Then travel back to your original standing stone and re-activate it. See the stone locations[ here](https://en.uesp.net/wiki/Skyrim:Standing_Stone). (To speed up the process you can use 'coc' in the console to teleport to each standing stone. The "Console Location Code" is listed on the individual standing stone pages)._
 
 
-#### Requiem - Classic Alchemy Overhaul (R-CAO) v6.2
+### Requiem - Classic Alchemy Overhaul (R-CAO) v6.2
 
 **_[updated for US 4.0.6 HF2]_**
 
@@ -398,7 +398,7 @@ _*Installing **R-AR** on an existing save:_
 _It seems to work fine when installed mid-game. Note that the mod tweaks the Alchemy tree, so if you've already acquired some of the base Requiem Alchemy perks, you may need to remove and reapply them using[ console commands](https://elderscrolls.fandom.com/wiki/Console_Commands_(Skyrim)/Perks), to get the new stats. Users have confirmed this worked for them._
 
 
-#### Requiem - Classic Food and Drink (R-CFD) v3.3
+### Requiem - Classic Food and Drink (R-CFD) v3.3
 
 **_[Updated for US 4.0.6 HF2]_**
 
@@ -415,7 +415,7 @@ _*Installing mid-playthrough should be safe._
 
 ---
 
-### Rain Ash and Snow Shaders 
+## Rain Ash and Snow Shaders 
 Rain Ash and Snow Shaders or R.A.S.S. is a shader overhaul all-in-one that aims to add slightly more realistic shaders and particle effects to NPC, Creatures and your Character. [Link Here](https://www.nexusmods.com/skyrim/mods/103218?tab=files)
 
 Installation Instructions:
@@ -431,13 +431,13 @@ In-Game Config (best results):
 
 ---
 
-### Discord Community Patches
+## Discord Community Patches
 
 The following are custom patches developed by the discord community. Unless otherwise specified, all will require a new save and the Reqtificator running after installation.
 
-#### from kilted Frog#6208
+### from kilted Frog#6208
 
-##### Interesting NPCs 
+#### Interesting NPCs 
 
 [Link Here](https://www.nexusmods.com/skyrim/mods/8429/) (Download & install, Main file, Update file, both Optional Files (hearthfire & Vampires)
 
@@ -517,9 +517,9 @@ Right Side
 > - Rerun Reqtificator.
 
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_
-#### from Liz#7199
+### from Liz#7199
     
-##### Revert Notification Speed changes back to default.
+#### Revert Notification Speed changes back to default.
 
 Quick patch to revert the notification scroll speed back to vanilla defaults, can be added mid-playthrough. No need to run Reqtificator.
 
@@ -531,7 +531,7 @@ Install Instructions:
 > - Make sure left side it is located after "Ultimate Skyrim core files".
 > - enable, no need to run Reqtificator.
     
-##### Wounds Crafting patch.
+#### Wounds Crafting patch.
 Patch to move the crafting recipes for wounds to the crafting table and crafting ledger where appropriate. Also replaced Firewood with Wood.   
 I have also merged in the file "Requiem - Wounds" [Link Here](https://www.nexusmods.com/skyrim/mods/94958) (all credits to Atardecer), and added compatibility to leveled lists between the requiem patch & Ultimateskyrim.esp
     
@@ -542,7 +542,7 @@ Install Instructions:
 > - Wounds.esp above requiem.esp     
 > - Ultsky - Wounds.Esp After Ultimate Skyrim patches.   
 
-##### Liz's Campfire Placeables
+#### Liz's Campfire Placeables
     
 Updates: 
 > - 05/19/21 12:30 PST - Added Spinning wheel, Added craftmanship perk required to make crafting stations, corrections to mismatched carry weights between Standalone & all-in-one versions. 
@@ -578,9 +578,9 @@ Right side
 
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_
 
-#### from [Plotinuz#5876](https://www.nexusmods.com/skyrim/users/655458) 
+### from [Plotinuz#5876](https://www.nexusmods.com/skyrim/users/655458) 
 
-##### [Barely Used Vanilla Actors Recycle Project](https://www.nexusmods.com/skyrim/mods/85540) 
+#### [Barely Used Vanilla Actors Recycle Project](https://www.nexusmods.com/skyrim/mods/85540) 
 
 [Patch location](https://www.nexusmods.com/skyrim/mods/107219/)
     
@@ -595,7 +595,7 @@ On the RIGHT SIDE (plugins tab) in MO2:
 > - Put Buvarp.esp below relationship Dialogue Overhaul, and above Ultsky.
 > - Patch below: Wintersun 3.1.5 - Seg 1.4 - Ultsky patch
 
-##### [Dragon Combat Overhaul (DCO)](https://www.nexusmods.com/skyrim/mods/32597)
+#### [Dragon Combat Overhaul (DCO)](https://www.nexusmods.com/skyrim/mods/32597)
 
 What the patch does:
 - forwards Dragon Combat Overhaul (DCO) specific flying, acceleration and other DCO effects into a Ultsky/Requiem optimized environment.
@@ -626,7 +626,7 @@ On the LEFT side:
 > - Doesn't matter unless you have a mod that overwrites scripts from DCO main file.
     
 
-##### [Realistic Armor](https://www.nexusmods.com/skyrim/mods/102963)
+#### [Realistic Armor](https://www.nexusmods.com/skyrim/mods/102963)
 
 [Patch location](https://drive.google.com/file/d/1qOZmcoCWNs4pUbzWdbdk4cj_HRdMHei6/view?usp=sharing)
     
@@ -649,7 +649,7 @@ On the RIGHT SIDE (plugins tab) in MO2:
 Load Mod & patch BELOW Ultimate Skyrim, ABOVE Automatic Variants (and paper world map if you have this in your load order).
     
 
-##### [Helgen Reborn](https://www.nexusmods.com/skyrim/mods/35841) 
+#### [Helgen Reborn](https://www.nexusmods.com/skyrim/mods/35841) 
 
 [Patch location](https://drive.google.com/file/d/16bVZFpcB1oCPhj1W5iJHzJm3DWBP4h3N/view?usp=sharing)
 
@@ -659,7 +659,7 @@ Install Instructions:
 > - Install patch between Requiem and Ultsky on the right side in MO2. Left side should not matter.
 > - Nothing ELSE with Helgen Reborn has been done. Consider this very beta. (There are some weapons that are not fixed yet that had insane damage. 10000 from vanilla mod, turned 40000 in requiem for the indifferent. What the heck those weapons are for, I do not know, but holy sh*te!)
 
-##### [Requiem - Unarmed Combat Enhancer WITH integrated Cosmetic UCE addons](https://www.nexusmods.com/skyrim/mods/75779?tab=files) (Download version 2.4.2 from OLD FILES)
+#### [Requiem - Unarmed Combat Enhancer WITH integrated Cosmetic UCE addons](https://www.nexusmods.com/skyrim/mods/75779?tab=files) (Download version 2.4.2 from OLD FILES)
 
 I have merged in the file "Requiem - UCE Addon" that add "Adds cosmetic Cestus and Claws that can be worn over gloves/gauntlets."
 
@@ -675,7 +675,7 @@ Right side
 > - Load Requiem - Unarmed Combat Enhancer Below Requiem.esp and ABOVE UltimateSkyrim.esp. 
 > - Load patch on Right side below Ultimate Skyrim.esp and BELOW R-IA 1.6 Ultsky 407 patch.
 
-##### [Sofia - The Funny Fully Voiced Follower](https://www.nexusmods.com/skyrim/mods/54527?tab=description)
+#### [Sofia - The Funny Fully Voiced Follower](https://www.nexusmods.com/skyrim/mods/54527?tab=description)
 
 This file is an attempt at an update of the "Requiem 1.9.x - Sofia Follower Patch" (created by LosGrak) to Ultsky Requiem.
 
@@ -701,7 +701,7 @@ Right Side:
 > SofiaFollower.esp before Requiem.esp
 > Requiem - Sofia.esp after Requiem.esp
 
-##### [Guards Armor Replacer](https://www.nexusmods.com/skyrim/mods/95719?tab=files)
+#### [Guards Armor Replacer](https://www.nexusmods.com/skyrim/mods/95719?tab=files)
 
 Patch notes:
 
@@ -740,9 +740,9 @@ As always - You have to run Reqtificator.
 
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_
 
-#### from Phinocio#6969 
+### from Phinocio#6969 
 
-##### Buffed nightingale armor 
+#### Buffed nightingale armor 
 
 [Patch location](https://cdn.discordapp.com/attachments/566109104360390657/711400642190508082/BuffedNightingaleArmor.zip)
 
@@ -760,7 +760,7 @@ because Requiem is lazy and uses the same effect for both.
 Install Instructions:
 > Load anywhere after Requiem ESP. Left side doesn't matter.
 > 
-##### [Dwemer Hacker](https://www.nexusmods.com/skyrim/mods/80660)
+#### [Dwemer Hacker](https://www.nexusmods.com/skyrim/mods/80660)
 
 [Patch location](https://github.com/phinocio/Dwemer-Hacker-US-Patch/releases/tag/1.0.0)
 
@@ -771,7 +771,7 @@ Install Instructions:
 
 ---
 
-### No ESP mods
+## No ESP mods
 
 [Toggle Enchantment](https://www.nexusmods.com/skyrim/mods/78134) lets you turn on/off your weapon's enchantment when you don't want to waste the charge.
 
@@ -849,7 +849,7 @@ EZ2C DIALOGUE MENU: Makes the Dialogue menu look much nicer with a high amount o
 
 ----
 
-### Other Mods
+## Other Mods
 
 [Requiem - Less Double-Vision (R-LDV)](https://www.nexusmods.com/skyrim/mods/73666/) - Reduces the Blur/double vision you get when you get a debuff. 
 
@@ -883,7 +883,9 @@ As always - You have to run Reqtificator.
 
 [Ultimate Skyrim - Music mods patch](https://www.nexusmods.com/skyrim/mods/99822) a ultimate Skyrim patch to add a whole bunch of music mods to the game.
 
-### What About legacy of the Dragonborn?
+## What About legacy of the Dragonborn?
+
+I was having such a nice day - why did you need to bring this up?
 
 This mod is **NOT** recommended for install and only experienced modders who are capable of writing their own patches should even make an attempt.  
 

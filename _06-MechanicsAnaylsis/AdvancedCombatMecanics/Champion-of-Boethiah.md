@@ -7,9 +7,6 @@ parent: Advanced Combat Analysis
 description: Champion of Boethiah - Shouts, Spells, Stats
 ---
 
-# Champion of Boethiah
-
-NPC id:000834FE
 
 Wears Ebony Mail, Gauntlets and Boots.
 

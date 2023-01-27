@@ -5,7 +5,7 @@ has_toc: false
 has_children: false
 description: Immersive Equipment Display
 ---
-# Immersive Equipment Display
+
 
 ### If you're here just to find out how to turn off displaying favorited equipment and do not wish to use the mod.
 Ctrl+Backspace to open the menu > Tools > Settings > Displays > Player Gear Toggle Keys > Make a hotkey w/ or w/o a modifier and you can turn that feature on/off as you like.

@@ -8,7 +8,6 @@ parent: Advanced Combat Analysis
 description: Aldiun - Shouts, Spells, Stats
 ---
 
-# Aldiun
 
 *Basic Stats*
 

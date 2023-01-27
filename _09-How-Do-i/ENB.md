@@ -6,7 +6,7 @@ has_children: false
 
 ---
 
-## How Do I Change The ENB Settings?
+
 
 You can edit the various Settings inside of the Shift+Enter menu in game
 

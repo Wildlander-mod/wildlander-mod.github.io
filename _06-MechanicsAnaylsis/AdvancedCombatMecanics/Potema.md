@@ -7,7 +7,6 @@ parent: Advanced Combat Analysis
 description: Potema - Shouts, Spells, Stats
 ---
 
-# Potema
 
 *Basic Stats*
 

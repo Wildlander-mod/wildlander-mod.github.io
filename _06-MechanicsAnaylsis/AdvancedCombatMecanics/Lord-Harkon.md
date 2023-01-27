@@ -7,8 +7,6 @@ parent: Advanced Combat Analysis
 description: Lord Harkon - Shouts, Spells, Stats
 ---
 
-# Lord Harkon
-
 *Basic Stats*
 
 |Stat| Value |

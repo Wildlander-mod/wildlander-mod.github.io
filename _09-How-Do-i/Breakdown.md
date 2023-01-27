@@ -5,7 +5,6 @@ nav_order: 9
 description: How Do I Index.
 ---
 
-## Break Down Armor
 
 Use the Breakdown keybind "?"
 

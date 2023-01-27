@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ultimate Skyrim
+title: Ultimate Skyrim Installation Guide
 description: Ultimate Skyrim Installation Guide
 has_children: true
 ---
@@ -16,9 +16,6 @@ has_children: true
 {:toc}
 </details>
 
-
-
-## Ultimate Skyrim
 
 Welcome to _Ultimate Skyrim_, and thank you for your interest in the project! This page will guide you through the install process.
 

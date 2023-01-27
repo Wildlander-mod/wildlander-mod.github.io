@@ -6,14 +6,13 @@ has_children: false
 description: Conjuration Skill
 ---
 
-# Conjuration
 
-# --Perk Analysis--
+## --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/213414291-dfef2a8b-b985-4dd0-83c2-8141ed329203.png)
 
 
-## Basic Perk
+### Basic Perk
 
 **Novice Conjuration**
 
@@ -42,7 +41,7 @@ Summon Swarm (Rank I) | 18/s |
 
 ---
 
-## Oblivion Branch
+### Oblivion Branch
 
 **Stabilized Binding**
 
@@ -108,7 +107,7 @@ _Effect_ :
 
 ---
 
-## Summoning Branch
+### Summoning Branch
 
 **Summoner's Insight**
 
@@ -142,7 +141,7 @@ Rank 2: Allows 3 summons of any type to be active at once
 
 ---
 
-## Necromancy Branch
+### Necromancy Branch
 
 **Necromancy**
 
@@ -203,7 +202,7 @@ On spell running out, the minion will return to a dead body and can be raised ag
 
 ---
 
-## Bound Weapon Branch
+### Bound Weapon Branch
 
 **Mystic Binding**
 
@@ -270,7 +269,7 @@ Note: Bound Hunting Knife is not affected by this perk.
 
 ---
 
-## Mastery Branch
+### Mastery Branch
 
 **Apprentice Conjuration**
 
@@ -415,9 +414,9 @@ Teleport	|270
 
 ---
 
-# --Spells--
+## --Spells--
 
-## Novice 
+### Novice 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -430,7 +429,7 @@ Summon Spirit Wolf | 125 | - | 12s | The caster summons the spirit of a feral wo
 Summon Swarm (Rank I) | 40/s | 5 | Concentration | The caster summons a swarm of insects from the realm of Hircine which burrows into the target's flesh and deals \<mag> poison damage and \<mag> physical damage for \<dur> seconds. | |
 
 
-## Apprentice 
+### Apprentice 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -450,7 +449,7 @@ Summon Spectral Warhound | 200 | - | 10s | The caster summons the ghost of a fer
 Summon Spirit Mudcrab | 200 | - | 10s | The caster summons the spirit of a mudcrab for \<dur> seconds. | |
 Summon Swarm (Rank II) | 40/s | 6 | Concentration | The caster summons a swarm of even more ferocious insects from the realm of Hircine that burrow into the target's flesh, dealing \<mag> poison damage and \<mag> physical damage for \<dur> seconds. | |
 
-## Adept 
+### Adept 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -468,7 +467,7 @@ Summon Spectral Warrior | 400 | - | 8s | The caster summons the ghost of a warri
 Summon Spirit Bear | 400 | - | 8s | The caster summons the spirit of a furious bear for \<dur> seconds. | |
 Summon Spirit Troll | 500 | - | 8s | The caster summons the spirit of a rampaging troll for \<dur> seconds. | |
 
-## Expert 
+### Expert 
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -487,7 +486,7 @@ Summon Spirit Sabrecat | 400 | - | 8s | The caster summons the spirit of a vicio
 Summon Storm Atronach | 675 | - | 6s | The caster summons a Storm Atronach for \<dur> seconds. | |
 Teleport Vitals | 500 | 1 | 15s | The caster attempts to teleport a living humanoid's heart out of its body. <br/>If the spell is not successful, it still ruptures the victim's vitals, dealing \<mag> points of unresistable damage for \<dur> seconds. | |
 
-## Master
+### Master
 
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -17,6 +17,7 @@ description: Customization Guide
  {:toc}
 </details>
 
+
 ## A warning before proceeding
 
 Adding mods is generally considered a bad idea unless you know what you are doing. 
@@ -31,7 +32,7 @@ Wildlander Staff have no obligations to assist you with customizing your install
 
 ## Modding Basics
 
-NEVER EVER uninstall mods unless you are starting a new play-through.
+**NEVER EVER** uninstall mods unless you are starting a new play-through.
 
 Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
 
@@ -41,6 +42,14 @@ Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE
 
 {: .important}
 > You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
+
+### Important Terms
+
+1. Mod organizer      - The tool which makes everything work - Installed as part of the Wildlander installation in <install directory>\Game-files\Mod Organizer.exe
+1. [Reqtificator](#Reqtificator)       - The requiem patcher - Makes 3rd party mods compatible with the Wildlander install.
+1. [Dyndolod](#dyndolod) - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
+1. Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
+     
 
 ### Known Mod Issues/Incompatibilities
 
@@ -83,7 +92,7 @@ If you have two Plugin's which touch the same records then you need to make a de
 
 ---
 
-#### Installing Mods not covered by guides.
+### Installing Mods not covered by guides.
 
 All mods should be added to Mod organizer, not to your Skyrim directory. 
 
@@ -111,7 +120,7 @@ Close mod organizer - and use the launcher to start the game.
 
 ---
 
-### Can I add.....?
+## Can I add.....?
 
 How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
 
@@ -122,7 +131,7 @@ Things to check
 
 ---
 
-### Can i Remove.....?
+## Can i Remove.....?
 
 The Wildlander mod itself has a lot of Master files (144 plugins) which cannot be disabled without removing all of the relevant records from wildlander.esp. 
 
@@ -138,30 +147,7 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 
 ---
 
-#### Adding New Animations with Nemesis/FNIS alternative: 
-
-1. Most important - before doing anything - You have to add Nemesis Engine to the windows defender exception list, or whatever Anti Virus you are running otherwise it will crash on startup.
-2. Install your animation mods as normal.
-3. Run Nemesis from Mod organizer dropdown.
-
-
-The following Video shows a tutorial of how to install some Nemesis Animations
-[Skyrim 2022 Ultra Modded - Animation mod recommendations and how to install - Wildlander](https://youtu.be/gc8Ai7jYDXc?t=1077)
-
-The video covers most of it and I already linked to the timestamp that is really important, but there are a few edge cases still left.
-
-Q: I have followed the tutorial but my animations don't show up/Nemesis just throws up something like: Initializing Engine update, engine update complete 15 seconds. But none of my extra animation mods are referenced.
-
-A: Click Launch Nemesis Engine and not Update.
-
-Q: I clicked Launch Nemesis engine and now I am getting an access error or some other sort of crash.
-
-A: You have to add Nemesis Engine to the windows defender exception list, or whatever Anti Virus you are running. For Windows defender, go to its system  and add "Nemesis Unlimited Behavior Engine.exe" Process to the exclusion list. It should look something like this. 
-
-![image](https://user-images.githubusercontent.com/26418143/173229406-08b78e3a-6ec5-4eaf-9647-5d618559c6e0.png)
-
-
-#### I've added mods and i'm getting crashes to desktop!
+## I've added mods and i'm getting crashes to desktop!
 
 Firstly - Check our [crash help](https://wiki.wildlandermod.com/01Support/CTDs/) - it maybe you are getting one of the crashes from Wildlander itself
 
@@ -172,23 +158,9 @@ More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
 
 and finally - if all else fails search here (or make your own post) <https://www.nexusmods.com/skyrimspecialedition/mods/49130?tab=posts>
 
-#### Resaver - Save cleaner and script remover.
-
-This tool is useful for removing Bugged/crashed scripts from your save and correct script-lag. 
-
-I strongly recommend reading the mod page And/or watching tutorial videos before using.
-
-ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files
-
-
-#### Xedit / tes5edit/ SSEedit
-
-If you want to mod Wildlander - then you need to know how to use this tool to check for conflicts. 
-
-The bible for the tool is located <https://tes5edit.github.io/docs/>
 
 -----
-## Tool Setup
+## Tools
 
 ### Creation Kit
 
@@ -212,7 +184,50 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 4) Set  Skyrim SE folder to Game-files\Stock game 
 5) Set  papyrus compiler to Game-files\Stock game\Papyrus Compiler
 
-### Dyncdolod
+### Dyndolod
+
+DynDOLOD is an optional mod that greatly improves the appearance of distant terrain. It can affect your framerate, but the impact isn’t too bad & I think the visual difference is well worth it.
+
+
+### Reqtificator
+
+
+### Nemesis 
+
+1. Most important - before doing anything - You have to add Nemesis Engine to the windows defender exception list, or whatever Anti Virus you are running otherwise it will crash on startup.
+2. Install your animation mods as normal.
+3. Run Nemesis from Mod organizer dropdown.
+
+
+The following Video shows a tutorial of how to install some Nemesis Animations
+[Skyrim 2022 Ultra Modded - Animation mod recommendations and how to install - Wildlander](https://youtu.be/gc8Ai7jYDXc?t=1077)
+
+The video covers most of it and I already linked to the timestamp that is really important, but there are a few edge cases still left.
+
+Q: I have followed the tutorial but my animations don't show up/Nemesis just throws up something like: Initializing Engine update, engine update complete 15 seconds. But none of my extra animation mods are referenced.
+
+A: Click Launch Nemesis Engine and not Update.
+
+Q: I clicked Launch Nemesis engine and now I am getting an access error or some other sort of crash.
+
+A: You have to add Nemesis Engine to the windows defender exception list, or whatever Anti Virus you are running. For Windows defender, go to its system  and add "Nemesis Unlimited Behavior Engine.exe" Process to the exclusion list. It should look something like this. 
+
+![image](https://user-images.githubusercontent.com/26418143/173229406-08b78e3a-6ec5-4eaf-9647-5d618559c6e0.png)
+
+### Resaver - Save cleaner and script remover.
+
+This tool is useful for removing Bugged/crashed scripts from your save and correct script-lag. 
+
+I strongly recommend reading the mod page And/or watching tutorial videos before using.
+
+ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files
+
+
+### Xedit / tes5edit/ SSEedit
+
+If you want to mod Wildlander - then you need to know how to use this tool to check for conflicts. 
+
+The bible for the tool is located <https://tes5edit.github.io/docs/>
 
 ----
 
