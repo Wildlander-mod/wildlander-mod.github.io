@@ -9,12 +9,12 @@ description: Launcher Issues
 ## Table of contents
 {: .no_toc }
 <details markdown="block">
-	<summary>
-	   Expand to view
-	</summary>
-	{: .text-delta }
-	1. TOC
-	  {:toc}
+<summary>
+   Expand to view
+</summary>
+{: .text-delta }
+1. TOC
+{:toc}
 </details>
 
 {% include Wabbajack_AV.md %}

@@ -41,12 +41,12 @@ Dragons are NOT stealth Immune, but they have very good eyesight when flying. It
 ## Index
 {: .no_toc .text-delta }
 <details markdown="block">
-	<summary>
-	   Expand to view
-	</summary>
-	{: .text-delta }
-	1. TOC
-	  {:toc}
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
 </details>
 
 ## Shouts

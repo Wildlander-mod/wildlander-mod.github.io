@@ -9,12 +9,12 @@ Description: V Modlist
 ## Mod Organizer Sections
 {: .no_toc }
 <details markdown="block">
-	<summary>
-	   Expand to view
-	</summary>
-	{: .text-delta }
-	1. TOC
-	  {:toc}
+<summary>
+   Expand to view
+</summary>
+{: .text-delta }
+1. TOC
+{:toc}
 </details>
 Note: this modlist covers all of  onwards
 

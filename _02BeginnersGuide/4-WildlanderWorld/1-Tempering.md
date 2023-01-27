@@ -10,12 +10,12 @@ has_toc: true
 ## Table of contents
 {: .no_toc }
 <details markdown="block">
-	<summary>
-	   Expand to view
-	</summary>
-	{: .text-delta }
-	1. TOC
-	  {:toc}
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
 </details>
 
 ## Introduction

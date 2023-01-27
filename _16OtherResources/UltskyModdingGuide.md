@@ -23,7 +23,7 @@ NONE OF THESE PATCHES WILL WORK FOR WILDLANDER. Dont waste your time !!!
 <details markdown="block">
   <summary>
     Expand to view
-  </summary>
+    Table of contents
   {: .text-delta }
 1. TOC
 {:toc}

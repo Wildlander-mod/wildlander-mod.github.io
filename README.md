@@ -44,14 +44,16 @@ code blocks are surrounded by 3 apostrphies, or by being tab indented
 ```
   ## Table of contents
   {: .no_toc }
-  <details markdown="block">
-    <summary>
-       Expand to view
-    </summary>
-    {: .text-delta }
-    1. TOC
-      {:toc}
-  </details>
+<details open markdown="block">
+  <summary>
+    Table of contents
+    Table of contents
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+
 ```
 
 ### to include a 'Button' Link

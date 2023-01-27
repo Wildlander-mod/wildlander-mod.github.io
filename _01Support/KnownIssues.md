@@ -15,10 +15,10 @@ This document will contain all of the Main Known Issues. It excludes any graphic
 ## Table of contents
 {: .no_toc }
 <details markdown="block">
-  <summary>
-    Expand to view
-  </summary>
-  {: .text-delta }
+<summary>
+   Expand to view
+</summary>
+{: .text-delta }
 1. TOC
 {:toc}
 </details>

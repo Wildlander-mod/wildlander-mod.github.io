@@ -1,21 +1,24 @@
 ---
 layout: default
-title: Monsters
+title: Monsters of Skyrim
 nav_order: 2
 has_children: false
 parent: Advanced Combat Analysis
 description: Monsters - Shouts, Spells, Stats
 ---
 
-# Monsters of Skyrim
-
 Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
 
-## Table of contents
+## Index
 {: .no_toc .text-delta }
-
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Chaurus 
 

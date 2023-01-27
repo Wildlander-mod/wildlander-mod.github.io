@@ -9,10 +9,10 @@ description: Help i'm getting CTD's
 ## Table of contents
 {: .no_toc }
 <details markdown="block">
-  <summary>
-    Expand to view
-  </summary>
-  {: .text-delta }
+<summary>
+   Expand to view
+</summary>
+{: .text-delta }
 1. TOC
 {:toc}
 </details>
