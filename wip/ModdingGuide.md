@@ -46,13 +46,13 @@ Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE
 The following Types of mods are NOT Compatible. (cause game breaking bugs)
 > * Any Alternate start mod. (Skyrim unbound reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
 > * Any Mod which affects the perk trees E.g. Ordinator 
-> * Truly Absorb Dragon Souls, DSAMG - Dragon Soul Absorb More Glorious and Dragon Remains (prevents the main quest from firing upon killing a dragon)
+> * Truly Absorb Dragon Souls, DSAMG - Dragon Soul Absorb More Glorious and Dragon Remains or any other mods which edit the main quest. (both listed mods prevents the main quest from firing upon killing a dragon)
 > * Cold & Wet SE - causes Various CTD
 > * Populated Cities Towns Village SE - Can cause the game to bug out into an endless loading scene when entering cities. COC'ing into one of the cities shops and leaving into the city from there circumvents and fixes it for some time
 > * New Races (unless requiem patch available) Requiem won’t start and will return you to the main menu.
 > * Skyrim Together (We use the wrong version of Skyrim for this)  
 > * Enhanced character edit - Not compatible with racemenu, which cannot be disabled.
-> * Any SKSE mods for Skyrim version 1.6 onwards.
+> * Any SKSE mods which require Skyrim version 1.6 onwards.
 
 The following Mods are extremely script heavy, Will possibly break your game.
 > *  Open Cities (also requires a tonne of manual patching)
@@ -114,9 +114,10 @@ Close mod organizer - and use the launcher to start the game.
 
 How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
 
-First thing to check
-1. Mod Conflicts from Mod organizer tool - this will tell you if the files being changed as touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
-2. Record conflict resolution. The next thing to check is the actual ESP/ESL/ESM files for conflicts. I would recommend the following guide <https://tes5edit.github.io/docs/5-conflict-detection-and-resolution.html> to help you to learn how to check for mod conflicts within SSEEdit. If there are any then most likely you would need to write a conflict resolution patch.
+Things to check
+1. Is there already a guide for it available
+1. Are there any mod conflicts from Mod organizer tool - this will tell you if the files being changed as touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
+1. Record conflict resolution. The next thing to check is the actual ESP/ESL/ESM files for conflicts. I would recommend the following guide <https://tes5edit.github.io/docs/5-conflict-detection-and-resolution.html> to help you to learn how to check for mod conflicts within SSEEdit. If there are any then most likely you would need to write a conflict resolution patch.
 
 ---
 
@@ -159,28 +160,27 @@ A: You have to add Nemesis Engine to the windows defender exception list, or wha
 ![image](https://user-images.githubusercontent.com/26418143/173229406-08b78e3a-6ec5-4eaf-9647-5d618559c6e0.png)
 
 
-### A quick guide to NetScriptFramework Error Codes (AKA - I'm crashing help!)
+### I've added mods and i'm getting crashes to desktop!
 
-https://www.nexusmods.com/skyrimspecialedition/articles/3031/
+Firstly - Check our [crash help](https://wiki.wildlandermod.com/01Support/CTDs/) - it maybe you are getting one of the crashes from Wildlander itself
 
-More crash help here
+If your issue isnt listed - then the below resources may help you identify what is going wrong.
 
-https://github.com/Fikthenig/Crash-Bonanza
+A quick guide to NetScriptFramework Error Codes <https://www.nexusmods.com/skyrimspecialedition/articles/3031/>
+More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
 
-and finally - if all else fails
-
-https://www.nexusmods.com/skyrimspecialedition/mods/49130?tab=posts
+and finally - if all else fails search here (or make your own post) <https://www.nexusmods.com/skyrimspecialedition/mods/49130?tab=posts>
 
 ### Resaver - Save cleaner and script remover.
 
-This tool is useful for removing Bugged/crashed scripts from your save and correct scriptlag. 
+This tool is useful for removing Bugged/crashed scripts from your save and correct script-lag. 
 
-I strongly recommend reading the modpage And/or watching tutorial videos before using.
+I strongly recommend reading the mod page And/or watching tutorial videos before using.
 
 ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files
 
 
-### Xedit / tesvedit/ SSEedit
+### Xedit / tes5edit/ SSEedit
 
 If you want to mod Wildlander - then you need to know how to use this tool to check for conflicts. 
 
@@ -211,8 +211,9 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 4) Set  Skyrim SE folder to Game-files\Stock game 
 5) Set  papyrus compiler to Game-files\Stock game\Papyrus Compiler
 
+## Dyncdolod
 
------
+----
 
 # Guides
 
