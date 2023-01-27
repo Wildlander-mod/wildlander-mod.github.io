@@ -13,13 +13,13 @@ Arrow Weight: A script in requiem adds weight to arrows, it does not show up in 
 
 Damage Resistance: Various enemies in the game gain resistance when show with arrows. 
 
-Armor Penetration: Arrows once a certain perk is learned, penetrate a percentage of armor. 
+Armor Penetration: Arrows/Bolts once a certain perk is learned, penetrate a percentage of armor. 
 
 ## --Light vs Heavy Bows vs Crossbows--
 
 ### Crossbows 
 
-Crossbows are great backup weapons. They fit a Backup Archer best. Stealth Archers already get nasty amounts of damage penetration via the Deft Strike perk and Gruesome Shot, They'll already have an Armor Penetration of 75% already, and with the innate AP of a crossbow being multiplicative instead of additive, it won't add much. In addition, Crossbows take much longer to reload, and can leave you hanging when you need to get out of position. A bow will be better in the longrun.
+Crossbows are great backup weapons. They fit a Backup Archer best. Stealth Archers already get nasty amounts of damage penetration via the Deft Strike perk and Gruesome Shot, They'll already have an Armor Penetration of 75% already, and with the innate higher AP of a crossbow bolt being multiplicative instead of additive, it won't add much. In addition, Crossbows take much longer to reload, and can leave you hanging when you need to get out of position. A bow will be better in the longrun.
 
 An archer, and a pure archer especially, would lose out on DPS and reliability by choosing a crossbow over a bow. Not to mention you have to go through the entire crossbow reload animation before which leaves you quite vulnerable. (unless you don't mind cheesing by constantly holstering it)
 
