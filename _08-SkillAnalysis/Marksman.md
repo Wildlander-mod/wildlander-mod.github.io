@@ -7,7 +7,7 @@ has_children: false
 
 ## --Mechanics--
 
-Bow-Breaking: If you or the enemy is hit with a melee weapon while having a low quality bow or crossbow in hand, that weapon is broken and Completely destroyed. 
+Bow-Breaking: If you or the enemy is hit with a melee weapon while having a low quality bow or crossbow in hand, that weapon is broken and completely destroyed. 
 
 Arrow Weight: A script in requiem adds weight to arrows, it does not show up in your inventory menus, the 'weight' is added instead to a Quiver object in you misc page.
 
