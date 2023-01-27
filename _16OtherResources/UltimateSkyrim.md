@@ -112,7 +112,7 @@ Next up, we'll move through the "Known Issues" guide to fix some remaining bugs 
 
 ## STEP THREE: known issues
 
-There are some small issues with the current build that you can fix with the “Known Issues” guide.<ol data-rte-list="default">
+There are some small issues with the current build that you can fix with the “Known Issues” guide.
 1. <a href="https://docs.google.com/document/d/10jxUuBhmnLne5e4lb7ifAz9rByrTy_wEOpojmItyScM/preview" target="_blank">Click here for the “Known Issues” guide.</a>
 1. Look through the guide. If you desire, follow its instructions to make changes.
 
