@@ -12,7 +12,8 @@ This document will contain all of the Main Known Issues. It excludes any graphic
 
 ---
 
-# Table of contents
+## Table of contents
+{: .no_toc }
 <details markdown="block">
   <summary>
     Expand to view
@@ -24,14 +25,14 @@ This document will contain all of the Main Known Issues. It excludes any graphic
 
 ---
 
-# When will these be fixed?
+## When will these be fixed?
 
 Depending on the severity some maybe hot-fixed immediately, other will wait til next major release.
 
 Some may need to wait for the mods used in the back to be corrected.
 
 --- 
-# Getting asked to restart for the economy on a new game. DiD players * please read.
+## Getting asked to restart for the economy on a new game. DiD players * please read.
 
 {: .warning } 
 > If you have played a character already and then exit to the main menu, do not attempt to start a new character in the same session. Instead, quit entirely out of Skyrim and restart it from there. If you do not do so, the game will not operate properly and you will get errors such as 'please restart the economy,' or 'Honed Metal has crashed.'
@@ -44,7 +45,7 @@ Some may need to wait for the mods used in the back to be corrected.
 
 
 ---
-# M/O 2 issues
+## M/O 2 issues
 
 1. Reporting files in the overwrite - these are your crash logs
 1. All the Npc overhauls are disabled - They are supposed to be _they are for Dylan's use only_ Hence "DEV RESOURCES" label.
@@ -53,7 +54,7 @@ Some may need to wait for the mods used in the back to be corrected.
 
                                                                                                                                                
 ---
-# Lighting issues
+## Lighting issues
 
 **Lights are flickering on and off**
 
@@ -74,14 +75,14 @@ There is nothing we can do to correct this, bug reports on this topic will be de
 
 ---
 
-# UI
+## UI
 
 * On ultrawide monitor (2560x1080), perk names appear VERY right aligned to perk "stars" making it awkward to use the perk menu as perk names appear over other perk "stars" in many cases.
 * certain elements of the UI will disappear (the compass and the H/M/S bars) after pressing X or when an inventory window is open
 
 ---
 
-# Gameplay Issues
+## Gameplay Issues
 
 * Bookshelves can be used to duplicate items placed upon them
 * Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
@@ -195,9 +196,9 @@ This is because of of the quests wasnt set to completed.
 
 ---
 
-# Mod Issues.
+## Mod Issues.
 
-## Outlaw Refuges. 
+### Outlaw Refuges. 
 
 * The stores contain static items which can't be stolen
 * Several beds have owned markers
@@ -205,7 +206,7 @@ This is because of of the quests wasnt set to completed.
 
 ---
 
-## Bathing
+### Bathing
 
 If bathing in very cold water, it can kill you before the animation finishes. 
 
@@ -213,7 +214,7 @@ Work around: don't take a bath in cold water ;)
 
 ---
 
-## I get a pouch/book/holder/carpet appearing at my feet (or my followers) / Crafting opening when Zoneing.
+### I get a pouch/book/holder/carpet appearing at my feet (or my followers) / Crafting opening when Zoneing.
 
 Firstly: NEVER give followers backpacks. using these items causes scripts to fine unintentionally, you to get crafting experience unexpectedly and carpets to appear whenever they are stationary.
 
@@ -229,7 +230,7 @@ If you dont HAVE followers, You can possibly solve it by either seeling your exi
 to console yourself a replacement.
 --- 
 
-## Crossbow Infinitely reloads
+### Crossbow Infinitely reloads
 
 Happens if you switch gender using showracemenu. 
 
@@ -247,12 +248,12 @@ Simple fix - switch gender back.
 
 ---
 
-## Properties Without Pestering
+### Properties Without Pestering
 
 After starting a new game dialogue to purchase player homes will not show at first. This can be fixed by saving the game and loading the save.
 
 ---
-# Quests
+## Quests
 
 * Rebuilding the Blades cannot be completed.
 * Impossible to complete Finding Velehk Sain quest without console commands
@@ -277,9 +278,9 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ---
 
-# Immersion issues
+## Immersion issues
 
-## NPC's
+### NPC's
 
 * Several NPC's are sleeping in unrealistic places. (e.g. Orphans are found sleeping on the ground, in Windhelm in the middle of a snowstorm not near a fire)
 * Some vendors don't show a inventory/show limited inventory when you open them for the first time.
@@ -332,7 +333,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ---
    
-## Objects / Buildings
+### Objects / Buildings
 
 * Several wells are missing bucket activators
 * Imperial Alehouse in Solitude is locked
@@ -341,7 +342,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ---
 
-## Houses
+### Houses
 
 * Two things with fully furnished Honeyside (without the kid's room) - missing wall texture, porch door says Examine Lock Rented House
 * Breezehome doesnt have a alchemy lab after purchasing it well it does - but its hidden behind a wall
@@ -352,7 +353,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ---
 
-## Sounds
+### Sounds
 
 * Insect noise is overly loud.
 * Some interiors have ghost children playing sound effect.
@@ -407,9 +408,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ---
 
-## Visuals
-
-### ENB
+## ENB
 
 * Spider webs, beehives, and dragonfly wings are generally too bright and white, despite being edited by Spider Webs and Particles for ENB
 * Strange water reflections
@@ -419,7 +418,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ---
 
-# Civil war
+## Civil war
 
 * Its full of vanilla bugs.
 * It exists (Why bethesda did you include this mess in the release). 
@@ -431,4 +430,4 @@ If you are having a issue for a civil war quest - please check <a href="https://
 
 
 
-## Full List of issues
+### Full List of issues

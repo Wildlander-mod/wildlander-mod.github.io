@@ -7,7 +7,7 @@ nav_order: 4
 description: New Abilities
 ---
 
-# New Abilities
+## New Abilities
 
 | Ability      | Hotkey    | Effect |
 |:-------------|:---------:|:------|

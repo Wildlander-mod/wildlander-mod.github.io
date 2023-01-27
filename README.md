@@ -42,7 +42,8 @@ code blocks are surrounded by 3 apostrphies, or by being tab indented
 
 ### To include a table of contents
 ```
-  # Table of contents
+  ## Table of contents
+  {: .no_toc }
   <details markdown="block">
     <summary>
        Expand to view

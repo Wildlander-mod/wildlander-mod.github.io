@@ -7,8 +7,6 @@ parent: Your First Character
 description: Stamina Management
 ---
 
-#  Stamina Management
-
 Stamina is one of the most important parts of combat - for all classes!
 
 Like most area's of skyrim, it had been overhauled by Requiems stamina drain system.

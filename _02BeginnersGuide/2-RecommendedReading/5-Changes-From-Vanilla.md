@@ -7,7 +7,7 @@ nav_order: 5
 description: Changes From Vanilla
 ---
 
-# Delevelled World
+## Delevelled World
 
 * All encounters are no longer leveled, the appearance of a given NPC or creature only depends on your current location and luck.
 * Some creature encounter lists have been altered, for example you will see more small than large mudcrabs and more wolves than bears.
@@ -16,7 +16,7 @@ description: Changes From Vanilla
 * Locks no longer change, a master lock at level 1 will always be a master lock.
 * Trap damage is now independent of your level and therefore much higher and often even lethal. 
 
-# Combat Changes
+## Combat Changes
 
 * Your enemies are more skilled than before. If somebody wields a mace, you better expect some armor crushing blows from him.
 * Weapon damage has increased significantly, especially archery, which is now deadly. A skilled archer can frequently take out an unarmored humanoid with a single shot. But drawing a bow now also takes considerably more time.
@@ -30,11 +30,11 @@ description: Changes From Vanilla
 * Stamina is a precious resource at lower levels. Wearing any armor without the first perk causes a drain standing still, even with the first perk you will lose it if you are running around. Anyone with armor should be investing in stamina restoration food.
 
 
-# Quest Changes
+## Quest Changes
 
 * Some quests have had starting requirements changed to accommodate for the rewards, no more doing daedric weapon quests at level 5.
 
-# Immersion
+## Immersion
 
 * Survival has a much, much greater importance, you can and will die if you don't eat, sleep or stay warm.
 * Your initial Carry weight is more realistic, but you can craft or buy Backpacks to increase it.
@@ -43,7 +43,7 @@ description: Changes From Vanilla
 * Food is essential - the perks they offer to regeneration alone mean you should always have a buff active
 
 
-# Other Changes
+## Other Changes
 
 * Houses have had their prices or quest requirements altered.
 * Blacksmithing and enchanting are no longer mandatory, blacksmiths and court wizards can do these services for you.

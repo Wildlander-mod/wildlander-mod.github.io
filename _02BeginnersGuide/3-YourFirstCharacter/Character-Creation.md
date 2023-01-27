@@ -21,9 +21,12 @@ General rules for successful build - One ranged ability, One Defense ability, On
 
 For more guidance on builds and examples - you can see the class guides section of the wiki.
 
+---
 
-# Character Creation
-## STARTING SKILLS AND ATTRIBUTES
+
+## Character Creation
+
+### Skills and Attributes
 
 |Race |Abilities | Power | Skill Bonuses |H/M/S |Carry Weight |Traits
 |--|--|--|--|--|--|--|
@@ -40,9 +43,10 @@ For more guidance on builds and examples - you can see the class guides section 
 
 * Some Foods require a strong stomach to be able to get the benefits from consumption.
 
-***
+---
 
-## Background
+
+### Background
 
 * **Acrobat**: Lockpicking, Marksman, One-Handed, Pickpocket, Sneak, Speechcraft
 * **Agent**: Illusion, Lockpicking, Marksman, One-Handed, Sneak, Speechcraft
@@ -64,14 +68,15 @@ For more guidance on builds and examples - you can see the class guides section 
 * **Witchhunter**: Alchemy, Destruction, Lockpicking, Marksman, One-Handed, Sneak
 
 
-***
+---
+
 
 ## STANDING STONES
 
 {: .warning}
 Once you take a stone from given group, you will become locked to that group. For example, after taking Warrior you will be able to change your stone only to Lady/Lord/Steed and not others.
 
-## < The Warrior Group >
+### < The Warrior Group >
 * Lady: Those under the sign of the Lady regenerate Stamina faster.
 50% faster Stamina regen
 
@@ -84,9 +89,10 @@ Fortify Stamina 100 points
 * Warrior: The Warrior strengthens those who bear his blessing, allowing a more efficient use with all kinds of weaponry.
 +10 Fortify Marksman, +10 Fortify One-Handed, +10 Fortify Two-Handed, +10 Fortify Armor Penetration
 
-***
+---
 
-## < The Mage Group >
+
+### < The Mage Group >
 
 * Apprentice: The Apprentice greatly enhances magicka regeneration.
 200% faster Magicka regen, 25% decrease to magic resistance
@@ -101,9 +107,9 @@ Fortify Magicka 100 points
 Daily power to raise the dead
 
 
-***
+---
 
-## < The Thief Group >
+### < The Thief Group >
 
 * Lover: Those under the sign of the lover find it easier to be attractive, intriguing and also use speech to get what they want…
 Fortify Speech 25 points
@@ -117,9 +123,9 @@ Daily power of muffle and invisibility for 300 seconds
 * Tower: The Tower grants a blessing of 20 extra carry weight and supernatural lockpicking skills. Expertise is increased by 40 and any effortless lock can be picked in plain sight with nobody noticing, creating a wax-molded copy of the key, if one exists.
 +20 Carry Weight, +40 Lockpicking
 
-***
+---
 
-## < The Serpent Group >
+### < The Serpent Group >
 
 * Serpent: The Bite of the Serpent will paralyze and poison a target for a moderate duration.
 ‘Venomous Splatter’ poison and paralyze spell

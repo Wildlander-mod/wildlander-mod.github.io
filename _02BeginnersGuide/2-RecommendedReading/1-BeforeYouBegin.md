@@ -7,9 +7,6 @@ nav_order: 1
 description: Before You Begin Playing
 ---
 
-------
-# Before you Begin
-
 ## Table of contents
 {: .no_toc .text-delta }
 

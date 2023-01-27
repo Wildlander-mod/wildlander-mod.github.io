@@ -7,9 +7,6 @@ parent: Your First Character
 description: Basic Combat Mechanics
 ---
 
-
-# Basic Combat Mechanics
-
 In this world everybody and everything hits harder. You, the wildlife and NPCs. You will die faster and kill faster. It changes the game, it's deadlier and each strike feels harder than the last. It's really Fun, with a real sence of achievement when you kill a difficult creature for the first time. But at the same time there is less room for mistakes - one wrong move and your staring at your enemies feet. Killing stuff isnt as simple as wading in and slapping enemies til they fall over, chugging the occasional health potion when you get a bit low. In simple terms you need planning & tactics. Never underestimate the power of scouting first. The main reason for this is: if you don't, you die. And you don't even know how it happened.
 
 The questions you should ask yourself - What kinds of enemies do I face? Where are they? How will they try to kill me? How can I kill them? The first two of those questions you can usually answer by opening your eyes and liberal use of the instincts skill and identify target abilities. Use your ears to locate things we cant see. Luckily for us, almost everything in Skyrim sees it as a necessity to constantly make one noise or another. For the third and fourth question, I put humanoid NPCs in categories based on what they are wielding, and what armor they are wearing. Charging in Hacking and slashing without proper target planning will generally kill you. Trading blows is all well and good if your armor is better that theirs but if its the opposite way around - thats quick trip to the morgue (on in a vampire's case - the buffet table). You need to understand each opponent tactics an behavior in order to use the right tactics against them.

@@ -8,7 +8,6 @@ parent: Your First Character
 description: Leveling up Your Character
 ---
 
-# Leveling your Character
 
 Once you have the basics of food/water/cleanliness/warmth and shelter covered. You can now focus on leveling your skills.
  

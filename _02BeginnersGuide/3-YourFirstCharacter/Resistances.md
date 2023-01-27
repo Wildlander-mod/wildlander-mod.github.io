@@ -8,9 +8,9 @@ parent: Your First Character
 description:  Resistances & Weapon Types
 ---
 
-# Resistances & Weapon Types
+## Resistances & Weapon Types
 
-## Resistances List
+### Resistances List
 
 List of basic resistances used in Skyrim.
 
@@ -41,7 +41,7 @@ About Magic/Elemental Resistances Values.
 - Magic resistance protects you from Shouts, Fears and other none elemental spells E.g those in the illusion tree. 
 - Unlike Vanilla, NPC's can have both elemental resistance and magic resistances.
  
-## Damage Types
+### Damage Types
 
 Damage Types implemented by Requiem. Weapons are assigned one damage type, and Creatures are Sometimes given extra Damage Type Resistances that function as extra Armor Rating against each damage types.
 

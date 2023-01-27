@@ -7,7 +7,7 @@ nav_order: 2
 description: Your First Character Index
 ---
 
-# Video Guides
+## Video Guides
 {% include Liams_Guides.md %}
 <iframe class="yt-embed" width="640" height="360" src="https://www.youtube.com/embed/vXRurA0h6NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

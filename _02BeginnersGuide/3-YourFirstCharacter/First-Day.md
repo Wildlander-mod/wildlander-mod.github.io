@@ -8,8 +8,6 @@ descrption: Starting your first day
 ---
 
 
-# Starting your first day
-
 Once you spawn into the world the first thing you should do is allocate your perks. The next thing a new character should make sure of is that they get to a safe location. For brand new players Riverwood is ideal to start with. Riverwood has plentiful trees for wood gathering, a river to drink from, a free wood chopping axe at the lumber mill, a tent, and cooking fire. The ideal Spawn points to get to this location would be Whiterun Inn, then run up. or more dangerous Helgan or Falkreath borders and run down.
 
 To start earning money in order to feed yourself, you should get a wood chopping axe or a war axe and “Attack” to harvest trees (or use the chopping blocks at the lumber mills). Sell this wood to give yourself a bit of coin. Another good way to earn some early game gold is with fishing. You can purchase a fishing rod from a general merchant - Equip it as a weapon then "attack" a water source to start fishing. Follow the onscreen instructions. Once you have caught your first item - you can the hit "e" to cast again.

@@ -7,12 +7,15 @@ parent: Wildlander World
 has_toc: true
 ---
 
-# Tempering
-
-{: .no_toc .text-delta }
-
+## Table of contents
+<details markdown="block">
+  <summary>
+    Expand to view
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Introduction
 

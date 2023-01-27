@@ -8,8 +8,6 @@ descrption: Health Management
 ---
 
 
-#  Health Management
-
 Wildlander has no passive health regeneration. You will not heal from your wounds by "sleeping it off". 
 
 When you get hurt fighting - the only ways to heal are :-

@@ -7,8 +7,6 @@ nav_order: 2
 description: Stability test
 ---
 
-## Wildlander Stability Test
-
 _As the great quote goes: “Better be Safe than 15 hours in-sorry”_ 😝
 
 _This guide has been created for new users in mind that want to stress test the stability of their game after downloading **base** Wildlander._

@@ -13,11 +13,11 @@ In addition to reduced base carry weight, Money weighs you down. Each coin weigh
 
 While you will gradually gain carry weight with [Derived Attributes](/06-MechanicsAnaylsis/DA/) Obviously the canny adventurer needs some place to store his or her Ill gotten gains.
 
-# Backpacks
+## Backpacks
 
 Backpacks are the early game source of carry weight - they can be crafted (see crafting spreadsheet for requirements) or they can be purchased from general stores (rarely).
 
-# Barrels and Chests
+## Barrels and Chests
 
 There are two variety of chests in the game - Wooden chests/barrels - Crafted from player crafting - these can be picked up and placed with the "campfire" system anywhere which isn't settled.
 
@@ -38,22 +38,22 @@ Hearthfire Furniture chests
 * MUST be emptied before moving (e.g. if moving it from inside of a building to outside - you must empty it first else you will lose the contents).
 
 
-# Campfire Skills
+## Campfire Skills
 
 There is a skill available at a player constructed campfire which increases your carry weight permanently. Press "<" to build a campfire, Increase it in size until the skills menu appears when interacting with it. 
 
 {: .note}
 this skill requires a Skill point, earned from taking care of yourself and has two levels.
 
-# Horses
+## Horses
 
 Or as i prefer to call them, mobile storage. Each Horse has 600 carry weight and can easily carry most the supplies you need. You can even store your chest on the horse, making it have infinite storage.
 
-# Faction Safe Storage
+## Faction Safe Storage
 
 Containers in the faction (companions / Dark brotherhood / Thieves guild / Mage's college) which are marked with a "*" are safe storage. You can safely stash you loot here. All other containers should be considered unsafe and you will lose the contents if you reload a save, or the cell resets after 30 days of you not visiting.
 
-# Bag of Holding
+## Bag of Holding
 
 These Misc items guarantee a massive magical increase in carry weight so long as they are in your inventory. The effects of these items stack. There are only 7 in the entire game.
 
