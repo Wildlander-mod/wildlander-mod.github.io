@@ -213,6 +213,14 @@ This crash basically means someone - when coming out of a building, collided wit
 95% of the reports I've had are in Whiterun, caused by a NPC Loading inside a static object(scrubbing tub). At the rear of Arcadia's there are two farmhouses which have a scrubbing tub near them - NPC's leaving the house occasionally spawn inside the scrub tub, instead of outside the door. 
 
 Fix: If the crash occurs in Whiterun, then disable the scrubbing tub using console, For all other locations, please raise a bug report.
+
+----
+
+### Crash selling Dwarven Dagger to Lisbet in Arnleif and Sons Trading (No crash code, just an exception code)
+
+We don't know what causes this specific weapon to cause the crash. It is under investigation.
+
+Fix: Sell it to someone else.
                                                                                                 
 ---    
 
