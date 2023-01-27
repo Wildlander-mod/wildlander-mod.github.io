@@ -21,9 +21,9 @@ Nav_exclude:true
 
 ## A warning before proceeding
 
-Adding mods is generally considered a bad idea unless you know what you are doing. 
+Adding mods is generally considered a bad idea unless you know what you are doing, or are willing to invest the time to learn how to do so yourself. 
 
-Any form of customization "support" will be in the dedicated customization channels. Should you ask in general or either of the support channels, your posts will be deleted and you will be directed to ask in the appropriate locations.
+Any form of customization "support" will be in the dedicated customization channels. Should you ask in general or either of the support channels, your posts will be deleted and you will be directed to ask in the appropriate location.
 
 Helping you will basically be a waste of volunteer time that should go to those who have NOT customized the modlist. 
 
@@ -33,7 +33,8 @@ Wildlander Staff have no obligations to assist you with customizing your install
 
 ## Modding Basics
 
-**NEVER EVER** uninstall mods unless you are starting a new play-through.
+{: .warning } 
+> **NEVER EVER** uninstall mods unless you are starting a new play-through.
 
 Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
 
@@ -49,8 +50,7 @@ Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE
 1. Mod organizer      - The tool which makes everything work - Installed as part of the Wildlander installation in <install directory>\Game-files\Mod Organizer.exe
 1. [Reqtificator](#Reqtificator)       - The requiem patcher - Makes 3rd party mods compatible with the Wildlander install.
 1. [Dyndolod](#dyndolod) - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
-1. Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
-     
+1. Merging mods       - Advanced modding technique to combine multiple mods Plugins into one.
 
 ### Known Mod Issues/Incompatibilities
 
@@ -79,17 +79,20 @@ The following types of mods have Issues
 ### Introduction to Mod Organizer 2
 
 Mod Organizer is divided into two sections, The left side is for loose files, these are loaded into Skyrim from the top down. If two identical files exist, the one closest to the bottom will be the one loaded.
-The Ride side of the list is the plugins, these are the mods themselves containing instructions on how the game constructs the world. Instructions inside of these plugins can conflict, so again, the ones at the bottom of the list take priority
+
+The Right side of the list is the plugins, these are the mods themselves containing instructions on how the game constructs the world. Instructions inside of these plugins can conflict, so again, the ones at the bottom of the list take priority.
 
 ![image](https://user-images.githubusercontent.com/26418143/173229360-cc431243-c5fb-4f1b-babd-74efc9cb80db.png)
 
-If you have two Plugin's which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1.
+If you have two Plugins which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1. The panes are sorted by drag and drop. If you want to move a mod you click-drag it to where you want it on the load order.
 
 {: .important}
 > 
 > If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
 > 
 > You will always be able to switch back to the original profile and load it that way in case you screw up badly.
+
+In the top right area of mod organizer are the shortcuts to run the various tools. 
 
 ---
 
