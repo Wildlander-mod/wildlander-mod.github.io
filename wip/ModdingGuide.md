@@ -94,6 +94,14 @@ If you have two Plugins which touch the same records then you need to make a dec
 
 In the top right area of mod organizer are the shortcuts to run the various tools. 
 
+#### How to backup the original profile
+
+If it is your first time Modding the list. Then use the profiles dropdown and select 'manage'. From there make sure the profile "performance" or "standard" is highlighted (depending on which one you want to mod) and select Copy. Give the backup a name.
+
+#### How to backup the Load Orders
+
+On the left side next to the "active" mod count there is a button which looks like a white box with a blue arrow pointing at it. This will create a backup of the modlist at the current point.
+
 ---
 
 ### Installing Mods not covered by guides.
@@ -101,9 +109,10 @@ In the top right area of mod organizer are the shortcuts to run the various tool
 All mods should be added to Mod organizer, not to your Skyrim directory. 
 
 - Download it to your Wildlander download folder (this will be the directory you entered on the Wabbajack installer when you first installed the list)
-open < Wildlander install directory >\Game-files\mod organizer.exe. Once open - top left drop-down - select the profile you plan on playing.
-- select download tab on right side
-- find the mod in the list and right click > install (you may need to click the refresh button to make it appear)
+- From the launcher select Advanced > Mod organizer.
+- Take a backup on the load order before making any changes.
+- Select download tab on right side
+- Find the mod in the list and right click > install (you may need to click the refresh button to make it appear)
 - choose your settings (if it has installation options) then once its finished installing turn it on, on the left side of the mod organizer (should be at bottom of the list).
 - **Important** if patching from "Requiem patch central" Untick any ticked patches for mods in the base Wildlander install, and only tick ones for mods you are adding yourself.
 - If you mod doesn’t have any ESP/ESM/ESL's then that’s it - otherwise continue!
