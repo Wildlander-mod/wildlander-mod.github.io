@@ -1,5 +1,5 @@
 ---
-layout: Home
+layout: home
 title: FAQ
 nav_order: 3
 description: Frequently Asked Questions
@@ -12,13 +12,14 @@ description: Frequently Asked Questions
 # Frequently Asked Questions
 
 ## Table of contents
+{: .no_toc }
 <details markdown="block">
-  <summary>
-    Expand to view
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
+	<summary>
+	   Expand to view
+	</summary>
+	{: .text-delta }
+	1. TOC
+	  {:toc}
 </details>
 
 ------

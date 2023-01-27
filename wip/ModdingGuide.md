@@ -6,17 +6,18 @@ has_children: true
 description: Customization Guide
 ---
 
-# Table of contents
+## Table of contents
+{: .no_toc }
 <details markdown="block">
-  <summary>
-    Expand to view
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
+	<summary>
+	   Expand to view
+	</summary>
+	{: .text-delta }
+	1. TOC
+	  {:toc}
 </details>
 
-# A warning before proceeding
+## A warning before proceeding
 
 Adding mods is generally considered a bad idea unless you know what you are doing. 
 
@@ -28,7 +29,7 @@ Should you customize your list - You will be ON YOUR OWN unless another member o
 
 Wildlander Staff have no obligations to assist you with customizing your install.
 
-# Modding Basics
+## Modding Basics
 
 NEVER EVER uninstall mods unless you are starting a new play-through.
 
@@ -41,7 +42,7 @@ Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE
 {: .important}
 > You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
 
-## Known Mod Issues/Incompatibilities
+### Known Mod Issues/Incompatibilities
 
 The following Types of mods are NOT Compatible. (cause game breaking bugs)
 > * Any Alternate start mod. (Skyrim unbound reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
@@ -65,7 +66,7 @@ The following types of mods have Issues
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 
 ---
-## Introduction to Mod Organizer 2
+### Introduction to Mod Organizer 2
 
 Mod Organizer is divided into two sections, The left side is for loose files, these are loaded into Skyrim from the top down. If two identical files exist, the one closest to the bottom will be the one loaded.
 The Ride side of the list is the plugins, these are the mods themselves containing instructions on how the game constructs the world. Instructions inside of these plugins can conflict, so again, the ones at the bottom of the list take priority
@@ -82,7 +83,7 @@ If you have two Plugin's which touch the same records then you need to make a de
 
 ---
 
-### Installing Mods not covered by guides.
+#### Installing Mods not covered by guides.
 
 All mods should be added to Mod organizer, not to your Skyrim directory. 
 
@@ -110,7 +111,7 @@ Close mod organizer - and use the launcher to start the game.
 
 ---
 
-## Can I add.....?
+### Can I add.....?
 
 How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
 
@@ -121,7 +122,7 @@ Things to check
 
 ---
 
-## Can i Remove.....?
+### Can i Remove.....?
 
 The Wildlander mod itself has a lot of Master files (144 plugins) which cannot be disabled without removing all of the relevant records from wildlander.esp. 
 
@@ -137,7 +138,7 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 
 ---
 
-### Adding New Animations with Nemesis/FNIS alternative: 
+#### Adding New Animations with Nemesis/FNIS alternative: 
 
 1. Most important - before doing anything - You have to add Nemesis Engine to the windows defender exception list, or whatever Anti Virus you are running otherwise it will crash on startup.
 2. Install your animation mods as normal.
@@ -160,7 +161,7 @@ A: You have to add Nemesis Engine to the windows defender exception list, or wha
 ![image](https://user-images.githubusercontent.com/26418143/173229406-08b78e3a-6ec5-4eaf-9647-5d618559c6e0.png)
 
 
-### I've added mods and i'm getting crashes to desktop!
+#### I've added mods and i'm getting crashes to desktop!
 
 Firstly - Check our [crash help](https://wiki.wildlandermod.com/01Support/CTDs/) - it maybe you are getting one of the crashes from Wildlander itself
 
@@ -171,7 +172,7 @@ More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
 
 and finally - if all else fails search here (or make your own post) <https://www.nexusmods.com/skyrimspecialedition/mods/49130?tab=posts>
 
-### Resaver - Save cleaner and script remover.
+#### Resaver - Save cleaner and script remover.
 
 This tool is useful for removing Bugged/crashed scripts from your save and correct script-lag. 
 
@@ -180,16 +181,16 @@ I strongly recommend reading the mod page And/or watching tutorial videos before
 ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files
 
 
-### Xedit / tes5edit/ SSEedit
+#### Xedit / tes5edit/ SSEedit
 
 If you want to mod Wildlander - then you need to know how to use this tool to check for conflicts. 
 
 The bible for the tool is located <https://tes5edit.github.io/docs/>
 
 -----
-# Tool Setup
+## Tool Setup
 
-## Creation Kit
+### Creation Kit
 
 1) Download and install into steam Folder : https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/
 2) Download and install into steam Folder : https://www.nexusmods.com/skyrimspecialedition/mods/67096/
@@ -200,7 +201,7 @@ The bible for the tool is located <https://tes5edit.github.io/docs/>
 	
 Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip contents into <install folder>\game-files\Stock game
 
-## Papyrus Compiler SE
+### Papyrus Compiler SE
 	
 1) Download and install creation kit as per above instructions
 2) Open program from mod organizer
@@ -211,11 +212,11 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 4) Set  Skyrim SE folder to Game-files\Stock game 
 5) Set  papyrus compiler to Game-files\Stock game\Papyrus Compiler
 
-## Dyncdolod
+### Dyncdolod
 
 ----
 
-# Guides
+## Guides
 
 The only resource available currently is the unofficial patches and guides on <https://trello.com/b/77lxgykg/wildlander-customization>. These guides have *Not* been tested by staff - nor can we guarantee quality of install instructions. Any issues with these should be reported to the author.
 

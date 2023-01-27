@@ -19,7 +19,7 @@ Available Followers
 
 
 
-# FAQ
+## FAQ
 
 <details>
  <summary> Q: My Follower is missing and I can't find them! What do I do? </summary>
@@ -48,7 +48,7 @@ A: By quirk of code or some other error, some followers lack either some of thei
 
 ***
 
-## Housecarls
+### Housecarls
 
 All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. A Housecarl's main skills are Heavy Armor, with variations in One-Handed, Archery and Blocking perks, again with the exception being Valdimar (Heavy Armor, One-Handed, Alteration, Destruction and Restoration). 
 
@@ -405,7 +405,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 ***
 
-## College of Winterhold
+### College of Winterhold
 
 <details>
  <summary> Brelyna </summary>
@@ -628,7 +628,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 ***
 
-## Companions
+### Companions
 
 <details>
  <summary> Aela the Huntress </summary>
@@ -1052,7 +1052,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 ***
 
-## Dark Brotherhood
+### Dark Brotherhood
 
 <details>
  <summary> Cicero </summary>
@@ -1153,7 +1153,7 @@ Unique
 
 ***
 
-## Dawnguard
+### Dawnguard
 
 <details>
  <summary> Agmaer </summary>
@@ -1585,7 +1585,7 @@ Unique
 
 *** 
 
-## Mercenaries, Sellswords, and other Misc Followers
+### Mercenaries, Sellswords, and other Misc Followers
 
 <details>
  <summary> Adelasia Vendicci </summary>
@@ -3042,7 +3042,7 @@ Unique
 
 ***
 
-## Mod Added Followers
+### Mod Added Followers
 
 <details>
  <summary> Amanra Solas </summary>
@@ -3409,7 +3409,7 @@ Varies
 
 ***
 
-## Beyond Mer and Man
+### Beyond Mer and Man
 
 <details>
  <summary> Armored Troll / Armored Frost Troll </summary>
@@ -3567,13 +3567,13 @@ Varies
 
 ***
 
-## Known Discrepancies
+### Known Discrepancies
 
 <details>
  <summary> Missing/Inappropriate Perks </summary>
 
 <div class="Info" markdown="1"> 
-#### Housecarls
+##### Housecarls
 
  Valdimar
  
@@ -3582,7 +3582,7 @@ Varies
  |Lacks the HA casting perks, making his magicka usage astronomical.
 
 
-#### Brotherhood
+##### Brotherhood
  
  Cicero
  
@@ -3597,7 +3597,7 @@ Varies
  
  |Lacks Armor perks.
  
-#### College
+##### College
  
  J'zargo
  
@@ -3612,7 +3612,7 @@ Varies
  |Doesn't have the "Novive Conjuration" perk, but has ones beyond it.
  |Has the "Flames" spell, not Firesparks. Imagine it still does the same thing though.
 
-#### Companions
+##### Companions
  
  Njada Stonearm
  
@@ -3628,7 +3628,7 @@ Varies
  |Doesn't have "Power of the Combatant" like other HA Companions.
  
 
-#### Dawnguard
+##### Dawnguard
 
  Ingjard
  
@@ -3666,7 +3666,7 @@ Varies
  |Has multiple Destruction spells but only the "Cryomancy" perk.
  |Has multiple Conjuration spells but only the "Necromancy" perk.
  
-#### Misc Followers
+##### Misc Followers
  
  Adelasia Vendicci
  
@@ -3796,7 +3796,7 @@ Varies
  |Has "Power Shot" w/o "Eagle Eye".
  |Has "Light Steps" w/o any pre-reqs.
  
-#### Mod-added Followers
+##### Mod-added Followers
 
  Ralya
  
@@ -3823,9 +3823,9 @@ Varies
  |Has "Light Steps" w/o any pre-reqs.
  |Lacks any other perks.
  
-## HAS NO PERKS AT ALL
+### HAS NO PERKS AT ALL
  
-#### Misc Followers
+##### Misc Followers
  
 * Ahtar the Jailer
 * Lob
@@ -3834,7 +3834,7 @@ Varies
 * Vorstag
 * Sameth
 
-#### Dawnguard Followers
+##### Dawnguard Followers
 * Knight-Paladin Gelebor 
 
 </div>

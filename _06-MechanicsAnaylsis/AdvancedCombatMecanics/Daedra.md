@@ -7,19 +7,22 @@ parent: Advanced Combat Analysis
 description: Daedra - Shouts, Spells, Stats
 ---
 
-# The Daedra
-
 The Daedra are creatures that roam the Planes of Oblivion, and are usually summoned by powerful mages, usually of the Conjuration school. 
 A Dremora is a devilish humanoid being wearing Daedric armor and wielding burning Daedric weaponry, but can also be extremely adept at using magic and casting spells.
 Atronachs are humanoid beings (except the Storm Atronach) that are formed out of their own element of power: Flame, Frost, or Storm. 
 
-# Index
+## Index
 {: .no_toc .text-delta }
+<details markdown="block">
+	<summary>
+	   Expand to view
+	</summary>
+	{: .text-delta }
+	1. TOC
+	  {:toc}
+</details>
 
-1. TOC
-{:toc}
-
-# Ash Guardian
+## Ash Guardian
 
 *Basic Stats*
 
@@ -68,11 +71,11 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
 ---
-# Atronach
+## Atronach
 
-## Flame
+### Flame
 
-### Shared 
+#### Shared 
 
 *Material Weaknesses*
 
@@ -92,7 +95,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Paralysis  | Immune | N/A  |
 |Knock Down| Minor | N/A  |
 
-### Standard
+#### Standard
 
 *Basic Stats*
 
@@ -117,7 +120,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 **Additional Perks**
 * Pyromancy  - All frost spells deal 15% more damage.
 
-### Potent Flame Thrall
+#### Potent Flame Thrall
 
 *Basic Stats*
 
@@ -149,9 +152,9 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 ---
 
 
-## Frost Atronach
+### Frost Atronach
 
-### Shared
+#### Shared
 
 *Resistances*
  
@@ -179,7 +182,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Pierce(Daggers)    | 25% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
-### Standard
+#### Standard
 
 *Basic Stats*
 
@@ -200,7 +203,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 | Diseased | None |
 |Can Knockdown Player| No |
 
-### Potent Thrall
+#### Potent Thrall
 
 *Basic Stats*
 
@@ -223,9 +226,9 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 
 ---
-## Storm
+### Storm
 
-### Shared
+#### Shared
 
 *Resistances*
 
@@ -252,7 +255,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Pierce(Daggers)    | 50% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
-### Standard
+#### Standard
 
 *Basic Stats*
 
@@ -276,7 +279,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 **Additional Perks**
 * Electromancy - All shock spells deal 15% more damage.
 
-### Potent Thrall 
+#### Potent Thrall 
 
 *Basic Stats*
 
@@ -303,7 +306,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 ---
 
-## Dremora
+### Dremora
 Dremora are humanoid Daedra aligned with the Daedric Prince Mehrunes Dagon. They are often very intelligent and are generally hostile. In lore, it is said they can be found in clans of large numbers in the wastes of Oblivion. Dremora are a rare sight in Skyrim, only appearing as summoned creatures and in a few set locations.
 
 *Weapons*
@@ -368,7 +371,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 
 ---
 
-# Lurker
+## Lurker
 
 |Stat| Variation 1 |  Variation 2 | Variation 3 | Variation 4 |
 |--|--|--|--|--|
@@ -413,7 +416,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 
 ---
 
-# Seeker
+## Seeker
 
 |Stat| Variation 1 |  Variation 2 | Variation 3 | 
 |--|--|--|--|
@@ -461,7 +464,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 
 ---
 
-# Slighted
+## Slighted
 
 Slighted a a new type of Dremora introduced by Requiem. they (mostly) have identical stats, the differences come with weaponry or spells. The Melee varients use weapons exclusivly and do not employ magic. The caster Varients come Equiped with a Sword and nothing in the offhand.
 
@@ -507,9 +510,9 @@ Summon Flame, Frost and Storm Thrall - Summons a potent varient of each atronoch
 |Unrelenting Force  | Immune | 
 |Knock Down| Minor |
 
-## Melee Variations
+### Melee Variations
 
-### 1 hander
+#### 1 hander
 **Additional Perks**
 * Powerful Strike - His one-handed and unarmed power attacks shatter bone and sinew.[Power attack damage x 1.2]
 * Stunning Charge - he expertly utilize His weight and momentum during forward power attacks.[Forward power attacks can knock down]
@@ -545,7 +548,7 @@ Summon Flame, Frost and Storm Thrall - Summons a potent varient of each atronoch
 * Power of the Combatant Once a day, he can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. 
 * Conditioning - After some basic training, stamina drain from wearing heavy armor is negated.Armor weight penalties are reduced.
 
-### 2 Hander
+#### 2 Hander
 **Additional Perks**
 * Battle Axe Focus I His basic battleaxe skill increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.05, +10 armor penetration]
 * Battle Axe Focus II - His advanced battleaxe skill further increases damage and armor penetration with all two-handed chopping weapons. [Damage x 1.15, +20 armor penetration]
@@ -582,7 +585,7 @@ Summon Flame, Frost and Storm Thrall - Summons a potent varient of each atronoch
 * Conditioning - After some basic training, stamina drain from wearing heavy armor is negated.Armor weight penalties are reduced.
 
 
-## Caster Variations
+### Caster Variations
 **Additional Perks**
 * Powerful Strike - His one-handed and unarmed power attacks shatter bone and sinew.[Power attack damage x 1.2]
 * Stunning Charge - he expertly utilize His weight and momentum during forward power attacks.[Forward power attacks can knock down]
@@ -624,7 +627,7 @@ Summon Flame, Frost and Storm Thrall - Summons a potent varient of each atronoch
 * Cognitive Flexibility II - mastered the art of Cognitive Flexibility and can now maintain three summons of any type.
 
 
-## Archer Variations
+### Archer Variations
 **Additional Perks**
 * Eagle Eye - By concentrating only on his target and holding your breath, He can now aim much more precisely.[]
 * Power Shot - His shots land with tremendous impact, occasionally staggering foes.[70% chance to stagger targets]
