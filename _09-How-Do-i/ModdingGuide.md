@@ -4,7 +4,7 @@ title: How Do I Add Mods?
 has_toc: false
 has_children: true
 description: Customization Guide
-Nav_exclude:true
+nav_exclude: true
 ---
 
 ## Table of contents
@@ -77,19 +77,25 @@ The following types of mods have Issues
 
 ---
 ### Introduction to Mod Organizer 2
-
+	
 Mod Organizer is divided into two sections, The left side is for loose files, these are loaded into Skyrim from the top down. If two identical files exist, the one closest to the bottom will be the one loaded.
-The Ride side of the list is the plugins, these are the mods themselves containing instructions on how the game constructs the world. Instructions inside of these plugins can conflict, so again, the ones at the bottom of the list take priority
+
+The Right side of the list is the plugins, these are the mods themselves containing instructions on how the game constructs the world. Instructions inside of these plugins can conflict, so again, the ones at the bottom of the list take priority.
 
 ![image](https://user-images.githubusercontent.com/26418143/173229360-cc431243-c5fb-4f1b-babd-74efc9cb80db.png)
 
-If you have two Plugin's which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1.
+If you have two Plugins which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1. The panes are sorted by drag and drop. If you want to move a mod you click-drag it to where you want it on the load order.
 
 {: .important}
 > 
 > If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
 > 
 > You will always be able to switch back to the original profile and load it that way in case you screw up badly.
+
+In the top right area of mod organizer are the shortcuts to run the various tools. 
+	
+![image](https://user-images.githubusercontent.com/26418143/215193269-199f14c3-a4ae-4ed5-8414-34b88966c04d.png)
+	
 
 ---
 
