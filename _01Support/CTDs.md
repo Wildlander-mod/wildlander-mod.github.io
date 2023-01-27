@@ -16,7 +16,7 @@ description: Help i'm getting CTD's
 {:toc}
 </details>
 
-Skyrim with Wildlander creates crash logs. You can access these crash logs by using the button on the advanced page of the launcher. Important - If your game is freezing rather than crashing, then the cause of the freeze is most likely to be a ["out of memory" error](https://wiki.wildlandermod.com/01Support/CTDs/#crash-to-desktop-when-entering-a-building-or-on-finalising-setup-error-code-fissdll4481-or-skyrimseexed6ddda)
+Skyrim with Wildlander creates crash logs. You can access these crash logs by using the button on the advanced page of the launcher. Important - If your game is freezing rather than crashing, then the cause of the freeze is most likely to be a ["out of memory" error](#crash-to-desktop-when-entering-a-building-or-on-finalising-setup-crash-code-fissdll4481-or-skyrimseexed6ddda)
 
 The first line of the Crash indicates the Crash code - and the process which crashes. E.g 
 
@@ -87,11 +87,11 @@ OR
 
 These Error codes have two causes
 
-### Caused by System Ram and page file overflowing.
+### "out of memory" crash - Caused by System Ram and page file overflowing.
 
 Bigger Skyrim mod lists need a lot of memory, and when there is not enough available it may fail allocating more. To fix this, you'll want to have a bigger page-file.
 
-A page-file is a file on your disk Windows will use when there is not enough RAM available.
+A page-file is a file on your disk Windows will use when there is not enough RAM available. 
 
 Never disable the page-file - this may lead to various issues on your system, such as this Skyrim crash.
 
@@ -102,31 +102,28 @@ If you've never touched the page-file, try performing the following steps:
 4. Disable 'Automatically manage paging file size for all drives'
 5. a) If you have more than one drive, try enabling it for at least one more drive as a backup (make sure it has a decent bit of free space, like 15GB). Set the size to 'System managed size'.
 
-   b) Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB.
+   b) Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB - the minimum can be left at the default.
    
    
-### This Error can also be caused by a corrupt nif/DDS file. 
+### This Error can also be caused by a corrupt NIF/DDS file. 
 
-If adding a page file doesn't resolve, then look through the logfiles' stack section for Meshes(nif files) or Textures(dds). The below log snippet shows a example of the type of file you are looking for. Search your PC for the file(s) shown. Delete the Mod folder that texture is located in Then reinstall from Wabbajack - choosing overwrite installation.
+If adding a page file doesn't resolve, then look through the logfiles' stack section for Meshes(nif files) or Textures(dds). The below log snippet shows a example of the type of file you are looking for. Search your PC for the file(s) shown. Delete the Mod folder that texture is located in, Important: It wont be in the folder in the log (e.g data\TEXTURES\) as these come from the virtual filesystem - you will need to search.  Then reinstall from Wabbajack - choosing overwrite installation.
 
 {: .logfile}
 >  [SP+200]  0x1EC0CCCD990      (BSResource::anonymous_namespace::LooseFileStream*)
+>
 >  [SP+208]  0x1EC00000002      (void*)
+>
 >  [SP+210]  0x1EC0CCD3418      (char*) "data\TEXTURES\plants\shrub01half_n.dds"
+>
 >  [SP+218]  0x1EC0CCD3458      (char*) "data\TEXTURES\plants\shrub01half.dds"
->  [SP+220]  0xFFFFFFFF00000000 (i64):[-4294967296]
->  [SP+228]  0x0                (NULL)
->  [SP+230]  0x1EC0CCCD990      (BSResource::anonymous_namespace::LooseFileStream*)
->  [SP+238]  0x1EC0CCD3458      (char*) "data\TEXTURES\plants\shrub01half.dds"
->  [SP+240]  0xFFFFFFFFFFFFFFFE (i64):[-2]
->  [SP+248]  0x0                (NULL)
->  [SP+250]  0x10               (u8):[16]
+
 
 ---
 
 ## When using a crossbow for the first time Crash code SkyrimSE.exe+7BEC84  (only affects Version 1.0)
 
- - The crossbow mod needs to initialize and cannot do this while in combat causing the CTD. 
+The crossbow mod needs to initialize and cannot do this while in combat causing the CTD. 
 
 Fix: When you get your crossbow - equip and unsheathe it right away (unless you obtain while in combat).
 
@@ -210,7 +207,9 @@ Fix: reload and redo.
 
 ### Collision Crash (SkyrimSE.exe+E014EC)
 
-Generally caused by a NPC Loading inside of a static object such as a scrubbing tub. (example at the rear of arcadia's there are two farmhouses which have a Scrubbing tub near them - NPC's leaving the house occasionally spawn inside of the scrubtub, instead of outside of the door) 
+This crash basically means someone - when coming out of a building, collided with something.
+
+95% of the reports I've had are in Whiterun, caused by a NPC Loading inside a static object(scrubbing tub). At the rear of Arcadia's there are two farmhouses which have a scrubbing tub near them - NPC's leaving the house occasionally spawn inside the scrub tub, instead of outside the door. 
 
 Fix: If the crash occurs in Whiterun, then disable the scrubbing tub using console, For all other locations, please raise a bug report.
                                                                                                 
@@ -231,5 +230,3 @@ Recommendations to reduce chance of issue occurring
 * If you have re-enabled autosaves - turn them off.
  
 ---
-
-                       
