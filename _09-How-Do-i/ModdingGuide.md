@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How Do I Add Mods?
+title: How Do I Customize the list?
 has_toc: false
 has_children: true
 description: Customization Guide
