@@ -26,7 +26,6 @@ To each perk page - Any "none vanilla" mechanics, Standardize Format (mostly don
 
 Summons guide - kinda like the enemy guide but for player cast summons (or NPC cast summons)
 
-
 ---
 
 Deep Dives
@@ -34,9 +33,6 @@ Deep Dives
 
 ---
 
-Class build Guide - each of https://docs.google.com/document/d/1cNxdbVA-1_Zdtsb1Bmxv1ffQ5jNCPcVOW-mwgAyIx_A/edit#heading=h.hxtgddckas1 need adding where appropriate for Wildlander (some aren't as they rely on mods we dont use)
-
----
 
 Add more pictures for clarification and/or ease of identification where appropriate.
 
