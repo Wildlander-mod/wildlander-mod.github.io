@@ -69,24 +69,24 @@ The more weight your worn equipment has, the more difficult it will become to kn
 		<th rowspan="2">Set Shield</th>
 		<th rowspan="2">Full set AR</th>
 		<th rowspan="2">Full set weight</th>
-		<th rowspan="2">Ranged protection</th>
-		<th rowspan="2">Blunt Protection</th>
-		<th rowspan="2">Pierce Protection</th>
-		<th rowspan="2">Slash Protection</th>
+		<th rowspan="2">Ranged AR</th>
+		<th rowspan="2">Blunt AR</th>
+		<th rowspan="2">Pierce AR</th>
+		<th rowspan="2">Slash AR</th>
 	</tr>
     <tr>
         <th>Type</th>
         <th>Name</th>
-        <th>Armor</th>
+        <th>AR</th>
         <th>Weight</th>
         <th>Tier</th>
-        <th>Bonus</th>
+        <th>Bonus AR</th>
         <th>Tier</th>
-        <th>Bonus</th>
+        <th>Bonus AR</th>
         <th>Tier</th>
-        <th>Bonus</th>
+        <th>Bonus AR</th>
         <th>Tier</th>
-        <th>Bonus</th>
+        <th>Bonus AR</th>
     </tr>
     <tr>
         <td>Heavy</td>
