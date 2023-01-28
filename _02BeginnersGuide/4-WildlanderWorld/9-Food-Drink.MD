@@ -19,9 +19,6 @@ $(document).ready(function(){
 });
 </script>
 
-
-## Food & Drink
-
 <input type="text" id="myInputBox" placeholder="Search for Food/Drink.." >
 
 Food Item|Ingredients|Effects

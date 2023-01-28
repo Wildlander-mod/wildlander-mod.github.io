@@ -8,8 +8,6 @@ parent: Your First Character
 description:  Resistances & Weapon Types
 ---
 
-## Resistances & Weapon Types
-
 ### Resistances List
 
 List of basic resistances used in Skyrim.

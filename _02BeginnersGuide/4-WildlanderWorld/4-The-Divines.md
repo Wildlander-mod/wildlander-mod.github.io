@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Divines
+title: The Divines & Daedra
 nav_order: 4
 parent: Wildlander World
 

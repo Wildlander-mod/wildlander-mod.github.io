@@ -7,8 +7,6 @@ parent: Wildlander World
 has_toc: true
 ---
 
-## Diseases
-
 Diseases in Wildlander are not something the can be ignored. Each disease has progression, whereby if not cured they will get worse. Wait too long snd it may prove Fatal.... or worse
 
 Every 24 hours you go without curing a disease, the disease will progress to the next stage.
