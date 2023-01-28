@@ -63,10 +63,10 @@ The more weight your worn equipment has, the more difficult it will become to kn
 		<th colspan="2">Blunt</th>
 		<th colspan="2">Pierce</th>
 		<th colspan="2">Slash</th>
-		<th rowspan="2">Set Helmet</th>
-		<th rowspan="2">Set Gloves</th>
-		<th rowspan="2">Set Boots</th>
-		<th rowspan="2">Set Shield</th>
+		<th rowspan="2">Helmet AR</th>
+		<th rowspan="2">Gloves AR</th>
+		<th rowspan="2">Boots AR</th>
+		<th rowspan="2">Shield AR</th>
 		<th rowspan="2">Full set AR</th>
 		<th rowspan="2">Full set weight</th>
 		<th rowspan="2">Ranged AR</th>
