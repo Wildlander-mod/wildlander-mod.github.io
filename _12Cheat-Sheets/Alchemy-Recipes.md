@@ -4,6 +4,18 @@ layout: default
 description: Recipes lists
 ---
 
+
+## Table of contents
+{: .no_toc }
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
+{: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## *Super Poisons*
 
 ### Flawless Bear Tooth + Wolf Eye + Venomous Spittle
