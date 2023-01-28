@@ -11,14 +11,14 @@ What armor is the best? Is a question I get asked a lot.
 
 The answer to this depends on 3 factors.
 
-#### Base Armor
+### Base Armor
 
 This is the value you see in game is your base armor, and every 10 armor rating is 1% incoming damage negation (up to 80%).
 
 Armor, be it light or heavy, plays a key role in surviving combat. All armors now grant significantly higher armor ratings than in vanilla Skyrim.
 Especially heavy armor grants a lot of protection, allowing you to often shrug off several melee attacks and is almost impenetrable for standard arrows, despite Requiem’s high weapon damage.
 
-#### Resistances
+### Resistances
 
 Weapons are assigned one damage type, and Creatures are Sometimes given extra Damage Type Resistances that function as extra Armor Rating against each damage types. 
 
@@ -31,7 +31,7 @@ Every armor has a pre-defined set of resistances against specific weapon types.
 |Pierce |Dagger
 |Ranged |Bow, Crossbow
 
----
+Every armor resistance has a tier which assigns bonus armor against that weapons type.
 
 |Tier |Bonus Armor|
 |--|--|
@@ -43,19 +43,22 @@ Every armor has a pre-defined set of resistances against specific weapon types.
 
 If you are debating between armor which has high slash or one which has moderate blunt and slash - ask yourself what weapons your enemies are likely to be carrying. 
 
-#### Weight/Mass
+### Weight/Mass
 
 Armor weight no longer only eats up a part of your carry weight, it also actively affects your combat performance. 
 
 The more weight your worn equipment has, the more difficult it will become to knock you to the ground, while your own knockdown attacks are more likely to succeed. However, being as massively armored tank also has some disadvantages:
-– your movement speed reduces proportionally to your armor weight and you make more noises, making sneaking more and more difficult
-– your spell casting costs increase with the weight of your armor, especially for heavy ones the consequences can be dramatic for the apprentice mage
-– your falling damage increases with the weight of your armor
-– the stamina costs for normal attacks also increase with the weight of your armor
-– executing power attacks in heavy armor costs you extra until you have the respective perk
+1. Your movement speed reduces proportionally to your armor weight and you make more noises, making sneaking more and more difficult
+1. Your spell casting costs increase with the weight of your armor, especially for heavy ones the consequences can be dramatic for the apprentice mage
+1. Your falling damage increases with the weight of your armor
+1. The stamina costs for normal attacks also increase with the weight of your armor
+1. Executing power attacks in heavy armor costs you extra until you have the respective perk
 
-#### Armor Spreadsheet
+### Armor Spreadsheet
 <a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1rMVLVouumU45jFfmjmWUVjTYY7_wLnrxwmHMi24R9OU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Direct link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+
+#### Heavy Armor
+
 <table>
 	<tr>
 		<th colspan="4">Chest Armor</th>
@@ -543,6 +546,42 @@ The more weight your worn equipment has, the more difficult it will become to kn
         <td>510</td>
         <td>510</td>
         <td>510</td>
+    </tr>
+</table>
+
+#### Light Armor
+	
+<table>
+	<tr>
+		<th colspan="4">Chest Armor</th>
+		<th colspan="2">Ranged</th>
+		<th colspan="2">Blunt</th>
+		<th colspan="2">Pierce</th>
+		<th colspan="2">Slash</th>
+		<th rowspan="2">Helmet AR</th>
+		<th rowspan="2">Gloves AR</th>
+		<th rowspan="2">Boots AR</th>
+		<th rowspan="2">Shield AR</th>
+		<th rowspan="2">Full set AR</th>
+		<th rowspan="2">Full set weight</th>
+		<th rowspan="2">Ranged AR</th>
+		<th rowspan="2">Blunt AR</th>
+		<th rowspan="2">Pierce AR</th>
+		<th rowspan="2">Slash AR</th>
+	</tr>
+    <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>AR</th>
+        <th>Weight</th>
+        <th>Tier</th>
+        <th>Bonus AR</th>
+        <th>Tier</th>
+        <th>Bonus AR</th>
+        <th>Tier</th>
+        <th>Bonus AR</th>
+        <th>Tier</th>
+        <th>Bonus AR</th>
     </tr>
     <tr>
         <td>Light</td>
