@@ -17,6 +17,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Broken Oar Grotto |
 | :--- | --- |
@@ -28,6 +29,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Lost Echo Cave |
 | :--- | --- |
@@ -38,6 +40,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Mor Khazgur Mine |
 | :--- | --- |
@@ -48,6 +51,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None |
 
+---
 
 |   | Pinemoon Cave |
 | :--- | --- |
@@ -58,6 +62,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- *An Ebony Vampire has a chance to spawn in place of the Steel Plate Vampire Boss. |
 
+---
 
 |   | Ravenscar Hollow  |
 | :--- | --- |
@@ -68,6 +73,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 
 |   | Rimerock Burrow  |
@@ -78,6 +84,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous<br/>- Enemy is a named foes who wields extremely powerul lightnig spells and summons powerful atronachs |
 
+---
 
 |   | Shadowgreen Cavern  |
 | :--- | --- |
@@ -89,6 +96,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Steepfall Burrow  |
 | :--- | --- |
@@ -99,6 +107,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Wolfskull Cave |
 | :--- | --- |
@@ -109,6 +118,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average [normally] / Dangerous* [during *The Man Who Cried Wolf*]<br/>- If a radiant quest sends you in here while *The Man Who Cried Wolf* is active, you'll need to finish it and let the dungeon reset before being able to complete your radiant quest |
 
+---
 
 ### Forts, Nordic Towers & Watchtowers
 
@@ -120,6 +130,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Northwatch Keep |
 | :--- | --- |
@@ -129,6 +140,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Thalmor-run prison<br/>- Only a single, specific quest sends you in here |
 
+---
 
 |   | Pinefrost Tower  |
 | :--- | --- |
@@ -138,6 +150,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Widow's Watch Ruins  |
 | :--- | --- |
@@ -147,6 +160,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Skillbook may be hiding behind a shield |
 
+---
 
 ### Ruins & Tombs
 
@@ -159,6 +173,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Volskygge |
 | :--- | --- |

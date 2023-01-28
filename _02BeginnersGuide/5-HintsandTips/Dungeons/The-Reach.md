@@ -19,6 +19,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Bruca's Leap Redoubt  |
 | :--- | --- |
@@ -28,6 +29,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Chillwind Depths |
 | :--- | --- |
@@ -38,6 +40,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Cidhna Mine |
 | :--- | --- |
@@ -48,7 +51,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None<br/>- If imprisoned here, you *must* serve your time, you cannot pick the lock or otherwise escape. |
 
-	
+---
+
 |   | Darkfall Cave |
 | :--- | --- |
 | Occupants | Frostbite Spiders / Trolls |
@@ -58,7 +62,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
-	
+---
+
 |   | Darkfall Passage |
 | :--- | --- |
 | Occupants | Falmer / Chaurus / Chaurus Hunters / Vale Deer / Vale Sabre Cats |
@@ -67,6 +72,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Dushnikh Mine |
 | :--- | --- |
@@ -77,6 +83,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None<br/>- The loose pieces of orichalcum ore are free to take if you are blood-kin to the Orcs. |
 
+---
 
 |   | Fenn's Gulch Mine  |
 | :--- | --- |
@@ -87,6 +94,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None |
 
+---
 
 |   | Gloomreach |
 | :--- | --- |
@@ -97,6 +105,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Kolskeggr Mine |
 | :--- | --- |
@@ -108,6 +117,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Left Hand Mine  |
 | :--- | --- |
@@ -118,6 +128,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None |
 
+---
 
 |   | Liar's Retreat  |
 | :--- | --- |
@@ -129,6 +140,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Rarely, *The Longhammer* may clip through the geometry. Use the console command *tcl* to pass through and obtain the weapon, remember to have nothing selected when using the command and to input it a 2nd time after you've 'resurfaced'. |
 
+---
 
 |   | Reachcliff Cave |
 | :--- | --- |
@@ -139,6 +151,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Reachwater Rock |
 | :--- | --- |
@@ -149,6 +162,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Rebel's Cairn |
 | :--- | --- |
@@ -159,6 +173,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Red Eagle is a fairly powerful Draugr that can use *Unrelenting Force* and wields a *Honed Ancient Nord Greatsword of Burning*. |
 
+---
 
 |   | Red Eagle Redoubt |
 | :--- | --- |
@@ -169,6 +184,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Sanuarach Mine |
 | :--- | --- |
@@ -179,6 +195,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Soljund's Sinkhole |
 | :--- | --- |
@@ -202,6 +219,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- In addition to a broad spell selection, Orchendor has a toxic vomit attack, can teleport away after being struck 3-5 times, and has innate Magic Resist 100%. |
 
+---
 
 |   | Nchuand-Zel |
 | :--- | --- |
@@ -213,7 +231,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Taunt the mini-Falmer at your own peril, they are just as agressive and dangerous as their normal-sized kin. |
 
-	
+---
+
 |   | Reachwind Eyrie |
 | :--- | --- |
 | Occupants | None |
@@ -222,6 +241,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level:  |
 
+---
 
 ### Forts, Nordic Towers & Watchtowers
 
@@ -233,6 +253,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Broken Tower Redoubt  |
 | :--- | --- |
@@ -242,6 +263,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Cradle Stone Tower |
 | :--- | --- |
@@ -251,6 +273,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Dead Crone Rock |
 | :--- | --- |
@@ -259,6 +282,8 @@ parent: Dungeon Guides
 | Important Treasure | Pommel Stone of Mehrunes' Razor<br/>Skillbook: Alchemy (*A Game at Dinner*)<br/>Unusual Gem |
 |||
 | Tactical | Threat Level: Dangerous |
+
+---
 	
 |   | Deep Folk Crossing |
 | :--- | --- |
@@ -269,6 +294,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
+
 |   | Fort Sungard  |
 | :--- | --- |
 | Occupants | Forsworn  |
@@ -277,6 +304,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Harmugstahl  |
 | :--- | --- |
@@ -287,6 +315,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Sundered Towers |
 | :--- | --- |
@@ -296,6 +325,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 ### Ruins & Tombs
 
@@ -308,6 +338,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Four Skull Lookout |
 | :--- | --- |
@@ -318,6 +349,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Hag Rock Redoubt |
 | :--- | --- |
@@ -327,6 +359,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Hag's End  |
 | :--- | --- |
@@ -336,6 +369,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Lost Valley Redoubt |
 | :--- | --- |
@@ -346,6 +380,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Ragnvald  |
 | :--- | --- |
@@ -355,6 +390,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous<br/>- Otar uses powerful shock magic, summons Storm Atronachs, can Command Daedra, and is resistant to Elemental Magic thanks to his Mask. |
 
+---
 
 |   | Valthume  |
 | :--- | --- |

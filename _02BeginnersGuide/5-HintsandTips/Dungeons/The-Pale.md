@@ -6,8 +6,6 @@ has_toc: false
 has_children: false
 parent: Dungeon Guides
 
----
-
 ### Caves, Mines, & Passes
 
 |   | Bronze Water Cave |
@@ -17,6 +15,8 @@ parent: Dungeon Guides
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Easy-Average depending on what shows up |
+
+---
 	
 |   | Dimhollow Crypt |
 | :--- | --- |
@@ -27,6 +27,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- *An Ebony Vampire has a chance to spawn in place of the Steel Plate Vampire Boss. |
 
+---
 
 |   | Duskglow Crevice |
 | :--- | --- |
@@ -36,6 +37,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Forsaken Cave  |
 | :--- | --- |
@@ -45,6 +47,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult<br/>- This location contains numerous burial urns, it is worthwhile to complete the quest No Stone Unturned if one wishes to visit or revisit this location to maximize profits. |
 
+---
 
 |   | Iron-Breaker Mine |
 | :--- | --- |
@@ -55,6 +58,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None<br/>- There may be a glitch in the small tunnel in the mine where you cannot get through the tunnel. This is fixable by simply using a lunge power attack. |
 
+---
 	
 |   | Quicksilver Mine |
 | :--- | --- |
@@ -65,6 +69,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level:  |
 
+---
 
 ### Dwemer Ruins
 
@@ -77,6 +82,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Mzinchaleft |
 | :--- | --- |
@@ -86,6 +92,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Raldbthar  |
 | :--- | --- |
@@ -95,6 +102,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 ### Forts, Nordic Towers & Watchtowers
 
@@ -106,6 +114,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Nightcaller Temple |
 | :--- | --- |
@@ -114,7 +123,6 @@ parent: Dungeon Guides
 | Important Treasure | Silk Mage Robes of Master Illusion<br/>Silk Mage Robes of Master Restoration<br/>Skillbook: Alchemy (*Mannimarco, King of Worms*)<br/>Skull of Corruption |
 |||
 | Tactical | Threat Level: Dangerous |
-
 
 ### Ruins & Tombs
 
@@ -126,6 +134,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | High Gate Ruins  |
 | :--- | --- |
@@ -135,6 +144,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Korvanjund  |
 | :--- | --- |
@@ -144,6 +154,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Silverdrift Lair  |
 | :--- | --- |
@@ -153,7 +164,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
-	
+---
+
 |   | Shrine of Mehrunes Dagon |
 | :--- | --- |
 | Occupants | Dremora / Slighted |
@@ -162,6 +174,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
 
 |   | Volunruud |
 | :--- | --- |
@@ -172,6 +185,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Windward Ruins |
 | :--- | --- |
@@ -181,6 +195,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Easy<br/>- Bandit camp NW has Skillbook: Destruction (*A Hypothetical Treachery*) |
 
+---
 
 |   | Yorgrim Overlook  |
 | :--- | --- |

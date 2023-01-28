@@ -20,6 +20,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Broken Helm Hollow |
 | :--- | --- |
@@ -29,8 +30,9 @@ parent: Dungeon Guides
 | Ore Veins | x3 Corundum |
 |||
 | Tactical | Threat Level: Average |
-	
-	
+
+---	
+
 |   | Clearspring Cave |
 | :--- | --- |
 | Occupants | Troll |
@@ -39,8 +41,9 @@ parent: Dungeon Guides
 | Ore Veins | x1 Iron |
 |||
 | Tactical | Threat Level: Difficult |
-	
-	
+
+---	
+
 |   | Crystaldrift Cave |
 | :--- | --- |
 | Occupants | Animals |
@@ -50,6 +53,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Easy-Difficult* (dependant upon animals) |
 
+---
 
 |   | Darkwater Pass |
 | :--- | --- |
@@ -60,6 +64,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Fallowstone Cave |
 | :--- | --- |
@@ -71,6 +76,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult (Dangerous*)<br/>- *There will be Giants present during *The Cursed Tribe*. |
 
+---
 
 |   | Honeystrand Cave |
 | :--- | --- |
@@ -81,6 +87,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Lost Prospect Mine  |
 | :--- | --- |
@@ -91,6 +98,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None |
 
+---
 
 |   | Northwind Mine |
 | :--- | --- |
@@ -101,6 +109,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Pinepeak Cavern |
 | :--- | --- |
@@ -111,6 +120,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Purewater Run |
 | :--- | --- |
@@ -121,6 +131,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Easy?<br/>- Scrolls or Spells utilizing Cloak spells can kill the fish while underwater. |
 
+---
 
 |   | Redbelly Mine |
 | :--- | --- |
@@ -131,7 +142,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
-	
+---
+
 |   | Redwater Den |
 | :--- | --- |
 | Occupants | Various Civilians / Bandits / Vampires / Ebony Vampire* / Vampire Thralls / Death Hounds / Venarus Vulpin |
@@ -140,6 +152,8 @@ parent: Dungeon Guides
 | Ore Veins | x2 Iron; x2 Gold |
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- Venarus is a mage in addition to being a Vampire, utilizing both Destruction and Cojuration spells.<br/>- *An Ebony Vampire has a chance to spawn in place of the Steel Plate Vampire Boss. |
+
+---
 
 |   | Ruunvald Excavation |
 | :--- | --- |
@@ -150,6 +164,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Minorne is a Conjurer. |
 
+---
 
 |   | Tolvald's Cave |
 | :--- | --- |
@@ -161,6 +176,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 ### Dwemer Ruins
 
@@ -173,6 +189,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Ruins of Bthalft  |
 | :--- | --- |
@@ -183,6 +200,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 	
 |   | Ruins of Rkund |
 | :--- | --- |
@@ -192,6 +210,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | The Aetherium Forge  |
 | :--- | --- |
@@ -212,6 +231,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Illia battles a Witch in the 2nd room and if alive will give a quest to clear the tower.<br/>- Illia can be recruited as a follower/spouse after the quest is complete, providing she's still alive after. |
 
+---
 
 |   | Faldar's Tooth |
 | :--- | --- |
@@ -222,6 +242,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Fort Greenwall |
 | :--- | --- |
@@ -231,6 +252,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Nilheim |
 | :--- | --- |
@@ -240,6 +262,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Rift Watchtower |
 | :--- | --- |
@@ -250,6 +273,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Treva's Watch |
 | :--- | --- |
@@ -261,6 +285,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 ### Ruins & Tombs
 
@@ -273,6 +298,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Arcwind Point |
 | :--- | --- |
@@ -282,6 +308,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous<br/>- *Not entirely sure what that means for Requiem, but if you're ready for a Dragon you're ready for whatever. |
 
+---
 
 |   | Forelhost |
 | :--- | --- |
@@ -292,6 +319,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous<br/>- Rahgot uses powerful fire magic, can conjure Flame Atronach, and can Command Daedra. |
 
+---
 
 |   | Geirmund's Hall |
 | :--- | --- |
@@ -302,6 +330,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult<br/>- Sigdis wields the Gauldur Blackbow, can summon illusions, and can teleport. |
 
+---
 
 |   | Shroud Hearth Barrow |
 | :--- | --- |

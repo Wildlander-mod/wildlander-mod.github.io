@@ -19,6 +19,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Cold Rock Pass |
 | :--- | --- |
@@ -29,6 +30,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Forebears' Holdout |
 | :--- | --- |
@@ -38,6 +40,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult (Dawnguard) or Dangerous (Vampires)<br/>- Dawnguard will be present if you chose to ally with Castle Volkihar<br/>- Vampires will be present if you've allied with the Dawnguard |
 
+---
 
 |   | Movarth's Lair |
 | :--- | --- |
@@ -48,6 +51,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous<br/>- Movarth is the only present during *Laid to Rest*. |
 
+---
 
 |   | Orotheim |
 | :--- | --- |
@@ -58,6 +62,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Rockwallow Mine |
 | :--- | --- |
@@ -89,6 +94,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 ### Ruins & Tombs
 
@@ -100,6 +106,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Folgunthur  |
 | :--- | --- |
@@ -109,6 +116,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Mikrul uses Frost magic and his sword has an Absorb Health enchantment  |
 
+---
 
 |   | Kjenstag Ruins |
 | :--- | --- |
@@ -119,6 +127,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average<br/>- Ruins are unoccupied unless you approach between 8pm-5am, a ghost will lead you to an unmarked barrow with a couple of graverobbers |
 
+---
 
 |   | Labyrinthian |
 | :--- | --- |
@@ -129,6 +138,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Endgame<br>- Hordes of undead combined with a Frost-breathing Skeletal Dragon make for an incredibly difficult fight<br/>- Morokei himself uses powerful lightning magic, summons Storm Atronachs, can Command Daedra on your own summons, and wields the Staff of Magnus all together making him an exceedingly dangeous foe. |
 
+---
 
 |   | Lost Valkygg  |
 | :--- | --- |
@@ -138,6 +148,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Ustengrav |
 | :--- | --- |

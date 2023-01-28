@@ -19,6 +19,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Hob's Fall Cave |
 | :--- | --- |
@@ -28,6 +29,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Sightless Pit |
 | :--- | --- |
@@ -38,6 +40,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Stillborn Cave  |
 | :--- | --- |
@@ -48,6 +51,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 	
 |   | Wayward Pass |
 | :--- | --- |
@@ -57,6 +61,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None*<br/>- NPC Patrols may still roam this area as random encounters. |
 
+---
 
 |   | Whistling Mine |
 | :--- | --- |
@@ -67,6 +72,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None |
 
+---
 
 |   | Yngvild |
 | :--- | --- |
@@ -87,6 +93,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Blackreach |
 | :--- | --- |
@@ -97,6 +104,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous<br/>- The sheer scope of Blackreach can be daunting, take it one step at a time, there are Falmer everywhere!<br/>- To summon Vulthuryol, use *Unrelenting Force* on the large, orange globe hanging above the Silent City.<br/>- Although it's an underground dungeon, it's still considered 'outside' for many purposes such as *Summon Arvak* and *Storm Call*, but not *Call Dragon*. |
 
+---
 
 ### Forts, Nordic Towers & Watchtowers
 
@@ -108,6 +116,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average<br/>- *Maybe don't let the savage furry murder machine out of its cage, eh? |
 
+---
 
 |   | Fort Fellhammer |
 | :--- | --- |
@@ -119,6 +128,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Fort Kastav  |
 | :--- | --- |
@@ -128,6 +138,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Snowpoint Beacon  |
 | :--- | --- |
@@ -138,6 +149,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 ### Ruins & Tombs
 
@@ -150,6 +162,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Journeyman's Nook |
 | :--- | --- |
@@ -159,6 +172,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Saarthal  |
 | :--- | --- |
@@ -168,6 +182,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Jyrik is a spellsword-style Draugr that uses elemental-style cloaks to become immune to an element (with a weakness to its opposite in the case of flame and frost).<br/>- Jyrik is effectively immune to damage until Tolfdir brings down the Draugrs shield, which takes approx. 4 seconds after he reaches the orb. |
 
+---
 
 |   | Skytemple Ruins  |
 | :--- | --- |
@@ -177,6 +192,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Snow Veil Sanctum  |
 | :--- | --- |
@@ -186,6 +202,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Ysgramor's Tomb  |
 | :--- | --- |

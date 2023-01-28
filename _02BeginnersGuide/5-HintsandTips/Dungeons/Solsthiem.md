@@ -6,12 +6,13 @@ has_toc: false
 has_children: false
 parent: Dungeon Guides
 
----
 
 {: .warning}
 The entire island is high-level, "average" here isn't the same as Skyrim! Threat levels assume you're ready to tackle Dragonborn content!
 
 ### Caves, Mines, & Passes
+
+---
 
 |   | Benkongerike |
 | :--- | --- |
@@ -22,6 +23,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 |   | Bristleback Cave |
 | :--- | --- |
 | Occupants | Bristlebacks / Rieklings |
@@ -29,6 +32,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Average |
+
+---
 
 |   | Broken Tusk Mine |
 | :--- | --- |
@@ -39,6 +44,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 |   | Castle Karstaag Caverns |
 | :--- | --- |
 | Occupants | Bristlebacks / Rieklings |
@@ -47,6 +54,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 |   | Castle Karstaag Ruins |
 | :--- | --- |
 | Occupants | Rieklings / Kartaag* |
@@ -54,6 +63,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | *Summon Karstaag** |
 |||
 | Tactical | Threat Level: Average<br/>- *Endgame, if summoning Karstaag. |
+
+---
 
 |   | Coldcinder Cave |
 | :--- | --- |
@@ -64,6 +75,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
+
 |   | Damphall Mine |
 | :--- | --- |
 | Occupants | Reavers |
@@ -72,6 +85,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Ore Veins | x2 Iron; x1 Silver |
 |||
 | Tactical | Threat Level: Average |
+
+---
 
 |   | Frossel |
 | :--- | --- |
@@ -82,6 +97,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level:  |
 
+---
+
 |   | Frostmoon Crag |
 | :--- | --- |
 | Occupants | Werewolves |
@@ -90,6 +107,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Interesting Notes | You will be welcomed if you're a werewolf, and can purchase Blessed Rings of Hircine. |
 |||
 | Tactical | Threat Level: Dangerous |
+
+---
 
 |   | Glacial Cave |
 | :--- | --- |
@@ -100,6 +119,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 |   | Hrothmund's Barrow |
 | :--- | --- |
 | Occupants | None |
@@ -108,6 +129,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Ore Veins | x1 Silver; x1 Gold |
 |||
 | Tactical | Threat Level: None |
+
+---
 
 	
 |   | Moespring Pass |
@@ -118,6 +141,7 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Raven Rock Mine |
 | :--- | --- |
@@ -128,8 +152,12 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Difficult |
 
+---
+
 	  
 ### Dwemer Ruins
+
+---
 
 |   | Fahlbtharz |
 | :--- | --- |
@@ -138,6 +166,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | Kagrumez Resonance Gem<br/>Visage of Mzund |
 |||
 | Tactical | Threat Level: Dangerous |
+
+---
 
 |   | Kagrumez |
 | :--- | --- |
@@ -148,6 +178,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Periloous |
 
+---
+
 |   | Nchardak |
 | :--- | --- |
 | Occupants | Automatons / Reavers / Enchanted Sphere |
@@ -157,9 +189,9 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Perilous |
 
-
-
 ### Forts, Nordic Towers & Watchtowers
+
+---
 
 |   | Ashfallow Citadel |
 | :--- | --- |
@@ -168,6 +200,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Average |
+
+---
 
 |   | Fort Frostmoth |
 | :--- | --- |
@@ -178,6 +212,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
+
 |   | Highpoint Tower |
 | :--- | --- |
 | Occupants | Albine Spiders / Ash Spawn / Ash Guardian / Illdari Sarothril |
@@ -187,8 +223,11 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Dangerous |
 
+
   
 ### Ruins & Tombs
+
+---
 
 |   | Bloodskal Barrow |
 | :--- | --- |
@@ -199,6 +238,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Perilous<br/>- Zahkriisos specialises in lightning magic. |
 
+---
+
 |   | Gyldenhul Barrow |
 | :--- | --- |
 | Occupants | Garuk Windrime / Haknir Death-Brand / Haknir's Crew / Thalin Ebonhand |
@@ -206,6 +247,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | Bloodscythe<br/>Soulrender |
 |||
 | Tactical | Threat Level: Difficult<br/>- You'll need all 4 pieces of the Deathbrand armor to fully complete this dungeon. |
+
+---
 
 |   | Kolbjorn Barrow |
 | :--- | --- |
@@ -215,6 +258,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Perilous<br/>- Ahzidal specializes in fire magic and can reanimate the dead. |
 
+---
+
 |   | Snowclad Ruins |
 | :--- | --- |
 | Occupants | Werebears |
@@ -223,6 +268,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
+
 |   | Vahlok's Tomb |
 | :--- | --- |
 | Occupants | Corrupted Shades / Draugr / Vahlok the Jailor |
@@ -230,6 +277,8 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Perilous<br/>- Valhok is a Dragon Priest that specializes in Fire magic, as well as being able to both Summon Flame Atronachs and Command Daedra. |
+
+---
 
 |   | White Ridge Barrow |
 | :--- | --- |

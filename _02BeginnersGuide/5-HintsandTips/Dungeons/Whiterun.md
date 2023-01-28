@@ -6,9 +6,10 @@ has_toc: false
 has_children: false
 parent: Dungeon Guides
 
----
 
 ### Caves, Mines, & Passes
+
+---
 
 |   | Broken Fang Cave |
 | :--- | --- |
@@ -19,6 +20,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
+
 |   | Darkshade |
 | :--- | --- |
 | Occupants | Trolls |
@@ -28,6 +31,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Graywinter Watch |
 | :--- | --- |
@@ -38,6 +42,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Guldun Rock Cave |
 | :--- | --- |
@@ -47,6 +52,8 @@ parent: Dungeon Guides
 | Ore Veins | x2 Orichalcum (outside, 210ft N-NW of camp) |
 |||
 | Tactical | Threat Level: Dangerous |
+
+---
 
 	
 |   | Halted Stream Camp |
@@ -58,6 +65,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average<br/>- You can usually skip the boss fight by shooting the flaming pot in the last room before entering. |
 
+---
 
 |   | Redoran's Retreat  |
 | :--- | --- |
@@ -67,6 +75,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Shimmermist Cave |
 | :--- | --- |
@@ -77,6 +86,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Sleeping Tree Cave |
 | :--- | --- |
@@ -88,6 +98,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Swindler's Den |
 | :--- | --- |
@@ -98,6 +109,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average<br/>- Kematu & Co only show up during *In my Time of Need*. |
 
+---
 
 |   | White River Watch |
 | :--- | --- |
@@ -110,6 +122,8 @@ parent: Dungeon Guides
 
 ### Forts, Nordic Towers & Watchtowers
 
+---
+
 |   | Fellglow Keep |
 | :--- | --- |
 | Occupants | Warlocks / Frostbite Spiders / Vampires  / Wolves / Skeletons / Atronachs / The Caller / Orthorn / Slighted* |
@@ -118,6 +132,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- *There is Master(?) locked room in the keep that can be opened with the *Fellglow Keep Key*, but be warned that it's packed full of Slighted.<br/>- With a successful Speech check you can avoid confrontation with The Caller. |
 
+---
 
 |   | Fort Greymoor |
 | :--- | --- |
@@ -127,6 +142,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Valtheim Towers  |
 | :--- | --- |
@@ -140,6 +156,8 @@ parent: Dungeon Guides
 
 ### Ruins & Tombs
 
+---
+
 |   | Dustman's Cairn  |
 | :--- | --- |
 | Occupants | Draugr / Frostbite Spiders / Silver Hand* / Skeevers |
@@ -148,6 +166,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult<br/>- If The Companions quest *Proving Honor* isn't active, you'll only have access to the first room. |
 
+---
 
 |   | Hamvir's Rest  |
 | :--- | --- |
@@ -158,6 +177,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Hillgrund's Tomb |
 | :--- | --- |
@@ -168,6 +188,8 @@ parent: Dungeon Guides
 | Interesting Notes | Skillbook: Illusion (*The Black Arts On Trial*) can be found 370ft S of entrance at a tree stump and dead bandit. |
 |||
 | Tactical | Threat Level: Difficult |
+
+---
 	
 |   | Moldering Ruins |
 | :--- | --- |
@@ -176,6 +198,8 @@ parent: Dungeon Guides
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- *An Ebony Vampire has a chance to spawn in place of the Steel Plate Vampire Boss.
+
+---
 
 |   | North Skybound Watch |
 | :--- | --- |
@@ -187,6 +211,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Rannveig's Fast |
 | :--- | --- |
@@ -196,6 +221,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Silent Moons Camp  |
 | :--- | --- |
