@@ -77,7 +77,7 @@ The more weight your worn equipment has, the more difficult it will become to kn
     <tr>
         <th>Type</th>
         <th>Name</th>
-        <th>Protection</th>
+        <th>Armor</th>
         <th>Weight</th>
         <th>Tier</th>
         <th>Bonus</th>
