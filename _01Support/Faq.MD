@@ -86,9 +86,8 @@ Special Edition is a completely different version of game engine (64-bit instead
 
 ## When is Ultimate Skyrim returning?
 
-It won't be returning to the Wabbajack gallery. The Wabbajack file, along with install instructions, are currently pinned in the Ultsky Support channel on Discord.
+It won't be returning to the Wabbajack gallery. The Wabbajack file, along with install instructions, are located [here](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/).
 
-I have no further information as to if it will be formally re-released on the Wildlander website.
 
 ----------
 
@@ -112,29 +111,77 @@ Yes - Click [Here](..\..\02BeginnersGuide\2-RecommendedReading\6-Changes-From-Ul
 
 ----------
 
+##  I already have other modlists installed, Can i still play wildlander?
+
+Yes. Wildlander uses a mechanism called "stock game" this is in a nutshell a self contained copy of skyrim. 
+
+Provided you steam version of Skyrim is up to date, you can install Wildlander. If you happen to have a downgraded version of Skyrim and your own modpack, then you can update via steam, install, then use Halgari's downgrade patcher to restore your skyrim to the correct version afterwards.
+
+----------
+
+## Why Steam? I have Skyrim from another source and it wont let me install.
+
+### Gamepass 
+
+Script extenders (such as SKSE) are currently not compatible with Gamepass versions of Bethesda games. Without these, it is not possible to run complex mods.
+
+SKSE cannot support any potential Windows Store release of Skyrim. Windows Store applications are locked down similarly to consoles and do not allow the APIs necessary for script extenders to work.
+
+### GOG
+
+Wildlander is built on Skyrim 1.5.97. It is not possible to downgrade a GOG DRM free version of skyrim to a Steam DRM 1.5.97
+
+### Epic Games
+
+Firstly, The Wabbajack installation tool does not support it. Secondly - it has the same issues as GOG.
+
+### Cracked / SteamEMU
+
+Wabbajack includes piracy protection which will only allow installations on a genuine Store Brought install.
+
+* No, there is not a way to turn these off.
+* No, we will not provide you manual installation instructions.
+
+There are no acceptable reasons for you to be wanting to use a cracked/Emulated install. Cracking/Piracy is theft and we will not support any user running a cracked version.
+
+----------
+
+## Can I play Wildlander with Skyrim Together
+
+Skyrim Together Reborn is unfortunately not compatible with Wildlander at this time. Lists Generally have to be built around Skyrim Together, not thrown on at the end.
+
+- STR is incompatible with some SKSE mods, which are used by Wildlander.
+- STR uses a different version of Skyrim than Wildlander (though this may change in the future)
+- STR is incompatible with SSE Engine Fixes, which is a core component of any modlist.
+
+If this incompatibility changes, the community will be the first to know.
+
+----------
+
 ## Does this mod pack support other languages?
 
-No, and if you try, then SKSE crashes from Mod Organizer. You will need to install English Skyrim - Special Edition to play this modpack.
+No, by default You will need to install English Skyrim - Special Edition to Install this modpack.
 
 ----------
 
 ## How do I update to the current version?
 
-Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. Note that support still won't be officially provided; use this feature at your own discretion. 
+Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. 
 
 Then follow the instructions [here](..\..\09-How-Do-i\How-to-update)
 
 The latest version will always be available <a href="https://www.wildlandermod.com/download" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for clean installations
 
 {: .warning}
-Some updates will require a new game and are **_not_** save compatible.
+> Some updates will require a new game and are **_not_** save compatible.
+
+Finally - If you have added and "nodeleted" your additional mods, boot into mod organiser and rearrange your load order as needed.
 
 ----------
 
 ## Do I have to update?
 
 No. All updates require you to manually run Wabbajack to download and install the latest mods for the new build.
-
 
 ----------
 
@@ -150,7 +197,7 @@ Uninstalling the launcher requires you to use Windows “Add / remove program”
 
 ## Can I remove the downloads' folder?
 
-Yes, but if you want to install an update, or repair your install, you will need to redownload all 500+ mods.
+Yes, but if you want to "Clean" repair/reinstall due to a bug (or to get back to Wildlander default Modlist), you will need to redownload all 500+ mods.
 
 However, you can safely move your download folder to another hard drive.
 
@@ -177,16 +224,18 @@ However, you can safely move your download folder to another hard drive.
 
 1) Reporting files in overwrite folder: These are your crash logs.
 2) All the NPC overhauls are disabled: They are supposed to be, as they are just dummy files to ensure the authors get download credit. Hence the “DEV RESOURCES” label.
-3) There are mods with Red X's: These are merged into the Wildlander ESP. It is perfectly normal.
+3) There are mods with Red X's: The ESP's for these mods are merged into the Wildlander ESP. It is perfectly normal.
 4) Mod XXX is out of date: Perfectly normal for mod lists to have older versions of mods. Some mods update several times a month and the list won't ever be able to keep up.
 
-Finally, you should be using the launcher to play. Entering mod organizer is NOT NECESSARY unless you are running Windows 7.
+Finally, you should be using the launcher to play.
 
 ---------
 
 ### Mod X has been updated, can I install that?
 
-No. For stability reasons, only the versions installed by Wabbajack are supported.
+For stability reasons, only the versions installed by Wabbajack are supported.
+
+Should you want to update it, Then this would come under the customization category and would require you to do compatibility checking.
 
 ----------
 
@@ -196,30 +245,41 @@ The answer to this is support strongly recommends that you leave them alone. Eve
 
 We are not responsible for any errors or bugs which occur if you edit them.
 
-FLP MCM should be treated as though it doesn't exist. Seriosuly. Touch nothing in here unless you enjoy for followers picking up random shit and running around in circles while you are fighting for your life.
+FLP MCM should be treated as though it doesn't exist. Seriously. Touch nothing in here unless you enjoy for followers picking up random shit and running around in circles while you are fighting for your life Or wose - Mounting a horse inside of a object and giving you a nice CTD.
 
 ----------
 
 ### Can I remove/disable mod X
 
-Many mods have a Mod Configuration Menu (MCM) where they can be turned off. You cannot disable anything completely from Mod Organizer, and doing so will deny you access to support.
+Many Gameplay mods have a Mod Configuration Menu (MCM) where they can be turned off, without you editing the install. 
+
+Most SKSE mods can be turned off provided they have no ESP / Scripts.
+
+Most Texture/Models mods can be turned off provided they have no ESP / Scripts.
+
+Should you want to disable it in mod organizer, Then this would come under the customization category and would require you to do checking to make sure other mods are not Dependant on it.
 
 ----------
 
 ### Can I add additional mods?
 
-Currently, we are not supporting any form of modification of Wildlander.
+How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
+
+Things to check
+1. Is there already a guide for it available in the customization resources.
+1. Are there any mod conflicts from Mod organizer tool - this will tell you if the files being changed as touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
+1. Record conflict resolution. The next thing to check is the actual ESP/ESL/ESM files for conflicts. I would recommend the following guide <https://tes5edit.github.io/docs/5-conflict-detection-and-resolution.html> to help you to learn how to check for mod conflicts within SSEEdit. If there are any then most likely you would need to write a conflict resolution patch.
 
 Any modifications are done at your own risk and will deny you access to support.
 
 Changing the mod list (even simple changes) can break Wildlander in surprising ways. Requiem touches all parts of Skyrim and generally requires patches to add anything.
 
-If you want to do it anyway, I will give this free advice: DO NOT run LOOT! It will break the mod list. Any mods should be added and ordered manually. Remember that, again, this _WILL_ deny you access to support.
-
 ---
 ###  But I want CBBE/UNP nudes
 
-Answer is still no. Go straight to horny jail. Do not pass go. Do not collect 200 Septims.
+This is a SFW List, If you want to add them, you'll need to work out how to do it yourself.
+
+In addition, go straight to horny jail. Do not pass go. Do not collect 200 Septims.
 
 ---
 ## **Gameplay Questions**
@@ -232,15 +292,19 @@ Sure. Here's a [link](..\..\01Support\KnownIssues\).
 
 ### How can I see the keybindings?
 
-The in-game hotkey F11 will bring up a Gamepad / keyboard layout of all key bindings. Pressing F11 again will hide it.
+The in-game hotkey F11 will bring up a Gamepad / keyboard layout of all key bindings. Pressing F11 again will hide it. 
+
+You can also see them on [This](https://wiki.wildlandermod.com/02BeginnersGuide/2-RecommendedReading/8-Keybindings/) page.
 
 ----------
 
 ### My keybindings don't work
 
-Dylan is based in the US, so the key bindings were based on a standard QWERTY US keyboard.
+Dylan is based in the US, so the key bindings images were based on a standard QWERTY US keyboard.
 
-For any other types of keyboards, you will need to rebind the keys yourself from the MCM menus.
+For any other types of keyboards, you will need to press the key in the same "position" on the keyboard as the one in the keybindings docmentation.
+
+you can also rebind the keys if you prefer - however the ingame image will not update accordingly.
 
 There is an appropriate guide [here](..\..\02BeginnersGuide\2-RecommendedReading\8-Keybindings\).
 
@@ -264,7 +328,7 @@ Please see [here](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System
 
 ### What are these weird named Misc Items / Weapon heads / Imbued things?
 
-Part of the Spell Research mod
+Part of the Spell Research mod.
 
 Please see [here](https://wiki.wildlandermod.com/11Deep-Dives/Spell-Research/) for more info.
 
@@ -281,6 +345,7 @@ Once you get the message warning you that you hit F10. Hit 'OK', then 'escape.'
 Then go to Mod Configuration Menu and Skyrim. From there you can use 'Skyrim Unbound Reborn' MCM and customize how you want to start exactly.
 
 ----------
+
 ### Some sounds aren't playing! How do I fix this?
 
 If you are unable to hear most of the combat sounds such as sword swings, spell usage (flames, healing, etc.), opening a container, footsteps, etc. but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance...
@@ -314,7 +379,7 @@ Requiem applies a stamina draining effect when you run and when you wear armor w
 
 ### Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [Religion & The Divines](..\..\02BeginnersGuide\4-WildlanderWorld\4-The-Divines\) for more information.
+Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](..\..\02BeginnersGuide\4-WildlanderWorld\4-The-Divines\) for more information.
 
 ----------
 
@@ -544,6 +609,8 @@ You need to do five (5) radiant quests for members of the Circle in-between each
 
 ## **Crafting Questions**
 
+For all Recipes, you can see the [Crafting Spreadsheet](https://wiki.wildlandermod.com/10-Crafting/CraftingSpreadsheet/)
+
 ### How do I craft Snowberry Extract?
 
 Snowberry Extract is made directly from a cookpot, or by using the player crafting menu when in proximity to a cookpot
@@ -559,3 +626,5 @@ The extract requires the following items/tools:
 ### How do I craft Healing Poultice?
 
 The Healing poultice [Guide](..\..\02BeginnersGuide\3-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
+
+
