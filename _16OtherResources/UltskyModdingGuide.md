@@ -41,7 +41,7 @@ parent: Ultimate Skyrim
 Installing Mods not covered by guides. 
 
 - Download it to your UltSky download folder (this will be the directory you entered on the Wabbajack installer when you first installed the list)
-- open < Ultimate Skyrim install directory >\content\mod organizer.exe. Once open - top left dropdown - select the profile you plan on playing.
+- open < Ultimate Skyrim install directory >\content\mod organizer.exe. Once open - top left drop-down - select the profile you plan on playing.
 - select download tab on right side 
 - find the mod in the list and right click > install (you may need to click the refresh button to make it appear)
 - choose your settings (if it has installation options) then once its finished installing turn it on, on the left side of the mod organizer (should be at bottom of the list). 
@@ -116,14 +116,14 @@ Issues with this guide should be directed to Bmxfreestyle357#6234 on discord.
 ---
 ## Anna Gameplay Overhaul Guide
 
-If you enjoy the following playstyles and themes, these MCM settings and extra mods might be perfect for you:
+If you enjoy the following play-styles and themes, these MCM settings and extra mods might be perfect for you:
 
 > - Deadly, realistic combat with longer-term consequences.
 > - Immersive world experience with minimally intrusive HUD/mechanical elements.
 > - Enhanced NPC interactions with more in-world characters.
-> - Warrior, thief, and lower magic playstyles.
+> - Warrior, thief, and lower magic play-styles.
 > - Civil War and military playthroughs.
-> - Slower, grindier pace of play. 
+> - Slower, grinding pace of play. 
 > - *EXTREMELY HARDCORE*    
 
 You can get a lot of this experience from the default UltSky list, but the added mods and plugins in this guide really turn it up to 11 for me.   
@@ -190,12 +190,12 @@ About the Ult Sky patch:
 
 To install:
 
-1. Download and install[ Wintersun 3.1.5](https://www.nexusmods.com/skyrim/mods/95545?tab=files) with MO2. Load the esp plugin anywhere between _Book Covers Skyrim.esp_ and _Requiem.esp._ On the screenshot below it is right before _Requiem.esp_. Mod position on the left side of MO does not matter (end of the mod list is fine).
+1. Download and install[ Wintersun 3.1.5](https://www.nexusmods.com/skyrim/mods/95545?tab=files) with MO2. Load the esp plugin anywhere between _Book Covers Skyrim.esp_ and _Requiem.esp._ On the screen shot below it is right before _Requiem.esp_. Mod position on the left side of MO does not matter (end of the mod list is fine).
 2. Download and install[ Wintersun - Requiem patch (v1.4)](https://www.nexusmods.com/skyrim/mods/95859?tab=files) from Segolia94's patch collection. Load the esp between _Ultimate Skyrim.esp_ and _Requiem for the Indifferent.esp_.
 3. Install [Wintersun 3.1.5 - Seg 1.4 - Ultsky 407](https://drive.google.com/file/d/1hP53c8KQQz4plQGNl-qlLSpMnYFRVy0d/view?usp=sharing) On the left side of MO2 keep this patch **after** Wintersun mod and Seg's patch. On the right side of MO load the esp **after** Seg's patch and also **after** _Ultimate Skyrim - Book Covers Skyrim.esp_ **_._** You can place both patches there, as shown on the screenshot below.
 4. Run the [Reqtificator](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions). Done.
 
-_Note: If you are a Sanguine worshipper, and you are also using SNBCJ's "Requiem - Classic Food and Drink (R-CFD)" mod, make sure to load the Wintersun patches after the R-CFD patch, so that you'll get the correct effect from alcohol which boosts favor with Sanguine the more you drink._
+_Note: If you are a Sanguine worshiper, and you are also using SNBCJ's "Requiem - Classic Food and Drink (R-CFD)" mod, make sure to load the Wintersun patches after the R-CFD patch, so that you'll get the correct effect from alcohol which boosts favor with Sanguine the more you drink._
 
 *_Installing over an existing save:_
 
@@ -216,6 +216,7 @@ Right side
 Changelog:
 Enabled the scripts from the mod Alternate House of Horrors. Without the scripts activated the mod would not work.
 ```
+
 ### Sacrosanct - Vampires of Skyrim with Seg's patch* [Patch updated 2019/08/21]
 
 
