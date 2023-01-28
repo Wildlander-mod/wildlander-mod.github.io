@@ -18,6 +18,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 |   | Cragwallow Slope |
 | :--- | --- |
 | Occupants | Atronachs (Flame/Frost/Storm) / Warlocks |
@@ -26,6 +28,9 @@ parent: Dungeon Guides
 | Ore Veins | x1 Corundum |
 |||
 | Tactical | Threat Level: Dangerous<br/>- Banishing magic/enchantments advised for use against Atronachs |
+
+---
+
 
 |   | Cronvangr Cave |
 | :--- | --- |
@@ -37,6 +42,9 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Magic Resist advised to stave off Vampire Drain |
 
+---
+
+
 |   | Eldergleam Sanctuary |
 | :--- | --- |
 | Occupants | Civilians / Spriggans |
@@ -45,7 +53,9 @@ parent: Dungeon Guides
 | Interesting Note | SW of entrance is a hunter camp with Skillbook: Smithing (*Cherim's Heart*)<br/>East of entrance in a crate atop a hill you can find Skillbook: Enchanting (*A Tragedy in Black*) and various Soul Gems |
 | Ore Veins | x2 Corundum |
 |||
-| Tactical | Threat Level: None - Difficult<br/>- Decisions made during the quest to restore/replace the Eldergleam Tree will affect whether you need to fight or not |
+| Tactical | Threat Level: None - Difficult<br/>- Decisions made during the quest to restore/replace the Eldergleam Tree will affect whether you need to fight or not|
+
+---
 
 
 |   | Gloombound Mine |
@@ -57,6 +67,9 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None |
 
+---
+
+
 |   | Goldenrock Mine  |
 | :--- | --- |
 | Occupants | Civilians |
@@ -65,6 +78,9 @@ parent: Dungeon Guides
 | Ore Veins | x4 Corundum |
 |||
 | Tactical | Threat Level: None |
+
+---
+
 
 |   | Lost Knife Hideout |
 | :--- | --- |
@@ -76,6 +92,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 	
 |   | Mara's Eye Den |
 | :--- | --- |
@@ -85,6 +102,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Snapleg Cave |
 | :--- | --- |
@@ -93,6 +111,8 @@ parent: Dungeon Guides
 | Important Treasure | Skillbook: Alteration (*Breathing Water*)<br/> Staff of Paralysis |
 |||
 | Tactical | Threat Level: Difficult<br/>- Hags and Witches can come in various elemental flavours but Hagravens prefer Fireball<br/>- If freed, the Spriggan is not hostile and will turn on its captors. |
+
+---
 
 |   | Steamscorch Mine |
 | :--- | --- |
@@ -103,6 +123,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: None |
 
+---
+
 |   | Stony Creek Cave |
 | :--- | --- |
 | Occupants | Bandits |
@@ -112,6 +134,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 |   | Uttering Hills Cave |
 | :--- | --- |
 | Occupants | Bandits |
@@ -120,6 +144,8 @@ parent: Dungeon Guides
 | Ore Veins | x1 Corundum; x1 Iron (outside, SW); x1 Gold & Corundum (outside, E, under flag) |
 |||
 | Tactical | Threat Level: Average |
+
+---
 
 ### Dwemer Ruins
 
@@ -131,6 +157,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
+
 |   | Mzulft |
 | :--- | --- |
 | Occupants | Automatons / Chaurus / Falmer / Enchanted Sphere |
@@ -140,6 +168,8 @@ parent: Dungeon Guides
 | Ore Veins | x7 Moonstone |
 |||
 | Tactical | Threat Level: Perilous |
+
+---
 
 ### Forts, Nordic Towers & Watchtowers
 
@@ -152,6 +182,8 @@ parent: Dungeon Guides
 | Tactical | Threat Level: Average<br/>- Silvered weapons advised |
 
 
+---
+
 |   | Fort Amol |
 | :--- | --- |
 | Occupants | Elemental Mages |
@@ -159,6 +191,8 @@ parent: Dungeon Guides
 | Important Treasure | Skillbook: Enchanting (*Catalogue of Armor Enchantments*)<br/>Spell Tome: Bound Bow |
 |||
 | Tactical | Threat Level: Dangerous |
+
+---
 
 |   | Gallows Rock |
 | :--- | --- |
@@ -168,6 +202,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average<br/>- Decent source of Silvered weapons<br/>- Basically just well-armed Bandits |
 
+---
 
 |   | Mistwatch |
 | :--- | --- |
@@ -177,6 +212,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Morvunskar |
 | :--- | --- |
@@ -188,6 +224,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Refugees' Rest |
 | :--- | --- |
@@ -209,6 +246,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous<br/>- Silvered weapons and Turning Magic helps vs Draugr |
 
+---
 
 |   | Skuldafn |
 | :--- | --- |
@@ -219,6 +257,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Endgame<br/>- 2nd to final dungeon in the Main Quest, once you're here you cannot go back, the only path is forward<br/>- All four Dragons here are stronger than usual and will not attack the Draugr, supposedly the two near the gate will only attack in self-defense<br/>- Bring everything you think you'll need to survive trying to save the world<br/>- Capping your physical, magical, and elemental damage Resists is highly advised<br/>- Good luck Dovahkiin, give 'em hell! |
 
+---
 
 |   | Yngol Barrow |
 | :--- | --- |

@@ -6,9 +6,9 @@ has_toc: false
 has_children: false
 parent: Dungeon Guides
 
----
-
 ### Caves, Mines, & Passes
+
+---
 
 |   | Ancestor Glade |
 | :--- | --- |
@@ -17,6 +17,8 @@ parent: Dungeon Guides
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Perilous |
+
+---
 
 |   | Bilegulch Mine |
 | :--- | --- |
@@ -27,6 +29,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 |   | Bloated Man's Grotto  |
 | :--- | --- |
 | Occupants | Spriggans / Bears; Animals |
@@ -36,6 +40,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Bonechill Passage |
 | :--- | --- |
@@ -44,6 +49,8 @@ parent: Dungeon Guides
 | Important Treasure | Skillbook: Heavy Armor (*2920, MidYear, v6*) |
 |||
 | Tactical | Threat Level: Difficult |
+
+---
 
 
 |   | Brittleshin Pass |
@@ -55,6 +62,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Embershard Mine |
 | :--- | --- |
@@ -64,6 +72,8 @@ parent: Dungeon Guides
 | Ore Veins | x8 Iron |
 |||
 | Tactical | Threat Level: Average |
+
+---
 
 
 |   | Glenmoril Coven |
@@ -75,6 +85,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Greywater Grotto |
 | :--- | --- |
@@ -85,6 +96,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level:  |
 
+---
+
 
 |   | Haemar's Shame |
 | :--- | --- |
@@ -93,6 +106,8 @@ parent: Dungeon Guides
 | Important Treasure | Skillbook: Destruction (*Response to Bero's Speech*) |
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- *An Ebony Vampire has a chance to spawn in place of the Steel Plate Vampire Boss.
+
+---
 
 
 |   | Halldir's Cairn |
@@ -104,6 +119,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
+
 
 |   | Knifepoint Ridge |
 | :--- | --- |
@@ -113,6 +130,8 @@ parent: Dungeon Guides
 | Ore Veins | x19 Corundum; x5 Iron |
 |||
 | Tactical | Threat Level: Average |
+
+---
 
 
 |   | Moss Mother Cavern  |
@@ -124,6 +143,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Southfringe Sanctum |
 | :--- | --- |
@@ -134,6 +154,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Sunderstone Gorge  |
 | :--- | --- |
@@ -144,7 +165,10 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+
 ### Dwemer Ruins
+
+---
 
 |   | Arkngthamz |
 | :--- | --- |
@@ -155,8 +179,12 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous |
 
+---
+
 
 ### Forts, Nordic Towers & Watchtowers
+
+---
 
 |   | Bannermist Tower  |
 | :--- | --- |
@@ -165,6 +193,8 @@ parent: Dungeon Guides
 | Important Treasure | Skillbook: Lockpicking (*Advances in Lockpicking*) |
 |||
 | Tactical | Threat Level: Average |
+
+---
 
 
 |   | Bloodlet Throne |
@@ -176,6 +206,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
+
 
 |   | Cracked Tusk Keep |
 | :--- | --- |
@@ -186,6 +218,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
 
 |   | Falkreath Watchtower |
 | :--- | --- |
@@ -194,6 +227,8 @@ parent: Dungeon Guides
 | Important Treasure | Skillbook: Conjuration (*Liminal Bridges*) |
 |||
 | Tactical | Threat Level: Dangerous |
+
+---
 
 
 |   | Fort Neugrad  |
@@ -205,6 +240,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Average |
 
+---
+
 
 |   | Helgen Keep |
 | :--- | --- |
@@ -213,6 +250,8 @@ parent: Dungeon Guides
 | Special Features | None |
 |||
 | Tactical | Threat Level: Average<br/>- Door is locked with Apprentice lock |
+
+---
 
 
 |   | Ilinalta's Deep  |
@@ -223,6 +262,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Dangerous |
 
+---
 
 |   | Peak's Shade Tower |
 | :--- | --- |
@@ -231,6 +271,8 @@ parent: Dungeon Guides
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Difficult |
+
+---
 
 
 |   | South Skybound Watch  |
@@ -246,6 +288,8 @@ parent: Dungeon Guides
 
 ### Ruins & Tombs
 
+---
+
 |   | Bleak Falls Barrow |
 | :--- | --- |
 | Occupants | Draugr / Bandits / Skeevers / Wounded Frostbite Spider |
@@ -255,6 +299,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult<br/>- Be aware that the Dragonstone is no longer present, to proceed with the Main Quest you must slay a Dragon<br/>- How fortunate then that one spawns upon exiting the rear of Bleak Falls Barrow<br/>- If you're not ready for Dragon-slaying then leaving via the entrance will not spawn the Dragon |
 
+---
 
 |   | Roadside Ruins |
 | :--- | --- |
@@ -264,6 +309,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Difficult |
 
+---
 
 |   | Shriekwind Bastion  |
 | :--- | --- |
@@ -273,6 +319,8 @@ parent: Dungeon Guides
 | Ore Veins | x1 Corundum
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- *An Ebony Vampire has a chance to spawn in place of the Steel Plate Vampire Boss.
+
+---
 
 
 |   | Twilight Sepulcher  |
