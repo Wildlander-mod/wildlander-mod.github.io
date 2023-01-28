@@ -5,8 +5,6 @@ nav_order: 1
 description: Spell Research (Elixers) 
 ---
 
-# Spell Research (Elixers) 
-
 There are six tiers of elixirs you can craft using the glass alembic (listed in the Tiers table). 
 
 If you want to create an elixir of some tier (e.g. an 'Mild Elixir' with the 'Damage Magicka' Effect) you need to use the listed ingredients with the corresponding suffix (in our example that would be 'Agea sa Gravia, Betaltadoon sa Gravia and Betayammis sa Gravia).	

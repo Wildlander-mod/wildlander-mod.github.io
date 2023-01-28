@@ -5,7 +5,6 @@ nav_order: 1
 description: Recipes lists
 ---
 
-# Spell Research (Artifacts) 
 
 This document contains a list of all Artifacts in the game which can be examined by spell research
 
