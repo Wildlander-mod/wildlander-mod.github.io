@@ -6,15 +6,8 @@ has_toc: false
 has_children: false
 parent: Dungeon Guides
 
----
-
----
-
----
 
 ###  Apocrypha 
-
----
 
 |   | Apocrypha |
 | :--- | --- |
@@ -24,11 +17,8 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous-Endgame<br/>- Only accessible via the various Black Books found throughout Solstheim and during the Main Quest of Dragonborn.<br/>- Tentacles can whip out of the water and deal significant damage if they hit you, additionally the water is corrosive and will damage you.<br/>- Some areas are covered in consuming darkness, damaging you upon entering that area; to avoid this damage you must seek out light sources such as the floating Wisp-Lanterns.<br/>- Miraak utilizes various Destruction spells and Dragon Shouts in addition to his unique Sword and Staff.<br/>- Three times throughout the fight Miraak (at around 10-20$% of his hp remaining) will absorb the soul of one of the three Dragons overhead, healing himself to full.<br/>- Defeating Miraak will yield 10 Dragon Souls in addition to any he has stolen from you over the course of Dragonborn's Main Quest.<br/>- Followers can not accompany you. |
 
----
 
 ###  Azura's Star Interior 
-
----
 
 |   | Azura's Star |
 | :--- | --- |
@@ -38,11 +28,10 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Perilous<br/>- Only accessible during *The Black Star*.<br/>- Malyn is a powerful mage who wields a Destruction staff and utilizes both Destruction and Restoration spells.<br/>- Additionally, he is accompanied by a host of Slighted! You can't escape this zone so come heavy or not at all.<br/>- Followers can not accompany you. |
 
----
+
 
 ###  Sovengarde 
 
----
 
 |   | Sovengarde |
 | :--- | --- |
@@ -52,11 +41,7 @@ parent: Dungeon Guides
 |||
 | Tactical | Threat Level: Endgame<br/>- Only accessible during the Main Quest.<br/>- Tsun will yield at 50% health and is immune to *Unrelenting Force*.<br/>- Alduin himself is an immensely powerful Dragon, with Resist Fire 50% and Weakness Frost 25%, who uses the Shouts Fire Breath, Frost Breath, Unrelenting Force, and his unique Dragon Storm Call.<br/>- Alduin is invulnerable unless he's been grounded by the Dragon Rend shout. |
 
----
-
 ### Dayspring Canyon
-
----
 
 |   | Mossy Glen Cave |
 | :--- | --- |
@@ -68,7 +53,6 @@ parent: Dungeon Guides
 
 
 ### Forgotten Vale
-
 
 |   | Forgotten Vale |
 | :--- | --- |
@@ -148,7 +132,6 @@ parent: Dungeon Guides
 | Important Treasure | None |
 |||
 | Tactical | Threat Level: Dangerous |
-
 
 
 ### Soul Cairn
