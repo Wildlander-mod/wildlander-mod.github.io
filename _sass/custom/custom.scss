@@ -64,7 +64,7 @@ table {
 }
 
 th {
-   min-width: 100px;
+   min-width: 50px;
    background-color:#50098A;
    color: #ffffff;
    font-weight: bold;
@@ -78,7 +78,7 @@ th {
 // Spacing Sp-1 = 4 pixels, sp-2 = 8 pixels
 
 td {
-  min-width: 100px;
+  min-width: 50px;
   padding-top: $sp-2;  
   padding-right: $sp-2;
   padding-bottom: $sp-2;
