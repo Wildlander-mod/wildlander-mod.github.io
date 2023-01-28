@@ -4,33 +4,33 @@ layout: default
 description: Recipes lists
 ---
 
-# *Super Poisons*
+## *Super Poisons*
 
 ### Flawless Bear Tooth + Wolf Eye + Venomous Spittle
 
 Result: Paralysis for 6sec, Damage Health Target 61pts, Damage Target Health 6pts for 60sec, Damage Target Stamina for 6pts for 60sec.
 
-
-# *Super Potions*
+## *Super Potions*
 
 ### Daedra Heart + Pearl + Swamp Fungal Pod
 
 Result: Restore Health,Stamina and Magicka for 61 pts for 120sec, Resist Shock by 18% for 60sec.
 
-# *Super Resist*
+## *Super Resist*
 
 ### Snowberries + Mudcrab Chitin + Thistle Branch
 
 Result: Resist Poison by 30% for 60 sec, Resist Shock by 24% for 60, Resist Fire by 18% for 60sec, Resist Frost for 18% for 60sec.
 
-# *Super Magicka*
+## *Super Magicka*
 
 ### Jazbay Grapes + Briar Heart + Moon Sugar
 
 Result: Fortify Magicka by 24pts for 120 sec, Magicka Regen 30% for 300 sec, Restore 12 pts for 30 secs.
 
+----
 
-# Poisons
+## Poisons
 
 ### Nirnroot + Sabre Cat Heart + Wolf Heart
 
@@ -45,7 +45,9 @@ Result: Drain Target Health by 61pts for 120sec, Drain Stamina by 6 for 60 sec, 
 Result: Damages Target 61, 6 pts of damage per sec for 60 sec, paralyze for 6 sec.
 
 
-# Potions
+----
+
+## Potions
 
 ### Bee + Bear Claws + Buck Antlers
 
@@ -83,8 +85,9 @@ Result: Restore 6pts stamina for 20sec.
 
 Result Restore 6pts Magicka for 20sec.
 
+----
 
-# Resist Potions
+## Resist Potions
 
 ### Tundra Cotton + Void Salt
 
@@ -102,7 +105,9 @@ Result: Resist Poison by 24% for 60sec, Restore Health by 6 for 20sec.
 
 Result: Resist Magic 24% for 60sec.
 
-# Fortify Potions
+----
+
+## Fortify Potions
 
 ### Ectoplasm + Red Mountain Flower + Beehive Husk
 
@@ -120,9 +125,11 @@ Result: Stam Regen 30% for 300sec, Two-handed Expertise 12 for 60sec, Fire resis
 
 Result: Health Increased by 61 pts for 180 sec, Stamina increased by 30 for 300 sec, Armor increased by 61 for 60 sec. Fortify Carry Weight by 18 for 600sec
 
-# Power Levelling (High value potions)
+----
 
-##  Gathering
+## Power Levelling (High value potions)
+
+###  Gathering
 
 _Safe places to collect Groups 1 & 2_
 
@@ -144,8 +151,7 @@ Salt you can find in bags, but I usually buy it
 
 Slaughterfish Eggs are available in large quantity on the north coast between Dawnstar in the water.
 
----
-## Crafting
+### Crafting
 
 #### _Group (1)_
 
@@ -175,7 +181,7 @@ Water Breathing & Fortify Magicka
 
 Invisibility & Fortify Stamina
 
-####_Group (5)_
+###_Group (5)_
 
 	Troll Fat + PineThrush Egg + Falmer Ear
 
