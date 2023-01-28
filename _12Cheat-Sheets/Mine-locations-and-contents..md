@@ -13,6 +13,7 @@ Bilegulch Mine — Situated southwest of Fort Sungard and directly west of Sunde
 
 
 Broken Tusk Mine — Located between Bristleback Cave and Stalhrim Source. 
+
 * Occupied by rieklings
 * heart stone
 * Solstheim  
@@ -25,6 +26,7 @@ Cidhna Mine — A small silver mine and forced-labor prison camp underneath west
 * Proper Lock Design - Lockpicking Skillbook 
 
 Damphall Mine — North of Bloodskal Barrow. 
+
 * Occupied by reavers
 * Silver/Iron
 * Solstheim  
