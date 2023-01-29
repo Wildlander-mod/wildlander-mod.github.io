@@ -49,7 +49,11 @@ $font-size-10-sm: 48px !default;
 // To stop overlap with the floating header
 .main-content-wrap {
   padding-top: 5.5rem;
-  scroll-margin-top: 55px;
+}
+
+// to make scrolling links position 100px from top of screen
+html{
+    scroll-padding-top:100px;
 }
   
 // External content
