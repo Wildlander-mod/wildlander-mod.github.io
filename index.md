@@ -77,7 +77,13 @@ If videos are more your speed, then <a href="https://www.youtube.com/channel/UCn
 
 ## Thank yous
 
-We would like to thank Alexandregd, Goldymires, Giblets, Hazardoss, Liam, SuicidalKillers, Skjolbir, Semkiry, Terrorforge and the whole Requiem Community for the guides used to produce this Wiki.
+We would like to thank Alexandregd, Goldymires, Giblets, Hazardoss, Liam, SuicidalKillers, Skjolbir, Semkiry, Terrorforge and the whole Requiem Community for the guides used to produce this Wiki. 
+
+Halgari & The Wabbajack Team for the Wabbajack Install tool. 
+
+All of Dylan's patreon's.
+
+Finally, above all else, the Mod authors who without their mods - none of this would be possible. Please Endorse their mods, the mod-list versions pages have direct links to each of the mods involved.
 
 ----
 
