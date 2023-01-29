@@ -3,30 +3,37 @@ title: Wildlander Change Log
 layout: default
 nav_order: 2
 description: Wildlander change log
+
 ---
 
 ## V1.1.11 - release 05/12/22 
 
-Stable {: .label .label-green } Save Safe {: .label .label-blue}
+Stable 
+{: .label .label-green } 
+Save Safe 
+{: .label .label-blue}
 
 
 * Fixed an issue where Ultra graphics were forced, regardless of setting. The other graphics settings will now work as intended (High, Medium, Low, and Potato).*
 
 ## V1.1.10 - release 16/09/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Compatibility with New skyrim update (1.6.640).
 
 ## V1.1.9 - release 16/09/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Compatibility with New skyrim update (1.6.629).
 
 ## V1.1.8 - release 13/09/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Restored the missing carry weight bonus to beef stew
 * Hands are no longer invisible when fist fighting
@@ -35,7 +42,8 @@ Save Safe {: .label .label-blue}
 
 ## V1.1.7 - release 08/09/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Restored some missing XPMSSE scripts
 * Enabled Improved Camera on all profiles
@@ -43,32 +51,37 @@ Save Safe {: .label .label-blue}
 
 ## V1.1.6 - release 07/09/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Full log of changes located [here](/14ModlistVersions/1.1.6-Release-Notes/)
 
 ## V1.1.5 - release 29/06/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Fixed a small issue preventing full ultrawide functionality the first time users launch the game.
 
 ## V1.1.4 - release 27/06/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Update to SKSE to cope with stealth change.
 
 ## V1.1.3 - release 22/06/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Restored missing faces for players formerly on 1.1.2 (whoopsie, my b)
 * Fixed an issue preventing XP gain when crafting from player crafting menu
 
 ## V1.1.2 - release 21/06/22 
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Further Fix for Outlaw refuges
 * Correction to invisible Necromancers Amulet - Reverted the model back to vanilla from CCOR
@@ -91,13 +104,15 @@ Save Safe {: .label .label-blue}
 
 ## V1.1.1 - release 21/06/22
 
-Save Safe {: .label .label-blue}
+Save Safe 
+{: .label .label-blue}
 
 * Hot fix to fix download of Dyndolod and install the correct version fo wildlander.esp.
 
 ## V1.1.0 - release 20/06/22
 
-Not Save Safe. New Game Needed {: .label .label-red }
+Not Save Safe. New Game Needed 
+{: .label .label-red }
 
 ### Highlights  
 
