@@ -38,9 +38,9 @@ If videos are more your speed, then <a href="https://www.youtube.com/channel/UCn
 1. The <a href="https://www.reddit.com/r/wildlander/" target="_blank" rel="noopener noreferrer">Wildlander Subreddit <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> is a great place to meet fellow players and share stories of your adventures. We also host community events, post screenshots of our characters’ latest exploits, and generally discuss whatever we like through Reddit’s forum-style posting. You can also use the Subreddit for tech support, but the Discord is better for real-time help and troubleshooting.
 1. The <a href="https://www.youtube.com/wildlander" target="_blank" rel="noopener noreferrer">Wildlander YouTube channel <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> contains a variety of Wildlander video content, including gameplay videos, gameplay tutorials, developer updates, modding tutorials, and other video content not related to Wildlander.
 
-**Help Guidelines **
+**Help Guidelines**
 
-1. Read and Follow the discord rules.
+1. Read and Follow the Discord/Reddit rules.
 1. Do NOT private message or @ staff.
 1. If your save is from an incompatible version, and you have tried to play it on the newest version, we cannot help.
 1. Modifying The Modpack = community support only. Staff reserve the right to decline to help people with issues on modified installs.
