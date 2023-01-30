@@ -5,7 +5,6 @@ nav_order: 2
 description: Crafting Spreadsheet
 ---
 
-<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=0" target="_blank" rel="noopener noreferrer">All Recipes Spreadsheet <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -17,6 +16,8 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1utEfot7czAGslnbL2OP_gIoI31CI6J8Zn5nvqED21xE/edit#gid=0" target="_blank" rel="noopener noreferrer">All Recipes Spreadsheet <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 <input type="text" id="myInputBox" placeholder="Search for Recipe.." >
 
