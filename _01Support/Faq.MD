@@ -318,6 +318,14 @@ Doing so will break your racial perks, and cause a crossbow to infinitely reload
 
 ----------
 
+### Why are guards following me?
+
+We employ a mod where guards will follow the player if they observe you being suspicious. This includes drawing your weapons, sneaking around or having magic ready to cast.
+
+Too much suspicious behavior and they will issue a fine. Continue being suspicious and they may become hostile!
+
+----------
+
 ### What are these toolkit things?
 
 Part of the Wildlander propitiatory crafting system.
