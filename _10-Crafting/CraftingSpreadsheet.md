@@ -29,6 +29,7 @@ $(document).ready(function(){
         <th>Components</th>
         <th>Additional Requirements</th>
     </tr>
+	<tbody>
     <tr>
         <td>Aetherial Crown</td>
         <td></td>
@@ -19813,4 +19814,5 @@ $(document).ready(function(){
         <td>1 Salt 2 Potato 1 Raw Dragon Meat</td>
         <td></td>
     </tr>
+	</tbody>
 </table>
