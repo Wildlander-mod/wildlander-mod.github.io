@@ -21,6 +21,7 @@ $(document).ready(function(){
 <input type="text" id="myInputBox" placeholder="Search for Recipe.." >
 
 <table id="myTable">
+	<thead>
     <tr>
         <th>Item Name</th>
         <th>Perks Needed</th>
@@ -29,6 +30,7 @@ $(document).ready(function(){
         <th>Components</th>
         <th>Additional Requirements</th>
     </tr>
+	</thead>
 	<tbody>
     <tr>
         <td>Aetherial Crown</td>
