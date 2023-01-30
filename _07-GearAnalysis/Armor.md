@@ -309,7 +309,7 @@ The more weight your worn equipment has, the more difficult it will become to kn
     </tr>
     <tr>
         <td>Heavy</td>
-        <td>Wolf</td>
+        <td>Circle</td>
         <td>360</td>
         <td>25</td>
         <td>5</td>
