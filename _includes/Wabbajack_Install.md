@@ -114,6 +114,16 @@ Yes - Wabbajack wont install unless it has all mods, creating a list for potato 
 
 No, again this would be a completely separate list which would need its own separate Wabbajack Modlist.
 
+----
+
+### Wabbajack fails to find Skyrimse.exe.
+
+There are several causes of this:-
+1. You haven't ran it. Fix: Close Wabbajack, Make sure you run skyrim directly to the menu.
+1. You don't own a Steam/GOG version. Wabbajack does not support Gamepass, Xbox or Epic Game store versions.
+1. You have moved your skyrim folder from where it was originally installed and you didnt use the steam "move install" option to do it. Fix: Move it back to the original location and use the steam move tool to move the game to a different library on your computer. You can use <https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide> to create new steam libraries on your primary hard drive.
+1. You have a Cracked version of skyrim. Fix: Buy the game.
+
 ----------
 
 ### Wabbajack fails to download mods or hangs for a long time.
