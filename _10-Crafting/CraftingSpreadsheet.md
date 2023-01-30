@@ -21,6 +21,11 @@ $(document).ready(function(){
 
 <input type="text" id="myInputBox" placeholder="Search for Recipe.." >
 
+{: .note}
+> Due to the number of recipes, the search is quite slow. 
+>
+> If you are looking for a specific recipe Control+F is faster.
+
 <table id="myTable">
 	<thead>
     <tr>
@@ -3141,24 +3146,8 @@ $(document).ready(function(){
         <td>Cooked Angelfish</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Angelfish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Angelfish</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Angelfish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Angler</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Angler</td>
         <td></td>
     </tr>
     <tr>
@@ -3173,24 +3162,8 @@ $(document).ready(function(){
         <td>Cooked Angler Larvae</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Angler Larvae</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Angler Larvae</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Angler Larvae</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Arctic Char</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Arctic Char</td>
         <td></td>
     </tr>
     <tr>
@@ -3205,24 +3178,8 @@ $(document).ready(function(){
         <td>Cooked Arctic Grayling</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Arctic Grayling</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Arctic Grayling</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Arctic Grayling</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Bear Meat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Bear Meat</td>
         <td></td>
     </tr>
     <tr>
@@ -3237,24 +3194,8 @@ $(document).ready(function(){
         <td>Cooked Beef</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Beef</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Beef</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Beef</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Brook Bass</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Brook Bass</td>
         <td></td>
     </tr>
     <tr>
@@ -3269,24 +3210,8 @@ $(document).ready(function(){
         <td>Cooked Carp</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Carp</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Carp</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Carp</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Catfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Catfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3301,24 +3226,8 @@ $(document).ready(function(){
         <td>Cooked Chaurus Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Chaurus Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Chaurus Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Chaurus Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Chicken Breast</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>2 Raw Chicken Breast</td>
         <td></td>
     </tr>
     <tr>
@@ -3333,24 +3242,8 @@ $(document).ready(function(){
         <td>Cooked Cod</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Cod</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Cod</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Cod</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Direfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Direfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3365,24 +3258,8 @@ $(document).ready(function(){
         <td>Cooked Dog Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Dog Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Dog Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Dog Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Dragon Meat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Dragon Meat</td>
         <td></td>
     </tr>
     <tr>
@@ -3397,24 +3274,8 @@ $(document).ready(function(){
         <td>Cooked Elk Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Elk Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Elk Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Elk Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Fat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Animal Fat</td>
         <td></td>
     </tr>
     <tr>
@@ -3429,24 +3290,8 @@ $(document).ready(function(){
         <td>Cooked Fox Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Fox Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Fox Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Fox Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Glass Catfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Glass Catfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3461,24 +3306,8 @@ $(document).ready(function(){
         <td>Cooked Glassfish</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Glassfish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Glassfish</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Glassfish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Goat Leg</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Goat Leg</td>
         <td></td>
     </tr>
     <tr>
@@ -3493,24 +3322,8 @@ $(document).ready(function(){
         <td>Cooked Goat Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Goat Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Goat Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Goat Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Goldfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Goldfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3525,24 +3338,8 @@ $(document).ready(function(){
         <td>Cooked Horker Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Horker Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Horker Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Horker Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Horse Meat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Horse Meat</td>
         <td></td>
     </tr>
     <tr>
@@ -3557,24 +3354,8 @@ $(document).ready(function(){
         <td>Cooked Juvenile Mudcrab</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Juvenile Mudcrab</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Juvenile Mudcrab</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Juvenile Mudcrab</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Leeks</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Leek</td>
         <td></td>
     </tr>
     <tr>
@@ -3589,24 +3370,8 @@ $(document).ready(function(){
         <td>Cooked Lyretail Anthias</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Lyretail Anthias</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Lyretail Anthias</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Lyretail Anthias</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Mammoth Meat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Mammoth Meat</td>
         <td></td>
     </tr>
     <tr>
@@ -3621,24 +3386,8 @@ $(document).ready(function(){
         <td>Cooked Mammoth Snout</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Mammoth Snout</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Mammoth Snout</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Mammoth Snout</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Mudcrab</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Mudcrab Meat</td>
         <td></td>
     </tr>
     <tr>
@@ -3653,24 +3402,8 @@ $(document).ready(function(){
         <td>Cooked Mudcrab Legs</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Mudcrab Legs</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Mudcrab Legs</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Mudcrab Legs</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Pearlfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Pearlfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3685,24 +3418,8 @@ $(document).ready(function(){
         <td>Cooked Pheasant Breast</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Pheasant Breast</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Pheasant Breast</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Pheasant Breast</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Pogfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Pogfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3717,24 +3434,8 @@ $(document).ready(function(){
         <td>Cooked Potatoes</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Potato</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Potatoes</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Potato</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Pygmy Sunfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Pygmy Sunfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3749,24 +3450,8 @@ $(document).ready(function(){
         <td>Cooked Rabbit Leg</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Rabbit Leg</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Rabbit Leg</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Rabbit Leg</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Rabbit Meat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Rabbit Meat</td>
         <td></td>
     </tr>
     <tr>
@@ -3781,32 +3466,8 @@ $(document).ready(function(){
         <td>Cooked Sabre Cat Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Sabre Cat Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Sabre Cat Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Sabre Cat Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Salmon Steak</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Salmon</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Salmon Steak</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Salmon Steak</td>
         <td></td>
     </tr>
     <tr>
@@ -3829,24 +3490,8 @@ $(document).ready(function(){
         <td>Cooked Scorpion Fish</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Scorpion Fish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Scorpion Fish</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Scorpion Fish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Skeever Meat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Skeever Meat</td>
         <td></td>
     </tr>
     <tr>
@@ -3861,32 +3506,8 @@ $(document).ready(function(){
         <td>Cooked Slaughterfish</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Slaughterfish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Slaughterfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Slaughterfish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Slaughterfish</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Slaughterfish</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Spadefish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Spadefish</td>
         <td></td>
     </tr>
     <tr>
@@ -3901,24 +3522,8 @@ $(document).ready(function(){
         <td>Cooked Spider Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Spider Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Spider Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Spider Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Tripod Spiderfish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Tripod Spiderfish</td>
         <td></td>
     </tr>
     <tr>
@@ -3933,24 +3538,8 @@ $(document).ready(function(){
         <td>Cooked Troll Meat</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Troll Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Troll Meat</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Troll Meat</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Vampire Fish</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Vampire Fish</td>
         <td></td>
     </tr>
     <tr>
@@ -3965,24 +3554,8 @@ $(document).ready(function(){
         <td>Cooked Venison</td>
         <td></td>
         <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Venison</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Venison</td>
-        <td></td>
-        <td>None Required</td>
         <td>Any Fire Source,Cook pot</td>
         <td>1 Raw Venison</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Cooked Wolf Meat</td>
-        <td></td>
-        <td>None Required</td>
-        <td>Cook pot</td>
-        <td>1 Raw Wolf Meat</td>
         <td></td>
     </tr>
     <tr>
