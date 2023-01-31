@@ -4,7 +4,7 @@ title: How Do I Customize the list?
 has_toc: false
 has_children: true
 description: Customization Guide
-nav_exclude: true
+nav_exclude: false
 ---
 Welcome to the Wildlander customization guide! This page will explain the basics of modifying Wildlander, such as adding, removing, modifying, and patching mods.
 
@@ -23,7 +23,7 @@ Welcome to the Wildlander customization guide! This page will explain the basics
 
 ## A warning before proceeding
 
-Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but it's aimed at proficient modders who need to know Wildlander specific information. 
+Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but as of now, it's aimed at proficient modders who need to know Wildlander specific information. (More basic modding guides will be available in the future, as time permits.)
 
 For more general modding guides, we recommend [Lively's tutorials](https://github.com/LivelyDismay/Learn-To-Mod/blob/main/Main.md), the [GamerPoets YouTube Channel](https://www.youtube.com/@gamerpoets), and the [DarkFox127 YouTube channel](https://www.youtube.com/@Darkfox127).
 
@@ -215,8 +215,9 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 
 ### Dyndolod
 
-DynDOLOD is an optional mod that greatly improves the appearance of distant terrain. It can affect your framerate, but the impact isn’t too bad & I think the visual difference is well worth it.
+DynDOLOD is an optional mod that greatly improves the appearance of distant terrain. It can affect your framerate, but the impact isn’t too bad and the visual difference is well worth it.
 
+There is nothing unique about Wildlander's DynDOLOD settings. Simply follow Phoenix's excellent guides: first the [SSELODGen guide](https://thephoenixflavour.com/tpf/finalisation/sselodgen/), then the subsequent [DynDOLOD guide](https://thephoenixflavour.com/tpf/finalisation/dyndolod/).
 
 ### Reqtificator
 	
