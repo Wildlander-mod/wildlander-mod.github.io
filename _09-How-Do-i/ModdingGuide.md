@@ -30,6 +30,8 @@ For more general modding guides, we recommend [Lively's tutorials](https://githu
 {: .warning}
 > The Wildlander support team does not offer support for modified versions of Wildlander. Should you choose to modify your install, you will only receive "support" from your fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted and you will be directed to the appropriate locations—and further posts outside the appropriate channels may result in a mute or ban.
 
+The reason for this is it's basically impossible to support every iteration of additions/subtractions in users's customization - as such, support is 100% focused on unedited lists so we can identify genuine errors and not user generated ones.
+
 ## Modding Basics
 
 **NEVER EVER** uninstall mods unless you are starting a new play-through.
@@ -220,7 +222,7 @@ DynDOLOD is an optional mod that greatly improves the appearance of distant terr
 	
 The Reqtificator should be configured as follows:
 	
-![image](https://imgur.com/a/Y6KWXJq)
+![image](https://user-images.githubusercontent.com/26418143/215734169-c779476d-c699-43b1-bf51-afc4d1009639.png)
 
 
 ### Nemesis 
