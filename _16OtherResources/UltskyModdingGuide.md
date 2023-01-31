@@ -922,9 +922,9 @@ As a rough guide
 1. Create merges for patches using your merge tool of choice - As you will have over 10 of them - Suggest loading this ESP just before Ultimate Skyrim.esp
 1. Check for texture conflicts on the new mods/patches (E.G ETAC/LOTD conflict in Falkreath where ETAC places a tree in the Kadjit camp for the moonpath of Elswyr quest)
 1. Create conflict resolution patch using Editing tool of choice - this ESP should be loaded just before paper world map in your load order. This should at minimum:-
-    a. Deal with any conflicts which aren’t taken care of by the patches.  
-    b. To drastically reduce the complete OP-ness of the items lotd adds
-    c. LoTD conflicts with Book Covers of Skyrim (gives duplicates that you can't store at your museum), so you have to edit all those to replace with the LoTD item id, as well as levelled lists where the books drop.
-    d. Deal with Texture conflicts.
+    1. Deal with any conflicts which aren’t taken care of by the patches.  
+    1. To drastically reduce the complete OP-ness of the items lotd adds
+    1. LoTD conflicts with Book Covers of Skyrim (gives duplicates that you can't store at your museum), so you have to edit all those to replace with the LoTD item id, as well as levelled lists where the books drop.
+    1. Deal with Texture conflicts.
 1.  Rerun Dyndolod
 1.  Rerun Reqtificator
