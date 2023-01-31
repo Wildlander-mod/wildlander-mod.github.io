@@ -6,6 +6,8 @@ has_children: true
 description: Customization Guide
 nav_exclude: true
 ---
+Welcome to the Wildlander customization guide! This page will explain the basics of modifying Wildlander, such as adding, removing, modifying, and patching mods.
+
 
 ## Table of contents
 {: .no_toc }
@@ -21,15 +23,12 @@ nav_exclude: true
 
 ## A warning before proceeding
 
-Adding mods is generally considered a bad idea unless you know what you are doing. 
+Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but it's aimed at proficient modders who need to know Wildlander specific information. 
 
-Any form of customization "support" will be in the dedicated customization channels. Should you ask in general or either of the support channels, your posts will be deleted and you will be directed to ask in the appropriate locations.
+For more general modding guides, we recommend [Lively's tutorials](https://github.com/LivelyDismay/Learn-To-Mod/blob/main/Main.md), the [GamerPoets YouTube Channel](https://www.youtube.com/@gamerpoets), and the [DarkFox127 YouTube channel](https://www.youtube.com/@Darkfox127).
 
-Helping you will basically be a waste of volunteer time that should go to those who have NOT customized the modlist. 
-
-Should you customize your list - You will be ON YOUR OWN unless another member of the community takes pity on you.
-
-Wildlander Staff have no obligations to assist you with customizing your install.
+{: .warning}
+> The Wildlander support team does not offer support for modified versions of Wildlander. Should you choose to modify your install, you will only receive "support" from your fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted and you will be directed to the appropriate locations—and further posts outside the appropriate channels may result in a mute or ban.
 
 ## Modding Basics
 
@@ -218,6 +217,10 @@ DynDOLOD is an optional mod that greatly improves the appearance of distant terr
 
 
 ### Reqtificator
+	
+The Reqtificator should be configured as follows:
+	
+![image](https://imgur.com/a/Y6KWXJq)
 
 
 ### Nemesis 
