@@ -33,9 +33,13 @@ Shows a crafting menu to deconstruct items in your inventory into component part
 
 Note: This key wont let you deconstruct any "found" enchanted items.
 
-### Emergancy Recall
+### Emergency Recall
 
 Lost your followers? This is the key you want.
+
+### Survival vision.
+
+A useful utility. It allows you to see amongst other things. Herbs which can be picked, dropped weapons or arrows, Enemy movements (e.g Bandit using loud equipment, growling animals) Items which can be used to craft Tinder (such as linen wraps) and Dead Bodies. 
 
 
 ## How do i rebind the keys?
