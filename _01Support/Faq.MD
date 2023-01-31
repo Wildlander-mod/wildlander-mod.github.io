@@ -472,9 +472,37 @@ Can also be caused by :
 
 ----------
 
+### I'm a mage, why am i glowing in the dark?
+
+You are using a magical effect which is granting you a "cloak" effect.
+
+a "white" glow on your character is typically mage armor.
+
+----------
+
+### Why am i Invisible in first person when using blur, but "ghostly" in 3rd?
+
+Skyrim Engine fault unfortunately, your either visible or invisible in 1st person.
+
+----------
+
+### Why does it rain for days on end?
+
+We use a Weather seasons mod. As the game starts in later summer / early autumn the weather is accordingly wet. Soon it will be winter and then it will snow.
+
+----------
+
+### Does the Skyrim difficulty settings do anything?
+
+The in-game difficulty sliders do not work with Wildlander.
+
+----------
+
 ### How do I change the difficulty?
 
-The in-game difficulty sliders do not work with Wildlander. Please use the Change Difficulty hotkey instead (Right-CTRL).
+Please use the Change Difficulty hotkey instead (Right-CTRL).
+
+If you want to make the game harder, use the requiem mcm and change damage taken.
 
 ----------
 
