@@ -17,6 +17,28 @@ description: Keybinds
 ## 1.0 Keybindings
 [![keybindings](../../../Assets/1-0Keybind.png)](../../../Assets/1-0Keybind.png)
 
+## What Do these Keys do?
+
+### Lock On
+
+This is for 3rd person gameplay and keeps you facing the target you have locked onto when you are moving or strafing around. It also helps with arrow aiming.
+
+### Quick Restore
+
+A keybind to restore your health stamina or magic using preset rules (set in Iequip) from potions within your inventory.
+
+### Breakdown
+
+Shows a crafting menu to deconstruct items in your inventory into component parts.
+
+Note: This key wont let you deconstruct any "found" enchanted items.
+
+### Emergancy Recall
+
+Lost your followers? This is the key you want.
+
+
+## How do i rebind the keys?
 
 <table>
   <tr>
