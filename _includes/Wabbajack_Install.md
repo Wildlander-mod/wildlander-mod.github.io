@@ -137,6 +137,13 @@ Check Task manager, if Wabbajack is not using any network resources, its likely 
     
 If these files hang, manually download and add to your wabbajack specified download folder (still zipped)
 
+---
+**High Poly Head**
+
+<https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download>
+
+---
+
 **Wildlander Resources**
 
 This file is quite large - and on slower Internet connections' may timeout.
