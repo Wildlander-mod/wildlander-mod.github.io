@@ -131,13 +131,9 @@ There are several causes of this:-
 Check Task manager, if Wabbajack is not using any network resources, its likely the download has failed/timed out - then please use the suggestions below.
 
 1.  Close and restart Wabbajack - Start the Wildlander install process again, entering same criteria as originally. Wabbajack will CRC check your existing files and should resume where it failed & complete the install without any further intervention.
-2.  If you are experiencing issues with Wabbajack repeatedly failing to download one or more files (same files every time), try enabling the Network Workaround in Wabbajack settings.
+1.  If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Wildlander is not affiliated with and does not endorse any specific VPN service. We do not provide user support for VPN services. Use at your own discretion.)
 
-[![img](https://camo.githubusercontent.com/72d29a1cda8ff5fa29f42ff8232ea890764cbae1c17344c50a8deea51645cf3c/68747470733a2f2f696d616765732d6578742d322e646973636f72646170702e6e65742f65787465726e616c2f4f506f423576314f734e516c3749315f592d2d636a3967527567553759734f4655536b47633234345753632f68747470732f692e6962622e636f2f4644504472666b2f446973636f72642d56504e2e706e67)](https://camo.githubusercontent.com/72d29a1cda8ff5fa29f42ff8232ea890764cbae1c17344c50a8deea51645cf3c/68747470733a2f2f696d616765732d6578742d322e646973636f72646170702e6e65742f65787465726e616c2f4f506f423576314f734e516c3749315f592d2d636a3967527567553759734f4655536b47633234345753632f68747470732f692e6962622e636f2f4644504472666b2f446973636f72642d56504e2e706e67)
-
-3.  If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Wildlander is not affiliated with and does not endorse any specific VPN service. We do not provide user support for VPN services. Use at your own discretion.)
-    
-4.  If above fails then manually download the file using the following procedure:-
+#### If above fails then manually download the file using the following procedure:-
     
 If these files hang, manually download and add to your wabbajack specified download folder (still zipped)
 
@@ -147,13 +143,19 @@ This file is quite large - and on slower Internet connections' may timeout.
 
 In the event of this occurring for you you can try downloading <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016? " target="_blank" rel="noopener noreferrer">Resources - Wildlander Full <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> from nexus manually, and placing it in your downloads folder still zipped.
 
+---
+
 **Nexus mods in general**
 
 you may need to use a VPN and/or different browsers to download these files. We are not sure why nexus is blocking access. Premium users can try this 
 
 ![img](https://cdn.discordapp.com/attachments/881254575640838254/929341753885085738/unknown.png)
 
-For any failed mods which are not mentioned above Search the following link for the mod(s) and manually download.
+---
+
+**Direct Download Links**
+
+Search the following link for the mod(s) and manually download.
 
 <a href="https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md" target="_blank" rel="noopener noreferrer">Modlist links <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> 
 
