@@ -535,7 +535,9 @@ Install Instructions:
 > - Download Revert Notification Speed changes back to default. & Install Via Mod Organiser
 > - Make sure left side it is located after "Ultimate Skyrim core files".
 > - enable, no need to run Reqtificator.
-    
+
+----
+
 #### Wounds Crafting patch.
 Patch to move the crafting recipes for wounds to the crafting table and crafting ledger where appropriate. Also replaced Firewood with Wood.   
 I have also merged in the file "Requiem - Wounds" [Link Here](https://www.nexusmods.com/skyrim/mods/94958) (all credits to Atardecer), and added compatibility to leveled lists between the requiem patch & Ultimateskyrim.esp
@@ -546,6 +548,8 @@ Install Instructions:
 > - Download UltSky Wounds Patch. & Install Via Mod Organizer    
 > - Wounds.esp above requiem.esp     
 > - Ultsky - Wounds.Esp After Ultimate Skyrim patches.   
+
+----
 
 #### Liz's Campfire Placeables
     
@@ -566,9 +570,9 @@ TentaPalooza patch makes the following changes
 >- Adds all items to the crafting ledger.
 >- Replaces deactivated materials with UltSky equivalents
 >- Adjusted materiel requirements for the more powerful tents in line with existing recipes in Ultsky.
->- Integrates Bathing in skyrim functionality to tentpalooza bathtubs.
+>- Integrates Bathing in Skyrim functionality to tentpalooza bathtubs.
 >- Adds a User craftable crafting table which you can move with your camp. (requires Wood, Nails, Iron hammer)
->- Adds 4 new placeable beds, Linen Hammock, Coffin, White & red linen bedrolls. 
+>- Adds 4 new place-able beds, Linen Hammock, Coffin, White & red linen bedrolls. 
 >- Adds a Simple Wooden bathtub (like you see in inn's) which you can move with you camp.  (requires Wood, Iron ingots, Beehive husks)
 >- Adds a Spinning Wheel which you can move with you camp.  (requires Wood, Iron Fittings)
 
@@ -600,6 +604,8 @@ On the RIGHT SIDE (plugins tab) in MO2:
 > - Put Buvarp.esp below relationship Dialogue Overhaul, and above Ultsky.
 > - Patch below: Wintersun 3.1.5 - Seg 1.4 - Ultsky patch
 
+---
+
 #### [Dragon Combat Overhaul (DCO)](https://www.nexusmods.com/skyrim/mods/32597)
 
 What the patch does:
@@ -629,7 +635,8 @@ On the RIGHT side:
 
 On the LEFT side:
 > - Doesn't matter unless you have a mod that overwrites scripts from DCO main file.
-    
+
+----
 
 #### [Realistic Armor](https://www.nexusmods.com/skyrim/mods/102963)
 
@@ -652,7 +659,8 @@ Install Instructions:
 On the RIGHT SIDE (plugins tab) in MO2:
 
 Load Mod & patch BELOW Ultimate Skyrim, ABOVE Automatic Variants (and paper world map if you have this in your load order).
-    
+
+----
 
 #### [Helgen Reborn](https://www.nexusmods.com/skyrim/mods/35841) 
 
@@ -663,6 +671,8 @@ Install Instructions:
 > - Install Helgen Reborn very high up in load order on both left and right side in MO2. (above Requiem at least. Further up to avoid chance of texture assets overriding other mods)
 > - Install patch between Requiem and Ultsky on the right side in MO2. Left side should not matter.
 > - Nothing ELSE with Helgen Reborn has been done. Consider this very beta. (There are some weapons that are not fixed yet that had insane damage. 10000 from vanilla mod, turned 40000 in requiem for the indifferent. What the heck those weapons are for, I do not know, but holy sh*te!)
+
+----
 
 #### [Requiem - Unarmed Combat Enhancer WITH integrated Cosmetic UCE addons](https://www.nexusmods.com/skyrim/mods/75779?tab=files) (Download version 2.4.2 from OLD FILES)
 
@@ -679,6 +689,8 @@ Install Instructions:
 Right side
 > - Load Requiem - Unarmed Combat Enhancer Below Requiem.esp and ABOVE UltimateSkyrim.esp. 
 > - Load patch on Right side below Ultimate Skyrim.esp and BELOW R-IA 1.6 Ultsky 407 patch.
+
+---
 
 #### [Sofia - The Funny Fully Voiced Follower](https://www.nexusmods.com/skyrim/mods/54527?tab=description)
 
@@ -706,19 +718,21 @@ Right Side:
 > SofiaFollower.esp before Requiem.esp
 > Requiem - Sofia.esp after Requiem.esp
 
+---
+
 #### [Guards Armor Replacer](https://www.nexusmods.com/skyrim/mods/95719?tab=files)
 
 Patch notes:
 
-Forwarded UltSky values for a consistent gameworld.
+Forwarded UltSky values for a consistent game-world.
 Except where the mod author intended that guards are also expert marksmen with full suite of requiem perks to back that up.
 
 Set up tempering recipes to be consistent with material and crafting perks.
-You will need advanced smithing to temper guard armor. Ebony for ebony armor and dwarven for Markath. 
+You will need advanced smithing to temper guard armor. Ebony for ebony armor and Dwarven for Markarth. 
 
-(It was a mix of basic crafting for some cuirasses, but advanced for helmets and such. Also advanced for ebony armor, and for Markaths dwarven based armor. Made little sense).
+(It was a mix of basic crafting for some Chest-plates, but advanced for helmets and such. Also advanced for ebony armor, and for Markaths dwarven based armor. Made little sense).
 
-Changed armortype to steel for Solitude and Whiterun (Dwarven for Markath, Iron for the other holds) to reflect their intended status as rich holds and to ensure the Reqtificator add in proper armor resistances.
+Changed armor type to steel for Solitude and Whiterun (Dwarven for Markarth, Iron for the other holds) to reflect their intended status as rich holds and to ensure the Reqtificator add in proper armor resistances.
 
 Are considering to set Solitude to Steel Plate....."
 
@@ -764,7 +778,8 @@ because Requiem is lazy and uses the same effect for both.
 
 Install Instructions:
 > Load anywhere after Requiem ESP. Left side doesn't matter.
-> 
+
+---
 #### [Dwemer Hacker](https://www.nexusmods.com/skyrim/mods/80660)
 
 [Patch location](https://github.com/phinocio/Dwemer-Hacker-US-Patch/releases/tag/1.0.0)
@@ -886,7 +901,9 @@ EZ2C DIALOGUE MENU: Makes the Dialogue menu look much nicer with a high amount o
 As always - You have to run Reqtificator.    
 
 
-[Ultimate Skyrim - Music mods patch](https://www.nexusmods.com/skyrim/mods/99822) a ultimate Skyrim patch to add a whole bunch of music mods to the game.
+[Ultimate Skyrim - Music mods patch](https://www.nexusmods.com/skyrim/mods/99822) a ultimate Skyrim patch to add a whole bunch of music mods to the game. 
+
+----
 
 ## What About legacy of the Dragonborn?
 
