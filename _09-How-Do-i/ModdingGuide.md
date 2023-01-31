@@ -220,7 +220,7 @@ DynDOLOD is an optional mod that greatly improves the appearance of distant terr
 	
 The Reqtificator should be configured as follows:
 	
-![image](https://imgur.com/a/Y6KWXJq)
+![image](https://user-images.githubusercontent.com/26418143/215734169-c779476d-c699-43b1-bf51-afc4d1009639.png)
 
 
 ### Nemesis 
