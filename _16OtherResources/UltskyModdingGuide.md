@@ -899,15 +899,15 @@ It is only being included in this document because Support are fed up about peop
 Please don’t ask for step-by-step instructions on what to do to write a custom patch, and before you ask - no you cannot just ignore the custom patch and no we won't write one for you.
 
 As a rough guide
-1) LoTD should be installed as the last mod you are going to add to your list, so that it's FOMOD detects what mods are active and enables the appropriate content. The ESP for this should go as high in your load order as you can get it.
-2) [Install patches for the base install, any additional mods you have added and Requiem](https://www.nexusmods.com/skyrim/mods/72921/], you need Legacy of the Dragonborn Patch Collection and Optional Mod Patches for Legacy at bare minimum for base install.  you also [need this](https://www.nexusmods.com/skyrim/mods/57376/?) for if you want your followers to sandbox in the safehouse.)
-3) Clean added mods
-4) Create merges for patches using your merge tool of choice - As you will have over 10 of them - Suggest loading this ESP just before Ultimate Skyrim.esp
-5) Check for texture conflicts on the new mods/patches (E.G ETAC/LOTD conflict in Falkreath where ETAC places a tree in the Kadjit camp for the moonpath of Elswyr quest)
-6) Create conflict resolution patch using Editing tool of choice - this ESP should be loaded just before paper world map in your load order. This should at minimum:-
-    1) Deal with any conflicts which aren’t taken care of by the patches.  
-    2) To drastically reduce the complete OP-ness of the items lotd adds
-    3) LoTD conflicts with Book Covers of Skyrim (gives duplicates that you can't store at your museum), so you have to edit all those to replace with the LoTD item id, as well as levelled lists where the books drop.
-    4) Deal with Texture conflicts.
-7)  Rerun Dyndolod
-8)  Rerun Reqtificator
+1. LoTD should be installed as the last mod you are going to add to your list, so that it's FOMOD detects what mods are active and enables the appropriate content. The ESP for this should go as high in your load order as you can get it.
+1. [Install patches for the base install, any additional mods you have added and Requiem](https://www.nexusmods.com/skyrim/mods/72921/], you need Legacy of the Dragonborn Patch Collection and Optional Mod Patches for Legacy at bare minimum for base install.  you also [need this](https://www.nexusmods.com/skyrim/mods/57376/?) for if you want your followers to sandbox in the safehouse.)
+1. Clean added mods
+1. Create merges for patches using your merge tool of choice - As you will have over 10 of them - Suggest loading this ESP just before Ultimate Skyrim.esp
+1. Check for texture conflicts on the new mods/patches (E.G ETAC/LOTD conflict in Falkreath where ETAC places a tree in the Kadjit camp for the moonpath of Elswyr quest)
+1. Create conflict resolution patch using Editing tool of choice - this ESP should be loaded just before paper world map in your load order. This should at minimum:-
+    a. Deal with any conflicts which aren’t taken care of by the patches.  
+    b. To drastically reduce the complete OP-ness of the items lotd adds
+    c. LoTD conflicts with Book Covers of Skyrim (gives duplicates that you can't store at your museum), so you have to edit all those to replace with the LoTD item id, as well as levelled lists where the books drop.
+    d. Deal with Texture conflicts.
+1.  Rerun Dyndolod
+1.  Rerun Reqtificator
