@@ -45,8 +45,8 @@ Any Shield -> Ysgramor’s Shield
 
 ## Recommended armor / Clothing
 
-Any HA -> Pristine Wolf Armor -> Enchanted Dragonplate
+Any HA ->  Circle Armor -> Enchanted Dragonplate
 
 ## Content 
 
-Companions(Full), Civil War(optional), Swindler’s Den(Stam 2 and 1H dmg ring), Orotheim(MR necklace) Pinemoon Cave (for Health 2 ring)
+Companions(Full), Civil War(optional), in My Time of Need for Kemetu(1H dmg ring)

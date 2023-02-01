@@ -38,7 +38,7 @@ Marksman /  Smithing / Illusion / Alchemy / Sneak / Lockpicking
 
 ## Recommended weapons / Spells
 
-Heavy Bow: Zephyr / Necrobane for Undead -> Dragonbone Bow&Arrows 
+Heavy Bow: Zephyr  -> Dragonbone Bow&Arrows 
 
 Light bow: Spectral Bow -> Auri-el Bow
 
@@ -48,7 +48,7 @@ Armor: DB Shrouded Armor -> Ancient Shrouded Armor
 
 Jewelry:
 
-	%16 MR Necklace -> %22 MR Necklace(Illinalta’s Deep)
+	%16 MR Necklace -> %22 MR Necklace
     Farengar’s Magicka Ring -> Nightweaver’s Band
 
 ## Content 

@@ -53,8 +53,8 @@ Steel Crossbow -> Orcish Crossbow -> Dragonbone Crossbow
 
 ## Recommended armor / Clothing
 
-Any HA, Ironhand Gauntlets -> Pristine Wolf Armor -> Enchanted Dragonplate
+Any HA, Ironhand Gauntlets -> Circle Armor -> Enchanted Dragonplate
 
 ## Content 
 
-Companions(Full), Civil War(optional), Swindler’s Den(Stam 2), Orotheim(MR necklace), Pinemoon Cave (for Health 2 ring)
+Companions(Full), Civil War(optional)
