@@ -270,3 +270,16 @@ Should you wish to submit a single Patch you can do so here <https://forms.gle/D
 
 Should you wish to submit a Guide containing multiple patches you can do so here <https://forms.gle/BFnvGTPpAhTYjw8q9>
 
+## Guides
+
+### SkyrimUpscalerENBTestBuild for Wildlander
+
+**Submitted By**
+weedinabottle#3376
+
+**What does the guide explain how to do?**
+How to configure settings to use upscaler with Wildlander
+
+**Link to the guide**
+https://docs.google.com/document/d/1GClUaIde1RWJfQExFqeo2bjvHKgeaR5u43pO2BhmyJI/edit?usp=sharing
+
