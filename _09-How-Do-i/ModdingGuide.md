@@ -1,11 +1,10 @@
 ---
 layout: default
-title: How Do I Customize the list?
+title: How Do I Customize The List?
 has_toc: false
-has_children: true
 description: Customization Guide
-nav_exclude: true
 ---
+
 Welcome to the Wildlander customization guide! This page will explain the basics of modifying Wildlander, such as adding, removing, modifying, and patching mods.
 
 
@@ -23,14 +22,14 @@ Welcome to the Wildlander customization guide! This page will explain the basics
 
 ## A warning before proceeding
 
-Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but it's aimed at proficient modders who need to know Wildlander specific information. 
+Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but as of now, it's aimed at proficient modders who need to know Wildlander specific information. (More basic modding guides will be available in the future, as time permits.)
 
 For more general modding guides, we recommend [Lively's tutorials](https://github.com/LivelyDismay/Learn-To-Mod/blob/main/Main.md), the [GamerPoets YouTube Channel](https://www.youtube.com/@gamerpoets), and the [DarkFox127 YouTube channel](https://www.youtube.com/@Darkfox127).
 
 {: .warning}
-> The Wildlander support team does not offer support for modified versions of Wildlander. Should you choose to modify your install, you will only receive "support" from your fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted and you will be directed to the appropriate locations—and further posts outside the appropriate channels may result in a mute or ban.
-
-The reason for this is it's basically impossible to support every iteration of additions/subtractions in users's customization - as such, support is 100% focused on unedited lists so we can identify genuine errors and not user generated ones.
+> The Wildlander support team does not offer support for modified versions of Wildlander. This is because it can be difficult or impossible to tell whether issues are the result of Wildlander, or a user's modifications.
+>
+> Should you choose to modify your install, you will only receive "support" from your fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted, and you will be directed to the appropriate locations—and further posts outside the appropriate channels may result in a mute or ban.
 
 ## Modding Basics
 
@@ -215,8 +214,9 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 
 ### Dyndolod
 
-DynDOLOD is an optional mod that greatly improves the appearance of distant terrain. It can affect your framerate, but the impact isn’t too bad & I think the visual difference is well worth it.
+DynDOLOD is an optional mod that greatly improves the appearance of distant terrain. It can affect your framerate, but the impact isn’t too bad and the visual difference is well worth it.
 
+There is nothing unique about Wildlander's DynDOLOD settings. Simply follow Phoenix's excellent guides: first the [SSELODGen guide](https://thephoenixflavour.com/tpf/finalisation/sselodgen/), then the subsequent [DynDOLOD guide](https://thephoenixflavour.com/tpf/finalisation/dyndolod/).
 
 ### Reqtificator
 	
