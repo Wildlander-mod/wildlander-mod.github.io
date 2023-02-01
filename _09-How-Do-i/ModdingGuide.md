@@ -2,10 +2,9 @@
 layout: default
 title: How Do I Customize the list?
 has_toc: false
-has_children: true
 description: Customization Guide
-nav_exclude: false
 ---
+
 Welcome to the Wildlander customization guide! This page will explain the basics of modifying Wildlander, such as adding, removing, modifying, and patching mods.
 
 
