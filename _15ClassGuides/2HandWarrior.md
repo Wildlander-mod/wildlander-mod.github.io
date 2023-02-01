@@ -57,4 +57,4 @@ Any HA, Ironhand Gauntlets -> Pristine Wolf Armor -> Enchanted Dragonplate
 
 ## Content 
 
-Companions(Full), Civil War(optional), Swindler’s Den(Stam 2), Orotheim(MR necklace), Pinemoon Cave (for Health 2 ring)
+Companions(Full), Civil War(optional)

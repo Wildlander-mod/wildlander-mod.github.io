@@ -54,4 +54,4 @@ Jewelry:
 
 ## Content 
 
-Companions(until Dustman's Cairn), Swindler’s Den, Orotheim, Gauldur questline, Meridia quest…,
+Companions(until Dustman's Cairn), Swindler’s Den, Gauldur questline, Meridia quest…,
