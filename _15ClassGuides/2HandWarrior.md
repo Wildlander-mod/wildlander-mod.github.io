@@ -53,7 +53,7 @@ Steel Crossbow -> Orcish Crossbow -> Dragonbone Crossbow
 
 ## Recommended armor / Clothing
 
-Any HA, Ironhand Gauntlets -> Pristine Wolf Armor -> Enchanted Dragonplate
+Any HA, Ironhand Gauntlets -> Circle Armor -> Enchanted Dragonplate
 
 ## Content 
 

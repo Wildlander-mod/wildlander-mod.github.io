@@ -54,7 +54,7 @@ Armor:
 Jewelry:
 
 	Necklace: Saarthal Amulet -> Savos Aren’s Amulet 
-	Ring: Enchanted Ring -> Ring of Peerless Destruction (Orchendor)
+	Ring: Enchanted Ring -> Ring of Peerless Destruction 
 	
 
 ## Content 
