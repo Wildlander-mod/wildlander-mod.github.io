@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How Do I Customize the list?
+title: How Do I Customize The List?
 has_toc: false
 description: Customization Guide
 ---
