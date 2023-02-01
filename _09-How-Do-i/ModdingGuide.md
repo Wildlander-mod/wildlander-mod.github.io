@@ -75,6 +75,7 @@ The following types of mods have Issues
 > *  New Quest area mods   (unless requiem patch available) - Note: This is because new area's generally add new creatures/enemies/NPC's and followers
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 
+
 ---
 ### Introduction to Mod Organizer 2
 	
@@ -281,5 +282,5 @@ weedinabottle#3376
 How to configure settings to use upscaler with Wildlander
 
 **Link to the guide**
-https://docs.google.com/document/d/1GClUaIde1RWJfQExFqeo2bjvHKgeaR5u43pO2BhmyJI/edit?usp=sharing
+<https://docs.google.com/document/d/1GClUaIde1RWJfQExFqeo2bjvHKgeaR5u43pO2BhmyJI/edit?usp=sharing>
 
