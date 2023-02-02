@@ -75,6 +75,7 @@ The following types of mods have Issues
 > *  New Quest area mods   (unless requiem patch available) - Note: This is because new area's generally add new creatures/enemies/NPC's and followers
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 
+
 ---
 ### Introduction to Mod Organizer 2
 	
@@ -269,4 +270,17 @@ The bible for the tool is located <https://tes5edit.github.io/docs/>
 Should you wish to submit a single Patch you can do so here <https://forms.gle/D6zwQ9XiywDpqVfR7>
 
 Should you wish to submit a Guide containing multiple patches you can do so here <https://forms.gle/BFnvGTPpAhTYjw8q9>
+
+## Guides
+
+### SkyrimUpscalerENBTestBuild for Wildlander
+
+**Submitted By**
+weedinabottle#3376
+
+**What does the guide explain how to do?**
+How to configure settings to use upscaler with Wildlander
+
+**Link to the guide**
+<https://docs.google.com/document/d/1GClUaIde1RWJfQExFqeo2bjvHKgeaR5u43pO2BhmyJI/edit?usp=sharing>
 
