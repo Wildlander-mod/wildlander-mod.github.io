@@ -32,7 +32,7 @@ We get people complaining they are too pretty. We get people complaining they ar
 
 ## 4. Favorite Mod not being included
 
-We currently have over 1000 suggested mods on the trello - If everyone's Favorite Mod was included - it would be 5 times the size and released in about a decade.
+We currently have over 1000 suggested mods on the Roadmap - If everyone's Favorite Mod was included - it would be 5 times the size and released in about a decade.
 
 ## 5. Spell Research too complex.
 
