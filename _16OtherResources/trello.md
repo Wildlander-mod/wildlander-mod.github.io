@@ -10,4 +10,6 @@ description: Mod Request Roadmap Board
 
 ## Old Trello 
 
+Will be replaced with roadmap once all suggestions are transferred over.
+
 <iframe src="https://trello.com/b/jQFlf7nY.html" width="1200" height="1044" align="left" frameborder="0" marginheight="0" marginwidth="0"> Loading…</iframe>

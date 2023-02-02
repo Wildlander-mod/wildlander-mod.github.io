@@ -11,7 +11,7 @@ The only fix for this issue is to sever the link between OneDrive and your "my d
 The following guide will assist you in the method to do so. <a href="https://steamcommunity.com/app/489830/discussions/0/2263565217515804221/" target="_blank" rel="noopener noreferrer">Guide <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ----------
-### Error launching game Error: Unsupported type of line: [1] Error OR TypeError: Cannot set properties of undefined (setting 'lock_gui') 
+### Error launching game Error: Unsupported type of line: [1] Error OR Any message starting "TypeError:" 
 
 This means that Mod Organizer Crashed during Boot up or Shutdown and wiped its INI files. A reinstall (overwrite) using Wabbajack of the list will resolve this issue.
 
