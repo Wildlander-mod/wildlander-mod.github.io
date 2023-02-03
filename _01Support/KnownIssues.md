@@ -412,6 +412,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 * Spider webs, beehives, and dragonfly wings are generally too bright and white, despite being edited by Spider Webs and Particles for ENB
 * Strange water reflections
+* Spriggans (purple) cause nightvision spells to occasionally flash blue
 * Map went technicolor Workaround: Restart Skyrim
 * Medium Graphic, Low shaders.  During Rain, there is no rain when i looking north. By looking West and East i can see wall of rain behind me.  Rain is visible only at one side
 * In Rainy Weather, Interiors have Broken Green Lighting Workaround: Restart Skyrim
