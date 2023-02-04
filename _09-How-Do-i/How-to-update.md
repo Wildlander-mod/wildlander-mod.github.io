@@ -17,15 +17,15 @@ description: How Do I Update ?
 -----
 
 {: .warning } 
-> ** We recommend that everyone performs a clean install every time they upgrade.**  
+> **We recommend that everyone performs a clean install every time they upgrade.**  
 >
-> The reason for this is wabbajack reads though and CRC checks everything in the mods folder. Unfortunately this process takes a long time to do, and doesn't detect corrupted files 100% of the time.
+> The reason for this is Wabbajack reads though and CRC checks everything in the mods folder. Unfortunately this process takes a long time to do, and doesn't detect corrupted files 100% of the time.
 
-##  (optional) Clean Install
+## Clean Install (optional, but recommended) 
 
 Perform a clean install - Delete your Game-files\Mods folder before continuing (the folder circled in the example below).**  
 
-The reason for this is wabbajack reads though and CRC checks everything in the mods folder. Unfortunately this process takes a long time to do, and cant detect corrupted files 100% of the time.
+The reason for this is Wabbajack reads though and CRC checks everything in the mods folder. Unfortunately this process takes a long time to do, and cant detect corrupted files 100% of the time.
 
 ![image](https://user-images.githubusercontent.com/26418143/194085051-7e3ffb22-3a21-44e6-8e5d-c4ffa587ac53.png)
 
@@ -37,7 +37,7 @@ The reason for this is wabbajack reads though and CRC checks everything in the m
 
 ![image](https://user-images.githubusercontent.com/26418143/174670288-a42427ec-b2ee-45b2-8f9a-542911cfb7dd.png)
 
-2) From wabbajack interface click Browse Modlists
+2) From Wabbajack interface click Browse Modlists
 
 ![image](https://user-images.githubusercontent.com/26418143/174670437-886dc886-31bf-4d10-9ffd-5200fb997d53.png)
 
@@ -67,7 +67,7 @@ The reason for this is wabbajack reads though and CRC checks everything in the m
 
 ### Its telling me SKSE cant be downloaded
 
-You are trying to reinstall Wildlander 1.0 from the .wabbajack file. Please Delete the .wabbajack file, run Wabbajack Installer.exe and download the latest from the gallery.
+You are trying to reinstall Wildlander 1.0 from the .Wabbajack file. Please Delete the .Wabbajack file, run Wabbajack Installer.exe and download the latest from the gallery.
 
 ---
 

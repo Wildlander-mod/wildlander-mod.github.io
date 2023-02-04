@@ -1,5 +1,5 @@
 
-### Why is the list showing "in maintenance on wabbajack"
+### Why is the list showing "in maintenance on Wabbajack"
 
 #### What does it mean?
 
@@ -30,7 +30,7 @@ Asking for one anyway is a violation of rules. (Even if you ask staff in a priva
 
 #### Can't I just manually install / Is there a "Manual Installation" guide?
 
-Not any more - As wabbajack is a more reliable install method which requires little user interactions and produces a consistent install every time - the manual installation guide was removed.
+Not any more - As Wabbajack is a more reliable install method which requires little user interactions and produces a consistent install every time - the manual installation guide was removed.
 
 #### Can I edit the Wabbajack file so it installs anyway?
 
@@ -135,7 +135,7 @@ Check Task manager, if Wabbajack is not using any network resources, its likely 
 
 #### If above fails then manually download the file using the following procedure:-
     
-If these files hang, manually download and add to your wabbajack specified download folder (still zipped)
+If these files hang, manually download and add to your Wabbajack specified download folder (still zipped)
 
 ---
 **High Poly Head**
@@ -164,7 +164,7 @@ you may need to use a VPN and/or different browsers to download these files. We 
 
 Search the following link for the mod(s) and manually download.
 
-<a href="https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md" target="_blank" rel="noopener noreferrer">Modlist links <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> 
+<a href="https://github.com/Wabbajack-tools/mod-lists/blob/master/reports/Wildlander/wildlander/status.md" target="_blank" rel="noopener noreferrer">Modlist links <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> 
 
 ----------
 
