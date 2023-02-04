@@ -1,7 +1,7 @@
 ---
 title:  Alchemy Ingredients
 layout: default
-nav_order: 1
+nav_order: 6
 description: Alchemy Ingredients
 ---
 
