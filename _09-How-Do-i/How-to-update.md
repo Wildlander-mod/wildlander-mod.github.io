@@ -41,7 +41,7 @@ The reason for this is Wabbajack reads though and CRC checks everything in the m
 
 ![image](https://user-images.githubusercontent.com/26418143/174670437-886dc886-31bf-4d10-9ffd-5200fb997d53.png)
 
-3) From dropdown select "Skyrim Special edition" and in search type "wild". then click the download Icon
+3) From drop-down select "Skyrim Special edition" and in search type "wild". then click the download Icon
 
 ![image](https://user-images.githubusercontent.com/26418143/174670620-ea744f26-fdea-4e9a-bc9b-0e7f88a1bc09.png)
 
@@ -56,16 +56,16 @@ The reason for this is Wabbajack reads though and CRC checks everything in the m
 ---
 ## Issues after a Update
 
-### My Game Crashes/Doesnt start.
+### My Game Crashes/Doesn't start.
 
-1. Make sure any 3rd party antivirus is turned off.
+1. Make sure any 3rd party anti-virus is turned off.
 1. Delete **everything** from the Game files folder with the exception to Downloads.
 1. Re-do The Update process.
 1. Check the game starts
 
 ---
 
-### Its telling me SKSE cant be downloaded
+### It's telling me SKSE cant be downloaded
 
 You are trying to reinstall Wildlander 1.0 from the .Wabbajack file. Please Delete the .Wabbajack file, run Wabbajack Installer.exe and download the latest from the gallery.
 
