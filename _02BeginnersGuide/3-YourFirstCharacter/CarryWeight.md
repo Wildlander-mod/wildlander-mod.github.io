@@ -47,7 +47,9 @@ this skill requires a Skill point, earned from taking care of yourself and has t
 
 ## Horses
 
-Or as i prefer to call them, mobile storage. Each Horse has 600 carry weight and can easily carry most the supplies you need. You can even store your chest on the horse, making it have infinite storage.
+Or as I prefer to call them, mobile storage. Each Horse has 600 carry weight and can easily carry most the supplies you need. You can even store your chest on the horse, making it have infinite storage.
+
+Important: never store potions on the horse - NPC's can consume potions from their inventory if they are low on health or stamina, and horses qualify as NPC's. 
 
 ## Faction Safe Storage
 
