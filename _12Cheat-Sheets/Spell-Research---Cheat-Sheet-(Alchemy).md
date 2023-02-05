@@ -160,6 +160,8 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
 
 ### Effect View
 
+Shows the Archetypes of solutions you can get from dissolving potions with specific effects.
+
 <details markdown="block">
 <summary>
    Expand to view
@@ -169,6 +171,8 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
 
 ## Ingredient View
 
+Shows the solutions you get from dissolving each Ingredient.
+
 <details markdown="block">
 <summary>
    Expand to view
@@ -177,6 +181,8 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
 </details>
 
 ## Solutions View
+
+Shows which Ingredients you need to dissolve to get specific solutions.  
 
 <details markdown="block">
 <summary>
