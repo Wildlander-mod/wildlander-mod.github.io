@@ -160,12 +160,27 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
 
 ### Effect View
 
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrVMyCWzP3t7f2AY?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</details>
 
 ## Ingredient View
 
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrd6meWeTmVoOF22?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</details>
 
 ## Solutions View
 
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrhNapShrLS2STIo?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</details>
