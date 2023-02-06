@@ -361,7 +361,8 @@ In Wildlander, NPC's, Followers and Horses consume potions from their inventory 
 If you hear a excessive amount of drinking, then its probable you are coming up on a civil war skrimish.
 
 
-Note: Any potions you give to your followers or horse can be consumed by them, so if you dont want them to drink them - dont use them for potion storage.
+Note: Any potions you give to your followers or horse can be consumed by them, so if you don't want them to drink them - don't use them for potion storage.
+
 ----------
 
 ### Some sounds aren't playing! How do I fix this?
@@ -482,7 +483,7 @@ Can also be caused by :
 
 ----------
 
-### I'm a mage, why am i glowing in the dark?
+### I'm a mage, why am I glowing in the dark?
 
 You are using a magical effect which is granting you a "cloak" effect.
 
@@ -490,15 +491,23 @@ a "white" glow on your character is typically mage armor.
 
 ----------
 
-### Why am i Invisible in first person when using blur, but "ghostly" in 3rd?
+### Why am I invisible in first person when using blur, but "ghostly" in 3rd?
 
 Skyrim Engine fault unfortunately, your either visible or invisible in 1st person.
 
 ----------
 
+### My Face changed color.
+
+Known issue with a unknown cause unfortunately. We suspect it is related to the dirt shaders. 
+
+The current fix is to take a bath, then use `ahowracemenu` in the console. Once open press "done" to save the changes and reset your character back to its usual appearance.
+
+----------
+
 ### Why does it rain for days on end?
 
-We use a Weather seasons mod. As the game starts in later summer / early autumn the weather is accordingly wet. Soon it will be winter and then it will snow.
+We use a weather seasons mod. As the game starts in later summer / early autumn the weather is accordingly wet. Soon it will be winter and then it will snow.
 
 ----------
 
@@ -598,7 +607,7 @@ Below are a few examples of the reasons they are disabled:
 - You are sniping with a bow. Every arrow will kill a bandit. Every time you release the arrow, a kill-move plays. But thanks to the kill move, every arrow lands on the ground before it reaches the bandit, therefore the bandit didn't die, and now instead of being 'Legolas' you have become 'Legless' thanks to that big bandit with the greatsword.
 - You are attacking a group of enemies with a 2-handed Axe and mid-fight a kill move fires (as in Requiem they can happen on any enemy), and his friends kill you while the cinematic plays, because you are not in fact Neo from blockbuster hit 'The Matrix.'
 - You are sneaking on a ridge above Valheim Towers and shoot arrows to the bandits below you. All arrows hit and one-shot, except the one from the kill move, which collides with the invisible barrier of the ridge. You are now detected. You proceed to beat your keyboard into a fine pulp, then craft it into a sword because archery is now for pansies.
-- You are shooting ⚡ from your fingertips like some kind of unspecified villain in a space opera. It has been an intense battle, and you are about to win. You channel your last reserves of magic at your foe, and the kill camera activates, missing your target and attacking the aggressive invisible ant which threatens to nibble your toes. The vampire mage you almost slew then summons a Storm Atronach, which proceeds to turn you into an ad-hoc Christmas tree in approximately three seconds. As a reward for your heroism, Todd Howard grants you the sight of another kill cam, this time of the aformentioned Storm Atronach putting little a wreathe around your neck while the vampire dances on your twitching, electrified corpse.
+- You are shooting ⚡ from your fingertips like some kind of unspecified villain in a space opera. It has been an intense battle, and you are about to win. You channel your last reserves of magic at your foe, and the kill camera activates, missing your target and attacking the aggressive invisible ant which threatens to nibble your toes. The vampire mage you almost slew then summons a Storm Atronach, which proceeds to turn you into an ad-hoc Christmas tree in approximately three seconds. As a reward for your heroism, Todd Howard grants you the sight of another kill cam, this time of the aforementioned Storm Atronach putting little a wreathe around your neck while the vampire dances on your twitching, electrified corpse.
 
 Kill moves literally mean that when such a move plays, 90% of the time it kills you, the other 10% of the time nothing happens. 
 
@@ -612,7 +621,27 @@ Violens MCM is how they are currently disabled. If you want to turn them back on
 
 ---
 
+### NPC in town is randomly dead.
+
+This typically happens when a "Hunt the Vampire" missive is active. The guards auto-attack the Vampire, and the brave townfolk try to join in... only to get slaughtered.
+
+A fix will be added in 1.2 to prevent the guards from picking a fight.
+
+---
+
 ## **Questing Questions**
+
+----------
+
+### Can I Do the Vanilla Start? 
+
+No, The cart ride is too buggy to use with modern PC's and mods.
+
+There are spiders in Helgan who would paralyse and eat you for breakfast.
+
+Assuming you got all past that - there's the dragon at the Watchtower who would use you as a toothpick.
+
+----
 
 ### How do I start the main quest?
 
