@@ -354,6 +354,16 @@ Then go to Mod Configuration Menu and Skyrim. From there you can use 'Skyrim Unb
 
 ----------
 
+### Why do I hear random "drink" sounds?
+
+In Wildlander, NPC's, Followers and Horses consume potions from their inventory when they are low on Health, Magic or Stamina. Skyrim doesn't have a "npc" drink noise, so plays the "player" drink noise instead regardless of how far away the NPC is from the player.
+
+If you hear a excessive amount of drinking, then its probable you are coming up on a civil war skrimish.
+
+
+Note: Any potions you give to your followers or horse can be consumed by them, so if you dont want them to drink them - dont use them for potion storage.
+----------
+
 ### Some sounds aren't playing! How do I fix this?
 
 If you are unable to hear most of the combat sounds such as sword swings, spell usage (flames, healing, etc.), opening a container, footsteps, etc. but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance...

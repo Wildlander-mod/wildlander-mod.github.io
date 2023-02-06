@@ -25,7 +25,7 @@ Ultimate Skyrim is only for Legal copies of Skyrim Classic Edition w/ All DLC’
 ### Where can I buy legendary Edition?
 You can buy Legendary Edition from one of the places linked in Wabbajack's Reddit post:
 
-[Wabbajack:How to get Skyrim LE in 2021](https://www.reddit.com/r/wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/)
+[Wabbajack:How to get Skyrim LE in 2021](https://www.reddit.com/r/Wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/)
 
 ---
 ## How Do I Update to the current Version.
@@ -69,7 +69,7 @@ There are Four Known causes
 	
 4) You don't have the DLC installed.
 
-	Solution: Install it, if you don't own it you can find a link to purchase it here [Wabbajack:How to get Skyrim LE in 2021](https://www.reddit.com/r/wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/) .
+	Solution: Install it, if you don't own it you can find a link to purchase it here [Wabbajack:How to get Skyrim LE in 2021](https://www.reddit.com/r/Wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/) .
 	
 After doing the solution 2,3  or 4, you will need to restart Wabbajack.
 
@@ -119,7 +119,7 @@ Low    - Intended for minimum specification PC - grass is only drawn literally a
 
 ### How do i setup a steam library outside of program files
 
-The wabbajack team has a handy utility to help you do that [here](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)
+The Wabbajack team has a handy utility to help you do that [here](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)
 
 ---
 

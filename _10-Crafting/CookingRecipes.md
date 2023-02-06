@@ -1,7 +1,7 @@
 ---
 title: Cooking Recipes
 layout: default
-nav_order: 3
+nav_order: 7
 description: Cooking recipes
 ---
 

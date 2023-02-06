@@ -1,11 +1,11 @@
 ---
 title:  Alchemy Ingredients
 layout: default
-nav_order: 1
+nav_order: 6
 description: Alchemy Ingredients
 ---
 
-## Crafted
+## Crafted Using Alchemy Toolkit
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrGbfUPw8M86W6lS?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 

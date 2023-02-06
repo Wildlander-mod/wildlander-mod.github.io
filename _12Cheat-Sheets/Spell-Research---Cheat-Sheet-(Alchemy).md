@@ -5,13 +5,22 @@ nav_order: 1
 description: Spell Research (Alchemy) 
 ---
 
-# Spell Research (Alchemy) 
+## Table of contents
+{: .no_toc }
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
+{: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 Spell Research extends the alchemy/spell system with the introduction of magical liquids (solutions) that are produced by breaking down ingredients, potions, or enchanted artifacts, using an alembic or a cauldron.
 
 Alchemy can be a much quicker way to gain experience about spell archetypes, however, it notoriously requires a large amount of material.
 
-# Getting started
+## Getting started
 
 To start you will need one (or both) of the tools below
 - Alembic: Required for analyzing or mixing magical liquids. Can break down (dissolve) small quantities of ingredients into liquids. Can crafted at a forge using 1x steel ingot + 5x building glass + Craftsmanship perk.
@@ -46,7 +55,9 @@ If you manage to find the right recipes (or use the cheat sheet) you can mass pr
 
 Analyzing liquids with an alembic grants elemental archetype XP and some alchemy XP.
 
-There are a lot different kinds of liquids - one for each elemental archetype. They are categorized into six tiers based on potency. The naming of the liquids is < name > sa < potency > for trivia - the translations of these items come from <https://www.imperial-library.info/content/alphabetical>
+## Solutions
+
+There are a lot different kinds of liquids - one for each elemental archetype.  The naming of the liquids is < name > sa < potency > for trivia - the translations of these items come from <https://www.imperial-library.info/content/alphabetical>
 
 Name | Archtype | Translation
 --|--|--
@@ -85,26 +96,28 @@ Volen Magicka | Magical Constructs |  Literally translated "hammer magic." [Dwem
 Wel | Air |  (n.) sky.  [Ayleid]
 Wel sa bell | Shock |Literally translated "Sky thunderous"[Ayleid]
 
-*Ranks* 
+## Ranks
 
-Potions Equivalent | Suffix (weakest to strongest) | Translation
+Solutions are categorized into six tiers based on potency.
+
+Potions Equivalent | Suffix (weakest to strongest) | Translation | Rank
 -- | -- | -- |
-Dilute | sa Haelia | (adj.) So terrible.[Ayleid]
-Weak | sa Goria| (adj.) So ugly. [Aylied]
-Mild | sa Gravia| (adj.) So obscure [Ayleid]
-Strong | sa Baune| (adj.)So mighty.[Ayleid]
-Potent | sa Adonai| (adj.) So lordly. [Ayleid]
-Concentrated | sa Sila | (v.) So shiny. [Ayleid]
+Dilute | sa Haelia | (adj.) So terrible.[Ayleid] | 0
+Weak | sa Goria| (adj.) So ugly. [Aylied]| 1
+Mild | sa Gravia| (adj.) So obscure [Ayleid]| 2
+Strong | sa Baune| (adj.)So mighty.[Ayleid]| 3
+Potent | sa Adonai| (adj.) So lordly. [Ayleid]| 4
+Concentrated | sa Sila | (v.) So shiny. [Ayleid]| 5
 
 Each one can be upgraded or downgraded using an alembic (Mix ingredients menu). Upgrading liquids requires 3 of the same kind to produce one stronger liquid, or each one can be reduced to 2 weaker liquids.
 
 For example a liquid called Relleis sa Goria would be a medium strength water archetype liquid. Mixing 3 of these will produce Relleis sa Baume, and so on.
 
-## Ingredient 
+## Ingredient Yield
 
-Each ingredient has two Strengths of Solutions which can be generated
+Each ingredient has two different strengths of solutions which can be generated
 * One which is affected by the Item effects 
-* One which comes from the Ingredient characteristics 
+* One which comes from the Ingredient Base Characteristics 
 
 **Item effects** 
 * The item Effect Solutions received depend on the Archetype appearing on more than one item effect for a Ingredient
@@ -113,15 +126,22 @@ Each ingredient has two Strengths of Solutions which can be generated
 
  Strength  = ((Sum of effect Magnitudes / (10)) + (Sum of effect Durations/(300)))
  
-**Ingredient characteristics**
+**Ingredient Base Characteristics**
 * The item characteristics are Solutions items defined in the import script - you will always get every one of these
 * Strength of the potions for characteristics is hard-coded
 
 **Quantities**
 
-The number of solutions for each of the above is  1 + (random number of you your alchemy skill / 25)
+The number of solutions for each of the above is  `1 + random number of (your alchemy skill / 25)`
 
-You will always get the same Solutions when you break down a material, just in differing quantities.
+E.g 
+* if you have 10 skill, you will get 1 solution.
+* if you have 26 skill, you will get either 1 or 2 solutions.
+* if you have 51 skill, you will get either 2 or 3 solutions.
+* if you have 76 skill, you will get either 2, 3 or 4 solutions.
+* if you have 100 skill, you will get either 2, 3, 4 or 5 solutions.
+
+You will always get the same types of solution when you break down a material, just in differing quantities.
 
 ## Potions
 
@@ -138,7 +158,35 @@ E.g a potion which has 2 effects, One for 150 seconds at 10 magnitude, and one a
                          = round(1.75) 
                          = 2 - Gravia strength solutions
 
+### Effect View
 
-**Ingredient Spreadsheet**
+Shows the Archetypes of solutions you can get from dissolving potions with specific effects.
 
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrVMyCWzP3t7f2AY?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</details>
+
+## Ingredient View
+
+Shows the solutions you get from dissolving each Ingredient.
+
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrd6meWeTmVoOF22?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</details>
+
+## Solutions View
+
+Shows which Ingredients you need to dissolve to get specific solutions.  
+
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrhNapShrLS2STIo?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</details>
