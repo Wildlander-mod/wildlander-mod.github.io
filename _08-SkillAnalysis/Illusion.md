@@ -218,7 +218,7 @@ Perks Required : Master Illusion and Obliterate the Mind
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Enraging Rune | 400 | 25 | 30s | The targets crossing this rune will attack anything nearby for up to <dur> seconds.<br/>Empowering the spell causes a tireless rage, increasing damage and stamina regeneration by <mag>%. |  |
-| Frenzy Sphere | 400 | 150 | 30s | The caster evokes a sphere that explodes on collision, frenzying all nearby targets. Targets under the spell's effect attack anyone nearby for <dur> seconds.. |  |
+| Frenzy Sphere | 400 | 150 | 30s | The caster evokes a sphere that explodes on collision, frenzying all nearby targets. Targets under the spell's effect attack anyone nearby for \<dur> seconds.. |  |
 | Frightening Sphere | 400 | 150 | 30s | The caster unleashes an orb which will explode upon impact. Affected targets will flee in despair for up to \<dur> seconds.<br/>If empowered, the targets are so terrified that they totally neglect their defenses and loose \<mag> armor rating. |  |
 | Hibernation Spray | 400 | 30 | 30s | The targets in the cone will fall into a deep slumber for up to \<dur> seconds.<br/>Empowering causes an uneasy sleep, reducing magicka and stamina regeneration by \<mag>%. |  |
 | Night Vision | 337 | - | 300s | Dark Sight for <dur> minutes. |  |
