@@ -59,7 +59,7 @@ This could indicate a problem/corruption with the install OR you selected too mu
 	Test with the lowest settings, (Potato Graphics, No shaders, Performance list.)
 	Repeat with the lowest settings, (Potato Graphics, No shaders, Standard list.)
 ```	
-If both tests pass - then you were probably running too high for what your PC was capable of running or you had insufficient page-file.
+If both tests pass - then you were probably running too high for what your PC was capable of running or you had insufficient page-file. You can now increase the settings on the launcher until you find one that your PC can play.
 
 If you continue to crash - Please consult with Staff on discord who will take a look at your crash logs to suggest corrective action.
 
