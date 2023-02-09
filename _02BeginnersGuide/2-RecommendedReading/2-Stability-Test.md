@@ -35,6 +35,9 @@ _This guide has been created for new users in mind that want to stress test the 
 >
 > **Make sure to Exit and Restart Skyrim COMPLETELY before creating your first character to prevent script contaimination from the stability test.**
 
+**Congratulations! You’ve finished the Stress Test!!** 🎉🎉🎉🎉
+
+## Troubleshooting
 
 ### I Crashed Jumping and Spinning at The Solitude Docks, Now What?
 If you make it to Solitude Docks **but** crashed while there/spinning
@@ -45,8 +48,22 @@ If you make it to Solitude Docks **but** crashed while there/spinning
 Your Wildlander graphics settings are too high!
 
      Test again with a lower Graphics preset
+	 
+### I Crashed during character creation!
 
-**Congratulations! You’ve finished the Stress Test!!** 🎉🎉🎉🎉
+This could indicate a problem/corruption with the install OR you selected too much for your PC to handle.
+
+1. Firstly Make sure you have setup the page file as recommended <https://wiki.wildlandermod.com/02BeginnersGuide/2-RecommendedReading/1-BeforeYouBegin/#page-files>
+1. Then create a character using both of the following tests
+
+	Test with the lowest settings, (Potato Graphics, No shaders, Performance list.)
+	Repeat with the lowest settings, (Potato Graphics, No shaders, Standard list.)
+	
+If both tests pass - then you were probably running too high for what your PC was capable of running or you had insufficient page-file.
+
+If you continue to crash - Please consult with Staff on discord who will take a look at your crash logs to suggest corrective action.
+
+
 
 
 
