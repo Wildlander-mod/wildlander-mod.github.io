@@ -58,6 +58,10 @@ We also **strongly** recommend a <a href="https://users.nexusmods.com/account/bi
 
 <a class="btn btn-pink" href="https://www.wildlandermod.com/download" target="_blank" rel="noopener noreferrer">Download and Install Instructions <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
+----
+
+# Video Guide
+
 
 <iframe  class="yt-embed" width="560" height="315" src="https://www.youtube.com/embed/UNBQt9ViiWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
