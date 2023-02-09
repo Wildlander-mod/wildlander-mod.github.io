@@ -503,6 +503,22 @@ Known issue with a unknown cause unfortunately. We suspect it is related to the 
 
 The current fix is to take a bath, then use `ahowracemenu` in the console. Once open press "done" to save the changes and reset your character back to its usual appearance.
 
+Some users report changing a face part (e.g Eyebrows), saving the change, then changing the facepart back prevents the issue from reoccuring.
+
+----------
+
+### Does Stuff Respawn?
+
+Yes - But with alternate timings to vanilla.
+
+* Internal cells with a boss - reset after a year.
+* Internal Cells without a boss (e.g Mines) and external cells - Reset after 30 days.
+* Merchants stocks reset after 72 hours.
+
+For any area to respawn, you must not enter the area during the specified time period. Each time you enter the area, the respawn clock is reset. 
+
+Containers will empty and corpses will despawn within a internal cell if you leave the cell, make a save and load a save for any reason. So you should not use any container within a internal cell for storage that you didn't make yourself. This includes chests inside of cities.
+
 ----------
 
 ### Why does it rain for days on end?
