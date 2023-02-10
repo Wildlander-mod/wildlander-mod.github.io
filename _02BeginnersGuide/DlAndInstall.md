@@ -60,7 +60,7 @@ We also **strongly** recommend a <a href="https://users.nexusmods.com/account/bi
 
 ----
 
-# Video Guide
+## Video Guide
 
 
 <iframe  class="yt-embed" width="560" height="315" src="https://www.youtube.com/embed/UNBQt9ViiWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
