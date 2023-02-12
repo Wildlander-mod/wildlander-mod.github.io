@@ -10,7 +10,7 @@ Wulfdur
 
 ## Description
 
-A Heavy Armor, Battlestaff build. Daedric battlemage armor and daedric battlestaff aimed for not only the most badass looks, but also for really powerful destruction power with spell power armor traits. Nord/Atronach combo is chosen as it’s one of the best ways to make battlemage build. Then we utilize Illusion to buff AR a bit since daedric battlemage armor only has 700 AR. Later on Shadow Shield for one of the fastest sprinting PA’s and Shadow Simulacrum to tank stuff for you are great additions. Lastly, we go Enchanting and Smithing to craft/temper our powerful Daedric gear. Julianos is the blessing for the battlestaff dmg and %15 cost reduction, although we can't fully benefit from the extra magicka regen (cus atronach) and extra magicka from perking (because of only 2 schools), but still its the strongest blessing for this build with %15 battlestaff dmg and %15 spell cost reduction.
+A Heavy Armor, Battlestaff build. Daedric battlemage armor and daedric battlestaff aimed for not only the most badass looks, but also for really powerful destruction power with spell power armor traits. Nord/Atronach combo is chosen as it’s one of the best ways to make battlemage build. Then we utilize Illusion to buff AR a bit since daedric battlemage armor only has 700 AR. Later on Shadow Shield for one of the fastest sprinting PA’s and Shadow Simulacrum to tank stuff for you are great additions. Lastly, we go Enchanting and Smithing to craft/temper our powerful Daedric gear. 
 
 
 Race | Stone | Blessing | Supernatural
@@ -38,7 +38,7 @@ All health,  Oghma - Stamina
 
 ## Recommended weapons / Spells
 
-Steel Battlestaff -> Elsi's Battlestaff -> Daedric Battlestaff (Orchendor) -> Daedric Battlestaff Crafted and Enchanted
+Steel Battlestaff -> Elsi's Battlestaff -> Daedric Battlestaff (Bthardamz Arcanex, carried by Orchendor) -> Daedric Battlestaff Crafted and Enchanted
 
 ## Recommended armor / Clothing
 
