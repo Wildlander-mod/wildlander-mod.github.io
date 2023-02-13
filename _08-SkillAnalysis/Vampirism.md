@@ -27,7 +27,7 @@ All vampires in Requiem are tagged with having Minor Knockdown Immunity, this im
 
 ### Penalty
 
-In Requiem your victims will die if they are at or below 125 health when you feed, and feeding will deal 250 damage when done the first time, and 125 damage the second time, after that it is no longer penalized however I doubt your victim will survive. I suppose this mechanics is to make feeding as a vampire punishing, since in the vanilla Skyrim game you could feed on people left and right without killing a single person.
+In Requiem your victims will die if they are at or below 125 health when you feed, and feeding will deal 250 damage to Max HP when done the first time, and 125 damage the second time, after that it is no longer penalized however I doubt your victim will survive. I suppose this mechanics is to make feeding as a vampire punishing, since in the vanilla Skyrim game you could feed on people left and right without killing a single person.
 
 ### Healing
 
@@ -76,15 +76,12 @@ Sunset: 7pm
 
 ## --Recovering Health--
 
-    Health Potions - The only healing potion that you can use as a vampire are Potion of Healing (Surpassing).
-                     Leaving you to recover through other means.
+1. Health Potions - The only healing potion that you can use as a vampire are Potion of Healing (Superlative).
+	
+Leaving you to recover through other means.
 
-    Food - Eating standard Food to 'well fed' will no longer heal you as a vampire.
-
-    Spells - Restoration healing spells will not work on a Vampire, Necromantic Empowerment (Rank I) from the Conjuration tree 
-             is the only exception.
-
-    Feeding - Feeding on humanoids is one of the easier ways to heal 
+1. Spells - Restoration healing spells will not work on a Vampire, Necromantic Empowerment (Rank I) from the Conjuration tree is the only exception.
+1. Feeding - Feeding on humanoids is one of the easier ways to heal 
 
 ## --Natural Weaknesses--
 
@@ -147,9 +144,9 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     Vampire's Servant Power will last 10 minutes and reanimate a corpse up to level 50
 
-    [Vampire Strength] - Unarmed damage increased by 25
+    Vampire Strength - Unarmed damage increased by 25
 
-    [Vampire Strength] - Health increased by 100 between 7PM-5AM or in areas where you would not take Sun Damage.
+    Vampire Strength - Health increased by 100 between 7PM-5AM or in areas where you would not take Sun Damage.
 
     Illusion magic is 25% stronger
 
@@ -169,9 +166,9 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     Vampire's Servant Power will last 8 minutes and reanimate a corpse up to level 40
 
-    [Vampire Strength] - Unarmed damage increased by 20
+    Vampire Strength - Unarmed damage increased by 20
 
-    [Vampire Strength] - Health increased by 50 between 7PM-5AM or in areas where you would not take Sun Damage.
+    Vampire Strength - Health increased by 50 between 7PM-5AM or in areas where you would not take Sun Damage.
 
     85% Fire Weakness
 
@@ -187,9 +184,9 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     Vampire's Servant Power will last 6 minutes and reanimate a corpse up to level 30
 
-    [Vampire Strength] - Unarmed damage increased by 15
+    Vampire Strength - Unarmed damage increased by 15
 
-    [Vampire Strength] - Health increased by 25 between 7PM-5AM or in areas where you would not take Sun Damage.
+    Vampire Strength - Health increased by 25 between 7PM-5AM or in areas where you would not take Sun Damage.
 
     100% Fire Weakness
 
@@ -211,7 +208,7 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     Hated by NPCs and attacked on site
 
-    Vampiric Invisibility - Once a day ability to become invisible and gain Night Vision for 300 seconds.
+    Vampire Invisibility - Once a day ability to become invisible and gain Night Vision for 300 seconds.
 
     150% Fire Weakness
 
