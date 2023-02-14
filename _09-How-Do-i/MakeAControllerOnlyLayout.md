@@ -31,5 +31,5 @@ Guide Submitted by Anzuray.
 1. Download the layout and Select it.
 
 Notes:
-* Gamepad still has some problems - you can't start sprinting if you are not moving in perfect line. You need to hold left stick perfectly up, to activate sprint.
-* Immersive horses - Switch tabs in inventory is behaving oddly.
+* Gamepad still has some problems - you can't start sprinting if you are not moving in perfect line. You need to hold left stick perfectly up, to activate sprint. To correct go in MCM - True Directional movement - miscellaneous - Disable "Override Controller Deadzone"
+* Immersive horses - Switch tabs in inventory is behaving oddly. press [select] x2 quickly to swap inventory.
