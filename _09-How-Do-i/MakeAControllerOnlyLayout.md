@@ -22,7 +22,7 @@ Guide Submitted by Anzuray.
 ![img](https://media.discordapp.net/attachments/930798440840065044/1075087386494648390/Where_is_controller_settings.png)
 
 {:style="counter-reset:none"}
-1. After that, click on CURRENT LAYOUT, Then Load Layout
+1. After that, click on current layout, Then Load Layout
 1. search "Wildlander"
 
 ![img](https://media.discordapp.net/attachments/930798440840065044/1075087524562747494/Search.png?width=1041&height=676)
