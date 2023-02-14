@@ -21,7 +21,7 @@ description: How Do I Update ?
 >
 > The reason for this is Wabbajack reads though and CRC checks everything in the mods folder. Unfortunately this process takes a long time to do, and doesn't detect corrupted files 100% of the time.
 
-## Clean Install (optional, but recommended) 
+## Clean Install of Mods (optional, but recommended) 
 
 Perform a clean install - Delete your Game-files\Mods folder before continuing (the folder circled in the example below).**  
 
