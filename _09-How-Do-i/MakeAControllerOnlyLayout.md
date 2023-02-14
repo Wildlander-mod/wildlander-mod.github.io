@@ -21,11 +21,11 @@ Guide Submitted by Anzuray.
 
 ![img](https://media.discordapp.net/attachments/930798440840065044/1075087386494648390/Where_is_controller_settings.png)
 
-1. After that, click on CURRENT LAYOUT
-1. search "Wildlander"
+3. After that, click on CURRENT LAYOUT, Then Load Layout
+4. search "Wildlander"
 
 ![img](https://media.discordapp.net/attachments/930798440840065044/1075087524562747494/Search.png?width=1041&height=676)
-1. Download the layout and Select it.
+5. Download the layout and Select it.
 
 Notes:
 * Gamepad still has some problems - you can't start sprinting if you are not moving in perfect line. You need to hold left stick perfectly up, to activate sprint.
