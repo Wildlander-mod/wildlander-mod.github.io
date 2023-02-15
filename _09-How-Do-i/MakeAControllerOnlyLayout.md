@@ -29,6 +29,7 @@ Guide Submitted by Anzuray.
 
 {:style="counter-reset:none"}
 1. Download the layout and Select it.
+1. If you cannot apply the layout, restart steam completely and try again.
 
 Notes:
 * Gamepad still has some problems - you can't start sprinting if you are not moving in perfect line. You need to hold left stick perfectly up, to activate sprint. To correct go in MCM - True Directional movement - miscellaneous - Disable "Override Controller Deadzone"
