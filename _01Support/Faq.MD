@@ -667,7 +667,7 @@ Kill a dragon. It's not as simple as it sounds. In Wildlander, dragons are the h
 
 ### Why can't I obtain the Dragonstone?
 
-This quest is auto completed when you kill a dragon. Also, there will be a book on 'Racial Phylogeny' inside the crypt, so make sure you bring that to Farengar. He needs it for... research.
+This quest is auto completed when you kill a dragon in Wildlander. 
 
 ----------
 
