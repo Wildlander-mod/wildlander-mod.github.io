@@ -25,11 +25,11 @@ For the Afflicted, the only difference between a Bandit and them is the addition
 
 ## About these Guides
 
-**Varients**
+**Variants**
 Level/Health/Stamina/Magic if the creature comes in different sizes but same base creature. 
 
 **Basic Stats**
-Movement Speed, Melee/Ranged damage or spells that the Enemy can cast, Standard armor, Magical armor, Enemy ability to penetrate your armor, If its has health regenation, diseases or can knock the player down.
+Movement Speed, Melee/Ranged damage or spells that the Enemy can cast, Standard armor, Magical armor, Enemy ability to penetrate your armor, If its has health regeneration, diseases or can knock the player down.
 
 **Weapon Protection**
 Bonus armor that the Enemy gains if attacked by weapon damage types.
@@ -44,7 +44,7 @@ If the Enemy has protection or vulnerability to Weapon materials such as Silver 
 If the Enemy has protection from Damage types, will also contain damage reduction by type.
 
 **Additional Perks**
-Any aditional perks that the Enemy may have which affects game play.
+Any additional perks that the Enemy may have which affects game play.
 
 ### The Guides 
 
