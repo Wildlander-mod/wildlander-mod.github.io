@@ -68,13 +68,19 @@ If you already have the DLC, you can still install on your stream install, howev
 
 ----------
 
-## Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install on my own?
+## Are all Anniversary Edition Creations disabled in Wildlander?
 
-No.
+The only creation we use is Fishing, all others are not copied to wildlander's stock game and are therefore not used.
+
+----------
+
+## Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install on my own?
 
 It is unsupported and untested. Some of them are known to conflict and cause crashes and issues with other mods in the list. 
 
-We have deliberately disabled the creation club menu option to prevent people adding it accidentally
+We have deliberately disabled the creation club menu option to prevent people adding it accidentally.
+
+If you want to add it yourself, then this would be customization and you would be responsible for patching it in yourself for requiem 5.0.3 compatibility.
 
 ----------
 
@@ -116,6 +122,8 @@ Yes - Click [Here](..\..\02BeginnersGuide\2-RecommendedReading\6-Changes-From-Ul
 Yes. Wildlander uses a mechanism called "stock game" this is in a nutshell a self contained copy of skyrim. 
 
 Provided you steam version of Skyrim is up to date, you can install Wildlander. If you happen to have a downgraded version of Skyrim and your own modpack, then you can update via steam, install, then use Halgari's downgrade patcher to restore your skyrim to the correct version afterwards.
+
+Once installed, you can even play Vanilla skyrim and wildlander will be unaffected.
 
 ----------
 
@@ -200,6 +208,33 @@ Uninstalling the launcher requires you to use Windows “Add / remove program”
 Yes, but if you want to "Clean" repair/reinstall due to a bug (or to get back to Wildlander default Modlist), you will need to redownload all 500+ mods.
 
 However, you can safely move your download folder to another hard drive.
+
+----------
+
+## When is the next update and what will it contain?
+
+The next update will contain
+1. Jobs & Missive expansion - to include new job types for crafting, collections and even some jobs for the not so nice people of skyrim.
+1. Lucian - from the patreon poll
+1. Religion - Based on Irondusk's religion 3.0 mod
+1. QOL and Bugfixes.
+
+This update does not yet have a release date. It will require a new game on release. 
+
+This question will update once sent to beta and/or have a firm release date.
+
+----------
+
+## How Long will it take me to do a complete playthough?
+
+This depends on you and the build you choose to play.
+
+Some Players really struggle to get started, because they attempt content that they cannot complete before understanding the mechanics. 
+
+Some players get half-way though and realise they aren't having fun with the character they are playing so get "restart-itis"
+
+Some builds will really struggle in the endgame, so those builds will take a lot more time and effort to complete a game. 
+
 
 ----------
 
