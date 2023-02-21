@@ -14,6 +14,8 @@ Guide Submitted by Anzuray.
 
 ## Setting up my layout
 
+Please note: This guide requires a Xbox 360 controller or compatible. 
+
 ![img](https://cdn.discordapp.com/attachments/930798440840065044/1075087359693029446/Layout_xbox360.png)
 
 1. Launch Wildlander, open steam overlay (Shift+Tab).
