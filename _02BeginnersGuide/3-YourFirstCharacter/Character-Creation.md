@@ -15,7 +15,7 @@ Build viability only becomes a problem once you reach things with lots of perks,
 
 If you just want to Play around killing bandits or whatever, you can pretty much play anything you want. But if you wanna complete all the content, defeat Alduin, kill Miraak, etc. you're gonna run into trouble, unless you pick a 'Meta' build.
 
-Going a Spellsword build is not recommended for beginners - as there are a lot of mechanics relating to heavy armor & spell casting that make this one of the hardest builds to master.
+Going a Spellsword/Battlemage build is not recommended for beginners - as there are a lot of mechanics relating to heavy armor & spell casting that make this one of the hardest builds to master.
 
 General rules for successful build - One ranged ability, One Defense ability, One melee ability and 3 support skills. 
 
