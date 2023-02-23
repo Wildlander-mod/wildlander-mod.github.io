@@ -225,7 +225,7 @@ This question will update once sent to beta and/or have a firm release date.
 
 ----------
 
-## How Long will it take me to do a complete playthough?
+## How Long will it take me to do a complete play-though?
 
 This depends on you and the build you choose to play.
 
@@ -584,6 +584,12 @@ No matter. The following console command will clear it:
 
 {: .console}
 > paycrimegold 0 0
+
+----------
+
+### Do I need to Equip hunting knives to process animals.
+
+No, the game will use the best one for the task from your inventory.
 
 ----------
 

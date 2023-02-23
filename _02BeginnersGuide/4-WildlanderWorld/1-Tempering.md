@@ -25,19 +25,21 @@ Both Armor and weapons within wildlander make tempering your equipment relevant.
 The higher the temper on the weapon, the more damage it does. 
 The higher the temper on the Armor, the more protection it does. 
 
-Tempering is shown in your inventory with a Word description and a number in brackets. ( currently disabled in 1.1.11 - but will be returning in next version)
+Tempering is shown in your inventory with a Tier description and a health number in brackets. ( currently disabled in 1.1.11 - but will be returning in next version)
 
 ![image](https://user-images.githubusercontent.com/26418143/156928089-14acb6eb-fff6-4755-b51b-908b8e7ee454.png)
 
 
 You can temper/repair your own weapons with your smithing skills at the grindstone, and armor at the armor workbench. You can also ask the blacksmiths to “upgrade your equipment”. In order to repair your damaged weapons and armor back to “standard” temper, you need to have the perk for the material the piece is made from and sufficient skill in smithing. The Minimum skill to enable tempering is 15 smithing. If your smithing skill is lower than this, then you cannot temper at all. Likewise if your only just have enough skill to "unlock" a material perk, you might not be able to temper it until you improve your skills. This is especially the case with "found gear" as it can already come pre-tempered (up to just below High-grade).
 
-Iequip icons on your UI give a visual repesentation of how close your weapon is to dropping a temper tier.
+Iequip icons on your UI can be edited to give a visual representation of how close your weapon is to dropping a temper tier.
 
 ![image](https://user-images.githubusercontent.com/26418143/162575241-b21c12f0-6c18-471f-b919-4bcdf9cfb0a1.png)
 
 
 ## Temper Tiers
+
+Temper tiers is based on the % health of your item, when compared to a newly crafted weapon at 100% health. Unless you are willing to utilize spell research to craft fortify Smithing potions, and have specific smithing gear enchanted with fortify smithing, and are at 100 Smithing skill - you should not expect masterwork or legendary temper tiers .
 
 Low%|High%|Label| Damage/protection of item
 |--|--|--|--|
@@ -52,7 +54,7 @@ Low%|High%|Label| Damage/protection of item
 331|450|First Rate|24-35 Bonus Damage/Armor
 451|570|Exquisite| 36-47 Bonus Damage/Armor
 571|690|Master Work|48-59 Bonus Damage/Armor 
-700|Onwards|Legendary| 60 Minumum
+700|Onwards|Legendary| 60 Bonus Damage/Armor Minumum
 
 ## Degrade Rules 
 
