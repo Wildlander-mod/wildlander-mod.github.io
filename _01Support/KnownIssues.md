@@ -25,12 +25,6 @@ This document will contain all of the Main Known Issues. It excludes any graphic
 
 ---
 
-## When will these be fixed?
-
-Depending on the severity some maybe hot-fixed immediately, other will wait til next major release.
-
-Some may need to wait for the mods used in the back to be corrected.
-
 --- 
 ## Getting asked to restart for the economy on a new game. DiD players * please read.
 
@@ -44,19 +38,20 @@ Some may need to wait for the mods used in the back to be corrected.
 > Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
 
 
+## When will these be fixed?
+
+Depending on the severity some maybe hot-fixed immediately, other will wait til next major release.
+
+Some may need to wait for the mods used behind the scenes to be corrected.
+
+the next section highlights the issues which cant be resolved.
+
 ---
-## M/O 2 issues
+## Issues which Cannot be Resolved 
 
-1. Reporting files in the overwrite - these are your crash logs
-1. All the Npc overhauls are disabled - They are supposed to be _they are for Dylan's use only_ Hence "DEV RESOURCES" label.
-1. There are mods with Red X's - these are merged into the Wildlander ESP - its perfectly normal
-1. Mod XXX is out of date - Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
+This section includes issues which cannot presently be resolved due to the issue being related to the technical functionality of a mod, the time it would take to correct would not be of benefit, or a engine issue related to skyrim itself.
 
-                                                                                                                                               
----
-## Lighting issues
-
-**Lights are flickering on and off**
+### Lights are flickering on and off
 
 Most noticeable in Breezehome's basement and entrance to riverwood but can happen everywhere.
 
@@ -64,42 +59,78 @@ This is caused by Skyrim's engine limitation of 4 light sources in a 30ft radius
 
 There is nothing we can do to correct this, bug reports on this topic will be deleted.
 
+### When using Honed metal to craft something, missives in your inventory complete and then abort.
+
+This is related to how honed metal functions. It transfers the inventory of the smith or enchanter to your inventory so you can see from the honed metal craft menu, what the smith can craft. this transfer essentially triggers the "quest complete" part of the missive.
+
+### I hear Random drinking noises.
+
+In Wildlander, both NPC's followers and horses can drink potions from their inventory. Unfortunately Skyrim doesnt have a "NPC" drink noise, so it plays the generic one as though the player was drinking.
+
+### Health/Stamina Potions are disappearing from my horse's inventory.
+
+The horse is treated as though it is a follower, and when its low on stamina or health can and does drink potions from its inventory
+
+### NPC's added by mods dont have voicelines or are immersion breaking.
+
+Unfortunately - this would require a great deal of effort to replace the voice lines and dialog so they fit.
+
+### I speak to a farmer and ask him if i can harvest his crops, but some give me bounties.
+
+Again - this would require a lot of effort to correct ownership on the specific plants causing the issues. In some cases the opposite is true as well, and plants which should be owned are not.
+
+### Bookshelves can be used to duplicate items placed upon them.
+
+E.g Placing a book on a shelf, removing the book from the shelf by "picking it up" then using the shelf inventory to get a copy.
+
+Unfortunate this is a engine issue where removing the book from the shelf by pickup doesn't edit the container.
+
+
+---
+## M/O 2 
+
+None of these are actually bugs - but i'm including them here to hopefully prevent bug reports.
+
+1. Reporting files in the overwrite - these are your crash logs
+1. All the Npc overhauls are disabled - They are supposed to be _they are for Dylan's use only_ Hence "DEV RESOURCES" label.
+1. There are mods with Red X's - these are merged into the Wildlander ESP - its perfectly normal
+1. Mod XXX is out of date - Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
+
 ---
 
 ## Camera Issues
 
-* Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
-* Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
-* Camera is too close to head when running
-* Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
+1. Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
+1. Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
+1. Camera is too close to head when running
+1. Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
+1. Whenever I open a crafting station such as an enchantment table, alchemy lab, cooking pot, etc., for the second time in the same cell, the menu doesn't load and I'm stuck.have to save exit and restart the game to fix
 
 ---
 
 ## UI
 
-* On ultrawide monitor (2560x1080), perk names appear VERY right aligned to perk "stars" making it awkward to use the perk menu as perk names appear over other perk "stars" in many cases.
-* certain elements of the UI will disappear (the compass and the H/M/S bars) after pressing X or when an inventory window is open
+1. On ultrawide monitor (2560x1080), perk names appear VERY right aligned to perk "stars" making it awkward to use the perk menu as perk names appear over other perk "stars" in many cases.
+1. certain elements of the UI will disappear (the compass and the H/M/S bars) after pressing X or when an inventory window is open
 
 ---
 
 ## Gameplay Issues
 
-* Bookshelves can be used to duplicate items placed upon them
-* Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
-* Drawing weapon when stealthed increases speed 
-* Got a bounty for opening a unlocked door in Whiterun's halls of the dead.
-* Prices of the summon tomes are WAY higher than the other ones
-* There is a note from Holidays on the counter of the Bannered Mare, but it cant be interacted with
-* Got a Trespassing in Warmaidens during opening hours
-* The Nightmother's Coffin can be searched and is Empty While helping Cicero 
-* Alessandra says Anders is located in Windhelm instead of Whiterun
-* Users report every time they sleep they get deer pelt and 2 charcoal drop into inventory
-* Tempering Labels currently do not work.
-* Bathing can teleport the player to a seemingly random location.
+1. Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
+1. Drawing weapon when stealthed increases speed 
+1. Got a bounty for opening a unlocked door in Whiterun's halls of the dead.
+1. Prices of the summon tomes are WAY higher than the other ones
+1. There is a note from Holidays on the counter of the Bannered Mare, but it cant be interacted with
+1. Got a Trespassing in Warmaidens during opening hours (typically happens if the shop doesnt open and user picks lock to gain entry)
+1. The Nightmother's Coffin can be searched and is Empty While helping Cicero 
+1. Alessandra says Anders is located in Windhelm instead of Whiterun
+1. Tempering Labels currently do not work.
+1. Bathing can teleport the player to a seemingly random location.
 
 ### With workarounds
 
-**When weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away** 
+** When weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away **
 
 Hit Control. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
 
@@ -117,19 +148,11 @@ You can force the horse to equip armor by the following process.
 >
 > equipitem baseID 1 
 
-
-
----
-
-## The Companions
-
-You need to do 5 Radiant quests between each quest.
-
 ---
 
 ## Thieves Guild
 
-Thieves guild has some issues for a small percentage of people. As a general rule - save **before** handing in a quest to Brynjolf, so if you have issues you dont have to redo it.
+Thieves guild has some issues for a small percentage of people. As a general rule - save **before** handing in a quest to Brynjolf, so if you have issues you don't have to redo it.
 
 ### Quest XYZ isnt starting
 
@@ -216,9 +239,9 @@ Work around: don't take a bath in cold water ;)
 
 ### I get a pouch/book/holder/carpet appearing at my feet (or my followers) / Crafting opening when Zoneing.
 
-Firstly: NEVER give followers backpacks. using these items causes scripts to fine unintentionally, you to get crafting experience unexpectedly and carpets to appear whenever they are stationary.
+Firstly: NEVER give followers backpacks. using these items causes scripts to fire unintentionally, you to get crafting experience unexpectedly and carpets to appear whenever they are stationary.
 
-If you dont HAVE followers, You can possibly solve it by either seeling your existing backpack and buying a new backpack OR by dropping your backpack and using console commands 
+If you don't HAVE followers, You can possibly solve it by either selling your existing backpack and buying a new backpack OR by dropping your backpack and using console commands 
 
 {: .console}
 >
@@ -240,7 +263,7 @@ Simple fix - switch gender back.
 >
 > using <a href="https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files" target="_blank" rel="noopener noreferrer">ReSaver from FallrimTools <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 >
-> Loaded the savegame > search for hzNECRAliasScript
+> Loaded the save game > search for hzNECRAliasScript
 >
 > Delete Everything using the right click menu.
 
@@ -257,8 +280,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 * Rebuilding the Blades cannot be completed.
 * Impossible to complete Finding Velehk Sain quest without console commands
-* You don't get any reward for returning the Ring of Pure Mixtures to Dawnstars Pestle and Mortar
-* Asking the blacksmith in dawnstar and possibly other location to "process some pelts for me" causes lots of messages about completed soul gem missions with incorrect value collected, then lots more corrected values after 
+* You don't get any reward for returning the Ring of Pure Mixtures to Dawnstar' Pestle and Mortar
 * Upon entering Frostflow Lighthouse and finding the dead bodies, the related quest does not register. However manually looting the giant Chaurus provides you with Habd's remains which you can burn at the top of the lighthouse to complete the quest anyway.
 * "Accept Jarl Balgruuf the Greater's surrender" objective during Battle for Whiterun (Stormcloaks) is stuck.
 * Pieces of the Past quest is broken
@@ -266,8 +288,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * Silus would not leave his house for me to go to mehrunes' shrine for his quest Using Console commands to move him allows the quest to proceed.
 * When doing the first real Dark Brotherhood Mission. You get an optional Objective of killing someone in Windhelm.
 * Trying to become thane of riften so that I can get the house for cheaper. Did the the entire skooma quest and I didn’t asked by her at all to help the people of riften.
-* Forced Brawls (Various)
-* Courier missives too easy due to receiving NPCs travelling to quest origin location.
+* Courier missives too easy due to receiving NPCs traveling to quest origin location.
 * Captain Valnir does not accept a Missive quest item, the only conversation options available with him are about his quest to go meddle with a dragon priest.
 * When fighting Mikael to leave carmilla alone the quest does not move to the next step, it instead acts like nothing happened. I fought him over and over hoping it would complete that step and it never did.
 * Issue with Paarthurnax quest line (When talking to Paarthurnax during the "Paarthurnax" quest line, both "The Blades say you deserve to die" and "You speak wisely, yet how can I be sure you won't return to your old ways?" dialogue trees lead to Paarthurnax stating that Alduin has been defeated.)
@@ -284,12 +305,10 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 * Several NPC's are sleeping in unrealistic places. (e.g. Orphans are found sleeping on the ground, in Windhelm in the middle of a snowstorm not near a fire)
 * Some vendors don't show a inventory/show limited inventory when you open them for the first time.
-* Wylandriah doesn't train Enchanting until after her quest
 * Some NPC's like idling inside of bushes or sitting on invisible chairs.
 * Milking a cow doesn't require a empty bottle and should.
 * There is a stubborn pig in windhelm which likes being in the way
 * Dawnstar carriage driver apparently thinks that standing inside his carriage, instead of sitting on the seat is a great place to stand (his horse is disconnected too)  
-* Hemming Blackbriar is wearing a Khajiit Mask :)
 * College NPCs cannot clear steps leaving Winterhold in order to walk to Saarthal
 * Ancient Mudcrab [NPC_:8B056F89] from depths of skyrim missing Requiem's natural mudcrab armor
 * Borkul the Beast [NPC_:0001338A] If he dies during escape from cidhna mine - his body lies dead forever (missing cleanup script)
@@ -381,14 +400,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 ## Exploits
 
 *  I probably should mention that if a container isn't marked as stealing is not red then you can take anything inside thats marked as stolen right in front of the owner without theft
-*  Put armor on mannequins  in breezehome. Logged off for the night. Re logged in and went inside the items the mannequins  were wearing was then sent directly to my inventory.
-*  Npcs can get stuck in the snow outside of mehrune dagons shrine, this causes them to sink slightly into the ground and are unable to move.
+*  Put armor on mannequins  in Breezehome. Logged off for the night. Re logged in and went inside the items the mannequins  were wearing was then sent directly to my inventory.
+*  Npcs can get stuck in the snow outside of mehrunes dagons shrine, this causes them to sink slightly into the ground and are unable to move.
 *  Wuunferth the Unliving grants 3 levels to Destruction
 *  Lightning speed has infinite duration. Unlike the double cast bug in UltSky pressing T to wait ends the spell. However this always happens, doublecast by default.
 *  Trolls - When hit by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
 *  Hunterborn isn't properly passing the amount of time that it supposed to 
-*  Certain equipment don't seem to be affected by Durability mod.
-*  Morthal Thurmatugists Hut Greenhouse Item Ownership
 
 ---
 
@@ -402,7 +419,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 * Taught follower the spell Sunfire through the dialog. They use it in combat even on enemies which aren't undead and they seem to prioritize using only that. 
 * I gave my follower Marcurio 2 scrolls of Summon Fire Atronach and 2 Scrolls of Summon Wolf Familiar (Ghost wolf w/e its called) and he is able to summon either (one at a time) infinitely during battle. In other words, he never consumes the scrolls.
-* Janessa has Good lockpicking perks * but * Cant get her to unlock anything?
+* Janessa has Good lock-picking perks * but * Cant get her to unlock anything?
 * Follower perks * Missing and/or Inconsistencies (Some followers have no perks)
 * Followers teleport forward too close
 
@@ -423,7 +440,7 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 * Its full of vanilla bugs.
 * It exists (Why bethesda did you include this mess in the release). 
-* We (wildlander) do not edit any quest assosiated with civil war therefore any bugs you encounter are original issues.
+* We (Wildlander) do not edit any quest associated with civil war therefore any bugs you encounter are original issues.
 * Several immersion breaking issues during battle for Whiterun (Vendors in market are trying to make a living, The carriage driver be vibing as explosions happen all around him)
 * Lights within Korvanjund Hall beyond the sealed door are lit (should be dark)
 
