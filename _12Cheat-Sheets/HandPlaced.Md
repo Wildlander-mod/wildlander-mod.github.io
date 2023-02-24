@@ -309,9 +309,9 @@ description: Recipes lists
 * Soothe (rank 2) Can be found at an unmarked location east of the College of Winterhold and an unmarked location north of Whistling Mine
 * Vapor Blast Can be found in Sunderstone Gorge and an unmarked location east of Boulderfall Cave.
 * Kindle Can be found at Last Vigil and an unmarked location near Sightless Pit.
-* Bound ### Sword in Trevas Watch
+* Bound Sword in Trevas Watch
 * Lesser Knock in Halted Stream Camp
-* Bound ### Bow in Fort Amol.
+* Bound Bow in Fort Amol.
 * Sunfire in Fort Dawnguard
 
 ---
@@ -319,8 +319,8 @@ description: Recipes lists
 ## Daedra Hearts
 
 * Bloodlet Throne - On the alchemy table.
-* Fellglow Keep - In a ### Bowl in the room with the broken atronach forge and several invisible entities. Several human hearts are in the ### Bowl as well.
-* Malyn Varen - Also carries an ebony ### Battlestaff. - Azura's star quest
+* Fellglow Keep - In a  Bowl in the room with the broken atronach forge and several invisible entities. Several human hearts are in the Bowl as well.
+* Malyn Varen - Also carries an ebony Battlestaff. - Azura's star quest
 * Sinderion's Field Laboratory - On a shelf on the right as you enter.
 * Soul Cairn - In a building near the northwest corner.
 * Volkihar Keep - In an expert-locked display case besides the alchemy table to the left of the main dining area.
