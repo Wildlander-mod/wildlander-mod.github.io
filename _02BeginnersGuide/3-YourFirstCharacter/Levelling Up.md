@@ -18,6 +18,8 @@ Wildlander is a deleveled world - The importance of understanding this can not b
 
 Confronted with this, a lot of people ask what they are supposed to do on Lv 1-5, then. The answer is: anything. Save often, try to run from a fight when you start losing, hunt, chop wood, collect ingredients and mix potions, mine ore, craft stuff. Anything. As long as it gets you gold and/or level-ups do it! Following on from that - Training your skills and armor.
 
+
+
 ---
 
 ## Vanilla Skills
@@ -150,6 +152,9 @@ Processing dead animals levels this skill up.
 ## Skill books.
 
 Skill books in your inventory can be studied. These will give you training for however long you study for. 
+
+{: .important}
+> If your skill is zero for a specific skill, you cannot level it up by studying. You need to use a alternate method of training to get to 1 skill before you can use books.
 
 ## Research
 

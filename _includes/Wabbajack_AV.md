@@ -51,9 +51,9 @@ Recommendations: Disable Bitdefender during Wabbajack install. Apply the followi
 
 ### McAfee Antivirus.
 
- It is known to cause a corruption in the Skyrim downgrade during installation process from Wabbajack
+ It is known to cause a corruption in the Skyrim downgrade during installation process from Wabbajack - even when the antivirus has finished its subscription. If it's still installed (even expired) it can and DOES cause issues.
 
-1. Disable McAfee 
+1. Disable McAfee (if its expired, for your sanity - just uninstall the thing)
 1. Delete game-files\Stock game
 1. Reinstall Wildlander from Wabbajack, choosing Overwrite installation and wait for install to complete.
 1. you should now be able to launch.
