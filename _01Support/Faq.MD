@@ -690,7 +690,7 @@ A fix will be added in 1.2 to prevent the guards from picking a fight.
 
 There are several possibilities
 
-1. You are Carrying more than your carry weight allows (Overencumbered).
+1. You are Carrying more than your carry weight allows (Over-encumbered).
 1. You have toggled Walk (caps lock)
 1. You have toggled Parry (control)
 1. You are wearing heavy armor (typically shield) without the perks to allow you to run in it.
@@ -707,7 +707,7 @@ The time of day is an "influence" in the sense that Wildlander uses DVLaSS (dyna
 
 The Red Line on the below image demonstrates the draw distance of a shadow (Medium graphics) If you were playing high or Ultra graphics, the line would be further away, Low graphics, Much closer. Potato graphics - you wouldn't see it at all as shadows are turned off.
 
-![image] (https://cdn.discordapp.com/attachments/929519483381514340/1079351300698939502/enb2023_2_26_13_15_52.png)
+![image](https://cdn.discordapp.com/attachments/929519483381514340/1079351300698939502/enb2023_2_26_13_15_52.png)
 
 The only way to reduce this effect is to further extend shadow draw distance (by playing on a a higher graphics preset) - which would place a greater overhead on your hardware and thus reduce your FPS.
 
