@@ -196,6 +196,7 @@ Perks Required : Master Illusion and Obliterate the Mind
 | Charming Touch | 150 | 2 | 40s | The touched target considers the caster a good friend and stops all hostilities for up to \<dur> seconds. <br/>If empowered, the strain drains \<mag> magicka and stamina per second. | |
 | Clairvoyance | 25/s | - | Concentration | The caster thinks of something that is to be found, and the spell will reveal the way. |  |
 | Darkvision | 50 | - | 86400s | With a whispered word and a magical gestures, the caster's eyes become able to reveal what lies hidden in the dark. <br/>Empowering the spell grants nightvision. | Upkeep: 2 |
+| Fear | 150 | 200 | 40s | The caster evokes an orb of vile, red magical energy. If a target is hit by this orb, it will flee in despair for up to \<dur> seconds. If empowered, the target is so terrified that it totally neglects its defense and loses \<mag> armor rating.| |
 | Lionheart | 150 | 25 (50) | 40s | The caster's touch inspires valor. The target will not flee and gains \<mag> extra stamina and magicka for up to \<dur> seconds.<br/>If empowered, the target will also regenerate these attributes (mag)% faster. |  |
 | Night Glimpse | 5/s | - | Concentration | Dark Vision |  |
 | Soothe (Rank I) | 45 | 10 | 30s | Exposure is reduced by \<mag> for <dur> seconds. When the effect wears off, the exposure is gained again. |  |
