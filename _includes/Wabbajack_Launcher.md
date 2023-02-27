@@ -64,23 +64,9 @@ Ensure the following:
 ----
 ###  Launcher locks for Skyrimse.exe and immediately unlocks (game doesn't start)
 
-V1.0 issue only.
-
 You may see a dialog pop-up saying preparing VFS and/or a command window.
 
-Firstly - Make sure you are logged into the steam account which owns Skyrim.
-
-If you are - You are missing a prerequisite from the installation guide. https://www.wildlandermod.com/download#before-we-begin
-
-Download <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe" target="_blank" rel="noopener noreferrer">c++ <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
-AND <a href="https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe" target="_blank" rel="noopener noreferrer">Desktop runtime <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
-AND <a href="https://download.visualstudio.microsoft.com/download/pr/fccf43d2-3e62-4ede-b5a5-592a7ccded7b/6339f1fdfe3317df5b09adf65f0261ab/dotnet-runtime-5.0.13-win-x64.exe" target="_blank" rel="noopener noreferrer">Dotnet runtime <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
-Install ALL THREE. Yes, even the one which says consoles. Yes, we are SURE you need it. 
-
-If you have them - repair them anyway. Make sure you reboot.
+This is typically caused by Antivirus interference in the installation process. Please check [Wildlander and Antiviruses](#wildlander-and-antiviruses) for specific guidance on your Anti-virus
 
 ----
 
