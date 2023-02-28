@@ -166,6 +166,18 @@ If this incompatibility changes, the community will be the first to know.
 
 ----------
 
+## Can I play Wildlander on the steam deck?.
+
+This is not supported currently.
+
+As it stands, Several people have managed to get wildlander running on the steamdeck, but they had to do a quite a few changes to the list to get it to function.
+
+To the Support teams knowledge - this includes disabling several mods which are incompatible with Linux and cause the game to crash. We do not know what the game looks like, or how it performs, just that they got it running.
+
+No instructions have been provided to support by any of the users who have got it to work, for how they got the list working - So we are unable to help on this topic.
+
+----------
+
 ## Does this mod pack support other languages?
 
 No, by default You will need to install English Skyrim - Special Edition to Install this modpack.
