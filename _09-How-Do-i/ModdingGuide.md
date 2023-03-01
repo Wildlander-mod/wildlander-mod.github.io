@@ -284,6 +284,8 @@ How to configure settings to use upscaler with Wildlander
 **Link to the guide**
 <https://docs.google.com/document/d/1GClUaIde1RWJfQExFqeo2bjvHKgeaR5u43pO2BhmyJI/edit?usp=sharing>
 
+---
+
 ### "No Current Location" for immersion
 
 **Submitted By**
@@ -294,4 +296,4 @@ GugaRJ
 Using multiple mods removes location mark on the map and makes camera to center Whiterun. It's far from perfect but it does its job to bring back the feeling of exploration.
 
 **Link to the guide**
-https://docs.google.com/document/d/1CxX9ES1rXOCqYCr4klWPnfOJ_hqNwF-JOrYP3xO1tlI/edit
+<https://docs.google.com/document/d/1CxX9ES1rXOCqYCr4klWPnfOJ_hqNwF-JOrYP3xO1tlI/edit>
