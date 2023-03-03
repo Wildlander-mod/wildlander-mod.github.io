@@ -51,6 +51,25 @@ Path should contain an entry for your equivalent of `C:\windows\System32\Windows
 PSmodulePath should contain an entry for `%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules` and `%ProgramFiles%\WindowsPowerShell\Modules`
 
 ----------
+
+### Assertion failed in Drivers\Render.CPP
+
+Unfortunatly this error is not related to the wildlander modlist itself as users who have this issue also have the same problems running other modlists with a enb. This message indicates that the ENB is failing to hook into Direct X which is a possible indication of a more serious problem with your PC.
+
+The known causes of this issue:-
+
+1. Overactive antivirus blocking the process. (Webroot is known to do this)
+1. the use of a 'Debloater' on your windows install which has removed key files needed to hook into direct-X
+1. Windows itself has issues with its system files which are preventing the connection.
+
+Your options to resolve :-
+
+1. Run Wildlander without using a ENB (No shaders from the launcher)
+1. Identify the antivirus process blocking the ENB and add a exception or disable while running wildlander.
+1. Repair/reinstall Windows.
+
+
+----------
 ### Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
 
 [![image of SKSE Error](https://camo.githubusercontent.com/d1e2036affcaac1d9ca807db293176917ba048b5d0a53ad07c718ddef81618ad/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3334383537393439353533373830333237342f3738343630333430313939353638313739342f436170747572652e504e47)](https://camo.githubusercontent.com/d1e2036affcaac1d9ca807db293176917ba048b5d0a53ad07c718ddef81618ad/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3334383537393439353533373830333237342f3738343630333430313939353638313739342f436170747572652e504e47)
