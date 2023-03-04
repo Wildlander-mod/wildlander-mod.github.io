@@ -737,6 +737,12 @@ Embrace the running follower would be my advise.
 
 ---
 
+### I'm trying to recruit a follower but he says "I always have someone with me"
+
+Quest enforced Followers such as the companions or Serena prevent the recruitment of additional followers. Should you need additional followers, you must recruit them first.
+
+---
+
 ### Can I Respec My perks / Make skills legendary
 
 No.
