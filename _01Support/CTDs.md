@@ -196,16 +196,33 @@ This we believe to be caused by scrolling though the honed metal blacksmith menu
 
 This typically happens around the Saddle's - we are not sure if this is the cause or just a co-incidence.
 
+Fix: Use the filter to find the objects you want to craft - Dont scroll.
+
 ---
 
-### Unidentified Random Crash. (SkyrimSE.exe+C2A5F3)
+### Random Crash. Unidentified Cause (SkyrimSE.exe+C2A5F3)
 
 This crash basically means something went wrong somewhere. Every report we have received is for different "relevant objects". It is not reproducible on demand.
 
 Fix: reload and redo.
 
 ---
+### Random NPC Movement crash (SkyrimSE.exe+11012FC)
 
+The crash logs for this that we have seen are all in different locations, with different NPC's. Its not reproducible on demand.
+
+Fix: reload and continue playing from last save.
+
+---
+### Istar Cairn-Breaker crash (SkyrimSE.exe+21FFE3)
+
+Happens in and around Dragonbridge at sunrise (7am). Caused by the scrips telling Istar Cairn-Breaker to put his torch away - but he isnt using one.
+
+This is a rare crash - attempts by staff to prevent the issue have reduced frequency but not prevented it all together. 
+
+Fix: If you are inside of Dragonbridge's Inn Wait until 8am. If you are approaching in Dragonbridge dont do so until after 8am. 
+
+---
 ### Collision Crash. (SkyrimSE.exe+E014EC)
 
 This crash basically means someone - when coming out of a building, collided with something.
