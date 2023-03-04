@@ -743,6 +743,16 @@ Quest enforced Followers such as the companions or Serena prevent the recruitmen
 
 ---
 
+### How do mercenary costs get calculated?
+
+When hiring a mercenary - you will be told how  much they charge.
+
+The cost per day of calculated as the mercenary's level * their day rate. 
+
+The minimum you can expect to pay is 300g (level 10 mercenary at 30g) per day.
+
+---
+
 ### Can I Respec My perks / Make skills legendary
 
 No.
