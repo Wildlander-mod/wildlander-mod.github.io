@@ -297,3 +297,18 @@ Using multiple mods removes location mark on the map and makes camera to center 
 
 **Link to the guide**
 <https://docs.google.com/document/d/1CxX9ES1rXOCqYCr4klWPnfOJ_hqNwF-JOrYP3xO1tlI/edit>
+
+
+---
+
+### Experience + Requiem - Static Skill Levelling + Synthesis patcher installation guide
+
+**Submitted By**
+Hazarduss
+
+**What does the guide explain how to do?**
+
+A guide to install the mod Experience with the Requiem - Static Skill Levelling addon.
+
+**Link to the guide**
+<https://docs.google.com/document/d/1ybW3_zI60rtaCIDrKZIz_vNDzu-cXECO5sx6oMisS7U/edit>
