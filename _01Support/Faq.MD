@@ -729,7 +729,7 @@ The only way to reduce this effect is to further extend shadow draw distance (by
 
 In reality - You don't. 
 
-using follower live package causes Crashes to desktop so should not be used.
+Using follower live package to giver followers "Summon ride" causes CTD's so should not be used.
 
 Giving your follower a horse from immersive horses "crouch" menu, while will make them ride one - will cause them to be slow to mount and they cant keep up - so will still teleport to you (horse and all) 
 
@@ -740,6 +740,8 @@ Embrace the running follower would be my advise.
 ### I'm trying to recruit a follower but he says "I always have someone with me"
 
 Quest enforced Followers such as the companions or Serena prevent the recruitment of additional followers. Should you need additional followers, you must recruit them first.
+
+Note - you may still get this message in the case of Serena if she's following you and you have already completed her quests. She's special and uses the vanilla recruitment flags.
 
 ---
 
