@@ -725,6 +725,32 @@ The only way to reduce this effect is to further extend shadow draw distance (by
 
 ---
 
+### How do I make my follower ride a horse?
+
+In reality - You don't. 
+
+using follower live package causes Crashes to desktop so should not be used.
+
+Giving your follower a horse from immersive horses "crouch" menu, while will make them ride one - will cause them to be slow to mount and they cant keep up - so will still teleport to you (horse and all) 
+
+Embrace the running follower would be my advise. 
+
+---
+
+### Can I Respec My perks / Make skills legendary
+
+No.
+
+Requiem lists cannot handle the removal of perks though any means.
+
+* No legendary perk trees
+* No resetting perk tree's using Black Book: Waking Dreams
+* No Console commands to remove perks.
+
+This is because various requiem scripts are tied to the perks, and removing the perks causes game instability and CTD's as a result.
+
+---
+
 ## **Questing Questions**
 
 ----------
