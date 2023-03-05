@@ -548,9 +548,14 @@ Skyrim Engine fault unfortunately, your either visible or invisible in 1st perso
 
 Known issue with a unknown cause unfortunately. We suspect it is related to the dirt shaders. 
 
-The current fix is to take a bath, then use `ahowracemenu` in the console. Once open press "done" to save the changes and reset your character back to its usual appearance.
+The current fix is to take a bath, then 
 
-Some users report changing a face part (e.g Eyebrows), saving the change, then changing the facepart back prevents the issue from reoccuring.
+{: .console}
+> showracemenu 
+
+Once open press "done" to save the changes and reset your character back to its usual appearance.
+
+Some users report changing a face part (e.g Eyebrows), saving the change, then changing the facepart back prevents the issue from reoccurring.
 
 ----------
 
