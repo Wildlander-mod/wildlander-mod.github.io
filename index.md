@@ -72,6 +72,19 @@ If videos are more your speed, then <a href="https://www.youtube.com/channel/UCn
 
 ---
 
+### Stuff not covered by the wiki.
+
+Several topics are not covered by the wiki because the are mechanically unchanged from vanilla. Some examples of this includes
+
+1. Quests - The quests themselves are unchanged in terms of contents. what has changed about some of them is the level requirements and the difficulties
+1. Staff Enchanting - this is unchanged from vanilla Dragonborn
+1. how to build a hearthfire home. The fundamentals of this and requirements are unchanged.
+1. civil war - Changing this would be like sticking a band-aid on a decapitation
+
+The general rule should be - if using the wiki search bar doesnt find a result - its not changed from Vanilla.
+
+---
+
 ## Thank yous
 
 We would like to thank Alexandregd, Goldymires, Giblets, Hazardoss, Liam, SuicidalKillers, Skjolbir, Semkiry, Terrorforge and the whole Requiem Community for the guides used to produce this Wiki. 
