@@ -139,16 +139,16 @@ just_the_docs:
       name: Support Pages
       nav_fold: true   
     02BeginnersGuide:
-      name: Wildlander Guides
+      name: Wildlander Basics
       nav_fold: false   
     06Dungeons:
-      name: Dungeons
+      name: Dungeon Analysis
       nav_fold: true 
     07-GearAnalysis:
       name: Gear Analysis
       nav_fold: true 
     08-SkillAnalysis:
-      name: Skill Analysis
+      name: Skills & Perks
       nav_fold: true 
     09-How-Do-i:
       name: How Do I?
