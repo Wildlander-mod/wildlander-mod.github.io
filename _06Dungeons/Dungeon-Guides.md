@@ -23,7 +23,7 @@ The contents of this guide should be considered spoilers
 
 ### How to use this guide.
 - Most of the information was taken from UESP directly in terms of what enemies lay in wait and unique treasures to be found within as well as crafting-related amenities found within. 
-- Take your prepared-ness to Witcher levels by knowing how to fight the [various enemies found throughout the world](/06-MechanicsAnaylsis/Advanced-Combat-Mechanics/#about-these-guides)
+- Take your prepared-ness to Witcher levels by knowing how to fight the [various enemies found throughout the world](/17Bestiary/Beastiary/#about-these-guides)
 - Note that some dungeons may be upgraded in threat level based on sheer number, Bandits may be average in difficulty but a platoon of Bandit Archers is more Difficult (lookin at you Valtheim Towers).
 - Fishing Supplies have been added in with the expectation they'll be available in 1.1, if this ends up not being they case they'll be removed from the guide.
 - To save on repeating myself a *lot*, automatically assume that:

@@ -20,7 +20,7 @@ description: Ebony Warrior - Shouts, Spells, Stats
 |Ranged Damage| 75 from bow, 90 from arrows + shock damage from both  |
 |Magical Damage| Warriors Fireball - The caster evokes a flaming projectile that deals 80 points of damage to everything in its impact radius. Targets on fire take extra damage. Targets standing in the impact radius takes 114 damage for 5 seconds and a stagger effect of 0.25|
 ||Warrior Ice Sphere - A freezing whirlwind that does 80 points of frost damage per second to Health and Stamina. 35% slow for 5 seconds and a stagger effect of 0.25  |
-||Warriors Conjour - Summions a [Potent Storm Thrall](http://wiki.wildlandermod.com/06-MechanicsAnaylsis/AdvancedCombatMecanics/Daedra/#potent-thrall-1) |
+||Warriors Conjour - Summions a [Potent Storm Thrall](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Daedra/#potent-thrall-1) |
 ||Drain Vitality Shout (3 words) 5 points of damage per second to stamina, magicka, and health for 60 seconds, and a stagger effect of 0.8 |
 |Standard AR| 1290 - Shield is enchanted with fortify Block (35)|
 |Magical AR| 80% |

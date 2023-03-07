@@ -96,7 +96,7 @@ collections:
   02BeginnersGuide:
     permalink: "/:collection/:path/"
     output: true
-  06-MechanicsAnaylsis:
+  06Dungeons:
     permalink: "/:collection/:path/"
     output: true
   07-GearAnalysis:
@@ -141,8 +141,8 @@ just_the_docs:
     02BeginnersGuide:
       name: Wildlander Guides
       nav_fold: false   
-    06-MechanicsAnaylsis:
-      name: Mechanics Analysis
+    06Dungeons:
+      name: Dungeons
       nav_fold: true 
     07-GearAnalysis:
       name: Gear Analysis
