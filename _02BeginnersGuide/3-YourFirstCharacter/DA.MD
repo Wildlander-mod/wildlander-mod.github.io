@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Derived Attributes
-nav_order: 5
 has_toc: true
 has_children: false
+parent: Your First Character
 ---
 
 
