@@ -3,7 +3,7 @@ layout: default
 title: The Reaper
 nav_order: 16
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: The Reaper - Shouts, Spells, Stats
 ---
 

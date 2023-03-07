@@ -3,7 +3,7 @@ layout: default
 title: Animals of Skyrim
 nav_order: 1
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Animals - Shouts, Spells, Stats
 ---
 

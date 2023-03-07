@@ -3,7 +3,7 @@ layout: default
 title: Unique Creatures
 nav_order: 7
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Unique Creatues - Shouts, Spells, Stats
 ---
 

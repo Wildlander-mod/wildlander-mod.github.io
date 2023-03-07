@@ -139,7 +139,7 @@ just_the_docs:
       name: Support Pages
       nav_fold: true   
     02BeginnersGuide:
-      name: Beginners Guide
+      name: Wildlander Guides
       nav_fold: false   
     06-MechanicsAnaylsis:
       name: Mechanics Analysis
@@ -165,15 +165,15 @@ just_the_docs:
     13Community:
       name: Community
       nav_fold: true 
-    14ModlistVersions:
-      name: Modlist & Change Logs
-      nav_fold: true  
     15ClassGuides:
       name: Class Guides
       nav_fold: true
     17Bestiary:
       name: Bestiary of Wildlander
-      nav_fold: true
+      nav_fold: false
+    14ModlistVersions:
+      name: Modlist & Change Logs
+      nav_fold: true  
     16OtherResources:
       name: Other Resources
       nav_fold: true

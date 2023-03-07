@@ -3,7 +3,7 @@ layout: default
 title: Lord Harkon
 nav_order: 12
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Lord Harkon - Shouts, Spells, Stats
 ---
 

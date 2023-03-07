@@ -3,7 +3,7 @@ layout: default
 title: Monsters of Skyrim
 nav_order: 2
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Monsters - Shouts, Spells, Stats
 ---
 

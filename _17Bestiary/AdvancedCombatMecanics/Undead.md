@@ -3,7 +3,7 @@ layout: default
 title: Undead
 nav_order: 6
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Undead - Shouts, Spells, Stats
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Malkorian
 nav_order: 13
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Malkoran - Shouts, Spells, Stats
 ---
 

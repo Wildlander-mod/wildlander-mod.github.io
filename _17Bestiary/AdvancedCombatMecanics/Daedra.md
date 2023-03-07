@@ -3,7 +3,7 @@ layout: default
 title: Daedra
 has_children: false
 nav_order: 4
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Daedra - Shouts, Spells, Stats
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Dragons
 has_children: false
 nav_order: 5
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Dragons - Shouts, Spells, Stats
 ---
 

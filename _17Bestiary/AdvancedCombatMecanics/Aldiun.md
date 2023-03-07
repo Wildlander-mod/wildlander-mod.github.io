@@ -4,7 +4,7 @@ title: Aldiun
 nav_order: 9
 has_children: false
 description: Aldiun's Stats and abilities
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Aldiun - Shouts, Spells, Stats
 ---
 

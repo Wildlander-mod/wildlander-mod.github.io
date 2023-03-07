@@ -3,7 +3,7 @@ layout: default
 title: Miraak
 nav_order: 17
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Miraak - Shouts, Spells, Stats
 ---
 

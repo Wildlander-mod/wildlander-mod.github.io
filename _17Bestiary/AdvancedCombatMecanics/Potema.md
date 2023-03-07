@@ -3,7 +3,7 @@ layout: default
 title: Potema
 nav_order: 15
 has_children: false
-parent: Advanced Combat Analysis
+parent: Bestiary Of Wildlander
 description: Potema - Shouts, Spells, Stats
 ---
 
