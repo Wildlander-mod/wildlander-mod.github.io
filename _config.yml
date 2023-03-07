@@ -126,6 +126,9 @@ collections:
   15ClassGuides:
     permalink: "/:collection/:path/"
     output: true
+  17Bestiary:
+    permalink: "/:collection/:path/"
+    output: true
   16OtherResources:
     permalink: "/:collection/:path/"
     output: true
@@ -137,7 +140,7 @@ just_the_docs:
       nav_fold: true   
     02BeginnersGuide:
       name: Beginners Guide
-      nav_fold: true   
+      nav_fold: false   
     06-MechanicsAnaylsis:
       name: Mechanics Analysis
       nav_fold: true 
@@ -168,9 +171,14 @@ just_the_docs:
     15ClassGuides:
       name: Class Guides
       nav_fold: true
+    17Bestiary:
+      name: Bestiary of Wildlander
+      nav_fold: true
     16OtherResources:
       name: Other Resources
       nav_fold: true
+
+
 
 
 nav_external_links:
