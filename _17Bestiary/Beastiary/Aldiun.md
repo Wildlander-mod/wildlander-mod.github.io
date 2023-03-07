@@ -33,7 +33,7 @@ description: Alduin - Shouts, Spells, Stats
 **Shouts**
 *While in Alduin's Bane Quest*
 * Alduin Invulnerability - Immune to damage while Flying
-* Dragon Storm Call - The Storm Call shout creates a heavy metoer shower directly above the Dragonborn that throws powerful meteors down upon anyone underneath, friend and foe alike. (Staggers and creates a flaming hazard which deals 10 damage per second. Hazard lasts for 600 seconds)
+* Dragon Storm Call - The Storm Call shout creates a heavy meteor shower directly above the Dragonborn that throws powerful meteors down upon anyone underneath, friend and foe alike. (Staggers and creates a flaming hazard which deals 10 damage per second. Hazard lasts for 600 seconds)
 * Drain Vitality - His Thu'um reaches out and takes away the very lifeforce of His enemies and and gives it to Him (  drain stamina: 5 per second for 60 seconds,   drain magicka: 5 per second for 60 seconds,   drain health: 5 per second for 60 seconds,   small stagger)
 * Dragon Unrelenting Force 
 * Fire Ball - There are few things a Dragon's scorching breath cannot reduce to ashes and cinders within a trice. (Deals 120 Fire Damage for enemies within 15 feet for 5 seconds). 
@@ -44,7 +44,7 @@ description: Alduin - Shouts, Spells, Stats
 *While In Sovnguard Quest*
 * Alduin Invulnerability - Immune to damage while Flying
 * Soul Cairn Summon - Calls 24 Wrathment from Soul Cairn for 60 seconds.
-* Dragon Storm Call - The Storm Call shout creates a heavy metoer shower directly above the Dragonborn that throws powerful meteors down upon anyone underneath, friend and foe alike. (Staggers and creates a flaming hazard which deals 10 damage per second. Hazard lasts for 600 seconds)
+* Dragon Storm Call - The Storm Call shout creates a heavy meteor shower directly above the Dragonborn that throws powerful meteors down upon anyone underneath, friend and foe alike. (Staggers and creates a flaming hazard which deals 10 damage per second. Hazard lasts for 600 seconds)
 * Drain Vitality - His Thu'um reaches out and takes away the very lifeforce of His enemies and and gives it to Him (  drain stamina: 5 per second for 60 seconds,   drain magicka: 5 per second for 60 seconds,   drain health: 5 per second for 60 seconds,   small stagger)
 
 
