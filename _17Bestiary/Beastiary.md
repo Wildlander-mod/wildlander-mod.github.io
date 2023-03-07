@@ -79,7 +79,7 @@ Any additional perks that the Enemy may have which affects game play.
   
 Bosses – The Bosses
 * [Ancano](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Ancano)  
-* [Aldiun](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Aldiun) 
+* [Alduin](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Alduin) 
 * [Champion of Boethiah](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Champion-of-Boethiah) 
 * [Ebony Warrior](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Ebony-Warrior)
 * [Lord Harkon](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Lord-Harkon) 
