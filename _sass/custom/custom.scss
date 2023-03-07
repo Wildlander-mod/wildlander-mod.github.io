@@ -173,6 +173,30 @@ background: transparent;
   }
 }
 
+// Sidebar Link settings
+.nav-category-Expanded {
+  padding-right: $gutter-spacing-sm;
+  padding-left: $gutter-spacing-sm;
+  padding-top: 0;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: start;
+  text-transform: uppercase;
+  border-bottom: $border $border-color;
+  color: #f4abff;
+
+  @include mq(md) {
+    padding-right: $gutter-spacing;
+    padding-left: $gutter-spacing;
+    margin-top: $gutter-spacing-sm;
+    text-align: start;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
 .nav-list.nav-category-list {
   > .nav-list-item {
     margin: 0;

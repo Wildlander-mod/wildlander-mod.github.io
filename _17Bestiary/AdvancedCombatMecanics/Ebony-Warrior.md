@@ -3,7 +3,7 @@ layout: default
 title: Ebony Warrior
 nav_order: 11
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Ebony Warrior - Shouts, Spells, Stats
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Dwemer Automations
 has_children: false
 nav_order: 3
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Automations - Shouts, Spells, Stats
 ---
 

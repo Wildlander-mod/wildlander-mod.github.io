@@ -3,7 +3,7 @@ layout: default
 title: The Reaper
 nav_order: 16
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: The Reaper - Shouts, Spells, Stats
 ---
 

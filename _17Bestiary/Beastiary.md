@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Bestiary Of Wildlander
+title: Bestiary Index
 nav_order: 1
 has_toc: false
 has_children: true
-description: Bestiary Of Wildlander
+description: Bestiary Index
 ---
 
 This Page was intended to be a reference guide to enable the player to be able to work out how the heck to kill some things in Wildlander. It Kinda grew from there to include all sorts of reference material from Requiem so that players wouldn't have to go look up a billion & one perks, spells and the like to work out what the enemies were shooting at them. 

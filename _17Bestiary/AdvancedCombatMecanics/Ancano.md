@@ -3,7 +3,7 @@ layout: default
 title: Ancano
 nav_order: 8
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Ancano - Shouts, Spells, Stats
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Old Orc
 nav_order: 14
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: The Old Orc - Shouts, Spells, Stats
 ---
 

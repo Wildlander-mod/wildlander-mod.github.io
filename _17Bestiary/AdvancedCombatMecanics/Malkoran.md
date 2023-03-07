@@ -3,7 +3,7 @@ layout: default
 title: Malkorian
 nav_order: 13
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Malkoran - Shouts, Spells, Stats
 ---
 

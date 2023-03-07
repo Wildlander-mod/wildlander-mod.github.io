@@ -3,7 +3,7 @@ layout: default
 title: Daedra
 has_children: false
 nav_order: 4
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Daedra - Shouts, Spells, Stats
 ---
 

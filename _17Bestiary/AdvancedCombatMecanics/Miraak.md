@@ -3,7 +3,7 @@ layout: default
 title: Miraak
 nav_order: 17
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Miraak - Shouts, Spells, Stats
 ---
 

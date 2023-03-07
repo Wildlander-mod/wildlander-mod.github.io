@@ -3,7 +3,7 @@ layout: default
 title: Monsters of Skyrim
 nav_order: 2
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Monsters - Shouts, Spells, Stats
 ---
 

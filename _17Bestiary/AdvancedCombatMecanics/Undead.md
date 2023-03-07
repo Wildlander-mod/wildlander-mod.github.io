@@ -3,7 +3,7 @@ layout: default
 title: Undead
 nav_order: 6
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Undead - Shouts, Spells, Stats
 ---
 

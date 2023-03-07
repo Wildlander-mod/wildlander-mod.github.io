@@ -3,7 +3,7 @@ layout: default
 title: Potema
 nav_order: 15
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Potema - Shouts, Spells, Stats
 ---
 

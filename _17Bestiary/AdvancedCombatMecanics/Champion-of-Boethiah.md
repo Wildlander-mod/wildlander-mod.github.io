@@ -3,7 +3,7 @@ layout: default
 title: Champion of Boethiah
 nav_order: 10
 has_children: false
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Champion of Boethiah - Shouts, Spells, Stats
 ---
 

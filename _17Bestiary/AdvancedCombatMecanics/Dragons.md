@@ -3,7 +3,7 @@ layout: default
 title: Dragons
 has_children: false
 nav_order: 5
-parent: Bestiary Of Wildlander
+parent: Bestiary Index
 description: Dragons - Shouts, Spells, Stats
 ---
 
