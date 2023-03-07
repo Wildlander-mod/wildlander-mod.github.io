@@ -54,7 +54,7 @@ PSmodulePath should contain an entry for `%SystemRoot%\system32\WindowsPowerShel
 
 ### Assertion failed in Drivers\Render.CPP
 
-Unfortunatly this error is not related to the wildlander modlist itself as users who have this issue also have the same problems running other modlists with a enb. This message indicates that the ENB is failing to hook into Direct X which is a possible indication of a more serious problem with your PC.
+Unfortunately this error is not related to the wildlander modlist itself as users who have this issue also have the same problems running other modlists with a enb. This message indicates that the ENB is failing to hook into Direct X which is a possible indication of a more serious problem with your PC.
 
 The known causes of this issue:-
 
