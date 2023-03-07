@@ -126,10 +126,10 @@ collections:
   15ClassGuides:
     permalink: "/:collection/:path/"
     output: true
-  17Bestiary:
+  16OtherResources:
     permalink: "/:collection/:path/"
     output: true
-  16OtherResources:
+  17Bestiary:
     permalink: "/:collection/:path/"
     output: true
     
@@ -168,15 +168,15 @@ just_the_docs:
     15ClassGuides:
       name: Class Guides
       nav_fold: true
-    17Bestiary:
-      name: Bestiary of Wildlander
-      nav_fold: false
     14ModlistVersions:
       name: Modlist & Change Logs
       nav_fold: true  
     16OtherResources:
       name: Other Resources
       nav_fold: true
+    17Bestiary:
+      name: Bestiary of Wildlander
+      nav_fold: false
 
 
 
