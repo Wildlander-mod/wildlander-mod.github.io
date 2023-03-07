@@ -78,7 +78,7 @@ Several topics are not covered by the wiki because the are mechanically unchange
 
 1. Quests - The quests themselves are unchanged in terms of contents. what has changed about some of them is the level requirements and the difficulties
 1. Staff Enchanting - this is unchanged from vanilla Dragonborn
-1. how to build a hearthfire home. The fundamentals of this and requirements are unchanged.
+1. How to build a hearthfire home. The fundamentals of this and requirements are unchanged.
 1. civil war - Changing this would be like sticking a band-aid on a decapitation
 
 The general rule should be - if using the wiki search bar doesnt find a result - its not changed from Vanilla.
