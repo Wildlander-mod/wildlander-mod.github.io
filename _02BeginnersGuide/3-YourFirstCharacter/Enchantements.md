@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Enchantments Analysis
-nav_order: 4
 has_toc: false
 has_children: false
 description:  Enchantments Analysis
+parent: Wildlander World
 ---
 
 ## Armor Enchantments
