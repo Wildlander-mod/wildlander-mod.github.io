@@ -81,6 +81,8 @@ Created By: Beethoven
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1029375967468212285/Demonic_Orc_Lad.jslot)
 
+
+
 ## Eekum_gra-Bokum
 
 Race: Orc
@@ -128,6 +130,18 @@ Created By: Jondoe
 ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1057474648520007780/image.png?width=783&height=780)
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1057474648901697556/Dunmer_Female_01.jslot)
+
+## Realistic Looking Thalmor Agent
+
+Sculpted ✅,  Eyes & Skin Color Matches High Elves In-Game✅ 
+
+Race: High Elf
+
+Created by Doomblades
+
+|![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351099199094804/ScreenShot284.png) | ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351099928911892/ScreenShot282.png) <br> ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351100415443105/ScreenShot285.png) |
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1082351100658733086/SPOILER_DoomBlades_Male_High_Elf_-_Realistic.jslot)
 
 ## Rookie Legionaire
 
