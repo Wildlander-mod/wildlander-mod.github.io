@@ -22,7 +22,7 @@ Especially heavy armor grants a lot of protection, allowing you to often shrug o
 
 Weapons are assigned one damage type, and Creatures are Sometimes given extra Damage Type Resistances that function as extra Armor Rating against each damage types. 
 
-Every armor has a pre-defined set of resistances against specific weapon types.
+Every chest armor has a pre-defined set of resistances against specific weapon types.
 
 |Type |	Default Source |
 |--|--|
