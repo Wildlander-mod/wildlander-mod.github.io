@@ -146,7 +146,7 @@ just_the_docs:
       nav_fold: false   
     04WildlanderWorld:
       name: Wildlander World
-      nav_fold: false   
+      nav_fold: true   
     06Dungeons:
       name: Dungeon Analysis
       nav_fold: true 
