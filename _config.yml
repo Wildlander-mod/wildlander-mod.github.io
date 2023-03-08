@@ -96,6 +96,9 @@ collections:
   02BeginnersGuide:
     permalink: "/:collection/:path/"
     output: true
+  04WildlanderWorld:
+    permalink: "/:collection/:path/"
+    output: true
   06Dungeons:
     permalink: "/:collection/:path/"
     output: true
@@ -140,6 +143,9 @@ just_the_docs:
       nav_fold: true   
     02BeginnersGuide:
       name: Wildlander Basics
+      nav_fold: false   
+    04WildlanderWorld:
+      name: Wildlander World
       nav_fold: false   
     06Dungeons:
       name: Dungeon Analysis

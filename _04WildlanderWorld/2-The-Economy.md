@@ -2,7 +2,7 @@
 layout: default
 title: The Economy
 nav_order: 2
-parent: Wildlander World
+
 
 has_toc: true
 descrption: The Econemy 

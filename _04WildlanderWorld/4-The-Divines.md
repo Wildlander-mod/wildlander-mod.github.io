@@ -2,7 +2,7 @@
 layout: default
 title: The Divines & Daedra
 nav_order: 4
-parent: Wildlander World
+
 
 has_toc: true
 description: Religion and the Divines.

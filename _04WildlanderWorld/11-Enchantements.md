@@ -4,7 +4,7 @@ title: Enchantments Analysis
 has_toc: false
 has_children: false
 description:  Enchantments Analysis
-parent: Wildlander World
+
 ---
 
 ## Armor Enchantments

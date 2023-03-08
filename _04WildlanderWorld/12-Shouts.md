@@ -3,7 +3,7 @@ layout: default
 title: Shout Analysis
 has_toc: true
 has_children: false
-parent: Wildlander World
+
 ---
 
 Contents of this page are taken from <a href="https://www.reddit.com/r/skyrimrequiem/comments/63hpt1/requiem_analysis_shouts/" target="_blank" rel="noopener noreferrer">Requiem Analysis: Shouts <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>

@@ -2,7 +2,7 @@
 layout: default
 title: Diseases
 nav_order: 8
-parent: Wildlander World
+
 
 has_toc: true
 ---

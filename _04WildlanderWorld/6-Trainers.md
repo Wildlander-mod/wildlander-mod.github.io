@@ -2,7 +2,7 @@
 layout: default
 title: Trainers
 nav_order: 6
-parent: Wildlander World
+
 
 has_toc: true
 ---
