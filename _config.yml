@@ -157,13 +157,13 @@ just_the_docs:
       name: Recommended Reading
       nav_fold: true   
     03-YourFirstCharacter:
-      name: ↳ Your First Character
+      name: Your First Character
       nav_fold: true   
     05-HintsandTips:
-      name: ↳ Hints & Tips
+      name: Hints & Tips
       nav_fold: true   
     04WildlanderWorld:
-      name: ↳ Wildlander World
+      name: Wildlander World
       nav_fold: true   
     06Dungeons:
       name: Dungeon Analysis
