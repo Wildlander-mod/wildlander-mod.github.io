@@ -56,11 +56,9 @@
       {% endfor %}
     {% endif %}
 	
-	<ul class="nav-list nav-category-list">
-		<li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
-			<br>
-			<div class="nav-category-Expanded">External Links</div>
-		</li>  
+	<ul class="nav-category">
+		<br>
+		<div class="nav-category">External Links</div>
 	</ul>
 	
 	{%- if site.nav_external_links -%}
