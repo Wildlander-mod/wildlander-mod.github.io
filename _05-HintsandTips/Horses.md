@@ -2,8 +2,6 @@
 layout: default
 title: Horses
 nav_order: 4
-parent: Tips and Tricks
-
 has_toc: true
 ---
 

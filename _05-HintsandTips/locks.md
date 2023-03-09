@@ -2,8 +2,6 @@
 layout: default
 title: How to open locks
 nav_order: 5
-parent: Tips and Tricks
-
 has_toc: true
 ---
 
