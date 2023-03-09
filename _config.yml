@@ -155,15 +155,15 @@ just_the_docs:
       nav_fold: false   
     02-RecommendedReading:
       name: Recommended Reading
-      nav_fold: false   
+      nav_fold: true   
       nav_hasparent: true   
     03-YourFirstCharacter:
       name: Your First Character
-      nav_fold: false   
+      nav_fold: true   
       nav_hasparent: true   
-    05-HintsAndTips:
+    05-HintsandTips:
       name: Hints & Tips
-      nav_fold: false   
+      nav_fold: true   
       nav_hasparent: true   
     04WildlanderWorld:
       name: Wildlander World

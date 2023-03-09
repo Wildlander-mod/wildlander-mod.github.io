@@ -24,7 +24,7 @@
         {% if collection_value.nav_exclude != true %}
           {% if collections_size > 1 or pages_top_size > 0 %}
             {% if collection_value.nav_fold == true %}
-			  {% if collection_value.nav_HasParent == true %}
+			  {% if collection_value.nav_hasparent == true %}
               <ul class="nav-list nav-category-list">
                 <li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
                   {%- if collection.size > 0 -%}
