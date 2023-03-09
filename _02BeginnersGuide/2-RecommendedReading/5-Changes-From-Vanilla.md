@@ -50,3 +50,4 @@ description: Changes From Vanilla
 * Level cap is 82, therefore Perk points are limited. Plan where you are going to spend them accordingly.
 * Vampires are Allergic to sunlight, and restoration spells don't work. They have their own healing spell in the conjuration tree. 
 * You are not forced to perk into lock picking. Spells for unlocking, scrolls for unlocking and just plain smacking the lock can be used instead.
+* Aedras (good gods) don't like crime; you make crimes, they turn their back to you and prevent shrines from functioning. Once lost, you cannot regain the blessings, however there's a legal way to get their "cure disease" back, but honestly is not worth the penalties it inflicts.
