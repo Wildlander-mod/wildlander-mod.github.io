@@ -131,6 +131,19 @@ Created By: Jondoe
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1057474648901697556/Dunmer_Female_01.jslot)
 
+## Male Dark Elf 
+
+Light & Dark Variants | Light Skin Variant Matches Solstheim Dark Elves✅  | Sculpted ✅ |
+
+Race: Dunmer
+
+Created by Doomblades
+
+|![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1083472411145547849/ScreenShot286.png?width=400&height=780) | ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1083472411544010752/ScreenShot287.png) <br> ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1083472411967623218/ScreenShot285.png) |
+
+Download: [Light Skin Link](https://cdn.discordapp.com/attachments/1000438888701104190/1083472412307370125/SPOILER_DoomBlades_Male_Dark_Elf_Light_Skin.jslot)
+[Dark Skin Link](https://cdn.discordapp.com/attachments/1000438888701104190/1083472412638724096/SPOILER_DoomBlades_Male_Dark_Elf.jslot)
+
 ## Realistic Looking Thalmor Agent
 
 Sculpted ✅,  Eyes & Skin Color Matches High Elves In-Game✅ 
@@ -139,7 +152,7 @@ Race: High Elf
 
 Created by Doomblades
 
-|![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351099199094804/ScreenShot284.png) | ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351099928911892/ScreenShot282.png) <br> ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351100415443105/ScreenShot285.png) |
+|![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351099199094804/ScreenShot284.png?width=400&height=780) | ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351099928911892/ScreenShot282.png) <br> ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1082351100415443105/ScreenShot285.png) |
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1082351100658733086/SPOILER_DoomBlades_Male_High_Elf_-_Realistic.jslot)
 
