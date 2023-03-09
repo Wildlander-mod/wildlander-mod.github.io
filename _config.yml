@@ -102,7 +102,7 @@ collections:
   03-YourFirstCharacter:
     permalink: "/:collection/:path/"
     output: true
-  05-HintsAndTips:
+  05-HintsandTips:
     permalink: "/:collection/:path/"
     output: true
   04WildlanderWorld:
