@@ -14,7 +14,7 @@
     {% if pages_top_size > 0 %}
       {% include nav.html pages=site.html_pages key=nil %}
     {% endif %}
-    
+	
     {% if site.just_the_docs.collections %}
       {% assign collections_size = site.just_the_docs.collections | size %}
       {% for collection_entry in site.just_the_docs.collections %}
@@ -23,31 +23,31 @@
         {% assign collection = site[collection_key] %}
         {% if collection_value.nav_exclude != true %}
           {% if collections_size > 1 or pages_top_size > 0 %}
-            {% if collection_value.nav_hasparent == true %}
+            {% if collection_value.nav_fold == true %}
               <ul class="nav-list nav-category-list">
                 <li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
                   {%- if collection.size > 0 -%}
                   <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
                   {%- endif -%}
-                  <div class="nav-list-item">    {{ collection_value.name }}</div>
+                  <div class="nav-category">{{ collection_value.name }}</div>
                   {% include nav.html pages=collection key=collection_key %}
                 </li>
               </ul>
             {% else %}
-              {% if collection_value.nav_fold == true %}
+              {% if collection_value.nav_hasparent == true %}
                 <ul class="nav-list nav-category-list">
                   <li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
                     {%- if collection.size > 0 -%}
                     <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
                     {%- endif -%}
-                    <div class="nav-category">{{ collection_value.name }}</div>
+                    <div class="nav-category">   {{ collection_value.name }}</div>
                     {% include nav.html pages=collection key=collection_key %}
                   </li>
                 </ul>
               {% else %}
                 <div class="nav-category">{{ collection_value.name }}</div>
                 {% include nav.html pages=collection key=collection_key %}
-              {% endif %}
+			  {% endif %}
             {% endif %}
           {% else %}
             {% include nav.html pages=collection key=collection_key %}
@@ -55,15 +55,15 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-    
-    <ul class="nav-list nav-category-list">
-        <li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
-            <br>
-            <div class="nav-category-Expanded">External Links</div>
-        </li>  
-    </ul>
-    
-    {%- if site.nav_external_links -%}
+	
+	<ul class="nav-list nav-category-list">
+		<li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
+			<br>
+			<div class="nav-category-Expanded">External Links</div>
+		</li>  
+	</ul>
+	
+	{%- if site.nav_external_links -%}
       <ul class="nav-list">
         {%- for node in site.nav_external_links -%}
           <li class="nav-list-item external">
@@ -75,7 +75,6 @@
         {%- endfor -%}
       </ul>
     {%- endif -%}
-    
   </nav>
 
   {% capture nav_footer_custom %}
