@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Your First Character
+title: Your First Character - Video guides
 has_toc: true
 has_children: true
-nav_order: 2
+nav_order: 1
 description: Your First Character Index
 ---
 

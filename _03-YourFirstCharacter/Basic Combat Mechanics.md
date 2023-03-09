@@ -3,7 +3,7 @@ layout: default
 title: Basic Combat Mechanics
 has_toc: true
 nav_order: 6
-parent: Your First Character
+
 description: Basic Combat Mechanics
 ---
 

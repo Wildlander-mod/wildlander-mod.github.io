@@ -5,7 +5,7 @@ has_toc: false
 has_children: false
 nav_order: 12
 
-parent: Your First Character
+
 description: NPC Crafting and Enchanting Services
 ---
 

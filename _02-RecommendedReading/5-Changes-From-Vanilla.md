@@ -2,7 +2,6 @@
 layout: default
 title: Changes From Vanilla
 has_toc: true
-parent: Recommended Reading
 nav_order: 5
 description: Changes From Vanilla
 ---

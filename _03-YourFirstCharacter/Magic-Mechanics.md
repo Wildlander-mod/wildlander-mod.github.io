@@ -3,7 +3,7 @@ layout: default
 title: Magic Analysis
 has_toc: true
 has_children: false
-parent: Your First Character
+
 ---
 
 

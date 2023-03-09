@@ -3,7 +3,7 @@ layout: default
 title: Stamina Management
 has_toc: true
 nav_order: 4
-parent: Your First Character
+
 description: Stamina Management
 ---
 

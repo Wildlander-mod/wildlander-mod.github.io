@@ -2,7 +2,6 @@
 layout: default
 title: Stability Test
 has_toc: true
-parent: Recommended Reading
 nav_order: 2
 description: Stability test
 ---

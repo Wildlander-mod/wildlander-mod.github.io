@@ -4,7 +4,7 @@ title: Leveling your Character
 has_toc: true
 nav_order: 3
 
-parent: Your First Character
+
 description: Leveling up Your Character
 ---
 

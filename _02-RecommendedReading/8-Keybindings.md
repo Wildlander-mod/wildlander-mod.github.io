@@ -2,7 +2,6 @@
 layout: default
 title: Keybindings
 has_toc: true
-parent: Recommended Reading
 nav_order: 8
 description: Keybinds
 ---

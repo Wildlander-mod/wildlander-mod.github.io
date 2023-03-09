@@ -2,7 +2,6 @@
 layout: default
 title: Changes from Ultsky
 has_toc: true
-parent: Recommended Reading
 nav_order: 6
 description: Changes from Ultksy
 ---

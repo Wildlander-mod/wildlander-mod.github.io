@@ -4,7 +4,7 @@ title: Needs & Survivial
 has_toc: true
 nav_order: 9
 
-parent: Your First Character
+
 description: Needs & Survival
 ---
 

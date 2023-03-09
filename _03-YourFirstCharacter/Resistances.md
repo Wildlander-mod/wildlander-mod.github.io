@@ -4,7 +4,7 @@ title:  Resistances & Weapon Types
 has_toc: true
 nav_order: 8
 
-parent: Your First Character
+
 description:  Resistances & Weapon Types
 ---
 
