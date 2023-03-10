@@ -445,7 +445,7 @@ Requiem applies a stamina draining effect when you run and when you wear armor w
 
 ### Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](..\..\4-WildlanderWorld\4-The-Divines\) for more information.
+Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](04-WildlanderWorld\4-The-Divines\) for more information.
 
 ----------
 
