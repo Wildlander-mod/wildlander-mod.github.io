@@ -146,7 +146,7 @@ Download: [Light Skin Link](https://cdn.discordapp.com/attachments/1000438888701
 
 ## Male Khajiit Brute
 
-Fitting for a Brute Heavy Armor Playthroughs, Sculpted Cheeks, Nose & Chin to reduce Saggy Cheeks ✅ | 
+Fitting for a Brute Heavy Armor Playthroughs, Sculpted Cheeks, Nose & Chin to reduce Saggy Cheeks ✅ | :smile_cat:
 
 Race: Khajiit
 
