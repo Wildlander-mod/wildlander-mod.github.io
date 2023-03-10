@@ -341,7 +341,7 @@ Sure. Here's a [link](..\..\01Support\KnownIssues\).
 
 The in-game hotkey F11 will bring up a Gamepad / keyboard layout of all key bindings. Pressing F11 again will hide it. 
 
-You can also see them on [This](https://wiki.wildlandermod.com/02BeginnersGuide/2-RecommendedReading/8-Keybindings/) page.
+You can also see them on [This](https://wiki.wildlandermod.com/2-RecommendedReading/8-Keybindings/) page.
 
 ----------
 
@@ -514,7 +514,7 @@ In addition in 1.1.X – A SKSE mod disables fast travel around the map. This ca
 
 The game will pause if you are alt-tabbed out, including some load screens. Make sure the Skyrim window has focus!
 
-The primary cause for this is a insufficient [page file](..\..\02BeginnersGuide\2-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase it.
+The primary cause for this is a insufficient [page file](2-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase it.
 
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
