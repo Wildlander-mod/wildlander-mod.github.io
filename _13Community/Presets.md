@@ -144,6 +144,18 @@ Created by Doomblades
 Download: [Light Skin Link](https://cdn.discordapp.com/attachments/1000438888701104190/1083472412307370125/SPOILER_DoomBlades_Male_Dark_Elf_Light_Skin.jslot)
 [Dark Skin Link](https://cdn.discordapp.com/attachments/1000438888701104190/1083472412638724096/SPOILER_DoomBlades_Male_Dark_Elf.jslot)
 
+## Male Khajiit Brute
+
+Fitting for a Brute Heavy Armor Playthroughs, Sculpted Cheeks, Nose & Chin to reduce Saggy Cheeks ✅ | 
+
+Race: Khajiit
+
+Created by Doomblades
+
+|![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1083691446147764284/ScreenShot289.png?width=400&height=780) | ![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1083691446667845632/ScreenShot291.png) |
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1083691445719928862/SPOILER_DoomBlades_Male_Khajiit_Brute.jslot)
+
 ## Realistic Looking Thalmor Agent
 
 Sculpted ✅,  Eyes & Skin Color Matches High Elves In-Game✅ 
