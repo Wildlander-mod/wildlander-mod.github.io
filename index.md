@@ -50,12 +50,14 @@ If videos are more your speed, then <a href="https://www.youtube.com/channel/UCn
 {: .important}
 >
 > When you load your save file, wait at least a minute before saving again. Some scripts will break if you save too soon after loading.
->  
-> Avoid saving during combat or other conditions of heavy script load. 
+>
+> Avoid saving during combat or other conditions of heavy script load.
 >
 > Never save more than once a minute.
 >
 > Never save within 30 seconds of entering a building / cell / dungeon.
+>
+> After waiting/sleeping, wait a minute to allow all the NPC's AI scripts to move to where they are supposed to be
 
 ---
 
