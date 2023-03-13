@@ -85,6 +85,9 @@ E.g Placing a book on a shelf, removing the book from the shelf by "picking it u
 
 Unfortunate this is a engine issue where removing the book from the shelf by pickup doesn't edit the container.
 
+### SkyUI Groups broken.
+
+When a item changes condition, either via tempering or via degredation, any groups that that item was assigned to no longer functions.
 
 ---
 ## M/O 2 
