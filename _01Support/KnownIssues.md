@@ -135,13 +135,13 @@ None of these are actually bugs - but i'm including them here to hopefully preve
 
 ### With workarounds
 
-** When weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away **
+**When weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away**
 
 Hit Control. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
 
 --- 
 
-**Horses occasionally forget to spawn with armor, despite having it in their inventory.** 
+**Horses occasionally forget to spawn with armor, despite having it in their inventory** 
 
 You can force the horse to equip armor by the following process.
 1. Drop the armor on the floor
@@ -168,6 +168,15 @@ If you have met these objectives but the next quest does not start.
 1. Exit Wildlander and restart using the Wildlander Launcher.
 1. Load your game using a save before you handed in the previous quest.
 1. Speak to Brynjolf hand in quest - next should start.
+
+If it doesnt, you will need to look up the quest ID to start the quest manually then use the below commands to force it to start.
+
+{: .console}
+>
+> startquest <questid>
+>
+> setstage <questid> 10
+
 
 ---
 
@@ -204,6 +213,7 @@ If Brynjolf is not at the ragged flagon when you get there for Loud and Clear
 
 ### Dampened Spirits doesn't start
 
+
 Occurs if you have *any* other thieves guild quests active when Brynjolf directs you to maven. 
 
 Make sure you finish (or quit) any jobs you have active for Vex, Delvin or Tonika before handing in a Loud and Clear.
@@ -211,6 +221,8 @@ Make sure you finish (or quit) any jobs you have active for Vex, Delvin or Tonik
 Failing that - After completing, but before handing in a Loud and Clear - wait 24 hours in game.
 
 Failing That - close skyrim, reopen skyrim and load the save before handing in loud and clear.
+
+Failing that - start via console - Quest ID TG03
 
 ---
 
