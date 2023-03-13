@@ -11,14 +11,12 @@ description: Leveling up Your Character
 
 Once you have the basics of food/water/cleanliness/warmth and shelter covered. You can now focus on leveling your skills.
  
-Wildlander is a deleveled world - The importance of understanding this can not be overrated, and people misunderstanding it are a constant source for the kind of question I'm trying to answer with this guide. A very common occurrence is people who think they understand the concept, and promptly ask, why they get their butt handed to them at bleak falls barrow when they try it at level 1. The answer is simply:-
+Wildlander is a de-leveled world - The importance of understanding this can not be overrated, and people misunderstanding it are a constant source for the kind of question I'm trying to answer with this guide. A very common occurrence is people who think they understand the concept, and promptly ask, why they get their butt handed to them at bleak falls barrow when they try it at level 1. The answer is simply:-
 
 {: .NoTitleGreen }
-> If it kicks you in the teeth for the 20th time, it's above your paygrade. 
+> If it kicks you in the teeth for the 20th time, it's above your pay-grade. 
 
 Confronted with this, a lot of people ask what they are supposed to do on Lv 1-5, then. The answer is: anything. Save often, try to run from a fight when you start losing, hunt, chop wood, collect ingredients and mix potions, mine ore, craft stuff. Anything. As long as it gets you gold and/or level-ups do it! Following on from that - Training your skills and armor.
-
-
 
 ---
 
@@ -89,7 +87,7 @@ For passive Spells
 ```
  
 Notes:
-* The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](http://wiki.wildlandermod.com/02BeginnersGuide/3-YourFirstCharacter/Magic-Mechanics/#resistance-versus-illusion-spells)
+* The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](http://wiki.wildlandermod.com/03-YourFirstCharacter/Magic-Mechanics/#resistance-versus-illusion-spells)
 * The field NPC Level is the NPC's level Divided by 10
 
 ---
@@ -166,10 +164,6 @@ Once you have finished research, activate journal again to exist research mode. 
 
 You can "use" a training dummy to train with a weapon or spell equipped to train for a period of time. Then find a bed to sleep away your fatigue (1 hour of study, 2 hours of sleep)
 
-{: .hint }
-If your skill is at zero, it will not level via a book or a dummy unless you train the skill to level 1 at a trainer first.
-
-
 
 ---
 
@@ -179,20 +173,23 @@ Firstly - and always when in a major city - check the missive boards for quests 
 
 Early on, scavenging from battles is an excellent way to get starter equipment, gold and smithing materials. If you run across a big skirmish between Imperials / Stormcloaks, strip-search those battlefields and keep what you can use, disassemble or sell the rest.
  
-The next section covers combat tactics in detail, but once you have a few levels and more importantly perks under your belt you can start to pick off wildlife. A good place to start killing is in the Whiterun sewers where the first few rooms contain level 1 and 2 mudcrabs and a few skeevers - Be careful about venturing too deeply as there are a few surprises lurking. Once you're comfortable with whiterun sewers, you can venture to Markarth, solitude or windhelm which also have sewer systems. If you don't want to go north yet - then you can pick off the mudcrabs around the whiterun area, but this is significantly more dangerous with level 10+ sabercats/bears also in the area.
+The next section covers combat tactics in detail, but once you have a few levels and more importantly perks under your belt you can start to pick off wildlife. A good place to start killing is in the Whiterun sewers where the first few rooms contain level 1 and 2 mudcrabs and a few skeevers - Be careful about venturing too deeply as there are a few surprises lurking. Once you're comfortable with Whiterun sewers, you can venture to Markarth, solitude or Windhelm which also have sewer systems. If you don't want to go north yet - then you can pick off the mudcrabs around the Whiterun area, but this is significantly more dangerous with level 10+ sabercats/bears also in the area.
 
-Get a Crossbow, Aas fast as possible - make sure you are not in combat when you equip it, and load it to that its ready for use. Ideally you want one that doesn't break from damage - Dawnguard is a good example. Crossbows make short work of lots of the wildlife and bandits that will make your life a big problem.
+Get a Crossbow, As fast as possible - make sure you are not in combat when you equip it, and load it to that its ready for use. Ideally you want one that doesn't break from damage - Dawnguard is a good example. Crossbows make short work of lots of the wildlife and Spell casters that will make your life a big problem.
  
-After the wildlife has been beaten into submission, you are ready to tackle more intelligent competition in the form of the open world bandit camps. And after those, you can move into the bandit camp inside of dungeons - Helgen, Embershard mine and halted stream camp are recommended “Starter” dungeons for you to test your capabilities. 
+After the wildlife has been beaten into submission, you are ready to tackle more intelligent competition in the form of the open world bandit camps. And after those, you can move into the bandit camp inside of dungeons - Helgen, Embershard Mine and Halted Stream Camp are recommended “Starter” dungeons for you to test your capabilities. 
 
 In order of difficulty for starting content :-
-* Animals 
-* Bandits 
-* Forsworn (unless Hagravens are present) 
-* Draugr (unless Dragon priests are present)  
-* Giant 
-* Mage 
-* Everything else.
+
+| Level | Enemies |
+| --- | --- |
+| Easy |Prey animals <br> Mudcrabs  <br> Skeevers <br>  Wolves <br> |
+| Average | Bandits (except casters) <br>  Bears <br> Ghosts <br> Standard Frostbite Spiders <br>  Ice Wraith <br>  Melee Skeletons |
+| Difficult | Melee Draugr <br>  Forsworn <br>  Sabrecats <br> Trolls <br> Giant Frostbite Spiders |
+| Dangerous | Spriggan <br> Automatons <br>  Atronachs <br>  Falmer <br>  Giant <br>  Casters, regardless of specialization <br>  Mammoths <br>  Vampires <br>  Werewolves <br>  Hagravens |
+| Perilous | Briar Hearts <br>  Dragons <br>  Dragonpriests <br>  Ebony Vampires <br>  Enchanted Spheres <br>  Seekers <br>  Slighted <br>  Pretty much everything on Solstheim |
+| Endgame | Alduin <br>  Miraak <br>  Harkon <br>  Dawnguard Leaders <br>  The Ebony Warrior |
+
  
 The final advice regarding early dungeons is that you should not attempt bleak falls barrow or any other draugr areas without decent tempered ‘silver’ weapons and perks in both of your armor and weapon at skill- level 50 at bare minimum! 
 

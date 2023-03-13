@@ -113,7 +113,7 @@ Performance: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-
 
 ## Can I see the differences between Ultimate Skyrim and Wildlander?
 
-Yes - Click [Here](..\..\02BeginnersGuide\2-RecommendedReading\6-Changes-From-Ultsky)
+Yes - Click [Here](02-RecommendedReading\6-Changes-From-Ultsky)
 
 ----------
 
@@ -341,7 +341,7 @@ Sure. Here's a [link](..\..\01Support\KnownIssues\).
 
 The in-game hotkey F11 will bring up a Gamepad / keyboard layout of all key bindings. Pressing F11 again will hide it. 
 
-You can also see them on [This](https://wiki.wildlandermod.com/02BeginnersGuide/2-RecommendedReading/8-Keybindings/) page.
+You can also see them on [This](https://wiki.wildlandermod.com/02-RecommendedReading/8-Keybindings/) page.
 
 ----------
 
@@ -353,7 +353,7 @@ For any other types of keyboards, you will need to press the key in the same "po
 
 you can also rebind the keys if you prefer - however the ingame image will not update accordingly.
 
-There is an appropriate guide [here](..\..\02BeginnersGuide\2-RecommendedReading\8-Keybindings\).
+There is an appropriate guide [here](02-RecommendedReading\8-Keybindings\).
 
 ----------
 
@@ -437,7 +437,7 @@ For 1.1 onwards: If you want to re-enable this functionality, then you can do so
 
 ### Why can't I run? / Why is my stamina going down for no reason?
 
-Requiem applies a stamina draining effect when you run and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\..\02BeginnersGuide\3-YourFirstCharacter\Stamina\) provides more detailed information.
+Requiem applies a stamina draining effect when you run and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\..\03-YourFirstCharacter\Stamina\) provides more detailed information.
 
 **NO, YOU CANNOT DISABLE IT, PLEASE DON'T ASK!**
 
@@ -445,7 +445,7 @@ Requiem applies a stamina draining effect when you run and when you wear armor w
 
 ### Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](..\..\02BeginnersGuide\4-WildlanderWorld\4-The-Divines\) for more information.
+Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](04-WildlanderWorld\4-The-Divines\) for more information.
 
 ----------
 
@@ -458,7 +458,7 @@ When you get hurt fighting, the only ways to heal are :-
 * Restoration spells (for the living)
 * Conjuration spells (for the undead)
 * Health potions (For undead, only max level healing potions (superlative) will work.)
-* [Healing Poultice](..\..\02BeginnersGuide\3-YourFirstCharacter\Health\#healing-poultice)
+* [Healing Poultice](..\..\03-YourFirstCharacter\Health\#healing-poultice)
 * Alchemy Perk
 * Raw Ingredients
 * Enchantments
@@ -514,7 +514,7 @@ In addition in 1.1.X – A SKSE mod disables fast travel around the map. This ca
 
 The game will pause if you are alt-tabbed out, including some load screens. Make sure the Skyrim window has focus!
 
-The primary cause for this is a insufficient [page file](..\..\02BeginnersGuide\2-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase it.
+The primary cause for this is a insufficient [page file](02-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase it.
 
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
@@ -845,6 +845,6 @@ The extract requires the following items/tools:
 
 ### How do I craft Healing Poultice?
 
-The Healing poultice [Guide](..\..\02BeginnersGuide\3-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
+The Healing poultice [Guide](..\..\03-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
 
 

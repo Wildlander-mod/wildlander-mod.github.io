@@ -11,7 +11,7 @@ Carry Weight is intentionally at a premium within Wildlander.
 
 In addition to reduced base carry weight, Money weighs you down. Each coin weighs 0.0001 unit an d this weight is shown in the coin purse Misc object(this item is just a representation of your gold - you need to deposit the gold itself in a chest not the coin purse item). Like Money, Arrows/Bolts also have weights. These are shown in the Quiver item and differ based on the material the Arrow/Bolt is crafted from. More "rustic" wooden shafted arrows (such as iron, forsworn or steel) weight less then the more rarer Orcish, Ebony or Daedric projectiles.
 
-While you will gradually gain carry weight with [Derived Attributes](http://wiki.wildlandermod.com/02BeginnersGuide/3-YourFirstCharacter/DA/) Obviously the canny adventurer needs some place to store his or her Ill gotten gains.
+While you will gradually gain carry weight with [Derived Attributes](http://wiki.wildlandermod.com/03-YourFirstCharacter/DA/) Obviously the canny adventurer needs some place to store his or her Ill gotten gains.
 
 ## Backpacks
 

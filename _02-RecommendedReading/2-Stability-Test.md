@@ -52,7 +52,7 @@ Your Wildlander graphics settings are too high!
 
 This could indicate a problem/corruption with the install OR you selected too much for your PC to handle.
 
-1. Firstly Make sure you have setup the page file as recommended <https://wiki.wildlandermod.com/02BeginnersGuide/2-RecommendedReading/1-BeforeYouBegin/#page-files>
+1. Firstly Make sure you have setup the page file as recommended <https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/#page-files>
 1. Then create a character using both of the following tests
 ```
 	Test with the lowest settings, (Potato Graphics, No shaders, Performance list.)
