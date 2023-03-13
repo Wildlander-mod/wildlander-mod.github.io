@@ -89,6 +89,8 @@ Unfortunate this is a engine issue where removing the book from the shelf by pic
 
 When a item changes condition, either via tempering or via degredation, any groups that that item was assigned to no longer functions.
 
+SkyUI uses SKSE to find the specific item (via CRC) to equip. changes to a weapon, either name or temper causes the CRC to change and prevents groups from functioning. There is nothing we can do to prevent the CRC from changing.
+
 ---
 ## M/O 2 
 
