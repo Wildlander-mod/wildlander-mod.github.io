@@ -328,6 +328,12 @@ This is a SFW List, If you want to add them, you'll need to work out how to do i
 
 In addition, go straight to horny jail. Do not pass go. Do not collect 200 Septims.
 
+----------
+
+### Why is Wildcat's MCM all disabled.
+
+The only part of Wildcat we use is the NPC AI - all other features are intentionally disabled for balance reasons.
+
 ---
 ## **Gameplay Questions**
 
