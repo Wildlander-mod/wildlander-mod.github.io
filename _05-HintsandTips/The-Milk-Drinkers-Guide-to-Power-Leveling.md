@@ -2,10 +2,18 @@
 layout: default
 title: The Milk Drinkers Guide to Power Leveling
 nav_order: 2
-    
-
-has_toc: true
 ---
+
+## Table of contents
+{: .no_toc }
+<details markdown="block">
+<summary>
+   Expand to view
+</summary>
+{: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Intro
 
@@ -25,10 +33,10 @@ At all points in the guide players should
 1. Forage whenever near wooden stumps / Fallen trees with Mushrooms.
 1. Whenever you complete a quest for someone, you can usually take low value items from their home or store without being a thief.
 1. Whenever you are in a town, locate and train with the training dummies for a hour or two, or study one of the skill books.
-1. Mine any Ore nodes you come accross.
+1. Mine any Ore nodes you come ac cross.
 1. Sell things to appropriate vendors, Potions/Reagents to alchemists, Weapons/Armor to blacksmiths, Magical items and Clothing to wizards, Meat to Innkeepers, General goods stores should be last resort for clutter you cant sell anywhere else.
-1. Fish at every fishing supplies - or equip the rod and attach the water to fish. Fish until you consistienly pick up junk.
-1. The inspired buff from campfires gives you 5% Skillgain buff for 6 hours - therefore whenever crafting, training or fighting you should gave this buff on you. It should be something you create whenever the buff expires.
+1. Fish at every fishing supplies - or equip the rod and attach the water to fish. Fish until you consistently pick up junk.
+1. The inspired buff from campfires gives you 5% Skill gain buff for 6 hours - therefore whenever crafting, training or fighting you should gave this buff on you. It should be something you create whenever the buff expires.
 
 
 You should choose either Falkreath (less chance of dying from exposure, but can encounter bandits and wildlife on the way) or Helgen Border start (Colder and a risk of exposure death in spawn into a snowstorm, but has a easy to access chest with good loot and with less chance of running into wildlife).
@@ -508,5 +516,37 @@ If you travel to Rorikstead, you can get speech experience to convince Erik's fa
 There's a ton (250+) of Hanging Moss in the Hall of the Dead in Solitude, protected only by two weak skeletons and an apprentice lock.
 
 Narzulbur - East of Kynesgrive has a load of ebony you can mine for free.
+
+
+## Powerlevelling magic - the cheesetastic way.
+
+Make sure you start "research" from your spell research journal whenever you are "training" for bonus XP.
+
+For Destruction and restoration no fighting required, just jump in a forge and heal the fire effect. The fire dmg from forge give destruction xp and you heal yourself to earn restoration.
+
+For Restoration, Heal yourself using Heal Self I. Yes, first one, not rank II or higher, use the first one; also, use Turn Undead when possible, and specially Repel Undead when you face more than one enemy. 
+
+for Alteration - use Detect Life in a crowded area. Keep Transmute Muscles, mage armor and mage coat active if you have the spells.
+
+For Conjouration - See a critter?  Soultrap and kill it. Bunnies, foxes, baby spiders, tiny mudcrabs are all none hostile and can be soultrapped for XP. Raise dead on anything you kill.
+
+For Illusion - go to a Inn and cast Lionheart on people. the higher the level the more XP you get. Keep Darkvision up. those critters you are soul trapping for conjouration, use you illusion spells on those too.
+
+The College of Winterhold is a great place to train because of two things:
+
+1. The Arcanium has a feature that allows you to “study” for a few hours which gives you a passive buff that doubles all XP gained (for 12 in game hours or so) for whatever subject you studied
+1. There’s a training area downstairs (beneath the Eye of Magnus) where you can be damaged from magical attacks from a Simulated NPC. You can train restoration from there. I also use that area to conjure a summon and attack it with destruction magic. This will level all three schools as your summon will engage in combat and you’ll be damaging an NPC. But As its a training area - you cant be killed, you will simply be K/O and wake up in a bed.
+
+
+At higher levels
+
+Destruction: Trolls. Specifically frost spells getting cast on frost trolls from a safe height. Destruction becomes stupidly difficult to level with fire and lightning as many things just die instantly. So instead of killing thousands of bandits, find a bunch of trolls. Each tick of Icestorm (level 50 Adept spell) generates XP and there's several ticks per cast per troll. 
+
+Conjuration - make sure you always have a bound weapon summoned.
+
+Illusion: Trolls again. Cast Enraging Orb and watch them fight each other and heal from the damage.  At higher level, cast Fog of Shadow in areas with many high level enemies, like Falmer. They hear the noise of the spell impact and will investigate the area, becoming influenced again and again. To stay out of combat, cast Shadow Stride on yourself.
+
+
+
 
 
