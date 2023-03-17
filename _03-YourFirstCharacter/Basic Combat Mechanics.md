@@ -64,7 +64,7 @@ There’s power in numbers and Wildlander is no exception, if you find somewhere
 
 ## Mass Effect
 
-The weight of your currently equipped gear has a significant impact on many things you do. It affects mobility, spell casting and combat effectiveness. (Requiem manual p122 Located in Mods\Requiem \Documentation)
+The weight of your currently equipped gear has a significant impact on many things you do. It affects mobility, spell casting and combat effectiveness. (Requiem outdated manual p122-123 Located in Mods\Requiem\Documentation)
 
 Mass effect isn't directly linked to the type of armor you are wearing, but rather its weight. Your weapon is also taken in account. 
 
