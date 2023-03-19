@@ -95,11 +95,23 @@ Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1066
 ## Erine
 
 Race: Any Human
+
 Created By: Token
 
 ![Img](https://media.discordapp.net/attachments/1000438888701104190/1051676852944654406/bard.png?width=783&height=780)
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1051676885505032242/Erine.jslot)
+
+
+## Female Breton 
+
+Race: Breton
+
+Created By: Talvos
+
+![Img](https://media.discordapp.net/attachments/1000438888701104190/1087127005318889554/enb2023_3_19_22_32_39.png?width=783&height=780)
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1087127005708964040/Breton_preset.jslot)
 
 ## Godfrey
 

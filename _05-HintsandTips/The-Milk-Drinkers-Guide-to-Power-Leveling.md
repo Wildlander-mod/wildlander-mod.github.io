@@ -17,11 +17,13 @@ nav_order: 2
 
 ## Intro
 
-A lot of people who are new to Requiem don't know what to do in the early game to gain levels, and even experienced users who want to play Dead is Dead might powergame a bit more before venturing forth. Here is a primer to help survive the first 10-15 levels without even entering dangerous combat.
+A lot of people who are new to Requiem don't know what to do in the early game to gain levels, and even experienced users who want to play Dead is Dead might power-game a bit more before venturing forth. Here is a primer to help survive the first 10-15 levels without even entering dangerous combat.
 
-I should warn you that this guide uses more cheese tactics than a mcdonald's uses in a month!
+{: .warning } 
+> 
+> This guide uses more cheese tactics than a McDonald's uses in a month!
 
-Character created must have Lockpicking and Smithing perks to make best use of this guide. First perks from level ups if not chosen at character create should be allocated into Speechcraft, then optionally Alchemy. If you don't plan on taking alchemy, then you can still sell any herbs you forage.
+Character created must have Lock-picking and Smithing perks to make best use of this guide. First perks from level ups if not chosen at character create should be allocated into Speechcraft, then optionally Alchemy. If you don't plan on taking alchemy, then you can still sell any herbs you forage.
 
 At all points in the guide players should
 1. Loot every herb you come across
@@ -82,19 +84,19 @@ After that, if you are capable of picking the locks - into the fort proper. Use 
 > * Continue though the fort picking up everything (The crushing devices in the dungeons can be left as these don't have a sell value and cannot be broken down). Make sure you check every chest, shelf, bag and body in the area.
 > * Pick open every locked jail door you see for experience. Once you get to the underground stream, turn around and go back though the keep - the only thing further is a dozen frostbite spiders and certain death. Don't forget to pick up your chest before leaving.
 
-If it's dark when you exit, you can use the bed in the burning inn to sleep in - it's a lot safer to make the riverwood run in daylight. Walk from Helgan to Riverwood killing & looting any critters Rabbits/foxes you spot on the way - stick to the roads and avoid the bandit camp. At the guardian stones - loot the alchemy bag, walk down to the hunters and pick up the free fishing rod. Check the hunter's stocks on the shore of the river near the ferry, they sometimes have beef. 
+If it's dark when you exit, you can use the bed in the burning inn to sleep in - it's a lot safer to make the Riverwood run in daylight, however if you do so - Anise's cabin will be steal rather than take. Walk from Helgan to Riverwood killing & looting any critters Rabbits/foxes you spot on the way - stick to the roads and avoid the bandit camp. At the guardian stones - loot the alchemy bag, walk down to the hunters and pick up the free fishing rod. Check the hunter's stocks on the shore of the river near the ferry, they sometimes have beef. 
 
 If you are feeling brave, you can take a detour to the the unmarked shrine of Talos, there is at least 2 free Amulets of Talos on the worshippers, Elven Sword, Elven Dagger, and random enchanted item. Again - Loot everything.
 
 ![image](https://user-images.githubusercontent.com/26418143/163391300-aea2c046-41ac-4e63-a5dd-5509bfbcb9a8.png)
 
-Cross the river and go to Anise's Cabin and take everything not nailed down, Read the Alchemy book in on a table at the foot of the bed for free experience (if your a thief - steal it so you can study later) - Anise won't aggro unless you go into her locked cellar, but other than the book, everything else inside her cabin is free to loot (including her veggie patch outside). You can either walk down to riverwood looting herbs  on Anise's side of the river and cross at the lumber mill, or cross back over the river - should you encounter Wolves, hope you can run to riverwood and let the guards take care of them (more dangerous but will give you wolf meat, reagents and pelts). 
+Cross the river and go to Anise's Cabin and take everything not nailed down, Read the Alchemy book in on a table at the foot of the bed for free experience (if your a thief - steal it so you can study later) - Anise won't aggro unless you go into her locked cellar, but other than the book, everything else inside her cabin is free to loot (including her veggie patch outside) if you arrive before midnight on the first day. You can either walk down to riverwood looting herbs on Anise's side of the river and cross at the lumber mill, or cross back over the river - should you encounter Wolves, hope you can run to riverwood and let the guards take care of them (more dangerous but will give you wolf meat, reagents and pelts). 
 
 Once you arrive at riverwood go to the campsite outside of the town and place your chest, empty it with the exception to your alchemy stocks and the enchanted clothing items. Break down wooden items (bowls ect) into kindling and start a campfire - upgrade it to maximum and stand near until you get the inspired buff.
 
 Assuming you have a point in smithing, Speak to Alvor and do the smithing intro quest chain, use the workstations he tells you to to level smithing (Don't use player crafting - it won't count for the quest) - if you didn't perk into Smithing in character create, you will need to purchase the smithing toolkit from him.
 
-Run around riverwood looting any vegetables or chicken nests which aren't marked as steal, click the cows for their milk. empty and fill water bottles at the river. Then use the cooking pot & chefs toolkit to craft any stews you can make. Surplus ingredients go in your chest.  Make sure you run down to the bri
+Run around Riverwood looting any vegetables or chicken nests which aren't marked as steal, click the cows for their milk. empty and fill water bottles at the river. Then use the cooking pot & chefs toolkit to craft any stews you can make. Surplus ingredients go in your chest.  Make sure you run down to the bri
 
 Keep a bow and some arrows or the crossbow & bolts if you are a physical fighter(it's safer to attack the giant the companions are fighting from range and will give you marksman experience. For mages - be aware of friendly fire and try to range attack the giant). Break everything metal/hide/leather down and re-smelt into ingots. Make sure you craft some more lockpicks with your broken down materials, you will need them in Dragonreach. Also recommend crafting a Alchemist and Chef's toolkit, anything additional you can use to temper your weapons. You can use the wood chopping blocks at the lumber mill to get yourself some more wood and craft yourself some arrows or bolts if you are a archer. With any extra ingots/leather continue to craft, smelt, breakdown until you run out of materiel. The unenchanted clothing can be broken down and converted to bandages at the forge, while any healing alchemy reagent (e.g Blue mountain flowers) can be made into medical paste. Both these items should be combined to give you healing poultices (I suggest carrying 1-3 at all times unless you are perked into restoration). By this point you should have leveled up at least once, so make sure to invest that point into Speechcraft (and alchemy if you have two perks available)
 
