@@ -94,7 +94,9 @@ Next, we’ll download &amp; install _Ultimate Skyrim_ using the _Wabbajack_ mod
 	
 1. <a href="https://mega.nz/file/HZl2WIhD#5WmvkefR-ZKv0NqrxbgpRWfZcbM9AikOXAZYAf1Ac9g" target="_blank">Click this link to download the install package.</a>
 1. <a href="https://imgur.com/a/WAuTDVD" target="_blank">Open the download</a> and then <a href="https://imgur.com/a/jefvfES" target="_blank">place the “UltSky” folder</a> in the location you’d like for your _Ultimate Skyrim_ install.<br> <br><font style="color: #ea9999;"><strong >Warning:</strong> </font>There are some restrictions on install location. <strong>‍</strong>You <strong>CANNOT</strong> place the folder in:<strong><br></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Program Files or Program Files (x86), or their subfolders;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• the Users folder, or its subfolders;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• the Steam folder, or its subfolders;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• the <em>Skyrim </em>folder, or its subfolders;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• the Desktop folder, or its subfolders;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• the Documents folder, or its subfolders;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• any folders with <a href="https://imgur.com/oWhAxYm" target="_blank" class="link-49">non-English</a> characters;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• any cloud storage folders (e.g. Dropbox, OneDrive, etc.).<br><br>
-1. Download Manually the Wabbajack File <a href="https://build.Wabbajack.org/authored_files/direct_link/Ultimate%20Skyrim.Wabbajack_4b99a0c2-7207-44d7-998d-6dadaa890591" target="_blank">from here</a>
+
+1. Download Manually the Wabbajack File <a href="https://build.wabbajack.org/authored_files/direct_link/Ultimate%20Skyrim.wabbajack_4b99a0c2-7207-44d7-998d-6dadaa890591" target="_blank">from here https://build.wabbajack.org/authored_files/direct_link/Ultimate%20Skyrim.wabbajack_4b99a0c2-7207-44d7-998d-6dadaa890591</a>
+
 1. Within your “UltSky” folder, <a href="https://imgur.com/a/lVobEVh" target="_blank">navigate to the “installer” folder</a> and then <a href="https://imgur.com/a/U44EBtK" target="_blank">double-click “Wabbajack.exe”</a> to run _Wabbajack_.
 1. When _Wabbajack_ opens, <a href="https://imgur.com/a/ktMlAJU">click “Install From Disk” NOT browse modlists - as this list is no longer available on Wabbajack itself</a> and then Locate the Wabbajack file you downloaded earlier
 1. <a href="https://imgur.com/a/JIaD03w" target="_blank">Click this box to select the installation location</a>,**** and then <a href="https://imgur.com/a/d4wrAjl" target="_blank">select your “content” folder</a> from within the “UltSky” folder.<br>**WARNING: Make sure to select your “content” folder, and NOT the “Skyrim” folder containing TESV.exe. The latter will break your install!** 
@@ -106,7 +108,7 @@ Next, we’ll download &amp; install _Ultimate Skyrim_ using the _Wabbajack_ mod
 1. Navigate to your root “Skyrim” folder &amp; <a href="https://imgur.com/a/rkFkLHw" target="_blank">paste the files you copied.</a>
 1. One of the files you pasted is called “enblocal.ini”. <a href="https://imgur.com/a/Uoxw2Tl" target="_blank">Open the file</a>, and then <a href="https://imgur.com/yfBDnJI" target="_blank">configure it according to this guide.</a>
 
-Next up, we'll move through the "Known Issues" guide to fix some remaining bugs with the current build.
+Next up, we'll move through the "Known Issues" guide to fix some remaining bugs with the current build. 
 
 ---
 
