@@ -179,6 +179,6 @@ You've mastered the impossible art of shaping Dragon materials. You can temper D
 
 Level Required : 100
 
-Perks Required : Glass Smithing, Ebony Smithing
+Perks Required : Glass Smithing OR Ebony Smithing
 
 ---
