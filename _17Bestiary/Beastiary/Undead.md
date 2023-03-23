@@ -812,6 +812,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Standard (Arrows)   | 10% damage |
 
 *Weapon Protection*
+
 | Type | Change|
 |--|--|
 |Pierce(Daggers)            | 50% Damage reduction |
