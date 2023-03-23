@@ -983,6 +983,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 |Knock Down| Minor | 
 
 *Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 4  |
@@ -1049,6 +1050,7 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 ### Shared
 
 *Weapon Protection*
+
 | Type | Bonus Armor |
 |--|--|
 |Slash (Swords & Axes)      | 50% reduction |
