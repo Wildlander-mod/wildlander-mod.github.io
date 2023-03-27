@@ -2,7 +2,6 @@
 title: Class guide - Knight of the Iron (Zenithar's Champion) RP Build
 layout: default
 description: Class guide - Knight of the Iron
-nav_order: 1
 ---
 
 ## Submitted By Achilles [he/they]
