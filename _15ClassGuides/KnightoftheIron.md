@@ -4,7 +4,7 @@ layout: default
 description: Class guide - Knight of the Iron
 ---
 
-## Submitted By Achilles [he/they]
+## Submitted By Achilles 
 
 ## Description
 
