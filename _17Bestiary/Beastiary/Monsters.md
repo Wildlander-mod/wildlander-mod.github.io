@@ -1435,7 +1435,6 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 |Frost  | 25% | N/A |
 |Knockdown  | Minor | N/A |
 
-
 *Weapon Protection*
 
 | Type | Tier |
@@ -1443,6 +1442,7 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 |Pierce(Daggers)    | 2 |
 |Blunt (Maces & Hammers)   | 2 |
 |Ranged (Bows & Crossbows)  | 4 |
+
 ---
 
 **Frost**

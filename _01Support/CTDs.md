@@ -156,7 +156,7 @@ Fortunately rare - but believed to be caused by saving while some form of head-t
 ---
 ### Crash on trying to edit Iequip. SkyrimSE.exe+C28C8B
 
-This is caused by a conflict between consoleutil and Iequip. If you want to edit the Iequip screen, then you need to Disable consoleutil in mod organiser, make your changes, then re-enable it afterwards
+This is caused by a conflict between consoleutil and Iequip. If you want to edit the Iequip screen, turn time dilation down to zero, make your changes, then change it back.
 
 ---
 

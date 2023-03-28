@@ -812,6 +812,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Standard (Arrows)   | 10% damage |
 
 *Weapon Protection*
+
 | Type | Change|
 |--|--|
 |Pierce(Daggers)            | 50% Damage reduction |
@@ -983,6 +984,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 |Knock Down| Minor | 
 
 *Weapon Protection*
+
 | Type | Tier |
 |--|--|
 |Slash (Swords & Axes)  | 4  |
@@ -1049,6 +1051,7 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 ### Shared
 
 *Weapon Protection*
+
 | Type | Bonus Armor |
 |--|--|
 |Slash (Swords & Axes)      | 50% reduction |
