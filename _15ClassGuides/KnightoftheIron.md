@@ -1,7 +1,7 @@
 ---
-title: Class guide - Knight of the Iron (Zenithar's Champion) RP Build
+title: RP Guide - Knight of the Iron (Zenithar's Champion) RP Build
 layout: default
-description: Class guide - Knight of the Iron
+description: RP Guide - Knight of the Iron
 ---
 
 ## Submitted By Achilles 
@@ -31,7 +31,9 @@ Smithing, Heavy Armor, One-Handed, Block, Restoration, Speech
 Enchanting (left side, up to Skill Lore)
 
 ## Perks
-<https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAElFAoGBQUyBQVLCmQFBQVLBUtVBTIPEAYKDgAAAA8AAAAAAAxwA48AAAADwOJgDCJgoANAAAAJ>
+
+<a href="https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAElFAoGBQUyBQVLCmQFBQVLBUtVBTIPEAYKDgAAAA8AAAAAAAxwA48AAAADwOJgDCJgoANAAAAJ" target="_blank" rel="noopener noreferrer">Perk Guide <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+
 
 ## Level ups
 
