@@ -79,4 +79,4 @@ When you reached adulthood you were drafted for Knights of the Iron, militant ar
 Your service to your local community was cut short when in your middle 20s you were asked by your teachers to go venture into the world to learn new skills in blacksmithing - particulary in dwemer smithing, as the Chapel lacked some information that they could put in the books.
 So you packed your things and decided that your first stop will be that of dwemer fame - Markarth in Skyrim.
 
-final note: as previously, tho in this case your main goal is pursue of knowledge (this also might be the reason for learning how to work stalhrim), if you want to simulate your travel start with crossing the border in Falkreath
+Final note: as previously, tho in this case your main goal is pursue of knowledge (this also might be the reason for learning how to work stalhrim), if you want to simulate your travel start with crossing the border in Falkreath
