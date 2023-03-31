@@ -48,8 +48,8 @@ Armor:
 
 	Helm: Magicka Hoods -> Mage’s Circlet -> Nahkriin
 	Chest: Novice Robes of Destruction -> Expert (Rannveig's Fast/Sunderstone Gorge) -> Master Robes of Destruction (Shrine of Dagon) -> Arch-Mage Robes
-	Gloves: Gloves of Magic Resist -> Ancano’s Gloves
-	Boots: Boots of Magicka -> Arch Mage’s Boots
+	Gloves: Gloves of Fortify Magicka -> Ancano’s Gloves
+	Boots: Boots of Fortify Magicka -> Arch Mage’s Boots
 	
 Jewelry:
 
