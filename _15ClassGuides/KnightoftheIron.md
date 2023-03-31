@@ -1,7 +1,7 @@
 ---
-title: Class guide - Knight of the Iron (Zenithar's Champion) RP Build
+title: RP Guide - Knight of the Iron (Zenithar's Champion) RP Build
 layout: default
-description: Class guide - Knight of the Iron
+description: RP Guide - Knight of the Iron
 ---
 
 ## Submitted By Achilles 
@@ -31,7 +31,9 @@ Smithing, Heavy Armor, One-Handed, Block, Restoration, Speech
 Enchanting (left side, up to Skill Lore)
 
 ## Perks
-<https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAElFAoGBQUyBQVLCmQFBQVLBUtVBTIPEAYKDgAAAA8AAAAAAAxwA48AAAADwOJgDCJgoANAAAAJ>
+
+<a href="https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAElFAoGBQUyBQVLCmQFBQVLBUtVBTIPEAYKDgAAAA8AAAAAAAxwA48AAAADwOJgDCJgoANAAAAJ" target="_blank" rel="noopener noreferrer">Perk Guide <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+
 
 ## Level ups
 
@@ -79,4 +81,4 @@ When you reached adulthood you were drafted for Knights of the Iron, militant ar
 Your service to your local community was cut short when in your middle 20s you were asked by your teachers to go venture into the world to learn new skills in blacksmithing - particulary in dwemer smithing, as the Chapel lacked some information that they could put in the books.
 So you packed your things and decided that your first stop will be that of dwemer fame - Markarth in Skyrim.
 
-final note: as previously, tho in this case your main goal is pursue of knowledge (this also might be the reason for learning how to work stalhrim), if you want to simulate your travel start with crossing the border in Falkreath
+Final note: as previously, tho in this case your main goal is pursue of knowledge (this also might be the reason for learning how to work stalhrim), if you want to simulate your travel start with crossing the border in Falkreath
