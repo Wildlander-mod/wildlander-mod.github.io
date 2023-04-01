@@ -137,12 +137,9 @@ Check Task manager, if Wabbajack is not using any network resources, its likely 
     
 If these files hang, manually download and add to your Wabbajack specified download folder (still zipped)
 
----
 **High Poly Head**
 
 <https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download>
-
----
 
 **Wildlander Resources**
 
@@ -150,15 +147,11 @@ This file is quite large - and on slower Internet connections' may timeout.
 
 In the event of this occurring for you you can try downloading <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016? " target="_blank" rel="noopener noreferrer">Resources - Wildlander Full <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> from nexus manually, and placing it in your downloads folder still zipped.
 
----
-
 **Nexus mods in general**
 
 you may need to use a VPN and/or different browsers to download these files. We are not sure why nexus is blocking access. Premium users can try this 
 
 ![img](https://cdn.discordapp.com/attachments/881254575640838254/929341753885085738/unknown.png)
-
----
 
 **Direct Download Links**
 
