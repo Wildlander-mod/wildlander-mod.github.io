@@ -231,7 +231,7 @@ The next update will contain
 1. Religion - Based on Irondusk's religion 3.0 mod
 1. QOL and Bugfixes.
 
-This update does not yet have a release date. It will require a new game on release. 
+This update does not yet have a release date, however we are aiming for Q3 2023. It will require a new game on release. 
 
 This question will update once sent to beta and/or have a firm release date.
 
