@@ -32,6 +32,9 @@ description: Changes From Vanilla
 ## Quest Changes
 
 * Some quests have had starting requirements changed to accommodate for the rewards, no more doing daedric weapon quests at level 5.
+* Main Quest does not start until you kill a dragon. Dragons don't spawn until level 15. 
+* Thieves guild requires you to be a thief before Brynjolf will approach you.
+* mage guild requires magic skills to join, until you have apprentice level skills, Faralda wont let you in.
 
 ## Immersion
 
