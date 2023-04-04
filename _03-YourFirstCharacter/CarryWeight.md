@@ -37,6 +37,12 @@ Hearthfire Furniture chests
 * Require a specific crafting work station.
 * MUST be emptied before moving (e.g. if moving it from inside of a building to outside - you must empty it first else you will lose the contents).
 
+#### Why are Campfire chests linked storage ("endor" chests) - Isnt this a exploit?
+
+For technical reasons with the way the 'campfire placement' mod works, all of its chests and barrels are activators - rather than chest items in their own right. The activators "open" a shared chest inside of campfire cell, rather than placing a real chest in the open world. This is simply what is required to make the mod function. As a penalty to counteract this requirement we added logic to prevent placement within "Settled Areas".
+
+Isn't it a exploit? Technically yes - if you choose to place multiple chests in the world near each town to abuse the mechanic that the mod requires to function. We however chose not to disable the chests on the grounds that the benefits of having a chest in the game outweigh the negatives in the short term. This maybe re-assessed when we get to the carry weight mechanics portion of the roadmap.
+
 
 ## Campfire Skills
 
