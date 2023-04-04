@@ -87,7 +87,7 @@ Use your money to pay the service of master enchanters like Neloth in Tel Mythri
 
 Dragons: Ebony Arrow: Dragons are very resistant to arrows, unless you have top quality weapons and arrows, use Lingering damage poison to take down your first dragons. To get these poisons, go hunt falmers (archers are excellent against them). Don't forget poisons can stack
 
-Dragon Priest : Fire bow, Silver arrow Mark for death shout: To kill them you need at least lvl 75 marksmanship and lvl 75 evasion to stagger-lock them and avoid problems. Their mage armor is very annoying and will sometimes absorb your Marked for death. Usually, my first MfD is absorbed, I stagger them over and over again until the cooldown comes back and when i land the second MfD, each arrow inflicts 25%-40% of its life. Don't give them time to summon bullshit and shoot them non stop.
+Dragon Priest : Fire bow, Silver arrow, Mark for death shout: To kill them you need at least lvl 75 marksmanship and lvl 75 evasion to stagger-lock them and avoid problems. Their mage armor is very annoying and will sometimes absorb your Marked for death. Usually, my first MfD is absorbed, I stagger them over and over again until the cooldown comes back and when i land the second MfD, each arrow inflicts 25%-40% of its life. Don't give them time to summon bullshit and shoot them non stop.
 
 Ebony Vampire : Fire Silver arrow : Same logic as the dragon priest, but they are way easier.
 
