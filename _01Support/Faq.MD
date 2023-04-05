@@ -738,11 +738,11 @@ The only way to reduce this effect is to further extend shadow draw distance (by
 
 ### How do I make my follower ride a horse?
 
-In reality - You don't. 
+In reality - follower horses are plagued with issues. 
 
-Using follower live package to giver followers "Summon ride" causes CTD's so should not be used.
+Using follower live package to giver followers "Summon ride" causes CTDs so should not be used.
 
-Giving your follower a horse from immersive horses "crouch" menu, while will make them ride one - will cause them to be slow to mount and they cant keep up - so will still teleport to you (horse and all) 
+Giving your follower a horse from immersive horses "crouch" menu, while will make them ride one - will cause them to be slow to mount and they cant keep up - so will still teleport to you. However should you wish to set it up, for your immersion - there is a guide [Here](https://wiki.wildlandermod.com/04WildlanderWorld/13-%20Horses/#horses-and-followers)
 
 Embrace the running follower would be my advise. 
 

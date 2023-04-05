@@ -7,14 +7,10 @@ has_toc: true
 
 ## Introduction
 
-A horse is one of the best early investments in the game as it's essentially a mobile chest. It's always worth having a 12-hour fire’s worth of wood and a tent store inside in case of an emergency blizzard. There are a few you don't have to pay for a horse if you can find them. Horses can be adopted by stealth next to them, activate and select adopt. If the ‘adopt’ option is not available, ride the horse approximately 100 meters and try again. 
-
-* There's occasionally a horse(or group of horses) in the wilderness - typically with a dead NPC by it. 
-* There is a Black fell Pony near a cave underneath Dragonsreach guarded by bandits - taking this one counts as stealing(although you almost never get a bounty for doing so).
-
+A horse is one of the best early investments in the game as it's essentially a mobile chest. It's always worth having a 12-hour fire’s worth of wood and a tent store inside in case of an emergency blizzard. 
 
 {: .important}
-Your horse is not immortal by default, so if you plan on keeping one, make sure that you keep all of your loot in a crafted chest and you place this outside of any dungeon you plan on entering (as your horse can be killed while you are inside if you haven't checked the area before entering)
+Your horse is not immortal by default, so it is good advise to place down a crafted chest, and remove the inventory from your horse into this chest if you are leaving your horse unattended. As your horse can be killed while you are inside buildings/dungeons/caves/forts if you haven't checked the area for hostiles before entering.
 
 ## Horse Management
 
@@ -26,9 +22,9 @@ The first thing to know about the subject is that it's not perfect.  Immersive H
 
 Before diving into that, here are some basic things to cover first:
 
-1. In order to obtain your first horse, you need to either purchase one at a local stable (the cities of Whiterun, Riften, Markarth, Windhelm, and Solitude all have one) or you need to "procure" one.  I won't be going into the latter method at all, since it comes with its own set of challenges (bugs).  Consider asking about it in the Wildlander Discord.  You can, however, rarely, actually encounter abandoned horses whose previous owners have been killed.  You can "adopt" such stray horses by crouching near them, hitting the 'E' key, then selecting Adopt.
+1. In order to obtain your first horse, you need to either purchase one at a local stable (the cities of Whiterun, Riften, Markarth, Windhelm, and Solitude all have one) or you need to "procure" one.  I won't be going into the latter method at all, since it comes with its own set of challenges (bugs).  Consider asking about it in the Wildlander Discord.  You can, however, rarely, actually encounter abandoned horses whose previous owners have been killed.  You can "adopt" such stray horses by crouching near them, hitting the 'E' key, then selecting Adopt. If the ‘adopt’ option is not available, ride the horse approximately 100 meters and try again. 
 
-1. With your first horse, you now have access to a very valuable resource, its own inventory.  Horses can generally carry a lot of items; the exact weight limit they can deal with varies by horse, but its value can be accessed through the Immersive Horses menu under that horse's Stats section.  A convenient way to quickly access your horse's inventory is to be relatively close to it then to hit the 'U' key.  You can even store your own storage containers (barrels, chests) in your horse's inventory, which is especially handy when it comes to the weight of all those thousands of Septims you've earned.  As far as I know, horse inventory is completely safe, AS LONG AS YOUR HORSE IS SAFE.  So be careful when leaving it out in the wilderness.  Consider setting your horses to protected status in the Immersive Horses MCM.
+1. With your first horse, you now have access to a very valuable resource, its own inventory.  Horses can generally carry a lot of items; the exact weight limit they can deal with varies by horse, but its value can be accessed through the Immersive Horses menu under that horse's Stats section.  A convenient way to quickly access your horse's inventory is to be relatively close to it then to hit the 'U' key.  You can even store your own storage containers (barrels, chests) in your horse's inventory, which is especially handy when it comes to the weight of all those thousands of Septims you've earned.  As far as I know, horse inventory is completely safe (with the exceptions to potions which the horse will use if low on health or stamina), AS LONG AS YOUR HORSE IS SAFE.  So be careful when leaving it out in the wilderness.
 
 1.  Adding more horses to your own herd is as simple as repeating the above process.  I do recommend buying all of your mounts, because as far as I know the purchasable horses are probably more reliable, but it's not required.  In any case, it is highly recommended, once you do own more than one horse, to go into those additional horses' Immersive Horses menu (crouch, hit 'E') and set the following:
 * Under Manage Horses, then (Your new horse's name), Change Ownership, 			set the ownership of your new horse to My Team.  This allows any of your 			followers to be able to ride it once you mount up.
