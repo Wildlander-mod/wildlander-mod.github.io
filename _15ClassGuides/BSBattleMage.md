@@ -42,7 +42,7 @@ Steel Battlestaff -> Elsi's Battlestaff -> Daedric Battlestaff (Bthardamz Arcane
 
 ## Recommended armor / Clothing
 
-Nordic Carved Armor -> Daedric Handplaced -> Daedric Crafted & self enchanted 
+Any HA -> Nordic Armor -> Daedric Handplaced -> Daedric Crafted & self enchanted 
 
 ## Content 
 
