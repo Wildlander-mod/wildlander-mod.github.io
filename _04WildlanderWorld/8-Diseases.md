@@ -7,9 +7,10 @@ nav_order: 8
 has_toc: true
 ---
 
-Diseases in Wildlander are not something the can be ignored. Each disease has progression, whereby if not cured they will get worse. Wait too long snd it may prove Fatal.... or worse
+Diseases in Wildlander are not something the can be ignored. Each disease has progression, whereby if not cured they will get worse. Wait too long and it may prove Fatal.... or worse
 
 Every 24 hours you go without curing a disease, the disease will progress to the next stage.
+
 The stages are as follows:
 
     Basic - Just the disease name (ie. Ataxia)
@@ -41,7 +42,7 @@ Several methods
 
 Most priests can cure your illnesses, as can shrines of the nine - provided you are in good standing with the Gods.
 
-For those of a more naughty inclination - Alchemists can provide you with a potion of cure disease. 
+For those of a more naughty inclination - Alchemists can provide you with a potion of cure disease. You can also brew a tea which can cure disease.
 
 
 
