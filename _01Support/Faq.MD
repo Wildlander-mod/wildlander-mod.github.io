@@ -359,7 +359,7 @@ For any other types of keyboards, you will need to press the key in the same "po
 
 you can also rebind the keys if you prefer - however the ingame image will not update accordingly.
 
-There is an appropriate guide [here](02-RecommendedReading\8-Keybindings\).
+There is an appropriate guide [here](https://wiki.wildlandermod.com/02-RecommendedReading/8-Keybindings/#how-do-i-rebind-the-keys).
 
 ----------
 

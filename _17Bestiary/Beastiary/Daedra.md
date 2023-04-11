@@ -394,7 +394,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 |AP| 75 |
 |Health Regeneration| Yes - 60/s (40/s when on fire) |
 | Diseased | No |
-|Can Knockdown Player| No |
+|Can Knockdown Player| Yes
 
 *Weapon Protection*
 
@@ -438,7 +438,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 |AP| None |
 |Health Regeneration| yes - 90h per second, 30/s under frost damage |
 | Diseased | No |
-|Can Knockdown Player| Yes |
+|Can Knockdown Player| No|
 
 
 *Weapon Protection*
