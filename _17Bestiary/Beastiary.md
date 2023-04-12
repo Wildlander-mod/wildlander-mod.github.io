@@ -25,11 +25,22 @@ For the Afflicted, the only difference between a Bandit and them is the addition
 
 ## About these Guides
 
+
 **Variants**
-Level/Health/Stamina/Magic if the creature comes in different sizes but same base creature. 
+Level/Health/Stamina/Magic if the creature comes in different sizes but same base creature. Shouts, in the case of dragons, as each variation has different shouts available to it.
 
 **Basic Stats**
-Movement Speed, Melee/Ranged damage or spells that the Enemy can cast, Standard armor, Magical armor, Enemy ability to penetrate your armor, If its has health regeneration, diseases or can knock the player down.
+Movement Speed, Melee/Ranged damage, Standard armor, Magical armor, Enemy ability to penetrate your armor.
+
+In addition, Some enemies in the game have various special abilities. These include :-
+
+* Knockdown - a power attack from this creature will knock the player over unless they have enough mass to resist the attack.
+* Health Regeneration - Some creatures constantly regenerate health and require specific elemental attacks to stop the regeneration temporary.
+* Poisons - Most poisons in the game stack - so its best to use the scenery to block these attacks wherever possible.
+* Paralysis - any poison in the game can paralyse a player unless their poison resistance is high enough to counter. Some creatures can stun-lock you as their poison attacks are faster than your get-up speed.
+* Spell casting - Mage type enemies are some of the fastest and most dangerous to kill.
+* Disarm Shouts - Shouts which can send your weapon flying unless you have high enough Magic resistance to resist the shout.
+* Diseases - Some new diseases have been added to creatures which previously didn't have any.
 
 **Weapon Protection**
 Bonus armor that the Enemy gains if attacked by weapon damage types.
