@@ -91,6 +91,10 @@ When a item changes condition, either via tempering or via degredation, any grou
 
 SkyUI uses SKSE to find the specific item (via CRC) to equip. changes to a weapon, either name or temper causes the CRC to change and prevents groups from functioning. There is nothing we can do to prevent the CRC from changing.
 
+### Thieves guild quests not starting when handing in the previous quest.
+
+This is a vanilla issue, there is a section further down this page which contains work arounds for the common problems.
+
 ---
 ## M/O 2 
 
@@ -157,19 +161,21 @@ You can force the horse to equip armor by the following process.
 
 ## Thieves Guild
 
-Thieves guild has some issues for a small percentage of people. As a general rule - save **before** handing in a quest to Brynjolf, so if you have issues you don't have to redo it.
+Thieves guild has some issues for a small percentage of people. The vast majority of these issues are caused by vanilla issues where when handing in one quest, the following quest does not start correctly. 
 
-### Quest XYZ isnt starting
+As a general rule - save **before** handing in a quest to Brynjolf, so if you have issues you don't have to redo it.
 
-You need to do Radiant quests before the next quest will start these settings can be seen in the MCM.
+### Next quest isnt starting
+
+You need to do Radiant quests before the next quest will start these settings can be seen in the MCM. 
 
 If you have met these objectives but the next quest does not start.
 
 1. Exit Wildlander and restart using the Wildlander Launcher.
 1. Load your game using a save before you handed in the previous quest.
-1. Speak to Brynjolf hand in quest - next should start.
+1. Speak to Brynjolf hand in previous quest - next should start.
 
-If it doesnt, you will need to look up the quest ID to start the quest manually then use the below commands to force it to start.
+If it doesn't, you will need to look up the quest ID to start the quest manually then use the below commands to force it to start.
 
 {: .console}
 >
@@ -177,31 +183,45 @@ If it doesnt, you will need to look up the quest ID to start the quest manually 
 >
 > setstage <questid> 10
 
+---
+
+### Brynjolf just wants to sell me falmer blood elixer.
+
+Thieves guild in Wildlander has standards and they will only recruit thieves.
+
+you need :-
+1. 250 items stolen, 
+1. 25 items pick pocketed from unique people. (taking multiples from the same person only counts as 1 pocket picked)
+1. Sneak Skill at 25
+
+for Brynjolf to approach you.
 
 ---
 
-### Issues with A Chance Arrangement / Loud and Clear
+### Issues with Brynjolf not waiting for me in the ragged flaggen / A Chance Arrangement issues.
 
 90% of the time - this Happens if Brynjolf starts the quest "A Chance Arrangement" *anywhere* except in Riften's market place. (typically in the bee and barb)
 
-Only fix is to reload a save before it starts, and avoid him until he is at his market stall (during the day).
-
-Failing that:
 1. Meet the requirements to start the thieves guild (250 items stolen, 25 items pickpocketed, Sneak Skill at 25).
-1. Open a save before you have met Brynjolf.
-1. Go to Riften Stables (or outside of riften itself)
+1. Go to Riften Stables (or outside of Riften itself)
 1. Get to 10am gametime.
 1. Save your game.
 1. Exit Wildlander and restart using the Wildlander Launcher.
 1. Load your game.
-1. Go to the riften marketplace and allow Brynjolf to come up to you and start the conversation.
+1. Go to the Riften marketplace and allow Brynjolf to come up to you and start the conversation.
 1. Complete the marketplace quest by planting the ring on Brand-Shei.
 1. Make a save.
 1. Talk to Brynjolf once that is complete.
 
-At this point - check your journal to make sure if Loud and Clear has started. If not - close skyrim, reopen skyim and load the save you made before handing the quest in.
+At this point - check your journal to make sure if Taking Care of Business has started. If not - close Skyrim, reopen Skyrim and load the save you made before handing A Chance Arrangement in and try again. if that still doesn't work, then try below console commands to force it to start.
 
-If Brynjolf is not at the ragged flagon when you get there for Loud and Clear
+{: .console}
+>
+> startquest TG01
+>
+> setstage TG01  10
+
+If Brynjolf is not at the ragged flagon when you get there, but the quest is running.
 
 {: .console}
 >
@@ -209,26 +229,46 @@ If Brynjolf is not at the ragged flagon when you get there for Loud and Clear
 >
 > moveto player
 
+### People attack me when entering the cistern / Loud and Clear not started
+
+This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply wont start the quest automatically after handing in Taking Care of Business.
+
+Source: From Bugs section of <https://en.uesp.net/wiki/Skyrim:Taking_Care_of_Business> :-
+
+Make a save, Close Wildlander completely and restart Wildlander . load your save, then type in the below console commands.
+
+{: .console}
+>
+> startquest TG02
+>
+> setstage TG02  0 
+>
+> setstage TG02  10
+
 ---
 
 ### Dampened Spirits doesn't start
 
+This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply wont start the quest automatically after speaking to Brynjolf and him telling you to talk to Maven. Console commands don't work, Waiting and then console commands don't work.
 
-Occurs if you have *any* other thieves guild quests active when Brynjolf directs you to maven. 
+The only reliable work around we have found (instead of rolling back to previous saves and retrying a few times) is to :-
 
-Make sure you finish (or quit) any jobs you have active for Vex, Delvin or Tonika before handing in a Loud and Clear.
+1. Make a save
+1. Exit Wildlander and restart using the Wildlander Launcher 
+1. Load the save you just made
+1. Then type in the below console commands.
 
-Failing that - After completing, but before handing in a Loud and Clear - wait 24 hours in game.
-
-Failing That - close skyrim, reopen skyrim and load the save before handing in loud and clear.
-
-Failing that - start via console - Quest ID TG03
+{: .console}
+>
+> startquest tg03
+>
+> setstage tg03 10
 
 ---
 
-### Brynjolf is stalking me!
+### i've completed the main thieves guild quest, but now Brynjolf is stalking me!
 
-This is because of of the quests wasnt set to completed.
+This is because one of the quests wasn't set to completed.
 
 {: .console}
 >
@@ -446,17 +486,17 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 * Spider webs, beehives, and dragonfly wings are generally too bright and white, despite being edited by Spider Webs and Particles for ENB
 * Strange water reflections
-* Spriggans (purple) cause nightvision spells to occasionally flash blue
+* Spriggans (purple) cause night-vision spells to occasionally flash blue
 * Map went technicolor Workaround: Restart Skyrim
-* Medium Graphic, Low shaders.  During Rain, there is no rain when i looking north. By looking West and East i can see wall of rain behind me.  Rain is visible only at one side
-* In Rainy Weather, Interiors have Broken Green Lighting Workaround: Restart Skyrim
+* Medium Graphic, Low shaders.  During Rain, there is no rain when i looking north. By looking West and East I can see wall of rain behind me.  Rain is visible only at one side
+* Interiors have Broken Green Lighting Workaround: Restart Skyrim
 
 ---
 
 ## Civil war
 
 * Its full of vanilla bugs.
-* It exists (Why bethesda did you include this mess in the release). 
+* It exists (Why Bethesda did you include this mess in the release). 
 * We (Wildlander) do not edit any quest associated with civil war therefore any bugs you encounter are original issues.
 * Several immersion breaking issues during battle for Whiterun (Vendors in market are trying to make a living, The carriage driver be vibing as explosions happen all around him)
 * Lights within Korvanjund Hall beyond the sealed door are lit (should be dark)
