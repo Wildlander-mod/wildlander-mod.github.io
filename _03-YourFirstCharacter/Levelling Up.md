@@ -113,7 +113,7 @@ Pickpocket	|8.1	|1 base XP per gold value stolen.
 Archery (Marksman)	|9.3|	Base Weapon Damage of the Bow
 Sneak	|11.25	|2.5 base XP for becoming hidden within ~45 feet. <br> 0.625 base XP per second hidden within ~45 feet. <br> 30 base XP for a melee sneak attack. <br> 2.5 base XP for a ranged sneak attack.
 Lockpicking	|45	|0.25 base XP for a broken pick. <br> 2, 3, 5, 8, or 13 base XP for successfully picking a lock.
-Enchanting	|900	|1 base XP per item enchanted. <br> 1 base XP per 400 enchantment gold value of items disenchanted. <br> 0.05(Petty), 0.1(Lesser), 0.2(Common), 0.4(Greater), or 0.6(Grand) base XP for recharging a weapon.
+Enchanting	|900	|1 base XP per item enchanted. <br> 0.05(Petty), 0.1(Lesser), 0.2(Common), 0.4(Greater), or 0.6(Grand) base XP for recharging a weapon.
 
 ----
 
