@@ -39,11 +39,14 @@ $font-size-10-sm: 48px !default;
 }
 
 // floating header
-.main-header {
-    position:Fixed;
-    width: $content-width;
-	z-index:10;
-	background:$body-background-color;
+@media screen and (min-width: 800px) {
+	.main-header {
+		position:Fixed;
+		width: $content-width;
+		z-index:10;
+		background:$body-background-color;
+		
+	}
 }
 
 // To stop overlap with the floating header
