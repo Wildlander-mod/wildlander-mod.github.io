@@ -60,8 +60,8 @@ Transmute: Wood|Alteration|Fire & Forget|Expert |Actor |Transform|Nature |
 
 Spell|School|Cast Type|Spell Level|Target|Technique|Elements|Notes
 --|--|--|--|--|--|--|--|
-Banish Daedra (Rank I) |Conjuration |Fire & Forget|Adept |Self <br> Location|Summoning| Daedra |
-Banish Daedra (Rank II) |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning|Daedra |
+Banish Daedra (Rank I) |Conjuration |Fire & Forget|Adept |Actor <br> Location|Summoning| Daedra |
+Banish Daedra (Rank II) |Conjuration|Fire & Forget|Expert |Actor <br> Location |Summoning|Daedra |
 Bound Axe |Conjuration|Fire & Forget|Apprentice |Self |Summoning <br> Transform |Daedra <br> Soul <br> Weapon |
 Bound Bow |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning <br> Transform |Daedra <br> Soul <br> Weapon |
 Bound Sword |Conjuration|Fire & Forget|Novice |Self |Summoning <br> Transform |Daedra <br> Soul <br> Weapon |
