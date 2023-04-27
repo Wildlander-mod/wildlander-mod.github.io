@@ -16,12 +16,6 @@ description: Recipes lists
 {:toc}
 </details>
 
-## *Super Poisons*
-
-### Flawless Bear Tooth + Wolf Eye + Venomous Spittle
-
-Result: Paralysis for 6sec, Damage Health Target 61pts, Damage Target Health 6pts for 60sec, Damage Target Stamina for 6pts for 60sec.
-
 ## *Super Potions*
 
 ### Daedra Heart + Pearl + Swamp Fungal Pod
@@ -47,14 +41,6 @@ Result: Fortify Magicka by 24pts for 120 sec, Magicka Regen 30% for 300 sec, Res
 ### Nirnroot + Sabre Cat Heart + Wolf Heart
 
 Result: Creatures and People Feared up to level 12 for 20sec, Drain Target Health by 91, Drain target Stamina by 91, Drain Magicka by 18.
-
-###  Daedra Heart + Venomous Spittle + Dragon Heart
-
-Result: Drain Target Health by 61pts for 120sec, Drain Stamina by 6 for 60 sec, Paralyzed for 18 sec.
-
-### Wolf Eye + Venomous Spittle + Human Flesh
-
-Result: Damages Target 61, 6 pts of damage per sec for 60 sec, paralyze for 6 sec.
 
 
 ----
@@ -163,6 +149,8 @@ Salt you can find in bags, but I usually buy it
 
 Slaughterfish Eggs are available in large quantity on the north coast between Dawnstar in the water.
 
+Glitterdust is obtained via Alchemy toolkit crafting.
+
 ### Crafting
 
 #### _Group (1)_
@@ -193,7 +181,7 @@ Water Breathing & Fortify Magicka
 
 Invisibility & Fortify Stamina
 
-###_Group (5)_
+### _Group (5)_
 
 	Troll Fat + PineThrush Egg + Falmer Ear
 
