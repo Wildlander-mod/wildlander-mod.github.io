@@ -1,5 +1,5 @@
 ---
-title: Alchemy Recipes
+title: Alchemy Recipes & Power Level Guide
 layout: default
 description: Recipes lists
 ---
