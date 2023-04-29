@@ -334,18 +334,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ---
 ## Quests
-
-* Rebuilding the Blades cannot be completed.
 * Impossible to complete Finding Velehk Sain quest without console commands
 * You don't get any reward for returning the Ring of Pure Mixtures to Dawnstar' Pestle and Mortar
-* Upon entering Frostflow Lighthouse and finding the dead bodies, the related quest does not register. However manually looting the giant Chaurus provides you with Habd's remains which you can burn at the top of the lighthouse to complete the quest anyway.
-* "Accept Jarl Balgruuf the Greater's surrender" objective during Battle for Whiterun (Stormcloaks) is stuck.
 * Pieces of the Past quest is broken
 * halldir's "summons" in halldir's cairn are located in the walls, and simply "move" when they're summoned
-* Silus would not leave his house for me to go to mehrunes' shrine for his quest Using Console commands to move him allows the quest to proceed.
 * When doing the first real Dark Brotherhood Mission. You get an optional Objective of killing someone in Windhelm.
 * Trying to become thane of riften so that I can get the house for cheaper. Did the the entire skooma quest and I didn’t asked by her at all to help the people of riften.
-* Courier missives too easy due to receiving NPCs traveling to quest origin location.
 * Captain Valnir does not accept a Missive quest item, the only conversation options available with him are about his quest to go meddle with a dragon priest.
 * When fighting Mikael to leave carmilla alone the quest does not move to the next step, it instead acts like nothing happened. I fought him over and over hoping it would complete that step and it never did.
 * Issue with Paarthurnax quest line (When talking to Paarthurnax during the "Paarthurnax" quest line, both "The Blades say you deserve to die" and "You speak wisely, yet how can I be sure you won't return to your old ways?" dialogue trees lead to Paarthurnax stating that Alduin has been defeated.)
@@ -353,6 +347,54 @@ After starting a new game dialogue to purchase player homes will not show at fir
 * The carriage during Compelling Tribute quest vanishes upon immediate completion
 * Failing to Garrison outside of Fort Sungard causes Unfinishable Questline
 * Talking to Ulfric Incorrect Travel Marker to Fort Kastav
+
+1. No boss to kill for trouble in skyrim at Druadach Redoubt or Blind Cliff Cave
+* Sometimes quests can spawn for locations you have already cleared, or require another quest to be done first. Use console command to skip to the next stage
+
+{: .console}
+>
+> setstage cr05 20
+
+1. Upon entering Frostflow Lighthouse and finding the dead bodies, the related quest does not register.
+* Intentional - This is now a hidden quest. Manually looting the giant Chaurus provides you with Habd's remains which you can burn at the top of the lighthouse to complete the quest.
+
+1. Rebuilding the Blades cannot be completed.
+* Workaround: Use console to complete this quest. 
+
+{: .console}
+>
+> setstage FreeformSkyhavenTempleA 40  
+
+1. Refusing Harkon's offer means a new order doesnt start 
+* Workaround  Force the quest to start using console commands.
+
+{: .console}
+> setstage DLC1HunterBaseIntro 20 
+>
+> setobjectivedisplayed DLC1HunterBaseIntro 20 1
+
+1. Silus would not leave his house for me to go to Mehrunes' shrine for his quest 
+* Workaround: Using Console commands to move him allows the quest to proceed.
+
+{: .console}
+>
+>Prid 240CE 
+>
+>moveto player
+
+1. "Accept Jarl Balgruuf the Greater's surrender" objective during Battle for Whiterun (Stormcloaks) is stuck.
+* Striking the Jarl and then paying off the bounty may fix this.
+
+1. Valerica Refuses to enter the Boneyard
+* Caused by a bug which deletes the door references. Fixed temporarly by using console.
+
+{: .console}
+>
+> prid 02003B8E  
+>
+> moveto player. 
+> 
+> This will teleport Valerica next to you, and she will resume to her correct pathing. As for Serana, just repeat the process but type prid 02002B74 instead.
 
 ---
 
