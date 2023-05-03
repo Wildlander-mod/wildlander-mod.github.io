@@ -1,11 +1,9 @@
 ---
 layout: default
-title:  Resistances & Weapon Types
+title: Armor Resistances, Penetration & Weapon Types
 has_toc: true
 nav_order: 8
-
-
-description:  Resistances & Weapon Types
+description:  Armor Resistances, Penetration & Weapon Types
 ---
 
 ### Resistances List
@@ -21,7 +19,7 @@ List of basic resistances used in Skyrim.
 |Shock |	 	90%
 |Magic |	 	90%
 
-#### Armor Resistance
+### Armor Resistance
 
 About AR (Armor Resistance) Values
 -  1 point reduces incoming physical damage by 0.1%. So 800 AR will reach the 80% cap when not considering Armor Penetration.
@@ -29,7 +27,7 @@ About AR (Armor Resistance) Values
 -  The AR cap applies after applying AP.
 
 
-#### Armor Penetration
+### Armor Penetration
 
 Melee attacks and ranged attacks can penetrate armor, which reduces the effective armor rating and thus damage reduction of the target.
 
@@ -37,7 +35,7 @@ Melee attacks and ranged attacks can penetrate armor, which reduces the effectiv
 
 - In ranged combat the ammunition used plays a key role for armor penetration. You can see the arrow guide <a href="https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
-#### Magic/Elemental Resistances
+### Magic/Elemental Resistances
 
 - Magic Resistance protects against all magic damage including elemental magic such as fire, frost and Shock .
 - The effect of magic resistance is  multiplicative when combined with elemental resistance. Let's say you have 90% magic and fire resist. This will mean that you only receive (100%-90%) * (100%-90%)= (10% * 10%) = 1% fire damage, which is equal to 99% fire resistance. This also means that your effective resistances raises exponential as your resistance %'s become higher.
