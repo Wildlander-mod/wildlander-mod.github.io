@@ -292,6 +292,7 @@ description: Recipes lists
 ## Other Armor
 
 * Helm of Yngol, (unique look, resist frost 30%, available at level 1) Yngol's Barrow, east of Windhelm, north of Traitor's Post. No fighting needed aside from 1 optional Draugr.
+* Morag Tong armor set, Located in Ashfallow citadel
 
 ---
 
