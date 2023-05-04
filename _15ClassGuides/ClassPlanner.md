@@ -15,3 +15,4 @@ Some Notes:
 
 1. Ruleset chosen should be requiem 4.0 + fozar as its the closest to Wildlander
 1. The smithing tree forces you to take morrowind smithing before you take Orcish - in Wildlander we don't do this, so this perk can be ignored.
+1. The maximum level is 82, with 6 extra perk points at the start and an optional 7 from mora

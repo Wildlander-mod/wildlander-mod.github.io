@@ -21,6 +21,8 @@ General rules for successful build - One ranged ability, One Defense ability, On
 
 For more guidance on builds and examples - you can see the class guides section of the Wiki.
 
+The maximum level is 82, with 6 extra perk points at the start and an optional 7 from mora. You should plan your builds based on this.
+
 ---
 
 
