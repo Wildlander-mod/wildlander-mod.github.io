@@ -284,6 +284,8 @@ This is a fault with the current version of skyrim unbound reborn, It cannot be 
 
 It will be corrected in 1.2.
 
+If your dragons are not spawning - you can go to the skyrim unbound reborn MCM abd set Dragons to Enabled, which will force them to spawn.
+
 ### Outlaw Refuges. 
 
 * The stores contain static items which can't be stolen
