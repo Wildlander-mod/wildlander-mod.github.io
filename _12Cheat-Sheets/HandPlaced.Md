@@ -286,6 +286,7 @@ description: Recipes lists
 * Master Robes of Conjuration on the nightstand in Broken Fang Cave.
 * Master Robes of Illusion - Nightcaller Temple
 * Master Robes of Restoration - Nightcaller Temple
+* Master Robes of Destruction - Shrine of Mehrunes Dagon on a dead wizard. If not present, then its a good chance he had been exploded though a wall by the enemies inside. He can be placed at your feed using ID XX05CBF3 (where XX is the position of requiem in the load order - typically 82 on uncustomized wildlander installations.)
 
 ---
 
