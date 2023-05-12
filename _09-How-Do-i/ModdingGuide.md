@@ -182,10 +182,8 @@ Firstly - Check our [crash help](https://wiki.wildlandermod.com/01Support/CTDs/)
 
 If your issue isnt listed - then the below resources may help you identify what is going wrong.
 
-A quick guide to NetScriptFramework Error Codes <https://www.nexusmods.com/skyrimspecialedition/articles/3031/>
+A quick guide to NetScriptFramework Error Codes <https://web.archive.org/web/20221118040759/https://www.nexusmods.com/skyrimspecialedition/articles/3031>
 More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
-
-and finally - if all else fails search here (or make your own post) <https://www.nexusmods.com/skyrimspecialedition/mods/49130?tab=posts>
 
 
 -----
