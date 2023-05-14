@@ -75,8 +75,8 @@ In summary spells cost more if you :-
 There are tools in order to help you manage your Magicka at lower level :
 
 * Soups : 2 hours of Magicka regeneration. Keep on on you at all times. 
-* Magicka Potion are pretty rare. But easy to brew if you have alchemy.
+* Magicka Potions are pretty rare. But easy to brew if you have alchemy.
 * Raw Ingredients: some of them can be eat in combat for 1Magicka/sec or 2Magicka/sec
-* Cooked Meat/Veggies: Eat out of combat for 1Magicka/sec or 2Magicka/sec regeneration
+* Cooked Meat/Veggies: Some can be Eaten out of combat for 1Magicka/sec or 2Magicka/sec regeneration
 * Engraved bones (Julianos): gives passive Magicka Regen for the duration.
-* Enchantments: Fortify Magicka regen is your best friend at low levels.
+* Enchantments: Fortify Magicka Regen is your best friend at low levels.
