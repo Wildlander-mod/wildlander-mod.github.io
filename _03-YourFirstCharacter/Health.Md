@@ -19,6 +19,7 @@ When you get hurt fighting - the only ways to heal are :-
 - Alchemy Perk
 - Raw Ingredients
 - Enchantments
+- Engraved bones (Kynareth): gives passive health regen for the duration.
 
 ## Healing Poultice 
 
