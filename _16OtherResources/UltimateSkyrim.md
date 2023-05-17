@@ -19,7 +19,8 @@ has_children: true
 
 Welcome to _Ultimate Skyrim_, and thank you for your interest in the project! This page will guide you through the install process.
 
-**_Ultimate Skyrim_ requires _Skyrim_ Classic Edition with all DLC’s**, otherwise known as **_Skyrim Legendary Edition_**. <a href="https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-legendary-edition" target="_blank">You can purchase this edition here
+**_Ultimate Skyrim_ requires _Skyrim_ Classic Edition with all DLC’s**, otherwise known as **_Skyrim Legendary Edition_**. <a href="https://www.reddit.com/r/Wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/" target="_blank">You can find links to purchase this edition here
+
 
 {: .important}
 > Ultimate Skyrim is no longer supported or under development, if the list breaks, this guide will disappear. 
