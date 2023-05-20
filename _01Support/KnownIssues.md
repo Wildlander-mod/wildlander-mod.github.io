@@ -179,9 +179,9 @@ If it doesn't, you will need to look up the quest ID to start the quest manually
 
 {: .console}
 >
-> startquest <questid>
+> startquest questid
 >
-> setstage <questid> 10
+> setstage questid 10
 
 ---
 
@@ -266,7 +266,7 @@ The only reliable work around we have found (instead of rolling back to previous
 
 ---
 
-### i've completed the main thieves guild quest, but now Brynjolf is stalking me!
+### I've completed the main thieves guild quest, but now Brynjolf is stalking me!
 
 This is because one of the quests wasn't set to completed.
 
