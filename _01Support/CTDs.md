@@ -37,17 +37,25 @@ If you have crashes which are not included in this list, they are repeatable and
 - The version of Wildlander - as shown in the bottom left of the launcher.
 
 
-## Crashing on Startup (before main menu appears)
+## Crashing on Startup (before main menu appears) - no crash log
 
 Typically Caused by a corrupt plugin which is also master. Rerunning the Wabbajack installer choosing "overwrite install" will generally resolve these issues.
 
 Note: If you are running a customized build - this can also be caused by a missing Dependency of a mod you installed.
 
-## Crashing on "new character"
+## Crashing on Startup or Crashing on "new character" or on startup with a crashlog
+
+{: .logfile}
+> Possible relevant objects (2)
+> {
+> [ 125]    BGSStoryManagerBranchNode(FormId: 0000005B)
+> [ 188]    PlayerCharacter(FormId: 00000014, BaseForm: null)
+> }
+
 
 May generate crashes with codes SkyrimSE.exe+132BEF or SkyrimSE.exe+1BF04F
 
-If you have played a character, exited to the menu and tried to create a new character. This is expected behavior. 
+If you have played a character, exited to the menu and tried to create a new character. This is expected behavior. you should always restart the game before creating ro switching characters.
 
 If it is your first character after a clean install, then it could be caused by a mod which didn't install correctly. Rerunning the Wabbajack installer choosing "overwrite install" will generally resolve these issues.
 
