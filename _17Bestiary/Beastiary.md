@@ -43,8 +43,23 @@ In addition, Some enemies in the game have various special abilities. These incl
 * Diseases - Some new diseases have been added to creatures which previously didn't have any.
 
 **Weapon Protection**
-Bonus armor that the Enemy gains if attacked by weapon damage types.
- 
+Bonus armor that the Enemy gains if attacked by weapon damage types. The below table shows what weapons fall into each category, and the bonus armor granted by each tier of protection.
+
+|Type |	Default Source |
+|--|--|
+|Slashing |Sword, War Axe, Greatsword, Battleaxe
+|Blunt 	|Mace, Warhammer
+|Pierce |Dagger
+|Ranged |Bow, Crossbow
+
+|Tier |Bonus Armor|
+|--|--|
+|1 |60
+|2 |120
+|3 |180
+|4 |240
+|5 |300
+
 **Resistances & Weaknesses**
 If the Enemy has protection or vulnerability to Fire/Frost/Shock/Poison, If the Enemy has Knockdown, Sneak Attack or Paralysis protection, and if the enemy has any additional protections - E.g Drain life, Unrelenting force.
 

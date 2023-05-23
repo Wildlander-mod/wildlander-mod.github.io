@@ -55,7 +55,7 @@ Damage Types implemented by Requiem. Weapons are assigned one damage type, and C
 
 ----
 
-|Rank |Bonus Armor|
+|Tier |Bonus Armor|
 |--|--|
 |1 |60
 |2 |120
