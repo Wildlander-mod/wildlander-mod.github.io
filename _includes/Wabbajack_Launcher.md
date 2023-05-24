@@ -23,6 +23,15 @@ This means that Mod Organizer Crashed during Boot up or Shutdown and wiped its I
 An issue has been raised with launcher team to implement a backup and restore function for this file to prevent user's having to perform this action.
 
 ----------
+### Getting SHGetFolderPath 00000005 failed / Assertion failed in IDebugLog.cpp 
+
+This is generally caused by windows randomware protections "Controlled folder access".
+
+Because SKSE isnt "approved" my microsoft - its treated as unfriendly and prevents SKSE from plugging into your SKyrimSE.exe.
+
+Turning this option off will prevent the issue.
+
+----------
 ### Get-cimInstance Error on launch of game
 ![image](https://user-images.githubusercontent.com/26418143/162614762-bc1ea263-2e61-4e68-9669-c580f157dac8.png)
 
