@@ -24,7 +24,7 @@ Detect Life |Alteration|Concentration|Adept |Self |Sense |Creature <br> Human |
 Featherfalling |Alteration|Fire & Forget|Apprentice |Self |Cloak <br> Telekinesis |Metal |
 Knock (Rank I) |Alteration|Fire & Forget|Apprentice |Actor|Telekinesis |Metal |
 Knock (Rank II) |Alteration|Fire & Forget|Adept |Actor|Telekinesis |Metal |
-Knock (Rank III) |Alteration|Fire & Forget|Adept |Actor| Metal|Telekinesis|
+Knock (Rank III) |Alteration|Fire & Forget|Master |Actor| Metal|Telekinesis|
 Lightning Speed |Alteration|Fire & Forget|Master |Self |Sense <br> Strengthen|Flesh |
 Mage Armor on Self (Rank I) |Alteration|Fire & Forget|Novice |Self | Infuse |Armor <br> Flesh <br> Nature |
 Mage Armor on Self (Rank II) |Alteration|Fire & Forget|Apprentice |Self | Infuse |Armor <br> Flesh <br> Nature |
