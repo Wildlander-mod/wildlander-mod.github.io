@@ -9,7 +9,7 @@ description: Wildlander Wiki TL;DR
 
 ## THERE IS NO TL;DR.
 
-**Reading isn't Optional** We provide an extensive wiki which answers a lot of questions in detail. 
+**Reading isn't Optional** We provide an extensive wiki which answers a lot of questions in detail. At the very minimum, Recommended reading section should be read.
 
 This wiki contains recommended reading, the getting started guide, plus all the Mod list documentation.
 
