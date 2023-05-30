@@ -22,9 +22,9 @@ Support asks that you search the wiki before asking any questions. You can searc
 
 For web users you can search by entering your criteria here
 
-[](https://media.discordapp.net/attachments/881258698998185996/1092121467669446747/image.png)
+![Image](https://media.discordapp.net/attachments/881258698998185996/1092121467669446747/image.png)
 
 for mobile users the search bar is in the menu.
 
-[](https://media.discordapp.net/attachments/348579473727160321/1111292806632325180/image.png)
-[](https://media.discordapp.net/attachments/348579473727160321/1111292966611460176/image.png)
+![Image](https://media.discordapp.net/attachments/348579473727160321/1111292806632325180/image.png)
+![Image](https://media.discordapp.net/attachments/348579473727160321/1111292966611460176/image.png)
