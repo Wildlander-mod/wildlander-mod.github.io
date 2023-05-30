@@ -11,8 +11,9 @@ description: Wildlander Wiki TL;DR
 
 **Reading isn't Optional** We provide an extensive wiki which answers a lot of questions in detail. At the very minimum, Recommended reading section should be read.
 
-This wiki contains recommended reading, the getting started guide, plus all the Mod list documentation.
+This wiki also contains the getting started guide, plus all the Mod list documentation relating to the new mechanics.
 
+For some shortcuts
 * the current [modlists](https://airtable.com/shry9PXLi3ON9Lbtn/tbl7ZahJNkl97qi3j?backgroundColor=yellow&viewControls=on) 
 * [Change logs](https://wiki.wildlandermod.com/14ModlistVersions/CHANGELOG/)
 * [Known Issues & Workarounds](https://wiki.wildlandermod.com/01Support/KnownIssues/)
