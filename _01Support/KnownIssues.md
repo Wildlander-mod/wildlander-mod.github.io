@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Known Issues
+title: Known Issues & Workarounds
 nav_order: 4
 has_children: false
 description: Known Issues and Fixes
 ---
 
-This document will contain all of the Main Known Issues. It excludes any graphical issues, EG Clipping textures. This document is updated as issues are verified/reproduced by staff or reported by multiple people. If you would like to see the entire list to date
+This document will contain all of the Known Issues with workarounds, as well as a listing of issues which cannot be resolved.  
+
+The below button will take you to the full known issue page.
 
 <a class="btn btn-pink" href="https://wiki.wildlandermod.com/01Support/FullKnownissues/index.html">All Known issues</a>
 
@@ -109,35 +111,18 @@ None of these are actually bugs - but i'm including them here to hopefully preve
 
 ## Camera Issues
 
-1. Camera can go wonky opening the Tab Menu whilst on horse back. (rarely happens)
-1. Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
-1. Camera is too close to head when running
 1. Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
 1. Whenever I open a crafting station such as an enchantment table, alchemy lab, cooking pot, etc., for the second time in the same cell, the menu doesn't load and I'm stuck.have to save exit and restart the game to fix
 
 ---
 
-## UI
-
-1. On ultrawide monitor (2560x1080), perk names appear VERY right aligned to perk "stars" making it awkward to use the perk menu as perk names appear over other perk "stars" in many cases.
-1. certain elements of the UI will disappear (the compass and the H/M/S bars) after pressing X or when an inventory window is open
-
----
-
 ## Gameplay Issues
 
-1. Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. The effect only lasts for the duration of this step and can be safely ignored.
-1. Drawing weapon when stealthed increases speed 
-1. Got a bounty for opening a unlocked door in Whiterun's halls of the dead.
-1. Prices of the summon tomes are WAY higher than the other ones
-1. There is a note from Holidays on the counter of the Bannered Mare, but it cant be interacted with
-1. Got a Trespassing in Warmaidens during opening hours (typically happens if the shop doesnt open and user picks lock to gain entry)
-1. The Nightmother's Coffin can be searched and is Empty While helping Cicero 
-1. Alessandra says Anders is located in Windhelm instead of Whiterun
-1. Tempering Labels currently do not work.
-1. Bathing can teleport the player to a seemingly random location.
+** Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. **
 
-### With workarounds
+The effect only lasts for the duration of this step and can be safely ignored.
+
+---
 
 **When weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away**
 
@@ -286,12 +271,6 @@ It will be corrected in 1.2.
 
 If your dragons are not spawning - you can go to the skyrim unbound reborn MCM abd set Dragons to Enabled, which will force them to spawn.
 
-### Outlaw Refuges. 
-
-* The stores contain static items which can't be stolen
-* Several beds have owned markers
-* Several objects (e.g. training dummies) are not interactable and should be.
-
 ---
 
 ### Bathing
@@ -334,27 +313,9 @@ Simple fix - switch gender back.
 
 ![image](https://user-images.githubusercontent.com/26418143/175317923-9cdc1a68-4653-4e18-a274-d48cf8feeea0.png)
 
----
-
-### Properties Without Pestering
-
-After starting a new game dialogue to purchase player homes will not show at first. This can be fixed by saving the game and loading the save.
 
 ---
 ## Quests
-* Impossible to complete Finding Velehk Sain quest without console commands
-* You don't get any reward for returning the Ring of Pure Mixtures to Dawnstar' Pestle and Mortar
-* Pieces of the Past quest is broken
-* halldir's "summons" in halldir's cairn are located in the walls, and simply "move" when they're summoned
-* When doing the first real Dark Brotherhood Mission. You get an optional Objective of killing someone in Windhelm.
-* Trying to become thane of riften so that I can get the house for cheaper. Did the the entire skooma quest and I didn’t asked by her at all to help the people of riften.
-* Captain Valnir does not accept a Missive quest item, the only conversation options available with him are about his quest to go meddle with a dragon priest.
-* When fighting Mikael to leave carmilla alone the quest does not move to the next step, it instead acts like nothing happened. I fought him over and over hoping it would complete that step and it never did.
-* Issue with Paarthurnax quest line (When talking to Paarthurnax during the "Paarthurnax" quest line, both "The Blades say you deserve to die" and "You speak wisely, yet how can I be sure you won't return to your old ways?" dialogue trees lead to Paarthurnax stating that Alduin has been defeated.)
-* Stuck NPC Fort Greenwall - Stormcloak NPC gets stuck in a door if he can't be killed then the fort won't be cleared, preventing the quest from advancing.
-* The carriage during Compelling Tribute quest vanishes upon immediate completion
-* Failing to Garrison outside of Fort Sungard causes Unfinishable Questline
-* Talking to Ulfric Incorrect Travel Marker to Fort Kastav
 
 1. No boss to kill for trouble in skyrim at Druadach Redoubt or Blind Cliff Cave
 * Sometimes quests can spawn for locations you have already cleared, or require another quest to be done first. Use console command to skip to the next stage
@@ -363,15 +324,23 @@ After starting a new game dialogue to purchase player homes will not show at fir
 >
 > setstage cr05 20
 
+---
+
 1. Upon entering Frostflow Lighthouse and finding the dead bodies, the related quest does not register.
+
 * Intentional - This is now a hidden quest. Manually looting the giant Chaurus provides you with Habd's remains which you can burn at the top of the lighthouse to complete the quest.
 
-1. Rebuilding the Blades cannot be completed.
+---
+
+1. Rebuilding the Blades cannot be completed. / Delphine cannot accept followers to join the blades.
+
 * Workaround: Use console to complete this quest. 
 
 {: .console}
 >
 > setstage FreeformSkyhavenTempleA 40  
+
+---
 
 1. Refusing Harkon's offer means a new order doesnt start 
 * Workaround  Force the quest to start using console commands.
@@ -380,6 +349,8 @@ After starting a new game dialogue to purchase player homes will not show at fir
 > setstage DLC1HunterBaseIntro 20 
 >
 > setobjectivedisplayed DLC1HunterBaseIntro 20 1
+
+---
 
 1. Silus would not leave his house for me to go to Mehrunes' shrine for his quest 
 * Workaround: Using Console commands to move him allows the quest to proceed.
@@ -390,8 +361,12 @@ After starting a new game dialogue to purchase player homes will not show at fir
 >
 >moveto player
 
+---
+
 1. "Accept Jarl Balgruuf the Greater's surrender" objective during Battle for Whiterun (Stormcloaks) is stuck.
 * Striking the Jarl and then paying off the bounty may fix this.
+
+---
 
 1. Valerica Refuses to enter the Boneyard
 * Caused by a bug which deletes the door references. Fixed temporarly by using console.
@@ -408,138 +383,30 @@ After starting a new game dialogue to purchase player homes will not show at fir
 
 ## Immersion issues
 
-### NPC's
-
-* Several NPC's are sleeping in unrealistic places. (e.g. Orphans are found sleeping on the ground, in Windhelm in the middle of a snowstorm not near a fire)
-* Some vendors don't show a inventory/show limited inventory when you open them for the first time.
-* Some NPC's like idling inside of bushes or sitting on invisible chairs.
-* Milking a cow doesn't require a empty bottle and should.
-* There is a stubborn pig in windhelm which likes being in the way
-* Dawnstar carriage driver apparently thinks that standing inside his carriage, instead of sitting on the seat is a great place to stand (his horse is disconnected too)  
-* College NPCs cannot clear steps leaving Winterhold in order to walk to Saarthal
-* Ancient Mudcrab [NPC_:8B056F89] from depths of skyrim missing Requiem's natural mudcrab armor
-* Borkul the Beast [NPC_:0001338A] If he dies during escape from cidhna mine - his body lies dead forever (missing cleanup script)
-* Bull & betty netch's have calf armor & calf netch  [NPC_:0402857F] has the adult.
-* Gerda has oldwoman voice
-* Guards should carry Torches at Night
-* Knjakr the Cannibal spawned in The Bee and Barb
-* Merchant Trader Orc of Dawnstar (Oorlung?). His first line of voice when entering his shop is always silent. 
-* Uthgerd (follower) will be stuck sitting down and float off into space if I enter a building while she is on a horse.
-* Wylandriah doesn't train Enchanting until after her quest
-* Dawnstar Carriage driver clips though his coach
-* Janus Mentedius in Farmer's Bounty Mercantile in Rorikstead is missing a voiced greeting.
-* Tekla in Falkreath has old voice, young face
-* During the Siege of Whiterun, mod added vendors can be traded with
-* Male prostitute near ratway entrance need... clearing up (also Yikes)
-* The travel carriage is available during the Siege of Whiterun
-* Ulfric grants permission to purchase property, 2x dialogue options
-* Work sandbox AI Packages might do with having the "Corpses greet behavior" flag removed, so NPC's don't randomly walk up to corpses anymore
-* Wuunferth the Unliving is wearing an Illusion robe (clearly visible with the retexture) but he specialises and provides training in Destruction. Should be wearing a Destruction robe for obvious thematic reasons.
-* Ever since Afflicted Refugees entered began spawning, it seems like they are spawning a lot. Granted, I've been traveling the roads a lot due to Thieves' Guild side quests, but they still feel over-represented in encounters.
-* Melaran, Sybille Stentor replacement, can be invested in multiple times, but with no effect
-* NPCs bunch around to loot dropped items / Dead bodies
-* Random scavenger encounter where a guy is standing over some dead people. Scavenger is apparently flagged essential. Tried console /kill and he just took a knee and got back up.
-* Stuck NPCs - Adrianne (ref ID: 0001A67C) is stuck on a ledge in Whiterun Market. Belethor is stuck at forge.
-
----
-
-### Idle markers
-
-* Brand-Shei is supposed to be seated on a crate, however he is sitting on nothing.
-* College NPC Idle marker in the Arcarnem - Leaning on invisible table
-* Marise Aravel, the produce merchant in Riften, has an idle marker inside of a barrel
-* NPC idle marker inside planter in front of the Winking Skeever
-* Silda the Unseen is standing too far away to warm her hands from the Place of kings brazier
-* Embry started leaning his back towards the street while standing in the air.
-* Stuck NPC Dervernin appears to be either stuck or admiring the wall. Tunnel to castle dowr next to vittoria vici's house
-* NPC hammers window at Arcadia's in Whiterun; should hammer the wall maybe
-* Hulda at Bannered Mare has a quill, a ledger and a mug in her hands
-* Malur Seloth Floating through floor
-* Markarth NPC leaning inside of a support beam
-
----
-   
-### Objects / Buildings
-
-* Several wells are missing bucket activators
-* Imperial Alehouse in Solitude is locked
-* Training Dummies outside Whiterun (on the battlements) cannot be interacted with
-* Iron Woodcutting axe is invisible for male characters
-
----
-
-### Houses
-
-* Two things with fully furnished Honeyside (without the kid's room) - missing wall texture, porch door says Examine Lock Rented House
-* Breezehome doesnt have a alchemy lab after purchasing it well it does - but its hidden behind a wall
-* Proudspire manor - Bar area. Odd Mead crate texture.
-* HJerim issues - After purchase (floating objects in kids bedroom, various clipping issues)
-* Building jetty took zero time
-* The Skyrim side door into Honeyside behaves weirdly depending on where on it you point your cursor. 
-
----
-
+  
 ### Sounds
 
 * Insect noise is overly loud.
 * Some interiors have ghost children playing sound effect.
-* When NPC drinks potion, sound is too loud and sounds like player is drinking the potion
-* If you go to a place like Bleak Falls Barrow, you can hear the wind blowing on those high hills,. But if you leave the place and go to anywhere else the windy sound doesn't stop until you enter a new cell
-* combat music plays on infinite loop sometimes despite no enemies, despite changing area (like going into an inn),   or quicksave/loading. the only workaround is to close the game and boot it  back up
-* Audio Bug — Lowering the slider under Settings>Audio>Horse Steps does nothing.
-* Candlehearth Hall, snowstorm  outside and inside had a very loud wind whistling sound effect.
-* Dawnstar's White Hall (and interiors in general) are too reverby
 
----
+Both these can be turned off using the Immersive sounds MCM.
 
-## Crafting
+* combat music plays on infinite loop sometimes despite no enemies, despite changing area (like going into an inn), or save/loading. 
 
-* No breakdown recipe for flagon
-* Dunmeri Brown Hood - Cannot be dismantled.
-* DLC01TortureTool01 "Crushing Device" [MISC:02008E4E] has no breakdown recipe
-* 99% of Circlets / Rings / Necklaces Missing breakdown recipes.
-* Recipe for potion of cleansing bugged
-* I have noticed that when paying a blacksmith to temper a weapon you get smithing experience (I just got a level up due to it)
-* Tempering/Enchanting are way too cheap - I had Eurland temper my warhammer to legendary which only cost 1200 gold. The warhammer was doing 600+ damage after tempering
+The only workaround is to close the game and boot it  back.
 
----
-
-## Exploits
-
-*  I probably should mention that if a container isn't marked as stealing is not red then you can take anything inside thats marked as stolen right in front of the owner without theft
-*  Put armor on mannequins  in Breezehome. Logged off for the night. Re logged in and went inside the items the mannequins  were wearing was then sent directly to my inventory.
-*  Npcs can get stuck in the snow outside of mehrunes dagons shrine, this causes them to sink slightly into the ground and are unable to move.
-*  Wuunferth the Unliving grants 3 levels to Destruction
-*  Lightning speed has infinite duration. Unlike the double cast bug in UltSky pressing T to wait ends the spell. However this always happens, doublecast by default.
-*  Trolls - When hit by almost mortal wound, leaving them >5% HP, they fall on knees and stay that way, even when regenerate all health. Making them perfect punchbag.
-*  Hunterborn isn't properly passing the amount of time that it supposed to 
-
----
-
-## Followers
-
-* Delphine cannot accept followers to join the blades * Current work around is to console skip the quest 
-
-{: .console}
->
-> setstage FreeformSkyhavenTempleA 40  
-
-* Taught follower the spell Sunfire through the dialog. They use it in combat even on enemies which aren't undead and they seem to prioritize using only that. 
-* I gave my follower Marcurio 2 scrolls of Summon Fire Atronach and 2 Scrolls of Summon Wolf Familiar (Ghost wolf w/e its called) and he is able to summon either (one at a time) infinitely during battle. In other words, he never consumes the scrolls.
-* Janessa has Good lock-picking perks * but * Cant get her to unlock anything?
-* Follower perks * Missing and/or Inconsistencies (Some followers have no perks)
-* Followers teleport forward too close
 
 ---
 
 ## ENB
 
-* Spider webs, beehives, and dragonfly wings are generally too bright and white, despite being edited by Spider Webs and Particles for ENB
-* Strange water reflections
-* Spriggans (purple) cause night-vision spells to occasionally flash blue
-* Map went technicolor Workaround: Restart Skyrim
-* Medium Graphic, Low shaders.  During Rain, there is no rain when i looking north. By looking West and East I can see wall of rain behind me.  Rain is visible only at one side
-* Interiors have Broken Green Lighting Workaround: Restart Skyrim
+* Map went technicolor 
+
+Workaround: Restart Skyrim
+
+* Interiors have Broken Green Lighting 
+
+Workaround: Restart Skyrim
 
 ---
 
