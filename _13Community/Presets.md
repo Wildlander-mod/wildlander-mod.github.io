@@ -81,7 +81,15 @@ Created By: Beethoven
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1029375967468212285/Demonic_Orc_Lad.jslot)
 
+## Dunmer Twohanded Conjurer preset
 
+Race: Dark Elf
+
+Created By: Plotinuz
+
+![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1106884264668176524/enb2023_5_13_12_00_11.png?width=783&height=780)
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1106884264173244446/Dunmer_Twohanded.7z)
 
 ## Eekum_gra-Bokum
 
@@ -91,6 +99,16 @@ Created By: yung moomin
 ![Img](https://media.discordapp.net/attachments/1000438888701104190/1066077571353161828/SkyrimSE_fBnBnYQPdO.jpg?width=1365&height=768?width=783&height=780)
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1066077570648526999/Eekum_gra-Bokum.jslot)
+
+## Elise
+
+Race: Breton
+
+Created By: Talvos
+
+![Img](https://media.discordapp.net/attachments/1000438888701104190/1087127005318889554/enb2023_3_19_22_32_39.png?width=783&height=780)
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1087127005708964040/Breton_preset.jslot)
 
 ## Erine
 
@@ -103,15 +121,15 @@ Created By: Token
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1051676885505032242/Erine.jslot)
 
 
-## Female Breton 
+## Freia
 
-Race: Breton
+Race: Any Human
 
-Created By: Talvos
+Created By: Skeletor
 
-![Img](https://media.discordapp.net/attachments/1000438888701104190/1087127005318889554/enb2023_3_19_22_32_39.png?width=783&height=780)
+![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1098570349827862608/ScreenShot212.png?width=783&height=780)
 
-Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1087127005708964040/Breton_preset.jslot)
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1098570349257425006/AF_Freia.jslot)
 
 ## Godfrey
 
@@ -189,6 +207,16 @@ Created By: Liam
 ![Img](https://media.discordapp.net/attachments/1000438888701104190/1031596249390010368/ScreenShot275.png?width=757&height=780)
 
 Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1031595926185316372/Imperial_Male_-_Rookie_Legionnaire.jslot)
+
+## Rylan
+
+Race: Orc
+
+Created By: Calanon7
+
+![Img](https://cdn.discordapp.com/attachments/1000438888701104190/1101340989894955168/enb2023_4_26_00_29_17.png?width=783&height=780)
+
+Download: [Link](https://cdn.discordapp.com/attachments/1000438888701104190/1101340990431830086/Rylan-OrcFemalePreset.jslot)
 
 ## Sleepless
 
