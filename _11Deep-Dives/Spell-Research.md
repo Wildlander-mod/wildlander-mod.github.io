@@ -49,8 +49,19 @@ Crafting tomes and scrolls is a relatively easy way to make some gold, and gain 
 
 The magicka requirements for crafting tomes and scrolls are listed in the table below. To craft a tome or a scroll, simply equip the spell, activate the research journal, and select “Craft Tome / Scroll”.
 
-**_Requirements for crafting tomes & scrolls_**: (_duration, paper requirement, mental exhaustion_)
+**Errors**
 
+1. For some reason this spell defies your attempts to put it down on paper in a cohesive way, thus you cannot make an accompanying scroll. 
+1. For some reason this spell defies your attempts to put it down on paper in a cohesive way, thus you cannot make an accompanying spell tome.
+
+Means the Spell doesnt have a corresponding scrolls / tome. 
+
+1. You do not currently have the mental energy to create a scroll that complex.
+1. You do not currently have the mental energy to create a spell tome that complex.
+
+Means you are too low on magicka to craft the scroll / tome. 
+
+**_Requirements for crafting tomes & scrolls_**: (_duration, paper requirement, mental exhaustion_)
 
 <table>
   <tr>
