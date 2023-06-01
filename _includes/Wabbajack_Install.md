@@ -168,7 +168,7 @@ If you get the following error - Make sure Steam is installed in English, valida
 
 ![image](https://user-images.githubusercontent.com/26418143/169777216-29de696c-b3bc-4829-9bf4-05a571a7aab7.png)
 
-Wildlander requires Anniversary edition, If you get any of the following - update your Skyrim. If you have used Halgari's downgrade patcher - you will need to validate your game fields from Steam > Right Click > Properties > Local files tab.
+Wildlander requires Anniversary edition update of skyrim SE (version 1.6.640 at time of writing), If you get any of the following - update your Skyrim. If you have used Halgari's downgrade patcher - you will need to validate your game fields from Steam > Right Click > Properties > Local files tab.
 
 If Skyrim has updated recently - then it might require the list to be recompiled to cope with these changes. Staff will typically put the list into maintenance if this is the case.
 
