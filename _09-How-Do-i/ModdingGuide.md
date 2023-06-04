@@ -87,11 +87,18 @@ The Right side of the list is the plugins, these are the mods themselves contain
 
 If you have two Plugins which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1. The panes are sorted by drag and drop. If you want to move a mod you click-drag it to where you want it on the load order.
 
+The profiles:-
+1. performance - This is the profile which runs if you select the performance modlist from the launcher.
+1. Standard    - This is the standard modlist when ran from the launcher.
+1. Ultra/high/medium/low/potato - These are the deployment folders for the graphics settings. These should never be edited.
+
 {: .important}
 > 
-> If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified".
+> If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified". E.G. Standard + Modified.
 > 
 > You will always be able to switch back to the original profile and load it that way in case you screw up badly.
+>
+> In the launcher - you should turn on hidden profiles in the advanced tab so that your newly created copy will be visible.
 
 In the top right area of mod organizer are the shortcuts to run the various tools. 
 	
@@ -141,7 +148,8 @@ If there isn't a specific guide, then as a general rule of thumb
 ![image](http://wiki.wildlandermod.com/Assets/RequiremPatch.png)
 
 - Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the Wildlander Full mod(E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
-- Run the Reqtificator whenever you change the load order.
+
+- Run the Reqtificator whenever you change the load order. The Reqtificator is located in mod organisers frop down menu (top right)
 
 Close mod organizer - and use the launcher to start the game.
 
@@ -270,6 +278,13 @@ Should you wish to submit a single Patch you can do so here <https://forms.gle/D
 Should you wish to submit a Guide containing multiple patches you can do so here <https://forms.gle/BFnvGTPpAhTYjw8q9>
 
 ## Guides
+
+The discord is the best place to find assistance on how to add mods.
+
+There are a lot of Mods which have been confirmed working as plug and play. These are located in the confirmed-working channel on discord. In addition there is also discussion of how to add specific mods (including NSFW nude mods) in the Specific-mods-discussion channels.
+
+Discord staff do monitor these channels for bad advise and incorrect information. 
+
 
 ### SkyrimUpscalerENBTestBuild for Wildlander
 
