@@ -4,6 +4,7 @@ title: The Milk Drinkers Guide to Power Leveling
 nav_order: 2
 ---
 
+
 ## Table of contents
 {: .no_toc }
 <details markdown="block">
@@ -52,6 +53,7 @@ if starting at Helgen Border - do not enter the abandoned outpost, at the bottom
 <details>
   <summary>Spoiler warning: chest location </summary>
   
+<blockquote>
 <div class="Info" markdown="1">
 
 ![image](https://user-images.githubusercontent.com/26418143/175818716-b269ad07-7e5e-44f3-bc49-ae7faee80010.png)
@@ -61,7 +63,7 @@ if starting at Helgen Border - do not enter the abandoned outpost, at the bottom
 ![image](https://user-images.githubusercontent.com/26418143/175818791-e7dec4be-3bff-418f-a304-e050ce725989.png)
 
 </div>
-
+</blockquote>
 </details>
 
 
@@ -114,7 +116,9 @@ Once past the fights, pick any herbs or skill a skin critters until you arrive a
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   Located at the rear of the Bannered mare, inside of the animal pens. Manhole in the centre pen.
+  </blockquote>
 </details>
 
 As soon as you arrive, speak with Adrienne and get the quest to deliver a sword to Proventus Avenicci in Dragonsreach.
@@ -155,7 +159,7 @@ Shopping list before leaving whiterun:- Backpack, Iron lantern, Tent and a set o
 If you're feeling brave, head north from Whiterun and collect Four treasure chests; 
 <details>
   <summary>Spoiler warning: chest locations </summary>
-  
+<blockquote>
 <div class="Info" markdown="1">
 
 One to the east by the river with mudcrabs (watch for wolves and bears and sabre cats) 
@@ -187,6 +191,7 @@ Then proceed up the hill to the west to find the 4th and final chest.
 |![image](https://user-images.githubusercontent.com/26418143/162266891-6a223106-29eb-45c9-aac3-a60cead58813.png)| ![image](https://user-images.githubusercontent.com/26418143/162266816-e66c5209-0c4d-4ef5-aa87-937045dd2737.png)
 
 </div>
+</blockquote>
 </details>
 
 Continue to Lorius' farm and convince him to help Cicero for free speech experience.
@@ -244,7 +249,9 @@ Use the wagon to Markarth
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   If facing the entrance to the temple of dibella, Access is behind 2 stone chairs, and the on of the corridor to your right.
+  </blockquote>
 </details>
 
 Once in Markarth grab the meat from the Dog handler at Markarth stables to deliver inside (spiced beef to Voada). Vist Kayla and pick up a ring to deliver to Calcelmo. Visit the Hag's cure to collect a potion to deliver to Markarth's Steward. 
