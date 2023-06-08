@@ -438,6 +438,16 @@ Workaround: Restart Skyrim
 
 If you are having a issue for a civil war quest - please check <a href="https://en.uesp.net/wiki/Main_Page" target="_blank" rel="noopener noreferrer">UESP WIki <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> - there maybe a work around here.
 
+## Bugs with At the Summit of Apocrypha
+
+* Unfortunately - this was also a bethesda scripted mess - There is precious little Wildlander Staff can do to resolve the issues.
+
+If Miraak doesnt die after you defeat him 
+* The general solution for this is to load a save prior to the word wall and redo the fight until it works correctly.
+
+
+Please check <a href="https://en.uesp.net/wiki/Skyrim:At_the_Summit_of_Apocrypha" target="_blank" rel="noopener noreferrer">UESP WIki <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> - there maybe a work around which works for you here here.
+
 
 
 ### Full List of issues
