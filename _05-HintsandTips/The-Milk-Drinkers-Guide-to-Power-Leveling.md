@@ -291,7 +291,9 @@ Use the wagon to Solitude
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   In between Winking skeever and Angelina's aromatics - next to some mead kegs.
+  </blockquote>
 </details>
 
 In Solitude watch the execution scene and the talk to Angelina in Angelina's aromatics and get the quest to find out what happened to her Daughter. Pick up quest from Taarie in radiant raiment to wear a dress for Elsief.
@@ -325,7 +327,9 @@ Use the wagon to Windhelm
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   Dark Elf Quarter, near the well there is a staircase with a bristleback at the top. Behind the Bristleback are some hay bales. The entrance is behind these.
+  </blockquote>
 </details>
 
 Read the books: 
@@ -367,7 +371,9 @@ Visit the docks talk to Gjalund, ask him to take you to Solstheim.
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   Trapdoor - Under some scathclaw between Alor's House and the retching Netch.
+  </blockquote>
 </details>
 
 Read the Book:
@@ -407,7 +413,9 @@ Visit the docks and pay for a return trip to Windhelm, Use the wagon to Dawnstar
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   Behind Hale bales at the rear of Windpeak Inn.
+  </blockquote>
 </details>
 
 {: .note}
@@ -433,14 +441,14 @@ Dawnstar doesnt have any "easy quests" So Wagon to Winterhold.
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
-
+<blockquote>
 <div class="Info" markdown="1">
   At the rear on the frozen hearth, in the ruined part of town. Well near a wall overlooking the sea.
   
   ![enb2022_4_15_18_43_37](https://user-images.githubusercontent.com/26418143/163603544-bc42dd69-364a-4147-8169-0bb663eb7252.png)
   
 </div>
-
+</blockquote>
 </details>
 
 {: .note}
@@ -481,9 +489,11 @@ Wagon to Morthal
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   Next to the brazier at the entrance to the graveyard. 
 
-  Note: this refuge doesnt have a bed for the player.
+  Note: this refuge doesn't have a bed for the player.
+  </blockquote>
 </details>
 
 Skill Books:
@@ -500,7 +510,11 @@ Wagon to Falkreath
 
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
+  <blockquote>
   Shack on the hill at the rear of the graveyard.
+  
+  Note: this refuge doesn't have a bed for the player.
+  </blockquote>
 </details>
 
 Read the Skill Books:
@@ -546,13 +560,15 @@ Narzulbur - East of Kynesgrive has a load of ebony you can mine for free.
 
 Make sure you start "research" from your spell research journal whenever you are "training" for bonus XP.
 
-For Destruction and restoration no fighting required, just jump in a forge and heal the fire effect. The fire dmg from forge give destruction xp and you heal yourself to earn restoration.
+** Always use your trainers every time you level **
+
+For Destruction and restoration no fighting required, just jump in a forge and heal the fire effect. The fire damage from forge give destruction xp and you heal yourself to earn restoration.
 
 For Restoration, Heal yourself using Heal Self I. Yes, first one, not rank II or higher, use the first one; also, use Turn Undead when possible, and specially Repel Undead when you face more than one enemy. 
 
 for Alteration - use Detect Life in a crowded area. Keep Transmute Muscles, mage armor and mage coat active if you have the spells.
 
-For Conjouration - See a critter?  Soultrap and kill it. Bunnies, foxes, baby spiders, tiny mudcrabs are all none hostile and can be soultrapped for XP. Raise dead on anything you kill.
+For Conjuration - See a critter?  Soultrap and kill it. Bunnies, foxes, baby spiders, tiny mudcrabs are all none hostile and can be soultrapped for XP. Raise dead on anything you kill.
 
 For Illusion - go to a Inn and cast Lionheart on people. the higher the level the more XP you get. Keep Darkvision up. those critters you are soul trapping for conjouration, use you illusion spells on those too.
 
