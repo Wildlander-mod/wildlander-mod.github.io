@@ -173,7 +173,7 @@ One by the eastern wall of Whiterun on a hill.
 
 Proceed north along the road and let the guards kill the 3 bandits that spawn. Loot their corpses.
 
-One right at top of watchtower, run up the ramp, jump down onto the archway, then acrosss to the other tower. for Thieves there is also a locked chest next to the ramp near the archway (but best grab this while guards are distracted by the bandits)
+One right at top of watchtower, run up the ramp, jump down onto the archway, then across to the other tower. for Thieves there is also a locked chest next to the ramp near the archway (but best grab this while guards are distracted by the bandits)
 
 |Map|chest|
 |--|--|
