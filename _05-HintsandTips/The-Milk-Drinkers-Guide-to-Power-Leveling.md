@@ -51,12 +51,16 @@ if starting at Helgen Border - do not enter the abandoned outpost, at the bottom
 
 <details>
   <summary>Spoiler warning: chest location </summary>
+  
+<div class="Info" markdown="1">
 
-<img src="https://user-images.githubusercontent.com/26418143/175818716-b269ad07-7e5e-44f3-bc49-ae7faee80010.png>
+![image](https://user-images.githubusercontent.com/26418143/175818716-b269ad07-7e5e-44f3-bc49-ae7faee80010.png)
 
-<img src="https://user-images.githubusercontent.com/26418143/175818753-2f413671-cf93-4e8d-8b04-dd8cf0bd16c7.png>
+![image](https://user-images.githubusercontent.com/26418143/175818753-2f413671-cf93-4e8d-8b04-dd8cf0bd16c7.png)
 
-<img src="https://user-images.githubusercontent.com/26418143/175818791-e7dec4be-3bff-418f-a304-e050ce725989.png>
+![image](https://user-images.githubusercontent.com/26418143/175818791-e7dec4be-3bff-418f-a304-e050ce725989.png)
+
+</div>
 
 </details>
 
@@ -151,30 +155,34 @@ Shopping list before leaving whiterun:- Backpack, Iron lantern, Tent and a set o
 If you're feeling brave, head north from Whiterun and collect Four treasure chests; 
 <details>
   <summary>Spoiler warning: chest locations </summary>
+  
+<div class="Info" markdown="1">
 
 One to the east by the river with mudcrabs (watch for wolves and bears and sabre cats) 
 |Map|chest|
 |--|--|
-<img src="https://user-images.githubusercontent.com/26418143/162266243-1907d03e-ca94-46b3-b8ec-2315ef125160.png> | <img src="https://user-images.githubusercontent.com/26418143/162266335-c37dfb00-2761-4212-88ca-c5448cd9c7d7.png>
+![image](https://user-images.githubusercontent.com/26418143/162266243-1907d03e-ca94-46b3-b8ec-2315ef125160.png) | ![image](https://user-images.githubusercontent.com/26418143/162266335-c37dfb00-2761-4212-88ca-c5448cd9c7d7.png)
 
 
 One by the eastern wall of Whiterun on a hill. 
 |Map|chest|
 |--|--|
-<img src="https://user-images.githubusercontent.com/26418143/162266129-d2d32372-5df8-489a-bea8-cf09d7027776.png"| <img src="https://user-images.githubusercontent.com/26418143/162266590-bb2f7603-3116-421e-9968-b75210f2221f.png"
+![image](https://user-images.githubusercontent.com/26418143/162266129-d2d32372-5df8-489a-bea8-cf09d7027776.png)| ![image](https://user-images.githubusercontent.com/26418143/162266590-bb2f7603-3116-421e-9968-b75210f2221f.png)
 
 Proceed north along the road and let the guards kill the 3 bandits that spawn. Loot their corpses.
 
 One right at top of watchtower, run up the ramp, jump down onto the archway, then acrosss to the other tower. for Thieves there is also a locked chest next to the ramp near the archway (but best grab this while guards are distracted by the bandits)
 |Map|chest|
 |--|--|
-<img src="https://user-images.githubusercontent.com/26418143/163710750-2647dd80-6d2b-4594-be51-5092f55a63a8.png"| <img src="https://user-images.githubusercontent.com/26418143/163710737-d552862a-b744-4019-a3ac-8a773d72fc29.png"
+![enb2022_4_17_11_29_30](https://user-images.githubusercontent.com/26418143/163710750-2647dd80-6d2b-4594-be51-5092f55a63a8.png)| ![enb2022_4_17_11_29_26](https://user-images.githubusercontent.com/26418143/163710737-d552862a-b744-4019-a3ac-8a773d72fc29.png)
 
 
 Then proceed up the hill to the west to find the 4th and final chest. 
 |Map|chest|
 |--|--|
-<img src="https://user-images.githubusercontent.com/26418143/162266891-6a223106-29eb-45c9-aac3-a60cead58813.png"| <img src="https://user-images.githubusercontent.com/26418143/162266816-e66c5209-0c4d-4ef5-aa87-937045dd2737.png"
+|![image](https://user-images.githubusercontent.com/26418143/162266891-6a223106-29eb-45c9-aac3-a60cead58813.png)| ![image](https://user-images.githubusercontent.com/26418143/162266816-e66c5209-0c4d-4ef5-aa87-937045dd2737.png)
+
+</div>
 </details>
 
 Continue to Lorius' farm and convince him to help Cicero for free speech experience.
@@ -415,9 +423,12 @@ Dawnstar doesnt have any "easy quests" So Wagon to Winterhold.
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
 
+<div class="Info" markdown="1">
   At the rear on the frozen hearth, in the ruined part of town. Well near a wall overlooking the sea.
   
-  <img src="https://user-images.githubusercontent.com/26418143/163603544-bc42dd69-364a-4147-8169-0bb663eb7252.png>
+  ![enb2022_4_15_18_43_37](https://user-images.githubusercontent.com/26418143/163603544-bc42dd69-364a-4147-8169-0bb663eb7252.png)
+  
+</div>
 
 </details>
 
