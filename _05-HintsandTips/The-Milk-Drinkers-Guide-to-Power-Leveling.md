@@ -159,12 +159,14 @@ If you're feeling brave, head north from Whiterun and collect Four treasure ches
 <div class="Info" markdown="1">
 
 One to the east by the river with mudcrabs (watch for wolves and bears and sabre cats) 
+
 |Map|chest|
 |--|--|
 ![image](https://user-images.githubusercontent.com/26418143/162266243-1907d03e-ca94-46b3-b8ec-2315ef125160.png) | ![image](https://user-images.githubusercontent.com/26418143/162266335-c37dfb00-2761-4212-88ca-c5448cd9c7d7.png)
 
 
 One by the eastern wall of Whiterun on a hill. 
+
 |Map|chest|
 |--|--|
 ![image](https://user-images.githubusercontent.com/26418143/162266129-d2d32372-5df8-489a-bea8-cf09d7027776.png)| ![image](https://user-images.githubusercontent.com/26418143/162266590-bb2f7603-3116-421e-9968-b75210f2221f.png)
@@ -172,12 +174,14 @@ One by the eastern wall of Whiterun on a hill.
 Proceed north along the road and let the guards kill the 3 bandits that spawn. Loot their corpses.
 
 One right at top of watchtower, run up the ramp, jump down onto the archway, then acrosss to the other tower. for Thieves there is also a locked chest next to the ramp near the archway (but best grab this while guards are distracted by the bandits)
+
 |Map|chest|
 |--|--|
 ![enb2022_4_17_11_29_30](https://user-images.githubusercontent.com/26418143/163710750-2647dd80-6d2b-4594-be51-5092f55a63a8.png)| ![enb2022_4_17_11_29_26](https://user-images.githubusercontent.com/26418143/163710737-d552862a-b744-4019-a3ac-8a773d72fc29.png)
 
 
 Then proceed up the hill to the west to find the 4th and final chest. 
+
 |Map|chest|
 |--|--|
 |![image](https://user-images.githubusercontent.com/26418143/162266891-6a223106-29eb-45c9-aac3-a60cead58813.png)| ![image](https://user-images.githubusercontent.com/26418143/162266816-e66c5209-0c4d-4ef5-aa87-937045dd2737.png)
