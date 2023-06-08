@@ -73,7 +73,7 @@ In Wildlander, both NPC's followers and horses can drink potions from their inve
 
 The horse is treated as though it is a follower, and when its low on stamina or health can and does drink potions from its inventory
 
-### NPC's added by mods dont have voicelines or are immersion breaking.
+### NPC's added by mods dont have voice lines or are immersion breaking.
 
 Unfortunately - this would require a great deal of effort to replace the voice lines and dialog so they fit.
 
@@ -112,7 +112,7 @@ None of these are actually bugs - but i'm including them here to hopefully preve
 ## Camera Issues
 
 1. Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
-1. Whenever I open a crafting station such as an enchantment table, alchemy lab, cooking pot, etc., for the second time in the same cell, the menu doesn't load and I'm stuck.have to save exit and restart the game to fix
+1. Whenever I open a crafting station such as an enchantment table, alchemy lab, cooking pot, etc., for the second time in the same cell, the menu doesn't load and I'm stuck. You have to save, exit and restart the game to fix
 
 ---
 
@@ -141,6 +141,24 @@ You can force the horse to equip armor by the following process.
 {: .console}
 >
 > equipitem baseID 1 
+
+** Owned items become free to take **
+
+This is caused by a INI setting called "faction stealing" inside of Po3 Tweaks. It states that you can only take items when you are friends with all members of a faction present. 
+
+Unfortunately - this setting allows you take items when *no* members of a faction are present. 
+
+you can correct this behavior by changing game-files\mods\Wildlander\SKSE\Plugins\po3Tweaks.ini and changing the below setting to False.
+
+{: .iniSetting}
+>[Tweaks]
+>
+>
+>;Items will be marked stolen until player is friendly with all present members of faction.
+>
+>Faction Stealing = true
+
+
 
 ---
 
