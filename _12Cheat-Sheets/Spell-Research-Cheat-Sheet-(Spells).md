@@ -252,7 +252,7 @@ Poison Rune|Restoration|Fire & Forget|Adept|Location <br> AOE| |Construct <br> P
 Powerful Healing Aura on Self |Restoration |Fire & Forget|Expert |Self |Curing| Health |
 Powerful Healing Aura on Target |Restoration |Fire & Forget|Expert |Self |Curing| Health |
 Protection from Poison on Self |Restoration |Fire & Forget|Apprentice |Self |Strengthen| Poison <br>  Resistance |
-Protection from Poison on Target |Restoration |Fire & Forget|Apprentice |Self |Strengthen| Poison <br>  Resistance |
+Protection from Poison on Target |Restoration |Fire & Forget|Adept |Self |Strengthen| Poison <br>  Resistance |
 Repel Undead (Rank I) |Restoration |Fire & Forget|Adept |Self <br> AOE|Fear| Undead |
 Repel Undead (Rank II) |Restoration |Fire & Forget|Expert |Self <br> AOE|Fear| Undead |
 Repel Undead (Rank III) |Restoration |Fire & Forget|Master |AOE|Fear| Fire <br>  Undead |
