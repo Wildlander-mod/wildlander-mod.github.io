@@ -174,6 +174,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
 |Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
 
+***
+
 </div>
 </details>
 
@@ -186,11 +188,13 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Race/Class |Female Nord Warrior |Location |Honeyside, Riften
 |Level Min/Max |10/None|Prerequisite |Thane of The Rift 
 |Blades |Yes|Marriage |Yes|Steward |Yes|RefID |000A2C93
+
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
  
@@ -208,9 +212,11 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties.
 |War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
+
 ***
+
 </div>
 </details>
 
@@ -220,6 +226,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p> 
+
 |Race/Class |Female Nord Warrior |Location |Proudspire Manor, Solitude
 |Level Min/Max |10/None|Prerequisite |Thane of Haafingar
 |Blades |Yes|Marriage |Yes
@@ -249,6 +256,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+
+***
 
 </div>
 </details>
@@ -289,7 +298,9 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+
 ***
+
 </div>
 </details>
 
@@ -310,6 +321,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 
@@ -329,6 +341,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Flurry II|One-handed and unarmed attacks are 25% faster.
+
+***
 
 </div>
 </details>
@@ -353,6 +367,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 
@@ -409,6 +424,9 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <details>
  <summary> Brelyna </summary>
+
+<div class="Info" markdown="1"> 
+<p class="text-gamma">Info</p> 
 
 | Race/Class |Female Dunmer Mystic |Location |Hall of Attainment 
 | Level Min/Max |1/30 |Prerequisite |Brelyna's Practice
@@ -547,6 +565,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Arcane Ward (Rank II)
 |Healing Hands (Rank II)
 |Turn Undead (Rank II)
+
 ***
 
 </div>
@@ -842,6 +861,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -898,6 +918,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1242,6 +1263,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1313,6 +1335,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1395,6 +1418,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experience Blocking
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1464,6 +1488,7 @@ Unique
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -1504,7 +1529,9 @@ Unique
 
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
- 
+
+***
+
 </div>
 </details>
 
@@ -1524,6 +1551,8 @@ Unique
 <p class="text-gamma">Perks</p>
 
  None
+
+***
 
 </div>
 </details>
@@ -1617,6 +1646,9 @@ Unique
 <details>
  <summary> Ahtar the Jailer </summary>
  
+<div class="Info" markdown="1"> 
+<p class="text-gamma">Info</p>
+
 |Race/Class |Nord Warrior|Location |Solitude
 |Level Min/Max |1/30 |Prerequisite |Kill the Bandit Leader
 |Blades |Yes|Marriage |No
@@ -1875,6 +1907,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -2252,6 +2285,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -2388,7 +2422,8 @@ Unique
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Magic Resistance III |Gain 30% Magic Resist
  
- Conjudation
+<p class="text-delta">Cojuration</p>
+
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
  
@@ -2472,7 +2507,8 @@ Unique
 
 <p class="text-gamma">Perks</p>
  
- Alchemy
+<p class="text-delta">Alchemy</p>
+
 |Immunization | Gain +50% Disease Resist and +25% Poison Resist.
  
 <p class="text-delta">Block</p>
