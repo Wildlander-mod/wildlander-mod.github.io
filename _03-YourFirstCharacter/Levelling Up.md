@@ -94,6 +94,9 @@ Notes:
 
 ### Skill Usage Table
 
+{: .important}
+> If your skill is zero for a specific skill, you cannot level it up by any method other than training. You need to visit a trainer  get to 1 skill before you can use any of the below methods.
+
 Skill	|Skill Use Mult	| Sources of XP/Notes|
 |--|--|--|
 Speech	|0.36	|1 base XP per gold used in transactions. <br> 75 * Speech level base XP for passing Speech checks.
@@ -151,8 +154,6 @@ Processing dead animals levels this skill up.
 
 Skill books in your inventory can be studied. These will give you training for however long you study for. 
 
-{: .important}
-> If your skill is zero for a specific skill, you cannot level it up by studying. You need to use a alternate method of training to get to 1 skill before you can use books.
 
 ## Research
 
