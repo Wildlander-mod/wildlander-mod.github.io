@@ -7,17 +7,17 @@ has_children: false
 ---
 
 
-The following player attributes are calculated from your Health, Stamina or Magicka.  By investing level up points in the three main attributes, the player increases, not only the base value of these by 5 units at a time, but also the so-called derived attributes (DAs) by a certain amount. The current value of the DAs of a character can be seen in-game in Requiem's MCM menu.
+The following player attributes are calculated from your Health, Stamina or Magicka.  By investing level up points in the three main attributes, the player increases, not only the base value of these by 5 units at a time, but also the so-called derived attributes (DAs) by a certain amount. The current value of the DAs of a character can be seen in-game in Requiem's skills MCM menu.
 
 * Magic resistance
 * Magicka regeneration
 * Disease resistance
 * Poison resistance
 * Stamina regeneration
-* Unarmed damage
+* Unarmed Strength
 * Movement speed
 * Carry weight 
-* One-handed damage
+* One-handed damage (excluding daggers)
 * Two-handed damage
 * Bow/dagger/unarmed damage
 
@@ -79,14 +79,14 @@ In the table below: M, H, S stand for base magicka, health and stamina, respecti
 	<td>20% --- 40% --- 60%</td>
 </tr>
 <tr>
-	<td><strong>Bow/Xbow Damage</strong></td>
+	<td><strong>Bow/Xbow/Dagger/Unarmed Damage</strong></td>
 	<td>4x sqrt{Z - 150}</td>
 	<td>(20% H + 80% S) </td>
 	<td>175 --- 250 --- 375</td>
 	<td>20% --- 40% --- 60%</td>
 </tr>
 <tr>
-	<td><strong>Unarmed Damage</strong></td>
+	<td><strong>Unarmed Strength</strong></td>
 	<td>4x sqrt{Z - 110}</td>
 	<td>(50% H + 50% S) </td>
 	<td>135 --- 210 --- 335</td>
