@@ -313,6 +313,7 @@ If you don't HAVE followers, You can possibly solve it by either selling your ex
 > 
 
 to console yourself a replacement.
+
 --- 
 
 ### Crossbow Infinitely reloads
