@@ -118,7 +118,7 @@ None of these are actually bugs - but i'm including them here to hopefully preve
 
 ## Gameplay Issues
 
-** Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera. **
+**Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera.**
 
 The effect only lasts for the duration of this step and can be safely ignored.
 
@@ -142,7 +142,7 @@ You can force the horse to equip armor by the following process.
 >
 > equipitem baseID 1 
 
-** Owned items become free to take **
+**Owned items become free to take**
 
 This is caused by a INI setting called "faction stealing" inside of Po3 Tweaks. It states that you can only take items when you are friends with all members of a faction present. 
 
