@@ -36,14 +36,21 @@ If you have crashes which are not included in this list, they are repeatable and
 - A Link to your pastebin of the full crash log.
 - The version of Wildlander - as shown in the bottom left of the launcher.
 
+## Crashing on Startup
 
-## Crashing on Startup (before main menu appears) - no crash log
+### Before main menu appears - no crash log, with a launcher error.
+
+If this is your first run - then it maybe that the launcher installed a Updated version of c++ and the PC requires a reboot. 
+
+### Before main menu appears - no crash log, no launcher error
 
 Typically Caused by a corrupt plugin which is also master. Rerunning the Wabbajack installer choosing "overwrite install" will generally resolve these issues.
 
 Note: If you are running a customized build - this can also be caused by a missing Dependency of a mod you installed.
 
-## Crashing on Startup or Crashing on "new character" or on startup with a crashlog
+### With a crashlog with "BGSStoryManagerBranchNode" in the Possible relevant objects  
+
+May generate crashes with codes SkyrimSE.exe+132BEF or SkyrimSE.exe+1BF04F or SkyrimSE.exe+124243A (or others).
 
 {: .logfile}
 > Possible relevant objects (2)
@@ -52,12 +59,11 @@ Note: If you are running a customized build - this can also be caused by a missi
 > [ 188]    PlayerCharacter(FormId: 00000014, BaseForm: null)
 > }
 
+If you have played a character, exited to the menu and tried to create a new character. This is expected behavior. you should always restart the game before creating or switching characters.
 
-May generate crashes with codes SkyrimSE.exe+132BEF or SkyrimSE.exe+1BF04F
+If it is your first character after a clean install, then it could be caused by a mod or mods which didn't install correctly. Rerunning the Wabbajack installer choosing "overwrite install" will generally resolve these issues. 
 
-If you have played a character, exited to the menu and tried to create a new character. This is expected behavior. you should always restart the game before creating ro switching characters.
-
-If it is your first character after a clean install, then it could be caused by a mod which didn't install correctly. Rerunning the Wabbajack installer choosing "overwrite install" will generally resolve these issues.
+That that fails - then clean out the game-files folder (with the exception to the downloads folder) , make sure any "none-windows" 3rd-party anti-virus you have is turned off, the rerun wabbajack to re-do the install cleanly.
 
 ## Crashing while Playing your character
 

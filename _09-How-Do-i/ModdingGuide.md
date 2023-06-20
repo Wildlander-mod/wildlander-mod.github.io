@@ -33,8 +33,6 @@ For more general modding guides, we recommend [Lively's tutorials](https://githu
 
 ## Modding Basics
 
-**NEVER EVER** uninstall mods unless you are starting a new play-through.
-
 Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
 
 Vortex / Wyrebash / Loot have their place, that place is 2 billion miles away from Wildlander and should not be used.
@@ -43,6 +41,8 @@ Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE
 
 {: .important}
 > You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
+
+Finally read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-playthough.
 
 ### Important Terms
 
@@ -168,7 +168,6 @@ Things to check
 
 ## Can i Remove.....?
 
-
 The Wildlander mod itself has a lot of Master files (144 plugins) which cannot be disabled without removing all of the relevant records from wildlander.esp. 
 
 Files which are masters are required by the mod itself, and disabling the master will cause the game to crash.
@@ -179,8 +178,9 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 * Frostfall
 * Immersive Horses
 * Follower Live Package
+* Requiem is the core mod in this pack - It literally cannot be removed.
 
-Requiem is the core mod in this pack - It literally cannot be removed.
+For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
 
 ---
 
@@ -192,7 +192,6 @@ If your issue isnt listed - then the below resources may help you identify what 
 
 A quick guide to NetScriptFramework Error Codes <https://web.archive.org/web/20221118040759/https://www.nexusmods.com/skyrimspecialedition/articles/3031>
 More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
-
 
 -----
 ## Tools
@@ -273,8 +272,6 @@ The bible for the tool is located <https://tes5edit.github.io/docs/>
 
 ## Submitting Patches
 
-Should you wish to submit a single Patch you can do so here <https://forms.gle/D6zwQ9XiywDpqVfR7>
-
 Should you wish to submit a Guide containing multiple patches you can do so here <https://forms.gle/BFnvGTPpAhTYjw8q9>
 
 ## Guides
@@ -283,7 +280,7 @@ The discord is the best place to find assistance on how to add mods.
 
 There are a lot of Mods which have been confirmed working as plug and play. These are located in the confirmed-working channel on discord. In addition there is also discussion of how to add specific mods (including NSFW nude mods) in the Specific-mods-discussion channels.
 
-Discord staff do monitor these channels for bad advise and incorrect information. 
+Discord staff do monitor these channels for bad advice and incorrect information. 
 
 
 ### SkyrimUpscalerENBTestBuild for Wildlander
