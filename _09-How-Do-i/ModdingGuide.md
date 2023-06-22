@@ -314,11 +314,33 @@ Using multiple mods removes location mark on the map and makes camera to center 
 ### Experience + Requiem - Static Skill Levelling + Synthesis patcher installation guide
 
 **Submitted By**
-Hazarduss
+Hazarduss / Pittiwan1
 
 **What does the guide explain how to do?**
 
-A guide to install the mod Experience with the Requiem - Static Skill Levelling addon.
+Hello. This is an update of Hazarduss' illustrated guide to completely change the character advancement system, integrating Experience SE and (optionally) Static Skills add-on to Requiem/Wildlander through the tool Synthesis Patcher.
+
+If you use only Requiem - Experience SE:
+
+1 – Skills continue to advance with use.
+2 – But the skill advancement no longer contributes to your experience.
+3 – You can get the exp needed to level up (and earn perks) exclusively by completing quests, killing enemies, reading some books and discovering new locations.
+4 –The more powerful the opponent you defeat, the more XP you earn (a dragon counts more than a rabbit...)
+5 – All quests help increase your XP. This also includes Wildlander missives!
+6 – It is possible to remove skills from skill books (I kept them).
+
+If you use also Static Skills add-on:
+
+1 – Skills stop advancing with use.
+2 – When you level-up and sleep, you can choose where to allocate new skills points.
 
 **Link to the guide**
-<https://docs.google.com/document/d/1ybW3_zI60rtaCIDrKZIz_vNDzu-cXECO5sx6oMisS7U/edit>
+
+
+The updated guide is available at this link (thanks to Hazarduss for the beautiful work and for giving me the permission to publish it): <https://docs.google.com/document/d/1FPgt4w6hW2XYf_F4nOtjJ5thI9Hd_QALoQGIY4Rv12U/edit?usp=sharing>
+
+**Note**
+
+I think this mechanism, partly similar to that of 3Tweaks, fits very well to Requiem and especially Wildlander. In particular, I appreciated the way it values the missives and enhances the early game, which in my opinion is the best part of the Wildlander experience.
+
+I personally chose to add only Experience SE (without Static Skills) to my list, because I'm too fond of the concept of skills that improve with use since the days of Morrowind, and I didn't want to completely deprive myself of that. But it's probably just a sentimental thing
