@@ -226,7 +226,7 @@ Veil of Silence |Illusion|Fire & Forget|Expert |Self |Cloak <br> Control | Air |
 
 Spell|School|Cast Type|Spell Level|Target|Technique|Elements|Notes
 --|--|--|--|--|--|--|--|
-Arcane Disjunction (Rank I) |Restoration |Fire & Forget|Adept |Self |Curse| Arcane <br>  Resistance |
+Arcane Disjunction (Rank I) |Restoration |Fire & Forget|Adept |Actor |Curse| Arcane <br>  Resistance |
 Arcane Disjunction (Rank II) |Restoration|Concentration|Expert |Actor |Curse|Arcane <br> Resistance |
 Arcane Ward (Rank I) |Restoration|Concentration|Novice |Self ||Force <br> Shield |
 Arcane Ward (Rank II) |Restoration|Concentration|Apprentice |Self ||Force <br> Shield |
@@ -253,8 +253,8 @@ Powerful Healing Aura on Self |Restoration |Fire & Forget|Expert |Self |Curing| 
 Powerful Healing Aura on Target |Restoration |Fire & Forget|Expert |Self |Curing| Health |
 Protection from Poison on Self |Restoration |Fire & Forget|Apprentice |Self |Strengthen| Poison <br>  Resistance |
 Protection from Poison on Target |Restoration |Fire & Forget|Adept |Self |Strengthen| Poison <br>  Resistance |
-Repel Undead (Rank I) |Restoration |Fire & Forget|Adept |Self <br> AOE|Fear| Undead |
-Repel Undead (Rank II) |Restoration |Fire & Forget|Expert |Self <br> AOE|Fear| Undead |
+Repel Undead (Rank I) |Restoration |Fire & Forget|Adept |Actor <br> AOE|Fear| Undead |
+Repel Undead (Rank II) |Restoration |Fire & Forget|Expert |Actor <br> AOE|Fear| Undead |
 Repel Undead (Rank III) |Restoration |Fire & Forget|Master |AOE|Fear| Fire <br>  Undead |
 Shalidor's Mirror |Restoration |Concentration|Master |AOE|Control <br> Siphon|Arcane |Cannot be discovered via Spell research 
 Sunburst |Restoration |Fire & Forget|Adept |Self <br> AOE|| Sun |
