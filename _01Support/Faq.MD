@@ -113,7 +113,7 @@ Performance: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-
 
 ## Can I see the differences between Ultimate Skyrim and Wildlander?
 
-Yes - Click [Here](02-RecommendedReading\6-Changes-From-Ultsky)
+Yes - Click [Here](https://wiki.wildlandermod.com/02-RecommendedReading\6-Changes-From-Ultsky)
 
 ----------
 
@@ -188,7 +188,7 @@ No, by default You will need to install English Skyrim - Special Edition to Inst
 
 Backup any changes you have made to the modpack since your original install, as these will be lost. If you want to keep any mods you've added to your personal install, rename those mods to start with &#96;[NoDelete]&#96; to force Wabbajack to skip those files. 
 
-Then follow the instructions [here](..\..\09-How-Do-i\How-to-update)
+Then follow the instructions [here](https://wiki.wildlandermod.com\09-How-Do-i\How-to-update)
 
 The latest version will always be available <a href="https://www.wildlandermod.com/download" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for clean installations
 
@@ -339,7 +339,7 @@ The only part of Wildcat we use is the NPC AI - all other features are intention
 
 ### Can I see a list of Known issues
 
-Sure. Here's a [link](..\..\01Support\KnownIssues\).
+Sure. Here's a [link](https://wiki.wildlandermod.com\01Support\KnownIssues\).
 
 ----------
 
@@ -443,7 +443,7 @@ For 1.1 onwards: If you want to re-enable this functionality, then you can do so
 
 ### Why can't I run? / Why is my stamina going down for no reason?
 
-Requiem applies a stamina draining effect when you run and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](..\..\03-YourFirstCharacter\Stamina\) provides more detailed information.
+Requiem applies a stamina draining effect when you run and when you wear armor without the first perk in the Heavy Armor/Evasion tree. Running is the normal speed you move as if you aren't sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for 'X' seconds” effect and keep that buff up at all times. The wiki page [Stamina Management](https://wiki.wildlandermod.com\03-YourFirstCharacter\Stamina\) provides more detailed information.
 
 **NO, YOU CANNOT DISABLE IT, PLEASE DON'T ASK!**
 
@@ -451,7 +451,7 @@ Requiem applies a stamina draining effect when you run and when you wear armor w
 
 ### Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](04-WildlanderWorld\4-The-Divines\) for more information.
+Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-The-Divines/) for more information.
 
 ----------
 
@@ -520,7 +520,7 @@ In addition in 1.1.X – A SKSE mod disables fast travel around the map. This ca
 
 The game will pause if you are alt-tabbed out, including some load screens. Make sure the Skyrim window has focus!
 
-The primary cause for this is a insufficient [page file](02-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase it.
+The primary cause for this is a insufficient [page file](https://wiki.wildlandermod.com/02-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase it.
 
 Can also be caused by :
 - Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
@@ -851,6 +851,6 @@ The extract requires the following items/tools:
 
 ### How do I craft Healing Poultice?
 
-The Healing poultice [Guide](..\..\03-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
+The Healing poultice [Guide](https://wiki.wildlandermod.com/03-YourFirstCharacter\Health\#healing-poultice) explains the crafting method and requirements.
 
 
