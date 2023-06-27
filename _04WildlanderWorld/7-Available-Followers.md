@@ -2,21 +2,19 @@
 layout: default
 title: Followers and Mercenaries
 nav_order: 7
-
-
 has_toc: true
 ---
 
- 
-<details open markdown="block">
+{: .no_toc }
+<details markdown="block">
 <summary>
 Available Followers
 </summary>
+
 {: .text-epsilon }
 1. TOC
 {:toc}
 </details>
-
 
 
 ## FAQ
@@ -174,6 +172,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
 |Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
 
+***
+
 </div>
 </details>
 
@@ -186,11 +186,13 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Race/Class |Female Nord Warrior |Location |Honeyside, Riften
 |Level Min/Max |10/None|Prerequisite |Thane of The Rift 
 |Blades |Yes|Marriage |Yes|Steward |Yes|RefID |000A2C93
+
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
  
@@ -208,9 +210,11 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties.
 |War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
+
 ***
+
 </div>
 </details>
 
@@ -220,6 +224,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p> 
+
 |Race/Class |Female Nord Warrior |Location |Proudspire Manor, Solitude
 |Level Min/Max |10/None|Prerequisite |Thane of Haafingar
 |Blades |Yes|Marriage |Yes
@@ -249,6 +254,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-delta">One Handed</p>
 
 |Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+
+***
 
 </div>
 </details>
@@ -289,7 +296,9 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-delta">One Handed</p>
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+
 ***
+
 </div>
 </details>
 
@@ -310,6 +319,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 
@@ -329,6 +339,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
 |Flurry II|One-handed and unarmed attacks are 25% faster.
+
+***
 
 </div>
 </details>
@@ -353,6 +365,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 
@@ -409,6 +422,9 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <details>
  <summary> Brelyna </summary>
+
+<div class="Info" markdown="1"> 
+<p class="text-gamma">Info</p> 
 
 | Race/Class |Female Dunmer Mystic |Location |Hall of Attainment 
 | Level Min/Max |1/30 |Prerequisite |Brelyna's Practice
@@ -547,6 +563,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Arcane Ward (Rank II)
 |Healing Hands (Rank II)
 |Turn Undead (Rank II)
+
 ***
 
 </div>
@@ -788,7 +805,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
@@ -842,6 +859,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -898,6 +916,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1193,7 +1212,7 @@ Unique
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
@@ -1242,6 +1261,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1259,7 +1279,7 @@ Unique
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Lockpicking</p>
 
@@ -1313,6 +1333,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1321,7 +1342,7 @@ Unique
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
 |Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
-|Unstoppable Charge |Can now sprint with shield raised, knockig down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
+|Unstoppable Charge |Can now sprint with shield raised, knocking down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
  
 <p class="text-delta">Evasion</p>
 
@@ -1346,7 +1367,7 @@ Unique
 <p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Resotration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Apprentice Restoration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
 |Respite|Healing spells restore both health and stamina.
 |Mysticism|Spells that affect the Undead and Daedra are 10% more effective and last 25% longer.
@@ -1395,6 +1416,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experience Blocking
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1464,6 +1486,7 @@ Unique
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -1504,7 +1527,9 @@ Unique
 
 |Magic Resist|Fortify Magic Resist by 75%.
 |Stendarr's Blessing |Fortify Health 50pts and renders you immune to almost all magical draining effects.
- 
+
+***
+
 </div>
 </details>
 
@@ -1524,6 +1549,8 @@ Unique
 <p class="text-gamma">Perks</p>
 
  None
+
+***
 
 </div>
 </details>
@@ -1617,6 +1644,9 @@ Unique
 <details>
  <summary> Ahtar the Jailer </summary>
  
+<div class="Info" markdown="1"> 
+<p class="text-gamma">Info</p>
+
 |Race/Class |Nord Warrior|Location |Solitude
 |Level Min/Max |1/30 |Prerequisite |Kill the Bandit Leader
 |Blades |Yes|Marriage |No
@@ -1672,7 +1702,7 @@ Unique
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p>
  
-|Race/Class |Dumer Mage|Location |Shrine of Azura
+|Race/Class |Dunmer Mage|Location |Shrine of Azura
 |Level Min/Max |1/30 |Prerequisite |The Black Star (Side with Azura)
 |Blades |Yes|Marriage |No
 |Steward |No|RefID |00028AD1
@@ -1794,7 +1824,7 @@ Unique
 <p class="text-delta">Heavy Armor</p>
 
 |Conditioning |Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslight
+|Relentless Onslaught
 |Combat Training|Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
  
@@ -1875,6 +1905,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -1890,7 +1921,7 @@ Unique
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
@@ -2252,6 +2283,7 @@ Unique
 <p class="text-gamma">Perks</p>
  
 <p class="text-delta">Block</p>
+
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
@@ -2267,7 +2299,7 @@ Unique
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
@@ -2329,11 +2361,11 @@ Unique
 <p class="text-delta">Heavy Armor</p>
 
 |Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relenteless Onslaught
+|Relentless Onslaught
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
@@ -2388,7 +2420,8 @@ Unique
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Magic Resistance III |Gain 30% Magic Resist
  
- Conjudation
+<p class="text-delta">Conjuration</p>
+
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
  
@@ -2472,7 +2505,8 @@ Unique
 
 <p class="text-gamma">Perks</p>
  
- Alchemy
+<p class="text-delta">Alchemy</p>
+
 |Immunization | Gain +50% Disease Resist and +25% Poison Resist.
  
 <p class="text-delta">Block</p>
@@ -2659,7 +2693,7 @@ Unique
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Two Handed</p>
 
@@ -2985,7 +3019,7 @@ Unique
 |Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaught|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
  
 <p class="text-delta">Marksman</p>
 

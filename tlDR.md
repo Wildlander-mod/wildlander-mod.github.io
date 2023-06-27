@@ -19,7 +19,9 @@ For some shortcuts
 * [Known Issues & Workarounds](https://wiki.wildlandermod.com/01Support/KnownIssues/)
 * [FAQ](https://wiki.wildlandermod.com/01Support/Faq/)
 
-Support asks that you search the wiki before asking any questions. You can search the wiki using the searchbar pinned to the top of the right hand window. Just click and type your keywords
+Support asks that you search the wiki before asking any questions. Some pages however (E.G modlists, crafting, Armor, known issues) are hosted on Airtable - Which as better searching/filtering capabilities. So you will need to load those specific pages to search them. 
+
+For everything else, you can search the wiki using the searchbar pinned to the top of the right hand window. Just click and type your keywords.
 
 For web users you can search by entering your criteria here
 
