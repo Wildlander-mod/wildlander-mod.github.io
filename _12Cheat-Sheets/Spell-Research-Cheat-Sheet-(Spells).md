@@ -9,7 +9,9 @@ Note: There is a spell Dispel Soulgems, in the current version of Wildlander whi
 
 There are two spells treat others / Treat self which are for the disabled wound mechanics inside of wildcat. As these spells do nothing they are not included.
 
-Please keep in mind this list is not infallible, We can ONLY see what skills you get from studying a spell, you might only need some of the below to craft the spell. To craft any given spell the theses you use to try for it must match the level of the spell in question.
+Please keep in mind this list is not infallible, We can ONLY see what skills you get from studying a spell, you might only need some of the below to craft the spell. To craft any given spell the theses you use to try for it must match the level of the spell in question. In the cases where it says "self targeting" this can also be "actor targeting" So if you fail to get results with one thesis, try the other.
+
+
 
 ## Alteration
 
@@ -95,13 +97,13 @@ Summon Arvak |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning|Cr
 Summon Dremora Archer |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra |
 Summon Dremora Archmage |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra |
 Summon Dremora Lord |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra |
-Summon Flame Atronach |Conjuration |Fire & Forget|Adept |Self <br> Location|Control <br> Summoning|Daedra <br> Fire |
-Summon Flame Thrall |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra <br> Fire |Cannot be discovered via Spell research 
-Summon Flaming Familiar |Conjuration|Fire & Forget|Apprentice |Self <br> Location |Control|Creature <br> Fire <br> Soul |
-Summon Frost Atronach |Conjuration|Fire & Forget|Adept |Self <br> Location |Summoning <br> Control|Daedra <br> Frost |
-Summon Frost Thrall |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Daedra <br> Frost |Cannot be discovered via Spell research 
-Summon Ghostly Dragonpriest |Conjuration|Fire & Forget|Master |Self <br> Location |Summoning <br> Control|Human <br> Soul |
-Summon Ice Spirit |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning <br> Control|Creature <br> Soul |
+Summon Flame Atronach |Conjuration |Fire & Forget|Adept |Actor <br> Location|Control <br> Summoning|Daedra <br> Fire |
+Summon Flame Thrall |Conjuration|Fire & Forget|Master |Actor <br> Location |Summoning <br> Control|Daedra <br> Fire |Cannot be discovered via Spell research 
+Summon Flaming Familiar |Conjuration|Fire & Forget|Apprentice |Actor <br> Location |Control|Creature <br> Fire <br> Soul |
+Summon Frost Atronach |Conjuration|Fire & Forget|Adept |Actor <br> Location |Summoning <br> Control|Daedra <br> Frost |
+Summon Frost Thrall |Conjuration|Fire & Forget|Master |Actor <br> Location |Summoning <br> Control|Daedra <br> Frost |Cannot be discovered via Spell research 
+Summon Ghostly Dragonpriest |Conjuration|Fire & Forget|Master |Actor <br> Location |Summoning <br> Control|Human <br> Soul |
+Summon Ice Spirit |Conjuration|Fire & Forget|Expert |Actor <br> Location |Summoning <br> Control|Creature <br> Soul |
 Summon Seeker|Conjuration|Fire & Forget|Master|Location <br> Actor|Control <br> Summoning|Daedra|
 Summon Skeletal Archer |Conjuration|Fire & Forget|Apprentice |Self <br> Location |Control <br> Summoning |Undead |
 Summon Skeletal Hero |Conjuration|Fire & Forget|Apprentice |Self <br> Location |Control <br> Summoning |Undead |
