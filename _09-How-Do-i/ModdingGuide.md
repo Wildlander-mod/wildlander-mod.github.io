@@ -33,11 +33,15 @@ For more general modding guides, we recommend [Lively's tutorials](https://githu
 
 ## Modding Basics
 
+### General rules regardless of what you are changing
+
 Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
 
 Vortex / Wyrebash / Loot have their place, that place is 2 billion miles away from Wildlander and should not be used.
     
 Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE for anniversary editions WILL NOT WORK.
+
+If changing the load order the Reqtificator should be ran - no exceptions.
 
 {: .important}
 > You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
@@ -88,13 +92,13 @@ The Right side of the list is the plugins, these are the mods themselves contain
 If you have two Plugins which touch the same records then you need to make a decision, Which one should take priority. Or - If you want BOTH plugins to affect the record, then you will need a compatibility patch to combine both Plugin's records into 1. The panes are sorted by drag and drop. If you want to move a mod you click-drag it to where you want it on the load order.
 
 The profiles:-
-1. performance - This is the profile which runs if you select the performance modlist from the launcher.
+1. Performance - This is the profile which runs if you select the performance modlist from the launcher.
 1. Standard    - This is the standard modlist when ran from the launcher.
 1. Ultra/high/medium/low/potato - These are the deployment folders for the graphics settings. These should never be edited.
 
 {: .important}
 > 
-> If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified". E.G. Standard + Modified.
+> If you start modding make a copy of Wildlander profile and name it something like "$Original Wildlander Profile name+ Modified". E.G. "$Standard + Modified".
 > 
 > You will always be able to switch back to the original profile and load it that way in case you screw up badly.
 >
@@ -166,7 +170,7 @@ Things to check
 
 ---
 
-## Can i Remove.....?
+## Can I Remove.....?
 
 The Wildlander mod itself has a lot of Master files (144 plugins) which cannot be disabled without removing all of the relevant records from wildlander.esp. 
 
