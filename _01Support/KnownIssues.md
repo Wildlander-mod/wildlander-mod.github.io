@@ -271,11 +271,21 @@ The only reliable work around we have found (instead of rolling back to previous
 
 ### I've completed the main thieves guild quest, but now Brynjolf is stalking me!
 
-This is because one of the quests wasn't set to completed.
+This is because one of the quests wasn't set to completed. Its usually Tg03 so you can use the commands below to complete and then stop it.
 
 {: .console}
 >
 > completequest TG03
+>
+> stopquest tg03
+
+if he continues to stalk you then it will be either quests 1, 2 or 4 still running. Using the command "sqv tg01" to "sqv tg04" and stopping the quests still enabled with "stopquest tg01" - "stopquest tg04"  (example below)
+
+{: .console}
+>
+> sqv tg01
+>
+> stopquest tg01
 
 ---
 
