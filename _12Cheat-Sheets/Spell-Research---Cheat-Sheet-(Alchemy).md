@@ -20,6 +20,13 @@ Spell Research extends the alchemy/spell system with the introduction of magical
 
 Alchemy can be a much quicker way to gain experience about spell archetypes, however, it notoriously requires a large amount of material.
 
+{: .important}
+> 
+> Spell research alchemy is currently bugged in the main release (versions 1.1.11 or earlier). You can fix it by unzipping the below patches contents into Game-files\mods\Wildlander\scripts replacing existing files.
+>
+> [Patch](https://cdn.discordapp.com/attachments/979369135928643604/1069755050504761464/QuestScript.rar) 
+
+
 ## Getting started
 
 To start you will need one (or both) of the tools below

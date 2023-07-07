@@ -142,7 +142,7 @@ Firenova |Destruction|Fire & Forget|Expert |Self <br> AOE|| Fire |
 Firerune (Rank I) |Destruction |Fire & Forget|Apprentice |AOE <br> Location|| Construct <br>  Fire <br>  Trap |
 Firerune (Rank II) |Destruction |Concentration|||||Cannot be Researched, Cannot be discovered via Spell research 
 Fireshock |Destruction|Concentration|Expert |AOE|Telekinesis|Fire |
-Firesparks |Destruction|Concentration|Novice |Self ||Fire |
+Firesparks |Destruction|Concentration|Novice |Aimed ||Fire |
 Firestorm |Destruction|Fire & Forget|Master |AOE|| Fire |
 Firestrike |Destruction|Fire & Forget|Master |Self <br> AOE|| Fire |
 Firewall |Destruction|Concentration|Expert |Self <br> Location||Fire <br> Trap |
