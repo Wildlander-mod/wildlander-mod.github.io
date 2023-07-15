@@ -23,6 +23,7 @@ has_toc: true
 Both Armor and weapons within wildlander make tempering your equipment relevant.
 
 The higher the temper on the weapon, the more damage it does. 
+
 The higher the temper on the Armor, the more protection it does. 
 
 Tempering is shown in your inventory with a Tier description and a health number in brackets. ( currently disabled in 1.1.11 - but will be returning in next version)
@@ -36,10 +37,19 @@ Iequip icons on your UI can be edited to give a visual representation of how clo
 
 ![image](https://user-images.githubusercontent.com/26418143/162575241-b21c12f0-6c18-471f-b919-4bcdf9cfb0a1.png)
 
+## Known issues
+
+When a item changes condition, either via tempering or via degredation, any groups that that item was assigned to no longer functions.
+
+SkyUI uses SKSE to find the specific item (via CRC) to equip. changes to a weapon, either name or temper causes the CRC to change and prevents groups from functioning. There is nothing we can do to prevent the CRC from changing.
+
 
 ## Temper Tiers
 
 Temper tiers is based on the % health of your item, when compared to a newly crafted weapon at 100% health. Unless you are willing to utilize spell research to craft fortify Smithing potions, and have specific smithing gear enchanted with fortify smithing, and are at 100 Smithing skill - you should not expect masterwork or legendary temper tiers .
+
+{: .important}
+> Due to bugs - temper tiers in the current versions are disabled. They will be returning in 1.2
 
 Low%|High%|Label| Damage/protection of item
 |--|--|--|--|
