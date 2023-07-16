@@ -63,7 +63,7 @@ If you have played a character, exited to the menu and tried to create a new cha
 
 If it is your first character after a clean install, then it could be caused by a mod or mods which didn't install correctly. Rerunning the Wabbajack installer choosing "overwrite install" will generally resolve these issues. 
 
-That that fails - then clean out the game-files folder (with the exception to the downloads folder) , make sure any "none-windows" 3rd-party anti-virus you have is turned off, the rerun wabbajack to re-do the install cleanly.
+If that fails - then clean out the game-files folder (with the exception to the downloads folder) , make sure any "none-windows" 3rd-party anti-virus you have is turned off, the rerun wabbajack to re-do the install cleanly.
 
 ## Crashing while Playing your character
 
