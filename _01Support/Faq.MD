@@ -500,6 +500,11 @@ This is a vanilla Skyrim bug, which is exacerbated by the scripted mods in Wildl
 > SetPlayerAIDriven 0
 
 If you get stuck using a crafting table - this is generally caused by the 1st person camera mod (Improved Camera) and the only fix is to reload the game.
+----
+
+### Why can't Smelt ingots?
+
+You need the crafting perk to match the ingot you are trying to make.
 
 ----
 

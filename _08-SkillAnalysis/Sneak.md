@@ -11,13 +11,30 @@ Unperked your odds of being detected are tripled, and therefore you are guarante
 
 Wearing Heavy armor is the equivalent of trying to sneak up on someone while dragging a sack of cans behind you - Noisy and not going to happen.
 
-Lighting is much more important for staying hidden - Standing in front of / Near a fire in direct Line of sight to a enemy will cause you to be detected, as will wearing a lantern. 
+Lighting is much more important for staying hidden - Standing in front of / Near a fire in direct Line of sight to a enemy will cause you to be detected 100% of the time, regardless of skill, as will wearing a lantern. 
 
-Running while in stealth at low levels will cause you to be detected, toggle walk and keep to the shadows.
+The most important thing in the beginning is - walk sneak instead of run sneak (toggle caps lock). That way with one perk and some light armor, you can sneak up on most bandits from behind.
+
+After a sneak kill, and where there are other enemies around, wait for about 4-5 seconds before moving. If you don't do that, you'll get instantly detected. I think it has something to do with their alerted state. Same with doors - wait after opening, or you might get detected. This whole magical detection after sneak kill / opening a door is so bad in my opinion... it makes sneaking much harder and way more random, since this detection isn't consistent - sometimes you get away with it, sometimes you don't. 
+
+If you want to be a truly efficient assassin, invest in invisibility potions -  Why? After you sneak kill, you can pop a potion immediately after you kill the enemy, and 20-40s is plenty of time to wait those stupid 4.5 seconds and then go for a next kill. It might be exploit-y, but If you're lucky you can even pop an enemy which is observed, but you won't get detected if you do drinking fast enough ;) 
+
+What about illusion spells? They are good, so by all means use muffle and potions for invisibility -> later on you get shadow stride, which is muffle + invisibility combined. But the downside, it's loud to cast, so you need Rune of Dampening. But sustaining stride in combat is very taxing on magicka (you regenerate 0.33 of your normal regen in combat, so even if enemies didn't detect you yet).. Muffled boots + perk + spell should allow you to sneak behind Falmers even in front of them, and Vampires. 
+
+Finally - When enemies are looking for you, try to move when they are not looking in your direction. Even in the shadows, their meter will go up if you do that. So, wait till they turn their backs on you - it shouldn't make the sneak metre open. Of course, if you play without UI at all, it's much more challenging, but definitely doable.
 
 ### Sleeping Targets
 
 You deal 100x more damage to a sleeping target.
+
+### Sneak detection
+
+Some enemies will detect you regardless of your sneak skill due to a specific perk they have "better than X-ray vision"
+
+* "Boss" Vampires
+* "Boss" Warlocks
+* Hagravens
+* Lu'ah Al-Skaven
 
 ### Sneak Attack Immune
 
