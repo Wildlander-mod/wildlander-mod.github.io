@@ -449,6 +449,21 @@ Workaround: Restart Skyrim
 
 If you are having a issue for a civil war quest - please check <a href="https://en.uesp.net/wiki/Main_Page" target="_blank" rel="noopener noreferrer">UESP WIki <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> - there maybe a work around here.
 
+#### Rikke keeps asking me if i'm lost when trying to join the imperials
+
+This can happen if "joining the imperial legion" quest is at a incorrect stage.
+
+{: .console}
+>
+> sqv D3C5F
+
+if its not stage 20
+then
+
+{: .console}
+>
+> setstage D3C5F 20
+
 ## Bugs with At the Summit of Apocrypha
 
 * Unfortunately - this was also a bethesda scripted mess - There is precious little Wildlander Staff can do to resolve the issues.
