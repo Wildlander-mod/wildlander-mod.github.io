@@ -42,7 +42,7 @@ Before diving into that, here are some basic things to cover first:
 
 Now that you've got your very own equestrian collection, let's talk a little about the most trouble-free ways of getting your followers to ride with you on adventures.
 
-FollowerLivePackage does include a option to have followers have horses, however investigations have found that this causes CTD's of type "6441D0". Therefore this option should never under any circumstances be used. Therefore the only mechanics available is to buy a horse, and add it to your herd, then allocating it to your follower.
+FollowerLivePackage does include a option to have followers have horses, however investigations have found that this causes CTD's of type "6441D0". Therefore this option should never under any circumstances be used. Therefore the only mechanics available is to buy a horse, and add it to your herd, then allocating it to "my team" as above.
 
 The mounting of their horses by your followers (you do have one horse per follower, right?) is a little clunky.  Depending on how far away from his or her chosen horse your follower is, them mounting up may take a second or up to ten seconds or more.  Just be patient.  Eventually all your followers will "find" a horse in your collection, mount up, and start following you.  You did remember to set each of your additional horses' Ownership to My Team, right?  It appears that the actual combination of who mounts whom (ahem) is random; I don't think there's any way to permanently assign Erandur to Cinnamon, for example.
 
