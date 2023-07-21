@@ -82,6 +82,8 @@ Conjure Shelter (Rank I)|Conjuration |Fire & Forget|Expert |Actor <br> Location 
 Conjure Shelter (Rank 2)|Conjuration |Fire & Forget|Master|Actor <br> Location |Summoning|Construct <br> Nature <br> Soul|
 Command Daedra |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning <br> Control|Daedra |
 Mark & Recall |Conjuration|Fire & Forget|Expert |Self <br> Location |Summoning||
+Necromantic Empowerment on Self |Conjuration|Concentration|Apprentice|Actor |Curing|Health <br> Undead |
+Necromantic Empowerment on Target |Conjuration |Concentration|Apprentice |Actor|Curing|Health <br> Undead |
 Raise Dead (Rank I) |Conjuration |Fire & Forget|Novice |Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Human <br> Soul <br> Undead |
 Raise Dead (Rank II) |Conjuration|Fire & Forget|Apprentice |Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Human <br> Soul <br> Undead |
 Raise Dead (Rank III) |Conjuration|Fire & Forget|Adept|Self |Infuse <br> Control <br> Summoning |Creature <br> Flesh <br> Soul <br> Undead |
@@ -248,8 +250,6 @@ Healing Hands (Rank II) |Restoration |Fire & Forget|Adept |Self |Curing| Creatur
 Healing Hands (Rank III) |Restoration |Fire & Forget|Expert |Self <br> AOE|Curing| Creature <br>  Health <br>  Human |
 Healing Ray |Restoration|Concentration|Adept |Self |Curing|Creature <br> Health <br> Human |
 Kindle|Restoration|Fire & Forget|Adept |Self||Fire <br> Nature |
-Necromantic Empowerment on Self |Restoration |Fire & Forget|Adept |Self |Curing|Health <br> Undead |
-Necromantic Empowerment on Target |Restoration |Concentration|Apprentice |Actor|Curing|Health <br> Undead |
 Poison Rune|Restoration|Fire & Forget|Adept|Location <br> AOE| |Construct <br> Poison <br> Trap>|
 Powerful Healing Aura on Self |Restoration |Fire & Forget|Expert |Self |Curing| Health |
 Powerful Healing Aura on Target |Restoration |Fire & Forget|Expert |Self |Curing| Health |
