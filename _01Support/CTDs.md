@@ -226,6 +226,13 @@ Fix: reload and redo.
 The crash logs for this that we have seen are all in different locations, with different NPC's. Its not reproducible on demand.
 
 Fix: reload and continue playing from last save.
+---
+
+### FLP Horse Random crash - (SkyrimSE.exe+6441D0)
+
+Caused by you enabling "Follower horses" in the FLP MCM. This is known to cause crashes either during mounting or dismounting. It is why it is disabled by default.
+
+Fix: Turn it off. 
 
 ---
 ### Istar Cairn-Breaker crash (SkyrimSE.exe+21FFE3)
