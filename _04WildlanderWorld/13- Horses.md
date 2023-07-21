@@ -12,6 +12,9 @@ A horse is one of the best early investments in the game as it's essentially a m
 {: .important}
 Your horse is not immortal by default, so it is good advise to place down a crafted chest, and remove the inventory from your horse into this chest if you are leaving your horse unattended. As your horse can be killed while you are inside buildings/dungeons/caves/forts if you haven't checked the area for hostiles before entering.
 
+
+
+
 ## Horse Management
 
 #### Guide by: Just plain old Crispy
@@ -27,7 +30,7 @@ Before diving into that, here are some basic things to cover first:
 1. With your first horse, you now have access to a very valuable resource, its own inventory.  Horses can generally carry a lot of items; the exact weight limit they can deal with varies by horse, but its value can be accessed through the Immersive Horses menu under that horse's Stats section.  A convenient way to quickly access your horse's inventory is to be relatively close to it then to hit the 'U' key.  You can even store your own storage containers (barrels, chests) in your horse's inventory, which is especially handy when it comes to the weight of all those thousands of Septims you've earned.  As far as I know, horse inventory is completely safe (with the exceptions to potions which the horse will use if low on health or stamina), AS LONG AS YOUR HORSE IS SAFE.  So be careful when leaving it out in the wilderness.
 
 1.  Adding more horses to your own herd is as simple as repeating the above process.  I do recommend buying all of your mounts, because as far as I know the purchasable horses are probably more reliable, but it's not required.  In any case, it is highly recommended, once you do own more than one horse, to go into those additional horses' Immersive Horses menu (crouch, hit 'E') and set the following:
-* Under Manage Horses, then (Your new horse's name), Change Ownership, 			set the ownership of your new horse to My Team.  This allows any of your 			followers to be able to ride it once you mount up.
+* Under Manage Horses, then (Your new horse's name), Change Ownership, set the ownership of your new horse to My Team.  This allows any of your followers to be able to ride it once you mount up.
 * Also under Manage Horses, change your horse's Aggression to Unaggressive 			(highly recommended)
 * Check to make sure Confidence is set to Average.  This prevents your horse 			from bolting as soon as you encounter a mudcrab.
 
@@ -38,6 +41,8 @@ Before diving into that, here are some basic things to cover first:
 ### Horses and Followers
 
 Now that you've got your very own equestrian collection, let's talk a little about the most trouble-free ways of getting your followers to ride with you on adventures.
+
+FollowerLivePackage does include a option to have followers have horses, however investigations have found that this causes CTD's of type "6441D0". Therefore this option should never under any circumstances be used. Therefore the only mechanics available is to buy a horse, and add it to your herd, then allocating it to "my team" as above.
 
 The mounting of their horses by your followers (you do have one horse per follower, right?) is a little clunky.  Depending on how far away from his or her chosen horse your follower is, them mounting up may take a second or up to ten seconds or more.  Just be patient.  Eventually all your followers will "find" a horse in your collection, mount up, and start following you.  You did remember to set each of your additional horses' Ownership to My Team, right?  It appears that the actual combination of who mounts whom (ahem) is random; I don't think there's any way to permanently assign Erandur to Cinnamon, for example.
 
