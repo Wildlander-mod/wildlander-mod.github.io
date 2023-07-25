@@ -39,17 +39,22 @@ Iequip icons on your UI can be edited to give a visual representation of how clo
 
 ## Known issues
 
-When a item changes condition, either via tempering or via degredation, any groups that that item was assigned to no longer functions.
+**SkyUI group hotkeys not working after weapon is tempered**
 
-SkyUI uses SKSE to find the specific item (via CRC) to equip. changes to a weapon, either name or temper causes the CRC to change and prevents groups from functioning. There is nothing we can do to prevent the CRC from changing.
+This is caused by a mod conflict -  For this function to work properly, you need to disable (from MO2) the mod "Improvement Names Customized SSE". Simply untick this mod in MO2, it is in the left side.
+
+What this will do
+* Allow tempered weapon / armor groups to work.
+* re-enable tempered descriptions (e.g Well-made)
+
+What it will not do
+* Keep items in groups when you temper or they degrade - you will simply need to re add them to the group.
+* Show the "numeric" health of the weapon/armor
 
 
 ## Temper Tiers
 
-Temper tiers is based on the % health of your item, when compared to a newly crafted weapon at 100% health. Unless you are willing to utilize spell research to craft fortify Smithing potions, and have specific smithing gear enchanted with fortify smithing, and are at 100 Smithing skill - you should not expect masterwork or legendary temper tiers .
-
-{: .important}
-> Due to bugs - temper tiers in the current versions are disabled. They will be returning in 1.2
+Temper tiers is based on the % health of your item, when compared to a newly crafted weapon at 100% health. Unless you are willing to utilize spell research to craft fortify Smithing potions (from elixers), and have specific smithing gear enchanted with fortify smithing, and are at 100 Smithing skill - you should not expect masterwork or legendary temper tiers .
 
 Low%|High%|Label| Damage/protection of item
 |--|--|--|--|
@@ -64,7 +69,12 @@ Low%|High%|Label| Damage/protection of item
 331|450|First Rate|24-35 Bonus Damage/Armor
 451|570|Exquisite| 36-47 Bonus Damage/Armor
 571|690|Master Work|48-59 Bonus Damage/Armor 
-700|Onwards|Legendary| 60 Bonus Damage/Armor Minumum
+700|Onwards|Legendary| 60 Bonus Damage/Armor Minimum
+
+How do you improve Temper tiers that you can do?
+* Improve your skill.
+* Pick up the smithing perk for the materiel you are working with.
+* Use Elixirs of fortify smithing & enchanted gear.
 
 ## Degrade Rules 
 
