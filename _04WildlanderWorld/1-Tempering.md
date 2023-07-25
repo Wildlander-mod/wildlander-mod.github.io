@@ -75,6 +75,7 @@ How do you improve Temper tiers that you can do?
 * Improve your skill.
 * Pick up the smithing perk for the materiel you are working with.
 * Use Elixirs of fortify smithing & enchanted gear.
+* have the advanced & legendary blacksmith perks.
 
 ## Degrade Rules 
 
