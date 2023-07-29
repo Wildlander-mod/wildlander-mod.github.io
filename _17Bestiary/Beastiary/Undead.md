@@ -27,8 +27,8 @@ description: Undead - Shouts, Spells, Stats
 
 | Type | Damage change |
 |--|--|
-|Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
-|Silver (Arrows)     | 100% Damage Done (after armor Mitigation) |
+|Silver (Melee)      | 150% Damage Done  |
+|Silver (Arrows)     | 100% Damage Done  |
 |Standard (Arrows)   | 10% damage |
 
 
@@ -577,8 +577,8 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 
 | Type | Damage change |
 |--|--|
-|Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
-|Silver (Arrows)     | 100% Damage Done (after armor Mitigation) |
+|Silver (Melee)      | 150% Damage Done |
+|Silver (Arrows)     | 100% Damage Done |
 |Standard (Arrows)   | 10% damage |
 
 *Weapon Protection*
@@ -806,8 +806,8 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 
 | Type | Damage change |
 |--|--|
-|Silver (Melee)      | 150% Damage Done (after armor Mitigation) |
-|Silver (Arrows)     | 100% Damage Done (after armor Mitigation) |
+|Silver (Melee)      | 150% Damage Done  |
+|Silver (Arrows)     | 100% Damage Done  |
 |Standard (Melee)    | 10% damage |
 |Standard (Arrows)   | 10% damage |
 
@@ -1063,6 +1063,7 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
+|Silver (Arrows)     | 100% |
 |Standard (Arrows)   | 20% |
 
 ### Corrupted Shade
@@ -1154,6 +1155,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
+|Silver (Arrows)     | 100% |
 |Standard (Arrows)   | 20% |
 
 *Weapons*
@@ -1415,6 +1417,7 @@ Black skeleton warriors found in the Soul Cairn. You can summon them after learn
 | Type | Damage change |
 |--|--|
 |Silver (Melee)      | 150% |
+|Silver (Arrows)     | 100% |
 |Standard (Arrows)   | 20% |
 
 *Resistances*
@@ -1455,7 +1458,8 @@ Vampires (like bandits) have too manu variations of Health/Magic/Stamina to list
 
 | Type | Damage change |
 |--|--|
-|Silver (Melee)      | 150% |
+|Silver (Melee)      | 150% Damage Done |
+|Silver (Arrows)     | 100% Damage Done |
 |Standard (Arrows)   | 33% |
 
 *Basic Stats*
