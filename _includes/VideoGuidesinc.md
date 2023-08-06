@@ -6,22 +6,7 @@
 
 {% include Liams_Guides.md %}
 
-## SuicidalKillers's Guides
-
-<iframe class="yt-embed" width="640" height="360" src="https://www.youtube.com/embed/WGgdrPp8ZYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe class="yt-embed" width="640" height="360"  src="https://www.youtube.com/embed/xSGatpwdFFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe class="yt-embed" width="640" height="360"  src="https://www.youtube.com/embed/jBgwUCvgAK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe class="yt-embed" width="640" height="360"  src="https://www.youtube.com/embed/Ga7QLIR1X-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe class="yt-embed" width="640" height="360" src="https://www.youtube.com/embed/aUbIsExtMfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## SuicidalKillers's Guides Playlist
 
 
-#### Wildlander Guide to Monsters, Animals & Humanoids
-
-<iframe class="yt-embed" width="640" height="360"   src="https://www.youtube.com/embed/QZHdu0-GrOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe class="yt-embed" width="640" height="360"" src="https://www.youtube.com/embed/eQnTZ3OBREU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe class="yt-embed" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0u4Quduni2DsGtZSGMcLDsW4LtPvyiaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
