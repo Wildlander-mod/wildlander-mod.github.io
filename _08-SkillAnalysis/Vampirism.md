@@ -37,7 +37,7 @@ In Requiem you recover 100 HP per feeding.
 
 You can use a Blood Potion to sate your blood thirst. 
 
-You can craft the Blood conserving vial, but they are expensive and only have 1 use, but they allow you to bottle blood from a killed NPC A script runs in Requiem that will automatically Create an Elixer of blood, if you loot an appropriate target with Blood conserving vial in your inventory, otherwise you will consume the blood instead. 
+You can craft the Blood-conserving Phial, but they are expensive and only have 1 use, but they allow you to bottle blood from a killed NPC A script runs in Requiem that will automatically Create an Elixer of blood, if you loot an appropriate target with Blood-conserving Phial in your inventory, otherwise you will consume the blood instead. 
 
 You can get Potions of Blood from blood kegs in Vampire nests which function in the same way.
 

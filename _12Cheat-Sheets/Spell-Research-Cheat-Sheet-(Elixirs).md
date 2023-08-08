@@ -11,14 +11,14 @@ If you want to create an elixir of some tier (e.g. an 'Mild Elixir' with the 'Da
 	
 ## Tiers 		
 
-Elixir Prefix, Ingredient Suffix
---, --
-Dilute, sa Haelia
-Weak, sa Goria
-Mild, sa Gravia
-Strong, sa Baune
-Potent, sa Adonai
-Concentrated, sa Sila
+Elixir Prefix| Ingredient Suffix
+--| --
+Dilute| sa Haelia
+Weak| sa Goria
+Mild| sa Gravia
+Strong| sa Baune
+Potent| sa Adonai
+Concentrated| sa Sila
 
 <a class="btn btn-pink" href="https://airtable.com/appSjQmrO0wboTsme/shrDZVltN82vu73UY" target="_blank" rel="noopener noreferrer">All Elixirs Spreadsheet <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
