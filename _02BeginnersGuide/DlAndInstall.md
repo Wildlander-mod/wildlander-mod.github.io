@@ -38,7 +38,7 @@ description: Minimum requirements and Installation
 </div>
 
 {: .important}
->If you don't have a lot of RAM, you may want to [increase your pagefile size.](2-RecommendedReading/1-BeforeYouBegin/#page-files)
+>If you don't have a lot of RAM, you may want to [increase your pagefile size.](https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/#page-files)
 > This allocates more memory to the modpack, to prevent memory-related crashes.
 
 ## In addition you will need 
