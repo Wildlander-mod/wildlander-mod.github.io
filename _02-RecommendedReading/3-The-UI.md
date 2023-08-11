@@ -61,15 +61,55 @@ Left Side – If using bow Contains Ammo currently equipped, count of arrows in 
 ![image](https://user-images.githubusercontent.com/26418143/156928405-724d426a-9540-4a2d-b72a-9e62ff2ff203.png)
 
 
-## SkyUI Icons
+## SkyUI 
+
+SkyUI is a complete overhaul of the clumsy and more console-friendly user interface while keeping true to the style of the original UI. It makes the user interface much easier to use with mouse and keyboard, being less wasteful of screen space and is, aesthetically speaking, far more pleasing. 
 
 ### Inventory Screen
+
+The inventory screen has a lot more additional columns which can be turned on or off using this icon.
+
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/2c47ba71-c14e-4aac-94e7-f9f5fe0e894f)
+
+#### On all inventory tabs
+
+The following additional columns are available.
+
+1. Name of the item, plus any icons (shown below)
+1. value - the base value of the item in gold.
+1. weight - the weight of the item
+1. value/weight - the "gold per unit" Its not worth carrying a 40unit battleaxe back to town if you are only going to get 1g per unit.
+1. total weight - The total weight of the stack.
 
 ![image](https://user-images.githubusercontent.com/26418143/156928413-eca34ea5-a288-4b9e-90e0-3f1d738f5b38.png)
 
 ![image](https://user-images.githubusercontent.com/26418143/157344141-ebdcc425-5601-48a6-bbb2-f47d5381c2f9.png) Blue Eye - Enchanted, Enchantment is teachable
 
 ![image](https://user-images.githubusercontent.com/26418143/157344074-8c42d2a3-8214-403b-9bed-cdf82c0d581e.png) Red eye - Enchanted, Player cannot learn the enchant
+
+#### Weapons Tab
+
+1. damage - The current damage the weapon will do (including temper / degridation)
+1. base damage - the default damage of the weapon  (Excluding temper / degridation)
+1. reach - determines how close the character must be to the opponent for the weapon to connect.
+1. speed - the time it takes to complete a weapon swing
+1. stagger - this affects the chance of staggering your oppenent when performing a power attack
+
+#### Armor Tab
+
+1. Type - what bodypart the armor is woen on
+1. Class - what type of armor it is
+1. Slot - the bodyparts that the armor is worn on
+1. Mat - the materiel of the armor
+1. Arm - The Armor this piece is currently providing including temper or damage
+1. Barm - The Base Armor this piece excluding temper or damage
+1. Wrm - The warmth the armor provides.
+1. Covr - The coverage the item provides
+
+#### Magic Menu
+
+1. Cooldown - timer for greater powers (based on 24-hour in-game time)
+1. Power type - shows Lesser Powers (generally little magicka to no to cast and can be cast without any limitations) and Greater Powers (which has long cooldowns)
 
 ### Active Effects
 
