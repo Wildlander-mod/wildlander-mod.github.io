@@ -5,7 +5,7 @@ nav_order: 3
 description: Breakdown recipes
 ---
 
-Wildlander includes a new type of crafting called breakdown(/ key) which allows you to break down items into the components it was made from. For example armor into metal fragments, bones and teeth into bone fragments and wooden items into kindling for starting fires.
+Wildlander includes a new type of crafting called breakdown(? key) which allows you to break down items into the components it was made from. For example armor into metal fragments, bones and teeth into bone fragments and wooden items into kindling for starting fires.
 
 A complete list is available on the crafting sheet below.
 
