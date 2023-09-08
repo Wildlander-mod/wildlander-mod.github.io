@@ -22,7 +22,7 @@ Welcome to the Wildlander customization guide! This page will explain the basics
 
 ## A warning before proceeding
 
-Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but as of now, it's aimed at proficient modders who need to know Wildlander specific information. (More basic modding guides will be available in the future, as time permits.)
+Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but as of now, it's aimed at proficient modders who need to know Wildlander specific information. (More basic modding guides will be available in the future, as time permits.)  
 
 For more general modding guides, we recommend [Lively's tutorials](https://github.com/LivelyDismay/Learn-To-Mod/blob/main/Main.md), the [GamerPoets YouTube Channel](https://www.youtube.com/@gamerpoets), and the [DarkFox127 YouTube channel](https://www.youtube.com/@Darkfox127).
 
@@ -30,6 +30,8 @@ For more general modding guides, we recommend [Lively's tutorials](https://githu
 > The Wildlander support team does not offer support for modified versions of Wildlander. This is because it can be difficult or impossible to tell whether issues are the result of Wildlander, or a user's modifications.
 >
 > Should you choose to modify your install, you will only receive "support" from your fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted, and you will be directed to the appropriate locations—and further posts outside the appropriate channels may result in a mute or ban.
+
+
 
 ## Modding Basics
 
@@ -46,7 +48,7 @@ If changing the load order the Reqtificator should be ran - no exceptions.
 {: .important}
 > You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
 
-Finally read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-playthough.
+Finally - for remocving anything else read the advice [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-playthough.
 
 ### Important Terms
 
@@ -126,6 +128,13 @@ On the Right side next to the "active" mod count there is a button which looks l
 ![image](https://user-images.githubusercontent.com/26418143/215202610-e6368e81-22d0-44be-827a-a361e88d6413.png)
 
 The yellow arrow button next to the backup (both sides) will allow you to restore from previous settings in case you make a oopsie.	
+
+
+#### Testing your changes work 
+
+There's no way to really test a profile without loading the game and trying it. you can do this by selecting the SKSE program from the Mo2 run menu.
+
+If adding any form of new mod with a plugin - then you should assume that you should also start a new game.
 
 ---
 
