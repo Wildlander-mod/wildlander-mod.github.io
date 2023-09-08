@@ -166,7 +166,7 @@ Search the following link for the mod(s) and manually download.
 If you get the following error - Make sure Steam is installed in English, validate your game files in Steam. Steam > Right Click > Properties > Language tab
 - Unable to download Skyrim_Default.ini
 
-![image](https://user-images.githubusercontent.com/26418143/169777216-29de696c-b3bc-4829-9bf4-05a571a7aab7.png)
+![image](https://media.discordapp.net/attachments/1145403759082606732/1145411552292372540/image.png)
 
 Wildlander requires Anniversary edition update of skyrim SE (version 1.6.640 at time of writing), If you get any of the following - update your Skyrim. If you have used Halgari's downgrade patcher - you will need to validate your game fields from Steam > Right Click > Properties > Local files tab.
 
