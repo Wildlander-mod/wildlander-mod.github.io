@@ -837,6 +837,14 @@ Dragonborn content is available after completing “A Blade in the Dark” durin
 
 You need to do five (5) radiant quests for members of the Circle in-between each faction quest.
 
+----------
+
+### How do I start the Dawnguard quest line?
+
+You'll be approached as you leave in Inn after level 30. You can visit fort dawnguard earlier, but as the content deals with vampires - this isn't recommended.
+
+----------
+
 
 ## **Crafting Questions**
 
