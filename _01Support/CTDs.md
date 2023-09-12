@@ -259,6 +259,14 @@ Fix: If the crash occurs in Whiterun, then disable the scrubbing tub using conso
 We don't know what causes this specific weapon to cause the crash. It is under investigation.
 
 Fix: Sell it to someone else.
+
+---
+
+### Crash using a poisoned weapon (SkyrimSE.exe+1871198)
+
+This crash only occurs when using a poisoned weapon while wearing a backpack with a tent, bedroll or cooking pot in your inventory.  We are not sure what about this specific combination of items is triggering the crash. But suspect it is the dynamic display of items triggering Mid-weapon swing which might be causing the fault.
+
+Fix: Give the offending items to a follower or horse to carry, or store inside of a placeable Chest/Barrel. 
                                                                                                 
 ---    
 
