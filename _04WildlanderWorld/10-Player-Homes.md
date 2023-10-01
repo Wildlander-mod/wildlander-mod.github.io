@@ -439,7 +439,9 @@ Become thane|Housecarl room(automatically) 
   <dt>Post-Thane Cost</dt>
   <dd>22500</dd>
   <dt>How to Obtain </dt>
-  <dd>Complete Blood on the Ice quest, For thane Complete Civil war then return to Jarl for standard "help people of my hold quest" </dd>
+  <dd> Complete Blood on the Ice quest. It cannot be purchased until this quest is resolved regardless of you thane status.
+  
+  For Thane, Hjerim can be purchased having sided with either the Imperial Legion or Stormcloaks. Once allied with the Stormcloaks, the Rescue from Fort Neugrad quest must be completed before Jorleif will make the house available for sale. However, if Falkreath Hold has been given to the Stormcloaks as part of Season Unending, it may be necessary to liberate Hjaalmarch before Jorleif will make this house available. If the Imperial Legion is chosen as an ally, then the defeat of the Stormcloaks is required before it is available to buy. </dd>
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
@@ -557,8 +559,8 @@ Become thane|Housecarl room(automatically)
   <dd>35000</dd>
   <dt>Post-Thane Cost</dt>
   <dd>26250</dd>
-  <dt>How to Obtain </dt>
-  <dd>None required, For thane Complete Civil war then return to Jarl for standard "help people of my hold quest" </dd>
+  <dt>How to become Thane </dt>
+  <dd> Complete The Man Who Cried Wolf/Elisif's Tribute: then return to Jarl for standard "help people of my hold quest"  (be cautious about how far though civil war you progress as some of the people you can help can be killed) </dd>
   <dt>Layout Changed From Vanilla</dt>
   <dd>Yes</dd>
   <dt>Mod used to change</dt>
