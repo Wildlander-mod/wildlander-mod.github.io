@@ -86,3 +86,13 @@ Your crime record affects your ability to use shrines. Too much crime and you ar
 
 Crime is defined as :- Having a current bounty, being part of the "naughty" guilds, murder, excessive theft, or a large lifetime bounty.
 
+
+## Crafting
+
+Detailed information: [here](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/)
+
+Crafting has had a item called toolkits implements. you need a appropriate toolkit to craft anything other than the most basic of items.
+
+Prior to the introduction of toolkits - scrolling rapidly though the extremely large crafting menu caused crashes to desktop - This still occurs if you are asking a blacksmith to craft items to you - so I recommend using the filter in top right of the window rather than scrolling to find specific items you want to make.
+
+In addition Wildlander includes a new type of crafting called breakdown( using the ? key) which allows you to break down items into the components it was made from. For example armor into metal fragments, bones and teeth into bone fragments and wooden items into kindling for starting fires.
