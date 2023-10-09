@@ -40,6 +40,10 @@ Wildlander contains mods which require you to eat, drink and keep warm. Failing 
 
 Without skills and perks in a tree, they are useless - you cannot expect to start the game in clothing and switch to heavy armor without training in the skill - you will be penalized for doing so. No perk = no stamina = No move. It's best to decide before starting what type of character you want to make.
 
+## Hunting
+
+Wildlander integrates hunterborn into the base build which - with hunting knives - allows you to skin, butcher, and gather useful materiels from animal corpses. One of your first purchases should be a basic hunting knife, which will automatically be used from your inventory when you click on a corpse - no need to equip.
+
 ## Stat Management
 
 One of the most important things for your new character is how to manage stamina. With no stamina, you can't run, and in some cases can't even move. With no stamina, enemies can disarm you. Having a stew active which gives passive stamina regeneration and potions are a must.
