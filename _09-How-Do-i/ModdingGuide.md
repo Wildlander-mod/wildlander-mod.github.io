@@ -39,7 +39,7 @@ For more general modding guides, we recommend [Lively's tutorials](https://githu
 
 Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
 
-Vortex / Wyrebash / Loot have their place, that place is 2 billion miles away from Wildlander and should not be used.
+Tools such as Vortex / Loot have their uses, however that use is 2 billion miles away from Wildlander and should **not under any circumstances** be used. They will completely break the load order and prevent you from running the pack at all.
     
 Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE for anniversary editions WILL NOT WORK.
 

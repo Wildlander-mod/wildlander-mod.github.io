@@ -132,79 +132,79 @@ has_children: false
 
 ---
 
-| **Ahzidal** |
+| **Ahzidal** \| Clothing |
 |:---|
 |- *Fire Resistance 50%.<br/>- Fortify Fire Damage 25%.* |
 
 ---
 
-| **Dukaan** |
+| **Dukaan** \| Clothing |
 |:---|
 |- *Frost Resistance 50%.<br/>- Fortify Frost Damage 25%.*  |
 
 ---
 
-| **Hevnoraak** |
+| **Hevnoraak** \| Clothing |
 |:---|
 |- *Resist Disease 100%<br/>- Resist Poison 100%.* |
 
 ---
 
-| **Konahrik** |
+| **Konahrik** \| Clothing |
 |:---|
 |- *Fortify Health, Magicka, and Stamina 100 points each.<br/>- Restore Health 75 points per second.<br/>- Restore Magicka and Stamina 3 points per second each.<br/>- Decrease Shout cooldown 20%.* |
 
 ---
 
-| **Krosis** |
+| **Krosis** \| Clothing |
 |:---|
 |- *Fortify Lockpicking 21 points.<br/>- Fortify Lockpicking Expertise 20 points.<br/>- Fortify Marksman 25 points.<br/>- Fortify Sneak 25 points.* |
 
 ---
 
-| **Miraak** |
+| **Miraak** \| Clothing |
 |:---|
 |- *Fortify Health 50 points and renders you immune to almost all magical draining effects.<br/>- Fortify Magicka 200 points and allows you to keep your focus while running and even when hit.<br/>- Fortify Stamina 50 points and renders you immune to most paralysis effects.<br/>- Restore Health 25 points when taking elemental damage.<br/>- Fortify Carry Weight 25 points.<br/>- Resist Disease and Poison 100%.<br/>- Decrease Shout cooldown 20%.* |
 
 ---
 
-| **Morokei** |
+| **Morokei** \| Clothing |
 |:---|
 |- *Fortify Magicka Regen 450%.* |
 
 ---
 
-| **Nahkriin** |
+| **Nahkriin** \| Clothing |
 |:---|
 |- *Fortify Magicka 100 points.<br/>- Decrease Destruction spell cost 20%.<br/>- Decrease Restoration spell cost 20%.* |
 
 ---
 
-| **Otar** |
+| **Otar** \| Clothing |
 |:---|
 |- *Resist Fire 30%<br/>- Resist Frost 30%.<br/>- Resist Shock 30%.* |
 
 ---
 
-| **Rahgot** |
+| **Rahgot** \| Clothing |
 |:---|
 |- *Fortify Stamina 150 points.<br/>- Fortify Stamina Regen 200%.* |
 
 ---
 
-| **Vokun** |
+| **Vokun** \| Clothing |
 |:---|
 |- *Decrease Alteration spell cost 20%.<br/>- Decrease Conjuration spell cost 20%.<br/>- Decrease Illusion spell cost 20%.* |
 
 ---
 
-| **Volsung** |
+| **Volsung** \| Clothing |
 |:---|
 |- *Fortify Carry Weight 50 points.<br/>- Grants Underwater Breathing.<br/>- No stamina penalties when swimming, even in heavy armor.* |
 
 ---
 
-| **Zahkriisos** |
+| **Zahkriisos** \| Clothing |
 |:---|
 |- *Shock Resistance 50%.<br/>- Fortify Shock Damage 25%.* |
 
