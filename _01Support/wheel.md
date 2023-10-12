@@ -9,7 +9,7 @@ description: The Great Wheel of Feedback / Discussion Topics
 
 There has been a great amount of feedback over the last 12 months relating to the pack - a lot of it Duplicated - to the extent that its spawned a Meme on the official discord.
 
-<img src="https://cdn.discordapp.com/attachments/348579473727160321/1050012125885636628/wheel.jpg" alt="drawing" />
+<img src="https://wiki.wildlandermod.com/Assets/wheel_of_topics_4.0.png" alt="drawing" />
 
 To cover some of the topics commonly discussed
 
@@ -40,7 +40,7 @@ We know, and Agree - thats why it isn't compulsory to use it.
 
 ## 6. Asking About customization.
 
-Soon. The list is in a stable enough state to open it - we are just waiting on Dylan to write up the supporting documents
+Should be done in the dedicated discord channels.
 
 ## 7. List is too Easy / Hard.
 

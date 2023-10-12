@@ -272,7 +272,7 @@ This tool is useful for removing Bugged/crashed scripts from your save and corre
 
 I strongly recommend reading the mod page And/or watching tutorial videos before using.
 
-ReSaver from FallrimTools: https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files
+ReSaver from FallrimTools: <https://www.nexusmods.com/skyrimspecialedition/mods/5031?tab=files>
 
 
 ### Xedit / tes5edit/ SSEedit
