@@ -117,7 +117,7 @@ Perk Required :  Marksman's Focus
 
 _Effect_ :
 
-+10 armor penetration, +50% draw speed with bows
++50% draw speed with bows
 
 ---
 
@@ -131,7 +131,7 @@ Perk Required : Quick Shot
 
 _Effect_ :
 
-+10 armor penetration, +50% reload speed with crossbows
++50% reload speed with crossbows
 
 ----
 
