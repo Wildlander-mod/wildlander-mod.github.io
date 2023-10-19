@@ -40,6 +40,10 @@ Wildlander contains mods which require you to eat, drink and keep warm. Failing 
 
 Without skills and perks in a tree, they are useless - you cannot expect to start the game in clothing and switch to heavy armor without training in the skill - you will be penalized for doing so. No perk = no stamina = No move. It's best to decide before starting what type of character you want to make.
 
+## Hunting
+
+Wildlander integrates hunterborn into the base build which - with hunting knives - allows you to skin, butcher, and gather useful materiels from animal corpses. One of your first purchases should be a basic hunting knife, which will automatically be used from your inventory when you click on a corpse - no need to equip.
+
 ## Stat Management
 
 One of the most important things for your new character is how to manage stamina. With no stamina, you can't run, and in some cases can't even move. With no stamina, enemies can disarm you. Having a stew active which gives passive stamina regeneration and potions are a must.
@@ -82,3 +86,13 @@ Your crime record affects your ability to use shrines. Too much crime and you ar
 
 Crime is defined as :- Having a current bounty, being part of the "naughty" guilds, murder, excessive theft, or a large lifetime bounty.
 
+
+## Crafting
+
+Detailed information: [here](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/)
+
+Crafting has had a item called toolkits implements. you need a appropriate toolkit to craft anything other than the most basic of items.
+
+Prior to the introduction of toolkits - scrolling rapidly though the extremely large crafting menu caused crashes to desktop - This still occurs if you are asking a blacksmith to craft items to you - so I recommend using the filter in top right of the window rather than scrolling to find specific items you want to make.
+
+In addition Wildlander includes a new type of crafting called breakdown( using the ? key) which allows you to break down items into the components it was made from. For example armor into metal fragments, bones and teeth into bone fragments and wooden items into kindling for starting fires.
