@@ -418,6 +418,17 @@ Note: Any potions you give to your followers or horse can be consumed by them, s
 
 ----------
 
+### Why isn’t my compass showing undiscovered locations? 
+
+
+game-files\mods\Wildlander\interface\skyhud\Skyhud.txt
+
+The mod used to control the UI is SkyHUD. This doesn't have a in game interface, so to make locations appear on the compass, with the game closed you need to open the above file  change bHideUndiscoveredLocations=1 to bHideUndiscoveredLocations=0 then save the changes.
+
+
+
+----------
+
 ### Some sounds aren't playing! How do I fix this?
 
 If you are unable to hear most of the combat sounds such as sword swings, spell usage (flames, healing, etc.), opening a container, footsteps, etc. but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance...
