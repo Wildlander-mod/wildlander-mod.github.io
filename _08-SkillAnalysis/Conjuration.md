@@ -426,7 +426,7 @@ Bound Sword | 200 | - | 120s | The caster binds a sword-shaped daedra for \<dur>
 Raise Dead (Rank I) | 200 | 6 | 60s | The caster reanimates a weak dead body for \<dur> seconds. | |
 Summon Skeletal Soldier | 125 | - | 12s | The caster summons the skeletal remains of a common soldier from the realms of the deceased for \<dur> seconds. | |
 Summon Spirit Wolf | 125 | - | 12s | The caster summons the spirit of a feral wolf for \<dur> seconds. | |
-Summon Swarm (Rank I) | 40/s | 5 | Concentration | The caster summons a swarm of insects from the realm of Hircine which burrows into the target's flesh and deals \<mag> poison damage and \<mag> physical damage for \<dur> seconds. | |
+Summon Swarm (Rank I) | 40/s | 5 | Concentration | The caster summons a swarm of insects from the realm of Hircine which burrows into the target's flesh and deals \<mag> poison damage and \<mag> physical damage for \<dur> seconds. | This spell has a fairly short range, and is resisted by a lot of enemies which +100 armor or poison resistances, but is one of the easier ways to level conjuration as its usable at a training dummy|
 
 
 ### Apprentice 
