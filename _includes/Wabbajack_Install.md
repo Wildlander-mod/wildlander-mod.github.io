@@ -124,6 +124,34 @@ There are several causes of this:-
 1. You have moved your skyrim folder from where it was originally installed and you didnt use the steam "move install" option to do it. Fix: Move it back to the original location and use the steam move tool to move the game to a different library on your computer. You can use <https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide> to create new steam libraries on your primary hard drive.
 1. You have a Cracked version of skyrim. Fix: Buy the game.
 
+----
+
+## I cant manually download anything via wabbajack.
+
+The Nexus have recently introduced a cookie popup which is being hidden behind the main wabbajack interface,
+
+Wabbajack devs are currently investigating a possible fix in the mean time the correct recommended work around 
+
+1. be quick and click the accept cookies before it disappears (you can refresh the page by pressing f5 if you miss)
+2. spam f5 and try to click the download button before it disables.
+
+----
+
+## Wabbajack is asking me to login but isn't displaying the captcha
+
+Go to the settings menu, log out and then log back in - this page should display the captcha correctly.
+
+----
+
+## Every download is failing
+
+If Wabbajack is showing version 3.3 in the top left - then this is a fault with this version of wabbajack. (if not move onto the next question)
+
+the current work around is as follows
+
+1. create 3.2.0.1 folder where-ever you are running wabbajack from
+2. download and unzip https://github.com/wabbajack-tools/wabbajack/releases/download/3.2.0.1/3.2.0.1.zip to 3.2.0.1 folder and run wabbajack.exe inside of there.
+
 ----------
 
 ### Wabbajack fails to download mods or hangs for a long time.
