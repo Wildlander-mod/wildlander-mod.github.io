@@ -130,10 +130,10 @@ There are several causes of this:-
 
 The Nexus have recently introduced a cookie popup which is being hidden behind the main wabbajack interface,
 
-Wabbajack devs are currently investigating a possible fix in the mean time the correct recommended work around 
+Wabbajack devs are currently investigating a possible fix in the most recent pre-release build. 
 
-1. be quick and click the accept cookies before it disappears (you can refresh the page by pressing f5 if you miss)
-2. spam f5 and try to click the download button before it disables.
+This includes a guide video on how and where to setup pre-release builds:
+https://github.com/wabbajack-tools/wabbajack/releases/tag/3.3.0.1-pre
 
 ----
 
@@ -145,12 +145,13 @@ Go to the settings menu, log out and then log back in - this page should display
 
 ## Every download is failing
 
-If Wabbajack is showing version 3.3 in the top left - then this is a fault with this version of wabbajack. (if not move onto the next question)
+If Wabbajack is showing version 3.3 in the top left - then this is a fault with this version of Wabbajack. (if not move onto the next question)
 
-the current work around is as follows
+the current work around is to install the pre-release build.
 
-1. create 3.2.0.1 folder where-ever you are running wabbajack from
-2. download and unzip https://github.com/wabbajack-tools/wabbajack/releases/download/3.2.0.1/3.2.0.1.zip to 3.2.0.1 folder and run wabbajack.exe inside of there.
+This includes a guide video on how and where to setup pre-release builds:
+https://github.com/wabbajack-tools/wabbajack/releases/tag/3.3.0.1-pre
+
 
 ----------
 
