@@ -168,7 +168,11 @@ If these files hang, manually download and add to your Wabbajack specified downl
 
 **High Poly Head**
 
-<https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download>
+<https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download> 
+
+Mirror
+
+<https://build.wabbajack.org/authored_files/direct_link/High_Poly_Head_v1.4_(SE).zip_8ff93290-e8b8-45ed-979b-6c5f41f31a6b>
 
 **Wildlander Resources**
 
