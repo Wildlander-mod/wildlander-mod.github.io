@@ -223,17 +223,30 @@ However, you can safely move your download folder to another hard drive.
 
 ----------
 
-## When is the next update and what will it contain?
 
-The next update will contain
-1. Jobs & Missive expansion - to include new job types for crafting, collections and even some jobs for the not so nice people of skyrim.
-1. Lucian - from the patreon poll
-1. Religion - Based on Irondusk's religion 3.0 mod
-1. QOL and Bugfixes.
+## When is R4 and what will it contain?
 
-This update does not yet have a release date, however we are aiming for Q3 2023. It will require a new game on release. 
+The next update (R4) will contain lots of stuff. The primary focus is on lots of QOL, Balance and Bugfix mods. 
 
-This question will update once sent to beta and/or have a firm release date.
+(please see the Planned for next release view on the roadmap for a full list)
+
+The most recent progress report is here <https://www.wildlandermod.com/news/progress-report-december-2023>
+
+This update does not have a release date (we are trying to get it to you ASAP) . It will require a new game on release.
+
+----------
+
+## Why has it been so long since a update?
+
+For the back end of last year, though to mid part of this year. Both Dylan and Lizzy had been working on the back-end of wildlander's roadmap & migrating Jira to airtable to make future updates go more smoothly. 
+
+As neither of us can afford to work on the project full-time - please read more in the most recent update, this leads to the misunderstandings that "nothing is happening", this is simply not the case. A lot of the compatibility checking work along with bug fixes are already done and this just requires dylan to dedicate his minimal free time to integation work.
+
+The current version is stable. There is no need to "rush"  an update out as a result - we can take our time to deliver the best possible update. 
+
+Wildlander is not abandoned.
+
+*Edited: 3rd Dec 2023.* 
 
 ----------
 
