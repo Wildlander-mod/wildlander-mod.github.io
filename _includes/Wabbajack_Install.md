@@ -179,36 +179,17 @@ If you get the following error - Make sure Steam is installed in English, valida
 
 ![image](https://media.discordapp.net/attachments/1145403759082606732/1145411552292372540/image.png)
 
-Wildlander requires Anniversary edition update of skyrim SE (version 1.6.640 at time of writing), If you get any of the following - you will most likely need to downgrade your installation.
+For any other default Skyrim file, Wildlander requires  a specific version of the Anniversary edition update of skyrim SE (version 1.6.640 at time of writing). If you are running a older version of skyrim - E.G (1.5.97) you will need to update to the current version before you can downgrade. 
 
-Skyrim has updated recently -  it will require the list to be recompiled to cope with these changes. 
+As Skyrim has updated recently - it will require the list to be recompiled to cope with these changes. If you have reccently update or installed skyrim you will most likely need to downgrade your installation to version  1.6.640 (instructions below).
 
-- Unable to download Skyrim.ccc 
-- Unable to download SkyrimSE.exe 
-- Unable to download Data_Dawnguard.esm 
-- Unable to download Data_Dragonborn.esm 
-- Unable to download Data_HearthFires.esm 
-- Unable to download Data_Skyrim - Animations.bsa 
-- Unable to download Data_Skyrim - Interface.bsa
-- Unable to download Data_Skyrim - Meshes0.bsa
-- Unable to download Data_Skyrim - Meshes1.bsa 
-- Unable to download Data_Skyrim - Misc.bsa 
-- Unable to download Data_Skyrim - Shaders.bsa 
-- Unable to download Data_Skyrim - Sounds.bsa 
-- Unable to download Data_Skyrim.esm
-- Unable to download Data_Update.esm 
-- Unable to download Data_Skyrim - Textures3.bsa 
-- Unable to download Data_Skyrim - Textures5.bsa 
-- Unable to download Data_Skyrim - Textures7.bsa
-- Unable to download Data_Skyrim - Textures8.bsa 
-- Unable to download Data_Skyrim - Textures2.bsa 
-- Unable to download Data_Skyrim - Textures4.bsa 
-- Unable to download Data_Skyrim - Textures0.bsa 
+#### To update to current version.
 
 ![image](https://user-images.githubusercontent.com/26418143/169777545-a0377c57-60bc-4271-929c-5707c7b8277a.png)
 
-
 #### To downgrade from 1.6.1130 to 1.6.640
+
+There are two methods for doing this, the depot method - which has been tested by staff and is considered the most reliable, or the 3rd party downgrade patcher method (which is the only way currently to download the AE DLC creations).
 
 *Depot Method.*
 
