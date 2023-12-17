@@ -126,31 +126,9 @@ There are several causes of this:-
 
 ----
 
-## I cant manually download anything via wabbajack.
-
-The Nexus have recently introduced a cookie popup which is being hidden behind the main wabbajack interface,
-
-Wabbajack devs are currently investigating a possible fix in the most recent pre-release build. 
-
-This includes a guide video on how and where to setup pre-release builds:
-https://github.com/wabbajack-tools/wabbajack/releases/tag/3.3.0.1-pre
-
-----
-
 ## Wabbajack is asking me to login but isn't displaying the captcha
 
 Go to the settings menu, log out and then log back in - this page should display the captcha correctly.
-
-----
-
-## Every download is failing
-
-If Wabbajack is showing version 3.3 in the top left - then this is a fault with this version of Wabbajack. (if not move onto the next question)
-
-the current work around is to install the pre-release build.
-
-This includes a guide video on how and where to setup pre-release builds:
-https://github.com/wabbajack-tools/wabbajack/releases/tag/3.3.0.1-pre
 
 
 ----------
@@ -201,9 +179,9 @@ If you get the following error - Make sure Steam is installed in English, valida
 
 ![image](https://media.discordapp.net/attachments/1145403759082606732/1145411552292372540/image.png)
 
-Wildlander requires Anniversary edition update of skyrim SE (version 1.6.640 at time of writing), If you get any of the following - update your Skyrim. If you have used Halgari's downgrade patcher - you will need to validate your game fields from Steam > Right Click > Properties > Local files tab.
+Wildlander requires Anniversary edition update of skyrim SE (version 1.6.640 at time of writing), If you get any of the following - you will most likely need to downgrade your installation.
 
-If Skyrim has updated recently - then it might require the list to be recompiled to cope with these changes. Staff will typically put the list into maintenance if this is the case.
+Skyrim has updated recently -  it will require the list to be recompiled to cope with these changes. 
 
 - Unable to download Skyrim.ccc 
 - Unable to download SkyrimSE.exe 
@@ -228,6 +206,29 @@ If Skyrim has updated recently - then it might require the list to be recompiled
 - Unable to download Data_Skyrim - Textures0.bsa 
 
 ![image](https://user-images.githubusercontent.com/26418143/169777545-a0377c57-60bc-4271-929c-5707c7b8277a.png)
+
+
+#### To downgrade from 1.6.1130 to 1.6.640
+
+*Depot Method.*
+
+1. Open a command window "Run" by pressing «Win + R» and then enter the command: steam://open/console, and then press Enter.
+Will open console tab on your Steam
+
+2. On the bottom will have a space for you to enter the code. Enter these codes, one at a time and **WAIT FOR THEM TO CONFIRM THAT THEY ARE DONE DOWNLOADING before entering next one**
+
+> download_depot 489830 489831 3660787314279169352
+> download_depot 489830 489832 2756691988703496654
+> download_depot 489830 489833 5291801952219815735
+
+It will download the files to your "Steam\steamapps\content\app_489830" folder. If you cannot find it, just search on the steam folder: "depot_489831" "depot_489832" and "depot_489833" after download is done.  If you  get any error's during this process, then you may need to retry or use the downgrade patcher method. 
+
+3. Replace your "steamapps/commom/Skyrim Special Edition" files with the ones in "depot 489831" "depot 489832" and "depot 489833" in that order.
+
+
+*Downgrade patcher method*
+
+<https://www.nexusmods.com/skyrimspecialedition/mods/106403?tab=description> - follow instructions on nexus page.
 
 ----------
 
