@@ -191,25 +191,46 @@ As Skyrim has updated recently - it will require the list to be recompiled to co
 
 There are two methods for doing this, the depot method - which has been tested by staff and is considered the most reliable, or the 3rd party downgrade patcher method (which is the only way currently to download the AE DLC creations).
 
-*Depot Method.*
+__
+
+### Option 1:
+
+<https://www.nexusmods.com/skyrimspecialedition/mods/106403?tab=description>
+
+1. Download file
+2. Unzip to a folder - doesn't matter what its called. C:\Downgrade is a good idea.
+3. IMPORTANT - If your Skyrim is not installed in c:\ program files(x86) you will have to edit the Downpatch.bat (right click > edit) file to point at where Skyrim is installed.
+4. Run the batch file. You may need to run as Administrator depending on if your steam library is in a windows protected folder.
+
+### Option 2:
 
 1. Open a command window "Run" by pressing «Win + R» and then enter the command: steam://open/console, and then press Enter.
-Will open console tab on your Steam
+this will open console tab on your Steam
 
-2. On the bottom will have a space for you to enter the code. Enter these codes, one at a time and **WAIT FOR THEM TO CONFIRM THAT THEY ARE DONE DOWNLOADING before entering next one**
-
+2. On the bottom will have a space for you to enter the code. Enter these codes, one at a time, and **WAIT FOR THEM TO CONFIRM THAT THEY ARE DONE DOWNLOADING** before entering the next one
 > download_depot 489830 489831 3660787314279169352
 > download_depot 489830 489832 2756691988703496654
 > download_depot 489830 489833 5291801952219815735
 
-It will download the files to your "Steam\steamapps\content\app_489830" folder. If you cannot find it, just search on the steam folder: "depot_489831" "depot_489832" and "depot_489833" after download is done.  If you  get any error's during this process, then you may need to retry or use the downgrade patcher method. 
+It will download the files to your "steam/commom/content" folder. If you cannot find it, just search on the steam folder: "depot 489831" "depot 489832" and "depot 489833" after download is done.
 
-3. Replace your "steamapps/commom/Skyrim Special Edition" files with the ones in "depot 489831" "depot 489832" and "depot 489833" in that order.
+3. Check each depot has downloaded successfully
 
+> depot 489831 should contain 16 files
+> depot 489832 should contain 26 files
+> depot 489833 should just contain Skyrim's exe
 
-*Downgrade patcher method*
+If you are missing files - simply redo the depot command until you have all the files. **DO NOT SKIP THIS CHECKING STEP**
 
-<https://www.nexusmods.com/skyrimspecialedition/mods/106403?tab=description> - follow instructions on nexus page.
+4. Replace your "steamapps/commom/Skyrim Special Edition" files with the ones in "depot 489831" "depot 489832" and "depot 489833" in that order.
+
+---
+
+Once you have downgraded, Restart Wabbajack. Enter the same criteria as you did the first time and tick "Overwrite Install"
+
+---
+
+**Do not** under any circumstances use Halgari's download patcher as it currently doesn't work.
 
 ----------
 
