@@ -57,7 +57,8 @@ this will open console tab on your Steam
 
 Once you have downgraded, Restart Wabbajack. Enter the same criteria as you did the first time and tick "overwrite Install".
 
-If option 1 didnt downgrade everything, use option 2 to get and replace the files you are missing.
+**If option 1 didnt downgrade everything, use option 2 to get and replace the files you are missing.**
+
 ---
 
 **Do not** under any circumstances use Halgari's download patcher as it currently doesn't work on downgrading from 1.6.1130.
