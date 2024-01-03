@@ -364,6 +364,14 @@ You can also see them on [This](https://wiki.wildlandermod.com/02-RecommendedRea
 
 ----------
 
+### The ENB hotkey isnt working OR Nighteye turns my entire screen blue,
+
+You skipped a step on the Install instructions <https://www.wildlandermod.com/download#step-four>
+
+Wildlander rely s on its dedicated launcher to setup the ENB and Nightvision. Start by installing the launcher and using that to launch the game in future.
+
+----------
+
 ### My keybindings don't work
 
 Dylan is based in the US, so the key bindings images were based on a standard QWERTY US keyboard.
