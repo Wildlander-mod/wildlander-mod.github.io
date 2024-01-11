@@ -180,38 +180,38 @@ I had learned the spell _Soothe Rank 1_ (Novice Illusion), which contains the fo
 
 When composing a spell - it will sometimes fail. The below are the reasons why
 
-> Error: You look at the mountain of papers in front, and realize you cannot effectively create a new spell, and use all of these theories at once.
-> 
+#### Error: You look at the mountain of papers in front, and realize you cannot effectively create a new spell, and use all of these theories at once.
+
 > Cause: This means that the number of "unique" thesis in your inventory exceeds every unlearned spell you could create. E.G the maximum any spell could need is 9, and you have 15 different thesis in your inventory. 
 > 
 > Effect: None
 
-> Error: After taking some time taking an initial look through your theories you realize that some don't fit together in any meaningful way, preventing you from making a spell from them, at least at this level of complexity.
-> 
+#### Error: After taking some time taking an initial look through your theories you realize that some don't fit together in any meaningful way, preventing you from making a spell from them, at least at this level of complexity.
+
 > Cause: Spell research found a spell you could craft, but you have too many Thesis for it. E.G the unlearned spell requires 6 different thesis and you have a extra thesis for a additional archtype. 
 > 
 > Effect: None
 
-> Error: After you looking through your theses a few times, you realize that there is nothing new you can create from them, at least at this level of complexity. Perhaps a more advanced, or more simple spell may exist.
-> 
+#### Error: After you looking through your theses a few times, you realize that there is nothing new you can create from them, at least at this level of complexity. Perhaps a more advanced, or more simple spell may exist.
+
 > Cause: You have already learned all the spells you can from the thesis in your inventory.
 > 
 > Effect: None
 
-> Error: After you spend a few moments of trying to focus on the various theories infront of you, you realize you are far too mentally drained to attempt to compose a spell this complex right now.
-> 
+#### Error: After you spend a few moments of trying to focus on the various theories infront of you, you realize you are far too mentally drained to attempt to compose a spell this complex right now.
+
 > Cause: You don't have enough magicka to craft a spell.
 > 
 > Effect: None
 
-> Error: From the beginning you run into problem after problem with this composition, and you spend several hours figuratively smashing your head into a wall. You finally give in and admit that you do not have anywhere near the experience to create a spell at this level of complexity.
-> 
-> Cause: You didn't meet the spells archetype experience check.
+#### Error: From the beginning you run into problem after problem with this composition, and you spend several hours figuratively smashing your head into a wall. You finally give in and admit that you do not have anywhere near the experience to create a spell at this level of complexity.
 
+> Cause: You didn't meet the spells archetype experience check.
+>
 > Effect: You destroy all of the thesis in your inventory
 
-> Error: After much time and energy has been spent, you believe you have managed to create a new spell. However, once you try to form the spell in your hands, it quickly fizzles out.
-> 
+#### Error: After much time and energy has been spent, you believe you have managed to create a new spell. However, once you try to form the spell in your hands, it quickly fizzles out.
+
 > Cause: You Met the minimum archetype experience check, but didn't exceed the guarantee craft the spell check, this is generally because you :-
 > 1. Don't have enough archtype experience in one or more of the spells archtypes
 > 2. You are missing multiple thesis required to craft spell
