@@ -42,7 +42,7 @@ this will open console tab on your Steam
 >
 > download_depot 489830 489833 5291801952219815735
 
-3. Check each depot has downloaded successfully, It will download the files to your "steam/common/content" folder. If you cannot find it, just search on the steam folder: "depot 489831" "depot 489832" and "depot 489833" after download is done. If you are missing files - simply redo the depot command until you have all the files. **DO NOT SKIP THIS CHECKING STEP**
+3. Check each depot has downloaded successfully, It will download the files to your "steam\common\content" folder. If you cannot find it, just search on the steam folder: "depot 489831" "depot 489832" and "depot 489833" after download is done. If you are missing files - simply redo the depot command until you have all the files. **DO NOT SKIP THIS CHECKING STEP**
 > depot 489831 should contain 16 files
 >
 > depot 489832 should contain 26 files
@@ -50,7 +50,7 @@ this will open console tab on your Steam
 > depot 489833 should just contain Skyrim's exe
 
 
-4. Replace your "steamapps/common/Skyrim Special Edition" files with the ones in "depot 489831" "depot 489832" and "depot 489833" in that order. (copy contents and past them into your steam installation folder, overwriting files which are already there)
+4. Replace your "steamapps\common\Skyrim Special Edition" files with the ones in "depot 489831" "depot 489832" and "depot 489833" in that order. (copy contents and past them into your steam installation folder, overwriting files which are already there)
 
 
 ---
