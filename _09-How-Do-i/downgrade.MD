@@ -8,7 +8,7 @@ description:  How Do I Downgrade Skyrim so I can (re)install the list?
 
 If your Skyrim is up to date, you will NOT be able to install some modpacks until you downgrade Skyrim. 
 
-
+<!-- 
 ### Option 1:
 
 Using a 3rd party downgrading tool. 
@@ -30,7 +30,7 @@ Note: Its normal to get some error's if you don't own the AE DLC (or its not ins
 
 ### Option 2:
 
-If you dont trust a 3rd party tool, you can use steam itself to download a older version. however the drawbacks to doing this is its slow, and if a file fails you have to redownload the entire depot.
+If you dont trust a 3rd party tool, you can use steam itself to download a older version. however the drawbacks to doing this is its slow, and if a file fails you have to redownload the entire depot.-->
 
 1. Open a command window "Run" by pressing «Win + R» and then enter the command: steam://open/console, and then press Enter.
 this will open console tab on your Steam
