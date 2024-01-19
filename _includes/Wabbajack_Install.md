@@ -180,7 +180,7 @@ If you get the following error - Make sure Steam is installed in English, valida
 
 ![image](https://media.discordapp.net/attachments/1145403759082606732/1145411552292372540/image.png)
 
-For any other default Skyrim file, Wildlander requires  a specific version of the Anniversary edition update of skyrim SE (version 1.6.640 at time of writing). If you are running a older version of skyrim - E.G (1.5.97) you will need to update to the current version before you can downgrade. 
+For any other default Skyrim file, Wildlander requires  a specific version of the Anniversary edition update of skyrim SE (version 1.6.640 at time of writing) on steam. If you are running a older version of skyrim - E.G (1.5.97) you will need to update to the current version before you can downgrade. We do not support GOG, Epic games or Gamepass versions of skyrim.
 
 As Skyrim has updated recently - it will require the list to be recompiled to cope with these changes. If you have reccently update or installed skyrim you will most likely need to downgrade your installation to version  1.6.640 (instructions below).
 
