@@ -133,6 +133,17 @@ Go to the settings menu, log out and then log back in - this page should display
 
 
 ----------
+### Wabbajack freezes with error Outside of Standard Install folder
+
+Typically caused by a corrupted cache file.
+
+Fix: Reset your Wabbajack installation
+
+1. To completely reset your Wabbajack settings, start off by closing Wabbajack if it is open.
+2. Afterwards, press Windows + R on your keyboard and type in %localappdata%. 
+3. You should see a Windows Explorer window pop up, find and delete the folder called Wabbajack inside. 
+4. restart wabbajack, log back in again and restart your installation.
+
 
 ### Wabbajack fails to download mods or hangs for a long time.
 
