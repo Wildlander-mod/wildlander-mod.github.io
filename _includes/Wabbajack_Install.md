@@ -122,6 +122,7 @@ There are several causes of this:-
 1. You haven't ran it. Fix: Close Wabbajack, Make sure you run skyrim directly to the menu.
 1. You don't own a Steam/GOG version. Wabbajack does not support Gamepass, Xbox or Epic Game store versions.
 1. You have moved your skyrim folder from where it was originally installed and you didnt use the steam "move install" option to do it. Fix: Move it back to the original location and use the steam move tool to move the game to a different library on your computer. You can use <https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide> to create new steam libraries on your primary hard drive.
+1. There is a problem with your steam install which is prevening the "gamefinder" library that wabbajack uses to identify installed games from finding the library skyrim is installed in. Fix: Consult with Wabbajack staff, Wildlander staff cannot help with this issue.
 1. You have a Cracked version of skyrim. Fix: Buy the game.
 
 ----
@@ -132,6 +133,17 @@ Go to the settings menu, log out and then log back in - this page should display
 
 
 ----------
+### Wabbajack freezes with error Outside of Standard Install folder
+
+Typically caused by a corrupted cache file.
+
+Fix: Reset your Wabbajack installation
+
+1. To completely reset your Wabbajack settings, start off by closing Wabbajack if it is open.
+2. Afterwards, press Windows + R on your keyboard and type in %localappdata%. 
+3. You should see a Windows Explorer window pop up, find and delete the folder called Wabbajack inside. 
+4. restart wabbajack, log back in again and restart your installation.
+
 
 ### Wabbajack fails to download mods or hangs for a long time.
 
@@ -179,7 +191,7 @@ If you get the following error - Make sure Steam is installed in English, valida
 
 ![image](https://media.discordapp.net/attachments/1145403759082606732/1145411552292372540/image.png)
 
-For any other default Skyrim file, Wildlander requires  a specific version of the Anniversary edition update of skyrim SE (version 1.6.640 at time of writing). If you are running a older version of skyrim - E.G (1.5.97) you will need to update to the current version before you can downgrade. 
+For any other default Skyrim file, Wildlander requires  a specific version of the Anniversary edition update of skyrim SE (version 1.6.640 at time of writing) on steam. If you are running a older version of skyrim - E.G (1.5.97) you will need to update to the current version before you can downgrade. We do not support GOG, Epic games or Gamepass versions of skyrim.
 
 As Skyrim has updated recently - it will require the list to be recompiled to cope with these changes. If you have reccently update or installed skyrim you will most likely need to downgrade your installation to version  1.6.640 (instructions below).
 

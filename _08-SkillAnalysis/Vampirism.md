@@ -216,9 +216,9 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     400 Damage to Health, Stamina, and Magicka while in outdoor cells between 5AM-7PM.
 
-### Well Rested (Slept in a coffin)
+### Well Rested (Slept in a coffin in player home)
 
-    10% Magic Resistance for 12 hours.
+    5% Magic Resistance for 12 hours.
 
     Skill gain increased by 15% for 12 hours.
 
