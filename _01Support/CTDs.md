@@ -100,9 +100,15 @@ OR
 ---
 ### Crash to Desktop when entering a building or on "finalising setup". Crash code fiss.dll+4481 or SkyrimSE.exe+D6DDDA. 
 
-These Error codes have two causes
+This Error codes have Three causes
 
-#### Out of memory crash. Caused by System Ram and page file overflowing.
+#### 1. Can  be caused by Medal clipping software
+
+Exiting this program is the recommended advice before playing Wildlander, as on lower end PC's it causes a CTD from the main menu, and on higher end causes the ENB to have blinding sunlight and black water.
+
+Either way - Support staff strongly advise that if you dont have this running when starting wildlander. 
+
+#### 2. Out of memory crash. Caused by System Ram and page file overflowing.
 
 Bigger Skyrim mod lists need a lot of memory, and when there is not enough available it may fail allocating more. To fix this, you'll want to have a bigger page-file.
 
@@ -117,10 +123,9 @@ If you've never touched the page-file, try performing the following steps:
 4. Disable 'Automatically manage paging file size for all drives'
 5. a) If you have more than one drive, try enabling it for at least one more drive as a backup (make sure it has a decent bit of free space, like 15GB). Set the size to 'System managed size'.
 
-   b) Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB - the minimum can be left at the default.
+   b) Otherwise, set a custom size for the drive it's currently on and increase the maximum size to be at least 20GB - the minimum can be left at the default.    
    
-   
-#### This Error can also be caused by a corrupt NIF/DDS file. 
+#### 3, This Error can also be caused by a corrupt NIF/DDS file. 
 
 If adding a page file doesn't resolve, then look through the logfiles' stack section for Meshes(nif files) or Textures(dds). The below log snippet shows a example of the type of file you are looking for. Search your PC for the file(s) shown. Delete the Mod folder that texture is located in, Important: It wont be in the folder in the log (e.g data\TEXTURES\) as these come from the virtual filesystem - you will need to search.  Then reinstall from Wabbajack - choosing overwrite installation.
 
