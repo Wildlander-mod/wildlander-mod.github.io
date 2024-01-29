@@ -16,7 +16,7 @@ These perks will make you more effective at lockpicking.
 
 **Cheap Tricks**
 
-You have learned the basics of picking locks and gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
+You have learned the basics of picking locks and gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge Iron ingots into lockpicks.
 
 Level Required : 0
 
