@@ -23,6 +23,8 @@ Level Required : 0
 
 Perk Required : None
 
+Unlocks Basic Equipment, Advanced Survival gear & Tempering (at skill 15)
+
 ---
 
 **Advanced Blacksmithing**
@@ -32,6 +34,8 @@ Your hammer's subtle technique allows you to craft jewelry, plate armors and exo
 Level Required : 50
 
 Perk Required : Craftsmanship
+
+Unlocks Alchemy powders
 
 ---
 
@@ -43,6 +47,8 @@ Level Required : 50
 
 Perk Required : Advanced Blacksmithing
 
+Unlocks Enchanted Arrows/Bolts 
+
 ---
 
 **Legendary Blacksmithing**
@@ -52,6 +58,8 @@ The forge sings your steel, and your hammer shapes legends. You can temper all m
 Level Required : 100
 
 Perk Required : Advanced Blacksmithing
+
+Unlocks Artifact tempering
 
 ---
 
@@ -70,6 +78,7 @@ Level Required : 25
 
 Perk Required : Craftsmanship
 
+Unlocks Dwarven Equipment & Tempering (at skill 35)
 ---
 
 **Orcish Smithing**
@@ -79,6 +88,8 @@ Orichalcum is hard to shape, but you've got what it takes. You can now craft Orc
 Level Required : 50
 
 Perks Required : Dwarven Smithing
+
+Unlocks Orcish Equipment & Tempering (at skill 65)
 
 ---
 
@@ -90,6 +101,10 @@ Level Required : 50
 
 Perks Required : Craftsmanship
 
+Rank 1 Unlocks Bonemeld Chitnin Equipment & Tempering (at skill 65)
+
+Rank 2 Unlocks Chitin Equipment & Tempering (at skill 65) and tempering or Morag Tong.
+
 ---
 
 **Nordic Smithing**
@@ -99,6 +114,8 @@ You can now craft contemporary Nordic equipment by combining Quicksilver & Ebony
 Level Required : 55
 
 Perks Required : Dwarven Smithing, Morrowind Smithing
+
+Unlocks Nordic Equipment & Tempering 
 
 ---
 
@@ -110,6 +127,8 @@ Level Required : 75
 
 Perks Required : Orcish Smithing, Nordic Smithing
 
+Unlocks Ebony Equipment & Tempering
+
 ---
 
 **Daedric Smithing**
@@ -119,6 +138,8 @@ Your smithing skill transcends the mortal plane. You can craft and temper Daedri
 Level Required : 100
 
 Perk Required : Ebony Smithing
+
+Unlocks Daedric Equipment & Tempering 
 ---
 
 ### Light Armor Branch
@@ -135,6 +156,8 @@ Level Required : 25
 
 Perk Required : Craftsmanship
 
+Unlocks Scaled Equipment & Tempering 
+
 ---
 
 **Elven Smithing**
@@ -145,6 +168,8 @@ Level Required : 50
 
 Perk Required : Advanced Light Armor
 
+Unlocks Elven Equipment & Tempering 
+
 ---
 
 **Glass Smithing**
@@ -154,6 +179,8 @@ You've mastered the subtle art of hardened Glass. You can now craft Glass equipm
 Level Required : 75
 
 Perks Required : Elven Smithing, Morrowind Smithing
+
+Unlocks Glass Equipment & Tempering 
 
 ---
 
@@ -169,8 +196,11 @@ In exchange for your aid, the Skaal have shared the sacred art of Stalhrim shapi
 
 Level Required : 85
 
-Perks Required : Glass Smithing, Ebony Smithing
+Perks Required : Glass Smithing OR Ebony Smithing
 
+Unlocks Stahlrim Equipment & Tempering 
+
+Note: Stahlrim crafting requires that you have completed "a New source of Stahlrim"
 ---
 
 **Draconic Blacksmithing**
@@ -181,4 +211,7 @@ Level Required : 100
 
 Perks Required : Glass Smithing OR Ebony Smithing
 
+Unlocks Draconic Equipment & Tempering 
+
+Note: Most Draconic items need Ebony smithing to craft them, even if the perk does not.
 ---
