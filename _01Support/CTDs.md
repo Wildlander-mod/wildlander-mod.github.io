@@ -279,7 +279,9 @@ Fix: Give the offending items to a follower or horse to carry, or store inside o
 
 This crash means your save has corrupted - there is no fix. Any save you make after will have the same issue. Typical cause is "save-scumming"
 
-Symptom: cant load any save after the initial load into the game (attempting causes a CTD). You may be able to "continue" from main menu, but not load specific save from  main menu, or visa versa.
+Symptom: You cant load any save after the initial load into the game  from the main menu (attempting causes a CTD). You may be able to "continue" from main menu, but not load specific save from main menu, or visa versa. Exiting to the main menu and loading a save from there will also cause the crash.
+
+More Information: When you start skyrim initially the character loaded into memory is a level 1 basic nord character. Soon as you load your game from the menu, that level 1 is overwritten by your current character. Under normal circumstances when you reload your game, skyrim tries to reset all of the changes step by step to get back to the original state of your save. In some cases The engine doesn't fully reset (E.G merchant inventories not resetting, object havok physics positions being different. NPC's or hand placed items disappearing).  When attempting this reset on a corrupt save, The engine throws a wobbly and causes the CTD. You can read more information about the skyrim Engine loading bugs here <https://www.reddit.com/r/skyrimmods/comments/116raxm/psa_engine_bug_when_reloading_saves/> 
 
 Only solution is to roll back saves until you find one which works correctly.
 
