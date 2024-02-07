@@ -170,6 +170,10 @@ This file is quite large - and on slower Internet connections' may timeout.
 
 In the event of this occurring for you you can try downloading <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016? " target="_blank" rel="noopener noreferrer">Resources - Wildlander Full <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> from nexus manually, and placing it in your downloads folder still zipped.
 
+**DVLAS is Hidden**
+
+use this link to take you right to the download <https://www.nexusmods.com/skyrimspecialedition/mods/44483/?tab=files&file_id=187402>
+
 **Nexus mods in general**
 
 you may need to use a VPN and/or different browsers to download these files. We are not sure why nexus is blocking access. Premium users can try this 
