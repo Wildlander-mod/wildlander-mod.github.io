@@ -156,6 +156,16 @@ Check Task manager, if Wabbajack is not using any network resources, its likely 
     
 If these files hang, manually download and add to your Wabbajack specified download folder (still zipped)
 
+** If Manually downloading all these files will have to be manually downloaded**
+
+* DVLAS <https://www.nexusmods.com/skyrimspecialedition/mods/44483/?tab=files&file_id=187402>
+* Argonians Enhanced Textures Simple <https://www.nexusmods.com/skyrimspecialedition/mods/48346/?tab=files&file_id=197218>
+* Argonian Mouth Remastered <https://www.nexusmods.com/skyrimspecialedition/mods/48346/?tab=files&file_id=197213>
+* HD Nostril Tint Mask <https://www.nexusmods.com/skyrimspecialedition/mods/48346/?tab=files&file_id=197215>
+* HD Scars Vanilla <https://www.nexusmods.com/skyrimspecialedition/mods/48346/?tab=files&file_id=197217>
+* Nordic tent <https://www.nexusmods.com/skyrimspecialedition/mods/19627/?tab=files&file_id=64444>
+* ETaC SSE <https://www.nexusmods.com/skyrimspecialedition/mods/13552/?tab=files&file_id=79876>
+
 **High Poly Head**
 
 <https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download> 
@@ -170,9 +180,6 @@ This file is quite large - and on slower Internet connections' may timeout.
 
 In the event of this occurring for you you can try downloading <a href="https://www.nexusmods.com/skyrimspecialedition/mods/70016? " target="_blank" rel="noopener noreferrer">Resources - Wildlander Full <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> from nexus manually, and placing it in your downloads folder still zipped.
 
-**DVLAS is Hidden**
-
-use this link to take you right to the download <https://www.nexusmods.com/skyrimspecialedition/mods/44483/?tab=files&file_id=187402>
 
 **Nexus mods in general**
 
