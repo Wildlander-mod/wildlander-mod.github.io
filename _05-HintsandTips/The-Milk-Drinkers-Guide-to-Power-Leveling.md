@@ -24,7 +24,7 @@ A lot of people who are new to Requiem don't know what to do in the early game t
 > 
 > This guide uses more cheese tactics than a McDonald's uses in a month!
 
-Character created must have Lock-picking and Smithing perks to make best use of this guide. First perks from level ups if not chosen at character create should be allocated into Speechcraft, then optionally Alchemy. If you don't plan on taking alchemy, then you can still sell any herbs you forage.
+Character created must have Lock-picking and Smithing perks |(and selected them as starting talents) to make best use of this guide. First perks from level ups if not chosen at character create should be allocated into Speechcraft, then optionally Alchemy. If you don't plan on taking alchemy, then you can still sell any herbs you forage.
 
 At all points in the guide players should
 1. Loot every herb you come across
@@ -78,7 +78,7 @@ I recommend looting Helgen first before doing anything else - 3 days after game 
 
 Head first to the big burning inn type structure as lots of tankards and iron items you can break down for fragments. You can use the fallen tree to access the upper level which has more items / mead bottles. 
 
-After that, if you are capable of picking the locks - into the fort proper. Use the left hand door to the barracks area.
+After that, if you are capable of picking the locks, and have lockpicks - into the fort proper. Use the left hand door to the barracks area.
 
 > * Once inside, Loot everything. There is a full set of heavy or light armor with all required weapons. 
 > * Open all of the chests and barrels - literally strip the place - don't worry about your carry weight if you have smithing, we can address that once we arrive in the kitchen. 
@@ -96,21 +96,21 @@ If you are feeling brave, you can take a detour to the the unmarked shrine of Ta
 
 ![image](https://user-images.githubusercontent.com/26418143/163391300-aea2c046-41ac-4e63-a5dd-5509bfbcb9a8.png)
 
-Cross the river and go to Anise's Cabin and take everything not nailed down, Read the Alchemy book in on a table at the foot of the bed for free experience (if your a thief - steal it so you can study later) - Anise won't aggro unless you go into her locked cellar, but other than the book, everything else inside her cabin is free to loot (including her veggie patch outside) if you arrive before midnight on the first day. You can either walk down to riverwood looting herbs on Anise's side of the river and cross at the lumber mill, or cross back over the river - should you encounter Wolves, hope you can run to riverwood and let the guards take care of them (more dangerous but will give you wolf meat, reagents and pelts). 
+Cross the river and go to Anise's Cabin and take everything not nailed down, Read the Alchemy book in on a table at the foot of the bed for free experience (if your a thief - steal it so you can study later) - Anise won't aggro unless you go into her locked cellar, but provided she is outside, other than the book, everything else inside her cabin is free to loot (including her veggie patch outside). If you arrive before midnight on the first day. You can either walk down to Riverwood looting herbs on Anise's side of the river and cross at the lumber mill (checking inside of tree-stumps as some contain loot), or cross back over the river - should you encounter Wolves, hope you can run to Riverwood and let the guards take care of them (more dangerous but will give you wolf meat, reagents and pelts). 
 
-Once you arrive at riverwood go to the campsite outside of the town and place your chest, empty it with the exception to your alchemy stocks and the enchanted clothing items. Break down wooden items (bowls ect) into kindling and start a campfire - upgrade it to maximum and stand near until you get the inspired buff.
+Once you arrive at Riverwood go to the campsite outside of the town and place your chest, empty it with the exception to your alchemy stocks and the enchanted clothing items. Break down wooden items (bowls ect) into kindling and start a campfire - upgrade it to maximum and stand near until you get the inspired buff.
 
-Assuming you have a point in smithing, Speak to Alvor and do the smithing intro quest chain, use the workstations he tells you to to level smithing (Don't use player crafting - it won't count for the quest) - if you didn't perk into Smithing in character create, you will need to purchase the smithing toolkit from him.
+Speak to Alvor,if you didn't invest into Smithing in character create, you will need to purchase the smithing toolkit from him.
 
-Run around Riverwood looting any vegetables or chicken nests which aren't marked as steal, click the cows for their milk. empty and fill water bottles at the river. Then use the cooking pot & chefs toolkit to craft any stews you can make. Surplus ingredients go in your chest.  Make sure you run down to the bridge and pick up the free Salmon.
+Run around Riverwood looting any vegetables or chicken nests which aren't marked as steal, click the cows for their milk. Empty and fill water bottles at the river. Then use the cooking pot & chefs toolkit to craft any stews you can make. Surplus ingredients go in your chest.  Make sure you run down to the bridge and pick up the free Salmon.
 
-Keep a bow and some arrows or the crossbow & bolts if you are a physical fighter(it's safer to attack the giant the companions are fighting from range and will give you marksman experience. For mages - be aware of friendly fire and try to range attack the giant). Break everything metal/hide/leather down and re-smelt into ingots. Make sure you craft some more lockpicks with your broken down materials, you will need them in Dragonreach. Also recommend crafting a Alchemist and Chef's toolkit, anything additional you can use to temper your weapons. You can use the wood chopping blocks at the lumber mill to get yourself some more wood and craft yourself some arrows or bolts if you are a archer. With any extra ingots/leather continue to craft, smelt, breakdown until you run out of materiel. The unenchanted clothing can be broken down and converted to bandages at the forge, while any healing alchemy reagent (e.g Blue mountain flowers) can be made into medical paste. Both these items should be combined to give you healing poultices (I suggest carrying 1-3 at all times unless you are perked into restoration). By this point you should have leveled up at least once, so make sure to invest that point into Speechcraft (and alchemy if you have two perks available)
+Keep a bow and some arrows or the crossbow & bolts if you are a physical fighter(it's safer to attack the giant the companions are fighting from range and will give you marksman experience. For mages - be aware of friendly fire and try to range attack the giant). Break everything metal/hide/leather down and re-smelt into ingots. Make sure you craft some more lockpicks with your broken down materials, you will need them in Dragonreach. Also recommend crafting a Alchemist and Chef's toolkit, anything additional you can use to temper your weapons. You can use the wood chopping blocks at the lumber mill to get yourself some more wood and craft yourself some arrows or bolts if you are a archer. With any extra ingots/leather continue to craft, smelt, breakdown until you run out of material. The unenchanted clothing can be broken down and converted to bandages at the forge, while any healing alchemy reagent (e.g Blue mountain flowers) can be made into medical paste. Both these items should be combined to give you healing poultices (I suggest carrying 1-3 at all times unless you are perked into restoration). By this point you should have leveled up at least once, so make sure to invest that point into Speechcraft (and alchemy if you have two perks available)
 
-The enchanted clothing you obtained should be kept and sold to Farengar once you arrive in whiterun(if you don't intend on wearing it yourself). Hold on to your alchemy supplies - Arcadia has better prices than the riverwood alchemist. Anything else you are carrying which can't be broken down should be sold to the riverwood trader. Finally pick up your chest.
+The enchanted clothing you obtained should be kept and sold to Farengar once you arrive in Whiterun (if you don't intend on wearing it yourself). Hold on to your alchemy supplies - Arcadia has better prices than the Riverwood alchemist. Anything else you are carrying which can't be broken down should be sold to the Riverwood trader. Finally pick up your chest.
 
-Leave Riverwood and head to whiterun, again picking up herbs & free vegetables from the farm on the way - be careful at the river - there is 4 mudcrabs and two wolves in the area if they start to fight stand on the large rock and be prepared to ranged shoot the survivors. Once again looting/clean/skin any corpses.  Note: If you are a thief, you can avoid this altogether, and steal a low value item - like some wood from one of the woodpiles in riverwood and immediately offer to pay your fine to the guard which will teleport you to Dragonreach. 
+Leave Riverwood and head to Whiterun, again picking up herbs & free vegetables from the farm on the way - be careful at the river - there is 4 mudcrabs and two wolves in the area if they start to fight stand on the large rock and be prepared to ranged shoot the survivors. Once again looting/clean/skin any corpses.  Note: If you are a thief, you can avoid this altogether, and steal a low value item - like some wood from one of the woodpiles in Riverwood and immediately offer to pay your fine to the guard which will teleport you to Dragonreach. 
 
-Once past the fights, pick any herbs or skill a skin critters until you arrive at the whiterun farms. Use ranged attacks to help out the companions with their giant problem. You can generally loot some or all of the crops/barrels in this area. Once you make it to whiterun proper - check the chests and barrels outside the gates - they normally contain items which can be broken down, food or items which can be sold.  
+Once past the fights, pick any herbs or skill a skin critters until you arrive at the Whiterun farms. Use ranged attacks to help out the companions with their giant problem. You can generally loot some or all of the crops/barrels in this area. Once you make it to Whiterun proper - check the chests and barrels outside the gates - they normally contain items which can be broken down, food or items which can be sold.  
 
 ## Whiterun
 
@@ -123,7 +123,7 @@ Once past the fights, pick any herbs or skill a skin critters until you arrive a
 
 As soon as you arrive, speak with Adrienne and get the quest to deliver a sword to Proventus Avenicci in Dragonsreach.
 
-If you are tired, there is a free bed in the outlaw's refuge (every city has one). Make sure you pick up any herbs around town, Loot all chicken nests and activate the cows for milk. You should do this at every city you visit. Wooden chests can be placed within outlaw refuges/sewers for easy access to your stashed stocks while in town.
+If you are tired, there is a free bed in the outlaw's refuge (every city has one). Make sure you pick up any herbs around town, Loot all chicken nests and activate the cows for milk. You should do this at every city you visit. Wooden chests can be placed within sewers for easy access to your stashed stocks while in town.
 
 You can read the skill books in the city. The books are located in the following areas - Grab them as you see them:
 
@@ -140,9 +140,9 @@ You can read the skill books in the city. The books are located in the following
 > * An Illusion book (Before the Ages of Man) sitting on a table in the Jarl's quarters of Dragonsreach.
 > * A Enchanting book(Enchanter's Primer) Carlotta Valentia's House, on the bedroom floor
 
-Deliver the sword to Proventus Avenicci. Once delivered, you can take everything not nailed down in Dragonsreach (Specifically the great porch and Jarl's quarters have the most free items). Breakdown all silver and iron and steel you find for easier carry. Lockpick locked chests and display cases. Doing this quest also gives you a free bed in Dragonsreach. You can take a mammoth tusk in the Jarl's quarters storage room and give it to Ysolda to get free speech experience. If you don't plan on joining the companions you can use the dummies at the great porch to train a few hours for safe experience.
+Deliver the sword to Proventus Avenicci. Once delivered, you can take everything not marked as steal in Dragonsreach (Specifically the great porch and Jarl's quarters have the most free items provided they are not occupied). Breakdown all silver and iron and steel you find for easier carry. Lockpick locked chests and display cases. Doing this quest also gives you a free bed in Dragonsreach. You can take a mammoth tusk in the Jarl's quarters storage room and give it to Ysolda to get free speech experience. If you don't plan on joining the companions you can use the dummies at the great porch to train a few hours for safe experience.
 
-At Farengar, get the quest to deliver frost salts to Arcadia. Sell him the enchanted robes you collected from helgan.
+At Farengar, get the quest to deliver frost salts to Arcadia. Sell him the enchanted robes you collected from Helgan.
 
 If you join the Companions you can get a lot more free weapons and armor from Jorrvaskr, including powerful two-handed weapons. When "testing your arm" against Vilkas you can get some free one-handed experience bashing his shield. WARNING: In some rare instances he will kill you, usually for casting mage armor and using magic. If not - you can use the dummies at Jorrvaskr to train a few hours for safe experience. again after joining - strip the place of anything not nailed down(, take all silver plates, goblets, bowls and decanters from the main hall and what you can from downstairs).
 
@@ -154,7 +154,7 @@ If your speechcraft is high enough (>25) you can talk to Mikael for Carlotta, co
 
 Pick all locked doors while in sneak mode. Even if you're not a thief, you'll get lockpicking experience. Do this everywhere in Skyrim.
 
-Shopping list before leaving whiterun:- Backpack, Iron lantern, Tent and a set of harvesting knifes (orcish/elven) for skinning / harvesting dead animals - the harvesting knives should be purchased if the general store or blacksmith has stock - if not ask the blacksmith to craft them for you, the rest you can craft yourself.
+Shopping list before leaving Whiterun:- Backpack, Iron lantern, Tent and a set of harvesting knifes (orcish/elven) for skinning / harvesting dead animals - the harvesting knives should be purchased if the general store or blacksmith has stock - if not ask the blacksmith to craft them for you, the rest you can craft yourself.
 
 If you're feeling brave, head north from Whiterun and collect Four treasure chests; 
 <details>
@@ -200,13 +200,13 @@ If you're feeling like easy combat, head northwest to a mammoth graveyard (locat
 
 ![image](https://user-images.githubusercontent.com/26418143/162266992-a2dca0e2-8d89-4034-b398-400284741da7.png)
 
-Loot their corpses. If you didn't take the mammoth tusk from the Jarl's storeroom - this is your easy change to get one, harvest the dead mammoth and all of the mammoth skulls (your wooden chest will be useful here, otherwise this may take several trips to take everything and run back to whiterun to sell it). If it gets Dark - place your tent and a campfire and get some camping experience. Check the skills menu on your campfire - you may have perks to invest.
+Loot their corpses. If you didn't take the mammoth tusk from the Jarl's storeroom - this is your easy change to get one, harvest the dead mammoth and all of the mammoth skulls (your wooden chest will be useful here, otherwise this may take several trips to take everything and run back to Whiterun to sell it). If it gets Dark - place your tent and a campfire and get some camping experience. Check the skills menu on your campfire - you may have perks to invest.
 
 If you meet any slow moving deadly enemies like large mudcrabs or trolls, lure them to Whiterun guards and let them take care of them. Harvest the dead animals.
 
 If you have collected Unusual gems and don't intend on joining the thieves guild - the Khajiit caravans will purchase them from you.
 
-Once you have cleared whiterun area, get in the wagon and drive to Riften.
+Once you have cleared Whiterun area, get in the wagon and drive to Riften.
 
 
 ## Riften
