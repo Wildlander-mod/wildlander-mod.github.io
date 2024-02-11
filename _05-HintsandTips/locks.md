@@ -9,9 +9,9 @@ has_toc: true
 
 Alteration Spells Knock, Knock  II and Knock III can be used to unlock any item. Knock III empowered can open master chests. Knock also comes in scroll format.
 
-You can "Bash" (attack) Novice, apprentice and Adept wooden locks if your current health and stamina reaches the requirements. (boss chests and steel doors can’t be bashed - if your weapon makes a metal on metal noise, it cant be bashed) To use simply target the lock, Hit it once, then move your cursor off and onto the chest.
+You can "Bash" (attack) Novice, apprentice and Adept wooden locks if your current health and stamina reaches the requirements. (boss chests, Strongboxes and steel/jail doors can’t be bashed - if your weapon makes a metal on metal noise, it cant be bashed) To use simply target the lock, Hit it once, then move your cursor off and onto the chest.
 
-Note: Weapon doesn't matter, and it just needs a standard attack. 
+Note: Weapon doesn't matter, and it just needs a standard attack. Some chests require certain positioning so you hit the chest - not the clutter around it.
 
 * Novice Level Locks: If (HP * 2) + Stamina > 350 = Success.
 * Apprentice Level Locks: If (HP * 2) + Stamina > 450 = Success.
@@ -19,7 +19,7 @@ Note: Weapon doesn't matter, and it just needs a standard attack.
 	
 ## Expertise and pick-able locks.
 
-You need certain Expertise threshold for each level of locks in Requiem. Expertise is not the Lockpicking skill level, but a different value that is used to determine your capability to open each levels of locks. Lockpicking skill level is simply used to determine if you can learn the perks, it doesnt affect your ability in openeing the locks.
+You need certain Expertise threshold for each level of locks in Requiem. Expertise is not the Lockpicking skill level, but a different value that is used to determine your capability to open each levels of locks. Lockpicking skill level is simply used to determine if you can learn the perks, it doesn't affect your ability in opening the locks.
 
 Pickable locks by Expertise:
 * Novice : challenging with 5 Expertise, moderate with 10 Expertise.
