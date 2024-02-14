@@ -3,7 +3,7 @@
 
 Several Anti-virus programs are known to cause issues with launching list, Some cause issues with Wabbajack itself, others with running the list once installed. 
 
-If you are experiencing problems running Wabbajack such as the exe being deleted or no progress during the installation phase, try adding your Wabbajack folder (where the executable is located) and your selected modlist installation location to exclusions in your anti-virus of choice. Find out how to via <a href="https://lmgtfy.app/?q=how+to+add+exclusions+to+antivirus" target="_blank" rel="noopener noreferrer">Here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+If you are experiencing problems running Wabbajack such as the exe being deleted or no progress during the installation phase, try adding your Wabbajack folder (where the executable is located) and your selected modlist installation location to exclusions in your anti-virus of choice. Find out how to via <a href="https://www.google.com/search?q=how+to+add+exceptions+to+antivirus&oq=how+to+add+exclusions+to+antivirus" target="_blank" rel="noopener noreferrer">this google search and look for your antivirus in the results <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 If your 3rd party anti-virus has expired its license and you don't plan on renewing it - UNINSTALL IT! Outdated, expired anti viruses account for 70% of the anti-virus support related issues we see.
 
