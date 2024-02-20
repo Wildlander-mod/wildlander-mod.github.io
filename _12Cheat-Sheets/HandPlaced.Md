@@ -306,7 +306,7 @@ description: Recipes lists
 * Transmute wood Can be found at an unmarked location on the trail leading west towards Mount Anthor.
 * Bound Cloak (rank 1) Can be found in Alchemist's Shack and an unmarked location southwest of Evergreen Grove.
 * Bound Cloak (rank 2) Can be found at an unmarked location east of Stendarr's Beacon.
-* Conjour Shelther (Rank 1) Can be found in Angarvunde and an unmarked location southeast of Morthal. 
+* Conjour Shelter (Rank 1) Can be found in Angarvunde and an unmarked location southeast of Morthal. 
 * Soothe (rank 1) Can be found at unmarked locations east of Stendarr's Beacon, northeast of Ysgramor's Tomb, east of Dragon Bridge, and north of Narzulbur.
 * Soothe (rank 2) Can be found at an unmarked location east of the College of Winterhold and an unmarked location north of Whistling Mine
 * Vapor Blast Can be found in Sunderstone Gorge and an unmarked location east of Boulderfall Cave.
