@@ -300,7 +300,7 @@ description: Recipes lists
 ## Spellbooks
 
 * Mark & Recall spell (in a difficult locked chest atop a tower in Wolfskull Cave) 
-* Transmute Blood spellbook (in Yngvild, awesome for Atronach Stone users) 
+* Transmute Blood spellbook (in BolderFall Cave, Wolfskull Cave, Ansilvund Burial Chambers  awesome for Atronach Stone users) 
 * Magecoat (rank 1) Can be found at unmarked locations south of Pinewatch, north of Snow Veil Sanctum, and southeast of Sleeping Tree Camp.
 * Magecoat (rank 2) Can be found in Wolfskull Cave and Southfringe Sanctum.
 * Transmute wood Can be found at an unmarked location on the trail leading west towards Mount Anthor.
