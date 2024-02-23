@@ -300,13 +300,13 @@ description: Recipes lists
 ## Spellbooks
 
 * Mark & Recall spell (in a difficult locked chest atop a tower in Wolfskull Cave) 
-* Transmute Blood spellbook (in Yngvild, awesome for Atronach Stone users) 
+* Transmute Blood spellbook (in BolderFall Cave, Wolfskull Cave, Ansilvund Burial Chambers  awesome for Atronach Stone users) 
 * Magecoat (rank 1) Can be found at unmarked locations south of Pinewatch, north of Snow Veil Sanctum, and southeast of Sleeping Tree Camp.
 * Magecoat (rank 2) Can be found in Wolfskull Cave and Southfringe Sanctum.
 * Transmute wood Can be found at an unmarked location on the trail leading west towards Mount Anthor.
 * Bound Cloak (rank 1) Can be found in Alchemist's Shack and an unmarked location southwest of Evergreen Grove.
 * Bound Cloak (rank 2) Can be found at an unmarked location east of Stendarr's Beacon.
-* Conjour Shelther (Rank 1) Can be found in Angarvunde and an unmarked location southeast of Morthal. 
+* Conjour Shelter (Rank 1) Can be found in Angarvunde and an unmarked location southeast of Morthal. 
 * Soothe (rank 1) Can be found at unmarked locations east of Stendarr's Beacon, northeast of Ysgramor's Tomb, east of Dragon Bridge, and north of Narzulbur.
 * Soothe (rank 2) Can be found at an unmarked location east of the College of Winterhold and an unmarked location north of Whistling Mine
 * Vapor Blast Can be found in Sunderstone Gorge and an unmarked location east of Boulderfall Cave.
