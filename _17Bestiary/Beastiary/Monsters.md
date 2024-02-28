@@ -1681,7 +1681,7 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 |Standard AR| None |
 |Magical AR| None |
 |AP| None |
-|Health Regeneration| None  |
+|Health Regeneration| 0.25/s  |
 | Diseased | None |
 |Can Knockdown Player| None |
 
@@ -1760,7 +1760,7 @@ Wisps are glowing, spherical creatures flying around that will attack the Dragon
 |Standard AR| None |
 |Magical AR| None |
 |AP| None |
-|Health Regeneration| No  |
+|Health Regeneration| 0.25/s  |
 | Diseased | None |
 |Can Knockdown Player| No |
 

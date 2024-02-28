@@ -860,7 +860,7 @@ Mod: Base Game
 |Standard AR| None |
 |Magical AR| None |
 |AP| None |
-|Health Regeneration| None  |
+|Health Regeneration| 0.25/s  |
 | Diseased | No |
 |Can Knockdown Player| No |
 
