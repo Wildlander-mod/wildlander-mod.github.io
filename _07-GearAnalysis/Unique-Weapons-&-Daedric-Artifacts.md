@@ -247,7 +247,7 @@ has_children: false
 | *Cuirass:<br/>- Fortify Health 15-60 points and renders you immune to almost all magical draining effects.<br/>- Fortify Stamina 15-60 points and renders you immune to most paralysis effects.* |
 | *Gloves:<br/>- Fortify 1H Damage 5-20% points.<br/>- Fortify Blockable Damage 5-20%.* |
 | *Boots:<br/>- Fire Resist 5-10%.<br/>- Frost Resist 5-10%.<br/>- Shock Resist 5-10%.<br/>- Restore Stamina 1-4 points per second.* |
-| *Set Bonus:<br/>- Bonuses increase with more Deathbrand Armor pieces worn.|
+| *Set Bonus:<br/>- Bonuses increase with more Deathbrand Armor pieces worn. Bonuses Double when Deathbrand himself is killed|
 
 ---
 
