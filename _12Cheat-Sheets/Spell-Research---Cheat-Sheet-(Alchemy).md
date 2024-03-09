@@ -24,7 +24,7 @@ Alchemy can be a much quicker way to gain experience about spell archetypes, how
 > 
 > Spell research alchemy is currently bugged in the main release (versions 1.1.11 or earlier). You can fix it by unzipping the below patches contents into Game-files\mods\Wildlander\scripts replacing existing files.
 >
-> [Patch](https://cdn.discordapp.com/attachments/979369135928643604/1069755050504761464/QuestScript.rar) 
+> [Patch](https://cdn.discordapp.com/attachments/1070282994817978461/1212701690323804171/SR_QuestScript.zip?ex=65fc05f5&is=65e990f5&hm=b0aeb13237239f46c1b3a4cc6b1e0f7c4c07dd0c26bb9b219883692af79ac241&) 
 
 
 ## Getting started
