@@ -296,7 +296,7 @@ There are a lot of Mods which have been confirmed working as plug and play. Thes
 Discord staff do monitor these channels for bad advice and incorrect information. 
 
 
-### SkyrimUpscalerENBTestBuild for Wildlander
+### SkyrimUpscalerENBTestBuild AKA DLSS Patreon for Wildlander
 
 **Submitted By**
 weedinabottle#3376
