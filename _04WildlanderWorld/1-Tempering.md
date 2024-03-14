@@ -20,13 +20,13 @@ has_toc: true
 
 ## Introduction
 
-Both Armor and weapons within wildlander make tempering your equipment relevant.
+Both Armor and weapons durability within wildlander make tempering your equipment relevant. 
 
-The higher the temper on the weapon, the more damage it does. 
+The higher the durability on the weapon, the more damage it does. 
 
-The higher the temper on the Armor, the more protection it does. 
+The higher the durability on the Armor, the more protection it gives. 
 
-Tempering is shown in your inventory with a Tier description and a health number in brackets. ( currently disabled in 1.1.11 - but will be returning in next version)
+Tempering is shown in your inventory with a Tier description. ( currently disabled by default in 1.1.11 - see known issues below for a fix) 
 
 ![image](https://user-images.githubusercontent.com/26418143/156928089-14acb6eb-fff6-4755-b51b-908b8e7ee454.png)
 
@@ -37,6 +37,16 @@ Iequip icons on your UI can be edited to give a visual representation of how clo
 
 ![image](https://user-images.githubusercontent.com/26418143/162575241-b21c12f0-6c18-471f-b919-4bcdf9cfb0a1.png)
 
+### In Summary 
+
+The way tempering works is to increase the durability number of the item. The higher your smithing skill, the higher the durability number you can get. A newly crafted item will always have a durability number of 100. Using the item will decrease the durability, tempering it returns it back to the maximum durability your (or the blacksmith's) Skill allows. Tempering durability is divided into tiers to show the approximate state of your durability from the UI.
+
+The Maximum durability is affected by your current blacksmith skill and nothing else. 
+
+The loss of durability is by the materiel its made from, better materiels degrade slower.
+
+Even with 100 smithing skill, you wont be able to temper a item if you dont have the item's materiel perk.
+
 ## Known issues
 
 **SkyUI group hotkeys not working after weapon is tempered**
@@ -44,17 +54,17 @@ Iequip icons on your UI can be edited to give a visual representation of how clo
 This is caused by a mod conflict -  For this function to work properly, you need to disable (from MO2) the mod "Improvement Names Customized SSE". Simply untick this mod in MO2, it is in the left side.
 
 What this will do
-* Allow tempered weapon / armor groups to work.
-* re-enable tempered descriptions (e.g Well-made)
+* Allow tempered weapon / armor Skyui groups to work.
+* re-enable tempered tier descriptions (e.g Well-made)
 
 What it will not do
-* Keep items in groups when you temper or they degrade - you will simply need to re add them to the group.
-* Show the "numeric" health of the weapon/armor
+* Keep items in groups when you temper or they drop a tier - you will simply need to re add them to the group.
+* Show the "numeric" durability of the weapon/armor 
 
 
 ## Temper Tiers
 
-Temper tiers is based on the % health of your item, when compared to a newly crafted weapon at 100% health. Unless you are willing to utilize spell research to craft fortify Smithing potions (from elixers), and have specific smithing gear enchanted with fortify smithing, and are at 100 Smithing skill - you should not expect masterwork or legendary temper tiers .
+Temper tiers is based on the % durability of your item, when compared to a newly crafted weapon at 100% durability. Unless you are willing to utilize spell research to craft fortify Smithing potions (from elixers), and have specific smithing gear enchanted with fortify smithing, and are at 100 Smithing skill - you should not expect masterwork or legendary temper tiers .
 
 Low%|High%|Label| Damage/protection of item
 |--|--|--|--|
@@ -72,17 +82,17 @@ Low%|High%|Label| Damage/protection of item
 700|Onwards|Legendary| 60 Bonus Damage/Armor Minimum
 
 How do you improve Temper tiers that you can do?
-* Improve your skill.
+* Improve your Smithing skill.
 * Pick up the smithing perk for the materiel you are working with.
 * Use Elixirs of fortify smithing & enchanted gear.
-* have the advanced & legendary blacksmith perks.
+* have the advanced blacksmith perk.
 
 ## Degrade Rules 
 
 * On hit a random piece of armor is degraded.
 * Shields only degrade when blocking
 * Weapons degrade on contact with anything (not just enemies).
-* Daedric Artifact do not degrade.
+* Daedric items do not degrade.
 * The better the materiel the slower it degrades
 * Durability loss for weapons is calulated by the base Weapon hit 0.2% or power attack hit of 3% multiplied by the Weapon materiel table below.
 * Durability loss for armor is calulated by the Armor type Multiplied by 0.2% Weapon hit multiplied by the Armor materiel table below.
