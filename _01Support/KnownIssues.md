@@ -324,6 +324,8 @@ If you don't HAVE followers, You can possibly solve it by either selling your ex
 
 to console yourself a replacement.
 
+You can safely disable any rugs which have spawned near you. The general cause of this issue affecting the players backpack is Unsafe Saving. Make sure that you follow the advice in [Important Information](https://wiki.wildlandermod.com/02-RecommendedReading/9-Important-Information/#save-advice) regarding saving to reduce the chance of this reoccuring.
+
 --- 
 
 ### Crossbow Infinitely reloads
