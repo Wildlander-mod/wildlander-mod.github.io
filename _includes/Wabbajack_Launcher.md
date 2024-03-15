@@ -96,6 +96,10 @@ You may see a dialog pop-up saying preparing VFS and/or a command window.
 
 This is typically caused by Antivirus interference in the installation process. Please check [Wildlander and Antiviruses](#wildlander-and-antiviruses) for specific guidance on your Anti-virus
 
+It can also be caused by Medal.TV clipping software - which should be shut down while playing wildlander. 
+
+It can also be caused by your own customisation of the list if you have done so.
+
 ----
 
 ### Update/Install of launcher is Hanging  
