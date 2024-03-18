@@ -130,3 +130,28 @@ Orc not allowed - because they're OP.
 ## JU12000's Wandering Merchant Challenge
 
 This one is more of an immersion challenge. You have only one life (unless you die to a collision glitch or something). You can not use armor, or learn any tradesman skills (enchanting, alchemy, smithing). You must _walk_ the roads and cities of Skyrim unless in combat or avoiding combat. You may do delivery and gather missives, but you may never clear a dungeon or initiate an attack on any creature. Combat is only allowed in self defense and even then illusion spells like Calm are preferred. Followers are allowed and should be used to do the bulk of your combat. You may loot items only if they have a value/weight of 50 or more, or if you know they're part of a trade route leg. You must learn the trade routes of Skyrim and walk them for money.
+
+
+----
+
+## The Ironman
+
+1. What you start with is the only Armor allowed. 
+	* Enchants to weapons or armor are not permitted. 
+	* No rings or necklaces for any character.
+	* Weapons must not exceed Iron/wooden tier. You can buy replacement bows if they break or swap out a sword for a Axe/dagger/Mace.
+	* You are permitted to only have armor and weapons tempered by Alvor in Riverwood. No one else. (and this is only to allow you to repair degraded gear)
+	* Mages may use a replacement robe (novice only) to replace their chest.
+2. No perks can be learned after your initial starting 6 perks.
+3. No followers (except for where quests force you)
+4. If you are a mage, You can use up-to apprentice spells only. You are permitted to buy spells up to this tier, but no higher.
+5. Shouts are allowed, but each only taken up to the second word (obviously you don't have a choice on Unrelenting Shout, as they give it all to you in the questline whether you want it or not)
+6. Buffs from food are allowed, also feel free to up your Magicka/Health/Stamina at each level - just no perks, don't forget
+7. No Additional mods other than what is in the pack.
+8. No turning on fast travel...horses are fine, carraiges are allowed since you pay for it.
+9. Restorative potions are allowed, fortify potions are not. Poisons are OK.
+10. No console commands to give items, get places, kill creatures/people, etc ABSOLUTLY NO GOD MODE.
+11. If you take another form (Vampire, Vampire Lord, Werewolf) due to a faction questline, do not take the perks associated with it either...outside of that I think it's acceptable since there are in-game limitations placed on you for those things.
+12. You are not allowed to turn off Sunhelm, Frostfall or any other mods in the MCM.
+13. If you die - thats it. End of run
+
