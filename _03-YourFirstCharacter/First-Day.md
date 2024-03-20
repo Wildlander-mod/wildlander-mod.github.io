@@ -4,19 +4,19 @@ title: Your First Day
 has_toc: true
 nav_order: 2
 
-descrption: Starting your first day
+description: Starting your first day
 ---
 
 #### Before moving your character
 
-* Make sure you set up the “Q” Favorites menu with your weapon sets to make switching spells or ranged/melee weapons quickly. You can do this by Favoriting your spells/weapons and then, open the Q menu. Click the weapon and assign it a hotkey by pressing any number key up to ‘8’.
+* Make sure you set up the “Q” Favorites menu with your weapon sets to make switching spells or ranged/melee weapons quickly. You can do this by favoriting your spells/weapons and then open the Q menu. Click the weapon and assign it a hotkey by pressing any number key up to ‘8’.
 * Review the F11 keybindings.
 
-Once you spawn into the world the first thing you should do is allocate your perks. The next thing a new character should make sure of is that they get to a safe location. For brand new players Riverwood is ideal to start with. Riverwood has plentiful trees for wood gathering, a river to drink from, a free wood chopping axe at the lumber mill, A free fishing rod at the guardian stones (can be tricky to get to with the wolves), a tent to sleep in, and cooking fire. The ideal Spawn points to get to this location would be Whiterun Inn, then run up. or more dangerous Helgan or Falkreath borders and run down.
+Once you spawn into the world, the first thing you should do is allocate your perks. The next thing a new character should make sure of is that they get to a safe location. For brand new players, Riverwood is ideal to start with. Riverwood has plentiful trees for wood gathering, a river to drink from, a free wood chopping axe at the lumber mill, a free fishing rod at the guardian stones (can be tricky to get to with the wolves), a tent to sleep in, and cooking fire. The ideal spawn points to get to this location would be Whiterun Inn, then run up, or more dangerous Helgen or Falkreath borders and run down.
 
-To start earning money in order to feed yourself, you can get a wood chopping axe or a war axe and “Attack” to harvest trees (or use the chopping blocks at the lumber mills). Sell this wood to give yourself a bit of coin, each piece only sells for 1g so I wouldn't recommend doing this for long. You can also use the wood you obtain to level your camping skills by making kindling and tinder, which will allow you to make a campfire (Hotkey `<`) to keep yourself warm. You should also frequently use the forage(Hotkey `>`) ability to look for edibles and alchemy ingredients. And when the “drink” icon appears, use the river to drink (Hotkey `;`). You should also pick any herbs you spot on your travels - even if you don't plan on being an alchemist - everything sells.
+To start earning money in order to feed yourself, you can get a wood chopping axe or a war axe and “Attack” to harvest trees (or use the chopping blocks at the lumber mills). Sell this wood to give yourself a bit of coin, each piece only sells for 1g so I wouldn't recommend doing this for long. You can also use the wood you obtain to level your camping skills by making kindling and tinder, which will allow you to make a campfire (Hotkey `<`) to keep yourself warm. You should also frequently use the forage (Hotkey `>`) ability to look for edibles and alchemy ingredients. And when the “drink” icon appears, use the river to drink (Hotkey `;`). You should also pick any herbs you spot on your travels - even if you don't plan on being an alchemist - everything sells.
 
-Fishing is a much more profitable way to earn some early game gold (assuming it fits your RP). You can purchase a fishing rod from a general merchant (or grab the guardian stones freebie) - Equip it as a weapon then "attack" a water source to start fishing. Follow the onscreen instructions. Once you have caught your first item - you can the hit `e` to cast again. This can net you some early game armor, weapons or even useful items like a lantern in addition to the fish. Lucky fishers may get some better quality (or enchanted) armor weapons or some of the unique fishing rings.
+Fishing is a much more profitable way to earn some early game gold (assuming it fits your RP). You can purchase a fishing rod from a general merchant (or grab the guardian stones freebie) - Equip it as a weapon then "attack" a water source to start fishing. Follow the onscreen instructions. Once you have caught your first item - you can then hit `e` to cast again. This can net you some early game armor, weapons or even useful items like a lantern in addition to the fish. Lucky fishers may get some better quality (or enchanted) armor weapons or some of the unique fishing rings.
 
 Bathing should be done regularly using the (Hotkey `‘/@`) in the river - there are penalties applied to speech and disease resistance the dirtier you are so before selling or buying anything, always bathe.
 
@@ -34,7 +34,7 @@ Armor/clothing now has two additional statistics - Cover which protects you from
 
 Weapons can now degrade in quality, so tempering your weapons to keep them a peak damage either via providing the blacksmith with the materials to do so(for none crafter) or doing it yourself.. A well-made weapon is always better than a basic equivalent. Low quality bows can break if you are hit with a melee attack - so a good backup weapon should be acquired as well
 
-For a free place to sleep before you leave Riverwood a tent should be purchased. A fur tent protects you from the cold, and a leather tent protects you from rain. If you need to cook while in the middle of nowhere then a cooking pot can be purchased to use with your constructed campfires.
+For a free place to sleep before you leave Riverwood, a tent should be purchased. A fur tent protects you from the cold, and a leather tent protects you from rain. If you need to cook while in the middle of nowhere then a cooking pot can be purchased to use with your constructed campfires.
 
 Checking the nearest cities missive board for delivery quests is a great way to get early gold to get you started.
 
@@ -51,5 +51,4 @@ Shopping list for Beginners before exploring beyond riverwood
 * Iron Lantern
 * Tent (optional - if you plan on camping)
 * Cookpot (optional - if you plan on camping)
-* Toolkits (optional - for craftng)
-
+* Toolkits (optional - for crafting)
