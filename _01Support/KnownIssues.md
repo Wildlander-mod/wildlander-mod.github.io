@@ -46,46 +46,46 @@ Depending on the severity some maybe hot-fixed immediately, other will wait til 
 
 Some may need to wait for the mods used behind the scenes to be corrected.
 
-the next section highlights the issues which cant be resolved.
+The next section highlights the issues which cant be resolved.
 
 ---
-## Issues which Cannot be Resolved 
+## Issues which cannot be resolved.
 
 This section includes issues which cannot presently be resolved due to the issue being related to the technical functionality of a mod, the time it would take to correct would not be of benefit, or a engine issue related to skyrim itself.
 
-### Lights are flickering on and off
+### Lights are flickering on and off.
 
 Most noticeable in Breezehome's basement and entrance to riverwood but can happen everywhere.
 
 This is caused by Skyrim's engine limitation of 4 light sources in a 30ft radius of the player. When you move the camera in a area with more than 4 light sources they alternate/cycle and turn on and off. This includes your torches and/or lantern.
 
-There is nothing we can do to correct this, bug reports on this topic will be deleted.
+There is nothing we can do to correct this, **bug reports on this topic will be deleted.**
 
 ### When using Honed metal to craft something, missives in your inventory complete and then abort.
 
-This is related to how honed metal functions. It transfers the inventory of the smith or enchanter to your inventory so you can see from the honed metal craft menu, what the smith can craft. this transfer essentially triggers the "quest complete" part of the missive.
+This is related to how honed metal functions. It transfers the inventory of the smith or enchanter to your inventory so you can see from the honed metal craft menu what the smith can craft. This transfer essentially triggers the "quest complete" part of the missive.
 
-### I hear Random drinking noises.
+### I hear random drinking noises.
 
-In Wildlander, both NPC's followers and horses can drink potions from their inventory. Unfortunately Skyrim doesnt have a "NPC" drink noise, so it plays the generic one as though the player was drinking.
+In Wildlander, both NPC's followers and horses can drink potions from their inventory. Unfortunately, Skyrim doesnt have a "NPC" drink noise, so it plays the generic one as though the player was drinking.
 
-### Health/Stamina Potions are disappearing from my horse's inventory.
+### Health/Stamina potions are disappearing from my horse's inventory.
 
-The horse is treated as though it is a follower, and when its low on stamina or health can and does drink potions from its inventory
+The horse is treated as though it is a follower and when its low on stamina or health it can and does drink potions from its inventory.
 
-### NPC's added by mods dont have voice lines or are immersion breaking.
+### NPC's added by mods don't have voice lines or are immersion breaking.
 
-Unfortunately - this would require a great deal of effort to replace the voice lines and dialog so they fit.
+Unfortunately, this would require a great deal of effort to replace the voice lines and dialog so they fit.
 
-### I speak to a farmer and ask him if i can harvest his crops, but some give me bounties.
+### I speak to a farmer and ask him if i can harvest his crops  but some give me bounties.
 
-Again - this would require a lot of effort to correct ownership on the specific plants causing the issues. In some cases the opposite is true as well, and plants which should be owned are not.
+This would require a lot of effort to correct ownership on the specific plants causing the issues. In some cases the opposite is true as well and plants which should be owned are not.
 
 ### Bookshelves can be used to duplicate items placed upon them.
 
 E.g Placing a book on a shelf, removing the book from the shelf by "picking it up" then using the shelf inventory to get a copy.
 
-Unfortunate this is a engine issue where removing the book from the shelf by pickup doesn't edit the container.
+Unfortunately, this is a engine issue where removing the book from the shelf by pickup doesn't edit the container.
 
 ### SkyUI Groups broken.
 
@@ -100,55 +100,55 @@ This is a vanilla issue, there is a section further down this page which contain
 ---
 ## M/O 2 
 
-None of these are actually bugs - but i'm including them here to hopefully prevent bug reports.
+None of these are actually bugs but I'm including them here to hopefully prevent bug reports.
 
-1. Reporting files in the overwrite - these are your crash logs
-1. All the Npc overhauls are disabled - They are supposed to be _they are for Dylan's use only_ Hence "DEV RESOURCES" label.
-1. There are mods with Red X's - these are merged into the Wildlander ESP - its perfectly normal
-1. Mod XXX is out of date - Perfectly normal for modlists to have older versions of mods, Some mods update several times a month and the list wont ever be able to keep up.
+1. *Reporting files in the overwrite.* These are your crash logs.
+2. *All the NPC overhauls are disabled.* They are supposed to be. _They are for Dylan's use only_ Hence "DEV RESOURCES" label.
+3. *There are mods with Red X's.* These are merged into the Wildlander ESP. It's perfectly normal
+4. *Mod XXX is out of date.* Perfectly normal for modlists to have older versions of mods. Some mods update several times a month and the list wont ever be able to keep up.
 
 ---
 
 ## Camera Issues
 
-1. Arms clipping or off to one side when casting spells - Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
-1. Whenever I open a crafting station such as an enchantment table, alchemy lab, cooking pot, etc., for the second time in the same cell, the menu doesn't load and I'm stuck. You have to save, exit and restart the game to fix
+1. *Arms clipping or off to one side when casting spells*. Issue with the current version of Improved camera, closing and reloading generally corrects this temporary.
+2. *Whenever I open a crafting station such as an enchantment table, alchemy lab, cooking pot, etc., for the second time in the same cell, the menu doesn't load and I'm stuck.* You have to save, exit and restart the game to fix this.
 
 ---
 
 ## Gameplay Issues
 
-**Waking nightmare - when on step release the miasma  - and your pretending to be Casimir. You can see your player's body in front of camera.**
+### Waking nightmare. When on step release the miasma and you're pretending to be Casimir, you can see your player's body in front of camera.
 
 The effect only lasts for the duration of this step and can be safely ignored.
 
 ---
 
-**When weapons are pulled out and you alt-tab, in third person the pc goes into block animation and moves really slowly but in first person the issues goes away**
+### When weapons are pulled out and you alt-tab in third person, the pc goes into block animation and moves really slowly but in first person the issues goes away.
 
 Hit Control. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
 
 --- 
 
-**Horses occasionally forget to spawn with armor, despite having it in their inventory** 
+### Horses occasionally forget to spawn with armor, despite having it in their inventory.
 
 You can force the horse to equip armor by the following process.
-1. Drop the armor on the floor
-2. open console, Click on it and make a note of the base id for the horse armor.
-3. close console, Pick it up and place it in the horse's inventory.
-4. In console again click the horse replacing "baseid" with the number you made note of use the following console command 
+1. Drop the armor on the floor.
+2. Open console. Click on it and make a note of the base ID for the horse armor.
+3. Close console. Pick it up and place it in the horse's inventory.
+4. In console again, click the horse replacing "baseid" with the number you made note of use the following console command .
 
 {: .console}
 >
 > equipitem baseID 1 
 
-**Owned items become free to take**
+### Owned items become free to take.
 
 This is caused by a INI setting called "faction stealing" inside of Po3 Tweaks. It states that you can only take items when you are friends with all members of a faction present. 
 
-Unfortunately - this setting allows you take items when *no* members of a faction are present. 
+Unfortunately, this setting allows you take items when *no* members of a faction are present. 
 
-you can correct this behavior by changing game-files\mods\Wildlander\SKSE\Plugins\po3Tweaks.ini and changing the below setting to False.
+You can correct this behavior by changing game-files\mods\Wildlander\SKSE\Plugins\po3Tweaks.ini and changing the below setting to False.
 
 {: .iniSetting}
 >[Tweaks]
@@ -162,21 +162,21 @@ you can correct this behavior by changing game-files\mods\Wildlander\SKSE\Plugin
 
 ---
 
-## Thieves Guild
+## Thieves Guild.
 
-Thieves guild has some issues for a small percentage of people. The vast majority of these issues are caused by vanilla issues where when handing in one quest, the following quest does not start correctly. 
+Thieves guild has some issues for a small percentage of people. The vast majority of these issues are caused by vanilla issues where when handing in one quest and the following quest does not start correctly. 
 
-As a general rule - save **before** handing in a quest to Brynjolf, so if you have issues you don't have to redo it.
+As a general rule: save **before** handing in a quest to Brynjolf, so if you have issues you don't have to redo it.
 
-### Next quest isnt starting
+### Next quest isn't starting.
 
 You need to do Radiant quests before the next quest will start these settings can be seen in the MCM. 
 
 If you have met these objectives but the next quest does not start.
 
 1. Exit Wildlander and restart using the Wildlander Launcher.
-1. Load your game using a save before you handed in the previous quest.
-1. Speak to Brynjolf hand in previous quest - next should start.
+2. Load your game using a save before you handed in the previous quest.
+3. Speak to Brynjolf hand in previous quest - next should start.
 
 If it doesn't, you will need to look up the quest ID to start the quest manually then use the below commands to force it to start.
 
@@ -192,10 +192,10 @@ If it doesn't, you will need to look up the quest ID to start the quest manually
 
 Thieves guild in Wildlander has standards and they will only recruit thieves.
 
-you need :-
+You will need:
 1. 250 items stolen, 
-1. 25 items pick pocketed from unique people. (taking multiples from the same person only counts as 1 pocket picked)
-1. Sneak Skill at 25
+2. 25 items pick pocketed from **unique** people. Taking multiple items from the same person only counts as 1 pocket picked.
+3. Sneak skill at 25.
 
 for Brynjolf to approach you.
 
@@ -203,11 +203,11 @@ for Brynjolf to approach you.
 
 ### Issues with Brynjolf not waiting for me in the ragged flaggen / A Chance Arrangement issues.
 
-90% of the time - this Happens if Brynjolf starts the quest "A Chance Arrangement" *anywhere* except in Riften's market place. (typically in the bee and barb)
+90% of the time this happens if Brynjolf starts the quest "A Chance Arrangement" *anywhere* except in Riften's market place. Typically in the bee and barb.
 
 1. Meet the requirements to start the thieves guild (250 items stolen, 25 items pickpocketed, Sneak Skill at 25).
 1. Go to Riften Stables (or outside of Riften itself)
-1. Get to 10am gametime.
+1. Get to 10am game time.
 1. Save your game.
 1. Exit Wildlander and restart using the Wildlander Launcher.
 1. Load your game.
@@ -216,7 +216,13 @@ for Brynjolf to approach you.
 1. Make a save.
 1. Talk to Brynjolf once that is complete.
 
-At this point - check your journal to make sure if Taking Care of Business has started. If not - close Skyrim, reopen Skyrim and load the save you made before handing A Chance Arrangement in and try again. if that still doesn't work, then try below console commands to force it to start.
+At this point, check your journal to make sure if Taking Care of Business has started. If not:
+
+1. Close Skyrim.
+1. Re-open Skyrim.
+1. Load the save you made before handing A Chance Arrangement in and try again.
+
+If that still doesn't work, then try below console commands to force it to start:
 
 {: .console}
 >
@@ -224,7 +230,7 @@ At this point - check your journal to make sure if Taking Care of Business has s
 >
 > setstage TG01  10
 
-If Brynjolf is not at the ragged flagon when you get there, but the quest is running.
+If Brynjolf is not at the ragged flagon when you get there, but the quest is running:
 
 {: .console}
 >
@@ -232,13 +238,17 @@ If Brynjolf is not at the ragged flagon when you get there, but the quest is run
 >
 > moveto player
 
-### People attack me when entering the cistern / Loud and Clear not started
+### People attack me when entering the cistern / Loud and Clear not started.
 
 This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply wont start the quest automatically after handing in Taking Care of Business.
 
 Source: From Bugs section of <https://en.uesp.net/wiki/Skyrim:Taking_Care_of_Business> :-
 
-Make a save, Close Wildlander completely and restart Wildlander . load your save, then type in the below console commands.
+1. Make a save.
+2. Close Wildlander completely
+3. Restart Wildlander. 
+4. Load your save
+5. Type in the below console commands.
 
 {: .console}
 >
@@ -250,7 +260,7 @@ Make a save, Close Wildlander completely and restart Wildlander . load your save
 
 ---
 
-### Dampened Spirits doesn't start
+### Dampened Spirits doesn't start.
 
 This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply wont start the quest automatically after speaking to Brynjolf and him telling you to talk to Maven. Console commands don't work, Waiting and then console commands don't work.
 
@@ -279,7 +289,7 @@ This is because one of the quests wasn't set to completed. Its usually Tg03 so y
 >
 > stopquest tg03
 
-if he continues to stalk you then it will be either quests 1, 2 or 4 still running. Using the command "sqv tg01" to "sqv tg04" and stopping the quests still enabled with "stopquest tg01" - "stopquest tg04"  (example below)
+if he continues to stalk you then it will be either quests 1, 2 or 4 still running. Using the command "sqv tg01" to "sqv tg04" and stopping the quests still enabled with "stopquest tg01" and "stopquest tg04"  (example below)
 
 {: .console}
 >
@@ -291,13 +301,13 @@ if he continues to stalk you then it will be either quests 1, 2 or 4 still runni
 
 ## Mod Issues.
 
-### Dragons spawning early or not at all
+### Dragons spawning early or not at all.
 
-This is a fault with the current version of skyrim unbound reborn, It cannot be corrected without updating the mod which would require us to enforce a "new game" required rule.
+This is a fault with the current version of Skyrim Unbound Reborn. It cannot be corrected without updating the mod which would require us to enforce a "new game" required rule.
 
 It will be corrected in 1.2.
 
-If your dragons are not spawning - you can go to the skyrim unbound reborn MCM abd set Dragons to Enabled, which will force them to spawn.
+If your dragons are not spawning: you can go to the Skyrim Unbound Reborn MCM and set Dragons to Enabled, which will force them to spawn.
 
 ---
 
@@ -311,9 +321,9 @@ Work around: don't take a bath in cold water ;)
 
 ### I get a pouch/book/holder/carpet appearing at my feet (or my followers) / Crafting opening when Zoneing.
 
-Firstly: NEVER give followers backpacks. using these items causes scripts to fire unintentionally, you to get crafting experience unexpectedly and carpets to appear whenever they are stationary.
+Firstly: **NEVER** give followers backpacks. Using these items causes scripts to fire unintentionally, you to get crafting experience unexpectedly and carpets to appear whenever they are stationary.
 
-If you don't HAVE followers, You can possibly solve it by either selling your existing backpack and buying a new backpack OR by dropping your backpack and using console commands 
+If you **don't** have followers then you can possibly solve it by either selling your existing backpack and buying a new backpack OR by dropping your backpack and using console commands 
 
 {: .console}
 >
@@ -328,7 +338,7 @@ You can safely disable any rugs which have spawned near you. The general cause o
 
 --- 
 
-### Crossbow Infinitely reloads
+### Crossbow Infinitely reloads.
 
 Happens if you switch gender using showracemenu. 
 
@@ -349,7 +359,7 @@ Simple fix - switch gender back.
 ## Quests
 
 1. No boss to kill for trouble in skyrim at Druadach Redoubt or Blind Cliff Cave
-* Sometimes quests can spawn for locations you have already cleared, or require another quest to be done first. Use console command to skip to the next stage
+* Sometimes quests can spawn for locations you have already cleared, or require another quest to be done first. Use console command to skip to the next stage.
 
 {: .console}
 >
@@ -359,7 +369,7 @@ Simple fix - switch gender back.
 
 1. Upon entering Frostflow Lighthouse and finding the dead bodies, the related quest does not register.
 
-* Intentional - This is now a hidden quest. Manually looting the giant Chaurus provides you with Habd's remains which you can burn at the top of the lighthouse to complete the quest.
+* Intentional. This is now a hidden quest. Manually looting the giant Chaurus provides you with Habd's remains which you can burn at the top of the lighthouse to complete the quest.
 
 ---
 
@@ -422,9 +432,9 @@ Simple fix - switch gender back.
 
 Both these can be turned off using the Immersive sounds MCM.
 
-* combat music plays on infinite loop sometimes despite no enemies, despite changing area (like going into an inn), or save/loading. 
+* Combat music plays on infinite loop sometimes despite no enemies, despite changing area (like going into an inn), or save/loading. 
 
-The only workaround is to close the game and boot it  back.
+The only workaround is to close the game and boot it back.
 
 
 ---
@@ -433,21 +443,21 @@ The only workaround is to close the game and boot it  back.
 
 * Map went technicolor 
 
-Workaround: Restart Skyrim
+Workaround: Restart Skyrim.
 
-* Interiors have Broken Green Lighting 
+* Interiors have broken green lighting 
 
-Workaround: Restart Skyrim
+Workaround: Restart Skyrim.
 
 ---
 
 ## Civil war
 
-* Its full of vanilla bugs.
-* It exists (Why Bethesda did you include this mess in the release). 
+* It's full of vanilla bugs.
+* It exists (Why Bethesda did you include this mess in the release?). 
 * We (Wildlander) do not edit any quest associated with civil war therefore any bugs you encounter are original issues.
-* Several immersion breaking issues during battle for Whiterun (Vendors in market are trying to make a living, The carriage driver be vibing as explosions happen all around him)
-* Lights within Korvanjund Hall beyond the sealed door are lit (should be dark)
+* Several immersion breaking issues during battle for Whiterun (Vendors in market are trying to make a living. The carriage driver be vibing as explosions happen all around him)
+* Lights within Korvanjund Hall beyond the sealed door are lit (should be dark).
 
 If you are having a issue for a civil war quest - please check <a href="https://en.uesp.net/wiki/Main_Page" target="_blank" rel="noopener noreferrer">UESP WIki <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> - there maybe a work around here.
 
@@ -459,7 +469,7 @@ This can happen if "joining the imperial legion" quest is at a incorrect stage.
 >
 > sqv D3C5F
 
-if its not stage 20
+if it's not stage 20
 then
 
 {: .console}
@@ -468,9 +478,9 @@ then
 
 ## Bugs with At the Summit of Apocrypha
 
-* Unfortunately - this was also a bethesda scripted mess - There is precious little Wildlander Staff can do to resolve the issues.
+* Unfortunately, this was also a bethesda scripted mess. There is precious little Wildlander Staff can do to resolve the issues.
 
-If Miraak doesnt die after you defeat him 
+If Miraak doesn't die after you defeat him 
 * The general solution for this is to load a save prior to the word wall and redo the fight until it works correctly.
 
 

@@ -27,7 +27,7 @@ description: Frequently Asked Questions
 
 
 
-Wildlander is the new name for "Ultimate Skyrim SE." We chose to rebrand the project to separate it from the original Ultimate Skyrim list and reduce confusion.
+Wildlander is the new name for "Ultimate Skyrim SE." We chose to re-brand the project to separate it from the original Ultimate Skyrim list and reduce confusion.
 
 The Wildlander mod list is completely rebuilt from the ground up, so some of the features you maybe used to are not available because they haven't been converted to SE and/or it was too complex for us to do so. An example of this is the <a href="https://www.nexusmods.com/skyrim/mods/78990" target="_blank" rel="noopener noreferrer">Atronach Crossing - Build Your Own Home <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>  mod. Additionally, some of the mods which ARE available for SE have major changes which would require rebalancing, such as <a href="https://www.nexusmods.com/skyrim/mods/50992" target="_blank" rel="noopener noreferrer">Heljarchen Farm <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>, or simply don't work such as in the case of <a href="https://www.nexusmods.com/skyrim/mods/12454" target="_blank" rel="noopener noreferrer">Dark Dungeons for ENB <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>, <a href="https://www.nexusmods.com/skyrimspecialedition/mods/13133" target="_blank" rel="noopener noreferrer">Google's Locked City Gates <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>, and the full version of <a href="https://www.nexusmods.com/skyrim/mods/22650" target="_blank" rel="noopener noreferrer">Enhanced Skyrim Factions: The Companions Guild <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>.
 
@@ -40,13 +40,13 @@ You can download and install from <a href="https://www.wildlandermod.com/downloa
 
 If you would like to buy your friendly neighborhood support person a drink of <a href="https://ko-fi.com/wildlanderteam" target="_blank" rel="noopener noreferrer"><img src="https://wiki.wildlandermod.com/Assets/kofi.png"></a>
 
-Or support Dylan himself on <a href="https://www.patreon.com/dylanbperry" target="_blank" rel="noopener noreferrer"><img src="https://wiki.wildlandermod.com/Assets/Patreon.png"></a>
+or, support Dylan himself on <a href="https://www.patreon.com/dylanbperry" target="_blank" rel="noopener noreferrer"><img src="https://wiki.wildlandermod.com/Assets/Patreon.png"></a>
 
 ----------
 
 ## Do I need to uninstall Ultimate Skyrim?
 
-Not unless you're short of hard drive space! Ultimate Skyrim uses The Elder Scrolls V: Skyrim Legendary Edition (colloquially referred to as Oldrim), whereas Wildlander uses The Elder Scrolls V: Skyrim Special Edition (colloqually referred to as SSE).
+Not unless you're short of hard drive space! Ultimate Skyrim uses The Elder Scrolls V: Skyrim Legendary Edition (colloquially referred to as Oldrim). Wildlander uses The Elder Scrolls V: Skyrim Special Edition (colloqually referred to as SSE).
 
 ----------
 
@@ -70,7 +70,7 @@ If you already have the DLC, you can still install on your stream install, howev
 
 ## Are all Anniversary Edition Creations disabled in Wildlander?
 
-The only creation we use is Fishing, all others are not copied to wildlander's stock game and are therefore not used.
+The only creation we use is Fishing, all others are not copied to Wildlander's stock game and are therefore not used.
 
 ----------
 
@@ -113,17 +113,17 @@ Performance: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-
 
 ## Can I see the differences between Ultimate Skyrim and Wildlander?
 
-Yes - Click [Here](https://wiki.wildlandermod.com/02-RecommendedReading\6-Changes-From-Ultsky)
+Yes - Click [Here](https://wiki.wildlandermod.com/02-RecommendedReading\6-Changes-From-Ultsky).
 
 ----------
 
 ##  I already have other modlists installed, Can i still play wildlander?
 
-Yes. Wildlander uses a mechanism called "stock game" this is in a nutshell a self contained copy of skyrim. 
+Yes. Wildlander uses a mechanism called "stock game". This, in a nutshell, is a self-contained copy of Skyrim. 
 
-Provided you steam version of Skyrim is up to date, you can install Wildlander. If you happen to have a downgraded version of Skyrim and your own modpack, then you can update via steam, install, then use Halgari's downgrade patcher to restore your skyrim to the correct version afterwards.
+Provided that your Steam version of Skyrim is up-to-date, you can install Wildlander. If you happen to have a downgraded version of Skyrim and your own modpack, then you can update via Steam, install, then use Halgari's downgrade patcher to restore your Skyrim to the correct version afterwards.
 
-Once installed, you can even play Vanilla skyrim and wildlander will be unaffected.
+Once installed, you can even play vanilla Skyrim and Wildlander will be unaffected.
 
 ----------
 
@@ -141,7 +141,7 @@ Wildlander is built on Skyrim 1.5.97. It is not possible to downgrade a GOG DRM 
 
 ### Epic Games
 
-Firstly, The Wabbajack installation tool does not support it. Secondly - it has the same issues as GOG.
+Firstly, The Wabbajack installation tool does not support it. Secondly, it has the same issues as GOG.
 
 ### Cracked / SteamEMU
 
@@ -156,7 +156,7 @@ There are no acceptable reasons for you to be wanting to use a cracked/Emulated 
 
 ## Can I play Wildlander with Skyrim Together
 
-Skyrim Together Reborn is unfortunately not compatible with Wildlander at this time. Lists Generally have to be built around Skyrim Together, not thrown on at the end.
+Skyrim Together Reborn is unfortunately not compatible with Wildlander at this time. Lists generally have to be built around Skyrim Together, not thrown on at the end.
 
 - STR is incompatible with some SKSE mods, which are used by Wildlander.
 - STR uses a different version of Skyrim than Wildlander (though this may change in the future)
@@ -170,17 +170,17 @@ If this incompatibility changes, the community will be the first to know.
 
 This is not supported currently.
 
-As it stands, Several people have managed to get wildlander running on the steamdeck, but they had to do a quite a few changes to the list to get it to function.
+As it stands, several people have managed to get Wildlander running on the steamdeck but they had to do a quite a few changes to the list to get it to function.
 
-To the Support teams knowledge - this includes disabling several mods which are incompatible with Linux and cause the game to crash. We do not know what the game looks like, or how it performs, just that they got it running.
+To the Support team's knowledge, this includes disabling several mods which are incompatible with Linux and cause the game to crash. We do not know what the game looks like, or how it performs, just that they got it running.
 
-No instructions have been provided to support by any of the users who have got it to work, for how they got the list working - So we are unable to help on this topic.
+No instructions have been provided to support by any of the users who have got it to work, for how they got the list working. We are unable to help on this topic.
 
 ----------
 
 ## Does this mod pack support other languages?
 
-No, by default You will need to install English Skyrim - Special Edition to Install this modpack.
+No, by default you will need to install English Skyrim - Special Edition to install this modpack.
 
 ----------
 
@@ -195,7 +195,7 @@ The latest version will always be available <a href="https://www.wildlandermod.c
 {: .warning}
 > Some updates will require a new game and are **_not_** save compatible.
 
-Finally - If you have added and "nodeleted" your additional mods, boot into mod organiser and rearrange your load order as needed.
+Finally, if you have added and "nodeleted" your additional mods, boot into mod organiser and re-arrange your load order as needed.
 
 ----------
 
@@ -226,7 +226,7 @@ However, you can safely move your download folder to another hard drive.
 
 ## When is R4 and what will it contain?
 
-The next update (R4) will contain lots of stuff. The primary focus is on lots of QOL, Balance and Bugfix mods. 
+The next update (R4) will contain lots of stuff. The primary focus is on lots of QOL, balance and bugfix mods. 
 
 (please see the Planned for next release view on the roadmap for a full list)
 
@@ -238,11 +238,11 @@ This update does not have a release date (we are trying to get it to you ASAP) .
 
 ## Why has it been so long since a update?
 
-For the back end of last year, though to mid part of this year. Both Dylan and Lizzy had been working on the back-end of wildlander's roadmap & migrating Jira to airtable to make future updates go more smoothly. 
+For the back-end of last year, through to the mid part of this year. Both Dylan and Lizzy had been working on the back-end of Wildlander's roadmap & migrating Jira to airtable to make future updates go more smoothly. 
 
-As neither of us can afford to work on the project full-time - please read more in the most recent update, this leads to the misunderstandings that "nothing is happening", this is simply not the case. A lot of the compatibility checking work along with bug fixes are already done and this just requires dylan to dedicate his minimal free time to integation work.
+As neither of us can afford to work on the project full-time, please read more in the most recent update. This leads to the misunderstandings that "nothing is happening". This is simply not the case. A lot of the compatibility checking work along with bug fixes are already done and this just requires Dylan to dedicate his minimal free time to integation work.
 
-The current version is stable. There is no need to "rush"  an update out as a result - we can take our time to deliver the best possible update. 
+The current version is stable. There is no need to "rush" an update out. As a result, we can take our time to deliver the best possible update. 
 
 Wildlander is not abandoned.
 
@@ -254,7 +254,7 @@ Wildlander is not abandoned.
 
 This depends on you and the build you choose to play.
 
-Some Players really struggle to get started, because they attempt content that they cannot complete before understanding the mechanics. 
+Some Players really struggle to get started because they attempt content that they cannot complete before understanding the mechanics. 
 
 Some players get half-way though and realise they aren't having fun with the character they are playing so get "restart-itis"
 
@@ -293,64 +293,65 @@ Finally, you should be using the launcher to play.
 
 ### Mod X has been updated, can I install that?
 
-For stability reasons, only the versions installed by Wabbajack are supported.
+For stability reasons only the versions installed by Wabbajack are supported.
 
-Should you want to update it, Then this would come under the customization category and would require you to do compatibility checking.
+Should you want to update it, then this would come under the customization category and would require you to do compatibility checking.
 
 ----------
 
 ### Can I edit Mod Configuration Menu (MCM) settings?
 
-The answer to this is support strongly recommends that you leave them alone. Everything is setup how it is intended to play. We didn't "accidentally" forgot to turn on some settings (Wildcat only exists for its AI and nothing else). 
+Support strongly recommends that you leave them alone. Everything is setup carefully and deliberately. We didn't "accidentally" forget to turn on some settings (Wildcat only exists for its AI and nothing else). 
 
-We are not responsible for any errors or bugs which occur if you edit them.
+**We are not responsible for any errors or bugs which occur if you edit them.**
 
-FLP MCM should be treated as though it doesn't exist. Seriously. Touch nothing in here unless you enjoy for followers picking up random shit and running around in circles while you are fighting for your life Or wose - Mounting a horse inside of a object and giving you a nice CTD.
+FLP MCM should be treated as though it doesn't exist. Seriously. Touch **nothing** in here unless you enjoy for followers picking up random shit and running around in circles while you are fighting for your life. Worse, mounting a horse inside of an object and giving you a nice CTD. 
+
+Don't edit MCM settings.
 
 ----------
 
-### Can I remove/disable mod X
+### Can I remove/disable mod X?
 
-Many Gameplay mods have a Mod Configuration Menu (MCM) where they can be turned off, without you editing the install. 
+Many gameplay mods have a Mod Configuration Menu (MCM) settings where they can be turned off, without you editing the install. 
 
 Most SKSE mods can be turned off provided they have no ESP / Scripts.
 
 Most Texture/Models mods can be turned off provided they have no ESP / Scripts.
 
-Should you want to disable it in mod organizer, Then this would come under the customization category and would require you to do checking to make sure other mods are not Dependant on it.
+Should you want to disable it in mod organizer, then this would come under the customization category and would require you to do checking to make sure other mods are not dependant on it.
 
 ----------
 
 ### Can I add additional mods?
 
-How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
+That is for you to decide. There are over 50,000 mods on nexus. There is no way anyone can tell you if a mod is going to cause problems or not.
 
-Things to check
-1. Is there already a guide for it available in the customization resources.
-1. Are there any mod conflicts from Mod organizer tool - this will tell you if the files being changed as touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
+If you wish to go down this route, here are several things to check:
+1. Is there already a guide for it available in the customization resources?
+1. Are there any mod conflicts from Mod organizer tool? This will tell you if the files being changed are touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
 1. Record conflict resolution. The next thing to check is the actual ESP/ESL/ESM files for conflicts. I would recommend the following guide <https://tes5edit.github.io/docs/5-conflict-detection-and-resolution.html> to help you to learn how to check for mod conflicts within SSEEdit. If there are any then most likely you would need to write a conflict resolution patch.
 
-Any modifications are done at your own risk and will deny you access to support.
+Any modifications are done at your own risk and **will deny you access to support.**
 
 Changing the mod list (even simple changes) can break Wildlander in surprising ways. Requiem touches all parts of Skyrim and generally requires patches to add anything.
-
 ---
-###  But I want CBBE/UNP nudes
+###  But I want CBBE/UNP nudes :(
 
-This is a SFW List, If you want to add them, you'll need to work out how to do it yourself.
+This is a SFW List. If you want to add them, you'll need to work out how to do it yourself.
 
 In addition, go straight to horny jail. Do not pass go. Do not collect 200 Septims.
 
 ----------
 
-### Why is Wildcat's MCM all disabled.
+### Why is Wildcat's MCM all disabled?
 
-The only part of Wildcat we use is the NPC AI - all other features are intentionally disabled for balance reasons.
+The only part of Wildcat we use is the NPC AI. All other features are intentionally disabled for balance reasons.
 
 ---
 ## **Gameplay Questions**
 
-### Can I see a list of Known issues
+### Can I see a list of Known issues?
 
 Sure. Here's a [link](https://wiki.wildlandermod.com\01Support\KnownIssues\).
 
@@ -364,45 +365,45 @@ You can also see them on [This](https://wiki.wildlandermod.com/02-RecommendedRea
 
 ----------
 
-### The ENB hotkey isnt working OR Nighteye turns my entire screen blue,
+### The ENB hotkey isnt working OR Nighteye turns my entire screen blue.
 
 You skipped a step on the Install instructions <https://www.wildlandermod.com/download#step-four>
 
-Wildlander rely s on its dedicated launcher to setup the ENB and Nightvision. Start by installing the launcher and using that to launch the game in future.
+Wildlander relies on its dedicated launcher to set up the ENB and Nightvision. Start by installing the launcher. Use it to launch the game in the future.
 
 ----------
 
-### My keybindings don't work
+### My keybindings don't work.
 
-Dylan is based in the US, so the key bindings images were based on a standard QWERTY US keyboard.
+Dylan is based in the US. So,the key binding images were based on a standard QWERTY US keyboard.
 
-For any other types of keyboards, you will need to press the key in the same "position" on the keyboard as the one in the keybindings docmentation.
+For any other types of keyboards, you will need to press the key in the same "position" on the keyboard as the one in the keybindings docmentation. One example of this discrepancy is `"` and `@` being swapped between UK and US layouts.
 
-you can also rebind the keys if you prefer - however the ingame image will not update accordingly.
+You can also re-bind the keys if you prefer. Howeverm the ingame image will not update accordingly.
 
 There is an appropriate guide [here](https://wiki.wildlandermod.com/02-RecommendedReading/8-Keybindings/#how-do-i-rebind-the-keys).
 
 ----------
 
-### My Haircut token doesn't allow me to change race/gender Why?
+### My Haircut token doesn't allow me to change race/gender. Why?
 
-Skyrim doesn't handle switching race or gender mid-play-though. 
+Skyrim doesn't handle switching race or gender mid-playthough. 
 
-Doing so will break your racial perks, and cause a crossbow to infinitely reload.
+Doing so will break your racial perks and cause a crossbow to infinitely reload.
 
 ----------
 
 ### Why are guards following me?
 
-We employ a mod where guards will follow the player if they observe you being suspicious. This includes drawing your weapons, sneaking around or having magic ready to cast.
+We employ a mod where guards will follow the player if they observe you being suspicious. This includes drawing your weapons, sneaking around, or having magic ready to cast.
 
-Too much suspicious behavior and they will issue a fine. Continue being suspicious and they may become hostile!
+Too much suspicious behavior, and they will issue a fine. Continue being suspicious, and they may become hostile!
 
 ----------
 
 ### What are these toolkit things?
 
-Part of the Wildlander propitiatory crafting system.
+Part of the Wildlander proprietary crafting system.
 
 Please see [here](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/) for more info.
 
@@ -416,7 +417,7 @@ Please see [here](https://wiki.wildlandermod.com/11Deep-Dives/Spell-Research/) f
 
 ----------
 
-### How do I do a customized start (vampire, werewolf, no perks)
+### How do I do a customized start (vampire, werewolf, no perks)?
 
 When you get the message that Wildlander is finalizing and have clicked OK, hit F10.
 
@@ -430,12 +431,12 @@ Then go to Mod Configuration Menu and Skyrim. From there you can use 'Skyrim Unb
 
 ### Why do I hear random "drink" sounds?
 
-In Wildlander, NPC's, Followers and Horses consume potions from their inventory when they are low on Health, Magic or Stamina. Skyrim doesn't have a "npc" drink noise, so plays the "player" drink noise instead regardless of how far away the NPC is from the player.
+In Wildlander, NPCs, followers, and horses consume potions from their inventory when they are low on health, magic, or stamina. Skyrim doesn't have an "NPC" drink noise, so it plays the "player" drink noise instead regardless of how far away the NPC is from the player.
 
-If you hear a excessive amount of drinking, then its probable you are coming up on a civil war skrimish.
+If you hear an excessive amount of drinking, then it's probable you are coming up on a civil war skirmish.
 
+Note: Any potions you give to your followers or horse can be consumed by them, so if you don't want them to drink them, **don't use them for potion storage.**
 
-Note: Any potions you give to your followers or horse can be consumed by them, so if you don't want them to drink them - don't use them for potion storage.
 
 ----------
 
@@ -452,13 +453,13 @@ The mod used to control the UI is SkyHUD. This doesn't have a in game interface,
 
 ### Some sounds aren't playing! How do I fix this?
 
-If you are unable to hear most of the combat sounds such as sword swings, spell usage (flames, healing, etc.), opening a container, footsteps, etc. but are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance...
+If you are unable to hear most of the combat sounds such as sword swings, spell usage (flames, healing), opening a container, footsteps BUT you are able to hear NPC dialogue, drawing or sheathing a sword and wolves in the distance:
 
 Skyrim's engine has a bug that causes audio to not play most of the time when the game is installed to a drive with a sector size other than 512 (usually referred to as Advanced Format). 
 
 This Mod <a href="https://www.nexusmods.com/skyrimspecialedition/mods/71567?tab=description" target="_blank" rel="noopener noreferrer">Large Sector fix <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> will correct the issue, and will be included as standard on the next major release.
 
-To install, download and Unzip Large_sector_fix.dll  to <Install Folder>\game-files\overwrite\SKSE\Plugins\ - you will need to create these folders manually.
+To install, download and unzip Large_sector_fix.dll  to <Install Folder>\game-files\overwrite\SKSE\Plugins\. you will need to create these folders manually.
 
 
 ----------
@@ -483,7 +484,7 @@ Requiem applies a stamina draining effect when you run and when you wear armor w
 
 ### Why can't I get a blessing at a shrine?
 
-Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty and they will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-The-Divines/) for more information.
+Requiem's Gods are unforgiving of crime. Too much crime or an outstanding bounty? They will no longer bless you or heal you! Please see the wiki page [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-The-Divines/) for more information.
 
 ----------
 
@@ -491,7 +492,7 @@ Requiem's gods are unforgiving of crime. Too much crime or an outstanding bounty
 
 Wildlander has no passive health regeneration. You will not heal from your wounds by "sleeping it off."
 
-When you get hurt fighting, the only ways to heal are :-
+When you get hurt fighting, the only ways to heal are:
 
 * Restoration spells (for the living)
 * Conjuration spells (for the undead)
@@ -517,7 +518,7 @@ There are several possible reasons:
  
 1. You're NAKED! Put some clothes on, ya filthy animal!
 2. You're covered in BLOOD and/or MUD!  Honestly! Traipsing mud over my clean floors! I am gonna charge you a cleaning fee! Go take a BATH!
-3. You may also be hated by the community or the shopkeeper for... reasons you likely remember, but won't tell anyone about! Grease those palms with the Speechcraft menu and give that shopkeeper a little gift, such as gems or coin off the cuff! That should help lower the prices...
+3. You may also be hated by the community or the shopkeeper for... reasons you likely remember, but won't tell anyone about! Grease those palms with the Speechcraft menu and give that shopkeeper a little gift, such as gems or coin off the cuff! That should help lower the prices.
 4. You may also just suck at talking. Level your Speechcraft so you're not tripping over your words like a milkdrinker fresh to the local inn. You can't honestly expect to sell your wares for a decent price when your best sales pitch is 'Unga-bunga!' 
 
 ----------
@@ -559,16 +560,16 @@ The game will pause if you are alt-tabbed out, including some load screens. Make
 
 The primary cause for this is a insufficient [page file](https://wiki.wildlandermod.com/02-RecommendedReading\1-BeforeYouBegin\#page-files). You can click the link for instructions on how to increase it.
 
-Can also be caused by :
-- Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without a ENB from the launcher.
+Can also be caused by:
+- Your PC being below the minimum requirements to play the pack as shown on the installation README. You can try running without an ENB from the launcher.
 - Wildlander folders (or subfolders) being read-only.
-- Wildlander being installed inside of program files, Users folder, cloud folders such as one drive or other UAC controlled area.
+- Wildlander being installed inside of Program Files, Users folder, cloud folders such as OneDrive, or other UAC-controlled areas.
 - Additional mods you may have added are causing a conflict.
 - Conflict between AMD drivers and the ENB: The only resolution to this is to either roll back until you find working AMD drivers or disable ENB graphics until a working driver is available.
-- A corrupt Wildlander installation: To check, launch Skyrim from the "Stock game" folder and see if it crashes on loading screen. If it crashes, the installation is corrupted. a purple dragon is normal - crashing on new game is normal as you will be running without mods during this test.
+- A corrupt Wildlander installation: To check, launch Skyrim from the "Stock game" folder and see if it crashes on the loading screen. If it crashes, the installation is corrupted. A purple dragon is normal - crashing on a new game is normal as you will be running without mods during this test.
 - Antivirus real-time scanning your Wildlander folders: Make sure you add it to your exceptions.
-- You have lost permissions to write to “My Documents\My Games\Skyrim” or Wildlander install folder
-- OneDrive and/or Dropbox is Syncing your “my documents\My Games\Skyrim” or Wildlander install folder
+- You have lost permissions to write to “My Documents\My Games\Skyrim” or the Wildlander install folder.
+- OneDrive and/or Dropbox is syncing your “My Documents\My Games\Skyrim” or Wildlander install folder.
 - Can be caused by a corrupt save. You can try using a previous save or start a new game.
 
 ----------
@@ -577,13 +578,13 @@ Can also be caused by :
 
 You are using a magical effect which is granting you a "cloak" effect.
 
-a "white" glow on your character is typically mage armor.
+A "white" glow on your character is typically mage armor.
 
 ----------
 
 ### Why am I invisible in first person when using blur, but "ghostly" in 3rd?
 
-Skyrim Engine fault unfortunately, your either visible or invisible in 1st person.
+Skyrim Engine fault unfortunately, you're either visible or invisible in 1st person.
 
 ----------
 
@@ -604,10 +605,10 @@ Some users report changing a face part (e.g Eyebrows), saving the change, then c
 
 ### Does Stuff Respawn?
 
-Yes - But with alternate timings to vanilla.
+Yes, with alternate timings to vanilla.
 
-* Internal cells with a boss - reset after a year.
-* Internal Cells without a boss (e.g Mines) and external cells - Reset after 30 days.
+* Internal cells with a boss: reset after a year.
+* Internal cells without a boss (e.g mines) and external cells: Reset after 30 days.
 * Merchants stocks reset after 72 hours.
 
 For any area to respawn, you must not enter the area during the specified time period. Each time you enter the area, the respawn clock is reset. 
@@ -632,7 +633,7 @@ The in-game difficulty sliders do not work with Wildlander.
 
 Please use the Change Difficulty hotkey instead (Right-CTRL).
 
-If you want to make the game harder, use the requiem mcm and change damage taken.
+If you want to make the game harder, use the requiem MCM and change damage taken.
 
 ----------
 
@@ -647,7 +648,7 @@ No matter. The following console command will clear it:
 
 ----------
 
-### Do I need to Equip hunting knives to process animals.
+### Do I need to Equip hunting knives to process animals?
 
 No, the game will use the best one for the task from your inventory.
 
@@ -657,7 +658,7 @@ No, the game will use the best one for the task from your inventory.
 
 This is a Requiem change that prevents weak characters from acquiring Vampirism. You must survive for three (3) days while Sanguinare Vampiris slowly drains health and negates natural healing, at which point you will become a Vampire. You better hope you can afford healing potions or haven't made enemies of temple healers!
 
-You cannot Wait or Sleep to pass the time; however, spell research and training do work.
+You cannot wait or sleep to pass the time. However, spell research and training do work.
 
 ----------
 
@@ -703,7 +704,7 @@ Once you are happy with the settings, in the top right section click on “save 
 
 Are you MAD? Skyrim will kill you just for sneezing on a rock wrong and you want...?
 
-No, but there is a serious, technical reason! There is no enforced permadeath mode because all mods pertaining to this feature are known to cause issues. So, instead of a 'permadeath mod' the player, upon dying, is presented with the Requiem death dialog telling you to load a save. If you wish to be permadeath, then you should exit and restart Skyrim at this point, then create a new character.
+No, but there is a serious, technical reason! There is no enforced permadeath mode because all mods pertaining to this feature are known to cause issues. So, instead of a 'permadeath mod', the player upon dying is presented with the Requiem death dialog telling you to load a save. If you wish to be permadeath, then you should exit and restart Skyrim at this point, then create a new character.
 
 Think of it as an exercise in self-discipline, if you like!
 
@@ -714,106 +715,109 @@ Creating a new character without restarting Skyrim is known to cause script issu
 ---
 ### Why are kill-moves disabled?
 
-Requiem kill moves have been edited from vanilla settings. They can now be performed on the Player, by enemies. and they can now be performed on any enemy - not just the last.
+Requiem kill moves have been edited from vanilla settings. They can now be performed on the player by enemies, and they can now be performed on **ANY** enemy, not just the last.
 
 Below are a few examples of the reasons they are disabled:
 
 - You are attacked by a melee opponent. You plan to 🛡️ the attack and will survive it, but the game engine decides otherwise and plays a kill move. Under standard Requiem, kill moves can be performed on the player. The result is now you are eating dirt when you should be bashing skulls! (the same if you plan to evade the attack).
-- You are sneaking and aim an arrow on a mage. This will one-shot the mage. The kill move plays, the mage becomes aware of you, suddenly it's no longer a sneak attack, the mage lives and turns you into one of three elemental flavors of magically prepared rump roast. 
+- You are sneaking and aim an arrow on a mage. This will one-shot the mage. The kill move plays, the mage becomes aware of you, suddenly it's no longer a sneak attack, the mage lives and turns you into one of three elemental flavors of magically prepared rump roast.
 - You sneak behind a bandit, you plan to one-shot him with a dagger attack. The attack succeeds, the kill move plays, nobody detects you, but the bandit didn't die, is still full health turns around, says ~~"Omae wa, mou shindaeru..."~~ and kills you.
 - You are sniping with a bow. Every arrow will kill a bandit. Every time you release the arrow, a kill-move plays. But thanks to the kill move, every arrow lands on the ground before it reaches the bandit, therefore the bandit didn't die, and now instead of being 'Legolas' you have become 'Legless' thanks to that big bandit with the greatsword.
 - You are attacking a group of enemies with a 2-handed Axe and mid-fight a kill move fires (as in Requiem they can happen on any enemy), and his friends kill you while the cinematic plays, because you are not in fact Neo from blockbuster hit 'The Matrix.'
 - You are sneaking on a ridge above Valheim Towers and shoot arrows to the bandits below you. All arrows hit and one-shot, except the one from the kill move, which collides with the invisible barrier of the ridge. You are now detected. You proceed to beat your keyboard into a fine pulp, then craft it into a sword because archery is now for pansies.
 - You are shooting ⚡ from your fingertips like some kind of unspecified villain in a space opera. It has been an intense battle, and you are about to win. You channel your last reserves of magic at your foe, and the kill camera activates, missing your target and attacking the aggressive invisible ant which threatens to nibble your toes. The vampire mage you almost slew then summons a Storm Atronach, which proceeds to turn you into an ad-hoc Christmas tree in approximately three seconds. As a reward for your heroism, Todd Howard grants you the sight of another kill cam, this time of the aforementioned Storm Atronach putting little a wreathe around your neck while the vampire dances on your twitching, electrified corpse.
 
-Kill moves literally mean that when such a move plays, 90% of the time it kills you, the other 10% of the time nothing happens. 
+Kill moves literally mean that when such a move plays, 90% of the time it kills you, the other 10% of the time nothing happens.
 
 **Will it break anything if I turn them on anyway?**
 
-Possibly your mouse, controller or keyboard when you throw them from frustration from the fifth time one of the above events happens to you?
+Possibly your mouse, controller or keyboard when you throw them from frustration at the fifth time one of the above events happens to you?
 
-**How do i turn them back on**
+Find out at your own peril.
 
-Violens MCM is how they are currently disabled. If you want to turn them back on - you can turn them on in there.
+**How do I turn them back on**
+
+Violens MCM is how they are currently disabled. If you want to turn them back on then you can turn them on in there.
 
 ---
 
 ### NPC in town is randomly dead.
 
-This typically happens when a "Hunt the Vampire" missive is active. The guards auto-attack the Vampire, and the brave townfolk try to join in... only to get slaughtered.
+This typically happens when a "Hunt the Vampire" missive is active. The guards auto-attack the vampire and the brave townfolk try to join in... only to get slaughtered.
 
 A fix will be added in 1.2 to prevent the guards from picking a fight.
 
 ---
 
-### Why Cant I run?
+### Why can't I run?
 
-There are several possibilities
+There are several possibilities:
 
-1. You are Carrying more than your carry weight allows (Over-encumbered).
-1. You have toggled Walk (caps lock)
-1. You have toggled Parry (control)
-1. You are wearing heavy armor (typically shield) without the perks to allow you to run in it.
-1. You are out of stamina
+1. You are carrying more than your carry weight allows (Over-encumbered).
+2. You have toggled Walk (caps lock).
+3. You have toggled Parry (control).
+4. You are wearing heavy armor (typically a shield) without the perks to allow you to run in it.
+5. You are out of stamina.
 
 
 ---
 
-### Why Does a Bubble of shadow follow me
+### Why does a bubble of shadow follow me?
 
 This is caused by the shadow distance draw settings (e.g. the distance around your player shadow renders at). Imagine your character is at the center of a bubble - that bubble determines how far away shadows draw. Outside of that bubble, no shadows will render and given a theoretically infinite bubble size, the entire area would appear shaded. This bubble moves when your character moves.
 
 The time of day is an "influence" in the sense that Wildlander uses DVLaSS (dynamic volumetric lighting and sun shadows), which allows the actual geography to cast shadows like in real life. So the entire area outside of your bubble is likely covered in shadow because the sun's gone down behind the mountains, but you only see the shadows as far as the render distance is set.
 
-The Red Line on the below image demonstrates the draw distance of a shadow (Medium graphics) If you were playing high or Ultra graphics, the line would be further away, Low graphics, Much closer. Potato graphics - you wouldn't see it at all as shadows are turned off.
+The Red Line on the below image demonstrates the draw distance of a shadow (Medium graphics). If you were playing high or Ultra graphics, the line would be further away. On Low graphics, it would be much closer. With Potato graphics, you wouldn't see it at all as shadows are turned off.
 
 ![image](https://cdn.discordapp.com/attachments/929519483381514340/1079351300698939502/enb2023_2_26_13_15_52.png)
 
-The only way to reduce this effect is to further extend shadow draw distance (by playing on a a higher graphics preset) - which would place a greater overhead on your hardware and thus reduce your FPS.
+The only way to reduce this effect is to further extend shadow draw distance (by playing on a higher graphics preset) - which would place a greater overhead on your hardware and thus reduce your FPS.
+
 
 ---
 
 ### How do I make my follower ride a horse?
 
-In reality - follower horses are plagued with issues. 
+Follower horses are plagued with issues. 
 
-Using follower live package to giver followers "Summon ride" causes CTDs so should not be used.
+Using follower live package to give followers "Summon ride" causes CTDs so should not be used.
 
-Giving your follower a horse from immersive horses "crouch" menu, while will make them ride one - will cause them to be slow to mount and they cant keep up - so will still teleport to you. However should you wish to set it up, for your immersion - there is a guide [Here](https://wiki.wildlandermod.com/04WildlanderWorld/13-%20Horses/#horses-and-followers)
+Giving your follower a horse from immersive horses "crouch" menu, while will make them ride one will cause them to be slow to mount and they can't keep up thus will still teleport to you. Howeve, should you wish to set it up; for your immersion there is a guide [Here](https://wiki.wildlandermod.com/04WildlanderWorld/13-%20Horses/#horses-and-followers)
 
-Embrace the running follower would be my advise. 
+Embracing the running follower would be my advice. 
 
 ---
 
-### I'm trying to recruit a follower but S/he always says "I have someone with me"
+### I'm trying to recruit a follower but s/he always says "I have someone with me".
 
-Quest enforced Followers such as the companions or Serena prevent the recruitment of additional followers. Should you need additional followers, you must recruit them first.
+Quest enforced followers such as the companions or Serena prevent the recruitment of additional followers. Should you need additional followers, you must recruit them first.
 
-Note - you may still get this message in the case of Serena if she's following you and you have already completed her quests. She's special and uses the vanilla recruitment flags.
+N**ote:** you may still get this message in the case of Serena if she's following you and you have already completed her quests. She's special and uses the vanilla recruitment flags.
 
 ---
 
 ### How do mercenary costs get calculated?
 
-When hiring a mercenary - you will be told how  much they charge.
+When hiring a mercenary, you will be told how much they charge.
 
-The cost per day of calculated as the mercenary's level * their day rate. 
+The cost per day is calculated as the mercenary's level multiplied by their day rate.
 
 The minimum you can expect to pay is 300g (level 10 mercenary at 30g) per day.
 
 ---
 
-### Can I Respec My perks / Make skills legendary
+### Can I Respec my perks / make skills legendary?
 
 No.
 
-Requiem lists cannot handle the removal of perks though any means.
+**Requiem lists cannot handle the removal of perks through any means.**
 
-* No legendary perk trees
-* No resetting perk tree's using Black Book: Waking Dreams
-* No Console commands to remove perks.
+- No legendary perk trees.
+- No resetting perk trees using Black Book: Waking Dreams.
+- No Console commands to remove perks.
 
-This is because various requiem scripts are tied to the perks, and removing the perks causes game instability and CTD's as a result.
+This is because various Requiem scripts are tied to the perks and removing the perks causes game instability and CTDs as a result.
 
 ---
 
@@ -823,23 +827,23 @@ This is because various requiem scripts are tied to the perks, and removing the 
 
 ### Can I Do the Vanilla Start? 
 
-No, The cart ride is too buggy to use with modern PC's and mods.
+No, the cart ride is too buggy to use with modern PC's and mods.
 
 There are spiders in Helgan who would paralyse and eat you for breakfast.
 
-Assuming you got all past that - there's the dragon at the Watchtower who would use you as a toothpick.
+Assuming you got all past that, there's the dragon at the Watchtower who would use you as a toothpick.
 
 ----
 
 ### How do I start the main quest?
 
-Kill a dragon. It's not as simple as it sounds. In Wildlander, dragons are the heavily armored flying tanks with elemental shouts or worse, such as those which drain vitality or other attributes. This turns them into the legitimate threat they should have always been, so stack magic resistances, enchants, and maybe even a good shield! Good luck in not becoming a crispy-critter~!
+Kill a dragon. It's not as simple as it sounds. In Wildlander, dragons are the heavily armored flying tanks with elemental shouts or worse, such as those which drain vitality or other attributes. This turns them into the legitimate threat they should have always been, so stack magic resistances, enchants, and maybe even a good shield! Good luck in not becoming a crispy-critter!
 
 ----------
 
 ### Why can't I obtain the Dragonstone?
 
-This quest is auto completed when you kill a dragon in Wildlander. 
+This quest is auto-completed when you kill a dragon in Wildlander. 
 
 ----------
 
@@ -847,16 +851,16 @@ This quest is auto completed when you kill a dragon in Wildlander.
 
 There is a new way of becoming a Thane of Whiterun:
 
-Complete “The Blessings of Nature” quest (Danica by the Gildrergreen tree to start) and talk to Jarl Balgruuf when the Gildergreen tree is repaired or the sapling blooms (this requires you to complete any other quest outside of whiterun itself to simulate the passing of time). He'll thank you and allow you to do the standard Thane quest (help the people of the hold).
+Complete “The Blessings of Nature” quest (Danica by the Gildrergreen tree to start) and talk to Jarl Balgruuf when the Gildergreen tree is repaired or the sapling blooms (this requires you to complete any other quest outside of Whiterun itself to simulate the passing of time). He'll thank you and allow you to do the standard Thane quest (help the people of the hold).
 
 {: .hint}
-You can buy Breezehome before this at a much more expensive price, but, unless you are thane, you do not get a Housecarl.
+You can buy Breezehome before this at a much more expensive price. However, unless you are Thane you do not get a Housecarl.
 
 ----------
 
 ### I can't start the Thieves Guild through Brynjolf!?
 
-[Thieves Guild Requirements SE](https://www.nexusmods.com/skyrimspecialedition/mods/33256) is included in the list, which requires 25 pockets picked and 250 items stolen. So get to it, Robin Hood! They don't just let ANYBODY into the Thieves Guild these days (Even though attendance is low and they aren't exactly in a spot to BE picky...)!
+[Thieves Guild Requirements SE](https://www.nexusmods.com/skyrimspecialedition/mods/33256) is included in the list, which requires 25 pockets picked and 250 items stolen. So get to it, Robin Hood! They don't just let ANYBODY into the Thieves Guild these days (even though attendance is low and they aren't exactly in a spot to BE picky...)!
 
 ----------
 
@@ -873,18 +877,18 @@ You need to do five (5) radiant quests for members of the Circle in-between each
 
 ### How do I start the Dawnguard quest line?
 
-You'll be approached as you leave in Inn after level 30. You can visit fort dawnguard earlier, but as the content deals with vampires - this isn't recommended.
+You'll be approached as you leave in Inn after level 30. You can visit fort dawnguard earlier, but as the content deals with vampires this isn't recommended.
 
 ----------
 
 
 ## **Crafting Questions**
 
-For all Recipes, you can see the [Crafting Spreadsheet](https://wiki.wildlandermod.com/10-Crafting/CraftingSpreadsheet/)
+For all recipes, you can see the [Crafting Spreadsheet](https://wiki.wildlandermod.com/10-Crafting/CraftingSpreadsheet/)
 
 ### How do I craft Snowberry Extract?
 
-Snowberry Extract is made directly from a cookpot, or by using the player crafting menu when in proximity to a cookpot
+Snowberry Extract is made directly from a cookpot, or by using the player crafting menu when in proximity to a cookpot.
 
 The extract requires the following items/tools:
 
