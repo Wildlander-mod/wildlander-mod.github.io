@@ -127,7 +127,7 @@ A pagefile is a file on your disk Windows will use when there is not enough RAM 
 **Never** disable the page-file. This may lead to various issues on your system, such as this Skyrim crash.
 
 If you've never touched the pagefile, try performing the following steps:
-1. Press Windows + R on your keyboard and enter sysdm.cpl. Navigate to the 'Advanced' tab.
+1. Press Windows + R on your keyboard and enter sysdm.cpl,3 . If you are not already there, navigate to the 'Advanced' tab.
 2. Under the 'Performance' section, press 'Settings'.
 3. Go to the 'Advanced tab' at the top, and at the Virtual memory section press 'Change...'
 4. Disable 'Automatically manage paging file size for all drives'
