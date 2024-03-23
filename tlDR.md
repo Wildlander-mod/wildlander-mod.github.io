@@ -25,9 +25,10 @@ For everything else, you can search the wiki using the searchbar pinned to the t
 
 For web users you can search by entering your criteria here
 
-![Image](https://media.discordapp.net/attachments/881258698998185996/1092121467669446747/image.png)
+![image](https://wiki.wildlandermod.com/Assets/Search.png)
 
 for mobile users the search bar is in the menu.
 
-![Image](https://media.discordapp.net/attachments/348579473727160321/1111292806632325180/image.png)
-![Image](https://media.discordapp.net/attachments/348579473727160321/1111292966611460176/image.png)
+![image](https://wiki.wildlandermod.com/Assets/Mobile.png)
+
+![image](https://wiki.wildlandermod.com/Assets/Searchbar.png)
