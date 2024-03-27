@@ -133,7 +133,7 @@ Go to the settings menu, log out and then log back in - this page should display
 
 
 ----------
-### Wabbajack freezes with error Outside of Standard Install folder
+### Wabbajack freezes with error Outside of Standard Install folder Or Does not start downloading mods.
 
 Typically caused by a corrupted cache file.
 
@@ -149,8 +149,9 @@ Fix: Reset your Wabbajack installation
 
 Check Task manager, if Wabbajack is not using any network resources, its likely the download has failed/timed out - then please use the suggestions below.
 
-1.  Close and restart Wabbajack - Start the Wildlander install process again, entering same criteria as originally. Wabbajack will CRC check your existing files and should resume where it failed & complete the install without any further intervention.
-1.  If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Wildlander is not affiliated with and does not endorse any specific VPN service. We do not provide user support for VPN services. Use at your own discretion.)
+1. If you log shows "Wabbajack.Networking.Http.HttpException: Http Error Unauthorized - Unauthorized" This means your Nexus API token has expired and you need to log out and log back in from the wabbajack settings menu.
+1. Close and restart Wabbajack - Start the Wildlander install process again, entering same criteria as originally. Wabbajack will CRC check your existing files and should resume where it failed & complete the install without any further intervention.
+1. If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Wildlander is not affiliated with and does not endorse any specific VPN service. We do not provide user support for VPN services. Use at your own discretion.)
 
 #### If above fails then manually download the file using the following procedure:-
     
