@@ -246,6 +246,9 @@ The Reqtificator should be configured as follows:
 	
 ![image](https://user-images.githubusercontent.com/26418143/215734169-c779476d-c699-43b1-bf51-afc4d1009639.png)
 
+Note: levelled lists should be unticked and manually controlled, to prevent excessive amounts of unintended items being added when CCOR's lists are merged into requiems.
+
+
 
 ### Nemesis 
 
