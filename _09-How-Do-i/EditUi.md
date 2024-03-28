@@ -35,4 +35,17 @@ This is controlled in game Via the Iequip program. You will need to rebind "edit
 
 Note: this function is known to cause CTD's unless you temporarily disable ConsoleUtil in MO2. Some users report that entering the MCM menu for iEquip and turn time dilation down to zero also prevents the CTD. regardless of which option you choose, you will need to reset either consoleutil or time dialation back to defaults after making your changes.
 
+## Frostfall Meters
+
+This is controlled by a Ingame MCM, to navigate to the Frostfall MCM 
+1. Escape menu
+2. Mod configuration
+3. Frostfall
+
+Before making any changes it is recommended that you switch the Frostfall profile, otherwise you'll overwrite Wildlander-defaults ("ULTSKY010-WORKING" and can't easily switch back) To do this,  Under "Profiles" submenu select another slot (#2 to #10). See MCM "About Settings Profile" for further details. And NEVER use "DEFAULT CURRENT PROFILE!"
+
+To edit the meters, select “Meters” submenu. 
+* You can change the Display Mode from always-on to contextual. 
+* Under "Advanced settings" you can customize position, scale, color and opacity."
+
 
