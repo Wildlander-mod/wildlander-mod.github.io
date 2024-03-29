@@ -42,7 +42,7 @@ The below button will take you to the full known issue page.
 
 ## When will these be fixed?
 
-Depending on the severity some maybe hot-fixed immediately, other will wait til next major release.
+Depending on the severity some maybe hot-fixed immediately, other will wait until next major release. Some patches are available in the patches and Bugfixes channel on our discord.
 
 Some may need to wait for the mods used behind the scenes to be corrected.
 
@@ -305,7 +305,7 @@ if he continues to stalk you then it will be either quests 1, 2 or 4 still runni
 
 This is a fault with the current version of Skyrim Unbound Reborn. It cannot be corrected without updating the mod which would require us to enforce a "new game" required rule.
 
-It will be corrected in 1.2.
+It will be corrected in R4.
 
 If your dragons are not spawning: you can go to the Skyrim Unbound Reborn MCM and set Dragons to Enabled, which will force them to spawn.
 
@@ -353,6 +353,20 @@ Simple fix - switch gender back.
 > Delete Everything using the right click menu.
 
 ![image](https://user-images.githubusercontent.com/26418143/175317923-9cdc1a68-4653-4e18-a274-d48cf8feeea0.png)
+
+---
+### Potions dont disolve when using a spell research coldroun 
+
+Happens because requiem potions are "too" strong for the default calculation to produce a result.
+
+Fix: Patch and installation instructions are on our discord Patches and bugfixes channel.
+
+---
+### Hawks cant be looted whhen shot down
+
+Happens because of a failed attempt to resolve another issue with hawks which causes them to become invisible when they hit the floor.
+
+Fix: Patch and installation instructions are on our discord Patches and bugfixes channel.
 
 
 ---

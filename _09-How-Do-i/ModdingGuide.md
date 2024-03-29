@@ -45,19 +45,19 @@ Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE
 
 If changing the load order the Reqtificator should be ran - no exceptions. Please see the [Reqtificator section](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/#reqtificator) of this guide for the settings.
 
-It is strongly recommended that if you want to add anything released or updated since Dec 2023, that you should add [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) to ensure compatiblity with the new EESL formats
+It is strongly recommended that if you want to add anything released or updated since Dec 2023, that you should add [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) to ensure compatibility with the new EESL formats
 
 {: .important}
 > You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
 
-Finally - for remocving anything else read the advice [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-playthough.
+Finally - for removing anything else read the advice [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
 
 ### Important Terms
 
 1. Mod organizer      - The tool which makes everything work - Installed as part of the Wildlander installation in <install directory>\Game-files\Mod Organizer.exe
 1. [Reqtificator](#Reqtificator)       - The requiem patcher - Makes 3rd party mods compatible with the Wildlander install.
 1. [Dyndolod](#dyndolod) - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
-1. Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
+1. Merging mods       - Advanced modding technique to combine multiple mods plugins into one.
      
 
 ### Known Mod Issues/Incompatibilities
@@ -116,7 +116,7 @@ In the top right area of mod organizer are the shortcuts to run the various tool
 	
 #### How to backup the original profile
 
-If it is your first time Modding the list. Then use the profiles dropdown and select 'manage'. From there make sure the profile "performance" or "standard" is highlighted (depending on which one you want to mod) and select Copy. Give the backup a name.
+If it is your first time modding the list. Then use the profiles drop down and select 'manage'. From there make sure the profile "performance" or "standard" is highlighted (depending on which one you want to mod) and select Copy. Give the backup a name.
 	
 ![image](https://user-images.githubusercontent.com/26418143/215202472-e996627a-664d-4230-a04a-0eb00fb78c98.png)
 	
@@ -127,7 +127,7 @@ On the left side next to the "active" mod count there is a button which looks li
 	
 ![image](https://user-images.githubusercontent.com/26418143/215202535-0b276616-4826-4bac-9614-783292cd28ec.png)
 	
-On the Right side next to the "active" mod count there is a button which looks like a white box with a blue arrow pointing at it. This will create a backup of the Plugins side at the current point.
+On the Right side next to the "active" mod count there is a button which looks like a white box with a blue arrow pointing at it. This will create a backup of the plug-in side at the current point.
 	
 ![image](https://user-images.githubusercontent.com/26418143/215202610-e6368e81-22d0-44be-827a-a361e88d6413.png)
 
@@ -138,7 +138,7 @@ The yellow arrow button next to the backup (both sides) will allow you to restor
 
 There's no way to really test a profile without loading the game and trying it. you can do this by selecting the SKSE program from the Mo2 run menu.
 
-If adding any form of new mod with a plugin - then you should assume that you should also start a new game.
+If adding any form of new mod with a plug-in - then you should assume that you should also start a new game.
 
 ---
 
@@ -155,7 +155,7 @@ All mods should be added to Mod organizer, not to your Skyrim directory.
 - **Important** if patching from "Requiem patch central" Untick any ticked patches for mods in the base Wildlander install, and only tick ones for mods you are adding yourself.
 - If you mod doesn’t have any ESP/ESM/ESL's then that’s it - otherwise continue!
 
-Sort your (right side) Plugins load order **manually** (LOOT IS THE DEVIL - ERASE its Existence from your memory).
+Sort your (right side) Plug-ins load order **manually** (LOOT IS THE DEVIL - ERASE its Existence from your memory).
 
 If there isn't a specific guide, then as a general rule of thumb
 
@@ -166,7 +166,7 @@ If there isn't a specific guide, then as a general rule of thumb
 
 - Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the Wildlander Full mod(E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
 
-- Run the Reqtificator whenever you change the load order. The Reqtificator is located in mod organisers frop down menu (top right)
+- Run the Reqtificator whenever you change the load order. The Reqtificator is located in mod organizers drop down menu (top right)
 
 Close mod organizer - and use the launcher to start the game.
 
@@ -205,7 +205,7 @@ For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/co
 
 Firstly - Check our [crash help](https://wiki.wildlandermod.com/01Support/CTDs/) - it maybe you are getting one of the crashes from Wildlander itself
 
-If your issue isnt listed - then the below resources may help you identify what is going wrong.
+If your issue isn't listed - then the below resources may help you identify what is going wrong.
 
 A quick guide to NetScriptFramework Error Codes <https://web.archive.org/web/20221118040759/https://www.nexusmods.com/skyrimspecialedition/articles/3031>
 More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
@@ -239,7 +239,7 @@ Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip con
 
 DynDOLOD is an optional mod that greatly improves the appearance of distant terrain. It can affect your framerate, but the impact isn’t too bad and the visual difference is well worth it.
 
-There is nothing unique about Wildlander's DynDOLOD settings. Simply follow Phoenix's excellent guides: first the [SSELODGen guide](https://thephoenixflavour.com/tpf/finalisation/sselodgen/), then the subsequent [DynDOLOD guide](https://thephoenixflavour.com/tpf/finalisation/dyndolod/).
+There is nothing unique about Wildlander DynDOLOD settings. Simply follow Phoenix's excellent guides: first the [SSELODGen guide](https://thephoenixflavour.com/tpf/finalisation/sselodgen/), then the subsequent [DynDOLOD guide](https://thephoenixflavour.com/tpf/finalisation/dyndolod/).
 
 ### Reqtificator
 	
@@ -255,7 +255,7 @@ Note: levelled lists should be unticked and manually controlled, to prevent exce
 
 1. Most important - before doing anything - You have to add Nemesis Engine to the windows defender exception list, or whatever Anti Virus you are running otherwise it will crash on startup.
 2. Install your animation mods as normal.
-3. Run Nemesis from Mod organizer dropdown.
+3. Run Nemesis from Mod organizer drop-down.
 
 
 The following Video shows a tutorial of how to install some Nemesis Animations
