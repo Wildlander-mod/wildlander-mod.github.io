@@ -22,7 +22,7 @@ Welcome to the Wildlander customization guide! This page will explain the basics
 
 ## A warning before proceeding
 
-Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but as of now, it's aimed at proficient modders who need to know Wildlander specific information. (More basic modding guides will be available in the future, as time permits.)  
+Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but as of now, it's aimed at proficient modders who need to know Wildlander specific information. (More basic modding guides will be available in the future, as time permits.)  Regardless of your modding experience, you should read the entire guide. 
 
 For more general modding guides, we recommend [Lively's tutorials](https://github.com/LivelyDismay/Learn-To-Mod/blob/main/Main.md), the [GamerPoets YouTube Channel](https://www.youtube.com/@gamerpoets), and the [DarkFox127 YouTube channel](https://www.youtube.com/@Darkfox127).
 
@@ -41,9 +41,11 @@ Be careful updating mods. Check for update instructions. Some updates require yo
 
 Tools such as Vortex / Loot have their uses, however that use is 2 billion miles away from Wildlander and should **not under any circumstances** be used. They will completely break the load order and prevent you from running the pack at all.
     
-Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE for anniversary editions WILL NOT WORK.
+Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE for anniversary editions WILL NOT WORK. Any Requiem patches you download should be for version 4 - 5.0.3 of requiem. Any patch for requiem 5.1 onwards will not be compatible.
 
-If changing the load order the Reqtificator should be ran - no exceptions.
+If changing the load order the Reqtificator should be ran - no exceptions. Please see the [Reqtificator section](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/#reqtificator) of this guide for the settings.
+
+It is strongly recommended that if you want to add anything released or updated since Dec 2023, that you should add [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) to ensure compatiblity with the new EESL formats
 
 {: .important}
 > You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
@@ -175,7 +177,7 @@ Close mod organizer - and use the launcher to start the game.
 How are we supposed to know? There are over 50,000 mods on nexus, There is no way anyone can tell you if a mod is going to cause problems or not.
 
 Things to check
-1. Is there already a guide for it available
+1. Is there already a guide for it available (our discord server is the best resource for this)
 1. Are there any mod conflicts from Mod organizer tool - this will tell you if the files being changed as touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
 1. Record conflict resolution. The next thing to check is the actual ESP/ESL/ESM files for conflicts. I would recommend the following guide <https://tes5edit.github.io/docs/5-conflict-detection-and-resolution.html> to help you to learn how to check for mod conflicts within SSEEdit. If there are any then most likely you would need to write a conflict resolution patch.
 
@@ -244,6 +246,9 @@ There is nothing unique about Wildlander's DynDOLOD settings. Simply follow Phoe
 The Reqtificator should be configured as follows:
 	
 ![image](https://user-images.githubusercontent.com/26418143/215734169-c779476d-c699-43b1-bf51-afc4d1009639.png)
+
+Note: levelled lists should be unticked and manually controlled, to prevent excessive amounts of unintended items being added when CCOR's lists are merged into requiems.
+
 
 
 ### Nemesis 
