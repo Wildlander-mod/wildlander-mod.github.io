@@ -50,7 +50,7 @@ this will open console tab on your Steam
 > depot 489833 should just contain Skyrim's exe
 
 
-4. Replace your "steamapps\common\Skyrim Special Edition" files with the ones in "depot 489831" "depot 489832" and "depot 489833" in that order. (copy contents and past them into your steam installation folder, overwriting files which are already there)
+4. Replace your "steamapps\common\Skyrim Special Edition" files with the ones in "depot 489831" "depot 489832" and "depot 489833" in that order. Copy the contents and paste them into your steam installation folder, overwriting files which are already there (Do not copy the depot folders themselves - Just their contents)
 
 
 ---
