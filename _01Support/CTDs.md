@@ -42,6 +42,12 @@ We require - **MINIMUM** - when filling out this form all of the below informati
 
 ## Crashing on Startup
 
+### Can be caused by medal.tv clipping software 
+
+Task-killing this program is the recommended advice before playing Wildlander, as on lower end PC’s it causes a CTD from the main menu. On higher end machines, it causes the ENB to have blinding sunlight and black water.
+
+Either way, support staff strongly advise that you do not have this running when starting Wildlander.
+
 ### Before main menu appears - no crash log, with a launcher error.
 
 If this is your first run, then it may be that the launcher installed an updated version of C++ and the PC requires a reboot. 
