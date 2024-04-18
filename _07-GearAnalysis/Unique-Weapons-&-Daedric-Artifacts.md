@@ -34,7 +34,7 @@ has_children: false
 
 | **Dawnbreaker** \| (Sword; Daedric) |
 | :--- |
-| - *Fire Damage 50 points. <br/>- Fear Undead up to Lv35 flee for 3 seconds.<br/>- Approximately 2% chance to do a massive AoE that does 2500 damage.<br/>- Counts as Silver.*|
+| - *Fire Damage 50 points. (undead only) <br/>- Fear Undead up to Lv35 flee for 3 seconds.<br/>- Approximately 2% chance on undead to do a massive AoE that does 2500 damage.<br/>- Weapon Counts as Silver.*|
 
 ---
 
