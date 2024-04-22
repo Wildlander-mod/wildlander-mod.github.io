@@ -315,8 +315,8 @@ Once Reqtificator is running - Leave all options at defaults, Simply hit the pat
 ---
 
 ### There was no consistency file found
+![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/3c65ee1a-55dd-4e61-92d5-d891c8bf0c3f)
 
-![Image of consistency error](https://cdn.discordapp.com/attachments/348579495537803274/732081869386022942/unknown.png)
 
 Select “Yes, this is a new game.”
 
@@ -324,7 +324,8 @@ Select “Yes, this is a new game.”
 
 ### Automatically allocating memory failed
 
-![Image of memory error](https://cdn.discordapp.com/attachments/565772668318646272/740336349202087958/unknown.png)
+![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/4b98e1ad-f986-4e8f-abb5-8c36f955059f)
+
 
 Your binary path for java is wrong. The Reqtificator error message tells you that you're using 32-bit java instead of 64. Check your paths in _Step 5_[ https://requiem.atlassian.net/wiki/spaces/RS/pages/691470460/Installing+Requiem+with+Mod+Organizer+2+version+3.2.0+and+older](https://requiem.atlassian.net/wiki/spaces/RS/pages/691470460/Installing+Requiem+with+Mod+Organizer+2+version+3.2.0+and+older)
 
@@ -332,7 +333,8 @@ Your binary path for java is wrong. The Reqtificator error message tells you tha
 
 ### It says I am using more than 100 plugins
 
-![Image of more than 100 plugins error](https://media.discordapp.net/attachments/348579495537803274/731601149848977518/unknown.png)
+![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/dc7035a8-d102-4a53-93b0-922cce872e50)
+
 
 Select ignore from now on
 
@@ -670,7 +672,7 @@ Instead of a 'permadeath mod' the player, upon dying is presented with the Requi
 
 4.0.6 Issue
 
-![Image of memory error](https://cdn.discordapp.com/attachments/348579495537803274/594565620096434192/unknown.png)
+![unnamed](https://wiki.wildlandermod.com/Assets/UltskyGlitch.webp)
 
 You probably messed up installing the custom INI files. Make sure you are installing Skyrim.ini and SkyrimPrefs.ini in the `\Ultimate Skyrim 4.0.x\profiles\Ultimate Skyrim 4.0.x (Full)` folder!
 
