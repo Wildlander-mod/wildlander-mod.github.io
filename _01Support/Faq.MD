@@ -770,7 +770,7 @@ The time of day is an "influence" in the sense that Wildlander uses DVLaSS (dyna
 
 The Red Line on the below image demonstrates the draw distance of a shadow (Medium graphics). If you were playing high or Ultra graphics, the line would be further away. On Low graphics, it would be much closer. With Potato graphics, you wouldn't see it at all as shadows are turned off.
 
-![image](https://cdn.discordapp.com/attachments/929519483381514340/1079351300698939502/enb2023_2_26_13_15_52.png)
+![image](https://wiki.wildlandermod.com/Assets/ShadowBubble.webp)
 
 The only way to reduce this effect is to further extend shadow draw distance (by playing on a higher graphics preset) - which would place a greater overhead on your hardware and thus reduce your FPS.
 

@@ -111,6 +111,3 @@ The following additional columns are available.
 1. Cooldown - timer for greater powers (based on 24-hour in-game time)
 1. Power type - shows Lesser Powers (generally little magicka to no to cast and can be cast without any limitations) and Greater Powers (which has long cooldowns)
 
-### Active Effects
-
-![image](https://cdn.discordapp.com/attachments/348579473727160321/948152720613863454/574449680862BD14481D310C9DF367CA4C9D12C9.png)

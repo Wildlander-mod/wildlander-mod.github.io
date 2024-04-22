@@ -69,7 +69,7 @@ Wabbajack cannot be run as an Admin.
 
 If you are not manually running the game as an Admin, check your windows UAC settings and make sure that UAC is not "off" as this will run everything as an admin.
 
-[![image](https://wiki.wildlandermod.com/Assets/UAC.webp)
+![image](https://wiki.wildlandermod.com/Assets/UAC.webp)
 
 Reboot your PC after making this change.
 
