@@ -144,6 +144,11 @@ Fix: Reset your Wabbajack installation
 3. You should see a Windows Explorer window pop up, find and delete the folder called Wabbajack inside. 
 4. restart wabbajack, log back in again and restart your installation.
 
+### Every Nexus mod fails download.
+
+This is caused by your API token expiring. It can be resolved by logging out and logging back in.
+
+![image](https://wiki.wildlandermod.com/Assets/WJ_Login.png)
 
 ### Wabbajack fails to download mods or hangs for a long time.
 
