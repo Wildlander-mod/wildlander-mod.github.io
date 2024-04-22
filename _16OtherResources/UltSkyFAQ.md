@@ -174,7 +174,10 @@ Other things which can cause this issue:-
 
 If your game CTDs with an error from Crash Fixes saying "Skyrim has failed to allocate memory! Possibly running out of memory...", or it crashes during/after the character creation screen, the most likely cause is a bad ENB installation.
 
-Open  “enblocal.ini” in your Skyrfilm folder and then configure it according to this [guide](https://imgur.com/yfBDnJI).
+Open  “enblocal.ini” in your Skyrfilm folder and then configure it according to this 
+
+![yfBDnJI](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/464543de-67f6-4898-bd10-d943a2efdbe1)
+.
 
 ---
 
