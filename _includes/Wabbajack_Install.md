@@ -69,7 +69,7 @@ Wabbajack cannot be run as an Admin.
 
 If you are not manually running the game as an Admin, check your windows UAC settings and make sure that UAC is not "off" as this will run everything as an admin.
 
-[![img](https://cdn.discordapp.com/attachments/666599178788536331/1041355863832678500/image.png)
+![image](https://wiki.wildlandermod.com/Assets/UAC.webp)
 
 Reboot your PC after making this change.
 
@@ -144,6 +144,11 @@ Fix: Reset your Wabbajack installation
 3. You should see a Windows Explorer window pop up, find and delete the folder called Wabbajack inside. 
 4. restart wabbajack, log back in again and restart your installation.
 
+### Every Nexus mod fails download.
+
+This is caused by your API token expiring. It can be resolved by logging out and logging back in.
+
+![image](https://wiki.wildlandermod.com/Assets/WJ_Login.png)
 
 ### Wabbajack fails to download mods or hangs for a long time.
 
@@ -186,7 +191,13 @@ In the event of this occurring for you you can try downloading <a href="https://
 
 you may need to use a VPN and/or different browsers to download these files. We are not sure why nexus is blocking access. Premium users can try this 
 
-![img](https://cdn.discordapp.com/attachments/881254575640838254/929341753885085738/unknown.png)
+If you are experiencing issues with Nexus downloads, please try switching your preferred Nexus download server to something close to your location in the account settings.
+
+You can access this area by clicking on your account in the top right, and selecting site preferences.
+
+<https://www.nexusmods.com/>
+
+![img](https://wiki.wildlandermod.com/Assets/cdn.webp)
 
 **Direct Download Links**
 

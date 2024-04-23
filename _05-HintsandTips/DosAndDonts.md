@@ -13,7 +13,8 @@ has_toc: true
 - Use the “L” to toggle off your lantern when sneaking. Enemies can see you in lantern light!
 - Build campfires regularly to check the skills menu. Campfire perks are exceptionally useful! A max level campfire gives you a 5% XP gain increase, and some skills can make swimming in glacial waters less deadly, especially helpful in the Sea of Ghosts.
 - Make sure you always have a stew buff as it provides stamina over time. Nothing will kill you quicker than being disarmed when you run out of Stamina.
-- Favourite items you don't want to disassemble, such as Toolkits, lantern, Mortar and Pestle, and weapons. 
+- Favourite items you don't want to breakdown, such as Toolkits, lantern, Mortar and Pestle, and weapons.
+- Breakdown items that you dont intend to sell and the value/weight is too high, but want to convert for crafting - it can reduce the carry weight of the item significantly.  
 
 ## Dont's
 - Don't rely on a SINGLE save. You don't want to hit a game breaking bug due to Skyrim being Skyrim and lose all your progress. It's recommended to have a minimum of the 10 most recent saves (the more the better).
@@ -22,3 +23,4 @@ has_toc: true
 - Don't run around like a madman if you don't need to. You can toggle between walking and running using the “Caps Lock” key.
 - Don't be afraid to run if you're outnumbered, but be aware some enemies can use doors just as well as you can!
 - Never go north without some way to keep warm in case of snowstorm. A tent, kindling, tinder, and wood should always be in your backpack/horse.
+- Dont pick up everything, only pick up items that you intend to sell or breakdown for crafting. Only pick up food when you need it.
