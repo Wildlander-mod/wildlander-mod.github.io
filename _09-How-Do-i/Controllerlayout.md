@@ -8,6 +8,8 @@ description:  How Do I run the list controller only  ?
 
 Guide Submitted by Anzuray.
 
+Lizzy Edit: Instructions are provided "as-is" - i have no idea if this works or not.
+
 ## Tutorial Video
 
 <iframe class="yt-embed" width="560" height="315" src="https://www.youtube.com/embed/n_1z9OG_6mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -15,6 +17,9 @@ Guide Submitted by Anzuray.
 ## Setting up my layout
 
 Please note: This guide requires a Xbox 360 controller or compatible. 
+
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/d0b3d674-566c-4d46-ae27-143143d12b5d)
+
 
 
 1. Launch Wildlander, open steam overlay (Shift+Tab).
