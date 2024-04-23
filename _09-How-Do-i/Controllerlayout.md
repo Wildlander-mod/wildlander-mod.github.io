@@ -20,12 +20,18 @@ Please note: This guide requires a Xbox 360 controller or compatible.
 
 ![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/d0b3d674-566c-4d46-ae27-143143d12b5d)
 
-
-
 1. Launch Wildlander, open steam overlay (Shift+Tab).
 1. from overlay select "Customize Controller"
+   
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/06125abe-1a64-4b2b-8ac2-2adc40344c60)
+
+{:style="counter-reset:none"}   
 1. After that, click on current layout, Then Load Layout
 1. search "Wildlander"
+
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/eef80e48-c1f9-418d-b97e-6453906663d0)
+
+{:style="counter-reset:none"}
 1. Download the layout and Select it.
 1. If you cannot apply the layout, restart steam completely and try again.
 
