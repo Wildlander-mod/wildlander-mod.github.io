@@ -31,11 +31,9 @@ You can buy Legendary Edition from one of the places linked in Wabbajack's Reddi
 ## How Do I Update to the current Version.
 Please note the 4.3 is not save game compatible. Updating will require a fresh game with new MCM setup.
 
-If Updating from a Older version than 4.0.7 - then remove your old Ultsky install folder completely -  follow the install instructions from [here](https://www.ultimateskyrim.com/ultsky-install)
-
-If updating from 4.0.7 - you would delete the contents of your _Ultsky install folder_\content With the exception to downloads.
+You would delete the contents of your _Ultsky install folder_\content With the exception to downloads.
 	
-Then you follow the install guide from step 2.3 [here](https://www.ultimateskyrim.com/ultsky-install)
+Then you follow the install guide from step 2.3 [here](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/)
 	
 ---
 	
@@ -51,10 +49,10 @@ Removing Ultsky is a simple matter of removing the files from your steam Skyrim 
 ## **Wabbajack Issues**
 
 ### Wabbajack Fails to install with GameFileSourceDownloader Error
-If you have Wabbajack Fail with the following messages
-![Image of GameFileSourceDownloader error](https://cdn.discordapp.com/attachments/348579495537803274/759424545957871616/unknown.png)
+If you have Wabbajack Fail with the messages containing GameFileSourceDownloader
 
 There are Four Known causes
+
 1) You have Skyrim installed in program files
 
 	Solution: Close and Run Wabbajack installer as a administrator.
@@ -75,14 +73,11 @@ After doing the solution 2,3  or 4, you will need to restart Wabbajack.
 
 ---
 ### Wabbajack Fails to download mods or hangs for a long time.
+
 Sometimes Wabbajack gets stuck downloading.
 
-1) Close and restart Wabbajack - Start the Ultimate Skyrim install process again, entering same criteria as originally. Wabbajack will the CRC check your existing files and will normally resume where it failed & complete the install without any further intervention.
-2) If you are experiencing issues with Wabbajack repeatedly failing to download one or more files (same files every time), try enabling the Network Workaround in Wabbajack settings.
-
-![img](https://images-ext-2.discordapp.net/external/OPoB5v1OsNQl7I1_Y--cj9gRugU7YsOFUSkGc244WSc/https/i.ibb.co/FDPDrfk/Discord-VPN.png)
-
-3) If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Ultimate Skyrim is not affiliated with and does not endorse any specific VPN service. We does not provide user support for VPN services. Use at your own discretion.)
+1. Close and restart Wabbajack - Start the Ultimate Skyrim install process again, entering same criteria as originally. Wabbajack will the CRC check your existing files and will normally resume where it failed & complete the install without any further intervention.
+2. If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Ultimate Skyrim is not affiliated with and does not endorse any specific VPN service. We does not provide user support for VPN services. Use at your own discretion.)
 
 ---
 ## **Current Version Issues**
@@ -135,8 +130,6 @@ If you have issues viewing the DL, try this work around https://www.reddit.com/r
 
 ### Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
 
-![image of SKSE Error](https://cdn.discordapp.com/attachments/348579495537803274/784603401995681794/Capture.PNG)
-
 Ensure the following:
 
 1. Check that your Anti-virus is not flagging SKSE or any Skyrim related files (best Solution is to add Anti-virus exceptions to  the Ultimate Skyrim & Skyrim folders
@@ -174,10 +167,9 @@ Other things which can cause this issue:-
 
 If your game CTDs with an error from Crash Fixes saying "Skyrim has failed to allocate memory! Possibly running out of memory...", or it crashes during/after the character creation screen, the most likely cause is a bad ENB installation.
 
-Open  “enblocal.ini” in your Skyrfilm folder and then configure it according to this 
+Open  “enblocal.ini” in your Skyrfilm folder and then configure it according to this
 
 ![yfBDnJI](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/464543de-67f6-4898-bd10-d943a2efdbe1)
-.
 
 ---
 
@@ -196,10 +188,10 @@ Do not use L.O.O.T or rearrange Ultimate Skyrim’s default mods unless a guide 
 
 Download the appropriate zip file for the version of Ultsky you currently have installed:-	
 
-* For 4.0.7 Installs https://cdn.discordapp.com/attachments/348579495537803274/823992115859947591/profiles.rar
-* For 4.1   Installs https://cdn.discordapp.com/attachments/648152435197607938/859890685175267397/4.1_profiles.rar 
-* for 4.2   Installs https://cdn.discordapp.com/attachments/648152435197607938/861579734811148358/4.2_profiles.rar
-* for 4.3   Installs https://cdn.discordapp.com/attachments/648152435197607938/909046409045606420/4.3_profiles.zip
+* For 4.0.7 Installs https://wiki.wildlandermod.com/Assets/Downloads/profiles.rar
+* For 4.1   Installs https://wiki.wildlandermod.com/Assets/Downloads/4.1_profiles.rar 
+* for 4.2   Installs https://wiki.wildlandermod.com/Assets/Downloads/4.2_profiles.rar
+* for 4.3   Installs https://wiki.wildlandermod.com/Assets/Downloads/4.3_profiles.zip
 * Unpack the contents of the correct zip file for your installation into <install path>\content\profiles\.
 
 If you have added additional Mods - you will need to re-enable & reorganize your load order. 
@@ -272,13 +264,6 @@ Open ENB GUI in game with shift+enter. In the enbseries window, find the weather
 
 When you want to save, hit save then apply in the enblocal window.
 
-If you want to use Lizzy's Lighting preferences which are a lot lighter than standard - you can simply replace your Skyrim\enbseries folder with the one [here](https://cdn.discordapp.com/attachments/648152435197607938/860160020381040660/Lizzy_enbseries.rar)
-	
-In addition to the above, I also adjust my lighting based on the conditions i'm playing in so if you find nights too light - you can adjust the field EENE Cal Offset Night in the enbeffect tab in game from the enb shift + enter menu. If i'm playing in daytime I reduce mine to 0.06, if i'm playing at night i set it to 0.12.	
-	
-If you find interiors too dark using Lizzy's lighting preferences, you can adjust the Ambientcolourfilteramountinterior as below in the weather window (To access weather pane in ENBSERIES.ini frame turn on "show weather window"). I find values between 0.25 for "poor" weather conditions and 0.6 for good weather conditions give the best lighting.
-![img](https://cdn.discordapp.com/attachments/348579473727160321/862377095372079154/enb_2021_07_07_17_58_17_35.png)
-
 For Nighteye Settings
 [ENNE NightEye Settings](https://www.reddit.com/r/ultimateskyrim/comments/bpk1js/adjusting_night_eyeeene_for_better_visibility/)
 
@@ -300,22 +285,7 @@ Delete ENBseries folder and ENBseries.ini from your Steam Skyrim folder
 ---
 
 ## **Reqtificator Questions**
-### How do i Install the Reqtificator?
-Firstly make sure you have Java installed in Program Files. the version in Program Files(x86) does not work. If you don't have it - you can download it [here](https://java.com/en/download/manual.jsp) The version you want is Windows Offline (64-bit).
 
-after checking that -
-
-1) Simply visit this [page](https://requiem.atlassian.net/wiki/spaces/RS/pages/691470460/Installing+Requiem+with+Mod+Organizer+2), and begin with Step 4. (Steps 1, 2, and 3 have already been done for you.)
-
-2) When the patcher asks if you are running a new game, select “Yes, this is a new game.”
-
-3) When the patcher notifies you about having over 100 plug-ins, select “Ignore from now on”.
-
-4) You can leave everything default for Step 7.
-
-Once Reqtificator is running - Leave all options at defaults, Simply hit the patch button.
-
----
 
 ### There was no consistency file found
 ![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/3c65ee1a-55dd-4e61-92d5-d891c8bf0c3f)
@@ -531,13 +501,11 @@ Run Bmxfreestyle’s Stability Guide and follow the recommended tweaks (pinned i
 
 Once you have checked all of those you can apply the following tweaks.
 
-1) Attempt to disable border less window in <ultimate Skyrim>\content\mods\UltSky (Version Number) Core Files\SKSE\Plugins\OneTweak.ini. If you want to play Full-screen after doing this instead of windowed you will also need to change BFullScreen to 1 in content\profiles\UltSky (preset you play)\Skyrimpref.ini.  (This makes your computer focuses on the game and give a good +10 fps boost, at the expense of speedy alt-tabs)
+1. Attempt to disable border less window in <ultimate Skyrim>\content\mods\UltSky (Version Number) Core Files\SKSE\Plugins\OneTweak.ini. If you want to play Full-screen after doing this instead of windowed you will also need to change BFullScreen to 1 in content\profiles\UltSky (preset you play)\Skyrimpref.ini.  (This makes your computer focuses on the game and give a good +10 fps boost, at the expense of speedy alt-tabs)
 	
-2) Lower your Graphics preset, or adjust content\profiles\UltSky (preset you play)\Skyrimpref.ini	reduce the iShadowMapResolution (can be changed to 1024 or 512), fShadowDistance and fGrassMaxStartFadeDistance.
+1. Lower your Graphics preset, or adjust content\profiles\UltSky (preset you play)\Skyrimpref.ini	reduce the iShadowMapResolution (can be changed to 1024 or 512), fShadowDistance and fGrassMaxStartFadeDistance.
 	
-3) Open Mod Organizer, Disable the Mod Ultsky <version> Dyndolod on the left pane, setup and run the Reqtificator [guide here]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#how-do-i-install-the-reqtificator). (This one affects the performance by about 3 to 6 fps in certain open areas at the expense of  a better looking far landscape
-	
-4) [Lower]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb---can-i-reduce-the-settings) or [uninstall]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) the ENB	
+1. [Lower]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb---can-i-reduce-the-settings) or [uninstall]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) the ENB	
 
 ---
 
