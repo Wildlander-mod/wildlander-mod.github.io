@@ -210,9 +210,9 @@ Search the following link for the mod(s) and manually download.
 ### Getting a download failed on Original Skyrim files
 
 If you get the following error - Make sure Steam is installed in English, validate your game files in Steam. Steam > Right Click > Properties > Language tab
+
 - Unable to download Skyrim_Default.ini
 
-![image](https://media.discordapp.net/attachments/1145403759082606732/1145411552292372540/image.png)
 
 For any other default Skyrim file, Wildlander requires  a specific version of the Anniversary edition update of skyrim SE (version 1.6.1170 at time of writing) on steam. If you are running a older version of skyrim - E.G (1.5.97) you will need to update to the current version before you can install. We do not support GOG, Epic games or Gamepass versions of skyrim.
 
