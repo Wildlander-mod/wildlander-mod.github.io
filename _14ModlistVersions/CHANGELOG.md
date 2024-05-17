@@ -6,6 +6,16 @@ description: Wildlander change log
 
 ---
 
+## V1.1.12 - release 17/05/224
+
+Stable 
+{: .label .label-green } 
+Save Safe 
+{: .label .label-blue}
+
+
+* Compatibility with New skyrim update (1.6.1170).
+
 ## V1.1.11 - release 05/12/22 
 
 Stable 

@@ -8,6 +8,9 @@ description:  How Do I Downgrade Skyrim so I can (re)install the list?
 
 If your Skyrim is up to date, you will NOT be able to install some modpacks until you downgrade Skyrim. 
 
+This file contains instructions on how to downgrade to Version 1.6.640 of Skyrim. This is not currently required for Wildlander, but is being left up incase we need it again in the future. 
+
+
 <!-- 
 ### Option 1:
 
@@ -55,7 +58,7 @@ this will open console tab on your Steam
 
 ---
 
-Once you have downgraded, Restart Wabbajack. Enter the same criteria as you did the first time and tick "Overwrite Install".
+Once you have downgraded, Restart Wabbajack. Enter the same criteria as you did the first time and tick "Overwrite Install". -->
 
 <!-- **If option 1 didn't downgrade everything, use option 2 to get and replace the files you are missing.**-->
 
