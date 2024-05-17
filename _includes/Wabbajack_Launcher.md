@@ -1,3 +1,28 @@
+----------
+###  Permissions error after a game crash
+
+Typically caused by the game holding a lock on of the of the files in the launcher. A PC reboot should resolve the issue.
+
+----------
+
+###   Launcher crashes on startup with  a error message "unexpected end of Json input".
+
+The settings file that the launcher uses might be corrupt.
+
+If you hit the windows key and type %APPDATA% and hit enter it will take you to a path AppData/roaming . Go into Wildlander Launcher and delete the file userPreferences.json.
+Once you've done that,  try run the launcher again.
+
+----------
+### Launching from the Wildlander launcher shows a blue dragon instead of the Wildlander Menu
+
+1. From the Launcher - Open the Advance tab, then from there, open mod organizer.
+2. go to Settings > paths > and check that the managed game is pointing to the Game-files\Stock game\SkyrimSE.exe.
+3.  if it is not (e.g it's pointing at steam's version) you will need to edit it to point at the correct location.
+
+----------
+### Launcher fails to start with a mod organiser 2 crash
+
+This error generally means that the Launcher, on install installed a Visual C++ and requires a reboot.
 
 ----------
 ### Trampoline Error
@@ -80,8 +105,6 @@ Your options to resolve :-
 
 ----------
 ### Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
-
-[![image of SKSE Error](https://camo.githubusercontent.com/d1e2036affcaac1d9ca807db293176917ba048b5d0a53ad07c718ddef81618ad/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3334383537393439353533373830333237342f3738343630333430313939353638313739342f436170747572652e504e47)](https://camo.githubusercontent.com/d1e2036affcaac1d9ca807db293176917ba048b5d0a53ad07c718ddef81618ad/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3334383537393439353533373830333237342f3738343630333430313939353638313739342f436170747572652e504e47)
 
 Ensure the following:
 
