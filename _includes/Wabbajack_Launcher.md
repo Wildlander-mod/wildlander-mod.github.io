@@ -3,6 +3,8 @@
 
 Typically caused by the game holding a lock on of the of the files in the launcher. A PC reboot should resolve the issue.
 
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/67e11b8a-a093-474d-8410-5d0f8e5830e5)
+
 ----------
 
 ###   Launcher crashes on startup with  a error message "unexpected end of Json input".
@@ -12,6 +14,9 @@ The settings file that the launcher uses might be corrupt.
 If you hit the windows key and type %APPDATA% and hit enter it will take you to a path AppData/roaming . Go into Wildlander Launcher and delete the file userPreferences.json.
 Once you've done that,  try run the launcher again.
 
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/4cf63dca-55e0-4a17-8b03-669204760f5f)
+
+
 ----------
 ### Launching from the Wildlander launcher shows a blue dragon instead of the Wildlander Menu
 
@@ -19,10 +24,16 @@ Once you've done that,  try run the launcher again.
 2. go to Settings > paths > and check that the managed game is pointing to the Game-files\Stock game\SkyrimSE.exe.
 3.  if it is not (e.g it's pointing at steam's version) you will need to edit it to point at the correct location.
 
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/747b4d4f-4ac8-4e49-9ff4-0a86b147bc31)
+
+
 ----------
 ### Launcher fails to start with a mod organiser 2 crash
 
 This error generally means that the Launcher, on install installed a Visual C++ and requires a reboot.
+
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/1e54ef93-2acf-4f99-86a2-aaba769efc80)
+
 
 ----------
 ### Trampoline Error
