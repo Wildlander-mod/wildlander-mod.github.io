@@ -44,7 +44,8 @@ To play, you need to shut down the anti-virus completely from the system tray.
 
 There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice.
 
-![img](https://media.discordapp.net/attachments/881254575640838254/937500500360851466/unknown.png) 
+![unknown](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/da97c02b-1640-45f4-91ac-98f19380beb4)
+
 
 ---
 
