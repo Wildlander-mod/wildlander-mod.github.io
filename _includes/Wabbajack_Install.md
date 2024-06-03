@@ -222,9 +222,6 @@ If Skyrim has updated recently - it will require the list to be recompiled to co
 
 ![image](https://user-images.githubusercontent.com/26418143/169777545-a0377c57-60bc-4271-929c-5707c7b8277a.png)
 
-__
-
-
 ----------
 
 ### Wabbajack wont download the Wildlander installer.
