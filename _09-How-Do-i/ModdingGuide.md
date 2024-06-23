@@ -192,10 +192,10 @@ Files which are masters are required by the mod itself, and disabling the master
 
 I'm commonly asked about the following mods. They are all Masters of Wildlander and cannot be removed:-
 * Suspicious city guards
-* Sunhelm
-* Frostfall
+* Sunhelm (can be turned off in the MCM and ignored. Cannot be removed)
+* Frostfall (can be turned off in the MCM and ignored. Cannot be removed)
 * Immersive Horses
-* Skyrim Unbound Reborn 
+* Skyrim Unbound Reborn (this is responsible for all of the wildlander "background configuration" of MCM's and the like when you start the game.)
 * Requiem is the core mod in this pack - (It's literally the heart and soul of the modlist - without it you arent playing wildlander) .
 
 For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
