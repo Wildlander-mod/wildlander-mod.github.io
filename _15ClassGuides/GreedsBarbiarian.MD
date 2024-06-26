@@ -12,7 +12,7 @@ GreedGaming
 
 ## Description
 
-This is the "standard" Barbarian for Requiem according to GreedGaming. The video guide was Created using the 1.0 version of pack but 90% of the information is still valid (Alchemy has less Ingredient availability and Eorland's not available until you are part of the circle) .
+This is the "standard" Barbarian for Requiem according to GreedGaming. The video guide was Created using the 1.0 version of pack but 90% of the information is still valid (Alchemy has less Ingredient availability and Eorlund's not available until you are part of the circle) .
 
 He chooses Mage Armor and Steed stone for starting spell & Stone. Along with the Orc for berserker rage.
 

@@ -144,7 +144,7 @@ Not Save Safe. New Game Needed
 * Stock levels of alchemy ingredients at vendors have been reduced drastically.
 * Sunhelm "unyielding" carry weight perks have been reduced from 50/100 to 15/30.
 * Various fixes to exploits to allow the player to level faster than intended - Smithing i'm looking at you.
-* Eorland greymane will no longer work for anyone and temper you weapons from level 1.
+* Eorlund greymane will no longer work for anyone and temper you weapons from level 1.
 * Mr. Greymane has has his perks tweaked so he's no longer able to craft weapons from the plane of oblivion or temper equiptment to bonkers levels.
 
 ### [Bugfixes](/14ModlistVersions/1.1-ReleaseNotes/#bug)

@@ -621,9 +621,9 @@ The original site has long gone - but a mirror of the injector is available here
 Note: this is the only 'fix' support are aware of at this time and if it does not work for you, we won't be able to assist you further
 
 ---
-### Eorland Graymane wont temper/craft stuff for me
+### Eorlund Graymane wont temper/craft stuff for me
 
-Eorland Graymane is the best smith in the game, and as such reserves his services for members of the Circle for the companions.
+Eorlund Graymane is the best smith in the game, and as such reserves his services for members of the Circle for the companions.
 
 Note: you must be at least at the stage of "Kill the werewolf hunters" for the Quest "The silver hand"
 
