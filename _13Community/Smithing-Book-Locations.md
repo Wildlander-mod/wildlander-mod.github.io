@@ -66,7 +66,7 @@ Garakh at Largashbur (after helping Yamarz in "The Cursed Tribe" quest)
 
 ## Nordic Smithing: Art of the Nordic Blacksmiths [xx228854]
 
-Eorland Graymane at whiterun 
+Eorlund Graymane at whiterun 
 
 Baldor Ironshaper at Skaal Villiage
 

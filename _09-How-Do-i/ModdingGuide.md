@@ -79,6 +79,7 @@ The following Mods are extremely script heavy, Will possibly break your game.
 
 The following types of mods have Issues 
 > *  New creatures/enemies/NPC's/followers   (unless requiem patch available) - Note: for enemies - they are generally added as unleveled, and in requiem this means they are always level 1. for NPC's and Followers - they will be missing the requiem perks and may also be unleveled (ergo level 1)
+>*   New weapons and armors unless requiem patch available will vbe extremely underpowered.
 > *  Dead NPC Body Cleaner Remover (caused Immortal Vampires when you attempt to burn them, also causes civil war patrols to scream like banshee's)  
 > *  New Quest area mods   (unless requiem patch available) - Note: This is because new area's generally add new creatures/enemies/NPC's and followers
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
@@ -191,10 +192,10 @@ Files which are masters are required by the mod itself, and disabling the master
 
 I'm commonly asked about the following mods. They are all Masters of Wildlander and cannot be removed:-
 * Suspicious city guards
-* Sunhelm
-* Frostfall
+* Sunhelm (can be turned off in the MCM and ignored. Cannot be removed)
+* Frostfall (can be turned off in the MCM and ignored. Cannot be removed)
 * Immersive Horses
-* Skyrim Unbound Reborn 
+* Skyrim Unbound Reborn (this is responsible for all of the wildlander "background configuration" of MCM's and the like when you start the game.)
 * Requiem is the core mod in this pack - (It's literally the heart and soul of the modlist - without it you arent playing wildlander) .
 
 For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
