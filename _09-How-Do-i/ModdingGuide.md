@@ -217,11 +217,11 @@ More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
 ### Creation Kit
 
 1. Download and install into steam Folder : https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/
-3. Open a command window "Run" by pressing «Win + R» and then enter the command: steam://open/console, and then press Enter. This will open console tab on your Steam
-a. On the bottom will have a space for you to enter the code. Enter these codes, one at a time and WAIT FOR THEM TO CONFIRM THAT THEY ARE DONE DOWNLOADING before entering next one
-b. download_depot 1946180 1946182 5099162879680505807
-c. download_depot 1946180 1946183 1633303557398589581
-d. It will download the files to your "steam/commom/content" folder. If you cannot find it, just seach on the steam folder: "depot 1946182" "depot 1946183" after download is done.
+1. Open a command window "Run" by pressing «Win + R» and then enter the command: steam://open/console, and then press Enter. This will open console tab on your Steam
+	1. On the bottom will have a space for you to enter the code. Enter these codes, one at a time and WAIT FOR THEM TO CONFIRM THAT THEY ARE DONE DOWNLOADING before entering next one
+	1. download_depot 1946180 1946182 5099162879680505807
+	1. download_depot 1946180 1946183 1633303557398589581
+	1. It will download the files to your "steam/commom/content" folder. If you cannot find it, just seach on the steam folder: "depot 1946182" "depot 1946183" after download is done.
 4. Replace your "steamapps/commom/Skyrim Special Edition" files with the ones you just downloaded
 
 
