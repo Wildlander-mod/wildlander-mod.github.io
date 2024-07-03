@@ -205,7 +205,7 @@ Some additional crafting recipes only show up in Player Crafting under the right
 
 Bone bits are a material requirement for other Player Crafting items, including most of the metal-based hunting knives at a forge, though with Player Crafting itself you can craft a bone or stone hunting knife as a crude basic necessity. Bone arrows also use bone bits for the heads.
 
-Bone arrows can be created using either firewood or larger animal bones; the latter recipe is specifically for Bosmer characters who have a taboo against using wood, but it's also suitable if you just don't have any firewood on hand. The first bone arrows you create will be inferior even to iron arrows, but as your harvesting skill rises the quality of your arrows does too, until at a "perfect" level they rival even elven craftsmanship and stopping power.
+Bone arrows can be created using either firewood or larger animal bones; the latter recipe is specifically for Bosmer characters who have a taboo against using wood, but it's also suitable if you just don't have any firewood on hand. 
 
 Bone weapons - axes, swords, and bows - are initially crude, and no more powerful than the Forsworn variety they mimic. The most powerful of them, perhaps, is a massive bludgeon crafted from the bone of a mammoth. These are all apprentice level recipes. However, at higher levels you can craft Masterwork versions of these weapons, which are suitable for mid-level characters. Bone weapons cannot be tempered.
 
