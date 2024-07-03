@@ -130,6 +130,9 @@ If you have issues viewing the DL, try this work around https://www.reddit.com/r
 
 ### Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
 
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/011e741b-dc39-46eb-a5d8-2b350af89ab9)
+
+
 Ensure the following:
 
 1. Check that your Anti-virus is not flagging SKSE or any Skyrim related files (best Solution is to add Anti-virus exceptions to  the Ultimate Skyrim & Skyrim folders
@@ -250,9 +253,11 @@ Other Patchers(AV, Dyndolod ect) are located [here](https://wiki.wildlandermod.c
 
 If you prefer to keep Dylan's lighting preferences - then open up ENBseries.ini in you Steam Skyrim folder and change the effects section to match the following
 
-![image of Low ENB Settings](https://media.discordapp.net/attachments/348579495537803274/763697916992552970/unknown.png)
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/1d53cb9f-4989-444a-9ed8-72947fd6ff1b)
 
-If on the other hand you want absolute best performance, but retaining the ENB weather & lighting effects you can switch your ENBseries.ini in your Steam Skyrim folder with this one [enbseries ini](https://cdn.discordapp.com/attachments/785284178282676234/785284699240792084/enbseries.ini)  
+
+If on the other hand you want absolute best performance, but retaining the ENB weather & lighting effects you can switch your ENBseries.ini in your Steam Skyrim folder with this one [enbseries ini](https://wiki.wildlandermod.com/16OtherResources/enbseries.ini)
+
 
 ---
 
@@ -263,6 +268,9 @@ for regular vision
 Open ENB GUI in game with shift+enter. In the enbseries window, find the weather toggle and turn that on. In the weather pane, find the Environment section, find Point lighting. There are several settings you can adjust here. Just play around with them to see how everything works and find what you like. If you screw something up and forget the default value or just want to revert to your previous saved settings, just hit load settings in the enblocal window. 
 
 When you want to save, hit save then apply in the enblocal window.
+
+![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/4c9ce928-8d18-4397-8870-e97cb1df6d5f)
+
 
 For Nighteye Settings
 [ENNE NightEye Settings](https://www.reddit.com/r/ultimateskyrim/comments/bpk1js/adjusting_night_eyeeene_for_better_visibility/)
@@ -275,12 +283,12 @@ Skyrim can't handle modern PC's RAM capacity So if you PC has more than 4GB you 
 
 Delete ENBseries folder and ENBseries.ini from your Steam Skyrim folder
 
-1) Open Content\ModOrganiser.exe
-2) Select the graphics profile you play from the profiles drop down
-3) find on the left side Snowfall weathers and untick that
-4) find ultimate skyrim - snowfall weathers.esp on the right side and untick that too
-5) Setup and run the Reqtificator as per [Instructions](#How-do-i-Install-the-Reqtificator)
-6) Open Skyrim\Enblocal.ini, Change UsePatchSpeedhackWithoutGraphics to true.
+1. Open Content\ModOrganiser.exe
+2. Select the graphics profile you play from the profiles drop down
+3. find on the left side Snowfall weathers and untick that
+4. find ultimate skyrim - snowfall weathers.esp on the right side and untick that too
+5. Setup and run the Reqtificator as per [Instructions](#How-do-i-Install-the-Reqtificator)
+6. Open Skyrim\Enblocal.ini, Change UsePatchSpeedhackWithoutGraphics to true.
 
 ---
 
@@ -506,9 +514,9 @@ Close down any background programs which maybe injecting into direct X (graphics
 
 Check your background processes. Skyrim is highly reliant on CPU - Core 0, so if your CPU is busy with other tasks it might be causing the stutters
 
-Run Bmxfreestyle’s Stability Guide and follow the recommended tweaks (pinned in #ultsky-support).
+Run Bmxfreestyle’s Stability Guide and follow the recommended tweaks .
 
-[https://discordapp.com/channels/344256550640287755/348579495537803274/729035407282667662](https://discordapp.com/channels/344256550640287755/348579495537803274/729035407282667662)
+[Bmxfreestyle Guide](https://docs.google.com/document/d/1PusjuS09qs8QPU5PVf7uSoZKt_35ZTvFmFrLWtIaTQ0/edit#heading=h.6znbuu4htqw))
 
 Once you have checked all of those you can apply the following tweaks.
 
