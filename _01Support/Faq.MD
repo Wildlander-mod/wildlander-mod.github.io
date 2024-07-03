@@ -52,7 +52,7 @@ Not unless you're short of hard drive space! Ultimate Skyrim uses The Elder Scro
 
 ## What version of Skyrim Special Edition is needed?
 
-The Steam version of Elder Scrolls V: Skyrim Special Edition - Update 1.6.640 (AKA the free Anniversary update) installed in English <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/" target="_blank" rel="noopener noreferrer">Here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>. You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time. 
+The Steam version of Elder Scrolls V: Skyrim Special Edition - Up to date on steam (AKA the free Anniversary update) installed in English <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/" target="_blank" rel="noopener noreferrer">Here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>. You do **not** need Elder Scrolls V: Skyrim Anniversary Upgrade, which is a DLC made available at the same time. 
 
 If you have downgraded back to Special edition version 1.5.97, you will need to verify game files to reupdate to the latest version.
 
