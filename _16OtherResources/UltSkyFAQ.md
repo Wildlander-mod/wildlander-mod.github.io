@@ -286,6 +286,17 @@ Delete ENBseries folder and ENBseries.ini from your Steam Skyrim folder
 
 ## **Reqtificator Questions**
 
+## How do i Install the Reqtificator?
+Firstly make sure you have Java installed in Program Files. the version in Program Files(x86) does not work. If you don't have it - you can download it [here](https://java.com/en/download/manual.jsp) The version you want is Windows Offline (64-bit).
+
+after checking that - Follow this video [guide](https://www.youtube.com/watch?v=thfOQIdW0Cg&t=1389s)
+
+Notes:
+1. When the patcher asks if you are running a new game, select “Yes, this is a new game.”
+1. When the patcher notifies you about having over 100 plugins, select “Ignore from now on”.
+
+Once reqtificator is running - Leave all options at defaults, Simply hit the patch button.
+
 
 ### There was no consistency file found
 ![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/3c65ee1a-55dd-4e61-92d5-d891c8bf0c3f)
