@@ -1175,7 +1175,7 @@ has_children: false
 
 | **The White Phial** \| (Potion) |
 |:---|
-|- *Drinking The White Phial (Full) moves it to Misc section as The White Phial (Empty) and will refill after 24 hours.<br/>- Effect of The White Phial differs based on decisions made during "Repairing the Phial".*<br/><sup>~ "I'd like it to have the power of healing." (Restores Health 500 points.)<br/>~ "I want to be tougher in battle." (Fortify Stamina 500 points for 300 seconds.)<br/>~ "I want to strengthen my magical skills." (Fortify Magicka 500 points for 300 seconds.)<br/>~ "I want to resist the forces of magic." (Magic Resist 100% for 60 seconds.)<br/>~ "I want to deal more damage in battle." (Fortify 1H, 2H, and Marksman Damage 100% for 30 seconds.)<br/>~ "I want to be better hidden in the shadows." (Fortify Sneaking 20% for 3600 seconds.)<sup/>|
+|- *Drinking The White Phial (Full) moves it to Misc section as The White Phial (Empty) and will refill after 24 hours.<br/>- Effect of The White Phial differs based on decisions made during "Repairing the Phial".*<br/><sup>~ "I'd like it to have the power of healing." (Restores Health 500 points.)<br/>~ "I want to be tougher in battle." (Fortify Stamina 500 points for 300 seconds.)<br/>~ "I want to strengthen my magical skills." (Fortify Magicka 500 points for 300 seconds.)<br/>~ "I want to resist the forces of magic." (Magic Resist 100% for 60 seconds.)<br/>~ "I want to deal more damage in battle." (Fortify 1H, 2H, and Marksman Damage 50% for 30 seconds. fortify Armor penetration by 50 for 30 seconds)<br/>~ "I want to be better hidden in the shadows." (Fortify Sneaking 20% for 3600 seconds.)<sup/>|
 
 ---
 
