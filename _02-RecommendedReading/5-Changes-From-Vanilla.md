@@ -27,6 +27,7 @@ description: Changes From Vanilla
 * Heavy Armor makes sneaking impossible.
 * Sneak mages can’t exist. Spells Make noise to cast until you are deep into the illusion tree.
 * Stamina is a precious resource at lower levels. Wearing any armor without the first perk causes a drain standing still, even with the first perk you will lose it if you are running around. Anyone with armor should be investing in stamina restoration food.
+* Low quality wooden / iron / steel bows break on Melee hit, if you plan on being a archer, get a better bow.
 
 
 ## Quest Changes
