@@ -181,6 +181,7 @@ Things to check
 1. Is there already a guide for it available (our discord server is the best resource for this)
 1. Are there any mod conflicts from Mod organizer tool - this will tell you if the files being changed as touched by any other mods in the list. You would see this by looking at Mod organizers "information" panel to see if any files are overwritten by your new mod.
 1. Record conflict resolution. The next thing to check is the actual ESP/ESL/ESM files for conflicts. I would recommend the following guide <https://tes5edit.github.io/docs/5-conflict-detection-and-resolution.html> to help you to learn how to check for mod conflicts within SSEEdit. If there are any then most likely you would need to write a conflict resolution patch.
+1. Does the mod you want to add have implementation notes on the [Roadmap](https://airtable.com/app6IMUkhDQiSdL0B/shrvAxHcCeCqKfnGe/tbln0wE3ffVnUk2ML/viwGFdBIx5NoRNxBU). Approx 300 mods have been checked against the base list and have notes as to what is required to integrate with the list.
 
 ---
 
