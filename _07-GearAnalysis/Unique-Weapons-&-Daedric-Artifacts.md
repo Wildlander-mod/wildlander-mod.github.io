@@ -152,7 +152,7 @@ has_children: false
 
 | **Konahrik** \| Clothing |
 |:---|
-|- *Fortify Health, Magicka, and Stamina 100 points each.<br/>- Restore Health 75 points per second.<br/>- Restore Magicka and Stamina 3 points per second each.<br/>- Decrease Shout cooldown 20%.* |
+|- *Fortify Health, Magicka, and Stamina 100 points each.<br/>- Restore Health 75 points per second.<br/>- Restore Magicka and Stamina 3 points per second each.<br/>- Decrease Shout cooldown 20%.<br/>- on hit and below 100% health, you have a 5% chance of healing for 100 over 3 seconds and 25 instantly. The 100 heal over 3 seconds does not stack and can only be obtained once every 4 seconds.* |
 
 ---
 
