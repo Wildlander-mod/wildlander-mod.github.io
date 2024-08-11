@@ -184,11 +184,13 @@ disable
 ```
 
 ---
+
 ### Crash on save with crash code (skse64_1_5_97.dll+5CE66)
 
 Fortunately rare. Believed to be caused by saving while some form of head-tracking is in use (E.g Lock on in true directional movement).
 
 ---
+
 ### Crash on trying to edit Iequip. SkyrimSE.exe+C28C8B
 
 This is caused by a conflict between consoleutil and Iequip. If you want to edit the Iequip screen, turn time dilation down to zero, make your changes, and then change it back.
@@ -225,6 +227,7 @@ This crash is caused by a random roadside spawn of a NPC with a bodyguard. The N
 Fix: none. However, avoiding the area where the crash occurred for 24 hours normally "rerolls" the encounter.
 
 ---
+
 ### Honed Metal Random Crash. (SkyrimSE.exe+DDB796)
 
 This we believe to be caused by scrolling though the honed metal blacksmith menu too quickly thus causing Skyrim to fail to load item previews.
@@ -242,11 +245,13 @@ This crash basically means something went wrong somewhere. Every report we have 
 Fix: reload and redo.
 
 ---
+
 ### Random NPC Movement crash (SkyrimSE.exe+11012FC)
 
 The crash logs for this that we have seen are all in different locations, with different NPCs. Its not reproducible on demand.
 
 Fix: reload and continue playing from last save.
+
 ---
 
 ### FLP Horse Random crash - (SkyrimSE.exe+6441D0)
@@ -265,6 +270,7 @@ This is a rare crash. Attempts by staff to prevent the issue have reduced freque
 Fix: If you are inside of Dragonbridge's Inn, wait until 8am. If you are approaching in Dragonbridge, don't do so until after 8am. 
 
 ---
+
 ### Collision Crash. (SkyrimSE.exe+E014EC)
 
 This crash basically means someone - when coming out of a building, collided with something.
@@ -273,7 +279,8 @@ This crash basically means someone - when coming out of a building, collided wit
 
 Fix: If the crash occurs in Whiterun, then disable the scrubbing tub using console. For all other locations, please raise a bug report.
 
-----
+---
+
 
 ### Crash selling Dwarven Dagger to Lisbet in Arnleif and Sons Trading (No crash code, just an exception code)
 
