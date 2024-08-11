@@ -74,6 +74,8 @@ There are a few things you’ll need before we begin. Please ensure that you hav
 
 We also highly recommend a <a href="https://forums.nexusmods.com/index.php?%2Fstore%2Fcategory%2F1-premium-membership%2F">Nexus Premium membership</a> for automating the download process. This feature is controlled by _NexusMods_ - _Ultimate Skyrim_ is not affiliated.
 
+You can view the modlist [here](https://loadorderlibrary.com/lists/ultimate-skyrim-430-high-preset)
+
 Once that’s squared away, we can begin!
 
 ---
