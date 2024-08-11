@@ -9,13 +9,18 @@ from https://www.reddit.com/r/skyrimrequiem/comments/1zm5li/analysis_of_requiem_
 
 Vampires are pretty infamous if you've been playing Requiem, and god forbid you get a quest from your companion shield brothers to go slay one before they've offered you their special gift.
 
-Requiem is hard to analyze due to the scope of the mod, but I'll do my best to completely detail how vampirism and vampires are different. I think I've covered nearly everything. A lot of this stuff needs verification.
+Requiem is hard to analyze due to the scope of the mod, but I'll do my best to completely detail how vampirism and vampires are different. I think I've covered nearly everything. 
+
+{: .important}
+> Vampire Gameplay is intended to be a challenge, It requires a lot of micromanagement  of your thirst and comes with some large penalties to balance against its advantages.
+>
+> It is not recommended for beginners to requiem. 
 
 ## --Becoming a vampire--
 
 There are two ways, you can either consume vampire dust, which has a chance of giving you the disease, or you can take damage from a vampiric Drain life. If you are a Altmer, the Drain life varient is resisted using the Altmer's disease resistance perk, so dust is the safer option.
 
-Once infected it takes 3 days to turn into a vampire. During this time you are taking consistant damage and cannot sleep. To pass a time, you can train at a dummy, study a book, spell research or kill and harvest animals.
+Once infected it takes 3 days to turn into a vampire. During this time you are taking consistent damage and cannot sleep. To pass a time, you can train at a dummy, study a book, spell research or kill and harvest animals. Make sure you have more healing potions than you think you'd need. Make sure that you also have a cure disease  potion  in case you run out!
 
 When you get converted to a vampire, you are *instantly* in [stage 4](/08-SkillAnalysis/Vampirism#stage4). It is recommended that you make sure that you are inside (out of sunlight), and have dead bodies nearby that you can feed on.
 
@@ -25,7 +30,7 @@ All vampires in Requiem are tagged with having Minor Knockdown Immunity, this im
 
 ## --Vampire Feeding--
 
-### Penalty
+### Penalties
 
 In Requiem your victims will die if they are at or below 125 health when you feed, and feeding will deal 250 damage to Max HP when done the first time, and 125 damage the second time, after that it is no longer penalized however I doubt your victim will survive. I suppose this mechanics is to make feeding as a vampire punishing, since in the vanilla Skyrim game you could feed on people left and right without killing a single person.
 
@@ -45,26 +50,19 @@ Elixer/Potions of blood in addition to sating your thirst also act as a regenera
 
 ## --Taboo Items (Meridia's Malediction)--
 
-    Meridia's Beacon - Simply possessing this item will Damage Health by 20 points every second. 
-                       As it cannot be dropped, this is essentially a death sentence.
-
-    Dawnbreaker      - Same effect as Meridia's Beacon. But unlike the beacon - this at least can be dropped.
+* Meridia's Beacon - Simply possessing this item will Damage Health by 20 points every second. As it cannot be dropped, this is essentially a death sentence.
+* Dawnbreaker      - Same effect as Meridia's Beacon. But unlike the beacon - this at least can be dropped.
 
 ## --Holy Areas--
 
 In Requiem some areas are deemed 'holy' and will penalize you with a visual shader that will blur your vision, and prevent your stamina from regenerating.
 
-    Temple of Talos
-
-    Temple of the Divines
-
-    Temple of Kynareth
-
-    Temple of Mara
-
-    Temple of Dibella
-
-    Stendarr's Beacon
+    * Temple of Talos
+    * Temple of the Divines
+    * Temple of Kynareth
+    * Temple of Mara
+    * Temple of Dibella
+    * Stendarr's Beacon
 
 ## --Searing Sun--
 
