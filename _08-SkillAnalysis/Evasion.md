@@ -10,15 +10,23 @@ has_children: false
 
 ### Evasion Perks
 
+Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage provided you are not wearing any heavy armor at all.
+
 ---
 
 **Agility**
 
-Light armor weight penalties are reduced. You take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
+Light armor weight penalties are reduced. You take 25% less damage from falling. Wearing heavy armor negates all bonuses. 
 
 Level Required : 0
 
 Perk Required : None
+
+_Actual Effects :_
+
+If not wearing any heavy armor
+1. You 25% take less damage from falling, plus 1% for each Evasion armor skill point
+
 
 ---
 
@@ -30,6 +38,11 @@ Level Required : 20
 
 Perk Required : Agility
 
+_Actual Effects :_
+
+1. Press Sprint while moving in any direction to dodge. Expends 15 points of stamina. this gives you a burst of speed in the chosen direction for  up to two steps.
+
+
 ---
 
 **Finesse**
@@ -39,6 +52,11 @@ Your training enhances your power attack damage by 3% for every piece of Evasion
 Level Required : 25
 
 Perk Required : Agility
+
+_Actual Effects :_
+
+1. Your power attacks do 3% more damage (max 12%), for every piece of heavy armor not worn. 
+
 
 ---
 
@@ -50,6 +68,11 @@ Level Required : 50
 
 Perk Required : Finesse
 
+_Actual Effects :_
+
+1. Your power attacks cost 6% less (max 24%), for every piece of heavy armor not worn.
+
+
 ---
 
 **Agile Spellcasting**
@@ -59,6 +82,11 @@ Specialized training allows you to cast spells in light armor without penalties.
 Level Required : 50
 
 Perk Required : Dexterity
+
+_Actual Effects :_
+
+1. You're able to cast spells reducing weight penalties to match clothing, while not wearing heavy armor.
+
 
 ---
 
@@ -70,6 +98,12 @@ Level Required : 75
 
 Perk Required : Dexterity
 
+_Actual Effects :_
+
+1. You move 15% faster, while not wearing heavy armor.  
+1. The stamina penalty for running is nullified, while not wearing heavy armor. 
+
+
 ---
 
 **Vexing Flanker**
@@ -79,6 +113,13 @@ Your running melee attacks receive 4% damage bonus for every piece of Evasion ar
 Level Required : 50
 
 Perk Required : Finesse
+
+_Actual Effects :_
+
+1. While running, your melee weapons do 4% more damage (max 16%), for every piece of heavy armor not worn. 
+1. If you have turned them back on - this perk prevent kill moves working on you.
+
+
 
 ---
 
@@ -90,6 +131,10 @@ Level Required : 75
 
 Perks Required : Finesse and Vexing Flanker
 
+_Actual Effects :_
+
+1. You've gained the ability to act 50% faster in combat, at the cost of 5 stamina per second for 18 seconds. Wearing any Heavy Armor blocks this ability. 
+
 ---
 
 **Meteoric Reflexes**
@@ -99,5 +144,10 @@ Your lightning-fast reflexes grant you a 50% chance to mitigate 95% of all incom
 Level Required : 100
 
 Perks Required : Windrunner and Combat Reflexes
+
+_Actual Effects :_
+
+1. 50% chance of taking only 5% damage from a melee attack, while not wearing any heavy armor or using a bow. 
+
 
 ---
