@@ -111,3 +111,8 @@ The following additional columns are available.
 1. Cooldown - timer for greater powers (based on 24-hour in-game time)
 1. Power type - shows Lesser Powers (generally little magicka to no to cast and can be cast without any limitations) and Greater Powers (which has long cooldowns)
 
+### Buff/debuff icons on UI
+
+![Untitled](https://github.com/user-attachments/assets/7b464eaa-4a2c-4421-9258-1045912720ed)
+
+
