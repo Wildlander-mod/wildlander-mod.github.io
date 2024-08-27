@@ -95,6 +95,9 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 |Paralysis  | Immune | N/A  |
 |Knock Down| Minor | N/A  |
 
+
+Damage reduction to 33% from all sources.
+
 #### Standard
 
 *Basic Stats*
@@ -179,7 +182,7 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
-|Pierce(Daggers)    | 25% damage reduction |
+|Pierce(Daggers)    | 75% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
 #### Standard

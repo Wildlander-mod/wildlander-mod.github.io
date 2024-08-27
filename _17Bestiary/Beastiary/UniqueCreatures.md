@@ -257,7 +257,7 @@ NPC: 5F031342
 | Type | Bonus |
 |--|--|
 |Slash (Swords & Axes)  |  50% damage reduction |
-|Pierce(Daggers)    | 25% damage reduction |
+|Pierce(Daggers)    | 75% damage reduction |
 |Ranged (Bows & Crossbows)  | 50% damage reduction |
 
 ##  **Karstaag** : Powerful ghostly Frost Giant.
