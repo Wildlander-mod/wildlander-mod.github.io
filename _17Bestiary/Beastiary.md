@@ -60,6 +60,9 @@ Bonus armor that the Enemy gains if attacked by weapon damage types. The below t
 |4 |240
 |5 |300
 
+** Damage Reductions **
+Certain enemies have abilities which reduce incoming damage by the stated percentage. E.G 75% damage reduction would mean a weapon which does 100 damage will be reduced to 75
+
 **Resistances & Weaknesses**
 If the Enemy has protection or vulnerability to Fire/Frost/Shock/Poison, If the Enemy has Knockdown, Sneak Attack or Paralysis protection, and if the enemy has any additional protections - E.g Drain life, Unrelenting force.
 
