@@ -276,9 +276,9 @@ The Centurion is one of the greatest inventions of dwemic craftmanship and prove
  
 | Type | Tier + Bonus  |
 |--|--|
-|Slash (Swords & Axes)  | T5 + 60% damage reduction |
-|Pierce(Daggers)    | T3 + 75% damage reduction|
-|Blunt (Maces & Hammers)   | 25% damage Reduction |
+|Slash (Swords & Axes)  | T5 + 40% damage reduction |
+|Pierce(Daggers)    | T3 + 25% damage reduction|
+|Blunt (Maces & Hammers)   | 75% damage Reduction |
 |Ranged (Bows & Crossbows)  | T5 + 50% damage reduction|
 
 ---
@@ -322,9 +322,9 @@ The Forgemaster is a powerful Dwarven Centurion that guards the Aetherium Forge.
  
 | Type | Tier + Bonus  |
 |--|--|
-|Slash (Swords & Axes)  | T5 + 60% damage reduction |
-|Pierce(Daggers)    | T3 + 75% damage reduction|
-|Blunt (Maces & Hammers)   | 25% damage Reduction |
+|Slash (Swords & Axes)  | T5 + 40% damage reduction |
+|Pierce(Daggers)    | T3 + 25% damage reduction|
+|Blunt (Maces & Hammers)   | 75% damage Reduction |
 |Ranged (Bows & Crossbows)  | T5 + 50% damage reduction|
 
 --- 
@@ -369,10 +369,10 @@ For any adventure foolish enough to take one on, poison and shock resistance is 
  
 | Type | Tier + Bonus  |
 |--|--|
-|Slash (Swords & Axes)  | t5 + 60% Damage reduction|
-|Pierce(Daggers)    | t3 + 75% Damage reduction|
+|Slash (Swords & Axes)  | t5 + 40% Damage reduction|
+|Pierce(Daggers)    | t3 + 25% Damage reduction|
 |Ranged (Bows & Crossbows) | t5 + 50% Damage reduction|
-|Blunt (Maces & Hammers)   | 25% Damage Reduction |
+|Blunt (Maces & Hammers)   | 75% Damage Reduction |
 
 
 
