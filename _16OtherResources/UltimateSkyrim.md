@@ -23,7 +23,7 @@ Welcome to _Ultimate Skyrim_, and thank you for your interest in the project! Th
 
 
 {: .important}
-> Ultimate Skyrim is no longer supported or under development, if the list breaks, this guide will disappear. 
+> Ultimate Skyrim is no longer supported or under development, if the list breaks (E.G due to skyrim Updating), this guide will disappear. 
 > 
 > The Support channels on discord **Only** exist for you to search for guidance on previous issues. No installation support will be offered unless one of the support team is very very bored.
 
@@ -69,12 +69,14 @@ There are a few things you’ll need before we begin. Please ensure that you hav
 1. <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads" target="_blank">The latest version of Microsoft’s Visual C++.</a> (You’ll need both the <a href="https://i.imgur.com/GD6QJeu.png" target="_blank">32-bit</a> _and_ the <a href="https://imgur.com/a/P76cONh" target="_blank">64-bit</a> versions.)
 1. <a href="https://dotnet.microsoft.com/download/dotnet-framework" target="_blank">The latest version of the .NET Framework Runtime.</a>
 1. No _Skyrim_ mod subscriptions on the <a href="https://steamcommunity.com/app/72850/workshop/" target="_blank" class="swi">Steam Workshop</a>
-1. A clean, **ENGLISH** version of _Skyrim_ installed through Steam, <a href="https://i.imgur.com/nFkzKu7.jpg" target="_blank">as shown here</a>. (Non-English versions unfortunately crash the game.)
+1. A clean, **ENGLISH** 1.3.22 version of _Skyrim_ installed through Steam, <a href="https://i.imgur.com/nFkzKu7.jpg" target="_blank">as shown here</a>. (Non-English versions unfortunately crash the game.) 
 1. The **GamePass** version of _Skyrim_ is unfortunately not compatible at this time.
 
 We also highly recommend a <a href="https://forums.nexusmods.com/index.php?%2Fstore%2Fcategory%2F1-premium-membership%2F">Nexus Premium membership</a> for automating the download process. This feature is controlled by _NexusMods_ - _Ultimate Skyrim_ is not affiliated.
 
 You can view the modlist [here](https://loadorderlibrary.com/lists/ultimate-skyrim-430-high-preset)
+
+Edit: 06/09/24 - last night Bethesda pushed a update via steam to Skyrim. As such you *may need* to downgrade your skyrim to complete installation. The steam download depot you need is ``` download_depot 72850 72853 3817241784354177437 ``` you can find instructions of how to depot downgrade [here](https://wiki.wildlandermod.com/09-How-Do-i/downgrade/) 
 
 Once that’s squared away, we can begin!
 
