@@ -152,7 +152,7 @@ just_the_docs:
       nav_fold: true   
     09-How-Do-i:
       name: How Do I?
-      nav_fold: true  
+      nav_hasparent: true    
     02BeginnersGuide:
       name: Wildlander Basics
       nav_fold: false   
