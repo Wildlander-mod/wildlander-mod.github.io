@@ -150,6 +150,9 @@ just_the_docs:
     01Support:
       name: Support Pages
       nav_fold: true   
+    09-How-Do-i:
+      name: How Do I?
+      nav_fold: true  
     02BeginnersGuide:
       name: Wildlander Basics
       nav_fold: false   
@@ -173,9 +176,6 @@ just_the_docs:
       nav_fold: true 
     08-SkillAnalysis:
       name: Skills & Perks
-      nav_fold: true 
-    09-How-Do-i:
-      name: How Do I?
       nav_fold: true 
     10-Crafting:
       name: Crafting
