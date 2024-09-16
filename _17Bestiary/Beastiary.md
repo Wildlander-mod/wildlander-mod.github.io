@@ -26,10 +26,10 @@ For the Afflicted, the only difference between a Bandit and them is the addition
 ## About these Guides
 
 
-**Variants**
+### **Variants**
 Level/Health/Stamina/Magic if the creature comes in different sizes but same base creature. Shouts, in the case of dragons, as each variation has different shouts available to it.
 
-**Basic Stats**
+### **Basic Stats**
 Movement Speed, Melee/Ranged damage, Standard armor, Magical armor, Enemy ability to penetrate your armor.
 
 In addition, Some enemies in the game have various special abilities. These include :-
@@ -42,7 +42,7 @@ In addition, Some enemies in the game have various special abilities. These incl
 * Disarm Shouts - Shouts which can send your weapon flying unless you have high enough Magic resistance to resist the shout.
 * Diseases - Some new diseases have been added to creatures which previously didn't have any.
 
-**Weapon Protection**
+### **Weapon Protection**
 Bonus armor that the Enemy gains if attacked by weapon damage types. The below table shows what weapons fall into each category, and the bonus armor granted by each tier of protection.
 
 |Type |	Default Source |
@@ -60,16 +60,16 @@ Bonus armor that the Enemy gains if attacked by weapon damage types. The below t
 |4 |240
 |5 |300
 
-**Resistances & Weaknesses**
+### **Damage Reductions**
+Certain enemies have abilities which reduce incoming damage by the stated percentage. E.G 75% damage reduction would mean a weapon which does 100 damage will be reduced to 75
+
+### **Resistances & Weaknesses**
 If the Enemy has protection or vulnerability to Fire/Frost/Shock/Poison, If the Enemy has Knockdown, Sneak Attack or Paralysis protection, and if the enemy has any additional protections - E.g Drain life, Unrelenting force.
 
-**Material Protection**
+### **Material Protection**
 If the Enemy has protection or vulnerability to Weapon materials such as Silver or Daedric, or if they take reduced damage from conventional materials.
 
-**Weapon Resistances**
-If the Enemy has protection from Damage types, will also contain damage reduction by type.
-
-**Additional Perks**
+###  **Additional Perks**
 Any additional perks that the Enemy may have which affects game play.
 
 ### The Guides 

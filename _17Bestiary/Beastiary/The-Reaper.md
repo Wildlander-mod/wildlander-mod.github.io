@@ -51,9 +51,9 @@ Npc: 0201A73E
  
 | Type | Reductions |
 |--|--|
-|Slash (Swords & Axes)      | 50% reduction |
-|Pierce(Daggers)            | 80% reduction |
-|Ranged (Bows & Crossbows)  | 75% reduction |
+|Slash (Swords & Axes)      | 50% Damage reduction |
+|Pierce(Daggers)            | 20% Damage reduction |
+|Ranged (Bows & Crossbows)  | 25% Damage reduction |
 
 *Resistances*
  

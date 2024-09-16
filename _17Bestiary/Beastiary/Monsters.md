@@ -1225,9 +1225,9 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 
 | Type | Bonus Armor |
 |--|--|
-|Pierce(Daggers)    | 66% damage reduction |
-|Blunt (Maces & Hammers)   | 66% damage reduction  |
-|Ranged (Bows & Crossbows)  | 75% damage reduction |
+|Pierce(Daggers)    | 33% damage reduction |
+|Blunt (Maces & Hammers)   | 33% damage reduction  |
+|Ranged (Bows & Crossbows)  | 25% damage reduction |
 
 **Additional Perks - Except Burnt Spriggans**
 * "Spriggan Call of the Wild" -  Call Animals in 6000 feet to help, for 60 seconds, Invisibility, 5 seconds
@@ -1235,7 +1235,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 
 **Additional Perks*
 * Improved Healing - Healing spells are 25% more effective.
-* "Spriggan Resiliance" - When health drops below 20%, Apply a 90% damage reduction from all sources
+* "Spriggan Resiliance" - When health drops below 20%, Apply a 90% damage reduction to incoming damage from all sources
 
 **Spriggan**
 

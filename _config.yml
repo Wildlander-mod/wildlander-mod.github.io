@@ -90,6 +90,9 @@ callouts:
 # Define Jekyll collections
 collections:
   # Define a collection named "ClassGuides", its documents reside in the "_ClassGuides" directory
+  01Help:
+    permalink: "/:collection/:path/"
+    output: true
   01Support:
     permalink: "/:collection/:path/"
     output: true
@@ -147,9 +150,15 @@ collections:
    
 just_the_docs:
   collections:
+    01Help:
+      name: Help & Support
+      nav_fold: false   
     01Support:
       name: Support Pages
-      nav_fold: true   
+      nav_hasparent: true
+    09-How-Do-i:
+      name: How Do I?
+      nav_hasparent: true    
     02BeginnersGuide:
       name: Wildlander Basics
       nav_fold: false   
@@ -163,8 +172,8 @@ just_the_docs:
       name: Hints & Tips
       nav_hasparent: true   
     04WildlanderWorld:
-      name: Wildlander World
-      nav_fold: true   
+      name: Wildlander World  
+      nav_hasparent: true   
     06Dungeons:
       name: Dungeon Analysis
       nav_fold: true 
@@ -173,9 +182,6 @@ just_the_docs:
       nav_fold: true 
     08-SkillAnalysis:
       name: Skills & Perks
-      nav_fold: true 
-    09-How-Do-i:
-      name: How Do I?
       nav_fold: true 
     10-Crafting:
       name: Crafting

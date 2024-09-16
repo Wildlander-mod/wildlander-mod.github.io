@@ -36,7 +36,7 @@ description: Undead - Shouts, Spells, Stats
 
 | Type | Damage change |
 |--|--|
-|Pierce(Daggers)           | 80% Damage reduction |
+|Pierce(Daggers)           | 20% Damage reduction |
 |Blunt (Maces & Hammers)   | 50% Damage reduction |
 |Ranged (Bows & Crossbows)  | Tier 3 |
 
@@ -223,6 +223,14 @@ In Requiem - these guys are various shades of "utter bastard"
 |Paralysis  | Immune |  
 |Sneak Attack | Immune |  
 |Unrelenting Force| Immune |
+
+ *Weapon Protection*
+ 
+| Type | Reductions |
+|--|--|
+|Slash (Swords & Axes)      | 75% Damage reduction |
+|Pierce(Daggers)            | 50% Damage reduction |
+|Blunt (Maces & Hammers)    | 60% Damage reduction |
 
  *Spells*
 
@@ -586,7 +594,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 | Type | Change|
 |--|--|
 |Pierce(Daggers)            | 50% Damage reduction |
-|Blunt (Maces & Hammers)    | 50% Damage reduction |
+|Blunt (Maces & Hammers)    | 70% Damage reduction |
 |Ranged (Bows & Crossbows)  | Tier 3 (Only if armored) |
 
 *Spells*
@@ -1054,9 +1062,10 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 
 | Type | Bonus Armor |
 |--|--|
-|Slash (Swords & Axes)      | 50% reduction |
-|Pierce(Daggers)            | 80% reduction |
-|Ranged (Bows & Crossbows)  | 75% reduction |
+|Slash (Swords & Axes)      | 50% Damage reduction |
+|Pierce(Daggers)            | 20% Damage reduction |
+|Ranged (Bows & Crossbows)  | 25% Damage reduction |
+
 
 *Material Protection*
 
@@ -1146,9 +1155,11 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
  
 | Type | Reductions |
 |--|--|
-|Slash (Swords & Axes)      | 50% reduction |
-|Pierce(Daggers)            | 80% reduction |
-|Ranged (Bows & Crossbows)  | 75% reduction |
+|Slash (Swords & Axes)      | 50% Damage reduction |
+|Pierce(Daggers)            | 20% Damage reduction |
+|Ranged (Bows & Crossbows)  | 25% Damage reduction |
+
+
 
 *Material Protection*
 
@@ -1408,9 +1419,10 @@ Black skeleton warriors found in the Soul Cairn. You can summon them after learn
  
 | Type | Reductions |
 |--|--|
-|Slash (Swords & Axes)      | 50% reduction |
-|Pierce(Daggers)            | 80% reduction |
-|Ranged (Bows & Crossbows)  | 75% reduction + Tier 3 protection |
+|Slash (Swords & Axes)      | 50% Damage reduction |
+|Pierce(Daggers)            | 20% Damage reduction |
+|Ranged (Bows & Crossbows)  | T3 + 25% Damage reduction |
+
 
 *Material Protection*
 
