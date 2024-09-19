@@ -85,7 +85,7 @@ The following types of mods have Issues
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 > *  Precision - Cannot be played with Improved camera version we have. Overall makes the game easier as the weapons are designed based on vanilla proportions, not wildlander.
 > *  Flat World Map Framework (FWMF) Does not have a compatible patch for ELE or DVLAS (our lighting mods) so reverts lighting in vanilla.
-> *  NPC Overhauls - Wildlander itself is a NPC overhaul, so youu cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of wildlander to get it working correctly
+> *  NPC Overhauls - Wildlander itself is a NPC overhaul, so you cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of wildlander to get it working correctly
 
 ---
 ### Introduction to Mod Organizer 2
