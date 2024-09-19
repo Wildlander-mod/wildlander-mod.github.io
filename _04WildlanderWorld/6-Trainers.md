@@ -480,7 +480,7 @@ has_toc: true
 </table>
 
 
-## Light Armor
+## Light Armor / Evasion
 
 
 <table>
