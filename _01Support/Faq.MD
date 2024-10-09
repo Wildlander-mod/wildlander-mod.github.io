@@ -214,6 +214,21 @@ Uninstalling Wildlander is a simple matter of deleting the installation folder.
 Uninstalling the launcher requires you to use Windows “Add / remove program” functionality.
 
 ----------
+## How do i move Wildlander to a different drive / PC
+
+If you want to move your Wildlander installation to another drive, then you need to undertake the following steps.
+
+If you have installed any additional mods, then you will need to rename them [NoDelete] in your Mods folder first.
+
+1. Copy the Wildlander folder to the new drive.
+2. Update the launcher path (advanced tab).
+3. Important: Rerun Wabbajack installation in its new location to ensure that all the paths are updated in the various INI's. Starting wabbajack isnt enough - you have to reinstall wildlander from the library.
+
+If you have installed any additional mods, then you will need to re-enable and resort your load order after step 3)
+
+In addition to the above if you are copying to a new computer, you need to copy the saves (Ess Files) and SKSE Co-save (.SKSE files) pairs from My Documents\My Games\Skyrim Special Edition. IT IS NOT ENOUGH TO RELY ON STEAM CLOUD - IT DOES NOT COPY THE .SKSE CO-SAVES. Without the co-save, you will lose all of the mod's settings, keybinds and the UI will become mis-aligned. It is not possible to recreate the co-save.
+
+----------
 
 ## Can I remove the downloads' folder?
 

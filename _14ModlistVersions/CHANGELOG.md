@@ -6,7 +6,7 @@ description: Wildlander change log
 
 ---
 
-## V1.1.12 - release 17/05/224
+## V1.1.12 - release 17/05/24
 
 Stable 
 {: .label .label-green } 

@@ -9,23 +9,38 @@ has_children: false
 
 Enchanting is the arcane art of infusing matter permanently with magic energy.
 
-I could rant about this at length, but I'll try to get to the point -- I think Enchanting is relativly under powered in comparisons to other perk trees. Thats not to say its not useful, but if you dont intend on going "all in" its a waste of perks.
+I could rant about this at length, but I'll try to get to the point -- I think Enchanting is relatively under powered in comparison to other perk trees. Thats not to say its not useful, but if you don't intend on going "all in" to get the level 100 perk, its a waste of perks.
 
-**The balance of found gear vs crafted gear**
+### The balance of found gear vs crafted gear
 
 In Vanilla Skyrim, there was no reason not to take Enchanting, as it resulted in powerful bonuses that were applicable to every single build. In Wildlander, there are unique items that are much more powerful than anything you could possibly enchant, but they are hard to get. The fact that the random-drop Peerless enchantments are stronger than anything the player can enchant adds extra incentive to dungeon-crawling and a far greater sense of excitement when you come across one.
 
-Because of this you cannot simply lock yourself in whiterun and grind your way to the best gear in the game -- you have to go out and fight for it -- but if you want a full set of decently strong gear, Enchanting would get your there more quickly, however - court mages can do 95% of the enchants that the player can - the benefits to this tree all come from the top end of the perk trees - which requires a heavy investment of perks.
+Because of this you cannot simply lock yourself in Whiterun and grind your way to the best gear in the game -- you have to go out and fight for it -- but if you want a full set of decently strong gear, Enchanting would get your there more quickly, however - courtmages can do 90% of the enchants that the player can - the benefits to this tree all come from the top end of the perk trees - which requires a heavy investment of perks. If you want something enchanted with a basic enchant, get yourself over to Neloth on Solstheim and get him to enchant it for you.
 
-**Benefits of enchanting**
+### Benefits of enchanting
 
-The right branch of the tree - you can craft staves (up to Expert Destruction level at 100) and get some pretty OP unique enchantments, like the one giving you up 70 points of unresistable damage, dispelling all spells on hit, AOE elemental damage (I wouldn't recommend putting those on melee weapons, they are really annoying when they trigger all the time in your face). One specific enchantement makes this perk tree worth it - Spellbreaking (75 in enchanting right branch). This one can be put on any weapon and when combined with fire burst enchantement (50 in enchanting right branch), you will destroy DP with it.
+The right branch of the tree - you can craft staves (up to Expert Destruction level at 100) and get some pretty OP unique enchantments, like the one giving you up 70 points of unresistable damage, dispelling all spells on hit, AOE elemental damage (I wouldn't recommend putting those on melee weapons, they are really annoying when they trigger all the time in your face). One specific enchantment makes this perk tree worth it - Spellbreaking (75 in enchanting right branch). This one can be put on any weapon and when combined with fire burst enchantment (50 in enchanting right branch), you will destroy Dragon priests with it (you need the the top 100 perk, allows you a power so you can duel enchant items).
 
-**Character build synergy**
+### Character build synergy
 
 Depending on how you build your character, Enchanting has different levels of usefulness. A pure mage may be able to find better robes/helms/amulets/rings than they could ever enchant, but their options for gloves and boots are minimal. If you are a very high-level mage with extra skill points, Enchanting gives you a way to add extra strength to your character, even if it's only in a couple of gear slots. As a hybrid character, At max skill, with the Enchantment Mastery perk, Enchanting gets even more value, as it allows you to combine skill bonuses that are optimized to your build that you don't see in any of the random-drop or artifact items.
 
-Overall, Enchanting is not as good as in vanilla, characters benefitting from Enchanting are those of hybrid Warrior/Archer/Paladin types. Mages/thieves/and their subclasses (nightblades etc) may easily ignore the skill. You absolutely can't beat TGM, Nightingale, Ancient Shrouded Armor or the Arch Mage outfit.
+Overall, Enchanting is not as good as in vanilla, characters benefiting from Enchanting are those of hybrid Warrior/Archer/Paladin types. Mages/thieves/and their subclasses (nightblades etc) may easily ignore the skill. You absolutely can't beat TGM, Nightingale, Ancient Shrouded Armor or the Arch Mage outfit.
+
+### Spell research Alchemy
+
+If you are investing in enchanting, then its worth looking to craft elixers of enchantment to enable you to craft even more powerful enchants. unfortunately - Spell research is likely to result in you needing a trip to the chemist for some painkillers for the extensive clicking you will need to do to make the best elixers.
+
+
+### No Perk No Enchanting 
+
+Without Enchanter's Insight (Rank 1), you cannot use enchanting tables.
+
+Recharging enchanted weapons and staves also require Enchanter's Insight (Rank 1). If not you get zero charges from Soul Gems. However, some races (Altmer, Breton, Dunmer) have natural proficiency in Enchanting, and thus can recharge items without the perk.
+
+You can also buy 'Scrolls of Soul Gem Evocation' (mostly from Court Mages) that temporarily allows you to recharge items without Enchanter's Insight (Rank 1). It is however costly, takes long concentration to cast, and temporary.
+
+Note: Even for the Mace of Molag Bal, you need one of the methods that allow you to recharge items, to make the weapon recharge itself.
 
 
 ## _Perk Trees_
@@ -184,16 +199,6 @@ Allows you to craft Ebony Staves at the Forge.
 - Greater Force: Has a 25% chance to deal 50 points of additional damage and send the target flying.
 
  
-### [ More Information about Enchanting ]
-#### [ No Perk No Enchanting ]
-
-Without Enchanter's Insight (Rank 1), you cannot use enchanting tables.
-
-Recharging enchanted weapons and staves also require Enchanter's Insight (Rank 1). If not you get zero charges from Soul Gems. However, some races (Altmer, Breton, Dunmer) have natural proficiency in Enchanting, and thus can recharge items without the perk.
-
-You can also buy 'Scrolls of Soul Gem Evocation' (mostly from Court Mages) that temporarily allows you to recharge items without Enchanter's Insight (Rank 1). It is however costly, takes long concentration to cast, and temporary.
-
-+) Even for the Mace of Molag Bal, you need one of the methods that allow you to recharge items, to make the weapon recharge itself.
 
 #### [ Staff Crafting ]
 
