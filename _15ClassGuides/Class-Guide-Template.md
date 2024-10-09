@@ -2,7 +2,7 @@
 title: Class Guide Template
 layout: default
 description: Class Guide Template
-nav_order: 1
+nav_order: 2
 ---
 
 ## Submitted By

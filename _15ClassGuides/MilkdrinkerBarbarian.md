@@ -1,7 +1,8 @@
 ---
-title: Class Guide MilkDrinker Barbarian (Netorabbit variant)
+title: Class Guide MilkDrinker Barbarian (Baby's First Wildlander)
 layout: default
 description: The Milkdrinker’s Guide to Barbarians
+nav_order: 3
 ---
 
 ## Submitted By
