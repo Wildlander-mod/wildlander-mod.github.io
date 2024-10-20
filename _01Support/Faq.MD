@@ -696,16 +696,22 @@ Go to game-files\mods\Simple Dual Sheath\SKSE\Plugins\SimpleDualSheath.ini and e
 Save and next time you boot the game. Your shield will now be on your back, you 🐢 cosplayer!
 
 ----------
-### Night eye is too dark!
+### Internal Locations / Night eye is too dark!
 
 {: .note}
 Performance modlist does not allow the ENB to show nightvision correctly. Should you wish to use nightvision, you must either use "standard modlist" or No shaders (to apply vanilla nightvision).
+
+#### Internal Darkness
 
 Hit Shift+Enter to bring up the ENB, in the center panel expand ENB effect and scroll down until you find the below section:
 
 ![image](https://user-images.githubusercontent.com/26418143/175901531-69ed7701-e295-4a8f-933a-5cbb85dc85c4.png)
 
-These are the settings which control the brightness. It is my personal preference to change only 'Technique' to 'CW variant 3.'
+These are the settings which control the brightness. Change the Internal to 0.5.
+
+#### Night Eye
+
+In addition to the above, It is my personal preference to change only 'Technique' to 'CW variant 3.'
 
 then to scroll down and adjust the following settings 
 
