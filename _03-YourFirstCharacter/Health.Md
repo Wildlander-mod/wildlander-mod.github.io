@@ -26,7 +26,7 @@ When you get hurt fighting - the only ways to heal are :-
 There are several actor values involved in calculating total health regeneration:
 
 1. The players's maximum Health.
-1. The HealRate.  expresses the percentage of maximum health that is regenerated per second, real time. This is set to 7%
+1. The HealRate.  expresses the percentage of maximum health that is regenerated per second, real time. This is set to 2%
 1. The HealRateMult. expresses a percentage modifier to the base HealRate. This is the value modified by most sources of +health regen enchants, items and potions. This is set to 0% by default
 1. The CombatHealthRegenMult. expresses an additional multiplier that is only active while in combat. This is set to 7%
 
