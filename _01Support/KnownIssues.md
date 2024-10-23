@@ -148,7 +148,7 @@ This is caused by a INI setting called "faction stealing" inside of Po3 Tweaks. 
 
 Unfortunately, this setting allows you take items when *no* members of a faction are present. 
 
-You can correct this behavior by changing game-files\mods\Wildlander\SKSE\Plugins\po3Tweaks.ini and changing the below setting to False.
+You can correct this behavior by changing game-files\mods\Wildlander\SKSE\Plugins\po3_Tweaks.ini and changing the below setting to False.
 
 {: .iniSetting}
 >[Tweaks]
