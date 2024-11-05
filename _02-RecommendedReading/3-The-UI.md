@@ -16,7 +16,7 @@ Left Side
 * Compass
 * Current date and time
 
-Centre Section
+Center Section
 
 * Health/Magic/Stamina bars
 * IEquip Current equipment and enchantment charge status
@@ -89,17 +89,17 @@ The following additional columns are available.
 
 #### Weapons Tab
 
-1. damage - The current damage the weapon will do (including temper / degridation)
-1. base damage - the default damage of the weapon  (Excluding temper / degridation)
+1. damage - The current damage the weapon will do (including temper / degradation )
+1. base damage - the default damage of the weapon  (excluding temper / degradation )
 1. reach - determines how close the character must be to the opponent for the weapon to connect.
 1. speed - the time it takes to complete a weapon swing
-1. stagger - this affects the chance of staggering your oppenent when performing a power attack
+1. stagger - this affects the chance of staggering your opponent when performing a power attack
 
 #### Armor Tab
 
-1. Type - what bodypart the armor is woen on
+1. Type - what body part the armor is worn on
 1. Class - what type of armor it is
-1. Slot - the bodyparts that the armor is worn on
+1. Slot - the body parts that the armor is worn on
 1. Mat - the materiel of the armor
 1. Arm - The Armor this piece is currently providing including temper or damage
 1. Barm - The Base Armor this piece excluding temper or damage
