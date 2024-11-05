@@ -43,12 +43,12 @@ Tools such as Vortex / Loot have their uses, however that use is 2 billion miles
     
 Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE for anniversary editions WILL NOT WORK. Any Requiem patches you download should be for version 4 - 5.0.3 of requiem. Any patch for requiem 5.1 onwards will not be compatible.
 
-If changing the load order the Reqtificator should be ran - no exceptions. Please see the [Reqtificator section](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/#reqtificator) of this guide for the settings.
+If changing the load order the Reqtificator should be ran - no exceptions. Please see the [Reqtificator section](https://wiki.Wildlandermod.com/09-How-Do-i/ModdingGuide/#reqtificator) of this guide for the settings.
 
 It is strongly recommended that if you want to add anything released or updated since Dec 2023, that you should add [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) to ensure compatibility with the new EESL formats
 
 {: .important}
-> You Cannot Disable Essential mods required by wildlander.ESP, unless you want to manually remove all references from wildlander.ESP for the mod you want to disable.
+> You Cannot Disable Essential mods required by Wildlander.ESP, unless you want to manually remove all references from Wildlander.ESP for the mod you want to disable.
 
 Finally - for removing anything else read the advice [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
 
@@ -64,7 +64,7 @@ Finally - for removing anything else read the advice [Here](https://old.reddit.c
 
 The following Types of mods are NOT Compatible. (cause game breaking bugs)
 > * Any Alternate start mod. (Skyrim unbound reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
-> * Any Mod which affects the perk trees E.g. Ordinator 
+> * Any Mod which affects the perk trees (which wasn't made specifically for the version of requiem we use) E.g. Ordinator 
 > * Truly Absorb Dragon Souls, DSAMG - Dragon Soul Absorb More Glorious and Dragon Remains or any other mods which edit the main quest. (both listed mods prevents the main quest from firing upon killing a dragon)
 > * Cold & Wet SE - causes Various CTD
 > * Populated Cities Towns Village SE - Can cause the game to bug out into an endless loading scene when entering cities. COC'ing into one of the cities shops and leaving into the city from there circumvents and fixes it for some time
@@ -79,13 +79,14 @@ The following Mods are extremely script heavy, Will possibly break your game.
 
 The following types of mods have Issues 
 > *  New creatures/enemies/NPC's/followers   (unless requiem patch available) - Note: for enemies - they are generally added as unleveled, and in requiem this means they are always level 1. for NPC's and Followers - they will be missing the requiem perks and may also be unleveled (ergo level 1)
->*   New weapons and armors unless requiem patch available will vbe extremely underpowered.
+>*   New weapons and armors unless requiem patch available will be extremely underpowered.
 > *  Dead NPC Body Cleaner Remover (caused Immortal Vampires when you attempt to burn them, also causes civil war patrols to scream like banshee's)  
 > *  New Quest area mods   (unless requiem patch available) - Note: This is because new area's generally add new creatures/enemies/NPC's and followers
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
-> *  Precision - Cannot be played with Improved camera version we have. Overall makes the game easier as the weapons are designed based on vanilla proportions, not wildlander.
+> *  Precision - Cannot be played with Improved camera version we have. Overall makes the game easier as the weapons are designed based on vanilla proportions, not Wildlander.
 > *  Flat World Map Framework (FWMF) Does not have a compatible patch for ELE or DVLAS (our lighting mods) so reverts lighting in vanilla.
-> *  NPC Overhauls - Wildlander itself is a NPC overhaul, so you cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of wildlander to get it working correctly
+> *  NPC Overhauls - Wildlander itself is a NPC overhaul, so you cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of Wildlander to get it working correctly
+> *  Any mods which add new recipes to the Vanilla Tanning rack will need patching to use the Player crafting workbench instead.
 
 ---
 ### Introduction to Mod Organizer 2
@@ -160,12 +161,13 @@ Sort your (right side) Plug-ins load order **manually** (LOOT IS THE DEVIL - ERA
 
 If there isn't a specific guide, then as a general rule of thumb
 
+- Any mods which make cell edits (E.G to add new items/NPCs ) should be placed above the lighting mods.
 - Anything that adds spells, weapons, followers or other types of NPCs should go ABOVE Requiem.esp (right pane of MO2)
 - Patches always have to be below the mod they are patching, thus the requiem patches will be below Requiem.esp by the other requiem patches while your mod will be above Requiem.esp.
 
-![image](http://wiki.wildlandermod.com/Assets/RequiremPatch.png)
+![image](http://wiki.Wildlandermod.com/Assets/RequiremPatch.png)
 
-- Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the Wildlander Full mod(E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
+- Any mods which don't Add new NPCS, followers, Spells, armors and weapons, should be installed below the Wildlander Full mod(E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
 
 - Run the Reqtificator whenever you change the load order. The Reqtificator is located in mod organizers drop down menu (top right)
 
@@ -187,7 +189,7 @@ Things to check
 
 ## Can I Remove.....?
 
-The Wildlander mod itself has a lot of Master files (144 plugins) which cannot be disabled without removing all of the relevant records from wildlander.esp. 
+The Wildlander mod itself has a lot of Master files (144 plugins) which cannot be disabled without removing all of the relevant records from Wildlander.esp. 
 
 Files which are masters are required by the mod itself, and disabling the master will cause the game to crash.
 
@@ -196,8 +198,8 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 * Sunhelm (can be turned off in the MCM and ignored. Cannot be removed)
 * Frostfall (can be turned off in the MCM and ignored. Cannot be removed)
 * Immersive Horses
-* Skyrim Unbound Reborn (this is responsible for all of the wildlander "background configuration" of MCM's and the like when you start the game.)
-* Requiem is the core mod in this pack - (It's literally the heart and soul of the modlist - without it you arent playing wildlander) .
+* Skyrim Unbound Reborn (this is responsible for all of the Wildlander "background configuration" of MCM's and the like when you start the game.)
+* Requiem is the core mod in this pack - (It's literally the heart and soul of the modlist - without it you arent playing Wildlander) .
 
 For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
 
@@ -205,7 +207,7 @@ For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/co
 
 ## I've added mods and I'm getting crashes to desktop!
 
-Firstly - Check our [crash help](https://wiki.wildlandermod.com/01Support/CTDs/) - it maybe you are getting one of the crashes from Wildlander itself
+Firstly - Check our [crash help](https://wiki.Wildlandermod.com/01Support/CTDs/) - it maybe you are getting one of the crashes from Wildlander itself
 
 If your issue isn't listed - then the below resources may help you identify what is going wrong.
 
