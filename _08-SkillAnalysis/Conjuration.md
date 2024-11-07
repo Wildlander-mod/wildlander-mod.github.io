@@ -434,7 +434,7 @@ Summon Swarm (Rank I) | 40/s | 5 | Concentration | The caster summons a swarm of
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 Bound Axe | 250 | - | 120s | The caster binds an axe-shaped daedra for \<dur> seconds. Sheathing it will cancel the spell. |
-Bound Cloak (Rank I) | 176 | - | 150s |  	Create a magic cloak for \<dur> seconds that grants 12% exposure resistance and 66% longer dryness in rain. Unequip to dispel. |   |
+Bound Cloak (Rank I) | 176 | - | 150s |  Create a magic cloak for \<dur> seconds that grants 20 warmth and 20 coverage. Unequip to dispel. |   |
 Necromantic Empowerment on Target | 100 | 50 | - | The caster heals the undead target by \<mag> health points. | |
 Raise Dead (Rank II) | 336 | 13 | 60s | The caster reanimates a more powerful dead body for \<dur> seconds. | |
 Soul Trap | 107 | - | 60s | The caster makes the target vulnerable to soul gems for \<dur> seconds. <br/>If it dies within this duration, a part of its soul can be captured in a gem of an appropriate size. | |
@@ -454,7 +454,7 @@ Summon Swarm (Rank II) | 40/s | 6 | Concentration | The caster summons a swarm o
 | **Spells** | **Base Cost** | **Magnitude** | **Duration** | **Effect** | **Notes** |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 Banish Daedra (Rank I) | 196 | 20 | - | The caster sends weaker summoned daedric creatures back to the realms of Oblivion. | |
-Bound Cloak (Rank II) | 268 | - | 150s | Create a fine magic cloak for \<dur> seconds  that grants 7% exposure resistance and 33% longer dryness in rain. Unequip to dispel. | |
+Bound Cloak (Rank II) | 268 | - | 150s | Create a fine magic cloak for \<dur> seconds that grants 12 warmth and 40 coverage. Unequip to dispel. |  |
 Conjure Ash Spawn | 186 | - | 60s | Summons an Ash Spawn for \<dur> seconds wherever the caster is pointing. | |
 Necromantic Empowerment on Self | 40/s | 10 | Concentration | Heals the caster by \<mag> points per second. Only affects undead targets. | |
 Raise Dead (Rank III) | 450 | 21 | 60s | The caster reanimates a powerful dead body for \<dur> seconds. | |
