@@ -27,7 +27,9 @@ Wildlander is a very complex modlist, and modifying it will likely cause issues 
 For more general modding guides, we recommend [Lively's tutorials](https://github.com/LivelyDismay/Learn-To-Mod/blob/main/Main.md), the [GamerPoets YouTube Channel](https://www.youtube.com/@gamerpoets), and the [DarkFox127 YouTube channel](https://www.youtube.com/@Darkfox127).
 
 {: .warning}
-> The Wildlander support team does not offer support for modified versions of Wildlander. This is because it can be difficult or impossible to tell whether issues are the result of Wildlander, or a user's modifications.
+> The Wildlander support team does not offer support for modified versions of Wildlander. This is because it can be difficult or impossible to tell whether issues are the result of Wildlander, or a user's modifications. 
+>
+> There are several reasons for this, but the most important one is that staff will not know what you have done to your load order, what files are being overwritten by your changes, if the mods you add are even compatible with the versions of the mods in the base build. We cannot be expected to know what interactions the mods you add will have with the base load order. For a specific example, adding Wheeler causes a CTD when you run out of a user made potion which you have added to a wheel. The crashlog does not mention wheeler at all in the relevant objects section, only the potion itself.
 >
 > Should you choose to modify your install, you will only receive "support" from your fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted, and you will be directed to the appropriate locations—and further posts outside the appropriate channels may result in a mute or ban.
 
@@ -87,6 +89,7 @@ The following types of mods have Issues
 > *  Flat World Map Framework (FWMF) Does not have a compatible patch for ELE or DVLAS (our lighting mods) so reverts lighting in vanilla.
 > *  NPC Overhauls - Wildlander itself is a NPC overhaul, so you cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of Wildlander to get it working correctly
 > *  Any mods which add new recipes to the Vanilla Tanning rack will need patching to use the Player crafting workbench instead.
+> *  Wheeler causes a CTD when you run out of a user made potion which you have added to a wheel. It is recommended that you use the favorites menu instead of wheels for potions/poisons
 
 ---
 ### Introduction to Mod Organizer 2
