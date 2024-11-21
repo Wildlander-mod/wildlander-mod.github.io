@@ -166,7 +166,7 @@ Besides the pelt and the meat of the carcass, all animals will have valuable mat
 
 Just like skinning, harvesting takes less time after you have dressed down more carcasses, and you will get better (higher quality, and more) results as your harvesting level increases. Again, a hunting knife can also make a difference if you've turned that feature on.
 
-Most animals will also give you bones, which aren't an alchemy ingredient for a item you can use to craft primative weapons.
+Most animals will also give you bones, which aren't an alchemy ingredient for a item you can use to craft primitive weapons.
 
 
 ## Butchering
@@ -195,9 +195,9 @@ There are two additional perks to leveling up foraging: Bounty, and Botany. Boun
 
 ## Player Crafting
 
-This is a crafting system unique to Hunterborn and been expanded upon in wildlander, intended to provide multiple uses for the bones you harvest from animal (or monster) carcasses. Although there are not a great many Player Crafting recipes, the items you can craft can be very useful at low levels, especially in a game configured for less loot and a tough economy. Consequently, most items are not very powerful and won't make you a lot of money, although at higher levels (in your Harvest skill) you will be able to craft a few more potent weapons and arrows.
+This is a crafting system unique to Hunterborn and been expanded upon in Wildlander, intended to provide multiple uses for the bones you harvest from animal (or monster) carcasses. Although there are not a great many Player Crafting recipes, the items you can craft can be very useful at low levels, especially in a game configured for less loot and a tough economy. Consequently, most items are not very powerful and won't make you a lot of money, although at higher levels (in your Harvest skill) you will be able to craft a few more potent weapons and arrows.
 
-Using the ability doesn't require any furniture like a forge or tanning rack, but does require that you have one of the wildlander toolkits in your inventory. 
+Using the ability doesn't require any furniture like a forge or tanning rack, but does require that you have one of the Wildlander tool-kits in your inventory. 
 
 Which items you can craft depends on your harvesting level, which represents your skill and knowledge with the bones and organs of animals, and to a certain extent your manual dexterity in working with them. There are several categories of items you can craft with Player Crafting: Bone bits, arrows, weapons, hunting knives, engraved bones, bone amulets, and bone rings. Outside of these categories, there are also cache markers, the flute (merely a flavor item in the vanilla game), and Frostfall's own mortar and pestle.
 
