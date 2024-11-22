@@ -59,7 +59,8 @@ If there isn't a specific guide, then as a general rule of thumb
 * Any mods which are NPC overhauls should follow the same installation process as Bijin (in the [NPC Overhaul Guide](#npc-overhaul-guide))
 * Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the Ultimate Skyrim patches, but above Warburg's Paper world map. (E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
 
-![Modding Rules](https://cdn.discordapp.com/attachments/790534021380964382/834791598964604948/unknown.png)
+![unknown](https://github.com/user-attachments/assets/b40565a0-c52c-4e1e-9d55-d86814d77600)
+
 
 Setup and run the Reqtificator as per the instructions in the [FAQ](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)
 
@@ -204,13 +205,16 @@ _Starting a new game is always the safest option when installing scripted mods. 
 
 Left side
 
-![Left Side](https://cdn.discordapp.com/attachments/852619952845750302/912837141875294258/unknown.png)
+![image](https://github.com/user-attachments/assets/431c8235-f092-4c6d-bd18-47bc63169554)
+
 
 Right side
 
-![Right Side Requiem](https://cdn.discordapp.com/attachments/852619952845750302/912837731317596170/unknown.png)
+![Right Side Requiem](https://github.com/user-attachments/assets/4ebeee92-583b-4830-b737-f0e920960426)
 
-![Right Side Bottom](https://cdn.discordapp.com/attachments/852619952845750302/912837845205520464/unknown.png)
+
+![Right Side Bottom](https://github.com/user-attachments/assets/87440aad-b19e-4796-986d-b480b6441989)
+
 
 ```
 Changelog:
@@ -245,7 +249,8 @@ Load Order: Left and right side of MO2 shown below.
 
 MO2 Left side
 
-![alt_text](https://cdn.discordapp.com/attachments/852619952845750302/912845242577879090/unknown.png "image_tooltip")
+![image](https://github.com/user-attachments/assets/5bd03ae7-2b9b-4e6b-b909-5b20e55430d2)
+
 
 
 MO2 Right side
@@ -286,7 +291,8 @@ To install:
 
 
 
-![alt_text](https://cdn.discordapp.com/attachments/852619952845750302/912840754131517450/unknown.png "image_tooltip")
+![image](https://github.com/user-attachments/assets/6dec292d-0ed2-492d-8911-2d7b2c5dc231)
+
 
 
 _Installing_ _on an existing save:_
@@ -446,7 +452,7 @@ The following are custom patches developed by the discord community. Unless othe
 
 [Link Here](https://www.nexusmods.com/skyrim/mods/8429/) (Download & install, Main file, Update file, both Optional Files (hearthfire & Vampires)
 
-[Patch location]([Link Here](https://cdn.discordapp.com/attachments/566109104360390657/820459848423571486/kFs_3DNPC_-_Requiem_Patch.esp)
+[Patch location][Link Here](https://discord.com/channels/344256550640287755/566109104360390657/820459848613232650)
 
 Install Instructions:
 > - Open RealisticRoomRental-Enhanced-25029-1-8-3.7z in your downloads folder and extract RRR_3Dnpc-patch.ESP to content\Mods\Perseid's Inns and Taverns - Enhanced.
@@ -763,7 +769,7 @@ As always - You have to run Reqtificator.
 
 #### Buffed nightingale armor 
 
-[Patch location](https://cdn.discordapp.com/attachments/566109104360390657/711400642190508082/BuffedNightingaleArmor.zip)
+[Patch location](https://discord.com/channels/344256550640287755/566109104360390657/711400642203222038)
 
 Changes Nightingale armor values to
 ```
