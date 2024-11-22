@@ -446,7 +446,7 @@ The following are custom patches developed by the discord community. Unless othe
 
 [Link Here](https://www.nexusmods.com/skyrim/mods/8429/) (Download & install, Main file, Update file, both Optional Files (hearthfire & Vampires)
 
-[Patch location]([Link Here](https://cdn.discordapp.com/attachments/566109104360390657/820459848423571486/kFs_3DNPC_-_Requiem_Patch.esp)
+[Patch location][Link Here](https://discord.com/channels/344256550640287755/566109104360390657/820459848613232650)
 
 Install Instructions:
 > - Open RealisticRoomRental-Enhanced-25029-1-8-3.7z in your downloads folder and extract RRR_3Dnpc-patch.ESP to content\Mods\Perseid's Inns and Taverns - Enhanced.
@@ -763,7 +763,7 @@ As always - You have to run Reqtificator.
 
 #### Buffed nightingale armor 
 
-[Patch location](https://cdn.discordapp.com/attachments/566109104360390657/711400642190508082/BuffedNightingaleArmor.zip)
+[Patch location](https://discord.com/channels/344256550640287755/566109104360390657/711400642203222038)
 
 Changes Nightingale armor values to
 ```
