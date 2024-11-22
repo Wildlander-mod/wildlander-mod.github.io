@@ -3085,7 +3085,7 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Female Breton "Forsworn Missile"|Location |Druadach Redoubt Cave
-|Level Min/Max |5/80|Prerequisite |None(?)
+|Level Min/Max |5/80|Prerequisite |Help Madanach Escape during the Escape from Cidhna quest.
 |Blades |?|Marriage |Yes
 |Steward |?|RefID |440755A4
 
@@ -3126,7 +3126,7 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Male Nord "Forsworn Missile"|Location |Markarth Silverblood Inn
-|Level Min/Max |5/80|Prerequisite |None(?)
+|Level Min/Max |5/80|Prerequisite |Kill Madanach during the Escape from Cidhna quest.
 |Blades |?|Marriage |Yes
 |Steward |?|RefID |4407D2A9
 
@@ -3166,8 +3166,8 @@ Unique
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p>
  
-|Race/Class |Female Breton Assassin |Location |Cidhna Mine
-|Level Min/Max |None(?)|Prerequisite |None(?)
+|Race/Class |Female Breton Assassin |Location | Cidhna Mine / Karthwasden
+|Level Min/Max |None(?)|Prerequisite |Complete the Escape from Cidhna quest.
 |Blades |?|Marriage |No
 |Steward |?|RefID |440073D0
 
@@ -3201,8 +3201,8 @@ Unique
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p>
  
-|Race/Class |Argonian Spellsword |Location |Cidhna Mine
-|Level Min/Max |None(?)|Prerequisite |None(?)
+|Race/Class |Argonian Spellsword |Location |Cidhna Mine / Karthwasden
+|Level Min/Max |None(?)|Prerequisite |Complete the Escape from Cidhna quest.
 |Blades |?|Marriage |No
 |Steward |?|RefID |4400ED94
 
