@@ -3128,7 +3128,7 @@ Unique
 |Race/Class |Male Nord "Forsworn Missile"|Location |Markarth Silverblood Inn
 |Level Min/Max |5/80|Prerequisite |Kill Madanach during the Escape from Cidhna quest.
 |Blades |?|Marriage |Yes
-|Steward |?|RefID |4407D2A8  
+|Steward |?|RefID |4407D2A9  
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
