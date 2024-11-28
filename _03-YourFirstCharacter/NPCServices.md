@@ -24,7 +24,7 @@ Blacksmiths will craft and temper at your request. Enchanters will enchant and r
 * Crafting, tempering and enchanting takes a minimum 24 hours by default. The time will increase if the NPC doesnt have the materiels on hand to do the upgrade and needs to Aquire them.
 * The cost of Enchantments is calculated using the Soul Gem you choose, The skill of the enchanter, plus a flat fee. 
 * The cost of crafted/tempered items is calculated using the Total material cost, The skill of the Smith, plus a flat fee. 
-* The NPC will take the item from you to Temper or enchant it, and will be returned once completed when you pay for the work.
+* The NPC will take the item from you to Temper or enchant it, and will be returned once completed when you pay for the work. Make sure you have a spare item to replace the item while you are waiting.
 * For technical Reasons with how the mod works, Items enchanted by a NPC cannot be disenchanted by the player to learn the effects.  In addition, its not possible to inform the player of the cost of the Enchanters or Blacksmith's services until collection.
 
 There is no way to tell before collection of the item, how long it will take to make/upgrade and how much it will cost to do so. Assume a Minimum of 24 hours, and the cost will be the selling price of the finished item + 50%.
