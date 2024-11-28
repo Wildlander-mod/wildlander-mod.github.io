@@ -200,7 +200,7 @@ Perk Required : Expert Alteration
 | Paralyze (Rank I) | 200 | - | 1s | The caster tries to telekinetically imprison the target for \<dur> seconds. |  |
 | Polymorph | 600 | - | 30s | The caster attempts to turn the target into a harmless animal for \<dur> seconds. Although potent, the spell is rumored to be very unstable, and various side-effects have been reknown to be the consequence of its casting... |  |
 | Telekinetic Disarray | 500 | - | - | The caster magically removes all worn equipment from the target, though one should beware. Unpredictable side-effects like cloth-phobia might occur. |  |
-| Telekinetic Nova | 500 | - | - | The caster evokes an explosion of telekinetic forces, maiming all nearby targets and sending them flying through the air. |  |
+| Telekinetic Nova | 500 | 75 | - | The caster evokes an explosion of telekinetic forces, maiming all nearby targets for \<mag> and sending them flying through the air. | Does not affect enemies with 25 or greater MR, 400 or greater health or enemies immune to unrelenting force |
 | Thermal Vision | 421 | - | 300s | Predator Vision for \<dur> seconds. | Get to the choppa! Extended Edition. |
 | Transmute: Wood | 380 | - | - | Transmutes one branch to deadwood, or one deadwood to firewood. |  |
 
@@ -211,12 +211,12 @@ Perk Required : Expert Alteration
 | Absorb Essence | 200/s | 15 | Concentration | Absorbs \<mag> points of the target's health per second. Absorbs \<mag> points of the target's magicka per second. Absorbs \<mag> points of the target's stamina per second. The spell has a short distance and requires a momentary focus on the target before applying. |  |
 | Detect Aura | 250 | - | 60s | For a limited time, the caster is able to detect all beings and the recently deceased in the vicinity. |  |
 | Knock (Rank III) | 600 | - | - | The caster projects a rip in reality that flips the tumblers on any adept or lesser lock.<br/>If empowered, the spell can also unlock master locks. |  |
-| Lightning Speed | 1200 | - | 3s | The caster moves with meteoric speed, making everything slow down almost to motionlessness for \<dur> seconds. |  |
+| Lightning Speed | 1200 | - | 3s | The caster moves with meteoric speed, making everything slow down almost to motionlessness for \<dur> seconds. | Note: Prone to bugging out like the shout, make sure you carry a potion of cleansing with you to remove the effect.  |
 | Mage Armor on Self (Rank V) | 1000 | - | 7s | The caster creates an almost unpenetrable force field that negates nearly all physical damage taken for \<dur> seconds. |  |
 | Mage Armor on Target (Rank III) | 1000 | - | 4s | The caster surrounds the target with an almost unpenetrable force field that negates nearly all physical damage for \<dur> seconds. |  |
-| Paralyze (Rank II) | 937 | - | 1s | The caster tries to paralyze all nearby beings for \<dur> seconds. |  |
-| Telekinetic Blast | 1000/s | - | Concentration | The caster unleashes a wave of telekinetic force that will maim every single bone of the targets while sending them flying through the air. | Though typed as Concentration, the spell only lasts a moment and will not continue to fire. |  |
-| Telekinetic Execution | 1600 | - | - | The caster attempts to break every single bone of the target while casting it miles into the air, ensuring that it's maimed for good. |  |
+| Paralyze (Rank II) | 937 | 50 | 1s | The caster tries to paralyze all nearby beings for \<dur> seconds. |  |
+| Telekinetic Blast | 1000/s | - | Concentration | The caster unleashes a wave of telekinetic force that will maim every single bone of the targets for </mag> damage while sending them flying through the air. | Though typed as Concentration, the spell only lasts a moment and will not continue to fire. | Does not affect Enemies with greater than 50 MR or Immune to unrelenting force  |
+| Telekinetic Execution | 1600 | - | - | The caster attempts to break every single bone of the target while casting it miles into the air, ensuring that it's maimed for good. | Does not affect Enemies with greater than 50 MR  | Will not affect Dwemer centurians, Ghosts, Wisps or Dragons |
 | Telekinetic Grab | 500/s | - | Concentration | The caster grabs the target from afar. It then can be either taken or thrown. |  |
 | Transcendance on Self | 1200 | - | 86400s | The caster's body is dematerialized, becoming practically invulnerable for as long as the caster doesn't interact with the environment. |  |
 | Transcendance on Target | 1200 | - | 86400s | The target's body is dematerialized, becoming practically invulnerable for as long as the caster doesn't interact with the environment. |  |
