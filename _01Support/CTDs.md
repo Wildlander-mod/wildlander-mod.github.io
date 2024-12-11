@@ -110,7 +110,7 @@ Turn off Advance Threat Defense when playing Wildlander.
 
 ##### Alternatively, proper solutions
 
-1. Add an ATD exception for `Wildlander\game-files\Stock Game\SkyrimSE.exe`.
+1. Add an Advanced Threat Defense exception for `Wildlander\game-files\Stock Game\SkyrimSE.exe`.
 2. If you also have "Ransomware Remediation" on, add `Wildlander\game-files\ModOrganizer.exe`.
 
 ---
