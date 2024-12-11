@@ -49,8 +49,8 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 |Type  | Protection | 
 |--|--|
-|Fire  | Immune |
-|Poison  | Immune |
+|Fire  | 100 |
+|Poison  | 100 |
 |Paralysis  | Immune | 
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
@@ -88,9 +88,9 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 |Type  | Protection | Weakness|
 |--|--|--|
-|Fire  | Immune | N/A |
+|Fire  | 100 | N/A |
 |Frost  | N/A | 25% |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune | N/A  |
 |Paralysis  | Immune | N/A  |
 |Knock Down| Minor | N/A  |
@@ -163,9 +163,9 @@ Damage reduction to 33% from all sources.
  
 |Type  | Protection | Weakness|
 |--|--|--|
-|Frost  | Immune | N/A |
+|Frost  | 100 | N/A |
 |Fire | N/A | 33% |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Paralysis  | Immune | N/A |
 |Sneak Attack | Immune | N/A |
 |Knock Down| Minor | N/A |
@@ -237,8 +237,8 @@ Damage reduction to 33% from all sources.
 
 |Type  | Protection | 
 |--|--|
-|Shock | Immune |
-|Poison  | Immune |
+|Shock | 100 |
+|Poison  | 100 |
 |Paralysis  | Immune | 
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
@@ -412,7 +412,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 |Type  | Protection |
 |--|--|
 |Frost  | 80% |  
-|Poison  | Immune |  
+|Poison  | 100 |  
 |Knock Down| Minor | 
 |Unrelenting Force| Immune |
 

@@ -242,7 +242,7 @@ Dragons are NOT stealth Immune, but they have very good eyesight when flying. It
 |Frost  | 95 |  
 |Fire | 50 |  
 |Shock | 50 |  
-|Poison  | Immune |  
+|Poison  | 100 |  
 |Paralysis  | Immune|  
 |Sneak Attack | Immune | 
 

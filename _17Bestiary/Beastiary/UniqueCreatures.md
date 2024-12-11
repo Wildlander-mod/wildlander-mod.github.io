@@ -238,9 +238,9 @@ NPC: 5F031342
 
 |Type  | Protection | Weakness|
 |--|--|--|
-|Frost  | Immune | N/A |
+|Frost  | 100 | N/A |
 |Fire | N/A | 33% |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Paralysis  | Immune | N/A |
 |Sneak Attack | Immune | N/A |
 |Knock Down| Minor | N/A |
@@ -288,8 +288,8 @@ Mod: Dragonborn
 
 |Type  | Protection |
 |--|--|
-|Frost  | Immune |  
-|Poison  | Immune |  
+|Frost  | 100 |  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune| 
 |Knock Down| Minor | 
@@ -363,7 +363,7 @@ Mod: Requiem
 |Fire  | N/A | 50% |
 |Frost  | 85% | N/A |
 |Shock  | 50% | N/A |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune |  N/A|
 
 **Additional Perks**
@@ -454,8 +454,8 @@ Electromancy - All shock spells deal 15% more damage.
 
 |Type  | Protection | 
 |--|--|
-|Shock | Immune |
-|Poison  | Immune |
+|Shock | 100 |
+|Poison  | 100 |
 |Paralysis  | Immune | 
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
@@ -778,8 +778,8 @@ Mod: Fozar's Requiem
 
 |Type  | Protection | 
 |--|--|
-|Shock | Immune |
-|Poison  | Immune |
+|Shock | 100 |
+|Poison  | 100 |
 |Paralysis  | Immune | 
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
@@ -925,8 +925,8 @@ Mod: Requiem
 
 |Type  | Protection | 
 |--|--|
-|Shock | Immune |
-|Poison  | Immune |
+|Shock | 100 |
+|Poison  | 100 |
 |Paralysis  | Immune | 
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 
@@ -1016,7 +1016,7 @@ Mod: Base game
 |--|--|
 |Frost  | 50|  
 |Shock | 75  |  
-|Poison  | Immune |  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Unrelenting Force| Immune |
 
@@ -1125,8 +1125,8 @@ Mod: Fozar's Requiem
 
 |Type  | Protection | 
 |--|--|
-|Shock | Immune |
-|Poison  | Immune |
+|Shock | 100 |
+|Poison  | 100 |
 |Paralysis  | Immune | 
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 

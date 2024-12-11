@@ -81,5 +81,5 @@ description: Potema - Shouts, Spells, Stats
 |Frost  | 80 | N/A  |
 |Fire | N/A | 25 |
 |Shock  | 50 | N/A  |
-|Poison  | Immune | N/A  |
+|Poison  | 100 | N/A  |
 |Sneak Attack | Immune | N/A  |

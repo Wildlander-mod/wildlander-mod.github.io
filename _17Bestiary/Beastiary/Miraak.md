@@ -80,7 +80,7 @@ Perks
 |Frost  | 85 |  
 |Fire | 35  |  
 |Shock | 60 |  
-|Poison  | Immune |  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune | 
 |Knock Down| Minor | 

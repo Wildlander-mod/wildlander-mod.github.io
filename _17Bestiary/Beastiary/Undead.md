@@ -45,8 +45,8 @@ description: Undead - Shouts, Spells, Stats
 |Type  | Protection |  Weakness|
 |--|--|--|
 |Frost  | N/A | -30 |
-|Fire | Immune | N/A |
-|Poison  | Immune | N/A |
+|Fire | 100 | N/A |
+|Poison  | 100 | N/A |
 |Shock  | 50 | N/A |
 |Sneak Attack | Immune |  N/A |
 
@@ -219,7 +219,7 @@ In Requiem - these guys are various shades of "utter bastard"
 |Frost  | 90 |  
 |Fire | 50 |  
 |Shock | 85 |  
-|Poison  | Immune|  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune |  
 |Unrelenting Force| Immune |
@@ -309,10 +309,10 @@ Does not have the shared spells.
 
 |Type  | Protection | 
 |--|--|
-|Frost  | Immune |  
+|Frost  | 100 |  
 |Fire | 50 |  
 |Shock | 85 |  
-|Poison  | Immune|  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune |  
 |Unrelenting Force| Immune |
@@ -413,10 +413,10 @@ A Stronger Fire Variant Dragon priest.
 
 |Type  | Protection | 
 |--|--|
-|Frost  | 90 |  
-|Fire | Immune |  
-|Shock | 85 |  
-|Poison  | Immune|  
+|Frost  | 90|  
+|Fire | 100 (Note this is only effectively 90% due to the resistance caps) |  
+|Shock | 85 (capped at 80%) |   
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune |  
 |Unrelenting Force| Immune |
@@ -426,6 +426,7 @@ A Stronger Fire Variant Dragon priest.
 * Mysticism - Spells that affect the Undead and Daedra are 10% more effective and last 25% longer.
 * Fire Mastery Your fascination with fire now grants you 25% resistance to it, while your fire spells are 5% stronger and 10% less costly.
 * Cognitive Flexibility 2 mastered the art of Cognitive Flexibility and can now maintain three summons of any type.
+* Damage resistance - Resists 240 damage from any source.
 
 ---
 **Dukaan** 
@@ -460,10 +461,10 @@ A Stronger Ice Variant Dragon priest.
 
 |Type  | Protection | 
 |--|--|
-|Frost  | Immune |  
-|Fire | 50% |  
+|Frost  | 100 (Note this is only effectively 90% due to the resistance caps)|  
+|Fire | 50 |  
 |Shock | 85 |  
-|Poison  | Immune|  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune |  
 |Unrelenting Force| Immune |
@@ -510,10 +511,10 @@ A Stronger Storm Variant Dragon priest.
 
 |Type  | Protection | 
 |--|--|
-|Frost  | 90% |  
-|Fire | 50% |  
-|Shock | Immune |  
-|Poison  | Immune|  
+|Frost  | 90 |  
+|Fire | 50 |  
+|Shock | 100 (Note this is only effectively 90% due to the resistance caps)|  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune |  
 |Unrelenting Force| Immune |
@@ -561,8 +562,8 @@ A Stronger Storm Variant Dragon priest.
 |--|--|
 |Frost  | 90% |  
 |Fire | 50% |  
-|Shock | Immune |  
-|Poison  | Immune|  
+|Shock | 100 |  
+|Poison  | 100 |  
 |Paralysis  | Immune |  
 |Sneak Attack | Immune |  
 |Unrelenting Force| Immune |
@@ -649,7 +650,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Fire  | N/A | 50% |
 |Frost  | 85% | N/A |
 |Shock  | 50% | N/A |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune |  N/A|
 
 ---
@@ -703,7 +704,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Fire  | N/A | 50% |
 |Frost  | 85% | N/A |
 |Shock  | 50% | N/A |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune |  N/A|
 
  *Weapons*
@@ -760,7 +761,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Frost  | 105 | N/A |
 |Fire | N/A  | -5 |
 |Shock | 75 | N/A  |
-|Poison  | Immune | N/A  |
+|Poison  | 100 | N/A  |
 |Sneak Attack | Immune | N/A   |
 |Knock Down| Immune| N/A   |
 
@@ -833,7 +834,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Frost  | 95|  
 |Fire | 50 |  
 |Shock | 50  |  
-|Poison  | immune |  
+|Poison  | 100 |  
 |Paralysis  |immune |  
 |Sneak Attack | immune| 
 
@@ -962,7 +963,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Type  | Protection | 
 |--|--|
 |Frost  | 95|  
-|Poison  | Immune |  
+|Poison  | 100 |  
 |Paralysis  |Immune |  
 |Sneak Attack | Immune| 
 
@@ -987,7 +988,7 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
  
 |Type  | Protection | 
 |--|--|
-|Poison  | Immune |  
+|Poison  | 100 |  
 |Paralysis  | Immune|  
 |Knock Down| Minor | 
 
@@ -1225,7 +1226,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 |Frost  | 80 | N/A  |
 |Fire | N/A | 25 |
 |Shock  | 50 | N/A  |
-|Poison  | Immune | N/A  |
+|Poison  | 100 | N/A  |
 |Sneak Attack | Immune | N/A  |
 
 ### Caster
@@ -1253,7 +1254,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 |Frost  | 80 |  
 |Fire | 5 |  
 |Shock | 50 |  
-|Poison  | Immune |  
+|Poison  | 100 |  
 |Sneak Attack | Immune | 
 
 
@@ -1283,7 +1284,7 @@ Cryomancy - All frost spells deal 15% more damage.
 |Frost  | 85 | N/A  |
 |Fire | N/A | 50 |
 |Shock  | 50 | N/A  |
-|Poison  | Immune | N/A  |
+|Poison  | 100 | N/A  |
 |Sneak Attack | Immune | N/A  |
 
 *Weapon Protection*
@@ -1351,7 +1352,7 @@ A variety of skeleton which inhabit the Soul Cairn.
 |Frost  | 80% | N/A |
 |Fire | N/A  | 25% |
 |Shock  | 25% | N/A |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Paralysis  | Immune | N/A  |
 |Sneak Attack | Immune | N/A |
 |Knock Down| Minor | N/A|
@@ -1384,7 +1385,7 @@ Floating, legless, black skeletons found in the Soul Cairn. You can summon them 
 |Frost  | 80% | N/A |
 |Fire | N/A  | 5% |
 |Shock  | 75% | N/A |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Paralysis  | Immune | N/A  |
 |Sneak Attack | Immune | N/A |
 |Knock Down| Minor | N/A|
@@ -1439,7 +1440,7 @@ Black skeleton warriors found in the Soul Cairn. You can summon them after learn
 |Frost  | 85% | N/A |
 |Fire | N/A  | 50% |
 |Shock  | 50% | N/A |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Paralysis  | Immune | N/A  |
 |Sneak Attack | Immune | N/A |
 |Knock Down| Minor | N/A|
@@ -1497,7 +1498,7 @@ Vampires (like bandits) have too manu variations of Health/Magic/Stamina to list
 |Frost  | 95 - 145 | N/A |
 |Fire |  N/A  | -75 |
 |Shock  | 50 - 75 | N/A |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Paralysis  | Immune | N/A |
 |Knockdown| Minor | N/A |
 |Unrelenting Force| Immune | N/A |
@@ -1616,10 +1617,10 @@ Weapon Enchants
 
 |Type  | Protection |  Weakness|
 |--|--|--|
-|Frost  | Immune | N/A |
+|Frost  | 100 | N/A |
 |Fire |  | -5 |
-|Shock  | Immune | N/A |
-|Poison  | Immune | N/A |
+|Shock  | 100 | N/A |
+|Poison  | 100 | N/A |
 |Paralysis  | Immune | N/A |
 |Unrelenting Force| Immune | N/A |
 

@@ -654,8 +654,8 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | N/A | 25% |
-|Frost  | Immune | N/A |
-|Poison  | Immune | N/A |
+|Frost  | 100 | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune | N/A |
 |Paralysis  | Immune | N/A |
 
@@ -1262,7 +1262,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | None | 33% |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune | N/A  |
 |Paralysis  | Immune | N/A  |
 
@@ -1293,7 +1293,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | None | 33% |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune | N/A  |
 |Paralysis  | Immune | N/A  |
 
@@ -1324,7 +1324,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 |Type  | Protection | Weakness|
 |--|--|--|
 |Fire  | None | 25% |
-|Poison  | Immune | N/A |
+|Poison  | 100 | N/A |
 |Sneak Attack | Immune | N/A  |
 |Paralysis  | Immune | N/A  |
 
@@ -1356,7 +1356,7 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 |Type  | Protection | 
 |--|--|
 |Fire  | 99% | 
-|Poison  | Immune | 
+|Poison  | 100 | 
 |Sneak Attack | Immune |
 |Paralysis  | Immune | 
 

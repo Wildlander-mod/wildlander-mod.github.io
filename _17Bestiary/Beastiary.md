@@ -66,6 +66,8 @@ Certain enemies have abilities which reduce incoming damage by the stated percen
 ### **Resistances & Weaknesses**
 If the Enemy has protection or vulnerability to Fire/Frost/Shock/Poison, If the Enemy has Knockdown, Sneak Attack or Paralysis protection, and if the enemy has any additional protections - E.g Drain life, Unrelenting force.
 
+Note: This page may show 100+ total suggesting immune, but this value is affected by the 90% damage caps.
+
 ### **Material Protection**
 If the Enemy has protection or vulnerability to Weapon materials such as Silver or Daedric, or if they take reduced damage from conventional materials.
 
