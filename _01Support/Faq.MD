@@ -717,7 +717,7 @@ then to scroll down and adjust the following settings
 
 ![image](https://user-images.githubusercontent.com/26418143/197895203-bf895835-7dbc-44e8-ae8e-dae5e650e3d1.png)
 
-Once you are happy with the settings, in the top right section click on “save configuration,” then hit Shift+Enter again to hide the ENB window.
+Once you are happy with the settings, in the top left section click on “save configuration,” then hit Shift+Enter again to hide the ENB window.
 
 ----------
 
