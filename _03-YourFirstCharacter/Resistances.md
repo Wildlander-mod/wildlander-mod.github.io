@@ -8,7 +8,7 @@ description:  Armor Resistances, Penetration & Weapon Types
 
 ### Resistances List
 
-List of basic resistances used in Skyrim.
+List of basic resistances used in Skyrim. These show the maximum effective resistance applicable. Any resistance over this value will not be taken into account during damage calculations.
 
 |Type 	|	Cap|
 |--|--|
@@ -41,6 +41,13 @@ Melee attacks and ranged attacks can penetrate armor, which reduces the effectiv
 - The effect of magic resistance is  multiplicative when combined with elemental resistance. Let's say you have 90% magic and fire resist. This will mean that you only receive (100%-90%) * (100%-90%)= (10% * 10%) = 1% fire damage, which is equal to 99% fire resistance. This also means that your effective resistances raises exponential as your resistance %'s become higher.
 - Magic resistance protects you from Shouts, Fears and other none elemental spells E.g those in the illusion tree. 
 - Unlike Vanilla, NPC's can have both elemental resistance and magic resistances.
+
+### Poison Resistance
+
+- Resist Poison increases the target's resistance to damage from poisons up to a maximum of 90%. E.G Resist Poison 50% will halve any poison damage the target takes, Resist Poison 150% will mean the target still takes 10% of the damage. 
+- The Resist Poison effect must be applied before poison damage is taken, so the player or any follower who knocks back a resist poison potion will only resist new poison attacks, not ones currently in effect(Damage over times).
+- Poison shouts, such as those performed by a poison dragon or the afflicted ignore poison resistance for the initial attack. The damage over time aspect is still however affected. As this shout is slow, the best way to avoid this is to not be in front of them, taking several steps to the side makes the attack dodgable .
+- High Poison resistance prevents Paralyse attacks from taking effect, E.G 45% is enough to stop all but the biggest frostbite spiders & Falmer from paralyzing you. 
  
 ### Damage Types
 
