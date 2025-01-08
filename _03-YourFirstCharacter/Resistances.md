@@ -69,3 +69,20 @@ Damage Types implemented by Requiem. Weapons are assigned one damage type, and C
 |3 |180
 |4 |240
 |5 |300
+
+### Damage Reductions
+
+Certain enemies have abilities which reduce incoming damage by specific weapon types **to** the stated percentage. This also ties in closely with the material protection section, which grants damage increases or reductions based on the type of materials weapons are made out of. 
+
+Examples
+* 75% damage reduction on Blunt would mean a warhammer which states in your inventory that it  does 100 damage will be reduced to 75 damage.
+* 85% damage reduction on slash would reduce all damage by Swords, War Axes, Greatswords or Battleaxes to 85% of the stated damage in the inventory.
+
+
+### Material Protection
+
+Some enemies have additional protection or vulnerability to Weapon materials such as Silver or Daedric, or if they take reduced damage from conventional materials. 
+
+Example 
+* Almost all undead are vulnerable to silver weaponry in some fashion and take additional damage from silver melee weapons. 
+* Draugr will shrug off any arrows made from conventional metals such as iron or steel reducing the damage to 10% of the stated damage in the inventory in addition to the AR they gain from ranged attacks. With weaker metals, this makes you seem like you are only doing 3-5 damage per arrow.
