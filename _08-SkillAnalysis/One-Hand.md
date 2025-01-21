@@ -142,7 +142,7 @@ War Axe Focus I - Damage x 1.05, +10 Armor Penetration
  
 War Axe Focus II - Damage x 1.15, +20 armor penetration
 
-War Axe Focus III- +24% attack speed, +21 armor penetration
+War Axe Focus III- Damage x 1.30, +30 penetration
 
 ---
 
