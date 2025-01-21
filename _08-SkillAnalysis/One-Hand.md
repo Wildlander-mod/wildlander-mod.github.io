@@ -29,6 +29,8 @@ When Dual-Wielding, Armor Penetration is shared for both hands. So if you have p
 
 If you have 14 Armor Penetration for your sword and 30 Armor Penetration for your mace, you will get (14+30)/2 = 22 Armor Penetration.
 
+Exact mechanics: holding any 1h weapon type, 50% of the corresponding focus perk AP is active, the other half is only applied when the other hand holds either nothing (empty) a shield, a magic spell, a scroll or a torch (should be nearly always the case).
+
 ### [ Abbreviations ]
 
 * 1H : One-handed (the skill or the weapon type)
@@ -142,7 +144,7 @@ War Axe Focus I - Damage x 1.05, +10 Armor Penetration
  
 War Axe Focus II - Damage x 1.15, +20 armor penetration
 
-War Axe Focus III- +24% attack speed, +21 armor penetration
+War Axe Focus III- Damage x 1.30, +30 penetration
 
 ---
 
