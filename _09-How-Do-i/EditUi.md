@@ -31,7 +31,7 @@ You may also need to edit SkyHUD for widget positions.
 
 ## The Weapons display UI widget
 
-This is controlled in game Via the Iequip program. You will need to rebind "edit mode" to a unused key.
+This is controlled in game via the iEquip program. You will need to rebind "edit mode" to a unused key.
 
 Note: this function is known to cause CTD's unless you temporarily disable ConsoleUtil in MO2. Some users report that entering the MCM menu for iEquip and turn time dilation down to zero also prevents the CTD. regardless of which option you choose, you will need to reset either consoleutil or time dialation back to defaults after making your changes.
 
