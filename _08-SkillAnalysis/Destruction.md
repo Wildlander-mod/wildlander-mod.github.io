@@ -47,7 +47,7 @@ Apprentice Destruction (25 Destruction required) - You've acquired two Destructi
 
 Adept Destruction (50 Destruction required) - You've acquired two Destruction spells from the Adept tier. Adept spells cost 55% less magicka, and improve 3% per skill level.
 
-Expert Destruction (75 Destruction required) - You've acquired two Destruction spells from the Expert tier. Expert spells cost 55% less magicka, and improve 3% per skill level.
+Expert Destruction (75 Destruction required) - You've acquired two Destruction spells from the Expert tier. Expert spells cost 55% less magicka, and improve 4% per skill level.
 
 Master Destruction (100 Destruction required) - You've acquired one Destruction spell from the Master tier. Master spells cost 55% less magicka, and improve 5% per skill level.
 
