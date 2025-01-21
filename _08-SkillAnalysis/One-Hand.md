@@ -119,7 +119,7 @@ Perk Required : Penetrating Strikes / Dagger Focus Rank 1 / Dagger Focus Rank 2
 
 _Effect_ :
 
-Each rank gives +10 armor penetration If you have a dagger in hand (decreases to +5 if your other hand contains another 1 handed weapon type) 
+Each rank gives +10 armor penetration if you have a dagger in hand (decreases to +5 if your other hand contains another 1 handed weapon type) 
 
 Rank I - Irresistible sneak attack damage +25%
 
@@ -142,13 +142,13 @@ Perk Required : Penetrating Strikes / War Axe Focus Rank 1 /  War Axe Focus Rank
 
 _Effect_ :
 
-Each rank gives +10 armor penetration If you have a War Axe in hand (decreases to +5 if your other hand contains another 1 handed weapon type) 
+Each rank gives +10 armor penetration if you have a War Axe in hand (decreases to +5 if your other hand contains another 1 handed weapon type) 
 
 War Axe Focus I -  Base Damage increased by 5%
 
 War Axe Focus II - Base Damage increased from 5% to 15%
 
-War Axe Focus III- Base Damage increased from 15% to 30%
+War Axe Focus III - Base Damage increased from 15% to 30%
 
 ---
 
@@ -166,13 +166,13 @@ Perk Required : Penetrating Strikes / Mace Focus Rank 1 /  Mace Focus Rank 2
 
 _Effect_ :
 
-Each rank gives +15 armor penetration If you have a War Axe in hand (decreases to +7.5 if your other hand contains another 1 handed weapon type) 
+Each rank gives +15 armor penetration if you have a Mace in hand (decreases to +7.5 if your other hand contains another 1 handed weapon type) 
 
 Mace Focus I - Power attack damage  increased by 5% 
 
-Mace Focus II- Power attack damage  increased from 5% to 10%
+Mace Focus II - Power attack damage  increased from 5% to 10%
 
-Mace Focus III- Power attack damage increased from 10% to 15%
+Mace Focus III - Power attack damage increased from 10% to 15%
 
 ---
 
@@ -190,7 +190,7 @@ Perk Required : Penetrating Strikes / Sword Focus Rank 1 /  Sword Focus Rank 2
 
 _Effect_ :
 
-Each rank gives +7 armor penetration If you have a War Axe in hand (decreases to +3.5 if your other hand contains another 1 handed weapon type) 
+Each rank gives +7 armor penetration if you have a Sword in hand (decreases to +3.5 if your other hand contains another 1 handed weapon type) 
 
 Sword Focus I - +8% attack speed per sword equipped
 
