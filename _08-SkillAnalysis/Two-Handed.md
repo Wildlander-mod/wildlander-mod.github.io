@@ -110,7 +110,7 @@ Perk Required : Devastating Cleave
 
 _Effect_ :
 
-Damage +25%, +20 armor penetration
+Damage +25%
 
 ---
 

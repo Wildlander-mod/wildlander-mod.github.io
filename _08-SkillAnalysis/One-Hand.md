@@ -29,6 +29,8 @@ When Dual-Wielding, Armor Penetration is shared for both hands. So if you have p
 
 If you have 14 Armor Penetration for your sword and 30 Armor Penetration for your mace, you will get (14+30)/2 = 22 Armor Penetration.
 
+Exact mechanics: holding any 1h weapon type, 50% of the corresponding focus perk AP is active, the other half is only applied when the other hand holds either nothing (empty) a shield, a magic spell, a scroll or a torch (should be nearly always the case).
+
 ### [ Abbreviations ]
 
 * 1H : One-handed (the skill or the weapon type)
@@ -117,11 +119,13 @@ Perk Required : Penetrating Strikes / Dagger Focus Rank 1 / Dagger Focus Rank 2
 
 _Effect_ :
 
-Rank I - Irresistible sneak attack damage x 1.25, +10 armor penetration
+Each rank gives +10 armor penetration if you have a dagger in hand (decreases to +5 if your other hand contains another 1 handed weapon type) 
 
-Rank II - Irresistible sneak attack damage x 1.55, +20 armor penetration
+Rank I - Irresistible sneak attack damage +25%
 
-Rank III - Irresistible sneak attack damage x 2, +30 armor penetration
+Rank II -  Irresistible sneak attack damage increased from +25% to +55%
+
+Rank III - Irresistible sneak attack damage increased from +55% to +100%
 
 ---
 **War Axe Focus**
@@ -138,11 +142,13 @@ Perk Required : Penetrating Strikes / War Axe Focus Rank 1 /  War Axe Focus Rank
 
 _Effect_ :
 
-War Axe Focus I - Damage x 1.05, +10 Armor Penetration
- 
-War Axe Focus II - Damage x 1.15, +20 armor penetration
+Each rank gives +10 armor penetration if you have a War Axe in hand (decreases to +5 if your other hand contains another 1 handed weapon type) 
 
-War Axe Focus III- +24% attack speed, +21 armor penetration
+War Axe Focus I -  Base Damage increased by 5%
+
+War Axe Focus II - Base Damage increased from 5% to 15%
+
+War Axe Focus III - Base Damage increased from 15% to 30%
 
 ---
 
@@ -160,11 +166,13 @@ Perk Required : Penetrating Strikes / Mace Focus Rank 1 /  Mace Focus Rank 2
 
 _Effect_ :
 
-Mace Focus I - Power attack damage x 1.05, +15 armor penetration
+Each rank gives +15 armor penetration if you have a Mace in hand (decreases to +7.5 if your other hand contains another 1 handed weapon type) 
 
-Mace Focus II- Power attack damage x 1.1, +30 armor penetration
+Mace Focus I - Power attack damage  increased by 5% 
 
-Mace Focus III- Power attack damage x 1.15, +45 armor penetration
+Mace Focus II - Power attack damage  increased from 5% to 10%
+
+Mace Focus III - Power attack damage increased from 10% to 15%
 
 ---
 
@@ -182,11 +190,13 @@ Perk Required : Penetrating Strikes / Sword Focus Rank 1 /  Sword Focus Rank 2
 
 _Effect_ :
 
-Sword Focus I - +8% attack speed, +7 armor penetration
+Each rank gives +7 armor penetration if you have a Sword in hand (decreases to +3.5 if your other hand contains another 1 handed weapon type) 
 
-Sword Focus II - +16% attack speed, +14 armor penetration
+Sword Focus I - +8% attack speed per sword equipped
 
-Sword Focus III - +24% attack speed, +21 armor penetration
+Sword Focus II - +8% attack speed per sword equipped in addition to rank 1.
+
+Sword Focus III - +8% attack speed per sword equipped  in addition to rank 2.
 
 ---
 

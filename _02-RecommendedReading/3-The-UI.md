@@ -19,7 +19,7 @@ Left Side
 Center Section
 
 * Health/Magic/Stamina bars
-* IEquip Current equipment and enchantment charge status
+* iEquip Current equipment and enchantment charge status
 
 Right Side
 
@@ -49,7 +49,7 @@ Next to Frostfall indicators are 3 icons which appear “more solid” the more 
 
 
 
-## Iequip Current equipment and enchantment charge status 
+## iEquip Current equipment and enchantment charge status 
 
 Right side – Contains the Currently Equipped main-hand weapon, Its tempering (Exquisite) its durability (fades from White, to red when low durability) and the charge – The Circle around the icon.
 
