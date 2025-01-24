@@ -207,6 +207,23 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
 
 ---
+## How do I Requiem Patch a armor/weapon mod for inclusion?
+
+First thing you need to do is to take a look at the mod in SSEEDIT for these specific things
+
+1. Does AR/damage to match the material tier. (E.G orcish) or making sure it uses a vanilla tier keyword  .
+2. Does it have NPC distribution (E.G via SPID) or will you need to patch them in levelled lists.
+3. Do things need removing  such as "its in a new chest at the back of breezehome which you can access at level 1"
+4. Do the crafting need moving it to a appropriate crafting station (E.G if it needs tanning rack - move it to player crafting)
+5. Do you need to add crafting/tempering/breakdown recipes - Some mods are only designed to be added via console
+6. Making sure crafting/temping uses the appropriate perks & a SUITABLE amount of materiels for the material tier. (E.G saw a daedric armor which only needed 2 rubies, 1 lump of coal and 1 ingot of steel to make a chestplate) 
+7. Do you need to remove or replace any OP, weird and whacky enchants (E.G summons a meteor to your location which does 250 unblockable damage to everything in 50 Yards)
+8. Making sure that any weapons have applicable damage type keywords (Eg  Sword, mace, Warhammer) 
+
+Next is to create a patch file which resolves all of those issues. 
+
+
+---
 
 ## I've added mods and I'm getting crashes to desktop!
 
