@@ -51,9 +51,10 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 | Card        | Graphics        | Shaders | Comments |
 |:-------------|:------------------:|:------:|------|
-| GTX 9 series equivalent or worse | Potato/Low | None  | Depending on Ram and CPU Can push this to a Medium graphics. |
-| GTX 10 series up to `GTX 1060` or equivalent | Medium | None | Depending on generation, RAM and CPU, can push this to a high graphics |
-| GTX 10 series from `GTX 1070` or equivalent | High | None | Depending on generation, RAM and CPU, can push this to a low shaders |
-| RTX 20 series from `RTX 2070` or equivalent | High | High | Depending on generation, RAM and CPU, can push this to ultra graphics |
-| RTX 30 series up to `RTX 3060` or equivalent | Ultra | High | Depending on generation, RAM and CPU, can push this to ultra shaders |
-| `RTX 3060` or better | Any | Any | Knock yourself out with whatever takes your fancy |
+| Cards with 4GB Vram GDDR5 GTX 9 series equivalent or worse | Potato/Low | None  | Depending on Ram and CPU Can push this to a Medium graphics. |
+| Cards with 6GB Vram GDDR5 E.G `GTX 1060` or equivalent | Medium | None | Depending on generation, RAM and CPU, can push this to a high graphics |
+| Cards with 8GB Vram GDDR5 E.G `GTX 1070` or equivalent | High | None | Depending on generation, RAM and CPU, can push this to a low shaders |
+| Cards with 6GB of GDDR6 Vram. E.G `RTX 2060/3050/4050` or equivalent | High | Low | Depending on generation, RAM and CPU, can push this to ultra graphics |
+| Cards with 8GB of GDDR6 Vram. E.G `RTX 2070/4060` or equivalent | High | High | Depending on generation, RAM and CPU, can push this to ultra graphics |
+| Cards with 12GB of GDDR6 Vram. E.G `RTX 3060/4070/3080` or equivalent | Ultra | High | Depending on generation, RAM and CPU, can push this to ultra shaders |
+| Cards with More than 16GB of GDDR6 Vram E.G `RTX 3090/4080/4090` | Any | Any | Knock yourself out with whatever takes your fancy |
