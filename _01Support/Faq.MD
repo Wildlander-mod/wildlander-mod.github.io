@@ -76,11 +76,17 @@ The only creation we use is Fishing, all others are not copied to Wildlander's s
 
 ## Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install on my own?
 
-It is unsupported and untested. Some of them are known to conflict and cause crashes and issues with other mods in the list. 
+No, Most of the content/weapons/armor mods are Incompatible with the requiem overhaul we use (there are no patches for them). Others such as the saddles are incompatible with the Immersive horses mods.
+
+The only one safe to use is the CC fishing mod which is already balanced patched and included in wildlander.
 
 We have deliberately disabled the creation club menu option to prevent people adding it accidentally.
 
+With regards to Verified creations(VC's), This modlist opposes paid modding now matter how Bethesda "rebrand" it. Wabbajack does not allow VC's to be included in its lists, nor does nexus allow patches to be hosted on its server. We follow their guidance on this and do not allow patches to be hosted in our customization spaces.
+
 If you want to add it yourself, then this would be customization and you would be responsible for patching it in yourself for requiem 5.0.3 compatibility.
+
+
 
 ----------
 
