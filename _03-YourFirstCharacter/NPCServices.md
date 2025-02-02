@@ -128,7 +128,13 @@ Winterhold| Winterhold| 	Sergius Turrianus | 	College of Winterhold| 100
 * Resist Shock     
 * Waterbreathing     
 
-
-
+## Reference
+As a reference: Enchantements fabricated by Sergius Turrianus are euqal to the ones by the player with Enchanting lvl 100 and all perks except double enchantments (last perk).
+Examples:
+* Fortify Skill (1h, 2h, Marksman, Barter): +21% dmg / better price
+* Fortify Skill (Magic-School): 17% reduced costs
+* Fortify Skill (Alchemy, Smithing): +13 points
+* Fortify Stat (Health, Magicka, Stamina): +86 points
+* Fortify Magicka regen = +108% (you can find better ones)
 
 
