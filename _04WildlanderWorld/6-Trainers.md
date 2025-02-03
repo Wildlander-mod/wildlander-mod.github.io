@@ -1003,4 +1003,13 @@ has_toc: true
 </table>
 
 
- 
+## Comments
+
+Master trainers can teach you up to lvl 90. The last secrets can only be discovered by exercise.
+
+Training costs, breakpoints at lvl 36 and 66: 
+* lvl 0-35: 0-500 gold (level * 14 gold)
+* lvl 36-65: 1200-2200 gold (level * 34 gold)
+* lvl 66-90: 5300-7200 gold (level * 80 gold)
+
+
