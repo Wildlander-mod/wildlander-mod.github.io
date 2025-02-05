@@ -70,7 +70,7 @@ has_children: false
 
 | **Oghma Infinium** \| (Book) |
 | :--- |
-| - *Fortify Health, Magicka, OR Stamina 200 points. Gain 7 Skill Points.|
+| - *Fortify Health, Magicka, OR Stamina 200 points. Gain 7 Perk Points.|
 
 ---
 
