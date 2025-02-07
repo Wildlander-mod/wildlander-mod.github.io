@@ -191,6 +191,12 @@ Fortunately rare. Believed to be caused by saving while some form of head-tracki
 
 ---
 
+## Crash on decapitation of a player or NPC AKA RaceMenu face overlay decapitation CTD bug (tbbmalloc.dll+196EB)
+
+Happens when a player or NPC with a "face overlay" such as facepaint gets decapitated. Kill moves are turned off to prevent this.
+
+---
+
 ### Crash on trying to edit Iequip. SkyrimSE.exe+C28C8B
 
 This is caused by a conflict between consoleutil and Iequip. If you want to edit the Iequip screen, turn time dilation down to zero, make your changes, and then change it back.
