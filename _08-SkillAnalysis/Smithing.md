@@ -79,6 +79,7 @@ Level Required : 25
 Perk Required : Craftsmanship
 
 Unlocks Dwarven Equipment & Tempering (at skill 35)
+
 ---
 
 **Orcish Smithing**
@@ -140,6 +141,7 @@ Level Required : 100
 Perk Required : Ebony Smithing
 
 Unlocks Daedric Equipment & Tempering 
+
 ---
 
 ### Light Armor Branch
@@ -201,6 +203,7 @@ Perks Required : Glass Smithing OR Ebony Smithing
 Unlocks Stahlrim Equipment & Tempering 
 
 Note: Stahlrim crafting requires that you have completed "a New source of Stahlrim"
+
 ---
 
 **Draconic Blacksmithing**
@@ -214,4 +217,5 @@ Perks Required : Glass Smithing OR Ebony Smithing
 Unlocks Draconic Equipment & Tempering 
 
 Note: Most Draconic items need Ebony smithing to craft them, even if the perk does not.
+
 ---
