@@ -78,6 +78,18 @@ If that fails:
 - Make sure any 3rd-party anti-virus you have is turned off (with the exception of Windows Defender)
 - Re-run Wabbajack to re-do the install cleanly.
 
+### With a crashlog with "usvfs_x64.dll" in the Possible relevant objects when using Bitdefender Antivirus.
+
+The antivirus is the bane of my existence!
+
+Recommendations: Uninstall it - free version is shit anyway - lol. 
+
+If you cant uninstall it.
+
+1. Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe. If you also have “Ransom-ware Remediation” on Add Wildlander\game-files\ModOrganizer.exe
+
+2. if that doesn't work - run with "no shaders" from the launcher. Wildlander wont look as nice, but at least you can play.
+
 ## Crashing while Playing your character
 
 ### Any Crash related to atidxx64.dll Or nvwgf2umx.dll
