@@ -86,7 +86,7 @@ Recommendations: Uninstall it - free version is shit anyway - lol.
 
 If you cant uninstall it.
 
-1. Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe. If you also have “Ransom-ware Remediation” on Add Wildlander\game-files\ModOrganizer.exe
+1. Add a "Advanced Threat Defense" exception for Wildlander\game-files\Stock Game\SkyrimSE.exe. If you also have “Ransom-ware Remediation” on Add Wildlander\game-files\ModOrganizer.exe to this.
 
 2. if that doesn't work - run with "no shaders" from the launcher. Wildlander wont look as nice, but at least you can play.
 
