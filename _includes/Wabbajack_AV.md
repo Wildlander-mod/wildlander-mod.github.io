@@ -16,15 +16,25 @@ For Specific issues with individual Anti-virus software, Please see below.
 
 ### Bitdefender
 
+This has Multiple issues and is the bane of my existence!
+
+Recommendations: Uninstall it - free version is shit anyway - lol. 
+
+If you cant uninstall it, there are possible resolutions below.
+
 #### It does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
 
  1. Disable Bitdefender 
  1. Delete game-files\Stock game
  1. Reinstall Wildlander from Wabbajack, choosing Overwrite installation and wait for install to complete.
  1. you should now be able to launch.
+ 
+#### It does not like The ENB
+
+Run with No shaders from the launcher or attempt the solution below.
 
 
-#### It causes crashes to desktop while saving.
+#### It causes crashes to desktop while saving. 
 
 Recommendations: Disable Bitdefender during Wabbajack install. Apply the following fixes after install to prevent crash on save
  1. Easy solution - Turn off Advance Threat Defense when playing Wildlander
@@ -65,6 +75,14 @@ It is known to cause a corruption in the Skyrim downgrade during installation pr
 If using Norton, and it blocks the launcher for intrusive activity (During start up - while it's checking for updates) you may want to configure  <a href="https://support.norton.com/sp/en/uk/home/current/solutions/v15471442/" target="_blank" rel="noopener noreferrer">these settings <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> to exclude a URL or domain from monitoring URL: `https://github.com/Wildlander-mod/Launcher/releases`. Please note - Support are not able to assist you in how to apply these settings - we don't have Norton installed.
 
  If you are still unable to run after performing these steps, then unfortunately - you will be unable to use the launcher unless you uninstall Norton. Your only method of playing Wildlander would be to use Mod organizer to launch and manually install the ENB in the stock game folder.
+ 
+----
+
+#### Surfshark
+
+Surfshark Anti-virus is completely incompatible with the Crash logging mod we use in the pack. It will cause a crash on Startup. 
+
+There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice. The only known Fix is to Uninstall.
 
 ----
 
