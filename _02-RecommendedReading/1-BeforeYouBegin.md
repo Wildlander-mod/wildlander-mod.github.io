@@ -49,11 +49,12 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 ## Suggestions for various GFX cards
 
+
 | Card        | Graphics        | Shaders | Comments |
 |:-------------|:------------------:|:------:|------|
-| Cards with 4GB Vram GDDR5 GTX 9 series equivalent or worse | Potato/Low | None  | Depending on Ram and CPU Can push this to a Medium graphics. |
-| Cards with 6GB Vram GDDR5 E.G `GTX 1060` or equivalent | Medium | None | Depending on generation, RAM and CPU, can push this to a high graphics |
-| Cards with 8GB Vram GDDR5 E.G `GTX 1070` or equivalent | High | None | Depending on generation, RAM and CPU, can push this to a low shaders |
+| Cards with 4GB Vram GDDR5 GTX 9 series equivalent or worse | Potato/Low | None  | Depending on Ram and CPU Can push this to a Medium graphics. Performance modlist Essential|
+| Cards with 6GB Vram GDDR5 E.G `GTX 1060` or equivalent | Medium | None | Depending on generation, RAM and CPU, can push this to a high graphics. Performance modlist Essential|
+| Cards with 8GB Vram GDDR5 E.G `GTX 1070` or equivalent | High | None | Depending on generation, RAM and CPU, can push this to a low shaders. Performance modlist Recommended |
 | Cards with 6GB of GDDR6 Vram. E.G `RTX 2060/3050/4050` or equivalent | High | Low | Depending on generation, RAM and CPU, can push this to ultra graphics |
 | Cards with 8GB of GDDR6 Vram. E.G `RTX 2070/4060` or equivalent | High | High | Depending on generation, RAM and CPU, can push this to ultra graphics |
 | Cards with 12GB of GDDR6 Vram. E.G `RTX 3060/4070/3080` or equivalent | Ultra | High | Depending on generation, RAM and CPU, can push this to ultra shaders |
