@@ -192,6 +192,38 @@ Note that if your foraging succeeds, there is a fair chance you will also turn u
 
 There are two additional perks to leveling up foraging: Bounty, and Botany. Bounty is disabled by default but can be enabled in the MCM. It provides a chance for extra ingredients when harvesting from flora in the game world. Botany's effects start at foraging level 6, and work identically to the Experimenter perk: Foraging 6 allows you to learn two effects when consuming an ingredient, foraging 8 is three effects, and foraging 10 is all four effects.
 
+Selective foraging is available starting at forage level 1. Other benefits gained at certain levels are:
+	1		Can choose to forage for firewood, better sense of direction
+	2		Can choose edibles
+	3		Can choose bones, best sense of direction
+	4		Can choose ingredients, 50% chance of +1 extra
+	5		Bounty perk gained
+	6		50% chance becomes 100% chance, of +1 extra; Botany perk gained; Bounty perk rank 2
+	7		Bounty perk rank 3
+	8		Always receive +2 extras; Botany perk rank 2
+	10		Botany perk rank 3
+	
+
+
+### Grimy Items
+
+Foraging has a chance to give you a grimy items which maybe good, maybe bad.
+
+The Bad Items are cursed (or sometimes poisoned). There are 4 possible curses which are applied to you. These will last until they are removed. Curses can be removed with Shrines and potions of cleansing. These are not diseases so are not affected by cure disease potions.
+
+1. Anumbra Reduces sneak skill by 100
+1. Enervation reduces base stamina regen by 100%
+1. Entropy every 2.5 seconds gives you a random effect. this can be giving you a 100 weight skull or disarming you or warning you that your needs need addressing when they dont.
+1. Phthsis damage health 1 for 190 seconds, reduces base health regen by 100%
+
+After cleansing  yourself, you will also experience a "decurse" effect which is as follows.
+
+    * Reduces Magic resistance by 50% for 310 seconds.
+    * reduced carry weight of 300 for 190 seconds.
+    * instantly reduces stamina by 300 (this will regenerate normally)
+    * instantly reduces Magicka by 300 (this will regenerate normally)
+    * Reduces Base Magicka regen by 100% for 190 seconds
+
 
 ## Player Crafting
 
