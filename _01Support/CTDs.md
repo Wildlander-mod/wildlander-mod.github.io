@@ -56,6 +56,8 @@ If this is your first run, then it may be that the launcher installed an updated
 
 Typically caused by a corrupt plugin which is also master. Rerunning the Wabbajack installer choosing "overwrite install" will generally resolve these issues.
 
+The only other cause is 3rd party antiviruses, you can see the known issues here [Wildlander and Antiviruses](https://wiki.wildlandermod.com/01Support/Launcher/#wildlander-and-antiviruses).
+
 Note: If you are running a customized build - this can also be caused by a missing dependency of a mod you installed.
 
 ### With a crashlog with "BGSStoryManagerBranchNode" in the Possible relevant objects  
@@ -86,7 +88,7 @@ Recommendations: Uninstall it - free version is shit anyway - lol.
 
 If you cant uninstall it.
 
-1. Add a ADT exception for Wildlander\game-files\Stock Game\SkyrimSE.exe. If you also have “Ransom-ware Remediation” on Add Wildlander\game-files\ModOrganizer.exe
+1. Add a "Advanced Threat Defense" exception for Wildlander\game-files\Stock Game\SkyrimSE.exe. If you also have “Ransom-ware Remediation” on Add Wildlander\game-files\ModOrganizer.exe to this.
 
 2. if that doesn't work - run with "no shaders" from the launcher. Wildlander wont look as nice, but at least you can play.
 
