@@ -361,14 +361,14 @@ has_children: false
 | **BEFORE "Unearthed" has been completed.** |
 | *Helmet:<br/>- Your Conjuration and Rune spells have greater range.<br/>- Fortify Magicka 40 points and allows you to keep your focus while running and even when hit.<br/>- Restore Magicka 2 points per second.* |
 | *Cuirass:<br/>- Fortify Health 40 points and renders you immune to almost all magical draining effects.<br/>- Fortify Magicka Regen 200%.<br/>- Reflect Physical Damage 50%.* |
-| *Gauntlets:<br/>- Fortify Magicka 40 points and allows you to keep your focus while running and even when hit.<br/>- Fortify Magnitude of all spells 10%.<br/>- Your Wards absorb 50% of the Magicka from incoming spells.* |
-| *Boots:<br/>- Fortify Stamina 40 points and renders you immune to most paralysis effects.<br/> Decrease cost of all spells by 10%.<br/>- Waterwalking.* |
+| *Gauntlets:<br/>- Fortify Magicka 40 points and allows you to keep your focus while running and even when hit.<br/>- Fortify Magnitude of all spells 5%.<br/>- Your Wards absorb 50% of the Magicka from incoming spells.* |
+| *Boots:<br/>- Fortify Stamina 40 points and renders you immune to most paralysis effects.<br/> Decrease cost of all spells by 5%.<br/>- Waterwalking.* |
 | *Bonus:<br/>- Magic Resist 15% when wearing any three pieces of Ahzidal's Armor Set plus either Ahzidal's Ring of Arcana or Ahzidal's Ring of Necromancy.* |
 | **AFTER "Unearthed" has been been completed.** |
 | *Helmet:<br/>- Your Conjuration and Rune spells have greater range.<br/>- Fortify Magicka 40 points and allows you to keep your focus while running and even when hit.<br/>- Restore Magicka 2 points per second.* |
 | *Cuirass:<br/>- Fortify Health 80 points and renders you immune to almost all magical draining effects.<br/>- Fortify Magicka Regen 300%.<br/>- Reflect Physical Damage 100%.* |
-| *Gauntlets:<br/>- Fortify Magicka 80 points and allows you to keep your focus while running and even when hit.<br/>- Fortify Magnitude of all spells 15%.<br/>- Your Wards absorb 50% of the Magicka from incoming spells.* |
-| *Boots:<br/>- Fortify Stamina 80 points and renders you immune to most paralysis effects.<br/>- Decrease all spell cost by 15%.<br/>- Waterwalking.* |
+| *Gauntlets:<br/>- Fortify Magicka 80 points and allows you to keep your focus while running and even when hit.<br/>- Fortify Magnitude of all spells 10%.<br/>- Your Wards absorb 50% of the Magicka from incoming spells.* |
+| *Boots:<br/>- Fortify Stamina 80 points and renders you immune to most paralysis effects.<br/>- Decrease all spell cost by 10%.<br/>- Waterwalking.* |
 | *Bonus:<br/>- Magic Resist 25% when wearing any three pieces of Ahzidal's Armor Set plus either Ahzidal's Ring of Arcana or Ahzidal's Ring of Necromancy.* |
 
 ---
