@@ -19,7 +19,7 @@ search:
   preview_words_after: 10
   tokenizer_separator: /[\s/]+/
   rel_url: true
-  button: false
+  button: true
 
 # Footer content
 # appears at the bottom of every page's main content
