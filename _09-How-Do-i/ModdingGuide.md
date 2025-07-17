@@ -37,17 +37,20 @@ For more general modding guides, we recommend [Lively's tutorials](https://githu
 
 ## Modding Basics
 
+### The essentials
+
+1. Wildlander is built on skyrim **1.5.97**. Downloading SKSE mods which for anniversary editions 1.6+ WILL NOT WORK.  
+1. Any Requiem patches you download should be for versions **4 - 5.0.3** of requiem. Any patch for requiem 5.1 onwards will likely not be compatible. Requiem 6 patches are 100000% not compatible.
+1. [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) is considered a essential mod to add if you are adding anything which had created/updated since December 2023 to ensure compatibility with the new EESL formats.
+1. Does the mod you want to add have implementation notes on the [Roadmap](https://airtable.com/app6IMUkhDQiSdL0B/shrvAxHcCeCqKfnGe/tbln0wE3ffVnUk2ML/viwGFdBIx5NoRNxBU). Approx 600 mods have been checked against the base list and have notes as to what is required to integrate with the list. Some mods will tell you they are not compatible at all.
+
 ### General rules regardless of what you are changing
 
 Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
 
 Tools such as Vortex / Loot have their uses, however that use is 2 billion miles away from Wildlander and should **not under any circumstances** be used. They will completely break the load order and prevent you from running the pack at all.
-    
-Make sure when downloading mods - they work with Skyrim 1.5.97. Downloading SKSE for anniversary editions WILL NOT WORK. Any Requiem patches you download should be for version 4 - 5.0.3 of requiem. Any patch for requiem 5.1 onwards will not be compatible.
 
 If changing the load order the Reqtificator should be ran - no exceptions. Please see the [Reqtificator section](https://wiki.Wildlandermod.com/09-How-Do-i/ModdingGuide/#reqtificator) of this guide for the settings.
-
-It is strongly recommended that if you want to add anything released or updated since Dec 2023, that you should add [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) to ensure compatibility with the new EESL formats
 
 {: .important}
 > You Cannot Disable Essential mods required by Wildlander.ESP, unless you want to manually remove all references from Wildlander.ESP for the mod you want to disable.
@@ -86,7 +89,7 @@ The following types of mods have Issues
 > *  New Quest area mods   (unless requiem patch available) - Note: This is because new area's generally add new creatures/enemies/NPC's and followers
 > *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 > *  Precision - Cannot be played with Improved camera version we have. Overall makes the game easier as the weapons are designed based on vanilla proportions, not Wildlander.
-> *  Flat World Map Framework (FWMF) Does not have a compatible patch for ELE or DVLAS (our lighting mods) so reverts lighting in vanilla.
+> *  Flat World Map Framework (FWMF) Does not have a compatible patch for ELE or DVLAS (our lighting mods) so reverts lighting in vanilla, the roadmap does have a patch but only for a specific version of the map.
 > *  NPC Overhauls - Wildlander itself is a NPC overhaul, so you cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of Wildlander to get it working correctly
 > *  Any mods which add new recipes to the Vanilla Tanning rack will need patching to use the Player crafting workbench instead.
 > *  Wheeler causes a CTD when you run out of a user made potion which you have added to a wheel. It is recommended that you use the favorites menu instead of wheels for potions/poisons
