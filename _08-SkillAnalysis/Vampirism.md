@@ -93,7 +93,9 @@ Vampires also share a weakness of fire, so it is a good idea to slay a vampire w
 
 ## --Vampire Traits--
 
-These are the benefits and detriments you get just from being a vampire, vampirism has 4 stages depending on your thirst for blood and each stage has different penalties/benefits. You also gain benefits from being well rested (sleeping in a coffin). You advance a stage every 4.8 hours (needs verification) you go without feeding, being recently fed puts you at stage 1.
+These are the benefits and detriments you get just from being a vampire, vampirism has 4 stages depending on your thirst for blood and each stage has different penalties/benefits. You also gain benefits from being well rested (sleeping in a coffin). You advance a stage every 4.8 hours you go without feeding, Feeding reduces the stage by 1. Stage will be checked every 15 in game minutes unless you are in combat. 
+
+You cannot lose or gain a stage while in combat. 
 
 In Requiem, you start at Stage 4 instead of Stage 1, which means you will be weak until you feed depending on how you look at it.
 
@@ -134,7 +136,7 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     Vampire's Servant Spell - Aimed reanimation spell that raises a corpse up to x level for y seconds, varies by stage.
 
-### Stage 1
+### Stage 1 (Sated Thirst)
 
     Searing Sun - Health, Stamina, and Magicka reduced by 100
 
@@ -156,7 +158,7 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     100 Damage to Health, Stamina, and Magicka while in outdoor cells between 5AM-7PM.
 
-### Stage 2
+### Stage 2 (Longing for Blood) 
 
     Searing Sun - Health, Stamina, and Magicka reduced by 200
 
@@ -174,7 +176,7 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     200 Damage to Health, Stamina, and Magicka while in outdoor cells between 5AM-7PM.
 
-### Stage 3
+### Stage 3 (Overwhelming Thirst)
 
     Searing Sun - Health, Stamina, and Magicka reduced by 300
 
@@ -192,7 +194,7 @@ In Requiem, you start at Stage 4 instead of Stage 1, which means you will be wea
 
     300 Damage to Health, Stamina, and Magicka while in outdoor cells between 5AM-7PM.
 
-### Stage 4
+### Stage 4 (Painful Thirst)
 
     Searing Sun - Health, Stamina, and Magicka reduced by 400
 

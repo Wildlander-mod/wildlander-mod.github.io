@@ -86,6 +86,14 @@ There are no options you can tick, and no exclusions you can apply to make this 
 
 ----
 
+#### F-secure
+
+F-secure Anti-virus is completely incompatible with the Crash logging mod we use in the pack. It will cause a crash on Startup. 
+
+There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice. The only known Fix is to Uninstall.
+
+----
+
 ### Avast
 
 Is known to flag launcher as a false positive for spy-ware. Our launcher is open source, you can check for yourself that it is free of spy-ware. As Avast is known to be Spy-ware in its own right and sensible people un-installed this years ago. Even stock windows offers better protection, without selling your Internet browsing history to the highest bidder.  <a href="https://antivirus-review.com/blog/avast-programs-spy-on-their-users" target="_blank" rel="noopener noreferrer">Source <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>

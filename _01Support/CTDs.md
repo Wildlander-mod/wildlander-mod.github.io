@@ -334,4 +334,11 @@ Recommendations to reduce chance of issue occurring
 * Avoid saving right after entering a building/cave/dungeon. 
 * If you have re-enabled autosaves, **turn them off.**
  
+
 ---
+
+### Crash using a Alembic from the favorites menu (SkyrimSE.exe+2994F6)
+
+This Crash occurs when using the favorites menu to use the Alembic. The Alembic item assumes that the inventory is already open when activiating it. If its not it can generate a CTD when using any of the options from the popup menu.
+
+Fix: Use the item from the Inventory.

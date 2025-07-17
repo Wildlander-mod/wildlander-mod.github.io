@@ -8,6 +8,8 @@ nav_order: 9
 description: Needs & Survival
 ---
 
+Wildlander does not use "survival mode" as we dont even have the DLC installed. Instead we use a custom set of mods to control our survival aspects of the game. 
+
 ## Exposure
 Frostfall introduces Exposure, which represents your current condition in the environment. As you get colder, your exposure increases.
 
@@ -45,8 +47,11 @@ Two new stats are visible on each piece of clothing, as well as in the inventory
 ![img](../../../Assets/SkyUI.png)
 
 ---
+## Needs
 
-## Hunger
+Our needs are controlled by the mod Sunhelm. 
+
+### Hunger
 
 All food will be classified as one of the following:
 
@@ -105,7 +110,7 @@ Innkeepers have the ability to serve you a full meal (20 Gold).
 </table>
 
 
-## Thirst
+### Thirst
 
 * Thirst can be restored by drinking water. Empty bottles can be refilled at any body of water.
 * ﻿Drinking bottles of alcohol will give you back an empty bottle that you can refill. (breakdown also has a Empty bottle option)
@@ -163,7 +168,7 @@ Alcohol will give you a wamrth bonus - but at the expense of a not nice to look 
   </tr>
 </table>
 
-## Exhaustion
+### Exhaustion
 
 Sleeping in a bed will restore your exhaustion. Sleeping on the floor, in a bedroll or tent will restore 25% less of your fatigue than sleeping in a normal bed. 
 
@@ -214,9 +219,9 @@ Sleeping in a bed will restore your exhaustion. Sleeping on the floor, in a bedr
 
 --- 
 
-## Clean
+## Cleanliness
 
-There are 4 stages of Dirt or blood. Your character will become dirtier every about 2 days, probably faster if you get into combat often. Getting hurt in combat has a small chance to make you advance a stage.
+There are 4 stages of Dirt and blood. Your character will become dirtier every about 2 days, probably faster if you get into combat often. Getting hurt in combat has a small chance to make you advance a stage.
 
 If you've reached stages 3 or 4 of the dirt/bloody level, you will get small buffs/debuffs to your speech related abilities (prices, persuasion, intimidation) as well as disease resistance. 
 

@@ -252,13 +252,17 @@ When you're first starting out or if circumstances become particularly dire, you
 
 ## Hunting knives
 
-Using a hunting knife for dressing, skinning, harvesting, and butchering is recommended in Hunterborn, but it isn't required. By default, Hunterborn uses a baseline assumption (equivalent to an iron hunting knife) for any operation that uses a hunting knife. The information below only applies if you've turned the hunting knife requirement on, in the MCM.
+Using a hunting knife for dressing, skinning, harvesting, and butchering is recommended in Hunterborn, but it isn't required. By default, Hunterborn uses a baseline assumption (equivalent to an iron hunting knife) for any operation that uses a hunting knife. 
 
-As a Khajiit or Argonian, you can use your claws as a substitute knife, by checking the relevant option in the MCM. Claws are actually just as good as a steel hunting knife for skinning and harvesting, better than iron, because of the dexterity and experience your character will have with their own claws. However, you can't use claws for Player Crafting.
+{: .note-title }
+> The information below only applies if you've turned the hunting knife requirement on, in the MCM.
+>
+> As a Khajiit or Argonian, you can use your claws as a substitute knife, by checking the relevant option in the MCM. Claws are actually just as good as a steel hunting knife for skinning and harvesting, better than iron, because of the dexterity and experience your character will have with their own claws. 
+> 
+> If you're starting with nothing (and have no claws), you should forage until you find a sharp rock. The rock won't have any bonuses or penalties, though it will require extra time to dress, skin, harvest, and butcher.
+>
+> Without even a sharp rock, you will incur a heavy penalty for skinning and harvesting, and often end up with useless results. Butchering, though, won't be affected.
 
-If you're starting with nothing (and have no claws), you should forage until you find a sharp rock. The rock won't have any bonuses or penalties, though it will require extra time to dress, skin, harvest, and butcher.
-
-Without even a sharp rock, you will incur a heavy penalty for skinning and harvesting, and often end up with useless results. Butchering, though, won't be affected.
 
 You don't need to choose which knife Hunterborn will use - it will automatically pick the best from your inventory.
 
