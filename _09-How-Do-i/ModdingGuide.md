@@ -247,15 +247,16 @@ More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
 	1. On the bottom will have a space for you to enter the code. Enter these codes, one at a time and WAIT FOR THEM TO CONFIRM THAT THEY ARE DONE DOWNLOADING before entering next one
 	1. download_depot 1946180 1946182 5099162879680505807
 	1. download_depot 1946180 1946183 1633303557398589581
-	1. It will download the files to your "steam/commom/content" folder. If you cannot find it, just seach on the steam folder: "depot 1946182" "depot 1946183" after download is done.
-4. Replace your "steamapps/commom/Skyrim Special Edition" files with the ones you just downloaded
+	1. It will download the files to your "Steam/steamapps/content/app_1946180/" folder. If you cannot find it, just seach on the steam folder: "depot 1946182" "depot 1946183" after download is done.
+4. Replace your "Steam/steamapps/commom/Skyrim Special Edition" files with the ones you just downloaded
 
 
-* Copy Papyrus Compiler folder from Steam skryim into <install folder>\Game-files\Stock game
-* Copy Creation kit.exe from Steam skryim into <install folder>\Game-files\Stock game  
-* Unzip <steam fold>\data\Scripts.zip into <install folder>\Game-files\Stock game\Data
-	
-Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip contents into <install folder>\game-files\Stock game
+* Copy Papyrus Compiler folder from "Steam/steamapps/commom/Skyrim Special Edition" into [Wildlander install folder]/Stock game
+* Copy Creation kit.exe from "Steam/steamapps/commom/Skyrim Special Edition" into [Wildlander install folder]/Stock game  
+* Unzip "Steam/steamapps/commom/Skyrim Special Edition/Data/Scripts.zip" into [Wildlander install folder]/Stock game/Data
+* Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip contents into [Wildlander install folder]/Stock game
+
+When starting Creation Kit now via Mod Manager 2, it throuws a warning regarding wrong version, but it works
 
 ### Papyrus Compiler SE
 	
