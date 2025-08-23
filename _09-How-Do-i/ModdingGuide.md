@@ -251,10 +251,10 @@ More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
 4. Replace your "Steam/steamapps/commom/Skyrim Special Edition" files with the ones you just downloaded
 
 
-* Copy Papyrus Compiler folder from "Steam/steamapps/commom/Skyrim Special Edition" into <Wildlander install folder>/Stock game
-* Copy Creation kit.exe from "Steam/steamapps/commom/Skyrim Special Edition" into <Wildlander install folder>/Stock game  
-* Unzip "Steam/steamapps/commom/Skyrim Special Edition/Data/Scripts.zip" into <Wildlander install folder>/Stock game/Data
-* Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip contents into <Wildlander install folder>/Stock game
+* Copy Papyrus Compiler folder from "Steam/steamapps/commom/Skyrim Special Edition" into [Wildlander install folder]/Stock game
+* Copy Creation kit.exe from "Steam/steamapps/commom/Skyrim Special Edition" into [Wildlander install folder]/Stock game  
+* Unzip "Steam/steamapps/commom/Skyrim Special Edition/Data/Scripts.zip" into [Wildlander install folder]/Stock game/Data
+* Download https://www.nexusmods.com/skyrimspecialedition/mods/20061 and unzip contents into [Wildlander install folder]/Stock game
 
 When starting Creation Kit now via Mod Manager 2, it throuws a warning regarding wrong version, but it works
 
