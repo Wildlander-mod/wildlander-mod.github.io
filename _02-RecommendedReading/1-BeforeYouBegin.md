@@ -49,12 +49,13 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 ## Suggestions for various GFX cards
 
+
 {: .NoTitleYellow}
-> These are recommendations for running at a average of 60FPS @ 1440p with the assumption that you do not have anything running on your PC with the exception to the Wildlander Launcher and Skyrim Itself.
+> These are recommendations for running at a average of 60FPS @ 1080p with the assumption that you do not have anything running on your PC with the exception to the Wildlander Launcher and Skyrim Itself.
 > 
 > Performance will vary if you are running on 4K or Ultrawide resolutions, and you may need experiment with settings to get optimum performance. Likewise if you have Firefox with 50 tabs, Spotify and god knows what else running at the same time. 
 >
-> These are intended for **guidance only**, and it is the responsibility of the user to work out what works best for your setup. Yelling at staff that you don't get the below performance will not be tolerated.
+> These are intended for **guidance only**, and it is the responsibility of the user to work out what works best for your setup. Yelling at staff that you don't get the performance you want and demanding "we" fix it for you will not be tolerated.
 
 
 | Card        | Graphics        | Shaders | Comments |
