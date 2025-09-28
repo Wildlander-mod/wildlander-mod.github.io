@@ -38,7 +38,9 @@ Wildlander contains mods which require you to eat, drink and keep warm. Failing 
 
 ## Skills / Perks
 
-Without skills and perks in a tree, they are useless - you cannot expect to start the game in clothing and switch to heavy armor without training in the skill - you will be penalized for doing so. No perk = no stamina = No move. It's best to decide before starting what type of character you want to make.
+Without skills and perks in a tree, they are useless - you cannot expect to start the game in clothing and switch to heavy armor without training in the skill - you will be penalized for doing so. No perk = no stamina = No move. 
+
+You cannot respec perks in Wildlander as this causes instability, so are limited to the perks you gain by leveling up, and the 6 perks you start with. It's best to decide before starting what type of character you want to make else you will find yourself running out of perks that you can obtain. 
 
 ## Hunting
 
