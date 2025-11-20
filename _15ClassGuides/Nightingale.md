@@ -30,7 +30,7 @@ Marksman (1-2 perks, as many can spare) / Speech (2 perks, Indomitable Force)
 
 ## Perks
 
-<a href="https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAEmJQAABQUKBQoFSwpLS0tLSw8FSzIFEAQBCwAAAAAAAAAAAAAH0AD3gRAx-B96wAAAB6AFAAAA" target="_blank" rel="noopener noreferrer">Perk build <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+<a href="https://sorrieah.github.io/WildlanderPlanner/?p=1&b=AgEAAAEmJQAABQUKBQoFSwpLS0tLSw8FSzIFEAQBCwAAAAAAAAAAAAAH0AD3gRAx-B96wAAAB6AFAAAA" target="_blank" rel="noopener noreferrer">Perk build <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ## Level ups
 

@@ -17,6 +17,7 @@ Some Notes:
 
 1. The maximum level is 82, with 6 extra perk points at the start and an optional 7 from mora, but most people wont get there.
 1. this is a Fork of the popular https://banananaut.github.io/NannerPlanner/ specifically for wildlander, Thanks Sorrieah.
+1. the mirror for this is https://mieekaserra.github.io/WildlanderPlanner/ and can be used if sorrieah's disappears.
 
 
 

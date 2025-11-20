@@ -28,7 +28,7 @@ Speechcraft, Enchanting (in midgame)
 
 ## Perks
 
-https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAEwAAkmCgUFSwVkSwUyS2QFCihkHktaEAkGAwAAAAAHoG4AAA__-ADCAZ78AAAADCB_CAIFAAAI
+https://sorrieah.github.io/WildlanderPlanner/?p=1&b=AgEAAAEwAAkmCgUFSwVkSwUyS2QFCihkHktaEAkGAwAAAAAHoG4AAA__-ADCAZ78AAAADCB_CAIFAAAI
 
 
 ## Level ups

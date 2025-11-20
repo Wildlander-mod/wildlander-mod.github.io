@@ -83,11 +83,11 @@ Breton/Imperial/Nord/Orc | Steed, then Lord, Warrior on Aetherium Crown | Arkay,
 
 ## Builds
 
-[Quality-of-Life](https://www.google.com/url?q=https://banananaut.github.io/NannerPlanner/?p%3D0%26b%3DAgAAAAA8JQoMZGRkBWRkZAoFBQUKBWRkBWRkIAQEAe72A4wAAADd2A_9_AAAAAAAAAAACAPo-AAHnAHw&sa=D&source=editors&ust=1682190203129972&usg=AOvVaw0KOco81WzLBxlpUbM7ReZp)
+[Quality-of-Life](https://sorrieah.github.io/WildlanderPlanner/?p=0&b=AgAAAAA8JQoMZGRkBWRkZAoFBQUKBWRkBWRkIAQEAe72A4wAAADd2A_9_AAAAAAAAAAACAPo-AAHnAHw)
 
-[Basic](https://www.google.com/url?q=https://banananaut.github.io/NannerPlanner/?p%3D1%26b%3DAgEAAAEhEQYJChkFFAVLZAUKBQUFBUsFBQpkAAEEAQAGAggAAAAAAAuF_AAAAAAAAAAACAMAAAAFFAHw&sa=D&source=editors&ust=1682190203130432&usg=AOvVaw01u8qpjggXy9lXxcj8n9rU)
+[Basic](https://sorrieah.github.io/WildlanderPlanner/?p=1&b=AgEAAAEhEQYJChkFFAVLZAUKBQUFBUsFBQpkAAEEAQAGAggAAAAAAAuF_AAAAAAAAAAACAMAAAAFFAHw)
 
-[Maxed Out](https://www.google.com/url?q=https://banananaut.github.io/NannerPlanner/?p%3D0%26b%3DAgAAAABCKgYRZGRkWmRkZAVkBQUFBWRkBWRkIAEEAe7_s_wAAADd2AuF_AAAAAAAAAAACANo-AAHnG_w&sa=D&source=editors&ust=1682190203130858&usg=AOvVaw2Y8Le8B6-W_rKE5_nYqPCR)
+[Maxed Out](https://sorrieah.github.io/WildlanderPlanner/?p=0&b=AgAAAABCKgYRZGRkWmRkZAVkBQUFBWRkBWRkIAEEAe7_s_wAAADd2AuF_AAAAAAAAAAACANo-AAHnG_w)
 
 ## Level ups
 

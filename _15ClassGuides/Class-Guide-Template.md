@@ -26,7 +26,7 @@ Race | Stone | Blessing | Supernatural
 ## Perks
 < Suggested perks selected for this class>
 
-https://banananaut.github.io/NannerPlanner/ Can be used to show this.
+https://sorrieah.github.io/WildlanderPlanner/ Can be used to show this.
 
 ## Level ups
 

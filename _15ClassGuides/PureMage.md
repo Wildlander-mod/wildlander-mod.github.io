@@ -30,7 +30,7 @@ Evasion(2 perks, First & Dodge) / Speech (2 perks, First & Indomitable Force)
 
 ## Perks
 
-<a href="https://banananaut.github.io/NannerPlanner/?p=1&b=AgEAAAEwJAsAZGQFZGQFMgVkBQUPBWQFCjIFEAIGB-v_v_AHwAv4BeAGAACCAAAAAAAAD0KAAAAFAAAA" target="_blank" rel="noopener noreferrer">Perk build <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+<a href="https://sorrieah.github.io/WildlanderPlanner/?p=1&b=AgEAAAEwJAsAZGQFZGQFMgVkBQUPBWQFCjIFEAIGB-v_v_AHwAv4BeAGAACCAAAAAAAAD0KAAAAFAAAA" target="_blank" rel="noopener noreferrer">Perk build <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ## Level ups
 

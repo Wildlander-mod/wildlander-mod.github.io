@@ -30,7 +30,7 @@ Evasion(2 perks, Dodge) / Illusion (2 perks, Blur) / Speech (2 perks, Indomitabl
 
 ## Perks
 
-<a href="https://banananaut.github.io/NannerPlanner/?p=0&b=AgAAAAA3KwsAZGQFZGRkZAVkBQUFBWQFMjIFAAEHAOv_v_AHw_CHBegGAACCAAAAAAAADkIAAAAFAAAA" target="_blank" rel="noopener noreferrer">Perk tree link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+<a href="https://sorrieah.github.io/WildlanderPlanner/?p=0&b=AgAAAAA3KwsAZGQFZGRkZAVkBQUFBWQFMjIFAAEHAOv_v_AHw_CHBegGAACCAAAAAAAADkIAAAAFAAAA" target="_blank" rel="noopener noreferrer">Perk tree link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 ## Level ups
 
