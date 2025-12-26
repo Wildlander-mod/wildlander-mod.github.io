@@ -210,6 +210,21 @@ Finally, if you have added and "nodeleted" your additional mods, boot into mod o
 No. All updates require you to manually run Wabbajack to download and install the latest mods for the new build.
 
 ----------
+## What changed between Ultimate Skyrim and Wildlander?
+
+The core features are identical, however at the time of release, several mods which were included in US did not work correctly in special edition. 
+
+Some examples include :-
+
+1. Locked City Gates (Gates never unlocked)
+2. Undeath (Caused CTD's)
+3. Heljarchen Farm (has been rewritten so was essentially a money printing machine)
+4. Enhanced Skyrim Factions - The Companions Guild (caused the companion quest chain to be uncompletable, due to being unable to put down all 4 whelps at once) 
+5. Ineed (this was replaced with Sunhelm)
+
+As such, these features were removed.
+
+----------
 
 ## How do I uninstall?
 
@@ -281,6 +296,13 @@ Some players get half-way though and realise they aren't having fun with the cha
 
 Some builds will really struggle in the endgame, so those builds will take a lot more time and effort to complete a game. 
 
+----------
+
+## Does Wildlander add any new content / Quest areas 
+
+Not a present, Dylan had extremely high standards for additional mods. Those standards include "Quality Voice Acting" and No AI generated voices. 
+
+Most mods which add new content do not meet this criteria. 
 
 ----------
 

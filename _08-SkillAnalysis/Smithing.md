@@ -5,6 +5,21 @@ has_toc: false
 has_children: false
 ---
 
+
+## Improving Items 
+
+* Improving items require associated Smithing perks and materials.
+* You can start improving items starting from 15 Smithing skill level.
+* Unlike vanilla, you can improve general enchanted items without Arcane Blacksmithing perk.
+
+## Fortify Smithing
+
+* Requiem prevents Vanilla Alchemy + Enchanting stacking by disallowing Fortify Enchanting and Smithing potions from being crafted by player. They can only be found rarely and randomly in some locations.
+* Spell Research does allow Elixer based Smithing potions by combining Metal, Flesh and Mortals Alchemy solutions.
+* You can still enchant items with Fortify Smithing, or find pre-enchanted items with Fortify Smithing.
+
+
+
 ## --Perk Analysis--
 
 ![image](https://user-images.githubusercontent.com/26418143/157993712-0d3255e6-1a90-4b39-9e1e-f61e2bf970fe.png)
@@ -23,7 +38,19 @@ Level Required : 0
 
 Perk Required : None
 
-Unlocks Basic Equipment, Advanced Survival gear & Tempering (at skill 15)
+Effect 1 : Unlocks Basic Equipment, Advanced Survival gear & Tempering (at skill 15)
+
+Effect 2 : Iron, Banded Iron, Steel, Steel Plate, Hide, Studded, Leather, Stormcloak, Imperial Light, Imperial Heavy armors can be tempered with this perk.
+
+Effect 3 : Wooden, Iron, Steel, Silver, Imperial, Draugr, Falmer, Falmer Honed weapons can be tempered with this perk.
+
+Notes:
+* While this perk does benefit tempering of Steel Plate, Steel Plate requires Advanced Blacksmithing to craft & temper.
+* Despite looking like Plate-based, Blades armor and Wolf armor can be improved with this perk. Also, Blades Sword can be improved with this perk.
+* Most faction / npc armors (DB, TG, Nightingale, Guard, Forsworn, Dawnguard, Vampire, etc) can be tempered with this perk.
+
+
+
 
 ---
 
@@ -35,7 +62,21 @@ Level Required : 50
 
 Perk Required : Craftsmanship
 
-Unlocks Alchemy powders
+Effect 1 : Allows crafting of jewelry.
+
+Effect 2 : Allows crafting and tempering of Steel Plate (and Steel Plate based) armor.
+
+Effect 3 : Allows crafting and tempering of Akaviric weapons (Tanto, Katana). .
+
+Effect 4 : Allows tempering of Falmer Hardened and Falmer Heavy armor.
+
+Effect 5 : Allows crafting alchemical ingredients from gems at smelter.
+
+Effect 6 : Ruby and Garnet can be melted down into Red Glitterdust, Sapphire can be melted down into Blue Glitterdust.
+
+
+* This perks is originally Arcane Blacksmith perk in Vanilla. Any untouched / unpatched recipes that are enabled with Vanilla Arcane Blacksmith perk will be enabled by taking this perk.
+
 
 ---
 
@@ -47,7 +88,9 @@ Level Required : 50
 
 Perk Required : Advanced Blacksmithing
 
-Unlocks Enchanted Arrows/Bolts 
+Effect 1 : Allows crafting of elemental arrows and bolts.
+
+Effect 2 : Allows tempering of spectral weapons (Ghostblade, Spectral Battleaxe, Spectral Bow, Spectral Sword).
 
 ---
 
@@ -59,7 +102,7 @@ Level Required : 100
 
 Perk Required : Advanced Blacksmithing
 
-Unlocks Artifact tempering
+Effect 1 : Allows tempering of Daedric artifacts and other ancient artifacts (Aetherial Armor, Auriel's Bow, Ancient Nord Pickaxe, etc). Requires perks associated to each materials (ex. Ebony Mail requires Ebony Smithing).
 
 ---
 
@@ -78,7 +121,9 @@ Level Required : 25
 
 Perk Required : Craftsmanship
 
-Unlocks Dwarven Equipment & Tempering (at skill 35)
+Effect 1 : Allows crafting and tempering of Dwarven weapons and armors.
+
+Effect 2 : Allows crafting of Dwarven fragments, used for smelting Dwarven metal of all kinds into Dwarven Metal Ingot.
 
 ---
 
@@ -90,7 +135,7 @@ Level Required : 50
 
 Perks Required : Dwarven Smithing
 
-Unlocks Orcish Equipment & Tempering (at skill 65)
+Effect 1 : Allows crafting and tempering of Orcish weapons and armors.
 
 ---
 
@@ -102,9 +147,9 @@ Level Required : 50
 
 Perks Required : Craftsmanship
 
-Rank 1 Unlocks Bonemeld Chitnin Equipment & Tempering (at skill 65)
+Rank 1 Allows crafting and tempering of Bonemeld weapons and armors.
 
-Rank 2 Unlocks Chitin Equipment & Tempering (at skill 65) and tempering or Morag Tong.
+Rank 2 Allows crafting and tempering of Chitin weapons and armors and tempering or Morag Tong.
 
 ---
 
@@ -116,7 +161,7 @@ Level Required : 55
 
 Perks Required : Dwarven Smithing, Morrowind Smithing
 
-Unlocks Nordic Equipment & Tempering 
+Effect 1 : Allows crafting and tempering of Nordic weapons and armors.
 
 ---
 
@@ -128,7 +173,7 @@ Level Required : 75
 
 Perks Required : Orcish Smithing, Nordic Smithing
 
-Unlocks Ebony Equipment & Tempering
+Effect 1 : Allows crafting and tempering of Ebony weapons and armors.
 
 ---
 
@@ -140,7 +185,7 @@ Level Required : 100
 
 Perk Required : Ebony Smithing
 
-Unlocks Daedric Equipment & Tempering 
+Effect 1 : Allows crafting and tempering of Daedric weapons and armors.
 
 ---
 
@@ -158,7 +203,9 @@ Level Required : 25
 
 Perk Required : Craftsmanship
 
-Unlocks Scaled Equipment & Tempering 
+Effect 1 : Allows crafting and Tempering of Scaled armors.
+
+Effect 2 : Allows tempering of other Scaled armors and old Dark Brotherhood Armors (Worn Shrouded armor, Tumblerbane Gloves).
 
 ---
 
@@ -170,7 +217,9 @@ Level Required : 50
 
 Perk Required : Advanced Light Armor
 
-Unlocks Elven Equipment & Tempering 
+Effect 1 : Allows crafting and tempering of Elven weapons and armors.
+
+Effect 2 : Allows tempering of ancient Falmer armors (Ancient Falmer armor)
 
 ---
 
@@ -182,7 +231,7 @@ Level Required : 75
 
 Perks Required : Elven Smithing, Morrowind Smithing
 
-Unlocks Glass Equipment & Tempering 
+Effect : Allows crafting and tempering of Glass weapons and armors.
 
 ---
 
@@ -200,7 +249,7 @@ Level Required : 85
 
 Perks Required : Glass Smithing OR Ebony Smithing
 
-Unlocks Stahlrim Equipment & Tempering 
+Effect : Allows crafting and tempering of Stahlrim weapons and armors.
 
 Note: Stahlrim crafting requires that you have completed "a New source of Stahlrim"
 
@@ -214,7 +263,7 @@ Level Required : 100
 
 Perks Required : Glass Smithing OR Ebony Smithing
 
-Unlocks Draconic Equipment & Tempering 
+Effect : Allows crafting and tempering of Draconic weapons and armors.
 
 Note: Most Draconic items need Ebony smithing to craft them, even if the perk does not.
 
