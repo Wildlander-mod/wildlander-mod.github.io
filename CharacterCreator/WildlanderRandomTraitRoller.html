@@ -4,80 +4,81 @@
 <meta charset="UTF-8">
 <title>Wildlander Trait Roller</title>
 <style>
+/* --- GLOBAL PAGE STYLE --- */
 body {
-    font-family: Arial, sans-serif;
-    background: #1b1b1b; /* wiki dark background */
-    color: #e0e0e0;
+    font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+                 roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji";
+    font-size: inherit;
+    line-height: 1.4;
+    color: #e6e6e6;
+    background-color: #222222;
+    overflow-wrap: break-word;
     padding: 20px;
-    line-height: 1.5;
 }
 
+/* --- TITLES --- */
 h1, h2, h3 {
-    color: #ff66cc; /* Wildlander pink */
+    color: #f4abff;
+    font-family: Averta, sans-serif;
     font-weight: 600;
+    margin-top: 0.6em;
+    margin-bottom: 0.4em;
 }
 
+/* --- LINKS --- */
 a {
-    color: #ff66cc;
+    color: #f4abff;
     text-decoration: none;
 }
 a:hover {
-    color: #ff99dd;
     text-decoration: underline;
 }
 
+/* --- CONTENT BOXES (MATCH WIKI STYLE) --- */
 .category, .trait-column {
-    border: 1px solid #333;
-    background: #262626;
+    background: #2b2b2b;
+    border: 1px solid #3a3a3a;
     padding: 12px;
     margin-bottom: 14px;
+    border-radius: 4px;
 }
 
+/* --- BUTTONS --- */
 button {
     padding: 6px 14px;
-    background: #ff66cc;
+    background: #f4abff;
     border: none;
     cursor: pointer;
-    color: #1b1b1b;
+    color: #222222;
     font-weight: bold;
+    border-radius: 4px;
 }
 button:hover {
-    background: #ff99dd;
+    background: #f7c6ff;
 }
 
+/* --- TABLES --- */
 table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
 }
 th {
-    background: #333;
-    color: #ff66cc;
+    background: #333333;
+    color: #f4abff;
     padding: 8px;
+    font-family: Averta, sans-serif;
 }
 td {
-    background: #262626;
-    border: 1px solid #444;
+    background: #2b2b2b;
+    border: 1px solid #444444;
     padding: 6px 8px;
 }
 
-.inline-selector {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 12px;
-}
-
-.selector-label {
-    width: 280px;
-    font-weight: bold;
-}
-
+/* --- RANDOM SELECTOR OUTPUT --- */
 .selector-output {
-    color: #ff66cc;
-    min-width: 160px;
+    color: #f4abff;
 }
-
 </style>
 </head>
 <body>
