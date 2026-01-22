@@ -43,6 +43,7 @@ For more general modding guides, we recommend [Lively's tutorials](https://githu
 1. Any Requiem patches you download should be for versions **4 - 5.0.3** of requiem. Any patch for requiem 5.1 onwards will likely not be compatible. Requiem 6 patches are 100000% not compatible.
 1. [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) is considered a essential mod to add if you are adding anything which had created/updated since December 2023 to ensure compatibility with the new EESL formats.
 1. Does the mod you want to add have implementation notes on the [Roadmap](https://airtable.com/app6IMUkhDQiSdL0B/shrvAxHcCeCqKfnGe/tbln0wE3ffVnUk2ML/viwGFdBIx5NoRNxBU). Approx 600 mods have been checked against the base list and have notes as to what is required to integrate with the list. Some mods will tell you they are not compatible at all.
+1. When adding/removing mods, it should always be on a new game. Changing load order Mid-playthough has adverse affects on records baked into your save.
 
 ### General rules regardless of what you are changing
 
@@ -236,6 +237,18 @@ If your issue isn't listed - then the below resources may help you identify what
 
 A quick guide to NetScriptFramework Error Codes <https://web.archive.org/web/20221118040759/https://www.nexusmods.com/skyrimspecialedition/articles/3031>
 More crash help here <https://github.com/Fikthenig/Crash-Bonanza>
+
+---
+
+## I've added mods and my guards are Bandits!
+
+The way skyrim works is to "bake" Npc's into your save. As soon as they spawn they are stored in the format XXYYYYY - XX being the relevant part - as that is the Plugin Load order, with YYYYYY being the formID. 
+
+If you add/remove mods AFTER a npc is stored in your save and change the load order number (E.G change requiem from slot 82 to 93) then the game can't find the NPC any more using the save stored reference, and rather than crash horribly, it picks a random appearance from skyrim.esm which never changes load order and is always in position 00. 
+
+All of the guards are defined in either Requiem itself, or are created in requiem for the indifferent, but there are other mods which create NPC's which may also exhibit this issue such as Inconsequential NPC's and Good folk of Raven Rock. 
+
+You *cannot* fix this, other than simply to  start a new game and not add mods mid playthough. 
 
 -----
 ## Tools
