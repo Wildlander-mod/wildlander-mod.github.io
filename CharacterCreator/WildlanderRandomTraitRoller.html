@@ -6,77 +6,59 @@
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: #1e1e1e;
+    background: #1b1b1b; /* wiki dark background */
     color: #e0e0e0;
     padding: 20px;
+    line-height: 1.5;
 }
-h1, h2 {
-    color: #f5c542;
+
+h1, h2, h3 {
+    color: #ff66cc; /* Wildlander pink */
+    font-weight: 600;
 }
-.category {
-    border: 1px solid #444;
-    padding: 10px;
-    margin-bottom: 10px;
+
+a {
+    color: #ff66cc;
+    text-decoration: none;
 }
-label {
-    display: inline-block;
-    width: 250px;
+a:hover {
+    color: #ff99dd;
+    text-decoration: underline;
 }
-input[type="number"], input[type="text"], select {
-    width: auto;
+
+.category, .trait-column {
+    border: 1px solid #333;
+    background: #262626;
+    padding: 12px;
+    margin-bottom: 14px;
 }
-input[type="text"][size] {
-    width: 500px;
-}
+
 button {
-    margin-left: 10px;
     padding: 6px 14px;
-    background: #f5c542;
+    background: #ff66cc;
     border: none;
     cursor: pointer;
+    color: #1b1b1b;
+    font-weight: bold;
 }
 button:hover {
-    background: #e0b737;
+    background: #ff99dd;
 }
-.results {
-    margin-top: 20px;
-    border-top: 2px solid #444;
-    padding-top: 20px;
-}
-.trait-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 12px;
-}
-@media (min-width: 1000px) {
-    .trait-grid { grid-template-columns: repeat(4, 1fr); }
-}
-.trait-column {
-    border: 1px solid #444;
-    padding: 10px;
-    background: #262626;
-}
-.trait-column h3 { margin-top: 0; color: #f5c542; }
-.trait { margin-bottom: 6px; }
 
 table {
     border-collapse: collapse;
-    margin-top: 20px;
     width: 100%;
-}
-th, td {
-    border: 1px solid #444;
-    padding: 6px 8px;
+    margin-top: 20px;
 }
 th {
     background: #333;
-    color: #f5c542;
+    color: #ff66cc;
+    padding: 8px;
 }
 td {
     background: #262626;
-}
-input[type="checkbox"], input.override {
-    transform: scale(1.2);
+    border: 1px solid #444;
+    padding: 6px 8px;
 }
 
 .inline-selector {
@@ -92,7 +74,7 @@ input[type="checkbox"], input.override {
 }
 
 .selector-output {
-    color: #f5c542;
+    color: #ff66cc;
     min-width: 160px;
 }
 
@@ -101,6 +83,10 @@ input[type="checkbox"], input.override {
 <body>
 
 <h1>Skyrim Wildlander Trait Roller</h1>
+
+<div style="margin-bottom: 20px;">
+  <a href="https://wiki.wildlandermod.com/">← Back to Wildlander Wiki</a>
+</div>
 
 <div id="inputs"></div>
 
@@ -580,6 +566,11 @@ function rollRandom(key, outputId) {
   <button onclick="rollRandom('zealot','zealotOut')">Roll</button>
   <span class="selector-output">— <strong id="zealotOut"></strong></span>
 </div>
+
+<div style="margin-top: 40px;">
+  <a href="https://wiki.wildlandermod.com/">← Back to Wildlander Wiki</a>
+</div>
+
 
 </body>
 </html>
