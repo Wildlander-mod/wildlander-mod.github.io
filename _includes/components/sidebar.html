@@ -75,15 +75,14 @@
     {%- endif -%}
   </nav>
 
-  <div class="d-md-block d-xs-none">
   {% capture nav_footer_custom %}
     {%- include nav_footer_custom.html -%}
   {% endcapture %}
   {% if nav_footer_custom != "" %}
     {{ nav_footer_custom }}
   {% else %}
-    <div class="site-footer">
+    <footer class="site-footer">
       This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
-    </div>
+    </footer>
   {% endif %}
 </div>
