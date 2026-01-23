@@ -381,7 +381,7 @@ background: transparent;
   margin-bottom: 12px; /* Add some space below the input */
 }
 
-// Custom callout border styling
+// Custom callout border styling - apply to all callouts
 .callout {
   border-left: 4px solid !important;
 }
@@ -394,7 +394,72 @@ background: transparent;
   border-left-color: #7B5F0C !important;
 }
 
+// Apply tinted backgrounds to all callout types
+.callout.important,
+.important {
+  --callout-color: #ffd60a !important;
+  background-color: rgba(255, 214, 10, 0.15) !important;
+  border-left-color: #ffd60a !important;
+}
+
+.callout.logfile,
+.logfile {
+  --callout-color: #52b788 !important;
+  background-color: rgba(82, 183, 136, 0.15) !important;
+  border-left-color: #52b788 !important;
+}
+
+.callout.iniSetting,
+.iniSetting {
+  --callout-color: #52b788 !important;
+  background-color: rgba(82, 183, 136, 0.15) !important;
+  border-left-color: #52b788 !important;
+}
+
+.callout.alternative,
+.alternative {
+  --callout-color: #52b788 !important;
+  background-color: rgba(82, 183, 136, 0.15) !important;
+  border-left-color: #52b788 !important;
+}
+
+.callout.console,
+.console {
+  --callout-color: #52b788 !important;
+  background-color: rgba(82, 183, 136, 0.15) !important;
+  border-left-color: #52b788 !important;
+}
+
+.callout.hint,
+.hint {
+  --callout-color: #52b788 !important;
+  background-color: rgba(82, 183, 136, 0.15) !important;
+  border-left-color: #52b788 !important;
+}
+
+.callout.note,
+.note {
+  --callout-color: #ffd60a !important;
+  background-color: rgba(255, 214, 10, 0.15) !important;
+  border-left-color: #ffd60a !important;
+}
+
+.callout.warning,
+.warning {
+  --callout-color: #d62828 !important;
+  background-color: rgba(214, 40, 40, 0.15) !important;
+  border-left-color: #d62828 !important;
+}
+
 .callout.highlight > p,
 .highlight > p {
   color: inherit !important;
+}
+
+// Override callout-code to use pink color (header 1 pink)
+.callout.callout-code,
+.callout-code {
+  --callout-color: #f77ef1 !important;
+  border-left-color: #f77ef1 !important;
+  background-color: rgba(247, 126, 241, 0.15) !important;
 }
