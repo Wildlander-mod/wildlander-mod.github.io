@@ -213,7 +213,7 @@ The Bad Items are cursed (or sometimes poisoned). There are 4 possible curses wh
 
 1. Anumbra Reduces sneak skill by 100
 1. Enervation reduces base stamina regen by 100%
-1. Entropy every 2.5 seconds gives you a random effect. this can be giving you a 100 weight skull or disarming you or warning you that your needs need addressing when they dont.
+1. Entropy every 2.5 seconds gives you a random effect. this can be giving you a 100 weight skull or disarming you or warning you that your needs need addressing when they don't.
 1. Phthsis damage health 1 for 190 seconds, reduces base health regen by 100%
 
 After cleansing  yourself, you will also experience a "decurse" effect which is as follows.

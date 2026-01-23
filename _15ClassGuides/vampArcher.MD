@@ -29,7 +29,7 @@ A crossbow can help at the beginning of the game if you have trouble aiming as t
 
 ### Light Bow or Heavy Bow?
 
-I advise you to have both. Open with your Heavy bow, and if the enemy isn't dead and wont die with another arrow, switch to light bow and start shooting while running away.
+I advise you to have both. Open with your Heavy bow, and if the enemy isn't dead and won't die with another arrow, switch to light bow and start shooting while running away.
 
 Heavy bows hurt a lot more than light bows, but take longer to shoot. I personally use 80% of my time heavy bow. Light bows are more interesting against undead with a fire enchantment for example, as it is essentially the enchantment and the silver arrow that will do damage against them, not the bow.
 

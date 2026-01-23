@@ -23,9 +23,10 @@ description: Frequently Asked Questions
 </details>
 
 ------
+
+# Getting Started with Wildlander
+
 ## What is Wildlander?
-
-
 
 Wildlander is the new name for "Ultimate Skyrim SE." We chose to re-brand the project to separate it from the original Ultimate Skyrim list and reduce confusion.
 
@@ -42,13 +43,9 @@ If you would like to buy your friendly neighborhood support person a drink of <a
 
 or, support Dylan himself on <a href="https://www.patreon.com/dylanbperry" target="_blank" rel="noopener noreferrer"><img src="https://wiki.wildlandermod.com/Assets/Patreon.png"></a>
 
-----------
+------
 
-## Do I need to uninstall Ultimate Skyrim?
-
-Not unless you're short of hard drive space! Ultimate Skyrim uses The Elder Scrolls V: Skyrim Legendary Edition (colloquially referred to as Oldrim). Wildlander uses The Elder Scrolls V: Skyrim Special Edition (colloqually referred to as SSE).
-
-----------
+# System Requirements & Setup
 
 ## What version of Skyrim Special Edition is needed?
 
@@ -66,74 +63,15 @@ We use an installation method called stock game, which copies the Skyrim files w
 
 If you already have the DLC, you can still install on your stream install, however it is ignored during the installation process and not copied over to our stock game folder and therefore will not be used or activated in Wildlander. 
 
-----------
+## Do I need to uninstall Ultimate Skyrim?
 
-## Are all Anniversary Edition Creations disabled in Wildlander?
-
-The only creation we use is Fishing, all others are not copied to Wildlander's stock game and are therefore not used.
-
-----------
-
-## Can I add the Creation Club content / Anniversary Edition DLC to my Wildlander install on my own?
-
-No, Most of the content/weapons/armor mods are Incompatible with the requiem overhaul we use (there are no patches for them). Others such as the saddles are incompatible with the Immersive horses mods.
-
-The only one safe to use is the CC fishing mod which is already balanced patched and included in wildlander.
-
-We have deliberately disabled the creation club menu option to prevent people adding it accidentally.
-
-With regards to Verified creations(VC's), This modlist opposes paid modding now matter how Bethesda "rebrand" it. Wabbajack does not allow VC's to be included in its lists, nor does nexus allow patches to be hosted on its server. We follow their guidance on this and do not allow patches to be hosted in our customization spaces.
-
-If you want to add it yourself, then this would be customization and you would be responsible for patching it in yourself for requiem 5.0.3 compatibility.
-
-
-
-----------
+Not unless you're short of hard drive space! Ultimate Skyrim uses The Elder Scrolls V: Skyrim Legendary Edition (colloquially referred to as Oldrim). Wildlander uses The Elder Scrolls V: Skyrim Special Edition (colloqually referred to as SSE).
 
 ## I already have Skyrim: Legendary Edition, why do I need to buy Special Edition?
 
 Special Edition is a completely different version of game engine (64-bit instead of 32-bit). Wildlander requires the 64-bit game engine, as it uses mods which require the 64-bit version of SKSE. Therefore, Wildlander cannot be installed on Legendary Edition.
 
-----------
-
-## When is Ultimate Skyrim returning?
-
-It won't be returning to the Wabbajack gallery. The Wabbajack file, along with install instructions, are located [here](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/).
-
-
-----------
-
-## How long does it take to download Wildlander without Nexus Premium?
-
-There have been reports of anywhere from 4 hours to 4 days, depending on how much attention you are paying to the Wabbajack downloader and the speeds you are getting from your ISP. Times may also differ based on whether you are downloading to an SSD or an HDD.
-
-----------
-
-## Can I see the mod lists?
-
-Standard: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods" target="_blank" rel="noopener noreferrer">Version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
-Performance: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods" target="_blank" rel="noopener noreferrer">Version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
-----------
-
-## Can I see the differences between Ultimate Skyrim and Wildlander?
-
-Yes - Click [Here](https://wiki.wildlandermod.com/02-RecommendedReading\6-Changes-From-Ultsky).
-
-----------
-
-##  I already have other modlists installed, Can i still play wildlander?
-
-Yes. Wildlander uses a mechanism called "stock game". This, in a nutshell, is a self-contained copy of Skyrim. 
-
-Provided that your Steam version of Skyrim is up-to-date, you can install Wildlander. If you happen to have a downgraded version of Skyrim and your own modpack, then you can update via Steam, install, then use Halgari's downgrade patcher to restore your Skyrim to the correct version afterwards.
-
-Once installed, you can even play vanilla Skyrim and Wildlander will be unaffected.
-
-----------
-
-## Why Steam? I have Skyrim from another source and it wont let me install.
+## Why Steam? I have Skyrim from another source and it won't let me install.
 
 ### Gamepass 
 
@@ -148,6 +86,56 @@ Wildlander is built on Skyrim 1.5.97. It is not possible to downgrade a GOG DRM 
 ### Epic Games
 
 Firstly, The Wabbajack installation tool does not support it. Secondly, it has the same issues as GOG.
+
+------
+
+# Installation & Management
+
+## How long does it take to download Wildlander without Nexus Premium?
+
+There have been reports of anywhere from 4 hours to 4 days, depending on how much attention you are paying to the Wabbajack downloader and the speeds you are getting from your ISP. Times may also differ based on whether you are downloading to an SSD or an HDD.
+
+## Can I see the mod lists?
+
+Standard: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-standard-mods" target="_blank" rel="noopener noreferrer">Version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+
+Performance: <a href="https://loadorderlibrary.com/lists/wildlander-11-official-potato-mods" target="_blank" rel="noopener noreferrer">Version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+
+##  I already have other modlists installed, Can i still play wildlander?
+
+Yes. Wildlander uses a mechanism called "stock game". This, in a nutshell, is a self-contained copy of Skyrim. 
+
+Provided that your Steam version of Skyrim is up-to-date, you can install Wildlander. If you happen to have a downgraded version of Skyrim and your own modpack, then you can update via Steam, install, then use Halgari's downgrade patcher to restore your Skyrim to the correct version afterwards.
+
+Once installed, you can even play vanilla Skyrim and Wildlander will be unaffected.
+
+## How do I move Wildlander to a different drive / PC
+
+If you want to move your Wildlander installation to another drive, then you need to undertake the following steps.
+
+If you have installed any additional mods, then you will need to rename them [NoDelete] in your Mods folder first.
+
+1. Copy the Wildlander folder to the new drive.
+2. Update the launcher path (advanced tab).
+3. Important: Rerun Wabbajack installation in its new location to ensure that all the paths are updated in the various INI's. Starting wabbajack isnt enough - you have to reinstall wildlander from the library.
+
+If you have installed any additional mods, then you will need to re-enable and resort your load order after step 3)
+
+In addition to the above if you are copying to a new computer, you need to copy the saves (Ess Files) and SKSE Co-save (.SKSE files) pairs from My Documents\My Games\Skyrim Special Edition. IT IS NOT ENOUGH TO RELY ON STEAM CLOUD - IT DOES NOT COPY THE .SKSE CO-SAVES. Without the co-save, you will lose all of the mod's settings, keybinds and the UI will become mis-aligned. It is not possible to recreate the co-save.
+
+## Can I remove the downloads' folder?
+
+Yes, but if you want to "Clean" repair/reinstall due to a bug (or to get back to Wildlander default Modlist), you will need to redownload all 500+ mods.
+
+However, you can safely move your download folder to another hard drive.
+
+## How do I uninstall?
+
+We're sorry to see you leave!
+
+Uninstalling Wildlander is a simple matter of deleting the installation folder.
+
+Uninstalling the launcher requires you to use Windows "Add / remove program" functionality.
 
 ### Cracked / SteamEMU
 
@@ -209,7 +197,9 @@ Finally, if you have added and "nodeleted" your additional mods, boot into mod o
 
 No. All updates require you to manually run Wabbajack to download and install the latest mods for the new build.
 
-----------
+{: .warning}
+> Some updates will require a new game and are **_not_** save compatible.
+
 ## What changed between Ultimate Skyrim and Wildlander?
 
 The core features are identical, however at the time of release, several mods which were included in US did not work correctly in special edition. 
@@ -224,7 +214,41 @@ Some examples include :-
 
 As such, these features were removed.
 
-----------
+------
+
+# About the Project & Development
+
+## When is Ultimate Skyrim returning?
+
+It won't be returning to the Wabbajack gallery. The Wabbajack file, along with install instructions, are located [here](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/).
+
+## When is R4 and what will it contain?
+
+The next update (R4) will contain lots of stuff. The primary focus is on lots of QOL, balance and bugfix mods.
+
+(please see the Planned for next release view on the roadmap for a full list)
+
+The most recent progress report is here <https://www.wildlandermod.com/news/progress-report-december-2023>
+
+This update does not have a release date (we are trying to get it to you ASAP) . It will require a new game on release.
+
+## Why has it been so long since an update?
+
+For the back-end of last year, through to the mid part of this year. Both Dylan and Lizzy had been working on the back-end of Wildlander's roadmap & migrating Jira to airtable to make future updates go more smoothly. 
+
+As neither of us can afford to work on the project full-time, please read more in the most recent update. This leads to the misunderstandings that "nothing is happening". This is simply not the case. A lot of the compatibility checking work along with bug fixes are already done and this just requires Dylan to dedicate his minimal free time to integration work.
+
+The current version is stable. There is no need to "rush" an update out. As a result, we can take our time to deliver the best possible update. 
+
+Wildlander is not abandoned.
+
+------
+
+# Support & Troubleshooting
+
+## Can I see the differences between Ultimate Skyrim and Wildlander?
+
+Yes - Click [Here](https://wiki.wildlandermod.com/02-RecommendedReading/5-Changes-From-Vanilla).
 
 ## How do I uninstall?
 
@@ -232,10 +256,9 @@ We're sorry to see you leave!
 
 Uninstalling Wildlander is a simple matter of deleting the installation folder.
 
-Uninstalling the launcher requires you to use Windows “Add / remove program” functionality.
+Uninstalling the launcher requires you to use Windows "Add / remove program" functionality.
 
-----------
-## How do i move Wildlander to a different drive / PC
+## How do I move Wildlander to a different drive / PC
 
 If you want to move your Wildlander installation to another drive, then you need to undertake the following steps.
 
@@ -259,52 +282,34 @@ However, you can safely move your download folder to another hard drive.
 
 ----------
 
-
-## When is R4 and what will it contain?
-
-The next update (R4) will contain lots of stuff. The primary focus is on lots of QOL, balance and bugfix mods. 
-
-(please see the Planned for next release view on the roadmap for a full list)
-
-The most recent progress report is here <https://www.wildlandermod.com/news/progress-report-december-2023>
-
-This update does not have a release date (we are trying to get it to you ASAP) . It will require a new game on release.
-
-----------
-
-## Why has it been so long since a update?
-
-For the back-end of last year, through to the mid part of this year. Both Dylan and Lizzy had been working on the back-end of Wildlander's roadmap & migrating Jira to airtable to make future updates go more smoothly. 
-
-As neither of us can afford to work on the project full-time, please read more in the most recent update. This leads to the misunderstandings that "nothing is happening". This is simply not the case. A lot of the compatibility checking work along with bug fixes are already done and this just requires Dylan to dedicate his minimal free time to integation work.
-
-The current version is stable. There is no need to "rush" an update out. As a result, we can take our time to deliver the best possible update. 
-
-Wildlander is not abandoned.
-
-*Edited: 3rd Dec 2023.* 
-
-----------
-
-## How Long will it take me to do a complete play-though?
+## How Long will it take me to do a complete play-through?
 
 This depends on you and the build you choose to play.
 
 Some Players really struggle to get started because they attempt content that they cannot complete before understanding the mechanics. 
 
-Some players get half-way though and realise they aren't having fun with the character they are playing so get "restart-itis"
+Some players get half-way though and realize they aren't having fun with the character they are playing so get "restart-itis"
 
 Some builds will really struggle in the endgame, so those builds will take a lot more time and effort to complete a game. 
 
-----------
+------
 
-## Does Wildlander add any new content / Quest areas 
+# Customization & Modding
 
-Not a present, Dylan had extremely high standards for additional mods. Those standards include "Quality Voice Acting" and No AI generated voices. 
+{: .warning}
+> For customization and modding questions, please see our [Modding Guide](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/) for detailed instructions and important limitations.
+
+## Can I modify Wildlander?
+
+Yes - however, please see the [Modding Guide](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/) for full details on what is and isn't supported.
+
+## Does Wildlander add any new content / Quest areas?
+
+Not at present, Dylan had extremely high standards for additional mods. Those standards include "Quality Voice Acting" and No AI generated voices. 
 
 Most mods which add new content do not meet this criteria. 
 
-----------
+------
 
 ## Wabbajack Installation Questions
 
@@ -312,16 +317,11 @@ Most mods which add new content do not meet this criteria.
 
 ---
 
-## **Launcher Questions**
+## Launcher Questions
 
 {% include Wabbajack_AV.md %}
 
-
 {% include Wabbajack_Launcher.md %}
-
-----
-
-## **Customization Questions**
 
 ### I'm nosey, there are errors in mod organizer, and why is this stuff disabled?
 

@@ -8,7 +8,7 @@ nav_order: 9
 description: Needs & Survival
 ---
 
-Wildlander does not use "survival mode" as we dont even have the DLC installed. Instead we use a custom set of mods to control our survival aspects of the game. 
+Wildlander does not use "survival mode" as we don't even have the DLC installed. Instead we use a custom set of mods to control our survival aspects of the game. 
 
 ## Exposure
 Frostfall introduces Exposure, which represents your current condition in the environment. As you get colder, your exposure increases.
@@ -117,7 +117,7 @@ Innkeepers have the ability to serve you a full meal (20 Gold).
 * ﻿If you refill your bottles with ocean water, you will receive salt water.
 * ﻿Saltwater can be "distilled" into fresh water at any cookpot or using player crafting .
 * Some towns have a well which can be used to fill empty bottles.
-* Mead barrels will give you a bottle of mead every 30 days (if you dont enter the cell using that period)
+* Mead barrels will give you a bottle of mead every 30 days (if you don't enter the cell using that period)
 
 Water has also been added to innkeepers to sell. They should almost always have a stock of water to sell. You can also ask them to refill water (10 Gold).
 

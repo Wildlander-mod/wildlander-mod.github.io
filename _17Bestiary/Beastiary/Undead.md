@@ -607,7 +607,7 @@ Almost always found in the ruins of the ancient nords, these creatures were once
  *Weapons*
 * Note: Spellsword dragur weapons can Spawn with Frost Enchants. (Chills, Frost or Ice)
 
-| Weapons/Shield | Damage / Defence |
+| Weapons/Shield | Damage / Defense |
 |--|--|
 |Ancient Nord Sword  | 48 |
 |Ancient Nord War Axe  | 54 |
@@ -1172,7 +1172,7 @@ Skeletons are a form of weaker undead. They are easily destroyed by using a heav
 
 *Weapons*
 
-| Weapons/Shield | Damage / Defence |
+| Weapons/Shield | Damage / Defense |
 |--|--|
 |Ancient Nord Sword  | 48 |
 |Ancient Nord War Axe  | 54 |

@@ -30,7 +30,7 @@ A keybind to restore your health stamina or magic using preset rules (set in Ieq
 
 Shows a crafting menu to deconstruct items in your inventory into component parts.
 
-Note: This key wont let you deconstruct any "found" enchanted items.
+Note: This key won't let you deconstruct any "found" enchanted items.
 
 ### Emergency Recall
 

@@ -74,21 +74,21 @@ The following Types of mods are NOT Compatible. (cause game breaking bugs)
 > * Any Alternate start mod. (Ultimate Skyrim reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
 > * Any Mod which affects the perk trees E.g. Ordinator 
 > * Truly Absorb Dragon Souls, DSAMG - Dragon Soul Absorb More Glorious and Dragon Remains (prevents the main quest from firing upon killing a dragon)
-> * UltSky Starting items for 4.0.6hf2 (Breaks Ultimate Skyrim reborn, character wont teleport after creating and doesn’t have the promised items anyway!)
+> * UltSky Starting items for 4.0.6hf2 (Breaks Ultimate Skyrim reborn, character won't teleport after creating and doesn't have the promised items anyway!)
 > * New Races                          (unless requiem patch available) Requiem won’t start and will return you to the main menu.
 > * Skyrim Together (Just doesn't work)  
 
 The following Mods are extremely script heavy, Will possibly break your game.
 > *  Enhanced Blood Textures (known to cause fps degradation/script bloat)
 > *  Open Cities (also requires a tonne of manual patching)
-> *  Sexlab Seperate Orgasms (known to cause fps degradation/script bloat)
+> *  Sexlab Separate Orgasms (known to cause fps degradation/script bloat)
 
 The following types of mods have Issues 
 > *  New creatures/enemies/NPC's/followers   (unless requiem patch available) - Note: for enemies - they are generally added as unleveled, and in requiem this means they are always level 1. for NPC's and Followers - they will be missing the requiem perks and may also be unleveled (ergo level 1)
 > *  Dead NPC Body Cleaner Remover (caused Immortal Vampires when you attempt to burn them, also causes civil war patrols to scream like banshee's)  
 > *  Important Information Overhaul (Just doesn’t work with our ENB)
 > *  New Quest area mods   (unless requiem patch available) - Note: This is because new area's generally add new creatures/enemies/NPC's and followers
-> *  3Tweaks (We use Requiem 3.0.2, 3tweaks requires 3.4. It also changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just dont exist for the bulk of the mods in the list - Including Ultimateskyrim.esp itself).     
+> *  3Tweaks (We use Requiem 3.0.2, 3tweaks requires 3.4. It also changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just don't exist for the bulk of the mods in the list - Including Ultimateskyrim.esp itself).     
 
 ---
 

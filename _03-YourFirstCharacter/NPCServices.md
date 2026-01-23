@@ -129,7 +129,7 @@ Winterhold| Winterhold| 	Sergius Turrianus | 	College of Winterhold| 100
 * Waterbreathing     
 
 ### Reference
-As a reference: Enchantements fabricated by Sergius Turrianus are euqal to the ones by the player with Enchanting lvl 100 and all perks except double enchantments (last perk).
+As a reference: Enchantements fabricated by Sergius Turrianus are equal to the ones by the player with Enchanting lvl 100 and all perks except double enchantements (last perk).
 Examples (grand soul):
 * Fortify Skill (1h, 2h, Marksman, Barter): +21% dmg / better price
 * Fortify Skill (Magic-School): 17% reduced costs

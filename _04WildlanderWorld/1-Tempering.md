@@ -45,7 +45,7 @@ The Maximum durability is affected by your current blacksmith skill and nothing 
 
 The loss of durability is by the materiel its made from, better materiels degrade slower.
 
-Even with 100 smithing skill, you wont be able to temper a item if you dont have the item's materiel perk.
+Even with 100 smithing skill, you won't be able to temper a item if you don't have the item's material perk.
 
 ## Known issues
 

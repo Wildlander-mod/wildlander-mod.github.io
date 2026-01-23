@@ -595,7 +595,7 @@ Requiem disables Fast travel. There are multiple methods of moving around the ma
 The game may appear frozen or have a unusually long loading time, but it's usually still loading in the background. This is caused by OneTweak's Windowless Bordered mode. 
 
 * Please make sure that Windows Task manager is not running.
-* Dont Alt-tab out of loading screens.
+* Don't Alt-tab out of loading screens.
 * Disable Save on wait and Save on travel and switch to using manual saves if problem exists while moving between cells in-game.
 
 Can also be caused by
@@ -640,7 +640,7 @@ The original site has long gone - but a mirror of the injector is available here
 Note: this is the only 'fix' support are aware of at this time and if it does not work for you, we won't be able to assist you further
 
 ---
-### Eorlund Graymane wont temper/craft stuff for me
+### Eorlund Graymane won't temper/craft stuff for me
 
 Eorlund Graymane is the best smith in the game, and as such reserves his services for members of the Circle for the companions.
 

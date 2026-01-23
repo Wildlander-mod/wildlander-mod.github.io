@@ -7,7 +7,6 @@ description: Customization Guide
 
 Welcome to the Wildlander customization guide! This page will explain the basics of modifying Wildlander, such as adding, removing, modifying, and patching mods.
 
-
 ## Table of contents
 {: .no_toc }
 <details markdown="block">
@@ -16,57 +15,107 @@ Welcome to the Wildlander customization guide! This page will explain the basics
 </summary>
 {: .text-delta }
 1. TOC
- {:toc}
+{:toc}
 </details>
 
+---
 
-## A warning before proceeding
+## ⚠️ Critical Rules Before You Modify
 
-Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide _can_ be used by modding novices, but as of now, it's aimed at proficient modders who need to know Wildlander specific information. (More basic modding guides will be available in the future, as time permits.)  Regardless of your modding experience, you should read the entire guide. 
+**READ THIS SECTION FIRST - It contains essential information for all users.**
+
+Wildlander is a very complex modlist, and modifying it will likely cause issues unless you know what you're doing. This guide can be used by modding novices, but it's primarily aimed at proficient modders. Regardless of your modding experience, you should read the entire guide. 
 
 For more general modding guides, we recommend [Lively's tutorials](https://github.com/LivelyDismay/Learn-To-Mod/blob/main/Main.md), the [GamerPoets YouTube Channel](https://www.youtube.com/@gamerpoets), and the [DarkFox127 YouTube channel](https://www.youtube.com/@Darkfox127).
 
 {: .warning}
-> The Wildlander support team does not offer support for modified versions of Wildlander. This is because it can be difficult or impossible to tell whether issues are the result of Wildlander, or a user's modifications. 
+> **No Support for Modifications**
 >
-> There are several reasons for this, but the most important one is that staff will not know what you have done to your load order, what files are being overwritten by your changes, if the mods you add are even compatible with the versions of the mods in the base build. We cannot be expected to know what interactions the mods you add will have with the base load order. For a specific example, adding Wheeler causes a CTD when you run out of a user made potion which you have added to a wheel. The crashlog does not mention wheeler at all in the relevant objects section, only the potion itself.
+> The Wildlander support team does not offer support for modified versions of Wildlander. This is because it can be difficult or impossible to tell whether issues are the result of Wildlander, or your modifications. 
 >
-> Should you choose to modify your install, you will only receive "support" from your fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted, and you will be directed to the appropriate locations—and further posts outside the appropriate channels may result in a mute or ban.
+> There are several reasons for this. The most important one is that staff will not know what you have done to your load order, what files are being overwritten by your changes, or if the mods you add are compatible with the base build versions. We cannot be expected to know what interactions the mods you add will have with the base load order. For example, adding Wheeler causes a CTD when you run out of a user-made potion you've added to a wheel. The crash log does not mention Wheeler at all in the relevant objects section, only the potion itself.
+>
+> Should you choose to modify your install, you will only receive support from fellow customizers in the official customization Discord channels. If you ask for modified Wildlander support in any other channel, your posts will be deleted, and you will be directed to the appropriate channels. Further posts outside the appropriate channels may result in a mute or ban.
+
+### Before You Make ANY Changes: The Three Essential Rules
+
+1. **Always Backup Your Profile First**
+   - Make a copy of your active profile (e.g., "$Standard + Modified" or "$Performance + Modified")
+   - You can always revert to the original profile if you make critical mistakes
+   - See "Mod Organizer 2" section below for backup procedures
+
+2. **LOOT Is The Enemy - Manual Load Order Only**
+   - Tools like LOOT or Vortex will completely break Wildlander's load order
+   - You MUST manually organize your load order (drag and drop in Mod Organizer)
+   - Failing to follow this will prevent the game from running at all
+
+3. **Run Reqtificator After EVERY Load Order Change**
+   - The Reqtificator patches all mods for Requiem compatibility
+   - If you add, remove, or move ANY mod with plugins (.esp, .esm, .esl files), you MUST run Reqtificator
+   - Without this step, your additions will not work correctly or will cause crashes
 
 
 
 ## Modding Basics
 
-### The essentials
+### The Essentials
 
-1. Wildlander is built on skyrim **1.5.97**. Downloading SKSE mods which for anniversary editions 1.6+ WILL NOT WORK.  
-1. Any Requiem patches you download should be for versions **4 - 5.0.3** of requiem. Any patch for requiem 5.1 onwards will likely not be compatible. Requiem 6 patches are 100000% not compatible.
-1. [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) is considered a essential mod to add if you are adding anything which had created/updated since December 2023 to ensure compatibility with the new EESL formats.
-1. Does the mod you want to add have implementation notes on the [Roadmap](https://airtable.com/app6IMUkhDQiSdL0B/shrvAxHcCeCqKfnGe/tbln0wE3ffVnUk2ML/viwGFdBIx5NoRNxBU). Approx 600 mods have been checked against the base list and have notes as to what is required to integrate with the list. Some mods will tell you they are not compatible at all.
-1. When adding/removing mods, it should always be on a new game. Changing load order Mid-playthough has adverse affects on records baked into your save.
+1. Wildlander is built on Skyrim **1.5.97**. Downloading SKSE mods for Anniversary Edition 1.6+ WILL NOT WORK.  
+2. Any Requiem patches you download should be for versions **4 - 5.0.3** of Requiem. Patches for Requiem 5.1+ will likely not be compatible. Requiem 6 patches are 100% not compatible.
+3. [B.E.E.S](https://www.nexusmods.com/skyrimspecialedition/mods/106441) is an essential mod to add if you are adding anything created/updated since December 2023 to ensure compatibility with new EESL formats.
+4. Check the [Roadmap](https://airtable.com/app6IMUkhDQiSdL0B/shrvAxHcCeCqKfnGe/tbln0wE3ffVnUk2ML/viwGFdBIx5NoRNxBU) - Approximately 600 mods have been checked against the base list with integration notes. Some mods are explicitly marked as incompatible.
+5. **Always start a new game** when adding/removing mods. Changing load order mid-playthrough bakes NPC references into your save, which causes guards to become random NPCs if load order changes.
 
-### General rules regardless of what you are changing
+---
 
-Be careful updating mods. Check for update instructions. Some updates require you to start a new play-through.
+## Load Order Rules (THE FIVE ESSENTIAL RULES)
 
-Tools such as Vortex / Loot have their uses, however that use is 2 billion miles away from Wildlander and should **not under any circumstances** be used. They will completely break the load order and prevent you from running the pack at all.
+**These are the core rules for organizing your plugins after adding mods. Failure to follow these will cause crashes or mods not to function.**
 
-If changing the load order the Reqtificator should be ran - no exceptions. Please see the [Reqtificator section](https://wiki.Wildlandermod.com/09-How-Do-i/ModdingGuide/#reqtificator) of this guide for the settings.
+1. **Cell Edit Mods** (add new items/NPCs to cells)
+   - ABOVE lighting mods (ELE, Darker Nights, etc.)
+   - Example: mods adding items to specific locations
+
+2. **Content Mods** (spells, weapons, followers, NPCs)
+   - ABOVE Requiem.esp (right pane of Mod Organizer 2)
+   - This ensures Requiem can patch these items correctly
+
+3. **Requiem Patches** (always below what they patch)
+   - BELOW Requiem.esp
+   - Grouped with other Requiem patches
+   - Your new patches go ABOVE Requiem.esp, but other patches BELOW Requiem.esp
+
+4. **Utility/Non-Content Mods** (don't add items/NPCs/spells/weapons)
+   - BELOW Wildlander Full mod (mods like Autosave Manager, Bathtubs & Basins, Tentpalooza)
+   - These modify existing content or add UI elements
+
+5. **Run Reqtificator After Changes**
+   - ALWAYS run Reqtificator after changing your load order
+   - Access from Mod Organizer 2 dropdown menu (top right)
+   - This patches all mods for Requiem 5.0.3 compatibility
+
+**Never use LOOT to auto-sort. Always drag and drop manually to maintain Requiem compatibility.**
+
+---
+     
+---
+
+## Important Terms
+
+| Term | Definition |
+|------|-----------|
+| **Mod Organizer 2** | The tool that manages mod loading. Located at `<install directory>\Game-files\Mod Organizer.exe` |
+| **Reqtificator** | The Requiem patcher that makes 3rd party mods compatible with Wildlander. Run after every load order change. |
+| **DynDOLOD** | Improves appearance of distant terrain. Optional but recommended. Rerun if adding landscape or home mods. |
+| **LOOT/Vortex** | Automatic load order tools - **NEVER USE** with Wildlander. They will break the mod list. |
+| **Master Files** | Mods that other mods depend on. Cannot be disabled without manual patches to Wildlander.esp |
+| **Plugin** | The .esp, .esm, or .esl file that contains mod instructions (right pane of Mod Organizer) |
+| **Merging** | Advanced technique to combine multiple mod plugins into one |
 
 {: .important}
-> You Cannot Disable Essential mods required by Wildlander.ESP, unless you want to manually remove all references from Wildlander.ESP for the mod you want to disable.
+> **You cannot disable essential master files** required by Wildlander.esp unless you manually remove all references to them from Wildlander.esp. For removing other mods mid-playthrough, read [this guide](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/).
 
-Finally - for removing anything else read the advice [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
-
-### Important Terms
-
-1. Mod organizer      - The tool which makes everything work - Installed as part of the Wildlander installation in <install directory>\Game-files\Mod Organizer.exe
-1. [Reqtificator](#Reqtificator)       - The requiem patcher - Makes 3rd party mods compatible with the Wildlander install.
-1. [Dyndolod](#dyndolod) - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
-1. Merging mods       - Advanced modding technique to combine multiple mods plugins into one.
-     
-
-### Known Mod Issues/Incompatibilities
+---
 
 The following Types of mods are NOT Compatible. (cause game breaking bugs)
 > * Any Alternate start mod. (Skyrim unbound reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
@@ -88,7 +137,7 @@ The following types of mods have Issues
 >*   New weapons and armors unless requiem patch available will be extremely underpowered.
 > *  Dead NPC Body Cleaner Remover (caused Immortal Vampires when you attempt to burn them, also causes civil war patrols to scream like banshee's)  
 > *  New Quest area mods   (unless requiem patch available) - Note: This is because new area's generally add new creatures/enemies/NPC's and followers
-> *  3Tweaks/BTweaks (Wont be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
+> *  3Tweaks/BTweaks (Won't be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 > *  Precision - Cannot be played with Improved camera version we have. Overall makes the game easier as the weapons are designed based on vanilla proportions, not Wildlander.
 > *  Flat World Map Framework (FWMF) Does not have a compatible patch for ELE or DVLAS (our lighting mods) so reverts lighting in vanilla, the roadmap does have a patch but only for a specific version of the map.
 > *  NPC Overhauls - Wildlander itself is a NPC overhaul, so you cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of Wildlander to get it working correctly

@@ -38,7 +38,7 @@ Only Aim your bow if you intend to fire quickly. Other than that - same thing ap
 You don't escape either - Severe spell cost penalties apply if you drop below 20% stamina and you will be slower at running, allowing your opponents to be able to catch and kill you.
 
 ## For Everyone
-So don't sprint around like Usain Bolt, Dont jump around like a rabbit, don't waste all your stamina attacking Enemies raised shields, become a true warrior, observe, sidestep and attack when you will hit.
+So don't sprint around like Usain Bolt, don't jump around like a rabbit, don't waste all your stamina attacking Enemies raised shields, become a true warrior, observe, sidestep and attack when you will hit.
 
 
 ## Managing Stamina

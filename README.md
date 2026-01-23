@@ -3,12 +3,12 @@
 
 ## Customization
 
-* Anything under Dev Should go in the WIP folder - this is hidden by default and wont get turned into a page.
-* There should be a blank line between a title (#title) and the contents. Likewise between a paragraph and a --- (line break) else Jekell wont format it properly.
+* Anything under Dev Should go in the WIP folder - this is hidden by default and won't get turned into a page.
+* There should be a blank line between a title (#title) and the contents. Likewise between a paragraph and a --- (line break) else Jekell won't format it properly.
 * Jekell can handle a Mix of markdown and HTML - But if you want to include a collapaseable section containing markdown - you need to wrap the MD in a <div class="Info" markdown="1"> MD goes here </div> Block to format the MD properly.
 * Youtube videos can be embedded  - but you need the embed block from yourtube itself - you cant just stick it in a Iframe.
 * Unlike regular markdown - you can use HTML to change colors in the page.
-* Dont touch the config.yaml or CSS pages - Dylan has final say over the color scheme.
+* Don't touch the config.yaml or CSS pages - Dylan has final say over the color scheme.
 
 ### Each page should have a header block
 ```

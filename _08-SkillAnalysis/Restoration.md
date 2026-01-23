@@ -8,7 +8,7 @@ has_children: false
 
 ## Introduction
 
-In Wildlander, restoration is a insanely useful school of magic to level if you plan on doing anything near undead. With the offensive sun spells, turn spells and healing aura's to keep yourself topped up. lower level enemy undead wont be able to get near to you in order to be able to hit you with theit melee weapons.
+In Wildlander, restoration is a insanely useful school of magic to level if you plan on doing anything near undead. With the offensive sun spells, turn spells and healing aura's to keep yourself topped up. lower level enemy undead won't be able to get near to you in order to be able to hit you with their melee weapons.
 
 
 ## --Perk Analysis--

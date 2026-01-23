@@ -117,7 +117,7 @@ Once past the fights, pick any herbs or skill a skin critters until you arrive a
 <details>
   <summary>Spoiler warning: Outlaw Refuge location</summary>
   <blockquote>
-  Located at the rear of the Bannered mare, inside of the animal pens. Manhole in the centre pen.
+  Located at the rear of the Bannered mare, inside of the animal pens. Manhole in the center pen.
   </blockquote>
 </details>
 

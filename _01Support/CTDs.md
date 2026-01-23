@@ -90,7 +90,7 @@ If you cant uninstall it.
 
 1. Add a "Advanced Threat Defense" exception for Wildlander\game-files\Stock Game\SkyrimSE.exe. If you also have “Ransom-ware Remediation” on Add Wildlander\game-files\ModOrganizer.exe to this.
 
-2. if that doesn't work - run with "no shaders" from the launcher. Wildlander wont look as nice, but at least you can play.
+2. if that doesn't work - run with "no shaders" from the launcher. Wildlander won't look as nice, but at least you can play.
 
 ## Crashing while Playing your character
 
@@ -157,7 +157,7 @@ If you've never touched the pagefile, try performing the following steps:
    
 #### 3, This error can also be caused by a corrupt NIF/DDS file. 
 
-If adding a pagefile doesn't resolve the issue, then look through the logfiles' stack section for Meshes(nif files) or Textures(dds). The below log snippet shows a example of the type of file you are looking for. Search your PC for the file(s) shown. Delete the Mod folder that texture is located in. **Important:** It wont be in the folder in the log (e.g data\TEXTURES\) as these come from the virtual filesystem. You will need to search for them yourself.  Then reinstall from Wabbajack **choosing overwrite installation.**
+If adding a pagefile doesn't resolve the issue, then look through the logfiles' stack section for Meshes(nif files) or Textures(dds). The below log snippet shows a example of the type of file you are looking for. Search your PC for the file(s) shown. Delete the Mod folder that texture is located in. **Important:** It won't be in the folder in the log (e.g data\TEXTURES\) as these come from the virtual filesystem. You will need to search for them yourself.  Then reinstall from Wabbajack **choosing overwrite installation.**
 
 {: .logfile}
 >  [SP+200]  0x1EC0CCCD990      (BSResource::anonymous_namespace::LooseFileStream*)

@@ -23,7 +23,7 @@ It's a big scary world out there beyond Riverwood or wherever your character is 
 ## On your Horse
 
 * Pickaxe (for mining)
-* Woodcutter's Axe (if you dont use a war axe as primary weapon, for chopping trees to get wood in case you need a fire)
+* Woodcutter's Axe (if you don't use a war axe as primary weapon, for chopping trees to get wood in case you need a fire)
 * 8 pieces of wood + 2 crude tinder + 16 kindling (optional for starting fires; chop/forage instead if weight is an issue)
 * 3 days of food: you can always hunt or forage more later (add passive stamina regen dishes)
 * 4 full waterskins / 16 bottles of water

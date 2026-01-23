@@ -105,7 +105,7 @@ Around 135gb
 
 ### Do I need to download everything if I plan on playing potato 
 
-Yes - Wabbajack wont install unless it has all mods, creating a list for potato users only is not easy to do and would require a completely separate Wabbajack Modlist.
+Yes - Wabbajack won't install unless it has all mods, creating a list for potato users only is not easy to do and would require a completely separate Wabbajack Modlist.
 
 ----------
 
@@ -225,7 +225,7 @@ If Skyrim has updated recently - it will require the list to be recompiled to co
 
 ----------
 
-### Wabbajack wont download the Wildlander installer.
+### Wabbajack won't download the Wildlander installer.
 
 This is typically caused by a mis-configured firewall between your PC and the Wabbajack build server.
 

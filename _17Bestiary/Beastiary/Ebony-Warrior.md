@@ -55,7 +55,7 @@ description: Ebony Warrior - Shouts, Spells, Stats
 **Additional Perks**
 
 *Shared*
-* Damage Recieved from the Player (all sources) is reduced by 66%
+* Damage Received from the Player (all sources) is reduced by 66%
 * Fortitude - He has a permanent bonus of 40 stamina and 20 carry weight.
 * Battle Mage - Casting spells have no penalties, Magicka cost for all spells is reduced by 15%
 * Combat Training - Heavy armor power attacks require less stamina to execute, and His heavy gauntlets improve unarmed damage based on material. 

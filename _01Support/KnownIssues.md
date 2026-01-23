@@ -105,7 +105,7 @@ None of these are actually bugs but I'm including them here to hopefully prevent
 1. *Reporting files in the overwrite.* These are your crash logs.
 2. *All the NPC overhauls are disabled.* They are supposed to be. _They are for Dylan's use only_ Hence "DEV RESOURCES" label.
 3. *There are mods with Red X's.* These are merged into the Wildlander ESP. It's perfectly normal
-4. *Mod XXX is out of date.* Perfectly normal for modlists to have older versions of mods. Some mods update several times a month and the list wont ever be able to keep up.
+4. *Mod XXX is out of date.* Perfectly normal for modlists to have older versions of mods. Some mods update several times a month and the list won't ever be able to keep up.
 
 ---
 
@@ -240,7 +240,7 @@ If Brynjolf is not at the ragged flagon when you get there, but the quest is run
 
 ### People attack me when entering the cistern / Loud and Clear not started.
 
-This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply wont start the quest automatically after handing in Taking Care of Business.
+This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply won't start the quest automatically after handing in Taking Care of Business.
 
 Source: From Bugs section of <https://en.uesp.net/wiki/Skyrim:Taking_Care_of_Business> :-
 
@@ -262,7 +262,7 @@ Source: From Bugs section of <https://en.uesp.net/wiki/Skyrim:Taking_Care_of_Bus
 
 ### Dampened Spirits doesn't start.
 
-This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply wont start the quest automatically after speaking to Brynjolf and him telling you to talk to Maven. Console commands don't work, Waiting and then console commands don't work.
+This can occur in a unmodified version of Skyrim as well. For some reason Skyrim simply won't start the quest automatically after speaking to Brynjolf and him telling you to talk to Maven. Console commands don't work, Waiting and then console commands don't work.
 
 The only reliable work around we have found (instead of rolling back to previous saves and retrying a few times) is to :-
 
@@ -355,7 +355,7 @@ Simple fix - switch gender back.
 ![image](https://user-images.githubusercontent.com/26418143/175317923-9cdc1a68-4653-4e18-a274-d48cf8feeea0.png)
 
 ---
-### Potions dont disolve when using a spell research coldroun 
+### Potions don't dissolve when using a spell research coldroun 
 
 Happens because requiem potions are "too" strong for the default calculation to produce a result.
 

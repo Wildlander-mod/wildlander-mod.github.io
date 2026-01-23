@@ -390,7 +390,7 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 |Movement Speed| 120 |
 |Melee Damage| 150 |
 |Ranged Damage|  Acid Spit, 150 pts for 1 secs
-|| Lurker Spray, 30 pts for 5 sec (Variations 1,2,3), Lurker Spray, 80 pts for 5 sec (Variations 4)  - Lurker spary is a Channeled ability, and therefore can stack if you dont MOVE.|
+|| Lurker Spray, 30 pts for 5 sec (Variations 1,2,3), Lurker Spray, 80 pts for 5 sec (Variations 4)  - Lurker spray is a Channeled ability, and therefore can stack if you don't MOVE.|
 |Magical Damage| None |
 |Standard AR| 500 |
 |Magical AR| 40% |
