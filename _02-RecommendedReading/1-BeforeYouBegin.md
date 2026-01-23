@@ -49,6 +49,10 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 ## Suggestions for various GFX cards
 
+---
+
+**Next in Recommended Reading:** [Stability Test →](2-Stability-Test)
+
 
 {: .NoTitleYellow}
 > These are recommendations for running at a average of 60FPS @ 1080p with the assumption that you do not have anything running on your PC with the exception to the Wildlander Launcher and Skyrim Itself.

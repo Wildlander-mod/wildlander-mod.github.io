@@ -42,7 +42,9 @@ description: Changes From Vanilla
 * Survival has a much, much greater importance, you can and will die if you don't eat, sleep or stay warm.
 * Your initial Carry weight is more realistic, but you can craft or buy Backpacks to increase it.
 * It’s dark when it's supposed to be, night vision, a torch, or lantern is required for dungeon diving.
-* Getting sick and/or drunk and/or consuming a lot of alchemy ingredients gives a visual effect/blurring on your screen.
+---
+
+**Next in Recommended Reading:** [Changes from Ultsky →](6-Changes-From-Ultsky.md) (optional - only for players migrating from previous modlists)* Getting sick and/or drunk and/or consuming a lot of alchemy ingredients gives a visual effect/blurring on your screen.
 * Food is essential - the perks they offer to regeneration alone mean you should always have a buff active
 
 

@@ -48,6 +48,9 @@ Your Wildlander graphics settings are too high!
 
      Test again with a lower Graphics preset
 	 
+---
+
+**Next in Recommended Reading:** [The UI →](3-The-UI.md)
 ### I Crashed during character creation!
 
 This could indicate a problem/corruption with the install OR you selected too much for your PC to handle.

@@ -2,7 +2,7 @@
 layout: default
 title: Introduction to Wildlander
 has_toc: true
-nav_order: 7
+nav_order: 4
 description: Wildlander - The introduction
 ---
 
@@ -57,6 +57,10 @@ You also no longer have passive health regeneration, so having some form of heal
 Choosing the right weapon for the right enemy is So, So important, as each enemy in the game has different strengths and weaknesses. Heavy armored opponents will take less damage from a sword as they would from a mace. Undead take minimum damage from conventional weapons, but are highly allergic to silver as it disrupts the spells animating them.
 
 One of the most important tip I can give archer type players - is that wooden bows break when you get hit by a melee attack. Make sure you have backup weapons you can switch to or invest in a better quality bow.
+
+---
+
+**Next in Recommended Reading:** [Changes From Vanilla →](5-Changes-From-Vanilla.md)
 
 ## Armor choice
 
