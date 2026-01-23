@@ -3,8 +3,7 @@ layout: default
 title: Character Creation
 has_toc: true
 nav_order: 2
-
-descrption: Character creation - The Basics
+description: Character creation - The Basics
 ---
 
 ## Questions about is your build viable?

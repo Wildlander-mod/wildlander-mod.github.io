@@ -2,8 +2,7 @@
 layout: default
 title: Camping & Campfire Perks
 has_toc: true
-nav_order: 8
-
+nav_order: 9
 description: Camping & Campfire Perks
 ---
 
@@ -326,4 +325,4 @@ Allows the crafting placement of a more comfortable bed, Table or chair - for wh
 
 ### Chests and barrels
 
-Can be crafted near a forge using player crafting - Can be placed to provide unlimited storage. Covered in more detail on the [Carry weight mechanics](/03-YourFirstCharacter/CarryWeight/) page
+Can be crafted near a forge using player crafting - Can be placed to provide unlimited storage. Covered in more detail on the [Carry weight mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight/) page
