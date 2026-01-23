@@ -3,6 +3,8 @@ layout: default
 title: How Do I Enable Permadeath?
 has_toc: false
 has_children: false
+parent: How Do I..?
+nav_order: 7
 
 ---
 

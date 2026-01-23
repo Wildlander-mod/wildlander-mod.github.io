@@ -1,8 +1,10 @@
 ---
 layout: default
-title: How Do I tweak the difficulty??
+title: How Do I tweak the difficulty?
 has_toc: false
 has_children: false
+parent: How Do I..?
+nav_order: 6
 
 ---
 

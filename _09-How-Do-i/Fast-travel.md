@@ -1,10 +1,10 @@
 ---
 layout: default
 title: How Do I Enable Fast travel?
+parent: How Do I..?
 has_toc: false
 has_children: false
-
----
+nav_order: 8
 
 
 You will need to edit the following in-game MCM settings to re-enable fast travel:

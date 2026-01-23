@@ -1,7 +1,9 @@
 ---
 layout: default
 title: How Do I Customize The List?
+parent: How Do I..?
 has_toc: false
+nav_order: 1
 description: Customization Guide
 ---
 

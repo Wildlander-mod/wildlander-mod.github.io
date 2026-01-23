@@ -8,11 +8,27 @@ description: General Information
 
 
 
+## Quick Troubleshooting Flowchart
+
+**What's your problem?** Pick the closest match below to find the right resource:
+
+| If You Have This Problem | Go Here |
+|-------------------------|---------|
+| 🔴 Game crashes on startup or during play | [CTDs](https://wiki.wildlandermod.com/01Support/CTDs/) |
+| 🔴 Game won't start or launcher issues | [Launcher Issues](https://wiki.wildlandermod.com/01Support/Launcher/) |
+| 🟡 Something isn't working right / unusual behavior | [Known Issues](https://wiki.wildlandermod.com/01Support/KnownIssues/) |
+| 🟡 Installation or Wabbajack errors | [Common Install Issues](https://wiki.wildlandermod.com/01Support/Common-Install-Issues/) |
+| ℹ️ General questions about Wildlander | [FAQ](https://wiki.wildlandermod.com/01Support/Faq/) |
+| ℹ️ Want to modify Wildlander | [Modding Guide](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/) |
+| ❓ Can't find what you need | Use the Wiki search bar or ask on Discord |
+
+---
+
 ## Getting Help
 
 1. Make sure to follow the installation guide and follow in order - There are images to help you.
 1. The next step would be to search the [FAQ](https://wiki.wildlandermod.com/01Support/Faq/)
-1. Check the [The known issues document](https://wiki.wildlandermod.com/01Support/KnownIssues) 
+1. Check the [Known Issues document](https://wiki.wildlandermod.com/01Support/KnownIssues) 
 1. Use the search-bar on the Wiki
 1. First-line Support is available primarily on our Discord server <a href="https://discordapp.com/invite/8VkDrfq" target="_blank" rel="noopener noreferrer">Dylan Perry Discord Server <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>. It is great for support, troubleshooting, and reporting bugs since you can speak with staff and other users in real-time. We have many regular users offering help to new players. The Discord is also a good place to meet fellow adventurers and chat about Wildlander and other games.
 1. The <a href="https://www.reddit.com/r/wildlander/" target="_blank" rel="noopener noreferrer">Wildlander Subreddit <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> is a great place to meet fellow players and share stories of your adventures. We also host community events, post screenshots of our characters' latest exploits, and generally discuss whatever we like through Reddit's forum-style posting. Please don't use reddit for tech support or installation help, the Discord is better for real-time help and troubleshooting.

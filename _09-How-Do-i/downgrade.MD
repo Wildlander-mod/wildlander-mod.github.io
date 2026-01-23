@@ -1,9 +1,11 @@
 ---
 layout: default
-title:  How Do I Downgrade Skyrim?
+title: How Do I Downgrade Skyrim?
+parent: How Do I..?
 has_toc: false
 has_children: false
-description:  How Do I Downgrade Skyrim so I can (re)install the list? 
+nav_order: 3
+description: How Do I Downgrade Skyrim so I can (re)install the list? 
 ---
 
 If your Skyrim is up to date, you will NOT be able to install some modpacks until you downgrade Skyrim. 

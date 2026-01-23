@@ -1,8 +1,10 @@
 ---
 layout: default
-title:  How Do I run the list controller only ?
+title: How Do I run the list controller only?
 has_toc: false
 has_children: false
+parent: How Do I..?
+nav_order: 11
 description:  How Do I run the list controller only  ?
 ---
 

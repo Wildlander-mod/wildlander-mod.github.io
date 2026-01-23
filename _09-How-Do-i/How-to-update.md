@@ -1,10 +1,12 @@
 ---
 layout: default
-title:  How Do I Update ?
+title: How Do I Update?
+parent: How Do I..?
 has_toc: false
 has_children: false
+nav_order: 2
 
-description: How Do I Update ?
+description: How Do I Update?
 ---
 
 ## Before proceeding 

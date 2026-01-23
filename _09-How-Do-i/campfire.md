@@ -1,8 +1,9 @@
 ---
 layout: default
 title: How Do I Cancel placing a campfire Object?
-nav_order: 9
-description:  How Do I Cancel placing a campfire Object?
+parent: How Do I..?
+nav_order: 5
+description: How Do I Cancel placing a campfire Object?
 ---
 
 

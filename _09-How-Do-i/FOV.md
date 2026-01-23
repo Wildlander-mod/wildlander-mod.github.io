@@ -1,7 +1,8 @@
 ---
 layout: default
 title: How Do I Change my FOV?
-nav_order: 9
+parent: How Do I..?
+nav_order: 10
 description:  How Do I Change my FOV?
 ---
 

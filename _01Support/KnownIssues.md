@@ -31,13 +31,9 @@ The below button will take you to the full known issue page.
 ## Getting asked to restart for the economy on a new game. DiD players * please read.
 
 {: .warning } 
-> If you have played a character already and then exit to the main menu, do not attempt to start a new character in the same session. Instead, quit entirely out of Skyrim and restart it from there. If you do not do so, the game will not operate properly and you will get errors such as 'please restart the economy,' or 'Honed Metal has crashed.'
+> **See [Important Information > When starting a new character](https://wiki.wildlandermod.com/01Help/Important-Information/#when-starting-a-new-character) for full details.**
 >
-> This *isn't* a bug with the list. Skyrim does not handle you playing one character, returning to the menu and starting a second. This is because Skyrim doesn't unload all of the previous games scripts and can cause severe issues with your new play-through (hot-keys not working, broken economy, merchants with no gold, or even your character leveling up when they shouldn't be).
->
-> Every time you want to start a new character, you should be closing and reopening Skyrim in its entirety.
->
-> Please *DO NOT* report bugs relating to this topic as its a flaw with Skyrim itself. There is nothing we can do to make this work!
+> TL;DR: Always close and reopen Skyrim entirely before creating a new character. Do not just exit to menu and start a new game in the same session - this is a Skyrim engine limitation, not a Wildlander bug.
 
 
 ## When will these be fixed?
@@ -51,51 +47,57 @@ The next section highlights the issues which cant be resolved.
 ---
 ## Issues which cannot be resolved.
 
-This section includes issues which cannot presently be resolved due to the issue being related to the technical functionality of a mod, the time it would take to correct would not be of benefit, or a engine issue related to skyrim itself.
+This section includes issues which cannot presently be resolved due to the issue being related to the technical functionality of a mod, the time it would take to correct would not be of benefit, or an engine issue related to Skyrim itself.
 
-### Lights are flickering on and off.
+**Severity Legend:** 🔴 = Game-breaking | 🟡 = Major impact | 🟢 = Minor/cosmetic
 
-Most noticeable in Breezehome's basement and entrance to riverwood but can happen everywhere.
-
-This is caused by Skyrim's engine limitation of 4 light sources in a 30ft radius of the player. When you move the camera in a area with more than 4 light sources they alternate/cycle and turn on and off. This includes your torches and/or lantern.
-
-There is nothing we can do to correct this, **bug reports on this topic will be deleted.**
-
-### When using Honed metal to craft something, missives in your inventory complete and then abort.
-
-This is related to how honed metal functions. It transfers the inventory of the smith or enchanter to your inventory so you can see from the honed metal craft menu what the smith can craft. This transfer essentially triggers the "quest complete" part of the missive.
-
-### I hear random drinking noises.
-
-In Wildlander, both NPC's followers and horses can drink potions from their inventory. Unfortunately, Skyrim doesnt have a "NPC" drink noise, so it plays the generic one as though the player was drinking.
-
-### Health/Stamina potions are disappearing from my horse's inventory.
-
-The horse is treated as though it is a follower and when its low on stamina or health it can and does drink potions from its inventory.
-
-### NPC's added by mods don't have voice lines or are immersion breaking.
+### � NPCs added by mods don't have voice lines or are immersion breaking.
 
 Unfortunately, this would require a great deal of effort to replace the voice lines and dialog so they fit.
 
-### I speak to a farmer and ask him if i can harvest his crops  but some give me bounties.
+### 🟡 I speak to a farmer and ask him if I can harvest his crops, but some give me bounties.
 
 This would require a lot of effort to correct ownership on the specific plants causing the issues. In some cases the opposite is true as well and plants which should be owned are not.
 
-### Bookshelves can be used to duplicate items placed upon them.
+### 🟡 SkyUI Groups broken.
 
-E.g Placing a book on a shelf, removing the book from the shelf by "picking it up" then using the shelf inventory to get a copy.
+When an item changes condition, either via tempering or via degradation, any groups that that item was assigned to no longer function.
 
-Unfortunately, this is a engine issue where removing the book from the shelf by pickup doesn't edit the container.
+SkyUI uses SKSE to find the specific item (via CRC) to equip. Changes to a weapon, either name or temper, causes the CRC to change and prevents groups from functioning. There is nothing we can do to prevent the CRC from changing.
 
-### SkyUI Groups broken.
+### 🟡 Thieves Guild quests not starting when handing in the previous quest.
 
-When a item changes condition, either via tempering or via degredation, any groups that that item was assigned to no longer functions.
+This is a vanilla issue. See the section further down this page which contains workarounds for common problems.
 
-SkyUI uses SKSE to find the specific item (via CRC) to equip. changes to a weapon, either name or temper causes the CRC to change and prevents groups from functioning. There is nothing we can do to prevent the CRC from changing.
+### 🟢 Lights are flickering on and off.
 
-### Thieves guild quests not starting when handing in the previous quest.
+Most noticeable in Breezehome's basement and entrance to Riverwood but can happen everywhere.
 
-This is a vanilla issue, there is a section further down this page which contains work arounds for the common problems.
+This is caused by Skyrim's engine limitation of 4 light sources in a 30ft radius of the player. When you move the camera in an area with more than 4 light sources they alternate/cycle and turn on and off. This includes your torches and/or lantern.
+
+There is nothing we can do to correct this. **Bug reports on this topic will be deleted.**
+
+**Note:** While Community Shaders includes a light limit fix, using it would constitute a modification to Wildlander and is therefore unsupported. If you choose to use it, you do so at your own risk and should not report issues encountered while using it.
+
+### 🟢 When using Honed Metal to craft something, missives in your inventory complete and then abort.
+
+This is related to how Honed Metal functions. It transfers the inventory of the smith or enchanter to your inventory so you can see from the Honed Metal craft menu what the smith can craft. This transfer essentially triggers the "quest complete" part of the missive.
+
+### 🟢 I hear random drinking noises.
+
+In Wildlander, both NPCs, followers, and horses can drink potions from their inventory. Unfortunately, Skyrim doesn't have an "NPC" drink noise, so it plays the generic one as though the player was drinking.
+
+### 🟢 Health/Stamina potions are disappearing from my horse's inventory.
+
+The horse is treated as though it is a follower and when it's low on stamina or health, it can and does drink potions from its inventory.
+
+This will be corrected in R4. Unfortunately, this cannot be corrected by the user as doing so would break existing saves.
+
+### 🟢 Bookshelves can be used to duplicate items placed upon them.
+
+E.g. Placing a book on a shelf, removing the book from the shelf by "picking it up," then using the shelf inventory to get a copy.
+
+Unfortunately, this is an engine issue where removing the book from the shelf by pickup doesn't edit the container.
 
 ---
 ## M/O 2 
@@ -118,40 +120,42 @@ None of these are actually bugs but I'm including them here to hopefully prevent
 
 ## Gameplay Issues
 
-### Waking nightmare. When on step release the miasma and you're pretending to be Casimir, you can see your player's body in front of camera.
+### 🟡 Waking Nightmare - Casimir body visible
+
+When on the step "release the miasma" and you're pretending to be Casimir, you can see your player's body in front of camera.
 
 The effect only lasts for the duration of this step and can be safely ignored.
 
----
+### 🟡 Alt-Tab Block Animation Issue
 
-### When weapons are pulled out and you alt-tab in third person, the pc goes into block animation and moves really slowly but in first person the issues goes away.
+When weapons are pulled out and you alt-tab in third person, the PC goes into block animation and moves really slowly, but in first person the issue goes away.
 
-Hit Control. Note: This happens if you have moved Duel wield block to the Alt key and then alt+tab out. Its strongly recommended that nothing be bound to the alt key. 
+**Workaround:** Press Control. Note: This happens if you have moved "Dual Wield Block" to the Alt key and then alt+tab out. It's strongly recommended that nothing be bound to the Alt key.
 
---- 
+### 🟢 Horses forget to spawn with armor
 
-### Horses occasionally forget to spawn with armor, despite having it in their inventory.
+Horses occasionally forget to equip armor, despite having it in their inventory.
 
-You can force the horse to equip armor by the following process.
+**Workaround:** Force the horse to equip armor:
 1. Drop the armor on the floor.
-2. Open console. Click on it and make a note of the base ID for the horse armor.
+2. Open console. Click on the armor and make a note of the Base ID (the hex number).
 3. Close console. Pick it up and place it in the horse's inventory.
-4. In console again, click the horse replacing "baseid" with the number you made note of use the following console command .
+4. In console, click the horse and use this command (replace baseID with the number you noted):
 
 {: .console}
->
 > equipitem baseID 1 
 
-### Owned items become free to take.
+### 🟡 Owned items become free to take
 
-This is caused by a INI setting called "faction stealing" inside of Po3 Tweaks. It states that you can only take items when you are friends with all members of a faction present. 
+This is caused by a setting in Po3 Tweaks called "faction stealing" in the INI. It states that you can only take items when you are friends with all members of a faction present.
 
-Unfortunately, this setting allows you take items when *no* members of a faction are present. 
+Unfortunately, this setting also allows you to take items when *no* members of a faction are present.
 
-You can correct this behavior by changing game-files\mods\Wildlander\SKSE\Plugins\po3_Tweaks.ini and changing the below setting to False.
+**Workaround:** Edit `game-files\mods\Wildlander\SKSE\Plugins\po3_Tweaks.ini` and change the setting below to False:
 
 {: .iniSetting}
 >[Tweaks]
+>FactionStealing = False
 >
 >
 >;Items will be marked stolen until player is friendly with all present members of faction.

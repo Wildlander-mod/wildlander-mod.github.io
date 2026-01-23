@@ -1,7 +1,8 @@
 ---
 layout: default
 title: How Do I edit the durability loss speed?
-nav_order: 10
+parent: How Do I..?
+nav_order: 13
 description:  How Do I edit my gear's Durability loss speed.
 ---
 

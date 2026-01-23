@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Turn on/off Autosaves?
+title: How Do I Turn On/Off Autosaves?
+parent: How Do I..?
 has_toc: false
 has_children: false
+nav_order: 14
 
 ---
 

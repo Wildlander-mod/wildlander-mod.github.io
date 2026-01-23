@@ -1,8 +1,9 @@
 ---
 layout: default
-title: How Do I Break Down Armor
-nav_order: 9
-description: How Do I Index.
+title: How Do I Break Down Armor?
+parent: How Do I..?
+nav_order: 4
+description: How Do I break down armor?
 ---
 
 

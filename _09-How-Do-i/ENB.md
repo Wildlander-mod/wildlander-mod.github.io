@@ -1,8 +1,10 @@
 ---
 layout: default
 title: How Do I Change The ENB Settings?
+parent: How Do I..?
 has_toc: false
 has_children: false
+nav_order: 12
 
 ---
 

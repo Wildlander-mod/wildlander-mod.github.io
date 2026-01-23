@@ -5,6 +5,22 @@ nav_order: 6
 description: Help I'm getting CTD's
 ---
 
+## Quick CTD Troubleshooting Checklist
+
+**Before panicking, work through this checklist:**
+
+- [ ] Did your game freeze or crash? (Freezing = out of memory issue, crashing = something else)
+- [ ] Are you running an unmodified Wildlander install? (If modified, use community support only)
+- [ ] Have you restarted the game since your last change?
+- [ ] Check the crash log: Can you find the crash code in the [list below](#common-crash-codes)?
+- [ ] **Is the crash reproducible?** (Can you make it happen again by repeating the same steps?)
+
+**Next Steps:**
+- **If you found your crash code:** Follow the solution for that code
+- **If you can't find your crash code AND can reproduce it:** Gather the information in the [Reporting Your Crash](#reporting-your-crash) section and file a bug report
+- **If you can't reproduce it:** Unfortunately, we cannot help. One-time crashes are too difficult to debug
+
+---
 
 ## Table of contents
 {: .no_toc }
@@ -17,6 +33,34 @@ description: Help I'm getting CTD's
 {:toc}
 </details>
 
+---
+
+## How to Read Your Crash Log
+
+**Step 1: Locate Your Crash Log**
+- Click the "Advanced" button in the launcher
+- Click "Open Crash Log" button
+- A text file will open showing your crash information
+
+**Step 2: Find the Crash Code**
+The first few lines will show something like:
+```
+Unhandled native exception occurred at 0x7FFEF914CE66 (skse64_1_5_97.dll+5CE66) on thread 7360!
+```
+
+The part in **parentheses** is what you're looking for. Examples:
+- `(SkyrimSE.exe+132BEF)` - Game engine problem
+- `(skse64_1_5_97.dll+5CE66)` - Script extender problem
+- `(atidxx64.dll+523A0)` - AMD graphics issue
+- `(nvwgf2umx.dll+265E07)` - NVIDIA graphics issue
+
+**Step 3: Search This Page**
+Use Ctrl+F to search for your crash code on this page. If found, follow the solution. If not found, scroll to [Reporting Your Crash](#reporting-your-crash) below.
+
+---
+
+## Common Crash Codes
+
 Skyrim with Wildlander creates crash logs. You can access these crash logs by using the button on the advanced page of the launcher. **IMPORTANT:** If your game is freezing rather than crashing, then the cause of the freeze is most likely to be a ["out of memory" error](#crash-to-desktop-when-entering-a-building-or-on-finalising-setup-crash-code-fissdll4481-or-skyrimseexed6ddda).
 
 The first line of the crash log indicates the crash code, and the process which crashes. E.g 
@@ -28,22 +72,32 @@ The first line of the crash log indicates the crash code, and the process which 
 
 ![image](https://user-images.githubusercontent.com/26418143/184343479-0bbafd85-3e81-4411-8c0b-dff9620de663.png)
 
-The brackets are generally the most important line of the crash code E.g (SkyrimSE.exe+132BEF). You should search this page for this code. 
+The brackets are generally the most important line of the crash code E.g (SkyrimSE.exe+132BEF). You should search this page for this code.
 
-If you have crashes which are not included in this list, they are repeatable and you are running an **unedited list** then:
-- You can copy your crash log to pastebin
-- Create a [bug report](https://wiki.wildlandermod.com/16OtherResources/bugreport/). 
+---
 
-We require - **MINIMUM** - when filling out this form all of the below information. The more information you can give us, the easier it will be to track down.
+## Reporting Your Crash
 
-- What you were doing when the crashes occurred. 
-- A link to your pastebin of the full crash log.
-- The version of Wildlander - as shown in the bottom left of the launcher.
+If you have crashes which are not included in the list below, they are **repeatable** while running an **unmodified list**, follow these steps:
 
-## Crashing on Startup
+1. Copy your crash log to [Pastebin](https://pastebin.com)
+2. Create a [bug report](https://wiki.wildlandermod.com/16OtherResources/bugreport/) 
 
-### Can be caused by medal.tv clipping software 
+**Minimum information required:**
+- What you were doing when the crash occurred
+- A link to your Pastebin crash log
+- Wildlander version (shown in bottom left of launcher)
+- Are you running unmodified Wildlander? (Yes/No)
+- **Can you reproduce this crash consistently?** (If no, do NOT file a bug report)
 
+The more information you provide, the easier it will be for us to track down the issue.
+
+**Note:** Non-reproducible crashes are very difficult to debug. Only file a report if you can consistently trigger the crash by repeating the same steps.
+
+---
+
+## Crashing on Startup 
+### Medal.tv Clipping Software
 Task-killing this program is the recommended advice before playing Wildlander, as on lower end PC’s it causes a CTD from the main menu. On higher end machines, it causes the ENB to have blinding sunlight and black water.
 
 Either way, support staff strongly advise that you do not have this running when starting Wildlander.
