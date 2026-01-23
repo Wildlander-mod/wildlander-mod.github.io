@@ -3,6 +3,7 @@ layout: default
 title: How Do I..?
 nav_order: 1
 description: Quick guides to common customization and gameplay questions
+has_children: true
 ---
 
 
