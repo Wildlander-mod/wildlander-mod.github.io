@@ -13,22 +13,22 @@ This section covers the essential mechanics and systems that shape your experien
 ## Quick Reference: What Do I Need to Know?
 
 **How do I improve my gear?**
-→ [Tempering](https://wiki.wildlandermod.com/04WildlanderWorld/1-tempering/) - Improve weapons and armor quality for better effectiveness
+→ [Tempering](https://wiki.wildlandermod.com/04WildlanderWorld/1-Tempering/) - Improve weapons and armor quality for better effectiveness
 
 **How does the economy work?**
-→ [The Economy](https://wiki.wildlandermod.com/04WildlanderWorld/2-the-economy/) - Regional prices and profitable trade routes
+→ [The Economy](https://wiki.wildlandermod.com/04WildlanderWorld/2-The-Economy/) - Regional prices and profitable trade routes
 
 **What gear should I carry?**
-→ [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/04WildlanderWorld/3-essential-adventuring-and-travel-gear/) - Checklist for surviving beyond Riverwood
+→ [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/04WildlanderWorld/3-Essential-adventuring-and-travel-gear/) - Checklist for surviving beyond Riverwood
 
 **Will diseases kill me?**
-→ [Diseases](https://wiki.wildlandermod.com/04WildlanderWorld/8-diseases/) - Understand disease progression and cure methods
+→ [Diseases](https://wiki.wildlandermod.com/04WildlanderWorld/8-Diseases/) - Understand disease progression and cure methods
 
 **How do I get stronger?**
-→ [Trainers](https://wiki.wildlandermod.com/04WildlanderWorld/6-trainers/) - Locate trainers for all skills
+→ [Trainers](https://wiki.wildlandermod.com/04WildlanderWorld/6-Trainers/) - Locate trainers for all skills
 
 **Where do I complete quests?**
-→ [The Quests](https://wiki.wildlandermod.com/04WildlanderWorld/5-the-quests/) - Quest starts and progression guides
+→ [The Quests](https://wiki.wildlandermod.com/04WildlanderWorld/5-The-Quests/) - Quest starts and progression guides
 
 ---
 
@@ -36,19 +36,19 @@ This section covers the essential mechanics and systems that shape your experien
 
 Follow this recommended order to understand Wildlander's world:
 
-1. [Tempering](https://wiki.wildlandermod.com/04WildlanderWorld/1-tempering/) - Learn how to improve your gear quality
-2. [The Economy](https://wiki.wildlandermod.com/04WildlanderWorld/2-the-economy/) - Understand regional trade and pricing
-3. [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/04WildlanderWorld/3-essential-adventuring-and-travel-gear/) - Prepare before leaving settlements
-4. [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-the-divines--daedra/) - Religion, blessings, and consequences
-5. [Diseases](https://wiki.wildlandermod.com/04WildlanderWorld/8-diseases/) - Health hazards and cures
-6. [Food & Drink](https://wiki.wildlandermod.com/04WildlanderWorld/9-food--drink/) - Sustenance and survival
-7. [Trainers](https://wiki.wildlandermod.com/04WildlanderWorld/6-trainers/) - Skill training locations
-8. [The Quests](https://wiki.wildlandermod.com/04WildlanderWorld/5-the-quests/) - Available quests and starts
-9. [Followers and Mercenaries](https://wiki.wildlandermod.com/04WildlanderWorld/7-available-followers/) - Recruit and manage companions
-10. [Enchantments Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/11-enchantements/) - Advanced item crafting
-11. [Shout Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/12-shouts/) - Dragon shout effects and power
-12. [Player Homes](https://wiki.wildlandermod.com/04WildlanderWorld/10-player-homes/) - Purchasable bases and costs
-13. [Horses & Herds](https://wiki.wildlandermod.com/04WildlanderWorld/13-horses/) - Mount management and herds
+1. [Tempering](https://wiki.wildlandermod.com/04WildlanderWorld/1-Tempering/) - Learn how to improve your gear quality
+2. [The Economy](https://wiki.wildlandermod.com/04WildlanderWorld/2-The-Economy/) - Understand regional trade and pricing
+3. [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/04WildlanderWorld/3-Essential-adventuring-and-travel-gear/) - Prepare before leaving settlements
+4. [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-The-Divines/) - Religion, blessings, and consequences
+5. [Diseases](https://wiki.wildlandermod.com/04WildlanderWorld/8-Diseases/) - Health hazards and cures
+6. [Food & Drink](https://wiki.wildlandermod.com/04WildlanderWorld/9-Food-Drink/) - Sustenance and survival
+7. [Trainers](https://wiki.wildlandermod.com/04WildlanderWorld/6-Trainers/) - Skill training locations
+8. [The Quests](https://wiki.wildlandermod.com/04WildlanderWorld/5-The-Quests/) - Available quests and starts
+9. [Followers and Mercenaries](https://wiki.wildlandermod.com/04WildlanderWorld/7-Available-Followers/) - Recruit and manage companions
+10. [Enchantments Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/11-Enchantements/) - Advanced item crafting
+11. [Shout Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/12-Shouts/) - Dragon shout effects and power
+12. [Player Homes](https://wiki.wildlandermod.com/04WildlanderWorld/10-Player-Homes/) - Purchasable bases and costs
+13. [Horses & Herds](https://wiki.wildlandermod.com/04WildlanderWorld/13-Horses/) - Mount management and herds
 
 ---
 
