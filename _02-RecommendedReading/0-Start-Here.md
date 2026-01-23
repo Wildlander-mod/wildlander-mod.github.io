@@ -15,13 +15,13 @@ This section contains essential information to prepare you for Wildlander. The p
 
 Read these pages in order:
 
-1. **[Before You Begin](1-BeforeYouBegin)** - System requirements and initial setup
-2. **[Stability Test](2-Stability-Test)** - Verify your installation works correctly
-3. **[The UI](3-The-UI)** - Understand what you'll see on screen
-4. **[Introduction to Wildlander](4-An-Introduction-to-wildlander)** - Core mechanics and survival systems
-5. **[Changes From Vanilla](5-Changes-From-Vanilla)** - How Wildlander differs from vanilla Skyrim
-6. **[Keybindings](7-Keybindings)** - Complete reference of all hotkeys (bookmark this!)
-7. **[Important Information](8-Important-Information)** - Support resources and save tips
+1. **[Before You Begin](//_02-RecommendedReading/1-BeforeYouBegin)** - System requirements and initial setup
+2. **[Stability Test](//_02-RecommendedReading/2-Stability-Test)** - Verify your installation works correctly
+3. **[The UI](//_02-RecommendedReading/3-The-UI)** - Understand what you'll see on screen
+4. **[Introduction to Wildlander](//_02-RecommendedReading/4-An-Introduction-to-wildlander)** - Core mechanics and survival systems
+5. **[Changes From Vanilla](//_02-RecommendedReading/5-Changes-From-Vanilla)** - How Wildlander differs from vanilla Skyrim
+6. **[Keybindings](//_02-RecommendedReading/7-Keybindings)** - Complete reference of all hotkeys (bookmark this!)
+7. **[Important Information](//_02-RecommendedReading/8-Important-Information)** - Support resources and save tips
 
 **Estimated reading time:** 45-60 minutes
 
