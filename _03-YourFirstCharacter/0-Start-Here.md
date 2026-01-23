@@ -13,10 +13,10 @@ This section is your guide to starting, building, and surviving with your first 
 ## Quick Reference: Common Questions
 
 **Which race should I pick?**
-→ [Choosing Your Race & Build](https://wiki.wildlandermod.com/03-YourFirstCharacter/character-creation/#choosing-your-race--build) - Choose based on your preferred playstyle
+→ [Choosing Your Race & Build](https://wiki.wildlandermod.com/03-YourFirstCharacter/Character-Creation/#choosing-your-race--build) - Choose based on your preferred playstyle
 
 **How do I make money early?**
-→ [Early Game Income](https://wiki.wildlandermod.com/03-YourFirstCharacter/first-day/#early-game-income) - Fishing is most profitable, foraging is passive income
+→ [Early Game Income](https://wiki.wildlandermod.com/03-YourFirstCharacter/First-Day/#early-game-income-levels-1-5) - Fishing is most profitable, foraging is passive income
 
 **Why are enemies so hard?**
 → [Understanding Difficulty & De-leveling](#understanding-difficulty--de-leveling) - Wildlander is a de-leveled world
@@ -25,7 +25,7 @@ This section is your guide to starting, building, and surviving with your first 
 → [Basic Combat Mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/basic-combat-mechanics/) - Scout first, know enemy weaknesses, plan your approach
 
 **What should I buy first?**
-→ [Recommended Purchases](https://wiki.wildlandermod.com/03-YourFirstCharacter/first-day/#recommended-purchases-before-exploring) - Hunting knife, lantern, backpack are essentials
+→ [Recommended Purchases](https://wiki.wildlandermod.com/03-YourFirstCharacter/First-Day/#recommended-purchases-before-exploring) - Hunting knife, lantern, backpack are essentials
 
 ---
 
