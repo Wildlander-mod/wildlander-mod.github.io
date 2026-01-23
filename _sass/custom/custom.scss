@@ -380,25 +380,3 @@ background: transparent;
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
 }
-
-// Fix sidebar footer positioning on mobile (0.11 issue)
-.side-bar {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.side-bar nav {
-  flex-grow: 1;
-}
-
-.site-footer {
-  margin-top: auto;
-}
-
-// Hide footer on mobile, show on desktop
-@media (max-width: 799px) {
-  .site-footer {
-    display: none;
-  }
-}
