@@ -5,7 +5,6 @@ nav_order: 1
 description: Quick guides to common customization and gameplay questions
 ---
 
-# How Do I...?
 
 This section contains quick guides to answer common questions about customization, gameplay, and configuration in Wildlander.
 
