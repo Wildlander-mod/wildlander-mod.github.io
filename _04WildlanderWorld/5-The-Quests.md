@@ -1,10 +1,9 @@
 ---
 layout: default
 title: The Quests
-nav_order: 5
-
-
+nav_order: 8
 has_toc: true
+description: Quest starts and progression guides
 ---
 
 ## How do I start the main quest?

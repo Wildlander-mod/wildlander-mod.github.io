@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Horses & Herds
-nav_order: 4
+nnav_order: 13
 has_toc: true
+description: Horses, herds, and mount management
 ---
 
 ## Introduction

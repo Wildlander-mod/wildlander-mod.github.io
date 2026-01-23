@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Diseases
-nav_order: 8
-
-
+nav_order: 6
 has_toc: true
+description: Disease progression, stages, and cure methods
 ---
 
 Diseases in Wildlander are not something the can be ignored. Each disease has progression, whereby if not cured they will get worse. Wait too long and it may prove Fatal.... or worse

@@ -1,11 +1,9 @@
 ---
 layout: default
 title: The Divines & Daedra
-nav_order: 4
-
-
+nav_order: 5
 has_toc: true
-description: Religion and the Divines.
+description: Religion, the Divines, and Daedric powers
 ---
 
 

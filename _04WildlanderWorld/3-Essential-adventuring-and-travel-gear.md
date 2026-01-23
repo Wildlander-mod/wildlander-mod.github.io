@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Essential Adventuring & Travel Gear
-nav_order: 3
+nav_order: 4
 description: Essential Adventuring & Travel Gear
 ---
 

@@ -2,10 +2,8 @@
 layout: default
 title: The Economy
 nav_order: 2
-
-
 has_toc: true
-descrption: The Econemy 
+description: Regional hold economies and trading systems
 ---
 
 ## Local Holds Economy 
@@ -46,7 +44,7 @@ And as a final note - Location - Major cities have better prices than the smalle
 
 There are several new mechanics to familiarize yourself
 
-* Money weighs you down. Each coin weighs 0.0001 unit, so you won’t be able to save up too much of it. Refer back to the [Carry weight Guide](/03-YourFirstCharacter/CarryWeight/) for storage options.
+* Money weighs you down. Each coin weighs 0.0001 unit, so you won't be able to save up too much of it. Refer back to the [Carry Weight Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight/) guide for storage options.
 * You have to pay your followers daily. They start at 300 Septims, per player level Per day. This does not apply to Housecarls, only Mercenary followers.
 * Barter prices depend greatly on your Speech skill (and the perks you have invested), the Local Holds Economy, and the relationship and skills of the person you’re trading with. Buying directly from producers, Crafters & Specialists will save you money, while trading with fences or general goods merchants will cost you. Merchants in bigger cities will have more gold to trade with. Prices will depend on Where you are trading, your relationship with the merchant, as well as how covered in blood and dirt you are. Merchants restock after 3 days.
 * "Quality" Loot is generally much rarer. It won’t be uncommon for you to unlock a chest in open world and find nothing but a handful of septims or a potion (Boss Chests are a different matter).

@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Trainers
-nav_order: 6
-
-
+nav_order: 7
 has_toc: true
+description: Skill trainer locations and levels
 ---
 
 ## Alchemy
