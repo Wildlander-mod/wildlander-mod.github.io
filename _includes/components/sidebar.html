@@ -1,9 +1,9 @@
-<div class="side-bar">
+<header class="side-bar">
   <div class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
-    <a href="#" id="menu-button" class="site-button">
-      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
-    </a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
   </div>
   <nav aria-label="Main" id="site-nav" class="site-nav">
     {% assign pages_top_size = site.html_pages
@@ -75,14 +75,23 @@
     {%- endif -%}
   </nav>
 
-  {% capture nav_footer_custom %}
-    {%- include nav_footer_custom.html -%}
-  {% endcapture %}
-  {% if nav_footer_custom != "" %}
-    {{ nav_footer_custom }}
-  {% else %}
-    <footer class="site-footer">
-      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
-    </footer>
-  {% endif %}
-</div>
+  {% include_cached components/site_nav.html %}
+
+  {%- comment -%}
+    note: nav_footer_custom and/or this "site footer" appear in components/footer.html
+    for the mobile view.
+  {%- endcomment -%}
+
+  <div class="d-md-block d-none">
+    {% capture nav_footer_custom %}
+      {%- include nav_footer_custom.html -%}
+    {% endcapture %}
+    {% if nav_footer_custom != "" %}
+      {{ nav_footer_custom }}
+    {% else %}
+      <div class="site-footer">
+        This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+      </div>
+    {% endif %}
+  </div>
+</header>
