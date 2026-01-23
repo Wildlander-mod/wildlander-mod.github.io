@@ -5,6 +5,7 @@
       <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
     </button>
   </div>
+
   <nav aria-label="Main" id="site-nav" class="site-nav">
     {% assign pages_top_size = site.html_pages
           | where_exp:"item", "item.title != nil"
@@ -81,15 +82,15 @@
   {%- endcomment -%}
 
   <div class="d-md-block d-none">
-    {% capture nav_footer_custom %}
-      {%- include nav_footer_custom.html -%}
-    {% endcapture %}
-    {% if nav_footer_custom != "" %}
-      {{ nav_footer_custom }}
-    {% else %}
-      <div class="site-footer">
-        This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
-      </div>
-    {% endif %}
+  {% capture nav_footer_custom %}
+    {%- include nav_footer_custom.html -%}
+  {% endcapture %}
+  {% if nav_footer_custom != "" %}
+    {{ nav_footer_custom }}
+  {% else %}
+    <div class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </div>
+  {% endif %}
   </div>
 </header>
