@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: Derived Attribute
+title: Derived Attributes
 nav_order: 13
 description: Derived Attributes
 ---
