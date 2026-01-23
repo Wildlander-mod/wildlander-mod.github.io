@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Restoration Analysis
-has_toc: false
+nav_order: 15
 has_children: false
+description: Restoration skill tree analysis, healing mechanics, and perk progression.
 ---
 
 

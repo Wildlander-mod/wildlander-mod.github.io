@@ -1,20 +1,149 @@
 ---
 layout: default
-title: iEquip
+title: IEquip Deep Dive
 nav_order: 3
-has_toc: false
 has_children: false
-description: Iequip
+description: iEquip mod equipment management, weapon cycling, potion management, and quick functions.
 ---
 
+## What Is IEquip?
 
-iEquip is an antidote:-
-- To the endless menu grind which pervades Skyrim, allowing you to switch weapons, spells, shouts, powers and other equipment on the fly, without menus to pause and interrupt gameplay.
-- You can cycle and select ammo for an equipped ranged weapon, cycle through and consume potions, food and drink, apply poisons to equipped weapons, recharge your weapon enchantments and much more besides.
+Skyrim's menu system is notoriously inefficient. You pause the game, open your inventory, find a potion, consume it, close the menu, and resume—all while combat rages around you. IEquip removes this friction entirely by allowing you to switch weapons, spells, shouts, potions, and countless other items without opening a single menu.
 
-﻿In addition, iEquip comes with an arsenal of 'Quick' functions allowing you to quickly equip a ranged weapon, shield or ward if the situation calls for it, to quickly dual equip a spell, or to automatically select and consume regenerative or stat boosting potions as required. 
+Instead of pausing to equip your shield, you press a hotkey. Instead of digging through your inventory for a healing potion mid-combat, you hold a hotkey and IEquip administers the exact potion you need. No interruption. No menu. Pure immersive gameplay where your character stays focused on the fight rather than frantically searching their bags.
 
-﻿And you can do all of this with just four main game play hotkeys, so you don't have to rely on a keyboard map or memorizing numerous hotkeys, which means gamepad players can also leverage the full suite of features iEquip offers.
+The system revolves around **four main hotkeys**—one for your left hand, one for your right hand, one for shouts and powers, and one for consumables and poisons. Each hotkey responds to different press types: single tap, double tap, triple tap, and hold. This gives you unparalleled control over your equipment without requiring a memorized keyboard map or extensive configuration. Gamepad players benefit equally from these hotkey combinations, making IEquip fully accessible to all playstyles.
+
+## Building Your Equipment Queues
+
+At the heart of IEquip is the concept of **queues**—organized lists of your favorite weapons, spells, and items that cycle with each hotkey press.
+
+When you equip an item directly (through inventory, magic menu, or another hotkey system), IEquip automatically adds it to the appropriate queue. Your swords go to the right hand queue, your shield to the left, your flames spell to the spell queue. Over time, your queues fill with your most-used items, ready for instant access.
+
+You can also manually manage your queues through the **Queue Management Menu**, accessible in-game. Here you can reorder items, remove weapons you've outgrown, or clear everything and start fresh. If you accidentally added an item to your queue, mark it as blacklisted so it won't auto-add again if you equip it later.
+
+IEquip respects your choices. Two-handed weapons and ranged weapons lock to the right hand. Shields and ward spells lock to the left. Your most-used items stay at the top of the queue, so cycling through your weapons finds your sword, axe, and bow in seconds.
+
+## Cycling Through Weapons and Spells
+
+Combat in Wildlander demands flexibility. You might need a shield one moment and a spell the next. IEquip makes switching instantaneous.
+
+{: .note}
+**Wildlander Configuration Note**: By default, Wildlander disables left and right hand weapon cycling through the main hotkeys because repeated cycling can impact performance. However, the cycling feature remains available and fully functional if you wish to enable it through IEquip's MCM settings. The information below describes how weapon cycling works for reference, or if you choose to activate this feature.
+
+Press your left hand hotkey and cycle through shields, 1H weapons, or torches without breaking stride. Press your right hand hotkey and switch between swords, axes, bows, and spells. Each press cycles to the next item in your queue. Hold the Utility Key while cycling and move backward through your queue instead—useful when you overshoot your intended weapon.
+
+Double-tap your right hand hotkey while a spell is equipped, and IEquip instantly equips that same spell in both hands ready for dual casting. For synchronized spell combinations like flame and frost, or restoration and protection, this single action makes devastating spellcasting combinations accessible without cycling through every spell in your queue.
+
+Your shouts and powers cycle individually—shouts equip immediately when you cycle to them, ready to use. As you learn additional howls in werewolf form, you cycle between them just like normal shouts, keeping all your transformations fluid and responsive.
+
+## Ammo Management
+
+Archery becomes genuinely strategic with IEquip's ammo system. When you equip a ranged weapon, your left hand slot becomes an ammo cycler. Press your left hotkey and cycle through your available arrows—fire, frost, explosive, daedric—selecting exactly what you need for the shot ahead.
+
+You can configure IEquip to automatically prioritize your best ammo (by damage), your most abundant ammo (by quantity), or your most recent ammo (by name). Some configurations even keep your best ammunition automatically selected so you never waste powerful arrows on weak enemies.
+
+For hunters and archers who prioritize stealth, IEquip supports enchanted ammo fully, with special handling so enchanted arrows take priority over base arrows. Imagine cycling to your last poison arrow just as an archer rounds the corner—perfect timing, every time.
+
+The ammo system includes an advanced mode that lets you keep a secondary item in the left hand queue (like a dagger for close-quarters combat) that instantly re-equips when you put your bow away. Draw bow, shoot, lower bow, dagger appears in hand—all with smooth, logical item switching.
+
+## Potion Management and Smart Consumption
+
+IEquip revolutionizes potion use. Instead of opening your inventory and drinking randomly, you actively manage your health, stamina, and magicka through IEquip's intelligent system.
+
+Press your consumable hotkey to cycle through your potion queue—healing, magicka restoration, stamina enhancement. Hold the same hotkey and drink the displayed potion immediately. This simple action/hold pattern gives you complete control over which potion you consume and when.
+
+But IEquip gets smarter the more you use it. The **Smart Select** feature automatically identifies when you're in combat and low on health, and can be configured to consume a healing potion for you without you explicitly doing anything. Configure your thresholds—do you want healing at 50% health or 25%? IEquip remembers and acts accordingly.
+
+The system groups potions intelligently. All restoration potions gather in one group, fortification potions in another. IEquip shows you how many healing potions you have remaining and warns you when supplies run low—a visual indicator changes color when your healing potions dwindle below your configured threshold. It even checks for active potion effects, preventing you from double-dosing on buffs you already have active.
+
+For mage characters, the potion system integrates with spell management. If you'd rather cast a healing spell than drink a potion, you can configure IEquip to equip a healing spell first, then fall back to potions only if magic isn't available.
+
+## Weapon Enchantments and Soul Gems
+
+Carrying soulgems for weapon recharging has always been tedious. IEquip streamlines this through the **recharge system**.
+
+Your currently equipped weapon displays its enchantment charge status—a meter, a progress bar, or a dynamic soulgem showing remaining charge. When that meter dips below your configured threshold, a warning displays. When you're ready to recharge, hold your left or right hand hotkey and IEquip automatically selects the ideal soulgem for the job.
+
+You can configure IEquip to use the smallest adequate soulgem first (efficient, no wasted soul energy) or to use the largest soulgem (faster inventory management). You can even prevent "oversized" soulgem use, ensuring a grand soulgem never recharges an iron dagger's enchantment.
+
+For advanced mage setups with GIST—Genuinely Intelligent Soul Trap—IEquip recognizes partially-filled soulgems and handles them intelligently, letting you use up fragmented souls before cracking open new ones.
+
+## Quick Functions: Combat Decision-Making
+
+IEquip includes specialized **Quick Functions** triggered by triple-tapping hotkeys, giving you instant access to exactly what you need in heat-of-battle scenarios.
+
+**Quick Shield**: Triple-tap your left hand hotkey and IEquip finds the optimal shield or ward spell. If you're wielding a 2H weapon, it equips a shield and 1H weapon in one action, ready for defense. Casting spells? It equips a ward instead.
+
+**Quick Ranged**: Triple-tap your right hand hotkey to instantly equip your preferred ranged weapon. If you've already equipped ranged, triple-tap again to switch back to your melee weapons seamlessly.
+
+**Quick Restore & Quick Buff**: Triple-tap your consumable hotkey and IEquip assesses your character's status. Low health? It consumes a healing potion (or equips a healing spell if you've configured that preference). Low stamina? It drinks a stamina restoration potion. Low magicka? Magicka restoration activates. Multiple deficits at once? IEquip can intelligently consume up to nine potions with one activation, prioritizing the most critical needs first.
+
+**Quick Dualcast**: Configure IEquip to automatically equip specific spell schools in both hands. Devastating fireballs, dual wards, or synchronized elemental combinations—all accessible without manual cycling.
+
+**Preselect Mode**: Triple-tap your shout/power hotkey to enter Preselect Mode, revealing three additional item slots alongside your normal left, right, and shout slots. Cycle through these preselected items without equipping them, allowing you to queue up your next weapon combination while staying focused on current combat. When ready, double-tap to equip your preselected weapon, or hold to equip an entire set of items at once. This feature is perfect for complex loadouts that change frequently—warrior one moment, archer the next.
+
+## Poisons and Weapon Enhancement
+
+Beyond just equipping weapons, IEquip manages poison application and weapon modification.
+
+Double-tap your left or right hand hotkey while your consumable hotkey displays a poison, and that poison instantly applies to your equipped weapon. The widget shows you exactly which poison is currently applied and how many charges remain. You can stack multiple doses of the same poison (building to high charge counts) or swap poisons mid-fight, replacing the old poison with a fresh one.
+
+IEquip fully supports advanced mods like Complete Alchemy & Cooking Overhaul, recognizing special poisons, waxes, and oils with their appropriate charge counts and effects.
+
+## Torch Management and Light
+
+IEquip includes a dedicated torch system that transforms torch usage from an afterthought into a managed mechanic.
+
+Assign a **QuickLight hotkey** and press it to instantly equip a torch or the Candlelight spell—your choice, toggled between them. Unlike vanilla torches that reset their timer every time you unequip them (an exploit), IEquip's **Finite Torch Life** system tracks remaining torch life even when the torch is in your inventory. A torch that's been burning for three minutes stays burned for three minutes, whether equipped or sheathed.
+
+Watch your torch burn down through an immersive **Burn Out system**—as the final 30 seconds approach, the torch' light radius gradually decreases, casting your character into deeper shadow until the torch extinguishes completely. Your character's vision genuinely darkens as the light dies, creating tension and atmosphere.
+
+If you need darkness to escape pursuers, drop your lit torch with a quick action, and it continues burning on the ground where you left it, gradually dimming. Alternatively, configure IEquip to automatically equip a fresh torch when your current one extinguishes, maintaining light without manual action.
+
+## Beast Form Transformation
+
+IEquip's support for **werewolf and vampire transformations** keeps immersion intact even in beast form.
+
+When you transform into a werewolf, IEquip switches to displaying claw icons and howl switching. If you've learned multiple howls, cycling your shout/power hotkey switches between them. Transform back to human and your weapon queues reappear exactly where you left them.
+
+For **Dawnguard's Vampire Lord** form, your human spells and powers automatically become available in the queue. Powers, left hand spells (like Drain Health), and right hand spells all cycle normally. When you land from flight, IEquip automatically adjusts your equipment configuration—walking combat priorities differ from airborne combat.
+
+**Undeath mod's Lich form** receives the same treatment: all spells, powers, and abilities remain accessible through your normal cycling hotkeys, making transformation forms feel like natural combat states rather than menu-locked limitations.
+
+## Configuration and Customization
+
+IEquip comes with an extensive **Edit Mode** accessible through the in-game Utility Menu. In this mode, every widget element is individually customizable:
+
+- Position items anywhere on your screen
+- Scale elements larger or smaller
+- Adjust transparency for subtle or prominent display
+- Rotate elements for artistic preference
+- Change text colors to match your aesthetic
+- Align text left, center, or right
+
+Six optional widget backgrounds let you match your preferred visual style—from minimal and clean to detailed and immersive. Fadeout options let your widget disappear during non-combat moments, keeping your screen uncluttered.
+
+The **MCM configuration** provides deep control over behavior:
+
+- Adjust multi-tap and hold delays to match your reflexes
+- Configure which souls get used for recharging
+- Set potion consumption thresholds and priorities
+- Choose ammo sorting methods (damage, quantity, or name)
+- Enable or disable specific features entirely
+- Toggle Quick Functions on or off individually
+
+## Integration and Compatibility
+
+IEquip fully supports **Gamepad++** for gamepad users, providing unprecedented controller access to normally keyboard-dependent features. What keyboard users accomplish with hotkeys, gamepad players accomplish through carefully designed button combinations.
+
+The mod integrates with popular overhauls like **Complete Alchemy & Cooking Overhaul** (recognizing grenades, special potions, and oils), **Throwing Weapons Lite**, and other item-expanding mods, ensuring that all your custom items integrate seamlessly into the cycling system.
+
+## The Immersive Alternative
+
+IEquip represents a fundamental reimagining of inventory management. Instead of treating equipment as a menu system, it treats it as a real-time action system. Your character doesn't stop to think about which weapon to grab—they simply draw their next weapon from their prepared selections, ready to fight.
+
+For characters on expeditions, merchants on the road, and adventurers exploring dangerous dungeons, IEquip keeps the action flowing and the experience immersive. You focus on combat decisions, not inventory management. You stay in the world, not paused in a menu. That's what IEquip delivers.
 
 <div align="center">
 	<img src="https://i.imgur.com/5qCylD9.png">

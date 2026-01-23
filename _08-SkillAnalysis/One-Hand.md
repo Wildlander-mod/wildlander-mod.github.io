@@ -1,8 +1,9 @@
 ---
 layout: default
 title: One-handed Analysis
-has_toc: false
+nav_order: 13
 has_children: false
+description: One-handed skill tree analysis, combat mechanics, and perk progression.
 ---
 
 ## --Mechanics--

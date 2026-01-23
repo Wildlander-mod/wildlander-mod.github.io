@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Properties Without Pestering
-has_toc: false
+title: Properties Without Pestering Deep Dive
+nav_order: 5
 has_children: false
-description: Properties without Pestering
+description: Properties Without Pestering mod mechanics and property management.
 ---
 
 

@@ -1,8 +1,9 @@
 ---
-title: Crafting spreadsheet
+title: Crafting Spreadsheet
 layout: default
-nav_order: 2
-description: Crafting Spreadsheet
+nav_order: 8
+has_children: false
+description: Comprehensive crafting spreadsheet reference.
 ---
 
 

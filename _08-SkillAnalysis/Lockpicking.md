@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Lockpick Analysis
-has_toc: false
+nav_order: 10
 has_children: false
+description: Lockpicking skill tree analysis, lock mechanics, and perk progression.
 ---
 
 ## --Perk Analysis--

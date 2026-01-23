@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Heavy Armor Analysis
-has_toc: false
+nav_order: 8
 has_children: false
+description: Heavy armor skill tree analysis, armor mechanics, and perk progression.
 ---
 
 ## Introduction

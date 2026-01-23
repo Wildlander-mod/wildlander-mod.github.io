@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Werewolf Analysis
-has_toc: false
+nav_order: 11
 has_children: false
+description: Werewolf transformation analysis, mechanics, and perk progression.
 ---
 
 ### Becoming a Werewolf

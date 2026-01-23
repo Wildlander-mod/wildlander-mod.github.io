@@ -4,7 +4,7 @@ title: Weapons
 nav_order: 2
 has_toc: true
 has_children: false
-
+description: Weapon types, damage scaling, and comparative analysis.
 ---
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

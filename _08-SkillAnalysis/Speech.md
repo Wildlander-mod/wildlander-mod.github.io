@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Speech Analysis
-has_toc: false
+nav_order: 18
 has_children: false
+description: Speech skill tree analysis, dialogue mechanics, and perk progression.
 ---
 
 ![image](https://user-images.githubusercontent.com/26418143/157977949-8848f8b7-d310-4220-abaa-42f03c2651a6.png)

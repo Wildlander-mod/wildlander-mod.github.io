@@ -1,8 +1,9 @@
 ---
 title: Breakdown Recipes
 layout: default
-nav_order: 3
-description: Breakdown recipes
+nav_order: 6
+has_children: false
+description: Item breakdown and disassembly recipes.
 ---
 
 Wildlander includes a new type of crafting called breakdown(? key) which allows you to break down items into the components it was made from. For example armor into metal fragments, bones and teeth into bone fragments and wooden items into kindling for starting fires.

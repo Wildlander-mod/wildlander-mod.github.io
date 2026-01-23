@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Conjuration Analysis
-has_toc: false
+nav_order: 4
 has_children: false
-description: Conjuration Skill
+description: Conjuration skill tree analysis, summoning mechanics, and perk progression.
 ---
 
 

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Marksman Analysis
-has_toc: false
+nav_order: 12
 has_children: false
+description: Marksman skill tree analysis, archery mechanics, and perk progression.
 ---
 
 ## --Mechanics--

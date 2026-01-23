@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Illusion Analysis
-has_toc: false
+nav_order: 9
 has_children: false
+description: Illusion skill tree analysis, spell effects, and perk progression.
 ---
 
 

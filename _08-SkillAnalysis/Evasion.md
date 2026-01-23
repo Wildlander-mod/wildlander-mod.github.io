@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Evasion Armor Analysis
-has_toc: false
+nav_order: 7
 has_children: false
+description: Evasion skill tree analysis, light armor mechanics, and perk progression.
 ---
 
 ## --Perk Analysis--

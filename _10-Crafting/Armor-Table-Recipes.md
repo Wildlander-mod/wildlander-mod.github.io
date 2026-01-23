@@ -1,8 +1,9 @@
 ---
-title: Armor Table Recipes
+title: Armor Crafting Recipes
 layout: default
 nav_order: 4
-description: Armor Table recipes
+has_children: false
+description: Armor crafting recipes and materials.
 ---
 
 

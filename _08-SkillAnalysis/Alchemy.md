@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Alchemy Analysis
-has_toc: false
+nav_order: 1
 has_children: false
-description: Alchemy Skill
+description: Alchemy skill tree analysis, potion effects, and perk progression.
 ---
 
 

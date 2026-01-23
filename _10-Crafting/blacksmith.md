@@ -1,8 +1,9 @@
 ---
-title:  Blacksmith Recipes
+title: Blacksmith Recipes
 layout: default
-nav_order: 8
-description: Alchemy Ingredients
+nav_order: 5
+has_children: false
+description: Blacksmith crafting recipes and materials.
 ---
 
 

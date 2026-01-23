@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Block Analysis
-has_toc: false
+nav_order: 3
 has_children: false
-description: Block Skill
+description: Block skill tree analysis, damage mitigation, and perk progression.
 ---
 
 ## Introduction

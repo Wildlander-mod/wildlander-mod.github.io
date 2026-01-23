@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Immersive Equipment Display
-has_toc: false
+title: Immersive Equipment Display Deep Dive
+nav_order: 4
 has_children: false
-description: Immersive Equipment Display
+description: Immersive Equipment Display mod mechanics and customization.
 ---
 
 

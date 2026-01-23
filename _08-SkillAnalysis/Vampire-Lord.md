@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Vampire Lord Analysis
-has_toc: false
+nav_order: 20
 has_children: false
+description: Vampire Lord transformation analysis, mechanics, and perk progression.
 ---
 
 PLACE HOLDER Needs checking in SSE Edit!

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pickpocket Analysis
-has_toc: false
+nav_order: 14
 has_children: false
-description: Pickpocket Skill
+description: Pickpocket skill tree analysis, mechanics, and perk progression.
 ---
 
 ## --Mechanics--

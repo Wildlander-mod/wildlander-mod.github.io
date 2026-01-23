@@ -1,8 +1,9 @@
 ---
-title:  Alchemy Ingredients
+title: Alchemy Ingredients
 layout: default
-nav_order: 6
-description: Alchemy Ingredients
+nav_order: 2
+has_children: false
+description: Alchemy ingredients and recipe list.
 ---
 
 ## Crafted Using Alchemy Toolkit

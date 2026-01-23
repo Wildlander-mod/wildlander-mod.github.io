@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Sneak Analysis
-has_toc: false
+nav_order: 17
 has_children: false
+description: Sneak skill tree analysis, stealth mechanics, and perk progression.
 ---
 
 ## --Mechanics --

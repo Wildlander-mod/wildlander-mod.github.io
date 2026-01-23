@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Destruction Analysis
-has_toc: false
+nav_order: 5
 has_children: false
-description: Destruction Skill
+description: Destruction skill tree analysis, spell damage, and perk progression.
 ---
 
 

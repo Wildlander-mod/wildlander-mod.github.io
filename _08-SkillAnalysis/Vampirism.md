@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Vampirism Analysis
-has_toc: false
+nav_order: 21
 has_children: false
+description: Vampirism analysis, mechanics, powers, and progression.
 ---
 
 from https://www.reddit.com/r/skyrimrequiem/comments/1zm5li/analysis_of_requiem_mechanics_vampirism/ 

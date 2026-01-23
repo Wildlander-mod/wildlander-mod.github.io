@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Two-handed Analysis
-has_toc: false
+nav_order: 19
 has_children: false
+description: Two-handed skill tree analysis, combat mechanics, and perk progression.
 ---
 
 ## --Perk Analysis--

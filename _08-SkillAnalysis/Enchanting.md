@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Enchanting Analysis
-has_toc: false
+nav_order: 6
 has_children: false
+description: Enchanting skill tree analysis, item enchantments, and perk progression.
 ---
 
 ## Introduction

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Spell Research
-has_toc: false
+title: Spell Research Deep Dive
+nav_order: 6
 has_children: false
-description: Spell Research
+description: Spell Research mod mechanics, research system, and progression.
 ---
 
 The bulk of this page was originally posted by u/hazardoss on the Ultimate Skyrim Reddit page. I've retained as much the original post that is still relevant, however have made edits specific to wildlander itself.

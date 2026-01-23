@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Alteration Analysis
-has_toc: false
+nav_order: 2
 has_children: false
-description: Alteration Skill
+description: Alteration skill tree analysis, spell effects, and perk progression.
 ---
 
 
