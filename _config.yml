@@ -83,7 +83,7 @@ callouts:
     title: Warning
     color: red
   callout-code:
-    color: pink
+    color: blue
   NoTitleYellow:
     color: yellow
   NoTitleGreen:
