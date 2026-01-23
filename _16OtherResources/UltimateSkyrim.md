@@ -76,7 +76,7 @@ We also highly recommend a <a href="https://forums.nexusmods.com/index.php?%2Fst
 
 You can view the modlist [here](https://loadorderlibrary.com/lists/ultimate-skyrim-430-high-preset)
 
-Edit: 06/09/24 - last night Bethesda pushed a update via steam to Skyrim. As such you *may need* to downgrade your skyrim to complete installation. The steam download depot you need is ``` download_depot 72850 72853 3817241784354177437 ``` you can find instructions of how to depot downgrade [here](https://wiki.wildlandermod.com/09-How-Do-i/downgrade/) 
+Edit: 06/09/24 - last night Bethesda pushed a update via steam to Skyrim. As such you *may need* to downgrade your skyrim to complete installation. The steam download depot you need is ``` download_depot 72850 72853 3817241784354177437 ``` you can find instructions of how to depot downgrade [here](https://wiki.wildlandermod.com/09-How-Do-i/HowDoI/downgrade/) 
 
 Once that’s squared away, we can begin!
 

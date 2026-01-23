@@ -19,7 +19,7 @@ description: General Information
 | 🟡 Something isn't working right / unusual behavior | [Known Issues](https://wiki.wildlandermod.com/01Support/KnownIssues/) |
 | 🟡 Installation or Wabbajack errors | [Common Install Issues](https://wiki.wildlandermod.com/01Support/Common-Install-Issues/) |
 | ℹ️ General questions about Wildlander | [FAQ](https://wiki.wildlandermod.com/01Support/Faq/) |
-| ℹ️ Want to modify Wildlander | [Modding Guide](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/) |
+| ℹ️ Want to modify Wildlander | [Modding Guide](https://wiki.wildlandermod.com/09-How-Do-i/HowDoI/ModdingGuide/) |
 | ❓ Can't find what you need | Use the Wiki search bar or ask on Discord |
 
 ---

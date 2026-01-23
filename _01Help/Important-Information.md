@@ -19,7 +19,7 @@ description: General Information
 | 🟡 Something isn't working right / unusual behavior | [Known Issues](https://wiki.wildlandermod.com/01Support/KnownIssues/) |
 | 🟡 Installation or Wabbajack errors | [Common Install Issues](https://wiki.wildlandermod.com/01Support/Common-Install-Issues/) |
 | ℹ️ General questions about Wildlander | [FAQ](https://wiki.wildlandermod.com/01Support/Faq/) |
-| ℹ️ Want to modify Wildlander | [Modding Guide](https://wiki.wildlandermod.com/09-How-Do-i/ModdingGuide/) |
+| ℹ️ Want to modify Wildlander | [Modding Guide](https://wiki.wildlandermod.com/09-How-Do-i/HowDoI/ModdingGuide/) |
 | ❓ Can't find what you need | Use the Wiki search bar or ask on Discord |
 
 ---
@@ -40,7 +40,7 @@ description: General Information
 1. Do NOT private message or @ staff.
 1. If your save is from an incompatible version, and you have tried to play it on the newest version, we cannot help you.
 1. Modifying The Modpack = community support only. Staff reserve the right to decline to help people with issues on modified installs.
-1. To report a bug, first query with support as it may have already been reported (or check the full known issues page). They will advise you if you need to fill out a [bug report form]( https://wiki.wildlandermod.com/16OtherResources\bugreport\).
+1. To report a bug, first query with support as it may have already been reported (or check the full known issues page). They will advise you if you need to fill out a [bug report form](https://wiki.wildlandermod.com/16OtherResources/bugreport/).
 
 ---
 
