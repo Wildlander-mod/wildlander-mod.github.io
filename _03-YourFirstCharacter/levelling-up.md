@@ -83,7 +83,7 @@ Illusion on the other hand, will gain XP for targeted spells depending on the ta
 > For targeted spells: XPRate = 0.25 + (NPCLevel * sqrt(NPCLevel)) + ((0.01 * (Breakfreechance/2.0)) * sqrt(Breakfreechance/2.0))
 >
 > For passive Spells: Predefined XP per second - E.g Darkvision grants 0.1/s
- 
+
 Notes:
 * The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](http://wiki.wildlandermod.com/03-YourFirstCharacter/Magic-Mechanics/#resistance-versus-illusion-spells)
 * The field NPC Level is the NPC's level Divided by 10

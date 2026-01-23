@@ -380,3 +380,7 @@ background: transparent;
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
 }
+// Custom callout border styling
+.callout {
+  border-left: 4px solid !important;
+}
