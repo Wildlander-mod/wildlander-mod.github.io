@@ -26,7 +26,7 @@ A lot of people who are new to Requiem don't know what to do in the early game t
 > 
 > This guide uses more cheese tactics than a McDonald's uses in a month!
 
-Character created must have Lock-picking and Smithing perks |(and selected them as starting talents) to make best use of this guide. First perks from level ups if not chosen at character create should be allocated into Speechcraft, then optionally Alchemy. If you don't plan on taking alchemy, then you can still sell any herbs you forage.
+Character created must have Lock-picking and Smithing perks (and selected them as starting talents) to make best use of this guide. First perks from level ups if not chosen at character create should be allocated into Speechcraft, then optionally Alchemy. If you don't plan on taking alchemy, then you can still sell any herbs you forage.
 
 At all points in the guide players should
 1. Loot every herb you come across
@@ -562,7 +562,7 @@ Narzulbur - East of Kynesgrive has a load of ebony you can mine for free.
 
 Make sure you start "research" from your spell research journal whenever you are "training" for bonus XP.
 
-** Always use your trainers every time you level **
+**Always use your trainers every time you level**
 
 For Destruction and restoration no fighting required, just jump in a forge and heal the fire effect. The fire damage from forge give destruction xp and you heal yourself to earn restoration.
 
@@ -584,7 +584,7 @@ At higher levels
 
 Destruction: Trolls. Specifically frost spells getting cast on frost trolls from a safe height. Destruction becomes stupidly difficult to level with fire and lightning as many things just die instantly. So instead of killing thousands of bandits, find a bunch of trolls. Each tick of Icestorm (level 50 Adept spell) generates XP and there's several ticks per cast per troll. 
 
-Conjuration - make sure you always have a bound weapon summoned.
+Conjuration - make sure you always have a bound weapon summoned. Use Summon Swarm Rank 2 wherever possible.
 
 Illusion: Trolls again. Cast Enraging Orb and watch them fight each other and heal from the damage.  At higher level, cast Fog of Shadow in areas with many high level enemies, like Falmer. They hear the noise of the spell impact and will investigate the area, becoming influenced again and again. To stay out of combat, cast Shadow Stride on yourself.
 
