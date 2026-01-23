@@ -8,7 +8,43 @@ description: Start here for your first Wildlander character
 
 # Welcome: Your First Character
 
-This section is your guide to starting, building, and surviving with your first character in Wildlander. Follow the recommended reading order below for the best experience:
+This section is your guide to starting, building, and surviving with your first character in Wildlander.
+
+## Quick Reference: Common Questions
+
+**Which race should I pick?**
+→ [Choosing Your Race & Build](https://wiki.wildlandermod.com/03-YourFirstCharacter/character-creation/#choosing-your-race--build) - Choose based on your preferred playstyle
+
+**How do I make money early?**
+→ [Early Game Income](https://wiki.wildlandermod.com/03-YourFirstCharacter/first-day/#early-game-income) - Fishing is most profitable, foraging is passive income
+
+**Why are enemies so hard?**
+→ [Understanding Difficulty & De-leveling](#understanding-difficulty--de-leveling) - Wildlander is a de-leveled world
+
+**How do I survive combat?**
+→ [Basic Combat Mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/basic-combat-mechanics/) - Scout first, know enemy weaknesses, plan your approach
+
+**What should I buy first?**
+→ [Recommended Purchases](https://wiki.wildlandermod.com/03-YourFirstCharacter/first-day/#recommended-purchases-before-exploring) - Hunting knife, lantern, backpack are essentials
+
+---
+
+## Understanding Difficulty & De-leveling
+
+Wildlander is a **de-leveled world**: enemies don't scale with your level. This means:
+
+- **Levels 1-5:** Avoid dungeons and bandit camps. Focus on gathering, fishing, and training.
+- **Levels 5-15:** You can attempt easier content (bandits, wildlife), but still be cautious.
+- **Levels 15+:** You unlock harder content with better perks and gear.
+- **No "quest anywhere":** Not all content is available at level 1—some locations have enemies far beyond your current skill.
+
+**Key Takeaway:** If you're dying repeatedly, you're in content above your pay-grade. Come back later with better gear and skills!
+
+---
+
+## Reading Order
+
+Follow this recommended reading order for the best experience:
 
 1. [Your First Character - Video guides](https://wiki.wildlandermod.com/03-YourFirstCharacter/your-first-character/)
 2. [Character Creation](https://wiki.wildlandermod.com/03-YourFirstCharacter/character-creation/)

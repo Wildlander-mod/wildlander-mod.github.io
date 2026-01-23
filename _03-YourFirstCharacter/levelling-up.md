@@ -31,33 +31,38 @@ Some skills will only increase when there is an active component associated with
 
 ### Weapon/Block/Armor XP
 
-The formula is ( Factor * Skill Usage Multiplier)
+{: .note}
+**TL;DR:** The more damage you deal/block, the faster you level weapon and armor skills. Moving in armor also levels it.
 
-Factor is defined as:-
-* Weapons skills increase by a percentage of the damage done.
-* Armor skills increase by a percentage of the damage blocked, or by simply moving in the armor 
-* Block increases by a percentage of raw damage blocked, or by shield bashing.
+The formula is (Factor × Skill Usage Multiplier)
 
-Note: 
-* The % of damage done is calculated at engine level and is identical to vanilla. I am unable to find a exact figure for this component.
+Factor is defined as:
+* **Weapons skills** increase by a percentage of the damage done
+* **Armor skills** increase by a percentage of the damage blocked OR by simply moving in the armor
+* **Block** increases by a percentage of raw damage blocked OR by shield bashing
+
+**Technical Note:** The % of damage done is calculated at engine level and is identical to vanilla. I am unable to find an exact figure for this component.
 
 ---
 
 ### Spell XP
 
+{: .note}
+**TL;DR:** Most spells level up based on magicka cost + damage dealt. Illusion is special—you gain XP continuously while the spell is active.
+
 With the exception to Illusion spells, XP is calculated in general terms much the same as vanilla.
 
+**Destruction & Restoration Spells:**
 ```
-For Targeted Spells from destruction and restorations trees, your skills increase based upon how much raw damage you cause/heal
-
-XP = (Base Magic Cost * Skill Usage Multiplier) + (% of Damage Done * Skill Usage Multiplier) 
-
-otherwise
-
-XP = (Base Magic Cost * Skill Usage Multiplier), 
-
-The Base Cost will either be the CK auto-calculated spell cost for the Magic Effects or the fixed Requiem spell cost, whichever is lower. It will not be reduced by any perks you have which affect magic costs or any armor you are wearing which increases the costs - it simply uses the base.
+XP = (Base Magic Cost × Skill Usage Multiplier) + (% of Damage Done × Skill Usage Multiplier)
 ```
+
+**Other Schools:**
+```
+XP = (Base Magic Cost × Skill Usage Multiplier)
+```
+
+**Important:** Base cost uses the CK auto-calculated spell cost OR the fixed Requiem spell cost, whichever is lower. It's not reduced by perks or armor—only the base matters.
 
 Notes:
 * if in the CK a spell would cost 30 magicka when auto-calced, but Requiem makes it cost 200 magicka you only get the xp as if the cost was 30. It can also be limited the other way, so if a spell auto cost was 200, but Requiem had the manual cost as 50, you would only get 50 magicka as the cost for the calculation.

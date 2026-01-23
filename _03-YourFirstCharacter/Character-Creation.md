@@ -16,7 +16,41 @@ If you just want to Play around killing bandits or whatever, you can pretty much
 
 Going a Spellsword/Battlemage build is not recommended for beginners - as there are a lot of mechanics relating to heavy armor & spell casting that make this one of the hardest builds to master.
 
-General rules for successful build - One ranged ability, One Defense ability, One melee ability and 3 support skills. 
+General rules for successful build - One ranged ability, One Defense ability, One melee ability and 3 support skills.
+
+---
+
+## Choosing Your Race & Build
+
+**Not sure which race to pick?** Use this quick guide based on your preferred playstyle:
+
+### Melee Combat (Warriors)
+**Best Choices:** Nord, Orc, or Redguard
+- **Nord** - Strong two-handed damage, frost resistance, best for dual-wielding or 2H weapons
+- **Orc** - Highest stamina pool, excellent for heavy armor and damage output
+- **Redguard** - Balanced damage and stamina, great for hybrid playstyles
+
+### Ranged Combat (Archers)
+**Best Choices:** Wood Elf, Khajiit, or Redguard
+- **Wood Elf** - +15 Archery bonus, excellent with light armor
+- **Khajiit** - Best movement speed, strong pickpocket/sneak perks for stealth archers
+- **Redguard** - Balanced stamina for holding arrows
+
+### Magic (Mages)
+**Best Choices:** High Elf, Breton, or Wood Elf
+- **High Elf** - Most magicka, best spell efficiency, recommended for pure mages
+- **Breton** - Good magic resistance, can absorb enemy spells
+- **Wood Elf** - Balanced magicka, works for hybrid magic builds
+
+### Stealth/Thief
+**Best Choices:** Khajiit, Wood Elf, or Dark Elf
+- **Khajiit** - Highest movement speed, excellent for sneaking and lockpicking
+- **Wood Elf** - Good light armor bonus and sneak bonus
+- **Dark Elf** - Balanced offense and stealth, fire resistance useful
+
+**Note:** Any race can play any build—these are just the optimized choices. Pick based on lore preference if you want!
+
+--- 
 
 For more guidance on builds and examples - you can see the class guides section of the Wiki.
 

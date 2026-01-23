@@ -6,7 +6,7 @@ nav_order: 7
 description: Basic Combat Mechanics
 ---
 
-In this world everybody and everything hits harder. You, the wildlife and NPCs. You will die faster and kill faster. It changes the game, it's deadlier and each strike feels harder than the last. It's really Fun, with a real sence of achievement when you kill a difficult creature for the first time. But at the same time there is less room for mistakes - one wrong move and your staring at your enemies feet. Killing stuff isnt as simple as wading in and slapping enemies til they fall over, chugging the occasional health potion when you get a bit low. In simple terms you need planning & tactics. Never underestimate the power of scouting first. The main reason for this is: if you don't, you die. And you don't even know how it happened.
+In this world everybody and everything hits harder. You, the wildlife and NPCs. You will die faster and kill faster. It changes the game, it's deadlier and each strike feels harder than the last. It's really fun, with a real sense of achievement when you kill a difficult creature for the first time. But at the same time there is less room for mistakes—one wrong move and you're staring at your enemies' feet. Killing stuff isn't as simple as wading in and slapping enemies until they fall over, chugging the occasional health potion when you get a bit low. In simple terms you need planning & tactics. Never underestimate the power of scouting first. The main reason for this is: if you don't, you die. And you don't even know how it happened.
 
 The questions you should ask yourself - What kinds of enemies do I face? Where are they? How will they try to kill me? How can I kill them? The first two of those questions you can usually answer by opening your eyes and liberal use of the instincts skill and identify target abilities. Use your ears to locate things we cant see. Luckily for us, almost everything in Skyrim sees it as a necessity to constantly make one noise or another. For the third and fourth question, I put humanoid NPCs in categories based on what they are wielding, and what armor they are wearing. Charging in Hacking and slashing without proper target planning will generally kill you. Trading blows is all well and good if your armor is better that theirs but if its the opposite way around - thats quick trip to the morgue (on in a vampire's case - the buffet table). You need to understand each opponent tactics an behavior in order to use the right tactics against them.
 
@@ -37,13 +37,29 @@ Lightly armored bandits die so satisfyingly quickly when caught off guard. (like
 
 Heavy's are slow. Seriously. When one of those tries a power attack on you, you can dodge the attack, circle around him, and hit him as hard as you can in the back (unless, of course, you are just as slow)
 
-Archers have a hard time keeping up with zig-zagging, ones with a crossbow have a long reload time, so use this wisely.
+Archers have a hard time keeping up with zig-zagging; ones with a crossbow have a long reload time, so use this wisely.
 
-For those carrying two-handed weapons, there is a long time between the strike of the power attack, and the time they can do anything again. This means free, unblocked hits for you, which means death for a lot of not so heavy bandits.
+For those carrying two-handed weapons, there is a long time between the strike of the power attack and the time they can do anything again. This means free, unblocked hits for you, which means death for a lot of lighter bandits.
 
-Mudcrabs hunch up right before doing the power attack - if you see this it makes it easy to dodge.
+Mudcrabs hunch up right before doing the power attack—if you see this, it's easy to dodge.
 
-A single wolf will always retreat, focus your attacks rather than trying to kill all at once.
+A single wolf will always retreat; focus your attacks rather than trying to kill all at once.
+
+---
+
+## Quick Reference: Enemy Weaknesses
+
+Use this table to quickly identify how to counter each enemy type:
+
+| Enemy Type | Primary Weakness | Counter Strategy |
+|--|--|--|
+| **Heavy Armor** | Slow movement, vulnerable during/after power attacks | Circle behind, backstab or flank; dodge and counter-attack |
+| **Archer** | Close-range combat, long reload times (crossbow) | Rush in fast or use cover; zig-zag to avoid arrows |
+| **Two-Handed Wielder** | Long attack animation, slow recovery | Side-step dodge, counter-attack during recovery |
+| **Shield User** | Can't block behind | Circle to flank; use magic or ranged to bypass shield |
+| **Light Armor Bandit** | Low health, no perk investment | Kill quickly with ranged or melee; catch off-guard |
+| **Wolf** | Hunts in packs, single wolves retreat | Focus fire on one wolf; use terrain/cover |
+| **Mudcrab** | Slow, hunches before power attack | Watch for hunch animation, dodge power attack |
 
 {: .important}
 Any other types of the enemy not covered above have their strengths and weaknesses covered in the “Bestiary of Skyrim” (or in the [Beastiary](https://wiki.wildlandermod.com/17Bestiary/Beastiary/) section of this wiki). Some require specialist weapons or spells, others take less damage from certain types of damage, or have health regeneration.  
@@ -76,6 +92,35 @@ High mass (wearing HA most of the time) cons :
 * noise, it makes sneaking harder (but not impossible)
 
 High mass pros :
-* better resistance to stagger and knock back effect
-* better chance to trigger stagger and knock back effect on enemies. Charge mechanics are your friend.
-* high level of AR ('cause you are wearing heavier armor)
+* Better resistance to stagger and knock back effect
+* Better chance to trigger stagger and knock back effect on enemies. Charge mechanics are your friend.
+* High level of AR (because you are wearing heavier armor)
+
+---
+
+## Combat Flow: Beginner Strategy
+
+Here's a simple combat rotation for new players:
+
+### Melee Combat Approach
+1. **Scout first** - Use instincts or identify target to see what you're facing
+2. **Position** - Get high ground or use cover to control engagement
+3. **Target priority** - Kill archers first, then light armor, then heavy armor last
+4. **Engage** - Use light attacks and blocking, avoid power attacks until higher levels
+5. **Disengage** - If overwhelmed, fall back and heal or flee
+
+### Ranged Combat Approach
+1. **Scout** - Identify targets before being spotted
+2. **Find cover** - Position behind rocks/trees to avoid melee engagement
+3. **Snipe** - Take out archers and mages first from range
+4. **Move** - Keep mobile; don't stay in one spot
+5. **Fallback** - If melee reach you, switch to backup weapon or run
+
+### Magic Combat Approach
+1. **Cast at range** - Keep distance; casters die fast in melee
+2. **Manage magicka** - Watch magicka pool; don't cast if low (spell costs multiply)
+3. **Target weakness** - Use fire on ice enemies, shock on water enemies, etc.
+4. **Utility spells** - Use bound weapons, Mage Armor, or damage buffs when available
+5. **Escape** - Always have a fallback plan (invisibility, teleport, flee)
+
+**Key Takeaway:** Good combat is about planning, positioning, and target prioritization—not just button mashing!

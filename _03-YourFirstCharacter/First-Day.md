@@ -6,12 +6,43 @@ nav_order: 3
 description: Starting your first day
 ---
 
-#### Before moving your character
+## Critical First Steps
 
-* Make sure you set up the “Q” Favorites menu with your weapon sets to make switching spells or ranged/melee weapons quickly. You can do this by favoriting your spells/weapons and then open the Q menu. Click the weapon and assign it a hotkey by pressing any number key up to ‘8’.
-* Review the F11 keybindings.
+**Do these immediately after spawning:**
 
-Once you spawn into the world, the first thing you should do is allocate your perks. The next thing a new character should make sure of is that they get to a safe location. For brand new players, Riverwood is ideal to start with. Riverwood has plentiful trees for wood gathering, a river to drink from, a free wood chopping axe at the lumber mill, a free fishing rod at the guardian stones (can be tricky to get to with the wolves), a tent to sleep in, and cooking fire. The ideal spawn points to get to this location would be Whiterun Inn, then run up, or more dangerous Helgen or Falkreath borders and run down.
+1. **Allocate your perks** - You start with 6 perk points. Don't skip this!
+2. **Set up the "Q" Favorites menu** - Favorite your weapon sets and assign hotkeys (0-8) for quick switching between spells and weapons
+3. **Review keybindings** - Check F11 for important hotkeys you'll need constantly
+4. **Reach a safe location** - Riverwood is ideal for new players; spawn at Whiterun Inn and run north
+
+{: .warning}
+**Avoid combat until you're ready!** Wildlife will kill you at level 1. Play it safe for the first few levels.
+
+---
+
+## Immediate Needs (First Priority)
+
+Before exploring or grinding, take care of these essentials:
+
+### Food & Water
+- Purchase food from the Inn or cook raw meat/fish at a campfire (Hotkey `Right Shift`)
+- Drink from rivers regularly (Hotkey `;`) when you see the drink icon
+- Activate cows you see to collect milk for drinking or baking recipes
+
+### Sleep & Warmth
+- Find a tent to sleep in (Riverwood has free tents)
+- Build campfires to warm up (Hotkey `<`) and reduce exposure
+- A **fur tent** protects you from cold; a **leather tent** protects from rain
+
+### Cleanliness
+- Bathe regularly in rivers (Hotkey `'/@`) - dirtiness reduces speech skill and disease resistance
+- **Always bathe before buying/selling** to maximize profits
+
+---
+
+## Early Game Income (Levels 1-5)
+
+### Best Income Methods
 
 To start earning money in order to feed yourself, you can get a wood chopping axe or a war axe and “Attack” to harvest trees (or use the chopping blocks at the lumber mills). Sell this wood to give yourself a bit of coin, each piece only sells for 1g so I wouldn't recommend doing this for long. You can also use the wood you obtain to level your camping skills by making kindling and tinder, which will allow you to make a campfire (Hotkey `<`) to keep yourself warm. You should also frequently use the forage (Hotkey `>`) ability to look for edibles and alchemy ingredients. And when the “drink” icon appears, use the river to drink (Hotkey `;`). You should also pick any herbs you spot on your travels - even if you don't plan on being an alchemist - everything sells.
 

@@ -1,6 +1,11 @@
 ---
+layout: default
 nav_order: 13
 description: Derived Attributes
+---
+
+
+
 The following player attributes are calculated from your Health, Stamina or Magicka.  By investing level up points in the three main attributes, the player increases, not only the base value of these by 5 units at a time, but also the so-called derived attributes (DAs) by a certain amount. The current value of the DAs of a character can be seen in-game in Requiem's skills MCM menu.
 
 * Magic resistance
