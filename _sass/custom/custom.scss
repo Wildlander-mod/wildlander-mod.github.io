@@ -380,7 +380,21 @@ background: transparent;
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
 }
+
 // Custom callout border styling
 .callout {
   border-left: 4px solid !important;
+}
+
+// Override highlight callout background from purple to yellow
+.callout.highlight,
+.highlight {
+  --callout-color: #7B5F0C !important;
+  background-color: rgba(123, 95, 12, 0.15) !important;
+  border-left-color: #7B5F0C !important;
+}
+
+.callout.highlight > p,
+.highlight > p {
+  color: inherit !important;
 }
