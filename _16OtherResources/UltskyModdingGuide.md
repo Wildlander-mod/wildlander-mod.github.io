@@ -216,10 +216,9 @@ Right side
 ![Right Side Bottom](https://github.com/user-attachments/assets/87440aad-b19e-4796-986d-b480b6441989)
 
 
-```
-Changelog:
-Enabled the scripts from the mod Alternate House of Horrors. Without the scripts activated the mod would not work.
-```
+{: .callout-code }
+> Changelog:
+> Enabled the scripts from the mod Alternate House of Horrors. Without the scripts activated the mod would not work.
 
 ### Sacrosanct - Vampires of Skyrim with Seg's patch* [Patch updated 2019/08/21]
 
@@ -299,10 +298,9 @@ _Installing_ _on an existing save:_
 
 If you install this mod mid-game, the standing stones in Skyrim will be updated, but your currently active abilities may not be updated automatically. To reset your active powers after installing the mod, travel to a different standing stone in the[ same group](https://www.reddit.com/r/skyrimrequiem/wiki/standing_stones#wiki_standing_stones_of_requiem_.28v_3.0.29) and activate it. Then travel back to your original standing stone and re-activate it. See the stone locations[ here](https://en.uesp.net/wiki/Skyrim:Standing_Stone). (To speed up the process you can use 'coc' in the console to teleport to each standing stone. The "Console Location Code" is listed on the individual standing stone pages).
 
-```
-Changelog:
-- Bugfix - Removes conflict with Skyrim unbound reborn so that MCM options are not messed up.
-```
+{: .callout-code }
+> Changelog:
+> - Bugfix - Removes conflict with Skyrim unbound reborn so that MCM options are not messed up.
 
 ---
 
@@ -320,14 +318,13 @@ _A big Thank You to SNBCJ for his great work!_
 * _Requiem - Classic Food and Drink (R-CFD) 3.3 ...................**[updated for US 406 HF2]**_
 
 	
-```
-Changelog:
-- Bugfix - Removes conflict with Skyrim unbound reborn so that MCM options are not messed up.
-
-- Updated Khajit and Argonian races (including vampire) to keep their Ultimate Skyrim perks.
-    - Claw attack for argonian
-    - Perkless lockpicking for Khajiit
-```
+{: .callout-code }
+> Changelog:
+> - Bugfix - Removes conflict with Skyrim unbound reborn so that MCM options are not messed up.
+> 
+> - Updated Khajit and Argonian races (including vampire) to keep their Ultimate Skyrim perks.
+>     - Claw attack for argonian
+>     - Perkless lockpicking for Khajiit
 
 
 ### Requiem - Immersive Divine Blessings (R-IDB) v1.31
@@ -772,15 +769,15 @@ As always - You have to run Reqtificator.
 [Patch location](https://discord.com/channels/344256550640287755/566109104360390657/711400642203222038)
 
 Changes Nightingale armor values to
-```
-* Hood: 20 Illusion, 25 Ranged, +30 Magicka
-* Chest: 30% Magic Resist, 25% Sneak, 100% Poison Resist
-* Gloves: +18 Lock Picking, +20 Lockpick expertise, 20% One handed, 35% Pickpocket
-* Shoes: +100 Stamina, 100% Stamina Regen, Muffle 1
 
-Also changes Ancient Shrouded Cowl and Ancient Shrouded Boots to match the hood and boots respectively. 
-because Requiem is lazy and uses the same effect for both.
-```
+{: .callout-code }
+> * Hood: 20 Illusion, 25 Ranged, +30 Magicka
+> * Chest: 30% Magic Resist, 25% Sneak, 100% Poison Resist
+> * Gloves: +18 Lock Picking, +20 Lockpick expertise, 20% One handed, 35% Pickpocket
+> * Shoes: +100 Stamina, 100% Stamina Regen, Muffle 1
+>
+> Also changes Ancient Shrouded Cowl and Ancient Shrouded Boots to match the hood and boots respectively. 
+> because Requiem is lazy and uses the same effect for both.
 
 Install Instructions:
 > Load anywhere after Requiem ESP. Left side doesn't matter.

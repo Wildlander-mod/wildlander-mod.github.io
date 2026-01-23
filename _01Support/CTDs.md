@@ -44,9 +44,8 @@ description: Help I'm getting CTD's
 
 **Step 2: Find the Crash Code**
 The first few lines will show something like:
-```
-Unhandled native exception occurred at 0x7FFEF914CE66 (skse64_1_5_97.dll+5CE66) on thread 7360!
-```
+{: .callout-code}
+> Unhandled native exception occurred at 0x7FFEF914CE66 (skse64_1_5_97.dll+5CE66) on thread 7360!
 
 The part in **parentheses** is what you're looking for. Examples:
 - `(SkyrimSE.exe+132BEF)` - Game engine problem
@@ -245,11 +244,10 @@ NPC Irlof is causing the game to bomb out. Fortunately he is just a "flavor" NPC
 
 Fix: Use the following console commands to make him go away (one per line).
 
-```
-prid 0005226B
-markfordelete
-disable
-```
+{: .callout-code}
+> prid 0005226B  
+> markfordelete  
+> disable
 
 ---
 

@@ -17,10 +17,13 @@ _This guide has been created for new users in mind that want to stress test the 
 1.  Find “Sunhelm” and **Disable**
 1.  Find “Frostfall” and **Disable**
 1.  Open Console by pressing '~' “Tilde” Key is below ESC*
-1.  type: tgm   (Enter)  *  This Enables "The God Mode"
-1.  player.setav speedmult 1200 (Enter) *This adjusts your characters speed*
-1.  set timescale to 1000 (Enter) *This adjusts your worlds timescale*
-1.  coc whiterun (Enter) *This teleports you to Whiterun*
+
+{: .console }
+> type: tgm   (Enter)  *  This Enables "The God Mode"
+> player.setav speedmult 1200 (Enter) *This adjusts your characters speed*
+> set timescale to 1000 (Enter) *This adjusts your worlds timescale*
+> coc whiterun (Enter) *This teleports you to Whiterun*
+
 1.  Your goal now is to run from Whiterun to Solitude Docks
     - You will get some stutter, maybe even a lot - that is fine. You just don't want to CTD.
     - Stay on the road the best you can while also trying to complete this as fast as you can
@@ -55,10 +58,11 @@ This could indicate a problem/corruption with the install OR you selected too mu
 
 1. Firstly Make sure you have setup the page file as recommended <https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/#page-files>
 1. Then create a character using both of the following tests
-```
-	Test with the lowest settings, (Potato Graphics, No shaders, Performance list.)
-	Repeat with the lowest settings, (Potato Graphics, No shaders, Standard list.)
-```	
+
+{: .NoTitleGreen }
+> Test with the lowest settings, (Potato Graphics, No shaders, Performance list.)
+> Repeat with the lowest settings, (Potato Graphics, No shaders, Standard list.)	
+
 If both tests pass - then you were probably running too high for what your PC was capable of running or you had insufficient page-file. You can now increase the settings on the launcher until you find one that your PC can play.
 
 If you continue to crash - Please consult with Staff on discord who will take a look at your crash logs to suggest corrective action.

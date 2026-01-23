@@ -52,14 +52,14 @@ Factor is defined as:
 With the exception to Illusion spells, XP is calculated in general terms much the same as vanilla.
 
 **Destruction & Restoration Spells:**
-```
-XP = (Base Magic Cost × Skill Usage Multiplier) + (% of Damage Done × Skill Usage Multiplier)
-```
+
+{: .callout-code }
+> XP = (Base Magic Cost × Skill Usage Multiplier) + (% of Damage Done × Skill Usage Multiplier)
 
 **Other Schools:**
-```
-XP = (Base Magic Cost × Skill Usage Multiplier)
-```
+
+{: .callout-code }
+> XP = (Base Magic Cost × Skill Usage Multiplier)
 
 **Important:** Base cost uses the CK auto-calculated spell cost OR the fixed Requiem spell cost, whichever is lower. It's not reduced by perks or armor—only the base matters.
 
@@ -79,14 +79,10 @@ Notes - Conjuration:
 
 Illusion on the other hand, will gain XP for targeted spells depending on the target, the higher the level, and the longer you keep the spell on a target the more XP you'll gain. Also XP are granted not per cast like in vanilla, but instead a continuous stream of XP while they remain active. For spells such as dark-vision, this is as long you can keep the spell active though its upkeep. for mind control spells, this is as long as the target remains afflicted and doesn't break free.
 
-```
-For targeted spells
-	 XPRate = 0.25 + (NPCLevel * sqrt(NPCLevel)) + ((0.01 * (Breakfreechance/2.0)) * sqrt(Breakfreechance/2.0)) 
-
-For passive Spells
-	Predefined XP per second - E.g Darkvision grants 0.1/s
-
-```
+{: .callout-code }
+> For targeted spells: XPRate = 0.25 + (NPCLevel * sqrt(NPCLevel)) + ((0.01 * (Breakfreechance/2.0)) * sqrt(Breakfreechance/2.0))
+>
+> For passive Spells: Predefined XP per second - E.g Darkvision grants 0.1/s
  
 Notes:
 * The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. This is explained further [here](http://wiki.wildlandermod.com/03-YourFirstCharacter/Magic-Mechanics/#resistance-versus-illusion-spells)
