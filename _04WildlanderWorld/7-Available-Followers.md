@@ -2,7 +2,6 @@
 layout: default
 title: Followers and Mercenaries
 nav_order: 9
-has_toc: true
 description: Available followers and mercenaries in Wildlander
 ---
 

@@ -2,7 +2,6 @@
 layout: default
 title: Tempering
 nav_order: 1
-has_toc: true
 description: Tempering weapons and armor to improve their effectiveness
 ---
 

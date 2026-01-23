@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Basic Combat Mechanics
-has_toc: true
 nav_order: 7
 description: Basic Combat Mechanics
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Important Information
-has_toc: true
+
 nav_order: 9
 description: General Information
 ---

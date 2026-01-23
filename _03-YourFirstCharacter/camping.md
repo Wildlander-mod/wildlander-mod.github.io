@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Camping & Campfire Perks
-has_toc: true
 nav_order: 9
 description: Camping & Campfire Perks
 ---

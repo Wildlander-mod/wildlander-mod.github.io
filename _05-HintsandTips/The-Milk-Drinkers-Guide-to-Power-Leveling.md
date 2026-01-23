@@ -2,7 +2,6 @@
 layout: default
 title: The Milk Drinker's Guide to Power Leveling
 nav_order: 2
-has_toc: true
 description: Efficient strategies and methods for leveling skills quickly in Wildlander.
 ---
 

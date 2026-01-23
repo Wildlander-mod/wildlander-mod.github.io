@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Magic Analysis
-has_toc: true
 nav_order: 11
 description: Magic Analysis
 ---

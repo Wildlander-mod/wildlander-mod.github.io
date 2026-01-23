@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Armor Resistances, Penetration & Weapon Types
-has_toc: true
 nav_order: 10
 description: Armor Resistances, Penetration & Weapon Types
 ---

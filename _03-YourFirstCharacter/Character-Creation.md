@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Character Creation
-has_toc: true
 nav_order: 2
 description: Character creation - The Basics
 ---

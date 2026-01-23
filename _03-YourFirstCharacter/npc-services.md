@@ -1,8 +1,6 @@
 ---
 layout: default
 title: NPC Crafting and Enchanting Services
-has_toc: false
-has_children: false
 nav_order: 14
 description: NPC Crafting and Enchanting Services
 ---

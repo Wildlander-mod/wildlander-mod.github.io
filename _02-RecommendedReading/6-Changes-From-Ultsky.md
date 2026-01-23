@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Changes from Ultsky
-has_toc: true
+
 nav_order: 
 description: Changes from Ultksy
 ---

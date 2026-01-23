@@ -2,8 +2,6 @@
 layout: default
 title: Ammunition
 nav_order: 3
-has_toc: true
-has_children: false
 description: Ammunition types, damage, and material analysis.
 ---
 

@@ -2,8 +2,6 @@
 layout: default
 title: Unique Weapons and Artifacts
 nav_order: 4
-has_toc: true
-has_children: false
 description: Unique and legendary weapons, artifacts, and daedric items.
 ---
 

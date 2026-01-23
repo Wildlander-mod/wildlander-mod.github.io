@@ -3,7 +3,6 @@ layout: default
 title: Player Homes
 nav_order: 12
 has_toc: true
-has_children: false
 description: Purchasable player homes and costs
 ---
 

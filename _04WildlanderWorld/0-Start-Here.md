@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Wildlander World - Start Here
-has_toc: true
 nav_order: 0
 description: Guide to Wildlander's world systems and mechanics
 ---

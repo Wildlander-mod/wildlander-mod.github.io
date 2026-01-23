@@ -2,8 +2,6 @@
 layout: default
 title: Weapons
 nav_order: 2
-has_toc: true
-has_children: false
 description: Weapon types, damage scaling, and comparative analysis.
 ---
 

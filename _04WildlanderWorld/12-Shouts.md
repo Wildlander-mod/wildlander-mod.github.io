@@ -2,8 +2,6 @@
 layout: default
 title: Shout Analysis
 nav_order: 11
-has_toc: true
-has_children: false
 description: Shout effects and analysis
 ---
 

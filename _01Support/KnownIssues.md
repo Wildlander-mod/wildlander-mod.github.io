@@ -2,7 +2,6 @@
 layout: default
 title: Known Issues & Workarounds
 nav_order: 4
-has_children: false
 description: Known Issues and Fixes
 ---
 

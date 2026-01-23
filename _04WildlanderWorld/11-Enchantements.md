@@ -3,7 +3,6 @@ layout: default
 title: Enchantments Analysis
 nav_order: 10
 has_toc: false
-has_children: false
 description: Armor and weapon enchantments analysis
 ---
 

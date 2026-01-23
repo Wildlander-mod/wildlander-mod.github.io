@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Needs & Survivial
-has_toc: true
 nav_order: 12
 description: Needs & Survival
 ---

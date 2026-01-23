@@ -2,7 +2,6 @@
 layout: default
 title: The Quests
 nav_order: 8
-has_toc: true
 description: Quest starts and progression guides
 ---
 

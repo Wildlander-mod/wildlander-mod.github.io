@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Your First Character - Start Here
-has_toc: true
 nav_order: 0
 description: Start here for your first Wildlander character
 ---

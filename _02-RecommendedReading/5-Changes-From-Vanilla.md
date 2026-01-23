@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Changes From Vanilla
-has_toc: true
 nav_order: 6
 description: Changes From Vanilla
 ---

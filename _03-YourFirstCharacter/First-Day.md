@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Your First Day
-has_toc: true
 nav_order: 3
 description: Starting your first day
 ---

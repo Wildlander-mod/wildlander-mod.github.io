@@ -2,7 +2,6 @@
 layout: default
 title: Diseases
 nav_order: 6
-has_toc: true
 description: Disease progression, stages, and cure methods
 ---
 

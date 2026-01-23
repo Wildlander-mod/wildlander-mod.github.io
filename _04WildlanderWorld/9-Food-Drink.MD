@@ -2,8 +2,6 @@
 layout: default
 title: Food & Drink
 nav_order: 7
-has_toc: true
-has_children: false
 description: Food, drinks, and sustenance in Wildlander
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

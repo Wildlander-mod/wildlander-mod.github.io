@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Carry Weight Management
-has_toc: true
 nav_order: 8
 description: Carry Weight Management
 ---

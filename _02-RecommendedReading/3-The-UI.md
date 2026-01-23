@@ -1,7 +1,6 @@
 ---
 layout: default
 title: The UI
-has_toc: true
 nav_order: 4
 description: The UI
 ---

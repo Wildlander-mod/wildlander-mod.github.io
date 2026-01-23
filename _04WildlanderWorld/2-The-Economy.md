@@ -2,7 +2,6 @@
 layout: default
 title: The Economy
 nav_order: 2
-has_toc: true
 description: Regional hold economies and trading systems
 ---
 

@@ -2,7 +2,6 @@
 layout: default
 title: Common Install Issues
 has_toc: false
-has_children: false
 description: Common Install Issues
 ---
 

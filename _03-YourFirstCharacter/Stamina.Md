@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Stamina Management
-has_toc: true
 nav_order: 5
 description: Stamina Management
 ---

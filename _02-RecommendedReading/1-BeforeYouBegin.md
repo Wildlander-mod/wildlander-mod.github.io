@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Before You Begin
-has_toc: true
 nav_order: 2
 description: Before You Begin Playing
 ---

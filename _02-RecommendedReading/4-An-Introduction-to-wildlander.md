@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Introduction to Wildlander
-has_toc: true
 nav_order: 5
 description: Wildlander - The introduction
 ---

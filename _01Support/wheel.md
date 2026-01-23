@@ -1,8 +1,6 @@
 ---
 layout: default
 title: The Great Wheel of Feedback / Discussion Topics
-has_toc: false
-has_children: false
 description: The Great Wheel of Feedback / Discussion Topics
 ---
 
