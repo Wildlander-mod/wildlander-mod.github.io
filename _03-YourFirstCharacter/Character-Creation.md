@@ -17,6 +17,15 @@ Going a Spellsword/Battlemage build is not recommended for beginners - as there 
 
 General rules for successful build - One ranged ability, One Defense ability, One melee ability and 3 support skills.
 
+{: .highlight }
+>
+> **Want to Mix Up a Playthrough?**
+>
+> Try these tools for fresh challenges and character ideas:
+> - [Community Challenges](https://wiki.wildlandermod.com/13Community/Community-Challenges/) - Player-created challenges to keep your playthroughs interesting
+> - [Skyrim Random Character Generator](https://docs.google.com/spreadsheets/d/1vhTgVT3SoMtaE_LDpY_3Tb40zrhoBW4Lz4k-_8PWkWs/edit#gid=0) - Generate random character builds
+> - [Character Roller](https://wiki.wildlandermod.com/CharacterCreator/WildlanderRandomTraitRoller.html) - Quick random character creation tool
+
 ---
 
 ## Choosing Your Race & Build
