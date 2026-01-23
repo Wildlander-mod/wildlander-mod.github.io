@@ -392,6 +392,8 @@ background: transparent;
   --callout-color: #7B5F0C !important;
   background-color: rgba(123, 95, 12, 0.15) !important;
   border-left-color: #7B5F0C !important;
+  padding: $sp-3 !important;
+  margin: 0 !important;
 }
 
 // Apply tinted backgrounds to all callout types
