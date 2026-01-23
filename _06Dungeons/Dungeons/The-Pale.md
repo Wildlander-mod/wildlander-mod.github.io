@@ -1,12 +1,15 @@
 ---
 layout: default
 title: The Pale
-nav_order: 5
+nav_order: 6
 has_toc: false
 has_children: false
 parent: Dungeon Guides
+description: Dungeons and locations in The Pale region.
 ---
 
+## Overview
+The Pale is a harsh, snow-covered region in central-northern Skyrim, governed from Dawnstar. This area features ice caves, Nordic ruins, and enemy fortifications. Threat levels range from None to Perilous, with many locations challenging even experienced adventurers. The region offers access to valuable ore deposits including quicksilver and silver, alongside dangerous elemental encounters.
 
 ### Caves, Mines, & Passes
 
@@ -69,7 +72,7 @@ parent: Dungeon Guides
 | Important Treasure | Skillbook: Smithing (*Cherim's Heart*) |
 | Ore Veins | x5 Quicksilver |
 |||
-| Tactical | Threat Level:  |
+| Tactical | Threat Level: None |
 
 ---
 

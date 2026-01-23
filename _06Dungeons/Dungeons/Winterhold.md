@@ -1,12 +1,15 @@
 ---
 layout: default
 title: Winterhold
-nav_order: 9
+nav_order: 5
 has_toc: false
 has_children: false
 parent: Dungeon Guides
-
+description: Dungeons and locations in the Winterhold region.
 ---
+
+## Overview
+Winterhold encompasses the frozen northern reaches of Skyrim, home to the College of Winterhold and frigid wilderness. This region features ice caves, Nordic ruins, and dangerous winter creatures. Threat levels range from None to Perilous, making it suitable for all experience levels depending on the specific location. Notable resources include ice-related crafting materials and valuable magical items.
 
 ### Caves, Mines, & Passes
 

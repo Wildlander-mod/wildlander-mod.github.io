@@ -5,8 +5,12 @@ nav_order: 3
 has_toc: false
 has_children: false
 parent: Dungeon Guides
-
+description: Dungeons and locations in the Haafingar region.
 ---
+
+## Overview
+Haafingar is home to Solitude, the capital of Skyrim, and features coastal caves, shipwrecks, and bandit strongholds. This region provides moderate-to-dangerous encounters, suitable for mid-to-experienced adventurers. Notable features include abundant fishing locations, forging facilities, and silver ore deposits. Threat levels range from Average to Perilous.
+
 ### Caves, Mines, & Passes
 
 |   | Brinewater Grotto |
@@ -58,7 +62,7 @@ parent: Dungeon Guides
 | Occupants | Vampires / Ebony Vampire* / Wolves |
 | Special Features | Wood Chopping |
 | Important Treasure | Skillbook: Illusion (*Incident in Necrom*) |
-| Interesting Note | Has the highest concentration of Fly Amanita Mushrooms (66) in the game |
+| Interesting Notes | Has the highest concentration of Fly Amanita Mushrooms (66) in the game |
 |||
 | Tactical | Threat Level: Dangerous (Perilous*)<br/>- *An Ebony Vampire has a chance to spawn in place of the Steel Plate Vampire Boss. |
 
@@ -92,7 +96,7 @@ parent: Dungeon Guides
 | Special Features | Fishing Supplies |
 | Important Treasure | None |
 | Ore Veins | x1 Corundum; x1 Moonstone |
-| Interesting Note | Contains the highest number of Red Mountain Flowers (41)<br/>4th highest amount of  Mora Tapinella (12)<br/>and tied for 6th highest of Purple Mountain Flowers (26)<br/>- 7th highest spawn for Luna Moths and Torchbugs (11)
+| Interesting Notes | Contains the highest number of Red Mountain Flowers (41)<br/>4th highest amount of  Mora Tapinella (12)<br/>and tied for 6th highest of Purple Mountain Flowers (26)<br/>- 7th highest spawn for Luna Moths and Torchbugs (11)
 |||
 | Tactical | Threat Level: Difficult |
 

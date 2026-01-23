@@ -5,6 +5,11 @@ nav_order: 2
 has_toc: false
 has_children: false
 parent: Dungeon Guides
+description: Dungeons and locations in the Falkreath region.
+---
+
+## Overview
+Falkreath Hold dominates the southern forests of Skyrim, known for its mysterious cave systems and forested terrain. The region includes some of the most dangerous encounters in Skyrim, featuring vampires, witches, and powerful nature magic. Threat levels range from Difficult to Perilous, making this region recommended for experienced adventurers. Notable resources include iron, orichalcum, and corundum ore.
 
 ### Caves, Mines, & Passes
 
@@ -94,7 +99,7 @@ parent: Dungeon Guides
 | Important Treasure | None |
 | Ore Veins | x1 Corundum; x1 Gold; x1 Iron
 |||
-| Tactical | Threat Level:  |
+| Tactical | Threat Level: Average |
 
 ---
 

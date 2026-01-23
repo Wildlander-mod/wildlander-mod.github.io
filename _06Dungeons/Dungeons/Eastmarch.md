@@ -5,8 +5,11 @@ nav_order: 1
 has_toc: false
 has_children: false
 parent: Dungeon Guides
-
+description: Dungeons and locations in the Eastmarch region.
 ---
+
+## Overview
+Eastmarch encompasses the eastern portions of Skyrim, centered around Windhelm. This region features a mix of natural caves, bandit hideouts, and important story locations. Threat levels range from Average to Dangerous, making it suitable for mid-level adventurers. Key resources include iron, moonstone, and corundum ore.
 
 ### Caves, Mines, & Passes
 

@@ -1,12 +1,15 @@
 ---
 layout: default
 title: Beyond Skyrim
-nav_order: 10
+nav_order: 11
 has_toc: false
 has_children: false
 parent: Dungeon Guides
+description: Dungeons and locations in Solstheim and other areas beyond the main Skyrim map.
 ---
 
+## Overview
+This section covers dungeons and locations accessible beyond the main Skyrim map, primarily through DLC content. These locations include Apocrypha (reached via Black Books), Sovengarde (main quest), the Forgotten Vale (DLC), and the Soul Cairn (DLC). All locations here are endgame content designed for highly experienced adventurers. Threat levels range from Dangerous to Endgame.
 
 ###  Apocrypha 
 

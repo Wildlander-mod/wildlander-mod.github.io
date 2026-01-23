@@ -5,7 +5,11 @@ nav_order: 8
 has_toc: false
 has_children: false
 parent: Dungeon Guides
+description: Dungeons and locations in the Whiterun region.
+---
 
+## Overview
+Whiterun is the central region of Skyrim, home to the capital city. This area features diverse dungeon types ranging from simple bandit caves to powerful vampire lairs. Threat levels range from Average to Perilous, making the region suitable for all experience levels depending on location choice. Notable features include excellent crafting facilities and varied ore resources.
 
 ### Caves, Mines, & Passes
 
@@ -207,7 +211,7 @@ parent: Dungeon Guides
 | Special Features | None |
 | Important Treasure | Skillbook: Block (*Battle of Red Mountain*) |
 | Ore Veins | x1 Moonstone (outside 240ft E-SE of North Skybound Watch entrance, roughly halfway to Orphan Rock, on east side of valley) |
-| Interesting Note | There is Hanging Moss (23) and Jazbay Grapes (8) present. |
+| Interesting Notes | There is Hanging Moss (23) and Jazbay Grapes (8) present. |
 |||
 | Tactical | Threat Level: Average |
 

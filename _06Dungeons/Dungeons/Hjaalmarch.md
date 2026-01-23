@@ -5,9 +5,10 @@ nav_order: 4
 has_toc: false
 has_children: false
 parent: Dungeon Guides
-
+description: Dungeons and locations in the Hjaalmarch region.
 ---
-
+## Overview
+Hjaalmarch is the marshy region surrounding Morthal's domain, featuring swamps, crypts, and natural caverns. This region is known for its rich alchemical resources and unique flora. Threat levels range from Average to Perilous, with many locations featuring vampires and undead. The region offers excellent opportunities for alchemists and herbalists.
 ### Caves, Mines, & Passes
 
 |   | Brood Cavern |
@@ -58,7 +59,7 @@ parent: Dungeon Guides
 | Occupants | Bandits |
 | Special Features | Cooking Pot/Spit; Forge/Anvil; Grindstone; Tanning Rack |
 | Important Treasure | Skillbook: One Handed (*Mace Etiquette*) |
-| Interesting Note | Unusual amount of alchemical ingredients given its size. Imp Stool (17), Fly Amanita (13), Bleeding Crown (8), Namira's Rot (5), Lavender (3), Blisterwort (2), and White Cap (1) |
+| Interesting Notes | Unusual amount of alchemical ingredients given its size. Imp Stool (17), Fly Amanita (13), Bleeding Crown (8), Namira's Rot (5), Lavender (3), Blisterwort (2), and White Cap (1) |
 |||
 | Tactical | Threat Level: Average |
 
@@ -69,7 +70,7 @@ parent: Dungeon Guides
 | Occupants | Civilians |
 | Special Features | Grindstone; Smelter; Wood Chopping (all outside in Stonehills) |
 | Important Treasure | Skillbook: Heavy Armor (*Orsinium and the Orcs*) |
-| Interesting Note | During the day there's an unusual amount of Blue and Monarch Butterflies along the road and path leading to Stonehills |
+| Interesting Notes | During the day there's an unusual amount of Blue and Monarch Butterflies along the road and path leading to Stonehills |
 | Ore Veins | x4 Iron |
 |||
 | Tactical | Threat Level: None |
@@ -123,7 +124,7 @@ parent: Dungeon Guides
 | Occupants | Bandits / Ghost |
 | Special Features | None |
 | Important Treasure | Skillbook: Block (* A Dance in Fire, v2*) |
-| Interesting Note | If you manage to kill the ghost before it arrives at the tomb, you can get a complete set of Ancient Nord Armor from its ashes. Yea I don't understand it either.
+| Interesting Notes | If you manage to kill the ghost before it arrives at the tomb, you can get a complete set of Ancient Nord Armor from its ashes. Yea I don't understand it either.
 |||
 | Tactical | Threat Level: Average<br/>- Ruins are unoccupied unless you approach between 8pm-5am, a ghost will lead you to an unmarked barrow with a couple of graverobbers |
 

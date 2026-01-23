@@ -5,9 +5,10 @@ nav_order: 6
 has_toc: false
 has_children: false
 parent: Dungeon Guides
-
+description: Dungeons and locations in The Reach region.
 ---
-
+## Overview
+The Reach is a mountainous region in southwestern Skyrim, dominated by Forsworn settlements and ancient Dwemer ruins. This area features the highest concentration of gold ore in Skyrim and presents some of the most dangerous encounters in the game. Threat levels range from None to Perilous, with many locations recommended only for experienced adventurers. The region combines natural caves, fortifications, and Dwemer technology.
 ### Caves, Mines, & Passes
 
 |   | Blind Cliff Cave |
@@ -110,10 +111,10 @@ parent: Dungeon Guides
 |   | Kolskeggr Mine |
 | :--- | --- |
 | Occupants | Forsworn / Briarheart|
-| Special Features | None |
-| Important Treasure | Smelter |
+| Special Features | Smelter |
+| Important Treasure | None |
 | Ore Veins | x17 Gold |
-| Interesting Note | This is the only active gold mine in Skyrim, and contains more than 4x the amount of gold ore veins than any other single location. |
+| Interesting Notes | This is the only active gold mine in Skyrim, and contains more than 4x the amount of gold ore veins than any other single location. |
 |||
 | Tactical | Threat Level: Perilous |
 
@@ -136,7 +137,7 @@ parent: Dungeon Guides
 | Special Features | Cooking Pot/Spit |
 | Important Treasure | Skillbook: Speech (*Biography of the Wolf Queen*)<br/> The Longhammer |
 | Ore Veins | x3 Corundum; x1 Corundum (outside, S down the cliff) |
-| Interesting Note | It's the only place in the game where you can get the semi-rare tavern clothes without killing or stealing. This piece is not sold by any merchant neither found in any other location or loot. |
+| Interesting Notes | It's the only place in the game where you can get the semi-rare tavern clothes without killing or stealing. This piece is not sold by any merchant neither found in any other location or loot. |
 |||
 | Tactical | Threat Level: Dangerous<br/>- Rarely, *The Longhammer* may clip through the geometry. Use the console command *tcl* to pass through and obtain the weapon, remember to have nothing selected when using the command and to input it a 2nd time after you've 'resurfaced'. |
 
@@ -213,8 +214,8 @@ parent: Dungeon Guides
 |   | Bthardamz |
 | :--- | --- |
 | Occupants | Afflicted / Automatons / Orchendor |
-| Special Features |  |
-| Important Treasure | Skilbook: Alteration (*Reality & Other Falsehoods*)<br/>Skillbook: Speech (*Biography of the Wolf Queen*) |
+| Special Features | None |
+| Important Treasure | Skillbook: Alteration (*Reality & Other Falsehoods*)<br/>Skillbook: Speech (*Biography of the Wolf Queen*) |
 | Ore Veins | x3 Gold; x1 Quicksilver |
 |||
 | Tactical | Threat Level: Dangerous<br/>- In addition to a broad spell selection, Orchendor has a toxic vomit attack, can teleport away after being struck 3-5 times, and has innate Magic Resist 100%. |
@@ -239,7 +240,7 @@ parent: Dungeon Guides
 | Special Features | None |
 | Important Treasure | Skillbook: Heavy Armor (*Chimarvamidium*) |
 |||
-| Tactical | Threat Level:  |
+| Tactical | Threat Level: None |
 
 ---
 

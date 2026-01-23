@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Do's and Donts
+title: Do's and Don'ts
 nav_order: 3
 has_toc: true
+description: Essential do's and don'ts for succeeding in Wildlander.
 ---
 
 ## Do's

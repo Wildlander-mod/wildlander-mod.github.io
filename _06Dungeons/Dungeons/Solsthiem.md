@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Solsheim
-nav_order: 11
+title: Solstheim
+nav_order: 10
 has_toc: false
 has_children: false
 parent: Dungeon Guides
+description: Dungeons and locations in Solstheim.
 ---
+
+## Overview
+Solstheim is an island region north of Skyrim, featuring unique Nordic and Daedric environments. This area is exclusively high-level, with all threat levels significantly elevated compared to mainland locations. Features include volcanic ash-covered lands, mysterious Black Books, and powerful opponents. Resources are unique to the island, including Stalhrim and Heart Stone ore.
 
 {: .warning}
 The entire island is high-level, "average" here isn't the same as Skyrim! Threat levels assume you're ready to tackle Dragonborn content!
@@ -95,7 +99,7 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | None |
 | Ore Veins | x5 Gold |
 |||
-| Tactical | Threat Level:  |
+| Tactical | Threat Level: Average |
 
 ---
 
@@ -176,7 +180,7 @@ The entire island is high-level, "average" here isn't the same as Skyrim! Threat
 | Important Treasure | Dwarven Black Bow of Fate<br/>Steadfast Dwarven Spider<br/>Steadfast Dwarven Sphere |
 | Interesting Notes | Yay! Automaton followers! Be aware you can only Automaton follower at any given time. If they die or you want to swap out, come back here to do that. |
 |||
-| Tactical | Threat Level: Periloous |
+| Tactical | Threat Level: Perilous |
 
 ---
 

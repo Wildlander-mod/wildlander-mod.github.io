@@ -1,8 +1,9 @@
 ---
 layout: default
-title: How to open locks
-nav_order: 5
+title: How to Open Locks
+nav_order: 4
 has_toc: true
+description: Lock-opening mechanics, bashing requirements, and picking strategies.
 ---
 
 ## New ways of opening locks

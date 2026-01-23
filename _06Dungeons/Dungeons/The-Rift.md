@@ -1,12 +1,15 @@
 ---
 layout: default
 title: The Rift
-nav_order: 7
+nav_order: 9
 has_toc: false
 has_children: false
 parent: Dungeon Guides
-
+description: Dungeons and locations in The Rift region.
 ---
+
+## Overview
+The Rift is the southeastern region of Skyrim, featuring dense forests, Falmer caverns, and natural mining operations. This area is known for its rich plant and mushroom resources. Threat levels range from Average to Dangerous, making it suitable for intermediate-to-experienced adventurers. The region provides extensive ore deposits including iron, orichalcum, and quicksilver.
 
 ### Caves, Mines, & Passes
 

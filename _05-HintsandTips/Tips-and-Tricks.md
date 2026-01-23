@@ -2,9 +2,8 @@
 layout: default
 title: Hints & Tips
 nav_order: 1
-    
-
 has_toc: true
+description: Quick tips, hints, and useful mechanics information for Wildlander gameplay.
 ---
 
 
