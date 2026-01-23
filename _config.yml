@@ -58,6 +58,9 @@ callouts:
   highlight:
     title: Notice
     color: yellow
+  notice:
+    title: Notice
+    color: yellow
   important:
     title: Important
     color: yellow

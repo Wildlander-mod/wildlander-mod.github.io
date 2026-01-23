@@ -17,7 +17,7 @@ Going a Spellsword/Battlemage build is not recommended for beginners - as there 
 
 General rules for successful build - One ranged ability, One Defense ability, One melee ability and 3 support skills.
 
-{: .highlight }
+{: .notice }
 > **Want to Mix Up a Playthrough?**
 >
 > Try these tools for fresh challenges and character ideas:
