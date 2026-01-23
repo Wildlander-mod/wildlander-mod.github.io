@@ -2,7 +2,7 @@
 layout: default
 title: Changes From Vanilla
 has_toc: true
-nav_order: 5
+nav_order: 6
 description: Changes From Vanilla
 ---
 
@@ -42,9 +42,7 @@ description: Changes From Vanilla
 * Survival has a much, much greater importance, you can and will die if you don't eat, sleep or stay warm.
 * Your initial Carry weight is more realistic, but you can craft or buy Backpacks to increase it.
 * It’s dark when it's supposed to be, night vision, a torch, or lantern is required for dungeon diving.
----
-
-**Next in Recommended Reading:** [Changes from Ultsky →](6-Changes-From-Ultsky.md) (optional - only for players migrating from previous modlists)* Getting sick and/or drunk and/or consuming a lot of alchemy ingredients gives a visual effect/blurring on your screen.
+* Getting sick and/or drunk and/or consuming a lot of alchemy ingredients gives a visual effect/blurring on your screen.
 * Food is essential - the perks they offer to regeneration alone mean you should always have a buff active
 
 
@@ -56,3 +54,7 @@ description: Changes From Vanilla
 * Vampires are Allergic to sunlight, and restoration spells don't work. They have their own healing spell in the conjuration tree. 
 * You are not forced to perk into lock picking. Spells for unlocking, scrolls for unlocking and just plain smacking the lock can be used instead.
 * Aedras (good gods) don't like crime; you make crimes, they turn their back to you and prevent shrines from functioning. Once lost, you cannot regain the blessings, however there's a legal way to get their "cure disease" back, but honestly is not worth the penalties it inflicts.
+
+---
+
+**Next in Recommended Reading:** [Changes from Ultsky →](6-Changes-From-Ultsky) (optional - only for players migrating from previous modlists)

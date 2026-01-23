@@ -2,7 +2,7 @@
 layout: default
 title: Stability Test
 has_toc: true
-nav_order: 2
+nav_order: 3
 description: Stability test
 ---
 
@@ -48,9 +48,7 @@ Your Wildlander graphics settings are too high!
 
      Test again with a lower Graphics preset
 	 
----
 
-**Next in Recommended Reading:** [The UI →](3-The-UI.md)
 ### I Crashed during character creation!
 
 This could indicate a problem/corruption with the install OR you selected too much for your PC to handle.
@@ -64,7 +62,9 @@ This could indicate a problem/corruption with the install OR you selected too mu
 If both tests pass - then you were probably running too high for what your PC was capable of running or you had insufficient page-file. You can now increase the settings on the launcher until you find one that your PC can play.
 
 If you continue to crash - Please consult with Staff on discord who will take a look at your crash logs to suggest corrective action.
+---
 
+**Next in Recommended Reading:** [The UI →](3-The-UI)
 
 
 

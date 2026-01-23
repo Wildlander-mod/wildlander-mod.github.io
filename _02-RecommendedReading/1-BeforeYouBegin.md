@@ -2,7 +2,7 @@
 layout: default
 title: Before You Begin
 has_toc: true
-nav_order: 1
+nav_order: 2
 description: Before You Begin Playing
 ---
 
@@ -49,10 +49,6 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 ## Suggestions for various GFX cards
 
----
-
-**Next in Recommended Reading:** [Stability Test →](2-Stability-Test)
-
 
 {: .NoTitleYellow}
 > These are recommendations for running at a average of 60FPS @ 1080p with the assumption that you do not have anything running on your PC with the exception to the Wildlander Launcher and Skyrim Itself.
@@ -71,3 +67,6 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 | Cards with 8GB of GDDR6 Vram. E.G `RTX 2070/4060` or equivalent | High | High | Depending on generation, RAM and CPU, can push this to ultra graphics |
 | Cards with 12GB of GDDR6 Vram. E.G `RTX 3060/4070/3080` or equivalent | Ultra | High | Depending on generation, RAM and CPU, can push this to ultra shaders |
 | Cards with More than 16GB of GDDR6 Vram E.G `RTX 3090/4080/4090` | Any | Any | Knock yourself out with whatever takes your fancy |
+---
+
+**Next in Recommended Reading:** [Stability Test →](2-Stability-Test)

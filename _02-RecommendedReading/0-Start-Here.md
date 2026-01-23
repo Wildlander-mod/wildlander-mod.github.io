@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Start Here - Recommended Reading Guide
-has_toc: true
-nav_order: 0
+nav_order: 1
 description: Guide to using the Recommended Reading section
 ---
 
@@ -54,12 +53,12 @@ You should read:
 | # | Page | Purpose | Type | Skip? |
 |---|------|---------|------|-------|
 | 1 | Before You Begin | System requirements, pagefile setup | Setup | No |
-| 2 | Stability Test | Verify installation | Validation | If no issues |
+| 2 | Stability Test | Verify installation | Validation | Recommended |
 | 3 | The UI | HUD and interface explanation | Reference | Experienced players only |
 | 4 | Introduction to Wildlander | Core mechanics, difficulty, survival systems | Essential Learning | No |
 | 5 | Changes From Vanilla | What's different from vanilla Skyrim | Context | No |
-| 6 | Changes from Ultsky | Migration guide for previous modlist | Migration | Only if applicable |
-| 7 | Keybindings | Complete hotkey reference | Reference | **Bookmark this!** |
+| 6 | Changes from Ultsky | Migration guide for previous modlist | Migration | Only if you have played it! |
+| 7 | Keybindings | Complete hotkey reference | Reference | Accessable in game as well - from the F11 key |
 | 8 | Important Information | Support resources and save warnings | Critical | No |
 
 ---
@@ -67,10 +66,9 @@ You should read:
 ## Tips for Getting the Most Out of This Guide
 
 1. **Read sequentially** - Each page builds on the previous one
-2. **Bookmark [Keybindings](7-Keybindings)** - You'll want this while playing
-3. **Take notes** - Jot down important keybindings that aren't on your keyboard
-4. **Ask questions** - If something is unclear, ask in our [Discord](https://discordapp.com/invite/8VkDrfq) community
-5. **Join the community** - Meet other players on [Reddit](https://www.reddit.com/r/wildlander/) or our [Discord](https://discordapp.com/invite/8VkDrfq)
+2. **Take notes** - Jot down important keybindings that aren't on your keyboard
+3. **Ask questions** - If something is unclear, ask in our [Discord](https://discordapp.com/invite/8VkDrfq) community
+4. **Join the community** - Meet other players on [Reddit](https://www.reddit.com/r/wildlander/) or our [Discord](https://discordapp.com/invite/8VkDrfq)
 
 ---
 
@@ -79,7 +77,7 @@ You should read:
 - **Installation problems?** → Check [Before You Begin](1-BeforeYouBegin) and [FAQ](../01Support/Faq)
 - **Technical issues?** → See [Common Install Issues](../01Support/Common-Install-Issues) or ask on [Discord](https://discordapp.com/invite/8VkDrfq)
 - **Gameplay questions?** → Check [Your First Character](../03-YourFirstCharacter/Your-First-Character)
-- **Can't find a hotkey?** → Bookmark and reference [Keybindings](7-Keybindings)
+- **Can't find a hotkey?** → Press 'f11' in game - it'll bring up a reference document
 
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Keybindings
 has_toc: true
-nav_order: 7
+nav_order: 8
 description: Keybinds
 ---
 
@@ -295,4 +295,4 @@ A useful utility. It allows you to see amongst other things. Herbs which can be 
 
 ---
 
-**Next in Recommended Reading:** [Important Information →](8-Important-Information.md)
+**Next in Recommended Reading:** [Important Information →](8-Important-Information)

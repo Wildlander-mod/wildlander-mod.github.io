@@ -2,7 +2,7 @@
 layout: default
 title: The UI
 has_toc: true
-nav_order: 3
+nav_order: 4
 description: The UI
 ---
 
@@ -65,9 +65,6 @@ Left Side – If using bow Contains Ammo currently equipped, count of arrows in 
 
 SkyUI is a complete overhaul of the clumsy and more console-friendly user interface while keeping true to the style of the original UI. It makes the user interface much easier to use with mouse and keyboard, being less wasteful of screen space and is, aesthetically speaking, far more pleasing. 
 
----
-
-**Next in Recommended Reading:** [Introduction to Wildlander →](4-An-Introduction-to-wildlander.md)
 
 ### Inventory Screen
 
@@ -120,3 +117,7 @@ The following additional columns are available.
 ![Untitled](https://github.com/user-attachments/assets/7b464eaa-4a2c-4421-9258-1045912720ed)
 
 
+
+---
+
+**Next in Recommended Reading:** [Introduction to Wildlander →](4-An-Introduction-to-wildlander)

@@ -2,12 +2,12 @@
 layout: default
 title: Changes from Ultsky
 has_toc: true
-nav_order: 6
+nav_order: 
 description: Changes from Ultksy
 ---
 
 {: .info }
-> **New to Wildlander?** You can skip this section. This page is only relevant if you've played the previous Ultsky modlist. If you're starting fresh, jump to [Keybindings](7-Keybindings.md) or [Important Information](8-Important-Information.md).
+> **New to Wildlander?** You can skip this section. This page is only relevant if you've played the previous Ultsky modlist. If you're starting fresh, jump to [Keybindings](7-Keybindings) or [Important Information](8-Important-Information).
 
 ## Things which are not currently in release build
 
@@ -50,9 +50,5 @@ description: Changes from Ultksy
 * Flutes can no longer be spammed to give masses of gold and blacksmithing XP, now require Milk and a cooking pot to craft and grant no XP - Sorry folks this exploit has been fixed.
 * Crafting now has a toolkit mechanic, which are required to craft recipes (and act as filters for the large amount of items that are in game to craft)
 * You can now craft chests and place those.
-
----
-
-**Next in Recommended Reading:** [Keybindings →](7-Keybindings.md)
 * There's a new crafting keybind to break down items into components.
 
