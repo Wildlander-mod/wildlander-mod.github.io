@@ -52,3 +52,7 @@ description: Changes from Ultksy
 * You can now craft chests and place those.
 * There's a new crafting keybind to break down items into components.
 
+---
+
+**Next in Recommended Reading:** [Keybindings →](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/)
+

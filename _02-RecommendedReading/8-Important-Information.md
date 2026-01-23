@@ -86,3 +86,14 @@ Several topics are not covered by the wiki because the are mechanically unchange
 1. Civil war - Changing this would be like sticking a band-aid on a decapitation
 
 The general rule should be - if using the wiki search bar doesn't find a result - its not changed from Vanilla.
+
+---
+
+**Congratulations!** You've completed the Recommended Reading section. You're now ready to start your Wildlander adventure!
+
+**Next Steps:**
+- Create your character in [Your First Character Guide](https://wiki.wildlandermod.com/03-YourFirstCharacter/Your-First-Character/)
+- Join the community on [Discord](https://discordapp.com/invite/8VkDrfq) or [Reddit](https://www.reddit.com/r/wildlander/)
+- Check out [Tips and Tricks](https://wiki.wildlandermod.com/05-HintsandTips/Tips-and-Tricks/) for advanced gameplay
+
+Good luck, and welcome to Wildlander!

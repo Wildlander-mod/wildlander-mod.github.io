@@ -15,36 +15,36 @@ This section contains essential information to prepare you for Wildlander. The p
 
 Read these pages in order:
 
-1. **[Before You Begin](//_02-RecommendedReading/1-BeforeYouBegin)** - System requirements and initial setup
-2. **[Stability Test](//_02-RecommendedReading/2-Stability-Test)** - Verify your installation works correctly
-3. **[The UI](//_02-RecommendedReading/3-The-UI)** - Understand what you'll see on screen
-4. **[Introduction to Wildlander](//_02-RecommendedReading/4-An-Introduction-to-wildlander)** - Core mechanics and survival systems
-5. **[Changes From Vanilla](//_02-RecommendedReading/5-Changes-From-Vanilla)** - How Wildlander differs from vanilla Skyrim
-6. **[Keybindings](//_02-RecommendedReading/7-Keybindings)** - Complete reference of all hotkeys (bookmark this!)
-7. **[Important Information](//_02-RecommendedReading/8-Important-Information)** - Support resources and save tips
+1. **[Before You Begin](https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/)** - System requirements and initial setup
+2. **[Stability Test](https://wiki.wildlandermod.com/02-RecommendedReading/2-Stability-Test/)** - Verify your installation works correctly
+3. **[The UI](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/)** - Understand what you'll see on screen
+4. **[Introduction to Wildlander](https://wiki.wildlandermod.com/02-RecommendedReading/4-An-Introduction-to-wildlander/)** - Core mechanics and survival systems
+5. **[Changes From Vanilla](https://wiki.wildlandermod.com/02-RecommendedReading/5-Changes-From-Vanilla/)** - How Wildlander differs from vanilla Skyrim
+6. **[Keybindings](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/)** - Complete reference of all hotkeys (bookmark this!)
+7. **[Important Information](https://wiki.wildlandermod.com/02-RecommendedReading/8-Important-Information/)** - Support resources and save tips
 
 **Estimated reading time:** 45-60 minutes
 
 ### For Experienced Skyrim Players
 
 You can **skip** the following sections:
-- [Stability Test](2-Stability-Test) - only needed if you encounter issues
+- [Stability Test](https://wiki.wildlandermod.com/02-RecommendedReading/2-Stability-Test/) - only needed if you encounter issues
 
 **Recommended reading:**
-1. [Before You Begin](1-BeforeYouBegin) - still important for system setup
-2. [The UI](3-The-UI) - an introduction to wildlander's bespoke UI
-2. [Introduction to Wildlander](4-An-Introduction-to-wildlander) - key for understanding changes
-3. [Changes From Vanilla](5-Changes-From-Vanilla) - what's different
-4. [Keybindings](7-Keybindings) - essential reference
-5. [Important Information](8-Important-Information) - support and save tips
+1. [Before You Begin](https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/) - still important for system setup
+2. [The UI](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/) - an introduction to wildlander's bespoke UI
+3. [Introduction to Wildlander](https://wiki.wildlandermod.com/02-RecommendedReading/4-An-Introduction-to-wildlander/) - key for understanding changes
+4. [Changes From Vanilla](https://wiki.wildlandermod.com/02-RecommendedReading/5-Changes-From-Vanilla/) - what's different
+5. [Keybindings](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/) - essential reference
+6. [Important Information](https://wiki.wildlandermod.com/02-RecommendedReading/8-Important-Information/) - support and save tips
 
 ### For Players Migrating from Ultsky (Previous Modlist)
 
 You should read:
-- [Changes from Ultsky](6-Changes-From-Ultsky) - what's new and changed
-- [Introduction to Wildlander](4-An-Introduction-to-wildlander) - any new systems
-- [Keybindings](7-Keybindings) - updated hotkeys
-- [Important Information](8-Important-Information) - current support info
+- [Changes from Ultsky](https://wiki.wildlandermod.com/02-RecommendedReading/6-Changes-From-Ultsky/) - what's new and changed
+- [Introduction to Wildlander](https://wiki.wildlandermod.com/02-RecommendedReading/4-An-Introduction-to-wildlander/) - any new systems
+- [Keybindings](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/) - updated hotkeys
+- [Important Information](https://wiki.wildlandermod.com/02-RecommendedReading/8-Important-Information/) - current support info
 
 ---
 
@@ -74,13 +74,13 @@ You should read:
 
 ## Still Have Questions?
 
-- **Installation problems?** → Check [Before You Begin](1-BeforeYouBegin) and [FAQ](../01Support/Faq)
-- **Technical issues?** → See [Common Install Issues](../01Support/Common-Install-Issues) or ask on [Discord](https://discordapp.com/invite/8VkDrfq)
-- **Gameplay questions?** → Check [Your First Character](../03-YourFirstCharacter/Your-First-Character)
+- **Installation problems?** → Check [Before You Begin](https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/) and [FAQ](https://wiki.wildlandermod.com/01Support/Faq/)
+- **Technical issues?** → See [Common Install Issues](https://wiki.wildlandermod.com/01Support/Common-Install-Issues/) or ask on [Discord](https://discordapp.com/invite/8VkDrfq)
+- **Gameplay questions?** → Check [Your First Character](https://wiki.wildlandermod.com/03-YourFirstCharacter/Your-First-Character/)
 - **Can't find a hotkey?** → Press 'f11' in game - it'll bring up a reference document
 
 ---
 
 ## Ready to Start?
 
-Begin with **[Before You Begin](1-BeforeYouBegin)** →
+Begin with **[Before You Begin](https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/)** →

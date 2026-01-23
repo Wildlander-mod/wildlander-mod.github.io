@@ -295,4 +295,4 @@ A useful utility. It allows you to see amongst other things. Herbs which can be 
 
 ---
 
-**Next in Recommended Reading:** [Important Information →](8-Important-Information)
+**Next in Recommended Reading:** [Important Information →](https://wiki.wildlandermod.com/02-RecommendedReading/8-Important-Information/)

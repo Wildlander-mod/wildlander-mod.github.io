@@ -116,8 +116,6 @@ The following additional columns are available.
 
 ![Untitled](https://github.com/user-attachments/assets/7b464eaa-4a2c-4421-9258-1045912720ed)
 
-
-
 ---
 
-**Next in Recommended Reading:** [Introduction to Wildlander →](4-An-Introduction-to-wildlander)
+**Next in Recommended Reading:** [Introduction to Wildlander →](https://wiki.wildlandermod.com/02-RecommendedReading/4-An-Introduction-to-wildlander/)

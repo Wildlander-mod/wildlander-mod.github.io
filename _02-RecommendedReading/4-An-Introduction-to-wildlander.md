@@ -60,7 +60,7 @@ One of the most important tip I can give archer type players - is that wooden bo
 
 ---
 
-**Next in Recommended Reading:** [Changes From Vanilla →](5-Changes-From-Vanilla)
+**Next in Recommended Reading:** [Changes From Vanilla →](https://wiki.wildlandermod.com/02-RecommendedReading/5-Changes-From-Vanilla/)
 
 ## Armor choice
 

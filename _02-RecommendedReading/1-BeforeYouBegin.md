@@ -67,6 +67,7 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 | Cards with 8GB of GDDR6 Vram. E.G `RTX 2070/4060` or equivalent | High | High | Depending on generation, RAM and CPU, can push this to ultra graphics |
 | Cards with 12GB of GDDR6 Vram. E.G `RTX 3060/4070/3080` or equivalent | Ultra | High | Depending on generation, RAM and CPU, can push this to ultra shaders |
 | Cards with More than 16GB of GDDR6 Vram E.G `RTX 3090/4080/4090` | Any | Any | Knock yourself out with whatever takes your fancy |
+
 ---
 
-**Next in Recommended Reading:** [Stability Test →](2-Stability-Test)
+**Next in Recommended Reading:** [Stability Test →](https://wiki.wildlandermod.com/02-RecommendedReading/2-Stability-Test/)

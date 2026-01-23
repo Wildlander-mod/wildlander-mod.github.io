@@ -62,9 +62,10 @@ This could indicate a problem/corruption with the install OR you selected too mu
 If both tests pass - then you were probably running too high for what your PC was capable of running or you had insufficient page-file. You can now increase the settings on the launcher until you find one that your PC can play.
 
 If you continue to crash - Please consult with Staff on discord who will take a look at your crash logs to suggest corrective action.
+
 ---
 
-**Next in Recommended Reading:** [The UI →](3-The-UI)
+**Next in Recommended Reading:** [The UI →](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/)
 
 
 

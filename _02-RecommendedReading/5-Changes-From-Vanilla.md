@@ -57,4 +57,4 @@ description: Changes From Vanilla
 
 ---
 
-**Next in Recommended Reading:** [Changes from Ultsky →](6-Changes-From-Ultsky) (optional - only for players migrating from previous modlists)
+**Next in Recommended Reading:** [Changes from Ultsky →](https://wiki.wildlandermod.com/02-RecommendedReading/6-Changes-From-Ultsky/) (optional - only for players migrating from previous modlists)
