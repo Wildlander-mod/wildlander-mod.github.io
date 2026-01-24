@@ -5,24 +5,12 @@ description: Ultimate Skyrim - Modding Guide
 parent: Ultimate Skyrim
 ---
 
-{: .warning } 
-> NONE OF THESE PATCHES WILL WORK FOR WILDLANDER. 
+{: .important}
+> **ARCHIVED GUIDE**: Ultimate Skyrim is no longer maintained. These guides are reference only. **None of these patches/guides work for Wildlander** - do not attempt to use them there.
 >
-> Don't waste your time !!!
+> **Page structure:** This guide combines basic modding principles with specific mod installation guides. Use the Table of Contents to find what you need.
 
-
-
-## Important Terms
-
-1. mod organizer      - The tool which makes everything work - Installed as part of the Wabbajack installation in <Ultsky install directory>\Content\Mod Organizer.exe
-2. Reqtificator       - The requiem patcher - Makes 3rd party mods compatible with the Ultsky install. If you are going to do any modding at all this must be setup first. Instructions for how to do this are [here](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)
-3. Reqtificator.ini   - The configuration parameters for the requiem patcher - needed if you are going to make any appearance changes or add any new races. Located in {Ultsky install directory}\Content\mods\Ultsky Core Files\SkyProc Patchers\Requiem
-4. [Dyndolod](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/#dyndolod)           - The tool which draws items in the distance, generally needed to be ran if adding mods which change the landscape or add new player homes
-5. [Automatic Varients](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/#automatic-variants) - The tool which makes creatures in the game have different appearances rather than all having the same appearance.
-6. Merging mods       - Advanced modding technique to combine multiple mods Plugin's into one.
-
-
-## Guides list
+## Table of Contents
 {: .no_toc }
 <details markdown="block">
   <summary>
@@ -33,44 +21,91 @@ parent: Ultimate Skyrim
 {:toc}
 </details>
 
+---
+
+## Page Organization
+
+**Quick Reference Sections (Start Here):**
+- **Important Terms** - Essential tools and concepts
+- **Quick Start** - How to install mods without specific guides
+- **Known Issues** - What NOT to install
+
+**Specific Mod Guides (Scroll Down):**
+- Graphics overhauls
+- NPC overhauls
+- Gameplay modifications
+- EnaiSiaion mods (Wintersun, Sacrosanct, Andromeda)
+- SNBCJ's patches (Divine Blessings, Immersive Abilities, etc.)
+- Utility mods (Autosave Manager)
+- Other enhancements
 
 ---
 
-## Ultimate Skyrim Modding Basics
+## Important Terms
 
-Installing Mods not covered by guides. 
+**Essential tools and concepts for modding Ultimate Skyrim:**
 
-- Download it to your UltSky download folder (this will be the directory you entered on the Wabbajack installer when you first installed the list)
-- open < Ultimate Skyrim install directory >\content\mod organizer.exe. Once open - top left drop-down - select the profile you plan on playing.
-- select download tab on right side 
-- find the mod in the list and right click > install (you may need to click the refresh button to make it appear)
-- choose your settings (if it has installation options) then once its finished installing turn it on, on the left side of the mod organizer (should be at bottom of the list). 
-- **Important** if patching from "Requiem patch central" Untick any ticked patches for mods in the base Ultsky install, and only tick ones for mods you are adding yourself.
-
-If you mod doesn’t have any ESP/ESM's then that’s it - otherwise continue!
-
-Sort your (right side) Plugins load order **manually** (LOOT IS THE DEVIL - ERASE its Existence from your memory).
-
-Firstly, There are specific guides in this document for a lot of the more popular mods, along with proper Ultsky patches & install instructions, so check those first!
-
-If there isn't a specific guide, then as a general rule of thumb 
-* Anything that adds spells, weapons, followers or other types of NPCs should go ABOVE Requiem.esp (right pane of MO2)
-* Patches always have to be below the mod they are patching, thus the requiem patches will be below Requiem.esp by the other requiem patches while your mod will be above Requiem.esp.
-* Any mods which are NPC overhauls should follow the same installation process as Bijin (in the [NPC Overhaul Guide](#npc-overhaul-guide))
-* Any mods which don't Add new NPCS, followers, Spells and weapons, should be installed below the Ultimate Skyrim patches, but above Warburg's Paper world map. (E.g. Autosave manager, bathtubs Basins and beyond, tentpalooza)
-
-![unknown](https://github.com/user-attachments/assets/b40565a0-c52c-4e1e-9d55-d86814d77600)
+| Term | Purpose |
+|------|---------|
+| **Mod Organizer** | Main tool enabling the modlist - Located at `<Ultsky install>\Content\ModOrganizer.exe` |
+| **Reqtificator** | Requiem patcher making 3rd party mods compatible - [Setup instructions in FAQ](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator) |
+| **Reqtificator.ini** | Configuration for Requiem patcher - Located in `<Ultsky>\Content\mods\Ultsky Core Files\SkyProc Patchers\Requiem` |
+| **DynDOLOD** | Distant terrain/object rendering - [Setup guide here](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/#dyndolod) |
+| **Automatic Variants** | Creates creature appearance variety - [Setup guide here](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/#automatic-variants) |
+| **Merging mods** | Advanced technique combining multiple plugins into one |
 
 
-Setup and run the Reqtificator as per the instructions in the [FAQ](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/##reqtificator-questions)
+## Guides list
+{: .no_toc }
 
-Close mod organizer - and use the launcher to start the game.
+See [Page Organization](#page-organization) section above for navigation.
+
+---
+
+## Quick Start: Adding Mods 
+
+**Step-by-step installation:**
+
+1. Download mod to your UltSky download folder (the directory you entered during Wabbajack installation)
+
+2. Open `<Ultimate Skyrim install>\content\ModOrganizer.exe` and select your playing profile from top-left dropdown
+
+3. Click **Downloads** tab (right side)
+
+4. Find mod in list, right-click > **Install** (click refresh button if mod doesn't appear)
+
+5. Choose installation settings, then **enable the mod** on the left side (should appear at bottom of list)
+
+6. **Check this guide first** - many popular mods have specific guides below with proper Ultsky patches & installation instructions
+
+7. **If the mod has .esp/.esm files**, sort your plugins manually on the right side
+
+   {: .important}
+   > **LOOT IS NOT COMPATIBLE** - Do NOT use LOOT. Sort plugins manually.
+
+**Load order guidelines:**
+- **ABOVE Requiem.esp:** Spells, weapons, followers, new NPCs
+- **BELOW Requiem.esp (with other Requiem patches):** Requiem patches from "Requiem Patch Central"
+- **BELOW Ultimate Skyrim patches, ABOVE Warburg's Paper World Map:** UI mods, Autosave Manager, utilities (Bathtubs, Tentpalooza)
+- **NPC Overhauls:** Follow the [NPC Overhaul Guide](#npc-overhaul-guide)
+
+{: .hint}
+> **Important:** If patching from "Requiem Patch Central", ONLY tick patches for mods YOU are adding. Untick pre-installed patches.
+
+8. Run Reqtificator per [FAQ instructions](https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#reqtificator)
+
+9. Close Mod Organizer and use the launcher to start the game
 
 ---
 
 ## Known Mod Issues/Incompatibilities
 
-The following Types of mods are NOT Compatible. (cause game breaking bugs)
+{: .important}
+> **Check this section before installing any mod.** Many popular mods cause game-breaking bugs or severe performance issues in Ultimate Skyrim.
+
+### ❌ NOT Compatible (Game Breaking)
+
+These mods CANNOT be used - they cause critical bugs:
 > * Any Alternate start mod. (Ultimate Skyrim reborn is included in the list, which acts as a alternate start mod. It cannot be removed and replaced with something else)
 > * Any Mod which affects the perk trees E.g. Ordinator 
 > * Truly Absorb Dragon Souls, DSAMG - Dragon Soul Absorb More Glorious and Dragon Remains (prevents the main quest from firing upon killing a dragon)

@@ -1,11 +1,15 @@
 ---
 title: Launcher Change Log
 layout: default
-nav_order: 3
+nav_order: 4
 description: Launcher change log
 ---
 
-<a class="btn btn-pink" href="https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">Direct Link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+## Wildlander Launcher Updates
+
+The Wildlander Launcher is maintained separately in the [Launcher GitHub repository](https://github.com/Wildlander-mod/Launcher). Below is the complete changelog of all launcher updates and improvements.
+
+<a class="btn btn-pink" href="https://github.com/Wildlander-mod/Launcher/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">Direct Link to GitHub <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
 
 <div> 
 

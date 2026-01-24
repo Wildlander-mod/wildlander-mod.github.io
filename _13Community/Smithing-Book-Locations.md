@@ -6,7 +6,10 @@ has_children: false
 description: Smithing Book locations
 ---
 
-The option to require Smithing books was disabled from the Requiem MCM in version 1.1, but for reference this guide has been left available for those who wish to turn them on.
+{: .warning}
+> **Smithing books requirement is disabled by default** in Requiem MCM since version 1.1. This guide is provided for reference for those who manually enable the requirement.
+
+## Smithing Books Reference
 
 ## Craftsmanship: The Craftsman's Manual [xx35B997]
 

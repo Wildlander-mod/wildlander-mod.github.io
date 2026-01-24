@@ -475,3 +475,200 @@ background: transparent;
   border-left-color: #f77ef1 !important;
   background-color: rgba(247, 126, 241, 0.15) !important;
 }
+
+// ============== TRAIT ROLLER STYLING ==============
+.trait-roller {
+  font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif;
+}
+
+.trait-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.trait-input-group {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.trait-input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.trait-input-group input {
+  width: 60px;
+  padding: 6px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.trait-input-group button {
+  margin-top: 8px;
+  padding: 6px 14px;
+  background-color: var(--color-link);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.trait-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.trait-column {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  padding: 15px;
+  border-radius: 6px;
+
+  h3 {
+    margin-top: 0;
+    color: var(--color-link);
+  }
+}
+
+.trait {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--color-border);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.trait-descriptions {
+  margin-bottom: 30px;
+}
+
+.trait-desc-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: var(--color-bg-secondary);
+  border-left: 3px solid var(--color-link);
+  border-radius: 4px;
+
+  strong {
+    color: var(--color-link);
+  }
+}
+
+#traitTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  th {
+    background: var(--color-bg-secondary);
+    font-weight: 600;
+    color: var(--color-link);
+  }
+
+  tr:hover {
+    background: var(--color-bg-secondary);
+  }
+}
+
+.add-trait-form {
+  background: var(--color-bg-secondary);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 8px 16px;
+    background-color: var(--color-link);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+.inline-selector {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+  padding: 12px;
+  background: var(--color-bg-secondary);
+  border-radius: 6px;
+}
+
+.selector-label {
+  font-weight: 600;
+  min-width: 150px;
+}
+
+.selector-output {
+  color: var(--color-link);
+  font-weight: 600;
+}
+
+.trait-roller-button {
+  padding: 6px 14px;
+  background-color: var(--color-link);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 768px) {
+  .trait-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inline-selector {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
