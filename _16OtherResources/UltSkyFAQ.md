@@ -4,7 +4,10 @@ title: Ultimate Skyrim FAQ
 description: Ultimate Skyrim - Frequently Asked Questions
 parent: Ultimate Skyrim
 ---
-	
+
+{: .important}
+> **Ultimate Skyrim Status**: This modlist is no longer actively developed or supported. Installation support is limited to Discord archives. Use at your own risk. See [Installation Guide](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/) for details.
+
 ## Table of contents
 {: .no_toc }
 <details markdown="block">
@@ -16,743 +19,903 @@ parent: Ultimate Skyrim
 {:toc}
 </details>
 
+---
 
-## Does this mod pack support SSE?
+# Getting Started
 
-### Does this mod pack support SSE/AE?
-Ultimate Skyrim is only for Legal copies of Skyrim Classic Edition w/ All DLC’s, otherwise known as Skyrim Legendary Edition.
+## Does this mod pack support SSE/AE?
 
-### Where can I buy legendary Edition?
-You can buy Legendary Edition from one of the places linked in Wabbajack's Reddit post:
+Ultimate Skyrim is only for legal copies of Skyrim Classic Edition with all DLC's, otherwise known as **Skyrim Legendary Edition**. It does not support Special Edition (SSE) or Anniversary Edition (AE).
 
-[Wabbajack:How to get Skyrim LE in 2021](https://www.reddit.com/r/Wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/)
+## Where can I buy Legendary Edition?
+
+You can find purchase links through Wabbajack's Reddit post: [Wabbajack: How to get Skyrim LE in 2021](https://www.reddit.com/r/Wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/)
 
 ---
-## How Do I Update to the current Version.
-Please note the 4.3 is not save game compatible. Updating will require a fresh game with new MCM setup.
 
-You would delete the contents of your _Ultsky install folder_\content With the exception to downloads.
-	
-Then you follow the install guide from step 2.3 [here](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/)
-	
+# Installation & Setup
+
+## How do I setup a Steam library outside of Program Files?
+
+The Wabbajack team has a handy utility to help you do that: [Steam Library Setup Tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)
+
 ---
-	
+
+# Wabbajack Issues
+
+## Wabbajack Fails to install with GameFileSourceDownloader Error
+
+**Symptom**: Installation fails with "GameFileSourceDownloader" error message
+
+**Four Known Causes:**
+
+1. **Skyrim installed in Program Files**
+   - Solution: Use the [Steam Library Setup Tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) to create a new Steam library outside of Program Files, then move/install Skyrim into that library
+
+2. **You have previously "cleaned" your DLC**
+   - Solution: Have Steam verify the game files
+
+3. **You have manually moved your Skyrim install**
+   - Solution: Move it back, then use Steam to move it to the new location
+
+4. **You don't have DLC installed**
+   - Solution: Install DLC; if you don't own it, purchase from link above
+
+After applying solutions 2, 3, or 4, restart Wabbajack.
+
+---
+
+## Wabbajack Fails to download mods or hangs for a long time
+
+**Symptom**: Wabbajack gets stuck downloading and won't proceed
+
+**Solutions:**
+
+1. **Restart Wabbajack** - Close and restart, enter same criteria as before. Wabbajack will CRC check existing files and normally resume where it failed.
+
+2. **Try a VPN** - If restart doesn't work, try a VPN service such as Cloudflare WARP or ProtonVPN.
+
+{: .hint}
+> Note: Ultimate Skyrim is not affiliated with any VPN service and cannot provide user support for VPN usage. Use at your own discretion.
+
+---
+
+# Installation Troubleshooting
+
+## I'm missing master for HighResTexturePack01-03 or game CTDs after Skyrim Logo
+
+**Solution (Easiest)**: Download and enable the High Res DLC from [Steam](https://store.steampowered.com/app/202485/Skyrim_High_Resolution_Texture_Pack_Free_DLC/)
+
+**Alternative**: Re-run the Reqtificator to generate a new Requiem For The Indifferent.esp (RFTI) without the High Res DLC as a master. (This will be fixed in the next release.)
+
+If you have issues viewing the DLC, try [this workaround](https://www.reddit.com/r/ultimateskyrim/comments/galfjk/high_res_texture_pack_info/)
+
+---
+
+## Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
+
+![SKSE Loader Error](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/011e741b-dc39-46eb-a5d8-2b350af89ab9)
+
+**Checklist:**
+
+1. Check that your Anti-virus is not flagging SKSE or Skyrim files
+   - Best solution: Add Anti-virus exceptions for Ultimate Skyrim & Skyrim folders
+
+2. Verify your content folder contains:
+   - `usvfs_proxy_x64.exe`
+   - `usvfs_proxy_x86.exe`
+   - If missing, Anti-virus likely moved them to virus vault
+
+3. Restore missing files from Mod Organizer Zip in `Ultimate Skyrim\download` directory
+
+---
+
+## Can't Launch Ultimate Skyrim Bat file
+
+**Symptom**: Screen flashes for half a second then disappears; launcher doesn't start at all
+
+**Cause**: Windows UAC is preventing the program from running
+
+**Solutions:**
+
+1. Open PowerShell as administrator and type: `Set-ExecutionPolicy Bypass`
+   - Answer "yes" to any prompts
+
+2. If #1 doesn't work, navigate to `\content\_shortcut` folder and run batch file matching your graphics settings
+
+{: .hint}
+> If launcher starts but crashes after clicking "play", see [Game Hard CTD on Splashscreen](#game-hard-ctd-on-splashscreen)
+
+---
+
+## Game Hard CTD on Splashscreen
+
+**Symptom**: Game crashes immediately after Skyrim logo splash screen
+
+**Note**: You may see error about missing `d3dx9_43.dll`
+
+**Step 1 - Try vanilla Skyrim first:**
+- Launch Skyrim from Steam directly. If it also crashes, continue to Step 2.
+
+**Step 2 - Install DirectX Runtimes:**
+
+1. Download DirectX End-User Runtimes from:
+   - [Archive.org Mirror](https://web.archive.org/web/20190616115008/https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe)
+   - [CNET Mirror](https://download.cnet.com/Microsoft-DirectX-Redistributable-June-2010/3000-2121_4-10176490.html)
+   - Note: This gives you a zip file disguised as .EXE, not actual installer
+
+2. Unpack into a directory (e.g., `C:\directX\`)
+
+3. Run `DXSetup.exe` and follow on-screen instructions
+
+4. (Optional but recommended) Reboot PC
+
+**Step 3 - Regional/Locale settings:**
+
+If Skyrim launches from Steam after Step 2:
+
+1. Open Windows Control Panel → Region
+2. Click "Additional settings..." at bottom
+3. Click "Reset" in the window that opens
+
+**Other causes:**
+- ASUS GPU TweakII, Xtrem Tuner, or MSI Afterburner running
+- "My Documents" folder moved to different hard drive (SKSE requires system drive)
+- Overlays running (Steam, Discord, GeForce Experience, Overwolf, etc.)
+
+---
+
+## Skyrim has failed to allocate memory! or running out of memory
+
+**Symptom**: CTD with Crash Fixes error "Skyrim has failed to allocate memory" or crashes during/after character creation
+
+**Cause**: Bad ENB installation (most common)
+
+**Solution**: Open `enblocal.ini` in your Skyrim folder and configure according to this guide:
+
+![enblocal.ini Configuration](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/464543de-67f6-4898-bd10-d943a2efdbe1)
+
+---
+
+## My game freezes during loading screens
+
+**Symptom**: Game appears frozen or has unusually long loading time (may still be loading in background)
+
+**Causes & Solutions:**
+
+1. **OneTweak Windowless Bordered mode issue:**
+   - Make sure Windows Task Manager is NOT running
+   - Don't Alt-tab out of loading screens
+   - Disable "Save on wait" and "Save on travel"; use manual saves instead
+
+2. **Below minimum PC specs:**
+   - Check [Installation Guide](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/) for minimum requirements
+   - Try removing ENB using [this method](#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it)
+
+3. **Folder permission issues:**
+   - Ensure Ultimate Skyrim folder is NOT read-only
+
+4. **Drive location issues:**
+   - Ultimate Skyrim must be on SAME hard drive as Skyrim
+   - Ultimate Skyrim CANNOT be in Program Files
+
+5. **Previous mods/subscriptions:**
+   - Remove any additional mods from `skyrim\data` folder from previous modding
+
+6. **AMD Driver conflict (5000 & 6000 series):**
+   - Roll back to working drivers OR disable ENB graphics
+
+7. **Corrupt Skyrim install:**
+   - Launch Skyrim from Steam directly and check for crashes
+
+8. **Antivirus scanning:**
+   - Add Ultimate Skyrim and Skyrim folders to antivirus exceptions
+
+9. **Missing C++ or DirectX:**
+   - Reinstall [C++ 32-bit and 64-bit versions](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+   - Reinstall [DirectX](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+
+10. **Permission loss:**
+    - You've lost write permissions to `My Documents\My Games\Skyrim` or Ultimate Skyrim folder
+
+11. **OneDrive/Dropbox syncing:**
+    - OneDrive or Dropbox is syncing `My Documents\My Games\Skyrim` or Ultimate Skyrim folder (disable syncing for these)
+
+12. **Corrupt save file:**
+    - Try using [Savetool.exe](https://www.nexusmods.com/skyrim/mods/52363/) to recover save
+    - If that fails, revert to previous save or start new game
+
+---
+
+# Known Issues
+
+## Can I see a list of Known issues?
+
+Yes: [Known Issues Document](https://docs.google.com/document/d/10jxUuBhmnLne5e4lb7ifAz9rByrTy_wEOpojmItyScM/preview)
+
+---
+
+# Updates & Uninstalling
+
+## How Do I Update to the current Version?
+
+**Important**: Version 4.3 is NOT save game compatible. Updating requires a fresh game with new MCM setup.
+
+**Steps:**
+
+1. Delete contents of `<Ultsky install folder>\content` (EXCEPT the `downloads` folder)
+
+2. Follow the [installation guide from step 2.3](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/)
+
+---
+
 ## How do I Uninstall?
-	
-Were sorry to see you leave!
-	
-Removing Ultsky is a simple matter of removing the files from your steam Skyrim folder that you copied from game folder files(below). Then deleting the Ultimate Skyrim installation folder.
-	
-![image](https://user-images.githubusercontent.com/26418143/124308354-1674dc00-db61-11eb-92d5-11ff65d4e601.png)
-	
----
-## **Wabbajack Issues**
-
-### Wabbajack Fails to install with GameFileSourceDownloader Error
-If you have Wabbajack Fail with the messages containing GameFileSourceDownloader
-
-There are Four Known causes
-
-1) You have Skyrim installed in program files
 
-	Solution: Close and Run Wabbajack installer as a administrator.
-	
-2) You have previously "cleaned" your DLC.
+We're sorry to see you leave!
 
-	Solution: Have steam verify the game files. 
-	
-3) You have moved your Skyrim Install from where you originally installed it.
+Removing UltSky is simple:
 
-	Solution: Move it back, and use steam to move it to the new location.
-	
-4) You don't have the DLC installed.
+1. Remove files from your Steam Skyrim folder that you copied from "Game Folder Files"
+   - (See [Installation Guide](https://wiki.wildlandermod.com/16OtherResources/UltimateSkyrim/) for reference)
 
-	Solution: Install it, if you don't own it you can find a link to purchase it here [Wabbajack:How to get Skyrim LE in 2021](https://www.reddit.com/r/Wabbajack/comments/kx6ppr/how_to_get_skyrim_legendary_edition_in_2021/) .
-	
-After doing the solution 2,3  or 4, you will need to restart Wabbajack.
+2. Delete the Ultimate Skyrim installation folder
 
 ---
-### Wabbajack Fails to download mods or hangs for a long time.
 
-Sometimes Wabbajack gets stuck downloading.
+# Configuration
 
-1. Close and restart Wabbajack - Start the Ultimate Skyrim install process again, entering same criteria as originally. Wabbajack will the CRC check your existing files and will normally resume where it failed & complete the install without any further intervention.
-2. If that does not resolve the issue, try using a VPN service such as Cloudflare WARP or ProtonVPN. (Ultimate Skyrim is not affiliated with and does not endorse any specific VPN service. We does not provide user support for VPN services. Use at your own discretion.)
+## What do the presets mean?
 
+| Preset | Target PC | Details |
+|--------|-----------|---------|
+| **High** | Top-end PC | Grass visible at maximum draw distance (equivalent to Ultra) |
+| **Medium** | Mid-range PC | Grass visible from ~10 meters (equivalent to Medium-High) |
+| **Low** | Minimum spec PC | Grass drawn ~1 meter away; may have visual effects during heavy snow |
+
 ---
-## **Current Version Issues**
 
-### Can't Launch Ultimate Skyrim Bat file
-Symptom: a screen flashes up for a half a second before disappearing. The launcher doesn't Start *at all* 
-	
-Cause: Windows UAC is preventing running of this program. 
-	
-Work Around:
-1) Open a Power shell windows as a administrator from the search bar and type **Set-ExecutionPolicy Bypass** 
-		Answering yes to any questions which follow
-		
-2) if 1) doesn't work - navigate to the "\_shortcut" folder and start one of the batch files matching your preferred graphics settings
+## My PC can't handle the ENB - Can I reduce the Settings?
 
-Note: If the launcher does start but crashes after clicking "play" please see this FAQ entry [Game Hard CTD on Splashscreen](#game-hard-CTD-on-SplashScreen)
+**Option 1 - Keep Dylan's lighting:**
 
----
-### Can I see a list of Known issues?
+Open `ENBseries.ini` in your Steam Skyrim folder and change the effects section to match [this guide](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/1d53cb9f-4989-444a-9ed8-72947fd6ff1b)
 
-Sure - Here's a [link](https://docs.google.com/document/d/10jxUuBhmnLne5e4lb7ifAz9rByrTy_wEOpojmItyScM/preview)
+**Option 2 - Best performance (keep weather & lighting):**
 
----
-### What do the presets mean?
+Switch your `ENBseries.ini` with [this one](https://wiki.wildlandermod.com/16OtherResources/enbseries.ini) in your Steam Skyrim folder
 
-High   - Intended for top end PC, grass is visible from maximum distance Skyrim is capable of drawing (equivalent to Ultra)
+---
 
-Medium - Intended for Mid-range PC's - grass is visible from approx 10 meters(equivalent to medium-high)
+## My PC Can't handle the ENB Graphics even on low settings - Can I remove it?
 
-Low    - Intended for minimum specification PC - grass is only drawn literally a meter away - may have odd visual effects during heavy snow 
+**Important**: Skyrim can't handle modern PC RAM capacity. If your PC has more than 4GB RAM, you cannot disable ENB entirely—only the graphics, keeping the memory boost (ENBboost).
 
----
-## **Install Questions**
+**Steps:**
 
-### How do i setup a steam library outside of program files
+1. Delete `ENBseries` folder and `ENBseries.ini` from Steam Skyrim folder
 
-The Wabbajack team has a handy utility to help you do that [here](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)
+2. Open `Content\ModOrganiser.exe`
 
----
+3. Select graphics profile from profiles dropdown
 
-### I’m missing master for HighResTexturePack01-03 or My game CTD after Skyrim Logo
+4. On left side: Untick "Snowfall weathers"
 
-If you are experiencing a missing master for HighResTexturePack01-03 the simplest fix is to download and enable the High Res DLC from https://store.steampowered.com/app/202485/Skyrim_High_Resolution_Texture_Pack_Free_DLC/
+5. On right side: Untick "ultimate skyrim - snowfall weathers.esp"
 
-Alternatively, you can re-run the Reqtificator to generate a new Requiem For The Indifferent.esp (RFTI) without the High Res DLC as a master. This will be fixed in the next release.
+6. Setup and run Reqtificator per [instructions](#how-do-i-install-the-reqtificator)
 
-If you have issues viewing the DL, try this work around https://www.reddit.com/r/ultimateskyrim/comments/galfjk/high_res_texture_pack_info/
+7. Open `Skyrim\Enblocal.ini` and change `UsePatchSpeedhackWithoutGraphics` to `true`
 
 ---
-
-### Game doesn't boot when launching SKSE / Cannot Start SKSE_Loader Error
 
-![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/011e741b-dc39-46eb-a5d8-2b350af89ab9)
+## It's too dark at night, can I make it brighter?
 
+**For regular vision:**
 
-Ensure the following:
+1. Open ENB GUI in-game with `Shift+Enter`
+2. In ENBseries window, find weather toggle and turn ON
+3. In weather pane, find Environment section → Point Lighting
+4. Adjust settings to your preference
+5. Hit "Save" then "Apply" in ENBlocal window
 
-1. Check that your Anti-virus is not flagging SKSE or any Skyrim related files (best Solution is to add Anti-virus exceptions to  the Ultimate Skyrim & Skyrim folders
+![ENB Settings](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/4c9ce928-8d18-4397-8870-e97cb1df6d5f)
 
-2. Make sure you content folder contains usvfs_proxy_x64.exe & usvfs_proxy_x86.exe If these files are missing its likely your anti-virus has moved them to the virus vault.
+**For Nighteye:**
 
-3. Restore Missing files from Mod Organizer Zip file in your Ultimate Skyrim\download directory if cannot find in virus vault
+See [ENNE NightEye Settings Guide](https://www.reddit.com/r/ultimateskyrim/comments/bpk1js/adjusting_night_eyeeene_for_better_visibility/)
 
 ---
 
-### Game Hard CTD on Splashscreen
+# Reqtificator
 
-Note: You may get a error messages about missing d3dx9_43.dll.
+## How do I Install the Reqtificator?
 
-Attempt starting Skyrim from steam - if this crashes as well then
+**Prerequisites:**
+- Java MUST be installed in `Program Files` (NOT `Program Files(x86)`)
+- If you don't have it, download [Windows Offline 64-bit version](https://java.com/en/download/manual.jsp)
 
-1. Download DirectX End-User Runtimes from [Here](https://web.archive.org/web/20190616115008/https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe) or [here](https://download.cnet.com/Microsoft-DirectX-Redistributable-June-2010/3000-2121_4-10176490.html) Note: This will give you a zip file disguised as a EXE - not the actual installer itself
-2. Unpack the downloaded file into a directory (E.g C:\directX\)
-3. Open the directory and run DXSetup.exe. Follow on-screen instructions.
-4. (optional but recommended) Reboot your PC.
+**Steps:**
 
-If Skyrim Launches from steam 
+1. Watch this [video guide](https://www.youtube.com/watch?v=thfOQIdW0Cg&t=1389s)
 
-1. Go in the Windows control panel, Region. 	
-2. Click "Additional settings..." at the bottom, then "Reset" in the window that opens.
+2. **When patcher asks if you're running new game:** Select "Yes, this is a new game"
 
-Other things which can cause this issue:-
-* ASUS GPU TweakII, Xtrem tuner or MSI afterburner running at the same time as Skyrim
-* You have moved your "my documents" folder to a different hard drive - SKSE requires this to be on your System drive.
-* You have overlay's running (Steam, Discord, geforce experience, overwolf ect)
+3. **When patcher notifies about 100+ plugins:** Select "Ignore from now on"
 
----
+4. Leave all options at defaults and click patch button
 
-### Skyrim has failed to allocate memory! or Possibly running out of memory
+---
 
-If your game CTDs with an error from Crash Fixes saying "Skyrim has failed to allocate memory! Possibly running out of memory...", or it crashes during/after the character creation screen, the most likely cause is a bad ENB installation.
+## There was no consistency file found
 
-Open  “enblocal.ini” in your Skyrfilm folder and then configure it according to this
+![Consistency File Error](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/3c65ee1a-55dd-4e61-92d5-d891c8bf0c3f)
 
-![yfBDnJI](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/464543de-67f6-4898-bd10-d943a2efdbe1)
+**Solution:** Select "Yes, this is a new game"
 
 ---
-
-## **Customization Questions**
-### Can someone help with my load order?
 
-The Ultimate Skyrim Support Team cannot assist with this issue as there are too many variables. 
+## Automatically allocating memory failed
 
-Do not use L.O.O.T or rearrange Ultimate Skyrim’s default mods unless a guide from one of us specifically tells you to!
+![Memory Allocation Error](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/4b98e1ad-f986-4e8f-abb5-8c36f955059f)
 
+**Cause**: Your Java binary path is wrong; you're using 32-bit Java instead of 64-bit
 
-**If you have broken you load order and want to get back to the original**
-* Close Mod Organiser
-* If you have profile specific saves - Back these up first (they will be in <install path>\content\profiles\profile you play\saves).
-* delete everything from <install path>\content\profiles\
+**Solution:** Check your paths per Step 5 in [Requiem Wiki](https://requiem.atlassian.net/wiki/spaces/RS/pages/691470460/Installing+Requiem+with+Mod+Organizer+2+version+3.2.0+and+older)
 
-Download the appropriate zip file for the version of Ultsky you currently have installed:-	
+---
 
-* For 4.0.7 Installs https://wiki.wildlandermod.com/Assets/Downloads/profiles.rar
-* For 4.1   Installs https://wiki.wildlandermod.com/Assets/Downloads/4.1_profiles.rar 
-* for 4.2   Installs https://wiki.wildlandermod.com/Assets/Downloads/4.2_profiles.rar
-* for 4.3   Installs https://wiki.wildlandermod.com/Assets/Downloads/4.3_profiles.zip
-* Unpack the contents of the correct zip file for your installation into <install path>\content\profiles\.
+## It says I am using more than 100 plugins
 
-If you have added additional Mods - you will need to re-enable & reorganize your load order. 
+![100+ Plugins Warning](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/dc7035a8-d102-4a53-93b0-922cce872e50)
 
-Finally if you had profile specific saves - recreated the saves directory and restore your saves from your backup.
+**Solution:** Select "Ignore from now on"
 
 ---
 
-### Mod X has been updated, can I install that?
+## The Reqtificator won't start. MO2 locks up or returns "Directory name is invalid" error
 
-No, For stability reasons - only the versions installed by Wabbajack are supported.
+**Cause**: Typo in folder path for Requiem Skyproc patcher
 
----
+**Solution**: Verify path is exactly: `\<path to your Skyrim installation>\Data\SkyProc Patchers\Requiem`
 
-### Can I remove/disable mod X?
+Common mistake: Omitting the 's' at end of "SkyProc Patchers"
 
-Many mods have a Mod Configuration Menu (MCM) where they can be turned off. Also, some mods are considered optional, so they can be disabled or uninstalled in Mod Organizer. If you remove an optional mod that has an esp plugin, you will need to run the Reqtificator and possibly Automatic Variants patcher. 
+Also confirm the "Start in" path in MO2 Reqtificator configuration matches.
 
 ---
 
-### Can I Add Additional mods?
+# MCM & Gameplay Configuration
 
-For a list of known mods which have Issues/Incompatibilities/ please click [here](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#known-mod-issuesincompatibilities)
+## What does the MCM guide mean about template saves?
 
-Before you begin modding Please read the [basics](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#ultimate-skyrim-modding-basics) which contains the rules for modding in ultsky and are slightly different to other modlists you might have tried. The most important rule is
+There is no way to copy MCM settings to new characters for every mod.
 
-▶️ **YOU CAN'T USE LOOT**  ◀️
+**Workaround - Create a "template save":**
 
-The support Team has put together a set of guides for adding popularly requested additional mods.
-
-Please visit [this page](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#guides-list) for install guides or the Wildlander discord (Ultsky-customization channel) advice for other type of mods.
-
----
+1. Configure bulk of MCM's
+2. Load this template save every time you start new character
+3. You'll only need to do "post-Start" MCM setups (last ~2 pages)
 
-### Does This mod pack Support other languages?
+**Template save definition:** A save game made BEFORE clicking "Begin My Adventure" in Ultimate Skyrim MCM menu. This avoids reconfiguring everything for future characters.
 
-No and if you try then SKSE crashes from Mod Organizer. You will need to install English Skyrim to play this mod pack.
+**Disclaimer**: Certain game elements are "baked" into Skyrim the moment "Start New Game" is clicked, including: Locations of certain items, starting inventory, initial stats
 
 ---
 
-### Can I backup and restore Ultimate Skyrim
+## iNeeds MCM page is blank OR Requiem Cannot be added to existing save
 
-Yes, please follow this [guide](https://github.com/Wildlander-mod/Support/blob/master/Docs/Backup.md)
+**Cause**: You started MCM config before mod finished initializing (scrolling messages in top left)
 
+**Fix:**
 
----
-### I want to setup rodericktech guide for fancy graphics - where are the patcher instructions.
-
-Reqtificator is located [here](#how-do-i-install-the-reqtificator)
+1. Close and re-open Skyrim to remove partially loaded scripts
+2. Start new game
+3. **Wait for ALL messages in top left to disappear**
+4. Start MCM setup again
 
-Other Patchers(AV, Dyndolod ect) are located [here](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/)
+{: .important}
+> Once this error occurs, the save is corrupted and cannot be recovered.
 
 ---
 
-### My PC can't handle the ENB - Can I reduce the Settings?
+# Customization
 
-If you prefer to keep Dylan's lighting preferences - then open up ENBseries.ini in you Steam Skyrim folder and change the effects section to match the following
+## Can someone help with my load order?
 
-![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/1d53cb9f-4989-444a-9ed8-72947fd6ff1b)
+The Ultimate Skyrim Support Team cannot assist due to too many variables.
 
+**⚠️ DO NOT use L.O.O.T or rearrange Ultimate Skyrim's default mods unless a guide specifically tells you to!**
 
-If on the other hand you want absolute best performance, but retaining the ENB weather & lighting effects you can switch your ENBseries.ini in your Steam Skyrim folder with this one [enbseries ini](https://wiki.wildlandermod.com/16OtherResources/enbseries.ini)
-
-
----
+### If you've broken your load order:
 
-### It's too dark at night, can I make it brighter?
+1. Close Mod Organizer
 
-for regular vision
+2. Back up profile-specific saves (located at `<install path>\content\profiles\<profile>\saves`)
 
-Open ENB GUI in game with shift+enter. In the enbseries window, find the weather toggle and turn that on. In the weather pane, find the Environment section, find Point lighting. There are several settings you can adjust here. Just play around with them to see how everything works and find what you like. If you screw something up and forget the default value or just want to revert to your previous saved settings, just hit load settings in the enblocal window. 
+3. Delete everything from `<install path>\content\profiles\`
 
-When you want to save, hit save then apply in the enblocal window.
+4. Download profiles zip for your UltSky version:
+   - [4.0.7](https://wiki.wildlandermod.com/Assets/Downloads/profiles.rar)
+   - [4.1](https://wiki.wildlandermod.com/Assets/Downloads/4.1_profiles.rar)
+   - [4.2](https://wiki.wildlandermod.com/Assets/Downloads/4.2_profiles.rar)
+   - [4.3](https://wiki.wildlandermod.com/Assets/Downloads/4.3_profiles.zip)
 
-![image](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/4c9ce928-8d18-4397-8870-e97cb1df6d5f)
+5. Unpack into `<install path>\content\profiles\`
 
+6. If you added mods: re-enable and reorganize load order
 
-For Nighteye Settings
-[ENNE NightEye Settings](https://www.reddit.com/r/ultimateskyrim/comments/bpk1js/adjusting_night_eyeeene_for_better_visibility/)
+7. If you had profile saves: restore from backup
 
 ---
 
-### My PC Can't handle the ENB Graphics even on low settings - Can I remove it?
+## Mod X has been updated, can I install that?
 
-Skyrim can't handle modern PC's RAM capacity So if you PC has more than 4GB you cannot disable the ENB entirely - so the most you are able to do is deactivate the ENB graphics and just use the memory boost (ENBboost) aspects.
+**No.** For stability reasons, only the versions installed by Wabbajack are supported.
 
-Delete ENBseries folder and ENBseries.ini from your Steam Skyrim folder
-
-1. Open Content\ModOrganiser.exe
-2. Select the graphics profile you play from the profiles drop down
-3. find on the left side Snowfall weathers and untick that
-4. find ultimate skyrim - snowfall weathers.esp on the right side and untick that too
-5. Setup and run the Reqtificator as per [Instructions](#How-do-i-Install-the-Reqtificator)
-6. Open Skyrim\Enblocal.ini, Change UsePatchSpeedhackWithoutGraphics to true.
-
 ---
 
-## **Reqtificator Questions**
+## Can I remove/disable mod X?
 
-## How do i Install the Reqtificator?
-Firstly make sure you have Java installed in Program Files. the version in Program Files(x86) does not work. If you don't have it - you can download it [here](https://java.com/en/download/manual.jsp) The version you want is Windows Offline (64-bit).
+Many mods have MCM options for disabling. Some mods are marked optional and can be disabled in Mod Organizer.
 
-after checking that - Follow this video [guide](https://www.youtube.com/watch?v=thfOQIdW0Cg&t=1389s)
+**Important**: If you remove optional mods with `.esp` plugins, you must run Reqtificator and possibly Automatic Variants patcher.
 
-Notes:
-1. When the patcher asks if you are running a new game, select “Yes, this is a new game.”
-1. When the patcher notifies you about having over 100 plugins, select “Ignore from now on”.
-
-Once reqtificator is running - Leave all options at defaults, Simply hit the patch button.
+---
 
+## Can I Add Additional mods?
 
-### There was no consistency file found
-![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/3c65ee1a-55dd-4e61-92d5-d891c8bf0c3f)
+**Before you start:**
 
+1. Check [known incompatibilities list](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#known-mod-issuesincompatibilities)
 
-Select “Yes, this is a new game.”
+2. Read the [modding basics](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#ultimate-skyrim-modding-basics)
 
----
+3. **⚠️ YOU CANNOT USE LOOT ⚠️**
 
-### Automatically allocating memory failed
+The Support Team has created guides for popular mods at [this page](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#guides-list) or ask in Wildlander Discord #ultsky-customization channel.
 
-![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/4b98e1ad-f986-4e8f-abb5-8c36f955059f)
+---
 
+## Does this mod pack support other languages?
 
-Your binary path for java is wrong. The Reqtificator error message tells you that you're using 32-bit java instead of 64. Check your paths in _Step 5_[ https://requiem.atlassian.net/wiki/spaces/RS/pages/691470460/Installing+Requiem+with+Mod+Organizer+2+version+3.2.0+and+older](https://requiem.atlassian.net/wiki/spaces/RS/pages/691470460/Installing+Requiem+with+Mod+Organizer+2+version+3.2.0+and+older)
+No. SKSE crashes if you try non-English Skyrim. Install English Skyrim to play this modpack.
 
 ---
-
-### It says I am using more than 100 plugins
 
-![unnamed](https://github.com/Wildlander-mod/wildlander-mod.github.io/assets/26418143/dc7035a8-d102-4a53-93b0-922cce872e50)
+## Can I backup and restore Ultimate Skyrim?
 
+Yes: [Backup Guide](https://github.com/Wildlander-mod/Support/blob/master/Docs/Backup.md)
 
-Select ignore from now on
-
 ---
 
-### The Reqtificator won't start. When I press "Run", MO2 locks up, then unlocks and nothing happens; or MO2 returns a "Directory name is invalid" error.
+## I want to setup rodericktech guide for fancy graphics - where are the patcher instructions?
 
-In most cases this is due to a typo in the folder path for the Requiem Skyproc patcher. The path should be: **\<path to your Skyrim installation>\Data\SkyProc Patchers\Requiem**. Many users omit the 's' at the end of "SkyProc Patchers" when creating the folder. Also confirm that the "Start in" path in your MO2 Reqtificator configuration matches the path.
+- **Reqtificator:** [See instructions](#how-do-i-install-the-reqtificator)
+- **Other Patchers** (AV, Dyndolod, etc): [See Patchers Page](https://wiki.wildlandermod.com/16OtherResources/UltskyPatchers/)
 
 ---
 
-## **MCM Questions**
+# Gameplay Issues
 
-### What does the MCM guide mean about template saves?
+## Why are auto-saves disabled or quicksaves not recommended for use in Ultsky?
 
-There is unfortunately no way to Copy MCM settings over to a new character for every mod. 
+**The Problem:**
 
-The closest thing is creating a "template save" by configuring the bulk of the MCM's. then loading this template save everytime you want to create a new character. You will then only need to do the "post-Start" MCM setups (approx the last 2 pages)
+Heavily modded setups have many script-heavy mods. Sometimes a script pauses during saving and can't recover properly, causing corrupted saves. Additionally, heavy script load can cause CTD during save function.
 
-A template save will be the save game you make _before_ clicking on _Begin My Adventure_ in the Ultimate Skyrim MCM menu, you will want to do this so next time you start a new character you won’t have to re-configure everything before the Ultimate Skyrim MCM!
+**Auto-saves also increase cell loading times by 500%**, making manual saves preferred over integrated loading screen saves.
 
-Disclaimer
+**Safe Save Practice:**
 
-*Certain elements of a game are *baked* into Skyrim the *exact moment* Start New Game is selected. These types of elements are; Locations of certain items*
-
----
-### iNeeds MCM page is blank Or Requiem Cannot be added to a existing save.
+{: .hint}
+> - Wait at least **1 minute** after loading before saving (some scripts break if you save too soon)
+> - Avoid saving during combat or heavy script load
+> - Never save more than once per minute
+> - Never save within 30 seconds of entering building/cell/dungeon
 
-This happens when you start MCM config before the mod has finished initialising - indicated by scrolling messages in the top left of your screen. 
+**Auto/Quicksaves Verdict:**
+- Auto/Quicksaves are OK, but timing determines safety
+- Having multiple saves limits playtime loss if corruption occurs
+- Better safe than sorry
 
-There is no way to recover you game once this occurs.
+---
 
-1) You will need to close & re-open Skyrim, to remove partially loaded scripts from your session.
-2) Start a new game
-3) Wait for **all** messages in the top left to disappear
-4) Start MCM setup again.
+## My Keyboard isn't working
 
-----
+**Usual cause**: You ran Special Edition version of Skyrim prior to UltSky. SE doesn't release all files LE needs, disabling keyboard.
 
+**Solutions:**
 
-## **Gameplay Questions**
+1. Close and reopen Steam itself (sometimes sufficient)
+2. Reboot your PC
 
 ---
-### Why are auto-saves disabled or quicksaves not recommended for use in Ultsky
-
-The problem in a heavily modded set up is that it has a ton of script heavy mods. Sometimes a script will get paused for saving, and that script won't be able to recover properly from it's paused state. This leads to a corrupted save. Another possibility is that your computer is already under so much strain from the scripts that the save function can actually cause a ctd when trying to save, usually during some script-intensive moment.
 
-The point being that not using auto-save can help with avoiding ctds (if you've been experiencing them on loading Screens) and hence corrupted save files when you try to load one after a CTD. In addition Auto-saves increase cell loading times by 500%, so its preferable to manually save once inside of a cell, rather than have it integrated into the loading screen. 
+## My Compass has disappeared!
 
-Quicksaves are fine as long as you know when to save (i.e. during low intensity moments, giving plenty of time for your crazy mod scripts to finish running) and not while hiding behind a pillar in stealth trying to avoid 50 bandits whom you just woke. 
+**This is intentional.** Immersive HUD hides the compass by default.
 
-Auto/Quicksaves are not bad intrinsically (in and of themselves), it's that there are an insufficient number of them if something goes wrong, leading to the possibility of many lost hours of game-play progress. You would be forced to use a previous 'hard save.'.
+**To make it temporarily visible:** Press 'N' key
 
-TL;DR  Auto/Quicksaves are ok, but timing is what determines if they're safe or more likely to corrupt.  Having multiple saves to use limits the amount of play lost to script-death.
+**To make it permanently visible:** Change MCM setting in Immersive HUD → Compass Activation → Key Press Toggles
 
-Instead Practice Safe Hard saves:-
-> When you load your save file, wait at least a minute before saving again. Some scripts will break if you save too soon after loading.
->  
-> Avoid saving during combat or other conditions of heavy script load. 
->
-> Never save more than once a minute.
->
-> Never save within 30 seconds of entering a building / cell / dungeon.
-
 ---
 
-### My Keyboard isn't working
+## Why can't I select the first crafting perk?
 
-Normally occurs if you have run the Special Edition version of Skyrim prior to loading Ultimate Skyrim. Special Edition doesn't release all of the files Legendary Edition needs to run so it disables the keyboard.
+You need a book called **The Craftsman's Manual** in your inventory. Most blacksmiths sell it. Requiem crafting perks each require their own books (some purchased, others found in world).
 
-1) Some users report that closing and reopening steam itself is enough to make it work
-2) Reboot your PC.
-
 ---
-
-### My Compass has disappeared!
 
-This is intentional. Immersive HUD hides this functionality by default. To make the compass _temporarily_ visible again press the 'N' key.
+## Why Can't I Run or Why is my stamina going down for no reason?
 
--   To make it permanently visible, change the MCM setting in Immersive HUD > Compass Activation > Key Press Toggles.
+Requiem applies stamina drain when you run OR wear armor without first Heavy/Evasion Armor perk. Running is normal speed (not sprinting or walking).
 
----
-
-### Why can't I select the first crafting perk?
+**Solution:** Buy food with "Regenerate 1 stamina per second for X seconds" effect and keep buff active at all times.
 
-You need a book called The Craftsman’s Manual in your inventory. It can be purchased from most blacksmiths. Most of the Requiem crafting perks require their own books, some of which can be bought while others must be found in the world.
+{: .important}
+> NO YOU CANNOT DISABLE IT, PLEASE DON'T ASK!
 
 ---
 
-### Why Can't I Run or Why is my stamina going down for no reason?
+## Why can't I get a blessing at a shrine?
 
-Requiem applies a stamina draining effect when you run, and when you wear armor without the first perk in the heavy/evasion armor tree. Running is the normal speed you move at if you aren’t sprinting or specifically holding down the “walk” button. To combat this, make sure to buy food with a “Regenerate 1 stamina per second for X seconds” effect and keep that buff up at all times.
+Requiem's Gods are unforgiving. Too much crime = no blessings or healing.
 
-**NO YOU CANNOT DISABLE IT, PLEASE DON'T ASK!**
-
 ---
 
-### Why can't I get a blessing at a shrine?
+## Why aren't I healing?
 
-Requiem's Gods are unforgiving of crime. Too much crime and they will no longer bless you or heal you!
+Requiem disables passive health regen. You need healing poultice or potion to regenerate health.
 
 ---
-### Why aren't I healing?
-
-Requiem disables passive health regeneration, you will need to obtain a healing poultice or a potion to regenerate health. 
 
----
-### My character is glowing ugly orange patches at night.
+## My character is glowing ugly orange patches at night
 
-This is how the ENB expresses the dirt shader - Take a bath!
+This is how ENB expresses the dirt shader: **Take a bath!**
 
 ---
 
-### Error: Incompatible menu file(Map.swf) when opening the map.
+## Error: Incompatible menu file(Map.swf) when opening the map
 
-You missed an MCM setting in SkyUI! Open SkyUI MCM Menu > Advanced > uncheck 'Map menu' in  SWF Version Checking section.
+**Solution:** Open SkyUI MCM Menu → Advanced → Uncheck 'Map menu' in SWF Version Checking section
 
 ---
+
+## My vision is all Blurry/Messed up!
 
-### My vision is all Blurry/Messed up!
+**Cause 1:** You ate too many alchemy ingredients too quickly
+- Solution: Find and eat Nirnroot to remove effect
 
- 1) This can happen if you eat too many alchemy ingredients too quickly. Find and eat a Nirnroot to remove the effect.
- 2) Check you active effects, you might have picked up a disease and require a potion of cleansing.
+**Cause 2:** You picked up a disease
+- Solution: Check active effects, use potion of cleansing
 
 ---
 
-### The screen randomly went dark shortly after I entered &lt;insert name here &gt;.
+## The screen randomly went dark shortly after I entered <location>
 
-This is caused by Darker Dungeons. If you would like to disable this option, open up Darker Dungeons MCM > General Configuration > _untick_ Do Fadeout On Dungeon Entry.
+**Cause**: Darker Dungeons mod
 
+**Solution:** Open Darker Dungeons MCM → General Configuration → Untick "Do Fadeout On Dungeon Entry"
+
 ---
-### Lights are Flickering on and off
 
-Most noticabled in Breezehome but can happen everywhere.
+## Lights are Flickering on and off
 
-This is caused by Skyrim's engine limitation of 4 lightsources in a area. when you look in a area with more than 4 lightsurces they alternate/cycle and turn on and off.
+**Cause**: Skyrim's engine limitation of 4 lightsources max in an area. When 4+ lightsources exist, they alternate/cycle on and off.
 
-Only resolution is to use Cobb Positioner's to identify lightsources, and delete extra's.
+**Only Resolution:** Use Cobb Positioner to identify and delete extra lightsources
 
 ---
 
-### I tried to learn a spell from a Tome - the book disappeared but I still don't know it
+## I tried to learn a spell from a Tome - the book disappeared but I still don't know it
 
-You missed loading SV Mods Preset during your Post-Start MCM Setup. To fix navigate to SV’s MCM menu > Save/Load Preset > FISS > Click ‘Load Preset’.
+**Cause**: You missed loading SV Mods Preset during Post-Start MCM Setup
 
+**Fix:** Navigate to SV's MCM menu → Save/Load Preset → FISS → Click 'Load Preset'
+
 ---
 
-### Why does the NPC dialogue cut out when talking to Aela?
+## Why does the NPC dialogue cut out when talking to Aela?
 
-Enhanced Skyrim Factions - The Companions Guild adds new conversation options to NPCs that aren’t voiced. Other NPCs have the same behavior.
+Enhanced Skyrim Factions - The Companions Guild adds new dialogue options to NPCs that aren't voiced. Other NPCs have same behavior.
 
 ---
 
-### My game has no grass or has very little grass
+## My game has no grass or has very little grass
 
-Ensure the following are set in Content\Profiles\<Profile you play>\:
+**Ensure these settings in `Content\Profiles\<Profile you play>\`:**
 
-1. Make sure that skyrim.ini has the settings `bAllowCreateGrass`, `bAllowLoadGrass`, and `bDrawShaderGrass` set to 1
+1. In `skyrim.ini`: Set `bAllowCreateGrass`, `bAllowLoadGrass`, and `bDrawShaderGrass` to `1`
 
-2. Decrease the `iMinGrassSize=` setting, this will increase grass density(default Skyrim has a setting of 20, 60 is the recommended if you are using a plugin like Verdant)
+2. Decrease `iMinGrassSize=` (default Skyrim = 20, recommended with Verdant plugin = 60)
 
-3. Change `iMaxGrassTypesPerTexure=` Default is 5 and max is 15. (note: the misspelling of texture is a mistake on Bethesda's and should be replicated)
+3. Change `iMaxGrassTypesPerTexure=` (default = 5, max = 15)
+   - Note: "Texure" misspelling is Bethesda's mistake; replicate it
 
 ---
 
-### Why is everything so expensive in shops?
+## Why is everything so expensive in shops?
 
-You’re Naked - Put some clothes on ya filthy animal!
+**You're naked!** Put some clothes on, ya filthy animal!
 
 ---
+
+## I am getting a lot of stutter / CTD / Low FPS?
 
-### I am getting a lot of stutter / CTD / Low FPS?
+{: .important}
+> **FPS CAP**: Ultimate Skyrim maxes at 60 FPS due to Skyrim's engine limitations. If 60fps seems low, too bad. Cannot run higher.
 
-*Ultimate Skyrim will never go above 60 FPS due to limitations of skyrim's engine. if you think 60fps is low - too bad. It cannot run any higher.*
+**Checklist:**
 
-Never have Task manager open while running Skyrim (not even minimized to task bar). If your CTD are occurring during a loading screen - this is your cause.
+1. Don't have Task Manager open (not even minimized to taskbar)
+   - If CTD occurs during loading screens, this is likely the cause
 
-Make sure that you haven't included a comma in the "VideoMemorySizeMb" field in ENBlocal.ini
+2. Check `ENBlocal.ini` - No comma in "VideoMemorySizeMb" field
 
-Make sure you haven't changed "FPSLimit" field in the limiter section in ENBlocal.ini (default is 59.900002)
+3. Don't change "FPSLimit" field in limiter section (default: 59.900002)
 
-Try turning off vsync & g-sync for Skyrim(TESV.exe) in the Graphics Card Settings. 
+4. Try turning off vsync & g-sync for `TESV.exe` in GPU settings
 
-Close down any background programs which maybe injecting into direct X (graphics card software such as geforce experience and MSI afterburn are two culprits)
+5. Close background programs injecting into DirectX:
+   - GeForce Experience
+   - MSI Afterburn
+   - Similar tools
 
-Check your background processes. Skyrim is highly reliant on CPU - Core 0, so if your CPU is busy with other tasks it might be causing the stutters
+6. Check background processes - Skyrim heavily relies on CPU Core 0
 
-Run Bmxfreestyle’s Stability Guide and follow the recommended tweaks .
+7. Run [Bmxfreestyle's Stability Guide](https://docs.google.com/document/d/1PusjuS09qs8QPU5PVf7uSoZKt_35ZTvFmFrLWtIaTQ0/edit#heading=h.6znbuu4htqw) and follow tweaks
 
-[Bmxfreestyle Guide](https://docs.google.com/document/d/1PusjuS09qs8QPU5PVf7uSoZKt_35ZTvFmFrLWtIaTQ0/edit#heading=h.6znbuu4htqw))
+**Advanced Optimizations (after checking above):**
 
-Once you have checked all of those you can apply the following tweaks.
+1. **Disable borderless window** (gives ~10 FPS boost):
+   - Edit `<ultimate Skyrim>\content\mods\UltSky (Version) Core Files\SKSE\Plugins\OneTweak.ini`
+   - Optional: Set `BFullScreen` to `1` in `content\profiles\UltSky (preset)\Skyrimpref.ini` for fullscreen
 
-1. Attempt to disable border less window in <ultimate Skyrim>\content\mods\UltSky (Version Number) Core Files\SKSE\Plugins\OneTweak.ini. If you want to play Full-screen after doing this instead of windowed you will also need to change BFullScreen to 1 in content\profiles\UltSky (preset you play)\Skyrimpref.ini.  (This makes your computer focuses on the game and give a good +10 fps boost, at the expense of speedy alt-tabs)
-	
-1. Lower your Graphics preset, or adjust content\profiles\UltSky (preset you play)\Skyrimpref.ini	reduce the iShadowMapResolution (can be changed to 1024 or 512), fShadowDistance and fGrassMaxStartFadeDistance.
-	
-1. [Lower]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb---can-i-reduce-the-settings) or [uninstall]( https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) the ENB	
+2. **Lower graphics preset** or adjust `content\profiles\UltSky (preset)\Skyrimpref.ini`:
+   - Reduce `iShadowMapResolution` (try 1024 or 512)
+   - Lower `fShadowDistance`
+   - Lower `fGrassMaxStartFadeDistance`
 
+3. [Lower](#my-pc-cant-handle-the-enb---can-i-reduce-the-settings) or [remove](#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) ENB
+
 ---
+
+## When I equip my Lantern/Backpack I get a pouch/book/holder/carpet appearing in my inventory
 
-### When I equip my Lantern/Backpack I get a pouch/book/holder/carpet appearing in my inventory
+**Cause**: Unknown bug
 
-This is a bug - cause unknown. Although there is no permanent fix, you can _possibly_ solve it by either dropping and buying a new item OR by dropping your item and consoling one in.
+**Workaround (may solve):** Drop and buy new item, OR drop and use console to create one
 
 ---
 
-### When I equip my Belt items it doesn’t ask me which slot I want to put it in
+## When I equip my Belt items it doesn't ask me which slot I want to put it in
 
-Drop the item, and pick it back up then it will ask you where you would like to place it.
+**Solution:** Drop the item and pick it back up—it will ask you where to place it
 
 ---
 
-### When I drop items on the ground, they sometimes vanish
+## When I drop items on the ground, they sometimes vanish
 
-1. This seems to happen occasionally when dropping items in 1st person view. Try switching to 3rd person before dropping them.
+**Cause 1:** Dropping in 1st person view (common)
+- Solution: Switch to 3rd person before dropping
 
-2. if the items are related to one of the following mods; Campfire, Wearable Lanterns, or Bandoleers - Bags and Pouches, this is likely due to a corrupted ID (BAD EDITOR ID when you do player.showinventory)
+**Cause 2:** Item from Campfire, Wearable Lanterns, or Bandoleers - Bad editor ID
+- Solution: Drop and reconsole item in, or if craftable, remake it
 
 ---
 
-### My Lantern/Tent is asking me where I’d like it equipped
+## My Lantern/Tent is asking me where I'd like it equipped
 
-This is due to a bad ID, breaking down your lantern and re-crafting it in the crafting ledger usually fixes your lantern, if you have the craftsman perk it's advisable to make your own, if you don't just purchase a new tent from any vendor.
+**Cause**: Bad ID
 
+**Solution:** Break down lantern and re-craft in crafting ledger, or purchase new tent from vendor
+
 ---
 
-### How do I re-enable menus pausing?
+## How do I re-enable menus pausing?
 
-SkyrimSouls.ini controls which functions pause the game. You can edit the INI file from Mod Organiser. Right click the `Ultimate Skyrim 4.0.6 hf2`, `Ultimate Skyrim 4.0.7 core files` or  `Ultimate Skyrim 4.1.0 core files` or  `Ultimate Skyrim 4.2.0 core files` mod in the left pane -> Information -> ini files tab.
+`SkyrimSouls.ini` controls pause functions. Edit from Mod Organiser:
 
+1. Right-click mod (e.g., `Ultimate Skyrim 4.x Core Files`) in left pane
+2. Select Information → ini files tab
+
 ---
+
+## My character's animations are stuck
 
-### My character's animations are stuck.
-This is a vanilla Skyrim bug, exacerbated by the scripted mods in Ultimate Skyrim. If jumping doesn’t fix the animation, try the following console commands:
+**Vanilla Skyrim bug**, exacerbated by scripted mods. If jumping doesn't fix:
 
-	Pushactoraway 14 1
-	SetPlayerAIDriven 0
+```
+Pushactoraway 14 1
+SetPlayerAIDriven 0
+```
 
 ---
 
-### I keep hearing strange noises around me or objects floating around
+## I keep hearing strange noises around me or objects floating around
 
-This is usually a symptom of a known physics engine limitation, causing game instability at frame-rates higher than 60 FPS.  The easiest workaround is to limit the frame-rate to 60 FPS, either in the ENB configuration (Shift+Enter opens it in-game), or in the GPU software.
+**Cause**: Physics engine limitation at framerates higher than 60 FPS
 
+**Solution:** Limit framerate to 60 FPS via ENB config (Shift+Enter in-game) or GPU software
+
 ---
+
+## My Character Spawned Underwater
 
-### If you have Clouds on your Paper world map
+**Symptom**: Character loads underwater outside, usually near Whiterun or Markarth bridges
 
-This is a Known issue - Please visit the Official discord #ultsky-FAQ channel for the list of known issues and correction instructions
-	
+**Fix:** Enter nearby building then exit to force cell reload
+
 ---
-### My Character Spawned Underwater
 
-If you load into the game (or start a new character) and your character is underwater while outside, usually near either Whiterun or Markarth's bridges. The Fix is to Enter a nearby building then exit again to force skyrim to re-load the cell.
+## Why Can't I Fast Travel?
 
+Requiem disables Fast Travel. Multiple alternatives:
 
-----
-### Why Can't I Fast Travel
+- Boats near large water areas
+- Carriage drivers at cities
 
-Requiem disables Fast travel. There are multiple methods of moving around the map quickly without using this - There are boats near most large area of water, and Carriage drivers at the cities.
+---
 
-----
-### My game freezes during loading screens.
+## How do I change the difficulty?
 
-The game may appear frozen or have a unusually long loading time, but it's usually still loading in the background. This is caused by OneTweak's Windowless Bordered mode. 
+**In-game difficulty sliders do NOT work with Requiem.**
 
-* Please make sure that Windows Task manager is not running.
-* Don't Alt-tab out of loading screens.
-* Disable Save on wait and Save on travel and switch to using manual saves if problem exists while moving between cells in-game.
+**Use Requiem MCM instead:** Set Damage Dealt/Taken sliders
 
-Can also be caused by
+Recommended: 100% for both (Requiem already increases difficulty significantly)
 
-* Your PC being below the minimum requirements to play the pack as shown on the install Readme. You can try removing the ENB [using](  https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it).	
-* Ultimate Skyrim folders(or subfolders) being read-only.
-* Ultimate skyrim being on a different drive to skyrim - Only resolution to this is to move Ultimate skyrim to same hard drive.
-* Ultimate skyrim being installed inside of program files - Move the ultimate skyrim to a folder outside of program files.
-* Additional mods in skyrim\data folder from previous modding or workshop subscriptions are causing a conflict.
-* Conflict between 5000 & 6000 series AMD drivers and the ENB - only resolution to this is to either roll back until you find working AMD drivers or disable ENB graphics using [step 6 of](  https://wiki.wildlandermod.com/16OtherResources/UltSkyFAQ/#my-pc-cant-handle-the-enb-graphics-even-on-low-settings---can-i-remove-it) until a working driver is available.
-* A Corrupt Skyrim installation (to check, launch skyrim from steam and see if it crashes on loading screen)
-* Antivirus real-time scanning your Skyrim\ultimate skyrim folders - add ultimate skyrim and skyrim folders to your exceptions. 
-* [Direct X](#game-hard-CTD-on-SplashScreen) and/or [C++](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) installations are broken (You’ll need both the 32-bit and the 64-bit versions of C++.)
-* You have lost permissions to write to "my documents\My Games\Skyrim" or ultimate skyrim install folder
-* Onedrive and/or dropbox is Syncing your "my documents\My Games\Skyrim" or ultimate skyrim install folder 
-* Can be caused by a corrupt save, you can try using [Savetool.exe](https://www.nexusmods.com/skyrim/mods/52363/?) to see if you can load your save if this also fails then you will need to revert to a previous save or start a new game.
+If struggling: See [Beginner Guide for New Requiem Players](https://www.reddit.com/r/skyrimrequiem/comments/1w5cej/surviving_the_first_few_hours_in_requiem_or/)
 
+---
 
-----
-### How do I change the difficulty?
+## I contracted Sanguinare Vampiris and now I can't sleep!
 
-The in-game difficulty sliders do not work with Requiem. Use the Damage Dealt/Taken values in the Requiem MCM instead. The recommended setting for both sliders is 100%. Requiem increases the difficulty of the game significantly, so if you're having a hard time doing anything, take a look at the [Beginner Guide for New Requiem Players](https://www.reddit.com/r/skyrimrequiem/comments/1w5cej/surviving_the_first_few_hours_in_requiem_or/).
+**Intentional change:** Weak characters can't instantly become vampires
 
-----
-### I contracted Sanguinare Vampiris and now I can't sleep!
+**What happens:** Spend 3 days while Sanguinare slowly drains health and negates natural healing. Then you become a Vampire.
 
-This is a Minor Arcana change that prevents weak characters from acquiring Vampirism. You must survive for 3 days while Sanguinare Vampiris slowly drains health and negates natural healing, at which point you will become a Vampire.
+---
 
-----
-### My Grass/Tree's in distance are shimmering/flickering
+## My Grass/Tree's in distance are shimmering/flickering
 
-This is caused by the ENB when used on some graphics cards. 
+**Cause**: ENB on some graphics cards
 
-You can choose to add a "max FPS limit" on your graphics card for "TESV.exe" to "59" as this reducing flickering on some cards (especially if the moniter connected to the card has a high refresh rate)
+**Solutions:**
 
-The following guide has also shown improvement when both the step guide, and U/seq Comments are followed.
+1. Add "max FPS limit" of 59 for `TESV.exe` in GPU settings (helps high-refresh monitors)
 
-https://www.reddit.com/r/ultimateskyrim/comments/gfdg6l/antialiasing_is_b_a_d/
-	
-The original site has long gone - but a mirror of the injector is available here https://www.softpedia.com/get/Tweak/Video-Tweak/injectSMAA.shtml#download	
+2. Follow [this guide](https://www.reddit.com/r/ultimateskyrim/comments/gfdg6l/antialiasing_is_b_a_d/) (+ user comments)
+   - Original site gone; [antialiasing injector mirror here](https://www.softpedia.com/get/Tweak/Video-Tweak/injectSMAA.shtml#download)
 
-Note: this is the only 'fix' support are aware of at this time and if it does not work for you, we won't be able to assist you further
+{: .hint}
+> This is the only known fix; support cannot assist if it doesn't work
 
 ---
-### Eorlund Graymane won't temper/craft stuff for me
+
+## Eorlund Graymane won't temper/craft stuff for me
 
-Eorlund Graymane is the best smith in the game, and as such reserves his services for members of the Circle for the companions.
+**Reason**: Eorlund is the best smith and reserves services for Companions Circle members
 
-Note: you must be at least at the stage of "Kill the werewolf hunters" for the Quest "The silver hand"
+**Requirement**: Must be at "Kill the werewolf hunters" stage of "The Silver Hand" quest
 
 ---
 
-### How Do I Enable Permadeath
-In short - You can't. Permadeath mod Ashes was removed from the build of Ultimate Skyrim back in September when 4.0.7 was released.
+## How Do I Enable Permadeath?
 
-Instead of a 'permadeath mod' the player, upon dying is presented with the Requiem death dialog telling you to load a save. If you wish to be permadeath, simply load your template save at this point and start a new character (manually deleting all of the saves for your dead character)
+**Short answer**: You can't (mod was removed in 4.0.7)
 
+**Instead**: Requiem presents death dialog asking you to load save. To simulate permadeath, manually delete all saves for dead character and load template save to start new character.
+
 ---
 
-## **4.0.6 Issues**
+# Questing
 
+## How do I start the main quest?
 
-### I have this really weird red/green/brown/black graphical issue on the bottom half of my screen
+Kill a dragon (make sure you're set as Dragonborn in Ultimate Skyrim MCM)
 
-4.0.6 Issue
+---
 
-![unnamed](https://wiki.wildlandermod.com/Assets/UltskyGlitch.webp)
+## Why can't I obtain the dragonstone?
 
-You probably messed up installing the custom INI files. Make sure you are installing Skyrim.ini and SkyrimPrefs.ini in the `\Ultimate Skyrim 4.0.x\profiles\Ultimate Skyrim 4.0.x (Full)` folder!
+This quest auto-completes when you kill a dragon
 
 ---
-
-### My rain splashes are purple/pink!
 
-4.0.6 Issue
+## How Do I Become Thane of Whiterun?
 
-You need a patch! ([US 406 HF2] Fix for purple/pink rain splashes (Wonders of Weather). Install with MO2 and keep at the end of the mod list on the left side (no esp). Fix is on [Official UltSy discord](https://discordapp.com/invite/8VkDrfq) in #ultsky-bug-submission channel (incase link doesn't work).
+**New way in UltSky:**
 
-[https://discordapp.com/channels/344256550640287755/566419501613318154/680786963615186946](https://discordapp.com/channels/344256550640287755/566419501613318154/680786963615186946)
+1. Complete "The Blessings of Nature" quest (start with Danica at Gildergreen tree)
+2. Talk to Jarl Balgruuf when Gildergreen is repaired/sapling blooms
+3. He thanks you and lets you buy Breezehome
+4. Standard thaneship quest now available (help people + buy house)
 
 ---
 
-### Why am I not leveling up!
+## I can't start the Thieves Guild through Brynjolf
 
-4.0.6 Issue
+**Requirement**: "Thieves Guild Requirements" mod requires certain amount of pockets picked/items stolen
 
-You only get experience while sleeping - Take a nap!
-
 ---
-
-### My character is invincible - I get to zero health but don't die!
 
-4.0.6 Issue
+## How do I start the Dragonborn questline?
 
-You need a patch! `[US 406 HF2] Ashes 0.02 patch v0.6.`  Fix is on [Official UltSy discord](https://discordapp.com/invite/8VkDrfq) in #ultsky-bug-submission channel (incase below link doesn't work).
+Dragonborn content available after completing "A Blade in the Dark" (main quest)
 
-[https://discordapp.com/channels/344256550640287755/566419501613318154/679539347854327829](https://discordapp.com/channels/344256550640287755/566419501613318154/679539347854327829)
-
 ---
 
-### I'm trying to load my template save and it says my character is dead.
+## How do I start the Undeath questline?
 
-4.0.6 Issue
+Undeath content available after **level 30**. Quest will appear in journal with further instructions.
 
-This happens when you name your character the default name "Adventurer" and are killed by permadeath. To fix delete the .dead file in your `steamapps\common\Skyrim` folder and you will be able to load your save.
-
 ---
-
-### My Character takes off of his/her clothes off when swimming
 
-4.0.6 Issue
+# Version-Specific Issues (4.0.6)
 
-To stop this from happening, open Bathing in Skyrim MCM > Player Animations and _untick_ everything in the sections “Undress Before Bathing - Standard” and “Undress Before Bathing - Extended”
+## I have this really weird red/green/brown/black graphical issue on the bottom half of my screen
 
----
+**Version**: 4.0.6 Issue
 
-### Why isn’t my compass showing undiscovered locations?
+**Cause**: Messed up installing custom INI files
 
-iCompass hides the locations by default. To restore your compass to vanilla setting, _uninstall by unchecking_ iCompass in MO2 and rerun Reqtificator.
+**Solution**: Ensure you're installing `Skyrim.ini` and `SkyrimPrefs.ini` in `\Ultimate Skyrim 4.0.x\profiles\Ultimate Skyrim 4.0.x (Full)` folder
 
-_Please note, installing or uninstalling mods during a playthrough may break your game and is not recommended_
+---
 
+## My rain splashes are purple/pink!
 
-## **Questing Questions**
+**Version**: 4.0.6 Issue
 
-### How do I start the main quest?
+**Solution**: You need a patch! Install `[US 406 HF2] Fix for purple/pink rain splashes (Wonders of Weather)` with MO2 at end of mod list on left side (no esp)
 
-Kill a dragon. Make sure you’re set as Dragonborn in the Ultimate Skyrim MCM.
+Find on [Official UltSy Discord](https://discordapp.com/invite/8VkDrfq) #ultsky-bug-submission channel
 
 ---
 
-### Why can't I obtain the dragonstone?
+## Why am I not leveling up!
 
-This quest is auto completed when you kill a dragon.
+**Version**: 4.0.6 Issue
 
+**Solution**: You only get experience while sleeping. Take a nap!
+
 ---
+
+## My character is invincible - I get to zero health but don't die!
+
+**Version**: 4.0.6 Issue
 
-### How Do I Become Thane of Whiterun
+**Solution**: You need patch `[US 406 HF2] Ashes 0.02 patch v0.6`
 
-There is a new way of becoming a thane of Whiterun. Complete The Blessings of Nature quest(Danica by the Gildrergreen tree to start) and talk to Jarl Balgruuf when the Gildergreen tree is repaired\the sappling blooms. He'll thank you and allow you to buy the Breezehome, and the standard thaneship quest (help the people of the hold and buy a house) will be available.
+Find on [Official UltSy Discord](https://discordapp.com/invite/8VkDrfq) #ultsky-bug-submission channel
 
 ---
 
-### I can’t start the Thieves Guild through Brynjolf.
+## I'm trying to load my template save and it says my character is dead
 
-**Thieves Guild Requirements** is included in the list, which requires a certain amount of pockets picked/items stolen.
+**Version**: 4.0.6 Issue
 
+**Cause**: Character named default name "Adventurer" killed by permadeath
+
+**Fix:** Delete `.dead` file in `steamapps\common\Skyrim` folder; can now load save
+
 ---
 
-### How do I start the Dragonborn questline?
+## My Character takes off his/her clothes when swimming
 
-Dragonborn content is available after completing "A Blade in the Dark" during the Main Quest.
+**Version**: 4.0.6 Issue
 
+**Solution:** Open Bathing in Skyrim MCM → Player Animations → Untick everything in "Undress Before Bathing - Standard" and "Undress Before Bathing - Extended"
+
 ---
 
-### How do I start the Undeath questline?
+## Why isn't my compass showing undiscovered locations?
 
-Undeath content is available after level 30. A quest will appear in your journal with further instructions.
+**Cause**: iCompass hides locations by default
 
----
+**Solution**: Uninstall by unchecking iCompass in MO2 and rerun Reqtificator
+
+{: .hint}
+> Note: Installing/uninstalling mods during playthrough may break game; not recommended
