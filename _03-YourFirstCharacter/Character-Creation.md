@@ -34,12 +34,12 @@ General rules for successful build - One ranged ability, One Defense ability, On
 
 ### Recommended Beginner Builds for Requiem
 
-**1. Two-Handed Warrior (Easiest)**
-- **Why it works:** Simple playstyle, high damage, straightforward perk progression
+**1. Barbarian (Light Armor + Two-Handed) (Easiest)**
+- **Why it works:** High mobility, strong two-handed damage, flexible playstyle
 - **Best Race:** Nord or Orc
-- **Key Skills:** Two-Handed, Heavy Armor, Smithing
-- **Stone:** Warrior or Lord
-- **Why for beginners:** Doesn't require micromanagement, good survivability, clear progression path
+- **Key Skills:** Two-Handed, Light Armor, Smithing, Evasion
+- **Stone:** Warrior or Steed
+- **Why for beginners:** Similar to the heavy armor warrior but more mobile, good damage output, easier gear maintenance
 
 **2. One-Handed + Shield Knight**
 - **Why it works:** Balanced offense and defense, very survivable
@@ -48,23 +48,23 @@ General rules for successful build - One ranged ability, One Defense ability, On
 - **Stone:** Lord or Lady
 - **Why for beginners:** Block provides damage reduction, easier to kite enemies, Restoration helps with healing
 
-**3. Barbarian (Light Armor + Two-Handed)**
-- **Why it works:** High mobility, strong two-handed damage, flexible playstyle
+**3. Two-Handed Warrior**
+- **Why it works:** Simple playstyle, high damage, straightforward perk progression
 - **Best Race:** Nord or Orc
-- **Key Skills:** Two-Handed, Light Armor, Smithing, Evasion
-- **Stone:** Warrior or Steed
-- **Why for beginners:** Similar to the heavy armor warrior but more mobile, good damage output, easier gear maintenance
+- **Key Skills:** Two-Handed, Heavy Armor, Smithing
+- **Stone:** Warrior or Lord
+- **Why for beginners:** Doesn't require micromanagement, good survivability, clear progression path
 
 **4. Restoration Cleric**
 - **Why it works:** Self-healing, support magic, can hold your own in combat
 - **Best Race:** Breton (magic resistance helps) or High Elf (extra magicka)
 - **Key Skills:** Restoration, Heavy Armor, One-Handed, Block
 - **Stone:** Mage or Apprentice
-- **Why for beginners:** Healing keeps you alive, doesn't require aggressive spell slinging
+- **Why for beginners:** Healing keeps you alive, doesn't require aggressive spell slinging. You can cast a healing aura before combat while naked and avoid most of the magic penalties.
 
 ### Builds to AVOID as a Beginner
 
-- **Pure Mage** - Magic is expensive early game and enemies resist it heavily
+- **Pure Mage** - Magic is expensive early game and enemies resist it heavily. Get used to movement or dodging before picking this.
 - **Spellsword/Battlemage** - Requires balancing heavy armor, spellcasting, and melee (very difficult)
 - **Stealth Archer** - Requires understanding of sneak mechanics and positioning
 - **Hybrid builds with many skills** - Spread too thin, won't be effective
