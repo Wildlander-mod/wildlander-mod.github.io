@@ -17,6 +17,67 @@ Going a Spellsword/Battlemage build is not recommended for beginners - as there 
 
 General rules for successful build - One ranged ability, One Defense ability, One melee ability and 3 support skills.
 
+---
+
+## Beginner-Friendly Requiem Builds
+
+{: .warning}
+**Important:** This is a **Requiem-based modlist**. Vanilla Skyrim playstyles do not apply. Requiem significantly changes combat mechanics, enemy scaling, and build viability. These recommendations are tailored for Requiem's difficulty curve.
+
+### Why Vanilla Builds Don't Work in Requiem
+
+- **Enemies scale with you** - You cannot overlevel content; difficulty stays challenging
+- **Damage is more lethal** - Both you and enemies deal significant damage
+- **Perks matter more** - You need specific perks to be effective with a weapon type
+- **Magic is harder early** - Spell costs are high and enemies have good resistance
+- **Armor is essential** - You'll need proper armor for survival
+
+### Recommended Beginner Builds for Requiem
+
+**1. Two-Handed Warrior (Easiest)**
+- **Why it works:** Simple playstyle, high damage, straightforward perk progression
+- **Best Race:** Nord or Orc
+- **Key Skills:** Two-Handed, Heavy Armor, Smithing
+- **Stone:** Warrior or Lord
+- **Why for beginners:** Doesn't require micromanagement, good survivability, clear progression path
+
+**2. One-Handed + Shield Knight**
+- **Why it works:** Balanced offense and defense, very survivable
+- **Best Race:** Imperial or Nord
+- **Key Skills:** One-Handed, Block, Heavy Armor, Restoration
+- **Stone:** Lord or Lady
+- **Why for beginners:** Block provides damage reduction, easier to kite enemies, Restoration helps with healing
+
+**3. Barbarian (Light Armor + Two-Handed)**
+- **Why it works:** High mobility, strong two-handed damage, flexible playstyle
+- **Best Race:** Nord or Orc
+- **Key Skills:** Two-Handed, Light Armor, Smithing, Evasion
+- **Stone:** Warrior or Steed
+- **Why for beginners:** Similar to the heavy armor warrior but more mobile, good damage output, easier gear maintenance
+
+**4. Restoration Cleric**
+- **Why it works:** Self-healing, support magic, can hold your own in combat
+- **Best Race:** Breton (magic resistance helps) or High Elf (extra magicka)
+- **Key Skills:** Restoration, Heavy Armor, One-Handed, Block
+- **Stone:** Mage or Apprentice
+- **Why for beginners:** Healing keeps you alive, doesn't require aggressive spell slinging
+
+### Builds to AVOID as a Beginner
+
+- **Pure Mage** - Magic is expensive early game and enemies resist it heavily
+- **Spellsword/Battlemage** - Requires balancing heavy armor, spellcasting, and melee (very difficult)
+- **Stealth Archer** - Requires understanding of sneak mechanics and positioning
+- **Hybrid builds with many skills** - Spread too thin, won't be effective
+
+### General Requiem Beginner Tips
+
+- **Focus on 3-4 skills maximum** - Spreading perks thin makes you weak
+- **Get armor early** - Unarmored characters die quickly
+- **Smithing is your friend** - Upgrade your gear frequently
+- **Don't waste perks on utility** - Lockpicking, Pickpocket, etc. aren't essential for combat
+- **Stamina management is critical** - Power attacks and blocking drain stamina; manage it carefully
+- **Invest in Restoration early** - Healing yourself is better than relying on potions
+
 {: .notice }
 > **Want to Mix Up a Playthrough?**
 >
