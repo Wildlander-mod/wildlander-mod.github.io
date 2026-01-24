@@ -29,9 +29,20 @@ A random character trait roller for Wildlander playthroughs. Select how many tra
 
 ## All Traits (Enable/Disable & Conflict Override)
 
-| Category | Trait Name | Conflicts With | Description | Use? | Ignore Conflicts? |
-|----------|-----------|-----------------|-------------|------|-------------------|
-{table-body}
+<table id="traitTable">
+<thead>
+<tr>
+<th>Category</th>
+<th>Trait Name</th>
+<th>Conflicts With</th>
+<th>Description</th>
+<th>Use?</th>
+<th>Ignore Conflicts?</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 
 ---
 
