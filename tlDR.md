@@ -24,7 +24,7 @@ Before launching your Wildlander playthrough:
 - [ ] **Read [Your First Character](https://wiki.wildlandermod.com/03-YourFirstCharacter/) - Start here for character creation**
 - [ ] Choose your build path:
   - **Simple:** Use [Class Guides](https://wiki.wildlandermod.com/15ClassGuides/) for pre-made builds
-  - **Complex Roleplay:** Use [Trait Roller](https://wiki.wildlandermod.com/13Community/WildlanderRandomTraitRoller) for custom character creation
+  - **Complex Roleplay:** Use [Trait Roller](https://wiki.wildlandermod.com/13Community/WildlanderRandomTraitRoller/) for custom character creation
 - [ ] Check [Known Issues & Workarounds](https://wiki.wildlandermod.com/01Support/KnownIssues/)
 - [ ] Review [FAQ](https://wiki.wildlandermod.com/01Support/Faq/) for common questions
 

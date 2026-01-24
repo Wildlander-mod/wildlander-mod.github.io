@@ -23,7 +23,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 > Try these tools for fresh challenges and character ideas:
 > - [Community Challenges](https://wiki.wildlandermod.com/13Community/Community-Challenges/) - Player-created challenges to keep your playthroughs interesting
 > - [Skyrim Random Character Generator](https://docs.google.com/spreadsheets/d/1vhTgVT3SoMtaE_LDpY_3Tb40zrhoBW4Lz4k-_8PWkWs/edit#gid=0) - Generate random character builds
-> - [Character Roller](https://wiki.wildlandermod.com/13Community/WildlanderRandomTraitRoller) - Quick random character creation tool
+> - [Character Roller](https://wiki.wildlandermod.com/13Community/WildlanderRandomTraitRoller/) - Quick random character creation tool
 
 ---
 
