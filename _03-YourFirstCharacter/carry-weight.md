@@ -9,11 +9,11 @@ Carry Weight is intentionally at a premium within Wildlander.
 
 In addition to reduced base carry weight, Money weighs you down. Each coin weighs 0.001 unit an d this weight is shown in the coin purse Misc object(this item is just a representation of your gold - you need to deposit the gold itself in a chest not the coin purse item). Like Money, Arrows/Bolts also have weights. These are shown in the Quiver item and differ based on the material the Arrow/Bolt is crafted from. More "rustic" wooden shafted arrows (such as iron, forsworn or steel) weight less then the more rarer Orcish, Ebony or Daedric projectiles.
 
-While you will gradually gain carry weight with [Derived Attributes](http://wiki.wildlandermod.com/03-YourFirstCharacter/DA/) Obviously the canny adventurer needs some place to store his or her Ill gotten gains.
+While you will gradually gain carry weight with [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/DA/), the canny adventurer still needs places to store gear. In Requiem, carry weight is a critical resource management tool—you can't carry everything, so managing your inventory carefully is essential to successful exploration.
 
 ## Backpacks
 
-Backpacks are the early game source of carry weight - they can be crafted (see crafting spreadsheet for requirements) or they can be purchased from general stores (rarely).
+Backpacks are the early game source of carry weight - they can be crafted or purchased from general stores (rarely). See the [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/) for crafting requirements and progression.
 
 ## Barrels and Chests
 
@@ -44,16 +44,22 @@ Isn't it a exploit? Technically yes - if you choose to place multiple chests in 
 
 ## Campfire Skills
 
-There is a skill available at a player constructed campfire which increases your carry weight permanently. Press "<" to build a campfire, Increase it in size until the skills menu appears when interacting with it. 
+There is a skill available at a player constructed campfire which increases your carry weight permanently. To use it:
+1. Press "<" to open the Campfire menu
+2. Build a campfire and increase its size/upgrades with materials
+3. Once upgraded sufficiently, interact with the campfire and a skills menu will appear
+4. Select the Carry Weight skill to increase your capacity
 
 {: .note}
-this skill requires a Skill point, earned from taking care of yourself and has two levels.
+This skill requires a Skill point (earned from taking care of yourself) and has two levels total.
 
 ## Horses
 
 Or as I prefer to call them, mobile storage. Each Horse has 600 carry weight and can easily carry most the supplies you need. You can even store your chest on the horse, making it have infinite storage.
 
-Important: never store potions on the horse - NPC's can consume potions from their inventory if they are low on health or stamina, and horses qualify as NPC's. 
+Important: never store potions on the horse - NPC's can consume potions from their inventory if they are low on health or stamina, and horses qualify as NPC's.
+
+**[For more information about horses in Wildlander, see the Horses page →](https://wiki.wildlandermod.com/04WildlanderWorld/13-%20Horses/)** 
 
 ## Faction Safe Storage
 
