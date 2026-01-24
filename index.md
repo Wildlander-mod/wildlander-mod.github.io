@@ -83,7 +83,7 @@ Several topics are not covered by the wiki because the are mechanically unchange
 1. How to build a hearthfire home. The fundamentals of this and requirements are unchanged.
 1. civil war - Changing this would be like sticking a band-aid on a decapitation
 
-The general rule should be - if using the wiki search bar doesnt find a result - its not changed from Vanilla.
+The general rule should be - if using the wiki search bar doesn't find a result - it's not changed from Vanilla.
 
 ---
 

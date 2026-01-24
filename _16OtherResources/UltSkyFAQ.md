@@ -221,7 +221,7 @@ For a list of known mods which have Issues/Incompatibilities/ please click [here
 
 Before you begin modding Please read the [basics](https://wiki.wildlandermod.com/16OtherResources/UltskyModdingGuide/#ultimate-skyrim-modding-basics) which contains the rules for modding in ultsky and are slightly different to other modlists you might have tried. The most important rule is
 
-▶️ **YOU CANT USE LOOT**  ◀️
+▶️ **YOU CAN'T USE LOOT**  ◀️
 
 The support Team has put together a set of guides for adding popularly requested additional mods.
 
@@ -393,9 +393,9 @@ Instead Practice Safe Hard saves:-
 
 ---
 
-### My Keyboard isnt working
+### My Keyboard isn't working
 
-Normally occurs if you have ran special Edition version of skyrim prior to loading Ultimate skyrim. Special edition doesnt release all of the files Legendary edition needs to run so disables the keyboard.
+Normally occurs if you have run the Special Edition version of Skyrim prior to loading Ultimate Skyrim. Special Edition doesn't release all of the files Legendary Edition needs to run so it disables the keyboard.
 
 1) Some users report that closing and reopening steam itself is enough to make it work
 2) Reboot your PC.
@@ -429,7 +429,7 @@ Requiem applies a stamina draining effect when you run, and when you wear armor 
 Requiem's Gods are unforgiving of crime. Too much crime and they will no longer bless you or heal you!
 
 ---
-### Why arent I healing?
+### Why aren't I healing?
 
 Requiem disables passive health regeneration, you will need to obtain a healing poultice or a potion to regenerate health. 
 
@@ -649,7 +649,7 @@ Note: you must be at least at the stage of "Kill the werewolf hunters" for the Q
 ---
 
 ### How Do I Enable Permadeath
-In short - You cant. Permadeath mod Ashes was removed from the build of ultimate skyrim back in september when 4.0.7 was released.
+In short - You can't. Permadeath mod Ashes was removed from the build of Ultimate Skyrim back in September when 4.0.7 was released.
 
 Instead of a 'permadeath mod' the player, upon dying is presented with the Requiem death dialog telling you to load a save. If you wish to be permadeath, simply load your template save at this point and start a new character (manually deleting all of the saves for your dead character)
 

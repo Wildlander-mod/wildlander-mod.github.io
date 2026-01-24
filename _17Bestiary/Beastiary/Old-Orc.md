@@ -7,7 +7,79 @@ parent: Bestiary Index
 description: The Old Orc - Shouts, Spells, Stats
 ---
 
-*Basic Stats*
+## The Old Orc: Veteran of Countless Battles
+
+{: .important}
+> **Threat Level: 🔴 DANGEROUS**
+> 
+> A masterful two-handed warrior with extensive perks and access to Berserker Rage (once per day, 60s of doubled physical damage + pain reduction). His armor rating (1090+) combined with Lord's Stone bonuses and 75% magical resistance create a highly defensive profile. The threat isn't raw damage (which is moderate) but rather his ability to survive burst damage long enough to land his own devastating hits. The Depleting Staff (magicka drain) and Freezing Battleaxe (slow) provide utility beyond pure damage.
+
+## The Defining Threat
+
+**Berserker Rage (Once per Day, 60 seconds)**: Doubles physical damage output and grants pain (damage taken) immunity for 60 seconds. During this phase, the Old Orc deals 200+ damage per hit while you cannot hurt him. Timing your survival during this window is the core mechanic.
+
+**Depleting Staff (Magicka Drain)**: 40 magicka damage per hit. A mage character can be drained dry in 2-3 hits, preventing spell casting entirely. This is a direct counter to magic-focused builds.
+
+**Freezing Battleaxe (Slow + Damage)**: 20 frost damage per hit + 50% slow for 3 seconds. Multiple hits stack slows, creating extended immobility phases. This forces melee engagement but limits your mobility.
+
+**75% Magical Resistance (Inherent)**: Magic damage is heavily resisted. Combined with Heavy Armor (100 skill), his effective magical defenses are extreme. Spellcasting is inefficient against him.
+
+**Heavy Armor Mastery (100 skill, +defensive perks)**: Strong Grip (40% block effectiveness, shield weighs 75% less, +10% AR) + other perks make him very hard to damage via traditional means.
+
+## Counter Strategies
+
+1. **Melee Engagement + Berserker Dodge (Primary Strategy)**:
+   - Engage in melee; do not run or kite
+   - When Berserker Rage triggers, immediately break contact and sprint away
+   - Use the 60-second Berserker window to heal, rebuff, and prepare defenses
+   - After Berserker ends, re-engage for sustained combat
+   - His damage during Berserker is so high that any direct engagement = death; accept this mechanic
+   - Success = out-surviving Berserker phases
+
+2. **Bow/Ranged Strategy (Avoid Depleting Staff Drain)**:
+   - His Depleting Staff is melee-only; ranged avoids attribute drain entirely
+   - Maintain 40+ feet distance; he moves at normal speed while you kite
+   - Fire arrows are effective (no specific fire resistance documented)
+   - Ranged strategies last 8+ minutes but are extremely safe
+   - His ranged damage (180 base) is lower than his melee, making this survivable
+   - Risk: Requires patient kiting for extended duration
+
+3. **Physical Damage + Armor Penetration (High Damage Builds)**:
+   - His heavy armor is his weakness; armor penetration bypasses Strong Grip bonus
+   - 75%+ armor penetration makes his defenses irrelevant
+   - Melee weapons with high base damage (Ebony, Daedric) + AP perks
+   - Combine with elemental damage for mixed damage types
+   - If you deal 60+ DPS, he dies before Berserker even activates
+   - This requires very high-end gear (Daedric +25 enchant minimum)
+
+4. **Restoration/Healing Loop (Attrition Win)**:
+   - If your healing > his damage (accounting for Berserker), you win through time
+   - Focus on sustained healing during Berserker phases (passive defense)
+   - After Berserker ends, attack while he recovers stamina
+   - Pure restoration builds can eventually out-resource him
+   - This is a very long fight (15+ minutes) but guaranteed safe
+
+5. **Stamina Drain + Stun-Lock (Specialized)**:
+   - Deplete his stamina (2245 total) to prevent power attacks
+   - Power attacks are his primary threat; stamina drain removes this
+   - However, Orc racial can partially bypass stamina limits
+   - This is risky and situational; better alternatives exist
+
+## Critical Mechanics
+
+- **Berserker Rage (2x damage, 60s pain immunity, once per day)**: THE defining mechanic; must survive 60s of doubled damage
+- **Depleting Staff (40 magicka per hit)**: Magic users are entirely shut down; drain is faster than spell casting cost
+- **Freezing Battleaxe (20 frost + 50% slow for 3s)**: Slows stack; multiple hits create extended immobility
+- **75% Magical Resistance (Inherent)**: Magic damage is severely limited
+- **Heavy Armor 100 + Strong Grip**: Block effectiveness 40% higher, shield AR +10%, shield weight -75%
+- **Lord's Stone Blessing**: Additional armor and damage multiplier from Orc birthright
+- **Orcish Bow (65 base + 91 arrows × 21% AP)**: Ranged damage is comparable to melee
+- **Orc Racial (can use Berserker Rage once per day)**: Only Orc can use this power; built-in advantage
+- **100% Skill All Weapons**: Expertise with one-handed, two-handed, marksman, block, heavy armor
+
+---
+
+## Basic Stats
 
 |Stat| Value |
 |--|--|

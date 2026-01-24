@@ -141,7 +141,7 @@ The antivirus is the bane of my existence!
 
 Recommendations: Uninstall it - free version is shit anyway - lol. 
 
-If you cant uninstall it.
+If you can't uninstall it.
 
 1. Add a "Advanced Threat Defense" exception for Wildlander\game-files\Stock Game\SkyrimSE.exe. If you also have “Ransom-ware Remediation” on Add Wildlander\game-files\ModOrganizer.exe to this.
 
@@ -337,7 +337,7 @@ Fix: Turn it off.
 ---
 ### Istar Cairn-Breaker crash (SkyrimSE.exe+21FFE3)
 
-Happens in and around Dragonbridge at sunrise (7am). Caused by the scrips telling Istar Cairn-Breaker to put his torch away when he isnt using one.
+Happens in and around Dragonbridge at sunrise (7am). Caused by the scrips telling Istar Cairn-Breaker to put his torch away when he isn't using one.
 
 This is a rare crash. Attempts by staff to prevent the issue have reduced frequency but not prevented it all together. 
 

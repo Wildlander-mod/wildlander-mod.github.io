@@ -7,10 +7,78 @@ parent: Bestiary Index
 description: The Reaper - Shouts, Spells, Stats
 ---
 
+## The Reaper: Master of All Weapons
 
-Npc: 0201A73E
+{: .important}
+> **Threat Level: 🔴 DANGEROUS**
+> 
+> A legendary warrior equally skilled with melee, ranged, and shields. The Reaper's 50% slash reduction and 25% ranged reduction make traditional approaches inefficient. What makes him truly dangerous is his combination of masterful technique (Battle Axe Focus III = 1.3x damage, +30 AP) and defensive mastery (Disarming Bash + Perfect Block). He is essentially a perfectly balanced fighter who excels at all ranges and has counters to most strategies.
 
-*Basic Stats*
+## The Defining Threat
+
+**50% Slash Reduction (Melee Tier 1)**: Two-handed weapons deal only half their listed damage. A 100-damage axe becomes 50 effective damage. Combined with his high armor rating (229 base + perks), melee damage is heavily mitigated.
+
+**25% Ranged Reduction (Arrows Tier 2)**: Bows deal 75% of normal damage. With his high resistances (80% frost, poison immunity), ranged damage is also reduced compared to other encounters.
+
+**Battle Axe Mastery (1.3x damage, +30 armor penetration)**: His weapon damage is multiplied by 1.3 and he has +30 AP, making his attacks very accurate against your armor. His effective DPS is 54-60/s (102 base × 1.3 × (1 - your resistances)).
+
+**Disarming Bash (25% disarm chance with shield)**: Random chance to disarm your weapon each block he performs. A disarmed player loses DPS entirely and must retrieve the weapon. Disarmed during dangerous moments = death.
+
+**Defensive Stance (No slow from blocking)**: He can block your attacks without movement penalty. He stays mobile while maintaining defensive positioning—cannot be cornered.
+
+## Counter Strategies
+
+1. **Pierce-Focused Build (Tier 2 Resistance Only)**:
+   - Pierce weapons (daggers, spears) have only 20% reduction vs 50% for slashing
+   - Dual dagger fast attacks bypass his defense through attack speed
+   - Daggers deal lower per-hit damage but hit 3-4x faster = higher total DPS
+   - Recommended: Dual daggers with elemental enchantments
+   - Risk: Requires staying in melee range where he's most dangerous
+
+2. **Frost/Elemental Damage (Mixed Type)**:
+   - His 80% frost resistance is high but not complete immunity
+   - Combining frost with physical damage improves total DPS
+   - Frost also applies 35% slow + stagger (reduces his mobility)
+   - Elemental damage bypasses armor reduction mechanics partially
+   - Use frost-enchanted pierce weapons (frost dagger) rather than frost on slashing weapons
+
+3. **Unarmed Mastery Build (No Disarm Vulnerability)**:
+   - Unarmed cannot be disarmed (you have no weapon to disarm)
+   - Unarmed damage is normally 8 base, but with perks (Martial Arts, Fists of Steel) reaches 30-40
+   - Requires extremely heavy investment (Unarmed 100, multiple perks)
+   - Allows you to focus pure melee engagement without disarm fear
+   - Viable but builds have opportunity cost
+
+4. **Attrition + Ranged Kiting**:
+   - Maintain 40+ feet distance; he can close but takes time
+   - Ranged reduction is 25%, meaning you deal 75% of bow damage
+   - Target his summons (he summons summons) rather than him directly
+   - Use ranged attacks to maintain resource advantage
+   - He cannot disarm ranged weapons; this is safest strategy
+   - Risk: Extremely long fights (10+ minutes typical)
+
+5. **Pure Stamina Drain (Specialized)**:
+   - His stamina is 2245 but finite; exhausting it prevents power attacks
+   - Power attack cost reduction (-50% from Barbaric Might) means he still has very low stamina drain
+   - This is NOT a recommended strategy; better alternatives exist
+   - Only viable if combined with other strategies (stamina drain + ranged kiting)
+
+## Critical Mechanics
+
+- **50% Slash Reduction (Tier 1 weapon protection)**: Two-handed axes deal half damage; slashing weapons are inefficient
+- **25% Ranged Reduction (Tier 2 weapon protection)**: Arrows deal 75% damage; not the worst but limited
+- **20% Pierce Reduction (Tier 3 weapon protection, implicit)**: Daggers deal 80% damage; best melee option
+- **Battle Axe Focus III (1.3x damage, +30 armor penetration)**: His attack damage is amplified and ignores some armor
+- **Disarming Bash (25% chance with shield)**: Random disarm creates threat; forces retrieval mechanic
+- **80% Frost Resistance**: Cold-based builds are heavily resisted
+- **100% Poison Immunity**: Poison strategies are completely useless
+- **Paralysis Immunity**: Cannot be frozen mid-action
+- **Sneak Attack Immunity**: Stealth assassination is impossible
+- **100% Skill (All Martial Skills)**: He has maximum skill in One-Handed, Two-Handed, Marksman, Block, Light/Heavy Armor
+
+---
+
+## Basic Stats
 
 |Stat| Value |
 |--|--|

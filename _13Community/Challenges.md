@@ -2,7 +2,6 @@
 layout: default
 title: Community Challenges
 nav_order: 1
-has_toc: true
 has_children: false
 description: Community Challenges
 ---
@@ -93,7 +92,7 @@ And, lastly, you may not haul dwarven metal and raise your smithing to the moon 
  
 #### DECISION MAKING / BEHAVIOR
 
-You may not loot anything the guards killed - this includes animals which strayed into towns or vampires from missive quests. If you didnt kill it yourself with no assistance, you cant loot it.
+You may not loot anything the guards killed - this includes animals which strayed into towns or vampires from missive quests. If you didn't kill it yourself with no assistance, you can't loot it.
  
 You may not loot enemy armor FROM CORPSES that has a V/W ratio of less than 50, unless enchanted - this to prevent breaking down trash gear and leveling smithing.  (Looting anything from containers is allowed.)
  

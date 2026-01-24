@@ -73,7 +73,7 @@ If you are not manually running the game as an Admin, check your windows UAC set
 
 Reboot your PC after making this change.
 
-#### If you have installed a custom version of windows and cannot turn on UAC (or you have and it doesnt work)
+#### If you have installed a custom version of windows and cannot turn on UAC (or you have and it doesn't work)
 
 
 1. Create a basic user account (Accounts -> Other users then add other user, click on Users, more actions and create new user.

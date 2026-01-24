@@ -6,7 +6,7 @@
 * Anything under Dev Should go in the WIP folder - this is hidden by default and won't get turned into a page.
 * There should be a blank line between a title (#title) and the contents. Likewise between a paragraph and a --- (line break) else Jekell won't format it properly.
 * Jekell can handle a Mix of markdown and HTML - But if you want to include a collapaseable section containing markdown - you need to wrap the MD in a <div class="Info" markdown="1"> MD goes here </div> Block to format the MD properly.
-* Youtube videos can be embedded  - but you need the embed block from yourtube itself - you cant just stick it in a Iframe.
+* Youtube videos can be embedded  - but you need the embed block from youtube itself - you can't just stick it in an Iframe.
 * Unlike regular markdown - you can use HTML to change colors in the page.
 * Don't touch the config.yaml or CSS pages - Dylan has final say over the color scheme.
 * **Links to wiki pages should use full wiki URLs without the .md extension** - e.g., `https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/` instead of `1-BeforeYouBegin.md` or relative paths. This ensures links work correctly across the site and in external references.

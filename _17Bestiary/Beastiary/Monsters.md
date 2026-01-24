@@ -7,7 +7,7 @@ parent: Bestiary Index
 description: Monsters - Shouts, Spells, Stats
 ---
 
-Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
+Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances. This guide references the [Dungeon Threat Level Framework](https://wiki.wildlandermod.com/06Dungeons/Dungeon-Guides/#how-to-use-this-guide) for consistency.
 
 ## Index
 {: .no_toc .text-delta }
@@ -20,9 +20,39 @@ Monsters are creatures with various magical abilities, ranging from magical atta
 {:toc}
 </details>
 
+## Quick Reference: Monsters by Threat Level
+
+| Type | Threat Level | Key Weakness | Key Resistance | Primary Threat |
+|--|--|--|--|--|
+| **Chaurus** | 🟢 Average | Blunt weapons, Magic | Poison (75%) | Poison damage + Paralysis |
+| **Falmer** (variants) | 🔴 Dangerous | Fire (20%) | Poison (75%) | Intelligence, teamwork, paralysis |
+| **Giants** | 🔴 Dangerous | Magic, High DPS | Physical reduction | Massive melee damage |
+| **Hagraven** | 🔴 Dangerous | Physical weapons | Magic (varied) | Spell damage, summons |
+| **Ice Wraith** | 🟢 Average | Fire | Frost immunity | Frost damage, invisibility |
+| **Magic Anomaly** | 🔴 Dangerous | Physical weapons | Magic immunity phases | Spell damage |
+| **Netch** | 🟢 Average | Physical weapons | Magic (25%) | Ranged damage |
+| **Riekling** | 🟡 Difficult | Ranged/Magic | Physical armor | Numbers and poison |
+| **Spider** (variants) | 🟢-🟡 Average to Difficult | Fire | Physical reduction | Venom, numbers |
+| **Spriggan** | 🟡 Difficult | Fire | Magic, Nature magic | Poison, summons, nature magic |
+| **Troll** | 🟡 Difficult | Fire | Physical reduction | Regeneration, melee |
+| **Werewolf** | 🔴 Dangerous | Ranged, Magic | Physical reduction, disease immunity | Melee damage, speed |
+| **Werebear** | 🔴 Dangerous | Ranged, Magic | Physical reduction, disease immunity | Melee damage, area effects |
+| **Wisps** | 🔴 Dangerous | Physical weapons | Magic, Shock resistance | Magic attacks, summons |
+
 ## Chaurus 
 
+{: .hint}
+> **Threat Level: 🟢 Average**
+> 
+> Highly poisonous insectoid with a strong chitin shell. Dangerous at range or melee, primary threat is poison damage and potential paralysis from their bite.
+
 A highly poisonous insectoid that shares some characteristics with a centipede. It is covered in a strong chitin shell that will decrease the effect of all physical damage significantly - for the greatest degree of effect, they should be fought with blunt weapons or with magic. However, they are capable of spitting poison over many yards and therefore can be dangerous both at range or in melee, where they try to bite the target and thereby cause severe wounds. Protection from poison is highly advised when facing these monsters. Using poisons against them, however, is not advised, as they show a great resistance to it and also are immune to their own.
+
+**Quick Tactical Tips**
+* Use blunt weapons or magic for best effectiveness against their chitin
+* Poison resistance potions are essential—their bite and spit both apply poison
+* Their paralysis effect can be fatal; manage distance and stay mobile
+* Avoid using poison attacks; they're highly resistant
 
 *Shared Attributes*
 
@@ -180,7 +210,19 @@ A highly poisonous insectoid that shares some characteristics with a centipede. 
 
 ## Falmer
 
+{: .warning}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Highly intelligent blind humanoids that fight in coordinated groups. They exploit poison, magic, and summons effectively. Only underestimate them if you want to die.
+
 The Falmer are humanoid-like creatures that dwell in Skyrim's underground areas, mostly in the parts of forsaken ruins of the dwemer. Without mentioning the astonishing history behind this race, it shall be noted that they're blind, yet can perceive their evironment exceptionally well via their other senses. They're highly intelligent and fight in groups while many of them also make use of potent poisons, making them formidable foes that aren't easily dispatched. However, they're somewhat vulnerable to fire - while, on the other hand, they're highly resistant to all kinds of poisons. They should be avoided by all but the most experienced adventurers.
+
+**Quick Tactical Tips**
+* They coordinate in groups—never engage a single Falmer without knowing there are more nearby
+* Fire is their primary weakness; exploit it
+* Poison resistance is essential; paralyzing poison effects are particularly dangerous
+* Shamans can summon Spirit Trolls and cast powerful healing—prioritize casters
+* Use cover and ranged attacks when possible
 
 ### Melee
 
@@ -452,7 +494,19 @@ All shaman carry either a Atronoch Summon Staff, Or a Elemental staff (Fire, ice
 
 ## Giants
 
+{: .warning}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Massive humanoids with tremendous melee damage and knockdown potential. Exceptional arrow resistance makes ranged combat less effective. They rarely attack unless provoked, but once engaged, they are relentless.
+
 Giants are what their name suggests and can be found a plenty in the mountains and plains of Skyrim's landscape. Although most of them will only attack if one gets too close or they feel threatened, some might be more aggressive than others. Fighting them is a difficult task, however, as they can tear a human apart with their mere hands and become even more dangerous when using truly big weapons to crush their foes and knock down the entire vicinity. The structure of their body also differs greatly from that of humans internally, giving them a great protection from all kinds of arrows.
+
+**Quick Tactical Tips**
+* Their stomp attack knockdowns can be fatal if you're off balance—use magic or Unrelenting Force shout to maintain control
+* Arrows are largely ineffective due to their exceptional piercing resistance—use magic or melee
+* They're highly vulnerable to magic; destruction spells are effective
+* Paralysis immunity means you can't rely on that strategy
+* Blunt weapons are as ineffective as slashing—magic damage is your best bet
 
 **Standard**
 
@@ -530,7 +584,19 @@ Giants are what their name suggests and can be found a plenty in the mountains a
 
 ## Hagraven 
 
+{: .warning}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Powerful casters with magic immunity phases, summons, and bone-shaping magic. Always encountered in groups with Forsworn. Their defensive capabilities make them extremely hazardous.
+
 Hagravens seem to be part woman and part raven. Generally, they're creatures that tend to practice witchcraft and therefore can relie on devastating spells during combat, though their sharp claws also give them an edge in melee. They should only be attacked with a high resistance to spells and at best, should be surprised, as they're rather weak when one can land the first blows before they start countering the attack. Additional caution is advised in melee, as they can also infect their victims with dangerous diseases.
+
+**Quick Tactical Tips**
+* Wait out their magic immunity phases before committing to offense
+* They summon Daedra and cast spells remotely—close distance or use counter-spells
+* Magic damage is largely ineffective during immunity phases; switch to physical attacks
+* Their coven locations mean reinforcements are always nearby—escape if overwhelmed
+* High magic resistance makes standard magic attacks less effective; use physical weapons or highly enchanted spells
 
 **Standard**
 
@@ -631,7 +697,17 @@ They can detect steath players So Sneak attacks are impossible to perform
 
 ## Ice Wraith
 
-*Basic Stats*
+{: .hint}
+> **Threat Level: 🟢 Average**
+> 
+> Ethereal frost creature with extreme resistance to physical attacks. Highly vulnerable to fire. Significant threat to unprepared melee fighters but manageable with ranged fire damage.
+
+**Quick Tactical Tips**
+* Fire damage is their weakness; use fire spells or fire-enchanted weapons
+* Physical weapons are nearly useless (1% damage); avoid melee unless you have fire-based attacks
+* Their frost bite applies damage over time; frost resistance helps
+* They're invisible or very hard to see—detect magic spells help identify them
+* Ranged fire damage is the safest strategy
 
 |Stat| Value |
 |--|--|
@@ -673,6 +749,18 @@ They can detect steath players So Sneak attacks are impossible to perform
 
 ## Magic Anomaly
 
+{: .warning}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Ethereal beings with magic immunity phases that rotate through spell damage types. Physical attacks are nearly useless. Requires patience and understanding of their damage cycling.
+
+**Quick Tactical Tips**
+* Physical weapons deal minimal damage (1%); rely on magic
+* They cycle through elemental protection—learn the pattern
+* Don't waste time attacking during phases where they're immune
+* High magic resistance helps mitigate spell damage
+* Patience is critical; these are war-of-attrition fights
+
 *Basic Stats*
 
 |Stat| Value |
@@ -712,6 +800,18 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Standard (Melee)    | 1% |
 
 ## Netch 
+
+{: .hint}
+> **Threat Level: 🟢 Average**
+> 
+> Large insectoid creatures with significant melee damage and shock-based attacks. Manageable threat for ranged builds but dangerous in melee.
+
+**Quick Tactical Tips**
+* Their shock touch attack damages health and magicka—shock resistance helps
+* Keep distance and use ranged attacks to avoid their melee
+* Magic resistance reduces shock damage effectiveness
+* Large variants are more dangerous but follow same pattern
+* Straight melee engagement is risky; use hit-and-run tactics
 
 **Netch**
 
@@ -797,6 +897,18 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Ranged (Bows & Crossbows)  | 3 |
 
 ## Riekling 
+
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Small humanoid warriors that pose danger primarily through numbers and poison. Individual Rieklings are manageable but encounters rarely feature just one.
+
+**Quick Tactical Tips**
+* They attack in coordinated groups—positioning is critical
+* Poison-tipped weapons are their main threat; poison resistance helps significantly
+* Use area-of-effect spells or crowd control to manage groups
+* Ranged attacks from distance are safer than melee engagement
+* They're weak individually but deadly in packs
 
 ### Standard
 
@@ -940,6 +1052,18 @@ They can detect steath players So Sneak attacks are impossible to perform
 |Frost  | 35 |  
 
 ## Spiders
+
+{: .hint}
+> **Threat Level: 🟡 Average to Difficult**
+> 
+> Venomous arachnids with varying sizes and poison resistances. Threat scales with size and type. Fire is generally effective.
+
+**Quick Tactical Tips**
+* Poison is their primary threat—bring poison resistance potions
+* They're vulnerable to fire; flame attacks are effective
+* Frostbite spiders have frost resistance; adjust tactics accordingly
+* Smaller spiders are weaker but often appear in groups
+* Use fire-based attacks or physical weapons with high damage output
 
 ### Frostbite
 
@@ -1217,6 +1341,19 @@ Same as Albino, not hostile, leaves a tail of flammable oil behind itself.
   
 ## Spriggan
 
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Nature-wielding humanoid creatures with poison attacks and summoning ability. Vulnerable to fire but resistant to nature-based damage. Always fight with fire damage available.
+
+**Quick Tactical Tips**
+* Fire is their primary weakness—use fire damage exclusively
+* They summon forest creatures to aid them; prioritize disabling summons or take them down quickly
+* Poison damage is their attack; poison resistance helps
+* They're fast and intelligent; don't underestimate their tactical awareness
+* Engage from distance if possible; ranged fire attacks are most effective
+* Restore potions help counter their poison attacks
+
 Spriggans are somewhat like Nymphs, but are more associated with forests and groves. They actually do look like they consist mostly of wood and arcane energies, however, this doesn't prevent them from having a weakness against fire. On the other hand, they also show great regenerative abilities that can only be suppressed by setting them ablaze. In combat, they generally attack the target with claws and poisonous spells, while quickly retreating and regenerating if heavily injured.
 
 **Shared Protections**
@@ -1367,7 +1504,19 @@ Spriggans are somewhat like Nymphs, but are more associated with forests and gro
 
 ## Troll 
 
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Muscular brutes with exceptional melee damage, knockdown ability, and rapid health regeneration. Nearly impossible to kill without fire. Cannot be overemphasized: use fire or don't engage.
+
 Trolls are found in great numbers in Skyrim's caves, mountains and plains alike. This brute almost entirely consists of pure muscles and delivers devastating blows with its strong arms that can tear smaller creatures apart easily. Besides, like Spriggans, they possess exceptionally high rates of healing, making them very hard to kill with normal weapons. Fire again is the best way to face this foe.
+
+**Quick Tactical Tips**
+* **FIRE is mandatory**—their regeneration makes any other approach ineffective
+* They hit extremely hard and can knockdown; don't get hit twice
+* Keep distance and use ranged fire attacks; close distance only with fire-enchanted weapons
+* Their high stamina means they're relentless; maintain tempo with fire damage
+* Shield Charge or similar knockdown effects can buy time while fire burns them
 
 **Standard**
 
@@ -1589,6 +1738,19 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 
 ## WereWolf
 
+{: .warning}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Shapeshifting humanoids with exceptional melee damage, knockdown ability, and disease immunity. Fast and intelligent; ranged or magic builds have significant advantages.
+
+**Quick Tactical Tips**
+* They're immune to diseases—don't rely on disease damage
+* Ranged and magic attacks are safer than melee engagement
+* Their knockdown attacks are dangerous; use recovery perks or defensive spells
+* They move fast; use spells with wide area-of-effect to control engagement
+* Magic resistance and high armor help mitigate their damage
+* They have lower stamina than Werebears; use stamina-depleting effects if available
+
 |Stat| Level 50 | Level 51| Level 54|Level 55|Level 60|
 |--|--|--|--|--|--|
 |Health | 1100 | 1250 | 1250 | 1250 | 1250 | 1400 |
@@ -1625,6 +1787,19 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 |Silver (Arrows)     | 150% |
 
 ## Werebear
+
+{: .warning}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Larger, more dangerous shapeshifting form of werewolves with higher damage and area-of-effect attacks. Same disease immunity and knockdown capabilities. More dangerous than werewolves.
+
+**Quick Tactical Tips**
+* Disease immunity applies here too—don't rely on disease damage
+* Their area-of-effect roar can damage multiple targets; use ranged tactics
+* Even more dangerous than werewolves due to higher damage and reach
+* Magic resistance and crowd control spells are essential
+* Keep maximum distance; their melee range is deceptively large
+* Prioritize survival over damage; these are endurance fights
 
 *Basic Stats*
 
@@ -1663,7 +1838,20 @@ Trolls are found in great numbers in Skyrim's caves, mountains and plains alike.
 
 ## Wisps
 
+{: .warning}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Magical spheres that attack with spells and summon allies. Always encountered with Wispmothers who cast powerful magic. Ranged magic is dangerous; melee is difficult.
+
 Wisps are glowing, spherical creatures flying around that will attack the Dragonborn. They are usually near their mother, the Wispmother, who is a female, glowing humanoid being that is difficult to defeat. Shades are creatures different from the creature type shades, as they are ghostly apparitions conjured by a Wispmother.
+
+**Quick Tactical Tips**
+* Wisps are never alone—their Wispmother is nearby; prepare for group combat
+* Magic damage is their weapon; high magic resistance is essential
+* They summon Shades to aid them; manage multiple targets or prioritize summons
+* Ranged physical attacks work better than melee given their floating nature
+* The Wispmother is the priority target; eliminate her to reduce reinforcements
+* Keep moving; their spells track slowly
 
 **Wisp** 
 

@@ -20,7 +20,7 @@ This has Multiple issues and is the bane of my existence!
 
 Recommendations: Uninstall it - free version is shit anyway - lol. 
 
-If you cant uninstall it, there are possible resolutions below.
+If you can't uninstall it, there are possible resolutions below.
 
 #### It does not like Wabbajack's Downgrading routine and can cause corruption, preventing the game to launch.
 

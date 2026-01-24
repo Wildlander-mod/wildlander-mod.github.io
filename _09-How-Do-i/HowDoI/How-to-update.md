@@ -27,7 +27,7 @@ description: How Do I Update?
 
 Perform a clean install - Delete your Game-files\Mods folder before continuing (the folder circled in the example below).**  
 
-The reason for this is Wabbajack reads though and CRC checks everything in the mods folder. Unfortunately this process takes a long time to do, and cant detect corrupted files 100% of the time.
+The reason for this is Wabbajack reads through and CRC checks everything in the mods folder. Unfortunately this process takes a long time to do, and can't detect corrupted files 100% of the time.
 
 ![image](https://user-images.githubusercontent.com/26418143/194085051-7e3ffb22-3a21-44e6-8e5d-c4ffa587ac53.png)
 
@@ -67,7 +67,7 @@ The reason for this is Wabbajack reads though and CRC checks everything in the m
 
 ---
 
-### It's telling me SKSE cant be downloaded
+### It's telling me SKSE can't be downloaded
 
 You are trying to reinstall Wildlander 1.0 from the .Wabbajack file. Please Delete the .Wabbajack file, run Wabbajack Installer.exe and download the latest from the gallery.
 

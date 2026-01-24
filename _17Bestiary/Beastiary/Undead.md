@@ -7,6 +7,8 @@ parent: Bestiary Index
 description: Undead - Shouts, Spells, Stats
 ---
 
+Undead creatures are reanimated corpses ranging from mindless skeletons to intelligent spell-casters. This guide references the [Dungeon Threat Level Framework](https://wiki.wildlandermod.com/06Dungeons/Dungeon-Guides/#how-to-use-this-guide) for consistency.
+
 ## Index
 {: .no_toc .text-delta }
 <details markdown="block">
@@ -18,8 +20,36 @@ description: Undead - Shouts, Spells, Stats
 {:toc}
 </details>
 
+## Quick Reference: Undead by Threat Level
+
+| Type | Threat Level | Key Weakness | Key Strength | Primary Threat |
+|--|--|--|--|--|
+| **Ash Spawn** | 🟡 Difficult | Frost | Fire immunity, high damage | Flame damage + ranged attacks |
+| **Death Hound** | 🟢 Average | Varies | Pack mentality | Numbers and coordination |
+| **Dragon Priest** | 🔴 Perilous | Health regen counter | Magic immunity, summons, shouts | Health regeneration (80/s) |
+| **Draugr** (variants) | 🟡 Difficult | Fire, Blunt | Physical reduction | Melee damage, shout spam, numbers |
+| **Spectral Warhound** | 🟡 Difficult | Physical weapons | Ethereal phases | Knockdown, high damage |
+| **Gargoyles** | 🟡 Difficult | Varies | Magic resistance | Ranged attacks, magic immunity |
+| **Ghost** | 🟢 Average | Physical weapons | Ethereal form | Limited threat solo |
+| **Shades** | 🟢 Average | Fire | Summoned | Appear in groups |
+| **Skeleton** | 🟢 Average | Blunt weapons | Physics-based | Numbers, coordination |
+| **Vampires** (variants) | 🔴 Perilous | Fire, Sunlight | Spell mastery, summons | Magic, disease, level scaling |
+
 ---
 ## Ash Spawn 
+
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Flame-wreathed undead with high melee damage, ranged fire attacks, and fire immunity. Frost is their primary weakness. Dangerous in groups.
+
+**Quick Tactical Tips**
+* Use frost damage exclusively—fire heals them
+* Their flame cloak damages you in melee; keep distance or wear fire resistance
+* AshBolt ranged attacks are dangerous; use cover
+* Silver weapons are highly effective (150% damage)
+* They regenerate when on fire—do not use fire attacks
+* Frost spells are your best bet for sustained damage
 
 ### Shared
 
@@ -153,6 +183,19 @@ description: Undead - Shouts, Spells, Stats
 
 ## Death Hound
 
+{: .hint}
+> **Threat Level: 🟢 Average**
+> 
+> Spectral hounds with moderate melee damage and frost-based attacks. Primary threat is their slow effect and tendency to appear in packs. Solo encounters are manageable.
+
+**Quick Tactical Tips**
+* They rarely appear alone—prepare for group combat
+* Their bite applies a 50-second slow; frost resistance helps
+* Frost cloak damages you in melee; keep distance or use fire attacks
+* They have low health regeneration; burst damage works well
+* Use ranged or magic attacks to handle groups safely
+* Don't get surrounded; use environmental cover
+
 *Basic Stats*
 
 |Stat| Value |
@@ -187,9 +230,39 @@ description: Undead - Shouts, Spells, Stats
 |Sneak Attack | Immune |  
 
 ## Dragon Priest
+
+{: .important}
+> **Threat Level: 🔴 Perilous**
+> 
+> Ancient lich-lords with master-level magic, powerful shouts, summons, and extremely high magic resistance. Among the most dangerous non-dragon encounters. Never engage unprepared.
+
 Thousands of years ago, these priests ruled over Skyrim at the behest of their Dragon overlords. 
 In their service, many of these dragon priests were granted extraordinary powers and knowledge in arcana, and some of them managed to reach lichdom to evade their own demise. 
-They are typically buried in one of the many ancient tombs and temples dotted all across Skyrim, awaiting the return of Alduin the "World-Eater." 
+They are typically buried in one of the many ancient tombs and temples dotted all across Skyrim, awaiting the return of Alduin the "World-Eater."
+
+**Critical Tactical Point: Health Regeneration**
+Their health regeneration (80/s) is THE defining threat. Without addressing it, you will never kill them. You have three options:
+1. **Healing spell damage** - Use high-tier Destruction spells (Incinerate, Disintegrate), **Dawnguard Sun restoration spells (Sunburst/Sunfire)**, or sustained damage that bypasses their defenses
+2. **Burst damage with anti-regen debuffs** - Use Marked for Death shout to reduce armor and healing, then burst with all available damage
+3. **Attrition and defensive play** - Damage output that exceeds 80/s combined with high resistances/healing to outlast them
+
+**Special Note: Dawnguard Sun Restoration Spells**
+If you have access to Dawnguard content, the Sun restoration spells (Sunburst, Sunfire, Sunfire Cloak) are exceptionally effective against Dragon Priests because they:
+- Deal sustained fire damage that exceeds their regeneration
+- Bypass their magic immunity phases (restoration spells work differently)
+- Scale with Restoration skill, making them viable for diverse builds
+- Are especially powerful when dealing with multiple priests simultaneously
+
+**Quick Tactical Tips**
+* **Do not attempt without a solution to their health regeneration**—you will waste time and resources
+* **Pure archer builds should NOT engage Dragon Priests**—your damage output is simply insufficient to overcome their 80/s regeneration
+* Their magic immunity phases make direct spell attacks ineffective during those periods
+* They use powerful shouts; Unrelenting Force can be devastating at range
+* Summons complicate fights; eliminate or control them quickly
+* Magic resistance is extremely high—physical weapons often work better
+* Their altitude advantage in tombs is dangerous; use vertical awareness
+* Ranged attacks from distance with high burst damage are safest strategy
+* If you can help it - Never engage multiple Dragon Priests simultaneously 
 
 In Requiem - these guys are various shades of "utter bastard"
 
@@ -578,7 +651,23 @@ A Stronger Storm Variant Dragon priest.
 
 ## Draugr 
 
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Ancient undead warriors with high armor and weapon proficiency. Largely immune to ranged physical attacks. Highly resistant to frost and shock but vulnerable to fire. Always encountered in tombs in coordinated groups.
+
 Almost always found in the ruins of the ancient nords, these creatures were once followers of the dragon cults, being lead by mighty sorcerers also known as dragon priests. Basically, Draugrs share many characteristics with the common zombie found in many other provinces. They're very durable, as they no longer possess vulnerable organs and such; only severe dismemberment will stop them from functioning any longer, most likely because the magic animating them cannot be sustained after a certain degree of mutilation - therefore, the best way to deal with them in combat is using axes or swords, as blunt weapons don't work well on them. Also, non-magical bows and arrows will be of no use against this enemy - arrows are too small to cause dismemberment and also won't damage any organs, therefore, you could put a hundred arrows into one draugr without him stopping his furious charge. However, projectiles made from silver are still capable of dealing considerable amounts of damage to them... They're also highly resistant against frost and shock, though the latter shows a greater effect, probably because the lightning causes the disruption of the magic field that maintains their undeath, however, fire will cause overall damage to their rotten bodies, causing them to be quickly consumed by the flames - the best option to deal with them, besides certain spells of the school of restoration. Another strategy to deal with these creatures is to lure them into the traps that can be found in the ruins in which they reside, as they do not seem to possess enough intelligence to recognize them as a potential threat.
+
+**Quick Tactical Tips**
+* Use fire damage or fire spells—it's highly effective
+* Physical melee weapons work better than ranged physical attacks
+* Silver arrows are effective; standard arrows are not
+* Avoid blunt weapons; slashing/chopping weapons are more effective
+* They spam shouts frequently; defensive spells help
+* Groups are dangerous but slow; use environmental cover and distance
+* Restoration magic is effective (Turn Undead, etc.)
+* Set traps beforehand when possible; they won't avoid them
+* **Dawnguard Sun spells (Sunfire/Sunburst/Sunfire Cloak) are excellent for handling groups** of Draugr due to their area-of-effect and sustained damage
 
 ### Shared
 
@@ -933,6 +1022,19 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 
 ## Spectral Warhound
 
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Ethereal armored hounds with high melee damage and knockdown ability. Shift between physical and ethereal forms, making them unpredictable. Dangerous in melee range.
+
+**Quick Tactical Tips**
+* They phase between ethereal and physical forms; time your attacks for physical phases
+* Their knockdown attack is dangerous; use defensive positioning
+* They have high health and damage; treat them as serious threats
+* Ranged attacks work but require timing around their phasing
+* Don't get surrounded; they're more dangerous in groups
+* Restoration magic and healing become critical against their damage output
+
 *Basic Stats*
 
 |Stat| Value |
@@ -968,7 +1070,21 @@ Almost always found in the ruins of the ancient nords, these creatures were once
 |Sneak Attack | Immune| 
 
 ## Gargoyles
-When stationary, gargoyles disguise themselves as statues. They can often be found beside regular statues, helping them blend in. While posing as a statue, they are immune to harm and cannot be killed. If they do not immediately burst from the rocks, magic (such as Soul Trap) can be used to distinguish a stationary gargoyle from a regular statue. 
+
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Stone construct creatures that disguise themselves as statues while dormant. High physical armor, magic immunity phases, and ranged attacks make them dangerous. Cannot be harmed while in statue form.
+
+When stationary, gargoyles disguise themselves as statues. They can often be found beside regular statues, helping them blend in. While posing as a statue, they are immune to harm and cannot be killed. If they do not immediately burst from the rocks, magic (such as Soul Trap) can be used to distinguish a stationary gargoyle from a regular statue.
+
+**Quick Tactical Tips**
+* Don't waste resources attacking statue-form gargoyles—they're invulnerable
+* Use detect magic or soul trap to identify dormant gargoyles before combat
+* High physical armor means magic and blunt weapons may be more effective
+* Their ranged attacks are dangerous; use cover
+* They're slow; use speed to control engagement distance
+* Wait for them to fully animate before committing to offense
 
 ### Shared
 *Basic Stats*
@@ -1042,9 +1158,22 @@ When stationary, gargoyles disguise themselves as statues. They can often be fou
 
 ## Ghost 
 
+{: .hint}
+> **Threat Level: 🟢 Average**
+> 
+> Manifestations of the dead that exist in two forms: ethereal (invulnerable) and physical (using ectoplasm). Only the physical form can be harmed. Limited threat individually.
+
 Ghosts are spirits that haunt this world for whatever reason. One should note that there are two varities of ghosts one must not mix up. The first one is the ethereal one that does not acutally exist physically in this world, causing it to be invulnerable and unable to interact with the enviroment of this realm. The other would be the ones that actually manifest themselves physically in this world by the use of ectoplasm, in which case they do possess a physical body that can be damaged by conventional means - however, ectoplasm behaves quite extraordinarily, as it's both harder than steel but more flexible than water as long as it's part of a ghost's body, causing the creature to be able to deliver dangerous blows while also being highly resistant to physical weapons - in fact, it's almost like hitting a body of water, blows do cause a sort of disruption, but it takes a lot of hits to destroy it entirely. Also, some ghosts seem to have traits that they once had in their real life, like ghostly trolls being able to regenerate their ectoplasmic body - in this case fire would behave the same as with living trolls.
 
 As Ghosts are essentially treated as bandits by the engine, they can spawn with any weapon, any armor and any spells than bandits can.  The Only difference is ghosts have protection from standard weaponry.
+
+**Quick Tactical Tips**
+* Ethereal ghosts cannot be harmed—wait or flee until they manifest physically
+* Physical ghosts have high resistance to standard weapons; use silver or magic
+* Fire works on ghostly trolls like living trolls
+* Magic attacks are more effective than physical weapons
+* They can wield any weapon/spell combination; adapt to their loadout
+* Solo ghosts are manageable; prioritize groups
 
 *Material Protection*
 
@@ -1055,7 +1184,20 @@ As Ghosts are essentially treated as bandits by the engine, they can spawn with 
 
 ## Shades
 
-Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meridia's Temple on Mount Kilkreath. 
+{: .hint}
+> **Threat Level: 🟢 Average**
+> 
+> Corrupted ghostly remnants exclusive to Meridia's Temple. Appear in groups but have limited individual threat. Primarily summoned by Wispmothers elsewhere.
+
+Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meridia's Temple on Mount Kilkreath.
+
+**Quick Tactical Tips**
+* Always appear with a Wispmother—eliminate or disable the summoner to reduce reinforcements
+* They spawn in groups; use area-of-effect spells or crowd control
+* Physical weapons work but are inefficient; magic is more effective
+* They have low health individually; burst damage works well
+* Don't get surrounded; their numbers are their main threat
+* Prioritize the Wispmother; killing her stops summons
 
 ### Shared
 
@@ -1146,7 +1288,20 @@ Shades are the ghostly and corrupted remnants of the deceased, exclusive to Meri
 
 ## Skeleton 
 
+{: .hint}
+> **Threat Level: 🟢 Average**
+> 
+> Animated bone constructs with weak individual threat but dangerous in groups. Highly vulnerable to blunt weapons and restoration magic. Often encountered in coordinated groups.
+
 Skeletons are a form of weaker undead. They are easily destroyed by using a heavy blunt weapon like a warhammer and cannot withstand much damage in general, though arrows will sometimes just go through them without doing much damage. But when approaching in great numbers, it is advised to either be experienced in fighting groups or to have a powerful destruction spell at hand.
+
+**Quick Tactical Tips**
+* Blunt weapons are highly effective; use them when available
+* They're physically weak; burst damage kills them quickly
+* Restoration magic and Turn Undead are effective
+* Groups become dangerous through numbers and coordination
+* Don't let them corner you; use environmental cover
+* Silver and daedric weapons work but blunt is most efficient
 
 ### Standard
 
@@ -1460,7 +1615,22 @@ Black skeleton warriors found in the Soul Cairn. You can summon them after learn
 
 ## Vampires
 
+{: .important}
+> **Threat Level: 🔴 Perilous**
+> 
+> Ancient, master-level mages with centuries of arcane knowledge. Extremely dangerous due to spell mastery, disease, and high health. Many variations from simple thralls to Ebony Vampires. Never underestimate them.
+
 Vampires are known to reside throughout Tamriel and Skyrim is no exception. The most renowned local clan bears the name "Volkihar", though not much is known about their kin. As all vampires, they suffer much less from non-bladed weapons and are somewhat resistant to arrows. On the other hand, they do fear fire, for it causes severe damage to their bodies. Sunlight will also pose a threat to them, though it's not clear if they suffer as badly as other vampires from it. The real threat they pose, however, comes from their experience, as most vampires are very, very old - old enough to have studied probably all of the arcane schools to the very limits of Mundus or even beyond. Therefore, they almost all are foes incredibly skilled and thus, incredibly dangerous. Most importantly, one should not even think about using a holy symbol or garlic as protection, for the vampires will just laugh up their sleeve while tearing such a fool apart...
+
+**Quick Tactical Tips**
+* Fire is their primary weakness; use it ruthlessly
+* Sunlight damages them; use outdoor environments when possible
+* They're master mages; magic resistance and spell reflection are essential
+* Silver weapons deal bonus damage; prioritize them
+* Standard melee weapons are less effective against them
+* They apply sanguine vampiris disease on hit; disease immunity helps significantly
+* Ebony Vampires are exceptionally dangerous; prepare accordingly
+* High armor means physical attacks are less effective without bonuses
 
 ### Shared
 

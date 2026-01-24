@@ -25,7 +25,7 @@ game-files\mods\Wildlander\SKSE\Plugins\ContextualCrosshair.ini
 
 This mod controlls the cursor. If you want a "always on" cursor then you can disable the contextual crosshair mod in mod organiser.
 
-## to edit the Item card on 16:10 moniters so it doesnt "clip" (set bEnableItemCardResize=0 )
+## To edit the Item card on 16:10 monitors so it doesn't "clip" (set bEnableItemCardResize=0 )
 
 game-files\mods\moreHUD Inventory Edition\SKSE\Plugins\AHZmoreHUDInventory.ini
 

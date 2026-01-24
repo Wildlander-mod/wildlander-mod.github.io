@@ -53,6 +53,6 @@ It's a big scary world out there beyond Riverwood or wherever your character is 
 * Inkwell + Quill + Paper (for Spell Research or just to journal in Take Notes)
 * Cold-weather armor (generally fur armor feet/hands/chest) If you get caught in a snowstorm
 * Utility scrolls - for when low on magic
-* scrolls of knock if you arent capable of casting the spell itself.
+* scrolls of knock if you aren't capable of casting the spell itself.
 * "Oh shit" ace-in-the-hole (invis potion to run, storm atronach scroll for muscle)
    

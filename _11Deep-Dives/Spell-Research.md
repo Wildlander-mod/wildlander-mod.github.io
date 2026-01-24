@@ -54,7 +54,7 @@ The magicka requirements for crafting tomes and scrolls are listed in the table 
 1. For some reason this spell defies your attempts to put it down on paper in a cohesive way, thus you cannot make an accompanying scroll. 
 1. For some reason this spell defies your attempts to put it down on paper in a cohesive way, thus you cannot make an accompanying spell tome.
 
-Means the Spell doesnt have a corresponding scrolls / tome. 
+Means the Spell doesn't have a corresponding scroll/tome. 
 
 1. You do not currently have the mental energy to create a scroll that complex.
 1. You do not currently have the mental energy to create a spell tome that complex.

@@ -63,7 +63,7 @@ An issue has been raised with launcher team to implement a backup and restore fu
 
 This is generally caused by windows randomware protections "Controlled folder access".
 
-Because SKSE isnt "approved" my microsoft - its treated as unfriendly and prevents SKSE from plugging into your SKyrimSE.exe.
+Because SKSE isn't "approved" by microsoft - it's treated as unfriendly and prevents SKSE from plugging into your SkyrimSE.exe.
 
 Turning this option off will prevent the issue.
 

@@ -38,7 +38,7 @@ At all points in the guide players should
 1. Whenever you complete a quest for someone, you can usually take low value items from their home or store without being a thief.
 1. Whenever you are in a town, locate and train with the training dummies for a hour or two, or study one of the skill books.
 1. Mine any Ore nodes you come ac cross.
-1. Sell things to appropriate vendors, Potions/Reagents to alchemists, Weapons/Armor to blacksmiths, Magical items and Clothing to wizards, Meat to Innkeepers, General goods stores should be last resort for clutter you cant sell anywhere else.
+1. Sell things to appropriate vendors, Potions/Reagents to alchemists, Weapons/Armor to blacksmiths, Magical items and Clothing to wizards, Meat to Innkeepers, General goods stores should be last resort for clutter you can't sell anywhere else.
 1. Fish at every fishing supplies - or equip the rod and attach the water to fish. Fish until you consistently pick up junk.
 1. The inspired buff from campfires gives you 5% Skill gain buff for 6 hours - therefore whenever crafting, training or fighting you should gave this buff on you. It should be something you create whenever the buff expires.
 
@@ -436,7 +436,7 @@ If you're brave, there's an Illusion book(Incident at Necrom) at the Shrine of D
 
 Empty the mines: There are two in this town - Quicksilver and iron.
 
-Dawnstar doesnt have any "easy quests" So Wagon to Winterhold.
+Dawnstar doesn't have any "easy quests" So Wagon to Winterhold.
 
 ## Winterhold
 
@@ -576,7 +576,7 @@ For Illusion - go to a Inn and cast Lionheart on people. the higher the level th
 The College of Winterhold is a great place to train because of two things:
 
 1. The Arcanium has a feature that allows you to “study” for a few hours which gives you a passive buff that doubles all XP gained (for 12 in game hours or so) for whatever subject you studied
-1. There’s a training area downstairs (beneath the Eye of Magnus) where you can be damaged from magical attacks from a Simulated NPC. You can train restoration from there. I also use that area to conjure a summon and attack it with destruction magic. This will level all three schools as your summon will engage in combat and you’ll be damaging an NPC. But As its a training area - you cant be killed, you will simply be K/O and wake up in a bed.
+1. There's a training area downstairs (beneath the Eye of Magnus) where you can be damaged from magical attacks from a Simulated NPC. You can train Restoration from there. I also use that area to conjure a summon and attack it with Destruction magic. This will level all three schools as your summon will engage in combat and you'll be damaging an NPC. But as it's a training area - you can't be killed, you will simply be K/O and wake up in a bed.
 
 
 At higher levels

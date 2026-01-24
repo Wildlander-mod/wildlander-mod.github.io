@@ -7,8 +7,71 @@ parent: Bestiary Index
 description: Miraak - Shouts, Spells, Stats
 ---
 
-Shouts (do 130% damage, shout recovery is 150% )
-- "Dragon Aspect" Take on the mighty aspect of a dragon, delivering colossal blows, with an armored hide, and more powerful shout (For 720 seconds, armor rating increases by 150, power attacks deal 75% more damage, fire & frost resistance improves by 25%, and shout cooldown reduces by 20%. Also, if His health is below 50%, an Ancient Dragonborn will manifest to protect him
+## Miraak: First Dragonborn
+
+{: .important}
+> **Threat Level: 🔴 LETHAL**
+> 
+> The first Dragonborn and Daedric servant. Miraak combines dragon shout expertise with master-level magic and extreme defensive capabilities (95% magic resistance, 1000% during Ethereal phase). Invulnerability phases are frequent and unavoidable. This fight requires specific counter-builds; standard approaches fail catastrophically.
+
+## The Defining Threat
+
+**Ethereal Invulnerability Phases**: Miraak casts "Ethereal" gaining 1000 armor rating and 1000% magic resistance (essentially complete immunity). These phases are mandatory waiting periods where NO damage can be applied—you must survive passively.
+
+**Elemental Cloak + Weakness Application**: Applies 250% weakness to Frost, Fire, and Shock for 20 seconds while dealing 15/s elemental damage in melee. Your resistances become liabilities; every resist you have triggers harder damage.
+
+**Knowledge Drain Spell**: Deals 150 Health + Magicka damage simultaneously with 75% magic weakness debuff. Stacks with Elemental Cloak weakness to create cascading vulnerability.
+
+**Permanent Dragon Aspect**: Shout lasts 720 seconds (permanent for practical purposes). Armor +150, power attacks +75% damage, fire/frost resistance +25%, shout cooldown -20%. He gets stronger as fight progresses.
+
+**Dual Summons**: Maintains 3 summons simultaneously (Twin Souls perk). Atronachs stay for extended duration; managing 4+ targets (Miraak + 3 summons) is mandatory.
+
+## Counter Strategies
+
+1. **Ethereal Phase Management (Primary Strategy)**:
+   - Accept that 30-40% of the fight is waiting/surviving
+   - Use Ethereal phases to reposition, recover stamina/magicka, apply buffs
+   - DoT effects (poison, disease, lingering damage) tick during Ethereal—prep these
+   - Summon your own creatures to maintain DPS while he's invulnerable
+   - This is NOT a mistake or bug; plan around it
+
+2. **Physical Melee Build (Tier 1 Counter)**:
+   - Slashing/piercing resistance is only Tier 2 (low)
+   - Miraak is armor-weak compared to magic—enchanted melee is effective
+   - Two-hander builds face 45% damage reduction but deal high per-hit damage
+   - Close quarters minimizes his spell range advantage
+   - Requires tanking Knowledge Drain hits; use heavy armor + restoration
+
+3. **Summon-Focused Build (Tier 2 Counter)**:
+   - Summon atronachs or reanimated creatures
+   - They tank his elemental damage (Elemental Cloak) while you DPS
+   - Extended binding perks let you maintain summons longer than he does
+   - Atronachs are immune to Bend Will and his summoning attempts
+   - Essentially makes it a summoned creature vs summoned creature war
+
+4. **Pure Ranged (High Difficulty)**:
+   - His 95% magic resistance makes spellcasting ineffective
+   - Bow damage is limited by Tier 3 ranged resistance (30%)
+   - Requires extreme damage-per-shot builds with shock arrows
+   - No recovery window during Ethereal phases; must maintain DPS tempo
+   - Not recommended; melee or summons significantly better
+
+## Critical Mechanics
+
+- **1000% Magic Resistance (Ethereal)**: This is literal invulnerability; all spells deal 0 damage, including DoTs
+- **75% Magic Weakness Debuff**: After Knowledge Drain hit, your magic damage is quartered for 5 seconds
+- **Ancient Dragonborn Manifestation (<50% health)**: A second Miraak-like entity spawns to protect him, effectively doubling threat mid-fight
+- **Restoration Healing (Respite Perk)**: His healing spells restore stamina—he has unlimited resource recovery
+- **Poison Immunity (100%)**: Poison damage strategies are completely useless
+- **Unrelenting Force/Bend Will Immunity**: Shout-based displacement/control won't work
+- **Skill 100 Destruction**: His spells deal 100% more damage than base values
+- **Spell Duration x5**: Any duration effects last 5 times longer than listed (40s becomes 200s, etc.)
+
+---
+
+## Shouts
+
+ Take on the mighty aspect of a dragon, delivering colossal blows, with an armored hide, and more powerful shout (For 720 seconds, armor rating increases by 150, power attacks deal 75% more damage, fire & frost resistance improves by 25%, and shout cooldown reduces by 20%. Also, if His health is below 50%, an Ancient Dragonborn will manifest to protect him
 - "Cyclone" A cyclone will be produced, similar in ability to Unrelenting Force, but will instead send the target in an upwards motion whilst dealing 200 damage. 
 - "Become Ethereal" This shout makes Miraak spectral in appearance and will make them invulnerable to all damage for 15 Seconds
 - "Whirlwind Sprint" The shout grants the ability to dash rapidly forward for 10 seconds.

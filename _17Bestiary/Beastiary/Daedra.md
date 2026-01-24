@@ -11,6 +11,19 @@ The Daedra are creatures that roam the Planes of Oblivion, and are usually summo
 A Dremora is a devilish humanoid being wearing Daedric armor and wielding burning Daedric weaponry, but can also be extremely adept at using magic and casting spells.
 Atronachs are humanoid beings (except the Storm Atronach) that are formed out of their own element of power: Flame, Frost, or Storm. 
 
+## Quick Reference
+
+| Creature | Threat | Type | Health | Primary Role | Weakness | Special |
+|--|--|--|--|--|--|--|
+| Ash Guardian | 🟡 Difficult | Elemental | 1000 | Ranged/Caster | Fire immune | 100/s regen when burning |
+| Flame Atronach | 🟡 Difficult | Elemental | 300-825 | Ranged/Melee | 25% Frost | Flame Cloak passive |
+| Frost Atronach | 🟡 Difficult | Elemental | 1000-1300 | Melee | 33% Fire | 120/s regen |
+| Storm Atronach | 🟡 Difficult | Elemental | 800-950 | Ranged/Melee | Varied | Chain Lightning |
+| Dremora | 🟡-🔴 Difficult/Dangerous | Humanoid | 610-760 | Varied (Melee/Ranged/Caster) | Fire 15% resist | Highly intelligent, multi-spec |
+| Lurker | 🔴 Dangerous | Aberration | 2083-2151 | Melee/Ranged | 80% Frost weak | 60/s regen, Knockdown |
+| Seeker | 🔴 Dangerous | Aberration | 1108-1177 | Melee/Magic | 20% Frost weak | 90/s regen, Drain effects |
+| Slighted | 🔴 Dangerous | Humanoid | 930-1430 | Varied (Melee/Ranged/Caster) | 15% Fire weak | High AR, Summoner casters |
+
 ## Index
 {: .no_toc .text-delta }
 <details markdown="block">
@@ -23,6 +36,11 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 </details>
 
 ## Ash Guardian
+
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Powerful fire elemental with exceptional armor and health regeneration (100/s when burning). Fire immunity makes fire-based damage useless. Very high health (1000) makes attrition difficult. Dangerous at range.
 
 *Basic Stats*
 
@@ -72,6 +90,11 @@ Atronachs are humanoid beings (except the Storm Atronach) that are formed out of
 
 ---
 ## Atronach
+
+{: .warning}
+> **Threat Level: 🟡 Difficult**
+> 
+> Elemental constructs with high resistances, damage immunity phases, and passive elemental cloaks. Each type (Flame, Frost, Storm) has different weaknesses and strengths. Use opposite element to disable and damage. Casters highly dangerous; prioritize stopping their spells.
 
 ### Flame
 
@@ -310,7 +333,21 @@ Damage reduction to 33% from all sources.
 ---
 
 ### Dremora
+
+{: .warning}
+> **Threat Level: 🟡-🔴 Difficult to Dangerous**
+> 
+> Highly intelligent humanoid Daedra with multiple combat specializations (Melee/Ranged/Caster). Each variant (Melee 960 AR, Archer 1200 AR, Caster 80% Magical AR) poses different threats. Fire resistant (85%). Dangerous individually; devastating in groups. Casters summon additional Dremora.
+
 Dremora are humanoid Daedra aligned with the Daedric Prince Mehrunes Dagon. They are often very intelligent and are generally hostile. In lore, it is said they can be found in clans of large numbers in the wastes of Oblivion. Dremora are a rare sight in Skyrim, only appearing as summoned creatures and in a few set locations.
+
+**Quick Tactical Tips**
+* **Melee variant** (AR 960): High armor—use magic or armor-piercing physical attacks
+* **Archer variant** (AR 1200): Extreme armor—summoned at range; disable quickly before they focus fire
+* **Caster variant** (80% Magical AR): Summons additional Dremora Archers; prioritize stopping summoning attempts
+* All variants: Fire resistant (85%)—use frost, shock, or physical damage
+* Unrelenting Force immunity means shout-based displacement won't work
+* Never engage multiple Dremora alone; their combined AR and damage is overwhelming
 
 *Weapons*
 
@@ -376,6 +413,11 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 
 ## Lurker
 
+{: .important}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Aberration from the Daedric realm with massive health pool (2083-2151), high armor (500), and devastating ranged attacks. Acid spit deals 150 damage, Lurker Spray applies 30-80 damage over time. Health regeneration (60/s) makes attrition difficult. Knockdown capability. Frost weakness is key.
+
 |Stat| Variation 1 |  Variation 2 | Variation 3 | Variation 4 |
 |--|--|--|--|--|
 |Level| 30 | 34 | 44 | 54|
@@ -420,6 +462,11 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 ---
 
 ## Seeker
+
+{: .important}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Daedric aberration with unique drain-based attacks. **Knowledge Drain applies 300 damage + stagger** making it THE defining threat. High health regen (90/s, 30/s under frost) and extreme weapon penetration resistance (Tier 4-5). Frost weakness is critical. High speed (150) means distance isn't reliable.
 
 |Stat| Variation 1 |  Variation 2 | Variation 3 | 
 |--|--|--|--|
@@ -469,7 +516,20 @@ Summon Dremora Archer - Summons the archer varient from that table below. Archer
 
 ## Slighted
 
+{: .important}
+> **Threat Level: 🔴 Dangerous**
+> 
+> Upgraded Dremora variant with extremely high armor (1320-1716 with shield) and multiple combat specializations. Casters summon potent Atronach thralls. Highly coordinated with multiple damage types. Fire resistant (85%). Unrelenting Force immune. Similar threat to Dremora but more powerful at every tier.
+
 Slighted a a new type of Dremora introduced by Requiem. they (mostly) have identical stats, the differences come with weaponry or spells. The Melee varients use weapons exclusivly and do not employ magic. The caster Varients come Equiped with a Sword and nothing in the offhand.
+
+**Quick Tactical Tips**
+* **Extreme armor** (1320-1716): Even with good weapons, physical damage is limited—use magic or high-penetration builds
+* **Melee variant**: Knockdown capable; don't get hit multiple times
+* **Caster variant**: Immediately disrupts summoning or takes prioritized fire before summons complete
+* **Archer variant**: High armor penetration (55%) from arrows—ranged attacks from distance
+* Fire resistance (85%) makes flame damage ineffective—use frost, shock, or physical magic
+* Multiple variants in groups are lethal; avoid engaging multiple Slighted simultaneously
 
 *Weapons*
 

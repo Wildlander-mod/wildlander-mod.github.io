@@ -7,8 +7,73 @@ parent: Bestiary Index
 description: Ebony Warrior - Shouts, Spells, Stats
 ---
 
+## Ebony Warrior: Champion of Oblivion
 
-*Basic Stats*
+{: .important}
+> **Threat Level: 🔴 LETHAL**
+> 
+> The ultimate warrior—not a mage, not a stealth assassin, but pure martial excellence. 66% damage reduction stacks multiplicatively on ALL damage sources, making him effectively 3x as tanky as armor alone suggests. Combine this with stagger immunity, block absorption, and 5/s health regeneration, and you face an opponent who simply cannot be burst-damaged. Attrition is mandatory.
+
+## The Defining Threat
+
+**66% Damage Reduction (Multiplicative)**: This is the core mechanic that defines the Ebony Warrior fight. Every attack you land deals only 34% of its listed damage. This stacks WITH your armor penetration:
+- 50% armor penetration → 50% × 34% = 17% effective damage
+- 75% armor penetration → 75% × 34% = 25.5% effective damage
+- Even with armor pen, you deal 1/4 to 1/3 normal damage
+
+**Stagger Immunity**: You cannot interrupt him. Power attacks, bashes, stun effects—none of them break his animations. Waiting for an opening is pointless; they don't exist.
+
+**Fortify Block (35%)**: His shield blocks 35% more damage than normal, effectively making his armor rating 35% higher for blocking purposes. Combined with 66% reduction, blocking is extremely effective.
+
+**5/s Health Regeneration**: In a non-mage focused build, you might output 20-30 DPS. His regeneration means you barely outpace his healing. Fights routinely exceed 5+ minutes even with solid damage builds.
+
+**Slashing Tier 5 Resistance (45%)**: Weapon damage is limited. Shock/Fire damage are lower tiers, making elemental enchantments more effective than pure physical slashing.
+
+## Counter Strategies
+
+1. **Elemental Enchantment Focus (Recommended)**:
+   - Frost/Shock on weapons deal only ~35% reduced damage (vs 45% for slashing)
+   - Damage = Base × 0.34 (global reduction) × 0.65 (elemental resistance)
+   - Build multi-hit weapons: dual daggers, dual swords with fast attack speed
+   - Spread damage across many hits to exceed 5/s regen
+   - 20-30 enchantment damage per hit × 3-4 hits/second = 60-120 total DPS, beating his regen
+
+2. **Attrition + Positioning Build**:
+   - Accept the fight will last 5+ minutes
+   - Use bow + melee rotation to maintain resource efficiency
+   - Heavy armor + shield to survive his 40/s damage output (when hitting)
+   - Focus on consistent 15-20 DPS rather than spike damage
+   - Use summons to split his attention (he'll damage summon instead of you)
+   - This is a war of attrition; whoever has more resources wins
+
+3. **Pure Ranged (Bow) Build**:
+   - Ranged Tier 4 resistance (30%) is slightly lower than melee
+   - Requires 15+ damage per arrow to exceed regeneration
+   - Shock arrows more effective than fire
+   - Maintain 30+ feet distance to avoid his weapon damage (40/s)
+   - Risk: If he closes distance, low armor rating becomes liability
+   - Viable but requires high damage output and stamina management
+
+4. **Restoration Focus Build (Healing DPS)**:
+   - If you heal 30/s, he heals 5/s, net damage dealt is 25/s to HP
+   - Requires focusing restoration magic or high-healing items
+   - Converts fight into a mana/stamina vs stamina race
+   - Less effective than raw DPS builds but viable for pure caster characters
+
+## Critical Mechanics
+
+- **66% Damage Reduction (Multiplicative with armor pen)**: This is NOT a mistake; it's THE defining mechanic of this fight
+- **Stagger Immunity**: No crowd control, no interrupts, no windows—he attacks continuously
+- **5/s Health Regeneration**: At Requiem's ~20-30 typical DPS, he only loses 15-25 net HP/s
+- **Frost/Shock Resistance (95%)**: Elemental resistance is extreme; shock is marginally better than frost but both are heavily resisted
+- **Standard AR (1290)**: With armor cap system, this is near-maximum protection; penetration is essential
+- **Bull Rush (Knock Down)**: He can knock you down; you cannot knock him down
+- **Two-Handed Weapon + Two-Handed Skill 100**: His damage is +100% from base; expect 40/s effective damage per hit
+- **Poison/Paralysis Immunity**: DoT and crowd control strategies are completely useless
+
+---
+
+## Basic Stats
 
 |Stat| Value |
 |--|--|

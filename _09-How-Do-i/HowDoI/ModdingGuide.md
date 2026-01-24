@@ -142,7 +142,7 @@ The following types of mods have Issues
 > *  3Tweaks/BTweaks (Won't be compatible OUT OF THE BOX - It changes so much stuff, that it won't be compatible with anything without 3tweaks dedicated patch - which just doesn't exist for the bulk of the mods in the list - Including Wildlander.esp itself).     
 > *  Precision - Cannot be played with Improved camera version we have. Overall makes the game easier as the weapons are designed based on vanilla proportions, not Wildlander.
 > *  Flat World Map Framework (FWMF) Does not have a compatible patch for ELE or DVLAS (our lighting mods) so reverts lighting in vanilla, the roadmap does have a patch but only for a specific version of the map.
-> *  NPC Overhauls - Wildlander itself is a NPC overhaul, so you cant simply plug in a NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of Wildlander to get it working correctly
+> *  NPC Overhauls - Wildlander itself is an NPC overhaul, so you can't simply plug in an NPC overhaul and it'll work. Instead you need to look into a tool such as Easy NPC or spend hours patching the changes out of Wildlander to get it working correctly
 > *  Any mods which add new recipes to the Vanilla Tanning rack will need patching to use the Player crafting workbench instead.
 > *  Wheeler causes a CTD when you run out of a user made potion which you have added to a wheel. It is recommended that you use the favorites menu instead of wheels for potions/poisons
 
@@ -257,7 +257,7 @@ I'm commonly asked about the following mods. They are all Masters of Wildlander 
 * Frostfall (can be turned off in the MCM and ignored. Cannot be removed)
 * Immersive Horses
 * Skyrim Unbound Reborn (this is responsible for all of the Wildlander "background configuration" of MCM's and the like when you start the game.)
-* Requiem is the core mod in this pack - (It's literally the heart and soul of the modlist - without it you arent playing Wildlander) .
+* Requiem is the core mod in this pack - (It's literally the heart and soul of the modlist - without it you aren't playing Wildlander) .
 
 For anything else  read the advise [Here](https://old.reddit.com/r/skyrimmods/comments/14d7x1t/the_do_not_remove_any_mod_midplaythrough_is_awful/) about uninstalling mods mid-play-though.
 

@@ -41,7 +41,7 @@ Depending on the severity some maybe hot-fixed immediately, other will wait unti
 
 Some may need to wait for the mods used behind the scenes to be corrected.
 
-The next section highlights the issues which cant be resolved.
+The next section highlights the issues which can't be resolved.
 
 ---
 ## Issues which cannot be resolved.
@@ -365,7 +365,7 @@ Happens because requiem potions are "too" strong for the default calculation to 
 Fix: Patch and installation instructions are on our discord Patches and bugfixes channel.
 
 ---
-### Hawks cant be looted whhen shot down
+### Hawks can't be looted when shot down
 
 Happens because of a failed attempt to resolve another issue with hawks which causes them to become invisible when they hit the floor.
 
@@ -400,7 +400,7 @@ Fix: Patch and installation instructions are on our discord Patches and bugfixes
 
 ---
 
-1. Refusing Harkon's offer means a new order doesnt start 
+1. Refusing Harkon's offer means a new order doesn't start 
 * Workaround  Force the quest to start using console commands.
 
 {: .console}

@@ -17,7 +17,7 @@ Blacksmiths will craft and temper at your request. Enchanters will enchant and r
 * Money used to pay for services will go straight to the blacksmith/enchanter's inventory.
 * Blacksmiths will use their own materials and can acquire what they don't have at the expense of extra time and money. You'll still need to provide them with rare materials like dragon bones if you want them to craft something of that sort.
 * Enchanters will only know common enchantments. If you want a different enchantment you'll need to bring an item they can get the enchantment from.
-* Crafting, tempering and enchanting takes a minimum 24 hours by default. The time will increase if the NPC doesnt have the materiels on hand to do the upgrade and needs to Aquire them.
+* Crafting, tempering and enchanting takes a minimum 24 hours by default. The time will increase if the NPC doesn't have the materials on hand to do the upgrade and needs to acquire them.
 * The cost of Enchantments is calculated using the Soul Gem you choose, The skill of the enchanter, plus a flat fee. 
 * The cost of crafted/tempered items is calculated using the Total material cost, The skill of the Smith, plus a flat fee. 
 * The NPC will take the item from you to Temper or enchant it, and will be returned once completed when you pay for the work. Make sure you have a spare item to replace the item while you are waiting.
