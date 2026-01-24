@@ -162,7 +162,7 @@ The following named dragons use identical stats and abilities to their standard 
 |Health| 7400 |  7000  |  7400 | 7300 | 7600| 7800 
 |Melee Damage| 450 | 350  | 450 | 400 | 525 | 525
 |Movement Speed| 100 | 100 | 100 | 100 | 100 | 100
-|Extra Shout| Fire Ball |  |  Disarm | Fire Ball | Fire Ball | | Fireball, Disarm
+|Extra Shout| Fire Ball |  |  Disarm | Fire Ball | Fire Ball | Fireball, Disarm
 
 **Shouts (All Variations)**
 * Unrelenting Force
