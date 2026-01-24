@@ -26,7 +26,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 
 ### Why Vanilla Builds Don't Work in Requiem
 
-- **Enemies scale with you** - You cannot overlevel content; difficulty stays challenging
+- **The world is de-leveled** - Enemies don't scale with you, so a difficult enemy at level 1 becomes easier at level 10; overleveling makes content trivial
 - **Damage is more lethal** - Both you and enemies deal significant damage
 - **Perks matter more** - You need specific perks to be effective with a weapon type
 - **Magic is harder early** - Spell costs are high and enemies have good resistance
@@ -79,7 +79,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 - **Smithing is your friend** - Upgrade your gear frequently
 - **Don't waste perks on utility** - Lockpicking, Pickpocket, etc. aren't essential for combat
 - **Stamina management is critical** - Power attacks and blocking drain stamina; manage it carefully
-- **Invest in Restoration early** - Healing yourself is better than relying on potions
+- **Use health potions in combat** - Casting healing spells leaves you vulnerable; potions are instant and safer
 
 {: .notice }
 > **Want to Mix Up a Playthrough?**
@@ -125,7 +125,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 
 For more guidance on builds and examples - you can see the class guides section of the Wiki.
 
-The maximum level is 82, with 6 extra perk points at the start and an optional 7 from mora. You should plan your builds based on this.
+The maximum level is 82, with 6 perk points at the start. You can obtain 7 additional perk points by reading the Oghma Infinium. Most players only reach around level 40-45 in a typical playthrough, so plan your builds accordingly.
 
 ---
 
