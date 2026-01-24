@@ -2,11 +2,8 @@
 layout: default
 title: Wildlander Trait Roller
 nav_order: 5
-parent: Community
 has_toc: false
 ---
-
-# Skyrim Wildlander Trait Roller
 
 A random character trait roller for Wildlander playthroughs. Select how many traits you want from each category, and the roller will randomly select traits while respecting conflicts.
 

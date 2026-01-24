@@ -238,12 +238,13 @@ nav_external_links:
   - title: Wildlander Known Issues
     url: https://airtable.com/appgZYYWzTYYyk6zI/shrGx8CgzUrL7Gbrh   
     hide_icon: false # set to true to hide the external link icon - defaults to false   
+  - title: Wildlander Roadmap
+    url: https://airtable.com/app6IMUkhDQiSdL0B/shrvAxHcCeCqKfnGe/tbln0wE3ffVnUk2ML/viwGFdBIx5NoRNxBU
+    hide_icon: false # set to true to hide the external link icon - defaults to false
   - title: Wildlander Crafting Spreadsheet
     url: https://airtable.com/appEuwaeZZlyu144b/shrn0GCmAPLiAo42L/tbl30f5NGecSkB5h3/viwbX2l4gKZfKCnTm   
-    hide_icon: false # set to true to hide the external link icon - defaults to false  
-  - title: Character Roller
-    url: https://wiki.wildlandermod.com/CharacterCreator/WildlanderRandomTraitRoller.html
-  
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    
     
     
 # Google Analytics Tracking (optional)
