@@ -18,7 +18,7 @@ A collection of specialized and unique crafting recipes that don't fit into othe
 
 **Tip:** Explore these recipes to discover unique items and niche crafting opportunities.
 
-For more information on obtaining toolkits and understanding the full crafting system, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System.html){target="_blank"}.
+For more information on obtaining toolkits and understanding the full crafting system, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
 
 ---
 

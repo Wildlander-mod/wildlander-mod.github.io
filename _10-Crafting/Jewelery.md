@@ -18,7 +18,7 @@ Create and customize jewelry using the **Forge** workstation. This toolkit allow
 
 **Tip:** Jewelry crafting generates excellent XP and creates items valuable for trading and bartering with merchants.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System.html){target="_blank"}.
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
 
 ---
 

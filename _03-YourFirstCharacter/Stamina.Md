@@ -2,52 +2,210 @@
 layout: default
 title: Stamina Management
 nav_order: 5
-description: Stamina Management
+description: Master stamina management for all combat playstyles
+has_toc: true
 ---
 
-Stamina is one of the most important parts of combat - for all classes!
+## Table of contents
+{: .no_toc .text-delta }
 
-Like most area's of skyrim, it had been overhauled by Requiems stamina drain system.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-This system means
-* Blocking drains stamina
-* Jumping drains stamina
-* Wearing armor/shield without perks for it drain stamina
-* Running around drains stamina
-* Power attacks drain a lot of stamina
-* Holding a bow with arrow ready to fire - you guessed it drains stamina. 
+---
 
-If your stamina inst regenerating - check active effects. the following also affect your base stamina and regeneration
-* Diseases, If you have one - cure it.
-* Training fatigue, Sleep it off.
+# Stamina Management
 
-As you gain more perks in armor - the stamina drain of some of these things reduce. Obviously, raising your base stamina will also increase your stamina regen so that these things become unnoticeable at higher levels.
+Stamina is **critical for ALL combat playstyles**—melee, ranchers, casters, and everyone else. Managing stamina effectively is the difference between victory and death.
 
-## For Melee characters  
+## Why Stamina Matters
 
-The new stamina system will change your game play even more. You will fall short if you hack and Slash or worse power attack too often. Low stamina is death penalty. When your stamina is below a certain threshold you start to be slow, you don't block effectively anymore and your damage will drop a lot. If you run out - the enemies will knock your weapons clean our of you arms. Never, EVER power attack or bash early game. Actually, do not even block early game apart from "easy" predictable blocks to level your skill to 20 for Ex. Blocking perk.
+Wildlander uses **Requiem's stamina drain system**, which is much harsher than vanilla. Stamina affects:
 
-## For Archer characters  
+- **Blocking** - Drains stamina with each block
+- **Running** - Sprinting drains stamina quickly
+- **Jumping** - Each jump costs stamina
+- **Power Attacks** - Massive stamina cost
+- **Armor/Shields without perks** - Heavy drain from wearing unsupported equipment
+- **Holding a bow ready** - Aiming costs stamina continuously
+- **Magic spells** - Severe penalties below 20% stamina (double spell cost)
+- **Combat effectiveness** - Below certain thresholds, you slow down, block weakly, and deal reduced damage
 
-Only Aim your bow if you intend to fire quickly. Other than that - same thing applies to you as what applies to Melee
+**Critical Warning:** Running out of stamina in combat is often fatal. Enemies will knock weapons from your hands and may kill you while defenseless.
 
-## For Caster characters
+---
 
-You don't escape either - Severe spell cost penalties apply if you drop below 20% stamina and you will be slower at running, allowing your opponents to be able to catch and kill you.
+## The Stamina Threshold
 
-## For Everyone
-So don't sprint around like Usain Bolt, don't jump around like a rabbit, don't waste all your stamina attacking Enemies raised shields, become a true warrior, observe, sidestep and attack when you will hit.
+When your stamina drops below a certain percentage, you face severe penalties:
 
+- **Below 20% stamina:**
+  - Movement speed severely reduced
+  - Blocking effectiveness drops dramatically
+  - Melee damage reduced significantly
+  - Spell costs **doubled** (for mages)
+  - You become an easy target
 
-## Managing Stamina
+**This is why stamina management is essential from level 1.**
 
-There are tools in order to help you manage your stamina at lower level :
+---
 
-* Stews : 2 hours of stamina regeneration. Keep on on you at all times. (Apple Cabbage Stew for a quick and cheap to obtain , 1 Salt, 1 Red Apple, 1 Cabbage, 1 Bottled Water)
-* Bestial stew : 3 stamina / sec for strong stomach race. It's a huge advantage at low levels.
-* Stamina Potion are pretty rare. But easy to brew if you have alchemy.
-* Raw Ingredients: some of them can be eat in combat for 1stam/sec or 2stam/sec
-* Cooked Meat/Veggies: Eat out of combat for 1stam/sec or 2stam/sec regeneration
-* Engraved bones (Hircine): gives passive stammina Regen for the duration. 
-* Enchantments: Fortify Stamina regen is your best friend at low levels.
+## Playstyle-Specific Challenges
+
+### Melee Characters (One-Handed / Two-Handed)
+
+You have the most stamina-intensive playstyle:
+
+- **Never power attack early game** - The stamina cost is devastating
+- **Avoid excessive blocking** - Use predictable blocks only to level Block skill to 20
+- **Don't "hack and slash" frantically** - Spam attacking drains stamina fast
+- **Fight smart, not hard:**
+  - Observe enemy patterns
+  - Sidestep instead of blocking
+  - Attack when you'll actually hit (not into shields)
+  - Retreat to recover stamina when low
+
+**Early Game Tip:** Focus on positioning and timing over aggressive combat. One well-placed hit beats ten blocked attacks.
+
+### Archer Characters (Bow/Crossbow)
+
+Stamina drains while aiming:
+
+- **Only aim when you intend to fire quickly** - Don't hold aim while waiting
+- **Avoid sprinting** - Like melee characters, you need stamina to escape
+- **Use crossbows** - They don't drain stamina while ready (unlike bows)
+- **Reposition frequently** - Keep enemies at range where stamina matters less
+
+### Caster Characters (Magic)
+
+Magic has its own stamina penalty system:
+
+- **Below 20% stamina: spell costs double** - Devastating for sustained spellcasting
+- **You slow down significantly** - Enemies can catch and kill you
+- **Manage stamina carefully** - Mages must balance spell casting with movement
+- **Wear light armor** - Heavy armor drains stamina and prevents spellcasting
+
+---
+
+## Everyone's Golden Rule
+
+**Don't sprint around like you're Usain Bolt. Don't jump like a rabbit. Don't waste stamina attacking into raised shields.**
+
+Instead: **Observe. Sidestep. Attack when you'll hit. Recover when low.**
+
+---
+
+## How to Manage Stamina
+
+### Food & Consumables
+
+#### Stews (Highest Priority)
+- **Apple Cabbage Stew** - 2 hours stamina regen boost
+  - Recipe: 1 Salt, 1 Red Apple, 1 Cabbage, 1 Bottled Water
+  - Cheap to make, easy to find ingredients
+  - **Always carry multiple** - Use whenever stamina gets low
+- **Bestial Stew** - 3 stamina/second for 3 hours
+  - Only available to strong stomach races (Argonian, Khajiit, Orc, Wood Elf)
+  - Major advantage if you have the race
+  - Significantly better than Apple Cabbage Stew
+
+#### Raw Ingredients (Combat)
+- Eat in combat for quick stamina restoration
+- Provides 1-2 stamina/second for limited duration
+- Examples: meat, mushrooms, vegetables
+
+#### Cooked Meat & Vegetables (Out of Combat)
+- Eat outside of combat for 1-2 stamina/second regen
+- Better ingredient management than raw foods
+- Easier to cook in bulk early on
+
+### Passive Bonuses
+
+#### Engraved Bones (Hircine)
+- Grants passive stamina regen while carried
+- Permanent stamina regeneration boost
+- Worth seeking out if you find one
+
+#### Enchantments
+- **Fortify Stamina Regen** - Your best early-game enchantment
+- Reduces reliance on consumables
+- Apply to boots, gloves, or rings
+- Pairs well with stew consumables
+
+#### Cooking Stews
+- Craft Apple Cabbage Stew or other stamina-boosting recipes
+- Keep a constant supply in your inventory
+- Combine with other stamina management strategies
+
+### When Stamina Won't Regenerate
+
+If your stamina isn't regenerating at all, check your **Active Effects**:
+
+#### Diseases
+- **Cure any disease immediately** - Diseases cripple stamina regen
+- Seek a temple, alchemist, or use cure disease potions
+- High priority after any combat
+
+#### Training Fatigue
+- **Sleep it off** - You accumulate training fatigue from spell research and training dummies
+- Rest in a bed (1 hour of training = 2 hours sleep needed)
+- Cannot recover while fatigued
+
+---
+
+## Long-Term Stamina Growth
+
+### Base Stamina
+- Increases with **Endurance skill** leveling
+- Higher base stamina = faster natural regeneration
+- Spend time running in cold areas to passively level Endurance
+
+### Perks Reduce Drain
+As you gain perks in armor skills:
+- **Heavy Armor perks** reduce stamina drain from wearing heavy armor
+- **Block perks** make blocking cheaper
+- **Weapon perks** make attacks more efficient
+- At higher levels, stamina management becomes much easier
+
+**Patience is key:** Early game is stamina-starved. Mid-game gets manageable. Late game becomes comfortable.
+
+---
+
+## Quick Reference: Stamina Management Checklist
+
+**Before Combat:**
+- ✓ Carry multiple stews
+- ✓ Check for active diseases
+- ✓ Ensure you're well-rested (no training fatigue)
+- ✓ If possible, have Fortify Stamina Regen gear
+
+**During Combat:**
+- ✓ Don't sprint mindlessly
+- ✓ Avoid power attacks in early game
+- ✓ Sidestep instead of blocking when possible
+- ✓ Use consumables when stamina gets low
+- ✓ Never let stamina reach zero
+
+**If Stamina Won't Regen:**
+- ✓ Check Active Effects for diseases
+- ✓ Sleep to cure training fatigue
+- ✓ Eat food to restore immediately
+
+---
+
+## Next Steps
+
+Once you've mastered stamina management and understand how it affects your combat effectiveness:
+
+1. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/health/)** - Learn about health pools and taking damage
+2. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy patterns and tactics
+3. **Return to [Leveling your Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/)** if you need a refresh on skill progression
+
+**Remember:** Stamina isn't just a number—it's your lifeline in combat. Manage it wisely and you'll survive. Ignore it and you'll die.
 

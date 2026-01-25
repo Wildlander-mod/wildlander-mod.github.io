@@ -18,7 +18,7 @@ Process raw ores into usable ingots and tan animal hides into leather and fur pl
 
 **Tip:** Ore smelting and hide tanning are essential for blacksmithing and armor crafting. These recipes are easy to execute and provide good XP returns.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System.html){target="_blank"}.
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
 
 ---
 

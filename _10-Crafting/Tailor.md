@@ -16,7 +16,7 @@ The tailor toolkit allows you to craft and modify cloth-based items and clothing
 
 **Tip:** Tailor recipes are useful for creating custom outfits and specialized clothing for different environments.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System.html){target="_blank"}.
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
 
 ---
 

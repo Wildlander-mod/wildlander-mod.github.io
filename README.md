@@ -46,20 +46,31 @@ description: Keybinds          Optional - a description for the page which will 
 code blocks are surrounded by 3 apostrphies, or by being tab indented
 
 ### To include a table of contents
-```
-  ## Table of contents
-  {: .no_toc }
+
+Just-the-Docs automatically generates a table of contents using the `{:toc}` tag. **You should include this on pages with multiple sections.**
+
+**To add a TOC to your page:**
+
+1. Add `has_toc: true` to the page's frontmatter
+2. Add the following markup where you want the TOC to appear:
+
+```markdown
+## Table of contents
+{: .no_toc .text-delta }
+
 <details open markdown="block">
   <summary>
     Table of contents
-    Table of contents
+  </summary>
   {: .text-delta }
-1. TOC
+- TOC
 {:toc}
 </details>
-
-
 ```
+
+The `{:toc}` tag tells Just-the-Docs to generate the table of contents automatically based on your page's heading hierarchy (h2, h3, h4, etc.). The TOC will also appear in the right sidebar on the rendered page.
+
+References: [Just-the-Docs In-page Navigation](https://just-the-docs.com/docs/navigation/in-page/#collapsible-table-of-contents-with-details-and-summary)
 
 ### to include a 'Button' Link
 ```

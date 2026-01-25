@@ -50,9 +50,9 @@ Note: This key won't let you deconstruct any "found" enchanted items.
 
 Lost your followers? This is the key you want.
 
-### Survival vision.
+### Instincts
 
-A useful utility. It allows you to see amongst other things. Herbs which can be picked, dropped weapons or arrows, Enemy movements (e.g Bandit using loud equipment, growling animals) Items which can be used to craft Tinder (such as linen wraps) and Dead Bodies. 
+A useful utility that allows you to identify enemies and see amongst other things. Enemy levels, equipment, herbs which can be picked, dropped weapons or arrows, Enemy movements (e.g Bandit using loud equipment, growling animals) Items which can be used to craft Tinder (such as linen wraps) and Dead Bodies. 
 
 
 ## How do i rebind the keys?
@@ -275,11 +275,11 @@ A useful utility. It allows you to see amongst other things. Herbs which can be 
    </td>
   </tr>
   <tr>
-   <td>Survival Vision
+   <td>Instincts
    </td>
    <td>Right Alt
    </td>
-   <td> Campfire (Instincts )
+   <td>Campfire
    </td>
   </tr>
   <tr>

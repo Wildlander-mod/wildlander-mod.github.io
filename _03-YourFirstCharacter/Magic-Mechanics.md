@@ -142,3 +142,16 @@ Whenever an offensive illusion spell is cast, the game calculates a ”break-fre
 The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. Once this break free chance has been calculated, then a 100-sided dice is thrown in game to on the initial cast and every two seconds afterwards. If the initial dice throw is less than the break free chance, the spell fails and the victim is unaffected completed, otherwise the victim suffers the effects until the next dice throw.  If the target does not break free from the spell on the next dice throw, the effect continues until the victim breaks free or its duration expires.
 
 The specific calculation is below (heavy math - i know)
+
+---
+
+## Next Steps
+
+You now understand the fundamentals of magic in Wildlander. Continue your learning:
+
+1. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Apply magic tactics to combat scenarios
+2. **Read [Leveling your Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/)** - Learn how to train magic skills efficiently
+3. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/health/)** - Understand how to stay alive while casting
+4. **Explore [Spell Research](https://wiki.wildlandermod.com/_11Deep-Dives/Spell-Research/)** - Deep dive into discovering and researching spells
+
+**Remember:** Perks are more important than skill levels. Prioritize unlocking perks in your chosen magic schools over raw skill grinding.

@@ -1,87 +1,202 @@
 ---
 layout: default
 title: Armor Resistances, Penetration & Weapon Types
-nav_order: 10
-description: Armor Resistances, Penetration & Weapon Types
+nav_order: 9
+description: Understand armor resistances, weapon penetration, damage types, and how to overcome enemy defenses
+has_toc: true
 ---
 
-### Resistances List
+## Table of contents
+{: .no_toc .text-delta }
 
-List of basic resistances used in Skyrim. These show the maximum effective resistance applicable. Any resistance over this value will not be taken into account during damage calculations.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-|Type 	|	Cap|
+---
+
+# Armor Resistances, Penetration & Weapon Types
+
+Damage is not just about weapon power—it's about armor, resistance, and penetration. In Wildlander, every enemy has defenses, and every weapon has different ways to overcome them. Understanding these mechanics will transform you from a frustrated novice into an effective combatant.
+
+**Key principle:** Not all weapons work equally against all enemies. Choose the right tool for the job.
+
+---
+
+## Armor & Physical Resistance
+
+### How Armor Rating Works
+
+- **1 point of Armor Rating (AR) reduces incoming physical damage by 0.1%**
+- Maximum AR effectiveness: **80% damage reduction** (cap)
+- 800 AR = 80% damage reduction (reaching the cap)
+- Example: Heavy Daedric armor gives ~800 AR = 80% damage reduction
+
+### Armor Penetration (AP)
+
+Armor penetration bypasses enemy defenses based on attack type:
+
+- **Ranged attacks & melee power attacks**: 1 AP bypasses 1% of target's AR
+- **Standard melee attacks**: 1 AP bypasses 0.5% of target's AR
+- **Maximum bypass**: Can never bypass more than 80% of target's AR
+- Example: Striking an enemy with 500 AR using 10 AP gives effective AR of 450 (not 500)
+
+**Practical application:** 
+- Use power attacks against heavily armored enemies
+- Ranged weapons are more effective at armor penetration
+- Different weapons have different penetration values
+
+---
+
+## Resistances by Type
+
+All resistances have a **90% cap** (except physical damage at 80%), meaning resistances over that threshold don't provide additional protection.
+
+| Resistance Type | Maximum Cap |
 |--|--|
-|Damage (Armor Rating)| 	 	80%
-|Poison| 	 	90%
-|Fire  |	 	90%
-|Frost |	 	90%
-|Shock |	 	90%
-|Magic |	 	90%
+| Armor Rating (Physical) | 80% |
+| Poison | 90% |
+| Fire | 90% |
+| Frost | 90% |
+| Shock | 90% |
+| Magic | 90% |
 
-### Armor Resistance
+---
 
-About AR (Armor Resistance) Values
--  1 point reduces incoming physical damage by 0.1%. So 800 AR will reach the 80% cap when not considering Armor Penetration.
--  1 point of Armor Penetration (AP) effectively reduces target AR by 1%. This means striking target with 500 AR with 10 AP makes the effective AR 450, making the target take 45% reduced damage not 50%.
--  The AR cap applies after applying AP.
+## Elemental & Magic Resistance
 
+### Magic Resistance
 
-### Armor Penetration
+- Protects against **all magic damage**, including elemental magic (fire, frost, shock)
+- Protects against **shouts, fears, and non-elemental spells** (illusion, etc.)
+- NPCs can have both elemental and magic resistances simultaneously (unlike vanilla)
+- **Multiplicative effect:** Resistances stack multiplicatively, not additively
+  - Example: 90% magic resistance + 90% fire resistance = 99% total fire resistance (10% × 10% = 1% unresisted)
+  - At high values, your effective resistance increases exponentially
 
-Melee attacks and ranged attacks can penetrate armor, which reduces the effective armor rating and thus damage reduction of the target.
+### Elemental Resistances (Fire, Frost, Shock)
 
-- Per point of armor penetration will bypass 1% of the target's armor rating with ranged attacks and melee power attacks. Standard melee attacks will bypass 0.5% of the target's armor rating per point of armor penetration. The maximum which can be bypassed at most 80% of the target's armor rating. 
-
-- In ranged combat the ammunition used plays a key role for armor penetration. You can see the arrow guide <a href="https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0" target="_blank" rel="noopener noreferrer">here <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
-### Magic/Elemental Resistances
-
-- Magic Resistance protects against all magic damage including elemental magic such as fire, frost and Shock .
-- The effect of magic resistance is  multiplicative when combined with elemental resistance. Let's say you have 90% magic and fire resist. This will mean that you only receive (100%-90%) * (100%-90%)= (10% * 10%) = 1% fire damage, which is equal to 99% fire resistance. This also means that your effective resistances raises exponential as your resistance %'s become higher.
-- Magic resistance protects you from Shouts, Fears and other none elemental spells E.g those in the illusion tree. 
-- Unlike Vanilla, NPC's can have both elemental resistance and magic resistances.
+- These combine multiplicatively with magic resistance
+- Higher individual resistances create dramatically higher combined protection
+- Combined with magic resistance, becomes very powerful
 
 ### Poison Resistance
 
-- Resist Poison increases the target's resistance to damage from poisons up to a maximum of 90%. E.G Resist Poison 50% will halve any poison damage the target takes, Resist Poison 150% will mean the target still takes 10% of the damage. 
-- The Resist Poison effect must be applied before poison damage is taken, so the player or any follower who knocks back a resist poison potion will only resist new poison attacks, not ones currently in effect(Damage over times).
-- Poison shouts, such as those performed by a poison dragon or the afflicted ignore poison resistance for the initial attack. The damage over time aspect is still however affected. As this shout is slow, the best way to avoid this is to not be in front of them, taking several steps to the side makes the attack dodgable .
-- High Poison resistance prevents Paralyse attacks from taking effect, E.G 45% is enough to stop all but the biggest frostbite spiders & Falmer from paralyzing you. 
- 
-### Damage Types
+- **Reduces poison damage** by the stated percentage (up to 90% cap)
+- Must be active **before poison damage is applied** (including DoT effects)
+- Taking a Resist Poison potion only protects from new poison attacks, not active damage-over-time effects
+- **Paralyze protection:** High poison resistance (45%+) prevents most paralyze attacks
+  - 45% is enough to stop all but the strongest creatures (large frostbite spiders, falmer)
+- **Poison shouts** (poison dragons, afflicted) ignore initial poison resistance but are still affected by DoT resistance
 
-Damage Types implemented by Requiem. Weapons are assigned one damage type, and Creatures are Sometimes given extra Damage Type Resistances that function as extra Armor Rating against each damage types.
+---
 
-|Type |	Default Source |
+## Weapon Damage Types
+
+In Wildlander (using Requiem), all weapons deal one specific damage type. Creatures often have special resistances or vulnerabilities to specific damage types.
+
+### The Four Damage Types
+
+| Damage Type | Weapons | Notes |
+|--|--|--|
+| **Slashing** | Sword, War Axe, Greatsword, Battleaxe | Most common weapon type |
+| **Blunt** | Mace, Warhammer | Effective against armored foes |
+| **Pierce** | Dagger | High armor penetration |
+| **Ranged** | Bow, Crossbow | Modified by ammunition type |
+
+### Enemy Damage Type Resistances
+
+Some creatures have damage type resistances as **bonus armor rating** against specific weapon types:
+
+| Resistance Tier | Bonus Armor Rating |
 |--|--|
-|Slashing |Sword, War Axe, Greatsword, Battleaxe
-|Blunt 	|Mace, Warhammer
-|Pierce |Dagger
-|Ranged |Bow, Crossbow
+| Tier 1 | +60 AR |
+| Tier 2 | +120 AR |
+| Tier 3 | +180 AR |
+| Tier 4 | +240 AR |
+| Tier 5 | +300 AR |
 
-----
+**Impact:** A creature with Tier 3 blunt resistance takes an additional 180 AR worth of protection against maces and warhammers, making them nearly immune unless you have high armor penetration.
 
-|Tier |Bonus Armor|
-|--|--|
-|1 |60
-|2 |120
-|3 |180
-|4 |240
-|5 |300
+---
 
-### Damage Reductions
+## Damage Reductions
 
-Certain enemies have abilities which reduce incoming damage by specific weapon types **to** the stated percentage. This also ties in closely with the material protection section, which grants damage increases or reductions based on the type of materials weapons are made out of. 
+Many creatures have **percentage-based damage reductions** against specific weapon types. This multiplies on top of armor ratings.
 
-Examples
-* 75% damage reduction on Blunt would mean a warhammer which states in your inventory that it  does 100 damage will be reduced to 75 damage.
-* 85% damage reduction on slash would reduce all damage by Swords, War Axes, Greatswords or Battleaxes to 85% of the stated damage in the inventory.
+**How it works:** A 75% damage reduction means a weapon deals only 75% of its stated damage.
 
+### Examples
 
-### Material Protection
+- **Warhammer (100 damage) vs. 75% blunt reduction enemy**: 100 × 0.75 = 75 damage dealt
+- **Sword (100 damage) vs. 85% slashing reduction enemy**: 100 × 0.85 = 85 damage dealt
 
-Some enemies have additional protection or vulnerability to Weapon materials such as Silver or Daedric, or if they take reduced damage from conventional materials. 
+**Practical impact:** Some weapon types are dramatically less effective against specific enemies, even with high base damage.
 
-Example 
-* Almost all undead are vulnerable to silver weaponry in some fashion and take additional damage from silver melee weapons. 
-* Draugr will shrug off any arrows made from conventional metals such as iron or steel reducing the damage to 10% of the stated damage in the inventory in addition to the AR they gain from ranged attacks. With weaker metals, this makes you seem like you are only doing 3-5 damage per arrow.
+---
+
+## Material Protection & Vulnerabilities
+
+Certain enemies have **material-based resistances or vulnerabilities** based on weapon material:
+
+### Common Examples
+
+**Undead creatures:**
+- Vulnerable to silver weapons (take additional damage)
+- Especially susceptible to silver melee weapons
+
+**Draugr:**
+- Immune to conventional metal arrows (iron, steel, etc.)
+- Arrow damage reduced to **10% of stated damage** against them
+- With weak metals: effectively 3-5 damage per arrow
+- Solution: Use higher-quality arrow materials or switch to melee
+
+**Other material vulnerabilities:**
+- Daedric creatures resist certain materials
+- Specific creature types have specific protections
+
+**Key takeaway:** If a weapon type isn't working, try a different material.
+
+---
+
+## Strategic Application
+
+### Choosing Your Weapons
+
+1. **Against heavy armor:**
+   - Use weapons with high armor penetration (ranged, piercing)
+   - Use power attacks (100% AP bonus vs standard attacks)
+   - Consider using blunt weapons to bypass slashing-resistant enemies
+
+2. **Against magic users:**
+   - Build magic resistance (boots, body armor, spells)
+   - Close distance quickly to prevent casting
+   - Use interrupting power attacks
+
+3. **Against specific creatures:**
+   - Research creature resistances before engaging
+   - Carry multiple weapon types for different situations
+   - Don't rely on only one damage type
+
+4. **Armor choice:**
+   - Heavy armor reaches 80% damage reduction cap
+   - Evasion (light armor) provides mobility
+   - Different creatures resist different damage types based on armor materials
+
+---
+
+## Next Steps
+
+You now understand how to calculate damage and armor effectiveness. Continue learning:
+
+1. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Apply resistance knowledge to combat strategy
+2. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Learn how to carry varied weapons for different situations
+3. **Read [Levelling Up](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/)** - Perks that improve armor penetration and damage types
+4. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/health/)** - Manage damage taken through resistances and potions
+
+**Remember:** Armor doesn't stop damage—it reduces it. Understanding resistances means better survival.

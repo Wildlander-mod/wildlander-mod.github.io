@@ -3,24 +3,32 @@ layout: default
 title: Needs & Survival
 nav_order: 12
 description: Your character's survival needs - exposure, hunger, thirst, sleep, and cleanliness
+has_toc: true
+---
+
+# Needs & Survival
+
+Wildlander is a survival game. You don't just fight enemies—you must eat, drink, sleep, and stay warm. Ignoring these needs will kill you faster than any bandit. Unlike vanilla Skyrim, you cannot simply rest at an inn and forget about survival.
+
+**This is not optional.** Manage your needs or die.
+
+## Table of contents
+{: .no_toc .text-delta }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 ---
 
 ## Overview
 
 Wildlander uses a custom survival system (no DLC required) that tracks four core needs: **Exposure**, **Hunger**, **Thirst**, and **Exhaustion**, plus a **Cleanliness** system. Managing these needs is crucial for survival and affects your performance in combat and social situations.
-
----
-
-## Table of Contents
-{: .no_toc }
-<details open markdown="block">
-  <summary>
-    Contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 ---
 
@@ -63,7 +71,7 @@ Exposure represents how cold your character is. As exposure increases, you suffe
 
 ### Frostfall UI
 
-Check the [Frostfall temperature gauges](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/) on the UI page for visual aid to your exposure, wetness, and warmth status.
+Check the [Frostfall temperature gauges](https://wiki.wildlandermod.com/_02-RecommendedReading/3-The-UI/) on the UI page for visual aid to your exposure, wetness, and warmth status.
 
 ---
 
@@ -221,11 +229,16 @@ Every vanilla inn in Skyrim and Solstheim has a bathroom with soap baskets. Here
 
 ---
 
-## See Also
+## Next Steps
 
-- [First Day](https://wiki.wildlandermod.com/_03-YourFirstCharacter/First-Day/) - Your first steps in Wildlander
-- [Carry Weight](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/) - Managing your inventory
-- [UI Guide](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/) - Understanding the status displays
+You now understand the core survival mechanics. Continue your learning:
+
+1. **Read [Your First Day](https://wiki.wildlandermod.com/_03-YourFirstCharacter/First-Day/)** - Your first steps in Wildlander
+2. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Managing your inventory and carrying supplies
+3. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy tactics while managing survival needs
+4. **Review [UI Guide](https://wiki.wildlandermod.com/_02-RecommendedReading/3-The-UI/)** - Understanding all status displays
+
+**Remember:** Every journey requires planning. Before leaving a safe location, ensure you have food, water, and shelter materials.
 
 
 

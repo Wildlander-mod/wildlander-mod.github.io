@@ -2,58 +2,262 @@
 layout: default
 title: Health Management
 nav_order: 6
-description: Health Management
+description: Learn how to heal wounds and manage health in Wildlander
+has_toc: true
 ---
 
+## Table of contents
+{: .no_toc .text-delta }
 
-Wildlander has passive health regeneration set to 0%. You will not heal from your wounds by "sleeping it off" or waiting like in vanilla. 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-When you get hurt fighting - the only ways to heal are :-
+---
 
-- Restoration spells (for the living)
-- Conjouration spells (for the undead)
-- Health potions (For undead, only max level healing potions (superlative) will work.)
-- Healing Poultice (see note below) 
-- Alchemy Perk
-- Raw Ingredients
-- Enchantments
-- Engraved bones (Kynareth): gives passive health regen for the duration.
+# Health Management
 
-## Health regeneration Calculations
+In Wildlander, **there is no passive health regeneration**. You will not heal by resting or waiting like in vanilla Skyrim. If you get hurt, you must actively heal yourself or you will die.
 
-There are several actor values involved in calculating total health regeneration:
+Understanding how to heal efficiently and keep yourself alive is essential to survival.
 
-1. The players's maximum Health.
-1. The HealRate.  expresses the percentage of maximum health that is regenerated per second, real time. This is set to 2%
-1. The HealRateMult. expresses a percentage modifier to the base HealRate. This is the value modified by most sources of +health regen enchants, items and potions. This is set to 0% by default
-1. The CombatHealthRegenMult. expresses an additional multiplier that is only active while in combat. This is set to 7%
+---
 
-This equates to this passive health regeneration formula:
+## The Critical Difference: No Resting Heals
 
-HealthPerSecond = MaximumHealth * HealRate% * HealRateMult% * (IsInCombat ? CombatHealthRegenMult : 1.0)
+**Vanilla Skyrim:** Sleep or wait → automatically heal all wounds
+**Wildlander:** Sleep or wait → nothing happens. You stay wounded (unless you have enchantments, food, or other ways to increase health regen from zero).
 
-Changes made to the HealRateMult actor value in wildlander are additive, E.g. using a 5% enchant and a 100% potion will increase your "HealRateMult" to 105%  (0% base + 5% + 100%)
+This fundamental change means:
 
+- Combat wounds persist until you actively heal them
+- Getting caught in extended fights without healing items is fatal
+- Healing is a resource you must manage
+- Planning escape routes and healing opportunities becomes critical
 
-## Healing Poultice 
+---
 
-Healing poultices are SLOW action healers, but heal for a lot. If you engage in combat or sprint while the effect is active, it will be suspended for the duration of said combat or sprint action, and reactivate a few seconds after. It is therefore recommended that you only use healing poultices in a safe place, and that you wait for at least an hour for the effect to work.
+## Your Healing Options
 
-To Craft:- 
+### For the Living (All Races)
 
-```
-Requirements:-
-* Alchemy Lore (Rank 1) Perk or Craftmanship Perk.
-* 5 Medicinal Salve.
-* 1 Bandage.
-* Survivalists toolkit.
-```
+| Method | Speed | Effectiveness | Notes |
+|--------|-------|-----------------|-------|
+| **Restoration Spells** | Fast | Scales with skill | Requires magicka; scales with Restoration skill |
+| **Health Potions** | Instant | Varies by strength | Can be expensive; easiest backup |
+| **Healing Poultice** | Very slow (1+ hours) | High per-second regen | Safe-only; used before risky areas |
+| **Raw Ingredients** | Moderate | Low but steady | Instant restoration; always available in wilderness |
+| **Cooked Meat/Food** | Moderate | Low but steady | Out-of-combat healing; slower than raw |
+| **Fortify Health Enchantments** | Passive | Scales with gear | Fortify Health or Health Regen enchantments |
+| **Engraved Bones (Kynareth)** | Passive | 1-2 HP/sec | Permanent item; passive regen while carried |
 
-All items are crafted From the “Right Shift” craft menu.
+### For Vampires (Vampire Races)
 
-Medicinal Salve can be crafted from any ingredient with Restore Health (e.g  Blue Mountain Flower). Requires Alchemy Lore Perk (Rank 1) or Craftmanship Perk and Survivalists toolkit.
+**Only superlative-level (highest potency) healing potions work on vampires.** This means:
+- Restoration spells don't work on you
+- Regular health potions are useless
+- You must rely on potions and other methods
+- Plan accordingly before becoming a vampire
 
-Bandages can be crafted from any cotton or linen cloth using a Survivalists toolkit. You can also breakdown cotton/linen Cloth items into Bandages from the breakdown menu.
+---
+
+## Your Health Pool
+
+Your maximum health is determined by:
+
+| Factor | Impact | Notes |
+|--------|--------|-------|
+| **Base Health** | 100 HP | Starting value for all races |
+| **Endurance Skill** | +1 HP per level | Higher Endurance = higher max health |
+| **Fortify Health Enchantments** | Variable | +5 to +10 HP per enchanted piece |
+| **Perks** | Variable | Some perks increase max health |
+| **Race** | Varies | Orcs and some races start higher |
+
+**Early Game Reality:** You have ~100 HP. Enemies deal 10-30 damage per hit. You can afford 3-10 hits before death. **This is why avoiding damage matters more than healing.**
+
+---
+
+## Healing Methods Explained
+
+### Method 1: Restoration Spells (Best for Mages)
+
+- Spell costs magicka but scales with your Restoration skill
+- Higher Restoration skill = larger heals
+- Works instantly in combat
+- Requires you to have learned the spells and have enough magicka
+
+**How to Get Started:**
+1. Hire a Restoration trainer or buy spells from mages
+2. Cast Heal Self during or after combat
+3. Higher levels get spells like Greater Heal Self, Grand Heal Self
+
+### Method 2: Health Potions (Universal Backup)
+
+- Instant full heal (depending on potion strength)
+- Works on all races (except undead need superlative-level potions)
+- Can be expensive to buy; crafting is cheaper
+- Perfect emergency backup when injured
+
+**Which Potions to Carry:**
+- Early game: Moderate healing potions (covers 20-40 HP)
+- Mid game: Strong healing potions (covers 50-80 HP)
+- Late game: Superlative potions (full heal, 100+ HP)
+
+### Method 3: Healing Poultice (Best Long-Term)
+
+Healing Poultices are **slow but powerful sustained healers**:
+
+- Heal 1-2 HP/second for **1+ hours**
+- **Cannot be used in combat** - Engaging in combat or sprinting cancels the effect
+- **Use in safe locations only** - Before entering dangerous areas or after escaping combat
+- Must wait for the full duration to work
+
+**How to Craft Healing Poultice:**
+
+{: .note}
+Healing Poultice is **pure player crafting**—no workstation required, just your inventory and a Survivalist's Toolkit.
+
+| Requirement | Notes |
+|-------------|-------|
+| Alchemy Lore (Rank 1) or Craftsman Perk | Alchemy skill unlocks crafting |
+| 5 × Medicinal Salve | Craft from Restore Health ingredients (Blue Mountain Flower, etc.) |
+| 1 × Bandage | Craft from cotton/linen cloth |
+| Survivalist's Toolkit | Required for advanced player crafting anywhere |
+
+**Crafting from Right Shift Menu:**
+1. Medicinal Salve: From any ingredient with "Restore Health" property
+2. Bandages: From cotton or linen cloth (or breakdown cloth items)
+3. Healing Poultice: 5 Medicinal Salve + 1 Bandage
+
+**When to Use:**
+- After escaping combat and reaching a safe location
+- At camp before sleeping
+
+---
+
+### Method 4: Raw Ingredients (Emergency Healing)
+
+- Only specific raw ingredients with "Restore Health" properties work
+- Restores 1-2 HP when eaten in combat
+- Always findable in nature (mushrooms, flowers, etc.)
+- Low per-second but better than nothing in a pinch
+- Doesn't require crafting perks
+
+**Best Early-Game Restore Health Ingredients:**
+- **Raw meat** (only for strong stomach races: Argonian, Khajiit, Orc, Wood Elf)
+- Blue Mountain Flower
+- Blisterwort
+- Imp Stool
+- Blue Dartwing
+- Swamp Fungal Pod
+- Wheat
+- Rock Warbler Egg
+- Sabre Cat Eye
+
+---
+
+### Method 5: Passive Health Regeneration
+
+#### Enchantments (Long-Term Investment)
+
+- **Fortify Health**: Permanently increases max health (+5 to +10 per piece)
+- **Fortify Health Regen**: Increases health regeneration per second (scales with base HealRate)
+- Craft on: Boots, gloves, rings, chest piece
+
+#### Fortify Health Regen Ingredients
+
+Craft potions  with these ingredients to passively regenerate health:
+
+- Angelfish
+- Bear Eye
+- Bonesap
+- Emperor Parasol Moss
+- Garlic
+- Gleamblossom
+- Juniper Berries
+- Luna Moth Wing
+- Mammoth Eye
+- Namira's Rot
+- Nordic Barnacle
+- Polished Boar Eye
+- Troll Eye
+- Werewolf Heart
+
+#### Engraved Bones (Kynareth)
+
+- Passive health regen item (+1-2 HP/sec while carried)
+- Permanent benefit; highly valuable early game
+- Seek these out if you find them
+
+---
+
+## Combat Healing Strategy
+
+### Before Combat
+
+- Carry **3-5 health potions** minimum
+- Carry **Healing Poultice** for afterward
+- Know your retreat route
+- Scout enemy positions before engaging
+
+### During Combat
+
+| Situation | Action |
+|-----------|--------|
+| Taking repeated hits | Retreat to safe distance, heal, return |
+| Below 25% health | Use healing potion immediately or retreat |
+| Surrounded | Retreat, use Healing Poultice or potions in safe spot |
+| Low magicka (mages) | Switch to healing potions; find safe location to regenerate |
+
+### After Combat
+
+- Use Healing Poultice in safe location if available
+- Wait 1+ hour for full effect if using Poultice
+
+---
+
+## Advanced: Health Regeneration Formula
+
+If you're curious how passive regeneration works in Wildlander:
+
+**HealthPerSecond = MaxHealth × HealRate% × HealRateMult% × (InCombat ? CombatHealthRegenMult : 1.0)**
+
+Where:
+- **MaxHealth** = Your current maximum health pool
+- **HealRate%** = Base regen (2% of max health per second)
+- **HealRateMult%** = Modifier from enchants/potions (additive; starts at 0%)
+- **CombatHealthRegenMult** = In-combat modifier (7% during active combat)
+
+**Example:** If you have 150 max health with a 50% enchant regen modifier:
+- Out of combat: 150 × 2% × 50% = 1.5 HP/sec
+- In combat: 150 × 2% × 50% × 7% = 0.1 HP/sec (much lower)
+
+---
+
+## Key Principles
+
+1. **Avoid damage is better than healing damage** - Defensive play saves resources
+2. **Always carry backup healing** - Potions + spells + poultices
+3. **Don't tank hits** - Sidestep, block, retreat when low
+4. **Healing Poultice is your friend** - Use before risky areas
+5. **Raw food is free emergency healing** - Pick ingredients as you travel
+
+---
+
+## Next Steps
+
+You now understand health management and have healing strategies for every playstyle. Continue your journey:
+
+1. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy AI and positioning
+2. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/stamina/)** - Review stamina and health together for optimal survival
+3. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Learn to carry healing supplies without overencumbering
+
+**Remember:** Health is a resource. Manage it wisely, heal proactively, and you'll survive.
 
 
 
