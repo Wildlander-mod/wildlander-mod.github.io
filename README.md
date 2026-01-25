@@ -9,7 +9,12 @@
 * Youtube videos can be embedded  - but you need the embed block from youtube itself - you can't just stick it in an Iframe.
 * Unlike regular markdown - you can use HTML to change colors in the page.
 * Don't touch the config.yaml or CSS pages - Dylan has final say over the color scheme.
-* **Links to wiki pages should use full wiki URLs without the .md extension** - e.g., `https://wiki.wildlandermod.com/02-RecommendedReading/1-BeforeYouBegin/` instead of `1-BeforeYouBegin.md` or relative paths. This ensures links work correctly across the site and in external references.
+* **Links to wiki pages should use full wiki URLs without extensions and with trailing slashes** - Never use `.html`, `.md`, or relative paths. Always use the format: `https://wiki.wildlandermod.com/_folder/page-name/` with a trailing `/`. For example:
+  - ✅ Correct: `https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/`
+  - ✅ Correct: `[Link text](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)`
+  - ❌ Wrong: `https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs.html`
+  - ❌ Wrong: `Needs.md` or relative paths
+  - This ensures links work correctly across the site and in external references.
 
 ### Each page should have a header block
 ```

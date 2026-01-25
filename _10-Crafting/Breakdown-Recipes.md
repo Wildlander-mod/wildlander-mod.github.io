@@ -6,8 +6,21 @@ has_children: false
 description: Item breakdown and disassembly recipes.
 ---
 
-Wildlander includes a new type of crafting called breakdown(? key) which allows you to break down items into the components it was made from. For example armor into metal fragments, bones and teeth into bone fragments and wooden items into kindling for starting fires.
+## What is Breakdown Crafting?
 
-A complete list is available on the crafting sheet below.
+Breakdown crafting allows you to deconstruct items into their component materials. This is a great way to recover valuable resources from unwanted gear and manage your inventory more efficiently.
+
+**Default Hotkey:** Press the bracket key `?` to open the breakdown menu while holding an item, or access it through any crafting workstation.
+
+### Examples
+
+- **Armor** → Metal fragments, leather straps, bones, teeth
+- **Clothing** → Fabric, Threads
+- **Bones & Teeth** → Bone fragments
+- **Wooden Items** → Kindling (for starting fires and campfires)
+
+**Tip:** Breakdown crafting is excellent for managing carry weight by converting bulky items into compact materials.
+
+---
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrltImEmWxLiN0K0?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>

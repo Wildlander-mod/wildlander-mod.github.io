@@ -6,5 +6,10 @@ has_children: false
 description: Armor crafting recipes and materials.
 ---
 
+## Armor Crafting Reference
+
+Quick lookup table showing the perks and materials required to craft different armor types. For detailed crafting instructions, see [Blacksmith Recipes](https://wiki.wildlandermod.com/_10-Crafting/blacksmith/).
+
+---
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shr3KxS6KQgzMtNwn?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>

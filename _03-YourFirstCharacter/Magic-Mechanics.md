@@ -5,76 +5,140 @@ nav_order: 11
 description: Magic Analysis
 ---
 
-There are lots of expansions to the magic systems in Wildlander, the biggest change being that your skill in magic means nothing without perks. you can have 100 skill in a specific school, and casting a novice tier spell will do the same damage, and cost the same as if you were at level one if you have no perks in that specific tree. Learning specific perks (novice, apprentice, adept, expert and master perks)  also grants you free spells from that tier.  
+## Quick Reference (TL;DR)
 
-In addition to this, with the introduction of [spell research](https://wiki.wildlandermod.com/11Deep-Dives/Spell-Research/) you are no longer restricted to gaining spells though buying or finding spell books, you can learn spells simply though researching and combining thesis based on your studies.
+{: .highlight}
+**Most Important Rule:** Perks matter more than skill level. You can have 100 magic skill, but without the matching perks, your spells will be weak and expensive.
 
-Enemy resistances to your illusion spells has also been introduced, when you cast a spell, your skill in that tree is compared to the enemy mental resistance, and can break free of your spells based on that resistance value - more on this in the next section.
+---
 
-Some Spells now have a upkeep magicka drain which will slowly drain magic for as long as the spell is in effect. This upkeep value increases with the more powerful your spells become, and is unaffected by items which reduce spell costs.
+## Core Magic System Changes
 
-Duel-casting from vanilla has been overhauled to "Empowered spells" Instead of multiplying all magnitudes and durations by a given factor, empowered spells have all new effects, making the spell often way more powerful than its common version. In contrast to dual casted spells, empowered spells also have a tier-dependent cost-factor, ranging from 130% for Novice spells up to 170% for master level spells.
+Wildlander makes significant changes to how magic works compared to vanilla Skyrim. Here are the key differences:
 
-## Resistance versus illusion spells
+### Perks are Essential
+
+- **Skill level alone does nothing** - Your magic skill only determines which perks you can unlock
+- **Perks unlock spells** - Each tier (Novice, Apprentice, Adept, Expert, Master) grants you free spells when you learn the perk
+- **Perks reduce costs** - Without perks in a school, spells cost much more to cast
+- **Example:** Casting Novice spells without the Novice perk costs 2x as much magicka
+
+### Spell Research
+
+Instead of only buying or finding spell books, you can now learn spells through [Spell Research](https://wiki.wildlandermod.com/11Deep-Dives/Spell-Research/). You discover spells by:
+- Researching discovered thesis
+- Combining different research topics
+- Studying enemies and effects in the world
+
+### Empowered Spells (Dual-Casting)
+
+Vanilla "dual-casting" has been redesigned as "Empowered spells":
+- **Much more powerful** - Empowered spells have completely new effects, not just stronger versions
+- **Higher cost** - Costs scale from 130% (Novice) to 170% (Master) of base cost
+- **Worth the investment** - The extra power is significant enough to justify the cost
+
+### Spell Upkeep Costs
+
+Some spells now drain magicka continuously while active:
+- Upkeep increases with more powerful spells
+- **Cannot be reduced** by items that reduce spell costs (only by magicka regen)
+- Plan ahead before casting long-duration spells
+
+---
+
+## Illusion Spells and Resistance
+
+Illusion spells work differently in Requiem - enemies can break free from your spells based on their willpower.
+
+### How Break-Free Chance Works
+
+When you cast an offensive illusion spell, the game calculates if the enemy can resist it:
+
+1. **Comparison:** Your illusion skill vs the enemy's willpower
+2. **Dice Roll:** Every 2 seconds, a 100-sided die is rolled  
+3. **Success/Failure:** If roll exceeds break-free chance, spell continues; otherwise enemy breaks free
+4. **Tier Bonus:** Master spells are much harder to resist than Novice spells
+
+![image](https://user-images.githubusercontent.com/26418143/160236172-3d312939-14e8-4de5-b9df-4606ac6dcb3b.png)
+
+{: .note}
+Spell specific value is defined as: Novice=1, Apprentice=10, Adept=5, Expert=15, Master=20
+
+Practical effects shown below:
+
+![image](https://user-images.githubusercontent.com/26418143/160236228-5a2ca016-8293-45a4-9f4c-939826855661.png)
+
+---
+
+## Spell Costs - Four Main Factors
+
+### 1. Perks (Most Important)
+
+**Example:** Candlelight (Novice spell, base 150 magicka)
+- No Novice perk: 150 magicka  
+- With Novice perk: 82.5 magicka
+
+### 2. Stamina Level
+
+Below 20% stamina doubles your spell costs.
+
+### 3. Armor Weight (Biggest Impact)
+
+Heavy armor causes massive spell cost increases!
+
+#### Practical Examples
+
+When casting Candlelight (base 150 magicka) with no perks while wearing 50 kg of gear:
+
+- **Clothing only:** 150 × 1.25 = **187.5 magicka**
+- **Light Armor:** 150 × 2.1 = **315 magicka**  
+- **Heavy Armor:** 150 × 7.5 = **1,125 magicka!**
+
+With appropriate Light/Heavy Armor perks, penalties reduce one tier (heavy→light, light→clothing).
+
+Reference chart:
+
+![image](https://user-images.githubusercontent.com/26418143/160237232-239e2388-b843-492a-b750-62948403c58a.png)
+
+### 4. Skill Level
+
+Your skill in the school increases spell duration and effectiveness (scales 1% per skill point).
+
+---
+
+## Summary: What Increases Spell Costs?
+
+Spells cost more when you:
+
+1. **Lack perks** - Don't have the appropriate tier perk for your spell (Novice spells without Novice perk cost much more)
+2. **Wear armor** - Any armor adds cost multipliers, especially heavy armor
+3. **Wear heavy equipment** - Total equipment weight dramatically increases costs
+4. **Low on stamina** - Below 20% stamina doubles spell costs
+
+To minimize costs as a mage: **Get perks, wear robes, and manage your stamina carefully.**
+
+---
+
+## Managing Magicka
+
+### Best Methods to Restore Magicka
+
+| Method | Effect |
+|--------|--------|
+| **Soups** | 2 hours magicka regen |
+| **Magicka Potions** | Instant restore |
+| **Cooked Foods** | 1-2 magicka/sec out of combat |
+| **Enchantments** | Fortify Magicka Regen |
+
+### Tips for Mages
+
+- Wear mage robes instead of armor to reduce costs
+- Invest in Alchemy for cheaper potions
+- Pre-cast potions before difficult encounters
+- Stay out of melee to keep stamina high
 
 Whenever an offensive illusion spell is cast, the game calculates a ”break-free chance” for the victim. 
 
 The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. Once this break free chance has been calculated, then a 100-sided dice is thrown in game to on the initial cast and every two seconds afterwards. If the initial dice throw is less than the break free chance, the spell fails and the victim is unaffected completed, otherwise the victim suffers the effects until the next dice throw.  If the target does not break free from the spell on the next dice throw, the effect continues until the victim breaks free or its duration expires.
 
 The specific calculation is below (heavy math - i know)
-
-![image](https://user-images.githubusercontent.com/26418143/160236172-3d312939-14e8-4de5-b9df-4606ac6dcb3b.png)
-
-{: .note}
-Spell specific value is defined as  1 for Novice spells, 5 for Adept spells, 10 for Apprentice spells, 15 for expert spells and 20 for master spells.
-
-
-Since this formula might not be very enlightening to people who do not deal with mathematics every day, this image illustrates the practical effect of the above formula for a few enemies and appropriate spell tiers
-
-![image](https://user-images.githubusercontent.com/26418143/160236228-5a2ca016-8293-45a4-9f4c-939826855661.png)
-
-
-## Spell costs
-
-Spell costs are calculated based on several factors. The Base cost of the spell, the weight of your gear, the perks you have and your current stamina.
-
-Take a basic Candlelight spell (The caster creates a bright hovering light that lasts for 300 seconds.) - the base cost of this spell is 150 magicka. If you are completely naked, at full stamina with 0 skill & perks in alteration - this is how much it would cost to cast.
-
-If everything else remains the same, but your stamina was below 20% the magicka cost would be 300.
-
-Taking the Novice Alteration perk (Novice spells cost 55% less magicka, and improve 1% per skill level.) - would reduce the base spell cost to 82.5 magicka, and the duration of the spell would increase 1% for every skill point you have.
-
-The final factor which determines spell cost is the weight and type of your equipped items. 
-
-Assuming you have no perks in the respective armor trees  :- 
-* Wearing pure clothing  the spell cost is multiplied by 1 (at 10 kilos) and up to 2.2 (at 150 kilos) spell cost increase depending on the total weight of your equipped gear.
-* Wearing light Armor the spell cost is multiplied by 1.1 (at 10 kilos) and up to 6.1 (at 150 kilos) spell cost increase depending on the total weight of your equipped gear.
-* Wearing heavy armor applies the harshest penalties and the spell cost is multiplied by 1.5 (at 10 kilos) and up to 20 (at 82 kilos or greater) spell cost increase depending on the total weight of your equipped gear.
-
-Once you get the appropriate perks then, light armor reduces to the clothing tier, and heavy reduces to the light. the below image shows the spell multiplication cost factor Vs weight. 
-
-![image](https://user-images.githubusercontent.com/26418143/160237232-239e2388-b843-492a-b750-62948403c58a.png)
-
-Taking the candlelight example again (with no perks and wearing 50 kilos)
-* Wearing pure clothing the spell cost is multiplied by 1.25 = spell cost 187.5
-* Wearing light Armor the spell cost is multiplied by 2.1 = spell cost 315
-* Wearing heavy armor the spell cost is multiplied by 7.5 = spell cost 1125
-
-In summary spells cost more if you :-
-* don't have high enough level perks for the spells you are casting (ie. you get penalties casting novice-level spells without novice-level perks)
-* wear armor when casting 
-* wear heavy equipotent
-* are low on stamina (sub 20%).
-
-
-
-## Managing Magicka
-
-There are tools in order to help you manage your Magicka at lower level :
-
-* Soups : 2 hours of Magicka regeneration. Keep on on you at all times. 
-* Magicka Potions are pretty rare. But easy to brew if you have alchemy.
-* Raw Ingredients: some of them can be eat in combat for 1Magicka/sec or 2Magicka/sec
-* Cooked Meat/Veggies: Some can be Eaten out of combat for 1Magicka/sec or 2Magicka/sec regeneration
-* Engraved bones (Julianos): gives passive Magicka Regen for the duration.
-* Enchantments: Fortify Magicka Regen is your best friend at low levels.
