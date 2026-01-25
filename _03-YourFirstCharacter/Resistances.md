@@ -33,9 +33,21 @@ Damage is not just about weapon power—it's about armor, resistance, and penetr
 ### How Armor Rating Works
 
 - **1 point of Armor Rating (AR) reduces incoming physical damage by 0.1%**
-- Maximum AR effectiveness: **80% damage reduction** (cap)
+- Maximum AR effectiveness cap: **80% damage reduction**
 - 800 AR = 80% damage reduction (reaching the cap)
 - Example: Heavy Daedric armor gives ~800 AR = 80% damage reduction
+
+**Important:** Having armor above the 80% cap is NOT wasted—penetration is applied BEFORE the cap takes effect.
+
+### Why Armor Above Cap Matters
+
+- Enemy armor penetration reduces your AR by a percentage BEFORE the 80% cap applies
+- Example: You have 800 AR (at cap). An archer with 50 AP hits you:
+  - Archer's 50 AP bypasses 50% of your AR
+  - Your effective AR becomes 400 (50% of 800)
+  - You now receive 40% damage instead of the full 80% protection
+  - **Solution:** Having extra armor above cap means penetration still leaves you protected
+- Extra armor acts as a buffer against armor penetration
 
 ### Armor Penetration (AP)
 
@@ -44,12 +56,13 @@ Armor penetration bypasses enemy defenses based on attack type:
 - **Ranged attacks & melee power attacks**: 1 AP bypasses 1% of target's AR
 - **Standard melee attacks**: 1 AP bypasses 0.5% of target's AR
 - **Maximum bypass**: Can never bypass more than 80% of target's AR
-- Example: Striking an enemy with 500 AR using 10 AP gives effective AR of 450 (not 500)
+- Example: Striking an enemy with 500 AR using 10 AP makes effective AR 450 (not 500)
 
 **Practical application:** 
 - Use power attacks against heavily armored enemies
 - Ranged weapons are more effective at armor penetration
 - Different weapons have different penetration values
+- Heavy armor gives you protection buffer against penetration
 
 ---
 
