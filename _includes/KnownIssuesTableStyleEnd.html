@@ -1,2 +1,210 @@
 
 </div>
+<script>
+function initKnownIssuesFilters() {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) {
+    console.warn('Known Issues table not found');
+    return;
+  }
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const categories = new Set();
+  const statuses = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 5) {
+      categories.add(cells[1].textContent.trim());
+      statuses.add(cells[4].textContent.trim());
+    }
+  });
+  
+  const categorySelect = document.getElementById('categoryFilter');
+  const statusSelect = document.getElementById('statusFilter');
+  
+  Array.from(categories).sort().forEach(cat => {
+    const option = document.createElement('option');
+    option.value = cat;
+    option.textContent = cat;
+    categorySelect.appendChild(option);
+  });
+  
+  Array.from(statuses).sort().forEach(status => {
+    const option = document.createElement('option');
+    option.value = status;
+    option.textContent = status;
+    statusSelect.appendChild(option);
+  });
+  
+  document.getElementById('knownIssuesSearch').addEventListener('input', filterKnownIssuesTable);
+  categorySelect.addEventListener('change', filterKnownIssuesTable);
+  statusSelect.addEventListener('change', filterKnownIssuesTable);
+  
+  initKnownIssuestooltips();
+  updateFilterCount();
+}
+
+function initKnownIssuestooltips() {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) return;
+  
+  let tooltip = document.getElementById('knownIssuestooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'knownIssuestooltip';
+    tooltip.className = 'issue-tooltip';
+    document.body.appendChild(tooltip);
+  }
+  
+  const rows = table.querySelectorAll('tbody tr');
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length < 7) return;
+    
+    const idCell = cells[0];
+    const data = {
+      id: cells[0].textContent.trim(),
+      category: cells[1].textContent.trim(),
+      summary: cells[2].textContent.trim(),
+      description: cells[3].textContent.trim(),
+      status: cells[4].textContent.trim(),
+      investigation: cells[5].textContent.trim(),
+      notes: cells[6].textContent.trim()
+    };
+    
+    idCell.addEventListener('mouseenter', (e) => {
+      showKnownIssuestooltip(e, data);
+    });
+    
+    idCell.addEventListener('mouseleave', hideKnownIssuestooltip);
+  });
+}
+
+function showKnownIssuestooltip(event, data) {
+  const tooltip = document.getElementById('knownIssuestooltip');
+  if (!tooltip) return;
+  
+  tooltip.innerHTML = `
+    <div class="issue-tooltip-header">
+      <div class="issue-tooltip-id">${data.id}</div>
+      <div class="issue-tooltip-category">${data.category}</div>
+    </div>
+    ${data.summary ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Summary</span>
+      <div class="issue-tooltip-value">${data.summary}</div>
+    </div>` : ''}
+    ${data.description ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Description</span>
+      <div class="issue-tooltip-value">${data.description}</div>
+    </div>` : ''}
+    ${data.status ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Status</span>
+      <div class="issue-tooltip-value">${data.status}</div>
+    </div>` : ''}
+    ${data.investigation ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Investigation</span>
+      <div class="issue-tooltip-value">${data.investigation}</div>
+    </div>` : ''}
+    ${data.notes ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Notes</span>
+      <div class="issue-tooltip-value">${data.notes}</div>
+    </div>` : ''}
+  `;
+  
+  tooltip.classList.add('active');
+  
+  const rect = event.target.getBoundingClientRect();
+  let left = rect.left;
+  let top = rect.bottom + 8;
+  
+  if (left + 520 > window.innerWidth) {
+    left = window.innerWidth - 520;
+  }
+  if (left < 10) {
+    left = 10;
+  }
+  
+  tooltip.style.left = left + 'px';
+  tooltip.style.top = top + 'px';
+}
+
+function hideKnownIssuestooltip() {
+  const tooltip = document.getElementById('knownIssuestooltip');
+  if (tooltip) {
+    tooltip.classList.remove('active');
+  }
+}
+
+function filterKnownIssuesTable() {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) return;
+  
+  const searchTerm = document.getElementById('knownIssuesSearch').value.toLowerCase();
+  const categoryFilter = document.getElementById('categoryFilter').value;
+  const statusFilter = document.getElementById('statusFilter').value;
+  
+  const rows = table.querySelectorAll('tbody tr');
+  let visibleCount = 0;
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length < 7) return;
+    
+    const id = cells[0].textContent.toLowerCase();
+    const category = cells[1].textContent.trim();
+    const summary = cells[2].textContent.toLowerCase();
+    const description = cells[3].textContent.toLowerCase();
+    const status = cells[4].textContent.trim();
+    const investigation = cells[5].textContent.toLowerCase();
+    const notes = cells[6].textContent.toLowerCase();
+    
+    const matchesSearch = !searchTerm || 
+                         id.includes(searchTerm) ||
+                         summary.includes(searchTerm) ||
+                         description.includes(searchTerm) ||
+                         investigation.includes(searchTerm) ||
+                         notes.includes(searchTerm);
+    
+    const matchesCategory = !categoryFilter || category === categoryFilter;
+    const matchesStatus = !statusFilter || status === statusFilter;
+    
+    const isVisible = matchesSearch && matchesCategory && matchesStatus;
+    
+    if (isVisible) {
+      row.classList.remove('hidden');
+      visibleCount++;
+    } else {
+      row.classList.add('hidden');
+    }
+  });
+  
+  updateFilterCount(visibleCount, rows.length);
+}
+
+function updateFilterCount(visible, total) {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) return;
+  
+  if (visible === undefined) {
+    visible = table.querySelectorAll('tbody tr:not(.hidden)').length;
+    total = table.querySelectorAll('tbody tr').length;
+  }
+  
+  const countElement = document.getElementById('filterResultCount');
+  if (countElement) {
+    countElement.textContent = `Showing ${visible} of ${total} issues`;
+  }
+}
+
+function clearKnownIssuesFilters() {
+  document.getElementById('knownIssuesSearch').value = '';
+  document.getElementById('categoryFilter').value = '';
+  document.getElementById('statusFilter').value = '';
+  filterKnownIssuesTable();
+}
+
+// Initialize when script loads (after table is rendered)
+initKnownIssuesFilters();
+</script>
