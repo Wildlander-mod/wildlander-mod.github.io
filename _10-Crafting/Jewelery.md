@@ -203,7 +203,7 @@ initJewelryFilters();
 });
 </script>
 
-<div class="jewelry-recipes-controls">
+<div class="table-controls">
   <input type="text" id="jewelrySearch" placeholder="Search (Item Name, Ingredients, Requirements)..." />
   <select id="jewelryToolkitFilter">
     <option value="">All Toolkits</option>
@@ -212,10 +212,10 @@ initJewelryFilters();
     <option value="">All Perks</option>
   </select>
   <button id="clearFiltersJewelry" onclick="clearJewelryFilters()">Clear Filters</button>
+  <div id="filterResultCountJewelry" class="filter-result-count"></div>
 </div>
-<div class="filter-result-count-jewelry" id="filterResultCountJewelry"></div>
 
-<div class="jewelry-recipes-table" markdown="1">
+<div class="styled-table-wrapper" markdown="1">
 
 | Produced Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
 |:---|:---:|:---|:---|:---|:---|:---|
