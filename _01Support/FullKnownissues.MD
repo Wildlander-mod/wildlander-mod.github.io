@@ -1,7 +1,7 @@
 ﻿---
 layout: default
 title: Current Known Issues
-nav_exclude: true
+nav_exclude: false
 has_children: false
 description: All Known Issues and Fixes
 ---
