@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ammunition Recipes
 layout: default
 nav_order: 3
