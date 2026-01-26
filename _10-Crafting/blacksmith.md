@@ -1,4 +1,4 @@
-﻿---
+---
 title: Blacksmith Recipes
 layout: default
 nav_order: 5
