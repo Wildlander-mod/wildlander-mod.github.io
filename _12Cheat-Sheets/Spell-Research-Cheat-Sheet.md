@@ -2,6 +2,7 @@
 title: Spell Research Cheat Sheet
 layout: default
 nav_order: 4
+has_children: true
 description: Alchemy, Artifacts, Elixirs, and Spells reference
 ---
 
