@@ -336,21 +336,24 @@ When CSV source data changes, regenerate from `_includes/` folder:
 
 ### Known Issues Table (Example Implementation)
 
-**Files created for Known Issues example:**
+**Files for Known Issues:**
 - CSV source: `_includes/DataFromAirtable/Known Issues 2-Grid view.csv` (712 rows)
 - Conversion script: `_includes/AirtableConversionScripts/Convert-KnownIssuesCSV.ps1` (run from `_includes/` folder to regenerate)
-- Markdown table: `_includes/KnownIssuesTable.md` (auto-generated)
-- Styling: `_includes/KnownIssuesTableStyle.html` (custom CSS + filtering JS)
-- Closing tag: `_includes/KnownIssuesTableStyleEnd.html`
-- Integration: `_01Support/FullKnownissues.md` (includes three files above)
+- Markdown table: `_includes/KnownIssuesTable.md` (auto-generated, used to update main page)
+- Main page: `_01Support/FullKnownissues.md` (contains all scripts, controls, and table content)
 - Columns: ID, Category, Summary, Description, Status, Investigation, Notes
 - Features: Full-text search, category filter, status filter, result counter
 
-**To regenerate after Airtable updates:**
-```powershell
-cd _includes
-.\AirtableConversionScripts\Convert-KnownIssuesCSV.ps1
-```
+**Update Workflow:**
+When CSV source data changes:
+1. Export updated CSV from Airtable to `_includes/DataFromAirtable/`
+2. Run PowerShell script: `cd _includes && .\AirtableConversionScripts\Convert-KnownIssuesCSV.ps1`
+3. Copy the entire markdown table content from generated `_includes/KnownIssuesTable.md`
+4. In `_01Support/FullKnownissues.md`, replace only the markdown table rows (between the `<div class="known-issues-table" markdown="1">` and `</div>`)
+5. Keep all scripts, HTML controls, and other content unchanged
+6. Commit and push
+
+**Note:** HTML styling and filter controls are embedded directly in the main page. Only the table markdown needs updating when data changes.
 
 ### Embedded Tables (Example: Cooking Recipes)
 
