@@ -1,4 +1,4 @@
-﻿---
+---
 title: Armor Crafting Recipes
 layout: default
 nav_order: 4
