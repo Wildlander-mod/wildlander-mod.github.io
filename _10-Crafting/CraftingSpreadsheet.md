@@ -180,16 +180,16 @@ function hideAllRecipesTooltip() {
 }
 </script>
 
-<div class="allrecipes-controls">
+<div class="table-controls">
   <input type="text" id="allrecipesSearch" placeholder="Search by item name or ingredients..." />
   <select id="allrecipesWorkbenchFilter">
     <option value="">All Workbenches</option>
   </select>
   <button onclick="clearAllRecipesFilters()">Clear Filters</button>
+  <div id="allrecipesFilterResultCount" class="filter-result-count">Showing 6186 of 6186 recipes</div>
 </div>
-<div class="allrecipes-filter-result-count" id="allrecipesFilterResultCount">Showing 6186 of 6186 recipes</div>
 
-<div class="allrecipes-table" markdown="1">
+<div class="styled-table-wrapper" markdown="1">
 
 | Item Name | Qty Made | Perks Needed | Proximity | Items Required | Additional Requirements |
 |:---|:---:|:---|:---:|:---|:---|
