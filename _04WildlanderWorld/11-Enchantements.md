@@ -12,7 +12,7 @@ Armor enchantments improve the player's attributes, or provide the player with u
 
 | Enchantment | Head | Neck | Chest | Hands | Finger | Feet | Shield | Effect | Cost |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---:|
-| **Fortify Skill** | | | | | | | | | |
+| <span style="color: #0066cc; font-weight: bold;">Fortify Skill</span> | | | | | | | | | |
 | Alchemy | ✓ | ✓ | | ✓ | ✓ | | | +3% potion strength | 56 |
 | Alteration | ✓ | ✓ | ✓ | | ✓ | | | -4% casting cost | 100 |
 | Marksman (Archery) | ✓ | ✓ | | ✓ | ✓ | | | +5% damage | 100 |
@@ -30,14 +30,14 @@ Armor enchantments improve the player's attributes, or provide the player with u
 | Smithing | | ✓ | ✓ | ✓ | ✓ | | | +3% tempering strength | 100 |
 | Sneak | | ✓ | | ✓ | ✓ | ✓ | | +5% | 100 |
 | Two-Handed | | ✓ | | ✓ | ✓ | ✓ | | +5% damage | 100 |
-| **Fortify Attribute** | | | | | | | | | |
+| <span style="color: #00aa44; font-weight: bold;">Fortify Attribute</span> | | | | | | | | | |
 | Healing Rate | | ✓ | ✓ | | ✓ | | | +20% | 200 |
 | Health | | ✓ | ✓ | | ✓ | | ✓ | +20 | 150 |
 | Magicka | ✓ | ✓ | | ✓ | ✓ | | | +20 | 150 |
 | Magicka Regen | ✓ | | ✓ | | ✓ | | | +25% | 100 |
 | Stamina | | ✓ | ✓ | | ✓ | ✓ | | +20 | 150 |
 | Stamina Regen | | ✓ | ✓ | | ✓ | ✓ | | +10% | 150 |
-| **Fortify Other** | | | | | | | | | |
+| <span style="color: #9900cc; font-weight: bold;">Fortify Other</span> | | | | | | | | | |
 | Carry Weight | | ✓ | | ✓ | ✓ | ✓ | | +10 | 100 |
 | Potent Alteration | | | ✓ | | | | | -4% casting cost & +20% Magicka Regen | 250 |
 | Potent Conjuration | | | ✓ | | | | | -4% casting cost +20% Magicka Regen | 199 |
@@ -45,14 +45,14 @@ Armor enchantments improve the player's attributes, or provide the player with u
 | Potent Illusion | | | ✓ | | | | | -4% casting cost +20% Magicka Regen | 250 |
 | Potent Restoration | | | ✓ | | | | | -4% casting cost +20% Magicka Regen | 250 |
 | Unarmed | | | | ✓ | ✓ | | | +5 damage | 100 |
-| **Resist** | | | | | | | | | |
+| <span style="color: #cc0000; font-weight: bold;">Resist</span> | | | | | | | | | |
 | Disease | | ✓ | ✓ | | ✓ | | ✓ | +25% | 100 |
 | Fire | | ✓ | | | ✓ | ✓ | ✓ | +10% | 200 |
 | Frost | | ✓ | | | ✓ | ✓ | ✓ | +10% | 200 |
 | Magic | | ✓ | | | ✓ | | ✓ | +8% | 500 |
 | Poison | | ✓ | ✓ | | ✓ | | ✓ | +15% | 150 |
 | Shock | | ✓ | | | ✓ | ✓ | ✓ | +10% | 200 |
-| **Other** | | | | | | | | | |
+| <span style="color: #666666; font-weight: bold;">Other</span> | | | | | | | | | |
 | Muffle | | | | | | ✓ | | 0.15 | 500 |
 | Waterbreathing | ✓ | ✓ | | | ✓ | | | n/a | 100 |
 
@@ -63,25 +63,25 @@ Base magnitude is the number shown when you hover over an enchantment without se
 
 | Weapon Effect | School | Base Magnitude | Base Cost |
 |:---|:---|:---|:---:|
-| **Absorb** | | | |
+| <span style="color: #ff8800; font-weight: bold;">Absorb</span> | | | |
 | Health | Destruction | 10 | 40 |
 | Magicka | Destruction | 10 | 21 |
 | Stamina | Destruction | 10 | 22 |
-| **Damage** | | | |
+| <span style="color: #cc0000; font-weight: bold;">Damage</span> | | | |
 | Chaos | Destruction | 12 | 19 |
 | Fire | Destruction | 10 (plus 1/dps for 4 seconds) | 11 |
 | Frost | Destruction | 10 + 25% slow for 2 seconds | 13 |
 | Spellbane | Destruction | 15 | 15 |
 | Lightning (Rank I) | Destruction | 10 | 14 |
 | Effeteness | Destruction | 15 | 29 |
-| **Repel** | | | |
+| <span style="color: #0066cc; font-weight: bold;">Repel</span> | | | |
 | Banish | Conjuration | Level 10 Plus deals 20 damage | 35 |
 | Fear | Illusion | Level 10, for 3 seconds | 10 |
 | Turn Undead | Restoration | Level 10, for 5 seconds, plus 10 damage | 20 |
-| **Apply Effect** | | | |
+| <span style="color: #00aa44; font-weight: bold;">Apply Effect</span> | | | |
 | Paralyze | Alteration | 26% chance for 1 second | 100 |
 | Soulreaping | Conjuration | 4 seconds | 9 |
-| **Special** | | | |
+| <span style="color: #9900cc; font-weight: bold;">Special</span> | | | |
 | Fiery Soul Trap | Conjuration | 5 seconds + 10 fire damage | 11 |
 | Huntsman's Prowess | Destruction | +3 damage vs. Animals | 3 |
 | Moonfire | Destruction | +10 damage between 9pm and 5am | 5 |
