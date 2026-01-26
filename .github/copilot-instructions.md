@@ -70,6 +70,9 @@ has_toc: true             # Optional - adds auto-generated table of contents
 
 ### Tables & Code Blocks
 - **Tables:** Use markdown tables (`| col | col |`) for structured data. HTML tables are acceptable for complex layouts.
+- **CRITICAL:** Always add a blank line between a heading and the table that follows it. Jekyll requires this spacing to render tables correctly.
+  - ❌ Wrong: `### Heading\n| col | col |`
+  - ✅ Correct: `### Heading\n\n| col | col |`
 - **Code blocks:** Only for crafting recipes and formulas—NOT for highlighting syntax or general emphasis.
 - Use backticks ` for inline elements (except hotkeys—use **bold** instead).
 

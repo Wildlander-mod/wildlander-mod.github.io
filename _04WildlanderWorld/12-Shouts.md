@@ -41,6 +41,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 ## Shout Details by Word Level
 
 ### Animal Allegiance (Predator's Might)
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 50 | Level 20 summon (75 area), +75 HP/Stamina for 30s |
@@ -48,6 +49,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 70 | Level 40 summon (250 area), +300 HP/Stamina for 60s |
 
 ### Aura Whisper
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | Reveal enemies 10s (300 interior / 500 exterior) |
@@ -55,6 +57,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 50 | Reveal enemies 30s (300 interior / 500 exterior) |
 
 ### Battle Fury
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 20 | +30% ally attack speed 60s (25 area) |
@@ -62,6 +65,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 40 | +70% ally attack speed 180s (25 area) |
 
 ### Become Ethereal
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | Invulnerability 5s |
@@ -69,6 +73,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 50 | Invulnerability 15s |
 
 ### Bend Will
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 10 | Bend Will effect 0.75 |
@@ -76,6 +81,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 120 | Bend Will 99 for 30s (humanoids/animals, no daedra/automaton) |
 
 ### Clear Skies
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 5 | Clear weather 25s |
@@ -83,6 +89,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 15 | Clear weather 60s |
 
 ### Cyclone
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | 50 damage (15 area) |
@@ -90,6 +97,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 60 | 100 damage (25 area) |
 
 ### Disarm
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | Disarm up to level 24 |
@@ -97,6 +105,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 40 | Disarm up to level 999 |
 
 ### Dismay
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 40 | Fear up to level 15 |
@@ -104,6 +113,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 50 | Fear up to level 45 |
 
 ### Dragon Aspect
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 5 | +25% melee damage, +25% all resist 300s |
@@ -111,6 +121,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 5 | +25% melee damage, +75 AR, +25% all resist, -25% shout CD, summon dragonborn at 50% HP 300s |
 
 ### Drain Vitality
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | Drain Stamina 5/s for 60s + small stagger |
@@ -118,6 +129,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 90 | Drain Stamina/Magicka/Health 5/s for 60s + small stagger |
 
 ### Dragonrend
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | Stagger + ground dragons 15s |
@@ -125,6 +137,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 40 | Stagger + ground dragons 22s |
 
 ### Elemental Fury
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | +30% attack speed 15s |
@@ -132,6 +145,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 50 | +60% attack speed 15s |
 
 ### Fire Breath
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | 100 fire damage (1s) + small stagger + 0.5 DPS (31s x2) |
@@ -139,6 +153,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 100 | 300 fire damage (1s) + large stagger + 1 DPS (31s x5) |
 
 ### Frost Breath
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | 20 DPS for 5s + 50% slow + small stagger |
@@ -146,6 +161,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 100 | 60 DPS for 5s + 50% slow + large stagger |
 
 ### Ice Form
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 120 | Freeze 3s (targets with 25 FR or less) + 4 DPS (15s) |
@@ -153,6 +169,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 240 | Freeze 20s (targets with 75 FR or less) + 4 DPS (120s) |
 
 ### Kyne's Peace
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 40 | Restore 100 HP/Stam/Magicka, calm animals lvl 20 (60s, 75 area) |
@@ -160,6 +177,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 60 | Restore 500 HP/Stam/Magicka, calm animals lvl 999 (180s, 250 area), cure disease & poison |
 
 ### Marked For Dead
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 20 | 4 health drain/s + 200 armor damage (12s) |
@@ -167,6 +185,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 40 | 8 health drain/s + 800 armor damage (12s) |
 
 ### Slow Time
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | Time slow 70% for 10s |
@@ -174,6 +193,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 60 | Time slow 90% for 30s |
 
 ### Soul Tear
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 5 | Small stagger |
@@ -181,6 +201,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 90 | 300 damage + soul trap (2s), resurrect if killed within 15s (60s) |
 
 ### Storm Call
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 300 | Storm 60s, lightning 40 damage every 3s |
@@ -188,6 +209,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 600 | Storm 180s, lightning 80 damage every 3s |
 
 ### Throw Voice
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 30 | Create sound detection event |
@@ -195,6 +217,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 5 | Create sound detection event |
 
 ### Unrelenting Force
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 15 | 20 damage + medium stagger (targets with 250 HP or 25 MR or less) |
@@ -202,6 +225,7 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 | 3 | 45 | 60 damage + large knockback (targets with 600 HP or 50 MR or less) |
 
 ### Whirlwind Sprint
+
 | Word | Cooldown | Effects |
 |:---|:---:|:---|
 | 1 | 20 | Sprint 10 distance |
