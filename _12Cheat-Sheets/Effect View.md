@@ -22,12 +22,12 @@ Use the search box below to find recipes by effect or archetype.
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initEffectsViewFilters();
+  initEffectViewFilters();
 });
 
-function initEffectsViewFilters() {
+function initEffectViewFilters() {
   const archetypes = new Set();
-  const table = document.querySelector('.effectsview-table table');
+  const table = document.querySelector('.effect-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -43,7 +43,7 @@ function initEffectsViewFilters() {
     }
   });
   
-  const select = document.getElementById('effectsviewArchetypeFilter');
+  const select = document.getElementById('effectViewArchetypeFilter');
   Array.from(archetypes).sort().forEach(arch => {
     const option = document.createElement('option');
     option.value = arch;
@@ -51,16 +51,16 @@ function initEffectsViewFilters() {
     select.appendChild(option);
   });
   
-  document.getElementById('effectsviewSearch').addEventListener('keyup', filterEffectsViewTable);
-  select.addEventListener('change', filterEffectsViewTable);
-  document.getElementById('effectsviewClearFilters').addEventListener('click', clearEffectsViewFilters);
+  document.getElementById('effectViewSearch').addEventListener('keyup', filterEffectViewTable);
+  select.addEventListener('change', filterEffectViewTable);
+  document.getElementById('effectViewClearFilters').addEventListener('click', clearEffectViewFilters);
 }
 
-function filterEffectsViewTable() {
-  const searchTerm = document.getElementById('effectsviewSearch').value.toLowerCase();
-  const archetypeFilter = document.getElementById('effectsviewArchetypeFilter').value;
+function filterEffectViewTable() {
+  const searchTerm = document.getElementById('effectViewSearch').value.toLowerCase();
+  const archetypeFilter = document.getElementById('effectViewArchetypeFilter').value;
   
-  const table = document.querySelector('.effectsview-table table');
+  const table = document.querySelector('.effect-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
@@ -77,35 +77,35 @@ function filterEffectsViewTable() {
     if (isVisible) visibleCount++;
   });
   
-  updateEffectsViewFilterCount(visibleCount, rows.length);
+  updateEffectViewFilterCount(visibleCount, rows.length);
 }
 
-function updateEffectsViewFilterCount(visible, total) {
-  const counter = document.getElementById('effectsviewFilterResultCount');
+function updateEffectViewFilterCount(visible, total) {
+  const counter = document.getElementById('effectViewFilterResultCount');
   if (counter) {
     counter.textContent = `Showing ${visible} of ${total} effects`;
   }
 }
 
-function clearEffectsViewFilters() {
-  document.getElementById('effectsviewSearch').value = '';
-  document.getElementById('effectsviewArchetypeFilter').value = '';
-  filterEffectsViewTable();
+function clearEffectViewFilters() {
+  document.getElementById('effectViewSearch').value = '';
+  document.getElementById('effectViewArchetypeFilter').value = '';
+  filterEffectViewTable();
 }
 </script>
 
-<div class="effectsview-controls">
-  <input type="text" id="effectsviewSearch" placeholder="Search by effect or archetype..." />
-  <select id="effectsviewArchetypeFilter">
+<div class="effect-view-controls">
+  <input type="text" id="effectViewSearch" placeholder="Search by effect or archetype..." />
+  <select id="effectViewArchetypeFilter">
     <option value="">All Archetypes</option>
   </select>
-  <button id="effectsviewClearFilters" onclick="clearEffectsViewFilters()">Clear Filters</button>
-  <div id="effectsviewFilterResultCount" class="effectsview-filter-result-count"></div>
+  <button id="effectViewClearFilters" onclick="clearEffectViewFilters()">Clear Filters</button>
+  <div id="effectViewFilterResultCount" class="filter-result-count-effect-view"></div>
 </div>
 
 ## Effect View
 
-<div class="effectsview-table" markdown="1">
+<div class="effect-view-table" markdown="1">
 
 | Effect | Archetypes |
 |:---|:---|

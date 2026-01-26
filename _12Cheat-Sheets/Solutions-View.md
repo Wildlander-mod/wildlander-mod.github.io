@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 function initSolutionsViewFilters() {
   const archetypes = new Set();
-  const table = document.querySelector('.solutionsview-table table');
+  const table = document.querySelector('.solutions-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -44,7 +44,7 @@ function initSolutionsViewFilters() {
     }
   });
   
-  const select = document.getElementById('solutionsviewArchetypeFilter');
+  const select = document.getElementById('solutionsViewEffectFilter');
   Array.from(archetypes).sort().forEach(arch => {
     const option = document.createElement('option');
     option.value = arch;
@@ -52,16 +52,16 @@ function initSolutionsViewFilters() {
     select.appendChild(option);
   });
   
-  document.getElementById('solutionsviewSearch').addEventListener('keyup', filterSolutionsViewTable);
+  document.getElementById('solutionsViewSearch').addEventListener('keyup', filterSolutionsViewTable);
   select.addEventListener('change', filterSolutionsViewTable);
-  document.getElementById('solutionsviewClearFilters').addEventListener('click', clearSolutionsViewFilters);
+  document.getElementById('solutionsViewClearFilters').addEventListener('click', clearSolutionsViewFilters);
 }
 
 function filterSolutionsViewTable() {
-  const searchTerm = document.getElementById('solutionsviewSearch').value.toLowerCase();
-  const archetypeFilter = document.getElementById('solutionsviewArchetypeFilter').value;
+  const searchTerm = document.getElementById('solutionsViewSearch').value.toLowerCase();
+  const archetypeFilter = document.getElementById('solutionsViewEffectFilter').value;
   
-  const table = document.querySelector('.solutionsview-table table');
+  const table = document.querySelector('.solutions-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
@@ -86,31 +86,29 @@ function filterSolutionsViewTable() {
 }
 
 function updateSolutionsViewFilterCount(visible, total) {
-  const counter = document.getElementById('solutionsviewFilterResultCount');
+  const counter = document.getElementById('solutionsViewFilterResultCount');
   if (counter) {
     counter.textContent = `Showing ${visible} of ${total} solutions`;
   }
 }
 
 function clearSolutionsViewFilters() {
-  document.getElementById('solutionsviewSearch').value = '';
-  document.getElementById('solutionsviewArchetypeFilter').value = '';
+  document.getElementById('solutionsViewSearch').value = '';
+  document.getElementById('solutionsViewEffectFilter').value = '';
   filterSolutionsViewTable();
 }
 </script>
 
-<div class="solutionsview-controls">
-  <input type="text" id="solutionsviewSearch" placeholder="Search by solution, ingredient, or effect..." />
-  <select id="solutionsviewArchetypeFilter">
+<div class="solutions-view-controls">
+  <input type="text" id="solutionsViewSearch" placeholder="Search by solution, ingredient, or effect..." />
+  <select id="solutionsViewEffectFilter">
     <option value="">All Archetypes</option>
   </select>
-  <button id="solutionsviewClearFilters" onclick="clearSolutionsViewFilters()">Clear Filters</button>
-  <div id="solutionsviewFilterResultCount" class="solutionsview-filter-result-count"></div>
+  <button id="solutionsViewClearFilters" onclick="clearSolutionsViewFilters()">Clear Filters</button>
+  <div id="solutionsViewFilterResultCount" class="filter-result-count-solutions-view"></div>
 </div>
 
-## Solutions View
-
-<div class="solutionsview-table" markdown="1">
+<div class="solutions-view-table" markdown="1">
 
 | Solution | Base Ingredient | Primary Effect | Archetypes | Rank |
 |:---|:---|:---|:---|---:|

@@ -90,6 +90,56 @@ has_toc: true             # Optional - adds auto-generated table of contents
 - **Code blocks:** Only for crafting recipes and formulas—NOT for highlighting syntax or general emphasis.
 - Use backticks ` for inline elements (except hotkeys—use **bold** instead).
 
+### CSS Class Naming Standard for Searchable Tables
+
+All searchable/filterable tables MUST use page-specific CSS class naming convention:
+
+**Format:** `{kebab-case-page-name}-controls`, `{kebab-case-page-name}-table`, `filter-result-count-{kebab-case-page-name}`
+
+**Examples:**
+- `cooking-recipes-controls`, `cooking-recipes-table`, `filter-result-count-cooking-recipes`
+- `effect-view-controls`, `effect-view-table`, `filter-result-count-effect-view`
+- `jewelry-controls`, `jewelry-table`, `filter-result-count-jewelry`
+- `crafting-spreadsheet-controls`, `crafting-spreadsheet-table`, `filter-result-count-crafting-spreadsheet`
+
+**CSS Base Classes to Extend:**
+- All `{page}-controls` classes should `@extend .table-controls` (provides flexbox layout, input/select styling, button styling)
+- All `{page}-table` classes should `@extend .styled-table-wrapper` (provides markdown table rendering, dark styling, hover effects)
+- All `filter-result-count-{page}` classes can use standard styles or be customized with: `font-size: 13px; color: #f77ef1; margin-top: 8px;`
+
+**Where to define CSS:**
+- Add all new CSS class definitions to `_sass/custom/custom.scss` in the "Standardized Crafting Tables CSS" or "Standardized Cheat Sheet Tables CSS" sections
+- Use `@extend` to inherit from base `.table-controls` and `.styled-table-wrapper` classes to avoid duplication
+- Example:
+  ```scss
+  .my-page-controls {
+    @extend .table-controls;
+  }
+  .my-page-table {
+    @extend .styled-table-wrapper;
+  }
+  .filter-result-count-my-page {
+    font-size: 13px;
+    color: #f77ef1;
+    margin-top: 8px;
+  }
+  ```
+
+**Filter Dropdown Best Practice:**
+- When a table column contains comma-separated values (e.g., "Smiths,Jewelers" or "Craftsmanship,Advanced Blacksmithing"), split on commas in dropdown population AND filter matching:
+  ```javascript
+  // Populate dropdown with unique values
+  const valueList = cellText.split(',').map(v => v.trim());
+  valueList.forEach(val => {
+    if (val) dropdownSet.add(val);
+  });
+  
+  // Match filter against array
+  const cellList = cellText.split(',').map(v => v.trim());
+  const filterMatch = !filterValue || cellList.includes(filterValue);
+  ```
+- If a table column is empty/no data (e.g., Toolkits Required column has no values), remove that filter entirely from the page
+
 ### Hotkey Formatting
 - **Always use bold:** `**L**` not `` `L` ``
 - **Example:** "Press **F11** to open settings" or "Press **Right Shift** + **E**"

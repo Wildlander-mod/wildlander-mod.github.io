@@ -1749,3 +1749,124 @@ $light-text: #e6e6e6;
   min-width: 200px;
 }
 
+// ========== Standardized Crafting Tables CSS (Page-Specific Classes) ==========
+
+// CraftingSpreadsheet
+.crafting-spreadsheet-controls {
+  @extend .table-controls;
+}
+
+.crafting-spreadsheet-table {
+  @extend .styled-table-wrapper;
+}
+
+// Jewelry
+.jewelry-controls {
+  @extend .table-controls;
+}
+
+.jewelry-table {
+  @extend .styled-table-wrapper;
+}
+
+// ========== Standardized Cheat Sheet Tables CSS (Page-Specific Classes) ==========
+
+// Effect View
+.effect-view-controls {
+  @extend .table-controls;
+}
+
+.effect-view-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-effect-view {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+// Ingredient View
+.ingredient-view-controls {
+  @extend .table-controls;
+}
+
+.ingredient-view-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-ingredient-view {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+// Solutions View
+.solutions-view-controls {
+  @extend .table-controls;
+}
+
+.solutions-view-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-solutions-view {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+// Elixir View
+.elixir-view-controls {
+  @extend .table-controls;
+}
+
+.elixir-view-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-elixir-view {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+// Spells View
+.spells-view-controls {
+  @extend .table-controls;
+}
+
+.spells-view-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-spells-view {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+// Alchemy Effects by Ingredient
+.alchemy-effects-controls {
+  @extend .table-controls;
+}
+
+.alchemy-effects-table {
+  @extend .styled-table-wrapper;
+}
+
+// Alchemy Recipes (AlchIng.md)
+.alchemy-recipes-controls {
+  @extend .table-controls;
+}
+
+.alchemy-recipes-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-alchemy-recipes {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+

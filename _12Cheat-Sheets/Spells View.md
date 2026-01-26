@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 function initSpellsViewFilters() {
   const schools = new Set();
-  const table = document.querySelector('.spellsview-table table');
+  const table = document.querySelector('.spells-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -41,7 +41,7 @@ function initSpellsViewFilters() {
     }
   });
   
-  const select = document.getElementById('spellsviewSchoolFilter');
+  const select = document.getElementById('spellsViewTypeFilter');
   Array.from(schools).sort().forEach(school => {
     const option = document.createElement('option');
     option.value = school;
@@ -49,16 +49,16 @@ function initSpellsViewFilters() {
     select.appendChild(option);
   });
   
-  document.getElementById('spellsviewSearch').addEventListener('keyup', filterSpellsViewTable);
+  document.getElementById('spellsViewSearch').addEventListener('keyup', filterSpellsViewTable);
   select.addEventListener('change', filterSpellsViewTable);
-  document.getElementById('spellsviewClearFilters').addEventListener('click', clearSpellsViewFilters);
+  document.getElementById('spellsViewClearFilters').addEventListener('click', clearSpellsViewFilters);
 }
 
 function filterSpellsViewTable() {
-  const searchTerm = document.getElementById('spellsviewSearch').value.toLowerCase();
-  const schoolFilter = document.getElementById('spellsviewSchoolFilter').value;
+  const searchTerm = document.getElementById('spellsViewSearch').value.toLowerCase();
+  const schoolFilter = document.getElementById('spellsViewTypeFilter').value;
   
-  const table = document.querySelector('.spellsview-table table');
+  const table = document.querySelector('.spells-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
@@ -80,31 +80,31 @@ function filterSpellsViewTable() {
 }
 
 function updateSpellsViewFilterCount(visible, total) {
-  const counter = document.getElementById('spellsviewFilterResultCount');
+  const counter = document.getElementById('spellsViewFilterResultCount');
   if (counter) {
     counter.textContent = `Showing ${visible} of ${total} spells`;
   }
 }
 
 function clearSpellsViewFilters() {
-  document.getElementById('spellsviewSearch').value = '';
-  document.getElementById('spellsviewSchoolFilter').value = '';
+  document.getElementById('spellsViewSearch').value = '';
+  document.getElementById('spellsViewTypeFilter').value = '';
   filterSpellsViewTable();
 }
 </script>
 
-<div class="spellsview-controls">
-  <input type="text" id="spellsviewSearch" placeholder="Search by spell name or cast type..." />
-  <select id="spellsviewSchoolFilter">
+<div class="spells-view-controls">
+  <input type="text" id="spellsViewSearch" placeholder="Search by spell name or cast type..." />
+  <select id="spellsViewTypeFilter">
     <option value="">All Schools</option>
   </select>
-  <button id="spellsviewClearFilters" onclick="clearSpellsViewFilters()">Clear Filters</button>
-  <div id="spellsviewFilterResultCount" class="spellsview-filter-result-count"></div>
+  <button id="spellsViewClearFilters" onclick="clearSpellsViewFilters()">Clear Filters</button>
+  <div id="spellsViewFilterResultCount" class="filter-result-count-spells-view"></div>
 </div>
 
 ## Spells View
 
-<div class="spellsview-table" markdown="1">
+<div class="spells-view-table" markdown="1">
 
 | Spell | School | Spell Level | Cast Type | Target | Tome Crafting | Scroll Crafting | Notes |
 |:---|:---|:---:|:---|:---|:---|:---|:---|

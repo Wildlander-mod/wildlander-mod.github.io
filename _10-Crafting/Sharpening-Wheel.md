@@ -109,21 +109,13 @@ function initSharpeningWheelFilters() {
   }
   
   const rows = Array.from(table.querySelectorAll('tbody tr'));
-  const toolkits = new Set();
   const perks = new Set();
   
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    if (cells.length >= 4) {
-      const toolkitText = cells[3].textContent.trim();
+    if (cells.length >= 3) {
       const perksText = cells[2].textContent.trim();
       
-      if (toolkitText && toolkitText !== '') {
-        toolkitText.split(',').forEach(toolkit => {
-          const trimmed = toolkit.trim();
-          if (trimmed) toolkits.add(trimmed);
-        });
-      }
       if (perksText && perksText !== '') {
         perksText.split(',').forEach(perk => {
           const trimmed = perk.trim();
@@ -133,15 +125,7 @@ function initSharpeningWheelFilters() {
     }
   });
   
-  const toolkitFilter = document.getElementById('sharpeningWheelToolkitFilter');
   const perksFilter = document.getElementById('sharpeningWheelPerksFilter');
-  
-  Array.from(toolkits).sort().forEach(toolkit => {
-    const option = document.createElement('option');
-    option.value = toolkit;
-    option.textContent = toolkit;
-    toolkitFilter.appendChild(option);
-  });
   
   Array.from(perks).sort().forEach(perk => {
     const option = document.createElement('option');
@@ -151,7 +135,6 @@ function initSharpeningWheelFilters() {
   });
   
   document.getElementById('sharpeningWheelSearch').addEventListener('input', filterSharpeningWheelRecipes);
-  document.getElementById('sharpeningWheelToolkitFilter').addEventListener('change', filterSharpeningWheelRecipes);
   document.getElementById('sharpeningWheelPerksFilter').addEventListener('change', filterSharpeningWheelRecipes);
   initSharpeningWheeltooltips();
   updateFilterCountSharpeningWheel();
@@ -159,7 +142,6 @@ function initSharpeningWheelFilters() {
 
 function filterSharpeningWheelRecipes() {
   const searchTerm = document.getElementById('sharpeningWheelSearch').value.toLowerCase();
-  const toolkitFilter = document.getElementById('sharpeningWheelToolkitFilter').value;
   const perksFilter = document.getElementById('sharpeningWheelPerksFilter').value;
   
   const table = document.querySelector('.sharpening-wheel-recipes-table table');
@@ -171,14 +153,11 @@ function filterSharpeningWheelRecipes() {
     const itemName = cells[0]?.textContent.toLowerCase() || '';
     const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
     const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const toolkitCellText = cells[3]?.textContent.trim() || '';
-    const toolkitList = toolkitCellText.split(',').map(t => t.trim());
-    const toolkitMatch = !toolkitFilter || toolkitList.includes(toolkitFilter);
     const perksCellText = cells[2]?.textContent.trim() || '';
     const perksList = perksCellText.split(',').map(p => p.trim());
     const perksMatch = !perksFilter || perksList.includes(perksFilter);
     
-    const isVisible = searchMatch && toolkitMatch && perksMatch;
+    const isVisible = searchMatch && perksMatch;
     row.style.display = isVisible ? '' : 'none';
     if (isVisible) visibleCount++;
   });
@@ -202,7 +181,6 @@ function updateFilterCountSharpeningWheel() {
 
 function clearSharpeningWheelFilters() {
   document.getElementById('sharpeningWheelSearch').value = '';
-  document.getElementById('sharpeningWheelToolkitFilter').value = '';
   document.getElementById('sharpeningWheelPerksFilter').value = '';
   filterSharpeningWheelRecipes();
 }
@@ -214,9 +192,6 @@ initSharpeningWheelFilters();
 
 <div class="sharpening-wheel-recipes-controls">
   <input type="text" id="sharpeningWheelSearch" placeholder="Search (Item Name, Ingredients, Requirements)..." />
-  <select id="sharpeningWheelToolkitFilter">
-    <option value="">All Toolkits</option>
-  </select>
   <select id="sharpeningWheelPerksFilter">
     <option value="">All Perks</option>
   </select>

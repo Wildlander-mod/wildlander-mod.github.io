@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 function initElixirViewFilters() {
   const effects = new Set();
-  const table = document.querySelector('.elixirview-table table');
+  const table = document.querySelector('.elixir-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -41,7 +41,7 @@ function initElixirViewFilters() {
     }
   });
   
-  const select = document.getElementById('elixirviewEffectFilter');
+  const select = document.getElementById('elixirViewEffectFilter');
   Array.from(effects).sort().forEach(effect => {
     const option = document.createElement('option');
     option.value = effect;
@@ -49,16 +49,16 @@ function initElixirViewFilters() {
     select.appendChild(option);
   });
   
-  document.getElementById('elixirviewSearch').addEventListener('keyup', filterElixirViewTable);
+  document.getElementById('elixirViewSearch').addEventListener('keyup', filterElixirViewTable);
   select.addEventListener('change', filterElixirViewTable);
-  document.getElementById('elixirviewClearFilters').addEventListener('click', clearElixirViewFilters);
+  document.getElementById('elixirViewClearFilters').addEventListener('click', clearElixirViewFilters);
 }
 
 function filterElixirViewTable() {
-  const searchTerm = document.getElementById('elixirviewSearch').value.toLowerCase();
-  const effectFilter = document.getElementById('elixirviewEffectFilter').value;
+  const searchTerm = document.getElementById('elixirViewSearch').value.toLowerCase();
+  const effectFilter = document.getElementById('elixirViewEffectFilter').value;
   
-  const table = document.querySelector('.elixirview-table table');
+  const table = document.querySelector('.elixir-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
@@ -80,31 +80,31 @@ function filterElixirViewTable() {
 }
 
 function updateElixirViewFilterCount(visible, total) {
-  const counter = document.getElementById('elixirviewFilterResultCount');
+  const counter = document.getElementById('elixirViewFilterResultCount');
   if (counter) {
     counter.textContent = `Showing ${visible} of ${total} elixirs`;
   }
 }
 
 function clearElixirViewFilters() {
-  document.getElementById('elixirviewSearch').value = '';
-  document.getElementById('elixirviewEffectFilter').value = '';
+  document.getElementById('elixirViewSearch').value = '';
+  document.getElementById('elixirViewEffectFilter').value = '';
   filterElixirViewTable();
 }
 </script>
 
-<div class="elixirview-controls">
-  <input type="text" id="elixirviewSearch" placeholder="Search by elixir name or solutions..." />
-  <select id="elixirviewEffectFilter">
+<div class="elixir-view-controls">
+  <input type="text" id="elixirViewSearch" placeholder="Search by elixir name or solutions..." />
+  <select id="elixirViewEffectFilter">
     <option value="">All Effects</option>
   </select>
-  <button id="elixirviewClearFilters" onclick="clearElixirViewFilters()">Clear Filters</button>
-  <div id="elixirviewFilterResultCount" class="elixirview-filter-result-count"></div>
+  <button id="elixirViewClearFilters" onclick="clearElixirViewFilters()">Clear Filters</button>
+  <div id="elixirViewFilterResultCount" class="filter-result-count-elixir-view"></div>
 </div>
 
 ## Elixir View
 
-<div class="elixirview-table" markdown="1">
+<div class="elixir-view-table" markdown="1">
 
 | Elixir Name | Effect | Required Solutions | Magnitude | Duration | Strength |
 |:---|:---|:---|:---:|:---:|:---:|

@@ -23,21 +23,21 @@ Use the search box below to find ingredients and their base solutions.
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initIngredientsViewFilters();
+  initIngredientViewFilters();
 });
 
-function initIngredientsViewFilters() {
-  const table = document.querySelector('.ingredientsview-table table');
+function initIngredientViewFilters() {
+  const table = document.querySelector('.ingredient-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
-  document.getElementById('ingredientsviewSearch').addEventListener('keyup', filterIngredientsViewTable);
-  document.getElementById('ingredientsviewClearFilters').addEventListener('click', clearIngredientsViewFilters);
+  document.getElementById('ingredientViewSearch').addEventListener('keyup', filterIngredientViewTable);
+  document.getElementById('ingredientViewClearFilters').addEventListener('click', clearIngredientViewFilters);
 }
 
-function filterIngredientsViewTable() {
-  const searchTerm = document.getElementById('ingredientsviewSearch').value.toLowerCase();
+function filterIngredientViewTable() {
+  const searchTerm = document.getElementById('ingredientViewSearch').value.toLowerCase();
   
-  const table = document.querySelector('.ingredientsview-table table');
+  const table = document.querySelector('.ingredient-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
@@ -57,31 +57,29 @@ function filterIngredientsViewTable() {
     if (searchMatch) visibleCount++;
   });
   
-  updateIngredientsViewFilterCount(visibleCount, rows.length);
+  updateIngredientViewFilterCount(visibleCount, rows.length);
 }
 
-function updateIngredientsViewFilterCount(visible, total) {
-  const counter = document.getElementById('ingredientsviewFilterResultCount');
+function updateIngredientViewFilterCount(visible, total) {
+  const counter = document.getElementById('ingredientViewFilterResultCount');
   if (counter) {
     counter.textContent = `Showing ${visible} of ${total} ingredients`;
   }
 }
 
-function clearIngredientsViewFilters() {
-  document.getElementById('ingredientsviewSearch').value = '';
-  filterIngredientsViewTable();
+function clearIngredientViewFilters() {
+  document.getElementById('ingredientViewSearch').value = '';
+  filterIngredientViewTable();
 }
 </script>
 
-<div class="ingredientsview-controls">
-  <input type="text" id="ingredientsviewSearch" placeholder="Search by name, effects, or solutions..." />
-  <button id="ingredientsviewClearFilters" onclick="clearIngredientsViewFilters()">Clear Filters</button>
-  <div id="ingredientsviewFilterResultCount" class="ingredientsview-filter-result-count"></div>
+<div class="ingredient-view-controls">
+  <input type="text" id="ingredientViewSearch" placeholder="Search by name, effects, or solutions..." />
+  <button id="ingredientViewClearFilters" onclick="clearIngredientViewFilters()">Clear Filters</button>
+  <div id="ingredientViewFilterResultCount" class="filter-result-count-ingredient-view"></div>
 </div>
 
-## Ingredient View
-
-<div class="ingredientsview-table" markdown="1">
+<div class="ingredient-view-table" markdown="1">
 
 | Ingredient | Weight | Base Solutions | Value | Effects |
 |:---|---:|:---|---:|:---|

@@ -217,7 +217,7 @@ initJewelryFilters();
 });
 </script>
 
-<div class="table-controls">
+<div class="jewelry-controls">
   <input type="text" id="jewelrySearch" placeholder="Search (Item Name, Ingredients, Requirements)..." />
   <select id="jewelryToolkitFilter">
     <option value="">All Toolkits</option>
@@ -229,7 +229,7 @@ initJewelryFilters();
   <div id="filterResultCountJewelry" class="filter-result-count"></div>
 </div>
 
-<div class="styled-table-wrapper" markdown="1">
+<div class="jewelry-table" markdown="1">
 
 | Produced Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
 |:---|:---:|:---|:---|:---|:---|:---|

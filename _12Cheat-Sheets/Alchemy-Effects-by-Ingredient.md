@@ -31,12 +31,12 @@ Use the search bar and filters below to find specific ingredients by effect type
 <script>
 $(document).ready(function(){
   // Tooltip and filter initialization
-  initAlchemyIngredientstooltips();
-  initAlchemyIngredientsFilters();
+  initAlchemyEffectstooltips();
+  initAlchemyEffectsFilters();
 });
 
-function initAlchemyIngredientstooltips() {
-  const table = document.querySelector('.alchemy-ingredients-table table');
+function initAlchemyEffectstooltips() {
+  const table = document.querySelector('.alchemy-effects-table table');
   if (!table) return;
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
@@ -44,13 +44,13 @@ function initAlchemyIngredientstooltips() {
     const ingredientCell = row.querySelector('td:first-child');
     if (!ingredientCell) return;
     ingredientCell.style.cursor = 'pointer';
-    ingredientCell.addEventListener('mouseenter', (e) => showAlchemyIngredientstooltip(e, row));
-    ingredientCell.addEventListener('mousemove', updateAlchemyIngredientstooltipPosition);
-    ingredientCell.addEventListener('mouseleave', hideAlchemyIngredientstooltip);
+    ingredientCell.addEventListener('mouseenter', (e) => showAlchemyEffectstooltip(e, row));
+    ingredientCell.addEventListener('mousemove', updateAlchemyEffectstooltipPosition);
+    ingredientCell.addEventListener('mouseleave', hideAlchemyEffectstooltip);
   });
 }
 
-function showAlchemyIngredientstooltip(event, row) {
+function showAlchemyEffectstooltip(event, row) {
   const cells = row.querySelectorAll('td');
   const data = {
     ingredient: cells[0]?.textContent?.trim() || '',
@@ -61,10 +61,10 @@ function showAlchemyIngredientstooltip(event, row) {
     category: cells[5]?.textContent?.trim() || ''
   };
   
-  let tooltip = document.getElementById('alchemy-ingredients-tooltip');
+  let tooltip = document.getElementById('alchemy-effects-tooltip');
   if (!tooltip) {
     tooltip = document.createElement('div');
-    tooltip.id = 'alchemy-ingredients-tooltip';
+    tooltip.id = 'alchemy-effects-tooltip';
     tooltip.style.position = 'fixed';
     tooltip.style.zIndex = '10000';
     tooltip.style.backgroundColor = '#2a2a2a';
@@ -87,28 +87,28 @@ function showAlchemyIngredientstooltip(event, row) {
     <div style="margin-top: 8px; border-top: 1px solid #50098a; padding-top: 8px; font-size: 11px;"><strong>Description:</strong> ${data.description}</div>
   `;
   tooltip.style.display = 'block';
-  updateAlchemyIngredientstooltipPosition(event);
+  updateAlchemyEffectstooltipPosition(event);
 }
 
-function updateAlchemyIngredientstooltipPosition(event) {
-  const tooltip = document.getElementById('alchemy-ingredients-tooltip');
+function updateAlchemyEffectstooltipPosition(event) {
+  const tooltip = document.getElementById('alchemy-effects-tooltip');
   if (tooltip && tooltip.style.display === 'block') {
     tooltip.style.left = event.clientX + 10 + 'px';
     tooltip.style.top = event.clientY + 10 + 'px';
   }
 }
 
-function hideAlchemyIngredientstooltip() {
-  const tooltip = document.getElementById('alchemy-ingredients-tooltip');
+function hideAlchemyEffectstooltip() {
+  const tooltip = document.getElementById('alchemy-effects-tooltip');
   if (tooltip) tooltip.style.display = 'none';
 }
 
-function initAlchemyIngredientsFilters() {
-  const table = document.querySelector('.alchemy-ingredients-table table');
+function initAlchemyEffectsFilters() {
+  const table = document.querySelector('.alchemy-effects-table table');
   if (!table) return;
   
-  const effectFilter = document.getElementById('alchemyEffectFilter');
-  const categoryFilter = document.getElementById('alchemyCategoryFilter');
+  const effectFilter = document.getElementById('alchemyEffectsFilterFilter');
+  const categoryFilter = document.getElementById('alchemyEffectsCategoryFilter');
   
   const effects = new Set();
   const categories = new Set();
@@ -137,18 +137,18 @@ function initAlchemyIngredientsFilters() {
     categoryFilter.appendChild(option);
   });
   
-  document.getElementById('alchemyIngredientsSearch').addEventListener('input', filterAlchemyIngredientsTable);
-  effectFilter.addEventListener('change', filterAlchemyIngredientsTable);
-  categoryFilter.addEventListener('change', filterAlchemyIngredientsTable);
-  document.getElementById('clearAlchemyIngredientsFilters').addEventListener('click', clearAlchemyIngredientsFilters);
+  document.getElementById('alchemyEffectsSearch').addEventListener('input', filterAlchemyEffectsTable);
+  effectFilter.addEventListener('change', filterAlchemyEffectsTable);
+  categoryFilter.addEventListener('change', filterAlchemyEffectsTable);
+  document.getElementById('clearAlchemyEffectsFilters').addEventListener('click', clearAlchemyEffectsFilters);
 }
 
-function filterAlchemyIngredientsTable() {
-  const searchTerm = document.getElementById('alchemyIngredientsSearch').value.toLowerCase();
-  const effectFilter = document.getElementById('alchemyEffectFilter').value;
-  const categoryFilter = document.getElementById('alchemyCategoryFilter').value;
+function filterAlchemyEffectsTable() {
+  const searchTerm = document.getElementById('alchemyEffectsSearch').value.toLowerCase();
+  const effectFilter = document.getElementById('alchemyEffectsFilterFilter').value;
+  const categoryFilter = document.getElementById('alchemyEffectsCategoryFilter').value;
   
-  const table = document.querySelector('.alchemy-ingredients-table table');
+  const table = document.querySelector('.alchemy-effects-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
@@ -168,39 +168,39 @@ function filterAlchemyIngredientsTable() {
     if (isVisible) visibleCount++;
   });
   
-  updateAlchemyIngredientsFilterCount();
-  initAlchemyIngredientstooltips();
+  updateAlchemyEffectsFilterCount();
+  initAlchemyEffectstooltips();
 }
 
-function updateAlchemyIngredientsFilterCount() {
-  const table = document.querySelector('.alchemy-ingredients-table table');
+function updateAlchemyEffectsFilterCount() {
+  const table = document.querySelector('.alchemy-effects-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   const visibleCount = rows.filter(row => row.style.display !== 'none').length;
   const totalCount = rows.length;
-  document.getElementById('alchemyIngredientsFilterCount').textContent = `Showing ${visibleCount} of ${totalCount} ingredients`;
+  document.getElementById('alchemyEffectsFilterCount').textContent = `Showing ${visibleCount} of ${totalCount} ingredients`;
 }
 
-function clearAlchemyIngredientsFilters() {
-  document.getElementById('alchemyIngredientsSearch').value = '';
-  document.getElementById('alchemyEffectFilter').value = '';
-  document.getElementById('alchemyCategoryFilter').value = '';
-  filterAlchemyIngredientsTable();
+function clearAlchemyEffectsFilters() {
+  document.getElementById('alchemyEffectsSearch').value = '';
+  document.getElementById('alchemyEffectsFilterFilter').value = '';
+  document.getElementById('alchemyEffectsCategoryFilter').value = '';
+  filterAlchemyEffectsTable();
 }
 </script>
 
-<div class="alchemy-ingredients-controls">
-  <input type="text" id="alchemyIngredientsSearch" placeholder="Search ingredients or effects..." style="width: 250px; padding: 8px; margin-right: 10px; border: 1px solid #50098a; background-color: #333; color: #e6e6e6;">
-  <select id="alchemyEffectFilter" style="padding: 8px; margin-right: 10px; border: 1px solid #50098a; background-color: #333; color: #e6e6e6;">
+<div class="alchemy-effects-controls">
+  <input type="text" id="alchemyEffectsSearch" placeholder="Search ingredients or effects..." style="width: 250px; padding: 8px; margin-right: 10px; border: 1px solid #50098a; background-color: #333; color: #e6e6e6;">
+  <select id="alchemyEffectsFilterFilter" style="padding: 8px; margin-right: 10px; border: 1px solid #50098a; background-color: #333; color: #e6e6e6;">
     <option value="">All Effects</option>
   </select>
-  <select id="alchemyCategoryFilter" style="padding: 8px; margin-right: 10px; border: 1px solid #50098a; background-color: #333; color: #e6e6e6;">
+  <select id="alchemyEffectsCategoryFilter" style="padding: 8px; margin-right: 10px; border: 1px solid #50098a; background-color: #333; color: #e6e6e6;">
     <option value="">All Categories</option>
   </select>
-  <button id="clearAlchemyIngredientsFilters" onclick="clearAlchemyIngredientsFilters()" style="padding: 8px 15px; background-color: #50098a; color: #f77ef1; border: none; cursor: pointer; border-radius: 4px;">Clear Filters</button>
+  <button id="clearAlchemyEffectsFilters" onclick="clearAlchemyEffectsFilters()" style="padding: 8px 15px; background-color: #50098a; color: #f77ef1; border: none; cursor: pointer; border-radius: 4px;">Clear Filters</button>
 </div>
-<div id="alchemyIngredientsFilterCount" class="filter-result-count" style="margin-top: 10px; color: #f77ef1; font-size: 13px;">Showing 712 of 712 ingredients</div>
+<div id="alchemyEffectsFilterCount" class="filter-result-count" style="margin-top: 10px; color: #f77ef1; font-size: 13px;">Showing 712 of 712 ingredients</div>
 
-<div class="alchemy-ingredients-table" markdown="1">
+<div class="alchemy-effects-table" markdown="1">
 
 | Ingredient | Effect | Magnitude | Duration | Description | Category |
 |:---|:---|:---:|:---:|:---|:---|

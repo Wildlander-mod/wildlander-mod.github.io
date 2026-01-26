@@ -180,13 +180,17 @@ function hideAllRecipesTooltip() {
 }
 </script>
 
-<div class="table-controls">
+<div class="crafting-spreadsheet-controls">
   <input type="text" id="allrecipesSearch" placeholder="Search by item name or ingredients..." />
   <select id="allrecipesWorkbenchFilter">
     <option value="">All Workbenches</option>
   </select>
   <button onclick="clearAllRecipesFilters()">Clear Filters</button>
   <div id="allrecipesFilterResultCount" class="filter-result-count">Showing 6186 of 6186 recipes</div>
+</div>
+
+<div class="crafting-spreadsheet-table" markdown="1">
+
 | Produced Item Name | Crafting Workbench | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
 |:---|:---|:---:|:---|:---|:---|:---|:---|
 | Aetherial Crown | Aetherium Forge | 1 |  | N/A | Aetherium Forge | 2 Ingot: Gold 2 Gem: Sapphire (Flawless) 2 Ingot: Dwarven 1 Aetherium Crest |  |

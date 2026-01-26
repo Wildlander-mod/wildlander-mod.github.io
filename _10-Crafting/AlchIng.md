@@ -117,7 +117,7 @@ function initAlchemyRecipesFilters() {
       const proximityText = cells[4].textContent.trim();
       
       if (perkText && perkText !== '') {
-        perksText.split(',').forEach(perk => {
+        perkText.split(',').forEach(perk => {
           const trimmed = perk.trim();
           if (trimmed) perks.add(trimmed);
         });
@@ -150,6 +150,7 @@ function initAlchemyRecipesFilters() {
   document.getElementById('alchemyRecipesProximityFilter').addEventListener('change', filterAlchemyRecipes);
   initAlchemyRecipestooltips();
   updateFilterCountAlchemyRecipes();
+  filterAlchemyRecipes();
 }
 
 function filterAlchemyRecipes() {
