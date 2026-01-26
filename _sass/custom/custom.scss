@@ -662,13 +662,306 @@ background: transparent;
   }
 }
 
-@media (max-width: 768px) {
-  .trait-grid {
-    grid-template-columns: 1fr;
-  }
+/* ============================================
+   AIRTABLE STYLED TABLES (Known Issues, Cooking Recipes, etc.)
+   ============================================ */
 
-  .inline-selector {
-    flex-direction: column;
-    align-items: flex-start;
+// Table controls (filters, search, buttons)
+.table-controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  background: $dark-purple-control;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid $lt-purple-000;
+}
+
+.table-controls label {
+  font-weight: 600;
+  color: $pink-000;
+  margin-right: 5px;
+}
+
+.table-controls input,
+.table-controls select {
+  padding: 8px 12px;
+  border: 1px solid $lt-purple-000;
+  border-radius: 4px;
+  font-size: 14px;
+  background: $dark-background;
+  color: $light-text;
+  font-family: inherit;
+}
+
+.table-controls input[type="text"] {
+  min-width: 300px;
+  flex: 1;
+
+  &::placeholder {
+    color: #888;
   }
 }
+
+.table-controls select {
+  min-width: 150px;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $pink-000;
+    background: $dark-alternate;
+  }
+
+  option {
+    background: $dark-background;
+    color: $light-text;
+  }
+}
+
+.table-controls button {
+  padding: 8px 16px;
+  background-color: $lt-purple-000;
+  color: #ffffff;
+  border: 1px solid $lt-purple-000;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: $pink-000;
+    color: $dark-background;
+    border-color: $pink-000;
+  }
+
+  &:active {
+    background-color: $pink-200;
+  }
+}
+
+// Table container and styling
+.styled-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.styled-table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid $lt-purple-000;
+}
+
+.styled-table-wrapper th,
+.styled-table-wrapper td {
+  border: 1px solid $lt-purple-000;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.styled-table-wrapper th {
+  background-color: $lt-purple-000;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.styled-table-wrapper tbody tr:nth-child(odd) {
+  background-color: $dark-background;
+}
+
+.styled-table-wrapper tbody tr:nth-child(even) {
+  background-color: $dark-alternate;
+}
+
+.styled-table-wrapper tbody tr:hover {
+  background-color: $hover-purple-tint;
+}
+
+.styled-table-wrapper tr.hidden {
+  display: none;
+}
+
+.styled-table-wrapper tr.header {
+  display: table-row !important;
+}
+
+.filter-result-count {
+  font-size: 13px;
+  color: $pink-000;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+// Generic tooltip styles for table popups
+.table-tooltip {
+  position: fixed;
+  background-color: $dark-background;
+  border: 2px solid $lt-purple-000;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 500px;
+  max-height: 600px;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  z-index: 10000;
+  font-size: 13px;
+  display: none;
+  pointer-events: auto;
+
+  &.active {
+    display: block;
+  }
+}
+
+.table-tooltip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid $lt-purple-000;
+}
+
+.table-tooltip-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: $pink-000;
+  letter-spacing: 0.5px;
+}
+
+.table-tooltip-badge {
+  display: inline-block;
+  background-color: $lt-purple-000;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
+
+.table-tooltip-row {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.table-tooltip-label {
+  color: $pink-000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
+
+.table-tooltip-value {
+  color: $light-text;
+  padding-left: 8px;
+  border-left: 2px solid $dark-purple-control;
+}
+
+// Known Issues table specific styles
+.known-issues-controls {
+  @extend .table-controls;
+}
+
+.known-issues-table {
+  @extend .styled-table-wrapper;
+}
+
+.known-issues-table td:nth-child(1) {
+  cursor: pointer;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $pink-000;
+  }
+}
+
+.issue-tooltip {
+  @extend .table-tooltip;
+}
+
+.issue-tooltip-header {
+  @extend .table-tooltip-header;
+}
+
+.issue-tooltip-id {
+  @extend .table-tooltip-title;
+}
+
+.issue-tooltip-category {
+  @extend .table-tooltip-badge;
+}
+
+.issue-tooltip-row {
+  @extend .table-tooltip-row;
+}
+
+.issue-tooltip-label {
+  @extend .table-tooltip-label;
+}
+
+.issue-tooltip-value {
+  @extend .table-tooltip-value;
+}
+
+// Cooking Recipes table specific styles
+.cooking-recipes-controls {
+  @extend .table-controls;
+}
+
+.cooking-recipes-table {
+  @extend .styled-table-wrapper;
+}
+
+.cooking-recipes-table td:nth-child(1) {
+  cursor: pointer;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $pink-000;
+  }
+}
+
+.recipe-tooltip {
+  @extend .table-tooltip;
+  max-width: 600px;
+}
+
+.recipe-tooltip-header {
+  @extend .table-tooltip-header;
+}
+
+.recipe-tooltip-name {
+  @extend .table-tooltip-title;
+}
+
+.recipe-tooltip-row {
+  @extend .table-tooltip-row;
+}
+
+.recipe-tooltip-label {
+  @extend .table-tooltip-label;
+}
+
+.recipe-tooltip-value {
+  @extend .table-tooltip-value;
+}
+
+// Color variables for tables
+$dark-background: #222222;
+$dark-alternate: #2a2a2a;
+$dark-purple-control: #462b53;
+$hover-purple-tint: #3d2454;
+$light-text: #e6e6e6;
+
