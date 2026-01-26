@@ -234,6 +234,8 @@ Reference data compiled from [Requiem Analysis: Shouts](https://www.reddit.com/r
 
 ---
 
+## Next Steps
+
 1. **Read [Horses & Herds](https://wiki.wildlandermod.com/_04WildlanderWorld/13-%20Horses/)** - Mount management and herds
 2. **Read [Player Homes](https://wiki.wildlandermod.com/_04WildlanderWorld/10-Player-Homes/)** - Purchasable bases and costs
 3. **Back to [Wildlander World - Start Here](https://wiki.wildlandermod.com/_04WildlanderWorld/0-Start-Here/)** - Review other world systems

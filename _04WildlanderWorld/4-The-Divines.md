@@ -70,7 +70,6 @@ Kynareth will no longer bless you or allow you to use her shrines if you use net
 Those blessed by Mara find it somewhat easier to cast restoration spells. The messengers of Mara are exalted with additional health.
 
 > * Restoration spells are 10% stronger.
->
 > * If you are Agent of Mara or destroyed the Skull of Corruption, increases health by 50.
 
 {: .highlight } 
@@ -144,6 +143,7 @@ Those blessed by Nocturnal can move slightly more silently.
 
 {: .highlight }
 Nocturnal will only bless those who have completed the thieves guild quest.
+
 ---
 
 ## Next Steps

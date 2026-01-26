@@ -54,6 +54,7 @@ To start marking money,
 * Enchanting, Alchemy and Smithing can make decent money, but it’s going to be much more difficult. The ability to craft items for some races is not actually even available until you take at least one perk in it.
 * Chopping wood and picking crops can net you some cash, but as its easy work - won't make you much in the way of gold, so make sure you're selling it to someone who will buy for at least one or two Septims for a fair price!
 * While armor and weapons don’t have a great value/weight ratio, its still better than carrying fresh air. Loot everything - even if you don't plan on wearing it. You can always use a storage chest to store the excess.
+  
 ---
 
 ## Next Steps
