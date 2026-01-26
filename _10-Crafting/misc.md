@@ -1,4 +1,4 @@
-﻿---
+---
 title: Miscellaneous Recipes
 layout: default
 nav_order: 10
