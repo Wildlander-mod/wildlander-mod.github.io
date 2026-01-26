@@ -27,8 +27,94 @@ For more information on obtaining toolkits, see [Crafting System Overview](https
 
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+function initCookingRecipestooltips() {
+  const table = document.querySelector('.cooking-recipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const itemCell = row.querySelector('td:first-child');
+    itemCell.style.cursor = 'pointer';
+    itemCell.addEventListener('mouseenter', (e) => showCookingRecipestooltip(e, row));
+    itemCell.addEventListener('mousemove', updateCookingRecipestooltipPosition);
+    itemCell.addEventListener('mouseleave', hideCookingRecipestooltip);
+  });
+}
+
+function showCookingRecipestooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const data = {
+    itemName: cells[0]?.textContent || '',
+    type: cells[1]?.textContent || '',
+    effects: cells[2]?.textContent || '',
+    itemsRequired: cells[3]?.textContent || '',
+    qtyMade: cells[4]?.textContent || '',
+    perksNeeded: cells[5]?.textContent || '',
+    toolkitsRequired: cells[6]?.textContent || '',
+    proximity: cells[7]?.textContent || '',
+    additionalRequirements: cells[8]?.textContent || ''
+  };
+  
+  let tooltip = document.getElementById('cooking-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'cooking-tooltip';
+    tooltip.className = 'cooking-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = `
+    <div><strong>Item:</strong> ${data.itemName}</div>
+    <div><strong>Type:</strong> ${data.type}</div>
+    <div><strong>Effects:</strong> ${data.effects}</div>
+    <div><strong>Items Required:</strong> ${data.itemsRequired}</div>
+    <div><strong>Qty Made:</strong> ${data.qtyMade}</div>
+    <div><strong>Perks Needed:</strong> ${data.perksNeeded}</div>
+    <div><strong>Toolkits Required:</strong> ${data.toolkitsRequired}</div>
+    <div><strong>Proximity:</strong> ${data.proximity}</div>
+    <div><strong>Additional Requirements:</strong> ${data.additionalRequirements}</div>
+  `;
+  tooltip.style.display = 'block';
+  updateCookingRecipestooltipPosition(event);
+}
+
+function updateCookingRecipestooltipPosition(event) {
+  const tooltip = document.getElementById('cooking-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideCookingRecipestooltip() {
+  const tooltip = document.getElementById('cooking-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+
+initCookingRecipestooltips();
+
+});
+</script>
+
+## How to Use This Page
+
+**Hover over any Item Name** to see the complete details including:
+- Full effects description
+- All items required for the recipe
+- Additional perks and toolkit requirements
+- Special conditions and quest requirements
+
+Use the search bar and filters below to find specific recipes by type, toolkit, or perks needed.
+
+---
+
 <div class="cooking-recipes-controls">
-  <input type="text" id="cookingRecipesSearch" placeholder="Search (Item Name, Effects, Requirements)..." />
+  <input type="text" id="cookingRecipesSearch" placeholder="Search" />
   <select id="typeFilter">
     <option value="">All Types</option>
   </select>
@@ -285,135 +371,3 @@ For more information on obtaining toolkits, see [Crafting System Overview](https
 | Sweetroll | Baked goods | Consumed out of combat, it restores 15 Stamina and Magicka.,Magicka is increased by 5 points for 300 seconds. | 1 Chicken's Egg 1 Salt 1 Honey 1 Bottled Milk 1 Flour 1 Butter | 6 |  | Chefs | Oven |  |
 
 </div>
-
-<script>
-function initCookingRecipesFilters() {
-  const table = document.querySelector('.cooking-recipes-table table');
-  if (!table) {
-    console.warn('Cooking Recipes table not found');
-    return;
-  }
-  
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  const types = new Set();
-  const toolkits = new Set();
-  const perks = new Set();
-  
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    if (cells.length >= 9) {
-      types.add(cells[1].textContent.trim());
-      const toolkitCell = cells[7].textContent.trim();
-      if (toolkitCell && toolkitCell !== 'None') {
-        toolkits.add(toolkitCell);
-      }
-      const perksCell = cells[6].textContent.trim();
-      if (perksCell && perksCell !== 'None') {
-        perks.add(perksCell);
-      }
-    }
-  });
-  
-  const typeSelect = document.getElementById('typeFilter');
-  const toolkitSelect = document.getElementById('toolkitFilter');
-  const perksSelect = document.getElementById('perksFilter');
-  
-  Array.from(types).sort().forEach(type => {
-    const option = document.createElement('option');
-    option.value = type;
-    option.textContent = type;
-    typeSelect.appendChild(option);
-  });
-  
-  Array.from(toolkits).sort().forEach(toolkit => {
-    const option = document.createElement('option');
-    option.value = toolkit;
-    option.textContent = toolkit;
-    toolkitSelect.appendChild(option);
-  });
-  
-  Array.from(perks).sort().forEach(perk => {
-    const option = document.createElement('option');
-    option.value = perk;
-    option.textContent = perk;
-    perksSelect.appendChild(option);
-  });
-  
-  document.getElementById('cookingRecipesSearch').addEventListener('input', filterCookingRecipesTable);
-  typeSelect.addEventListener('change', filterCookingRecipesTable);
-  toolkitSelect.addEventListener('change', filterCookingRecipesTable);
-  perksSelect.addEventListener('change', filterCookingRecipesTable);
-  
-  updateFilterCountRecipes();
-}
-
-function filterCookingRecipesTable() {
-  const table = document.querySelector('.cooking-recipes-table table');
-  if (!table) return;
-  
-  const searchTerm = document.getElementById('cookingRecipesSearch').value.toLowerCase();
-  const typeFilter = document.getElementById('typeFilter').value;
-  const toolkitFilter = document.getElementById('toolkitFilter').value;
-  const perksFilter = document.getElementById('perksFilter').value;
-  
-  const rows = table.querySelectorAll('tbody tr');
-  let visibleCount = 0;
-  
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    if (cells.length < 9) return;
-    
-    const itemName = cells[0].textContent.toLowerCase();
-    const type = cells[1].textContent.trim();
-    const effects = cells[2].textContent.toLowerCase();
-    const itemsRequired = cells[3].textContent.toLowerCase();
-    const perks = cells[6].textContent.trim();
-    const toolkits = cells[7].textContent.trim();
-    
-    const matchesSearch = !searchTerm || 
-                         itemName.includes(searchTerm) ||
-                         effects.includes(searchTerm) ||
-                         itemsRequired.includes(searchTerm);
-    
-    const matchesType = !typeFilter || type === typeFilter;
-    const matchesToolkit = !toolkitFilter || toolkits === toolkitFilter;
-    const matchesPerks = !perksFilter || perks === perksFilter;
-    
-    const isVisible = matchesSearch && matchesType && matchesToolkit && matchesPerks;
-    
-    if (isVisible) {
-      row.classList.remove('hidden');
-      visibleCount++;
-    } else {
-      row.classList.add('hidden');
-    }
-  });
-  
-  updateFilterCountRecipes(visibleCount, rows.length);
-}
-
-function updateFilterCountRecipes(visible, total) {
-  const table = document.querySelector('.cooking-recipes-table table');
-  if (!table) return;
-  
-  if (visible === undefined) {
-    visible = table.querySelectorAll('tbody tr:not(.hidden)').length;
-    total = table.querySelectorAll('tbody tr').length;
-  }
-  
-  const countElement = document.getElementById('filterResultCountRecipes');
-  if (countElement) {
-    countElement.textContent = `Showing ${visible} of ${total} recipes`;
-  }
-}
-
-function clearCookingRecipesFilters() {
-  document.getElementById('cookingRecipesSearch').value = '';
-  document.getElementById('typeFilter').value = '';
-  document.getElementById('toolkitFilter').value = '';
-  document.getElementById('perksFilter').value = '';
-  filterCookingRecipesTable();
-}
-
-initCookingRecipesFilters();
-</script>

@@ -1,0 +1,73 @@
+</div>
+
+<script>
+function initMiscRecipesFilters() {
+  const table = document.querySelector('.misc-recipes-table table');
+  if (!table) {
+    console.warn('Misc Recipes table not found');
+    return;
+  }
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const toolkits = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 4) {
+      toolkits.add(cells[3].textContent.trim());
+    }
+  });
+  
+  const toolkitFilter = document.getElementById('toolkitFilter');
+  Array.from(toolkits).sort().forEach(toolkit => {
+    const option = document.createElement('option');
+    option.value = toolkit;
+    option.textContent = toolkit;
+    toolkitFilter.appendChild(option);
+  });
+  
+  document.getElementById('miscRecipesSearch').addEventListener('input', filterMiscRecipesTable);
+  document.getElementById('toolkitFilter').addEventListener('change', filterMiscRecipesTable);
+  updateMiscRecipesFilterCount();
+}
+
+function filterMiscRecipesTable() {
+  const searchTerm = document.getElementById('miscRecipesSearch').value.toLowerCase();
+  const toolkitFilter = document.getElementById('toolkitFilter').value;
+  
+  const table = document.querySelector('.misc-recipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  let visibleCount = 0;
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const itemName = cells[0]?.textContent.toLowerCase() || '';
+    const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
+    const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
+    const toolkitMatch = !toolkitFilter || cells[3]?.textContent.trim() === toolkitFilter;
+    
+    const isVisible = searchMatch && toolkitMatch;
+    row.style.display = isVisible ? '' : 'none';
+    if (isVisible) visibleCount++;
+  });
+  
+  updateMiscRecipesFilterCount();
+}
+
+function updateMiscRecipesFilterCount() {
+  const table = document.querySelector('.misc-recipes-table table');
+  const allRows = table.querySelectorAll('tbody tr');
+  const visibleRows = Array.from(allRows).filter(row => row.style.display !== 'none');
+  
+  const countDiv = document.getElementById('filterResultCount');
+  countDiv.textContent = `Showing ${visibleRows.length} of ${allRows.length} recipes`;
+}
+
+function clearMiscRecipesFilters() {
+  document.getElementById('miscRecipesSearch').value = '';
+  document.getElementById('toolkitFilter').value = '';
+  filterMiscRecipesTable();
+}
+
+document.addEventListener('DOMContentLoaded', initMiscRecipesFilters);
+</script>

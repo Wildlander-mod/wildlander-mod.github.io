@@ -1074,3 +1074,100 @@ $light-text: #e6e6e6;
   @extend .table-tooltip-value;
 }
 
+// Raw Materials table specific styles
+.raw-materials-controls {
+  @extend .table-controls;
+}
+
+.raw-materials-table {
+  @extend .styled-table-wrapper;
+}
+
+// Column widths for Raw Materials table
+.raw-materials-table th:nth-child(1),
+.raw-materials-table td:nth-child(1) {
+  width: 150px;
+  word-break: break-word;
+  font-weight: 500;
+}
+
+.raw-materials-table th:nth-child(2),
+.raw-materials-table td:nth-child(2) {
+  width: 80px;
+  text-align: center;
+}
+
+.raw-materials-table th:nth-child(3),
+.raw-materials-table td:nth-child(3) {
+  width: 120px;
+}
+
+.raw-materials-table th:nth-child(4),
+.raw-materials-table td:nth-child(4) {
+  width: 120px;
+}
+
+.raw-materials-table th:nth-child(5),
+.raw-materials-table td:nth-child(5) {
+  width: 100px;
+}
+
+.raw-materials-table th:nth-child(6),
+.raw-materials-table td:nth-child(6) {
+  width: 200px;
+}
+
+// Misc Recipes table specific styles
+.misc-recipes-controls {
+  @extend .table-controls;
+}
+
+.misc-recipes-table {
+  @extend .styled-table-wrapper;
+}
+
+// Misc Recipes column widths
+.misc-recipes-table th:nth-child(1),
+.misc-recipes-table td:nth-child(1) {
+  width: 150px;
+  word-break: break-word;
+  font-weight: 500;
+}
+
+.misc-recipes-table th:nth-child(2),
+.misc-recipes-table td:nth-child(2) {
+  width: 80px;
+  word-break: break-word;
+  text-align: center;
+}
+
+.misc-recipes-table th:nth-child(3),
+.misc-recipes-table td:nth-child(3) {
+  width: 120px;
+  word-break: break-word;
+}
+
+.misc-recipes-table th:nth-child(4),
+.misc-recipes-table td:nth-child(4) {
+  width: 120px;
+  word-break: break-word;
+}
+
+.misc-recipes-table th:nth-child(5),
+.misc-recipes-table td:nth-child(5) {
+  width: 100px;
+  word-break: break-word;
+}
+
+.misc-recipes-table th:nth-child(6),
+.misc-recipes-table td:nth-child(6) {
+  width: 200px;
+  word-break: break-word;
+}
+
+.misc-recipes-table th:nth-child(7),
+.misc-recipes-table td:nth-child(7) {
+  width: 150px;
+  word-break: break-word;
+}
+

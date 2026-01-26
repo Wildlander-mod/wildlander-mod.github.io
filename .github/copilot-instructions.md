@@ -381,3 +381,249 @@ Some tables are embedded directly in pages instead of using includes, for better
 - Table stays on same page with all content
 - Manual copy-paste step required (unlike auto-includes), but ensures search visibility
 
+### Embedded Recipe Tables (Preferred Format for Crafting Pages)
+
+**Preferred approach for all crafting recipe tables.** This format provides best user experience with inline filtering and full search visibility.
+
+**Implementation Pattern (Example: Miscellaneous Recipes):**
+- CSV source: `_includes/DataFromAirtable/All Crafting Recipes-Misc Recipes.csv`
+- Conversion script: `_includes/AirtableConversionScripts/Convert-MiscRecipesCSV.ps1`
+- Page with table: `_10-Crafting/misc.md` (fully embedded)
+- Columns: Item Name, Qty Made, Perks Needed, Toolkits Required, Proximity, Items Required, Additional Requirements
+- Features: Full-text search (on item name + ingredients), toolkit filter, perks filter, result counter
+
+**Step-by-Step for Creating New Embedded Recipe Table:**
+
+**1. Generate PowerShell Conversion Script**
+```powershell
+# Create in _includes/AirtableConversionScripts/Convert-[TableName]CSV.ps1
+$csvPath = 'DataFromAirtable/All Crafting Recipes-[Your Recipe Type].csv'
+$outputFile = '[YourRecipeName]Table.md'
+
+$data = Import-Csv $csvPath
+$md = @()
+$md += '| Column 1 | Column 2 | Column 3 | ... |'
+$md += '|:---|:---:|:---|:---|'
+
+foreach ($row in $data) {
+  if ($row.'Item Name') {
+    $col1 = $row.'Column 1' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
+    $col2 = $row.'Column 2' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
+    # ... process all columns ...
+    $md += "| $col1 | $col2 | $col3 | ... |"
+  }
+}
+
+$md | Out-File $outputFile -Encoding UTF8
+```
+
+**2. Create "How to Use This Page" Instructions Section**
+
+Every embedded recipe table MUST include a "## How to Use This Page" section right before the controls. This explains hover tooltips and filtering:
+
+```markdown
+For more information on obtaining toolkits, see [Crafting System Overview](link).
+
+---
+
+## How to Use This Page
+
+**Hover over any Item Name** to see the complete details including:
+- Full effects description
+- All items required for the recipe
+- Additional perks and toolkit requirements
+- Special conditions and quest requirements
+
+Use the search bar and filters below to find specific recipes by type, toolkit, or perks needed.
+
+---
+```
+
+**3. Embed in Page with Inline JavaScript and Tooltips**
+- Add jQuery script tag with document ready
+- Create **tooltip functions** for hoverable item names (REQUIRED on first column)
+- Create filter functions for all dropdowns + search box
+- Structure: `<input>` for search, `<select>` for each filter, `<button>` for clear
+- Include `<div class="[recipe]-table" markdown="1">` wrapper around markdown table
+- Close with `</div>`
+
+**4. Hover Tooltips Implementation (REQUIRED)**
+
+All recipe tables MUST include hover tooltips on the first column (Item Name):
+
+```javascript
+function initMiscRecipestooltips() {
+  const table = document.querySelector('.misc-recipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const itemCell = row.querySelector('td:first-child');
+    itemCell.style.cursor = 'pointer';
+    itemCell.addEventListener('mouseenter', (e) => showMiscRecipestooltip(e, row));
+    itemCell.addEventListener('mousemove', updateMiscRecipestooltipPosition);
+    itemCell.addEventListener('mouseleave', hideMiscRecipestooltip);
+  });
+}
+
+function showMiscRecipestooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const data = {
+    itemName: cells[0]?.textContent || '',
+    qtyMade: cells[1]?.textContent || '',
+    // ... capture all columns ...
+  };
+  
+  let tooltip = document.getElementById('misc-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'misc-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = `<div><strong>Item:</strong> ${data.itemName}</div>...`;
+  tooltip.style.display = 'block';
+  updateMiscRecipestooltipPosition(event);
+}
+
+function updateMiscRecipestooltipPosition(event) {
+  const tooltip = document.getElementById('misc-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideMiscRecipestooltip() {
+  const tooltip = document.getElementById('misc-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+```
+
+**Key Tooltip Details:**
+- Use `clientX/clientY` (not `pageX/pageY`) — tooltip follows cursor when scrolling
+- Use `fixed` positioning — stays attached to mouse
+- Add `mousemove` listener — updates as user hovers  
+- Call init on load AND after filtering — new visible rows need listeners
+- Unique ID per page: `[recipe]-tooltip`
+
+**5. Add CSS Styling to custom.scss**
+```scss
+.[recipe]-controls {
+  @extend .table-controls;
+}
+
+.[recipe]-table {
+  @extend .styled-table-wrapper;
+}
+
+// Column widths for each column
+.[recipe]-table th:nth-child(1),
+.[recipe]-table td:nth-child(1) {
+  width: 150px;
+  word-break: break-word;
+  font-weight: 500;
+}
+```
+
+**6. JavaScript Filter Pattern with Tooltip Reinitialization**
+
+Filter function MUST reinitialize tooltips for newly visible rows:
+
+```javascript
+function filterMiscRecipesTable() {
+  const searchTerm = document.getElementById('miscRecipesSearch').value.toLowerCase();
+  const toolkitFilter = document.getElementById('miscToolkitFilter').value;
+  
+  const table = document.querySelector('.misc-recipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  let visibleCount = 0;
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const itemName = cells[0]?.textContent.toLowerCase() || '';
+    const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
+    const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
+    const filterMatch = !toolkitFilter || cells[3]?.textContent.trim() === toolkitFilter;
+    
+    const isVisible = searchMatch && filterMatch;
+    row.style.display = isVisible ? '' : 'none';
+    if (isVisible) visibleCount++;
+  });
+  
+  updateFilterCountMisc();
+  initMiscRecipestooltips();  // CRITICAL: Reinitialize tooltips
+}
+```
+
+**7. Page Structure**
+```markdown
+---
+layout: default
+title: [Recipe Type]
+---
+
+## [Recipe Type]
+
+[Intro paragraph about recipes]
+
+For more information on obtaining toolkits, see [link].
+
+---
+
+## How to Use This Page
+
+**Hover over any Item Name** to see complete details including:
+- All items required
+- Perks and toolkit requirements
+- Special conditions
+
+Use filters below to find recipes by toolkit or perks.
+
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Tooltip functions (init, show, update, hide)
+  // Filter functions (init, filter, update, clear)
+  initMiscRecipesFilters();
+});
+</script>
+
+<div class="misc-recipes-controls">
+  <input type="text" id="miscRecipesSearch" placeholder="Search..." />
+  <select id="miscToolkitFilter"><option value="">All Toolkits</option></select>
+  <button onclick="clearMiscRecipesFilters()">Clear Filters</button>
+</div>
+<div class="filter-result-count-misc" id="filterResultCountMisc"></div>
+
+<div class="misc-recipes-table" markdown="1">
+
+| Column Headers |
+|:---|
+| Table data |
+
+</div>
+```
+
+**Key Best Practices:**
+- **Tooltips REQUIRED:** All recipe tables include hover tooltips on item names
+- **"How to Use" section REQUIRED:** Always include before controls explaining tooltips and filters
+- **Reinitialize tooltips after filtering:** Call tooltip init at end of filter function
+- Search box searches **two columns minimum** (item name + ingredients)
+- Filters work together with AND logic
+- Result counter shows "Showing X of Y recipes"
+- Function names unique per page (include recipe name)
+- Unique tooltip IDs: `[recipe]-tooltip`
+- Use `markdown="1"` for markdown rendering in HTML div
+- Use fixed positioning for smooth scrolling behavior
+
+**Current Implementations:**
+- `CookingRecipes.md` - 237 recipes with tooltips
+- `misc.md` - 234 recipes with tooltips  
+- `raw.md` - 271 recipes with tooltips
+
+
+
