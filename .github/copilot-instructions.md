@@ -352,9 +352,29 @@ cd _includes
 .\AirtableConversionScripts\Convert-KnownIssuesCSV.ps1
 ```
 
-## Key Files for Reference
+### Embedded Tables (Example: Cooking Recipes)
 
-- `README.md` — Detailed wiki maintenance guide (definitive source)
-- `_config.yml` — Jekyll theme and publishing config
-- `_03-YourFirstCharacter/0-Start-Here.md` — Model page with proper structure
-- `.github/workflows/pages.yml` — Auto-deploy configuration
+Some tables are embedded directly in pages instead of using includes, for better search indexing by Just the Docs search engine. Embedded tables have filtering/search functionality but are static page content, not includes.
+
+**Files for Cooking Recipes (embedded example):**
+- CSV source: `_includes/DataFromAirtable/All Crafting Recipes-Cooking Recipes.csv` (237 rows)
+- Conversion script: `_includes/AirtableConversionScripts/Convert-CookingRecipesCSV.ps1` (run from `_includes/` folder)
+- Markdown table: `_includes/CookingRecipesTable.md` (auto-generated, used as reference only)
+- Page with embedded table: `_10-Crafting/CookingRecipes.md` (table embedded directly in markdown)
+- Columns: Item Name, Type, Effects, Items Required, Qty Made, Perks Needed, Toolkits Required, Proximity, Additional Requirements
+- Features: Full-text search, type filter, toolkit filter, perks filter, result counter
+
+**To update embedded table after Airtable changes:**
+1. Export updated CSV from Airtable to `_includes/DataFromAirtable/`
+2. Run conversion script: `cd _includes` then `.\AirtableConversionScripts\Convert-CookingRecipesCSV.ps1`
+3. Copy all content from the generated `_includes/CookingRecipesTable.md`
+4. Replace the markdown table section in the target page (between the HTML controls div and the closing script tag)
+5. Keep the HTML controls (search input, filters, clear button) and JavaScript unchanged
+6. Commit the updated page
+
+**Key difference from include-based tables:**
+- Embedded tables are part of the main page content, making them searchable by Just the Docs
+- No need to update includes separately
+- Table stays on same page with all content
+- Manual copy-paste step required (unlike auto-includes), but ensures search visibility
+
