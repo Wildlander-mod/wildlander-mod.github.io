@@ -160,6 +160,7 @@ initKnownIssuesFilters();
   <select id="statusFilter">
     <option value="">All Status</option>
   </select>
+  <button id="clearFilters" onclick="clearKnownIssuesFilters()">Clear Filters</button>
 </div>
 <div class="filter-result-count" id="filterResultCount"></div>
 
