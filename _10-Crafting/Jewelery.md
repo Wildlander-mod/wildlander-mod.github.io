@@ -119,8 +119,12 @@ function initJewelryFilters() {
       const toolkitText = cells[3].textContent.trim();
       const perksText = cells[2].textContent.trim();
       
+      // Split comma-separated toolkits into individual options
       if (toolkitText && toolkitText !== '') {
-        toolkits.add(toolkitText);
+        toolkitText.split(',').forEach(toolkit => {
+          const trimmed = toolkit.trim();
+          if (trimmed) toolkits.add(trimmed);
+        });
       }
       if (perksText && perksText !== '') {
         perks.add(perksText);
@@ -166,7 +170,12 @@ function filterJewelryRecipes() {
     const itemName = cells[0]?.textContent.toLowerCase() || '';
     const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
     const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const toolkitMatch = !toolkitFilter || cells[3]?.textContent.trim().includes(toolkitFilter);
+    
+    // Split comma-separated toolkits and check if any match the filter
+    const toolkitCellText = cells[3]?.textContent.trim() || '';
+    const toolkits = toolkitCellText.split(',').map(t => t.trim());
+    const toolkitMatch = !toolkitFilter || toolkits.includes(toolkitFilter);
+    
     const perksMatch = !perksFilter || cells[2]?.textContent.trim() === perksFilter;
     
     const isVisible = searchMatch && toolkitMatch && perksMatch;
