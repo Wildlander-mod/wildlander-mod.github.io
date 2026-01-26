@@ -171,6 +171,19 @@ When editing pages, verify they distinguish Requiem mechanics from vanilla.
 - Collapsible sections with markdown inside need `<div markdown="1">` wrapper
 - If table of contents doesn't generate, verify `has_toc: true` in frontmatter
 
+### Updating Known Issues Table from CSV
+When the Airtable Known Issues CSV is updated, regenerate the markdown table:
+
+1. Export the CSV from Airtable: `DataFromAirtable/Known Issues 2-Grid view.csv`
+2. Run the conversion script from PowerShell in `_includes/` folder:
+   ```powershell
+   $csv = Import-Csv "DataFromAirtable\Known Issues 2-Grid view.csv"; $output = @(); $output += "| Issue ID | Category | Summary | Description | Status | Investigation | Notes |"; $output += "|----------|----------|---------|-------------|--------|-----------------|-------|"; foreach ($row in $csv) { $issueId = $row.'Issue ID' -replace '\|', '\|'; $category = $row.'Our Category' -replace '\|', '\|'; $summary = ($row.'Summary' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|').Substring(0, [Math]::Min(80, ($row.'Summary' -replace '\n', ' ' -replace '\r', ' ').Length)); $description = ($row.'Description' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|').Substring(0, [Math]::Min(80, ($row.'Description' -replace '\n', ' ' -replace '\r', ' ').Length)); $status = $row.'Status' -replace '\|', '\|'; $investigation = ($row.'Investigation' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|').Substring(0, [Math]::Min(80, ($row.'Investigation' -replace '\n', ' ' -replace '\r', ' ').Length)); $notes = ($row.'Notes for Known Issues' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|').Substring(0, [Math]::Min(80, ($row.'Notes for Known Issues' -replace '\n', ' ' -replace '\r', ' ').Length)); if ($issueId) { $output += "| $issueId | $category | $summary | $description | $status | $investigation | $notes |" } }; $output | Out-File -Encoding UTF8 "KnownIssuesTable.md"
+   ```
+3. This updates `_includes/KnownIssuesTable.md`, which is automatically included in `_01Support/FullKnownissues.md`
+4. The changes render in the wiki once Jekyll rebuilds (10+ minutes via GitHub Pages)
+
+**Alternative:** Use `convert_known_issues_csv.py` if Python is available for more robust processing.
+
 ## Key Files for Reference
 
 - `README.md` — Detailed wiki maintenance guide (definitive source)
