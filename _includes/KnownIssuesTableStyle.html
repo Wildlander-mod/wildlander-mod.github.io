@@ -1,0 +1,248 @@
+<style>
+.known-issues-controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.known-issues-controls input,
+.known-issues-controls select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.known-issues-controls input[type="text"] {
+  min-width: 250px;
+  flex: 1;
+}
+
+.known-issues-controls select {
+  min-width: 150px;
+}
+
+.known-issues-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.known-issues-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.known-issues-table th,
+.known-issues-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.known-issues-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+/* ID column - minimal width */
+.known-issues-table th:nth-child(1),
+.known-issues-table td:nth-child(1) {
+  width: 80px;
+  word-break: break-word;
+}
+
+/* Category column */
+.known-issues-table th:nth-child(2),
+.known-issues-table td:nth-child(2) {
+  width: 100px;
+  word-break: break-word;
+}
+
+/* Summary column */
+.known-issues-table th:nth-child(3),
+.known-issues-table td:nth-child(3) {
+  width: 150px;
+  word-break: break-word;
+}
+
+/* Description column - 10 character width max, wrap as needed */
+.known-issues-table th:nth-child(4),
+.known-issues-table td:nth-child(4) {
+  width: 80px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Status column */
+.known-issues-table th:nth-child(5),
+.known-issues-table td:nth-child(5) {
+  width: 100px;
+  word-break: break-word;
+}
+
+/* Investigation column - 10 character width max, wrap as needed */
+.known-issues-table th:nth-child(6),
+.known-issues-table td:nth-child(6) {
+  width: 80px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Notes column */
+.known-issues-table th:nth-child(7),
+.known-issues-table td:nth-child(7) {
+  width: 150px;
+  word-break: break-word;
+}
+
+.known-issues-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.known-issues-table tr:hover {
+  background-color: #f0f0f0;
+}
+
+.known-issues-table tr.hidden {
+  display: none;
+}
+
+.known-issues-table tr.header {
+  display: table-row !important;
+}
+
+.filter-result-count {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
+</style>
+
+<div class="known-issues-controls">
+  <input type="text" id="knownIssuesSearch" placeholder="Search issues (Summary, Description, Notes)..." />
+  <select id="categoryFilter">
+    <option value="">All Categories</option>
+  </select>
+  <select id="statusFilter">
+    <option value="">All Status</option>
+  </select>
+  <button id="clearFilters" onclick="clearKnownIssuesFilters()" style="padding: 8px 16px; background-color: #f0f0f0; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">Clear Filters</button>
+</div>
+<div class="filter-result-count" id="filterResultCount"></div>
+
+<script>
+function initKnownIssuesFilters() {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) return;
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const categories = new Set();
+  const statuses = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 5) {
+      categories.add(cells[1].textContent.trim());
+      statuses.add(cells[4].textContent.trim());
+    }
+  });
+  
+  const categorySelect = document.getElementById('categoryFilter');
+  const statusSelect = document.getElementById('statusFilter');
+  
+  Array.from(categories).sort().forEach(cat => {
+    const option = document.createElement('option');
+    option.value = cat;
+    option.textContent = cat;
+    categorySelect.appendChild(option);
+  });
+  
+  Array.from(statuses).sort().forEach(status => {
+    const option = document.createElement('option');
+    option.value = status;
+    option.textContent = status;
+    statusSelect.appendChild(option);
+  });
+  
+  document.getElementById('knownIssuesSearch').addEventListener('input', filterKnownIssuesTable);
+  categorySelect.addEventListener('change', filterKnownIssuesTable);
+  statusSelect.addEventListener('change', filterKnownIssuesTable);
+  
+  updateFilterCount();
+}
+
+function filterKnownIssuesTable() {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) return;
+  
+  const searchTerm = document.getElementById('knownIssuesSearch').value.toLowerCase();
+  const categoryFilter = document.getElementById('categoryFilter').value;
+  const statusFilter = document.getElementById('statusFilter').value;
+  
+  const rows = table.querySelectorAll('tbody tr');
+  let visibleCount = 0;
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length < 7) return;
+    
+    const id = cells[0].textContent.toLowerCase();
+    const category = cells[1].textContent.trim();
+    const summary = cells[2].textContent.toLowerCase();
+    const description = cells[3].textContent.toLowerCase();
+    const status = cells[4].textContent.trim();
+    const investigation = cells[5].textContent.toLowerCase();
+    const notes = cells[6].textContent.toLowerCase();
+    
+    const matchesSearch = !searchTerm || 
+                         id.includes(searchTerm) ||
+                         summary.includes(searchTerm) ||
+                         description.includes(searchTerm) ||
+                         investigation.includes(searchTerm) ||
+                         notes.includes(searchTerm);
+    
+    const matchesCategory = !categoryFilter || category === categoryFilter;
+    const matchesStatus = !statusFilter || status === statusFilter;
+    
+    const isVisible = matchesSearch && matchesCategory && matchesStatus;
+    
+    if (isVisible) {
+      row.classList.remove('hidden');
+      visibleCount++;
+    } else {
+      row.classList.add('hidden');
+    }
+  });
+  
+  updateFilterCount(visibleCount, rows.length);
+}
+
+function updateFilterCount(visible, total) {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) return;
+  
+  if (visible === undefined) {
+    visible = table.querySelectorAll('tbody tr:not(.hidden)').length;
+    total = table.querySelectorAll('tbody tr').length;
+  }
+  
+  const countElement = document.getElementById('filterResultCount');
+  if (countElement) {
+    countElement.textContent = `Showing ${visible} of ${total} issues`;
+  }
+}
+
+function clearKnownIssuesFilters() {
+  document.getElementById('knownIssuesSearch').value = '';
+  document.getElementById('categoryFilter').value = '';
+  document.getElementById('statusFilter').value = '';
+  filterKnownIssuesTable();
+}
+
+document.addEventListener('DOMContentLoaded', initKnownIssuesFilters);
+</script>
+
+<div class="known-issues-table" markdown="1">
