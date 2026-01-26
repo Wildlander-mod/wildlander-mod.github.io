@@ -2,6 +2,9 @@
 
 This is a Jekyll-based static wiki for the Wildlander Skyrim modlist, deployed via GitHub Pages. All pages are markdown with YAML frontmatter, rendered using the Just-the-Docs theme.
 
+## Important: Git Commit Policy
+**DO NOT make git commits automatically.** Only run `git add` and `git commit` commands when the user explicitly requests it (e.g., "commit this" or "save to git"). Always make code changes, but wait for explicit instruction before committing to version control.
+
 ## Critical Architecture & Conventions
 
 ### Folder Structure & Navigation
