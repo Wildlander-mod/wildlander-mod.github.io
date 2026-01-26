@@ -666,6 +666,13 @@ background: transparent;
    AIRTABLE STYLED TABLES (Known Issues, Cooking Recipes, etc.)
    ============================================ */
 
+// Color variables for tables
+$dark-background: #222222;
+$dark-alternate: #2a2a2a;
+$dark-purple-control: #462b53;
+$hover-purple-tint: #3d2454;
+$light-text: #e6e6e6;
+
 // Table controls (filters, search, buttons)
 .table-controls {
   margin-bottom: 20px;
@@ -957,11 +964,4 @@ background: transparent;
 .recipe-tooltip-value {
   @extend .table-tooltip-value;
 }
-
-// Color variables for tables
-$dark-background: #222222;
-$dark-alternate: #2a2a2a;
-$dark-purple-control: #462b53;
-$hover-purple-tint: #3d2454;
-$light-text: #e6e6e6;
 
