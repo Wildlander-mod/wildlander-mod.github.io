@@ -1840,6 +1840,25 @@ $light-text: #e6e6e6;
   @extend .styled-table-wrapper;
 }
 
+// Spells View column widths (10 columns)
+.spells-view-table th:nth-child(5),
+.spells-view-table td:nth-child(5) {
+  width: 8ch;
+  word-break: break-word;
+}
+
+.spells-view-table th:nth-child(6),
+.spells-view-table td:nth-child(6) {
+  width: 12ch;
+  word-break: break-word;
+}
+
+.spells-view-table th:nth-child(7),
+.spells-view-table td:nth-child(7) {
+  width: 12ch;
+  word-break: break-word;
+}
+
 .filter-result-count-spells-view {
   font-size: 13px;
   color: #f77ef1;
