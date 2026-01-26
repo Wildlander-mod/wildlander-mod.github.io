@@ -118,7 +118,12 @@ function initMiscRecipesFilters() {
       const toolkitText = cells[3].textContent.trim();
       const perksText = cells[2].textContent.trim();
       
-      if (toolkitText) toolkits.add(toolkitText);
+      if (toolkitText) {
+        toolkitText.split(',').forEach(toolkit => {
+          const trimmed = toolkit.trim();
+          if (trimmed) toolkits.add(trimmed);
+        });
+      }
       if (perksText) perks.add(perksText);
     }
   });
@@ -161,7 +166,9 @@ function filterMiscRecipesTable() {
     const itemName = cells[0]?.textContent.toLowerCase() || '';
     const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
     const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const toolkitMatch = !toolkitFilter || cells[3]?.textContent.trim() === toolkitFilter;
+    const toolkitCellText = cells[3]?.textContent.trim() || '';
+    const toolkitList = toolkitCellText.split(',').map(t => t.trim());
+    const toolkitMatch = !toolkitFilter || toolkitList.includes(toolkitFilter);
     const perksMatch = !perksFilter || cells[2]?.textContent.trim() === perksFilter;
     
     const isVisible = searchMatch && toolkitMatch && perksMatch;
