@@ -151,6 +151,16 @@ initKnownIssuesFilters();
 });
 </script>
 
+## How to Use This Page
+
+**Hover over the Issue ID** (first column) to see the complete details including:
+- Full issue description
+- Investigation status
+- Additional notes and workarounds
+
+Use the search bar and filters below to find specific issues by category or status.
+
+---
 
 <div class="known-issues-controls">
   <input type="text" id="knownIssuesSearch" placeholder="Search" />
