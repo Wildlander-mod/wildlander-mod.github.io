@@ -287,7 +287,18 @@ description: Brief description
 {% include [TableName]TableStyleEnd.html %}
 ```
 
-**Critical:** Include the three files in exact sequence. The markdown attribute on the wrapper div enables markdown rendering inside HTML containers.
+**Critical:** Include the three files in exact sequence:
+1. **TableStyle.html** - Contains HTML controls (search input, dropdowns, buttons) + opening div
+2. **[TableName].md** - Contains the markdown table with data
+3. **TableStyleEnd.html** - Contains the closing div + `<script>` with all JavaScript functions
+
+**IMPORTANT - JavaScript Initialization Order:**
+- ALL JavaScript functions (filtering, tooltips, event listeners) MUST go in the **TableStyleEnd.html** file
+- Do NOT include any `<script>` tags in the TableStyle.html file
+- The script tag at the end ensures the table DOM elements exist before JavaScript tries to initialize
+- Without this order, you will get "Unexpected end of input" syntax errors and "function not defined" errors
+
+The markdown attribute on the opening div (`markdown="1"`) enables markdown rendering inside HTML containers.
 
 #### 6. Verify Jekyll Rendering
 - Commit to main branch
@@ -308,6 +319,9 @@ description: Brief description
 | Pipes appear in table | Ensure `-replace '\|', '\|'` applied to fields with pipe characters |
 | Newlines break table | Use `-replace '\n', ' ' -replace '\r', ' '` to convert to spaces |
 | Dropdowns empty | Verify column indices in `cells[N]` selectors match your table structure |
+| "Unexpected end of input" syntax error | JavaScript is in TableStyle.html instead of TableStyleEnd.html - move all `<script>` to the End file |
+| "Function not defined" errors when button clicked | JavaScript never executed due to syntax error - move script to TableStyleEnd.html AFTER table is included |
+| Jekyll build fails | Verify YAML frontmatter is valid (syntax: `key: value`, no extra indentation) |
 | Table not rendering | Check that `<div markdown="1">` is properly closed by include wrapper |
 | Jekyll build fails | Verify YAML frontmatter is valid (syntax: `key: value`, no extra indentation) |
 | Filters not working | Confirm JavaScript function names match IDs (e.g., `#knownIssuesSearch` with `knownIssuesSearch` variable) |
