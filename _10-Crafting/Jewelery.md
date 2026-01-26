@@ -127,7 +127,10 @@ function initJewelryFilters() {
         });
       }
       if (perksText && perksText !== '') {
-        perks.add(perksText);
+        perksText.split(',').forEach(perk => {
+          const trimmed = perk.trim();
+          if (trimmed) perks.add(trimmed);
+        });
       }
     }
   });
@@ -176,7 +179,9 @@ function filterJewelryRecipes() {
     const toolkits = toolkitCellText.split(',').map(t => t.trim());
     const toolkitMatch = !toolkitFilter || toolkits.includes(toolkitFilter);
     
-    const perksMatch = !perksFilter || cells[2]?.textContent.trim() === perksFilter;
+    const perksCellText = cells[2]?.textContent.trim() || '';
+    const perksList = perksCellText.split(',').map(p => p.trim());
+    const perksMatch = !perksFilter || perksList.includes(perksFilter);
     
     const isVisible = searchMatch && toolkitMatch && perksMatch;
     row.style.display = isVisible ? '' : 'none';

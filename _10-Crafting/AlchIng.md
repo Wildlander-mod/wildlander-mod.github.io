@@ -117,7 +117,10 @@ function initAlchemyRecipesFilters() {
       const proximityText = cells[4].textContent.trim();
       
       if (perkText && perkText !== '') {
-        perks.add(perkText);
+        perksText.split(',').forEach(perk => {
+          const trimmed = perk.trim();
+          if (trimmed) perks.add(trimmed);
+        });
       }
       if (proximityText && proximityText !== '') {
         proximities.add(proximityText);
@@ -163,7 +166,9 @@ function filterAlchemyRecipes() {
     const itemName = cells[0]?.textContent.toLowerCase() || '';
     const components = cells[2]?.textContent.toLowerCase() || '';
     const searchMatch = itemName.includes(searchTerm) || components.includes(searchTerm);
-    const perksMatch = !perksFilter || cells[3]?.textContent.trim() === perksFilter;
+    const perksCellText = cells[3]?.textContent.trim() || '';
+    const perksList = perksCellText.split(',').map(p => p.trim());
+    const perksMatch = !perksFilter || perksList.includes(perksFilter);
     const proximityMatch = !proximityFilter || cells[4]?.textContent.trim() === proximityFilter;
     
     const isVisible = searchMatch && perksMatch && proximityMatch;

@@ -96,7 +96,10 @@ function initArmorTableFilters() {
     if (cells.length >= 2) {
       const perksText = cells[1].textContent.trim();
       if (perksText && perksText !== '') {
-        perks.add(perksText);
+        perksText.split(',').forEach(perk => {
+          const trimmed = perk.trim();
+          if (trimmed) perks.add(trimmed);
+        });
       }
     }
   });
@@ -129,7 +132,9 @@ function filterArmorTableRecipes() {
     const itemName = cells[0]?.textContent.toLowerCase() || '';
     const itemsRequired = cells[2]?.textContent.toLowerCase() || '';
     const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const perksMatch = !perksFilter || cells[1]?.textContent.trim() === perksFilter;
+    const perksCellText = cells[1]?.textContent.trim() || '';
+    const perksList = perksCellText.split(',').map(p => p.trim());
+    const perksMatch = !perksFilter || perksList.includes(perksFilter);
     
     const isVisible = searchMatch && perksMatch;
     row.style.display = isVisible ? '' : 'none';
