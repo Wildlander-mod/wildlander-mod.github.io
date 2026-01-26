@@ -1,4 +1,4 @@
-﻿---
+---
 title: Raw Materials
 layout: default
 nav_order: 11
