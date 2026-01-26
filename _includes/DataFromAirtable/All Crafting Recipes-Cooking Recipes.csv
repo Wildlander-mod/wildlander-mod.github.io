@@ -1,0 +1,238 @@
+﻿Produced Item Name,Qty Made,Perks Needed,Toolkits Required,Proximity (When None),Items Required,Additional Requirements,Produced Item,Type
+Ale,2,,N/A,Brewing Barrel,4 Wheat,,,Alcohol
+Ashfire Mead,2,,N/A,Brewing Barrel,1 Juniper Berries 1 Honey 1 Ashen Grass Pod,"Dragonborn - Retaking Thirsk Complete,Dragonborn - Retaking Thirsk Complete",,Alcohol
+Black-Briar Reserve,2,,N/A,Brewing Barrel,4 Wheat,,,Alcohol
+Cinnabar Beer,1,,N/A,Brewing Barrel,1 Ale 1 Jazbay Grapes 1 Creep Cluster,Sidequest - On Hogithum Complete,,Alcohol
+Cliff Racer,4,,N/A,Brewing Barrel,1 Firebrand Wine 1 Cyrodilic Brandy 1 Flin 1 Sujamma,,,Alcohol
+Dragon's Breath Mead,2,,N/A,Brewing Barrel,2 Dragon's Tongue 1 Honey,,,Alcohol
+Honningbrew Mead,2,,N/A,Brewing Barrel,2 Green Apple 1 Honey,,,Alcohol
+Juniper Berry Mead,2,,N/A,Brewing Barrel,2 Juniper Berries 1 Honey,,,Alcohol
+Nord Mead,2,,N/A,Brewing Barrel,1 Honey,,,Alcohol
+White-Gold Tower,2,,N/A,Brewing Barrel,1 Nord Mead 1 Lavender 1 Dragon's Tongue 1 Bottled Milk,,,Alcohol
+Butter,1,,N/A,Butter Churn,1 Bottled Milk,,,Dairy
+Ale Braised Sabre Cat,1,,Chefs,Cook pot,1 Ale 1 Raw Sabre Cat Meat,,,Cooked Meal
+Apple Cabbage Stew,1,,Chefs,Cook pot,1 Salt 1 Red Apple 1 Cabbage 1 Glass Bottle (Water),,,Stew
+Bear and Bear Chowder,2,,Chefs,Cook pot,1 Ale 1 Goat Cheese Slice 1 Blue Mountain Flower 1 Bottled Milk 1 Raw Bear Meat,,,Cooked Meal
+Bear Carrot Stew,2,,Chefs,Cook pot,1 Carrot 1 Raw Bear Meat 1 Glass Bottle (Water),,,Stew
+Bear Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Bear Meat,,,Jerky
+Beef Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Beef,,,Jerky
+Beef Stew,1,,Chefs,Cook pot,1 Salt 1 Garlic 1 Carrot 1 Raw Beef 1 Glass Bottle (Water),,,Stew
+Beggar's Broth,2,,Chefs,Cook pot,1 Raw Horse Meat 2 Purple Mountain Flower 1 Glass Bottle (Water),,,Cooked Meal
+Bestial Stew,1,,Chefs,Cook pot,1 Raw Salmon Steak 1 Bottled Milk 1 Wolf Heart 3 Raw Wolf Meat,,,Stew
+Boar Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Boar Meat,,,Jerky
+Boar Leek Stew,2,,Chefs,Cook pot,1 Leek 1 Raw Boar Meat 1 Glass Bottle (Water),,,Stew
+Boar Potato Stew,2,,Chefs,Cook pot,1 Potato 1 Raw Boar Meat 1 Glass Bottle (Water),,,Stew
+Boiled Cabbage and Mammoth,2,,Chefs,Cook pot,1 Cabbage 1 Raw Mammoth Meat,,,Cooked Meal
+Breaded Elk Cutlet,2,,Chefs,Cook pot,1 Chicken's Egg 1 Bread Loaf 1 Raw Elk Meat,,,Bread
+Cabbage Potato Soup,1,,Chefs,Cook pot,1 Salt 1 Cabbage 1 Potato 1 Leek 1 Glass Bottle (Water),,,Soup
+Cabbage Soup,1,,Chefs,Cook pot,1 Salt 1 Cabbage 1 Glass Bottle (Water),,,Soup
+Chaurus Jerky,4,,Chefs,Cook pot,6 Salt 1 Raw Chaurus Meat,,,Jerky
+Cheesy Potato Mammoth,2,,Chefs,Cook pot,1 Nord Mead 1 Goat Cheese Slice 1 Potato 1 Bottled Milk 1 Raw Mammoth Meat,,,Cooked Meal
+Chicken Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Chicken Breast,,,Jerky
+Clam Chowder,1,,Chefs,Cook pot,1 Potato 1 Raw Clam Meat 1 Glass Bottle (Water),,,Cooked Meal
+Cooked Angelfish,1,,N/A,Cook pot,1 Angelfish,,,Roasted food
+Cooked Angler,1,,N/A,Cook pot,1 Raw Angler,,,Roasted food
+Cooked Angler Larvae,1,,N/A,Cook pot,1 Angler Larvae,,,Roasted food
+Cooked Arctic Char,1,,N/A,Cook pot,1 Raw Arctic Char,,,Roasted food
+Cooked Arctic Grayling,1,,N/A,Cook pot,1 Raw Arctic Grayling,,,Roasted food
+Cooked Bear Meat,1,,N/A,Cook pot,1 Raw Bear Meat,,,Roasted food
+Cooked Beef,1,,N/A,Cook pot,1 Raw Beef,,,Roasted food
+Cooked Brook Bass,1,,N/A,Cook pot,1 Raw Brook Bass,,,Roasted food
+Cooked Carp,1,,N/A,Cook pot,1 Raw Carp,,,Roasted food
+Cooked Catfish,1,,N/A,Cook pot,1 Raw Catfish,,,Roasted food
+Cooked Chaurus Meat,1,,N/A,Cook pot,1 Raw Chaurus Meat,,,Roasted food
+Cooked Chicken Breast,1,,N/A,Cook pot,2 Raw Chicken Breast,,,Roasted food
+Cooked Cod,1,,N/A,Cook pot,1 Raw Cod,,,Roasted food
+Cooked Direfish,1,,N/A,Cook pot,1 Raw Direfish,,,Roasted food
+Cooked Dog Meat,1,,N/A,Cook pot,1 Raw Dog Meat,,,Roasted food
+Cooked Dragon Meat,1,,N/A,Cook pot,1 Raw Dragon Meat,,,Roasted food
+Cooked Elk Meat,1,,N/A,Cook pot,1 Raw Elk Meat,,,Roasted food
+Cooked Fat,1,,N/A,Cook pot,1 Animal Fat,,,Roasted food
+Cooked Fox Meat,1,,N/A,Cook pot,1 Raw Fox Meat,,,Roasted food
+Cooked Glass Catfish,1,,N/A,Cook pot,1 Raw Glass Catfish,,,Roasted food
+Cooked Glassfish,1,,N/A,Cook pot,1 Glassfish,,,Roasted food
+Cooked Goat Leg,1,,N/A,Cook pot,1 Raw Goat Leg,,,Roasted food
+Cooked Goat Meat,1,,N/A,Cook pot,1 Raw Goat Meat,,,Roasted food
+Cooked Goldfish,1,,N/A,Cook pot,1 Goldfish,,,Roasted food
+Cooked Horker Meat,1,,N/A,Cook pot,1 Raw Horker Meat,,,Roasted food
+Cooked Horse Meat,1,,N/A,Cook pot,1 Raw Horse Meat,,,Roasted food
+Cooked Juvenile Mudcrab,1,,N/A,Cook pot,1 Juvenile Mudcrab,,,Roasted food
+Cooked Leeks,1,,N/A,Cook pot,1 Leek,,,Roasted food
+Cooked Lyretail Anthias,1,,N/A,Cook pot,1 Lyretail Anthias,,,Roasted food
+Cooked Mammoth Meat,1,,N/A,Cook pot,1 Raw Mammoth Meat,,,Roasted food
+Cooked Mammoth Snout,1,,N/A,Cook pot,1 Raw Mammoth Snout,,,Roasted food
+Cooked Mudcrab,1,,N/A,Cook pot,1 Raw Mudcrab Meat,,,Roasted food
+Cooked Mudcrab Legs,1,,N/A,Cook pot,1 Raw Mudcrab Legs,,,Roasted food
+Cooked Pearlfish,1,,N/A,Cook pot,1 Pearlfish,,,Roasted food
+Cooked Pheasant Breast,1,,N/A,Cook pot,1 Raw Pheasant Breast,,,Roasted food
+Cooked Pogfish,1,,N/A,Cook pot,1 Raw Pogfish,,,Roasted food
+Cooked Potatoes,1,,N/A,Cook pot,1 Potato,,,Roasted food
+Cooked Pygmy Sunfish,1,,N/A,Cook pot,1 Pygmy Sunfish,,,Roasted food
+Cooked Rabbit Leg,1,,N/A,Cook pot,1 Raw Rabbit Leg,,,Roasted food
+Cooked Rabbit Meat,1,,N/A,Cook pot,1 Raw Rabbit Meat,,,Roasted food
+Cooked Sabre Cat Meat,1,,N/A,Cook pot,1 Raw Sabre Cat Meat,,,Roasted food
+Cooked Salmon Steak,1,,N/A,Cook pot,1 Raw Salmon Steak,,,Roasted food
+Cooked Salmon Steak,2,,N/A,Cook pot,1 Raw Salmon,,,Roasted food
+Cooked Scorpion Fish,1,,N/A,Cook pot,1 Raw Scorpion Fish,,,Roasted food
+Cooked Skeever Meat,1,,N/A,Cook pot,1 Raw Skeever Meat,,,Roasted food
+Cooked Slaughterfish,3,,N/A,Cook pot,1 Raw Slaughterfish,,,Roasted food
+Cooked Spadefish,1,,N/A,Cook pot,1 Spadefish,,,Roasted food
+Cooked Spider Meat,1,,N/A,Cook pot,1 Raw Spider Meat,,,Roasted food
+Cooked Tripod Spiderfish,1,,N/A,Cook pot,1 Raw Tripod Spiderfish,,,Roasted food
+Cooked Troll Meat,1,,N/A,Cook pot,1 Raw Troll Meat,,,Roasted food
+Cooked Vampire Fish,1,,N/A,Cook pot,1 Raw Vampire Fish,,,Roasted food
+Cooked Venison,1,,N/A,Cook pot,1 Raw Venison,,,Roasted food
+Cooked Wolf Meat,1,,N/A,Cook pot,1 Raw Wolf Meat,,,Roasted food
+Crab Stew,1,,Chefs,Cook pot,1 Garlic 1 Potato 1 Leek 1 Raw Mudcrab Meat 1 Glass Bottle (Water),,,Stew
+Creamy Crab Bisque,1,,Chefs,Cook pot,1 Salt 1 Flour 1 Butter 1 Raw Mudcrab Meat 1 Glass Bottle (Water),,,Cooked Meal
+Deviled Chaurus,1,,Chefs,Cook pot,1 Thistle Branch 1 Bleeding Crown 1 Raw Chaurus Meat,,,Cooked Meal
+Dog Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Dog Meat,,,Jerky
+Dragon Blood Pudding,1,,Chefs,Cook pot,1 Jazbay Grapes 1 Moon Sugar 1 Dragon's Blood,,,Cooked Meal
+Dragon Heart Stew,1,,Chefs,Cook pot,1 Ale 1 Fire Salts 1 Potato 1 Tomato 1 Dragon Heart,,,Stew
+Dragon Jerky,4,,Chefs,Cook pot,6 Salt 1 Raw Dragon Meat,,,Jerky
+Dragon Stuffed Rabbit,1,,Chefs,Cook pot,2 Dragon's Tongue 1 Raw Rabbit Meat,,,Cooked Meal
+Dragon Vegetable Stew,2,,Chefs,Cook pot,2 Carrot 2 Potato 1 Raw Dragon Meat 1 Glass Bottle (Water),,,Stew
+Dried Salmon Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Salmon Steak,,,Jerky
+Dried Slaughterfish Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Slaughterfish,,,Jerky
+Dye - Black,5,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Nightshade,,,Cooked Meal
+Dye - Bleach,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Salt,,,Cooked Meal
+Dye - Blue,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Blue Mountain Flower,,,Cooked Meal
+Dye - Blue,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Indigo 1 Dye - Bleach,,,Cooked Meal
+Dye - Brown,5,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Canis Root,,,Cooked Meal
+Dye - Brown,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Black 1 Dye - Tan,,,Cooked Meal
+Dye - Green,1,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Hanging Moss,,,Cooked Meal
+Dye - Green,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Blue 1 Dye - Yellow,,,Cooked Meal
+Dye - Grey,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Black 1 Dye - Bleach,,,Cooked Meal
+Dye - Grey,5,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Giant Lichen,,,Cooked Meal
+Dye - Indigo,4,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Deathbell,,,Cooked Meal
+Dye - Indigo,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Black 1 Dye - Blue,,,Cooked Meal
+Dye - Orange,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Red 1 Dye - Yellow,,,Cooked Meal
+Dye - Orange,1,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Creep Cluster,,,Cooked Meal
+Dye - Purple,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Purple Mountain Flower,,,Cooked Meal
+Dye - Purple,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Blue 1 Dye - Red,,,Cooked Meal
+Dye - Red,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Red Mountain Flower,,,Cooked Meal
+Dye - Tan,1,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Grass Pod,,,Cooked Meal
+Dye - Tan,2,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dye - Brown 1 Dye - Bleach,,,Cooked Meal
+Dye - Yellow,5,"Craftsmanship,Alchemical Lore 1",Tailors,Cook pot,1 Dragon's Tongue,,,Cooked Meal
+Elf Eared Elk,1,,Chefs,Cook pot,2 Elves Ear 1 Raw Elk Meat,,,Cooked Meal
+Elsweyr Fondue,1,,Chefs,Cook pot,1 Ale 6 Eidar Cheese Slice 1 Leek 1 Moon Sugar,,,Cooked Meal
+Farmer's Breakfast,1,,Chefs,Cook pot,1 Tomato 1 Mora Tapinella 1 Raw Boar Meat,,,Cooked Meal
+Fatty Fin Fry,1,,Chefs,Cook pot,1 Garlic 1 Raw Horker Meat 1 Grass Pod,,,Cooked Meal
+Fish with Crab Sauce,2,,Chefs,Cook pot,1 Alto Noir Wine 1 Raw Slaughterfish 1 Raw Mudcrab Meat,,,Cooked Meal
+Flaming Dragon,2,,Chefs,Cook pot,1 Red Mountain Flower 1 Mulled Wine 1 Raw Dragon Meat,,,Cooked Meal
+Flammable Oil,1,,N/A,Cook pot,2 Animal Fat,,,Cooked Meal
+Fox Apple Stew,1,,Chefs,Cook pot,1 Green Apple 1 Raw Fox Meat 1 Glass Bottle (Water),,,Stew
+Fox Herb Cutlet,2,,Chefs,Cook pot,2 Frost Mirriam 1 Raw Fox Meat,,,Cooked Meal
+Fox in a Hole,1,,Chefs,Cook pot,1 Carrot 1 Potato 1 Raw Fox Meat 1 Glass Bottle (Water),,,Cooked Meal
+Fox Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Fox Meat,,,Jerky
+Garlic Boar,1,,Chefs,Cook pot,1 Salt 1 Garlic 1 Raw Boar Meat,,,Cooked Meal
+Glass Bottle (Water),1,,N/A,Cook pot,1 Glass Bottle (Salt Water),,,Water
+Glazed Goat Loin,1,,Chefs,Cook pot,2 Snowberries 1 Honey 1 Raw Goat Meat,,,Cooked Meal
+Goat and Potato Stew,1,,Chefs,Cook pot,1 Potato 1 Raw Goat Meat 1 Glass Bottle (Water),,,Stew
+Goat Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Goat Leg,,,Jerky
+Goat Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Goat Meat,,,Jerky
+High King's Stew,2,,Chefs,Cook pot,1 Carrot 1 Leek 1 Raw Dragon Meat,,,Stew
+Honeyed Mammoth Roast,1,,Chefs,Cook pot,1 Honey 1 Raw Mammoth Meat,,,Cooked Meal
+Horker and Ash Yam Stew,2,,Chefs,Cook pot,1 Salt 1 Garlic 1 Raw Horker Meat 3 Ash Yam 1 Glass Bottle (Water),,,Stew
+Horker Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Horker Meat,,,Jerky
+Horker Stew,1,,Chefs,Cook pot,1 Garlic 1 Lavender 1 Tomato 1 Raw Horker Meat 1 Glass Bottle (Water),,,Stew
+Horse Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Horse Meat,,,Jerky
+Hot Honey Horker,1,,Chefs,Cook pot,1 Raw Horker Meat 1 Honey,,,Cooked Meal
+Hunter's Hearty Stew,2,,Chefs,Cook pot,1 Cabbage 1 Potato 1 Raw Venison 1 Raw Elk Meat 1 Glass Bottle (Water),,,Stew
+Juniper Tea,1,,Chefs,Cook pot,3 Juniper Berries 1 Honeycomb 1 Glass Bottle (Water),,,Tea
+Lavender Tea,1,,Chefs,Cook pot,2 Lavender 3 Purple Mountain Flower 1 Glass Bottle (Water),,,Tea
+Mammoth Balls,6,,Chefs,Cook pot,1 Garlic 1 Tomato 1 Raw Mammoth Meat,,,Cooked Meal
+Mammoth Jerky,4,,Chefs,Cook pot,6 Salt 1 Raw Mammoth Meat,,,Jerky
+Mammoth Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Mammoth Snout,,,Jerky
+Mammoth Tomato Stew,2,,Chefs,Cook pot,2 Tomato 1 Raw Mammoth Meat 1 Glass Bottle (Water),,,Stew
+Marinated Mammoth in Elsweyr Sauce,1,,Chefs,Cook pot,2 Honningbrew Mead 1 Moon Sugar 1 Raw Mammoth Meat,,,Cooked Meal
+Mashed Troll,1,,Chefs,Cook pot,1 Garlic 1 Potato 1 Raw Troll Meat,,,Cooked Meal
+Mead Braised Bear,1,,Chefs,Cook pot,1 Nord Mead 1 Raw Bear Meat,,,Cooked Meal
+Minced Marinated Bear,2,,Chefs,Cook pot,1 Salt 2 Juniper Berries 1 Raw Bear Meat,,,Cooked Meal
+Moon Dance Tea,1,,Chefs,Cook pot,2 Luna Moth Wing 1 Moon Sugar 1 Glass Bottle (Water),,,Tea
+Morthal Mudders,1,,Chefs,Cook pot,1 Ale 1 Swamp Fungal Pod 1 Raw Mudcrab Meat,,,Cooked Meal
+Mountain Flower Tea,1,,Chefs,Cook pot,1 Blue Mountain Flower 1 Red Mountain Flower 1 Purple Mountain Flower 1 Glass Bottle (Water),,,Tea
+Mudcrab Chowder,1,,Chefs,Cook pot,1 Potato 1 Bottled Milk 1 Raw Mudcrab Meat,,,Cooked Meal
+Mudcrab Egg Scramble,1,,Chefs,Cook pot,1 Chicken's Egg 1 Raw Mudcrab Meat,,,Cooked Meal
+Mudcrab Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Mudcrab Legs,,,Jerky
+Mudcrab Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Mudcrab Meat,,,Jerky
+Mullwine Braised Mammoth,1,,Chefs,Cook pot,1 Mulled Wine 1 Raw Mammoth Meat,,,Cooked Meal
+Nirn Spring Tea,1,,Chefs,Cook pot,1 Nirnroot 1 Sleeping Tree Sap 1 Glass Bottle (Water),,,Tea
+Ocean's Kiss,1,,Chefs,Cook pot,1 Salt 1 Garlic 1 Raw Clam Meat,,,Cooked Meal
+Pet Bait: Fox (Strange Brew),1,,Chefs,Cook pot,1 Raw Chicken Breast 1 Strange Brew,Brewing Skill Greater or Equal to 2,,Cooked Meal
+Pet Bait: Rabbit (Strange Brew),1,,Chefs,Cook pot,1 Carrot 1 Strange Brew,Brewing Skill Greater or Equal to 1,,Cooked Meal
+Pet Bait: Wolf (Strange Brew),1,,Chefs,Cook pot,1 Raw Venison 1 Strange Brew,Brewing Skill Greater or Equal to 0,,Cooked Meal
+Pet Bait: Wolf (Strange Brew),1,,Chefs,Cook pot,1 Strange Brew 1 Raw Elk Meat,Brewing Skill Greater or Equal to 0,,Cooked Meal
+Pheasant Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Pheasant Breast,,,Jerky
+Poisoner's Stew,1,,Chefs,Cook pot,1 Nightshade 1 Raw Chaurus Meat 1 Chaurus Venom (Crude),,,Stew
+Potato Crab Chowder,1,,Chefs,Cook pot,1 Potato 1 Bottled Milk 1 Butter 1 Raw Mudcrab Meat,,,Cooked Meal
+Potato Soup,1,,Chefs,Cook pot,1 Salt 1 Potato 1 Glass Bottle (Water),,,Soup
+Predator's Price,4,,Chefs,Cook pot,1 Garlic 1 Raw Venison 1 Raw Bear Meat 1 Raw Wolf Meat 1 Glass Bottle (Water),,,Cooked Meal
+Rabbit Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Rabbit Leg,,,Jerky
+Rabbit Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Rabbit Meat,,,Jerky
+Rabbit Mushroom Stew,1,,Chefs,Cook pot,1 Mora Tapinella 1 Raw Rabbit Meat 1 Glass Bottle (Water),,,Stew
+Rarebit Ragout,1,,Chefs,Cook pot,1 Goat Cheese Slice 1 Bread Half-Loaf 1 Raw Rabbit Meat,,,Cooked Meal
+Raw Salmon Steak,2,,"Chefs,Survivalists",Cook pot,1 Raw Salmon,,,Raw food
+Reachman Soup,1,,Chefs,Cook pot,1 Sabre Cat Tooth 2 Edible Mushroom 2 Edible Root 1 Glass Bottle (Water),,,Soup
+Roasted Tomato Crab Bisque,1,,Chefs,Cook pot,1 Salt 1 Tomato 1 Butter 1 Raw Mudcrab Meat 1 Glass Bottle (Water),,,Cooked Meal
+Root Bear (Strange Brew),2,,Chefs,Cook pot,1 Nirnroot 2 Bear Tooth 1 Raw Bear Meat 1 Glass Bottle (Water),,,Cooked Meal
+Sabre Cat Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Sabre Cat Meat,,,Jerky
+Sabre Cat Pot Roast,1,,Chefs,Cook pot,1 Leek 1 Gourd 1 Raw Sabre Cat Meat,,,Cooked Meal
+Salmon Bake,1,,Chefs,Cook pot,1 Thistle Branch 2 Raw Salmon Steak 1 Honey,,,Cooked Meal
+Salt,1,,N/A,Cook pot,1 Glass Bottle (Salt Water),,,Cooked Meal
+Salt,1,,N/A,Cook pot,1 Waterskin (Salt Water),,,Cooked Meal
+Salty Sabre Stew,1,,Chefs,Cook pot,2 Salt 1 Canis Root 1 Raw Sabre Cat Meat 1 Glass Bottle (Water),,,Stew
+Sausaged Skeever,2,,Chefs,Cook pot,1 Garlic 1 Skeever Tail 1 Raw Skeever Meat,,,Cooked Meal
+Sauteed Dog and Mushrooms,1,,Chefs,Cook pot,2 Garlic 1 Fly Amanita 1 White Cap 1 Raw Dog Meat,,,Cooked Meal
+Skeevender Stew,1,,Chefs,Cook pot,2 Lavender 2 Raw Skeever Meat 1 Glass Bottle (Water),,,Stew
+Skeever Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Skeever Meat,,,Jerky
+Skeever Scramble,1,,Chefs,Cook pot,1 Chicken's Egg 1 Leek 1 Raw Skeever Meat,,,Cooked Meal
+Skewered Skeever,2,,Chefs,Cook pot,1 Red Apple 1 Goat Cheese Slice 1 Raw Skeever Meat,,,Cooked Meal
+Smoked Elk Roast,2,,Chefs,Cook pot,1 Salt 1 Raw Elk Meat,,,Cooked Meal
+Snowberry Tea,1,,Chefs,Cook pot,3 Snowberries 2 Red Mountain Flower 1 Glass Bottle (Water),,,Tea
+Snowbery Wolf Chop,1,,Chefs,Cook pot,2 Snowberries 1 Raw Wolf Meat,,,Cooked Meal
+Soap - Blue Mountain,3,Craftsmanship,Survivalists,Cook pot,1 Salt 3 Blue Mountain Flower 1 Animal Fat,,,Soap
+Soap - Dragon's Tongue,3,Craftsmanship,Survivalists,Cook pot,1 Salt 3 Dragon's Tongue 1 Animal Fat,,,Soap
+Soap - Lavender,3,Craftsmanship,Survivalists,Cook pot,1 Salt 3 Lavender 1 Animal Fat,,,Soap
+Soap - Plain,3,Craftsmanship,Survivalists,Cook pot,1 Salt 1 Animal Fat,,,Soap
+Soap - Purple Mountain Flower,3,Craftsmanship,Survivalists,Cook pot,1 Salt 3 Purple Mountain Flower 1 Animal Fat,,,Soap
+Soap - Red Mountain Flower,3,Craftsmanship,Survivalists,Cook pot,1 Salt 3 Red Mountain Flower 1 Animal Fat,,,Soap
+Soap - Superior Mountain Flower,3,Craftsmanship,Survivalists,Cook pot,1 Salt 2 Blue Mountain Flower 2 Red Mountain Flower 2 Purple Mountain Flower 1 Animal Fat,,,Soap
+Spiced Diced Goat,1,,Chefs,Cook pot,1 Purple Mountain Flower 1 Creep Cluster 1 Raw Goat Meat 1 Glass Bottle (Water),,,Cooked Meal
+Spider Fry,2,,Chefs,Cook pot,1 Ale 2 Salt 1 Raw Spider Meat,,,Cooked Meal
+Spider Jerky,4,,Chefs,Cook pot,6 Salt 1 Raw Spider Meat,,,Jerky
+Spider Soup,1,,Chefs,Cook pot,1 Salt 1 Potato 1 Raw Spider Meat 1 Glass Bottle (Water),,,Soup
+Spider Surprise,1,,Chefs,Cook pot,1 Leek 1 Spider Egg 1 Bottled Milk 1 Raw Spider Meat,,,Cooked Meal
+Spotted Wolf Meat,1,,Chefs,Cook pot,1 Ale 1 Jazbay Grapes 1 Raw Wolf Meat,,,Cooked Meal
+Sweetwolf (Strange Brew),1,,Chefs,Cook pot,1 Red Apple 1 Honey 1 Raw Wolf Meat,,,Cooked Meal
+Ten Dragons Tea,1,,Chefs,Cook pot,10 Dragon's Tongue 1 Glass Bottle (Water),,,Tea
+Tomato Soup,1,,Chefs,Cook pot,1 Salt 1 Garlic 1 Tomato 1 Leek 1 Glass Bottle (Water),,,Soup
+Troll Jerky,4,,Chefs,Cook pot,6 Salt 1 Raw Troll Meat,,,Jerky
+Vegetable Soup,1,,Chefs,Cook pot,1 Cabbage 1 Potato 1 Tomato 1 Leek 1 Glass Bottle (Water),,,Soup
+Velvet Slaughterfish,1,,Chefs,Cook pot,1 Velvet LeChance 1 Raw Slaughterfish,,,Cooked Meal
+Venison Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Venison,,,Jerky
+Venison Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Elk Meat,,,Jerky
+Venison Stew,1,,Chefs,Cook pot,1 Salt 1 Potato 1 Raw Venison 1 Leek 1 Glass Bottle (Water),,Venison Stew,Stew
+Venison Tenderloin,2,,Chefs,Cook pot,1 Ale 1 Raw Venison,,,Cooked Meal
+Watermelon Gazpacho,3,,Chefs,Cook pot,1 Salt 1 Elves Ear 1 Goat Cheese Slice 1 Tomato 1 Watermelon,,,Water
+Waterskin (3/3),1,,N/A,Cook pot,1 Waterskin (Salt Water),,,Water
+Wheat Boon Tea,1,,Chefs,Cook pot,3 Wheat 1 Hanging Moss 1 Glass Bottle (Water),,,Tea
+Wolf Cabbage Stew,1,,Chefs,Cook pot,1 Cabbage 1 Raw Wolf Meat 1 Glass Bottle (Water),,,Stew
+Wolf Jerky,3,,Chefs,Cook pot,6 Salt 1 Raw Wolf Meat,,,Jerky
+Wyrm and Chips,2,,Chefs,Cook pot,1 Salt 2 Potato 1 Raw Dragon Meat,,,Cooked Meal
+Flour,1,,N/A,Grain Mill,2 Wheat,,,Flour
+Apple Dumpling,4,,Chefs,Oven,2 Red Apple 2 Green Apple 1 Honey 1 Flour 1 Butter,,,Baked goods
+Apple Pie,1,,Chefs,Oven,1 Chicken's Egg 1 Salt 2 Red Apple 2 Green Apple 1 Flour 1 Butter,,,Baked goods
+Braided Bread,1,,Chefs,Oven,1 Salt 2 Flour 1 Glass Bottle (Water),,,Bread
+Bread Loaf,1,,Chefs,Oven,1 Salt 1 Flour 1 Glass Bottle (Water),,,Bread
+Chaurus Pie,1,,Chefs,Oven,2 Salt 1 Red Apple 1 Carrot 1 Potato 1 Tomato 1 Honeycomb 1 Raw Chaurus Meat,,,Baked goods
+Chicken Dumpling,2,,Chefs,Oven,1 Salt 1 Garlic 2 Leek 2 Raw Chicken Breast 1 Flour,,,Baked goods
+Crab Cakes,1,,Chefs,Oven,1 Salt 1 Flour 1 Raw Mudcrab Meat,,,Baked goods
+Garlic Bread,2,,Chefs,Oven,1 Garlic 1 Bread Loaf 1 Butter,,,Bread
+Jazbay Crostata,2,,Chefs,Oven,10 Jazbay Grapes 1 Honey 1 Flour 1 Butter,,,Baked goods
+Juniper Berry Crostata,2,,Chefs,Oven,10 Juniper Berries 1 Honey 1 Flour 1 Butter,,,Baked goods
+Lavender Honey Dumpling,2,,Chefs,Oven,6 Lavender 1 Moon Sugar 1 Honey 1 Flour,,,Baked goods
+Meat Pie,1,,Chefs,Oven,1 Salt 1 Raw Beef 1 Bottled Milk 1 Flour 1 Butter,,,Baked goods
+Potato Bread,1,,Chefs,Oven,1 Salt 1 Potato 1 Flour 1 Glass Bottle (Water),,,Bread
+Snowberry Crostata,2,,Chefs,Oven,10 Snowberries 1 Honey 1 Flour 1 Butter,,,Baked goods
+Sweetroll,6,,Chefs,Oven,1 Chicken's Egg 1 Salt 1 Honey 1 Bottled Milk 1 Flour 1 Butter,,,Baked goods

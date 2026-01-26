@@ -1,0 +1,674 @@
+FormID	EDID	FULL	Effects	Magnitude	Duration	Effect Value	CalculatedValue
+9F276293	AlchFoodExplainer_BakedGoods	Baked Goods	With a Chef's Toolkit, you can use this oven to make various baked goods.	0	1	0	0
+9F276290	AlchDrinkExplainer_Alcohol	Alcohol	With a Brewer's Toolkit, you can use this brewing barrel to create various alcohols.	0	1	0	0
+9F24CEC6	AlchFoodExplainer_CookedFood	Cooked Food	Many food items can be cooked to improve their bonuses. To cook, find a Cookpot or use the crafting menu near an open flame.				
+9F00AA95	Alch_WerebearsBloodPoison05	Werebear's Blood Poison (Remarkable)	Creatures and people up to level 23 will attack anything nearby for 10 seconds.	23	1	7.5	236.027106873761
+9F00AA94	Alch_WerebearsBloodPoison04	Werebear's Blood Poison (Great)	Creatures and people up to level 18 will attack anything nearby for 10 seconds.	18	1	7.5	180.244083942942
+9F00AA93	Alch_WerebearsBloodPoison03	Werebear's Blood Poison (Good)	Creatures and people up to level 13 will attack anything nearby for 10 seconds.	13	1	7.5	126.008241526131
+9F00AA92	Alch_WerebearsBloodPoison02	Werebear's Blood Poison (Decent)	Creatures and people up to level 8 will attack anything nearby for 10 seconds.	8	1	7.5	73.868664800695
+9F00AA91	Alch_WerebearsBloodPoison01	Werebear's Blood Poison (Crude)	Creatures and people up to level 5 will attack anything nearby for 10 seconds.	5	1	7.5	44.0482103658007
+9F00AA90	Alch_WerebearsBloodPotion04	Werebear's Blood Potion (Remarkable)	Grants invisibility for 50 seconds.	0	5	50	293.654735772005
+9F00AA8F	Alch_WerebearsBloodPotion03	Werebear's Blood Potion (Great)	Grants invisibility for 40 seconds.	0	4	50	229.739670999407
+9F00AA8E	Alch_WerebearsBloodPotion02	Werebear's Blood Potion (Good)	Grants invisibility for 30 seconds.	0	3	50	167.418476105086
+9F00AA8D	Alch_WerebearsBloodPotion01	Werebear's Blood Potion (Decent)	Grants invisibility for 20 seconds.	0	2	50	107.177346253629
+9F00AA8A	Alch_DragonsVenomOfDeath	Dragon's Venom of Death	Drains the target's Health by 5 points per second for 300 seconds.	5	30	1.5	371.357025079606
+9F00AA89	Alch_DragonsVenomOfTerribleFrost	Dragon's Venom of Terrible Frost	The target is paralyzed for 5 seconds.	0	0.5	250	116.629123942101
+9F00AA88	Alch_DragonsVenomOfDismay	Dragon's Venom of Dismay	Creatures and people up to level 23 flee from combat for 30 seconds.	23	3	2.5	263.435323681982
+9F00AA87	Alch_DragonsElixirOfTheUnseen	Dragon's Elixir of the Unseen	Grants invisibility for 50 seconds.	0	5	50	293.654735772005
+9F00AA86	Alch_WerewolfsBloodPoison05	Werewolf's Blood Poison (Remarkable)	Creatures and people up to level 23 flee from combat for 30 seconds.	23	3	2.5	263.435323681982
+9F00AA85	Alch_WerewolfsBloodPoison04	Werewolf's Blood Poison (Great)	Creatures and people up to level 18 flee from combat for 30 seconds.	18	3	2.5	201.17459907123
+9F00AA84	Alch_WerewolfsBloodPoison03	Werewolf's Blood Poison (Good)	Creatures and people up to level 13 flee from combat for 30 seconds.	13	3	2.5	140.640718486576
+9F00AA83	Alch_WerewolfsBloodPoison02	Werewolf's Blood Poison (Decent)	Creatures and people up to level 8 flee from combat for 30 seconds.	8	3	2.5	82.4465286189982
+9F00AA82	Alch_WerewolfsBloodPoison01	Werewolf's Blood Poison (Crude)	Creatures and people up to level 5 flee from combat for 30 seconds.	5	3	2.5	49.1632283639906
+9F00AA81	Alch_WerewolfsBloodPotion04	Werewolf's Blood Potion (Remarkable)	Grants invisibility for 50 seconds.	0	5	50	293.654735772005
+9F00AA80	Alch_WerewolfsBloodPotion03	Werewolf's Blood Potion (Great)	Grants invisibility for 40 seconds.	0	4	50	229.739670999407
+9F00AA7F	Alch_WerewolfsBloodPotion02	Werewolf's Blood Potion (Good)	Grants invisibility for 30 seconds.	0	3	50	167.418476105086
+9F00AA7E	Alch_WerewolfsBloodPotion01	Werewolf's Blood Potion (Decent)	Grants invisibility for 20 seconds.	0	2	50	107.177346253629
+9F00AA7D	Alch_TrollsBloodPoison05	Troll's Blood Poison (Remarkable)	Immediately drains the target's Health by 120 points.	120	1	1.5	290.529762923172
+9F00AA7C	Alch_TrollsBloodPoison04	Troll's Blood Poison (Great)	Immediately drains the target's Health by 100 points.	100	1	1.5	237.733978869167
+9F00AA7B	Alch_TrollsBloodPoison03	Troll's Blood Poison (Good)	Immediately drains the target's Health by 80 points.	80	1	1.5	185.990278505801
+9F00AA7A	Alch_TrollsBloodPoison02	Troll's Blood Poison (Decent)	Immediately drains the target's Health by 60 points.	60	1	1.5	135.536926915343
+9F00AA79	Alch_TrollsBloodPoison01	Troll's Blood Poison (Crude)	Immediately drains the target's Health by 40 points.	40	1	1.5	86.7675329755155
+9F00AA78	Alch_TrollsBloodPotion05	Troll's Blood Potion (Remarkable)	Health regenerates 200% faster for 600 seconds.	200	60	0.05	1534.86214488092
+9F00AA77	Alch_TrollsBloodPotion04	Troll's Blood Potion (Great)	Health regenerates 150% faster for 600 seconds.	150	60	0.05	1118.50199928253
+9F00AA76	Alch_TrollsBloodPotion03	Troll's Blood Potion (Good)	Health regenerates 100% faster for 600 seconds.	100	60	0.05	716.038509317423
+9F00AA75	Alch_TrollsBloodPotion02	Troll's Blood Potion (Decent)	Health regenerates 80% faster for 600 seconds.	80	60	0.05	560.190017440111
+9F00AA74	Alch_TrollsBloodPotion01	Troll's Blood Potion (Crude)	Health regenerates 50% faster for 600 seconds.	50	60	0.05	334.043776201996
+9F00AA0B	AlchFood_CookedAshHopperLeg	Cooked Ash Hopper Leg	Consumed out of combat, it restores 30 Stamina.	30	1	0	0
+9F00AA0A	AlchFood_CookedAshHopperMeat	Cooked Ash Hopper Meat	Consumed out of combat, it restores 30 Stamina.	30	1	0	0
+9F00AA09	AlchFood_CookedDogMeat	Cooked Dog Meat	Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+87AD3910	AlchDrink_CinnabarBeer	Cinnabar Beer	This ale smells of minerals leached from the volcanic wastelands. Enhances your focus, giving you 15 extra points of magicka for 300 seconds.,That might feel good for a short time... or it might just shorten your time.	0.1	45	0	41.4480181531638
+872897D4	AlchFood_BestialStew	Bestial Stew	A stew tartare which restores 2 Stamina per second for 1800 seconds.,Consumed out of combat, it restores 200 Stamina and Magicka.,Your meal improves your warmth by <25> points.,Only those with a strong stomach can enjoy this meal without vomiting.	0	0.7	500	824.136885009628
+87284894	AlchFood_RawHumanMeat	Raw Human Meat	Consumed out of combat, it restores 50 Stamina and Magicka.,Restores 2 points of Stamina and Magicka per second for 300 seconds - there's just nothing more motivating than the sweet taste of a slain enemy's flesh.,	2	30	0.3	94.8758488407402
+87273318	Alch_PotionHealingPoultice	Healing Poultice	,A herbal medicine which is rubbed on the skin, forming a crust that enhances natural regeneration. Stress suppresses its effect, so it's often applied before sleep. It contains enough amount for nearby companions, but dries quickly after being opened.	50	120	0.5	14320.7701863485
+8720B310	Alch_PoisonSoulTrap	Poison of Soulreaping	The target becomes vulnerable to soulgems for 300 seconds.	0	30	15	632.302121917641
+87065315	Alch_ChaurusVenomCrude	Chaurus Venom (Crude)	Drains the target's Health by 3 points per second for 60 seconds.	3	6	1.5	36.0488167885885
+8703DFE8	AlchDrink_GlassBottleWater	Glass Bottle (Water)	Restores thirst.	0	1	0	0
+87030D05	AlchFood_RawSkeeverMeatDisabled	Raw Skeever Meat SNR	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	180	1	0	0
+4925BC55	CWHCM_Thelsa_SocialButterfly	Thelsa's Social Butterfly	Increases the imbiber's speech craft by 25 points for 60 seconds.	25	6	0.25	61.8928375132676
+464EDCC1	AlchDrink_WaterskinSalt	Waterskin (Salt Water)	Drinking saltwater will increase thirst. Distill at a cooking station for drinkable water.	0	1	0	0
+464DE9B0	AlchDrink_Waterskin3	Waterskin (3/3)	Restores thirst.	0	1	0	0
+464DE9AF	AlchDrink_Waterskin2	Waterskin (2/3)	Restores thirst.	0	1	0	0
+464DE9AE	AlchDrink_Waterskin1	Waterskin (1/3)	Restores thirst.	0	1	0	0
+46326258	AlchDrink_GlassBottleSaltWater_Disabled01	Glass Bottle (Salt Water) SNR	Drinking saltwater will increase thirst. Distill at a cooking station for drinkable water.	0	1	0	0
+46326252	AlchDrink_GlassBottleWater_Disabled02	Glass Bottle (Water) SNR	Restores thirst.	0	1	0	0
+46265BE7	AlchDrink_GlassBottleSaltWater	Glass Bottle (Salt Water)	Drinking saltwater will increase thirst. Distill at a cooking station for drinkable water.	0	1	0	0
+46265BE3	AlchDrink_GlassBottleSaltWater_Disabled02	Glass Bottle (Salt Water) SNR	Drinking saltwater will increase thirst. Distill at a cooking station for drinkable water.	0	1	0	0
+4607AA96	AlchDrink_GlassBottleWater_Disabled01	Glass Bottle (Water) SNR	Restores thirst.	0	1	0	0
+46070897	AlchDrink_GlassBottleWater_Disabled03	Glass Bottle (Water) SNR	Restores thirst.	0	1	0	0
+3601D430	Alch_SnowberryExtract	Snowberry Extract	Allows you to swim in frigid water for <3> minutes.	0	18	0	0
+31DC95C9	Alch_WerebearsBlood	Werebear's Blood	Prized by alchemists for its mercurial, discordant properties, the blood itself requires a catalyst to extract one of its opposing effects.	20	1	5	134.928284767356
+312BA6EB	AlchFood_DragonJerky	Dragon Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6EA	AlchFood_SpiderJerky	Spider Jerky	Consumed out of combat, it restores 1 Stamina.,Tough and tasteless, but imperishable.	0	1	0	0
+312BA6E9	AlchFood_ChaurusJerky	Chaurus Jerky	Consumed out of combat, it restores 1 Stamina.,Tough and tasteless, but imperishable.	0	1	0	0
+312BA6E8	AlchFood_PheasantJerky	Pheasant Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6E7	AlchFood_SalmonJerky	Dried Salmon Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6E6	AlchFood_BoarJerky	Boar Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6E5	AlchFood_WolfJerky	Wolf Jerky	Consumed out of combat, it restores 1 Stamina.,A cheap iron ration.	0	1	0	0
+312BA6E4	AlchFood_SlaughterfishJerky	Dried Slaughterfish Jerky	Consumed out of combat, it restores 1 Stamina.,A cheap iron ration.	0	1	0	0
+312BA6E3	AlchFood_SkeeverJerky	Skeever Jerky	Consumed out of combat, it restores 1 Stamina.,Tough and tasteless, but imperishable.	0	1	0	0
+312BA6E2	AlchFood_SabreCatJerky	Sabre Cat Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6E1	AlchFood_MudcrabJerky	Mudcrab Jerky	Consumed out of combat, it restores 1 Stamina.,Tough and tasteless, but imperishable.	0	1	0	0
+312BA6DF	AlchFood_HorkerJerky	Horker Jerky	Consumed out of combat, it restores 1 Stamina.,Tough and tasteless, but imperishable.	0	1	0	0
+312BA6DE	AlchFood_RabbitJerky	Rabbit Jerky	Consumed out of combat, it restores 1 Stamina.,Tough and tasteless, but imperishable.	0	1	0	0
+312BA6DD	AlchFood_GoatJerky	Goat Jerky	Consumed out of combat, it restores 1 Stamina.,A cheap iron ration.	0	1	0	0
+312BA6DC	AlchFood_FoxJerky	Fox Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6DB	AlchFood_DogJerky	Dog Jerky	Consumed out of combat, it restores 1 Stamina.,A cheap iron ration.	0	1	0	0
+312BA6DA	AlchFood_BeefJerky	Beef Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6D9	AlchFood_ChickenJerky	Chicken Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312BA6D8	AlchFood_BearJerky	Bear Jerky	Consumed out of combat, it restores 1 Stamina.,An excellent iron ration.	0	1	0	0
+312A1194	AlchFood_Soup_BoiledMushrooms	Boiled Mushrooms	Boiled mushrooms are safe to eat, and can be added to soup.,Recover magicka 25% faster for 60 seconds.	25	6	0.75	185.678512539803
+31287BF7	AlchFood_BoiledCabbageAndMammoth	Boiled Cabbage and Mammoth	Restores 1 points of Stamina per second for 600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+3122776D	AlchFood_MammothJerky	Mammoth Jerky	Consumed out of combat, it restores 1 Stamina.,The iron ration of choice for the truly hardened northern hunter.	0	1	0	0
+3122776B	AlchFood_CookedMammothMeat	Cooked Mammoth Meat	Consumed out of combat, it restores 150 Stamina.	150	1	0	0
+3120E22A	Alch_StrongAcid	Strong Acid	Drains the target's Health by 3 points per second for 15 seconds.	3	1.5	1.5	7.84557944036611
+3.12E+231	Alch_MildAcid	Mild Acid	Drains the target's Health by 1 points per second for 30 seconds.	1	3	1.5	5.02255428315257
+311C2257	AlchFood_CookedFat	Cooked Fat	Consumed out of combat, it restores 1 Stamina.	1	12	0	0
+31199A0E	AlchFood_CookedSabreCatMeat	Cooked Sabre Cat Meat	Consumed out of combat, it restores 50 Stamina and Magicka.	50	1	0	0
+31199A0D	HB_FireFood_Food_MammothSteak_Disabled	Cooked Mammoth Meat	Consumed out of combat, it restores 80 Stamina and Magicka.	80	1	0	0
+31199A0C	AlchFood_CookedBearMeat	Cooked Bear Meat	Consumed out of combat, it restores 65 Stamina and Magicka.	65	1	0	0
+311344000000	Alch_PotionOfBoneblood	Potion of Boneblood	,	20	30	0	0
+3111AFC8	AlchFood_PetBaitPlaceholder	Placeholder	Consumed out of combat, it restores 35 Stamina and Magicka.	35	1	0	0
+310F2794	AlchFood_SausagedSkeever	Sausaged Skeever	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+310F2791	AlchFood_ReachmanSoup	Reachman Soup	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310F278F	AlchFood_BearAndBearChowder	Bear and Bear Chowder	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 1800 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310F278D	AlchFood_SkeeverScramble	Skeever Scramble	Consumed out of combat, it restores 5 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.	1	60	0	0
+310F278B	AlchFood_PredatorsPriceStew	Predator's Price	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310F2789	AlchFood_FoxInAHole	Fox in a Hole	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.	1	60	0	0
+310F2787	AlchFood_MammothBalls	Mammoth Balls	Consumed out of combat, it restores 5 Stamina and Magicka.,	1	30	0	0
+310F2785	AlchFood_FlamingDragon	Flaming Dragon	Restores 1 points of Magicka per second for 1200 seconds.,Restores 1 points of Stamina per second for 3000 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310F2783	AlchFood_MashedTroll	Mashed Troll	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.	1	60	0	0
+310ED680	AlchFood_FattyFinFry	Fatty Fin Fry	Consumed out of combat, it restores 10 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.	1	60	0	0
+310ED67E	AlchFood_DeviledChaurus	Deviled Chaurus	Consumed out of combat, it restores 10 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.	1	60	0	0
+310ED67C	AlchFood_CheesyPotatoMammoth	Cheesy Potato Mammoth	Consumed out of combat, it restores 25 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310ED67A	AlchFood_FarmersBreakfast	Farmer's Breakfast	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 1800 seconds.	1	180	0	0
+310ED678	AlchFood_OceansKiss	Ocean's Kiss	Consumed out of combat, it restores 5 Stamina and Magicka.,Magicka is increased by 5 points for 900 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310ED676	AlchFood_MorthalMudders	Morthal Mudders	Consumed out of combat, it restores 10 Stamina and Magicka.,Restores 1 points of Stamina per second for 1600 seconds.	1	160	0	0
+310ED674	AlchFood_FishWithCrabSauce	Fish with Crab Sauce	Consumed out of combat, it restores 35 Stamina and Magicka.,Stamina is increased by 10 points for 600 seconds.	10	60	0	0
+310ED672	AlchFood_SpottedWolfMeat	Spotted Wolf Meat	Consumed out of combat, it restores 10 Stamina and Magicka.,Restores 5 points of Stamina per second for 600 seconds.	5	60	0	0
+310ED670	AlchFood_GlazedGoatLoin	Glazed Goat Loin	Consumed out of combat, it restores 10 Stamina and Magicka.,Magicka regenerates 1% faster for 600 seconds.	1	60	0	0
+310ED66E	AlchFood_SpiderSurprise	Spider Surprise	Consumed out of combat, it restores 10 Stamina and Magicka.,Your meal improves your warmth by <25> points.,Restores 1 points of Stamina per second for 600 seconds.	1	60	0	0
+310ED66C	AlchFood_BeggarsBroth	Beggar's Broth	Consumed out of combat, it restores 20 Stamina and Magicka.,Carry weight is increased by 35 points for 7200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	69428.9496085678
+310ED66A	AlchFood_RarebitRagout	Rarebit Ragout	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 1600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310ED667	AlchFood_HighKingsStew	High King's Stew	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 3600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+310E8564	AlchFood_SalmonBake	Salmon Bake	Consumed out of combat, it restores 10 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.	1	60	0	0
+310C4E31	AlchFood_EdibleBerries	Edible Berries	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+3109C5D7	AlchFood_PetBaitWolfStrangeBrew	Pet Bait: Wolf (Strange Brew)	This odorous meat might lure a wild animal, if I leave it lying out.,Consumed out of combat, it restores 20 Stamina and Magicka.	20	1	0	0
+3109C5CF	AlchFood_PetBaitFoxStrangeBrew	Pet Bait: Fox (Strange Brew)	This tasty chicken might lure a wild fox, if I can get close.,Consumed out of combat, it restores 20 Stamina and Magicka.	20	1	0	0
+3109C5C9	AlchFood_PetBaitRabbitStrangeBrew	Pet Bait: Rabbit (Strange Brew)	This tasty carrot might lure a wild hare, if I can get close.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+3107DFB3	AlchFood_WatermelonGazpacho	Watermelon Gazpacho	Restores 15 points of Stamina per second for 0 seconds.,Restores 1 points of Stamina per second for 300 seconds.,This soup tastes amazing!	0	1	0	0
+31078EAD	AlchFood_GarlicBoar	Garlic Boar	Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+31078EAB	AlchFood_BoarLeekStew	Boar Leek Stew	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 900 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+31078EA9	AlchFood_BoarPotatoStew	Boar Potato Stew	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 900 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+31055772	AlchFood_Watermelon	Watermelon	Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+3104020000	AlchDrink_WheatBoonTea	Wheat Boon Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,Bitter tasting but reputed for its balsamaceous properties.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+31040200	AlchDrink_SnowberryTea	Snowberry Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,A warm draught against Skyrim's chilly nights and heights.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+310402	AlchDrink_NirnSpringTea	Nirn Spring Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,An astringent brew, its potent ingredients draw upon the essence of Mundus.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+310402DE	AlchDrink_MoonDanceTea	Moon Dance Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,A mildly narcotic brew with mercurial effects.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+310402DC	AlchDrink_MountainFlowerTea	Mountain Flower Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,This flavorful tea slightly improves your warmth.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+310402DA	AlchDrink_LavenderTea	Lavender Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,This delicate tea slightly improves your warmth and magicka.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+310402D7	AlchDrink_JuniperTea	Juniper Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,This earthy tea slightly improves your warmth and stamina.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+3103FD68	AlchDrink_TenDragonsTea	Ten Dragons Tea	Consumed out of combat, it restores 15 Stamina and Magicka.,This flavorful tea slightly improves your warmth.,Your meal improves your warmth by <25> points.	0	54	0	31.615106095882
+31031FD9	Alch_PotionOfArcaneMetabolisis	Potion of Arcane Metabolisis	Discerns the effects of consumed ingredients for 30 seconds, but each at a greater price.	0	3	2	6.69673904420343
+31031A73	Alch_DragonsElixirOfGhostlyPassage	Dragon's Elixir of Ghostly Passage	Grants invisibility for 30 seconds.,You are 30% harder to detect for 60 seconds.,The caster dampens all sounds around him or her, making movement practically inaudible for 90 seconds and prevents the detection of the caster by detection spells.	0.9	9	6	302.964421746097
+31031A71	Alch_DragonsElixirOfTheStorm	Dragon's Elixir of the Storm	,Calls a storm for 120 seconds with lightning that strikes friend and foe alike.,	1	12	0	0
+31031A6F	Alch_DragonsElixirOfKynesPeace	Dragon's Elixir of Kyne's Peace	Nearby animals will not attack, and their life forces are visible for 180 seconds.,,	0	18	0	0
+31031A6D	Alch_DragonsElixirOfFirebloom	Dragon's Elixir of Firebloom	The caster evokes a fiery explosion at the current position that deals 60 points of damage to everything nearby. Deals more damage to closer targets.,,	35	1	0	813.221561492059
+31031A6B	Alch_DragonsElixirOfFuriousSpeed	Dragon's Elixir of Furious Speed	Your Thu'um imbues your arms with the speed of wind, allowing for meteoric attacks.	2	1	0	0
+31031A69	Alch_DragonsVenomOfTorpor	Dragon's Venom of Torpor	Decreases the target's movement speed drastically for 6 seconds.,Drains the target's Magicka by 10 points per second for 15 seconds.,Drains the target's Stamina by 20 points per second for 10 seconds.	20	1	0.9	143.69028538336
+31031A67	Alch_DragonsElixirOfSlowedTime	Dragon's Elixir of Slowed Time	Slows time for 12 seconds.	0.3	1.2	500	162.518481260538
+31031A66	Alch_DragonsVenomOfExplosiveForce	Dragon's Venom of Explosive Force	Thrusts the target back with incredible force.	0	1	0	0
+31031A62	Alch_DragonsElixirOfSwiftness	Dragon's Elixir of Swiftness	You move 100% faster for 30 seconds.	100	3	0.25	132.670201535582
+31031A5E	Alch_DragonsVenomOfDisarming	Dragon's Venom of Disarming	Target becomes disarmed.	99	1	0	0
+31031A5C	Alch_DragonsElixirOfTheLivingCircle	Dragon's Elixir of the Living Circle	Undead up to level 20 entering the circle will flee. Caster heals <20> health per second inside it.	20	6	2	387.373017230895
+31031A5B	Alch_DragonsElixirOfTheShade	Dragon's Elixir of the Shade	Summons a spirit creature... not necessarily an ally.	0	1	0	0
+31031A49	AlchFood_DragonVegetableStew	Dragon Vegetable Stew	Consumed out of combat, it restores 35 Stamina and Magicka.,Restores 1 points of Stamina per second for 3000 seconds.,Your meal improves your warmth by <25> points.,Magicka is increased by 20 points for 900 seconds.	20	90	0	0
+310314D7	AlchFood_WyrmAndChips	Wyrm and Chips	Consumed out of combat, it restores 35 Stamina and Magicka.,Restores 1 points of Stamina per second for 3000 seconds.,Tastes best with hot Nord mead.,Restores 1 points of Magicka per second for 1200 seconds.	1	120	0	0
+310314D4	AlchFood_DragonBloodPudding	Dragon Blood Pudding	Health regenerates 4% faster for 600 seconds.,Restores 2 points of Stamina per second for 3000 seconds.,Your meal improves your warmth by <25> points.	0	54	0	20.7588059985344
+310314D1	AlchFood_DragonHeartStew	Dragon Heart Stew	Consumed out of combat, it restores 45 Stamina and Magicka.,Resists 15% of fire damage for 3000 seconds.,Your meal improves your warmth by <25> points.,Called revenge if served chilled.	0	1	0	2608.99816607619
+310314CD	AlchFood_TrollJerky	Troll Jerky	Consumed out of combat, it restores 7 Stamina and Magicka.,Tough and tasteless, but imperishable.	0	1	0	0
+310314CC	AlchFood_CookedChaurusMeat	Cooked Chaurus Meat	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+310314C9	AlchFood_PoisonersStew	Poisoner's Stew	Drains the target's Health by 1 points per second for 150 seconds.,Resists 80% of poison effects for 120 seconds.,Your meal improves your warmth by <25> points.,A hot and sour soup of questionable value.	0	1	0	506.410063062775
+310314C5	AlchFood_CookedSpiderMeat	Cooked Spider Meat	Consumed out of combat, it restores 10 Stamina and Magicka.,Sticky and sweet.	0	1	0	0
+310314C4	AlchFood_SpiderFry	Spider Fry	Consumed out of combat, it restores 50 Stamina and Magicka.	50	1	0	0
+31029DBC	AlchFood_CookedDragonMeat	Cooked Dragon Meat	Consumed out of combat, it restores 30 Stamina and Magicka.,Restores 1 points of Stamina per second for 5400 seconds.	1	540	0	0
+31029DBA	AlchFood_CookedTrollMeat	Cooked Troll Meat	Consumed out of combat, it restores 20 Stamina and Magicka.	20	1	0	0
+31029DB9	AlchFood_SpiderSoup	Spider Soup	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 1200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+31029854	AlchFood_ChaurusPie	Chaurus Pie	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 1200 seconds.	1	120	0	0
+31029849	AlchFood_RawDragonMeat	Raw Dragon Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 30 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.,Seems remarkably well-preserved.	0	1	0	0
+31029847	AlchFood_RawTrollMeat	Raw Troll Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+31029846	AlchFood_RawSpiderMeat	Raw Spider Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.,Tastes as nasty as it smells, feels as nasty as it looks.	0	1	0	0
+310292C4	Alch_DragonsBlood	Dragon's Blood	The arcane uses of the blood of a dragon are now lost to the ages, only its sheer potency remains evident.	30	1	7	295.074323561566
+310292C2	Ingr_WerewolvesBlood	Werewolf's Blood	Prized by alchemists for its mercurial, discordant properties, the blood itself requires a catalyst to extract one of its opposing effects.	20	1	5	134.928284767356
+310292C1	Ingr_TrollsBlood	Troll Blood	Paradoxically reputed both for its regenerative and toxic effects, distilling one or the other will require some kind of ablative agent.	15	1	3	58.9958740367888
+31027CF4	Alch_ChaurusVenomSuperlative	Chaurus Venom (Superlative)	Drains the target's Health by 4 points per second for 60 seconds.,The target is paralyzed for 3 seconds.	0	0.3	250	115.96052846379
+31027CF2	Alch_ChaurusVenomGreat	Chaurus Venom (Great)	Drains the target's Health by 4 points per second for 60 seconds.	4	6	1.5	49.467917171399
+31027CF0	Alch_ChaurusVenomGood	Chaurus Venom (Good)	Drains the target's Health by 4 points per second for 60 seconds.	3.5	6	1.5	42.7102863608562
+31027CEE	Alch_SpiderVenomSuperlative	Spider Venom (Superlative)	A Frostbite Spider's blood-freezing poison - Only few know the secret of its proper extraction. It deals 4 points damage to Health and Stamina for 60 seconds. ,The target is paralyzed for 5 seconds.	0	0.5	250	401.364366347809
+31027CEC	Alch_SpiderVenomGreat	Spider Venom (Great)	A Frostbite Spider's blood-freezing poison - Only few know the secret of its proper extraction. It deals 3 points damage to Health and Stamina for 60 seconds. ,The target is paralyzed for 4 seconds.	0	0.4	250	331.569798912804
+31027CEB	Alch_SpiderVenomGood	Spider Venom (Good)	A Frostbite Spider's blood-freezing poison - Only few know the secret of its proper extraction. It deals 2 points damage to Health and Stamina for 60 seconds. ,The target is paralyzed for 3 seconds.	0	0.3	250	263.145524748354
+31027CE7	Alch_SpiderVenomDisabled	Spider Venom	A Frostbite Spider's blood-freezing poison - Only few know the secret of its proper extraction. It deals 5 points damage to Health and Stamina for 5 seconds. ,The target is paralyzed for 2 seconds.	0	0.2	250	69.9659517856697
+31027CE6	Alch_ChaurusVenomDisabled	Chaurus Venom	5 points of damage for 10 seconds.,The target is paralyzed for 3 seconds.	0	0.3	250	66.492611292391
+31027783	AlchFood_RawChaurusMeat	Raw Chaurus Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+3.1017E+059	AlchFood_SweetwolfStrangeBrew	Sweetwolf (Strange Brew)	Consumed out of combat, it restores 15 Stamina and Magicka.,Health is increased by 10 points for 600 seconds.	10	60	0	0
+3.1017E+057	AlchFood_VelvetSlaughterfish	Velvet Slaughterfish	Consumed out of combat, it restores 1 Stamina.,An expensive way to cook a very angry fish.,Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+3.1017E+055	AlchFood_SkeweredSkeever_Recipe	Skewered Skeever	Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+31017E4F	AlchFood_MudcrabEggScramble	Mudcrab Egg Scramble	Restores 1 points of Stamina per second for 900 seconds.,A hearty, savory breakfast.	0	1	0	0
+31017E4D	AlchFood_CookedMudcrab	Cooked Mudcrab	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+31017E4B	AlchFood_ElsweyrMarinatedMammoth	Marinated Mammoth in Elsweyr Sauce	Restores 1 points of Stamina per second for 7200 seconds.,A long-forgotten secret recipe.,Restores 1 points of Magicka per second for 3600 seconds.	1	360	0	0
+3.1017E+053	AlchFood_HotHoneyHorker	Hot Honey Horker	Consumed out of combat, it restores 10 Stamina and Magicka.,A delight on cold Skyrim nights.,Restores 1 points of Stamina per second for 3000 seconds.	1	300	0	0
+3.1017E+051	AlchFood_DragonStuffedRabbit	Dragon Stuffed Rabbit	Consumed out of combat, it restores 5 Stamina and Magicka.,Restores 1 points of Stamina per second for 6000 seconds.,An excellent ironic ration.	0	1	0	0
+3.1017E+049	AlchFood_GoatAndPotatoStew	Goat and Potato Stew	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 1800 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+3.1017E+047	AlchFood_ElfEaredElk	Elf Eared Elk	Consumed out of combat, it restores 25 Stamina and Magicka.,Funny garnish, great taste.	0	1	0	0
+3.1017E+045	AlchFood_RootBearStrangeBrew	Root Bear (Strange Brew)	Consumed out of combat, it restores 20 Stamina and Magicka.,Stamina is increased by 20 points for 2400 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+31017E3F	AlchFood_MincedMarinatedBear	Minced Marinated Bear	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 2400 seconds.	1	240	0	0
+31017E3D	AlchFood_HoneyedMammothRoast	Honeyed Mammoth Roast	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 3600 seconds.	1	360	0	0
+31017E3B	AlchFood_SmokedElkRoast	Smoked Elk Roast	Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+3.1017E+043	AlchFood_CookedWolfMeat	Cooked Wolf Meat	Consumed out of combat, it restores 35 Stamina and Magicka.	35	1	0	0
+3.1017E+041	AlchFood_CookedGoatMeat	Cooked Goat Meat	Consumed out of combat, it restores 40 Stamina and Magicka.	40	1	0	0
+3.1017E+039	AlchFood_CookedElkMeat	Cooked Elk Meat	Consumed out of combat, it restores 20 Stamina and Magicka.	20	1	0	0
+3.1017E+037	AlchFood_SabreCatPotRoast	Sabre Cat Pot Roast	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 3600 seconds.	1	360	0	0
+3.1017E+035	AlchFood_MullwineBraisedMammoth	Mullwine Braised Mammoth	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 7200 seconds.	1	720	0	0
+31017E2F	AlchFood_FoxHerbCutlet	Fox Herb Cutlet	Consumed out of combat, it restores 30 Stamina and Magicka.,Restores 1 points of Stamina per second for 1200 seconds.	1	120	0	0
+31017E2D	AlchFood_BreadedElkCutlet	Breaded Elk Cutlet	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 3600 seconds.	1	360	0	0
+31017E2B	AlchFood_VenisonTenderloin	Venison Tenderloin	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+3.1017E+033	AlchFood_MeadBraisedBear	Mead Braised Bear	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 2400 seconds.	1	240	0	0
+3.1017E+031	AlchFood_SnowberryWolfChop	Snowbery Wolf Chop	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 2400 seconds.,A little tart, a little sweet.	0	1	0	0
+3.1017E+029	AlchFood_AleBraisedSabreCat	Ale Braised Sabre Cat	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 3000 seconds.	1	300	0	0
+3.1017E+027	AlchFood_SauteedDogAndMushrooms	Sauteed Dog and Mushrooms	Consumed out of combat, it restores 10 Stamina and Magicka.,Makes you feel better. Unless you just lost your dog.	0	1	0	0
+3.1017E+025	AlchFood_CookedRabbitMeat	Cooked Rabbit Meat	Consumed out of combat, it restores 20 Stamina and Magicka.	20	1	0	0
+31017E1F	AlchFood_CookedFoxMeat	Cooked Fox Meat	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+31017E1D	AlchFood_HorseJerky	Horse Jerky	Consumed out of combat, it restores 10 Stamina and Magicka.,A cheap iron ration.	0	1	0	0
+31017E1B	AlchFood_VenisonJerky	Venison Jerky	Consumed out of combat, it restores 5 Stamina and Magicka.,An excellent iron ration.	0	1	0	0
+3.1017E+023	AlchFood_WolfCabbageStew	Wolf Cabbage Stew	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 3000 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+3.1017E+021	AlchFood_SkeevenderStew	Skeevender Stew	Consumed out of combat, it restores 15 Stamina and Magicka.,It really just tastes like lavender stew.,Your meal improves your warmth by <25> points.,Restores 1 points of Stamina per second for 900 seconds.	1	90	0	0
+3.1017E+019	AlchFood_SaltySabreStew	Salty Sabre Stew	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 3600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+3.1017E+017	AlchFood_MudcrabChowder	Mudcrab Chowder	Consumed out of combat, it restores 15 Stamina and Magicka.,Consumed out of combat, it restores 1 Stamina.,Your meal improves your warmth by <25> points.	0	54	0	0
+3101700000000000	AlchFood_MammothTomatoStew	Mammoth Tomato Stew	Consumed out of combat, it restores 25 Stamina and Magicka.,Restores 1 points of Stamina per second for 7200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+31017E0F	AlchFood_RabbitMushroomStew	Rabbit Mushroom Stew	Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 2000 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+31017E0D	AlchFood_SpicedDicedGoat	Spiced Diced Goat	Consumed out of combat, it restores 15 Stamina and Magicka.,Sublime, exotic flavor.,Your meal improves your warmth by <25> points.,Restores 1 points of Stamina per second for 3600 seconds.	1	360	0	0
+31017E0B	AlchFood_FoxAppleStew	Fox Apple Stew	Consumed out of combat, it restores 15 Stamina and Magicka.,Hunter's comfort food.,Your meal improves your warmth by <25> points.	0	54	0	0
+31017000000000	AlchFood_HuntersHeartyStew	Hunter's Hearty Stew	Consumed out of combat, it restores 20 Stamina and Magicka.,Restores 1 points of Stamina per second for 3600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+3101700000000	AlchFood_BearCarrotStew	Bear Carrot Stew	Consumed out of combat, it restores 25 Stamina and Magicka.,Restores 1 points of Stamina per second for 3600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+31014D24	AlchFood_RawSlaughterfishDisabled	Raw Slaughterfish Meat SNR	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+31014D22	AlchFood_RawMudcrabMeat	Raw Mudcrab Meat	Consumed out of combat, it restores 30 Stamina.,[SURV=Reduce <2> points of Hunger.],Its raw taste is revolting to anyone but those with a strong stomach.	180	1	0	0
+31014D21	AlchFood_RawElkMeat	Raw Elk Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+310147A2	AlchFood_RawRabbitMeat	Raw Rabbit Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+310147A0	AlchFood_RawSabreCatMeat	Raw Sabre Cat Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+3101479E	AlchFood_RawMammothMeat	Raw Mammoth Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+3101479C	AlchFood_RawWolfMeat	Raw Wolf Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+3101479A	AlchFood_RawGoatMeat	Raw Goat Meat	Its raw taste is revolting to anyone but those with a strong stomach.	20	1	0	0
+31014798	AlchFood_RawFoxMeat	Raw Fox Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+31014796	AlchFood_RawSkeeverMeat	Raw Skeever Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+31014795	AlchFood_RawBearMeat	Raw Bear Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+3101422E	AlchFood_EdibleBerry	Edible Berry	Consumed out of combat, it restores 3 Stamina and Magicka.	3	1	0	0
+3101422C	AlchFood_EdibleRoot	Edible Root	Consumed out of combat, it restores 3 Stamina and Magicka.	3	1	0	0
+3101422A	AlchFood_EdibleMushroom	Edible Mushroom	Consumed out of combat, it restores 3 Stamina and Magicka.	3	1	0	0
+31014228	AlchFood_EdibleInsect	Edible Insect	Consumed out of combat, it restores 3 Stamina and Magicka.	3	1	0	0
+31014226	AlchFood_EdibleFlower	Edible Flower	Consumed out of combat, it restores 3 Stamina and Magicka.	3	1	0	0
+31012C6C	AlchFood_RawHorseHeart	Raw Horse Heart	You move 10% faster if outdoors.,Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	2041.13983973945
+31012C6B	AlchFood_RawOxHeart	Raw Ox Heart	Carrying capacity increases by 10 if outdoors.,Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	2041.13983973945
+3100D566	Alch_FlareCoating	Flare Coating	Illuminates the target for 10 seconds.	0	1	2	2
+3100D560	Alch_PotionOfHircinesCloakStrangeBrew	Potion of Hircine's Cloak (Strange Brew)	When this poison strikes a target, you become briefly invisible.	4	0.2	200	156.469242966869
+3100D55F	Alch_PotionOfHircinesAgonyStrangeBrew	Potion of Hircine's Agony (Strange Brew)	Decreases the target's movement speed drastically for 5 seconds.,Drains the target's Health by 4 points per second for 10 seconds.,The target is 10% weaker to poison for 30 seconds.	10	3	0.5	45.2155482955021
+3100B504	Alch_StrangeBrew	Strange Brew	This Strange Brew fills your head with peculiar recipes... and also makes you really drunk.,Numbs your sense of pain, making you feel 75 points healthier for 900 seconds.,Decreases the target's Magicka regeneration by 250% for 1800 seconds.	250	180	0.25	33708.4933477079
+3100B500	Alch_BloodOfTheHuntStrangeBrew	Blood of the Hunt (Strange Brew)	For 30 seconds, bows do 50% more damage but you suffer from a blood-burning poison.	50	3	0.75	185.678512539803
+2E10D679	Alch_SoapDragonsTongue	Soap - Dragon's Tongue	Soap scented with Dragon's Tongue Flowers. Slightly increases your fire resistance and your speechcraft.	0	1	0	0
+2E10D672	Alch_SoapLavender	Soap - Lavender	Soap scented with Lavender. Slightly increases your magic resistance and your speechcraft.	0	1	0	0
+2E0CFFD1	Alch_SoapSuperiorMountainFlower	Soap - Superior Mountain Flower	Soap scented with Mountain Flowers. Slightly increases health, magicka and stamina regeneration.	0	1	0	0
+2E0CD0FE	Alch_SoapPurpleMountainFlower	Soap - Purple Mountain Flower	Soap scented with Purple Mountain Flowers. Slightly increases stamina regeneration.	0	1	0	0
+2E0CD0F5	Alch_SoapRedMountainFlower	Soap - Red Mountain Flower	Soap scented with Red Mountain Flowers. Slightly increases magika regeneration.	0	1	0	0
+2E0CD0F0	Alch_SoapBlueMountainFlower	Soap - Blue Mountain	Soap scented with Blue Mountain Flowers. Slightly increases health regeneration.	0	1	0	0
+2E0C15C0	Alch_SoapPlain	Soap - Plain	Soap with a neutral scent. Slightly raises your sneak ability by masking your scent.	0	1	0	0
+0F000F78	AlchFood_CrabCakes	Crab Cakes	Consumed out of combat, it restores 40 Stamina and Magicka.,Blocking absorbs 5% more damage for 300 seconds.,[SURV=Reduce <60> points of Hunger.]	0	1	0	61.8928375132676
+0F000F77	ccBGSSSE001_FoodSoupCrabStewHOT_Disabled	Hot Crab Stew	Consumed out of combat, it restores 75 Stamina and Magicka.,Restores 1 points of Stamina per second for 1800 seconds.,[SURV=Reduce <80> points of Hunger.],[SURV=Warmth is increased by 25 points for 300 seconds.],[SURV=Reduce 200 points of Cold.]	200	1	0	0
+0F000F76	AlchFood_CrabStew	Crab Stew	Consumed out of combat, it restores 75 Stamina and Magicka.,Restores 1 points of Stamina per second for 1800 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+0F000F25	AlchFood_RawSlaughterfish	Raw Slaughterfish	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F000F0C	ccBGSSSE001_FoodSoupTomatoCrabBisqueHOT_Disabled	Hot Roasted Tomato Crab Bisque	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka is increased by 2 points for 1200 seconds.,[SURV=Reduce <80> points of Hunger.],[SURV=Warmth is increased by 25 points for 300 seconds.],[SURV=Reduce 200 points of Cold.],Restores 1 points of Magicka per second for 1200 seconds.	1	120	0	0
+0F000F0B	ccBGSSSE001_FoodSoupPotatoCrabChowderHOT_Disabled	Hot Potato Crab Chowder	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka regenerates 25% faster for 1200 seconds.,[SURV=Reduce <80> points of Hunger.],[SURV=Warmth is increased by 25 points for 300 seconds.],[SURV=Reduce 200 points of Cold.]	200	1	0	0
+0F000F0A	ccBGSSSE001_FoodSoupCreamyCrabBisqueHOT_Disabled	Hot Creamy Crab Bisque	Consumed out of combat, it restores 40 Stamina and Magicka.,Stamina is increased by 25 points for 1200 seconds.,[SURV=Reduce <80> points of Hunger.],[SURV=Warmth is increased by 25 points for 300 seconds.],[SURV=Reduce 200 points of Cold.],Restores 1 points of Magicka per second for 1200 seconds.	1	120	0	0
+0F000F06	AlchFood_PotatoCrabChowder	Potato Crab Chowder	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka regenerates 25% faster for 1200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+0F000F04	AlchFood_RoastedTomatoCrabBisque	Roasted Tomato Crab Bisque	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka is increased by 20 points for 1200 seconds.,Your meal improves your warmth by <25> points.,Restores 1 points of Magicka per second for 1200 seconds.	1	120	0	0
+0F000F02	AlchFood_CreamyCrabBisque	Creamy Crab Bisque	Consumed out of combat, it restores 40 Stamina and Magicka.,Stamina is increased by 25 points for 1200 seconds.,Your meal improves your warmth by <25> points.,Restores 1 points of Magicka per second for 1200 seconds.	1	120	0	0
+0F000EFE	AlchFood_RawMudcrabMeatDisabled	Raw Mudcrab Meat SNR	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F000C2D	AlchDrink_FlinAged	Flin (Aged)	Numbs your sense of pain, making you feel 80 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	30	135	0	875.05580542333
+0F0008A5	AlchFood_CookedAngler	Cooked Angler	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F0008A4	AlchFood_RawArcticChar	Raw Arctic Char	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F0008A3	AlchFood_RawArcticGrayling	Raw Arctic Grayling	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F0008A2	AlchFood_RawCod	Raw Cod	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F0008A1	AlchFood_RawScorpionFish	Raw Scorpion Fish	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F0008A0	AlchFood_RawGlassCatfish	Raw Glass Catfish	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F00089E	AlchFood_RawTripodSpiderfish	Raw Tripod Spiderfish	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F00089C	AlchFood_RawBrookBass	Raw Brook Bass	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F00089B	AlchFood_RawSalmon	Raw Salmon	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F00089A	AlchFood_CookedJuvenileMudcrab	Cooked Juvenile Mudcrab	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000898	AlchFood_RawCarp	Raw Carp	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F000897	AlchFood_RawCatfish	Raw Catfish	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F000896	AlchFood_RawDirefish	Raw Direfish	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F000891	AlchFood_RawPogfish	Raw Pogfish	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F000890	AlchFood_RawAngler	Raw Angler	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.,[SURV=Reduce <2> points of Hunger.]	0	1	0	0
+0F00088F	AlchFood_CookedGlassfish	Cooked Glassfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00088E	AlchFood_CookedAnglerLarvae	Cooked Angler Larvae	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <6> points of Hunger.]	0	1	0	0
+0F00088D	AlchFood_CookedArcticChar	Cooked Arctic Char	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00088C	AlchFood_CookedArcticGrayling	Cooked Arctic Grayling	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00088B	AlchFood_RawVampireFish	Raw Vampire Fish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <2> points of Hunger.],Its raw taste is revolting to anyone but those with a strong stomach.,Only those with a strong stomach can enjoy this meal without vomiting.	0	0.2	500	85.1339922520784
+0F00088A	AlchFood_CookedPogfish	Cooked Pogfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000888	AlchFood_CookedVampireFish	Cooked Vampire Fish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000887	AlchFood_CookedTripodSpiderfish	Cooked Tripod Spiderfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000886	AlchFood_CookedSpadefish	Cooked Spadefish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000885	AlchFood_CookedPygmySunfish	Cooked Pygmy Sunfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000884	AlchFood_CookedLyretailAnthias	Cooked Lyretail Anthias	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000883	AlchFood_CookedGoldfish	Cooked Goldfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000882	AlchFood_CookedGlassCatfish	Cooked Glass Catfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000881	AlchFood_CookedAngelfish	Cooked Angelfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F000880	AlchFood_CookedDirefish	Cooked Direfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00087F	AlchFood_CookedCatfish	Cooked Catfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00087E	AlchFood_CookedCarp	Cooked Carp	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00087D	AlchFood_CookedScorpionFish	Cooked Scorpion Fish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00087C	AlchFood_CookedBrookBass	Cooked Brook Bass	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00087B	AlchFood_CookedPearlfish	Cooked Pearlfish	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0F00087A	AlchFood_CookedCod	Cooked Cod	Consumed out of combat, it restores 40 Stamina.,[SURV=Reduce <60> points of Hunger.]	0	1	0	0
+0403D125	AlchFood_RawAshHopperLeg	Raw Ash Hopper Leg	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 30 Stamina.	30	1	0	0
+0403CF72	AlchFood_CookedBoarMeat	Cooked Boar Meat	Consumed out of combat, it restores 135 Stamina.	135	1	0	0
+0403CD5B	AlchFood_HorkerAndAshYamStew	Horker and Ash Yam Stew	Consumed out of combat, it restores 150 Stamina and Magicka.,Restores 1 points of Stamina per second for 3200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+0403BD15	AlchFood_RawAshHopperMeat	Raw Ash Hopper Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 35 Stamina.	35	1	0	0
+0403BD14	AlchFood_RawBoarMeat	Raw Boar Meat	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 50 Stamina.	50	1	0	0
+0403572F	AlchDrink_AshfireMead	Ashfire Mead	Numbs your sense of pain, making you feel 80 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 25% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	25	45	0	261.337883900602
+040320DF	AlchDrink_EmberbrandWine2	Emberbrand Wine	Numbs your sense of pain, making you feel 130 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 60% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	60	90	0	955.595436963374
+04024E0B	AlchDrink_SadrisSujamma	Sadri's Sujamma	Numbs your sense of pain, making you feel 90 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	30	135	0	996.101341768993
+040248CE	AlchDrink_Mazte	Mazte	Numbs your sense of pain, making you feel 20 points healthier for 300 seconds.,Resists 20% of frost damage for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 10% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	10	45	0	341.261763060429
+040248CC	AlchDrink_Shein	Shein	Numbs your sense of pain, making you feel 50 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 25% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	25	90	0	334.043776201996
+40207000000	AlchDrink_Sujamma	Sujamma	Numbs your sense of pain, making you feel 85 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	30	135	0	935.400468314548
+4020700000	AlchDrink_Flin	Flin	Numbs your sense of pain, making you feel 75 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 10% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	10	90	0	521.799633215238
+402060000000	AlchFood_AshYam	Ash Yam	Its raw taste is revolting to anyone but those with a strong stomach.,Consumed out of combat, it restores 10 Stamina.	10	1	0	0
+3011801	AlchFood_LavenderHoneyDumpling	Lavender Honey Dumpling	Consumed out of combat, it restores 15 Stamina and Magicka.,Resists 5% of magic for 1200 seconds.	5	120	0	0
+030117FF	AlchFood_ChickenDumpling	Chicken Dumpling	Consumed out of combat, it restores 15 Stamina and Magicka.,One-handed weapons do 5% more damage for 1200 seconds.,Two-handed weapons do 5% more damage for 1200 seconds.	5	120	0	0
+3003541	BYOHFoodSalmonCooked02_Disabled	Cooked Salmon	Consumed out of combat, it restores 40 Stamina.	40	1	0	0
+3003540	AlchFood_RawMudcrabLegs	Raw Mudcrab Legs	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	60	1	0	0
+0300353F	AlchFood_CookedMudcrabLegs	Cooked Mudcrab Legs	Consumed out of combat, it restores 40 Stamina.	40	1	0	0
+0300353E	AlchFood_ClamChowder	Clam Chowder	Consumed out of combat, it restores 75 Stamina and Magicka.,Your meal improves your warmth by <25> points.	0	54	0	0
+0300353D	AlchFood_PotatoSoup	Potato Soup	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka regenerates 10% faster for 1200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+0300353C	AlchFood_Butter	Butter	Consumed out of combat, it restores 2 Stamina and Magicka.	2	1	0	0
+0300353B	AlchFood_SnowberryCrostata	Snowberry Crostata	Consumed out of combat, it restores 15 Stamina and Magicka.,Resists 5% of frost damage for 1200 seconds.	5	120	0	0
+0300353A	AlchFood_JazbayCrostata	Jazbay Crostata	Consumed out of combat, it restores 15 Stamina and Magicka.,Resists 5% of fire damage for 1200 seconds.	5	120	0	0
+3003539	AlchFood_JuniperBerryCrostata	Juniper Berry Crostata	Consumed out of combat, it restores 15 Stamina and Magicka.,Resists 5% of shock damage for 1200 seconds.	5	120	0	0
+3003538	Alch_Flour	Flour	Its raw taste is revolting to anyone but those with a strong stomach.	5	1	0	0
+3003537	AlchFood_PotatoBread	Potato Bread	Consumed out of combat, it restores 40 Stamina and Magicka.,Health regenerates 75% faster for 1200 seconds.	75	120	0	0
+3003536	AlchDrink_SurilieBrothersWine	Surilie Brothers Wine	Numbs your sense of pain, making you feel 85 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	30	135	0	935.400468314548
+3003535	AlchDrink_ArgonianBloodwine	Argonian Bloodwine	Numbs your sense of pain, making you feel 75 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!,Resists 10% of poison effects for 900 seconds.	10	90	0	815.087352679528
+3003534	AlchDrink_BottledMilk	Bottled Milk	Consumed out of combat, it restores 10 Stamina and Magicka.,Stamina is increased by 5 points for 1200 seconds.	5	120	0	0
+3003533	AlchFood_AppleDumpling	Apple Dumpling	Consumed out of combat, it restores 5 Stamina and Magicka.,Ranged weapons deal 5% more damage for 1200 seconds.	5	120	0	0
+030009DC	AlchFood_GarlicBread	Garlic Bread	Consumed out of combat, it restores 20 Stamina and Magicka.,Increases Disease Resistance by 20% for 1200 seconds.	20	120	0	0
+030009DB	AlchFood_BraidedBread	Braided Bread	Consumed out of combat, it restores 40 Stamina and Magicka.,Carry weight is increased by 10 points for 1200 seconds.	10	120	1	2438.36867617677
+0010D666	AlchFood_Gourd	Gourd	Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+00107A8A	AlchDrink_JuniperBerryMead	Juniper Berry Mead	Numbs your sense of pain, making you feel 40 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 20% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!,Health regenerates 25% faster for 300 seconds.	25	30	0.05	194.618933193391
+0010394D	AlchFood_Honey	Honey	Consumed out of combat, it restores 15 Stamina and Magicka.,Magicka is increased by 10 points for 300 seconds.	10	30	0	0
+0010211A	AlchFood_RawMammothSnoutDA03	Raw Mammoth Snout	Consumed out of combat, it restores 125 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	250	1	0	0
+0010201E	MS12WPRestoreHealth04	The White Phial (Full)	Restores 500 points of Health for 0 seconds.,	0	0.1	0	3257.87974161312
+0010201D	Alch_TheWhitePhialFull	The White Phial (Full)	One-handed weapons do 50% more damage for 30 seconds.,Two-handed weapons do 50% more damage for 30 seconds.,Ranged weapons deal 50% more damage for 30 seconds.,,Armor penetration with ranged weapons is increased by 50 for 30 seconds.,Armor penetration with one-handed weapons is increased by 50 for 30 seconds.,Armor penetration with two-handed weapons is increased by 50 for 30 seconds.	50	3	0.25	371.357025079606
+0010201C	MS12WPFortifyMagicka01	The White Phial (Full)	Magicka is increased by 500 points for 300 seconds.,	0	0.1	0	5885.61221021278
+0010201B	MS12WPFortifySkillSneak03	The White Phial (Full)	You are 20% harder to detect for 3600 seconds.,	0	0.1	0	4375.27902711665
+0010201A	MS12WPFortifyStamina01	The White Phial (Full)	Stamina is increased by 500 points for 300 seconds.,	0	0.1	0	5885.61221021278
+102019	MS12WPResistMagic50	The White Phial (Full)	Resists 100% of magic for 60 seconds.,	0	0.1	0	568.769605100714
+000FFA02	REQ_Potion_FortifyStaminaRegeneration5	Potion of Fortify Stamina Regeneration (Remarkable)	Stamina regenerates 100% faster for 300 seconds.	100	30	0.05	334.043776201996
+000FFA01	Alch_PotionFortifyStamina05	Potion of Fortify Stamina (Remarkable)	Stamina is increased by 100 points for 300 seconds.	100	30	0.15	1002.13132860599
+000FFA00	REQ_Potion_FortifyMagickaRegeneration5	Potion of Fortify Magicka Regeneration (Remarkable)	Magicka regenerates 100% faster for 300 seconds.	100	30	0.1	668.087552403991
+000FF9FF	Alch_PotionFortifyHealthRegeneration05	Potion of Fortify Health Regeneration (Remarkable)	Health regenerates 200% faster for 600 seconds.	200	60	0.05	1534.86214488092
+000FF9FE	Alch_PotionFortifyCarryWeight05	Potion of Fortify Carry Weight (Remarkable)	Carrying capacity increases by 60 for 600 seconds.	60	60	0.0725	591.930553524441
+000FF9FD	Alch_PotionFortifyMagicka05	Potion of Fortify Magicka (Remarkable)	Magicka is increased by 100 points for 300 seconds.	100	30	0.15	1002.13132860599
+000FF9FC	Alch_PotionFortifyHealth05	Potion of Fortify Health (Remarkable)	Health is increased by 100 points for 300 seconds.	100	30	0.2	1336.17510480798
+000F9642	Alch_IceWraithEssence	Ice Wraith Essence	Resists 75% of frost damage for 15 seconds.	75	1.5	0.25	45.1032444384309
+000F84C6	TGPotionofPlunder06	Potion of Plunder (Surpassing)	Carrying capacity increases by 70 for 300 seconds.,Stamina is increased by 70 points for 300 seconds.	70	30	0.15	1004.08675783722
+000F84C5	TGPotionofPlunder05	Potion of Plunder (Remarkable)	Carrying capacity increases by 60 for 300 seconds.,Stamina is increased by 60 points for 300 seconds.	60	30	0.15	847.480610813591
+000F84C4	TGPotionofPlunder04	Potion of Plunder (Good)	Carrying capacity increases by 50 for 300 seconds.,Stamina is increased by 50 points for 300 seconds.	50	30	0.15	693.474346986149
+000F84C3	TGPotionofPlunder03	Potion of Plunder (Fair)	Carrying capacity increases by 40 for 300 seconds.,Stamina is increased by 40 points for 300 seconds.	40	30	0.15	542.537030449331
+000F84C2	TGPotionofPlunder02	Potion of Plunder (Faint)	Carrying capacity increases by 30 for 300 seconds.,Stamina is increased by 30 points for 300 seconds.	30	30	0.15	395.363684788423
+000F84C1	TGPotionofPlunder01	Potion of Plunder (Diluted)	Carrying capacity increases by 20 for 300 seconds.,Stamina is increased by 20 points for 300 seconds.	20	30	0.15	253.102474269818
+000F84C0	TGPotionofKeenShot06	Potion of Keenshot (Surpassing)	Ranged weapons deal 35% more damage for 60 seconds.,Armor penetration with ranged weapons is increased by 5 for 60 seconds.	5	6	0.25	100.153476773107
+000F84BF	TGPotionofKeenShot05	Potion of Keenshot (Remarkable)	Ranged weapons deal 30% more damage for 60 seconds.,Armor penetration with ranged weapons is increased by 5 for 60 seconds.	5	6	0.25	86.1763212324044
+000F84BE	TGPotionofKeenShot04	Potion of Keenshot (Good)	Ranged weapons deal 25% more damage for 60 seconds.,Armor penetration with ranged weapons is increased by 5 for 60 seconds.	5	6	0.25	72.4312062118949
+000F84BD	TGPotionofKeenShot03	Potion of Keenshot (Fair)	Ranged weapons deal 20% more damage for 60 seconds.,Armor penetration with ranged weapons is increased by 5 for 60 seconds.	5	6	0.25	58.9599958524893
+000F84BC	TGPotionofKeenShot02	Potion of Keenshot (Faint)	Ranged weapons deal 15% more damage for 60 seconds.,Armor penetration with ranged weapons is increased by 5 for 60 seconds.	5	6	0.25	45.8247212617819
+000F84BB	TGPotionofKeenShot01	Potion of Keenshot (Diluted)	Ranged weapons deal 10% more damage for 60 seconds.,Armor penetration with ranged weapons is increased by 5 for 60 seconds.	5	6	0.25	33.1278565178512
+000F84BA	TGPotionofConflict06	Potion of Conflict (Surpassing)	One-handed weapons do 35% more damage for 60 seconds.,Armor penetration with one-handed weapons is increased by 5 for 60 seconds.	5	6	0.25	100.153476773107
+000F84B9	TGPotionofConflict05	Potion of Conflict (Remarkable)	One-handed weapons do 30% more damage for 60 seconds.,Armor penetration with one-handed weapons is increased by 5 for 60 seconds.	5	6	0.25	86.1763212324044
+000F84B8	TGPotionofConflict04	Potion of Conflict (Good)	One-handed weapons do 25% more damage for 60 seconds.,Armor penetration with one-handed weapons is increased by 5 for 60 seconds.	5	6	0.25	72.4312062118949
+000F84B7	TGPotionofConflict03	Potion of Conflict (Fair)	One-handed weapons do 20% more damage for 60 seconds.,Armor penetration with one-handed weapons is increased by 5 for 60 seconds.	5	6	0.25	58.9599958524893
+000F84B6	TGPotionofConflict02	Potion of Conflict (Faint)	One-handed weapons do 15% more damage for 60 seconds.,Armor penetration with one-handed weapons is increased by 5 for 60 seconds.	5	6	0.25	45.8247212617819
+000F84B5	TGPotionofConflict01	Potion of Conflict (Diluted)	One-handed weapons do 10% more damage for 60 seconds.,Armor penetration with one-handed weapons is increased by 5 for 60 seconds.	5	6	0.25	33.1278565178512
+000F84B3	TGPotionofEscape06	Potion of Escape (Surpassing)	Grants invisibility for 60 seconds.,Restores 150 points of Health for 0 seconds.	150	1	0.25	420.762197168662
+000F84B2	TGPotionofEscape05	Potion of Escape (Remarkable)	Grants invisibility for 55 seconds.,Restores 125 points of Health for 0 seconds.	125	1	0.25	376.759157769294
+000F84B1	TGPotionofEscape04	Potion of Escape (Good)	Grants invisibility for 50 seconds.,Restores 100 points of Health for 0 seconds.	100	1	0.25	333.277065583533
+000F84B0	TGPotionofEscape03	Potion of Escape (Fair)	Grants invisibility for 45 seconds.,Restores 75 points of Health for 0 seconds.	75	1	0.25	290.393344348723
+000F84AF	TGPotionofEscape02	Potion of Escape (Faint)	Grants invisibility for 40 seconds.,Restores 50 points of Health for 0 seconds.	50	1	0.25	248.224141457261
+000F84AE	TGPotionofEscape01	Potion of Escape (Diluted)	Grants invisibility for 30 seconds.,Restores 25 points of Health for 0 seconds.	25	1	0.25	176.041786489218
+000F84AC	TGPotionofLarceny06	Potion of Larceny (Surpassing)	Lockpicking skill is increased by 0 for 60 seconds.,Pickpocketing is 40% easier for 60 seconds.,Lockpicking expertise is increased by 5 for 60 seconds.	5	6	0.5	126.665114188204
+000F84AB	TGPotionofLarceny05	Potion of Larceny (Remarkable)	Lockpicking skill is increased by 0 for 60 seconds.,Pickpocketing is 35% easier for 60 seconds.,Lockpicking expertise is increased by 4 for 60 seconds.	4	6	0.5	107.898760596556
+000F84AA	TGPotionofLarceny04	Potion of Larceny (Good)	Lockpicking skill is increased by 0 for 60 seconds.,Pickpocketing is 30% easier for 60 seconds.,Lockpicking expertise is increased by 4 for 60 seconds.	4	6	0.5	93.9216050558537
+000F84A9	TGPotionofLarceny03	Potion of Larceny (Fair)	Lockpicking skill is increased by 0 for 60 seconds.,Pickpocketing is 25% easier for 60 seconds.,Lockpicking expertise is increased by 3 for 60 seconds.	3	6	0.5	75.7034565744074
+000F84A8	TGPotionofLarceny02	Potion of Larceny (Faint)	Lockpicking skill is increased by 0 for 60 seconds.,Pickpocketing is 20% easier for 60 seconds.,Lockpicking expertise is increased by 2 for 60 seconds.	2	6	0.5	57.9085070760598
+000F84A7	TGPotionofLarceny01	Potion of Larceny (Diluted)	Lockpicking skill is increased by 0 for 60 seconds.,Pickpocketing is 15% easier for 60 seconds.,Lockpicking expertise is increased by 1 for 60 seconds.	1	6	0.5	40.6693929579854
+000F693F	AlchDrink_BlackBriarReserve	Black-Briar Reserve	Numbs your sense of pain, making you feel 100 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 50% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	50	90	0	716.038509317423
+000F4320	AlchFood_ElsweyrFondue	Elsweyr Fondue	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka is increased by 50 points for 1800 seconds.,Restores 1 points of Magicka per second for 1800 seconds.	1	180	0	0
+000F431E	AlchFood_VegetableSoup	Vegetable Soup	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka regenerates 20% faster for 1200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+000F431D	AlchFood_VenisonStew	Venison Stew	Consumed out of combat, it restores 75 Stamina and Magicka.,Restores 1 points of Stamina per second for 1800 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+000F431C	AlchFood_TomatoSoup	Tomato Soup	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka regenerates 25% faster for 1200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+000F431B	AlchFood_CabbagePotatoSoup	Cabbage Potato Soup	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka regenerates 20% faster for 1200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+000F4315	AlchFood_HorkerStew	Horker Stew	Consumed out of combat, it restores 75 Stamina and Magicka.,Restores 1 points of Stamina per second for 1800 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+000F4314	AlchFood_BeefStew	Beef Stew	Consumed out of combat, it restores 75 Stamina and Magicka.,Health is increased by 50 points for 1800 seconds.,Carry weight is increased by 25 points for 1800 seconds.,Your meal improves your warmth by <25> points.	0	54	0	10435.9926643048
+000F257E	AlchDrink_JessicasWine	Jessica's Wine	Numbs your sense of pain, making you feel 100 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	30	135	0	1118.50199928253
+000F2011	AlchFood_RawChickenBreast	Raw Chicken Breast	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	60	1	0	0
+000EDB2E	AlchFood_RawDogMeat	Raw Dog Meat	Consumed out of combat, it restores 40 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	80	1	0	0
+000EBA03	AlchFood_RawClamMeat	Raw Clam Meat	Consumed out of combat, it restores 10 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	20	1	0	0
+000EBA02	AlchFood_CabbageSoup	Cabbage Soup	Consumed out of combat, it restores 40 Stamina and Magicka.,Magicka regenerates 15% faster for 1200 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+000EBA01	AlchFood_AppleCabbageStew	Apple Cabbage Stew	Consumed out of combat, it restores 50 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.,Your meal improves your warmth by <25> points.	0	54	0	0
+0	AlchFood_CookedChickenBreast	Cooked Chicken Breast	Consumed out of combat, it restores 50 Stamina.	50	1	0	0
+0	AlchFood_CookedSkeeverMeat	Cooked Skeever Meat	Consumed out of combat, it restores 30 Stamina.	30	1	0	0
+000E41B8	Alch_SpiderVenomCrude	Spider Venom (Crude)	A Frostbite Spider's blood-freezing poison - Only few know the secret of its proper extraction. It deals 2 points damage to Health and Stamina for 60 seconds. ,The target is paralyzed for 2 seconds.	0	0.2	250	196.417658604457
+000DC172	AlchDrug_BalmoraBlue	Balmora Blue	One-handed weapons do 75% more damage for 120 seconds.,Two-handed weapons do 75% more damage for 120 seconds.,Unarmed strikes do 23 additional damage.,Concentrated poison temporarily reduces maximum and current Magicka by 15 points for 500 seconds.,Concentrated poison temporarily reduces maximum and current Stamina by 2 points for 500 seconds.,Stamina is increased by 750 points for 120 seconds.,Can cause terrible side effects...,Only those with a strong stomach can enjoy this meal without vomiting.,Stamina regenerates 5% faster for 120 seconds.	5	12	0.05	6825459.06304541
+000D6980	REQ_Potion_FortifySpeech4	Potion of Fortify Speech (Good)	Increases the imbiber's speech craft by 50 points for 60 seconds.	50	6	0.25	132.670201535582
+000D697F	REQ_Potion_FortifySpeech3	Potion of Fortify Speech (Fair)	Increases the imbiber's speech craft by 40 points for 60 seconds.	40	6	0.25	103.794029992672
+000D6949	REQ_Potion_FortifySpeech2	Potion of Fortify Speech (Faint)	Increases the imbiber's speech craft by 30 points for 60 seconds.	30	6	0.25	75.637952533777
+000D6948	REQ_Potion_FortifySpeech1	Potion of Fortify Speech (Diluted)	Increases the imbiber's speech craft by 20 points for 60 seconds.	20	6	0.25	48.4216271538619
+000D055E	AlchDrink_StrosMKaiRum	Stros M'Kai Rum	Numbs your sense of pain, making you feel 95 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 60% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	60	135	0	1057.14054668878
+000CD883	Alch_NightshadeExtract	Nightshade Extract	Drains the target's Health by 1 points per second for 10 seconds.	1	1	1.5	1.5
+000CD614	AlchFood_HomecookedMeal	Homecooked Meal	With this delicious meal, your beloved spouse has proven to be one of the best cooks you've ever met - even smelling it makes you feel stronger and motivated, increasing Stamina and Magicka regeneration by 50% for 3600 seconds.,	50	360	0	0
+000CADFB	AlchFood_SpicedBeef	Spiced Beef	Consumed out of combat, it restores 175 Stamina.	175	1	0	0
+000C5349	AlchDrink_AltoBlancWine	Alto Blanc Wine	Numbs your sense of pain, making you feel 75 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	30	135	0	815.087352679528
+000C5348	AlchDrink_VillageWhiteWine	Village White Wine	Numbs your sense of pain, making you feel 30 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 20% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	20	90	0	190.445081081706
+000B91D7	AlchDrink_CyrodilicBrandy	Cyrodilic Brandy	Numbs your sense of pain, making you feel 80 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 25% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	25	90	0	560.190017440111
+000AED90	Alch_SleepingTreeSap	Sleeping Tree Sap	,Health is increased by 100 points for 45 seconds.,	0	4.5	0	165.792072612655
+000AE723	Alch_PotionCureDisease	Potion of Cure Disease	Cures all diseases.	0	1	0.25	0.25
+0009380D	AlchDrink_ArgonianAle	Argonian Ale	Numbs your sense of pain, making you feel 75 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 50% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	50	45	0	243.428136380811
+85368	AlchDrink_MulledWine	Mulled Wine	Numbs your sense of pain, making you feel 50 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 25% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	25	90	0	334.043776201996
+00074A3B	Alch_PoisonParalysis05	Poison of Paralysis (Remarkable)	The target is paralyzed for 5 seconds.	0	0.5	250	116.629123942101
+00074A3A	Alch_PoisonParalysis04	Poison of Paralysis (Great)	The target is paralyzed for 4 seconds.	0	0.4	250	91.2443536555481
+00074A39	Alch_PoisonParalysis03	Poison of Paralysis (Good)	The target is paralyzed for 3 seconds.	0	0.3	250	66.492611292391
+00074A38	Alch_PoisonParalysis02	Poison of Paralysis (Decent)	The target is paralyzed for 2 seconds.	0	0.2	250	42.5669961260392
+00073F94	REQ_Poison_DamageMagickaRegeneration5	Poison of Damage Magicka Regeneration (Remarkable)	Decreases the target's Magicka regeneration by 100% for 60 seconds.	100	6	0.25	284.384802550357
+00073F93	REQ_Poison_DamageMagickaRegeneration4	Poison of Damage Magicka Regeneration (Good)	Decreases the target's Magicka regeneration by 100% for 45 seconds.	100	4.5	0.25	207.240090765819
+00073F92	REQ_Poison_DamageMagickaRegeneration3	Poison of Damage Magicka Regeneration (Fair)	Decreases the target's Magicka regeneration by 100% for 30 seconds.	100	3	0.25	132.670201535582
+00073F91	REQ_Poison_DamageMagickaRegeneration2	Poison of Damage Magicka Regeneration (Faint)	Decreases the target's Magicka regeneration by 100% for 20 seconds.	100	2	0.25	84.9323232317124
+00073F90	REQ_Poison_DamageMagickaRegeneration1	Poison of Damage Magicka Regeneration (Diluted)	Decreases the target's Magicka regeneration by 100% for 10 seconds.	100	1	0.25	39.6223298115279
+00073F8E	REQ_Poison_DamageStaminaRegeneration4	Poison of Damage Stamina Regeneration (Good)	Decreases the target's Stamina regeneration by 100% for 60 seconds.	100	6	0.3	341.261763060429
+00073F8D	REQ_Poison_DamageStaminaRegeneration3	Poison of Damage Stamina Regeneration (Fair)	Decreases the target's Stamina regeneration by 100% for 45 seconds.	100	4.5	0.3	248.688108918983
+00073F8C	REQ_Poison_DamageStaminaRegeneration2	Poison of Damage Stamina Regeneration (Faint)	Decreases the target's Stamina regeneration by 100% for 30 seconds.	100	3	0.3	159.204241842698
+00073F8B	REQ_Poison_DamageStaminaRegeneration1	Poison of Damage Stamina Regeneration (Diluted)	Decreases the target's Stamina regeneration by 100% for 15 seconds.	100	1.5	0.3	74.2714050159211
+00073F61	REQ_Poison_Fear5	Poison of Fear (Remarkable)	Creatures and people up to level 23 flee from combat for 30 seconds.	23	3	2.5	263.435323681982
+00073F60	REQ_Poison_Fear4	Poison of Fear (Good)	Creatures and people up to level 18 flee from combat for 30 seconds.	18	3	2.5	201.17459907123
+00073F5F	REQ_Poison_Fear3	Poison of Fear (Fair)	Creatures and people up to level 13 flee from combat for 30 seconds.	13	3	2.5	140.640718486576
+00073F5E	REQ_Poison_Fear2	Poison of Fear (Faint)	Creatures and people up to level 8 flee from combat for 30 seconds.	8	3	2.5	82.4465286189982
+00073F5D	REQ_Poison_Frenzy5	Poison of Frenzy (Remarkable)	Creatures and people up to level 23 will attack anything nearby for 10 seconds.	23	1	7.5	236.027106873761
+00073F5C	REQ_Poison_Frenzy4	Poison of Frenzy (Good)	Creatures and people up to level 18 will attack anything nearby for 10 seconds.	18	1	7.5	180.244083942942
+00073F5B	REQ_Poison_Frenzy3	Poison of Frenzy (Fair)	Creatures and people up to level 13 will attack anything nearby for 10 seconds.	13	1	7.5	126.008241526131
+00073F5A	REQ_Poison_Frenzy2	Poison of Frenzy (Faint)	Creatures and people up to level 8 will attack anything nearby for 10 seconds.	8	1	7.5	73.868664800695
+00073F59	REQ_Poison_WeaknessMagic5	Poison of Weakness to Magic (Remarkable)	The target is 100% weaker to magic for 30 seconds.	100	3	0.5	265.340403071164
+00073F58	REQ_Poison_WeaknessMagic4	Poison of Weakness to Magic (Good)	The target is 85% weaker to magic for 30 seconds.	85	3	0.5	221.903525836116
+00073F57	REQ_Poison_WeaknessMagic3	Poison of Weakness to Magic (Fair)	The target is 70% weaker to magic for 30 seconds.	70	3	0.5	179.230216148959
+00073F56	REQ_Poison_WeaknessMagic2	Poison of Weakness to Magic (Faint)	The target is 55% weaker to magic for 30 seconds.	55	3	0.5	137.468230669022
+00073F55	REQ_Poison_WeaknessShock5	Poison of Weakness to Shock (Remarkable)	The target is 100% weaker to shock damage for 30 seconds.	100	3	0.35	185.738282149815
+00073F54	REQ_Poison_WeaknessShock4	Poison of Weakness to Shock (Good)	The target is 85% weaker to shock damage for 30 seconds.	85	3	0.35	155.332468085281
+00073F53	REQ_Poison_WeaknessShock3	Poison of Weakness to Shock (Fair)	The target is 70% weaker to shock damage for 30 seconds.	70	3	0.35	125.461151304271
+00073F52	REQ_Poison_WeaknessShock1	Poison of Weakness to Shock (Diluted)	The target is 40% weaker to shock damage for 30 seconds.	40	3	0.35	67.7902780154067
+00073F50	REQ_Poison_WeaknessFrost5	Poison of Weakness to Frost (Remarkable)	The target is 100% weaker to frost damage for 30 seconds.	100	3	0.25	132.670201535582
+00073F4F	REQ_Poison_WeaknessFrost4	Poison of Weakness to Frost (Good)	The target is 85% weaker to frost damage for 30 seconds.	85	3	0.25	110.951762918058
+00073F4E	REQ_Poison_WeaknessFrost3	Poison of Weakness to Frost (Fair)	The target is 70% weaker to frost damage for 30 seconds.	70	3	0.25	89.6151080744795
+00073F4D	REQ_Poison_WeaknessFrost2	Poison of Weakness to Frost (Faint)	The target is 55% weaker to frost damage for 30 seconds.	55	3	0.25	68.7341153345108
+00073F4C	REQ_Poison_WeaknessFire5	Poison of Weakness to Fire (Remarkable)	The target is 100% weaker to fire damage for 30 seconds.	100	3	0.3	159.204241842698
+00073F4B	REQ_Poison_WeaknessFire4	Poison of Weakness to Fire (Good)	The target is 85% weaker to fire damage for 30 seconds.	85	3	0.3	133.14211550167
+00073F4A	REQ_Poison_WeaknessFire3	Poison of Weakness to Fire (Fair)	The target is 70% weaker to fire damage for 30 seconds.	70	3	0.3	107.538129689375
+00073F49	REQ_Poison_WeaknessFire2	Poison of Weakness to Fire (Faint)	The target is 55% weaker to fire damage for 30 seconds.	55	3	0.3	82.480938401413
+00073F48	Alch_PoisonLingeringDamageStamina05	Poison of Lingering Damage Stamina (Remarkable)	Drains the target's Stamina by 11 points per second for 30 seconds.	11	3	0.9	42.1315894248603
+00073F47	Alch_PoisonLingeringDamageStamina04	Poison of Lingering Damage Stamina (Great)	Drains the target's Stamina by 9 points per second for 30 seconds.	9	3	0.9	33.7864568386766
+00073F46	Alch_PoisonLingeringDamageStamina03	Poison of Lingering Damage Stamina (Good)	Drains the target's Stamina by 7 points per second for 30 seconds.	7	3	0.9	25.6261718165137
+00073F45	Alch_PoisonLingeringDamageStamina02	Poison of Lingering Damage Stamina (Decent)	Drains the target's Stamina by 5 points per second for 30 seconds.	5	3	0.9	17.6987622110366
+00073F44	Alch_PoisonDamageStamina05	Poison of Damage Stamina (Remarkable)	Immediately drains the target's Stamina by 250 points.	250	1	0.9	390.81976474943
+00073F43	Alch_PoisonDamageStamina04	Poison of Damage Stamina (Great)	Immediately drains the target's Stamina by 200 points.	200	1	0.9	305.756363634165
+00073F42	Alch_PoisonDamageStamina03	Poison of Damage Stamina (Good)	Immediately drains the target's Stamina by 140 points.	140	1	0.9	206.530096844594
+00073F41	Alch_PoisonDamageStamina02	Poison of Damage Stamina (Decent)	Immediately drains the target's Stamina by 100 points.	100	1	0.9	142.6403873215
+00073F40	REQ_Poison_LingeringDamageMagicka5	Poison of Lingering Damage Magicka (Remarkable)	Drains the target's Magicka by 3 points per second for 20 seconds.	3	2	5	35.8869359655395
+00073F3F	REQ_Poison_LingeringDamageMagicka4	Poison of Lingering Damage Magicka (Good)	Drains the target's Magicka by 2 points per second for 20 seconds.	2	2	5	22.9739670999407
+00073F3E	REQ_Poison_LingeringDamageMagicka3	Poison of Lingering Damage Magicka (Fair)	Drains the target's Magicka by 2 points per second for 15 seconds.	2	1.5	5	16.7418476105086
+00073F3D	REQ_Poison_LingeringDamageMagicka2	Poison of Lingering Damage Magicka (Faint)	Drains the target's Magicka by 1 points per second for 15 seconds.	1	1.5	5	7.81034807994308
+00073F3C	Alch_PoisonDamageMagicka05	Poison of Damage Magicka (Remarkable)	Immediately drains the target's Magicka by 170 points.	170	1	1.1	312.526248409541
+00073F3B	Alch_PoisonDamageMagicka04	Poison of Damage Magicka (Great)	Immediately drains the target's Magicka by 150 points.	150	1	1.1	272.328485058377
+00073F3A	Alch_PoisonDamageMagicka03	Poison of Damage Magicka (Good)	Immediately drains the target's Magicka by 130 points.	130	1	1.1	232.664633450691
+00073F39	Alch_PoisonDamageMagicka02	Poison of Damage Magicka (Decent)	Immediately drains the target's Magicka by 110 points.	110	1	1.1	193.60859745066
+00073F38	Alch_PoisonLingeringDamageHealth05	Poison of Lingering Damage Health (Remarkable)	Drains the target's Health by 5 points per second for 300 seconds.	5	30	1.5	371.357025079606
+00073F37	Alch_PoisonLingeringDamageHealth04	Poison of Lingering Damage Health (Great)	Drains the target's Health by 4 points per second for 300 seconds.	4	30	1.5	290.529762923172
+00073F36	Alch_PoisonLingeringDamageHealth03	Poison of Lingering Damage Health (Good)	Drains the target's Health by 3 points per second for 300 seconds.	3	30	1.5	211.718115378927
+00073F35	Alch_PoisonLingeringDamageHealth02	Poison of Lingering Damage Health (Decent)	Drains the target's Health by 2 points per second for 300 seconds.	2	30	1.5	135.536926915343
+00073F34	Alch_PoisonDamageHealth05	Poison of Damage Health (Remarkable)	Immediately drains the target's Health by 120 points.	120	1	1.5	290.529762923172
+00073F33	Alch_PoisonDamageHealth04	Poison of Damage Health (Great)	Immediately drains the target's Health by 100 points.	100	1	1.5	237.733978869167
+00073F32	Alch_PoisonDamageHealth03	Poison of Damage Health (Good)	Immediately drains the target's Health by 80 points.	80	1	1.5	185.990278505801
+00073F31	Alch_PoisonDamageHealth02	Poison of Damage Health (Decent)	Immediately drains the target's Health by 60 points.	60	1	1.5	135.536926915343
+000722C7	AlchFood_CookedPheasantBreast	Cooked Pheasant Breast	Consumed out of combat, it restores 50 Stamina.	50	1	0	0
+000722C2	AlchFood_CookedRabbitLeg	Cooked Rabbit Leg	Consumed out of combat, it restores 50 Stamina.	50	1	0	0
+000722BD	AlchFood_CookedVenison	Cooked Venison	Consumed out of combat, it restores 150 Stamina.	150	1	0	0
+000722BB	AlchFood_CookedMammothSnout	Cooked Mammoth Snout	Consumed out of combat, it restores 200 Stamina.	200	1	0	0
+000722B0	AlchFood_CookedHorseMeat	Cooked Horse Meat	Consumed out of combat, it restores 120 Stamina.	120	1	0	0
+0007224E	AlchFood_CookedHorkerMeat	Cooked Horker Meat	Consumed out of combat, it restores 110 Stamina.	110	1	0	0
+0007224C	AlchFood_CookedGoatLeg	Cooked Goat Leg	Consumed out of combat, it restores 130 Stamina.	130	1	0	0
+72100000000	AlchFood_CookedBeef	Cooked Beef	Consumed out of combat, it restores 140 Stamina.	140	1	0	0
+000669A5	AlchFood_Leek	Leek	Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+000669A4	AlchFood_RawMammothSnout	Raw Mammoth Snout	Consumed out of combat, it restores 125 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	250	1	0	0
+000669A3	AlchFood_MammothCheeseBowl	Mammoth Cheese Bowl	Consumed out of combat, it restores 40 Stamina and Magicka.,Its raw taste is revolting to anyone but those with a strong stomach.,Restores 1 points of Health per second for 300 seconds.	1	30	0	0
+000669A2	AlchFood_RawVenison	Raw Venison	Consumed out of combat, it restores 100 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	200	1	0	0
+6630	IVDGhostPotion	Potion of the Phantom	Appear spectral for 30 seconds.	1	3	0	0
+00065C9F	AlchFood_RawSalmonSteak	Raw Salmon Steak	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	60	1	0	0
+00065C9E	AlchFood_RawRabbitLeg	Raw Rabbit Leg	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	60	1	0	0
+00065C9D	AlchFood_RawPheasantBreast	Raw Pheasant Breast	Consumed out of combat, it restores 30 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	60	1	0	0
+00065C9C	AlchFood_RawHorseMeat	Raw Horse Meat	Consumed out of combat, it restores 90 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	180	1	0	0
+00065C9B	AlchFood_RawHorkerMeat	Raw Horker Meat	Consumed out of combat, it restores 80 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	160	1	0	0
+00065C9A	AlchFood_RawGoatLeg	Raw Goat Leg	Consumed out of combat, it restores 90 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	180	1	0	0
+00065C99	AlchFood_RawBeef	Raw Beef	Consumed out of combat, it restores 100 Stamina.,Its raw taste is revolting to anyone but those with a strong stomach.	200	1	0	0
+00065C98	AlchFood_BreadHalfLoaf	Bread Half-Loaf	Consumed out of combat, it restores 20 Stamina and Magicka.	20	1	0	0
+00065C97	AlchFood_BreadLoaf	Bread Loaf	Consumed out of combat, it restores 40 Stamina and Magicka.	40	1	0	0
+00065C39	AlchDrink_CliffRacer	Cliff Racer	Numbs your sense of pain, making you feel 70 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 40% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!,Resists 10% of frost damage for 600 seconds.	10	60	0.25	768.049315419589
+00065C38	AlchDrink_WhiteGoldTower	White-Gold Tower	Numbs your sense of pain, making you feel 60 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!,Resists 10% of fire damage for 600 seconds.	10	60	0.25	692.612770498247
+00065C37	AlchDrink_VelvetLeChance	Velvet LeChance	Numbs your sense of pain, making you feel 40 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 20% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!,Resists 10% of shock damage for 600 seconds.	10	60	0.25	545.722686450959
+00065A71	Alch_PoisonLingeringDamageStamina01	Poison of Lingering Damage Stamina (Crude)	Drains the target's Stamina by 3 points per second for 30 seconds.	3	3	0.9	10.0904206108857
+00065A70	REQ_Poison_LingeringDamageMagicka1	Poison of Lingering Damage Magicka (Diluted)	Drains the target's Magicka by 1 points per second for 10 seconds.	1	1	5	5
+00065A6F	Alch_PoisonLingeringDamageHealth01	Poison of Lingering Damage Health (Crude)	Drains the target's Health by 1 points per second for 300 seconds.	1	30	1.5	63.2302121917641
+00065A6E	REQ_Poison_WeaknessMagic1	Poison of Weakness to Magic (Diluted)	The target is 40% weaker to magic for 30 seconds.	40	3	0.5	96.8432543077239
+00065A6D	REQ_Poison_WeaknessShock2	Poison of Weakness to Shock (Faint)	The target is 55% weaker to shock damage for 30 seconds.	55	3	0.35	96.2277614683151
+00065A6C	REQ_Poison_WeaknessFrost1	Poison of Weakness to Frost (Diluted)	The target is 40% weaker to frost damage for 30 seconds.	40	3	0.25	48.4216271538619
+00065A6B	REQ_Poison_WeaknessFire1	Poison of Weakness to Fire (Diluted)	The target is 40% weaker to fire damage for 30 seconds.	40	3	0.3	58.1059525846343
+00065A6A	Alch_PoisonParalysis01	Poison of Paralysis (Crude)	The target is paralyzed for 1 seconds.	0	0.1	250	19.858205868107
+00065A69	REQ_Poison_Frenzy1	Poison of Frenzy (Diluted)	Creatures and people up to level 5 will attack anything nearby for 10 seconds.	5	1	7.5	44.0482103658007
+00065A68	REQ_Poison_Fear1	Poison of Fear (Diluted)	Creatures and people up to level 5 flee from combat for 30 seconds.	5	3	2.5	49.1632283639906
+00065A66	Alch_PoisonDamageStamina01	Poison of Damage Stamina (Crude)	Immediately drains the target's Stamina by 60 points.	60	1	0.9	81.3221561492059
+00065A65	Alch_PoisonDamageMagicka01	Poison of Damage Magicka (Crude)	Immediately drains the target's Magicka by 80 points.	80	1	1.1	136.392870904254
+00065A64	Alch_PotionCurePoison	Potion of Cure Poison	Stops poison's continuing effects.	0	1	0.2	0.2
+00064B43	AlchFood_ApplePie	Apple Pie	Consumed out of combat, it restores 50 Stamina and Magicka.,Magicka is increased by 10 points for 1200 seconds.	10	120	0	0
+00064B42	AlchFood_Tomato	Tomato	Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+00064B41	AlchFood_Potato	Potato	Consumed out of combat, it restores 5 Stamina and Magicka.,Its raw taste is revolting to anyone but those with a strong stomach.	10	1	0	0
+00064B40	AlchFood_Carrot	Carrot	Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+00064B3F	AlchFood_Cabbage	Cabbage	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+00064B3E	AlchFood_CookedLeeks	Cooked Leeks	Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+00064B3D	AlchFood_Sweetroll	Sweetroll	Consumed out of combat, it restores 15 Stamina and Magicka.,Magicka is increased by 5 points for 300 seconds.	5	30	0	0
+00064B3C	AlchFood_CookedSlaughterfish	Cooked Slaughterfish	Consumed out of combat, it restores 50 Stamina.	50	1	0	0
+00064B3B	AlchFood_CookedSalmonSteak	Cooked Salmon Steak	Consumed out of combat, it restores 40 Stamina.	40	1	0	0
+00064B3A	AlchFood_CookedPotatoes	Cooked Potatoes	Consumed out of combat, it restores 10 Stamina and Magicka.	10	1	0	0
+00064B39	AlchFood_LongTaffyTreat	Long Taffy Treat	Consumed out of combat, it restores 5 Stamina and Magicka.,Magicka is increased by 5 points for 300 seconds.	5	30	0	0
+00064B38	AlchFood_HoneyNutTreat	Honey Nut Treat	Consumed out of combat, it restores 10 Stamina and Magicka.,Magicka is increased by 5 points for 300 seconds.	5	30	0	0
+00064B36	AlchFood_EidarCheeseWedge	Eidar Cheese Wedge	Consumed out of combat, it restores 30 Stamina and Magicka.	30	1	0	0
+00064B35	AlchFood_GoatCheeseWedge	Goat Cheese Wedge	Consumed out of combat, it restores 24 Stamina and Magicka.	24	1	0	0
+00064B34	AlchFood_EidarCheeseWheel	Eidar Cheese Wheel	Consumed out of combat, it restores 90 Stamina and Magicka.	90	1	0	0
+00064B33	AlchFood_GoatCheeseWheel	Goat Cheese Wheel	Consumed out of combat, it restores 72 Stamina and Magicka.	72	1	0	0
+00064B32	AlchFood_EidarCheeseSlice	Eidar Cheese Slice	Consumed out of combat, it restores 15 Stamina and Magicka.	15	1	0	0
+00064B31	AlchFood_GoatCheeseSlice	Goat Cheese Slice	Consumed out of combat, it restores 12 Stamina and Magicka.	12	1	0	0
+00064B30	AlchFood_BoiledCremeTreat	Boiled Creme Treat	Consumed out of combat, it restores 25 Stamina and Magicka.,Magicka is increased by 5 points for 300 seconds.	5	30	0	0
+00064B2F	AlchFood_GreenApple	Green Apple	Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+00064B2E	AlchFood_RedApple	Red Apple	Consumed out of combat, it restores 5 Stamina and Magicka.	5	1	0	0
+00057A7B	AlchDrug_KordirsSkooma	Kordir's Skooma	One-handed weapons do 50% more damage for 120 seconds.,Two-handed weapons do 50% more damage for 120 seconds.,Unarmed strikes do 15 additional damage.,Concentrated poison temporarily reduces maximum and current Magicka by 10 points for 500 seconds.,Concentrated poison temporarily reduces maximum and current Stamina by 1 points for 500 seconds.,Stamina is increased by 500 points for 120 seconds.,Can cause terrible side effects...,Only those with a strong stomach can enjoy this meal without vomiting.,Stamina regenerates 5% faster for 120 seconds.	5	12	0.05	6822274.9901708
+00057A7A	AlchDrug_Skooma	Skooma	One-handed weapons do 50% more damage for 120 seconds.,Two-handed weapons do 50% more damage for 120 seconds.,Unarmed strikes do 15 additional damage.,Concentrated poison temporarily reduces maximum and current Magicka by 10 points for 500 seconds.,Concentrated poison temporarily reduces maximum and current Stamina by 1 points for 500 seconds.,Stamina is increased by 500 points for 120 seconds.,Can cause terrible side effects...,Only those with a strong stomach can enjoy this meal without vomiting.,Stamina regenerates 5% faster for 120 seconds.	5	12	0.05	6822274.9901708
+55500000000	AlchDrink_DragonsBreathMead	Dragon's Breath Mead	Numbs your sense of pain, making you feel 55 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	30	45	0	173.062248903614
+000508CA	AlchDrink_HonningbrewMead	Honningbrew Mead	Numbs your sense of pain, making you feel 50 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 20% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	20	45	0	155.836931907
+0003F4BD	AlchDrug_DoubleDistilledSkooma	Double-Distilled Skooma	Armor penetration with one-handed weapons is increased by 100 for 120 seconds.,Armor penetration with two-handed weapons is increased by 100 for 120 seconds.,Unarmed strikes do 30 additional damage.,Concentrated poison temporarily reduces maximum and current Magicka by 20 points for 500 seconds.,Concentrated poison temporarily reduces maximum and current Stamina by 2 points for 500 seconds.,Stamina is increased by 1000 points for 120 seconds.,Can cause terrible side effects...,Only those with a strong stomach can enjoy this meal without vomiting.,Stamina regenerates 5% faster for 120 seconds.	5	12	0.05	560372.694546025
+0003EB41	REQ_Potion_Invisibility4	Potion of Invisibility (Good)	Grants invisibility for 50 seconds.	0	5	50	293.654735772005
+0003EB40	REQ_Potion_Invisibility2	Potion of Invisibility (Faint)	Grants invisibility for 30 seconds.	0	3	50	167.418476105086
+0003EB3F	REQ_Potion_Invisibility3	Potion of Invisibility (Fair)	Grants invisibility for 40 seconds.	0	4	50	229.739670999407
+0003EB3E	REQ_Potion_Invisibility1	Potion of Invisibility (Diluted)	Grants invisibility for 20 seconds.	0	2	50	107.177346253629
+0003EB3A	Alch_PotionFortifyRestoration01	Potion of Fortify Restoration (Crude)	Restoration spells cost 20% less for 60 seconds.	20	6	0.25	48.4216271538619
+0003EB39	Alch_PotionFortifyIllusion01	Potion of Fortify Illusion (Crude)	Illusion spells cost 25% less for 60 seconds.	25	6	0.25	61.8928375132676
+0003EB38	Alch_PotionFortifyDestruction01	Potion of Fortify Destruction (Crude)	Destruction spells cost 20% less for 60 seconds.	20	6	0.25	48.4216271538619
+0003EB37	Alch_PotionFortifyConjuration01	Potion of Fortify Conjuration (Crude)	Conjurations spells cost 25% less for 60 seconds.	25	6	0.25	61.8928375132676
+0003EB36	Alch_PotionFortifyAlteration01	Potion of Fortify Alteration (Crude)	Alteration spells cost 25% less for 60 seconds.	25	6	0.25	61.8928375132676
+0003EB35	REQ_Potion_FortifyBarter1	Potion of Fortify Barter (Diluted)	You haggle for 10% better prices for 30 seconds.	10	3	1	42.1534747945094
+0003EB33	REQ_Potion_FortifySneak1	Potion of Fortify Sneak (Diluted)	You are 10% harder to detect for 60 seconds.	10	6	0.25	22.5894878192238
+0003EB32	REQ_Potion_FortifyBlock1	Potion of Fortify Block (Diluted)	Blocking absorbs 10% more damage for 60 seconds.	10	6	0.25	22.5894878192238
+0003EB31	REQ_Potion_FortifyPickpocket1	Potion of Fortify Pickpocket (Diluted)	Pickpocketing is 20% easier for 60 seconds.	20	6	0.25	48.4216271538619
+0003EB30	Alch_PotionFortifyArmorRatingLight01	Potion of Fortify Armor Rating (Crude)	Increases armor rating by 30 points for 60 seconds.	30	6	0.25	75.637952533777
+0003EB2F	Alch_PotionFortifyArmorRatingHeavy01	Potion of Fortify Armor Rating (Crude)	Increases armor rating by 30 points for 60 seconds.	30	6	0.25	75.637952533777
+0003EB2E	REQ_Potion_FortifySmithing1	Potion of Fortify Smithing (Diluted)	Fortifies smithing skill by 2 points.	2	3	0.25	1.79434679827697
+0003EB2C	REQ_Potion_FortifyMarksman1	Potion of Fortify Marksman (Diluted)	Ranged weapons deal 10% more damage for 60 seconds.	10	6	0.25	22.5894878192238
+0003EB2B	REQ_Potion_FortifyTwoHanded1	Potion of Fortify Two-Handed (Diluted)	Two-handed weapons do 10% more damage for 60 seconds.	10	6	0.25	22.5894878192238
+0003EB2A	REQ_Potion_FortifyOneHanded1	Potion of Fortify One-Handed (Diluted)	One-handed weapons do 10% more damage for 60 seconds.	10	6	0.25	22.5894878192238
+0003EB14	REQ_Potion_FortifyStaminaRegeneration4	Potion of Fortify Stamina Regeneration (Good)	Stamina regenerates 80% faster for 300 seconds.	80	30	0.05	261.337883900602
+0003EB12	REQ_Potion_FortifyStaminaRegeneration2	Potion of Fortify Stamina Regeneration (Faint)	Stamina regenerates 60% faster for 300 seconds.	60	30	0.05	190.445081081706
+0003EB11	REQ_Potion_FortifyStaminaRegeneration1	Potion of Fortify Stamina Regeneration (Diluted)	Stamina regenerates 50% faster for 300 seconds.	50	30	0.05	155.836931907
+0003EB10	REQ_Potion_FortifyMagickaRegeneration4	Potion of Fortify Magicka Regeneration (Good)	Magicka regenerates 80% faster for 300 seconds.	80	30	0.1	522.675767801203
+0003EB0F	REQ_Potion_FortifyMagickaRegeneration3	Potion of Fortify Magicka Regeneration (Fair)	Magicka regenerates 70% faster for 300 seconds.	70	30	0.1	451.274947342572
+0003EB0E	REQ_Potion_FortifyMagickaRegeneration2	Potion of Fortify Magicka Regeneration (Faint)	Magicka regenerates 60% faster for 300 seconds.	60	30	0.1	380.890162163412
+0003EB0D	REQ_Potion_FortifyMagickaRegeneration1	Potion of Fortify Magicka Regeneration (Diluted)	Magicka regenerates 50% faster for 300 seconds.	50	30	0.1	311.673863814
+0003EB0C	Alch_PotionFortifyHealthRegeneration04	Potion of Fortify Health Regeneration (Great)	Health regenerates 150% faster for 600 seconds.	150	60	0.05	1118.50199928253
+0003EB0B	Alch_PotionFortifyHealthRegeneration03	Potion of Fortify Health Regeneration (Good)	Health regenerates 100% faster for 600 seconds.	100	60	0.05	716.038509317423
+0003EB0A	Alch_PotionFortifyHealthRegeneration02	Potion of Fortify Health Regeneration (Decent)	Health regenerates 80% faster for 600 seconds.	80	60	0.05	560.190017440111
+0003EB09	Alch_PotionFortifyHealthRegeneration01	Potion of Fortify Health Regeneration (Crude)	Health regenerates 50% faster for 600 seconds.	50	60	0.05	334.043776201996
+0003EB05	Alch_PotionFortifyCarryWeight02	Potion of Fortify Carry Weight (Decent)	Carrying capacity increases by 30 for 600 seconds.	30	60	0.0725	276.145367568474
+0003EB04	Alch_PotionFortifyCarryWeight04	Potion of Fortify Carry Weight (Great)	Carrying capacity increases by 50 for 600 seconds.	50	60	0.0725	484.363475492893
+0003EB03	Alch_PotionFortifyCarryWeight03	Potion of Fortify Carry Weight (Good)	Carrying capacity increases by 40 for 600 seconds.	40	60	0.0725	378.939931655872
+0003EB02	Alch_PotionFortifyCarryWeight01	Potion of Fortify Carry Weight (Crude)	Carrying capacity increases by 20 for 600 seconds.	20	60	0.0725	176.781729022816
+0003EB00	Alch_PotionFortifyStamina02	Potion of Fortify Stamina (Decent)	Stamina is increased by 40 points for 120 seconds.	40	12	0.15	133.49242429901
+0003EAFF	Alch_PotionFortifyStamina04	Potion of Fortify Stamina (Great)	Stamina is increased by 80 points for 240 seconds.	80	24	0.15	613.370112787357
+0003EAFE	Alch_PotionFortifyStamina03	Potion of Fortify Stamina (Good)	Stamina is increased by 60 points for 180 seconds.	60	18	0.15	325.7297230973
+0003EAFD	REQ_Potion_FortifyStamina1	Potion of Fortify Stamina (Diluted)	Stamina is increased by 20 points for 60 seconds.	20	6	0.15	29.0529762923172
+0003EAFC	Alch_PotionFortifyMagicka04	Potion of Fortify Magicka (Great)	Magicka is increased by 80 points for 240 seconds.	80	24	0.15	613.370112787357
+0003EAFB	Alch_PotionFortifyMagicka03	Potion of Fortify Magicka (Good)	Magicka is increased by 60 points for 180 seconds.	60	18	0.15	325.7297230973
+0003EAFA	Alch_PotionFortifyMagicka02	Potion of Fortify Magicka (Decent)	Magicka is increased by 40 points for 120 seconds.	40	12	0.15	133.49242429901
+0003EAF7	Alch_PotionFortifyMagicka01	Potion of Fortify Magicka (Crude)	Magicka is increased by 20 points for 60 seconds.	20	6	0.15	29.0529762923172
+0003EAF6	Alch_PotionFortifyHealth03	Potion of Fortify Health (Good)	Health is increased by 60 points for 180 seconds.	60	18	0.2	434.306297463067
+0003EAF5	Alch_PotionFortifyHealth04	Potion of Fortify Health (Great)	Health is increased by 80 points for 240 seconds.	80	24	0.2	817.82681704981
+0003EAF4	Alch_PotionFortifyHealth02	Potion of Fortify Health (Decent)	Health is increased by 40 points for 120 seconds.	40	12	0.2	177.989899065347
+0003EAF2	REQ_Potion_FortifyHealth1	Potion of Fortify Health (Diluted)	Health is increased by 20 points for 60 seconds.	20	6	0.2	38.7373017230895
+0003EAF1	Alch_PotionResistShock04	Potion of Resist Shock (Great)	Resists 50% of shock damage for 300 seconds.	50	30	0.25	779.184659534999
+0003EAF0	Alch_PotionResistFrost04	Potion of Resist Frost (Great)	Resists 50% of frost damage for 300 seconds.	50	30	0.25	779.184659534999
+0003EAEF	Alch_PotionResistFire04	Potion of Resist Fire (Great)	Resists 50% of fire damage for 300 seconds.	50	30	0.25	779.184659534999
+0003EAEE	Alch_PotionResistShock02	Potion of Resist Shock (Decent)	Resists 30% of shock damage for 120 seconds.	30	12	0.25	162.133500572564
+0003EAED	Alch_PotionResistFrost02	Potion of Resist Frost (Decent)	Resists 30% of frost damage for 120 seconds.	30	12	0.25	162.133500572564
+0003EAE9	Alch_PotionResistFire02	Potion of Resist Fire (Decent)	Resists 30% of fire damage for 120 seconds.	30	12	0.25	162.133500572564
+0003EAE8	Alch_PotionRestoreStamina04	Potion of Restore Stamina (Great)	Restores 10 Stamina for 20 seconds.	10	2	2.8	75.5598394697196
+0003EAE7	Alch_PotionRestoreStamina03	Potion of Restore Stamina (Good)	Restores 8 Stamina for 20 seconds.	8	2	2.8	59.1139544026257
+0003EAE6	Alch_PotionRestoreStamina05	Potion of Restore Stamina (Remarkable)	Restores 12 Stamina for 20 seconds.	12	2	2.8	92.340112053278
+0003EAE5	Alch_PotionRestoreStamina01	Potion of Restore Stamina (Crude)	Restores 3 Stamina for 20 seconds.	3	2	2.8	20.0966841407021
+0003EAE4	Alch_PotionRestoreMagicka04	Potion of Restore Magicka (Great)	Restores 10 points of Magicka for 20 seconds.	10	2	2.5	67.4641423836782
+0003EAE3	Alch_PotionRestoreHealth04	Potion of Restore Health (Great)	Restores 10 points of Health for 20 seconds.	10	2	3.5	94.4497993371495
+0003EAE2	Alch_PotionRestoreMagicka03	Potion of Restore Magicka (Good)	Restores 8 points of Magicka for 20 seconds.	8	2	2.5	52.7803164309158
+0003EAE1	Alch_PotionRestoreMagicka02	Potion of Restore Magicka (Decent)	Restores 5 points of Magicka for 20 seconds.	5	2	2.5	31.4731352948542
+0003EAE0	Alch_PotionRestoreMagicka01	Potion of Restore Magicka (Crude)	Restores 3 points of Magicka for 20 seconds.	3	2	2.5	17.9434679827697
+0003EADF	Alch_PotionRestoreHealth03	Potion of Restore Health (Good)	Restores 8 points of Health for 20 seconds.	8	2	3.5	73.8924430032821
+0003EADE	Alch_PotionRestoreHealth02	Potion of Restore Health (Decent)	Restores 5 points of Health for 20 seconds.	5	2	3.5	44.0623894127959
+0003EADD	Alch_PotionRestoreHealth01	Potion of Restore Health (Crude)	Restores 3 points of Health for 20 seconds.	3	2	3.5	25.1208551758776
+0003AC31	REQ_Potion_Waterbreathing4	Potion of Waterbreathing (Good)	The imbiber grants the ability to breathe underwater for 60 seconds.	0	6	15	107.660807896618
+0003AC30	REQ_Potion_Waterbreathing3	Potion of Waterbreathing (Fair)	The imbiber grants the ability to breathe underwater for 45 seconds.	0	4.5	15	78.4557944036611
+0003AC2F	REQ_Potion_Waterbreathing2	Potion of Waterbreathing (Faint)	The imbiber grants the ability to breathe underwater for 30 seconds.	0	3	15	50.2255428315257
+0003AC2E	REQ_Potion_Waterbreathing1	Potion of Waterbreathing (Diluted)	The imbiber grants the ability to breathe underwater for 15 seconds.	0	1.5	15	23.4310442398292
+0003A5A4	Alch_PoisonDamageHealth01	Poison of Damage Health (Crude)	Immediately drains the target's Health by 40 points.	40	1	1.5	86.7675329755155
+3.9E+056	Alch_PotionResistMagic04	Potion of Resist Magic (Great)	Resists 25% of magic for 300 seconds.	25	30	0.5	727.004993845529
+3.9E+055	Alch_PotionResistMagic03	Potion of Resist Magic (Good)	Resists 20% of magic for 180 seconds.	20	18	0.5	324.267001145128
+3.9E+054	Alch_PotionResistMagic02	Potion of Resist Magic (Decent)	Resists 15% of magic for 120 seconds.	15	12	0.5	151.275905067554
+3.9E+053	REQ_Potion_ResistMagic1	Potion of Resist Magic (Diluted)	Resists 10% of magic for 60 seconds.	10	6	0.5	45.1789756384477
+00039D12	REQ_Potion_FortifyEnchanting4	Potion of Fortify Enchanting (Good)	Items enchanted are 5% stronger for 60 seconds.	5	6	0.25	10.5383686986273
+00039D0A	REQ_Potion_FortifyEnchanting3	Potion of Fortify Enchanting (Fair)	Items enchanted are 4% stronger for 60 seconds.	4	6	0.25	8.24465286189982
+00039D02	REQ_Potion_FortifyEnchanting2	Potion of Fortify Enchanting (Faint)	Items enchanted are 3% stronger for 60 seconds.	3	6	0.25	6.00813613143141
+00039CFB	REQ_Potion_FortifyEnchanting1	Potion of Fortify Enchanting (Diluted)	Items enchanted are 2% stronger for 60 seconds.	2	6	0.25	3.84626656196045
+00039CF3	Alch_PotionRestoreStaminaComplete	Potion of Restore Stamina (Superlative)	Completely restores Stamina.	9999	1	0.006	150.696607523022
+00039BE8	Alch_PotionRestoreStamina02	Potion of Restore Stamina (Decent)	Restores 5 Stamina for 20 seconds.	5	2	2.8	35.2499115302367
+00039BE7	Alch_PotionRestoreMagickaComplete	Potion of Restore Magicka (Superlative)	Completely restores Magicka.	9999	1	0.006	150.696607523022
+00039BE6	Alch_PotionRestoreMagicka05	Potion of Restore Magicka (Remarkable)	Restores 12 points of Magicka for 20 seconds.	12	2	2.5	82.4465286189982
+00039BE5	Alch_PotionRestoreHealthComplete	Potion of Restore Health (Superlative)	This powerful elixir is capable of healing the imbiber completely within the blink of an eye and is even able to affect the undead.	9999	1	0.01	251.16101253837
+00039BE4	Alch_PotionRestoreHealth05	Potion of Restore Health (Remarkable)	Restores 12 points of Health for 20 seconds.	12	2	3.5	115.425140066598
+00039BE3	Alch_PotionResistShock03	Potion of Resist Shock (Good)	Resists 40% of shock damage for 180 seconds.	40	18	0.25	347.540766603574
+00039BE1	REQ_Potion_ResistShock1	Potion of Resist Shock (Diluted)	Resists 20% of shock damage for 60 seconds.	20	6	0.25	48.4216271538619
+00039BDF	Alch_PotionResistFrost03	Potion of Resist Frost (Good)	Resists 40% of frost damage for 180 seconds.	40	18	0.25	347.540766603574
+00039B8A	REQ_Potion_ResistFrost1	Potion of Resist Frost (Diluted)	Resists 20% of frost damage for 60 seconds.	20	6	0.25	48.4216271538619
+00039B4B	Alch_PotionResistFire03	Potion of Resist Fire (Good)	Resists 40% of fire damage for 180 seconds.	40	18	0.25	347.540766603574
+00039B4A	REQ_Potion_ResistFire1	Potion of Resist Fire (Diluted)	Resists 20% of fire damage for 60 seconds.	20	6	0.25	48.4216271538619
+00039B0C	REQ_Potion_FortifyStaminaRegeneration3	Potion of Fortify Stamina Regeneration (Fair)	Stamina regenerates 70% faster for 300 seconds.	70	30	0.05	225.637473671286
+00039AA6	REQ_Potion_FortifyTwoHanded4	Potion of Fortify Two-Handed (Good)	Two-handed weapons do 25% more damage for 60 seconds.	25	6	0.25	61.8928375132676
+39980	REQ_Potion_FortifyTwoHanded3	Potion of Fortify Two-Handed (Fair)	Two-handed weapons do 20% more damage for 60 seconds.	20	6	0.25	48.4216271538619
+39974	REQ_Potion_FortifyTwoHanded2	Potion of Fortify Two-Handed (Faint)	Two-handed weapons do 15% more damage for 60 seconds.	15	6	0.25	35.2863525631545
+39973	REQ_Potion_FortifyBarter4	Potion of Fortify Barter (Good)	You haggle for 25% better prices for 30 seconds.	25	3	1	115.496118679411
+39971	REQ_Potion_FortifyBarter3	Potion of Fortify Barter (Fair)	You haggle for 20% better prices for 30 seconds.	20	3	1	90.3579512768954
+39970	REQ_Potion_FortifyBarter2	Potion of Fortify Barter (Faint)	You haggle for 15% better prices for 30 seconds.	15	3	1	65.8466621848451
+0003996F	REQ_Potion_FortifySneak4	Potion of Fortify Sneak (Good)	You are 25% harder to detect for 60 seconds.	25	6	0.25	61.8928375132676
+39969	REQ_Potion_FortifySneak3	Potion of Fortify Sneak (Fair)	You are 20% harder to detect for 60 seconds.	20	6	0.25	48.4216271538619
+39968	REQ_Potion_FortifySneak2	Potion of Fortify Sneak (Faint)	You are 15% harder to detect for 60 seconds.	15	6	0.25	35.2863525631545
+39967	REQ_Potion_FortifySmithing4	Potion of Fortify Smithing (Good)	Fortifies smithing skill by 5 points.	5	3	0.25	4.91632283639906
+39962	REQ_Potion_FortifySmithing3	Potion of Fortify Smithing (Fair)	Fortifies smithing skill by 4 points.	4	3	0.25	3.84626656196045
+0003995D	REQ_Potion_FortifySmithing2	Potion of Fortify Smithing (Faint)	Fortifies smithing skill by 3 points.	3	3	0.25	2.80289461413491
+0003995C	Alch_PotionFortifyRestoration04	Potion of Fortify Restoration (Great)	Restoration spells cost 50% less for 60 seconds.	50	6	0.25	132.670201535582
+0003995B	Alch_PotionFortifyRestoration03	Potion of Fortify Restoration (Good)	Restoration spells cost 40% less for 60 seconds.	40	6	0.25	103.794029992672
+0003995A	Alch_PotionFortifyRestoration02	Potion of Fortify Restoration (Decent)	Restoration spells cost 30% less for 60 seconds.	30	6	0.25	75.637952533777
+39959	REQ_Potion_FortifyPickpocket3	Potion of Fortify Pickpocket (Fair)	Pickpocketing is 40% easier for 60 seconds.	40	6	0.25	103.794029992672
+39958	REQ_Potion_FortifyPickpocket4	Potion of Fortify Pickpocket (Good)	Pickpocketing is 50% easier for 60 seconds.	50	6	0.25	132.670201535582
+39957	REQ_Potion_FortifyPickpocket2	Potion of Fortify Pickpocket (Faint)	Pickpocketing is 30% easier for 60 seconds.	30	6	0.25	75.637952533777
+39956	REQ_Potion_FortifyOneHanded4	Potion of Fortify One-Handed (Good)	One-handed weapons do 25% more damage for 60 seconds.	25	6	0.25	61.8928375132676
+39955	REQ_Potion_FortifyOneHanded3	Potion of Fortify One-Handed (Fair)	One-handed weapons do 20% more damage for 60 seconds.	20	6	0.25	48.4216271538619
+39954	REQ_Potion_FortifyOneHanded2	Potion of Fortify One-Handed (Faint)	One-handed weapons do 15% more damage for 60 seconds.	15	6	0.25	35.2863525631545
+39951	Alch_PotionFortifyIllusion04	Potion of Fortify Illusion (Great)	Illusion spells cost 100% less for 60 seconds.	100	6	0.25	284.384802550357
+39950	Alch_PotionFortifyIllusion03	Potion of Fortify Illusion (Good)	Illusion spells cost 75% less for 60 seconds.	75	6	0.25	207.240090765819
+0003994F	Alch_PotionFortifyIllusion02	Potion of Fortify Illusion (Decent)	Illusion spells cost 50% less for 60 seconds.	50	6	0.25	132.670201535582
+0003994E	REQ_Potion_FortifyMarksman4	Potion of Fortify Marksman (Good)	Ranged weapons deal 25% more damage for 60 seconds.	25	6	0.25	61.8928375132676
+0003994B	REQ_Potion_FortifyMarksman3	Potion of Fortify Marksman (Fair)	Ranged weapons deal 20% more damage for 60 seconds.	20	6	0.25	48.4216271538619
+39949	REQ_Potion_FortifyMarksman2	Potion of Fortify Marksman (Faint)	Ranged weapons deal 15% more damage for 60 seconds.	15	6	0.25	35.2863525631545
+39948	REQ_Potion_FortifyLockpicking4	Potion of Fortify Lockpicking (Good)	Lockpicking skill is increased by 0 for 30 seconds.,Lockpicking expertise is increased by 4 for 30 seconds.	4	3	0.5	8.52962550444632
+39946	REQ_Potion_FortifyLockpicking3	Potion of Fortify Lockpicking (Fair)	Lockpicking skill is increased by 0 for 30 seconds.,Lockpicking expertise is increased by 3 for 30 seconds.	3	3	0.5	6.44288160879526
+39945	REQ_Potion_FortifyLockpicking2	Potion of Fortify Lockpicking (Faint)	Lockpicking skill is increased by 0 for 30 seconds.,Lockpicking expertise is increased by 2 for 30 seconds.	2	3	0.5	4.42578597707938
+39930	REQ_Potion_FortifyLockpicking1	Potion of Fortify Lockpicking (Diluted)	Lockpicking skill is increased by 0 for 30 seconds.,Lockpicking expertise is increased by 1 for 30 seconds.	1	3	0.5	2.51127714157629
+39904	Alch_PotionFortifyArmorRatingLight04	Potion of Fortify Armor Rating (Great)	Increases armor rating by 120 points for 60 seconds.	120	6	0.25	347.540766603574
+39903	Alch_PotionFortifyArmorRatingLight03	Potion of Fortify Armor Rating (Good)	Increases armor rating by 90 points for 60 seconds.	90	6	0.25	253.263814978275
+000398FD	Alch_PotionFortifyArmorRatingLight02	Potion of Fortify Armor Rating (Decent)	Increases armor rating by 60 points for 60 seconds.	60	6	0.25	162.133500572564
+000398F6	Alch_PotionFortifyArmorRatingHeavy04	Potion of Fortify Armor Rating (Great)	Increases armor rating by 120 points for 60 seconds.	120	6	0.25	347.540766603574
+000398F5	Alch_PotionFortifyArmorRatingHeavy03	Potion of Fortify Armor Rating (Good)	Increases armor rating by 90 points for 60 seconds.	90	6	0.25	253.263814978275
+000398F4	Alch_PotionFortifyArmorRatingHeavy02	Potion of Fortify Armor Rating (Decent)	Increases armor rating by 60 points for 60 seconds.	60	6	0.25	162.133500572564
+000398F3	Alch_PotionFortifyDestruction04	Potion of Fortify Destruction (Great)	Destruction spells cost 50% less for 60 seconds.	50	6	0.25	132.670201535582
+000398F1	Alch_PotionFortifyDestruction03	Potion of Fortify Destruction (Good)	Destruction spells cost 40% less for 60 seconds.	40	6	0.25	103.794029992672
+000398EE	Alch_PotionFortifyDestruction02	Potion of Fortify Destruction (Decent)	Destruction spells cost 30% less for 60 seconds.	30	6	0.25	75.637952533777
+000398ED	Alch_PotionFortifyConjuration04	Potion of Fortify Conjuration (Great)	Conjurations spells cost 100% less for 60 seconds.	100	6	0.25	284.384802550357
+000398EC	Alch_PotionFortifyConjuration03	Potion of Fortify Conjuration (Good)	Conjurations spells cost 75% less for 60 seconds.	75	6	0.25	207.240090765819
+000398AD	Alch_PotionFortifyConjuration02	Potion of Fortify Conjuration (Decent)	Conjurations spells cost 50% less for 60 seconds.	50	6	0.25	132.670201535582
+000398AC	REQ_Potion_FortifyBlock4	Potion of Fortify Block (Good)	Blocking absorbs 25% more damage for 60 seconds.	25	6	0.25	61.8928375132676
+000398AB	REQ_Potion_FortifyBlock3	Potion of Fortify Block (Fair)	Blocking absorbs 20% more damage for 60 seconds.	20	6	0.25	48.4216271538619
+0003989B	REQ_Potion_FortifyBlock2	Potion of Fortify Block (Faint)	Blocking absorbs 15% more damage for 60 seconds.	15	6	0.25	35.2863525631545
+0003989A	Alch_PotionFortifyAlteration04	Potion of Fortify Alteration (Great)	Alteration spells cost 100% less for 60 seconds.	100	6	0.25	284.384802550357
+39899	Alch_PotionFortifyAlteration03	Potion of Fortify Alteration (Good)	Alteration spells cost 75% less for 60 seconds.	75	6	0.25	207.240090765819
+0003988E	Alch_PotionFortifyAlteration02	Potion of Fortify Alteration (Decent)	Alteration spells cost 50% less for 60 seconds.	50	6	0.25	132.670201535582
+00036D53	AlchDrink_ColovianBrandy	Colovian Brandy	Numbs your sense of pain, making you feel 80 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!,You haggle for 20% better prices for 900 seconds.	20	90	1	4683.95742705745
+00034C5E	AlchDrink_Ale	Ale	Numbs your sense of pain, making you feel 15 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 10% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	10	45	0	41.4480181531638
+00034C5D	AlchDrink_NordMead	Nord Mead	Numbs your sense of pain, making you feel 20 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 15% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	15	45	0	56.8769605100714
+0003133C	AlchDrink_VillageRedWine	Village Red Wine	Numbs your sense of pain, making you feel 30 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 20% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!	20	90	0	190.445081081706
+0003133B	AlchDrink_AltoNoirWine	Alto Noir Wine	Numbs your sense of pain, making you feel 75 points healthier for 900 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 1350 seconds. At least you get to feel good for a while!	30	135	0	815.087352679528
+0002C35A	AlchDrink_BlackBriarMead	Black-Briar Mead	Numbs your sense of pain, making you feel 40 points healthier for 300 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 25% and twice that for Magicka for 450 seconds. At least you get to feel good for a while!	25	45	0	121.918433808839
+0001895F	AlchDrink_FirebrandWine	Firebrand Wine	Numbs your sense of pain, making you feel 75 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 40% and twice that for Magicka for 900 seconds. At least you get to feel good for a while!,Resists 15% of frost damage for 600 seconds.	15	60	0.25	966.028492528073
