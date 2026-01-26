@@ -206,7 +206,9 @@ initRawMaterialsFilters();
 </div>
 <div class="filter-result-count-raw" id="filterResultCountRaw"></div>
 
-<div class="raw-materials-table" markdown="1">| Produced Item | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required |
+<div class="raw-materials-table" markdown="1">
+
+| Produced Item | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required |
 |:---|:---:|:---|:---|:---|:---|
 | Building Glass | 1 | Craftsmanship | Builders,Alchemists | Smelter | 20 Fragment: Building Glass |
 | Charcoal | 1 |  | N/A | Smelter | 1 Arrow: Practice |

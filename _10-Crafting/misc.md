@@ -208,7 +208,9 @@ initMiscRecipesFilters();
 </div>
 <div class="filter-result-count-misc" id="filterResultCountMisc"></div>
 
-<div class="misc-recipes-table" markdown="1">| Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
+<div class="misc-recipes-table" markdown="1">
+
+| Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
 |:---|:---:|:---|:---|:---|:---|:---|
 | Flammable Oil | 1 |  | N/A | Cook pot | 2 Animal Fat |  |
 | Glass Bottle (Water) | 1 |  | N/A | Cook pot | 1 Glass Bottle (Salt Water) |  |

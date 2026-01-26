@@ -96,7 +96,133 @@ function hideCookingRecipestooltip() {
   if (tooltip) tooltip.style.display = 'none';
 }
 
-initCookingRecipestooltips();
+function initCookingRecipesFilters() {
+  const table = document.querySelector('.cooking-recipes-table table');
+  if (!table) {
+    console.warn('Cooking Recipes table not found');
+    return;
+  }
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const types = new Set();
+  const toolkits = new Set();
+  const perks = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 9) {
+      types.add(cells[1].textContent.trim());
+      const toolkitCell = cells[6].textContent.trim();
+      if (toolkitCell && toolkitCell !== 'N/A') {
+        toolkits.add(toolkitCell);
+      }
+      const perksCell = cells[5].textContent.trim();
+      if (perksCell && perksCell !== '') {
+        perks.add(perksCell);
+      }
+    }
+  });
+  
+  const typeSelect = document.getElementById('typeFilter');
+  const toolkitSelect = document.getElementById('toolkitFilter');
+  const perksSelect = document.getElementById('perksFilter');
+  
+  Array.from(types).sort().forEach(type => {
+    const option = document.createElement('option');
+    option.value = type;
+    option.textContent = type;
+    typeSelect.appendChild(option);
+  });
+  
+  Array.from(toolkits).sort().forEach(toolkit => {
+    const option = document.createElement('option');
+    option.value = toolkit;
+    option.textContent = toolkit;
+    toolkitSelect.appendChild(option);
+  });
+  
+  Array.from(perks).sort().forEach(perk => {
+    const option = document.createElement('option');
+    option.value = perk;
+    option.textContent = perk;
+    perksSelect.appendChild(option);
+  });
+  
+  document.getElementById('cookingRecipesSearch').addEventListener('input', filterCookingRecipesTable);
+  typeSelect.addEventListener('change', filterCookingRecipesTable);
+  toolkitSelect.addEventListener('change', filterCookingRecipesTable);
+  perksSelect.addEventListener('change', filterCookingRecipesTable);
+  
+  initCookingRecipestooltips();
+  updateFilterCountCooking();
+}
+
+function filterCookingRecipesTable() {
+  const table = document.querySelector('.cooking-recipes-table table');
+  if (!table) return;
+  
+  const searchTerm = document.getElementById('cookingRecipesSearch').value.toLowerCase();
+  const typeFilter = document.getElementById('typeFilter').value;
+  const toolkitFilter = document.getElementById('toolkitFilter').value;
+  const perksFilter = document.getElementById('perksFilter').value;
+  
+  const rows = table.querySelectorAll('tbody tr');
+  let visibleCount = 0;
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length < 9) return;
+    
+    const itemName = cells[0].textContent.toLowerCase();
+    const type = cells[1].textContent.trim();
+    const effects = cells[2].textContent.toLowerCase();
+    const itemsRequired = cells[3].textContent.toLowerCase();
+    const perks = cells[5].textContent.trim();
+    const toolkits = cells[6].textContent.trim();
+    
+    const matchesSearch = !searchTerm || 
+                         itemName.includes(searchTerm) ||
+                         effects.includes(searchTerm) ||
+                         itemsRequired.includes(searchTerm);
+    
+    const matchesType = !typeFilter || type === typeFilter;
+    const matchesToolkit = !toolkitFilter || toolkits === toolkitFilter;
+    const matchesPerks = !perksFilter || perks === perksFilter;
+    
+    const isVisible = matchesSearch && matchesType && matchesToolkit && matchesPerks;
+    row.style.display = isVisible ? '' : 'none';
+    
+    if (isVisible) visibleCount++;
+  });
+  
+  updateFilterCountCooking(visibleCount, rows.length);
+  initCookingRecipestooltips();
+}
+
+function updateFilterCountCooking(visible, total) {
+  const table = document.querySelector('.cooking-recipes-table table');
+  if (!table) return;
+  
+  if (visible === undefined) {
+    visible = Array.from(table.querySelectorAll('tbody tr')).filter(row => row.style.display !== 'none').length;
+    total = table.querySelectorAll('tbody tr').length;
+  }
+  
+  const countElement = document.getElementById('filterResultCountCooking');
+  if (countElement) {
+    countElement.textContent = `Showing ${visible} of ${total} recipes`;
+  }
+}
+
+function clearCookingRecipesFilters() {
+  document.getElementById('cookingRecipesSearch').value = '';
+  document.getElementById('typeFilter').value = '';
+  document.getElementById('toolkitFilter').value = '';
+  document.getElementById('perksFilter').value = '';
+  filterCookingRecipesTable();
+}
+
+initCookingRecipesFilters();
 
 });
 </script>

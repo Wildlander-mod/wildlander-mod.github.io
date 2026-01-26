@@ -976,6 +976,10 @@ $light-text: #e6e6e6;
 }
 
 // Cooking Recipes table specific styles
+.cooking-tooltip {
+  @extend .table-tooltip;
+}
+
 .cooking-recipes-controls {
   @extend .table-controls;
 }
@@ -1075,6 +1079,10 @@ $light-text: #e6e6e6;
 }
 
 // Raw Materials table specific styles
+.raw-tooltip {
+  @extend .table-tooltip;
+}
+
 .raw-materials-controls {
   @extend .table-controls;
 }
@@ -1118,6 +1126,10 @@ $light-text: #e6e6e6;
 }
 
 // Misc Recipes table specific styles
+.misc-tooltip {
+  @extend .table-tooltip;
+}
+
 .misc-recipes-controls {
   @extend .table-controls;
 }
