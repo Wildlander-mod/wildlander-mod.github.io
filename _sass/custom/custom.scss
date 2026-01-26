@@ -806,6 +806,13 @@ $light-text: #e6e6e6;
   font-weight: 500;
 }
 
+.filter-result-count-recipes {
+  font-size: 13px;
+  color: $pink-000;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
 // Generic tooltip styles for table popups
 .table-tooltip {
   position: fixed;
@@ -885,6 +892,52 @@ $light-text: #e6e6e6;
   @extend .styled-table-wrapper;
 }
 
+// Known Issues column widths
+.known-issues-table th:nth-child(1),
+.known-issues-table td:nth-child(1) {
+  width: 80px;
+  word-break: break-word;
+  font-weight: 500;
+}
+
+.known-issues-table th:nth-child(2),
+.known-issues-table td:nth-child(2) {
+  width: 100px;
+  word-break: break-word;
+}
+
+.known-issues-table th:nth-child(3),
+.known-issues-table td:nth-child(3) {
+  width: 150px;
+  word-break: break-word;
+}
+
+.known-issues-table th:nth-child(4),
+.known-issues-table td:nth-child(4) {
+  width: 80px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.known-issues-table th:nth-child(5),
+.known-issues-table td:nth-child(5) {
+  width: 100px;
+  word-break: break-word;
+}
+
+.known-issues-table th:nth-child(6),
+.known-issues-table td:nth-child(6) {
+  width: 80px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.known-issues-table th:nth-child(7),
+.known-issues-table td:nth-child(7) {
+  width: 150px;
+  word-break: break-word;
+}
+
 .known-issues-table td:nth-child(1) {
   cursor: pointer;
   transition: color 0.2s;
@@ -929,6 +982,62 @@ $light-text: #e6e6e6;
 
 .cooking-recipes-table {
   @extend .styled-table-wrapper;
+}
+
+// Cooking Recipes column widths
+.cooking-recipes-table th:nth-child(1),
+.cooking-recipes-table td:nth-child(1) {
+  width: 120px;
+  word-break: break-word;
+  font-weight: 500;
+}
+
+.cooking-recipes-table th:nth-child(2),
+.cooking-recipes-table td:nth-child(2) {
+  width: 80px;
+  word-break: break-word;
+}
+
+.cooking-recipes-table th:nth-child(3),
+.cooking-recipes-table td:nth-child(3) {
+  width: 180px;
+  word-break: break-word;
+}
+
+.cooking-recipes-table th:nth-child(4),
+.cooking-recipes-table td:nth-child(4) {
+  width: 120px;
+  word-break: break-word;
+}
+
+.cooking-recipes-table th:nth-child(5),
+.cooking-recipes-table td:nth-child(5) {
+  width: 80px;
+  word-break: break-word;
+}
+
+.cooking-recipes-table th:nth-child(6),
+.cooking-recipes-table td:nth-child(6) {
+  width: 100px;
+  word-break: break-word;
+}
+
+.cooking-recipes-table th:nth-child(7),
+.cooking-recipes-table td:nth-child(7) {
+  width: 100px;
+  word-break: break-word;
+}
+
+.cooking-recipes-table th:nth-child(8),
+.cooking-recipes-table td:nth-child(8) {
+  width: 120px;
+  word-break: break-word;
+}
+
+.cooking-recipes-table th:nth-child(9),
+.cooking-recipes-table td:nth-child(9) {
+  width: 150px;
+  word-break: break-word;
 }
 
 .cooking-recipes-table td:nth-child(1) {

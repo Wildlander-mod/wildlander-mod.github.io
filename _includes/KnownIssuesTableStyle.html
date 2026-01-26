@@ -218,6 +218,13 @@ function clearKnownIssuesFilters() {
 }
 
 document.addEventListener('DOMContentLoaded', initKnownIssuesFilters);
+
+// Fallback: if DOMContentLoaded already fired or table isn't ready, retry
+setTimeout(() => {
+  if (!document.querySelector('.known-issues-table table')) {
+    initKnownIssuesFilters();
+  }
+}, 100);
 </script>
 
 <div class="known-issues-table" markdown="1">
