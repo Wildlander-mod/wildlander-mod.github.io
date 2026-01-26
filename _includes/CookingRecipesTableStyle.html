@@ -17,8 +17,26 @@
 
 <script>
 function initCookingRecipesFilters() {
-  const table = document.querySelector('.cooking-recipes-table table');
-  if (!table) return;
+  // Try multiple selectors to find the table
+  let table = document.querySelector('.cooking-recipes-table table');
+  
+  // If not found, look for any table in the cooking-recipes-table div
+  if (!table) {
+    const wrapper = document.querySelector('.cooking-recipes-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
+  // If still not found, look for the first table on the page as fallback
+  if (!table) {
+    table = document.querySelector('table');
+  }
+  
+  if (!table) {
+    console.warn('Cooking Recipes table not found');
+    return;
+  }
   
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   const types = new Set();
@@ -73,7 +91,15 @@ function initCookingRecipesFilters() {
 }
 
 function initCookingRecipesTooltips() {
-  const table = document.querySelector('.cooking-recipes-table table');
+  let table = document.querySelector('.cooking-recipes-table table');
+  
+  if (!table) {
+    const wrapper = document.querySelector('.cooking-recipes-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
   if (!table) return;
   
   let tooltip = document.getElementById('cookingRecipesTooltip');
@@ -177,7 +203,15 @@ function hideCookingRecipesTooltip() {
 }
 
 function filterCookingRecipesTable() {
-  const table = document.querySelector('.cooking-recipes-table table');
+  let table = document.querySelector('.cooking-recipes-table table');
+  
+  if (!table) {
+    const wrapper = document.querySelector('.cooking-recipes-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
   if (!table) return;
   
   const searchTerm = document.getElementById('cookingRecipesSearch').value.toLowerCase();
@@ -222,7 +256,15 @@ function filterCookingRecipesTable() {
 }
 
 function updateFilterCountRecipes(visible, total) {
-  const table = document.querySelector('.cooking-recipes-table table');
+  let table = document.querySelector('.cooking-recipes-table table');
+  
+  if (!table) {
+    const wrapper = document.querySelector('.cooking-recipes-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
   if (!table) return;
   
   if (visible === undefined) {

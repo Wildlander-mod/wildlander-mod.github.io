@@ -14,8 +14,26 @@
 
 <script>
 function initKnownIssuesFilters() {
-  const table = document.querySelector('.known-issues-table table');
-  if (!table) return;
+  // Try multiple selectors to find the table
+  let table = document.querySelector('.known-issues-table table');
+  
+  // If not found, look for any table in the known-issues-table div
+  if (!table) {
+    const wrapper = document.querySelector('.known-issues-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
+  // If still not found, look for the first table on the page as fallback
+  if (!table) {
+    table = document.querySelector('table');
+  }
+  
+  if (!table) {
+    console.warn('Known Issues table not found');
+    return;
+  }
   
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   const categories = new Set();
@@ -57,7 +75,15 @@ function initKnownIssuesFilters() {
 }
 
 function initKnownIssuestooltips() {
-  const table = document.querySelector('.known-issues-table table');
+  let table = document.querySelector('.known-issues-table table');
+  
+  if (!table) {
+    const wrapper = document.querySelector('.known-issues-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
   if (!table) return;
   
   // Create tooltip container
@@ -150,7 +176,15 @@ function hideKnownIssuestooltip() {
 }
 
 function filterKnownIssuesTable() {
-  const table = document.querySelector('.known-issues-table table');
+  let table = document.querySelector('.known-issues-table table');
+  
+  if (!table) {
+    const wrapper = document.querySelector('.known-issues-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
   if (!table) return;
   
   const searchTerm = document.getElementById('knownIssuesSearch').value.toLowerCase();
@@ -196,7 +230,15 @@ function filterKnownIssuesTable() {
 }
 
 function updateFilterCount(visible, total) {
-  const table = document.querySelector('.known-issues-table table');
+  let table = document.querySelector('.known-issues-table table');
+  
+  if (!table) {
+    const wrapper = document.querySelector('.known-issues-table');
+    if (wrapper) {
+      table = wrapper.querySelector('table');
+    }
+  }
+  
   if (!table) return;
   
   if (visible === undefined) {
