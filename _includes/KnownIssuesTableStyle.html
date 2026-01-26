@@ -2,49 +2,98 @@
 .known-issues-controls {
   margin-bottom: 20px;
   display: flex;
-  gap: 15px;
+  gap: 10px;
   flex-wrap: wrap;
   align-items: center;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+}
+
+.known-issues-controls label {
+  font-weight: 600;
+  color: #33485f;
+  margin-right: 5px;
 }
 
 .known-issues-controls input,
 .known-issues-controls select {
   padding: 8px 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #c8cfd8;
   border-radius: 4px;
   font-size: 14px;
+  background: white;
+  color: #33485f;
+  font-family: inherit;
 }
 
 .known-issues-controls input[type="text"] {
-  min-width: 250px;
+  min-width: 300px;
   flex: 1;
+}
+
+.known-issues-controls input[type="text"]::placeholder {
+  color: #888;
 }
 
 .known-issues-controls select {
   min-width: 150px;
+  background: white;
+  cursor: pointer;
+}
+
+.known-issues-controls select:hover {
+  border-color: #5b7c99;
+}
+
+.known-issues-controls button {
+  padding: 8px 16px;
+  background-color: #5b7c99;
+  color: white;
+  border: 1px solid #5b7c99;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.known-issues-controls button:hover {
+  background-color: #3d5467;
+}
+
+.known-issues-controls button:active {
+  background-color: #33485f;
 }
 
 .known-issues-table {
   width: 100%;
   overflow-x: auto;
+  margin-top: 20px;
 }
 
 .known-issues-table table {
   width: 100%;
   border-collapse: collapse;
+  border: 1px solid #c8cfd8;
 }
 
 .known-issues-table th,
 .known-issues-table td {
-  border: 1px solid #ddd;
+  border: 1px solid #c8cfd8;
   padding: 12px;
   text-align: left;
   vertical-align: top;
 }
 
 .known-issues-table th {
-  background-color: #f5f5f5;
-  font-weight: bold;
+  background-color: #5b7c99;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 /* ID column - minimal width */
@@ -52,6 +101,7 @@
 .known-issues-table td:nth-child(1) {
   width: 80px;
   word-break: break-word;
+  font-weight: 500;
 }
 
 /* Category column */
@@ -98,12 +148,16 @@
   word-break: break-word;
 }
 
-.known-issues-table tr:nth-child(even) {
-  background-color: #f9f9f9;
+.known-issues-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
 }
 
-.known-issues-table tr:hover {
-  background-color: #f0f0f0;
+.known-issues-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.known-issues-table tbody tr:hover {
+  background-color: #eef2f7;
 }
 
 .known-issues-table tr.hidden {
@@ -115,21 +169,22 @@
 }
 
 .filter-result-count {
-  font-size: 12px;
-  color: #666;
+  font-size: 13px;
+  color: #5b7c99;
   margin-top: 10px;
+  font-weight: 500;
 }
 </style>
 
 <div class="known-issues-controls">
-  <input type="text" id="knownIssuesSearch" placeholder="Search issues (Summary, Description, Notes)..." />
+  <input type="text" id="knownIssuesSearch" placeholder="Search (Summary, Description, Notes)..." />
   <select id="categoryFilter">
     <option value="">All Categories</option>
   </select>
   <select id="statusFilter">
     <option value="">All Status</option>
   </select>
-  <button id="clearFilters" onclick="clearKnownIssuesFilters()" style="padding: 8px 16px; background-color: #f0f0f0; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">Clear Filters</button>
+  <button id="clearFilters" onclick="clearKnownIssuesFilters()">Clear Filters</button>
 </div>
 <div class="filter-result-count" id="filterResultCount"></div>
 
