@@ -1,0 +1,190 @@
+﻿---
+title: Crafting Spreadsheet
+layout: default
+nav_order: 8
+has_children: false
+description: Comprehensive crafting spreadsheet reference.
+---
+
+## Complete Crafting Reference
+
+This comprehensive spreadsheet contains all 6,186 crafting recipes across all toolkits in Wildlander. Use the search box and filters below to find recipes by:
+
+- **Crafting Workbench** - Filter by toolkit (Alchemy, Breakdown, Blacksmithing, Cooking, Enchanting, Jewelry, etc.)
+- **Search** - Find recipes by item name or ingredient
+
+---
+
+## How to Use This Page
+
+**Hover over any Item Name** to see the complete details including:
+- Quantity produced
+- Perks and toolkit requirements
+- Proximity when player crafting
+- All ingredients needed
+- Special conditions and quest requirements
+
+Use the search bar and filters below to find specific recipes by workbench type.
+
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  initAllRecipesFilters();
+  initAllRecipesTooltips();
+});
+
+function initAllRecipesFilters() {
+  const workbenches = new Set();
+  const table = document.querySelector('.allrecipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const workbenchCell = row.querySelector('td:nth-child(4)');
+    if (workbenchCell) {
+      workbenches.add(workbenchCell.textContent.trim());
+    }
+  });
+  
+  const select = document.getElementById('allrecipesWorkbenchFilter');
+  Array.from(workbenches).sort().forEach(bench => {
+    const option = document.createElement('option');
+    option.value = bench;
+    option.textContent = bench;
+    select.appendChild(option);
+  });
+  
+  document.getElementById('allrecipesSearch').addEventListener('keyup', filterAllRecipesTable);
+  select.addEventListener('change', filterAllRecipesTable);
+  document.getElementById('allrecipesClearFilters').addEventListener('click', clearAllRecipesFilters);
+}
+
+function filterAllRecipesTable() {
+  const searchTerm = document.getElementById('allrecipesSearch').value.toLowerCase();
+  const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter').value;
+  
+  const table = document.querySelector('.allrecipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  let visibleCount = 0;
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const itemName = cells[0]?.textContent.toLowerCase() || '';
+    const itemsRequired = cells[4]?.textContent.toLowerCase() || '';
+    const workbench = cells[3]?.textContent.trim() || '';
+    
+    const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
+    const filterMatch = !workbenchFilter || workbench === workbenchFilter;
+    
+    const isVisible = searchMatch && filterMatch;
+    row.style.display = isVisible ? '' : 'none';
+    if (isVisible) visibleCount++;
+  });
+  
+  updateAllRecipesFilterCount(visibleCount, rows.length);
+  initAllRecipesTooltips();
+}
+
+function updateAllRecipesFilterCount(visible, total) {
+  const counter = document.getElementById('allrecipesFilterResultCount');
+  if (counter) {
+    counter.textContent = `Showing ${visible} of ${total} recipes`;
+  }
+}
+
+function clearAllRecipesFilters() {
+  document.getElementById('allrecipesSearch').value = '';
+  document.getElementById('allrecipesWorkbenchFilter').value = '';
+  
+  const table = document.querySelector('.allrecipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  rows.forEach(row => row.style.display = '');
+  
+  updateAllRecipesFilterCount(rows.length, rows.length);
+  initAllRecipesTooltips();
+}
+
+function initAllRecipesTooltips() {
+  const table = document.querySelector('.allrecipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    if (row.style.display === 'none') return;
+    
+    const itemCell = row.querySelector('td:first-child');
+    if (!itemCell) return;
+    
+    itemCell.style.cursor = 'pointer';
+    itemCell.addEventListener('mouseenter', (e) => showAllRecipesTooltip(e, row));
+    itemCell.addEventListener('mousemove', updateAllRecipesTooltipPosition);
+    itemCell.addEventListener('mouseleave', hideAllRecipesTooltip);
+  });
+}
+
+function showAllRecipesTooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const data = {
+    itemName: cells[0]?.textContent || '',
+    qtyMade: cells[1]?.textContent || '',
+    perksNeeded: cells[2]?.textContent || '',
+    proximity: cells[3]?.textContent || '',
+    itemsRequired: cells[4]?.textContent || '',
+    additionalReqs: cells[5]?.textContent || ''
+  };
+  
+  let tooltip = document.getElementById('allrecipes-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'allrecipes-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    tooltip.style.backgroundColor = '#222222';
+    tooltip.style.color = '#e6e6e6';
+    tooltip.style.border = '2px solid #50098a';
+    tooltip.style.borderRadius = '4px';
+    tooltip.style.padding = '10px';
+    tooltip.style.maxWidth = '400px';
+    tooltip.style.boxShadow = '0 4px 6px rgba(0,0,0,0.3)';
+    tooltip.style.fontSize = '12px';
+    tooltip.style.lineHeight = '1.4';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = `
+    <div><strong style="color: #f77ef1;">Item:</strong> ${data.itemName}</div>
+    <div><strong style="color: #f77ef1;">Qty:</strong> ${data.qtyMade || 'N/A'}</div>
+    <div><strong style="color: #f77ef1;">Perks:</strong> ${data.perksNeeded || 'None'}</div>
+    <div><strong style="color: #f77ef1;">Workbench:</strong> ${data.proximity}</div>
+    <div style="margin-top: 8px; border-top: 1px solid #50098a; padding-top: 8px;">
+      <strong style="color: #f77ef1;">Ingredients:</strong><br/>
+      ${data.itemsRequired}
+    </div>
+    ${data.additionalReqs ? `<div style="margin-top: 8px; color: #f77ef1;"><strong>Requirements:</strong><br/>${data.additionalReqs}</div>` : ''}
+  `;
+  tooltip.style.display = 'block';
+  updateAllRecipesTooltipPosition(event);
+}
+
+function updateAllRecipesTooltipPosition(event) {
+  const tooltip = document.getElementById('allrecipes-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideAllRecipesTooltip() {
+  const tooltip = document.getElementById('allrecipes-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+</script>
+
+<div class="table-controls">
+  <input type="text" id="allrecipesSearch" placeholder="Search by item name or ingredients..." />
+  <select id="allrecipesWorkbenchFilter">
+    <option value="">All Workbenches</option>
+  </select>
+  <button onclick="clearAllRecipesFilters()">Clear Filters</button>
+  <div id="allrecipesFilterResultCount" class="filter-result-count">Showing 6186 of 6186 recipes</div>
+</div>
