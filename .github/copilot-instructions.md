@@ -81,6 +81,27 @@ has_toc: true             # Optional - adds auto-generated table of contents
 - **Example:** "Press **F11** to open settings" or "Press **Right Shift** + **E**"
 - Backticks create unwanted styling in Jekyll rendering
 
+## Wildlander Color Scheme Reference
+
+**Official colors are defined in:** `_sass/custom/custom.scss` and `_sass/color_schemes/wildlander-dark.scss`
+
+**Primary colors for styling:**
+- **Purple (Primary):** `#50098a` - Used for headers, buttons, borders, table headers
+- **Pink (Accent):** `#f77ef1` - Used for hover states, highlights, accents
+- **Dark Purple (Code/Controls):** `#462b53` - Used for code blocks, control panels
+- **Dark Background:** `#222222` - Main page and table background
+- **Light Text:** `#e6e6e6` - Default text on dark backgrounds
+- **Light Pink:** `#f77ef1` - Links, labels, accents
+
+**When styling new components (tables, buttons, etc.),:**
+- Use `#50098a` for primary buttons and headers
+- Use `#f77ef1` for hover states and accents
+- Use `#462b53` for control/input backgrounds
+- Use dark backgrounds (`#222222`, `#2a2a2a`) for alternating rows
+- Use `#3d2454` (purple-tinted) for hover effects on table rows
+
+**Example:** [KnownIssuesTableStyle.html](../../_includes/KnownIssuesTableStyle.html) demonstrates proper color usage for custom styled tables.
+
 ### Table of Contents
 Add to pages with multiple major sections:
 ```markdown
@@ -171,19 +192,151 @@ When editing pages, verify they distinguish Requiem mechanics from vanilla.
 - Collapsible sections with markdown inside need `<div markdown="1">` wrapper
 - If table of contents doesn't generate, verify `has_toc: true` in frontmatter
 
-### Updating Known Issues Table from CSV
-When the Airtable Known Issues CSV is updated, regenerate the markdown table:
+## Converting Airtable Embeds to Markdown Tables (Standardized Process)
 
-1. Export the CSV from Airtable: `DataFromAirtable/Known Issues 2-Grid view.csv`
-2. Run the conversion script from PowerShell in `_includes/` folder:
-   ```powershell
-   $csv = Import-Csv "DataFromAirtable\Known Issues 2-Grid view.csv"; $output = @(); $output += "| ID | Category | Summary | Description | Status | Investigation | Notes |"; $output += "|----------|----------|---------|-------------|--------|-----------------|-------|"; foreach ($row in $csv) { $issueId = ($row.'Issue ID' -split ' - ')[0] -replace '\|', '\|'; $category = $row.'Our Category' -replace '\|', '\|'; $summary = ($row.'Summary' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|'); $description = ($row.'Description' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|'); $status = $row.'Status' -replace '\|', '\|'; $investigation = ($row.'Investigation' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|'); $notes = ($row.'Notes for Known Issues' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|'); if ($issueId) { $output += "| $issueId | $category | $summary | $description | $status | $investigation | $notes |" } }; $output | Out-File -Encoding UTF8 "KnownIssuesTable.md"
-   ```
-3. This updates `_includes/KnownIssuesTable.md`, which is automatically included in `_01Support/FullKnownissues.md` with CSS styling applied via `KnownIssuesTableStyle.html` and `KnownIssuesTableStyleEnd.html`
-4. The Description and Investigation columns are styled to max-width 80px (~10 characters) with word wrapping to display full content vertically
-5. The changes render in the wiki once Jekyll rebuilds (10+ minutes via GitHub Pages)
+This framework enables consistent conversion of Airtable CSV exports to styled markdown tables with filtering capabilities.
 
-**Alternative:** Use `convert_known_issues_csv.py` if Python is available for more robust processing.
+### General Workflow
+
+1. **Export CSV from Airtable** → Save to `_includes/DataFromAirtable/` folder
+2. **Run PowerShell conversion script** → Generates markdown table in `_includes/`
+3. **Create/configure styling wrapper** → HTML file with CSS and filtering JavaScript
+4. **Update target page** → Integrate three Jekyll includes in correct sequence
+5. **Verify on wiki** → Changes appear after Jekyll rebuild (10+ minutes)
+
+### Step-by-Step Template
+
+#### 1. Prepare the CSV
+- Export from Airtable as CSV format (Grid view)
+- Save to: `_includes/DataFromAirtable/[Table Name].csv`
+- Ensure column headers are clean (no special characters causing parsing issues)
+- Test that newlines within cells are handled (CSV standard)
+
+#### 2. Generate Markdown Table via PowerShell
+
+**Existing Tables:**
+Use the prepared script from `_includes/AirtableConversionScripts/`:
+- **Known Issues:** From `_includes/` folder, run: `.\AirtableConversionScripts\Convert-KnownIssuesCSV.ps1`
+- This regenerates `KnownIssuesTable.md` from the latest CSV export
+
+**New Tables:**
+1. Copy `_includes/AirtableConversionScripts/Template-CSVtoMarkdownTable.ps1`
+2. Customize the variables at the top:
+   - `$csvPath` = Path to your CSV export (save to `DataFromAirtable/[Table Name].csv`)
+   - `$outputFile` = Name of markdown file to generate
+   - `$columnHeaders` = Array of CSV column names to extract (in order)
+   - `$tableHeaderRow` = Markdown table header row (pipe-delimited)
+   - `$tableSeparator` = Header separator row (dashes matching column count)
+3. Run from `_includes/` folder: `.\AirtableConversionScripts\Template-CSVtoMarkdownTable.ps1`
+
+**Key PowerShell patterns used in scripts:**
+- Replace newlines: `-replace '\n', ' ' -replace '\r', ' '` (converts multiline cells to single line)
+- Escape pipes: `-replace '\|', '\|'` (prevents pipe conflicts in markdown table syntax)
+- Filter empty rows: `if ($cells[0])` (only output rows where first column is not empty)
+
+#### 3. Create Styling Wrapper HTML
+Create file: `_includes/[TableName]TableStyle.html`
+
+**Required components:**
+- CSS class `.known-issues-controls` for filter UI container
+- CSS class `.known-issues-table` for table wrapper
+- CSS classes for styling `th`, `td`, alternating rows (`:nth-child(odd/even)`)
+- Search input: `#[tableName]Search` (type="text")
+- Category dropdown: `#categoryFilter` (auto-populated from column data)
+- Status dropdown: `#statusFilter` (auto-populated from column data)
+- Clear button: `#clearFilters` (onclick="clearFilters()")
+- Result counter: `#filterResultCount` (displays "Showing X of Y [items]")
+- JavaScript functions:
+  - `init[TableName]Filters()` — Runs on DOMContentLoaded, populates dropdowns
+  - `filter[TableName]Table()` — Implements AND logic: search + category + status
+  - `clear[TableName]Filters()` — Resets all inputs and reruns filter
+  - `updateFilterCount()` — Updates visible row counter
+- Opening div: `<div class="[table-name]-table" markdown="1">`
+
+**Use Wildlander styling standards:**
+- Header background: `#5b7c99` (blue)
+- Row striping: Alternating white/`#f8f9fa` (light gray)
+- Hover: `#eef2f7` (lighter blue)
+- Button color: `#5b7c99` matching headers
+- Button hover: `#3d5467` (darker blue)
+- Borders: `#c8cfd8` (light gray)
+- Reference: [KnownIssuesTableStyle.html](../../_includes/KnownIssuesTableStyle.html)
+
+#### 4. Create Closing Wrapper
+Create file: `_includes/[TableName]TableStyleEnd.html`
+
+**Content:** Single closing div tag
+```html
+</div>
+```
+
+#### 5. Integrate into Target Page
+Edit the destination markdown file (e.g., `_01Support/FullKnownissues.md`) with proper frontmatter:
+
+```yaml
+---
+layout: default
+title: Page Title
+nav_exclude: true
+has_children: false
+description: Brief description
+---
+
+{% include [TableName]TableStyle.html %}
+{% include [TableName].md %}
+{% include [TableName]TableStyleEnd.html %}
+```
+
+**Critical:** Include the three files in exact sequence. The markdown attribute on the wrapper div enables markdown rendering inside HTML containers.
+
+#### 6. Verify Jekyll Rendering
+- Commit to main branch
+- Wait 10+ minutes for GitHub Pages rebuild
+- Check `https://wiki.wildlandermod.com/section/page/` for live output
+- Verify:
+  - Table displays with all rows
+  - Filter dropdowns populate from data
+  - Search works across columns
+  - Category and Status filters apply
+  - Clear button resets all filters
+  - Row counter displays correct counts
+
+### Troubleshooting Common Issues
+
+| Issue | Solution |
+|-------|----------|
+| Pipes appear in table | Ensure `-replace '\|', '\|'` applied to fields with pipe characters |
+| Newlines break table | Use `-replace '\n', ' ' -replace '\r', ' '` to convert to spaces |
+| Dropdowns empty | Verify column indices in `cells[N]` selectors match your table structure |
+| Table not rendering | Check that `<div markdown="1">` is properly closed by include wrapper |
+| Jekyll build fails | Verify YAML frontmatter is valid (syntax: `key: value`, no extra indentation) |
+| Filters not working | Confirm JavaScript function names match IDs (e.g., `#knownIssuesSearch` with `knownIssuesSearch` variable) |
+
+### Updating Existing Tables
+
+When CSV source data changes, regenerate from `_includes/` folder:
+1. Export updated CSV from Airtable (same folder path as before)
+2. Run PowerShell script again (same syntax, replaces old markdown file)
+3. Verify row count in script output
+4. Commit to trigger Jekyll rebuild
+
+### Known Issues Table (Example Implementation)
+
+**Files created for Known Issues example:**
+- CSV source: `_includes/DataFromAirtable/Known Issues 2-Grid view.csv` (712 rows)
+- Conversion script: `_includes/AirtableConversionScripts/Convert-KnownIssuesCSV.ps1` (run from `_includes/` folder to regenerate)
+- Markdown table: `_includes/KnownIssuesTable.md` (auto-generated)
+- Styling: `_includes/KnownIssuesTableStyle.html` (custom CSS + filtering JS)
+- Closing tag: `_includes/KnownIssuesTableStyleEnd.html`
+- Integration: `_01Support/FullKnownissues.md` (includes three files above)
+- Columns: ID, Category, Summary, Description, Status, Investigation, Notes
+- Features: Full-text search, category filter, status filter, result counter
+
+**To regenerate after Airtable updates:**
+```powershell
+cd _includes
+.\AirtableConversionScripts\Convert-KnownIssuesCSV.ps1
+```
 
 ## Key Files for Reference
 

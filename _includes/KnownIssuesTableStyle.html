@@ -5,26 +5,26 @@
   gap: 10px;
   flex-wrap: wrap;
   align-items: center;
-  background: #f8f9fa;
+  background: #462b53;
   padding: 15px;
   border-radius: 4px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #50098a;
 }
 
 .known-issues-controls label {
   font-weight: 600;
-  color: #33485f;
+  color: #f77ef1;
   margin-right: 5px;
 }
 
 .known-issues-controls input,
 .known-issues-controls select {
   padding: 8px 12px;
-  border: 1px solid #c8cfd8;
+  border: 1px solid #50098a;
   border-radius: 4px;
   font-size: 14px;
-  background: white;
-  color: #33485f;
+  background: #222222;
+  color: #e6e6e6;
   font-family: inherit;
 }
 
@@ -44,14 +44,14 @@
 }
 
 .known-issues-controls select:hover {
-  border-color: #5b7c99;
+  border-color: #f77ef1;
 }
 
 .known-issues-controls button {
   padding: 8px 16px;
-  background-color: #5b7c99;
-  color: white;
-  border: 1px solid #5b7c99;
+  background-color: #50098a;
+  color: #ffffff;
+  border: 1px solid #50098a;
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
@@ -60,11 +60,13 @@
 }
 
 .known-issues-controls button:hover {
-  background-color: #3d5467;
+  background-color: #f77ef1;
+  color: #222222;
+  border-color: #f77ef1;
 }
 
 .known-issues-controls button:active {
-  background-color: #33485f;
+  background-color: #e94ee1;
 }
 
 .known-issues-table {
@@ -76,20 +78,20 @@
 .known-issues-table table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #c8cfd8;
+  border: 2px solid #50098a;
 }
 
 .known-issues-table th,
 .known-issues-table td {
-  border: 1px solid #c8cfd8;
+  border: 1px solid #50098a;
   padding: 12px;
   text-align: left;
   vertical-align: top;
 }
 
 .known-issues-table th {
-  background-color: #5b7c99;
-  color: white;
+  background-color: #50098a;
+  color: #ffffff;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
@@ -149,15 +151,15 @@
 }
 
 .known-issues-table tbody tr:nth-child(odd) {
-  background-color: #ffffff;
+  background-color: #222222;
 }
 
 .known-issues-table tbody tr:nth-child(even) {
-  background-color: #f8f9fa;
+  background-color: #2a2a2a;
 }
 
 .known-issues-table tbody tr:hover {
-  background-color: #eef2f7;
+  background-color: #3d2454;
 }
 
 .known-issues-table tr.hidden {
@@ -170,9 +172,86 @@
 
 .filter-result-count {
   font-size: 13px;
-  color: #5b7c99;
+  color: #f77ef1;
   margin-top: 10px;
   font-weight: 500;
+}
+
+/* Tooltip Styles */
+.issue-tooltip {
+  position: absolute;
+  background-color: #222222;
+  border: 2px solid #50098a;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  font-size: 13px;
+  display: none;
+  pointer-events: none;
+}
+
+.issue-tooltip.active {
+  display: block;
+}
+
+.issue-tooltip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #50098a;
+}
+
+.issue-tooltip-id {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f77ef1;
+  letter-spacing: 0.5px;
+}
+
+.issue-tooltip-category {
+  display: inline-block;
+  background-color: #50098a;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
+
+.issue-tooltip-row {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.issue-tooltip-label {
+  color: #f77ef1;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
+
+.issue-tooltip-value {
+  color: #e6e6e6;
+  padding-left: 8px;
+  border-left: 2px solid #462b53;
+}
+
+.known-issues-table td:nth-child(1) {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.known-issues-table td:nth-child(1):hover {
+  color: #f77ef1;
 }
 </style>
 
@@ -226,7 +305,92 @@ function initKnownIssuesFilters() {
   categorySelect.addEventListener('change', filterKnownIssuesTable);
   statusSelect.addEventListener('change', filterKnownIssuesTable);
   
+  // Initialize tooltips for ID cells
+  initKnownIssuestooltips();
+  
   updateFilterCount();
+}
+
+function initKnownIssuestooltips() {
+  const table = document.querySelector('.known-issues-table table');
+  if (!table) return;
+  
+  // Create tooltip container
+  let tooltip = document.getElementById('knownIssuestooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'knownIssuestooltip';
+    tooltip.className = 'issue-tooltip';
+    document.body.appendChild(tooltip);
+  }
+  
+  const rows = table.querySelectorAll('tbody tr');
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length < 7) return;
+    
+    const idCell = cells[0];
+    const id = cells[0].textContent.trim();
+    const category = cells[1].textContent.trim();
+    const summary = cells[2].textContent.trim();
+    const description = cells[3].textContent.trim();
+    const status = cells[4].textContent.trim();
+    const investigation = cells[5].textContent.trim();
+    const notes = cells[6].textContent.trim();
+    
+    idCell.addEventListener('mouseenter', (e) => {
+      showKnownIssuestooltip(e, {id, category, summary, description, status, investigation, notes});
+    });
+    
+    idCell.addEventListener('mouseleave', hideKnownIssuestooltip);
+  });
+}
+
+function showKnownIssuestooltip(event, data) {
+  const tooltip = document.getElementById('knownIssuestooltip');
+  if (!tooltip) return;
+  
+  tooltip.innerHTML = `
+    <div class="issue-tooltip-header">
+      <div class="issue-tooltip-id">${data.id}</div>
+      <div class="issue-tooltip-category">${data.category}</div>
+    </div>
+    ${data.summary ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Summary</span>
+      <div class="issue-tooltip-value">${data.summary}</div>
+    </div>` : ''}
+    ${data.description ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Description</span>
+      <div class="issue-tooltip-value">${data.description}</div>
+    </div>` : ''}
+    ${data.status ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Status</span>
+      <div class="issue-tooltip-value">${data.status}</div>
+    </div>` : ''}
+    ${data.investigation ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Investigation</span>
+      <div class="issue-tooltip-value">${data.investigation}</div>
+    </div>` : ''}
+    ${data.notes ? `<div class="issue-tooltip-row">
+      <span class="issue-tooltip-label">Notes</span>
+      <div class="issue-tooltip-value">${data.notes}</div>
+    </div>` : ''}
+  `;
+  
+  tooltip.classList.add('active');
+  
+  // Position tooltip near cursor
+  const rect = event.target.getBoundingClientRect();
+  tooltip.style.left = (rect.left + window.scrollX) + 'px';
+  tooltip.style.top = (rect.bottom + window.scrollY + 8) + 'px';
+}
+
+function hideKnownIssuestooltip() {
+  const tooltip = document.getElementById('knownIssuestooltip');
+  if (tooltip) {
+    tooltip.classList.remove('active');
+  }
 }
 
 function filterKnownIssuesTable() {
