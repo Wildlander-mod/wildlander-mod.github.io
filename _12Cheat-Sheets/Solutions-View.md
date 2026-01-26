@@ -28,6 +28,7 @@ $(document).ready(function(){
 
 function initSolutionsViewFilters() {
   const archetypes = new Set();
+  const baseIngredients = new Set();
   const table = document.querySelector('.solutions-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
@@ -42,24 +43,46 @@ function initSolutionsViewFilters() {
         });
       }
     }
+    
+    const baseIngCell = row.querySelector('td:nth-child(2)');
+    if (baseIngCell) {
+      const baseIngText = baseIngCell.textContent.trim();
+      if (baseIngText) {
+        baseIngText.split(',').forEach(ing => {
+          const cleaned = ing.trim();
+          if (cleaned) baseIngredients.add(cleaned);
+        });
+      }
+    }
   });
   
-  const select = document.getElementById('solutionsViewEffectFilter');
+  const archetypeSelect = document.getElementById('solutionsViewEffectFilter');
   Array.from(archetypes).sort().forEach(arch => {
     const option = document.createElement('option');
     option.value = arch;
     option.textContent = arch;
-    select.appendChild(option);
+    archetypeSelect.appendChild(option);
+  });
+  
+  const ingredientSelect = document.getElementById('solutionsViewBaseIngredientFilter');
+  Array.from(baseIngredients).sort().forEach(ing => {
+    const option = document.createElement('option');
+    option.value = ing;
+    option.textContent = ing;
+    ingredientSelect.appendChild(option);
   });
   
   document.getElementById('solutionsViewSearch').addEventListener('keyup', filterSolutionsViewTable);
-  select.addEventListener('change', filterSolutionsViewTable);
+  archetypeSelect.addEventListener('change', filterSolutionsViewTable);
+  ingredientSelect.addEventListener('change', filterSolutionsViewTable);
   document.getElementById('solutionsViewClearFilters').addEventListener('click', clearSolutionsViewFilters);
+  filterSolutionsViewTable();
 }
 
 function filterSolutionsViewTable() {
   const searchTerm = document.getElementById('solutionsViewSearch').value.toLowerCase();
   const archetypeFilter = document.getElementById('solutionsViewEffectFilter').value;
+  const baseIngFilter = document.getElementById('solutionsViewBaseIngredientFilter').value;
   
   const table = document.querySelector('.solutions-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
@@ -75,9 +98,12 @@ function filterSolutionsViewTable() {
     
     const searchMatch = solution.includes(searchTerm) || baseIng.includes(searchTerm) || 
                         effect.includes(searchTerm) || archetypes.includes(searchTerm);
-    const filterMatch = !archetypeFilter || archetypes.includes(archetypeFilter.toLowerCase());
+    const archetypeMatch = !archetypeFilter || archetypes.includes(archetypeFilter.toLowerCase());
     
-    const isVisible = searchMatch && filterMatch;
+    const baseIngList = baseIng.split(',').map(v => v.trim());
+    const baseIngMatch = !baseIngFilter || baseIngList.includes(baseIngFilter.toLowerCase());
+    
+    const isVisible = searchMatch && archetypeMatch && baseIngMatch;
     row.style.display = isVisible ? '' : 'none';
     if (isVisible) visibleCount++;
   });
@@ -95,6 +121,7 @@ function updateSolutionsViewFilterCount(visible, total) {
 function clearSolutionsViewFilters() {
   document.getElementById('solutionsViewSearch').value = '';
   document.getElementById('solutionsViewEffectFilter').value = '';
+  document.getElementById('solutionsViewBaseIngredientFilter').value = '';
   filterSolutionsViewTable();
 }
 </script>
@@ -103,6 +130,9 @@ function clearSolutionsViewFilters() {
   <input type="text" id="solutionsViewSearch" placeholder="Search by solution, ingredient, or effect..." />
   <select id="solutionsViewEffectFilter">
     <option value="">All Archetypes</option>
+  </select>
+  <select id="solutionsViewBaseIngredientFilter">
+    <option value="">All Base Ingredients</option>
   </select>
   <button id="solutionsViewClearFilters" onclick="clearSolutionsViewFilters()">Clear Filters</button>
   <div id="solutionsViewFilterResultCount" class="filter-result-count-solutions-view"></div>

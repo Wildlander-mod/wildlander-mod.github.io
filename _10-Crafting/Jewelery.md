@@ -157,6 +157,7 @@ function initJewelryFilters() {
   document.getElementById('jewelryPerksFilter').addEventListener('change', filterJewelryRecipes);
   initJewelrytooltips();
   updateFilterCountJewelry();
+  filterJewelryRecipes();
 }
 
 function filterJewelryRecipes() {
@@ -226,7 +227,7 @@ initJewelryFilters();
     <option value="">All Perks</option>
   </select>
   <button id="clearFiltersJewelry" onclick="clearJewelryFilters()">Clear Filters</button>
-  <div id="filterResultCountJewelry" class="filter-result-count"></div>
+  <div id="filterResultCountJewelry" class="filter-result-count-jewelry"></div>
 </div>
 
 <div class="jewelry-table" markdown="1">
