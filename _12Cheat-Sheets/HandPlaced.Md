@@ -1,6 +1,7 @@
 ---
 title: Hand Placed Items
 layout: default
+nav_order: 6
 description: Recipes lists
 ---
 

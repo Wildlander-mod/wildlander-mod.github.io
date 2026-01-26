@@ -1,6 +1,7 @@
 ---
 title: Mine Locations
 layout: default
+nav_order: 5
 description: Mine Locations and contents
 ---
 

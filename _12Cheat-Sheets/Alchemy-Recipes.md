@@ -1,6 +1,7 @@
 ---
 title: Alchemy Recipes & Power Level Guide
 layout: default
+nav_order: 3
 description: Recipes lists
 ---
 

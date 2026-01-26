@@ -239,6 +239,8 @@ Use the search bar and filters below to find specific recipes by type, toolkit, 
 
 ---
 
+## Cooking Recipes Data
+
 <div class="cooking-recipes-controls">
   <input type="text" id="cookingRecipesSearch" placeholder="Search" />
   <select id="typeFilter">

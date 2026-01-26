@@ -1,0 +1,176 @@
+﻿Name,Weight,Value,Base Rank,Base Solutions,Effects Rank,Effects
+Abecean Longfin,0.50,15,0,"Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Mafre sa Haelia   (Frost),Betaltadoon sa Haelia   (Poisons),Relleis sa Haelia  (Water)",2,"Karan Kogo sa Gravia   (Force),Agea Arden sa Gravia   (Resistances)"
+Ancestor Moth Wing,0.10,2,2,"Wel sa Gravia   (Air),Betayammis sa Gravia   (Creatures),Betaltadoon sa Gravia   (Poisons),Ghartok sa Gravia   (Stamina)",5,"Karan Kogo sa Sila (Force),Agea sa Sila (Magicka),Betaltadoon sa Sila (Poisons)"
+Angelfish,0.25,48,0,,5,Wel sa Sila   (Air)
+Angler Larvae,0.25,65,0,,4,"Karan Kogo sa Adonai   (Force),Agea Arden sa Adonai   (Resistances)"
+Animal Fat,0.50,25,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Relleis sa Goria   (Water)",3,"Betaltadoon sa Baune   (Poisons),Relleis sa Baune   (Water)"
+Ash Creep Cluster,0.25,5,0,,2,
+Ash Hopper Jelly,0.25,10,1,"Betayammis sa Goria   (Creatures),Karan ry Ayammis sa Goria   (Health)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan Kogo sa Gravia   (Force),Agea Arden sa Gravia   (Resistances)"
+Ashen Grass Pod,0.10,7,0,"Molag sa Haelia   (Fire),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances)",2,Agea Arden sa Gravia   (Resistances)
+Bear Claws,0.10,35,1,"Betayammis sa Goria   (Creatures),Ghartok sa Goria   (Stamina),Altadoon sa Goria   (Weapons)",5,"Karan Kogo sa Sila (Force),Ghartok sa Sila (Stamina)"
+Bear Eye,0.10,15,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Ayammis sa Goria   (Life)",3,Karan ry Ayammis sa Baune   (Health)
+Bear Heart,1.75,40,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Betaltadoon sa Goria   (Poisons)",4,"Ayammis sa Adonai   (Life),Betaltadoon sa Adonai   (Poisons)"
+Bear Tooth,0.10,17,1,"Betayammis sa Goria   (Creatures),Agea sa Goria   (Magicka)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan Kogo sa Gravia   (Force),Agea sa Gravia   (Magicka)"
+Bee,0.05,3,0,"Wel sa Haelia   (Air),Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Ghartok sa Haelia   (Stamina)",4,"Karan Kogo sa Adonai   (Force),Agea Arden sa Adonai   (Resistances),Ghartok sa Adonai   (Stamina)"
+Beehive Husk,1.00,5,1,"Betayammis sa Goria   (Creatures),Bal sa Goria   (Earth),Betaltadoon sa Goria   (Poisons),Agea Arden sa Goria   (Resistances)",3,"Malatu Magicka sa Baune   (Arcane Energy),Karan Kogo sa Baune   (Force)"
+Berit's Ashes,0.20,5,2,"Altadoon ry Bet sa Gravia   (Diseases),Bal sa Gravia   (Earth),Mer Garlas sa Gravia   (Flesh),Dunayammis sa Gravia   (Undead)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Ghartok sa Gravia   (Stamina)"
+Bleeding Crown,0.30,10,0,"Bal sa Haelia   (Earth),Molag sa Haelia   (Fire),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons)",2,"Karan Kogo sa Gravia   (Force),Agea Arden sa Gravia   (Resistances)"
+Blisterwort,0.20,12,0,"Bal sa Haelia   (Earth),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Ghartok sa Haelia   (Stamina)",1,"Ayammis sa Goria   (Life),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina)"
+Blue Butterfly Wing,0.01,2,0,"Wel sa Haelia   (Air),Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Betaltadoon sa Haelia   (Poisons),Ghartok sa Haelia   (Stamina)",5,Betaltadoon sa Sila (Poisons)
+Blue Dartwing,0.03,1,0,"Wel sa Haelia   (Air),Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Agea Arden sa Haelia   (Resistances),Wel sa Belle sa Haelia   (Shock)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Ayammis sa Gravia   (Life)"
+Blue Mountain Flower,0.10,1,0,"Karan ry Ayammis sa Haelia  (Health),Mora sa Haelia   (Nature),Relleis sa Haelia  (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan ry Ayammis sa Gravia   (Health),Ayammis sa Gravia   (Life)"
+Boar Eye,0.10,31,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Ghartok sa Goria   (Stamina)",3,Agea Arden sa Baune   (Resistances)
+Boar Heart,2.00,42,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",5,Betaltadoon sa Sila (Poisons)
+Boar Tusk,0.50,5,1,"Betayammis sa Goria   (Creatures),Ghartok sa Goria   (Stamina)",1,"Ayammis sa Goria   (Life),Agea Arden sa Goria   (Resistances)"
+Boiled Skeever Tail,0.20,23,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)",2,Betaltadoon sa Gravia   (Poisons)
+Bone Meal,0.50,5,0,"Altadoon ry Bet sa Haelia   (Diseases),Bal sa Haelia   (Earth),Mer Garlas sa Haelia   (Flesh),Betaltadoon sa Haelia   (Poisons),Ghartok sa Haelia   (Stamina),Dunayammis sa Haelia   (Undead)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Ghartok sa Gravia   (Stamina)"
+Bonesap,0.20,33,1,Bal sa Goria   (Earth),5,Karan Kogo sa Sila (Force)
+Briar Heart,0.50,100,2,"Malatu Magicka sa Gravia   (Arcane Energy),Volen Magicka sa Gravia   (Magical Constructs),Mer Garlas sa Gravia   (Flesh),Mer Ayammis sa Gravia   (Mortals),Agea sa Gravia   (Magicka),Dunayammis sa Gravia   (Undead)",3,"Malatu Magicka sa Baune   (Arcane Energy),Karan Kogo sa Baune   (Force),Agea sa Baune   (Magicka)"
+Buck Antlers,2.00,25,1,"Karan sa Goria   (Armor),Betayammis sa Goria   (Creatures),Ghartok sa Goria   (Stamina),Altadoon sa Goria   (Weapons)",5,"Karan Kogo sa Sila (Force),Ghartok sa Sila (Stamina)"
+Buck Antlers (Superlative),2.00,38,1,"Betayammis sa Goria   (Creatures),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina)",5,
+Bull Horn,3.00,21,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",4,"Karan Kogo sa Adonai   (Force),Ayammis sa Adonai   (Life),Agea Arden sa Adonai   (Resistances)"
+Burnt Spriggan Wood,0.50,24,2,Molag sa Gravia   (Fire),5,Karan Kogo sa Sila (Force)
+Canine Tooth,0.10,8,1,"Betayammis sa Goria   (Creatures),Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)",1,"Karan Kogo sa Goria   (Force),Karan ry Ayammis sa Goria   (Health)"
+Canis Root,0.10,15,1,"Mora sa Goria   (Nature),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina),Relleis sa Goria   (Water)",3,"Mallari sa Baune   (Metal),Betaltadoon sa Baune   (Poisons),Altadoon sa Baune   (Weapons)"
+Charred Hawk Beak,0.25,45,1,"Molag sa Goria   (Fire),Karan ry Ayammis sa Goria   (Health)",3,Betaltadoon sa Baune   (Poisons)
+Charred Skeever Hide,0.50,1,0,"Betayammis sa Haelia   (Creatures),Altadoon ry Bet sa Haelia   (Diseases),Molag sa Haelia   (Fire),Mer Garlas sa Haelia   (Flesh),Ghartok sa Haelia   (Stamina)",1,"Malatu Magicka sa Goria   (Arcane Energy),Ayammis sa Goria   (Life),Agea Arden sa Goria   (Resistances),Relleis sa Goria   (Water)"
+Chaurus Eggs,0.20,10,1,"Betayammis sa Goria   (Creatures),Ayammis sa Goria   (Life),Latta sa Goria   (Light),Mora sa Goria   (Nature),Betaltadoon sa Goria   (Poisons)",1,"Karan Kogo sa Goria   (Force),Betaltadoon sa Goria   (Poisons),Agea Arden sa Goria   (Resistances)"
+Chaurus Hunter Antennae,0.10,54,1,"Betayammis sa Goria   (Creatures),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina)",5,"Karan Kogo sa Sila (Force),Agea sa Sila (Magicka),Betaltadoon sa Sila (Poisons)"
+Chicken's Egg,0.50,2,0,"Malatu Magicka sa Haelia   (Arcane Energy),Betayammis sa Haelia   (Creatures),Ayammis sa Haelia   (Life),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances)",5,
+Creep Cluster,0.20,1,0,"Rellers ry Molag sa Haelia   (Acid),Bal sa Haelia   (Earth),Agea sa Haelia   (Magicka),Mora sa Haelia   (Nature),Relleis sa Haelia  (Water)",5,Karan Kogo sa Sila (Force)
+Crimson Nirnroot,0.20,350,2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan ry Ayammis sa Gravia   (Health),Latta sa Gravia   (Light),Agea sa Gravia   (Magicka),Mora sa Gravia   (Nature)",5,"Malatu Magicka sa Sila (Arcane Energy),Betaltadoon sa Sila (Poisons)"
+Cured Skeever Hide,0.50,13,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health)",5,"Malatu Magicka sa Sila (Arcane Energy),Karan ry Ayammis sa Sila (Health),Ayammis sa Sila (Life)"
+Cyrodilic Spadetail,0.25,15,0,"Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Betaltadoon sa Haelia   (Poisons),Ghartok sa Haelia   (Stamina),Relleis sa Haelia  (Water)",2,Ayammis sa Gravia   (Life)
+Daedra Heart,1.00,1500,2,"Betayammis sa Gravia   (Creatures),Pellenni Ayammis sa Gravia   (Daedra),Mer Garlas sa Gravia   (Flesh),Karan ry Ayammis sa Gravia   (Health),Relleis sa Gravia   (Water)",5,"Malatu Magicka sa Sila (Arcane Energy),Karan ry Ayammis sa Sila (Health),Ayammis sa Sila (Life)"
+Deathbell,0.10,4,1,"Karan ry Ayammis sa Goria   (Health),Mora sa Goria   (Nature),Betaltadoon sa Goria   (Poisons),Relleis sa Goria   (Water)",5,Karan Kogo sa Sila (Force)
+Deer Heart,1.00,19,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",2,"Betaltadoon sa Gravia   (Poisons),Agea Arden sa Gravia   (Resistances)"
+Doe Antlers,1.50,15,1,"Karan sa Goria   (Armor),Betayammis sa Goria   (Creatures),Betaltadoon sa Goria   (Poisons),Altadoon sa Goria   (Weapons)",1,"Karan Kogo sa Goria   (Force),Betaltadoon sa Goria   (Poisons)"
+Doe Antlers (Superlative),1.50,30,1,"Betayammis sa Goria   (Creatures),Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)",5,Altadoon ry Bet sa Sila (Diseases)
+Dragon Eye,0.10,169,5,"Betayammis sa Sila   (Creatures),Mer Garlas sa Sila   (Flesh)",2,
+Dragon Heart,5.00,218,5,"Betayammis sa Sila   (Creatures),Mer Garlas sa Sila   (Flesh)",1,"Malatu Magicka sa Goria   (Arcane Energy),Altadoon ry Bet sa Goria   (Diseases)"
+Dragon's Tongue,0.10,5,0,"Betayammis sa Haelia   (Creatures),Molag sa Haelia   (Fire),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",3,"Malatu Magicka sa Baune   (Arcane Energy),Karan Kogo sa Baune   (Force)"
+Dwarven Oil,0.25,38,1,"Bal sa Goria   (Earth),Karan Kogo sa Goria   (Force),Mallari sa Goria  (Metal),Betaltadoon sa Goria   (Poisons)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Karan Kogo sa Adonai   (Force),Agea sa Adonai   (Magicka),Agea Arden sa Adonai   (Resistances)"
+Dyed Hawk Feathers,0.10,39,1,"Wel sa Goria   (Air),Betayammis sa Goria   (Creatures),Altadoon ry Bet sa Goria   (Diseases)",5,Ghartok sa Sila (Stamina)
+Ectoplasm,0.10,13,2,"Mer ry Wel sa Gravia   (Apparitions),Mer Ayammis sa Gravia   (Mortals),Agea sa Gravia   (Magicka),Ayammis Malata sa Gravia   (Souls),Dunayammis sa Gravia   (Undead)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan Kogo sa Gravia   (Force),Agea sa Gravia   (Magicka)"
+Elves Ear,0.10,10,0,"Agea sa Haelia   (Magicka),Mora sa Haelia   (Nature),Relleis sa Haelia  (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Agea Arden sa Gravia   (Resistances)"
+Emperor Parasol Moss,0.25,9,2,"Karan ry Ayammis sa Gravia   (Health),Mora sa Gravia   (Nature),Betaltadoon sa Gravia   (Poisons)",4,"Karan Kogo sa Adonai   (Force),Karan ry Ayammis sa Adonai   (Health),Agea Arden sa Adonai   (Resistances)"
+Falmer Ear,0.20,10,1,"Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health),Mer Ayammis sa Goria   (Mortals),Betaltadoon sa Goria   (Poisons),Relleis sa Goria   (Water)",2,"Betaltadoon sa Gravia   (Poisons),Relleis sa Gravia   (Water)"
+Felsaad Tern Feathers,0.10,11,1,"Wel sa Goria   (Air),Betayammis sa Goria   (Creatures),Karan ry Ayammis sa Goria   (Health)",3,"Malatu Magicka sa Baune   (Arcane Energy),Karan Kogo sa Baune   (Force),Agea Arden sa Baune   (Resistances)"
+Fire Salts,0.25,250,2,"Malatu Magicka sa Gravia   (Arcane Energy),Pellenni Ayammis sa Gravia   (Daedra),Bal sa Gravia   (Earth),Molag sa Gravia   (Fire),Mafre sa Gravia   (Frost),Betaltadoon sa Gravia   (Poisons)",5,"Malatu Magicka sa Sila (Arcane Energy),Karan Kogo sa Sila (Force),Agea sa Sila (Magicka)"
+Flawless Bear Tooth,0.10,53,1,"Betayammis sa Goria   (Creatures),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina)",1,"Karan Kogo sa Goria   (Force),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina)"
+Flawless Sabre Cat Tooth,0.10,55,1,"Betayammis sa Goria   (Creatures),Agea sa Goria   (Magicka),Betaltadoon sa Goria   (Poisons)",1,Agea sa Goria   (Magicka)
+Fly Amanita,0.10,2,0,"Bal sa Haelia   (Earth),Molag sa Haelia   (Fire),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances)",5,
+Fox Eye,0.10,4,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",1,Karan Kogo sa Goria   (Force)
+Frost Mirriam,0.10,1,0,"Mafre sa Haelia   (Frost),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",5,
+Frost Salts,0.25,217,2,"Malatu Magicka sa Gravia   (Arcane Energy),Pellenni Ayammis sa Gravia   (Daedra),Bal sa Gravia   (Earth),Molag sa Gravia   (Fire),Mafre sa Gravia   (Frost),Betaltadoon sa Gravia   (Poisons)",5,"Malatu Magicka sa Sila (Arcane Energy),Karan Kogo sa Sila (Force)"
+Garlic,0.25,10,0,"Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",5,
+Giant Lichen,0.25,5,0,"Betayammis sa Haelia   (Creatures),Bal sa Haelia   (Earth),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Wel sa Belle sa Haelia   (Shock),Relleis sa Haelia  (Water)",1,"Karan Kogo sa Goria   (Force),Agea Arden sa Goria   (Resistances)"
+Giant's Toe,1.00,20,2,"Betayammis sa Gravia   (Creatures),Mer Garlas sa Gravia   (Flesh),Mer Ayammis sa Gravia   (Mortals),Betaltadoon sa Gravia   (Poisons),Ghartok sa Gravia   (Stamina)",5,"Betaltadoon sa Sila (Poisons),Ghartok sa Sila (Stamina)"
+Glassfish,0.25,30,0,,1,"Malatu Magicka sa Goria   (Arcane Energy),Latta Loria sa Goria   (Shadow)"
+Gleamblossom,0.10,5,1,"Malatu Magicka sa Goria   (Arcane Energy),Latta sa Goria   (Light),Mora sa Goria   (Nature),Agea Arden sa Goria   (Resistances)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Karan Kogo sa Adonai   (Force),Agea Arden sa Adonai   (Resistances)"
+Glow Dust,0.50,25,2,"Mer ry Wel sa Gravia   (Apparitions),Malatu Magicka sa Gravia   (Arcane Energy),Volen Magicka sa Gravia   (Magical Constructs),Latta sa Gravia   (Light),Agea sa Gravia   (Magicka),Betaltadoon sa Gravia   (Poisons),Ayammis Malata sa Gravia   (Souls),Dunayammis sa Gravia   (Undead)",5,"Agea sa Sila (Magicka),Betaltadoon sa Sila (Poisons)"
+Glowing Mushroom,0.20,5,0,"Bal sa Haelia   (Earth),Latta sa Haelia   (Light),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Wel sa Belle sa Haelia   (Shock)",3,"Malatu Magicka sa Baune   (Arcane Energy),Karan Kogo sa Baune   (Force),Agea Arden sa Baune   (Resistances)"
+Goat Heart,0.50,19,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Betaltadoon sa Goria   (Poisons)",5,
+Goldfish,0.25,24,0,,2,"Malatu Magicka sa Gravia   (Arcane Energy),Agea Arden sa Gravia   (Resistances)"
+Grass Pod,0.10,1,0,"Ayammis sa Haelia   (Life),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Agea Arden sa Haelia   (Resistances)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Agea sa Gravia   (Magicka)"
+Hagraven Claw,0.25,20,2,"Malatu Magicka sa Gravia   (Arcane Energy),Volen Magicka sa Gravia   (Magical Constructs),Betayammis sa Gravia   (Creatures),Karan Kogo sa Gravia   (Force),Mer Ayammis sa Gravia   (Mortals),Agea Arden sa Gravia   (Resistances),Altadoon sa Gravia   (Weapons)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan Kogo sa Gravia   (Force)"
+Hagraven Feathers,0.10,20,2,"Wel sa Gravia   (Air),Malatu Magicka sa Gravia   (Arcane Energy),Karan sa Gravia   (Armor),Volen Magicka sa Gravia   (Magical Constructs),Betayammis sa Gravia   (Creatures),Mer Garlas sa Gravia   (Flesh),Mer Ayammis sa Gravia   (Mortals),Agea sa Gravia   (Magicka),Betaltadoon sa Gravia   (Poisons)",2,"Karan Kogo sa Gravia   (Force),Betaltadoon sa Gravia   (Poisons)"
+Hanging Moss,0.25,1,0,"Agea sa Haelia   (Magicka),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Relleis sa Haelia  (Water)",5,"Agea sa Sila (Magicka),Betaltadoon sa Sila (Poisons)"
+Hare Eye,0.10,8,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Ghartok sa Goria   (Stamina)",4,"Karan Kogo sa Adonai   (Force),Agea Arden sa Adonai   (Resistances)"
+Hawk Beak,0.25,15,1,"Wel sa Goria   (Air),Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Ghartok sa Goria   (Stamina),Altadoon sa Goria   (Weapons)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Agea Arden sa Adonai   (Resistances)"
+Hawk Feathers,0.10,15,1,"Wel sa Goria   (Air),Karan sa Goria   (Armor),Betayammis sa Goria   (Creatures),Altadoon ry Bet sa Goria   (Diseases),Mer Garlas sa Goria   (Flesh)",5,
+Heart,1.00,77,1,"Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health),Mer Ayammis sa Goria   (Mortals),Betaltadoon sa Goria   (Poisons)",5,"Agea sa Sila (Magicka),Betaltadoon sa Sila (Poisons)"
+Histcarp,0.25,6,0,"Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Ghartok sa Haelia   (Stamina),Relleis sa Haelia  (Water)",5,Ghartok sa Sila (Stamina)
+Honeycomb,0.20,12,-1,,3,"Karan sa Baune   (Armor),Ghartok sa Baune   (Stamina)"
+Human Flesh,0.25,25,1,"Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health),Mer Ayammis sa Goria   (Mortals),Betaltadoon sa Goria   (Poisons)",1,"Malatu Magicka sa Goria   (Arcane Energy),Betaltadoon sa Goria   (Poisons)"
+Ice Wraith Teeth,0.25,30,1,"Volen Magicka sa Goria   (Magical Constructs),Betayammis sa Goria   (Creatures),Mafre sa Goria   (Frost),Betaltadoon sa Goria   (Poisons),Ayammis Malata sa Goria   (Souls)",1,"Karan Kogo sa Goria   (Force),Agea Arden sa Goria   (Resistances)"
+Imp Stool,0.30,12,0,"Bal sa Haelia   (Earth),Karan ry Ayammis sa Haelia  (Health),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons)",1,Karan ry Ayammis sa Goria   (Health)
+Jazbay Grapes,0.10,1,0,"Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons)",3,"Karan Kogo sa Baune   (Force),Agea sa Baune   (Magicka),Agea Arden sa Baune   (Resistances)"
+Jon's Giant Abecean Longfin,30.00,15,4,"Betayammis sa Adonai   (Creatures),Mer Garlas sa Adonai   (Flesh),Karan Kogo sa Adonai   (Force),Relleis sa Adonai   (Water),Altadoon sa Adonai   (Weapons)",2,"Karan Kogo sa Gravia   (Force),Agea Arden sa Gravia   (Resistances)"
+Juniper Berries,0.10,1,1,"Molag sa Haelia   (Fire),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Relleis sa Haelia  (Water)",5,
+Juvenile Mudcrab,0.25,73,0,,5,
+Large Bear Claws,0.20,22,1,"Betayammis sa Goria   (Creatures),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina)",3,Ghartok sa Baune   (Stamina)
+Large Mudcrab Chitin,2.00,29,0,"Betayammis sa Haelia   (Creatures),Altadoon ry Bet sa Haelia   (Diseases),Mer Garlas sa Haelia   (Flesh),Relleis sa Haelia  (Water)",3,"Karan Kogo sa Baune   (Force),Agea Arden sa Baune   (Resistances)"
+Large Sabre Cat Claws,0.20,17,1,"Betayammis sa Goria   (Creatures),Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)",1,Betaltadoon sa Goria   (Poisons)
+Lavender,0.10,5,0,"Malatu Magicka sa Haelia   (Arcane Energy),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan Kogo sa Gravia   (Force),Agea Arden sa Gravia   (Resistances)"
+Luna Moth Wing,0.01,5,0,"Wel sa Haelia   (Air),Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Latta sa Haelia   (Light),Agea sa Haelia   (Magicka),Betaltadoon sa Haelia   (Poisons)",4,
+Lyretail Anthias,0.25,38,0,,5,
+Mammoth Eye,0.20,44,1,"Wel sa Goria   (Air),Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health)",5,
+Mammoth Heart,5.00,258,2,"Wel sa Gravia   (Air),Betayammis sa Gravia   (Creatures),Mer Garlas sa Gravia   (Flesh),Betaltadoon sa Gravia   (Poisons)",5,Agea Arden sa Sila (Resistances)
+Monarch Wing,0.01,3,0,"Wel sa Haelia   (Air),Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Karan ry Ayammis sa Haelia  (Health)",1,
+Moon Moon Sugar,0.25,1004,1,"Mora sa Goria   (Nature),Betaltadoon sa Goria   (Poisons)",1,
+Moon Sugar,0.25,45,1,"Bal sa Goria   (Earth),Molag sa Goria   (Fire),Agea sa Goria   (Magicka),Mora sa Goria   (Nature),Betaltadoon sa Goria   (Poisons)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Karan Kogo sa Adonai   (Force),Agea sa Adonai   (Magicka),Agea Arden sa Adonai   (Resistances)"
+Mora Tapinella,0.25,4,0,"Bal sa Haelia   (Earth),Agea sa Haelia   (Magicka),Mora sa Haelia   (Nature)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Karan Kogo sa Adonai   (Force)"
+Mudcrab Chitin,0.50,7,0,"Karan sa Haelia   (Armor),Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Arden sa Haelia   (Sheild),Ghartok sa Haelia   (Stamina),Relleis sa Haelia  (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Agea Arden sa Gravia   (Resistances)"
+Namira's Rot,0.25,12,0,"Altadoon ry Bet sa Haelia   (Diseases),Bal sa Haelia   (Earth),Agea sa Haelia   (Magicka),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons)",4,
+Netch Jelly,0.50,38,1,,4,
+Nightshade,0.10,8,1,"Karan ry Ayammis sa Goria   (Health),Mora sa Goria   (Nature),Betaltadoon sa Goria   (Poisons),Relleis sa Goria   (Water)",5,Betaltadoon sa Sila (Poisons)
+Nirnroot,0.20,100,2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan ry Ayammis sa Gravia   (Health),Latta sa Gravia   (Light),Agea sa Gravia   (Magicka),Mora sa Gravia   (Nature),Betaltadoon sa Gravia   (Poisons)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Betaltadoon sa Adonai   (Poisons)"
+Nordic Barnacle,0.20,5,0,"Karan sa Haelia   (Armor),Betayammis sa Haelia   (Creatures),Ayammis sa Haelia   (Life),Agea sa Haelia   (Magicka),Betaltadoon sa Haelia   (Poisons),Relleis sa Haelia  (Water)",4,"Wel sa Adonai   (Air),Agea Arden sa Adonai   (Resistances)"
+Northern Flax,0.20,1,-1,,1,"Malatu Magicka sa Goria   (Arcane Energy),Ayammis sa Goria   (Life)"
+Oil of Vitriol,0.50,15,1,"Rellers ry Molag sa Goria   (Acid),Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)",1,"Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)"
+Orange Dartwing,0.03,1,0,"Wel sa Haelia   (Air),Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Ghartok sa Haelia   (Stamina)",1,
+Panacea,0.50,12,1,"Altadoon ry Bet sa Goria   (Diseases),Mora sa Goria   (Nature)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Ayammis sa Gravia   (Life)"
+Pearl,0.10,16,1,"Karan sa Goria   (Armor),Bal sa Goria   (Earth),Agea Arden sa Goria   (Resistances),Ghartok sa Goria   (Stamina),Relleis sa Goria   (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Ayammis sa Gravia   (Life)"
+Pearlfish,0.25,24,0,,4,Malatu Magicka sa Adonai   (Arcane Energy)
+Pine Thrush Egg,0.50,2,0,"Betayammis sa Haelia   (Creatures),Ayammis sa Haelia   (Life),Mora sa Haelia   (Nature),Ghartok sa Haelia   (Stamina)",1,"Malatu Magicka sa Goria   (Arcane Energy),Agea Arden sa Goria   (Resistances)"
+Poisonous Bloom,0.25,5,2,Karan ry Ayammis sa Gravia   (Health),5,Karan Kogo sa Sila (Force)
+Polished Bear Eye,0.10,21,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Ghartok sa Goria   (Stamina)",2,Agea Arden sa Gravia   (Resistances)
+Polished Boar Eye,0.10,51,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health)",5,Agea Arden sa Sila (Resistances)
+Polished Dragon Eye,0.10,220,5,"Betayammis sa Sila   (Creatures),Mer Garlas sa Sila   (Flesh)",3,Karan Kogo sa Baune   (Force)
+Polished Fox Eye,0.10,9,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",1,"Malatu Magicka sa Goria   (Arcane Energy),Agea Arden sa Goria   (Resistances)"
+Polished Hare Eye,0.10,22,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Altadoon sa Goria   (Weapons)",2,"Karan Kogo sa Gravia   (Force),Mallari sa Gravia   (Metal)"
+Polished Mammoth Eye,0.20,35,2,"Wel sa Gravia   (Air),Betayammis sa Gravia   (Creatures),Mer Garlas sa Gravia   (Flesh),Karan ry Ayammis sa Gravia   (Health)",5,"Karan Kogo sa Sila (Force),Agea Arden sa Sila (Resistances)"
+Polished Sabre Cat Eye,0.10,34,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Latta sa Goria   (Light)",5,
+Polished Slaughterfish Scales,0.10,29,1,"Wel sa Goria   (Air),Karan sa Goria   (Armor),Betayammis sa Goria   (Creatures),Relleis sa Goria   (Water)",1,"Malatu Magicka sa Goria   (Arcane Energy),Betaltadoon sa Goria   (Poisons),Agea Arden sa Goria   (Resistances),Relleis sa Goria   (Water)"
+Polished Troll Eye,0.10,42,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health)",5,"Malatu Magicka sa Sila (Arcane Energy),Ayammis sa Sila (Life),Agea Arden sa Sila (Resistances)"
+Polished Werewolf Eye,0.10,55,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Mer Ayammis sa Goria   (Mortals),Betaltadoon sa Goria   (Poisons),Altadoon sa Goria   (Weapons)",2,Malatu Magicka sa Gravia   (Arcane Energy)
+Polished Wolf Eye,0.10,14,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",5,
+Powdered Mammoth Tusk,0.10,25,1,"Wel sa Goria   (Air),Karan sa Goria   (Armor),Betayammis sa Goria   (Creatures),Ghartok sa Goria   (Stamina),Altadoon sa Goria   (Weapons)",2,Ayammis sa Gravia   (Life)
+Powdered Mudcrab Chitin,0.10,18,0,"Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Karan ry Ayammis sa Haelia  (Health),Relleis sa Haelia  (Water)",1,"Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)"
+Purple Mountain Flower,0.10,1,0,"Mora sa Haelia   (Nature),Ghartok sa Haelia   (Stamina),Relleis sa Haelia  (Water)",1,Malatu Magicka sa Goria   (Arcane Energy)
+Pygmy Sunfish,0.25,34,0,,5,"Malatu Magicka sa Sila (Arcane Energy),Agea sa Sila (Magicka)"
+Red Glitterdust,0.30,78,1,Bal sa Goria   (Earth),5,Betaltadoon sa Sila (Poisons)
+Red Mountain Flower,0.10,1,0,"Agea sa Haelia   (Magicka),Mora sa Haelia   (Nature),Relleis sa Haelia  (Water)",1,Agea sa Goria   (Magicka)
+River Betty,0.25,15,0,"Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Karan ry Ayammis sa Haelia  (Health),Betaltadoon sa Haelia   (Poisons),Relleis sa Haelia  (Water)",5,
+Rock Warbler Egg,0.50,2,0,"Betayammis sa Haelia   (Creatures),Karan ry Ayammis sa Haelia  (Health),Ayammis sa Haelia   (Life),Relleis sa Haelia  (Water)",1,"Malatu Magicka sa Goria   (Arcane Energy),Karan Kogo sa Goria   (Force)"
+Sabre Cat Claws,0.10,11,1,"Betayammis sa Goria   (Creatures),Agea sa Goria   (Magicka)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan Kogo sa Gravia   (Force),Ayammis sa Gravia   (Life),Agea Arden sa Gravia   (Resistances)"
+Sabre Cat Eye,0.10,12,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Latta sa Goria   (Light),Ghartok sa Goria   (Stamina),Relleis sa Goria   (Water)",1,"Malatu Magicka sa Goria   (Arcane Energy),Ayammis sa Goria   (Life)"
+Sabre Cat Heart,1.00,35,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",2,Agea sa Gravia   (Magicka)
+Sabre Cat Tooth,0.10,28,1,"Betayammis sa Goria   (Creatures),Ghartok sa Goria   (Stamina),Altadoon sa Goria   (Weapons)",2,"Karan Kogo sa Gravia   (Force),Agea Arden sa Gravia   (Resistances),Ghartok sa Gravia   (Stamina)"
+Salmon Roe,0.20,2,1,"Betayammis sa Goria   (Creatures),Ghartok sa Goria   (Stamina),Relleis sa Goria   (Water)",5,"Karan Kogo sa Sila (Force),Agea sa Sila (Magicka),Agea Arden sa Sila (Resistances)"
+Salt,0.20,5,0,"Rellers ry Molag sa Haelia   (Acid),Bal sa Haelia   (Earth),Betaltadoon sa Haelia   (Poisons),Relleis sa Haelia  (Water)",5,"Malatu Magicka sa Sila (Arcane Energy),Agea Arden sa Sila (Resistances)"
+Sapphire Glitterdust,0.30,106,1,Bal sa Goria   (Earth),3,"Betaltadoon sa Baune   (Poisons),Agea Arden sa Baune   (Resistances),Relleis sa Baune   (Water)"
+Scaly Pholiota,0.25,4,0,"Bal sa Haelia   (Earth),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons)",5,"Malatu Magicka sa Sila (Arcane Energy),Agea Arden sa Sila (Resistances)"
+Scathecraw,0.10,8,0,"Karan ry Ayammis sa Haelia  (Health),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons)",1,"Rellers ry Molag sa Goria   (Acid),Karan ry Ayammis sa Goria   (Health)"
+Silverside Perch,0.25,15,0,"Betayammis sa Haelia   (Creatures),Mer Garlas sa Haelia   (Flesh),Ghartok sa Haelia   (Stamina),Relleis sa Haelia  (Water)",5,"Malatu Magicka sa Sila (Arcane Energy),Ghartok sa Sila (Stamina)"
+Skeever Tail,0.20,3,0,"Betayammis sa Haelia   (Creatures),Altadoon ry Bet sa Haelia   (Diseases),Mer Garlas sa Haelia   (Flesh),Betaltadoon sa Haelia   (Poisons),Ghartok sa Haelia   (Stamina)",5,
+Slaughterfish Egg,0.20,3,0,"Betayammis sa Haelia   (Creatures),Ayammis sa Haelia   (Life),Betaltadoon sa Haelia   (Poisons),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",2,Agea Arden sa Gravia   (Resistances)
+Slaughterfish Scales,0.10,3,1,"Karan sa Goria   (Armor),Bal sa Goria   (Earth),Ghartok sa Goria   (Stamina),Relleis sa Goria   (Water)",3,Karan sa Baune   (Armor)
+Small Pearl,0.10,35,1,"Karan sa Goria   (Armor),Bal sa Goria   (Earth),Agea Arden sa Goria   (Resistances),Ghartok sa Goria   (Stamina),Relleis sa Goria   (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Karan Kogo sa Gravia   (Force),Ayammis sa Gravia   (Life)"
+Snowberries,0.10,1,0,"Molag sa Haelia   (Fire),Mafre sa Haelia   (Frost),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Agea Arden sa Gravia   (Resistances)"
+Spadefish,0.25,49,0,,5,
+Spawn Ash,0.10,13,2,"Molag sa Gravia   (Fire),Betaltadoon sa Gravia   (Poisons),Ghartok sa Gravia   (Stamina),Dunayammis sa Gravia   (Undead)",2,"Rellers ry Molag sa Gravia   (Acid),Malatu Magicka sa Gravia   (Arcane Energy)"
+Spider Egg,0.20,5,1,"Betayammis sa Goria   (Creatures),Ayammis sa Goria   (Life),Betaltadoon sa Goria   (Poisons),Ghartok sa Goria   (Stamina),Relleis sa Goria   (Water)",5,
+Spriggan Sap,0.20,50,2,"Volen Magicka sa Gravia   (Magical Constructs),Ayammis sa Gravia   (Life),Agea sa Gravia   (Magicka),Mora sa Gravia   (Nature),Betaltadoon sa Gravia   (Poisons)",5,Malatu Magicka sa Sila (Arcane Energy)
+Strange Remains,0.75,774,2,"Latta sa Gravia   (Light),Ayammis Malata sa Gravia   (Souls)",2,Malatu Magicka sa Gravia   (Arcane Energy)
+Swamp Fungal Pod,0.25,5,0,"Bal sa Haelia   (Earth),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Wel sa Belle sa Haelia   (Shock),Relleis sa Haelia  (Water)",1,"Malatu Magicka sa Goria   (Arcane Energy),Karan ry Ayammis sa Goria   (Health)"
+Taproot,0.50,15,2,"Volen Magicka sa Gravia   (Magical Constructs),Ayammis sa Gravia   (Life),Agea sa Gravia   (Magicka),Mora sa Gravia   (Nature),Betaltadoon sa Gravia   (Poisons)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Karan Kogo sa Adonai   (Force),Agea sa Adonai   (Magicka),Agea Arden sa Adonai   (Resistances)"
+Thistle Branch,0.10,1,0,"Mafre sa Haelia   (Frost),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",2,"Malatu Magicka sa Gravia   (Arcane Energy),Agea Arden sa Gravia   (Resistances)"
+Torchbug Abdomen,0.04,1,0,"Wel sa Haelia   (Air),Betayammis sa Haelia   (Creatures),Molag sa Haelia   (Fire),Mer Garlas sa Haelia   (Flesh),Latta sa Haelia   (Light),Ghartok sa Haelia   (Stamina)",1,"Malatu Magicka sa Goria   (Arcane Energy),Karan Kogo sa Goria   (Force),Agea Arden sa Goria   (Resistances),Ghartok sa Goria   (Stamina)"
+Trama Root,0.20,7,0,"Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Wel sa Belle sa Haelia   (Shock)",5,
+Troll Eye,0.10,29,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Karan ry Ayammis sa Goria   (Health)",5,
+Troll Fat,1.00,25,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Betaltadoon sa Goria   (Poisons),Agea Arden sa Goria   (Resistances)",2,"Betaltadoon sa Gravia   (Poisons),Relleis sa Gravia   (Water)"
+Troll Heart,2.00,101,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Betaltadoon sa Goria   (Poisons)",5,"Karan Kogo sa Sila (Force),Ghartok sa Sila (Stamina)"
+Tundra Cotton,0.10,1,0,"Malatu Magicka sa Haelia   (Arcane Energy),Mora sa Haelia   (Nature),Agea Arden sa Haelia   (Resistances),Relleis sa Haelia  (Water)",2,"Karan Kogo sa Gravia   (Force),Agea Arden sa Gravia   (Resistances)"
+Vampire Dust,0.20,318,2,"Altadoon ry Bet sa Gravia   (Diseases),Mer Garlas sa Gravia   (Flesh),Karan Kogo sa Gravia   (Force),Mer Ayammis sa Gravia   (Mortals),Latta sa Gravia   (Light),Dunayammis sa Gravia   (Undead)",2,
+Void Salts,0.20,500,2,"Malatu Magicka sa Gravia   (Arcane Energy),Pellenni Ayammis sa Gravia   (Daedra),Bal sa Gravia   (Earth),Betaltadoon sa Gravia   (Poisons),Wel sa Belle sa Gravia   (Shock)",5,Agea Arden sa Sila (Resistances)
+Werewolf Eye,0.10,33,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Mer Ayammis sa Goria   (Mortals)",4,
+Werewolf Heart,0.50,42,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh),Mer Ayammis sa Goria   (Mortals)",3,"Karan ry Ayammis sa Baune   (Health),Betaltadoon sa Baune   (Poisons)"
+Wheat,0.10,1,0,"Karan ry Ayammis sa Haelia  (Health),Ayammis sa Haelia   (Life),Mora sa Haelia   (Nature),Relleis sa Haelia  (Water)",5,"Karan ry Ayammis sa Sila (Health),Ayammis sa Sila (Life)"
+White Cap,0.30,12,0,"Bal sa Haelia   (Earth),Mafre sa Haelia   (Frost),Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons)",2,"Karan Kogo sa Gravia   (Force),Agea sa Gravia   (Magicka)"
+Wisp Wrappings,0.10,30,2,"Mer ry Wel sa Gravia   (Apparitions),Malatu Magicka sa Gravia   (Arcane Energy),Karan sa Gravia   (Armor),Volen Magicka sa Gravia   (Magical Constructs),Mafre sa Gravia   (Frost),Latta sa Gravia   (Light),Ayammis Malata sa Gravia   (Souls),Ghartok sa Gravia   (Stamina)",4,"Malatu Magicka sa Adonai   (Arcane Energy),Karan Kogo sa Adonai   (Force)"
+Wolf Claws,0.10,8,1,"Betayammis sa Goria   (Creatures),Karan ry Ayammis sa Goria   (Health),Betaltadoon sa Goria   (Poisons)",5,Karan Kogo sa Sila (Force)
+Wolf Eye,0.10,5,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",1,Karan ry Ayammis sa Goria   (Health)
+Wolf Heart,0.75,39,1,"Betayammis sa Goria   (Creatures),Mer Garlas sa Goria   (Flesh)",1,Betaltadoon sa Goria   (Poisons)
+Yellow Mountain Flower,0.10,1,0,"Mora sa Haelia   (Nature),Betaltadoon sa Haelia   (Poisons),Agea Arden sa Haelia   (Resistances)",5,"Malatu Magicka sa Sila (Arcane Energy),Betaltadoon sa Sila (Poisons),Agea Arden sa Sila (Resistances)"

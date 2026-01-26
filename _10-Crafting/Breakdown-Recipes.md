@@ -1,4 +1,4 @@
----
+﻿---
 title: Breakdown Recipes
 layout: default
 nav_order: 6
@@ -14,13 +14,1510 @@ Breakdown crafting allows you to deconstruct items into their component material
 
 ### Examples
 
-- **Armor** → Metal fragments, leather straps, bones, teeth
-- **Clothing** → Fabric, Threads
-- **Bones & Teeth** → Bone fragments
-- **Wooden Items** → Kindling (for starting fires and campfires)
+- **Armor** â†’ Metal fragments, leather straps, bones, teeth
+- **Clothing** â†’ Fabric, Threads
+- **Bones & Teeth** â†’ Bone fragments
+- **Wooden Items** â†’ Kindling (for starting fires and campfires)
 
 **Tip:** Breakdown crafting is excellent for managing carry weight by converting bulky items into compact materials.
 
 ---
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrltImEmWxLiN0K0?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+## How to Use This Page
+
+**Hover over any Produced Item Name** to see the complete details including:
+- Quantity produced when deconstructed
+- Perks required (if any)
+- Complete list of source items
+
+Use the search bar below to find specific breakdown recipes by item name or materials.
+
+---
+
+## Breakdown Recipes Data
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+function initBreakdowntooltips() {
+  const table = document.querySelector('.breakdown-recipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const itemCell = row.querySelector('td:first-child');
+    itemCell.style.cursor = 'pointer';
+    itemCell.addEventListener('mouseenter', (e) => showBreakdowntooltip(e, row));
+    itemCell.addEventListener('mousemove', updateBreakdowntooltipPosition);
+    itemCell.addEventListener('mouseleave', hideBreakdowntooltip);
+  });
+}
+
+function showBreakdowntooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const data = {
+    itemName: cells[0]?.textContent || '',
+    qtyMade: cells[1]?.textContent || '',
+    perksNeeded: cells[2]?.textContent || '',
+    itemsRequired: cells[3]?.textContent || ''
+  };
+  
+  let tooltip = document.getElementById('breakdown-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'breakdown-tooltip';
+    tooltip.className = 'breakdown-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = `
+    <div><strong>Item:</strong> ${data.itemName}</div>
+    <div><strong>Qty Made:</strong> ${data.qtyMade}</div>
+    <div><strong>Perks Needed:</strong> ${data.perksNeeded}</div>
+    <div><strong>Items Required:</strong> ${data.itemsRequired}</div>
+  `;
+  tooltip.style.display = 'block';
+  updateBreakdowntooltipPosition(event);
+}
+
+function updateBreakdowntooltipPosition(event) {
+  const tooltip = document.getElementById('breakdown-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideBreakdowntooltip() {
+  const tooltip = document.getElementById('breakdown-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+
+function initBreakdownFilters() {
+  const table = document.querySelector('.breakdown-recipes-table table');
+  if (!table) {
+    console.warn('Breakdown Recipes table not found');
+    return;
+  }
+  
+  document.getElementById('breakdownSearch').addEventListener('input', filterBreakdownRecipes);
+  initBreakdowntooltips();
+  updateFilterCountBreakdown();
+}
+
+function filterBreakdownRecipes() {
+  const searchTerm = document.getElementById('breakdownSearch').value.toLowerCase();
+  
+  const table = document.querySelector('.breakdown-recipes-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  let visibleCount = 0;
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const itemName = cells[0]?.textContent.toLowerCase() || '';
+    const itemsRequired = cells[3]?.textContent.toLowerCase() || '';
+    const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
+    
+    const isVisible = searchMatch;
+    row.style.display = isVisible ? '' : 'none';
+    if (isVisible) visibleCount++;
+  });
+  
+  updateFilterCountBreakdown();
+  initBreakdowntooltips();
+}
+
+function updateFilterCountBreakdown() {
+  const table = document.querySelector('.breakdown-recipes-table table');
+  if (!table) return;
+  
+  const allRows = table.querySelectorAll('tbody tr');
+  const visibleRows = Array.from(allRows).filter(row => row.style.display !== 'none');
+  
+  const countElement = document.getElementById('filterResultCountBreakdown');
+  if (countElement) {
+    countElement.textContent = `Showing ${visibleRows.length} of ${allRows.length} recipes`;
+  }
+}
+
+function clearBreakdownFilters() {
+  document.getElementById('breakdownSearch').value = '';
+  filterBreakdownRecipes();
+}
+
+initBreakdownFilters();
+
+});
+</script>
+
+<div class="breakdown-recipes-controls">
+  <input type="text" id="breakdownSearch" placeholder="Search (Item Name, Materials)..." />
+  <button id="clearFiltersBreakdown" onclick="clearBreakdownFilters()">Clear Filters</button>
+</div>
+<div class="filter-result-count-breakdown" id="filterResultCountBreakdown"></div>
+
+<div class="breakdown-recipes-table" markdown="1">
+
+| Produced Item Name | Qty Made | Perks Needed | Items Required |
+|:---|:---:|:---|:---|
+| Bandage | 1 |  | 1 Cotton Cloth |
+| Bandage | 1 |  | 1 Cotton Cloth - Black |
+| Bandage | 1 |  | 1 Cotton Cloth - Blue |
+| Bandage | 1 |  | 1 Cotton Cloth - Brown |
+| Bandage | 1 |  | 1 Cotton Cloth - Green |
+| Bandage | 1 |  | 1 Cotton Cloth - Grey |
+| Bandage | 1 |  | 1 Cotton Cloth - Indigo |
+| Bandage | 1 |  | 1 Cotton Cloth - Orange |
+| Bandage | 1 |  | 1 Cotton Cloth - Purple |
+| Bandage | 1 |  | 1 Cotton Cloth - Red |
+| Bandage | 1 |  | 1 Cotton Cloth - Tan |
+| Bandage | 1 |  | 1 Cotton Cloth - Yellow |
+| Bandage | 1 |  | 1 Linen Cloth |
+| Bandage | 1 |  | 1 Linen Cloth - Black |
+| Bandage | 1 |  | 1 Linen Cloth - Blue |
+| Bandage | 1 |  | 1 Linen Cloth - Brown |
+| Bandage | 1 |  | 1 Linen Cloth - Green |
+| Bandage | 1 |  | 1 Linen Cloth - Grey |
+| Bandage | 1 |  | 1 Linen Cloth - Indigo |
+| Bandage | 1 |  | 1 Linen Cloth - Orange |
+| Bandage | 1 |  | 1 Linen Cloth - Purple |
+| Bandage | 1 |  | 1 Linen Cloth - Red |
+| Bandage | 1 |  | 1 Linen Cloth - Tan |
+| Bandage | 1 |  | 1 Linen Cloth - Yellow |
+| Bloody Rags | 2 |  | 1 Linen Tunic - Belted Black, Bloody |
+| Bone Hawk Claw | 3 |  | 1 Bone Hawk Ring |
+| Bone Hawk Feathers | 6 |  | 1 Bone Hawk Amulet |
+| Charcoal | 3 |  | 1 Forsworn Light Bow |
+| Charcoal | 3 |  | 1 Forsworn Sword |
+| Charcoal | 5 |  | 1 Forsworn War Axe |
+| Charcoal | 1 |  | 1 Imperial Heavy Bow |
+| Charcoal | 3 |  | 1 Iron Woodcutter's Axe |
+| Charcoal | 1 |  | 1 Wooden Sword |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Boots - Thalmor |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Cuffed Boots |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Gloves - Thalmor |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Jester's Boots |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Jester's Boots |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Jester's Gloves |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Jester's Gloves |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Mage Hood - Embellished |
+| Cotton Cloth - Black | 1 |  | 1 Cotton Mage Hood of Apprentice Regeneration |
+| Cotton Cloth - Black | 2 |  | 1 Cotton Quilted Clothes - Black and White |
+| Cotton Cloth - Black | 2 |  | 1 Cotton Robes - Thalmor |
+| Cotton Cloth - Black | 2 |  | 1 Cotton Robes - Thalmor |
+| Cotton Cloth - Black | 1 |  | 1 Focusing Gloves |
+| Cotton Cloth - Blue | 1 |  | 1 Cotton Fur-Mantled Clothes - Blue |
+| Cotton Cloth - Blue | 1 |  | 1 Cotton Mage Robes - Common |
+| Cotton Cloth - Blue | 1 |  | 1 Cotton Mage Robes - Embellished |
+| Cotton Cloth - Blue | 1 |  | 1 Cotton Mage Robes of Novice Regeneration |
+| Cotton Cloth - Blue | 1 |  | 1 Cotton Reclamations Temple Hood |
+| Cotton Cloth - Blue | 1 |  | 1 Cotton Reclamations Temple Robes |
+| Cotton Cloth - Blue | 1 |  | 1 Cotton Reclamations Temple Robes |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Cultist Boots |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Cultist Gloves |
+| Cotton Cloth - Brown | 2 |  | 1 Cotton Cultist Robes |
+| Cotton Cloth - Brown | 2 |  | 1 Cotton Cultist Robes |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Fine Boots |
+| Cotton Cloth - Brown | 2 |  | 1 Cotton Fine Clothes - Brown |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Fine Hat |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Fine Shoes |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Mage Hood - Embroidered |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Mage Hood of Adept Magicka |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Mage Robes - Embroidered |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Merchant's Hat |
+| Cotton Cloth - Brown | 2 |  | 1 Cotton Quilted Clothes - Brown and Orange |
+| Cotton Cloth - Brown | 2 |  | 1 Cotton Quilted Clothes - Brown and White |
+| Cotton Cloth - Brown | 2 |  | 1 Cotton Quilted Clothes - Orange |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Reclamations Temple Boots |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Shoes - Mythic Dawn |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Telvanni Shoes |
+| Cotton Cloth - Brown | 1 |  | 1 Cotton Telvanni Shoes of Shock Resistance |
+| Cotton Cloth - Green | 2 |  | 1 Cotton Fur-Mantled Clothes - Green |
+| Cotton Cloth - Grey | 1 |  | 1 Cotton Mage Boots - Common |
+| Cotton Cloth - Grey | 1 |  | 1 Cotton Mage Boots - Embellished |
+| Cotton Cloth - Grey | 1 |  | 1 Greybeard's Hood |
+| Cotton Cloth - Grey | 2 |  | 1 Greybeard's Robes |
+| Cotton Cloth - Grey | 1 |  | 1 Greybeard's Shoes |
+| Cotton Cloth - Indigo | 2 |  | 1 Cotton Fine Clothes - Indigo |
+| Cotton Cloth - Indigo | 1 |  | 1 Cotton Quilted Clothes - Blue |
+| Cotton Cloth - Orange | 2 |  | 1 Cotton Quilted Clothes - Orange and Black |
+| Cotton Cloth - Purple | 2 |  | 1 Cotton Vaermina Robes |
+| Cotton Cloth - Red | 1 |  | 1 Cotton Gloves - Mythic Dawn |
+| Cotton Cloth - Red | 1 |  | 1 Cotton Hood - Mythic Dawn |
+| Cotton Cloth - Red | 2 |  | 1 Cotton Jester's Clothes |
+| Cotton Cloth - Red | 2 |  | 1 Cotton Jester's Clothes - Red |
+| Cotton Cloth - Red | 1 |  | 1 Cotton Jester's Hat |
+| Cotton Cloth - Red | 1 |  | 1 Cotton Jester's Hat - Red |
+| Cotton Cloth - Red | 2 |  | 1 Cotton Robes - Mythic Dawn |
+| Cotton Cloth - Red | 2 |  | 1 Cotton Robes - Mythic Dawn |
+| Cotton Cloth - Red | 1 |  | 1 Cotton Telvanni Robes |
+| Cotton Cloth - Red | 1 |  | 1 Cotton Telvanni Robes of Resurgence |
+| Cotton Cloth - Red | 2 |  | 1 Silk Wedding Finery |
+| Cotton Cloth - Tan | 1 |  | 1 Cotton Mage Hood - Common |
+| Cotton Cloth - Tan | 1 |  | 1 Cotton Mage Hood of Novice Regeneration |
+| Cotton Cloth - Tan | 2 |  | 1 Cotton Tall Boots |
+| Cotton Thread | 2 |  | 1 Cotton Cloth |
+| Dragon Bone | 3 |  | 1 Horse Armor: Dragonbone Barding and Saddle |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Ornate Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Ornate Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Ornate White |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Trimmed Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Trimmed Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - Trimmed White |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Bearskin Hood - White |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Dark Trimmed Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Dark Trimmed Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Dark Trimmed White |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Light Trimmed Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Light Trimmed Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Light Trimmed White |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Noble Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Noble Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Noble White |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Ornate Black |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Ornate Brown |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - Ornate White |
+| Dragonplate Helmet | 1 |  | 1 Dragonplate Wolfskin Hood - White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Ornate Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Ornate Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Ornate White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Trimmed Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Trimmed Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - Trimmed White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Bearskin Hood - White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Dark Trimmed Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Dark Trimmed Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Dark Trimmed White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Light Trimmed Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Light Trimmed Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Light Trimmed White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Noble Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Noble Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Noble White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Ornate Black |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Ornate Brown |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - Ornate White |
+| Dragonscale Helmet | 1 |  | 1 Dragonscale Wolfskin Hood - White |
+| Eidar Cheese Slice | 2 |  | 1 Eidar Cheese Wedge |
+| Eidar Cheese Wedge | 3 |  | 1 Eidar Cheese Wheel |
+| Fragment: Bone | 30 |  | 1 Animal Bone (Enormous) |
+| Fragment: Bone | 3 |  | 1 Animal Bone (Large) |
+| Fragment: Bone | 1 |  | 1 Animal Bone (Small) |
+| Fragment: Bone | 5 |  | 1 Animal Bone (Superlative) |
+| Fragment: Bone | 1 |  | 1 Arrow: Falmer |
+| Fragment: Bone | 1 |  | 1 Arrow: Forsworn |
+| Fragment: Bone | 4 |  | 1 Buck Antlers |
+| Fragment: Bone | 5 |  | 1 Buck Antlers (Superlative) |
+| Fragment: Bone | 4 |  | 1 Bull Horn |
+| Fragment: Bone | 2 |  | 1 Doe Antlers |
+| Fragment: Bone | 3 |  | 1 Doe Antlers (Superlative) |
+| Fragment: Bone | 2 |  | 1 Engraved Bone of Hircine (Drained) |
+| Fragment: Bone | 2 |  | 1 Engraved Bone of Julianos (Drained) |
+| Fragment: Bone | 2 |  | 1 Engraved Bone of Kynareth (Drained) |
+| Fragment: Bone | 2 |  | 1 Horker Tusk |
+| Fragment: Bone | 1 |  | 1 Human Skull |
+| Fragment: Bone | 20 |  | 1 Mammoth Tusk |
+| Fragment: Bone | 30 |  | 1 Mammoth Tusk (Superlative) |
+| Fragment: Bone | 1 |  | 1 Sabre Cat Tooth |
+| Fragment: Bone | 3 |  | 1 Troll Skull |
+| Fragment: Bone | 1 |  | 2 Bear Claws |
+| Fragment: Bone | 1 |  | 2 Bear Tooth |
+| Fragment: Bone | 1 |  | 2 Sabre Cat Claws |
+| Fragment: Bone | 1 |  | 3 Canine Tooth |
+| Fragment: Bone | 1 |  | 3 Wolf Claws |
+| Fragment: Bone | 15 |  | 5 Animal Bone (Large) |
+| Fragment: Bone | 5 |  | 5 Animal Bone (Small) |
+| Fragment: Bone | 25 |  | 5 Animal Bone (Superlative) |
+| Fragment: Bone | 20 |  | 5 Buck Antlers |
+| Fragment: Bone | 20 |  | 5 Buck Antlers (Superlative) |
+| Fragment: Bone | 20 |  | 5 Bull Horn |
+| Fragment: Bone | 10 |  | 5 Doe Antlers |
+| Fragment: Bone | 10 |  | 5 Doe Antlers (Superlative) |
+| Fragment: Bone | 10 |  | 5 Horker Tusk |
+| Fragment: Bone | 100 |  | 5 Mammoth Tusk |
+| Fragment: Bone | 150 |  | 5 Mammoth Tusk (Superlative) |
+| Fragment: Bone | 5 |  | 5 Sabre Cat Tooth |
+| Fragment: Bone | 5 |  | 10 Bear Claws |
+| Fragment: Bone | 5 |  | 10 Bear Tooth |
+| Fragment: Bone | 5 |  | 10 Sabre Cat Claws |
+| Fragment: Bone | 5 |  | 15 Canine Tooth |
+| Fragment: Bone | 5 |  | 15 Wolf Claws |
+| Fragment: Building Glass | 20 | Craftsmanship | 1 Building Glass |
+| Fragment: Building Glass | 3 |  | 1 Glass Bottle (Empty) |
+| Fragment: Calcinium | 10 |  | 1 Amulet of Mara Replica |
+| Fragment: Calcinium | 1 |  | 1 Arrow: Elven |
+| Fragment: Calcinium | 40 |  | 1 Dawnbreaker Replica |
+| Fragment: Calcinium | 40 |  | 1 Elven Battleaxe |
+| Fragment: Calcinium | 40 |  | 1 Elven Boots |
+| Fragment: Calcinium | 40 |  | 1 Elven Boots - Gilded |
+| Fragment: Calcinium | 40 |  | 1 Elven Boots - Thalmor |
+| Fragment: Calcinium | 40 |  | 1 Elven Boots - Thalmor Gilded |
+| Fragment: Calcinium | 80 |  | 1 Elven Cuirass |
+| Fragment: Calcinium | 80 |  | 1 Elven Cuirass - Gilded |
+| Fragment: Calcinium | 80 |  | 1 Elven Cuirass - Thalmor |
+| Fragment: Calcinium | 80 |  | 1 Elven Cuirass - Thalmor Gilded |
+| Fragment: Calcinium | 10 |  | 1 Elven Dagger |
+| Fragment: Calcinium | 20 |  | 1 Elven Gauntlets |
+| Fragment: Calcinium | 20 |  | 1 Elven Gauntlets - Gilded |
+| Fragment: Calcinium | 20 |  | 1 Elven Gauntlets - Thalmor |
+| Fragment: Calcinium | 20 |  | 1 Elven Gauntlets - Thalmor Gilded |
+| Fragment: Calcinium | 40 |  | 1 Elven Greatsword |
+| Fragment: Calcinium | 40 |  | 1 Elven Helmet |
+| Fragment: Calcinium | 40 |  | 1 Elven Helmet - Gilded |
+| Fragment: Calcinium | 40 |  | 1 Elven Helmet - Thalmor |
+| Fragment: Calcinium | 40 |  | 1 Elven Helmet - Thalmor Gilded |
+| Fragment: Calcinium | 10 |  | 1 Elven Hunting Knife |
+| Fragment: Calcinium | 20 |  | 1 Elven Light Boots |
+| Fragment: Calcinium | 20 |  | 1 Elven Light Boots - Thalmor |
+| Fragment: Calcinium | 40 |  | 1 Elven Light Bow |
+| Fragment: Calcinium | 40 |  | 1 Elven Light Crossbow |
+| Fragment: Calcinium | 60 |  | 1 Elven Light Cuirass |
+| Fragment: Calcinium | 60 |  | 1 Elven Light Cuirass - Thalmor |
+| Fragment: Calcinium | 20 |  | 1 Elven Light Gauntlets |
+| Fragment: Calcinium | 20 |  | 1 Elven Light Gauntlets - Thalmor |
+| Fragment: Calcinium | 20 |  | 1 Elven Light Helmet |
+| Fragment: Calcinium | 20 |  | 1 Elven Light Helmet - Thalmor |
+| Fragment: Calcinium | 40 |  | 1 Elven Mace |
+| Fragment: Calcinium | 60 |  | 1 Elven Shield |
+| Fragment: Calcinium | 60 |  | 1 Elven Shield - Gilded |
+| Fragment: Calcinium | 60 |  | 1 Elven Shield - Thalmor |
+| Fragment: Calcinium | 60 |  | 1 Elven Shield - Thalmor Gilded |
+| Fragment: Calcinium | 20 |  | 1 Elven Sword |
+| Fragment: Calcinium | 20 |  | 1 Elven War Axe |
+| Fragment: Calcinium | 60 |  | 1 Elven Warhammer |
+| Fragment: Calcinium | 20 | Elven Blacksmithing | 1 Ingot: Calcinium |
+| Fragment: Corundum | 10 |  | 1 Amulet of Akatosh Replica |
+| Fragment: Corundum | 10 |  | 1 Amulet of Arkay Replica |
+| Fragment: Corundum | 10 |  | 1 Amulet of Dibella Replica |
+| Fragment: Corundum | 12 |  | 1 Amulet of Stendarr Replica |
+| Fragment: Corundum | 40 |  | 1 Ancient Nordic Helmet |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Hero Battleaxe |
+| Fragment: Corundum | 40 |  | 1 Ancient Nordic Hero Boots |
+| Fragment: Corundum | 80 |  | 1 Ancient Nordic Hero Cuirass |
+| Fragment: Corundum | 10 |  | 1 Ancient Nordic Hero Dagger |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Hero Gauntlets |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Hero Greatsword |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Hero Heavy Bow |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Hero Heavy Crossbow |
+| Fragment: Corundum | 40 |  | 1 Ancient Nordic Hero Helm |
+| Fragment: Corundum | 15 |  | 1 Ancient Nordic Hero Mace |
+| Fragment: Corundum | 15 |  | 1 Ancient Nordic Hero Sword |
+| Fragment: Corundum | 15 |  | 1 Ancient Nordic Hero War Axe |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Hero Warhammer |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Honed Battleaxe |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Honed Greatsword |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Honed Heavy Bow |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Honed Sword |
+| Fragment: Corundum | 20 |  | 1 Ancient Nordic Honed War Axe |
+| Fragment: Corundum | 55 |  | 1 Ancient Nordic Salvaged Cuirass |
+| Fragment: Corundum | 1 |  | 1 Bolt: Ancient Nordic Hero |
+| Fragment: Corundum | 10 |  | 1 Copper Circlet |
+| Fragment: Corundum | 10 |  | 1 Copper Onyx Circlet |
+| Fragment: Corundum | 10 |  | 1 Copper Opal Circlet |
+| Fragment: Corundum | 10 |  | 1 Copper Ruby Circlet |
+| Fragment: Corundum | 20 |  | 1 Corundum Amphora |
+| Fragment: Corundum | 10 |  | 1 Corundum Bowl |
+| Fragment: Corundum | 10 |  | 1 Corundum Bowl |
+| Fragment: Corundum | 2 |  | 1 Corundum Cup |
+| Fragment: Corundum | 5 |  | 1 Corundum Flagon |
+| Fragment: Corundum | 5 |  | 1 Corundum Goblet |
+| Fragment: Corundum | 10 |  | 1 Corundum Jug |
+| Fragment: Corundum | 5 |  | 1 Corundum Plate |
+| Fragment: Corundum | 1 |  | 1 Corundum Pot |
+| Fragment: Corundum | 1 |  | 1 Corundum Vase |
+| Fragment: Corundum | 1 |  | 1 Dragon Priest Dagger |
+| Fragment: Corundum | 20 | Craftsmanship | 1 Ingot: Corundum |
+| Fragment: Corundum | 40 |  | 1 Thieves Guild Light Crossbow |
+| Fragment: Dwarven | 1 |  | 1 Arrow: Dwarven |
+| Fragment: Dwarven | 1 |  | 1 Bolt: Dwarven |
+| Fragment: Dwarven | 40 |  | 1 Dwarven Battleaxe |
+| Fragment: Dwarven | 10 |  | 1 Dwarven Bent Scrap |
+| Fragment: Dwarven | 20 |  | 1 Dwarven Boots |
+| Fragment: Dwarven | 12 |  | 1 Dwarven Bowl |
+| Fragment: Dwarven | 15 |  | 1 Dwarven Cog |
+| Fragment: Dwarven | 80 |  | 1 Dwarven Cuirass |
+| Fragment: Dwarven | 2 |  | 1 Dwarven Cup |
+| Fragment: Dwarven | 1 |  | 1 Dwarven Dagger |
+| Fragment: Dwarven | 210 |  | 1 Dwarven Decorated Strut |
+| Fragment: Dwarven | 15 |  | 1 Dwarven Engraved Bowl |
+| Fragment: Dwarven | 10 |  | 1 Dwarven Fishing Rod |
+| Fragment: Dwarven | 1 |  | 1 Dwarven Fork |
+| Fragment: Dwarven | 20 |  | 1 Dwarven Gauntlets |
+| Fragment: Dwarven | 5 |  | 1 Dwarven Gear |
+| Fragment: Dwarven | 40 |  | 1 Dwarven Greatsword |
+| Fragment: Dwarven | 10 |  | 1 Dwarven Gyro |
+| Fragment: Dwarven | 20 |  | 1 Dwarven Handled Pan |
+| Fragment: Dwarven | 40 |  | 1 Dwarven Heavy Bow |
+| Fragment: Dwarven | 60 |  | 1 Dwarven Heavy Crossbow |
+| Fragment: Dwarven | 40 |  | 1 Dwarven Helmet |
+| Fragment: Dwarven | 10 |  | 1 Dwarven Hunting Knife |
+| Fragment: Dwarven | 40 |  | 1 Dwarven Improved Light Crossbow |
+| Fragment: Dwarven | 1 |  | 1 Dwarven Knife |
+| Fragment: Dwarven | 60 |  | 1 Dwarven Large Plate Metal |
+| Fragment: Dwarven | 180 |  | 1 Dwarven Large Strut |
+| Fragment: Dwarven | 10 |  | 1 Dwarven Lever |
+| Fragment: Dwarven | 40 |  | 1 Dwarven Mace |
+| Fragment: Dwarven | 60 |  | 1 Dwarven Masterwork Light Crossbow |
+| Fragment: Dwarven | 40 |  | 1 Dwarven Masterwork Light Crossbow |
+| Fragment: Dwarven | 12 |  | 1 Dwarven Medium Bowl |
+| Fragment: Dwarven | 15 |  | 1 Dwarven Pan |
+| Fragment: Dwarven | 10 |  | 1 Dwarven Plate |
+| Fragment: Dwarven | 60 |  | 1 Dwarven Pot |
+| Fragment: Dwarven | 55 |  | 1 Dwarven Salvaged Cuirass |
+| Fragment: Dwarven | 5 |  | 1 Dwarven Scrap Metal |
+| Fragment: Dwarven | 10 |  | 1 Dwarven Shallow Bowl |
+| Fragment: Dwarven | 60 |  | 1 Dwarven Shield |
+| Fragment: Dwarven | 5 |  | 1 Dwarven Small Lever |
+| Fragment: Dwarven | 30 |  | 1 Dwarven Small Plate Metal |
+| Fragment: Dwarven | 150 |  | 1 Dwarven Solid Metal |
+| Fragment: Dwarven | 1 |  | 1 Dwarven Spoon |
+| Fragment: Dwarven | 20 |  | 1 Dwarven Sword |
+| Fragment: Dwarven | 80 |  | 1 Dwarven Urn |
+| Fragment: Dwarven | 20 |  | 1 Dwarven War Axe |
+| Fragment: Dwarven | 60 |  | 1 Dwarven Warhammer |
+| Fragment: Dwarven | 60 |  | 1 Horse Armor: Dwarven Barding and Saddle |
+| Fragment: Dwarven | 20 | Dwarven Blacksmithing | 1 Ingot: Dwarven |
+| Fragment: Dwarven | 40 |  | 1 Spellbreaker Replica |
+| Fragment: Ebony | 1 |  | 1 Arrow: Ebony |
+| Fragment: Ebony | 40 |  | 1 Daedric Battlestaff |
+| Fragment: Ebony | 40 |  | 1 Daedric Boots |
+| Fragment: Ebony | 80 |  | 1 Daedric Cuirass |
+| Fragment: Ebony | 20 |  | 1 Daedric Gauntlets |
+| Fragment: Ebony | 20 |  | 1 Daedric Heavy Crossbow |
+| Fragment: Ebony | 40 |  | 1 Daedric Helmet |
+| Fragment: Ebony | 10 |  | 1 Daedric Hunting Knife |
+| Fragment: Ebony | 60 |  | 1 Daedric Shield |
+| Fragment: Ebony | 20 |  | 1 Dragonbone Battleaxe |
+| Fragment: Ebony | 10 |  | 1 Dragonbone Dagger |
+| Fragment: Ebony | 20 |  | 1 Dragonbone Greatsword |
+| Fragment: Ebony | 20 |  | 1 Dragonbone Heavy Bow |
+| Fragment: Ebony | 20 |  | 1 Dragonbone Heavy Crossbow |
+| Fragment: Ebony | 10 |  | 1 Dragonbone Hunting Knife |
+| Fragment: Ebony | 10 |  | 1 Dragonbone Mace |
+| Fragment: Ebony | 10 |  | 1 Dragonbone Sword |
+| Fragment: Ebony | 10 |  | 1 Dragonbone War Axe |
+| Fragment: Ebony | 20 |  | 1 Dragonbone Warhammer |
+| Fragment: Ebony | 20 |  | 1 Dragonplate Cuirass |
+| Fragment: Ebony | 20 |  | 1 Dragonplate Shield |
+| Fragment: Ebony | 60 |  | 1 Ebony Battleaxe |
+| Fragment: Ebony | 40 |  | 1 Ebony Battlestaff |
+| Fragment: Ebony | 20 |  | 1 Ebony Blade Replica |
+| Fragment: Ebony | 40 |  | 1 Ebony Boots |
+| Fragment: Ebony | 40 |  | 1 Ebony Boots - Gilded |
+| Fragment: Ebony | 40 |  | 1 Ebony Boots - Silvered |
+| Fragment: Ebony | 80 |  | 1 Ebony Cuirass |
+| Fragment: Ebony | 80 |  | 1 Ebony Cuirass - Gilded |
+| Fragment: Ebony | 80 |  | 1 Ebony Cuirass - Silvered |
+| Fragment: Ebony | 10 |  | 1 Ebony Dagger |
+| Fragment: Ebony | 20 |  | 1 Ebony Gauntlets |
+| Fragment: Ebony | 20 |  | 1 Ebony Gauntlets - Gilded |
+| Fragment: Ebony | 20 |  | 1 Ebony Gauntlets - Silvered |
+| Fragment: Ebony | 40 |  | 1 Ebony Greatsword |
+| Fragment: Ebony | 40 |  | 1 Ebony Heavy Bow |
+| Fragment: Ebony | 40 |  | 1 Ebony Heavy Crossbow |
+| Fragment: Ebony | 40 |  | 1 Ebony Helmet |
+| Fragment: Ebony | 40 |  | 1 Ebony Helmet - Gilded |
+| Fragment: Ebony | 40 |  | 1 Ebony Helmet - Silvered |
+| Fragment: Ebony | 10 |  | 1 Ebony Hunting Knife |
+| Fragment: Ebony | 40 |  | 1 Ebony Mace |
+| Fragment: Ebony | 80 |  | 1 Ebony Mail Replica |
+| Fragment: Ebony | 60 |  | 1 Ebony Mail Replica |
+| Fragment: Ebony | 80 |  | 1 Ebony Mail Replica - Gilded |
+| Fragment: Ebony | 60 |  | 1 Ebony Mail Replica - Gilded |
+| Fragment: Ebony | 80 |  | 1 Ebony Mail Replica - Silvered |
+| Fragment: Ebony | 60 |  | 1 Ebony Mail Replica - Silvered |
+| Fragment: Ebony | 60 |  | 1 Ebony Shield |
+| Fragment: Ebony | 60 |  | 1 Ebony Shield - Gilded |
+| Fragment: Ebony | 60 |  | 1 Ebony Shield - Silvered |
+| Fragment: Ebony | 20 |  | 1 Ebony Sword |
+| Fragment: Ebony | 20 |  | 1 Ebony War Axe |
+| Fragment: Ebony | 60 |  | 1 Ebony Warhammer |
+| Fragment: Ebony | 20 |  | 1 Harkon's Sword Replica |
+| Fragment: Ebony | 60 |  | 1 Horse Armor: Daedric Barding and Saddle |
+| Fragment: Ebony | 60 |  | 1 Horse Armor: Ebony Barding and Saddle |
+| Fragment: Ebony | 80 |  | 1 Horse Armor: Ebony Barding and Saddle - Mail |
+| Fragment: Ebony | 20 | Ebony Blacksmithing | 1 Ingot: Ebony |
+| Fragment: Ebony | 20 |  | 1 Irkngthand War Axe |
+| Fragment: Ebony | 60 |  | 1 Masque of Clavicus Vile Replica |
+| Fragment: Ebony | 20 |  | 1 Nightingale Blade |
+| Fragment: Ebony | 40 |  | 1 Nightingale Bow |
+| Fragment: Ebony | 60 |  | 1 Shield of Ysgramor Replica |
+| Fragment: Ebony | 40 |  | 1 Wuuthrad Replica |
+| Fragment: Galatite | 12 |  | 1 Amulet of Talos Replica |
+| Fragment: Galatite | 1 |  | 1 Arrow: Nordic |
+| Fragment: Galatite | 1 |  | 1 Arrow: Skyforge Steel |
+| Fragment: Galatite | 40 |  | 1 Bloodskal Blade Replica |
+| Fragment: Galatite | 40 |  | 1 Circle Boots |
+| Fragment: Galatite | 80 |  | 1 Circle Cuirass |
+| Fragment: Galatite | 20 |  | 1 Circle Gauntlets |
+| Fragment: Galatite | 40 |  | 1 Circle Helmet |
+| Fragment: Galatite | 60 |  | 1 Circle Shield |
+| Fragment: Galatite | 20 | Craftsmanship | 1 Ingot: Galatite |
+| Fragment: Galatite | 1 |  | 1 Nordic Dagger |
+| Fragment: Galatite | 10 |  | 1 Skyforge Steel Dagger |
+| Fragment: Gold | 5 |  | 1 Amulet of Julianos Replica |
+| Fragment: Gold | 20 |  | 1 Dibella Statue |
+| Fragment: Gold | 20 |  | 1 Ebony Cuirass - Gilded |
+| Fragment: Gold | 20 |  | 1 Ebony Mail Replica - Gilded |
+| Fragment: Gold | 20 |  | 1 Ebony Mail Replica - Gilded |
+| Fragment: Gold | 20 |  | 1 Elven Cuirass - Gilded |
+| Fragment: Gold | 20 |  | 1 Elven Cuirass - Thalmor Gilded |
+| Fragment: Gold | 10 |  | 1 Gold Circlet |
+| Fragment: Gold | 10 |  | 1 Gold Emerald Circlet (Flawless) |
+| Fragment: Gold | 2 |  | 1 Gold Necklace |
+| Fragment: Gold | 1 |  | 1 Gold Ring |
+| Fragment: Gold | 20 | Advanced Blacksmithing | 1 Ingot: Gold |
+| Fragment: Gold | 20 |  | 1 Jewelled Dibella Statue |
+| Fragment: Iron | 40 |  | 1 Ancient Nordic Battleaxe |
+| Fragment: Iron | 40 |  | 1 Ancient Nordic Boots |
+| Fragment: Iron | 60 |  | 1 Ancient Nordic Cuirass |
+| Fragment: Iron | 20 |  | 1 Ancient Nordic Gauntlets |
+| Fragment: Iron | 40 |  | 1 Ancient Nordic Greatsword |
+| Fragment: Iron | 40 |  | 1 Ancient Nordic Helmet - Antlers |
+| Fragment: Iron | 20 |  | 1 Ancient Nordic Light Bow |
+| Fragment: Iron | 20 |  | 1 Ancient Nordic Sword |
+| Fragment: Iron | 20 |  | 1 Ancient Nordic War Axe |
+| Fragment: Iron | 1 |  | 1 Arrow: Ancient Nordic |
+| Fragment: Iron | 1 |  | 1 Arrow: Iron |
+| Fragment: Iron | 1 |  | 1 Bolt: Iron |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - Falkreath |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - Haafingar |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - Hjaalmarch |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - The Pale |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - The Reach |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - The Rift |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - Whiterun |
+| Fragment: Iron | 20 |  | 1 Fur Guard's Cuirass - Winterhold |
+| Fragment: Iron | 10 |  | 1 Imperial Dagger |
+| Fragment: Iron | 40 |  | 1 Imperial Outcast Boots |
+| Fragment: Iron | 20 | Craftsmanship | 1 Ingot: Iron |
+| Fragment: Iron | 80 |  | 1 Iron Banded Cuirass |
+| Fragment: Iron | 80 |  | 1 Iron Banded Cuirass - Engraved |
+| Fragment: Iron | 80 |  | 1 Iron Banded Masterwork Cuirass |
+| Fragment: Iron | 80 |  | 1 Iron Banded Quality Cuirass |
+| Fragment: Iron | 60 |  | 1 Iron Banded Quality Shield |
+| Fragment: Iron | 60 |  | 1 Iron Banded Shield |
+| Fragment: Iron | 60 |  | 1 Iron Battleaxe |
+| Fragment: Iron | 40 |  | 1 Iron Battlestaff |
+| Fragment: Iron | 40 |  | 1 Iron Boots |
+| Fragment: Iron | 40 |  | 1 Iron Boots - Engraved |
+| Fragment: Iron | 55 |  | 1 Iron Braced Vagabond Cuirass |
+| Fragment: Iron | 120 |  | 1 Iron Cauldron |
+| Fragment: Iron | 10 |  | 1 Iron Clothes Press |
+| Fragment: Iron | 60 |  | 1 Iron Cuirass |
+| Fragment: Iron | 60 |  | 1 Iron Cuirass - Engraved |
+| Fragment: Iron | 10 |  | 1 Iron Dagger |
+| Fragment: Iron | 10 |  | 1 Iron Dish |
+| Fragment: Iron | 5 |  | 1 Iron Embalming Drill |
+| Fragment: Iron | 10 |  | 1 Iron Fittings |
+| Fragment: Iron | 1 |  | 1 Iron Fork |
+| Fragment: Iron | 55 |  | 1 Iron Furred Cuirass |
+| Fragment: Iron | 20 |  | 1 Iron Gauntlets |
+| Fragment: Iron | 20 |  | 1 Iron Gauntlets - Engraved |
+| Fragment: Iron | 60 |  | 1 Iron Greatsword |
+| Fragment: Iron | 5 |  | 1 Iron Hammer |
+| Fragment: Iron | 40 |  | 1 Iron Headsman's Axe |
+| Fragment: Iron | 40 |  | 1 Iron Heavy Crossbow |
+| Fragment: Iron | 60 |  | 1 Iron Heavy Shield |
+| Fragment: Iron | 40 |  | 1 Iron Helmet |
+| Fragment: Iron | 40 |  | 1 Iron Helmet - Engraved |
+| Fragment: Iron | 40 |  | 1 Iron Helmet - Ram |
+| Fragment: Iron | 5 |  | 1 Iron Hinge |
+| Fragment: Iron | 10 |  | 1 Iron Hunting Knife |
+| Fragment: Iron | 120 |  | 1 Iron Kettle |
+| Fragment: Iron | 1 |  | 1 Iron Knife |
+| Fragment: Iron | 10 |  | 1 Iron Lantern |
+| Fragment: Iron | 25 |  | 1 Iron Large Pot |
+| Fragment: Iron | 40 |  | 1 Iron Large Shovel |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - Falkreath |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - Haafingar |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - Hjaalmarch |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - The Pale |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - The Reach |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - The Rift |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - Whiterun |
+| Fragment: Iron | 40 |  | 1 Iron Light Guard's Helmet - Winterhold |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - Eastmarch |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - Falkreath |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - Haafingar |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - Hjaalmarch |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - The Pale |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - The Reach |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - The Rift |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - Whiterun |
+| Fragment: Iron | 20 |  | 1 Iron Light Guard's Shield - Winterhold |
+| Fragment: Iron | 6 |  | 1 Iron Lock |
+| Fragment: Iron | 40 |  | 1 Iron Mace |
+| Fragment: Iron | 40 |  | 1 Iron Mace Head |
+| Fragment: Iron | 20 |  | 1 Iron Mace Hilt |
+| Fragment: Iron | 55 |  | 1 Iron Makeshift Cuirass |
+| Fragment: Iron | 40 |  | 1 Iron Masterwork Boots |
+| Fragment: Iron | 60 |  | 1 Iron Masterwork Cuirass |
+| Fragment: Iron | 20 |  | 1 Iron Masterwork Gauntlets |
+| Fragment: Iron | 40 |  | 1 Iron Masterwork Helmet |
+| Fragment: Iron | 60 |  | 1 Iron Masterwork Shield |
+| Fragment: Iron | 1 |  | 1 Iron Nails |
+| Fragment: Iron | 20 |  | 1 Iron Pickaxe |
+| Fragment: Iron | 20 |  | 1 Iron Pitchfork |
+| Fragment: Iron | 10 |  | 1 Iron Pot |
+| Fragment: Iron | 40 |  | 1 Iron Quality Boots |
+| Fragment: Iron | 60 |  | 1 Iron Quality Cuirass |
+| Fragment: Iron | 20 |  | 1 Iron Quality Gauntlets |
+| Fragment: Iron | 40 |  | 1 Iron Quality Helmet |
+| Fragment: Iron | 60 |  | 1 Iron Quality Shield |
+| Fragment: Iron | 55 |  | 1 Iron Robed Cuirass - Dark |
+| Fragment: Iron | 55 |  | 1 Iron Robed Cuirass - Pale |
+| Fragment: Iron | 7 |  | 1 Iron Serving Dish |
+| Fragment: Iron | 10 |  | 1 Iron Shovel |
+| Fragment: Iron | 20 |  | 1 Iron Sword |
+| Fragment: Iron | 20 |  | 1 Iron Sword Blade |
+| Fragment: Iron | 5 |  | 1 Iron Sword Hilt |
+| Fragment: Iron | 2 |  | 1 Iron Tankard |
+| Fragment: Iron | 5 |  | 1 Iron Tongs |
+| Fragment: Iron | 25 |  | 1 Iron Torture Tools |
+| Fragment: Iron | 55 |  | 1 Iron Vagabond Cuirass |
+| Fragment: Iron | 20 |  | 1 Iron War Axe |
+| Fragment: Iron | 20 |  | 1 Iron War Axe Head |
+| Fragment: Iron | 20 |  | 1 Iron War Axe Hilt |
+| Fragment: Iron | 80 |  | 1 Iron Warhammer |
+| Fragment: Iron | 10 |  | 1 Iron Woodcutter's Axe |
+| Fragment: Iron | 1 |  | 1 Lockpick |
+| Fragment: Iron | 55 |  | 1 Mail and Hide |
+| Fragment: Iron | 55 |  | 1 Mail and Jacket |
+| Fragment: Iron | 55 |  | 1 Mail and Leather Surcoat |
+| Fragment: Iron | 55 |  | 1 Mail and Leathers |
+| Fragment: Iron | 55 |  | 1 Mail and Pauldroned Leather |
+| Fragment: Iron | 55 |  | 1 Mail and Rugged Leather |
+| Fragment: Iron | 55 |  | 1 Mail and Surcoat |
+| Fragment: Iron | 55 |  | 1 Mail and Tunic |
+| Fragment: Iron | 55 |  | 1 Oiled Mail and Hide |
+| Fragment: Iron | 55 |  | 1 Oiled Mail and Jacket |
+| Fragment: Iron | 55 |  | 1 Oiled Mail and Tunic |
+| Fragment: Iron | 55 |  | 1 Robed Mail |
+| Fragment: Iron | 40 |  | 1 Stormcloak Heavy Helmet |
+| Fragment: Iron | 20 |  | 1 Stormcloak Light Cuirass |
+| Fragment: Iron | 20 |  | 1 Stormcloak Sleeved Heavy Cuirass |
+| Fragment: Iron | 20 |  | 1 Studded Cuirass |
+| Fragment: Malachite | 1 |  | 1 Arrow: Glass |
+| Fragment: Malachite | 1 |  | 1 Bolt: Glass |
+| Fragment: Malachite | 20 |  | 1 Chillrend Replica |
+| Fragment: Malachite | 40 |  | 1 Glass Battleaxe |
+| Fragment: Malachite | 40 |  | 1 Glass Battlestaff |
+| Fragment: Malachite | 40 |  | 1 Glass Boots |
+| Fragment: Malachite | 40 |  | 1 Glass Boots - Thalmor |
+| Fragment: Malachite | 40 |  | 1 Glass Boots - Vvardenfell |
+| Fragment: Malachite | 80 |  | 1 Glass Cuirass |
+| Fragment: Malachite | 80 |  | 1 Glass Cuirass - Thalmor |
+| Fragment: Malachite | 80 |  | 1 Glass Cuirass - Vvardenfell |
+| Fragment: Malachite | 10 |  | 1 Glass Dagger |
+| Fragment: Malachite | 20 |  | 1 Glass Gauntlets |
+| Fragment: Malachite | 20 |  | 1 Glass Gauntlets - Thalmor |
+| Fragment: Malachite | 20 |  | 1 Glass Gauntlets - Vvardenfell |
+| Fragment: Malachite | 40 |  | 1 Glass Greatsword |
+| Fragment: Malachite | 40 |  | 1 Glass Helmet |
+| Fragment: Malachite | 40 |  | 1 Glass Helmet - Thalmor |
+| Fragment: Malachite | 40 |  | 1 Glass Helmet - Vvardenfell |
+| Fragment: Malachite | 10 |  | 1 Glass Hunting Knife |
+| Fragment: Malachite | 40 |  | 1 Glass Light Bow |
+| Fragment: Malachite | 40 |  | 1 Glass Light Crossbow |
+| Fragment: Malachite | 40 |  | 1 Glass Mace |
+| Fragment: Malachite | 60 |  | 1 Glass Shield |
+| Fragment: Malachite | 60 |  | 1 Glass Shield - Thalmor |
+| Fragment: Malachite | 60 |  | 1 Glass Shield - Vvardenfell |
+| Fragment: Malachite | 20 |  | 1 Glass Sword |
+| Fragment: Malachite | 20 |  | 1 Glass War Axe |
+| Fragment: Malachite | 60 |  | 1 Glass Warhammer |
+| Fragment: Malachite | 60 |  | 1 Horse Armor: Divine Aegis Barding and Saddle |
+| Fragment: Malachite | 60 |  | 1 Horse Armor: Frost Aegis Barding and Saddle |
+| Fragment: Malachite | 20 | Glass Blacksmithing | 1 Ingot: Malachite |
+| Fragment: Moonstone | 40 |  | 1 Auriel's Shield Replica |
+| Fragment: Moonstone | 1 |  | 1 Bolt: Elven |
+| Fragment: Moonstone | 60 |  | 1 Horse Armor: Cleric Barding and Saddle |
+| Fragment: Moonstone | 60 |  | 1 Horse Armor: Elven Barding and Saddle - Amber |
+| Fragment: Moonstone | 60 |  | 1 Horse Armor: Elven Barding and Saddle - Dusk |
+| Fragment: Moonstone | 20 | Elven Blacksmithing | 1 Ingot: Moonstone |
+| Fragment: Orichalcum | 10 |  | 1 Argonian Fishing Rod |
+| Fragment: Orichalcum | 1 |  | 1 Arrow: Orcish |
+| Fragment: Orichalcum | 1 |  | 1 Bolt: Orcish |
+| Fragment: Orichalcum | 20 | Orcish Blacksmithing | 1 Ingot: Orichalcum |
+| Fragment: Orichalcum | 40 |  | 1 Orcish Battleaxe |
+| Fragment: Orichalcum | 40 |  | 1 Orcish Boots |
+| Fragment: Orichalcum | 80 |  | 1 Orcish Cuirass |
+| Fragment: Orichalcum | 10 |  | 1 Orcish Dagger |
+| Fragment: Orichalcum | 20 |  | 1 Orcish Gauntlets |
+| Fragment: Orichalcum | 40 |  | 1 Orcish Greatsword |
+| Fragment: Orichalcum | 40 |  | 1 Orcish Heavy Bow |
+| Fragment: Orichalcum | 40 |  | 1 Orcish Heavy Crossbow |
+| Fragment: Orichalcum | 40 |  | 1 Orcish Helmet |
+| Fragment: Orichalcum | 10 |  | 1 Orcish Hunting Knife |
+| Fragment: Orichalcum | 40 |  | 1 Orcish Mace |
+| Fragment: Orichalcum | 60 |  | 1 Orcish Shield |
+| Fragment: Orichalcum | 20 |  | 1 Orcish Sword |
+| Fragment: Orichalcum | 20 |  | 1 Orcish War Axe |
+| Fragment: Orichalcum | 60 |  | 1 Orcish Warhammer |
+| Fragment: Orichalcum | 10 |  | 1 Orichalc Circlet |
+| Fragment: Orichalcum | 10 |  | 1 Orichalc Sapphire Circlet |
+| Fragment: Quicksilver | 10 |  | 1 Alik'ri Fishing Rod |
+| Fragment: Quicksilver | 10 |  | 1 Amulet of the Kynareth Replica |
+| Fragment: Quicksilver | 20 |  | 1 Dragonscale Cuirass |
+| Fragment: Quicksilver | 20 |  | 1 Dragonscale Shield |
+| Fragment: Quicksilver | 20 | Advanced Blacksmithing | 1 Ingot: Quicksilver |
+| Fragment: Silver | 1 |  | 1 Bolt: Silver |
+| Fragment: Silver | 20 |  | 1 Ebony Cuirass - Silvered |
+| Fragment: Silver | 20 |  | 1 Ebony Mail Replica - Silvered |
+| Fragment: Silver | 20 |  | 1 Ebony Mail Replica - Silvered |
+| Fragment: Silver | 20 | Advanced Blacksmithing | 1 Ingot: Silver |
+| Fragment: Silver | 6 |  | 1 Silver Adorned Bowl |
+| Fragment: Silver | 5 |  | 1 Silver Bowl |
+| Fragment: Silver | 20 |  | 1 Silver Candelabrum |
+| Fragment: Silver | 7 |  | 1 Silver Candlestick |
+| Fragment: Silver | 7 |  | 1 Silver Candlestick |
+| Fragment: Silver | 10 |  | 1 Silver Circlet |
+| Fragment: Silver | 10 |  | 1 Silver Emerald Circlet |
+| Fragment: Silver | 12 |  | 1 Silver Ewer |
+| Fragment: Silver | 3 |  | 1 Silver Goblet |
+| Fragment: Silver | 10 |  | 1 Silver Greatsword |
+| Fragment: Silver | 4 |  | 1 Silver Large Goblet |
+| Fragment: Silver | 2 |  | 1 Silver Necklace |
+| Fragment: Silver | 7 |  | 1 Silver Plate |
+| Fragment: Silver | 20 |  | 1 Silver Platter |
+| Fragment: Silver | 1 |  | 1 Silver Ring |
+| Fragment: Silver | 10 |  | 1 Silver Ruby Circlet |
+| Fragment: Silver | 10 |  | 1 Silver Sapphire Circlet (Flawless) |
+| Fragment: Silver | 10 |  | 1 Silver Triple Candlestick |
+| Fragment: Silver | 5 |  | 3 Silver Sword |
+| Fragment: Steel | 20 |  | 1 Akaviri Katana |
+| Fragment: Steel | 10 |  | 1 Amulet of Zenithar Replica |
+| Fragment: Steel | 1 |  | 1 Arrow: Ancient Nordic Hero |
+| Fragment: Steel | 1 |  | 1 Arrow: Steel |
+| Fragment: Steel | 40 |  | 1 Blades Boots |
+| Fragment: Steel | 80 |  | 1 Blades Cuirass |
+| Fragment: Steel | 20 |  | 1 Blades Gauntlets |
+| Fragment: Steel | 40 |  | 1 Blades Helmet |
+| Fragment: Steel | 60 |  | 1 Blades Shield |
+| Fragment: Steel | 1 |  | 1 Bolt: Dark Brotherhood |
+| Fragment: Steel | 1 |  | 1 Bolt: Dawnguard |
+| Fragment: Steel | 1 |  | 1 Bolt: Imperial |
+| Fragment: Steel | 1 |  | 1 Bolt: Steel |
+| Fragment: Steel | 1 |  | 1 Bolt: Stormcloak |
+| Fragment: Steel | 1 |  | 1 Bolt: Thieves Guild |
+| Fragment: Steel | 40 |  | 1 Dark Brotherhood Heavy Crossbow |
+| Fragment: Steel | 20 |  | 1 Dawnguard Heavy Boots |
+| Fragment: Steel | 60 |  | 1 Dawnguard Heavy Cuirass - Black |
+| Fragment: Steel | 60 |  | 1 Dawnguard Heavy Cuirass - Grey |
+| Fragment: Steel | 20 |  | 1 Dawnguard Heavy Gauntlets |
+| Fragment: Steel | 40 |  | 1 Dawnguard Heavy Helmet |
+| Fragment: Steel | 40 |  | 1 Dawnguard Heavy Shield |
+| Fragment: Steel | 40 |  | 1 Dawnguard Improved Light Crossbow |
+| Fragment: Steel | 10 |  | 1 Dawnguard Light Boots |
+| Fragment: Steel | 40 |  | 1 Dawnguard Light Crossbow |
+| Fragment: Steel | 20 |  | 1 Dawnguard Light Cuirass - Black |
+| Fragment: Steel | 20 |  | 1 Dawnguard Light Cuirass - Red |
+| Fragment: Steel | 20 |  | 1 Dawnguard Light Cuirass - Red |
+| Fragment: Steel | 10 |  | 1 Dawnguard Light Gauntlets |
+| Fragment: Steel | 10 |  | 1 Dawnguard Light Helmet |
+| Fragment: Steel | 40 |  | 1 Dawnguard Reinforced Light Cuirass - Blue |
+| Fragment: Steel | 20 |  | 1 Dawnguard Reinforced Light Cuirass - Blue |
+| Fragment: Steel | 40 |  | 1 Dawnguard Rune Shield Replica |
+| Fragment: Steel | 40 |  | 1 Dawnguard Rune War Axe Replica |
+| Fragment: Steel | 80 |  | 1 Dawnguard Rune Warhammer Replica |
+| Fragment: Steel | 40 |  | 1 Dawnguard War Axe |
+| Fragment: Steel | 80 |  | 1 Dawnguard Warhammer |
+| Fragment: Steel | 40 |  | 1 Helm of Yngol Replica |
+| Fragment: Steel | 60 |  | 1 Horse Armor: Black Hand Barding and Saddle |
+| Fragment: Steel | 60 |  | 1 Horse Armor: Black Hand Barding and Saddle - Adorned |
+| Fragment: Steel | 60 |  | 1 Horse Armor: Dawnguard Barding and Saddle |
+| Fragment: Steel | 60 |  | 1 Horse Armor: Dawnguard Barding and Saddle - Adorned |
+| Fragment: Steel | 60 |  | 1 Horse Armor: Imperial Barding and Saddle |
+| Fragment: Steel | 60 |  | 1 Horse Armor: Nordic Barding and Saddle |
+| Fragment: Steel | 60 |  | 1 Horse Armor: Stormcloak Barding and Saddle |
+| Fragment: Steel | 60 |  | 1 Imperial Crested Heavy Helmet |
+| Fragment: Steel | 20 |  | 1 Imperial General Cuirass |
+| Fragment: Steel | 20 |  | 1 Imperial Heavy Boots |
+| Fragment: Steel | 40 |  | 1 Imperial Heavy Bow |
+| Fragment: Steel | 20 |  | 1 Imperial Heavy Bracers |
+| Fragment: Steel | 40 |  | 1 Imperial Heavy Crossbow |
+| Fragment: Steel | 80 |  | 1 Imperial Heavy Cuirass |
+| Fragment: Steel | 20 |  | 1 Imperial Heavy Helmet |
+| Fragment: Steel | 60 |  | 1 Imperial Heavy Shield |
+| Fragment: Steel | 20 |  | 1 Imperial Light Shield |
+| Fragment: Steel | 20 |  | 1 Imperial Mace |
+| Fragment: Steel | 40 |  | 1 Imperial Officer Heavy Helmet |
+| Fragment: Steel | 20 |  | 1 Imperial Shortsword |
+| Fragment: Steel | 20 |  | 1 Imperial Sword |
+| Fragment: Steel | 20 | Craftsmanship | 1 Ingot: Steel |
+| Fragment: Steel | 20 |  | 1 Jarl of Eastmarch Armguards |
+| Fragment: Steel | 80 |  | 1 Jarl of Eastmarch Armor |
+| Fragment: Steel | 60 |  | 1 Rueful Axe Replica |
+| Fragment: Steel | 40 |  | 1 Savior's Hide Replica |
+| Fragment: Steel | 40 |  | 1 Savior's Hide Replica - Black |
+| Fragment: Steel | 40 |  | 1 Savior's Hide Replica - White |
+| Fragment: Steel | 20 |  | 1 Scaled Boots |
+| Fragment: Steel | 20 |  | 1 Scaled Bracers |
+| Fragment: Steel | 20 |  | 1 Scaled Cuirass |
+| Fragment: Steel | 20 |  | 1 Scaled Cuirass - Horned |
+| Fragment: Steel | 40 |  | 1 Scaled Helmet |
+| Fragment: Steel | 40 |  | 1 Silver Battlestaff |
+| Fragment: Steel | 40 |  | 1 Silver Greatsword |
+| Fragment: Steel | 20 |  | 1 Silver Sword |
+| Fragment: Steel | 60 |  | 1 Steel Battleaxe |
+| Fragment: Steel | 80 |  | 1 Steel Battleaxe Head |
+| Fragment: Steel | 40 |  | 1 Steel Battleaxe Hilt |
+| Fragment: Steel | 40 |  | 1 Steel Battlestaff |
+| Fragment: Steel | 40 |  | 1 Steel Boots |
+| Fragment: Steel | 40 |  | 1 Steel Boots - White |
+| Fragment: Steel | 55 |  | 1 Steel Braced Cuirass |
+| Fragment: Steel | 20 |  | 1 Steel Bracers |
+| Fragment: Steel | 2 |  | 1 Steel Buckles |
+| Fragment: Steel | 60 |  | 1 Steel Cuirass |
+| Fragment: Steel | 80 |  | 1 Steel Cuirass - White |
+| Fragment: Steel | 10 |  | 1 Steel Dagger |
+| Fragment: Steel | 20 |  | 1 Steel Death Hound Collar |
+| Fragment: Steel | 2 |  | 1 Steel Embalming Pick |
+| Fragment: Steel | 55 |  | 1 Steel Furred Cuirass |
+| Fragment: Steel | 55 |  | 1 Steel Furred Plate Cuirass |
+| Fragment: Steel | 20 |  | 1 Steel Gauntlets |
+| Fragment: Steel | 20 |  | 1 Steel Gauntlets - White |
+| Fragment: Steel | 40 |  | 1 Steel Greatsword |
+| Fragment: Steel | 60 |  | 1 Steel Greatsword Blade |
+| Fragment: Steel | 25 |  | 1 Steel Greatsword Hilt |
+| Fragment: Steel | 40 |  | 1 Steel Greaves |
+| Fragment: Steel | 40 |  | 1 Steel Heavy Crossbow |
+| Fragment: Steel | 40 |  | 1 Steel Helmet |
+| Fragment: Steel | 40 |  | 1 Steel Helmet - White |
+| Fragment: Steel | 40 |  | 1 Steel Horned Helmet |
+| Fragment: Steel | 10 |  | 1 Steel Hunting Knife |
+| Fragment: Steel | 40 |  | 1 Steel Mace |
+| Fragment: Steel | 80 |  | 1 Steel Pauldroned Cuirass |
+| Fragment: Steel | 80 |  | 1 Steel Pauldroned Cuirass - White |
+| Fragment: Steel | 40 |  | 1 Steel Plate Boots |
+| Fragment: Steel | 80 |  | 1 Steel Plate Cuirass |
+| Fragment: Steel | 20 |  | 1 Steel Plate Gauntlets |
+| Fragment: Steel | 40 |  | 1 Steel Plate Helmet |
+| Fragment: Steel | 10 |  | 1 Steel Saw |
+| Fragment: Steel | 2 |  | 1 Steel Scalpel |
+| Fragment: Steel | 20 |  | 1 Steel Scimitar |
+| Fragment: Steel | 4 |  | 1 Steel Shears |
+| Fragment: Steel | 60 |  | 1 Steel Shield |
+| Fragment: Steel | 20 |  | 1 Steel Sword |
+| Fragment: Steel | 20 |  | 1 Steel Sword Blade |
+| Fragment: Steel | 10 |  | 1 Steel Sword Hilt |
+| Fragment: Steel | 20 |  | 1 Steel War Axe |
+| Fragment: Steel | 80 |  | 1 Steel Warhammer |
+| Fragment: Steel | 80 |  | 1 Steel Warhammer Head |
+| Fragment: Steel | 35 |  | 1 Steel Warhammer Hilt |
+| Fragment: Steel | 40 |  | 1 Stormcloak General Boots |
+| Fragment: Steel | 40 |  | 1 Stormcloak Heavy Crossbow |
+| Fragment: Steel | 40 |  | 1 Stormcloak Officer Boots |
+| Fragment: Steel | 1 |  | 1 Stormcloak Officer Bracers |
+| Fragment: Steel | 40 |  | 1 Stormcloak Officer Cuirass |
+| Fragment: Steel | 20 |  | 1 Stormcloak Officer Helmet |
+| Fragment: Steel | 10 |  | 1 Toolkit: Builder's |
+| Fragment: Steel | 10 |  | 1 Toolkit: Chef's |
+| Fragment: Steel | 10 |  | 1 Toolkit: Jeweler's |
+| Fragment: Steel | 10 |  | 1 Toolkit: Smith's |
+| Fragment: Steel | 10 |  | 1 Toolkit: Thieves' |
+| Fragment: Steel | 40 |  | 1 Wolf Boots |
+| Fragment: Steel | 80 |  | 1 Wolf Cuirass |
+| Fragment: Steel | 20 |  | 1 Wolf Gauntlets |
+| Fragment: Steel | 40 |  | 1 Wolf Helmet |
+| Fragment: Steel | 60 |  | 1 Wolf Shield |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Black |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Brown |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Ornate Black |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Ornate Brown |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Ornate White |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Trimmed Black |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Trimmed Brown |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - Trimmed White |
+| Fur Plate | 3 |  | 1 Bearskin Cloak - White |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Black |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Brown |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Ornate Black |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Ornate Brown |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Ornate White |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Trimmed Black |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Trimmed Brown |
+| Fur Plate | 1 |  | 1 Bearskin Hood - Trimmed White |
+| Fur Plate | 1 |  | 1 Bearskin Hood - White |
+| Fur Plate | 1 |  | 1 Forsworn Boots |
+| Fur Plate | 1 |  | 1 Forsworn Cuirass |
+| Fur Plate | 1 |  | 1 Forsworn Gauntlets |
+| Fur Plate | 1 |  | 1 Forsworn Headdress |
+| Fur Plate | 1 |  | 1 Fur Backpack - Black |
+| Fur Plate | 1 |  | 1 Fur Backpack - Brown |
+| Fur Plate | 1 |  | 1 Fur Backpack - White |
+| Fur Plate | 2 |  | 1 Fur Bedroll |
+| Fur Plate | 1 |  | 1 Fur Boots |
+| Fur Plate | 1 |  | 1 Fur Bracers |
+| Fur Plate | 3 |  | 1 Fur Cuirass |
+| Fur Plate | 1 |  | 1 Fur Gauntlets |
+| Fur Plate | 1 |  | 1 Fur Helmet |
+| Fur Plate | 1 |  | 1 Fur Kilt |
+| Fur Plate | 2 |  | 1 Fur Makeshift Cuirass |
+| Fur Plate | 2 |  | 1 Fur Mantled Kilt |
+| Fur Plate | 2 |  | 1 Fur Rags - Dark |
+| Fur Plate | 2 |  | 1 Fur Rags - Pale |
+| Fur Plate | 2 |  | 1 Fur Rugged Cuirass |
+| Fur Plate | 2 |  | 1 Fur Scrap Cuirass |
+| Fur Plate | 1 |  | 1 Fur Shoes |
+| Fur Plate | 3 |  | 1 Fur Sleeveless Cuirass |
+| Fur Plate | 2 |  | 1 Fur Tattered Cuirass |
+| Fur Plate | 2 |  | 1 Fur Tattered Cuirass - Pale |
+| Fur Plate | 2 |  | 1 Fur Vagabond Cuirass |
+| Fur Plate | 2 |  | 1 Furred Robes - Dark |
+| Fur Plate | 2 |  | 1 Furred Robes - Pale |
+| Fur Plate | 1 |  | 1 Imperial Outcast Bracers |
+| Fur Plate | 1 |  | 1 Imperial Outcast Helmet |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Black |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Brown |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Dark Trimmed Black |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Dark Trimmed Brown |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Dark Trimmed White |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Light Trimmed Black |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Light Trimmed Brown |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Light Trimmed White |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Ornate Black |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Ornate Brown |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - Ornate White |
+| Fur Plate | 2 |  | 1 Wolfskin Cloak - White |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Black |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Brown |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Dark Trimmed Black |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Dark Trimmed Brown |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Dark Trimmed White |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Light Trimmed Black |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Light Trimmed Brown |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Light Trimmed White |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Noble Black |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Noble Brown |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Noble White |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Ornate Black |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Ornate Brown |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - Ornate White |
+| Fur Plate | 1 |  | 1 Wolfskin Hood - White |
+| Glass Bottle (Empty) | 1 |  | 1 Ale |
+| Glass Bottle (Empty) | 1 |  | 1 Ale |
+| Glass Bottle (Empty) | 1 |  | 1 Alto Blanc Wine |
+| Glass Bottle (Empty) | 1 |  | 1 Alto Noir Wine |
+| Glass Bottle (Empty) | 1 |  | 1 Argonian Ale |
+| Glass Bottle (Empty) | 1 |  | 1 Argonian Bloodwine |
+| Glass Bottle (Empty) | 1 |  | 1 Ashfire Mead |
+| Glass Bottle (Empty) | 1 |  | 1 Black-Briar Mead |
+| Glass Bottle (Empty) | 1 |  | 1 Black-Briar Reserve |
+| Glass Bottle (Empty) | 1 |  | 1 Bottled Milk |
+| Glass Bottle (Empty) | 1 |  | 1 Cinnabar Beer |
+| Glass Bottle (Empty) | 1 |  | 1 Cliff Racer |
+| Glass Bottle (Empty) | 1 |  | 1 Cyrodilic Brandy |
+| Glass Bottle (Empty) | 1 |  | 1 Dragon's Breath Mead |
+| Glass Bottle (Empty) | 1 |  | 1 Emberbrand Wine |
+| Glass Bottle (Empty) | 1 |  | 1 Firebrand Wine |
+| Glass Bottle (Empty) | 1 |  | 1 Flin |
+| Glass Bottle (Empty) | 1 |  | 1 Glass Bottle (Water) |
+| Glass Bottle (Empty) | 1 |  | 1 Honningbrew Mead |
+| Glass Bottle (Empty) | 1 |  | 1 Jessica's Wine |
+| Glass Bottle (Empty) | 1 |  | 1 Juniper Berry Mead |
+| Glass Bottle (Empty) | 1 |  | 1 Mazte |
+| Glass Bottle (Empty) | 1 |  | 1 Mulled Wine |
+| Glass Bottle (Empty) | 1 |  | 1 Nord Mead |
+| Glass Bottle (Empty) | 1 |  | 1 Sadri's Sujamma |
+| Glass Bottle (Empty) | 1 |  | 1 Shein |
+| Glass Bottle (Empty) | 1 |  | 1 Stros M'Kai Rum |
+| Glass Bottle (Empty) | 1 |  | 1 Sujamma |
+| Glass Bottle (Empty) | 1 |  | 1 Velvet LeChance |
+| Glass Bottle (Empty) | 1 |  | 1 Village Red Wine |
+| Glass Bottle (Empty) | 1 |  | 1 Village White Wine |
+| Glass Bottle (Empty) | 1 |  | 1 White-Gold Tower |
+| Goat Cheese Slice | 2 |  | 1 Goat Cheese Wedge |
+| Goat Cheese Wedge | 3 |  | 1 Goat Cheese Wheel |
+| Ingot: Galatite | 4 |  | 1 Champion's Cudgel Replica |
+| Ingot: Galatite | 2 |  | 1 Nordic Battleaxe |
+| Ingot: Galatite | 2 |  | 1 Nordic Boots - Black |
+| Ingot: Galatite | 2 |  | 1 Nordic Boots - Brown |
+| Ingot: Galatite | 2 |  | 1 Nordic Boots - White |
+| Ingot: Galatite | 4 |  | 1 Nordic Cuirass - Black |
+| Ingot: Galatite | 4 |  | 1 Nordic Cuirass - Brown |
+| Ingot: Galatite | 4 |  | 1 Nordic Cuirass - White |
+| Ingot: Galatite | 1 |  | 1 Nordic Gauntlets - Black |
+| Ingot: Galatite | 1 |  | 1 Nordic Gauntlets - Brown |
+| Ingot: Galatite | 1 |  | 1 Nordic Gauntlets - White |
+| Ingot: Galatite | 2 |  | 1 Nordic Greatsword |
+| Ingot: Galatite | 2 |  | 1 Nordic Heavy Bow |
+| Ingot: Galatite | 2 |  | 1 Nordic Helmet - Black |
+| Ingot: Galatite | 2 |  | 1 Nordic Mace |
+| Ingot: Galatite | 3 |  | 1 Nordic Shield - Black |
+| Ingot: Galatite | 3 |  | 1 Nordic Shield - Brown |
+| Ingot: Galatite | 3 |  | 1 Nordic Shield - White |
+| Ingot: Galatite | 1 |  | 1 Nordic Sword |
+| Ingot: Galatite | 1 |  | 1 Nordic War Axe |
+| Ingot: Galatite | 3 |  | 1 Nordic Warhammer |
+| Ingot: Galatite | 3 |  | 1 Skyforge Steel Aegis |
+| Ingot: Galatite | 3 |  | 1 Skyforge Steel Battleaxe |
+| Ingot: Galatite | 2 |  | 1 Skyforge Steel Greatsword |
+| Ingot: Galatite | 1 |  | 1 Skyforge Steel Heavy Bow |
+| Ingot: Galatite | 2 | Craftsmanship | 1 Skyforge Steel Mace |
+| Ingot: Galatite | 1 |  | 1 Skyforge Steel Sword |
+| Ingot: Galatite | 1 |  | 1 Skyforge Steel War Axe |
+| Ingot: Galatite | 4 |  | 1 Skyforge Steel Warhammer |
+| Ingot: Moonstone | 2 |  | 1 Auriel's Bow Replica |
+| Ingot: Moonstone | 2 |  | 1 Snow Elf Boots |
+| Ingot: Moonstone | 1 |  | 1 Snow Elf Crown |
+| Ingot: Moonstone | 4 |  | 1 Snow Elf Cuirass |
+| Ingot: Moonstone | 1 |  | 1 Snow Elf Gauntlets |
+| Ingot: Quicksilver | 1 |  | 1 Nordic Heavy Crossbow |
+| Kindling | 1 |  | 1 Arrow: Ancient Nordic |
+| Kindling | 1 |  | 1 Arrow: Ancient Nordic Hero |
+| Kindling | 1 |  | 1 Arrow: Dwarven |
+| Kindling | 1 |  | 1 Arrow: Ebony |
+| Kindling | 1 |  | 1 Arrow: Elven |
+| Kindling | 1 |  | 1 Arrow: Falmer |
+| Kindling | 1 |  | 1 Arrow: Forsworn |
+| Kindling | 1 |  | 1 Arrow: Glass |
+| Kindling | 1 |  | 1 Arrow: Iron |
+| Kindling | 1 |  | 1 Arrow: Nordic |
+| Kindling | 1 |  | 1 Arrow: Orcish |
+| Kindling | 1 |  | 1 Arrow: Skyforge Steel |
+| Kindling | 1 |  | 1 Arrow: Steel |
+| Kindling | 1 |  | 1 Bolt: Ancient Nordic Hero |
+| Kindling | 1 |  | 1 Bolt: Dark Brotherhood |
+| Kindling | 1 |  | 1 Bolt: Dawnguard |
+| Kindling | 1 |  | 1 Bolt: Dwarven |
+| Kindling | 1 |  | 1 Bolt: Elven |
+| Kindling | 1 |  | 1 Bolt: Glass |
+| Kindling | 1 |  | 1 Bolt: Imperial |
+| Kindling | 1 |  | 1 Bolt: Iron |
+| Kindling | 1 |  | 1 Bolt: Orcish |
+| Kindling | 1 |  | 1 Bolt: Silver |
+| Kindling | 1 |  | 1 Bolt: Steel |
+| Kindling | 1 |  | 1 Bolt: Stormcloak |
+| Kindling | 1 |  | 1 Bolt: Thieves Guild |
+| Kindling | 5 |  | 1 Iron Pickaxe |
+| Kindling | 10 |  | 1 Toolkit: Alchemist's |
+| Kindling | 10 |  | 1 Toolkit: Brewer's |
+| Kindling | 10 |  | 1 Toolkit: Survivalist's |
+| Kindling | 10 |  | 1 Toolkit: Tailor's |
+| Kindling | 4 |  | 1 Wooden Bellows |
+| Kindling | 1 |  | 1 Wooden Bowl |
+| Kindling | 2 |  | 1 Wooden Broom |
+| Kindling | 6 |  | 1 Wooden Drum |
+| Kindling | 2 |  | 1 Wooden Fishing Rod |
+| Kindling | 2 |  | 1 Wooden Flute |
+| Kindling | 3 |  | 1 Wooden Heavy Bow |
+| Kindling | 1 |  | 1 Wooden Ladle |
+| Kindling | 3 |  | 1 Wooden Light Bow |
+| Kindling | 10 |  | 1 Wooden Light Crossbow |
+| Kindling | 6 |  | 1 Wooden Lute |
+| Kindling | 4 |  | 1 Wooden Pitchfork |
+| Kindling | 1 |  | 1 Wooden Plate |
+| Kindling | 4 |  | 1 Wooden Roped Bucket |
+| Kindling | 1 |  | 1 Wooden Spigot |
+| Kindling | 2 |  | 1 Wooden Torch |
+| Kindling | 2 |  | 1 Wooden Torch (Bright) |
+| Kindling | 4 |  | 1 Wooden Well Bucket |
+| Kindling | 10 |  | 5 Wooden Battlestaff |
+| Leather | 2 |  | 1 Hide Furred Cuirass |
+| Leather | 2 |  | 1 Hide Furred Vagabond Cuirass |
+| Leather | 2 |  | 1 Hide Makeshift Cuirass |
+| Leather | 2 |  | 1 Hide Roughspun Tunic |
+| Leather | 2 |  | 1 Hide Rugged Cuirass |
+| Leather | 2 |  | 1 Hide Scrap Cuirass |
+| Leather | 2 |  | 1 Hide Scrap Robes |
+| Leather | 2 |  | 1 Hide Tattered Cuirass |
+| Leather | 2 |  | 1 Hide Vagabond Cuirass |
+| Leather | 2 |  | 1 Hide Vagabond Robes - Dark |
+| Leather | 2 |  | 1 Hide Vagabond Robes - Dark |
+| Leather | 2 |  | 1 Hide Vagabond Robes - Pale |
+| Leather | 2 |  | 1 Leather Boiled Cuirass |
+| Leather | 2 |  | 1 Leather Doublet |
+| Leather | 2 |  | 1 Leather Doublet - Dark |
+| Leather | 2 |  | 1 Leather Rugged Cuirass - Dark |
+| Leather | 2 |  | 1 Leather Rugged Cuirass - Pale |
+| Leather | 2 |  | 1 Leather Vagabond Cuirass |
+| Leather | 3 |  | 1 Studded Furred Cuirass |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Black |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Brown |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Ornate Black |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Ornate Brown |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Ornate White |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Trimmed Black |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Trimmed Brown |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - Trimmed White |
+| Leather Helmet | 1 |  | 1 Leather Bearskin Hood - White |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Black |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Brown |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Dark Trimmed Black |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Dark Trimmed Brown |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Dark Trimmed White |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Light Trimmed Black |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Light Trimmed Brown |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Light Trimmed White |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Noble Black |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Noble Brown |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Noble White |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Ornate Black |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Ornate Brown |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - Ornate White |
+| Leather Helmet | 1 |  | 1 Leather Wolfskin Hood - White |
+| Leather Strips | 3 |  | 1 Fur Guard's Boots |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - Falkreath |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - Haafingar |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - Hjaalmarch |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - The Pale |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - The Reach |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - The Rift |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - Whiterun |
+| Leather Strips | 8 |  | 1 Fur Guard's Cuirass - Winterhold |
+| Leather Strips | 3 |  | 1 Fur Guard's Gauntlets |
+| Leather Strips | 4 |  | 1 Hide Boots |
+| Leather Strips | 2 |  | 1 Hide Bracers |
+| Leather Strips | 8 |  | 1 Hide Cuirass |
+| Leather Strips | 4 |  | 1 Hide Helmet |
+| Leather Strips | 5 |  | 1 Hide Shield |
+| Leather Strips | 10 |  | 1 Horse Armor: Big Game Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Fur Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Hunter's Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Imperial Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Knight's Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Leather Barding and Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Leather Barding and Saddle - Mail |
+| Leather Strips | 10 |  | 1 Horse Armor: Minstrel's Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Ornate Barding and Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Shadowmere's Saddle |
+| Leather Strips | 10 |  | 1 Horse Armor: Traveler's Saddle |
+| Leather Strips | 12 |  | 1 Imperial General Cuirass |
+| Leather Strips | 4 |  | 1 Imperial Light Boots |
+| Leather Strips | 4 |  | 1 Imperial Light Bracers |
+| Leather Strips | 12 |  | 1 Imperial Light Cuirass |
+| Leather Strips | 4 |  | 1 Imperial Light Helmet |
+| Leather Strips | 12 |  | 1 Imperial Outcast Cuirass |
+| Leather Strips | 12 |  | 1 Imperial Studded Cuirass |
+| Leather Strips | 4 |  | 1 Leather Boots |
+| Leather Strips | 4 |  | 1 Leather Bracers |
+| Leather Strips | 8 |  | 1 Leather Cuirass |
+| Leather Strips | 4 |  | 1 Leather Executioner's Boots |
+| Leather Strips | 12 |  | 1 Leather Executioner's Cuirass |
+| Leather Strips | 4 |  | 1 Leather Executioner's Gloves |
+| Leather Strips | 4 |  | 1 Leather Executioner's Hood |
+| Leather Strips | 4 |  | 1 Leather Helmet |
+| Leather Strips | 4 |  | 1 Leather Hood |
+| Leather Strips | 4 |  | 1 Leather Hood - Black |
+| Leather Strips | 4 |  | 1 Linen Moth Priest Sandals |
+| Leather Strips | 7 |  | 1 Noble Armguards |
+| Leather Strips | 5 |  | 1 Noble Gilded Wristguards |
+| Leather Strips | 8 |  | 1 Scaled Cuirass |
+| Leather Strips | 8 |  | 1 Scaled Cuirass - Horned |
+| Leather Strips | 4 |  | 1 Shrouded Boots |
+| Leather Strips | 4 |  | 1 Shrouded Cowl |
+| Leather Strips | 4 |  | 1 Shrouded Cowl - Maskless |
+| Leather Strips | 12 |  | 1 Shrouded Cuirass |
+| Leather Strips | 10 |  | 1 Shrouded Cuirass |
+| Leather Strips | 4 |  | 1 Shrouded Gloves |
+| Leather Strips | 8 |  | 1 Shrouded Sleeveless Cuirass |
+| Leather Strips | 8 |  | 1 Shrouded Sleeveless Cuirass |
+| Leather Strips | 5 |  | 1 Shrouded Supple Boots |
+| Leather Strips | 5 |  | 1 Shrouded Supple Cowl |
+| Leather Strips | 5 |  | 1 Shrouded Supple Cowl - Maskless |
+| Leather Strips | 5 |  | 1 Shrouded Supple Gloves |
+| Leather Strips | 4 |  | 1 Shrouded Worn Boots |
+| Leather Strips | 4 |  | 1 Shrouded Worn Cowl |
+| Leather Strips | 4 |  | 1 Shrouded Worn Cowl - Maskless |
+| Leather Strips | 10 |  | 1 Shrouded Worn Cuirass |
+| Leather Strips | 4 |  | 1 Shrouded Worn Gloves |
+| Leather Strips | 8 |  | 1 Silk Fur-Trimmed Clothes |
+| Leather Strips | 8 |  | 1 Stormcloak Light Cuirass |
+| Leather Strips | 8 |  | 1 Stormcloak Officer Cuirass |
+| Leather Strips | 10 |  | 1 Stormcloak Sleeved Heavy Cuirass |
+| Leather Strips | 8 |  | 1 Studded Cuirass |
+| Leather Strips | 4 |  | 1 Summerset Shadows Boots |
+| Leather Strips | 10 |  | 1 Summerset Shadows Cuirass |
+| Leather Strips | 4 |  | 1 Summerset Shadows Gloves |
+| Leather Strips | 4 |  | 1 Summerset Shadows Hood |
+| Leather Strips | 4 |  | 1 Thieves Guild Boots |
+| Leather Strips | 4 |  | 1 Thieves Guild Boots - Grey |
+| Leather Strips | 4 |  | 1 Thieves Guild Cowl |
+| Leather Strips | 4 |  | 1 Thieves Guild Cowl - Grey |
+| Leather Strips | 10 |  | 1 Thieves Guild Cuirass |
+| Leather Strips | 12 |  | 1 Thieves Guild Cuirass - Grey |
+| Leather Strips | 4 |  | 1 Thieves Guild Gloves |
+| Leather Strips | 4 |  | 1 Thieves Guild Gloves - Grey |
+| Leather Strips | 4 |  | 1 Thieves Guild Hood |
+| Leather Strips | 4 |  | 1 Thieves Guild Hood - Grey |
+| Leather Strips | 4 |  | 1 Thieves Guild Improved Boots |
+| Leather Strips | 4 |  | 1 Thieves Guild Improved Boots - Grey |
+| Leather Strips | 12 |  | 1 Thieves Guild Improved Cuirass |
+| Leather Strips | 12 |  | 1 Thieves Guild Improved Cuirass - Grey |
+| Leather Strips | 4 |  | 1 Thieves Guild Improved Gloves |
+| Leather Strips | 4 |  | 1 Thieves Guild Improved Gloves - Grey |
+| Leather Strips | 4 |  | 1 Thieves Guild Improved Hood |
+| Leather Strips | 4 |  | 1 Thieves Guild Improved Hood - Grey |
+| Leather Strips | 10 |  | 1 Thieves Guild Improved Sleeveless Cuirass - Grey |
+| Leather Strips | 6 |  | 1 Thieves Guild Master's Boots |
+| Leather Strips | 6 |  | 1 Thieves Guild Master's Cowl |
+| Leather Strips | 16 |  | 1 Thieves Guild Master's Cuirass |
+| Leather Strips | 6 |  | 1 Thieves Guild Master's Gloves |
+| Leather Strips | 6 |  | 1 Thieves Guild Master's Hood |
+| Leather Strips | 12 |  | 1 Thieves Guild Master's Sleeveless Cuirass |
+| Leather Strips | 10 |  | 1 Thieves Guild Sleeveless Cuirass |
+| Leather Strips | 10 |  | 1 Thieves Guild Sleeveless Cuirass - Grey |
+| Leather Strips | 10 |  | 1 Thieves Guild Sleeveless Improved Cuirass |
+| Leather Strips | 4 |  | 1 Vampire Boots |
+| Leather Strips | 10 |  | 1 Vampire Cuirass - Dark |
+| Leather Strips | 10 |  | 1 Vampire Cuirass - Grey |
+| Leather Strips | 10 |  | 1 Vampire Cuirass - Red |
+| Leather Strips | 4 |  | 1 Vampire Gauntlets |
+| Leather Strips | 6 |  | 1 Vampire Hood |
+| Leather Strips | 12 |  | 1 Vampire Lord Robes |
+| Leather Strips | 12 |  | 1 Vampire Royal Cuirass |
+| Linen Cloth | 1 |  | 1 Linen Arm Bandages |
+| Linen Cloth | 2 |  | 1 Linen Barkeep's Clothes - White |
+| Linen Cloth | 1 |  | 1 Linen Chef's Hat |
+| Linen Cloth | 2 |  | 1 Linen Chef's Tunic |
+| Linen Cloth | 1 |  | 1 Linen Cowl - White |
+| Linen Cloth | 1 |  | 1 Linen Head Bandages |
+| Linen Cloth | 1 |  | 1 Linen Headscarf |
+| Linen Cloth | 2 |  | 1 Linen Mage Tunic - White and Brown |
+| Linen Cloth | 2 |  | 1 Linen Mage Tunic - White and Orange |
+| Linen Cloth | 2 |  | 1 Linen Mage Tunic - White and Quilted Brown |
+| Linen Cloth | 2 |  | 1 Linen Mage Tunic - White, Green, and Brown |
+| Linen Cloth | 1 |  | 1 Linen Miner's Clothes - White |
+| Linen Cloth - Black | 2 |  | 1 Leather Clothes - Black |
+| Linen Cloth - Black | 2 |  | 1 Leather Clothes - Black and Brown |
+| Linen Cloth - Black | 2 |  | 1 Leather Quilted Clothes - Black |
+| Linen Cloth - Black | 1 |  | 1 Linen Alik'r Garb - Red |
+| Linen Cloth - Black | 2 |  | 1 Linen Clothes - Black and Green |
+| Linen Cloth - Black | 2 |  | 1 Linen Clothes - Black, Grey, and Tan |
+| Linen Cloth - Black | 1 |  | 1 Linen Cowl - Black |
+| Linen Cloth - Black | 1 |  | 1 Linen Cowl - Necromancer |
+| Linen Cloth - Black | 1 |  | 1 Linen Gloves - Black |
+| Linen Cloth - Black | 1 |  | 1 Linen Hood - Black |
+| Linen Cloth - Black | 2 |  | 1 Linen Mage Robes - Black and Grey |
+| Linen Cloth - Black | 2 |  | 1 Linen Mage Robes - Black and White |
+| Linen Cloth - Black | 1 |  | 1 Linen Monk Boots - Black |
+| Linen Cloth - Black | 2 |  | 1 Linen Mourner's Clothes |
+| Linen Cloth - Black | 1 |  | 1 Linen Mourner's Headscarf |
+| Linen Cloth - Black | 2 |  | 1 Linen Robes - Black |
+| Linen Cloth - Black | 2 |  | 1 Linen Robes - Necromancer's |
+| Linen Cloth - Black | 2 |  | 1 Linen Skirt - Black |
+| Linen Cloth - Black | 2 |  | 1 Linen Surcoat - Black and Brown |
+| Linen Cloth - Black | 2 |  | 1 Linen Surcoat - Black and Green |
+| Linen Cloth - Black | 2 |  | 1 Linen Traveler Robes - Black |
+| Linen Cloth - Black | 2 |  | 1 Linen Traveler Robes - Black and Brown |
+| Linen Cloth - Black | 2 |  | 1 Linen Traveler Robes - Black and Orange |
+| Linen Cloth - Black | 2 |  | 1 Linen Traveler Robes - Black, Brown, and Green |
+| Linen Cloth - Black | 2 |  | 1 Linen Traveler Robes - Black, Brown, and Grey |
+| Linen Cloth - Black | 2 |  | 1 Linen Traveler Robes - Black, Tan, and White |
+| Linen Cloth - Black | 2 |  | 1 Linen Tunic - Belted Black |
+| Linen Cloth - Black | 1 |  | 1 Linen Tunic - Indigo and Green |
+| Linen Cloth - Black | 1 |  | 1 Linen Work Boots - Black |
+| Linen Cloth - Blue | 1 |  | 1 Linen Alik'r Hood - Blue |
+| Linen Cloth - Blue | 1 |  | 1 Linen Cowl - Blue |
+| Linen Cloth - Blue | 1 |  | 1 Linen Dunmer Tunic - Blue |
+| Linen Cloth - Blue | 1 |  | 1 Linen Gloves - Blue |
+| Linen Cloth - Blue | 2 |  | 1 Linen Mage Tunic - Blue and Quilted Brown |
+| Linen Cloth - Blue | 2 |  | 1 Linen Robes - Blue |
+| Linen Cloth - Blue | 1 |  | 1 Linen Tunic - Blue and Orange |
+| Linen Cloth - Brown | 1 |  | 1 Child's Linen Shoes |
+| Linen Cloth - Brown | 1 |  | 1 Child's Skaal Shoes |
+| Linen Cloth - Brown | 2 |  | 1 Leather Tiled Clothes - Brown |
+| Linen Cloth - Brown | 2 |  | 1 Leather Tiled Clothes - Brown and Black |
+| Linen Cloth - Brown | 1 |  | 1 Linen Alik'r Boots - Dark |
+| Linen Cloth - Brown | 1 |  | 1 Linen Alik'r Boots - Dark |
+| Linen Cloth - Brown | 1 |  | 1 Linen Alik'r Garb - White |
+| Linen Cloth - Brown | 2 |  | 1 Linen Barkeep's Clothes - Brown |
+| Linen Cloth - Brown | 1 |  | 1 Linen Blacksmith's Shoes |
+| Linen Cloth - Brown | 1 |  | 1 Linen Cap |
+| Linen Cloth - Brown | 2 |  | 1 Linen Clothes - Brown and Grey |
+| Linen Cloth - Brown | 2 |  | 1 Linen Clothes - Brown and Tan |
+| Linen Cloth - Brown | 2 |  | 1 Linen Clothes - Brown, Grey, and Tan |
+| Linen Cloth - Brown | 2 |  | 1 Linen Clothes - Brown, White, and Tan |
+| Linen Cloth - Brown | 2 |  | 1 Linen Clothes - Collared Brown and Orange |
+| Linen Cloth - Brown | 1 |  | 1 Linen Cowl - Brown |
+| Linen Cloth - Brown | 2 |  | 1 Linen Doublet - Brown and Green |
+| Linen Cloth - Brown | 2 |  | 1 Linen Doublet - Brown and Grey |
+| Linen Cloth - Brown | 2 |  | 1 Linen Doublet - Brown and Tan |
+| Linen Cloth - Brown | 1 |  | 1 Linen Dunmer Boots |
+| Linen Cloth - Brown | 1 |  | 1 Linen Dunmer Hood - Brown |
+| Linen Cloth - Brown | 1 |  | 1 Linen Dunmer Tunic - Brown |
+| Linen Cloth - Brown | 1 |  | 1 Linen Farm Boots |
+| Linen Cloth - Brown | 1 |  | 1 Linen Gloves - Brown |
+| Linen Cloth - Brown | 2 |  | 1 Linen Mage Robes - Brown and Tan |
+| Linen Cloth - Brown | 2 |  | 1 Linen Mage Robes - Brown and White |
+| Linen Cloth - Brown | 2 |  | 1 Linen Miner's Clothes - Brown |
+| Linen Cloth - Brown | 1 |  | 1 Linen Monk Boots - Brown |
+| Linen Cloth - Brown | 2 |  | 1 Linen Robes - Brown |
+| Linen Cloth - Brown | 2 |  | 1 Linen Robes - Orange |
+| Linen Cloth - Brown | 1 |  | 1 Linen Shoes - Brown |
+| Linen Cloth - Brown | 2 |  | 1 Linen Skirt - Quilted Brown |
+| Linen Cloth - Brown | 1 |  | 1 Linen Stitched Boots |
+| Linen Cloth - Brown | 2 |  | 1 Linen Traveler Robes - Brown and Grey |
+| Linen Cloth - Brown | 2 |  | 1 Linen Traveler Robes - Brown and White |
+| Linen Cloth - Brown | 2 |  | 1 Linen Traveler Robes - Brown, Tan, and White |
+| Linen Cloth - Brown | 1 |  | 1 Linen Tunic - Belted Red |
+| Linen Cloth - Brown | 1 |  | 1 Linen Tunic - Tan |
+| Linen Cloth - Brown | 1 |  | 1 Linen Work Boots - Brown |
+| Linen Cloth - Green | 1 |  | 1 Linen Cowl - Green |
+| Linen Cloth - Green | 1 |  | 1 Linen Gloves - Green |
+| Linen Cloth - Green | 1 |  | 1 Linen Hood - Green |
+| Linen Cloth - Green | 2 |  | 1 Linen Mage Robes - Green and Tan |
+| Linen Cloth - Green | 1 |  | 1 Linen Miner's Boots |
+| Linen Cloth - Green | 2 |  | 1 Linen Robes - Green |
+| Linen Cloth - Green | 2 |  | 1 Linen Skirt - Green and Black |
+| Linen Cloth - Green | 1 |  | 1 Linen Tavern Clothes |
+| Linen Cloth - Green | 2 |  | 1 Linen Tunic - Adorned Green |
+| Linen Cloth - Green | 1 |  | 1 Linen Tunic - Belted Green |
+| Linen Cloth - Grey | 1 |  | 1 Linen Cowl - Grey |
+| Linen Cloth - Grey | 2 |  | 1 Linen Doublet - Tan and Grey |
+| Linen Cloth - Grey | 2 |  | 1 Linen Doublet - Tan, Grey, and White |
+| Linen Cloth - Grey | 1 |  | 1 Linen Gloves - Grey |
+| Linen Cloth - Grey | 2 |  | 1 Linen Mage Tunic - Grey and Black |
+| Linen Cloth - Grey | 2 |  | 1 Linen Mage Tunic - Grey and Brown |
+| Linen Cloth - Grey | 2 |  | 1 Linen Miner's Clothes - Grey and Tan |
+| Linen Cloth - Grey | 2 |  | 1 Linen Moth Priest Robes |
+| Linen Cloth - Grey | 2 |  | 1 Linen Plain Robes - Grey and Brown |
+| Linen Cloth - Grey | 2 |  | 1 Linen Plain Robes - Grey and Orange |
+| Linen Cloth - Grey | 2 |  | 1 Linen Plain Robes - Grey and Red |
+| Linen Cloth - Grey | 2 |  | 1 Linen Plain Robes - Mantled Grey and Brown |
+| Linen Cloth - Grey | 2 |  | 1 Linen Plain Robes - Mantled Grey and Orange |
+| Linen Cloth - Grey | 2 |  | 1 Linen Plain Robes - Mantled Grey and Red |
+| Linen Cloth - Grey | 2 |  | 1 Linen Robes - Grey |
+| Linen Cloth - Indigo | 1 |  | 1 Linen Dunmer Hood - Blue |
+| Linen Cloth - Indigo | 2 |  | 1 Linen Skirt - Indigo and Black |
+| Linen Cloth - Orange | 2 |  | 1 Linen Clothes - Collared Orange and White |
+| Linen Cloth - Orange | 2 |  | 1 Linen Clothes - Orange |
+| Linen Cloth - Orange | 2 |  | 1 Linen Clothes - Orange, Grey, and Tan |
+| Linen Cloth - Orange | 2 |  | 1 Linen Clothes - Orange, White, and Brown |
+| Linen Cloth - Orange | 2 |  | 1 Linen Clothes - Orange, White, and Tan |
+| Linen Cloth - Orange | 1 |  | 1 Linen Cowl - Orange |
+| Linen Cloth - Orange | 2 |  | 1 Linen Miner's Clothes - Orange and Black |
+| Linen Cloth - Orange | 2 |  | 1 Linen Miner's Clothes - Orange and Brown |
+| Linen Cloth - Orange | 2 |  | 1 Linen Plain Robes - Mantled Orange |
+| Linen Cloth - Orange | 2 |  | 1 Linen Plain Robes - Mantled Orange and Brown |
+| Linen Cloth - Orange | 2 |  | 1 Linen Plain Robes - Orange |
+| Linen Cloth - Orange | 2 |  | 1 Linen Plain Robes - Orange and Brown |
+| Linen Cloth - Orange | 2 |  | 1 Linen Skirt - Orange and Black |
+| Linen Cloth - Purple | 1 |  | 1 Linen Cowl - Purple |
+| Linen Cloth - Purple | 2 |  | 1 Linen Traveler Robes - Purple, Orange, and White |
+| Linen Cloth - Purple | 2 |  | 1 Linen Traveler Robes - Purple, Tan, and White |
+| Linen Cloth - Red | 1 |  | 1 Linen Alik'r Garb - Red |
+| Linen Cloth - Red | 1 |  | 1 Linen Alik'r Hood - Red |
+| Linen Cloth - Red | 1 |  | 1 Linen Alik'r Hood - Red |
+| Linen Cloth - Red | 1 |  | 1 Linen Blacksmith's Apron - Red |
+| Linen Cloth - Red | 1 |  | 1 Linen Cowl - Red |
+| Linen Cloth - Red | 1 |  | 1 Linen Dunmer Hood - Red |
+| Linen Cloth - Red | 1 |  | 1 Linen Dunmer Tunic - Red |
+| Linen Cloth - Red | 1 |  | 1 Linen Gloves - Red |
+| Linen Cloth - Tan | 1 |  | 1 Linen Alik'r Boots - Tan |
+| Linen Cloth - Tan | 1 |  | 1 Linen Cuffed Boots |
+| Linen Cloth - Tan | 2 |  | 1 Linen Doublet - Tan |
+| Linen Cloth - Tan | 2 |  | 1 Linen Mage Robes - Tan and White |
+| Linen Cloth - Tan | 1 |  | 1 Linen Miner's Clothes - Tan |
+| Linen Cloth - Tan | 1 |  | 1 Linen Miner's Shirt |
+| Linen Cloth - Tan | 1 |  | 1 Linen Tunic - Belted Tan |
+| Linen Cloth - Yellow | 1 |  | 1 Linen Cowl - Yellow |
+| Linen Cloth - Yellow | 2 |  | 1 Linen Miner's Clothes - Yellow and Brown |
+| Linen Cloth - Yellow | 1 |  | 1 Linen Tunic - Embroidered Brown |
+| Linen Robes - Blue | 1 |  | 1 Linen Robes of Regeneration - Blue |
+| Linen Thread | 2 |  | 1 Linen Blacksmith's Apron - White |
+| Linen Thread | 2 |  | 1 Linen Cloth |
+| Linen Thread | 4 |  | 1 Linen Moth Priest Blindfold |
+| Linen Thread | 2 |  | 1 Linen Robes - Red |
+| Linen Wrap | 1 |  | 1 Linen Footwraps |
+| Linen Wrap | 1 |  | 1 Linen Prisoner's Rags |
+| Linen Wrap | 1 |  | 1 Linen Ragged Boots |
+| Linen Wrap | 1 |  | 1 Linen Ragged Cap |
+| Linen Wrap | 2 |  | 1 Linen Ragged Robes |
+| Linen Wrap | 1 |  | 1 Linen Roughspun Tunic |
+| Paper Roll | 2 |  | 1 Ruined Book |
+| Silk Cloth - Black | 2 |  | 1 Emperor's Robes |
+| Silk Cloth - Black | 1 |  | 1 Miraak's Robes |
+| Silk Cloth - Black | 1 |  | 1 Sheogorath's Boots |
+| Silk Cloth - Black | 1 |  | 1 Shrouded Hood |
+| Silk Cloth - Black | 1 |  | 1 Shrouded Robes |
+| Silk Cloth - Black | 1 |  | 1 Shrouded Robes |
+| Silk Cloth - Black | 1 |  | 1 Shrouded Shoes |
+| Silk Cloth - Black | 1 |  | 1 Shrouded Shoes |
+| Silk Cloth - Black | 1 |  | 1 Shrouded Veil |
+| Silk Cloth - Black | 2 |  | 1 Silk Mage Robes - Ornate |
+| Silk Cloth - Black | 1 |  | 1 Silk Nocturnal Hood |
+| Silk Cloth - Black | 1 |  | 1 Silk Nocturnal Robes |
+| Silk Cloth - Blue | 2 |  | 1 Silk Embroidered Raiment - Blue |
+| Silk Cloth - Brown | 1 |  | 1 Archmage's Boots |
+| Silk Cloth - Brown | 2 |  | 1 Archmage's Robes |
+| Silk Cloth - Brown | 1 |  | 1 Miraak's Boots |
+| Silk Cloth - Brown | 1 |  | 1 Miraak's Gloves |
+| Silk Cloth - Brown | 1 |  | 1 Silk Fur-Embellished Robes - Tan |
+| Silk Cloth - Brown | 1 |  | 1 Silk Pleated Boots |
+| Silk Cloth - Brown | 1 |  | 1 Silk Psijic Gloves |
+| Silk Cloth - Green | 1 |  | 1 Silk Fur-Embellished Robes - Green |
+| Silk Cloth - Grey | 1 |  | 1 Silk Cuffed Boots |
+| Silk Cloth - Grey | 1 |  | 1 Silk Mage Boots - Ornate |
+| Silk Cloth - Indigo | 1 |  | 1 Silk Fur-Embellished Robes - Indigo |
+| Silk Cloth - Purple | 1 |  | 1 Sheogorath's Garb |
+| Silk Cloth - Red | 2 |  | 1 Silk Embroidered Raiment - Red |
+| Silk Cloth - Tan | 1 |  | 1 Silk Fur-Lined Boots |
+| Silk Cloth - Tan | 1 |  | 1 Silk Mage Robes - Fine |
+| Silk Cloth - Yellow | 1 |  | 1 Silk Psijic Boots |
+| Silk Cloth - Yellow | 1 |  | 1 Silk Psijic Hood |
+| Silk Cloth - Yellow | 1 |  | 1 Silk Psijic Robes |
+| Silk Thread | 4 |  | 1 Shrouded Hand Wraps |
+| Silk Thread | 4 |  | 1 Shrouded Hand Wraps |
+| Silk Thread | 2 |  | 1 Silk Cloth |
+| Stalhrim | 2 |  | 1 Stalhrim Battleaxe |
+| Stalhrim | 1 |  | 1 Stalhrim Battlestaff |
+| Stalhrim | 1 |  | 1 Stalhrim Greatsword |
+| Stalhrim | 1 |  | 1 Stalhrim Heavy Boots |
+| Stalhrim | 5 |  | 1 Stalhrim Heavy Crossbow |
+| Stalhrim | 3 |  | 1 Stalhrim Heavy Cuirass |
+| Stalhrim | 1 |  | 1 Stalhrim Heavy Helmet |
+| Stalhrim | 1 |  | 1 Stalhrim Light Boots |
+| Stalhrim | 1 |  | 1 Stalhrim Light Bow |
+| Stalhrim | 2 |  | 1 Stalhrim Light Cuirass |
+| Stalhrim | 1 |  | 1 Stalhrim Light Helmet |
+| Stalhrim | 2 |  | 1 Stalhrim Light Shield |
+| Stalhrim | 1 |  | 1 Stalhrim Mace |
+| Stalhrim | 2 |  | 1 Stalhrim Warhammer |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Black |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Brown |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Ornate Black |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Ornate Brown |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Ornate White |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Trimmed Black |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Trimmed Brown |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - Trimmed White |
+| Steel Helmet | 1 |  | 1 Steel Bearskin Hood - White |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Black |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Brown |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Dark Trimmed Black |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Dark Trimmed Brown |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Dark Trimmed White |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Light Trimmed Black |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Light Trimmed Brown |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Light Trimmed White |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Noble Black |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Noble Brown |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Noble White |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Ornate Black |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Ornate Brown |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - Ornate White |
+| Steel Helmet | 1 |  | 1 Steel Wolfskin Hood - White |
+| Tundra Cotton | 6 |  | 1 Floral Head Wreath |
+| Wood | 5 |  | 1 Furniture Workbench |
+| Wood | 4 |  | 1 Spinning Wheel |
+| Wood | 3 |  | 1 Wooden Barrel |
+| Wood | 3 |  | 1 Wooden Chest |
+| Wood | 3 |  | 1 Wooden Common Bed |
+| Wood | 2 |  | 1 Wooden Common Chair |
+| Wood | 3 |  | 1 Wooden Common Table |
+
+
+</div>

@@ -1,7 +1,7 @@
 ---
 title: Spell Research Cheat Sheet
 layout: default
-nav_order: 2
+nav_order: 4
 description: Alchemy, Artifacts, Elixirs, and Spells reference
 ---
 
@@ -161,32 +161,17 @@ Example: Potion with 2 effects, one for 150 seconds at 10 magnitude, one at 150 
 #### Effect View
 Shows archetypes of solutions from potions with specific effects.
 
-<details markdown="block">
-<summary>
-   Expand to view
-</summary>
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrVMyCWzP3t7f2AY?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-</details>
+**[View Effect View Page](https://wiki.wildlandermod.com/12Cheat-Sheets/Effect View/)** - Interactive reference for potion effect solutions
 
 #### Ingredient View
 Shows solutions from dissolving each ingredient.
 
-<details markdown="block">
-<summary>
-   Expand to view
-</summary>
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrd6meWeTmVoOF22?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-</details>
+**[View Ingredient View Page](https://wiki.wildlandermod.com/12Cheat-Sheets/Ingredient View/)** - Interactive reference for ingredient solutions
 
 #### Solutions View
 Shows which ingredients to dissolve for specific solutions.
 
-<details markdown="block">
-<summary>
-   Expand to view
-</summary>
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrhNapShrLS2STIo?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-</details>
+**[View Solutions View Page](https://wiki.wildlandermod.com/12Cheat-Sheets/Solutions-View/)** - Interactive reference for ingredient to solution mapping
 
 ---
 
@@ -307,16 +292,9 @@ To create an elixir of a specific tier with a specific effect, use the listed in
 | Potent | sa Adonai |
 | Concentrated | sa Sila |
 
-<a class="btn btn-pink" href="https://airtable.com/appSjQmrO0wboTsme/shrDZVltN82vu73UY" target="_blank" rel="noopener noreferrer">All Elixirs Spreadsheet <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
 ### Elixirs Database
 
-<details markdown="block">
-<summary>
-   Expand to view
-</summary>
-<iframe class="airtable-embed" src="https://airtable.com/embed/appSjQmrO0wboTsme/shrDZVltN82vu73UY?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-</details>
+**[View Elixirs Database](https://wiki.wildlandermod.com/12Cheat-Sheets/Elixir View/)** - Interactive reference for all 341 elixir recipes organized by effect
 
 ---
 
@@ -327,13 +305,11 @@ Spell research allows you to create spells from discovered archetypes.
 {: .important}
 > **Notes:** Please check the Notes field before reporting bugs. Some spells cannot be created in the current version of Wildlander, others have incorrect spell levels or casting methods.
 
-<a class="btn btn-pink" href="https://airtable.com/appSjQmrO0wboTsme/shrzaq3oVMBSWzPjA" target="_blank" rel="noopener noreferrer">All Recipes Spreadsheet <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
-
-Use the "views" dropdown in the spreadsheet to filter by specific categories.
-
 <details markdown="block">
 <summary>
    Expand to view
 </summary>
-<iframe class="airtable-embed" src="https://airtable.com/embed/appSjQmrO0wboTsme/shrzaq3oVMBSWzPjA?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+**[View Spells & Archetypes Database](https://wiki.wildlandermod.com/12Cheat-Sheets/Spells View/)** - Interactive reference for all 231 spells organized by school and level
+
 </details>

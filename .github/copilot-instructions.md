@@ -22,10 +22,21 @@ has_toc: true             # Optional - adds auto-generated table of contents
 ```
 
 ### Link Naming Convention (CRITICAL)
-**Use full wiki URLs with trailing slashes, NEVER relative paths or `.md` extensions:**
-- ✅ `[Text](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)`
-- ❌ `[Text](Needs.md)` or `[Text](#section)` for cross-page linking
-- **Exception:** Only internal page anchors use `#section-name` format
+**ALL links must use FULL ABSOLUTE wiki URLs with trailing slashes. NEVER use relative paths, shorthand paths, or `.md` extensions:**
+
+**REQUIRED FORMAT:**
+- Display text must match the target path exactly (without leading/trailing slashes)
+- Href must be the complete absolute wiki URL: `https://wiki.wildlandermod.com/path/to/page/`
+- Example: `[10-Crafting/CraftingSpreadsheet](https://wiki.wildlandermod.com/10-Crafting/CraftingSpreadsheet/)`
+
+**FORBIDDEN FORMATS:**
+- ❌ `[Text](Needs.md)` - relative paths with file extensions
+- ❌ `[Text](/10-Crafting/Needs)` - root-relative paths
+- ❌ `[Text](Needs)` - shorthand paths
+- ❌ `[Text](#section)` - internal anchors for cross-page linking
+- ❌ `[Display Text](https://wiki.wildlandermod.com/path/)` where Display Text ≠ path
+
+**Exception:** Only internal page anchors within the same page use `#section-name` format (e.g., `[Jump to Section](#section-name)`)
 
 ## Content Patterns & Styling
 

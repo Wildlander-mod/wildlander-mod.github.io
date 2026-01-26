@@ -11,6 +11,8 @@ Reference guides and data tables for common lookups while playing.
 
 ## Alchemy & Potions
 
+- [Alchemy Effects by Ingredient](https://wiki.wildlandermod.com/12Cheat-Sheets/Alchemy-Effects-by-Ingredient/) - 712 collected ingredients with all their effects, organized by ingredient for quick reference
+
 - [Alchemy Ingredient Effects](https://wiki.wildlandermod.com/12Cheat-Sheets/Alchemy-Ingredient-Effect-List.md) - Interactive ingredient effect database
 
 - [Alchemy Recipes & Power Level Guide](https://wiki.wildlandermod.com/12Cheat-Sheets/Alchemy-Recipes.md) - Super potions, resist potions, and poisons recipes

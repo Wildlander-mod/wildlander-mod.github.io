@@ -1,0 +1,344 @@
+| Elixir Name | Effect | Required Solutions | Magnitude | Duration | Strength |
+|:---|:---|:---|:---:|:---:|:---:|
+| Void Salts |  | Pelleni Ayammis sa Baune,Agea Arden sa Baune,Wel sa Belle sa Baune |  |  |  |
+| Salt |  | Relleis sa Goria,Bal sa Goria |  |  |  |
+| Glow Dust |  | Malatu Magicka sa Baune,Volen Magicka sa Baune,Agea sa Baune,Latta sa Baune |  |  |  |
+| Frost Salts |  | Pelleni Ayammis sa Baune,Agea Arden sa Baune,Mafre sa Baune |  |  |  |
+| Fire Salts |  | Pelleni Ayammis sa Baune,Molag sa Baune,Agea Arden sa Baune |  |  |  |
+| Paper Roll I  |  | Wood,Betayammis sa Haelia |  |  |  |
+| Paper Roll II |  | Wood,Mer Garlas sa Haelia |  |  |  |
+| Paper Roll III |  | Wood,Mora sa Haelia |  |  |  |
+| Inkwell I |  | charcoal,Mora sa Goria |  |  |  |
+| Inkwell II |  | charcoal,Betayammis sa Goria |  |  |  |
+| Inkwell III |  | iron ore,Mora sa Goria |  |  |  |
+| Mild Elixir | Cure Disease   | Mer Ayammis,Altadoon ry Bet,Ayammis | 4.00 | 0 | Mild |
+| Strong Elixir | Cure Disease   | Mer Ayammis,Altadoon ry Bet,Ayammis | 8.00 | 0 | Strong |
+| Concentrated Elixir | Cure Disease   | Mer Ayammis,Altadoon ry Bet,Ayammis | 32.00 | 0 | Concentrated |
+| Weak Elixir | Cure Disease   | Mer Ayammis,Altadoon ry Bet,Ayammis | 2.00 | 0 | Weak |
+| Potent Elixir | Cure Disease   | Mer Ayammis,Altadoon ry Bet,Ayammis | 16.00 | 0 | Potent |
+| Dilute Elixir | Cure Disease   | Mer Ayammis,Altadoon ry Bet,Ayammis | 1.00 | 0 | Dilute |
+| Strong Elixir | Damage Health   | Karan ry Ayammis,Betaltadoon,Betayammis | 4.00 | 0 | Strong |
+| Concentrated Elixir | Damage Health   | Karan ry Ayammis,Betaltadoon,Betayammis | 16.00 | 0 | Concentrated |
+| Potent Elixir | Damage Health   | Karan ry Ayammis,Betaltadoon,Betayammis | 8.00 | 0 | Potent |
+| Weak Elixir | Damage Health   | Karan ry Ayammis,Betaltadoon,Betayammis | 1.00 | 0 | Weak |
+| Mild Elixir | Damage Health   | Karan ry Ayammis,Betaltadoon,Betayammis | 2.00 | 0 | Mild |
+| Dilute Elixir | Damage Health   | Karan ry Ayammis,Betaltadoon,Betayammis | 0.50 | 0 | Dilute |
+| Weak Elixir | Damage Magicka   | Agea,Betaltadoon,Betayammis | 1.50 | 0 | Weak |
+| Strong Elixir | Damage Magicka   | Agea,Betaltadoon,Betayammis | 6.00 | 0 | Strong |
+| Dilute Elixir | Damage Magicka   | Agea,Betaltadoon,Betayammis | 0.75 | 0 | Dilute |
+| Mild Elixir | Damage Magicka   | Agea,Betaltadoon,Betayammis | 3.00 | 0 | Mild |
+| Potent Elixir | Damage Magicka   | Agea,Betaltadoon,Betayammis | 12.00 | 0 | Potent |
+| Concentrated Elixir | Damage Magicka   | Agea,Betaltadoon,Betayammis | 24.00 | 0 | Concentrated |
+| Dilute Elixir | Damage Magicka Regen   | Agea,Pellenni Ayammis,Betayammis | 100.00 | 1 | Dilute |
+| Concentrated Elixir | Damage Magicka Regen   | Agea,Pellenni Ayammis,Betayammis | 100.00 | 40 | Concentrated |
+| Potent Elixir | Damage Magicka Regen   | Agea,Pellenni Ayammis,Betayammis | 100.00 | 20 | Potent |
+| Strong Elixir | Damage Magicka Regen   | Agea,Pellenni Ayammis,Betayammis | 100.00 | 10 | Strong |
+| Mild Elixir | Damage Magicka Regen   | Agea,Pellenni Ayammis,Betayammis | 100.00 | 5 | Mild |
+| Weak Elixir | Damage Magicka Regen   | Agea,Pellenni Ayammis,Betayammis | 100.00 | 3 | Weak |
+| Weak Elixir | Damage Maximum Health   | Karan ry Ayammis,Betayammis,Rellers ry Molag | 1.30 | 7 | Weak |
+| Dilute Elixir | Damage Maximum Health   | Karan ry Ayammis,Betayammis,Rellers ry Molag | 0.90 | 4 | Dilute |
+| Mild Elixir | Damage Maximum Health   | Karan ry Ayammis,Betayammis,Rellers ry Molag | 2.00 | 10 | Mild |
+| Potent Elixir | Damage Maximum Health   | Karan ry Ayammis,Betayammis,Rellers ry Molag | 4.50 | 23 | Potent |
+| Strong Elixir | Damage Maximum Health   | Karan ry Ayammis,Betayammis,Rellers ry Molag | 3.00 | 15 | Strong |
+| Concentrated Elixir | Damage Maximum Health   | Karan ry Ayammis,Betayammis,Rellers ry Molag | 6.75 | 34 | Concentrated |
+| Dilute Elixir | Damage Maximum Magicka   | Agea,Betayammis,Rellers ry Molag | 0.90 | 4 | Dilute |
+| Mild Elixir | Damage Maximum Magicka   | Agea,Betayammis,Rellers ry Molag | 2.00 | 10 | Mild |
+| Potent Elixir | Damage Maximum Magicka   | Agea,Betayammis,Rellers ry Molag | 4.50 | 23 | Potent |
+| Concentrated Elixir | Damage Maximum Magicka   | Agea,Betayammis,Rellers ry Molag | 6.80 | 34 | Concentrated |
+| Strong Elixir | Damage Maximum Magicka   | Agea,Betayammis,Rellers ry Molag | 3.00 | 15 | Strong |
+| Weak Elixir | Damage Maximum Magicka   | Agea,Betayammis,Rellers ry Molag | 1.30 | 7 | Weak |
+| Strong Elixir | Damage Stamina   | Ghartok,Betaltadoon,Betayammis | 6.00 | 0 | Strong |
+| Dilute Elixir | Damage Stamina   | Ghartok,Betaltadoon,Betayammis | 0.80 | 0 | Dilute |
+| Weak Elixir | Damage Stamina   | Ghartok,Betaltadoon,Betayammis | 1.50 | 0 | Weak |
+| Concentrated Elixir | Damage Stamina   | Ghartok,Betaltadoon,Betayammis | 24.00 | 0 | Concentrated |
+| Potent Elixir | Damage Stamina   | Ghartok,Betaltadoon,Betayammis | 12.00 | 0 | Potent |
+| Mild Elixir | Damage Stamina   | Ghartok,Betaltadoon,Betayammis | 3.00 | 0 | Mild |
+| Strong Elixir | Damage Stamina Regen   | Ghartok,Pellenni Ayammis,Betayammis | 100.00 | 10 | Strong |
+| Concentrated Elixir | Damage Stamina Regen   | Ghartok,Pellenni Ayammis,Betayammis | 100.00 | 40 | Concentrated |
+| Potent Elixir | Damage Stamina Regen   | Ghartok,Pellenni Ayammis,Betayammis | 100.00 | 20 | Potent |
+| Weak Elixir | Damage Stamina Regen   | Ghartok,Pellenni Ayammis,Betayammis | 100.00 | 3 | Weak |
+| Dilute Elixir | Damage Stamina Regen   | Ghartok,Pellenni Ayammis,Betayammis | 100.00 | 1 | Dilute |
+| Mild Elixir | Damage Stamina Regen   | Ghartok,Pellenni Ayammis,Betayammis | 100.00 | 5 | Mild |
+| Mild Elixir | Fear  | Betayammis,Altadoon ry Bet,Ayammis | 1.00 | 30 | Mild |
+| Potent Elixir | Fear  | Betayammis,Altadoon ry Bet,Ayammis | 2.30 | 68 | Potent |
+| Strong Elixir | Fear  | Betayammis,Altadoon ry Bet,Ayammis | 1.50 | 30 | Strong |
+| Weak Elixir | Fear  | Betayammis,Altadoon ry Bet,Ayammis | 0.70 | 20 | Weak |
+| Dilute Elixir | Fear  | Betayammis,Altadoon ry Bet,Ayammis | 0.40 | 13 | Dilute |
+| Concentrated Elixir | Fear  | Betayammis,Altadoon ry Bet,Ayammis | 3.40 | 68 | Concentrated |
+| Concentrated Elixir | Fortify Alteration   | Mer Ayammis,Malatu Magicka,Agea | 13.50 | 203 | Concentrated |
+| Dilute Elixir | Fortify Alteration   | Mer Ayammis,Malatu Magicka,Agea | 1.80 | 27 | Dilute |
+| Mild Elixir | Fortify Alteration   | Mer Ayammis,Malatu Magicka,Agea | 4.00 | 60 | Mild |
+| Potent Elixir | Fortify Alteration   | Mer Ayammis,Malatu Magicka,Agea | 9.00 | 135 | Potent |
+| Strong Elixir | Fortify Alteration   | Mer Ayammis,Malatu Magicka,Agea | 6.00 | 90 | Strong |
+| Weak Elixir | Fortify Alteration   | Mer Ayammis,Malatu Magicka,Agea | 2.70 | 40 | Weak |
+| Dilute Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 0.90 | 27 | Dilute |
+| Weak Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 1.30 | 40 | Weak |
+| Strong Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 3.00 | 90 | Strong |
+| Mild Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 2.00 | 60 | Mild |
+| Potent Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 4.50 | 135 | Potent |
+| Concentrated Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 6.80 | 203 | Concentrated |
+| Dilute Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 0.90 | 27 | Dilute |
+| Mild Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 2.00 | 60 | Mild |
+| Potent Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 4.50 | 135 | Potent |
+| Weak Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 1.30 | 40 | Weak |
+| Concentrated Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 6.80 | 203 | Concentrated |
+| Strong Elixir | Fortify Armor   | Mer Ayammis,Karan,Mer Garlas | 3.00 | 90 | Strong |
+| Dilute Elixir | Fortify Barter   | Ayammis,Wel,Mer Ayammis | 0.40 | 13 | Dilute |
+| Concentrated Elixir | Fortify Barter   | Ayammis,Wel,Mer Ayammis | 3.40 | 101 | Concentrated |
+| Strong Elixir | Fortify Barter   | Ayammis,Wel,Mer Ayammis | 1.50 | 45 | Strong |
+| Potent Elixir | Fortify Barter   | Ayammis,Wel,Mer Ayammis | 2.30 | 68 | Potent |
+| Mild Elixir | Fortify Barter   | Ayammis,Wel,Mer Ayammis | 1.00 | 30 | Mild |
+| Weak Elixir | Fortify Barter   | Ayammis,Wel,Mer Ayammis | 0.70 | 20 | Weak |
+| Strong Elixir | Fortify Block   | Mer Ayammis,Arden,Mer Garlas | 6.00 | 90 | Strong |
+| Weak Elixir | Fortify Block   | Mer Ayammis,Arden,Mer Garlas | 2.70 | 40 | Weak |
+| Concentrated Elixir | Fortify Block   | Mer Ayammis,Arden,Mer Garlas | 13.50 | 203 | Concentrated |
+| Potent Elixir | Fortify Block   | Mer Ayammis,Arden,Mer Garlas | 9.00 | 135 | Potent |
+| Dilute Elixir | Fortify Block   | Mer Ayammis,Arden,Mer Garlas | 1.80 | 27 | Dilute |
+| Mild Elixir | Fortify Block   | Mer Ayammis,Arden,Mer Garlas | 4.00 | 60 | Mild |
+| Strong Elixir | Fortify Carry Weight   | Ghartok,Agea Arden,Mer Garlas | 6.00 | 450 | Strong |
+| Potent Elixir | Fortify Carry Weight   | Ghartok,Agea Arden,Mer Garlas | 9.00 | 675 | Potent |
+| Mild Elixir | Fortify Carry Weight   | Ghartok,Agea Arden,Mer Garlas | 4.00 | 300 | Mild |
+| Weak Elixir | Fortify Carry Weight   | Ghartok,Agea Arden,Mer Garlas | 2.70 | 200 | Weak |
+| Dilute Elixir | Fortify Carry Weight   | Ghartok,Agea Arden,Mer Garlas | 1.80 | 133 | Dilute |
+| Concentrated Elixir | Fortify Carry Weight   | Ghartok,Agea Arden,Mer Garlas | 13.50 | 1013 | Concentrated |
+| Potent Elixir | Fortify Conjuration   | Mer Ayammis,Malatu Magicka,Agea | 11.30 | 135 | Potent |
+| Weak Elixir | Fortify Conjuration   | Mer Ayammis,Malatu Magicka,Agea | 3.30 | 40 | Weak |
+| Strong Elixir | Fortify Conjuration   | Mer Ayammis,Malatu Magicka,Agea | 7.50 | 90 | Strong |
+| Dilute Elixir | Fortify Conjuration   | Mer Ayammis,Malatu Magicka,Agea | 2.20 | 27 | Dilute |
+| Mild Elixir | Fortify Conjuration   | Mer Ayammis,Malatu Magicka,Agea | 5.00 | 60 | Mild |
+| Concentrated Elixir | Fortify Conjuration   | Mer Ayammis,Malatu Magicka,Agea | 16.90 | 203 | Concentrated |
+| Dilute Elixir | Fortify Destruction   | Mer Ayammis,Malatu Magicka,Agea | 2.20 | 27 | Dilute |
+| Mild Elixir | Fortify Destruction   | Mer Ayammis,Malatu Magicka,Agea | 5.00 | 60 | Mild |
+| Concentrated Elixir | Fortify Destruction   | Mer Ayammis,Malatu Magicka,Agea | 16.90 | 203 | Concentrated |
+| Weak Elixir | Fortify Destruction   | Mer Ayammis,Malatu Magicka,Agea | 3.30 | 40 | Weak |
+| Strong Elixir | Fortify Destruction   | Mer Ayammis,Malatu Magicka,Agea | 7.50 | 90 | Strong |
+| Potent Elixir | Fortify Destruction   | Mer Ayammis,Malatu Magicka,Agea | 11.30 | 135 | Potent |
+| Potent Elixir | Fortify Enchanting   | Mer Ayammis,Malatu Magicka,Karan | 2.30 | 68 | Potent |
+| Weak Elixir | Fortify Enchanting   | Mer Ayammis,Malatu Magicka,Karan | 0.70 | 20 | Weak |
+| Dilute Elixir | Fortify Enchanting   | Mer Ayammis,Malatu Magicka,Karan | 0.40 | 13 | Dilute |
+| Strong Elixir | Fortify Enchanting   | Mer Ayammis,Malatu Magicka,Karan | 1.50 | 45 | Strong |
+| Mild Elixir | Fortify Enchanting   | Mer Ayammis,Malatu Magicka,Karan | 1.00 | 30 | Mild |
+| Concentrated Elixir | Fortify Enchanting   | Mer Ayammis,Malatu Magicka,Karan | 3.40 | 101 | Concentrated |
+| Weak Elixir | Fortify Health   | Mora,Karan ry Ayammis,Agea Arden | 2.70 | 40 | Weak |
+| Strong Elixir | Fortify Health   | Mora,Karan ry Ayammis,Agea Arden | 6.00 | 90 | Strong |
+| Mild Elixir | Fortify Health   | Mora,Karan ry Ayammis,Agea Arden | 4.00 | 60 | Mild |
+| Potent Elixir | Fortify Health   | Mora,Karan ry Ayammis,Agea Arden | 9.00 | 135 | Potent |
+| Dilute Elixir | Fortify Health   | Mora,Karan ry Ayammis,Agea Arden | 1.80 | 27 | Dilute |
+| Concentrated Elixir | Fortify Health   | Mora,Karan ry Ayammis,Agea Arden | 13.50 | 203 | Concentrated |
+| Dilute Elixir | Fortify Illusion   | Mer Ayammis,Malatu Magicka,Agea | 1.80 | 27 | Dilute |
+| Potent Elixir | Fortify Illusion   | Mer Ayammis,Malatu Magicka,Agea | 9.00 | 135 | Potent |
+| Concentrated Elixir | Fortify Illusion   | Mer Ayammis,Malatu Magicka,Agea | 13.50 | 203 | Concentrated |
+| Weak Elixir | Fortify Illusion   | Mer Ayammis,Malatu Magicka,Agea | 2.70 | 40 | Weak |
+| Strong Elixir | Fortify Illusion   | Mer Ayammis,Malatu Magicka,Agea | 6.00 | 90 | Strong |
+| Mild Elixir | Fortify Illusion   | Mer Ayammis,Malatu Magicka,Agea | 4.00 | 60 | Mild |
+| Concentrated Elixir | Fortify Lockpicking   | Mer Garlas,Mallari,Mer Ayammis | 6.80 | 101 | Concentrated |
+| Strong Elixir | Fortify Lockpicking   | Mer Garlas,Mallari,Mer Ayammis | 3.00 | 45 | Strong |
+| Weak Elixir | Fortify Lockpicking   | Mer Garlas,Mallari,Mer Ayammis | 1.30 | 20 | Weak |
+| Mild Elixir | Fortify Lockpicking   | Mer Garlas,Mallari,Mer Ayammis | 2.00 | 30 | Mild |
+| Dilute Elixir | Fortify Lockpicking   | Mer Garlas,Mallari,Mer Ayammis | 0.90 | 13 | Dilute |
+| Potent Elixir | Fortify Lockpicking   | Mer Garlas,Mallari,Mer Ayammis | 4.50 | 68 | Potent |
+| Mild Elixir | Fortify Magicka   | Mora,Agea,Agea Arden | 4.00 | 60 | Mild |
+| Strong Elixir | Fortify Magicka   | Mora,Agea,Agea Arden | 6.00 | 90 | Strong |
+| Weak Elixir | Fortify Magicka   | Mora,Agea,Agea Arden | 2.70 | 40 | Weak |
+| Potent Elixir | Fortify Magicka   | Mora,Agea,Agea Arden | 9.00 | 135 | Potent |
+| Dilute Elixir | Fortify Magicka   | Mora,Agea,Agea Arden | 1.80 | 27 | Dilute |
+| Concentrated Elixir | Fortify Magicka   | Mora,Agea,Agea Arden | 13.50 | 203 | Concentrated |
+| Mild Elixir | Fortify Marksman   | Mer Garlas,Altadoon,Mer Ayammis | 4.00 | 60 | Mild |
+| Strong Elixir | Fortify Marksman   | Mer Garlas,Altadoon,Mer Ayammis | 6.00 | 90 | Strong |
+| Potent Elixir | Fortify Marksman   | Mer Garlas,Altadoon,Mer Ayammis | 9.00 | 135 | Potent |
+| Weak Elixir | Fortify Marksman   | Mer Garlas,Altadoon,Mer Ayammis | 2.70 | 40 | Weak |
+| Concentrated Elixir | Fortify Marksman   | Mer Garlas,Altadoon,Mer Ayammis | 13.50 | 203 | Concentrated |
+| Dilute Elixir | Fortify Marksman   | Mer Garlas,Altadoon,Mer Ayammis | 1.80 | 27 | Dilute |
+| Potent Elixir | Fortify One-handed   | Mer Ayammis,Altadoon,Mer Garlas | 9.00 | 135 | Potent |
+| Strong Elixir | Fortify One-handed   | Mer Ayammis,Altadoon,Mer Garlas | 6.00 | 90 | Strong |
+| Mild Elixir | Fortify One-handed   | Mer Ayammis,Altadoon,Mer Garlas | 4.00 | 60 | Mild |
+| Dilute Elixir | Fortify One-handed   | Mer Ayammis,Altadoon,Mer Garlas | 1.80 | 27 | Dilute |
+| Concentrated Elixir | Fortify One-handed   | Mer Ayammis,Altadoon,Mer Garlas | 13.50 | 203 | Concentrated |
+| Weak Elixir | Fortify One-handed   | Mer Ayammis,Altadoon,Mer Garlas | 2.70 | 40 | Weak |
+| Dilute Elixir | Fortify Pickpocket   | Mer Garlas,Wel,Mer Ayammis | 1.80 | 27 | Dilute |
+| Concentrated Elixir | Fortify Pickpocket   | Mer Garlas,Wel,Mer Ayammis | 13.50 | 203 | Concentrated |
+| Potent Elixir | Fortify Pickpocket   | Mer Garlas,Wel,Mer Ayammis | 9.00 | 135 | Potent |
+| Mild Elixir | Fortify Pickpocket   | Mer Garlas,Wel,Mer Ayammis | 4.00 | 60 | Mild |
+| Weak Elixir | Fortify Pickpocket   | Mer Garlas,Wel,Mer Ayammis | 2.70 | 40 | Weak |
+| Strong Elixir | Fortify Pickpocket   | Mer Garlas,Wel,Mer Ayammis | 6.00 | 90 | Strong |
+| Weak Elixir | Fortify Restoration   | Mer Ayammis,Malatu Magicka,Agea | 2.70 | 40 | Weak |
+| Mild Elixir | Fortify Restoration   | Mer Ayammis,Malatu Magicka,Agea | 4.00 | 60 | Mild |
+| Dilute Elixir | Fortify Restoration   | Mer Ayammis,Malatu Magicka,Agea | 1.80 | 27 | Dilute |
+| Concentrated Elixir | Fortify Restoration   | Mer Ayammis,Malatu Magicka,Agea | 13.50 | 203 | Concentrated |
+| Strong Elixir | Fortify Restoration   | Mer Ayammis,Malatu Magicka,Agea | 6.00 | 90 | Strong |
+| Potent Elixir | Fortify Restoration   | Mer Ayammis,Malatu Magicka,Agea | 9.00 | 135 | Potent |
+| Concentrated Elixir | Fortify Smithing   | Mer Garlas,Mallari,Mer Ayammis | 13.50 | 101 | Concentrated |
+| Dilute Elixir | Fortify Smithing   | Mer Garlas,Mallari,Mer Ayammis | 1.80 | 13 | Dilute |
+| Strong Elixir | Fortify Smithing   | Mer Garlas,Mallari,Mer Ayammis | 6.00 | 45 | Strong |
+| Weak Elixir | Fortify Smithing   | Mer Garlas,Mallari,Mer Ayammis | 2.70 | 20 | Weak |
+| Potent Elixir | Fortify Smithing   | Mer Garlas,Mallari,Mer Ayammis | 9.00 | 68 | Potent |
+| Mild Elixir | Fortify Smithing   | Mer Garlas,Mallari,Mer Ayammis | 4.00 | 30 | Mild |
+| Potent Elixir | Fortify Sneak   | Mer Garlas,Wel,Mer Ayammis | 9.00 | 135 | Potent |
+| Concentrated Elixir | Fortify Sneak   | Mer Garlas,Wel,Mer Ayammis | 13.50 | 203 | Concentrated |
+| Weak Elixir | Fortify Sneak   | Mer Garlas,Wel,Mer Ayammis | 2.70 | 40 | Weak |
+| Strong Elixir | Fortify Sneak   | Mer Garlas,Wel,Mer Ayammis | 6.00 | 90 | Strong |
+| Dilute Elixir | Fortify Sneak   | Mer Garlas,Wel,Mer Ayammis | 1.80 | 27 | Dilute |
+| Mild Elixir | Fortify Sneak   | Mer Garlas,Wel,Mer Ayammis | 4.00 | 60 | Mild |
+| Dilute Elixir | Fortify Stamina   | Mora,Ghartok,Agea Arden | 1.80 | 27 | Dilute |
+| Concentrated Elixir | Fortify Stamina   | Mora,Ghartok,Agea Arden | 13.50 | 203 | Concentrated |
+| Weak Elixir | Fortify Stamina   | Mora,Ghartok,Agea Arden | 2.70 | 40 | Weak |
+| Potent Elixir | Fortify Stamina   | Mora,Ghartok,Agea Arden | 9.00 | 135 | Potent |
+| Mild Elixir | Fortify Stamina   | Mora,Ghartok,Agea Arden | 4.00 | 60 | Mild |
+| Strong Elixir | Fortify Stamina   | Mora,Ghartok,Agea Arden | 6.00 | 90 | Strong |
+| Potent Elixir | Fortify Two-handed   | Mer Ayammis,Altadoon,Mer Garlas | 9.00 | 135 | Potent |
+| Strong Elixir | Fortify Two-handed   | Mer Ayammis,Altadoon,Mer Garlas | 6.00 | 90 | Strong |
+| Mild Elixir | Fortify Two-handed   | Mer Ayammis,Altadoon,Mer Garlas | 4.00 | 60 | Mild |
+| Dilute Elixir | Fortify Two-handed   | Mer Ayammis,Altadoon,Mer Garlas | 1.80 | 27 | Dilute |
+| Weak Elixir | Fortify Two-handed   | Mer Ayammis,Altadoon,Mer Garlas | 2.70 | 40 | Weak |
+| Concentrated Elixir | Fortify Two-handed   | Mer Ayammis,Altadoon,Mer Garlas | 13.50 | 203 | Concentrated |
+| Strong Elixir | Frenzy  | Betayammis,Betaltadoon,Ayammis | 1.50 | 15 | Strong |
+| Dilute Elixir | Frenzy  | Betayammis,Betaltadoon,Ayammis | 0.40 | 4 | Dilute |
+| Mild Elixir | Frenzy  | Betayammis,Betaltadoon,Ayammis | 1.00 | 10 | Mild |
+| Potent Elixir | Frenzy  | Betayammis,Betaltadoon,Ayammis | 2.30 | 23 | Potent |
+| Concentrated Elixir | Frenzy  | Betayammis,Betaltadoon,Ayammis | 3.40 | 34 | Concentrated |
+| Weak Elixir | Frenzy  | Betayammis,Betaltadoon,Ayammis | 0.70 | 7 | Weak |
+| Concentrated Elixir | Invisibility  | Mer Garlas,Agea Arden,Latta | 0.00 | 32 | Concentrated |
+| Weak Elixir | Invisibility  | Mer Garlas,Agea Arden,Latta | 0.00 | 2 | Weak |
+| Dilute Elixir | Invisibility  | Mer Garlas,Agea Arden,Latta | 0.00 | 1 | Dilute |
+| Strong Elixir | Invisibility  | Mer Garlas,Agea Arden,Latta | 0.00 | 8 | Strong |
+| Potent Elixir | Invisibility  | Mer Garlas,Agea Arden,Latta | 0.00 | 16 | Potent |
+| Mild Elixir | Invisibility  | Mer Garlas,Agea Arden,Latta | 0.00 | 4 | Mild |
+| Dilute Elixir | Lingering Damage Health   | Karan ry Ayammis,Betayammis,Altadoon ry Bet | 0.40 | 4 | Dilute |
+| Concentrated Elixir | Lingering Damage Health   | Karan ry Ayammis,Betayammis,Altadoon ry Bet | 3.40 | 34 | Concentrated |
+| Potent Elixir | Lingering Damage Health   | Karan ry Ayammis,Betayammis,Altadoon ry Bet | 2.25 | 23 | Potent |
+| Strong Elixir | Lingering Damage Health   | Karan ry Ayammis,Betayammis,Altadoon ry Bet | 1.50 | 15 | Strong |
+| Mild Elixir | Lingering Damage Health   | Karan ry Ayammis,Betayammis,Altadoon ry Bet | 1.00 | 10 | Mild |
+| Weak Elixir | Lingering Damage Health   | Karan ry Ayammis,Betayammis,Altadoon ry Bet | 0.70 | 7 | Weak |
+| Mild Elixir | Lingering Damage Magicka   | Agea,Altadoon ry Bet,Betayammis | 1.00 | 10 | Mild |
+| Concentrated Elixir | Lingering Damage Magicka   | Agea,Altadoon ry Bet,Betayammis | 3.40 | 34 | Concentrated |
+| Dilute Elixir | Lingering Damage Magicka   | Agea,Altadoon ry Bet,Betayammis | 0.40 | 4 | Dilute |
+| Strong Elixir | Lingering Damage Magicka   | Agea,Altadoon ry Bet,Betayammis | 1.50 | 15 | Strong |
+| Potent Elixir | Lingering Damage Magicka   | Agea,Altadoon ry Bet,Betayammis | 2.25 | 23 | Potent |
+| Weak Elixir | Lingering Damage Magicka   | Agea,Altadoon ry Bet,Betayammis | 0.70 | 7 | Weak |
+| Weak Elixir | Lingering Damage Stamina   | Ghartok,Altadoon ry Bet,Betayammis | 0.70 | 7 | Weak |
+| Potent Elixir | Lingering Damage Stamina   | Ghartok,Altadoon ry Bet,Betayammis | 2.25 | 23 | Potent |
+| Concentrated Elixir | Lingering Damage Stamina   | Ghartok,Altadoon ry Bet,Betayammis | 3.40 | 34 | Concentrated |
+| Strong Elixir | Lingering Damage Stamina   | Ghartok,Altadoon ry Bet,Betayammis | 1.50 | 15 | Strong |
+| Mild Elixir | Lingering Damage Stamina   | Ghartok,Altadoon ry Bet,Betayammis | 1.00 | 10 | Mild |
+| Dilute Elixir | Lingering Damage Stamina   | Ghartok,Altadoon ry Bet,Betayammis | 0.40 | 4 | Dilute |
+| Mild Elixir | Paralysis  | Mer Garlas,Betaltadoon,Malatu Magicka | 0.00 | 4 | Mild |
+| Potent Elixir | Paralysis  | Mer Garlas,Betaltadoon,Malatu Magicka | 0.00 | 16 | Potent |
+| Weak Elixir | Paralysis  | Mer Garlas,Betaltadoon,Malatu Magicka | 0.00 | 2 | Weak |
+| Concentrated Elixir | Paralysis  | Mer Garlas,Betaltadoon,Malatu Magicka | 0.00 | 32 | Concentrated |
+| Dilute Elixir | Paralysis  | Mer Garlas,Betaltadoon,Malatu Magicka | 0.00 | 1 | Dilute |
+| Strong Elixir | Paralysis  | Mer Garlas,Betaltadoon,Malatu Magicka | 0.00 | 8 | Strong |
+| Concentrated Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 6.80 | 34 | Concentrated |
+| Mild Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 2.00 | 10 | Mild |
+| Weak Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 1.30 | 7 | Weak |
+| Dilute Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 0.90 | 4 | Dilute |
+| Strong Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 3.00 | 15 | Strong |
+| Potent Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 4.50 | 23 | Potent |
+| Dilute Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 2.20 | 133 | Dilute |
+| Strong Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 7.50 | 450 | Strong |
+| Mild Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 5.00 | 300 | Mild |
+| Weak Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 3.30 | 200 | Weak |
+| Concentrated Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 16.90 | 1013 | Concentrated |
+| Potent Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 11.30 | 675 | Potent |
+| Dilute Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 2.20 | 133 | Dilute |
+| Strong Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 7.50 | 450 | Strong |
+| Potent Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 11.30 | 675 | Potent |
+| Weak Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 3.30 | 200 | Weak |
+| Concentrated Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 16.90 | 1013 | Concentrated |
+| Mild Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 5.00 | 300 | Mild |
+| Weak Elixir | Regenerate Stamina   | Mer Garlas,Ghartok,Agea Arden | 3.30 | 200 | Weak |
+| Strong Elixir | Regenerate Stamina   | Mer Garlas,Ghartok,Agea Arden | 7.50 | 450 | Strong |
+| Mild Elixir | Regenerate Stamina   | Mer Garlas,Ghartok,Agea Arden | 5.00 | 300 | Mild |
+| Dilute Elixir | Regenerate Stamina   | Mer Garlas,Ghartok,Agea Arden | 2.20 | 133 | Dilute |
+| Potent Elixir | Regenerate Stamina   | Mer Garlas,Ghartok,Agea Arden | 11.30 | 675 | Potent |
+| Concentrated Elixir | Regenerate Stamina   | Mer Garlas,Ghartok,Agea Arden | 16.90 | 1013 | Concentrated |
+| Mild Elixir | Resist Fire   | Mer Garlas,Molag,Agea Arden | 3.00 | 60 | Mild |
+| Potent Elixir | Resist Fire   | Mer Garlas,Molag,Agea Arden | 6.80 | 135 | Potent |
+| Dilute Elixir | Resist Fire   | Mer Garlas,Molag,Agea Arden | 1.30 | 27 | Dilute |
+| Concentrated Elixir | Resist Fire   | Mer Garlas,Molag,Agea Arden | 10.10 | 203 | Concentrated |
+| Weak Elixir | Resist Fire   | Mer Garlas,Molag,Agea Arden | 2.00 | 40 | Weak |
+| Strong Elixir | Resist Fire   | Mer Garlas,Molag,Agea Arden | 4.50 | 90 | Strong |
+| Mild Elixir | Resist Frost   | Agea Arden,Mafre,Mer Garlas | 3.00 | 60 | Mild |
+| Strong Elixir | Resist Frost   | Agea Arden,Mafre,Mer Garlas | 4.50 | 90 | Strong |
+| Potent Elixir | Resist Frost   | Agea Arden,Mafre,Mer Garlas | 6.80 | 135 | Potent |
+| Dilute Elixir | Resist Frost   | Agea Arden,Mafre,Mer Garlas | 1.30 | 27 | Dilute |
+| Weak Elixir | Resist Frost   | Agea Arden,Mafre,Mer Garlas | 2.00 | 40 | Weak |
+| Concentrated Elixir | Resist Frost   | Agea Arden,Mafre,Mer Garlas | 10.10 | 203 | Concentrated |
+| Dilute Elixir | Resist Magic   | Agea Arden,Malatu Magicka,Mer Garlas | 0.40 | 27 | Dilute |
+| Strong Elixir | Resist Magic   | Agea Arden,Malatu Magicka,Mer Garlas | 1.50 | 90 | Strong |
+| Potent Elixir | Resist Magic   | Agea Arden,Malatu Magicka,Mer Garlas | 2.30 | 135 | Potent |
+| Mild Elixir | Resist Magic   | Agea Arden,Malatu Magicka,Mer Garlas | 1.00 | 60 | Mild |
+| Weak Elixir | Resist Magic   | Agea Arden,Malatu Magicka,Mer Garlas | 0.70 | 40 | Weak |
+| Concentrated Elixir | Resist Magic   | Agea Arden,Malatu Magicka,Mer Garlas | 3.40 | 203 | Concentrated |
+| Dilute Elixir | Resist Poison   | Agea Arden,Betaltadoon,Mer Garlas | 1.80 | 27 | Dilute |
+| Potent Elixir | Resist Poison   | Agea Arden,Betaltadoon,Mer Garlas | 9.00 | 135 | Potent |
+| Mild Elixir | Resist Poison   | Agea Arden,Betaltadoon,Mer Garlas | 4.00 | 60 | Mild |
+| Weak Elixir | Resist Poison   | Agea Arden,Betaltadoon,Mer Garlas | 2.70 | 40 | Weak |
+| Concentrated Elixir | Resist Poison   | Agea Arden,Betaltadoon,Mer Garlas | 13.50 | 203 | Concentrated |
+| Strong Elixir | Resist Poison   | Agea Arden,Betaltadoon,Mer Garlas | 6.00 | 90 | Strong |
+| Dilute Elixir | Resist Shock   | Agea Arden,Wel sa Belle,Mer Garlas | 1.30 | 27 | Dilute |
+| Weak Elixir | Resist Shock   | Agea Arden,Wel sa Belle,Mer Garlas | 2.00 | 40 | Weak |
+| Mild Elixir | Resist Shock   | Agea Arden,Wel sa Belle,Mer Garlas | 3.00 | 60 | Mild |
+| Potent Elixir | Resist Shock   | Agea Arden,Wel sa Belle,Mer Garlas | 6.80 | 135 | Potent |
+| Concentrated Elixir | Resist Shock   | Agea Arden,Wel sa Belle,Mer Garlas | 10.10 | 203 | Concentrated |
+| Strong Elixir | Resist Shock   | Agea Arden,Wel sa Belle,Mer Garlas | 4.50 | 90 | Strong |
+| Dilute Elixir | Restore Health   | Mora,Karan ry Ayammis,Ayammi | 1.30 | 0 | Dilute |
+| Mild Elixir | Restore Health   | Mora,Karan ry Ayammis,Ayammi | 5.00 | 0 | Mild |
+| Strong Elixir | Restore Health   | Mora,Karan ry Ayammis,Ayammi | 10.00 | 0 | Strong |
+| Potent Elixir | Restore Health   | Mora,Karan ry Ayammis,Ayammi | 20.00 | 0 | Potent |
+| Concentrated Elixir | Restore Health   | Mora,Karan ry Ayammis,Ayammi | 40.00 | 0 | Concentrated |
+| Weak Elixir | Restore Health   | Mora,Karan ry Ayammis,Ayammi | 2.50 | 0 | Weak |
+| Concentrated Elixir | Restore Magicka   | Mora,Agea,Ayammis | 40.00 | 0 | Concentrated |
+| Weak Elixir | Restore Magicka   | Mora,Agea,Ayammis | 2.50 | 0 | Weak |
+| Mild Elixir | Restore Magicka   | Mora,Agea,Ayammis | 5.00 | 0 | Mild |
+| Potent Elixir | Restore Magicka   | Mora,Agea,Ayammis | 20.00 | 0 | Potent |
+| Dilute Elixir | Restore Magicka   | Mora,Agea,Ayammis | 1.30 | 0 | Dilute |
+| Strong Elixir | Restore Magicka   | Mora,Agea,Ayammis | 10.00 | 0 | Strong |
+| Concentrated Elixir | Restore Stamina   | Mora,Agea,Ayammis | 40.00 | 0 | Concentrated |
+| Strong Elixir | Restore Stamina   | Mora,Agea,Ayammis | 10.00 | 0 | Strong |
+| Mild Elixir | Restore Stamina   | Mora,Agea,Ayammis | 5.00 | 0 | Mild |
+| Potent Elixir | Restore Stamina   | Mora,Agea,Ayammis | 20.00 | 0 | Potent |
+| Weak Elixir | Restore Stamina   | Mora,Agea,Ayammis | 2.50 | 0 | Weak |
+| Dilute Elixir | Restore Stamina   | Mora,Agea,Ayammis | 1.30 | 0 | Dilute |
+| Concentrated Elixir | Tardiness | Mer Garlas,Karan Kogo,Betayammis | 50.00 | 40 | Concentrated |
+| Dilute Elixir | Tardiness | Mer Garlas,Karan Kogo,Betayammis | 50.00 | 1 | Dilute |
+| Weak Elixir | Tardiness | Mer Garlas,Karan Kogo,Betayammis | 50.00 | 3 | Weak |
+| Potent Elixir | Tardiness | Mer Garlas,Karan Kogo,Betayammis | 50.00 | 20 | Potent |
+| Mild Elixir | Tardiness | Mer Garlas,Karan Kogo,Betayammis | 50.00 | 2 | Mild |
+| Strong Elixir | Tardiness | Mer Garlas,Karan Kogo,Betayammis | 50.00 | 10 | Strong |
+| Dilute Elixir | Waterbreathing  | Agea Arden,Relleis,Mer Garlas | 0.00 | 1 | Dilute |
+| Concentrated Elixir | Waterbreathing  | Agea Arden,Relleis,Mer Garlas | 0.00 | 40 | Concentrated |
+| Mild Elixir | Waterbreathing  | Agea Arden,Relleis,Mer Garlas | 0.00 | 5 | Mild |
+| Weak Elixir | Waterbreathing  | Agea Arden,Relleis,Mer Garlas | 0.00 | 2 | Weak |
+| Strong Elixir | Waterbreathing  | Agea Arden,Relleis,Mer Garlas | 0.00 | 10 | Strong |
+| Potent Elixir | Waterbreathing  | Agea Arden,Relleis,Mer Garlas | 0.00 | 20 | Potent |
+| Weak Elixir | Weakness to Fire   | Mer Garlas,Molag,Altadoon ry Bet | 2.00 | 20 | Weak |
+| Mild Elixir | Weakness to Fire   | Mer Garlas,Molag,Altadoon ry Bet | 3.00 | 30 | Mild |
+| Potent Elixir | Weakness to Fire   | Mer Garlas,Molag,Altadoon ry Bet | 6.80 | 68 | Potent |
+| Concentrated Elixir | Weakness to Fire   | Mer Garlas,Molag,Altadoon ry Bet | 10.10 | 101 | Concentrated |
+| Dilute Elixir | Weakness to Fire   | Mer Garlas,Molag,Altadoon ry Bet | 1.30 | 13 | Dilute |
+| Strong Elixir | Weakness to Fire   | Mer Garlas,Molag,Altadoon ry Bet | 4.50 | 45 | Strong |
+| Concentrated Elixir | Weakness to Frost   | Altadoon ry Bet,Mafre,Mer Garlas | 10.10 | 101 | Concentrated |
+| Dilute Elixir | Weakness to Frost   | Altadoon ry Bet,Mafre,Mer Garlas | 1.30 | 13 | Dilute |
+| Weak Elixir | Weakness to Frost   | Altadoon ry Bet,Mafre,Mer Garlas | 2.00 | 20 | Weak |
+| Strong Elixir | Weakness to Frost   | Altadoon ry Bet,Mafre,Mer Garlas | 4.50 | 45 | Strong |
+| Mild Elixir | Weakness to Frost   | Altadoon ry Bet,Mafre,Mer Garlas | 3.00 | 30 | Mild |
+| Potent Elixir | Weakness to Frost   | Altadoon ry Bet,Mafre,Mer Garlas | 6.80 | 68 | Potent |
+| Mild Elixir | Weakness to Magic   | Altadoon ry Bet,Malatu Magicka,Mer Garlas | 2.00 | 30 | Mild |
+| Concentrated Elixir | Weakness to Magic   | Altadoon ry Bet,Malatu Magicka,Mer Garlas | 6.80 | 101 | Concentrated |
+| Weak Elixir | Weakness to Magic   | Altadoon ry Bet,Malatu Magicka,Mer Garlas | 1.30 | 20 | Weak |
+| Potent Elixir | Weakness to Magic   | Altadoon ry Bet,Malatu Magicka,Mer Garlas | 4.50 | 68 | Potent |
+| Dilute Elixir | Weakness to Magic   | Altadoon ry Bet,Malatu Magicka,Mer Garlas | 0.90 | 13 | Dilute |
+| Strong Elixir | Weakness to Magic   | Altadoon ry Bet,Malatu Magicka,Mer Garlas | 3.00 | 45 | Strong |
+| Potent Elixir | Weakness to Poison   | Altadoon ry Bet,Betaltadoon,Mer Garlas | 4.50 | 68 | Potent |
+| Dilute Elixir | Weakness to Poison   | Altadoon ry Bet,Betaltadoon,Mer Garlas | 0.90 | 13 | Dilute |
+| Mild Elixir | Weakness to Poison   | Altadoon ry Bet,Betaltadoon,Mer Garlas | 2.00 | 30 | Mild |
+| Concentrated Elixir | Weakness to Poison   | Altadoon ry Bet,Betaltadoon,Mer Garlas | 6.80 | 101 | Concentrated |
+| Strong Elixir | Weakness to Poison   | Altadoon ry Bet,Betaltadoon,Mer Garlas | 3.00 | 45 | Strong |
+| Weak Elixir | Weakness to Poison   | Altadoon ry Bet,Betaltadoon,Mer Garlas | 1.30 | 20 | Weak |
+| Dilute Elixir | Weakness to Shock   | Altadoon ry Bet,Wel sa Belle,Mer Garlas | 1.30 | 13 | Dilute |
+| Potent Elixir | Weakness to Shock   | Altadoon ry Bet,Wel sa Belle,Mer Garlas | 6.80 | 68 | Potent |
+| Mild Elixir | Weakness to Shock   | Altadoon ry Bet,Wel sa Belle,Mer Garlas | 3.00 | 30 | Mild |
+| Strong Elixir | Weakness to Shock   | Altadoon ry Bet,Wel sa Belle,Mer Garlas | 4.50 | 45 | Strong |
+| Concentrated Elixir | Weakness to Shock   | Altadoon ry Bet,Wel sa Belle,Mer Garlas | 10.10 | 101 | Concentrated |
+| Weak Elixir | Weakness to Shock   | Altadoon ry Bet,Wel sa Belle,Mer Garlas | 2.00 | 20 | Weak |
+

@@ -1,0 +1,84 @@
+﻿Effect,Archtypes
+Cleansing,
+Consumption,"Poisons,Health,Stamina"
+Cure Disease,"Creatures,Disease,Mortals"
+Cure Betaltadoon,"Creatures,Poisons,Mortals"
+Damage Health,"Poisons,Health"
+Damage Magicka,"Magicka,Poisons"
+Damage Magicka Regeneration,"Magicka,Poisons"
+Damage Maximum Health,"Acid,Health"
+Damage Maximum Magicka,"Acid,Magicka"
+Damage Maximum Stamina,"Acid,Stamina"
+Damage Stamina,"Poisons,Stamina"
+Damage Stamina Regeneration,"Poisons,Stamina"
+Detect Life,Life
+Discerning,
+Exploit Weakness,Poisons
+Fear,"Disease,Water,Life"
+Fortify Alchemy,"Magical Constructs,Arcane Energy,Water"
+Fortify Alteration,"Arcane Energy,Force"
+Fortify Armor Rating,"Armor,Force,Nature"
+Fortify Barter,"Air,Mortals"
+Fortify Block,"Armor,Metal,Shield"
+Fortify Carry Weight,"Force,Flesh"
+Fortify Conjuration,"Arcane Energy,Daedra,Force,Souls,Undead"
+Fortify Destruction,"Arcane Energy,Force"
+Fortify Enchanting,"Arcane Energy,Armor,Magical Constructs,Shield,Weapons"
+Fortify Health,"Health,Life,Resistances"
+Fortify Health Regeneration,"Health,Resistances"
+Fortify Illusion,"Arcane Energy,Force,Shadow"
+Fortify Lockpicking,Metal
+Fortify Lockpicking Expertise,
+Fortify Magicka,"Force,Magicka,Resistances"
+Fortify Magicka Regeneration,"Force,Magicka,Resistances"
+Fortify Marksman,"Air,Metal,Weapons"
+Fortify Marksman AP,
+Fortify One-Handed,"Force,Metal,Weapons"
+Fortify One-handed AP,
+Fortify Pickpocket,"Air,Metal"
+Fortify Restoration,"Arcane Energy,Force,Life"
+Fortify Shouts,
+Fortify Smithing,"Armor,Metal,Shield,Weapons"
+Fortify Sneak,"Air,Shadow"
+Fortify Stamina,"Force,Resistances,Stamina"
+Fortify Stamina Regeneration,"Force,Resistances,Stamina"
+Fortify Two-Handed,"Force,Metal,Weapons"
+Fortify Unarmed Damage,"Flesh,Weapons"
+Frenzy,"Life,Poisons,Water"
+Frostbite Venom,"Creatures,Frost,Poisons,Water"
+Ghostveil,Apparition
+Hircine's Sight,Weapons
+Hunter's Boon,Weapons
+Ineptitude,Poisons
+Invisibility,"Arcane Energy,Light,Shadow"
+Lingering Damage Health,"Disease,Health"
+Lingering Damage Magicka,"Magicka,Disease"
+Lingering Damage Stamina,"Disease,Stamina"
+Muddle,Poisons
+Night Vision,
+Paralysis,"Arcane Energy,Flesh,Force,Poisons"
+Pathfinding,
+Prowling,"Light,Air"
+Ravage Health,"Acid,Health"
+Ravage Magicka,"Acid,Magicka"
+Ravage Stamina,"Acid,Stamina"
+Resist Fire,"Fire,Resistances,Arcane Energy"
+Resist Frost,"Arcane Energy,Frost,Resistances"
+Resist Magic,"Arcane Energy,Force,Resistances"
+Resist Betaltadoon,"Arcane Energy,Water,Poisons,Resistances"
+Resist Shock,"Arcane Energy,Shock,Resistances"
+Restore Health,"Arcane Energy,Health,Life"
+Restore Magicka,"Arcane Energy,Magicka,Life"
+Restore Stamina,"Arcane Energy,Life,Stamina"
+Sanguinare Vampiris,
+Sleeping Tree Sap,Nature
+Soulreaping,
+Tardiness,Force
+Thermal Vision,
+Thrill,"Stamina,Flesh"
+Waterbreathing,"Air,Resistances,Water"
+Weakness to Fire,"Fire,Resistances,Force"
+Weakness to Frost,"Frost,Resistances,Force"
+Weakness to Magic,"Arcane Energy,Resistances,Force"
+Weakness to poisons,"Force,Poisons,Resistances"
+Weakness to Shock,"Force,Shock,Resistances"
