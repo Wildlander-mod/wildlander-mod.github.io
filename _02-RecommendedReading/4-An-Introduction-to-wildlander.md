@@ -59,7 +59,13 @@ One of the most important tip I can give archer type players - is that wooden bo
 
 ---
 
-**Next in Recommended Reading:** [Changes From Vanilla →](https://wiki.wildlandermod.com/02-RecommendedReading/5-Changes-From-Vanilla/)
+## Next Steps
+
+1. **Read [Changes From Vanilla](https://wiki.wildlandermod.com/_02-RecommendedReading/5-Changes-From-Vanilla/)** - See what's different from vanilla Skyrim
+2. **Read [Changes From Ultsky](https://wiki.wildlandermod.com/_02-RecommendedReading/6-Changes-From-Ultsky/)** - Learn what changed if migrating from the previous modlist
+3. **Read [Keybindings](https://wiki.wildlandermod.com/_02-RecommendedReading/7-Keybindings/)** - Master all hotkeys and controls
+
+**Remember:** Wildlander rewards those who understand its systems—take time to learn them.
 
 ## Armor choice
 
@@ -101,8 +107,3 @@ Crafting has had a item called toolkits implements. you need a appropriate toolk
 Prior to the introduction of toolkits - scrolling rapidly though the extremely large crafting menu caused crashes to desktop - This still occurs if you are asking a blacksmith to craft items to you - so I recommend using the filter in top right of the window rather than scrolling to find specific items you want to make.
 
 In addition Wildlander includes a new type of crafting called breakdown( using the ? key) which allows you to break down items into the components it was made from. For example armor into metal fragments, bones and teeth into bone fragments and wooden items into kindling for starting fires.
-
-
----
-
-**Next in Recommended Reading:** [Changes from Vanilla →](5-Changes-From-Vanilla)

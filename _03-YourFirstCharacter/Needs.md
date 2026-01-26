@@ -233,10 +233,9 @@ Every vanilla inn in Skyrim and Solstheim has a bathroom with soap baskets. Here
 
 You now understand the core survival mechanics. Continue your learning:
 
-1. **Read [Your First Day](https://wiki.wildlandermod.com/_03-YourFirstCharacter/First-Day/)** - Your first steps in Wildlander
-2. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Managing your inventory and carrying supplies
-3. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy tactics while managing survival needs
-4. **Review [UI Guide](https://wiki.wildlandermod.com/_02-RecommendedReading/3-The-UI/)** - Understanding all status displays
+1. **Read [Derived Attributes](https://wiki.wildlandermod.com/_03-YourFirstCharacter/DA/)** - Learn how your Health, Stamina, and Magicka directly support survival and combat effectiveness
+2. **Read [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/_03-YourFirstCharacter/npc-services/)** - Craft food, potions, and survival gear to meet your needs efficiently
+3. **Explore [Start Here in Wildlander World](https://wiki.wildlandermod.com/04-WildlanderWorld/0-Start-Here/)** - Expand beyond your first character to the broader Wildlander experience
 
 **Remember:** Every journey requires planning. Before leaving a safe location, ensure you have food, water, and shelter materials.
 

@@ -54,5 +54,11 @@ description: Changes from Ultksy
 
 ---
 
-**Next in Recommended Reading:** [Keybindings →](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/)
+## Next Steps
+
+1. **Read [Keybindings](https://wiki.wildlandermod.com/_02-RecommendedReading/7-Keybindings/)** - Master all hotkeys and controls
+2. **Read [Important Information](https://wiki.wildlandermod.com/_02-RecommendedReading/8-Important-Information/)** - Support resources and save tips
+3. **Read [Your First Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Your-First-Character/)** - Begin your gameplay journey
+
+**Remember:** Understanding these changes helps you transition smoothly from Ultsky to Wildlander.
 

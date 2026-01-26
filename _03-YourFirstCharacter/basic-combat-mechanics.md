@@ -298,7 +298,7 @@ Here's a simple combat rotation for new players:
 You now understand how to approach combat tactically and counter different enemy types. Continue your learning:
 
 1. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Learn how weight affects your combat mobility and gear choices
-2. **Review [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/stamina/)** - Remember that stamina resource management is critical in combat
-3. **Review [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/health/)** - Keep healing resources in mind before entering dangerous areas
+2. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/_03-YourFirstCharacter/camping/)** - Set up efficient camps and use perks to your advantage
+3. **Read [Armor Resistances, Penetration & Weapon Types](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Resistances/)** - Deepen your understanding of damage types and resistances
 
 **Remember:** Combat mastery comes from planning, not reflexes. Scout first, think tactically, and execute strategically.

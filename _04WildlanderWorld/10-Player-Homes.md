@@ -841,3 +841,14 @@ function showSlides(n, slideshow) {
   slides[slideshow.currentSlideIndex-1].style.display = "block";  
 }
 </script>
+
+---
+
+## Next Steps
+
+1. **Read [Enchantments Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/11-Enchantements/)** - Advanced item crafting
+2. **Read [Shout Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
+3. **Read [Horses & Herds](https://wiki.wildlandermod.com/_04WildlanderWorld/13-%20Horses/)** - Mount management and herds
+
+**Remember:** A home base provides safe storage and rest—invest in one once you have the septims.
+</script>

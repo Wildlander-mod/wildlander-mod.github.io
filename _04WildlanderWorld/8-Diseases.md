@@ -42,6 +42,13 @@ Most priests can cure your illnesses, as can shrines of the nine - provided you 
 
 For those of a more naughty inclination - Alchemists can provide you with a potion of cure disease. You can also brew a tea which can cure disease.
 
+---
 
+## Next Steps
 
+1. **Read [Food & Drink](https://wiki.wildlandermod.com/_04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
+2. **Read [Trainers](https://wiki.wildlandermod.com/_04WildlanderWorld/6-Trainers/)** - Skill training locations
+3. **Read [The Quests](https://wiki.wildlandermod.com/_04WildlanderWorld/5-The-Quests/)** - Available quests and starts
+
+**Remember:** Prevent diseases through good hygiene and vaccinations—they're harder to cure than prevent.
  

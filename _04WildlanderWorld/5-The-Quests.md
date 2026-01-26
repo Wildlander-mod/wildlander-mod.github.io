@@ -41,3 +41,12 @@ You can buy Breezehome before this at a much more expensive price, but unless yo
 ## How do I start the Dragonborn questline?
 
 Dragonborn content is available after completing "A Blade in the Dark" during the Main Quest.
+---
+
+## Next Steps
+
+1. **Read [Followers and Mercenaries](https://wiki.wildlandermod.com/_04WildlanderWorld/7-Available-Followers/)** - Recruit and manage companions
+2. **Read [Enchantments Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/11-Enchantements/)** - Advanced item crafting
+3. **Read [Shout Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
+
+**Remember:** Quests unlock new content, companions, and powers—explore them strategically.

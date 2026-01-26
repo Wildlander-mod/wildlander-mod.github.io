@@ -315,10 +315,9 @@ Bag of Holding locations:
 
 You now understand weight management and inventory strategy. Continue your learning:
 
-1. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Apply light loadouts to combat tactics
-2. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/health/)** - Manage potions and survival supplies
-3. **Read [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)** - Carry food and survival gear without overencumbering
-4. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/stamina/)** - Understand how weight affects stamina drain
+1. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/_03-YourFirstCharacter/camping/)** - Set up efficient camps for storage and resource management
+2. **Read [Armor Resistances, Penetration & Weapon Types](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Resistances/)** - Learn how to carry varied weapons for different situations
+3. **Read [Magic Analysis](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/)** - Understand how spell weight and carry capacity interact with casting
 
 **Remember:** Light is fast. Fast is alive. Carry only what you need.
 

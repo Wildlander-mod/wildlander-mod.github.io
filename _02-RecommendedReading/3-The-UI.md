@@ -117,4 +117,10 @@ The following additional columns are available.
 
 ---
 
-**Next in Recommended Reading:** [Introduction to Wildlander →](https://wiki.wildlandermod.com/02-RecommendedReading/4-An-Introduction-to-wildlander/)
+## Next Steps
+
+1. **Read [Introduction to Wildlander](https://wiki.wildlandermod.com/_02-RecommendedReading/4-An-Introduction-to-wildlander/)** - Learn core survival mechanics and systems
+2. **Read [Changes From Vanilla](https://wiki.wildlandermod.com/_02-RecommendedReading/5-Changes-From-Vanilla/)** - See what's different from vanilla Skyrim
+3. **Read [Keybindings](https://wiki.wildlandermod.com/_02-RecommendedReading/7-Keybindings/)** - Master all hotkeys and controls
+
+**Remember:** Understanding the UI helps you navigate menus and access critical information quickly.

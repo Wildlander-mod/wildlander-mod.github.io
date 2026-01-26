@@ -207,9 +207,8 @@ Certain enemies have **material-based resistances or vulnerabilities** based on 
 
 You now understand how to calculate damage and armor effectiveness. Continue learning:
 
-1. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Apply resistance knowledge to combat strategy
-2. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Learn how to carry varied weapons for different situations
-3. **Read [Levelling Up](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/)** - Perks that improve armor penetration and damage types
-4. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/health/)** - Manage damage taken through resistances and potions
+1. **Read [Magic Analysis](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/)** - Understand magical damage types and how resistances apply to spells
+2. **Read [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)** - Consider how survival needs interact with your combat readiness
+3. **Read [Derived Attributes](https://wiki.wildlandermod.com/_03-YourFirstCharacter/DA/)** - Learn how your base attributes affect damage resistances
 
 **Remember:** Armor doesn't stop damage—it reduces it. Understanding resistances means better survival.

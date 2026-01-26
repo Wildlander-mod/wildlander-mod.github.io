@@ -8,290 +8,134 @@ description: Keybinds
 {: .important}
 >Keybindings can be shown and hidden at any time by pressing `F11`.
 
-## New Abilities
+## Wildlander & Skyrim Keybindings
 
-The following table highlights the most important new abilities added by Wildlander. For a comprehensive list of all keybindings, see the sections below.
+The following is the complete list of keybindings for Wildlander. Keybindings can be shown and hidden at any time in-game by pressing **F11**.
 
-| Ability      | Hotkey    | Effect |
-|:-------------|:---------:|:------|
-| Build Campfire | < |  Allows you to place a campfire that you can then interact with in order to build a fire for warmth, placement of a cooking pot, or primitive cooking |
-| Change Difficulty | Right CTRL | Switch between easy and standard difficulties |
-| Forage | Right Alt | Allows you to spend time looking for wood, bones, alchemy ingredients, or even food from the ground around you |
-| Frisk | None | Loot a fleeing target |
-| Horse Inventory | U | Access your horse's inventory |
-| Horse Whistle | H | Allows you to summon your horse | 
-| Primitive Cooking | > | Allows the user to use a sufficiently sized fire to cook any meat in the inventory |
-| Recall Followers | B | Prevents your followers from attacking when you don't want them to |
+### Visual Reference
 
-## 1.1 Keybindings
-[![image](../../../Assets/1-1Keybind.png)](../../../Assets/1-1Keybind.png)
-<link rel="prefetch" href="http://wiki.wildlandermod.com/Assets/1-1Keybind.png"/>
+**Version 1.1 Keybindings:**
+[![image](https://wiki.wildlandermod.com/Assets/1-1Keybind.png)](https://wiki.wildlandermod.com/Assets/1-1Keybind.png)
 
-## 1.0 Keybindings
-[![keybindings](../../../Assets/1-0Keybind.png)](../../../Assets/1-0Keybind.png)
+**Version 1.0 Keybindings:**
+[![keybindings](https://wiki.wildlandermod.com/Assets/1-0Keybind.png)](https://wiki.wildlandermod.com/Assets/1-0Keybind.png)
 
-## What Do these Keys do?
+### Complete Keybinding List
 
-### Lock On
+| Function | Key | Source / MCM | Effect |
+|:---------|:---:|:-------------|:---|
+| **Mod Added Functions** | | | |
+| **Campfire - MCM** | | | |
+| Build Campfire / Fire | , | Campfire - MCM | Place a campfire for warmth, cooking pot placement, or primitive cooking |
+| Craft | Right Shift | Campfire - MCM | Open camping/crafting menu |
+| Survival Vision / Instincts | Right Alt | Campfire - MCM | Identify enemies, see equipment, herbs, dropped weapons, and items for crafting |
+| **Wildlander - MCM** | | | |
+| Change Difficulty | Right Ctrl | Wildlander - MCM | Switch between easy and standard difficulties |
+| Emergency Recall | Scroll Lock | Wildlander - MCM | Recall lost followers to your location |
+| **FLP - MCM** | | | |
+| Toggle Formation | G | FLP - MCM | Toggle follower formation type |
+| **Predator Vision - MCM** | | | |
+| Night Vision | [ | Predator Vision - MCM | Toggle night vision effect (does not work with Alchemy Night Vision power) |
+| Heat Vision | ] | Predator Vision - MCM | Toggle heat vision effect |
+| **Hunterborn - MCM** | | | |
+| Forage | . | Hunterborn - MCM | Spend time looking for wood, bones, alchemy ingredients, or food from the ground |
+| Break Down | / | Hunterborn - MCM | Deconstruct items into component parts (won't work on found enchanted items) |
+| Wash | ' | Hunterborn - MCM | Wash/bathe yourself |
+| **Immersive Horses - MCM** | | | |
+| Horse Inventory | U | Immersive Horses - MCM | Access your horse's inventory and stored items |
+| Horse Whistle | H | Immersive Horses - MCM | Summon your horse to your location |
+| Horse Wait | Y | Immersive Horses - MCM | Command your horse to wait at current location |
+| **Sunhelm - MCM** | | | |
+| Drink / Refill | ; | Sunhelm - MCM | Drink water or refill water containers |
+| **iEquip - MCM** | | | |
+| Quick Restore | V | iEquip - MCM | Restore health, stamina, or magicka using preset rules from potions in inventory |
+| **Duel Wield Parry - MCM** | | | |
+| Parry / Block | Left Ctrl | Duel Wield Parry - MCM | Block with melee weapon to parry or defend |
+| **SkyUI - MCM** | | | |
+| Group Equip 1 | F1 | SkyUI - MCM | Equip preset equipment set 1 |
+| Group Equip 2 | F2 | SkyUI - MCM | Equip preset equipment set 2 |
+| Group Equip 3 | F3 | SkyUI - MCM | Equip preset equipment set 3 |
+| Group Equip 4 | F4 | SkyUI - MCM | Equip preset equipment set 4 |
+| **A Matter of Time - MCM** | | | |
+| Show Controls | F11 | A Matter of Time - MCM | Display all keybindings in-game |
+| **Simply Rest Anywhere - MCM** | | | |
+| Sit or Sleep | K | Simply Rest Anywhere - MCM | Sit in chair or sleep in bed |
+| **Quick Light - MCM** | | | |
+| Toggle Lantern | L | Quick Light - MCM | Toggle held lantern light on/off |
+| **Various Player Actions - MCM** | | | |
+| Emote | Insert | Various Player Actions - MCM | Play character emote/animation |
+| **Take Notes! - MCM** | | | |
+| Journal | Home | Take Notes! - MCM | Open player journal |
+| **Ultimate Immersion Toggle - MCM** | | | |
+| Toggle HUD | X | Ultimate Immersion Toggle - MCM | Hide/show HUD elements |
+| **True Directional Movement - MCM** | | | |
+| Switch Targets | Mouse 9/10 | True Directional Movement - MCM | Switch target in lock-on mode |
+| **ENB Menu (Shift+Enter)** | | | |
+| Disable ENB | Backslash | ENB Menu (Shift+Enter) | Toggle ENB shader on/off |
+| **Standard Skyrim Controls** | | | |
+| Save | F5 | Vanilla Skyrim | Quick save game |
+| Quick Load | F9 | Vanilla Skyrim | Quick load previous save |
+| Favorites | Q | Vanilla Skyrim | Mark item as favorite for quick access |
+| Inventory | I | Vanilla Skyrim | Open inventory menu |
+| Magic Menu | O | Vanilla Skyrim | Open magic/spells menu |
+| Map | M | Vanilla Skyrim | Open world map |
+| Quests Menu | J | Vanilla Skyrim | Open active quests |
+| Stats Menu | P | Vanilla Skyrim | Open character stats |
+| Ready/Sheath Weapon | R | Vanilla Skyrim | Equip or unequip your weapon |
+| Power / Shout | Z | Vanilla Skyrim | Cast power or shout ability |
+| Forward | W | Vanilla Skyrim | Move character forward |
+| Strafe Left | A | Vanilla Skyrim | Strafe/step left |
+| Strafe Right | D | Vanilla Skyrim | Strafe/step right |
+| Back | S | Vanilla Skyrim | Move character backward |
+| Sprint | Left Shift | Vanilla Skyrim | Sprint/run faster |
+| Sneak | C | Vanilla Skyrim | Enter stealth/sneak mode |
+| Toggle Walk/Jog | Caps Lock | Vanilla Skyrim | Toggle between walking and jogging |
+| Activate | E | Vanilla Skyrim | Activate objects, doors, NPCs |
+| Change View | F | Vanilla Skyrim | Switch between first and third person view |
+| Jump | Space | Vanilla Skyrim | Make character jump |
+| Wait | T | Vanilla Skyrim | Open wait menu |
+| Pause / Escape | Escape | Vanilla Skyrim | Pause game and open menu |
+| Camera Mode | Pause | Vanilla Skyrim | Switch between first-person and third-person view |
+| Target Lock | Mouse 3 | Vanilla Skyrim | Lock onto target |
+| Attack Right | Mouse 1 | Vanilla Skyrim | Standard attack with right hand weapon |
+| Attack Left | Mouse 2 | Vanilla Skyrim | Attack with left hand weapon |
+| Switch Camera | Left Alt | Vanilla Skyrim | Switch camera mode |
+| Console | ~ (Tilde) | Vanilla Skyrim | Open developer console |
+| Screenshot | Print Screen | Vanilla Skyrim | Take screenshot |
+| Steam Screenshot | F12 | Vanilla Skyrim | Take Steam screenshot |
+| Hotkeys | 1-8 | Vanilla Skyrim | Quick equip/use hotkeyed items |
 
-This is for 3rd person gameplay and keeps you facing the target you have locked onto when you are moving or strafing around. It also helps with arrow aiming.
+## Customizing Your Keybindings
 
-### Quick Restore
+Most keybindings can be reconfigured to suit your preferences:
 
-A keybind to restore your health stamina or magic using preset rules (set in Iequip) from potions within your inventory.
+**For mod-specific hotkeys (Campfire, FLP, Predator Vision, Sunhelm, etc.):**
+- Open the **MCM Menu** in-game (Escape → Mod Configuration)
+- Find the relevant mod (Campfire, FLP, Predator Vision, Sunhelm, iEquip, etc.)
+- Look for the "Keybindings" section and rebind as desired
 
-### Breakdown
+{: .warning}
+> **FLP MCM Note:** Only configure the Toggle Formation keybinding in the FLP MCM. The mod is not well-maintained, so avoid changing other settings as they do cause issues and conflicts.
 
-Shows a crafting menu to deconstruct items in your inventory into component parts.
+**For SkyUI Group Equip hotkeys (F1-F4):**
+- Open **SkyUI**'s settings through the MCM menu
+- Navigate to the Hotkeys section
+- Customize F1-F4 assignments
 
-Note: This key won't let you deconstruct any "found" enchanted items.
+**For standard Skyrim controls (including Save/Quick Load):**
+- Press **Escape** to open the pause menu
+- Select **Settings** → **Controls**
+- Rebind any standard keyboard/mouse controls
+- Note: Some controls may be locked by mods
 
-### Emergency Recall
-
-Lost your followers? This is the key you want.
-
-### Instincts
-
-A useful utility that allows you to identify enemies and see amongst other things. Enemy levels, equipment, herbs which can be picked, dropped weapons or arrows, Enemy movements (e.g Bandit using loud equipment, growling animals) Items which can be used to craft Tinder (such as linen wraps) and Dead Bodies. 
-
-
-## How do i rebind the keys?
-
-<table>
-  <tr>
-   <td>Function
-   </td>
-   <td>Key
-   </td>
-   <td>Source / MCM
-   </td>
-  </tr>
-  <tr>
-   <td>Group Equip 1
-   </td>
-   <td>F1
-   </td>
-   <td>SkyUI
-   </td>
-  </tr>
-  <tr>
-   <td>Group Equip 2
-   </td>
-   <td>F2
-   </td>
-   <td>SkyUI
-   </td>
-  </tr>
-  <tr>
-   <td>Group Equip 3
-   </td>
-   <td>F3
-   </td>
-   <td>SkyUI
-   </td>
-  </tr>
-  <tr>
-   <td>Group Equip 4
-   </td>
-   <td>F4
-   </td>
-   <td>SkyUI
-   </td>
-  </tr>
-  <tr>
-   <td>Show Controls
-   </td>
-   <td>F11
-   </td>
-   <td>A Matter of Time
-   </td>
-  </tr>
-  <tr>
-   <td>Camera Mode
-   </td>
-   <td>Pause
-   </td>
-   <td>Wildlander
-   </td>
-  </tr>
-  <tr>
-   <td>Emote
-   </td>
-   <td>Insert
-   </td>
-   <td>Various Player Actions
-   </td>
-  </tr>
-  <tr>
-   <td>Journal
-   </td>
-   <td>Home
-   </td>
-   <td>Take Notes!
-   </td>
-  </tr>
-  <tr>
-   <td>Disable ENB
-   </td>
-   <td>Backslash
-   </td>
-   <td>enblocal.ini
-   </td>
-  </tr>
-  <tr>
-   <td>Toggle HUD
-   </td>
-   <td>X
-   </td>
-   <td>Ultimate Immersion Toggle
-   </td>
-  </tr>
-  <tr>
-   <td>Change Difficulty
-   </td>
-   <td>Right Ctrl
-   </td>
-   <td>Wildlander
-   </td>
-  </tr>
-  <tr>
-   <td>Switch Targets
-   </td>
-   <td>Wheel Up/Down
-   </td>
-   <td>True Directional Movement
-   </td>
-  </tr>
-  <tr>
-   <td>Quick Restore
-   </td>
-   <td>V
-   </td>
-   <td>iEquip
-   </td>
-  </tr>
-  <tr>
-   <td>Emergency Recall
-   </td>
-   <td>Scroll Lock
-   </td>
-   <td>Wildlander
-   </td>
-  </tr>
-  <tr>
-   <td>Toggle Formation
-   </td>
-   <td>G
-   </td>
-   <td>Wildlander
-   </td>
-  </tr>
-  <tr>
-   <td>Horse Wait
-   </td>
-   <td>Y
-   </td>
-   <td>Immersive Horses
-   </td>
-  </tr>
-  <tr>
-   <td>Horse Inventory
-   </td>
-   <td>U
-   </td>
-   <td>Immersive Horses
-   </td>
-  </tr>
-  <tr>
-   <td>Horse Whistle
-   </td>
-   <td>H
-   </td>
-   <td>Immersive Horses
-   </td>
-  </tr>
-  <tr>
-   <td>Sit or Sleep
-   </td>
-   <td>K
-   </td>
-   <td>Simply Rest Anywhere
-   </td>
-  </tr>
-  <tr>
-   <td>Toggle Lantern
-   </td>
-   <td>L
-   </td>
-   <td>Quick Light
-   </td>
-  </tr>
-  <tr>
-   <td>Drink / Refill
-   </td>
-   <td>;
-   </td>
-   <td>Sunhelm
-   </td>
-  </tr>
-  <tr>
-   <td>Wash
-   </td>
-   <td>'
-   </td>
-   <td>Hunterborn (sense direction hotkey)
-   </td>
-  </tr>
-  <tr>
-   <td>Build Fire
-   </td>
-   <td>&lt;
-   </td>
-   <td>Campfire
-   </td>
-  </tr>
-  <tr>
-   <td>Break Down
-   </td>
-   <td>?
-   </td>
-   <td>Hunterborn
-   </td>
-  </tr>
-  <tr>
-   <td>Craft
-   </td>
-   <td>Right Shift
-   </td>
-   <td>Campfire
-   </td>
-  </tr>
-  <tr>
-   <td>Forage
-   </td>
-   <td>&gt;
-   </td>
-   <td>Hunterborn
-   </td>
-  </tr>
-  <tr>
-   <td>Instincts
-   </td>
-   <td>Right Alt
-   </td>
-   <td>Campfire
-   </td>
-  </tr>
-  <tr>
-   <td>Parry
-   </td>
-   <td>Left Control
-   </td>
-   <td> Duel Wield Parry
-   </td>
-  </tr>
-</table>
+**Tip:** Press **F11** in-game at any time to see a quick reference of your current keybindings!
 
 ---
 
-**Next in Recommended Reading:** [Important Information →](https://wiki.wildlandermod.com/02-RecommendedReading/8-Important-Information/)
+## Next Steps
+
+1. **Read [Important Information](https://wiki.wildlandermod.com/_02-RecommendedReading/8-Important-Information/)** - Support resources and save tips
+2. **Read [Your First Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Your-First-Character/)** - Begin your gameplay journey
+3. **Read [Character Creation](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Character-Creation/)** - Learn how to build a viable character
+
+**Remember:** Bookmark this page—you'll reference these hotkeys constantly while playing.

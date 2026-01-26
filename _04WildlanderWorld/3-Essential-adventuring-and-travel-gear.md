@@ -55,4 +55,13 @@ It's a big scary world out there beyond Riverwood or wherever your character is 
 * Utility scrolls - for when low on magic
 * scrolls of knock if you aren't capable of casting the spell itself.
 * "Oh shit" ace-in-the-hole (invis potion to run, storm atronach scroll for muscle)
-   
+
+---
+
+## Next Steps
+
+1. **Read [The Divines & Daedra](https://wiki.wildlandermod.com/_04WildlanderWorld/4-The-Divines/)** - Understand religion and blessings
+2. **Read [Diseases](https://wiki.wildlandermod.com/_04WildlanderWorld/8-Diseases/)** - Health hazards and cures
+3. **Read [Food & Drink](https://wiki.wildlandermod.com/_04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
+
+**Remember:** Proper preparation before leaving settlements means survival when things go wrong.

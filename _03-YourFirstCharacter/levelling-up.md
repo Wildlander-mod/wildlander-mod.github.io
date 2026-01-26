@@ -242,15 +242,16 @@ This chart shows enemy threat levels based on your character progression. **Alwa
 
 Once you've completed the progression path above and reached Level 15-20 with solid perks, continue with the recommended reading order:
 
-1. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/stamina/)** - Understand stamina costs and management for combat
-2. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/health/)** - Learn how to manage your health pool and resistances
-3. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** for detailed tactics and enemy-specific strategies
-4. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Manage your inventory effectively
-5. **Explore [Magic Analysis](https://wiki.wildlandermod.com/_03-YourFirstCharacter/magic-mechanics/)** if you're playing a mage
+1. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Stamina/)** - Understand stamina costs and management for combat
+2. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Health/)** - Learn how to manage your health pool and healing
+3. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Apply perks to detailed tactics and enemy-specific strategies
+
+**Remember:**
+- Perks are the true power scaling in Wildlander. Invest wisely and level steadily
+- Leveling is a marathon, not a sprint. Rushing into high-level content will end in death and frustration
+- Train systematically, use the tools available (training dummies, Spell Research, skill books), and progress through areas at appropriate levels
 
 For a complete guide, see [Your First Character - Start Here](https://wiki.wildlandermod.com/_03-YourFirstCharacter/0-Start-Here/) for the full recommended reading order.
-
-**Remember:** Leveling is a marathon, not a sprint. Rushing into high-level content will end in death and frustration. Train systematically, use the tools available (training dummies, Spell Research, skill books), and progress through areas at appropriate levels.
 
 
 

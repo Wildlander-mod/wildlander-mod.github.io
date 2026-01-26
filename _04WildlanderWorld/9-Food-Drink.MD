@@ -326,3 +326,11 @@ Waterskin (Salt Water)||Drinking saltwater will increase thirst. Distill at a co
 Wheat Boon Tea|3 Wheat 1 Hanging Moss 1 Glass Bottle (Water)|Consumed out of combat, it restores 15 Stamina and Magicka.,Bitter tasting but reputed for its balsamaceous properties.,Your meal improves your warmth .
 White-Gold Tower|1 Nord Mead 1 Lavender 1 Dragon's Tongue 1 Bottled Milk|Numbs your sense of pain, making you feel 60 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 900 seconds. ,Resists 10% of fire damage for 600 seconds.
 {: #myTable }
+
+## Next Steps
+
+1. **Read [Trainers](https://wiki.wildlandermod.com/_04WildlanderWorld/6-Trainers/)** - Skill training locations
+2. **Read [The Quests](https://wiki.wildlandermod.com/_04WildlanderWorld/5-The-Quests/)** - Available quests and starts
+3. **Read [Followers and Mercenaries](https://wiki.wildlandermod.com/_04WildlanderWorld/7-Available-Followers/)** - Recruit and manage companions
+
+**Remember:** Proper nutrition and hydration are survival essentials—always carry food and water.

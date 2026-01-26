@@ -9,7 +9,7 @@ description: Camping & Campfire Perks
 
 To build a campfire:
 
-1. Place a campfire ring on the ground (Keybind < to start. With 'e' to confirm placement)
+1. Place a campfire ring on the ground (Press **<** to start. With **E** to confirm placement)
 1. Activate the Campfire ring
 1. Add fuel
 1. Add tinder
@@ -324,4 +324,16 @@ Allows the crafting placement of a more comfortable bed, Table or chair - for wh
 
 ### Chests and barrels
 
-Can be crafted near a forge using player crafting - Can be placed to provide unlimited storage. Covered in more detail on the [Carry weight mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight/) page
+Can be crafted near a forge using player crafting - Can be placed to provide unlimited storage. Covered in more detail on the [Carry weight mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/) page
+
+---
+
+## Next Steps
+
+You now understand camping mechanics and resource management. Continue your learning:
+
+1. **Read [Armor Resistances, Penetration & Weapon Types](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Resistances/)** - Optimize your gear choices at camp
+2. **Read [Magic Analysis](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/)** - Understand spell mechanics for your playstyle
+3. **Read [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)** - Integrate survival needs into your camping strategy
+
+**Remember:** A well-prepared camp is the difference between survival and disaster. Always gear up before leaving.

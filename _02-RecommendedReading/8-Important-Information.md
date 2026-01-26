@@ -89,11 +89,10 @@ The general rule should be - if using the wiki search bar doesn't find a result 
 
 ---
 
-**Congratulations!** You've completed the Recommended Reading section. You're now ready to start your Wildlander adventure!
+## Next Steps
 
-**Next Steps:**
-- Create your character in [Your First Character Guide](https://wiki.wildlandermod.com/03-YourFirstCharacter/Your-First-Character/)
-- Join the community on [Discord](https://discordapp.com/invite/8VkDrfq) or [Reddit](https://www.reddit.com/r/wildlander/)
-- Check out [Tips and Tricks](https://wiki.wildlandermod.com/05-HintsandTips/Tips-and-Tricks/) for advanced gameplay
+1. **Read [Your First Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Your-First-Character/)** - Begin your gameplay journey
+2. **Read [Character Creation](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Character-Creation/)** - Learn how to build a viable character
+3. **Read [Your First Day](https://wiki.wildlandermod.com/_03-YourFirstCharacter/First-Day/)** - Your first steps in Wildlander with survival priorities
 
-Good luck, and welcome to Wildlander!
+**Remember:** You're prepared—now go forth and embrace the challenge!

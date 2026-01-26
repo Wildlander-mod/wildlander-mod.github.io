@@ -56,4 +56,10 @@ description: Changes From Vanilla
 
 ---
 
-**Next in Recommended Reading:** [Changes from Ultsky →](https://wiki.wildlandermod.com/02-RecommendedReading/6-Changes-From-Ultsky/) (optional - only for players migrating from previous modlists)
+## Next Steps
+
+1. **Read [Changes From Ultsky](https://wiki.wildlandermod.com/_02-RecommendedReading/6-Changes-From-Ultsky/)** - Learn what changed if migrating from the previous modlist
+2. **Read [Keybindings](https://wiki.wildlandermod.com/_02-RecommendedReading/7-Keybindings/)** - Master all hotkeys and controls
+3. **Read [Important Information](https://wiki.wildlandermod.com/_02-RecommendedReading/8-Important-Information/)** - Support resources and save tips
+
+**Remember:** Knowing what changed from vanilla helps you adapt your playstyle to Wildlander.

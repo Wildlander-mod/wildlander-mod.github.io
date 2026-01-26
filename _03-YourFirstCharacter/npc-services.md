@@ -5,132 +5,150 @@ nav_order: 14
 description: NPC Crafting and Enchanting Services
 ---
 
+# NPC Crafting and Enchanting Services
 
-Blacksmiths and Mages all over Skyrim are be able to craft, temper and enchant your equipment, including armor and weapons added by other mods. The quality and price of their work will depend on their skill as craftsmen as well as your barter abilities.
+**You don't have to craft everything yourself.** NPCs across Skyrim offer professional crafting, tempering, and enchanting services—perfect when you've reached max gear and don't have the skills yourself.
 
-Blacksmiths will craft and temper at your request. Enchanters will enchant and recharge items for you.
+## How NPC Services Work
 
-* The skill level of the blacksmith /enchanter determines what perks they get, the type of equipment they can work with and the cost of their work. The cost will also depend on the value of the item, the local value of materials used by the NPC and your barter skill.
-* If a NPC can't craft or temper an item, find another with higher skill level, or change their skill via the MCM menu.
-* The higher the skill of the blacksmith the higher the stats on crafted/tempered items. Low skill smiths are cheaper, but so is their work.
-* The higher the skill of the enchanter the more powerful the enchantments will be, and the costlier.
-* Money used to pay for services will go straight to the blacksmith/enchanter's inventory.
-* Blacksmiths will use their own materials and can acquire what they don't have at the expense of extra time and money. You'll still need to provide them with rare materials like dragon bones if you want them to craft something of that sort.
-* Enchanters will only know common enchantments. If you want a different enchantment you'll need to bring an item they can get the enchantment from.
-* Crafting, tempering and enchanting takes a minimum 24 hours by default. The time will increase if the NPC doesn't have the materials on hand to do the upgrade and needs to acquire them.
-* The cost of Enchantments is calculated using the Soul Gem you choose, The skill of the enchanter, plus a flat fee. 
-* The cost of crafted/tempered items is calculated using the Total material cost, The skill of the Smith, plus a flat fee. 
-* The NPC will take the item from you to Temper or enchant it, and will be returned once completed when you pay for the work. Make sure you have a spare item to replace the item while you are waiting.
-* For technical Reasons with how the mod works, Items enchanted by a NPC cannot be disenchanted by the player to learn the effects.  In addition, its not possible to inform the player of the cost of the Enchanters or Blacksmith's services until collection.
+Blacksmiths craft new items and temper existing equipment. Enchanters add magical properties to your gear. Both services are:
 
-There is no way to tell before collection of the item, how long it will take to make/upgrade and how much it will cost to do so. Assume a Minimum of 24 hours, and the cost will be the selling price of the finished item + 50%.
+- **Skill-based:** Higher-skill NPCs produce better quality items and more powerful enchantments (but cost more)
+- **Material-dependent:** Blacksmiths use their own materials; you provide rare items (dragon bones, etc.)
+- **Time-intensive:** Minimum 24 hours to complete; longer if the NPC needs to acquire materials
+- **Cost-scaled:** Price = material cost + NPC skill multiplier + flat fee
+- **Financially rewarding:** Money goes directly to the NPC's inventory (useful for bartering)
 
-## Blacksmiths
+{: .important}
+> **Before Collection:** You cannot see the cost or completion time until you collect the finished item. Assume minimum 24 hours and price at 50% above the item's final value.
 
-Name |Location |Details |Gold |Can be invested in? | Skill|
-Adrianne Avenicci |Whiterun |Found just outside Warmaiden's, in between the main gates and Breezehome. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |50
-Alvor |Riverwood |He is opposite the general goods in Riverwood. |500 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |29
-Arnskar Ember-Master |Riften |After completing three special reputation jobs for the Thieves Guild, you can find him at the northernmost section of the Ragged Flagon. |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |70
-Asbjorn Fire-Tamer |Riften |Takes over as blacksmith of The Scorched Hammer if Balimund dies. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |30
-Balimund |Riften |Found outside The Scorched Hammer, near the city's market. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |80
-Baldor Iron-Shaper DB |Skaal Village |Found by his forge, in the northern part of the village. |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |90
-Beirand |Solitude |To find him, enter Solitude, climb the stairs directly in front of you and turn right. (opposite the market)|1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |80
-Dushnamub |Gloombound Mine |He works below the mine entrance, across the wooden bridge from Narzulbur. |400 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |80
-Eorlund Gray-Mane |Whiterun |Found at the Skyforge, just beside the Companions' headquarters. Requires Circle membership in the companions |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |100
-Filnjar |Shor's Stone |The town is located on the main road north of Riften. |500 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |29
-Gharol |Dushnikh Yal |In a blacksmith's hut at the southern part of the stronghold, near the mine's entrance. |400 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |50
-Ghorza gra-Bagol |Markarth |After arriving on carriage at Markarth, turn left, cross first bridge, she is in the building sitting over the river. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20">  |80
-Glover Mallory |Raven Rock |Found outside his house, just by the marketplace. |2000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |80
-Gunmar  |Fort Dawnguard |Found in the blacksmith section of the fort. Only available to trade if the Dawnguard have been joined. |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |70
-Hestla  |Volkihar Keep |Found in the blacksmith section of the castle. Only available to trade if the Volkihar Clan have been joined. |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |45
-Heimvar |Solitude |Takes over as blacksmith if Beirand dies. | 1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |20
-Lod |Falkreath |After taking carriage to Falkreath, run straight and it will be on the right. |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |50
-Moth gro-Bagol |Markarth |In Understone Keep, turn right before the Jarl. |500 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |90
-Oengul War-Anvil |Windhelm |After taking carriage to Windhelm, turn left, keep going until you see him on your right-hand side before the market. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |60
-Rustleif |Dawnstar |After taking carriage to Dawnstar, run into the town and it's the first house on the right. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |29
-Seren| Dawnstar |After taking carriage to Dawnstar, run into the town and it's the first house on the right. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |35
-Shuftharz |Mor Khazgur |In a blacksmith's hut at the southern part of the stronghold. |400 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |50
-Syndus |Riften |Once you have improved the Thieves Guild, he establishes a weapon store in front of the Ragged Flagon in the Ratway. |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |18
-Ulfberth War-Bear |Whiterun |Found inside Warmaiden's, in between the main gates and Breezehome. Has a separate inventory than Adrianne Avenicci. |1000 |<img alt="☑" src="/Assets/Green_Tick.svg" style="vertical-align: middle" width="20" height="20"> |50
-Vanryth Gatharian |Riften |Once you have improved the Thieves Guild, he establishes a weapon store in front of the Ragged Flagon in the Ratway. |1000 |<img alt="☒" src="/Assets/Red_Cross.svg" style="vertical-align: middle" width="20" height="23"> |57
+## Key Mechanics
 
-## Enchanters
+### For Blacksmiths
+- Will craft items you can't create yourself (requiring higher smithing perks)
+- Will temper weapons/armor to improve their stats
+- Use their own materials but need YOU to provide rare materials (dragon bones, ebony ingots, etc.)
+- Skill level determines what equipment types they can work with
+- Can adjust NPC skill levels via MCM menu if limited by available smiths
 
-Hold| 	Town| Wizard| Location| Skill
-Eastmarch |	Windhelm| 	Wuunferth the Unliving| 	Palace of the Kings| 70
-Eastmarch | Kynesgrove| Dravynea the Stoneweaver | Braidwood Inn (only offers services if Wuunferth dies or is jailed)| 45
-Haafingar| 	Solitude| 	Sybille Stentor| 	Blue Palace| 60
-Haafingar| 	Solitude| 	Melaran | Erikur's House or Blue Palace (only offers enchanting services if Sybille is dead) |60
-Haafingar| 	Solitude| 	Sassia the Enchantress | Outlaw Refuge|60
-HjaalMarch | 	Morthal| 	Falion | Falion's Hut | 50
-Solstheim | Raven Rock| Neloth| Tel Mithryn |100
-The Pale| 	Dawnstar| 	Madena| 	The White Hall| 15
-The Reach| 	Markarth| 	Calcelmo| 	Understone Keep| 80
-The Reach| 	Markarth|   Aicantar |	Understone Keep (only offers enchanting services if Calcelmo is Dead)| 50
-The Reach| 	Markarth|   Hamal | Temple of Dibella	| 90
-The Rift| 	Riften| 	Wylandriah| 	Mistveil Keep| 65
-Whiterun Hold| 	Whiterun| 	Farengar Secret-Fire| 	Dragonsreach| 55
-Winterhold| Winterhold| 	Sergius Turrianus | 	College of Winterhold| 100
+### For Enchanters
+- Only know **common enchantments** (no rare effects you disenchant from artifacts)
+- To add a rare enchantment, bring an item that HAS that effect and they'll learn it
+- Cannot disenchant NPC-crafted items—you lose the enchantment data permanently
+- Cost depends on soul gem size, their skill, and a flat fee
 
-## Enchantments
+### Item Retrieval & Downtime
+- **NPC takes your item** during crafting/tempering and holds it
+- **You cannot use it** until completion (plan for 24+ hours downtime)
+- **Bring a spare** if you depend on that equipment for survival
+- You get it back when you pay the full cost
 
-### Weapons
-* Absorb Health 
-* Absorb Magicka               
-* Absorb Stamina                       
-* Banish                       
-* Fear                
-* Fire Damage                      
-* Frost Damage      
-* Magicka Damage      
-* Paralyze  
-* Shock Damage
-* Soul Trap 
-* Stamina Damage
-* Turn Undead   
+---
 
-### Armor        
-* Fortify Alchemy         
-* Fortify Alteration            
-* Fortify Block         
-* Fortify Carry Weight              
-* Fortify Conjuration           
-* Fortify Destruction  
-* Fortify Evasion Armor            
-* Fortify Healing Rate                
-* Fortify Heavy Armor               
-* Fortify Illusion                        
-* Fortify Lockpicking        
-* Fortify Magicka              
-* Fortify Magicka Regen         
-* Fortify Marksman             
-* Fortify One-Handed              
-* Fortify Pickpocket    
-* Fortify Restoration            
-* Fortify Smithing        
-* Fortify Sneak         
-* Fortify Barter   
-* Fortify Speech      
-* Fortify Stamina  
-* Fortify Stamina Regen 
-* Fortify Two-Handed
-* Fortify Unarmed 
-* Muffle     
-* Resist Disease 
-* Resist Fire 
-* Resist Frost   
-* Resist Magic  
-* Resist Poison          
-* Resist Shock     
-* Waterbreathing     
+## Blacksmiths by Location & Skill
 
-### Reference
-As a reference: Enchantements fabricated by Sergius Turrianus are equal to the ones by the player with Enchanting lvl 100 and all perks except double enchantements (last perk).
-Examples (grand soul):
-* Fortify Skill (1h, 2h, Marksman, Barter): +21% dmg / better price
-* Fortify Skill (Magic-School): 17% reduced costs
-* Fortify Skill (Alchemy, Smithing): +13 points
-* Fortify Stat (Health, Magicka, Stamina): +86 points
-* Fortify Magicka regen = +108% (you can find better ones)
+| Name | Location | Skill | Notes | Investable? |
+|------|----------|-------|-------|-------------|
+| Adrianne Avenicci | Whiterun | 50 | Outside Warmaiden's | ✓ |
+| Ulfberth War-Bear | Whiterun | 50 | Inside Warmaiden's (separate inventory) | ✓ |
+| Alvor | Riverwood | 29 | Opposite general goods store | ✓ |
+| Balimund | Riften | 80 | Outside The Scorched Hammer | ✓ |
+| Asbjorn Fire-Tamer | Riften | 30 | Takes over if Balimund dies | ✓ |
+| Arnskar Ember-Master | Riften | 70 | Ragged Flagon (after Thieves Guild rep) | ✗ |
+| Syndus | Riften | 18 | Front of Ragged Flagon (after guild upgrade) | ✗ |
+| Vanryth Gatharian | Riften | 57 | Front of Ragged Flagon (after guild upgrade) | ✗ |
+| Ghorza gra-Bagol | Markarth | 80 | Building over river | ✓ |
+| Moth gro-Bagol | Markarth | 90 | Understone Keep | ✗ |
+| Beirand | Solitude | 80 | Stairs opposite market | ✓ |
+| Heimvar | Solitude | 20 | Takes over if Beirand dies | ✗ |
+| Oengul War-Anvil | Windhelm | 60 | Before the market | ✓ |
+| Gharol | Dushnikh Yal (Orc Stronghold) | 50 | Southern hut near mine | ✗ |
+| Shuftharz | Mor Khazgur (Orc Stronghold) | 50 | Southern hut | ✗ |
+| Filnjar | Shor's Stone | 29 | Main road north of Riften | ✗ |
+| Lod | Falkreath | 50 | Run straight from carriage | ✗ |
+| Rustleif | Dawnstar | 29 | First house on right | ✓ |
+| Seren | Dawnstar | 35 | First house on right | ✓ |
+| Glover Mallory | Raven Rock | 80 | Outside marketplace | ✗ |
+| Gunmar | Fort Dawnguard | 70 | Dawnguard faction required | ✗ |
+| Hestla | Volkihar Keep | 45 | Volkihar faction required | ✗ |
+| Baldor Iron-Shaper | Skaal Village | 90 | By his forge (Dragonborn DLC) | ✗ |
+| Dushnamub | Gloombound Mine | 80 | Below mine, Dwarven stronghold | ✗ |
+
+**Strategy Tip:** Look for investable smiths (marked ✓) if you want to improve their reputation and barter better prices. High-skill smiths (90+) like Moth gro-Bagol and Baldor produce superior gear but aren't investable.
+
+---
+
+## Enchanters by Location & Skill
+
+| Hold | Town | Enchanter | Location | Skill |
+|------|------|-----------|----------|-------|
+| Haafingar | Solitude | Sybille Stentor | Blue Palace | 60 |
+| Haafingar | Solitude | Melaran | Erikur's House / Blue Palace (if Sybille dies) | 60 |
+| Haafingar | Solitude | Sassia the Enchantress | Outlaw Refuge | 60 |
+| Eastmarch | Windhelm | Wuunferth the Unliving | Palace of the Kings | 70 |
+| Eastmarch | Kynesgrove | Dravynea the Stoneweaver | Braidwood Inn (if Wuunferth dies/jailed) | 45 |
+| The Pale | Dawnstar | Madena | The White Hall | 15 |
+| The Reach | Markarth | Calcelmo | Understone Keep | 80 |
+| The Reach | Markarth | Aicantar | Understone Keep (if Calcelmo dies) | 50 |
+| The Reach | Markarth | Hamal | Temple of Dibella | 90 |
+| The Rift | Riften | Wylandriah | Mistveil Keep | 65 |
+| Whiterun Hold | Whiterun | Farengar Secret-Fire | Dragonsreach | 55 |
+| Winterhold | Winterhold | Sergius Turrianus | College of Winterhold | 100 |
+| Solstheim | Raven Rock | Neloth | Tel Mithryn (Dragonborn DLC) | 100 |
+
+**Best Enchanters:** Sergius (Winterhold, Skill 100) and Neloth (Raven Rock, Skill 100) produce the highest-quality enchantments. Hamal (Markarth, Skill 90) is the strongest non-DLC option.
+
+---
+
+## Available Enchantments
+
+### Weapon Enchantments
+Absorb Health, Absorb Magicka, Absorb Stamina, Banish, Fear, Fire Damage, Frost Damage, Magicka Damage, Paralyze, Shock Damage, Soul Trap, Stamina Damage, Turn Undead
+
+### Armor Enchantments
+**Fortify Skills:** Alchemy, Alteration, Block, Barter, Destruction, Evasion Armor, Healing Rate, Heavy Armor, Illusion, Lockpicking, Marksman, One-Handed, Pickpocket, Restoration, Smithing, Sneak, Speech, Two-Handed, Unarmed
+
+**Fortify Stats:** Carry Weight, Health, Magicka, Magicka Regen, Stamina, Stamina Regen
+
+**Resistance:** Disease, Fire, Frost, Magic, Poison, Shock, Waterbreathing
+
+**Other:** Conjuration, Muffle
+
+### Enchantment Potency Reference
+
+High-skill enchanters (Sergius at 100) produce approximately 30-50% stronger effects than player enchanting at 100 with all perks:
+- **Fortify Skill (Combat):** +21% damage/barter improvement
+- **Fortify Skill (Magic):** -17% spell costs
+- **Fortify Skill (Crafting):** +13 points (Alchemy, Smithing)
+- **Fortify Stat:** +86 points (Health, Magicka, Stamina)
+- **Fortify Magicka Regen:** +108%
+
+---
+
+## Strategic Application
+
+**When should you use NPC services?**
+
+- **Mid-game gear upgrades:** You've outgrown starting equipment but lack smithing perks
+- **Rare material use:** You found dragon bones but don't want to invest in Smithing
+- **Exotic enchantments:** You want effects you don't have disenchanted items for
+- **Time-sensitive gaps:** You need gear improved NOW, not after grinding Smithing
+
+**Cost management:**
+- Invest in smiths with high Barter to reduce service costs
+- Use low-skill smiths for cheap repairs on non-critical gear
+- Save high-skill enchanters for important equipment (weapons, main armor)
+
+---
+
+## Next Steps
+
+You've mastered NPC services and completed the core mechanics guide! Now expand your knowledge:
+
+1. **Explore [Start Here in Wildlander World](https://wiki.wildlandermod.com/04-WildlanderWorld/0-Start-Here/)** - Learn world systems and advanced mechanics
+2. **Reference [Enchantments Analysis](https://wiki.wildlandermod.com/04-WildlanderWorld/11-Enchantements/)** - Deep dive into specific enchantment effects
+3. **Consult [Tempering](https://wiki.wildlandermod.com/04-WildlanderWorld/1-Tempering/)** - Understand gear progression and durability
+
+**Congratulations!** You've completed the core Wildlander mechanics guide. You now understand character building, survival, combat, gear management, and NPC services. Use this knowledge, adapt to challenges, and most importantly—have fun exploring Skyrim's dangerous world.
 
 

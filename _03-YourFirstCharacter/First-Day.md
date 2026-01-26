@@ -14,7 +14,7 @@ description: Starting your first day
 
 1. **Allocate your 6 perk points** - Don't skip this! Assign them to your build
 2. **Set up the "Q" Favorites menu** - Assign hotkeys (0-8) for quick weapon/spell switching
-3. **Review keybindings** - Press F11 to see all critical hotkeys
+3. **Review keybindings** - Press **F11** to see all critical hotkeys
 4. **Go to Riverwood** - It's the safest starting location. Run north from Whiterun Inn
 
 ---
@@ -27,8 +27,8 @@ Your FIRST priority is staying alive. Get these items and skills working:
 
 | Need | Action | Hotkey |
 |------|--------|--------|
-| **Drinking** | Find a river and drink | `;` |
-| **Cooking** | Cook raw meat at a campfire | `Right Shift` |
+| **Drinking** | Find a river and drink | **;** |
+| **Cooking** | Cook raw meat at a campfire | **Right Shift** |
 | **Milk** | Press E near cows to collect | E |
 
 {: .note}
@@ -37,7 +37,7 @@ Dehydration and hunger will kill you faster than enemies. Drink and eat constant
 ### 2. Warmth & Sleep (ESSENTIAL)
 
 - **Get a tent** (find a free one, craft one, or buy from a merchant) to sleep in - refunds magicka and stamina
-  - {: .note} Tents restore sleep need but don't provide "Well Rested" bonuses. Inn beds give both sleep restoration AND the Well Rested buff (+10% all skills for 8 hours)
+- Tents restore sleep need but don't provide "Well Rested" bonuses. Inn beds give both sleep restoration AND the Well Rested buff (+10% all skills for 8 hours)
 - **Build a campfire** when traveling to reduce exposure
 - Check your **Exposure gauge** (bottom right of screen) - it rises in cold/wet weather
 
@@ -48,7 +48,7 @@ Dehydration and hunger will kill you faster than enemies. Drink and eat constant
 
 ### 3. Cleanliness (IMPORTANT)
 
-- **Bathe in rivers regularly** (Hotkey `'/@`)
+- **Bathe in rivers regularly** (Hotkey **'/@**)
 - Dirtiness reduces your speech skill and disease resistance
 - **Always bathe before buying/selling** to get better prices
 
@@ -67,7 +67,7 @@ You need gold to buy gear and food. Here are your best options ranked by profit:
 
 ### Good: Foraging & Herbalism
 
-- Use Forage ability (Hotkey `>`) to search for plants
+- Use Forage ability (Hotkey **>**) to search for plants
 - Pick all herbs you see - they all sell
 - Combine with cooking for extra value
 
@@ -84,7 +84,7 @@ You need gold to buy gear and food. Here are your best options ranked by profit:
 
 ### Tip: Always Bathe Before Selling
 
-Dirtiness reduces your speech skill and disease resistance. Always bathe in a river (Hotkey `'/@`) before visiting merchants to get better prices.
+Dirtiness reduces your speech skill and disease resistance. Always bathe in a river (Hotkey **'/@**) before visiting merchants to get better prices.
 
 **IMPORTANT**: Make sure you're **fully clothed** (at least a chest piece) before selling. Nudity has harsh selling penalties. This is especially critical when handing your primary armor to [NPCs for upgrades](https://wiki.wildlandermod.com/_09-How-Do-i/NPC-Crafting-Services/)—always have backup clothing to wear while they work on your gear.
 
@@ -92,7 +92,7 @@ Dirtiness reduces your speech skill and disease resistance. Always bathe in a ri
 
 ## Safe Combat Practice
 
-If you want to level combat skills without risking your life, use **Training Dummies** in major cities. These are free, safe, and give you XP for practicing combat. Simply activate them (press `E`) and you can practice combat safely before fighting real enemies.
+If you want to level combat skills without risking your life, use **Training Dummies** in major cities. These are free, safe, and give you XP for practicing combat. Simply activate them (press **E**) and you can practice combat safely before fighting real enemies.
 
 ---
 
@@ -103,7 +103,7 @@ If you want to level combat skills without risking your life, use **Training Dum
 - [ ] Armor/clothing for your build
 - [ ] Hunting knife (for harvesting dead animals)
 - [ ] 1+ waterskin (for portable water)
-- [ ] Iron Lantern (press `L` to toggle; better than torches)
+- [ ] Iron Lantern (press **L** to toggle; better than torches)
 - [ ] Survival toolkit (essential for camping and survival)
 
 **Important (Strongly Recommended):**
@@ -125,16 +125,16 @@ If you want to level combat skills without risking your life, use **Training Dum
 
 | Hotkey | Action |
 |--------|--------|
-| `Q` | Favorites menu (assign weapons/spells) |
-| `Right Shift` | Start cooking at campfire |
-| `;` | Drink from water source |
-| `<` | Build/interact with campfire |
-| `>` | Forage for plants |
-| `?` | Breakdown items |
-| `L` | Toggle lantern on/off |
-| `'/@` | Bathe in water |
-| `E` | Generic interact key |
-| `F11` | Show all keybindings |
+| **Q** | Favorites menu (assign weapons/spells) |
+| **Right Shift** | Start cooking at campfire |
+| **;** | Drink from water source |
+| **<** | Build/interact with campfire |
+| **>** | Forage for plants |
+| **?** | Breakdown items |
+| **L** | Toggle lantern on/off |
+| **'/@** | Bathe in water |
+| **E** | Generic interact key |
+| **F11** | Show all keybindings |
 
 ---
 
@@ -144,7 +144,7 @@ If you want to level combat skills without risking your life, use **Training Dum
 
 **Armor & Clothing stats**: Cover protects from wet weather, Warmth protects from cold. Pick appropriate gear for where you're traveling.
 
-**Waterskins** let you carry portable water (fill from any river or use hotkey `;`). Better than manually drinking every time.
+**Waterskins** let you carry portable water (fill from any river or use hotkey **;**). Better than manually drinking every time.
 
 ---
 
@@ -175,9 +175,12 @@ By level 5, you'll have: better gear, more perks, full supplies, and be ready fo
 
 ---
 
-## See Also
+## Next Steps
 
-- [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/) - Full guide to exposure, warmth, cleanliness
-- [Magic Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/) - How magic works in Requiem
-- [Leveling Up](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/) - Skills and experience
-- [Carry Weight](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/) - Managing your inventory
+You've survived your first day! Continue your journey with recommended reading order:
+
+1. **Read [Leveling your Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/)** - Master skill and perk progression
+2. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Stamina/)** - Manage your resources for combat effectiveness
+3. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Health/)** - Learn healing strategies for every situation
+
+See also: [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/), [Magic Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/), [Carry Weight](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)
