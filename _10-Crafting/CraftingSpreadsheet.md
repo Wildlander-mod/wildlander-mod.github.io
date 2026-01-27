@@ -31,10 +31,7 @@ Use the search bar and filters below to find specific recipes by workbench type.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
-let filterTimeout;
-
 $(document).ready(function(){
-  // Delay initialization to ensure table is fully rendered
   setTimeout(function() {
     initAllRecipesFilters();
     initAllRecipesTooltips();
@@ -52,9 +49,10 @@ function initAllRecipesFilters() {
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
-    const workbenchCell = row.querySelector('td:nth-child(2)');
-    if (workbenchCell) {
-      workbenches.add(workbenchCell.textContent.trim());
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 2) {
+      const workbench = cells[1]?.textContent.trim();
+      if (workbench) workbenches.add(workbench);
     }
   });
   
@@ -74,57 +72,62 @@ function initAllRecipesFilters() {
   const searchInput = document.getElementById('allrecipesSearch');
   const clearButton = document.getElementById('allrecipesClearFilters');
   
-  if (searchInput) searchInput.addEventListener('keyup', debounceFilter);
+  if (searchInput) searchInput.addEventListener('input', filterAllRecipesTable);
   if (select) select.addEventListener('change', filterAllRecipesTable);
   if (clearButton) clearButton.addEventListener('click', clearAllRecipesFilters);
-}
-
-function debounceFilter() {
-  clearTimeout(filterTimeout);
-  filterTimeout = setTimeout(filterAllRecipesTable, 300);
+  
+  updateAllRecipesFilterCount();
 }
 
 function filterAllRecipesTable() {
-  const searchTerm = document.getElementById('allrecipesSearch').value.toLowerCase();
-  const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter').value;
-  
   const table = document.querySelector('.crafting-spreadsheet-table table');
+  if (!table) {
+    console.warn('Crafting Spreadsheet table not found');
+    return;
+  }
+  
+  const searchTerm = document.getElementById('allrecipesSearch')?.value.toLowerCase() || '';
+  const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter')?.value || '';
+  
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
-  let visibleCount = 0;
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     const itemName = cells[0]?.textContent.toLowerCase() || '';
     const workbench = cells[1]?.textContent.trim() || '';
     const itemsRequired = cells[6]?.textContent.toLowerCase() || '';
     
-    const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const filterMatch = !workbenchFilter || workbench === workbenchFilter;
+    const matchesSearch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
+    const matchesWorkbench = !workbenchFilter || workbench === workbenchFilter;
     
-    const isVisible = searchMatch && filterMatch;
+    const isVisible = matchesSearch && matchesWorkbench;
     row.style.display = isVisible ? '' : 'none';
-    if (isVisible) visibleCount++;
   });
   
-  updateAllRecipesFilterCount(visibleCount, rows.length);
+  updateAllRecipesFilterCount();
 }
 
-function updateAllRecipesFilterCount(visible, total) {
+function updateAllRecipesFilterCount() {
+  const table = document.querySelector('.crafting-spreadsheet-table table');
+  if (!table) return;
+  
+  const allRows = table.querySelectorAll('tbody tr');
+  const visibleRows = Array.from(allRows).filter(row => row.style.display !== 'none');
+  
   const counter = document.getElementById('allrecipesFilterResultCount');
   if (counter) {
-    counter.textContent = `Showing ${visible} of ${total} recipes`;
+    counter.textContent = `Showing ${visibleRows.length} of ${allRows.length} recipes`;
   }
 }
 
 function clearAllRecipesFilters() {
-  document.getElementById('allrecipesSearch').value = '';
-  document.getElementById('allrecipesWorkbenchFilter').value = '';
+  const searchInput = document.getElementById('allrecipesSearch');
+  const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter');
   
-  const table = document.querySelector('.crafting-spreadsheet-table table');
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  rows.forEach(row => row.style.display = '');
+  if (searchInput) searchInput.value = '';
+  if (workbenchFilter) workbenchFilter.value = '';
   
-  updateAllRecipesFilterCount(rows.length, rows.length);
+  filterAllRecipesTable();
 }
 
 function initAllRecipesTooltips() {
@@ -135,7 +138,6 @@ function initAllRecipesTooltips() {
   }
   
   const rows = Array.from(table.querySelectorAll('tbody tr'));
-  console.log(`Initializing tooltips for ${rows.length} rows`);
   
   rows.forEach(row => {
     const itemCell = row.querySelector('td:first-child');
