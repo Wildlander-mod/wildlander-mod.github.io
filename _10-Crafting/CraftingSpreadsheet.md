@@ -32,19 +32,18 @@ Use the search bar and filters below to find specific recipes by workbench type.
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  setTimeout(function() {
-    initAllRecipesFilters();
-    initAllRecipesTooltips();
-  }, 200);
+  setTimeout(initAllRecipesPage, 300);
 });
 
-function initAllRecipesFilters() {
+function initAllRecipesPage() {
   const table = document.querySelector('.crafting-spreadsheet-table table');
-  if (!table) {
-    console.warn('Crafting Spreadsheet table not found');
-    return;
-  }
+  if (!table) return;
   
+  initAllRecipesFilters(table);
+  initAllRecipesTooltips(table);
+}
+
+function initAllRecipesFilters(table) {
   const workbenches = new Set();
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
@@ -57,60 +56,54 @@ function initAllRecipesFilters() {
   });
   
   const select = document.getElementById('allrecipesWorkbenchFilter');
-  if (!select) {
-    console.warn('Workbench filter select not found');
-    return;
+  if (select) {
+    Array.from(workbenches).sort().forEach(bench => {
+      const option = document.createElement('option');
+      option.value = bench;
+      option.textContent = bench;
+      select.appendChild(option);
+    });
+    select.addEventListener('change', function() { filterAllRecipesTable(table); });
   }
-  
-  Array.from(workbenches).sort().forEach(bench => {
-    const option = document.createElement('option');
-    option.value = bench;
-    option.textContent = bench;
-    select.appendChild(option);
-  });
   
   const searchInput = document.getElementById('allrecipesSearch');
-  const clearButton = document.getElementById('allrecipesClearFilters');
-  
-  if (searchInput) searchInput.addEventListener('input', filterAllRecipesTable);
-  if (select) select.addEventListener('change', filterAllRecipesTable);
-  if (clearButton) clearButton.addEventListener('click', clearAllRecipesFilters);
-  
-  updateAllRecipesFilterCount();
-}
-
-function filterAllRecipesTable() {
-  const table = document.querySelector('.crafting-spreadsheet-table table');
-  if (!table) {
-    console.warn('Crafting Spreadsheet table not found');
-    return;
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { filterAllRecipesTable(table); });
   }
   
-  const searchTerm = document.getElementById('allrecipesSearch')?.value.toLowerCase() || '';
-  const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter')?.value || '';
+  const clearButton = document.getElementById('allrecipesClearFilters');
+  if (clearButton) {
+    clearButton.addEventListener('click', function() { clearAllRecipesFilters(table); });
+  }
+  
+  updateAllRecipesFilterCount(table);
+}
+
+function filterAllRecipesTable(table) {
+  const searchInput = document.getElementById('allrecipesSearch');
+  const searchTerm = (searchInput?.value || '').toLowerCase();
+  
+  const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter');
+  const filterValue = workbenchFilter?.value || '';
   
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const itemName = cells[0]?.textContent.toLowerCase() || '';
-    const workbench = cells[1]?.textContent.trim() || '';
-    const itemsRequired = cells[6]?.textContent.toLowerCase() || '';
+    const itemName = (cells[0]?.textContent || '').toLowerCase();
+    const workbench = (cells[1]?.textContent || '').trim();
+    const itemsRequired = (cells[6]?.textContent || '').toLowerCase();
     
     const matchesSearch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const matchesWorkbench = !workbenchFilter || workbench === workbenchFilter;
+    const matchesFilter = !filterValue || workbench === filterValue;
     
-    const isVisible = matchesSearch && matchesWorkbench;
-    row.style.display = isVisible ? '' : 'none';
+    row.style.display = (matchesSearch && matchesFilter) ? '' : 'none';
   });
   
-  updateAllRecipesFilterCount();
+  updateAllRecipesFilterCount(table);
 }
 
-function updateAllRecipesFilterCount() {
-  const table = document.querySelector('.crafting-spreadsheet-table table');
-  if (!table) return;
-  
+function updateAllRecipesFilterCount(table) {
   const allRows = table.querySelectorAll('tbody tr');
   const visibleRows = Array.from(allRows).filter(row => row.style.display !== 'none');
   
@@ -120,23 +113,17 @@ function updateAllRecipesFilterCount() {
   }
 }
 
-function clearAllRecipesFilters() {
+function clearAllRecipesFilters(table) {
   const searchInput = document.getElementById('allrecipesSearch');
   const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter');
   
   if (searchInput) searchInput.value = '';
   if (workbenchFilter) workbenchFilter.value = '';
   
-  filterAllRecipesTable();
+  filterAllRecipesTable(table);
 }
 
-function initAllRecipesTooltips() {
-  const table = document.querySelector('.crafting-spreadsheet-table table');
-  if (!table) {
-    console.warn('Crafting Spreadsheet table not found');
-    return;
-  }
-  
+function initAllRecipesTooltips(table) {
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -153,16 +140,14 @@ function initAllRecipesTooltips() {
 
 function showAllRecipesTooltip(event, row) {
   const cells = row.querySelectorAll('td');
-  const data = {
-    itemName: cells[0]?.textContent || '',
-    workbench: cells[1]?.textContent || '',
-    qtyMade: cells[2]?.textContent || '',
-    perksNeeded: cells[3]?.textContent || '',
-    toolkitsReq: cells[4]?.textContent || '',
-    proximity: cells[5]?.textContent || '',
-    itemsRequired: cells[6]?.textContent || '',
-    additionalReqs: cells[7]?.textContent || ''
-  };
+  const itemName = cells[0]?.textContent || '';
+  const workbench = cells[1]?.textContent || '';
+  const qtyMade = cells[2]?.textContent || '';
+  const perksNeeded = cells[3]?.textContent || '';
+  const toolkitsReq = cells[4]?.textContent || '';
+  const proximity = cells[5]?.textContent || '';
+  const itemsRequired = cells[6]?.textContent || '';
+  const additionalReqs = cells[7]?.textContent || '';
   
   let tooltip = document.getElementById('allrecipes-tooltip');
   if (!tooltip) {
@@ -172,16 +157,15 @@ function showAllRecipesTooltip(event, row) {
     document.body.appendChild(tooltip);
   }
   
-  tooltip.innerHTML = `
-    <div><strong>Item:</strong> ${data.itemName}</div>
-    <div><strong>Workbench:</strong> ${data.workbench || 'N/A'}</div>
-    <div><strong>Qty:</strong> ${data.qtyMade || 'N/A'}</div>
-    <div><strong>Perks:</strong> ${data.perksNeeded || 'None'}</div>
-    <div><strong>Toolkits:</strong> ${data.toolkitsReq || 'N/A'}</div>
-    <div><strong>Proximity:</strong> ${data.proximity || 'N/A'}</div>
-    <div><strong>Items Required:</strong> ${data.itemsRequired || 'N/A'}</div>
-    <div><strong>Additional:</strong> ${data.additionalReqs || 'None'}</div>
-  `;
+  tooltip.innerHTML = '<div><strong>Item:</strong> ' + itemName + '</div>' +
+    '<div><strong>Workbench:</strong> ' + (workbench || 'N/A') + '</div>' +
+    '<div><strong>Qty:</strong> ' + (qtyMade || 'N/A') + '</div>' +
+    '<div><strong>Perks:</strong> ' + (perksNeeded || 'None') + '</div>' +
+    '<div><strong>Toolkits:</strong> ' + (toolkitsReq || 'N/A') + '</div>' +
+    '<div><strong>Proximity:</strong> ' + (proximity || 'N/A') + '</div>' +
+    '<div><strong>Items:</strong> ' + (itemsRequired || 'N/A') + '</div>' +
+    '<div><strong>Additional:</strong> ' + (additionalReqs || 'None') + '</div>';
+  
   tooltip.style.display = 'block';
   tooltip.style.left = event.pageX + 10 + 'px';
   tooltip.style.top = event.pageY + 10 + 'px';
