@@ -1889,3 +1889,61 @@ $light-text: #e6e6e6;
   margin-top: 8px;
 }
 
+// Weapons
+.weapons-controls {
+  @extend .table-controls;
+}
+
+.weapons-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-weapons {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+// Ammunition
+.ammunition-controls {
+  @extend .table-controls;
+}
+
+.ammunition-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-ammunition {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+.armor-controls {
+  @extend .table-controls;
+}
+
+.armor-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-armor {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+
+.unique-weapons-controls {
+  @extend .table-controls;
+}
+
+.unique-weapons-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-unique-weapons {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+

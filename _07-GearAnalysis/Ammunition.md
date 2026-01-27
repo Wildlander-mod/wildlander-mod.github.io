@@ -5,7 +5,59 @@ nav_order: 3
 description: Ammunition types, damage, and material analysis.
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  initAmmunitionFilters();
+});
+
+function initAmmunitionFilters() {
+  document.getElementById('ammunitionSearch').addEventListener('keyup', filterAmmunitionTable);
+  document.getElementById('ammunitionClearFilters').addEventListener('click', clearAmmunitionFilters);
+  filterAmmunitionTable();
+}
+
+function filterAmmunitionTable() {
+  const searchTerm = document.getElementById('ammunitionSearch').value.toLowerCase();
+  
+  const table = document.querySelector('.ammunition-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  let visibleCount = 0;
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const ammoName = cells[0]?.textContent.toLowerCase() || '';
+    
+    const isVisible = ammoName.includes(searchTerm);
+    row.style.display = isVisible ? '' : 'none';
+    if (isVisible) visibleCount++;
+  });
+  
+  updateAmmunitionFilterCount(visibleCount, rows.length);
+}
+
+function updateAmmunitionFilterCount(visible, total) {
+  const counter = document.getElementById('ammunitionFilterResultCount');
+  if (counter) {
+    counter.textContent = `Showing ${visible} of ${total} ammunition`;
+  }
+}
+
+function clearAmmunitionFilters() {
+  document.getElementById('ammunitionSearch').value = '';
+  filterAmmunitionTable();
+}
+</script>
+
 <a class="btn btn-pink" href="https://docs.google.com/spreadsheets/d/1Xp1LE79R4uHC2yP7KkA2p1sS-l_TkaRAQfdHV4t0aOM/edit#gid=0" target="_blank" rel="noopener noreferrer">Direct link <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>
+
+<div class="ammunition-controls">
+  <input type="text" id="ammunitionSearch" placeholder="Search ammunition by name..." />
+  <button id="ammunitionClearFilters" onclick="clearAmmunitionFilters()">Clear Filters</button>
+  <div id="ammunitionFilterResultCount" class="filter-result-count-ammunition"></div>
+</div>
+
+<div class="ammunition-table" markdown="1">
 
 FULL Name|Damage|Value|AP% |Materiel Flags|
 --|--|--|--|--|--|--|
@@ -98,3 +150,5 @@ Steel Bolt of Fire|70|15|9|Standard, Enchanted
 Steel Bolt of Ice|70|15|9|Standard, Enchanted
 Steel Bolt of Shock|70|15|9|Standard, Enchanted
 Sunhallowed Elven Arrow|83|100|10|Silver, Enchanted
+
+</div>

@@ -8,13 +8,45 @@ description: Weapon types, damage scaling, and comparative analysis.
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("#myInputBox").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myTable tbody tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
+  initWeaponsFilters();
 });
+
+function initWeaponsFilters() {
+  document.getElementById('weaponsSearch').addEventListener('keyup', filterWeaponsTable);
+  document.getElementById('weaponsClearFilters').addEventListener('click', clearWeaponsFilters);
+  filterWeaponsTable();
+}
+
+function filterWeaponsTable() {
+  const searchTerm = document.getElementById('weaponsSearch').value.toLowerCase();
+  
+  const table = document.querySelector('.weapons-table table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  let visibleCount = 0;
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const weaponName = cells[0]?.textContent.toLowerCase() || '';
+    
+    const isVisible = weaponName.includes(searchTerm);
+    row.style.display = isVisible ? '' : 'none';
+    if (isVisible) visibleCount++;
+  });
+  
+  updateWeaponsFilterCount(visibleCount, rows.length);
+}
+
+function updateWeaponsFilterCount(visible, total) {
+  const counter = document.getElementById('weaponsFilterResultCount');
+  if (counter) {
+    counter.textContent = `Showing ${visible} of ${total} weapons`;
+  }
+}
+
+function clearWeaponsFilters() {
+  document.getElementById('weaponsSearch').value = '';
+  filterWeaponsTable();
+}
 </script>
 
 
@@ -22,7 +54,13 @@ $(document).ready(function(){
 
 Note: Swing speed is defined as the amount of swings the weapon can do in a second,  the higher number the faster the weapon.
 
-<input type="text" id="myInputBox" placeholder="Search for Weapon.." >
+<div class="weapons-controls">
+  <input type="text" id="weaponsSearch" placeholder="Search weapons by name..." />
+  <button id="weaponsClearFilters" onclick="clearWeaponsFilters()">Clear Filters</button>
+  <div id="weaponsFilterResultCount" class="filter-result-count-weapons"></div>
+</div>
+
+<div class="weapons-table" markdown="1">
 
 FULL Name|Base Damage (excluding perks)|Value|Weight|Swing Speed|Reach|Damage Per Second (Not including Enchants)
 --|--|--|--|--|--|--|
@@ -341,6 +379,8 @@ Steel War Axe|54|55|12|0.9|0.7|49
 Steel Warhammer|120|110|25|0.6|0.91|72
 Stone Hatchet|30|10|7|0.9|0.7|27
 Stone Hunting Knife|12|4|1.5|1.3|0.49|16
+
+</div>
 Stormcloak Heavy Crossbow|60|145|12|0.4445|1|27
 Stormfang|102|500|17|0.8|0.91|82
 Sword of Soulreaping|11|30|11|1|1|11

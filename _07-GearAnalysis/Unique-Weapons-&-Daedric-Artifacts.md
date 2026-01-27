@@ -5,9 +5,87 @@ nav_order: 4
 description: Unique and legendary weapons, artifacts, and daedric items.
 ---
 
----
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  initUniqueWeaponsFilters();
+});
 
----
+function initUniqueWeaponsFilters() {
+  document.getElementById('uniqueWeaponsSearch').addEventListener('keyup', filterUniqueWeaponsTable);
+  document.getElementById('uniqueWeaponsClearFilters').addEventListener('click', clearUniqueWeaponsFilters);
+  filterUniqueWeaponsTable();
+}
+
+function filterUniqueWeaponsTable() {
+  const searchTerm = document.getElementById('uniqueWeaponsSearch').value.toLowerCase();
+  
+  const container = document.querySelector('.unique-weapons-table');
+  const items = container.querySelectorAll('hr');
+  let visibleCount = 0;
+  let totalCount = 0;
+  
+  // Get all <hr> separators and the content between them
+  let currentVisible = true;
+  let currentItemName = '';
+  
+  Array.from(container.childNodes).forEach((node, index) => {
+    if (node.nodeName === 'HR') {
+      totalCount++;
+    } else if (node.nodeName === 'P' && node.textContent.startsWith('|')) {
+      currentItemName = node.textContent.toLowerCase();
+    }
+  });
+  
+  // Simple approach: show/hide hr sections based on search
+  const sections = container.querySelectorAll('hr');
+  let currentSection = [];
+  
+  Array.from(container.childNodes).forEach(node => {
+    if (node.nodeName === 'HR') {
+      if (currentSection.length > 0) {
+        const sectionText = currentSection.map(n => n.textContent || '').join(' ').toLowerCase();
+        const isVisible = sectionText.includes(searchTerm);
+        currentSection.forEach(n => n.style.display = isVisible ? '' : 'none');
+        if (isVisible) visibleCount++;
+      }
+      node.style.display = searchTerm ? 'block' : 'block';
+      currentSection = [node];
+    } else if (node.nodeType === Node.ELEMENT_NODE) {
+      currentSection.push(node);
+    }
+  });
+  
+  // Handle last section
+  if (currentSection.length > 0) {
+    const sectionText = currentSection.map(n => n.textContent || '').join(' ').toLowerCase();
+    const isVisible = sectionText.includes(searchTerm);
+    currentSection.forEach(n => n.style.display = isVisible ? '' : 'none');
+    if (isVisible) visibleCount++;
+  }
+  
+  updateUniqueWeaponsFilterCount(visibleCount || sections.length, sections.length);
+}
+
+function updateUniqueWeaponsFilterCount(visible, total) {
+  const counter = document.getElementById('uniqueWeaponsFilterResultCount');
+  if (counter) {
+    counter.textContent = `Showing ${visible} of ${total} items`;
+  }
+}
+
+function clearUniqueWeaponsFilters() {
+  document.getElementById('uniqueWeaponsSearch').value = '';
+  filterUniqueWeaponsTable();
+}
+</script>
+
+<div class="unique-weapons-controls">
+  <input type="text" id="uniqueWeaponsSearch" placeholder="Search items by name..." />
+  <button id="uniqueWeaponsClearFilters" onclick="clearUniqueWeaponsFilters()">Clear Filters</button>
+  <div id="uniqueWeaponsFilterResultCount" class="filter-result-count-unique-weapons"></div>
+</div>
+
 
 ## Index
 {: .no_toc .text-delta }
@@ -20,9 +98,13 @@ description: Unique and legendary weapons, artifacts, and daedric items.
 {:toc}
 </details>
 
+
+<div class="unique-weapons-table">
+
 # Daedric Artifacts 
 
 ---
+
 
 | **Azura's Star/The Black Star** \| (Soul Gem) |
 | :--- |
@@ -1175,8 +1257,6 @@ description: Unique and legendary weapons, artifacts, and daedric items.
 |:---|
 |- *Drinking The White Phial (Full) moves it to Misc section as The White Phial (Empty) and will refill after 24 hours.<br/>- Effect of The White Phial differs based on decisions made during "Repairing the Phial".*<br/><sup>~ "I'd like it to have the power of healing." (Restores Health 500 points.)<br/>~ "I want to be tougher in battle." (Fortify Stamina 500 points for 300 seconds.)<br/>~ "I want to strengthen my magical skills." (Fortify Magicka 500 points for 300 seconds.)<br/>~ "I want to resist the forces of magic." (Magic Resist 100% for 60 seconds.)<br/>~ "I want to deal more damage in battle." (Fortify 1H, 2H, and Marksman Damage 50% for 30 seconds. fortify Armor penetration by 50 for 30 seconds)<br/>~ "I want to be better hidden in the shadows." (Fortify Sneaking 20% for 3600 seconds.)<sup/>|
 
----
-
 | **Bloodstone Chalice** |
 |:---|
 |- *Activatiing the chalice grants "Blood of the Ancients" for 1-9 days.<br/>- Blood of the Ancients: Your Vampiric Drain spell now absorbs Health, Magicka, and Stamina.<br/>- Duration can be increased by completing "Ancient Power".*|
@@ -1203,3 +1283,4 @@ Healing spells are 10% more effective
 
 ### Sinderion's Serendipity 
 Increases alchemy efficiency by 5%. There is at most a 25% chance of creating a duplicate potion, stacks with Distillation alchemy perk
+</div>
