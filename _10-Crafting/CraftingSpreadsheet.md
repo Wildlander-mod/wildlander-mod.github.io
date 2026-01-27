@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 function initAllRecipesFilters() {
   const workbenches = new Set();
-  const table = document.querySelector('.allrecipes-table table');
+  const table = document.querySelector('.crafting-spreadsheet-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -65,7 +65,7 @@ function filterAllRecipesTable() {
   const searchTerm = document.getElementById('allrecipesSearch').value.toLowerCase();
   const workbenchFilter = document.getElementById('allrecipesWorkbenchFilter').value;
   
-  const table = document.querySelector('.allrecipes-table table');
+  const table = document.querySelector('.crafting-spreadsheet-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
@@ -107,7 +107,7 @@ function clearAllRecipesFilters() {
 }
 
 function initAllRecipesTooltips() {
-  const table = document.querySelector('.allrecipes-table table');
+  const table = document.querySelector('.crafting-spreadsheet-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
