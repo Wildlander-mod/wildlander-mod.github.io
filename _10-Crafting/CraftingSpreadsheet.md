@@ -1,4 +1,4 @@
-﻿---
+---
 title: Crafting Spreadsheet
 layout: default
 nav_order: 8
