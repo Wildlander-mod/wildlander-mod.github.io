@@ -1,7 +1,8 @@
 ---
 title: Crafting Spreadsheet
-layout: default
-nav_order: 8
+layout: table-wide
+nav_order: 1
+parent: Introduction to the Toolkit Crafting System
 has_children: false
 description: Comprehensive crafting spreadsheet reference.
 ---

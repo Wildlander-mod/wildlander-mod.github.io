@@ -2,39 +2,6 @@
 
 This is a Jekyll-based static wiki for the Wildlander Skyrim modlist, deployed via GitHub Pages. All pages are markdown with YAML frontmatter, rendered using the Just-the-Docs theme.
 
-## Important: Airtable Embed Conversion Rules
-
-**NEVER use `{% include %}` for table data in converted Airtable embeds.** Always embed the table content DIRECTLY in the page markdown:
-
-### When Converting Airtable Embeds to Searchable Tables:
-
-1. **Generate markdown table from CSV** using PowerShell script
-2. **Embed table directly in page** - Copy/paste the entire markdown table into the page markdown between HTML wrapper divs
-3. **Add JavaScript search/filter controls** - Script searches the embedded table
-4. **Do NOT use includes** (`{% include TableName.md %}`) - Includes hurt search indexing
-
-### Why Embed, Not Include?
-- ✅ **Embedded tables:** Searchable by Just the Docs, better UX, part of page content
-- ❌ **Included tables:** Not indexed for search, require extra files, harder to maintain
-
-### Exception: Extremely Large Tables (700+ rows)
-- For tables with 700+ rows that would make pages slow, you MAY use includes as a last resort
-- But still prefer embedding when possible
-- Always embed the search/filter controls in the page itself (never in includes)
-
-### Standard Conversion Pattern:
-```
-1. Create CSV → PowerShell script → Generate markdown table
-2. Copy ALL table markdown directly into page markdown
-3. Wrap with: <div class="[page]-table" markdown="1">TABLE</div>
-4. Add search/filter controls with JavaScript
-5. Add CSS to custom.scss
-6. Delete or ignore the generated .md include file - don't use it
-```
-
-## Important: Git Commit Policy
-**DO NOT make git commits automatically.** Only run `git add` and `git commit` commands when the user explicitly requests it (e.g., "commit this" or "save to git"). Always make code changes, but wait for explicit instruction before committing to version control.
-
 ## Critical Architecture & Conventions
 
 ### Folder Structure & Navigation
@@ -55,21 +22,10 @@ has_toc: true             # Optional - adds auto-generated table of contents
 ```
 
 ### Link Naming Convention (CRITICAL)
-**ALL links must use FULL ABSOLUTE wiki URLs with trailing slashes. NEVER use relative paths, shorthand paths, or `.md` extensions:**
-
-**REQUIRED FORMAT:**
-- Display text must match the target path exactly (without leading/trailing slashes)
-- Href must be the complete absolute wiki URL: `https://wiki.wildlandermod.com/path/to/page/`
-- Example: `[10-Crafting/CraftingSpreadsheet](https://wiki.wildlandermod.com/10-Crafting/CraftingSpreadsheet/)`
-
-**FORBIDDEN FORMATS:**
-- ❌ `[Text](Needs.md)` - relative paths with file extensions
-- ❌ `[Text](/10-Crafting/Needs)` - root-relative paths
-- ❌ `[Text](Needs)` - shorthand paths
-- ❌ `[Text](#section)` - internal anchors for cross-page linking
-- ❌ `[Display Text](https://wiki.wildlandermod.com/path/)` where Display Text ≠ path
-
-**Exception:** Only internal page anchors within the same page use `#section-name` format (e.g., `[Jump to Section](#section-name)`)
+**Use full wiki URLs with trailing slashes, NEVER relative paths or `.md` extensions:**
+- ✅ `[Text](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)`
+- ❌ `[Text](Needs.md)` or `[Text](#section)` for cross-page linking
+- **Exception:** Only internal page anchors use `#section-name` format
 
 ## Content Patterns & Styling
 
@@ -119,56 +75,6 @@ has_toc: true             # Optional - adds auto-generated table of contents
   - ✅ Correct: `### Heading\n\n| col | col |`
 - **Code blocks:** Only for crafting recipes and formulas—NOT for highlighting syntax or general emphasis.
 - Use backticks ` for inline elements (except hotkeys—use **bold** instead).
-
-### CSS Class Naming Standard for Searchable Tables
-
-All searchable/filterable tables MUST use page-specific CSS class naming convention:
-
-**Format:** `{kebab-case-page-name}-controls`, `{kebab-case-page-name}-table`, `filter-result-count-{kebab-case-page-name}`
-
-**Examples:**
-- `cooking-recipes-controls`, `cooking-recipes-table`, `filter-result-count-cooking-recipes`
-- `effect-view-controls`, `effect-view-table`, `filter-result-count-effect-view`
-- `jewelry-controls`, `jewelry-table`, `filter-result-count-jewelry`
-- `crafting-spreadsheet-controls`, `crafting-spreadsheet-table`, `filter-result-count-crafting-spreadsheet`
-
-**CSS Base Classes to Extend:**
-- All `{page}-controls` classes should `@extend .table-controls` (provides flexbox layout, input/select styling, button styling)
-- All `{page}-table` classes should `@extend .styled-table-wrapper` (provides markdown table rendering, dark styling, hover effects)
-- All `filter-result-count-{page}` classes can use standard styles or be customized with: `font-size: 13px; color: #f77ef1; margin-top: 8px;`
-
-**Where to define CSS:**
-- Add all new CSS class definitions to `_sass/custom/custom.scss` in the "Standardized Crafting Tables CSS" or "Standardized Cheat Sheet Tables CSS" sections
-- Use `@extend` to inherit from base `.table-controls` and `.styled-table-wrapper` classes to avoid duplication
-- Example:
-  ```scss
-  .my-page-controls {
-    @extend .table-controls;
-  }
-  .my-page-table {
-    @extend .styled-table-wrapper;
-  }
-  .filter-result-count-my-page {
-    font-size: 13px;
-    color: #f77ef1;
-    margin-top: 8px;
-  }
-  ```
-
-**Filter Dropdown Best Practice:**
-- When a table column contains comma-separated values (e.g., "Smiths,Jewelers" or "Craftsmanship,Advanced Blacksmithing"), split on commas in dropdown population AND filter matching:
-  ```javascript
-  // Populate dropdown with unique values
-  const valueList = cellText.split(',').map(v => v.trim());
-  valueList.forEach(val => {
-    if (val) dropdownSet.add(val);
-  });
-  
-  // Match filter against array
-  const cellList = cellText.split(',').map(v => v.trim());
-  const filterMatch = !filterValue || cellList.includes(filterValue);
-  ```
-- If a table column is empty/no data (e.g., Toolkits Required column has no values), remove that filter entirely from the page
 
 ### Hotkey Formatting
 - **Always use bold:** `**L**` not `` `L` ``
@@ -428,6 +334,41 @@ When CSV source data changes, regenerate from `_includes/` folder:
 3. Verify row count in script output
 4. Commit to trigger Jekyll rebuild
 
+### CSV-to-Page Cross-Reference
+
+**Quick lookup to find which CSV and PowerShell script corresponds to each wiki page:**
+
+| Wiki Page | CSV Source | PowerShell Script | Type |
+|-----------|-----------|------------------|------|
+| `_01Support/FullKnownissues.md` | `Known Issues 2-Grid view.csv` | `Convert-KnownIssuesCSV.ps1` | Include-based |
+| `_07-GearAnalysis/Armor.md` | `Armor.csv` | `Convert-ArmorCSV.ps1` | Embedded |
+| `_10-Crafting/CookingRecipes.md` | `All Crafting Recipes-Cooking Recipes.csv` | `Convert-CookingRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/misc.md` | `All Crafting Recipes-Misc Recipes.csv` | `Convert-MiscRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/raw.md` | `All Crafting Recipes-Raw Materiels.csv` | `Convert-RawMaterialsCSV.ps1` | Embedded |
+| `_10-Crafting/Jewelery.md` | `All Crafting Recipes-Jewellers Recipes.csv` | `Convert-JewelryRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/AlchIng.md` | `All Crafting Recipes-Alchemy Recipes.csv` | `Convert-AlchemyRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/blacksmith.md` | `All Crafting Recipes-Forge Recipes.csv` | `Convert-ForgeRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/Armor-Table-Recipes.md` | `All Crafting Recipes-Armor Table.csv` | `Convert-ArmorTableRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/Ammunition.md` | `All Crafting Recipes-Ammunition.csv` | `Convert-AmmunitionCSV.ps1` | Embedded |
+| `_10-Crafting/Tailor.md` | `All Crafting Recipes-Tailor Recipes.csv` | `Convert-TailorRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/Breakdown-Recipes.md` | `All Crafting Recipes-Breakdown.csv` | `Convert-BreakdownRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/Sharpening-Wheel.md` | `All Crafting Recipes-Sharpening Wheel.csv` | `Convert-SharpeningWheelRecipesCSV.ps1` | Embedded |
+| `_10-Crafting/CraftingSpreadsheet.md` | `All Crafting Recipes-All recipes.csv` | `Convert-CraftingSpreadsheetCSV.ps1` | Embedded |
+| `_12Cheat-Sheets/Alchemy-Effects-by-Ingredient.md` | `Alchemy - Collected.csv` | `Convert-AlchemyIngredientsCSV.ps1` | Embedded |
+| `_12Cheat-Sheets/Alchemy-Ingredient-Effect-List.md` | `Alchemy Ing Effects.csv` | `Convert-AlchemyIngEffectsCSV.ps1` | Embedded |
+| `_12Cheat-Sheets/Effect View.md` | `Effects view.csv` | `Convert-EffectsViewCSV.ps1` | Embedded |
+| `_12Cheat-Sheets/Ingredient View.md` | `Ingridient View.csv` | `Convert-IngredientsViewCSV.ps1` | Embedded |
+| `_12Cheat-Sheets/Solutions-View.md` | `Solutions View.csv` | `Convert-SolutionsViewCSV.ps1` | Embedded |
+| `_12Cheat-Sheets/Spells View.md` | `Spells & Archetypes.csv` | `Convert-SpellsViewCSV.ps1` | Embedded |
+| `_12Cheat-Sheets/Elixir View.md` | `Elixirs Chear sheet.csv` | `Convert-ElixirsViewCSV.ps1` | Embedded |
+
+**How to use this table:**
+- When updating a table on a wiki page, find the page name in the first column
+- Use the corresponding CSV file and PowerShell script from the same row
+- Run the script from `_includes/` folder: `cd _includes && .\AirtableConversionScripts\[ScriptName].ps1`
+- For embedded tables: Copy the generated markdown table to the page
+- For include-based tables: Replace only the table rows, keeping HTML controls and scripts intact
+
 ### Known Issues Table (Example Implementation)
 
 **Files for Known Issues:**
@@ -474,250 +415,4 @@ Some tables are embedded directly in pages instead of using includes, for better
 - No need to update includes separately
 - Table stays on same page with all content
 - Manual copy-paste step required (unlike auto-includes), but ensures search visibility
-
-### Embedded Recipe Tables (Preferred Format for Crafting Pages)
-
-**Preferred approach for all crafting recipe tables.** This format provides best user experience with inline filtering and full search visibility.
-
-**Implementation Pattern (Example: Miscellaneous Recipes):**
-- CSV source: `_includes/DataFromAirtable/All Crafting Recipes-Misc Recipes.csv`
-- Conversion script: `_includes/AirtableConversionScripts/Convert-MiscRecipesCSV.ps1`
-- Page with table: `_10-Crafting/misc.md` (fully embedded)
-- Columns: Item Name, Qty Made, Perks Needed, Toolkits Required, Proximity, Items Required, Additional Requirements
-- Features: Full-text search (on item name + ingredients), toolkit filter, perks filter, result counter
-
-**Step-by-Step for Creating New Embedded Recipe Table:**
-
-**1. Generate PowerShell Conversion Script**
-```powershell
-# Create in _includes/AirtableConversionScripts/Convert-[TableName]CSV.ps1
-$csvPath = 'DataFromAirtable/All Crafting Recipes-[Your Recipe Type].csv'
-$outputFile = '[YourRecipeName]Table.md'
-
-$data = Import-Csv $csvPath
-$md = @()
-$md += '| Column 1 | Column 2 | Column 3 | ... |'
-$md += '|:---|:---:|:---|:---|'
-
-foreach ($row in $data) {
-  if ($row.'Item Name') {
-    $col1 = $row.'Column 1' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
-    $col2 = $row.'Column 2' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
-    # ... process all columns ...
-    $md += "| $col1 | $col2 | $col3 | ... |"
-  }
-}
-
-$md | Out-File $outputFile -Encoding UTF8
-```
-
-**2. Create "How to Use This Page" Instructions Section**
-
-Every embedded recipe table MUST include a "## How to Use This Page" section right before the controls. This explains hover tooltips and filtering:
-
-```markdown
-For more information on obtaining toolkits, see [Crafting System Overview](link).
-
----
-
-## How to Use This Page
-
-**Hover over any Item Name** to see the complete details including:
-- Full effects description
-- All items required for the recipe
-- Additional perks and toolkit requirements
-- Special conditions and quest requirements
-
-Use the search bar and filters below to find specific recipes by type, toolkit, or perks needed.
-
----
-```
-
-**3. Embed in Page with Inline JavaScript and Tooltips**
-- Add jQuery script tag with document ready
-- Create **tooltip functions** for hoverable item names (REQUIRED on first column)
-- Create filter functions for all dropdowns + search box
-- Structure: `<input>` for search, `<select>` for each filter, `<button>` for clear
-- Include `<div class="[recipe]-table" markdown="1">` wrapper around markdown table
-- Close with `</div>`
-
-**4. Hover Tooltips Implementation (REQUIRED)**
-
-All recipe tables MUST include hover tooltips on the first column (Item Name):
-
-```javascript
-function initMiscRecipestooltips() {
-  const table = document.querySelector('.misc-recipes-table table');
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  
-  rows.forEach(row => {
-    const itemCell = row.querySelector('td:first-child');
-    itemCell.style.cursor = 'pointer';
-    itemCell.addEventListener('mouseenter', (e) => showMiscRecipestooltip(e, row));
-    itemCell.addEventListener('mousemove', updateMiscRecipestooltipPosition);
-    itemCell.addEventListener('mouseleave', hideMiscRecipestooltip);
-  });
-}
-
-function showMiscRecipestooltip(event, row) {
-  const cells = row.querySelectorAll('td');
-  const data = {
-    itemName: cells[0]?.textContent || '',
-    qtyMade: cells[1]?.textContent || '',
-    // ... capture all columns ...
-  };
-  
-  let tooltip = document.getElementById('misc-tooltip');
-  if (!tooltip) {
-    tooltip = document.createElement('div');
-    tooltip.id = 'misc-tooltip';
-    tooltip.style.position = 'fixed';
-    tooltip.style.zIndex = '10000';
-    document.body.appendChild(tooltip);
-  }
-  
-  tooltip.innerHTML = `<div><strong>Item:</strong> ${data.itemName}</div>...`;
-  tooltip.style.display = 'block';
-  updateMiscRecipestooltipPosition(event);
-}
-
-function updateMiscRecipestooltipPosition(event) {
-  const tooltip = document.getElementById('misc-tooltip');
-  if (tooltip && tooltip.style.display === 'block') {
-    tooltip.style.left = event.clientX + 10 + 'px';
-    tooltip.style.top = event.clientY + 10 + 'px';
-  }
-}
-
-function hideMiscRecipestooltip() {
-  const tooltip = document.getElementById('misc-tooltip');
-  if (tooltip) tooltip.style.display = 'none';
-}
-```
-
-**Key Tooltip Details:**
-- Use `clientX/clientY` (not `pageX/pageY`) — tooltip follows cursor when scrolling
-- Use `fixed` positioning — stays attached to mouse
-- Add `mousemove` listener — updates as user hovers  
-- Call init on load AND after filtering — new visible rows need listeners
-- Unique ID per page: `[recipe]-tooltip`
-
-**5. Add CSS Styling to custom.scss**
-```scss
-.[recipe]-controls {
-  @extend .table-controls;
-}
-
-.[recipe]-table {
-  @extend .styled-table-wrapper;
-}
-
-// Column widths for each column
-.[recipe]-table th:nth-child(1),
-.[recipe]-table td:nth-child(1) {
-  width: 150px;
-  word-break: break-word;
-  font-weight: 500;
-}
-```
-
-**6. JavaScript Filter Pattern with Tooltip Reinitialization**
-
-Filter function MUST reinitialize tooltips for newly visible rows:
-
-```javascript
-function filterMiscRecipesTable() {
-  const searchTerm = document.getElementById('miscRecipesSearch').value.toLowerCase();
-  const toolkitFilter = document.getElementById('miscToolkitFilter').value;
-  
-  const table = document.querySelector('.misc-recipes-table table');
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  
-  let visibleCount = 0;
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    const itemName = cells[0]?.textContent.toLowerCase() || '';
-    const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
-    const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const filterMatch = !toolkitFilter || cells[3]?.textContent.trim() === toolkitFilter;
-    
-    const isVisible = searchMatch && filterMatch;
-    row.style.display = isVisible ? '' : 'none';
-    if (isVisible) visibleCount++;
-  });
-  
-  updateFilterCountMisc();
-  initMiscRecipestooltips();  // CRITICAL: Reinitialize tooltips
-}
-```
-
-**7. Page Structure**
-```markdown
----
-layout: default
-title: [Recipe Type]
----
-
-## [Recipe Type]
-
-[Intro paragraph about recipes]
-
-For more information on obtaining toolkits, see [link].
-
----
-
-## How to Use This Page
-
-**Hover over any Item Name** to see complete details including:
-- All items required
-- Perks and toolkit requirements
-- Special conditions
-
-Use filters below to find recipes by toolkit or perks.
-
----
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Tooltip functions (init, show, update, hide)
-  // Filter functions (init, filter, update, clear)
-  initMiscRecipesFilters();
-});
-</script>
-
-<div class="misc-recipes-controls">
-  <input type="text" id="miscRecipesSearch" placeholder="Search..." />
-  <select id="miscToolkitFilter"><option value="">All Toolkits</option></select>
-  <button onclick="clearMiscRecipesFilters()">Clear Filters</button>
-</div>
-<div class="filter-result-count-misc" id="filterResultCountMisc"></div>
-
-<div class="misc-recipes-table" markdown="1">
-
-| Column Headers |
-|:---|
-| Table data |
-
-</div>
-```
-
-**Key Best Practices:**
-- **Tooltips REQUIRED:** All recipe tables include hover tooltips on item names
-- **"How to Use" section REQUIRED:** Always include before controls explaining tooltips and filters
-- **Reinitialize tooltips after filtering:** Call tooltip init at end of filter function
-- Search box searches **two columns minimum** (item name + ingredients)
-- Filters work together with AND logic
-- Result counter shows "Showing X of Y recipes"
-- Function names unique per page (include recipe name)
-- Unique tooltip IDs: `[recipe]-tooltip`
-- Use `markdown="1"` for markdown rendering in HTML div
-- Use fixed positioning for smooth scrolling behavior
-
-**Current Implementations:**
-- `CookingRecipes.md` - 237 recipes with tooltips
-- `misc.md` - 234 recipes with tooltips  
-- `raw.md` - 271 recipes with tooltips
-
-
 

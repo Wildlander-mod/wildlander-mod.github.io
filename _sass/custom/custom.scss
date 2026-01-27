@@ -1961,3 +1961,10 @@ $light-text: #e6e6e6;
   margin-top: 8px;
 }
 
+// Wide content layout for large tables - removes max-width constraint
+.main-content-wide {
+  max-width: none !important;
+  width: 100%;
+  padding-right: 2rem;
+}
+
