@@ -975,6 +975,10 @@ $light-text: #e6e6e6;
   @extend .table-tooltip-value;
 }
 
+.allrecipes-tooltip {
+  @extend .table-tooltip;
+}
+
 // Cooking Recipes table specific styles
 .cooking-tooltip {
   @extend .table-tooltip;

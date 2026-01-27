@@ -113,17 +113,18 @@ function clearAllRecipesFilters() {
 
 function initAllRecipesTooltips() {
   const table = document.querySelector('.crafting-spreadsheet-table table');
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  if (!table) {
+    console.warn('Crafting Spreadsheet table not found');
+    return;
+  }
   
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
   rows.forEach(row => {
-    if (row.style.display === 'none') return;
-    
     const itemCell = row.querySelector('td:first-child');
     if (!itemCell) return;
     
     itemCell.style.cursor = 'pointer';
     itemCell.addEventListener('mouseenter', (e) => showAllRecipesTooltip(e, row));
-    itemCell.addEventListener('mousemove', updateAllRecipesTooltipPosition);
     itemCell.addEventListener('mouseleave', hideAllRecipesTooltip);
   });
 }
@@ -145,43 +146,23 @@ function showAllRecipesTooltip(event, row) {
   if (!tooltip) {
     tooltip = document.createElement('div');
     tooltip.id = 'allrecipes-tooltip';
-    tooltip.style.position = 'fixed';
-    tooltip.style.zIndex = '10000';
-    tooltip.style.backgroundColor = '#222222';
-    tooltip.style.color = '#e6e6e6';
-    tooltip.style.border = '2px solid #50098a';
-    tooltip.style.borderRadius = '4px';
-    tooltip.style.padding = '10px';
-    tooltip.style.maxWidth = '400px';
-    tooltip.style.boxShadow = '0 4px 6px rgba(0,0,0,0.3)';
-    tooltip.style.fontSize = '12px';
-    tooltip.style.lineHeight = '1.4';
+    tooltip.className = 'allrecipes-tooltip';
     document.body.appendChild(tooltip);
   }
   
   tooltip.innerHTML = `
-    <div><strong style="color: #f77ef1;">Item:</strong> ${data.itemName}</div>
-    <div><strong style="color: #f77ef1;">Workbench:</strong> ${data.workbench || 'N/A'}</div>
-    <div><strong style="color: #f77ef1;">Qty:</strong> ${data.qtyMade || 'N/A'}</div>
-    <div><strong style="color: #f77ef1;">Perks:</strong> ${data.perksNeeded || 'None'}</div>
-    <div><strong style="color: #f77ef1;">Toolkits:</strong> ${data.toolkitsReq || 'N/A'}</div>
-    <div><strong style="color: #f77ef1;">Proximity:</strong> ${data.proximity || 'N/A'}</div>
-    <div style="margin-top: 8px; border-top: 1px solid #50098a; padding-top: 8px;">
-      <strong style="color: #f77ef1;">Ingredients:</strong><br/>
-      ${data.itemsRequired}
-    </div>
-    ${data.additionalReqs ? `<div style="margin-top: 8px; color: #f77ef1;"><strong>Requirements:</strong><br/>${data.additionalReqs}</div>` : ''}
+    <div><strong>Item Name:</strong> ${data.itemName}</div>
+    <div><strong>Workbench:</strong> ${data.workbench || 'N/A'}</div>
+    <div><strong>Qty Made:</strong> ${data.qtyMade || 'N/A'}</div>
+    <div><strong>Perks Needed:</strong> ${data.perksNeeded || 'None'}</div>
+    <div><strong>Toolkits Required:</strong> ${data.toolkitsReq || 'N/A'}</div>
+    <div><strong>Proximity:</strong> ${data.proximity || 'N/A'}</div>
+    <div><strong>Items Required:</strong> ${data.itemsRequired || 'N/A'}</div>
+    <div><strong>Additional Reqs:</strong> ${data.additionalReqs || 'None'}</div>
   `;
   tooltip.style.display = 'block';
-  updateAllRecipesTooltipPosition(event);
-}
-
-function updateAllRecipesTooltipPosition(event) {
-  const tooltip = document.getElementById('allrecipes-tooltip');
-  if (tooltip && tooltip.style.display === 'block') {
-    tooltip.style.left = event.clientX + 10 + 'px';
-    tooltip.style.top = event.clientY + 10 + 'px';
-  }
+  tooltip.style.left = event.pageX + 10 + 'px';
+  tooltip.style.top = event.pageY + 10 + 'px';
 }
 
 function hideAllRecipesTooltip() {
