@@ -134,6 +134,7 @@ function initAllRecipesTooltips(table) {
     itemCell.style.color = '#f77ef1';
     itemCell.style.fontWeight = '500';
     itemCell.addEventListener('mouseenter', (e) => showAllRecipesTooltip(e, row));
+    itemCell.addEventListener('mousemove', updateAllRecipesTooltipPosition);
     itemCell.addEventListener('mouseleave', hideAllRecipesTooltip);
   });
 }
@@ -167,8 +168,15 @@ function showAllRecipesTooltip(event, row) {
     '<div><strong>Additional:</strong> ' + (additionalReqs || 'None') + '</div>';
   
   tooltip.style.display = 'block';
-  tooltip.style.left = event.pageX + 10 + 'px';
-  tooltip.style.top = event.pageY + 10 + 'px';
+  updateAllRecipesTooltipPosition(event);
+}
+
+function updateAllRecipesTooltipPosition(event) {
+  const tooltip = document.getElementById('allrecipes-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.pageX + 10 + 'px';
+    tooltip.style.top = event.pageY + 10 + 'px';
+  }
 }
 
 function hideAllRecipesTooltip() {
