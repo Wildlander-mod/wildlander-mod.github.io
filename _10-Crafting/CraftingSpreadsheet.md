@@ -192,7 +192,7 @@ function hideAllRecipesTooltip() {
 
 <div class="crafting-spreadsheet-table" markdown="1">
 
-| Produced Item Name | Crafting Workbench | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
+| Produced Item Name | Crafting Workbench | Qty Made | Perks Needed | Toolkits Req. | Proximity | Items Required | Additional Reqs |
 |:---|:---|:---:|:---|:---|:---|:---|:---|
 | Aetherial Crown | Aetherium Forge | 1 |  | N/A | Aetherium Forge | 2 Ingot: Gold 2 Gem: Sapphire (Flawless) 2 Ingot: Dwarven 1 Aetherium Crest |  |
 | Aetherial Crown | Aetherium Forge | 1 |  | N/A | Aetherium Forge | 2 Ingot: Gold 2 Gem: Sapphire (Flawless) 2 Ingot: Dwarven 2 Aetherium Dynamo Core |  |
