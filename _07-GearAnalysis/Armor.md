@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Armor
 nav_order: 1
@@ -14,7 +14,7 @@ The answer to this depends on 3 factors.
 This is the value you see in game is your base armor, and every 10 armor rating is 1% incoming damage negation (up to 80%).
 
 Armor, be it light or heavy, plays a key role in surviving combat. All armors now grant significantly higher armor ratings than in vanilla Skyrim.
-Especially heavy armor grants a lot of protection, allowing you to often shrug off several melee attacks and is almost impenetrable for standard arrows, despite Requiem’s high weapon damage.
+Especially heavy armor grants a lot of protection, allowing you to often shrug off several melee attacks and is almost impenetrable for standard arrows, despite Requiemâ€™s high weapon damage.
 
 ### Resistances
 
@@ -213,3 +213,4 @@ $(document).ready(function(){
 | Light | Hide | 250 | 9 | 250 | 250 | 250 | 250 | 124 | 50 | 38.0 | 38.0 | 75 | 0 | 0 | 0 | 0 |
 
 </div>
+
