@@ -26,14 +26,15 @@ Use the search bar and filter below to find specific armor recipes by perks need
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
 
 function initArmorTabletooltips() {
   const table = document.querySelector('.armor-table-recipes-table table');
+  if (!table) return;
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
     const itemCell = row.querySelector('td:first-child');
+    if (!itemCell) return;
     itemCell.style.cursor = 'pointer';
     itemCell.addEventListener('mouseenter', (e) => showArmorTabletooltip(e, row));
     itemCell.addEventListener('mousemove', updateArmorTabletooltipPosition);
@@ -56,6 +57,13 @@ function showArmorTabletooltip(event, row) {
     tooltip.className = 'armor-table-tooltip';
     tooltip.style.position = 'fixed';
     tooltip.style.zIndex = '10000';
+    tooltip.style.backgroundColor = '#333';
+    tooltip.style.color = '#fff';
+    tooltip.style.padding = '8px 12px';
+    tooltip.style.borderRadius = '4px';
+    tooltip.style.maxWidth = '400px';
+    tooltip.style.wordWrap = 'break-word';
+    tooltip.style.fontSize = '12px';
     document.body.appendChild(tooltip);
   }
   
@@ -81,44 +89,6 @@ function hideArmorTabletooltip() {
   if (tooltip) tooltip.style.display = 'none';
 }
 
-function initArmorTableFilters() {
-  const table = document.querySelector('.armor-table-recipes-table table');
-  if (!table) {
-    console.warn('Armor Table Recipes table not found');
-    return;
-  }
-  
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  const perks = new Set();
-  
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    if (cells.length >= 2) {
-      const perksText = cells[1].textContent.trim();
-      if (perksText && perksText !== '') {
-        perksText.split(',').forEach(perk => {
-          const trimmed = perk.trim();
-          if (trimmed) perks.add(trimmed);
-        });
-      }
-    }
-  });
-  
-  const perksFilter = document.getElementById('armorTablePerksFilter');
-  
-  Array.from(perks).sort().forEach(perk => {
-    const option = document.createElement('option');
-    option.value = perk;
-    option.textContent = perk;
-    perksFilter.appendChild(option);
-  });
-  
-  document.getElementById('armorTableSearch').addEventListener('input', filterArmorTableRecipes);
-  document.getElementById('armorTablePerksFilter').addEventListener('change', filterArmorTableRecipes);
-  initArmorTabletooltips();
-  updateFilterCountArmorTable();
-}
-
 function filterArmorTableRecipes() {
   const searchTerm = document.getElementById('armorTableSearch').value.toLowerCase();
   const perksFilter = document.getElementById('armorTablePerksFilter').value;
@@ -129,8 +99,8 @@ function filterArmorTableRecipes() {
   let visibleCount = 0;
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const itemName = cells[0]?.textContent.toLowerCase() || '';
-    const itemsRequired = cells[2]?.textContent.toLowerCase() || '';
+    const itemName = (cells[0]?.textContent || '').toLowerCase();
+    const itemsRequired = (cells[2]?.textContent || '').toLowerCase();
     const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
     const perksCellText = cells[1]?.textContent.trim() || '';
     const perksList = perksCellText.split(',').map(p => p.trim());
@@ -164,9 +134,47 @@ function clearArmorTableFilters() {
   filterArmorTableRecipes();
 }
 
-initArmorTableFilters();
+function initArmorTableFilters() {
+  const table = document.querySelector('.armor-table-recipes-table table');
+  if (!table) {
+    console.error('Armor Table Recipes table not found');
+    return;
+  }
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const perks = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 2) {
+      const perksText = cells[1].textContent.trim();
+      if (perksText && perksText !== '') {
+        perksText.split(',').forEach(perk => {
+          const trimmed = perk.trim();
+          if (trimmed) perks.add(trimmed);
+        });
+      }
+    }
+  });
+  
+  const perksFilter = document.getElementById('armorTablePerksFilter');
+  Array.from(perks).sort().forEach(perk => {
+    const option = document.createElement('option');
+    option.value = perk;
+    option.textContent = perk;
+    perksFilter.appendChild(option);
+  });
+  
+  document.getElementById('armorTableSearch').addEventListener('input', filterArmorTableRecipes);
+  document.getElementById('armorTablePerksFilter').addEventListener('change', filterArmorTableRecipes);
+  initArmorTabletooltips();
+  updateFilterCountArmorTable();
+}
 
+$(document).ready(function(){
+  initArmorTableFilters();
 });
+
 </script>
 
 <div class="armor-table-recipes-controls">

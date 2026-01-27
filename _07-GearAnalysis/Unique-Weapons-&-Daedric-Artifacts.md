@@ -21,50 +21,42 @@ function filterUniqueWeaponsTable() {
   const searchTerm = document.getElementById('uniqueWeaponsSearch').value.toLowerCase();
   
   const container = document.querySelector('.unique-weapons-table');
-  const items = container.querySelectorAll('hr');
+  if (!container) return;
+  
   let visibleCount = 0;
   let totalCount = 0;
   
-  // Get all <hr> separators and the content between them
-  let currentVisible = true;
-  let currentItemName = '';
-  
-  Array.from(container.childNodes).forEach((node, index) => {
-    if (node.nodeName === 'HR') {
-      totalCount++;
-    } else if (node.nodeName === 'P' && node.textContent.startsWith('|')) {
-      currentItemName = node.textContent.toLowerCase();
-    }
-  });
-  
-  // Simple approach: show/hide hr sections based on search
-  const sections = container.querySelectorAll('hr');
+  // Group elements between hr tags
+  const sections = [];
   let currentSection = [];
   
   Array.from(container.childNodes).forEach(node => {
     if (node.nodeName === 'HR') {
       if (currentSection.length > 0) {
-        const sectionText = currentSection.map(n => n.textContent || '').join(' ').toLowerCase();
-        const isVisible = sectionText.includes(searchTerm);
-        currentSection.forEach(n => n.style.display = isVisible ? '' : 'none');
-        if (isVisible) visibleCount++;
+        sections.push(currentSection);
+        totalCount++;
       }
-      node.style.display = searchTerm ? 'block' : 'block';
       currentSection = [node];
     } else if (node.nodeType === Node.ELEMENT_NODE) {
       currentSection.push(node);
     }
   });
-  
-  // Handle last section
   if (currentSection.length > 0) {
-    const sectionText = currentSection.map(n => n.textContent || '').join(' ').toLowerCase();
-    const isVisible = sectionText.includes(searchTerm);
-    currentSection.forEach(n => n.style.display = isVisible ? '' : 'none');
-    if (isVisible) visibleCount++;
+    sections.push(currentSection);
+    totalCount++;
   }
   
-  updateUniqueWeaponsFilterCount(visibleCount || sections.length, sections.length);
+  // Filter sections based on search term
+  sections.forEach(section => {
+    const sectionText = section.map(n => n.textContent || '').join(' ').toLowerCase();
+    const isVisible = !searchTerm || sectionText.includes(searchTerm);
+    section.forEach(n => {
+      if (n.style) n.style.display = isVisible ? '' : 'none';
+    });
+    if (isVisible) visibleCount++;
+  });
+  
+  updateUniqueWeaponsFilterCount(visibleCount, totalCount);
 }
 
 function updateUniqueWeaponsFilterCount(visible, total) {
