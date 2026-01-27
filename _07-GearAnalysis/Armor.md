@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Armor
 nav_order: 1
