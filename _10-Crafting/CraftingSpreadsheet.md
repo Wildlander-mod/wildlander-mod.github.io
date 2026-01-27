@@ -181,7 +181,7 @@ function hideAllRecipesTooltip() {
   <select id="allrecipesWorkbenchFilter">
     <option value="">All Workbenches</option>
   </select>
-  <button onclick="clearAllRecipesFilters()">Clear Filters</button>
+  <button id="allrecipesClearFilters" onclick="clearAllRecipesFilters()">Clear Filters</button>
   <div id="allrecipesFilterResultCount" class="filter-result-count">Showing 6186 of 6186 recipes</div>
 </div>
 
