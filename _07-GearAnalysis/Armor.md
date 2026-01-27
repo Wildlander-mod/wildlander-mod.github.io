@@ -58,51 +58,26 @@ The more weight your worn equipment has, the more difficult it will become to kn
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-  initArmorFilters();
-});
-
-function initArmorFilters() {
-  document.getElementById('armorSearch').addEventListener('keyup', filterArmorTable);
-  document.getElementById('armorClearFilters').addEventListener('click', clearArmorFilters);
-  
-  // Populate Type filter
-  const typeSet = new Set();
-  const table = document.querySelector('.armor-table table');
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    const type = cells[0]?.textContent.trim();
-    if (type) typeSet.add(type);
-  });
-  
-  const typeFilter = document.getElementById('armorTypeFilter');
-  typeSet.forEach(type => {
-    const option = document.createElement('option');
-    option.value = type;
-    option.textContent = type;
-    typeFilter.appendChild(option);
-  });
-  
-  typeFilter.addEventListener('change', filterArmorTable);
-  
-  filterArmorTable();
-}
 
 function filterArmorTable() {
   const searchTerm = document.getElementById('armorSearch').value.toLowerCase();
   const typeFilter = document.getElementById('armorTypeFilter').value;
   
   const table = document.querySelector('.armor-table table');
+  if (!table) {
+    console.error('Armor table not found');
+    return;
+  }
+  
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   let visibleCount = 0;
   
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const setName = cells[1]?.textContent.toLowerCase() || '';
-    const type = cells[0]?.textContent.trim();
+    const setName = (cells[1]?.textContent || '').toLowerCase();
+    const type = (cells[0]?.textContent || '').trim();
     
-    const searchMatch = setName.includes(searchTerm);
+    const searchMatch = !searchTerm || setName.includes(searchTerm);
     const typeMatch = !typeFilter || type === typeFilter;
     
     const isVisible = searchMatch && typeMatch;
@@ -125,6 +100,54 @@ function clearArmorFilters() {
   document.getElementById('armorTypeFilter').value = '';
   filterArmorTable();
 }
+
+function initArmorFilters() {
+  const searchInput = document.getElementById('armorSearch');
+  const typeFilter = document.getElementById('armorTypeFilter');
+  const clearBtn = document.getElementById('armorClearFilters');
+  
+  if (!searchInput || !typeFilter || !clearBtn) {
+    console.error('Filter elements not found');
+    return;
+  }
+  
+  searchInput.addEventListener('keyup', filterArmorTable);
+  clearBtn.addEventListener('click', clearArmorFilters);
+  
+  // Populate Type filter
+  const table = document.querySelector('.armor-table table');
+  if (!table) {
+    console.error('Table not found');
+    return;
+  }
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const typeSet = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const type = (cells[0]?.textContent || '').trim();
+    if (type) typeSet.add(type);
+  });
+  
+  Array.from(typeSet).sort().forEach(type => {
+    const option = document.createElement('option');
+    option.value = type;
+    option.textContent = type;
+    typeFilter.appendChild(option);
+  });
+  
+  typeFilter.addEventListener('change', filterArmorTable);
+  
+  filterArmorTable();
+}
+
+$(document).ready(function(){
+  setTimeout(function() {
+    initArmorFilters();
+  }, 100);
+});
+
 </script>
 
 <div class="armor-controls">
