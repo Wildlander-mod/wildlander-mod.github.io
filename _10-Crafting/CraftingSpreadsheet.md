@@ -1,6 +1,6 @@
 ---
 title: Crafting Spreadsheet
-layout: table-wide
+layout: default
 nav_order: 1
 parent: Introduction to the Toolkit Crafting System
 has_children: false
