@@ -34,14 +34,21 @@ Use the search bar and filters below to find specific recipes by workbench type.
 let filterTimeout;
 
 $(document).ready(function(){
-  initAllRecipesFilters();
-  // Delay tooltip initialization to ensure table is fully rendered
-  setTimeout(initAllRecipesTooltips, 100);
+  // Delay initialization to ensure table is fully rendered
+  setTimeout(function() {
+    initAllRecipesFilters();
+    initAllRecipesTooltips();
+  }, 200);
 });
 
 function initAllRecipesFilters() {
-  const workbenches = new Set();
   const table = document.querySelector('.crafting-spreadsheet-table table');
+  if (!table) {
+    console.warn('Crafting Spreadsheet table not found');
+    return;
+  }
+  
+  const workbenches = new Set();
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -52,6 +59,11 @@ function initAllRecipesFilters() {
   });
   
   const select = document.getElementById('allrecipesWorkbenchFilter');
+  if (!select) {
+    console.warn('Workbench filter select not found');
+    return;
+  }
+  
   Array.from(workbenches).sort().forEach(bench => {
     const option = document.createElement('option');
     option.value = bench;
@@ -59,9 +71,12 @@ function initAllRecipesFilters() {
     select.appendChild(option);
   });
   
-  document.getElementById('allrecipesSearch').addEventListener('keyup', debounceFilter);
-  select.addEventListener('change', filterAllRecipesTable);
-  document.getElementById('allrecipesClearFilters').addEventListener('click', clearAllRecipesFilters);
+  const searchInput = document.getElementById('allrecipesSearch');
+  const clearButton = document.getElementById('allrecipesClearFilters');
+  
+  if (searchInput) searchInput.addEventListener('keyup', debounceFilter);
+  if (select) select.addEventListener('change', filterAllRecipesTable);
+  if (clearButton) clearButton.addEventListener('click', clearAllRecipesFilters);
 }
 
 function debounceFilter() {
