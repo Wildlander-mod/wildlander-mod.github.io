@@ -62,7 +62,6 @@ function initKnownIssuestooltips() {
     const idCell = row.querySelector('td:first-child');
     idCell.style.cursor = 'pointer';
     idCell.addEventListener('mouseenter', (e) => showKnownIssuestooltip(e, row));
-    idCell.addEventListener('mousemove', updateKnownIssuestooltipPosition);
     idCell.addEventListener('mouseleave', hideKnownIssuestooltip);
   });
 }
@@ -84,8 +83,6 @@ function showKnownIssuestooltip(event, row) {
     tooltip = document.createElement('div');
     tooltip.id = 'issue-tooltip';
     tooltip.className = 'issue-tooltip';
-    tooltip.style.position = 'fixed';
-    tooltip.style.zIndex = '10000';
     document.body.appendChild(tooltip);
   }
   
@@ -99,15 +96,8 @@ function showKnownIssuestooltip(event, row) {
     <div><strong>Notes:</strong> ${data.notes}</div>
   `;
   tooltip.style.display = 'block';
-  updateKnownIssuestooltipPosition(event);
-}
-
-function updateKnownIssuestooltipPosition(event) {
-  const tooltip = document.getElementById('issue-tooltip');
-  if (tooltip && tooltip.style.display === 'block') {
-    tooltip.style.left = event.clientX + 10 + 'px';
-    tooltip.style.top = event.clientY + 10 + 'px';
-  }
+  tooltip.style.left = event.pageX + 10 + 'px';
+  tooltip.style.top = event.pageY + 10 + 'px';
 }
 
 function hideKnownIssuestooltip() {
@@ -142,7 +132,6 @@ function filterKnownIssuesTable() {
   });
   
   updateFilterCount(visibleCount, rows.length);
-  initKnownIssuestooltips();
 }
 
 function updateFilterCount(visible, total) {
@@ -162,16 +151,6 @@ initKnownIssuesFilters();
 });
 </script>
 
-## How to Use This Page
-
-**Hover over the Issue ID** (first column) to see the complete details including:
-- Full issue description
-- Investigation status
-- Additional notes and workarounds
-
-Use the search bar and filters below to find specific issues by category or status.
-
----
 
 <div class="known-issues-controls">
   <input type="text" id="knownIssuesSearch" placeholder="Search" />

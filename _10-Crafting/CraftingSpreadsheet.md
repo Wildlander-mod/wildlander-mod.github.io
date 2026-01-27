@@ -31,6 +31,8 @@ Use the search bar and filters below to find specific recipes by workbench type.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
+let filterTimeout;
+
 $(document).ready(function(){
   initAllRecipesFilters();
   initAllRecipesTooltips();
@@ -56,9 +58,14 @@ function initAllRecipesFilters() {
     select.appendChild(option);
   });
   
-  document.getElementById('allrecipesSearch').addEventListener('keyup', filterAllRecipesTable);
+  document.getElementById('allrecipesSearch').addEventListener('keyup', debounceFilter);
   select.addEventListener('change', filterAllRecipesTable);
   document.getElementById('allrecipesClearFilters').addEventListener('click', clearAllRecipesFilters);
+}
+
+function debounceFilter() {
+  clearTimeout(filterTimeout);
+  filterTimeout = setTimeout(filterAllRecipesTable, 300);
 }
 
 function filterAllRecipesTable() {
@@ -84,7 +91,6 @@ function filterAllRecipesTable() {
   });
   
   updateAllRecipesFilterCount(visibleCount, rows.length);
-  initAllRecipesTooltips();
 }
 
 function updateAllRecipesFilterCount(visible, total) {
@@ -103,7 +109,6 @@ function clearAllRecipesFilters() {
   rows.forEach(row => row.style.display = '');
   
   updateAllRecipesFilterCount(rows.length, rows.length);
-  initAllRecipesTooltips();
 }
 
 function initAllRecipesTooltips() {
