@@ -56,110 +56,7 @@ The more weight your worn equipment has, the more difficult it will become to kn
 
 **AR = Armor Resistance** - The resistance rating for each damage type (Ranged, Pierce, Blunt, Slash) on specific armor pieces.
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script>
 
-function filterArmorTable() {
-  const searchTerm = document.getElementById('armorSearch').value.toLowerCase();
-  const typeFilter = document.getElementById('armorTypeFilter').value;
-  
-  const table = document.querySelector('.armor-table table');
-  if (!table) {
-    console.error('Armor table not found');
-    return;
-  }
-  
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  let visibleCount = 0;
-  
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    const setName = (cells[1]?.textContent || '').toLowerCase();
-    const type = (cells[0]?.textContent || '').trim();
-    
-    const searchMatch = !searchTerm || setName.includes(searchTerm);
-    const typeMatch = !typeFilter || type === typeFilter;
-    
-    const isVisible = searchMatch && typeMatch;
-    row.style.display = isVisible ? '' : 'none';
-    if (isVisible) visibleCount++;
-  });
-  
-  updateArmorFilterCount(visibleCount, rows.length);
-}
-
-function updateArmorFilterCount(visible, total) {
-  const counter = document.getElementById('armorFilterResultCount');
-  if (counter) {
-    counter.textContent = `Showing ${visible} of ${total} armor sets`;
-  }
-}
-
-function clearArmorFilters() {
-  document.getElementById('armorSearch').value = '';
-  document.getElementById('armorTypeFilter').value = '';
-  filterArmorTable();
-}
-
-function initArmorFilters() {
-  const searchInput = document.getElementById('armorSearch');
-  const typeFilter = document.getElementById('armorTypeFilter');
-  const clearBtn = document.getElementById('armorClearFilters');
-  
-  if (!searchInput || !typeFilter || !clearBtn) {
-    console.error('Filter elements not found');
-    return;
-  }
-  
-  searchInput.addEventListener('keyup', filterArmorTable);
-  clearBtn.addEventListener('click', clearArmorFilters);
-  
-  // Populate Type filter
-  const table = document.querySelector('.armor-table table');
-  if (!table) {
-    console.error('Table not found');
-    return;
-  }
-  
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  const typeSet = new Set();
-  
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    const type = (cells[0]?.textContent || '').trim();
-    if (type) typeSet.add(type);
-  });
-  
-  Array.from(typeSet).sort().forEach(type => {
-    const option = document.createElement('option');
-    option.value = type;
-    option.textContent = type;
-    typeFilter.appendChild(option);
-  });
-  
-  typeFilter.addEventListener('change', filterArmorTable);
-  
-  filterArmorTable();
-}
-
-$(document).ready(function(){
-  setTimeout(function() {
-    initArmorFilters();
-  }, 100);
-});
-
-</script>
-
-<div class="armor-controls">
-  <input type="text" id="armorSearch" placeholder="Search armor sets..." />
-  <select id="armorTypeFilter">
-    <option value="">All Types</option>
-  </select>
-  <button id="armorClearFilters" onclick="clearArmorFilters()">Clear Filters</button>
-  <div id="armorFilterResultCount" class="filter-result-count-armor"></div>
-</div>
-
-<div class="armor-table" markdown="1">
 
 | Type | Set Name | Full Set AR* | Set Wt | Ranged AR | Pierce AR | Blunt AR | Slash AR | Chest AR | Helmet AR | Gloves AR | Boots AR | Shield AR | Ranged Tier | Blunt Tier | Pierce Tier | Slash Tier |
 |:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---:|:---:|:---:|:---:|
@@ -211,6 +108,3 @@ $(document).ready(function(){
 | Light | Forsworn | 250 | 9 | 310 | 250 | 250 | 250 | 124 | 50 | 38.0 | 38.0 | 75 | 1 | 0 | 0 | 0 |
 | Light | Fur | 250 | 9 | 310 | 250 | 250 | 250 | 130 | 50 | 38.0 | 38.0 | 75 | 1 | 0 | 0 | 0 |
 | Light | Hide | 250 | 9 | 250 | 250 | 250 | 250 | 124 | 50 | 38.0 | 38.0 | 75 | 0 | 0 | 0 | 0 |
-
-</div>
-
