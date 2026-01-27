@@ -98,7 +98,7 @@ function clearAllRecipesFilters() {
   document.getElementById('allrecipesSearch').value = '';
   document.getElementById('allrecipesWorkbenchFilter').value = '';
   
-  const table = document.querySelector('.allrecipes-table table');
+  const table = document.querySelector('.crafting-spreadsheet-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   rows.forEach(row => row.style.display = '');
   
