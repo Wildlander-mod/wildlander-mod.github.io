@@ -35,7 +35,8 @@ let filterTimeout;
 
 $(document).ready(function(){
   initAllRecipesFilters();
-  initAllRecipesTooltips();
+  // Delay tooltip initialization to ensure table is fully rendered
+  setTimeout(initAllRecipesTooltips, 100);
 });
 
 function initAllRecipesFilters() {
@@ -119,11 +120,15 @@ function initAllRecipesTooltips() {
   }
   
   const rows = Array.from(table.querySelectorAll('tbody tr'));
+  console.log(`Initializing tooltips for ${rows.length} rows`);
+  
   rows.forEach(row => {
     const itemCell = row.querySelector('td:first-child');
     if (!itemCell) return;
     
     itemCell.style.cursor = 'pointer';
+    itemCell.style.color = '#f77ef1';
+    itemCell.style.fontWeight = '500';
     itemCell.addEventListener('mouseenter', (e) => showAllRecipesTooltip(e, row));
     itemCell.addEventListener('mouseleave', hideAllRecipesTooltip);
   });
@@ -151,14 +156,14 @@ function showAllRecipesTooltip(event, row) {
   }
   
   tooltip.innerHTML = `
-    <div><strong>Item Name:</strong> ${data.itemName}</div>
+    <div><strong>Item:</strong> ${data.itemName}</div>
     <div><strong>Workbench:</strong> ${data.workbench || 'N/A'}</div>
-    <div><strong>Qty Made:</strong> ${data.qtyMade || 'N/A'}</div>
-    <div><strong>Perks Needed:</strong> ${data.perksNeeded || 'None'}</div>
-    <div><strong>Toolkits Required:</strong> ${data.toolkitsReq || 'N/A'}</div>
+    <div><strong>Qty:</strong> ${data.qtyMade || 'N/A'}</div>
+    <div><strong>Perks:</strong> ${data.perksNeeded || 'None'}</div>
+    <div><strong>Toolkits:</strong> ${data.toolkitsReq || 'N/A'}</div>
     <div><strong>Proximity:</strong> ${data.proximity || 'N/A'}</div>
     <div><strong>Items Required:</strong> ${data.itemsRequired || 'N/A'}</div>
-    <div><strong>Additional Reqs:</strong> ${data.additionalReqs || 'None'}</div>
+    <div><strong>Additional:</strong> ${data.additionalReqs || 'None'}</div>
   `;
   tooltip.style.display = 'block';
   tooltip.style.left = event.pageX + 10 + 'px';
