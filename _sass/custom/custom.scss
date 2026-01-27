@@ -1961,18 +1961,17 @@ $light-text: #e6e6e6;
   margin-top: 8px;
 }
 
-// Wide content layout for large tables - removes max-width constraint on main-content only
-.main-content-wide {
+// Wide content layout for large tables - removes max-width constraint on main only
+.main:has(.main-content-wide) {
   max-width: none !important;
-  width: auto !important;
-  padding-right: 2rem !important;
-  overflow-x: auto !important;
+  width: calc(100% - 300px) !important;  // Account for sidebar width
 }
 
-#main-content-wrap {
-  .main-content-wide {
-    max-width: none !important;
-  }
+.main-content-wide {
+  max-width: none !important;
+  width: 100%;
+  padding-right: 2rem !important;
+  overflow-x: auto !important;
 }
 
 // Crafting Spreadsheet table column widths
