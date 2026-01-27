@@ -42,7 +42,7 @@ function initAllRecipesFilters() {
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
-    const workbenchCell = row.querySelector('td:nth-child(4)');
+    const workbenchCell = row.querySelector('td:nth-child(2)');
     if (workbenchCell) {
       workbenches.add(workbenchCell.textContent.trim());
     }
@@ -72,8 +72,8 @@ function filterAllRecipesTable() {
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     const itemName = cells[0]?.textContent.toLowerCase() || '';
-    const itemsRequired = cells[4]?.textContent.toLowerCase() || '';
-    const workbench = cells[3]?.textContent.trim() || '';
+    const workbench = cells[1]?.textContent.trim() || '';
+    const itemsRequired = cells[6]?.textContent.toLowerCase() || '';
     
     const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
     const filterMatch = !workbenchFilter || workbench === workbenchFilter;
@@ -127,11 +127,13 @@ function showAllRecipesTooltip(event, row) {
   const cells = row.querySelectorAll('td');
   const data = {
     itemName: cells[0]?.textContent || '',
-    qtyMade: cells[1]?.textContent || '',
-    perksNeeded: cells[2]?.textContent || '',
-    proximity: cells[3]?.textContent || '',
-    itemsRequired: cells[4]?.textContent || '',
-    additionalReqs: cells[5]?.textContent || ''
+    workbench: cells[1]?.textContent || '',
+    qtyMade: cells[2]?.textContent || '',
+    perksNeeded: cells[3]?.textContent || '',
+    toolkitsReq: cells[4]?.textContent || '',
+    proximity: cells[5]?.textContent || '',
+    itemsRequired: cells[6]?.textContent || '',
+    additionalReqs: cells[7]?.textContent || ''
   };
   
   let tooltip = document.getElementById('allrecipes-tooltip');
@@ -154,9 +156,11 @@ function showAllRecipesTooltip(event, row) {
   
   tooltip.innerHTML = `
     <div><strong style="color: #f77ef1;">Item:</strong> ${data.itemName}</div>
+    <div><strong style="color: #f77ef1;">Workbench:</strong> ${data.workbench || 'N/A'}</div>
     <div><strong style="color: #f77ef1;">Qty:</strong> ${data.qtyMade || 'N/A'}</div>
     <div><strong style="color: #f77ef1;">Perks:</strong> ${data.perksNeeded || 'None'}</div>
-    <div><strong style="color: #f77ef1;">Workbench:</strong> ${data.proximity}</div>
+    <div><strong style="color: #f77ef1;">Toolkits:</strong> ${data.toolkitsReq || 'N/A'}</div>
+    <div><strong style="color: #f77ef1;">Proximity:</strong> ${data.proximity || 'N/A'}</div>
     <div style="margin-top: 8px; border-top: 1px solid #50098a; padding-top: 8px;">
       <strong style="color: #f77ef1;">Ingredients:</strong><br/>
       ${data.itemsRequired}
