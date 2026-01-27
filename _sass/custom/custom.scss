@@ -1947,3 +1947,17 @@ $light-text: #e6e6e6;
   margin-top: 8px;
 }
 
+.alchemy-ing-controls {
+  @extend .table-controls;
+}
+
+.alchemy-ing-table {
+  @extend .styled-table-wrapper;
+}
+
+.filter-result-count-alchemy-ing {
+  font-size: 13px;
+  color: #f77ef1;
+  margin-top: 8px;
+}
+

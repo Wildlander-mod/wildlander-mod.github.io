@@ -1,0 +1,713 @@
+﻿Ingredient,Description,Magnitude,Duration,Category,Effect
+Ancestor Moth Wing,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Bear Claws,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Blue Butterfly Wing,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Blue Mountain Flower,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,5,5,Damage,Damage Magicka Regen
+Burnt Spriggan Wood,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Chaurus Hunter Antennae,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Chicken’s Egg,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,50,5,Damage,Damage Magicka Regen
+Glow Dust,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Hanging Moss,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Hawk's Egg,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Heart,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Jarrin Root,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Nightshade,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Pygmy Sunfish,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Spider Egg,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Spriggan Sap,Decreases the target's Magicka regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Magicka Regen
+Ancestor Moth Wing,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Ash Creep Cluster,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Bear Heart,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,5,5,Damage,Damage Stamina
+Berit’s Ashes,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Blisterwort,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,10,Damage,Damage Stamina
+Blue Butterfly Wing,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Boar Heart,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,4,1,Damage,Damage Stamina
+Bone Meal,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Canis Root,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Chaurus Hunter Antennae,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Crimson Nirnroot,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,20,0,Damage,Damage Stamina
+Cyrodilic Spadetail,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Deer Heart,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,4,0,Damage,Damage Stamina
+Dyed Hawk Feathers,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,5,5,Damage,Damage Stamina
+Flawless Bear Tooth,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,5,5,Damage,Damage Stamina
+Giant’s Toe,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Jarrin Root,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Large Bear Claws,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,4,0,Damage,Damage Stamina
+Nirnroot,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,15,0,Damage,Damage Stamina
+Red Glitterdust,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,60,Damage,Damage Stamina
+Rock Warbler Egg,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Sapphire Glitterdust,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,60,Damage,Damage Stamina
+Spider Egg,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,3,0,Damage,Damage Stamina
+Troll Heart,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,5,0,Damage,Damage Stamina
+Wolf Heart,Drains the target's Stamina by (Magnitude) points over (duration) Seconds.,5,5,Damage,Damage Stamina
+Animal Fat,Immediately drains the target's Health by (Magnitude) points.,2,1,Damage,Damage Health
+Boiled Skeever Tail,Immediately drains the target's Health by (Magnitude) points.,10,1,Damage,Damage Health
+Canine Tooth,Immediately drains the target's Health by (Magnitude) points.,3,1,Damage,Damage Health
+Canis Root,Immediately drains the target's Health by (Magnitude) points.,10,1,Damage,Damage Health
+Charred Hawk Beak,Immediately drains the target's Health by (Magnitude) points.,5,1,Damage,Damage Health
+Crimson Nirnroot,Immediately drains the target's Health by (Magnitude) points.,20,2,Damage,Damage Health
+Deathbell,Immediately drains the target's Health by (Magnitude) points.,3,5,Damage,Damage Health
+Doe Antlers,Immediately drains the target's Health by (Magnitude) points.,2,1,Damage,Damage Health
+Ectoplasm,Immediately drains the target's Health by (Magnitude) points.,2,1,Damage,Damage Health
+Emperor Parasol Moss,Immediately drains the target's Health by (Magnitude) points.,3,1,Damage,Damage Health
+Falmer Ear,Immediately drains the target's Health by (Magnitude) points.,3,1,Damage,Damage Health
+Heart,Immediately drains the target's Health by (Magnitude) points.,5,1,Damage,Damage Health
+Human Flesh,Immediately drains the target's Health by (Magnitude) points.,2,1,Damage,Damage Health
+Imp Stool,Immediately drains the target's Health by (Magnitude) points.,3,1,Damage,Damage Health
+Jarrin Root,Immediately drains the target's Health by (Magnitude) points.,200,1,Damage,Damage Health
+Netch Jelly,Immediately drains the target's Health by (Magnitude) points.,10,1,Damage,Damage Health
+Nightshade,Immediately drains the target's Health by (Magnitude) points.,5,1,Damage,Damage Health
+Nirnroot,Immediately drains the target's Health by (Magnitude) points.,15,0,Damage,Damage Health
+Oil of Vitriol,Immediately drains the target's Health by (Magnitude) points.,3,1,Damage,Damage Health
+Poisonous Bloom,Immediately drains the target's Health by (Magnitude) points.,3,1,Damage,Damage Health
+Powdered Mudcrab Chitin,Immediately drains the target's Health by (Magnitude) points.,5,0,Damage,Damage Health
+Red Glitterdust,Immediately drains the target's Health by (Magnitude) points.,10,0,Damage,Damage Health
+Red Mountain Flower,Immediately drains the target's Health by (Magnitude) points.,1,1,Damage,Damage Health
+River Betty,Immediately drains the target's Health by (Magnitude) points.,5,0,Damage,Damage Health
+Skeever Tail,Immediately drains the target's Health by (Magnitude) points.,2,1,Damage,Damage Health
+Swamp Fungal Pod,Immediately drains the target's Health by (Magnitude) points.,5,1,Damage,Damage Health
+Troll Fat,Immediately drains the target's Health by (Magnitude) points.,2,1,Damage,Damage Health
+Venomous Spittle,Immediately drains the target's Health by (Magnitude) points.,10,1,Damage,Damage Health
+Void Salts,Immediately drains the target's Health by (Magnitude) points.,10,1,Damage,Damage Health
+Werewolf Heart,Immediately drains the target's Health by (Magnitude) points.,5,1,Damage,Damage Health
+Wolf Eye,Immediately drains the target's Health by (Magnitude) points.,4,1,Damage,Damage Health
+Wolf Heart,Immediately drains the target's Health by (Magnitude) points.,3,1,Damage,Damage Health
+Bear Tooth,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Boar Heart,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Charred Hawk Beak,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Chaurus Eggs,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Flawless Sabre Cat Tooth,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Glow Dust,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Hagraven Feathers,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Hanging Moss,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Heart,Immediately drains the target's Magicka by (Magnitude) points.,5,0,Damage,Damage Magicka
+Jarrin Root,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Large Sabre Cat Claws,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Luna Moth Wing,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Monarch Wing,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Namira’s Rot,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Nordic Barnacle,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Polished Sabre Cat Eye,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Sabre Cat Eye,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Sabre Cat Heart,Immediately drains the target's Magicka by (Magnitude) points.,5,10,Damage,Damage Magicka
+Trama Root,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Wolf Heart,Immediately drains the target's Magicka by (Magnitude) points.,3,0,Damage,Damage Magicka
+Bee,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Berit’s Ashes,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Bone Meal,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Buck Antlers (Superlative),Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Deathbell,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,20,Damage,Damage Max Stamina
+Honeycomb,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,10,30,Damage,Damage Max Stamina
+Large Bear Claws,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Scathecraw,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Spawn Ash,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Thistle Branch,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Troll Heart,Concentrated poison temporarily reduces maximum and current Stamina by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Stamina
+Buck Antlers,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,50,5,Damage,Damage Stamina Regen
+Creep Cluster,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Frost Mirriam,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Giant’s Toe,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Histcarp,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Juniper Berries,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Silverside Perch,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Skeever Tail,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Wheat,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,100,5,Damage,Damage Stamina Regen
+Yellow Mountain Flower,Decreases the target's Stamina regeneration by (Magnitude)% for (duration) seconds.,50,5,Damage,Damage Stamina Regen
+Cyrodilic Spadetail,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Dragon Eye,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,3,10,Damage,Damage Max Health
+Giant Lichen,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Jazabay Grapes,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,1,10,Damage,Damage Max Health
+Large Sabre Cat Claws,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Oil of Vitriol,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Powdered Mudcrab Chitin,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Scathecraw,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Silverside Perch,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Skeever Tail,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Werewolf Heart,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Wolf Claws,Concentrated poison temporarily reduces maximum and current Health by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Health
+Frost Mirriam,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Magicka
+Grass Pod,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Magicka
+Lavender,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Magicka
+Orange Dartwing,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Magicka
+Red Mountain Flower,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,1,10,Damage,Damage Max Magicka
+Sabre Cat Heart,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,4,10,Damage,Damage Max Magicka
+Scathecraw,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Magicka
+Spawn Ash,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Magicka
+White Cap,Concentrated poison temporarily reduces maximum and current Magicka by (Magnitude) points for (duration) seconds.,2,10,Damage,Damage Max Magicka
+Abecean Longfin,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Cyrodilic Spadetail,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Doe Antlers,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Northern Flax,Restoration spells cost (Magnitude)% less for (duration) seconds.,2,60,Fortify,Fortify Restoration
+Polished Hare Eye,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Pygmy Sunfish,Restoration spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Restoration
+Salt,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Salt Pile,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Small Pearl,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Spriggan Sap,Restoration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Restoration
+Yellow Mountain Flower,Restoration spells cost (Magnitude)% less for (duration) seconds.,2,60,Fortify,Fortify Restoration
+Abecean Longfin,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Ashen Grass Pod,You are (Magnitude)% harder to detect for (duration) seconds.,2,60,Fortify,Fortify Sneak
+Beehive Husk,You are (Magnitude)% harder to detect for (duration) seconds.,2,60,Fortify,Fortify Sneak
+Boiled Skeever Tail,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Flawless Sabre Cat Tooth,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Frost Mirriam,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Hawk Feathers,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Human Flesh,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Polished Wolf Eye,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Powdered Mammoth Tusk,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Purple Mountain Flower,You are (Magnitude)% harder to detect for (duration) seconds.,2,60,Fortify,Fortify Sneak
+Sabre Cat Heart,You are (Magnitude)% harder to detect for (duration) seconds.,2,60,Fortify,Fortify Sneak
+Werewolf Eye,You are (Magnitude)% harder to detect for (duration) seconds.,4,60,Fortify,Fortify Sneak
+Ancestor Moth Wing,Conjurations spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Conjuration
+Berit’s Ashes,Conjurations spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Conjuration
+Blue Butterfly Wing,Conjurations spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Conjuration
+Blue Mountain Flower,Conjurations spells cost (Magnitude)% less for (duration) seconds.,2,60,Fortify,Fortify Conjuration
+Bone Meal,Conjurations spells cost (Magnitude)% less for (duration) seconds.,3,60,Fortify,Fortify Conjuration
+Chaurus Hunter Antennae,Conjurations spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Conjuration
+Frost Salts,Conjurations spells cost (Magnitude)% less for (duration) seconds.,5,180,Fortify,Fortify Conjuration
+Hagraven Feathers,Conjurations spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Conjuration
+Lavender,Conjurations spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Conjuration
+Lyretail Anthias,Conjurations spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Conjuration
+Ancestor Moth Wing,Magicka is increased by (Magnitude) points for (duration) seconds.,1,30,Fortify,Fortify Magicka
+Briar Heart,Magicka is increased by (Magnitude) points for (duration) seconds.,4,120,Fortify,Fortify Magicka
+Chaurus Hunter Antennae,Magicka is increased by (Magnitude) points for (duration) seconds.,1,30,Fortify,Fortify Magicka
+Ectoplasm,Magicka is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Magicka
+Emperor Parasol Moss,Magicka is increased by (Magnitude) points for (duration) seconds.,2,60,Fortify,Fortify Magicka
+Histcarp,Magicka is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Magicka
+Jazabay Grapes,Magicka is increased by (Magnitude) points for (duration) seconds.,2,60,Fortify,Fortify Magicka
+Red Mountain Flower,Magicka is increased by (Magnitude) points for (duration) seconds.,2,60,Fortify,Fortify Magicka
+Salmon Roe,Magicka is increased by (Magnitude) points for (duration) seconds.,50,5,Fortify,Fortify Magicka
+Tundra Cotton,Magicka is increased by (Magnitude) points for (duration) seconds.,3,60,Fortify,Fortify Magicka
+Void Salts,Magicka is increased by (Magnitude) points for (duration) seconds.,8,300,Fortify,Fortify Magicka
+Angelfish,Health regenerates (Magnitude)% faster for (duration) seconds.,6,300,Fortify,Fortify Health Regen
+Bear Eye,Health regenerates (Magnitude)% faster for (duration) seconds.,6,300,Fortify,Fortify Health Regen
+Bonesap,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Emperor Parasol Moss,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Garlic,Health regenerates (Magnitude)% faster for (duration) seconds.,5,60,Fortify,Fortify Health Regen
+Gleamblossom,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Juniper Berries,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Luna Moth Wing,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Mammoth Eye,Health regenerates (Magnitude)% faster for (duration) seconds.,6,300,Fortify,Fortify Health Regen
+Namira’s Rot,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Nordic Barnacle,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Polished Boar Eye,Health regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Health Regen
+Troll Eye,Health regenerates (Magnitude)% faster for (duration) seconds.,6,300,Fortify,Fortify Health Regen
+Werewolf Heart,Health regenerates (Magnitude)% faster for (duration) seconds.,5,0,Fortify,Fortify Health Regen
+Angelfish,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,5,60,Fortify,Fortify Marksman
+Buck Antlers (Superlative),Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Marksman
+Canis Root,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Marksman
+Elves Ear,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Marksman
+Juniper Berries,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Marksman
+Polished Hare Eye,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Marksman
+Spider Egg,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Marksman
+Taproot,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,5,300,Fortify,Fortify Marksman
+Wolf Claws,Ranged weapons deal (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Marksman
+Angler Larvae,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Bear Claws,Stamina regenerates (Magnitude)% faster for (duration) seconds.,10,60,Fortify,Fortify Stamina Regen
+Bee,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Blisterwort,Stamina regenerates (Magnitude)% faster for (duration) seconds.,4,30,Fortify,Fortify Stamina Regen
+Boar Eye,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Charred Hawk Beak,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Fly Amanita,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Hare Eye,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,60,Fortify,Fortify Stamina Regen
+Juvenile Mudcrab,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Mora Tapinella,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Scaly Pholiota,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Snowberries,Stamina regenerates (Magnitude)% faster for (duration) seconds.,1,20,Fortify,Fortify Stamina Regen
+Troll Heart,Stamina regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Stamina Regen
+Angler Larvae,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Animal Fat,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Dragon’s Tongue,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Emperor Parasol Moss,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Flawless Bear Tooth,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Fly Amanita,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Juvenile Mudcrab,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Troll Fat,Two-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Two-Handed
+Ash Creep Cluster,Destruction spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Destruction
+Bear Heart,Destruction spells cost (Magnitude)% less for (duration) seconds.,1,60,Fortify,Fortify Destruction
+Beehive Husk,Destruction spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Destruction
+Dragon Eye,Destruction spells cost (Magnitude)% less for (duration) seconds.,6,60,Fortify,Fortify Destruction
+Ectoplasm,Destruction spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Destruction
+Glow Dust,Destruction spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Destruction
+Glowing Mushroom,Destruction spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Destruction
+Nightshade,Destruction spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Destruction
+Strange Remains,Destruction spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Destruction
+Wisp Wrappings,Destruction spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Destruction
+Ash Hopper Jelly,Increases armor rating by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Armor Rating
+Bear Claws,Increases armor rating by (Magnitude) points for (duration) seconds.,6,60,Fortify,Fortify Armor Rating
+Bear Tooth,Increases armor rating by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Armor Rating
+Beehive Husk,Increases armor rating by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Armor Rating
+Felsaad Tern Feathers,Increases armor rating by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Armor Rating
+Fox Eye,Increases armor rating by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Armor Rating
+Goldfish,Increases armor rating by (Magnitude) points for (duration) seconds.,6,60,Fortify,Fortify Armor Rating
+Hawk Feathers,Increases armor rating by (Magnitude) points for (duration) seconds.,8,60,Fortify,Fortify Armor Rating
+Honeycomb,Increases armor rating by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Armor Rating
+Large Mudcrab Chitin,Increases armor rating by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Armor Rating
+Luna Moth Wing,Increases armor rating by (Magnitude) points for (duration) seconds.,6,60,Fortify,Fortify Armor Rating
+Mammoth Heart,Increases armor rating by (Magnitude) points for (duration) seconds.,10,60,Fortify,Fortify Armor Rating
+Polished Dragon Eye,Increases armor rating by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Armor Rating
+Sabre Cat Tooth,Increases armor rating by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Armor Rating
+Skeever Tail,Increases armor rating by (Magnitude) points for (duration) seconds.,6,60,Fortify,Fortify Armor Rating
+Slaughterfish Scales,Increases armor rating by (Magnitude) points for (duration) seconds.,8,60,Fortify,Fortify Armor Rating
+Thistle Branch,Increases armor rating by (Magnitude) points for (duration) seconds.,6,60,Fortify,Fortify Armor Rating
+White Cap,Increases armor rating by (Magnitude) points for (duration) seconds.,6,60,Fortify,Fortify Armor Rating
+Ashen Grass Pod,Lockpicking skill is increased by (Magnitude) for (duration) seconds.,2,30,Fortify,Fortify Lockpicking
+Large Sabre Cat Claws,Lockpicking skill is increased by (Magnitude) for (duration) seconds.,2,30,Fortify,Fortify Lockpicking
+Polished Hare Eye,Lockpicking skill is increased by (Magnitude) for (duration) seconds.,2,30,Fortify,Fortify Lockpicking
+Bear Heart,Health is increased by (Magnitude) points for (duration) seconds.,5,300,Fortify,Fortify Health
+Blue Mountain Flower,Health is increased by (Magnitude) points for (duration) seconds.,2,60,Fortify,Fortify Health
+Boar Tusk,Health is increased by (Magnitude) points for (duration) seconds.,1,20,Fortify,Fortify Health
+Bull Horn,Health is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Health
+Cured Skeever Hide,Health is increased by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Health
+Giant’s Toe,Health is increased by (Magnitude) points for (duration) seconds.,4,300,Fortify,Fortify Health
+Glowing Mushroom,Health is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Health
+Hanging Moss,Health is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Health
+Large Mudcrab Chitin,Health is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Health
+Mammoth Heart,Health is increased by (Magnitude) points for (duration) seconds.,10,180,Fortify,Fortify Health
+Polished Bear Eye,Health is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Health
+Polished Mammoth Eye,Health is increased by (Magnitude) points for (duration) seconds.,6,60,Fortify,Fortify Health
+Polished Troll Eye,Health is increased by (Magnitude) points for (duration) seconds.,4,300,Fortify,Fortify Health
+Sabre Cat Claws,Health is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Health
+Wheat,Health is increased by (Magnitude) points for (duration) seconds.,2,60,Fortify,Fortify Health
+Yellow Mountain Flower,Health is increased by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Health
+Bear Tooth,Alteration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Alteration
+Burnt Spriggan Wood,Alteration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Alteration
+Grass Pod,Alteration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Alteration
+Lyretail Anthias,Alteration spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Alteration
+River Betty,Alteration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Alteration
+Spriggan Sap,Alteration spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Alteration
+Bleeding Crown,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Block
+Boar Tusk,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,1,20,Fortify,Fortify Block
+Briar Heart,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,2,120,Fortify,Fortify Block
+Honeycomb,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Block
+Mammoth Eye,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Block
+Panacea,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Block
+Pearl,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Block
+Slaughterfish Scales,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Block
+Troll Eye,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify Block
+Tundra Cotton,Blocking absorbs (Magnitude)% more damage for (duration) seconds.,3,60,Fortify,Fortify Block
+Blue Butterfly Wing,Illusion spells cost (Magnitude)% less for (duration) seconds.,3,60,Fortify,Fortify Illusion
+Dragon’s Tongue,Illusion spells cost (Magnitude)% less for (duration) seconds.,3,60,Fortify,Fortify Illusion
+Dwarven Oil,Illusion spells cost (Magnitude)% less for (duration) seconds.,5,60,Fortify,Fortify Illusion
+Glassfish,Illusion spells cost (Magnitude)% less for (duration) seconds.,3,60,Fortify,Fortify Illusion
+Hagraven Claw,Illusion spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Illusion
+Mora Tapinella,Illusion spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Illusion
+Sabre Cat Claws,Illusion spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Illusion
+Scaly Pholiota,Illusion spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Illusion
+Spawn Ash,Illusion spells cost (Magnitude)% less for (duration) seconds.,3,60,Fortify,Fortify Illusion
+Spriggan Sap,Illusion spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Illusion
+Taproot,Illusion spells cost (Magnitude)% less for (duration) seconds.,4,60,Fortify,Fortify Illusion
+Blue Dartwing,Pickpocketing is (Magnitude)% easier for (duration) seconds.,4,60,Fortify,Fortify Pickpocket
+Hare Eye,Pickpocketing is (Magnitude)% easier for (duration) seconds.,4,300,Fortify,Fortify Pickpocket
+Nordic Barnacle,Pickpocketing is (Magnitude)% easier for (duration) seconds.,4,60,Fortify,Fortify Pickpocket
+Orange Dartwing,Pickpocketing is (Magnitude)% easier for (duration) seconds.,4,60,Fortify,Fortify Pickpocket
+Slaughterfish Egg,Pickpocketing is (Magnitude)% easier for (duration) seconds.,4,60,Fortify,Fortify Pickpocket
+Spadefish,Pickpocketing is (Magnitude)% easier for (duration) seconds.,4,60,Fortify,Fortify Pickpocket
+Boar Tusk,Stamina is increased by (Magnitude) points for (duration) seconds.,1,20,Fortify,Fortify Stamina
+Buck Antlers,Stamina is increased by (Magnitude) points for (duration) seconds.,5,120,Fortify,Fortify Stamina
+Bull Horn,Stamina is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Stamina
+Chaurus Eggs,Stamina is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Stamina
+Dyed Hawk Feathers,Stamina is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Stamina
+Garlic,Stamina is increased by (Magnitude) points for (duration) seconds.,1,60,Fortify,Fortify Stamina
+Glowing Mushroom,Stamina is increased by (Magnitude) points for (duration) seconds.,4,30,Fortify,Fortify Stamina
+Large Mudcrab Chitin,Stamina is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Stamina
+Lavender,Stamina is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Stamina
+Mammoth Heart,Stamina is increased by (Magnitude) points for (duration) seconds.,5,300,Fortify,Fortify Stamina
+Polished Bear Eye,Stamina is increased by (Magnitude) points for (duration) seconds.,5,60,Fortify,Fortify Stamina
+Sabre Cat Tooth,Stamina is increased by (Magnitude) points for (duration) seconds.,4,30,Fortify,Fortify Stamina
+Slaughterfish Egg,Stamina is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Stamina
+Torchbug Abdomen,Stamina is increased by (Magnitude) points for (duration) seconds.,4,60,Fortify,Fortify Stamina
+Bull Horn,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Creep Cluster,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Giant’s Toe,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Hawk Beak,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Imp Stool,Carrying capacity increases by (Magnitude) for (duration) seconds.,5,60,Fortify,Fortify Carry Weight
+Juvenile Mudcrab,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Lyretail Anthias,Carrying capacity increases by (Magnitude) for (duration) seconds.,5,300,Fortify,Fortify Carry Weight
+Mammoth Eye,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Mammoth Heart,Carrying capacity increases by (Magnitude) for (duration) seconds.,3,600,Fortify,Fortify Carry Weight
+Netch Jelly,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Poisonous Bloom,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Polished Mammoth Eye,Carrying capacity increases by (Magnitude) for (duration) seconds.,5,300,Fortify,Fortify Carry Weight
+Red Glitterdust,Carrying capacity increases by (Magnitude) for (duration) seconds.,5,600,Fortify,Fortify Carry Weight
+River Betty,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Scaly Pholiota,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Trama Root,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Troll Eye,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Wisp Wrappings,Carrying capacity increases by (Magnitude) for (duration) seconds.,4,300,Fortify,Fortify Carry Weight
+Canine Tooth,One-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify One-Handed
+Canis Root,One-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify One-Handed
+Hanging Moss,One-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify One-Handed
+Hawk Feathers,One-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify One-Handed
+Pearlfish,One-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify One-Handed
+Rock Warbler Egg,One-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify One-Handed
+Small Pearl,One-handed weapons do (Magnitude)% more damage for (duration) seconds.,4,60,Fortify,Fortify One-Handed
+Dragon’s Tongue,You haggle for (Magnitude)% better prices for (duration) seconds.,2,30,Fortify,Fortify Barter
+Large Bear Claws,You haggle for (Magnitude)% better prices for (duration) seconds.,2,300,Fortify,Fortify Barter
+Monarch Wing,You haggle for (Magnitude)% better prices for (duration) seconds.,2,30,Fortify,Fortify Barter
+Tundra Cotton,You haggle for (Magnitude)% better prices for (duration) seconds.,2,30,Fortify,Fortify Barter
+Falmer Ear,Lockpicking expertise is increased by (Magnitude) for (duration) seconds.,2,30,Fortify,Fortify Lockpicking Expertise
+Namira’s Rot,Lockpicking expertise is increased by (Magnitude) for (duration) seconds.,1,30,Fortify,Fortify Lockpicking Expertise
+Pine Thrush Egg,Lockpicking expertise is increased by (Magnitude) for (duration) seconds.,1,30,Fortify,Fortify Lockpicking Expertise
+Spadefish,Lockpicking expertise is increased by (Magnitude) for (duration) seconds.,2,30,Fortify,Fortify Lockpicking Expertise
+Spider Egg,Lockpicking expertise is increased by (Magnitude) for (duration) seconds.,1,30,Fortify,Fortify Lockpicking Expertise
+Fire Salts,Magicka regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Magicka Regen
+Garlic,Magicka regenerates (Magnitude)% faster for (duration) seconds.,5,60,Fortify,Fortify Magicka Regen
+Jazabay Grapes,Magicka regenerates (Magnitude)% faster for (duration) seconds.,2,300,Fortify,Fortify Magicka Regen
+Moon Sugar,Magicka regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Magicka Regen
+Salmon Roe,Magicka regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Magicka Regen
+Salt,Magicka regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Magicka Regen
+Salt Pile,Magicka regenerates (Magnitude)% faster for (duration) seconds.,5,300,Fortify,Fortify Magicka Regen
+Polished Dragon Eye,Time between shouts is reduced 10%.,0,120,Fortify,Fortify Shouts
+Polished Werewolf Eye,Unarmed strikes do 10 additional damage for 60 Seconds.,10,60,Fortify,Fortify Unarmed Damage
+Angler Larvae,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Bear Eye,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Canine Tooth,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Charred Hawk Beak,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Daedra Heart,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,100,30,Lingering,Lingering Damage Health
+Doe Antlers (Superlative),Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Dragon Heart,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,2,10,Lingering,Lingering Damage Health
+Imp Stool,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Mora Tapinella,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Oil of Vitriol,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Orange Dartwing,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Scathecraw,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Slaughterfish Egg,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Slaughterfish Scales,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Venomous Spittle,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,60,Lingering,Lingering Damage Health
+Wolf Eye,Drains the target's Health by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Health
+Chicken’s Egg,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Stamina
+Doe Antlers,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Stamina
+Doe Antlers (Superlative),Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Stamina
+Dragon Heart,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,2,10,Lingering,Lingering Damage Stamina
+Flawless Bear Tooth,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Stamina
+Hawk's Egg,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Stamina
+Monarch Wing,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Stamina
+Nightshade,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Stamina
+Venomous Spittle,Drains the target's Stamina by (Magnitude) points per second for (duration) seconds.,1,60,Lingering,Lingering Damage Stamina
+Flawless Sabre Cat Tooth,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Magicka
+Hagraven Claw,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Magicka
+Northern Flax,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,19,Lingering,Lingering Damage Magicka
+Purple Mountain Flower,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,5,Lingering,Lingering Damage Magicka
+Pygmy Sunfish,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Magicka
+Swamp Fungal Pod,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Magicka
+Torchbug Abdomen,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Magicka
+Wheat,Drains the target's Magicka by (Magnitude) points per second for (duration) seconds.,1,10,Lingering,Lingering Damage Magicka
+Angelfish,Resists (Magnitude)% of fire damage for (duration) seconds.,4,60,Resist,Resist Fire
+Ash Creep Cluster,Resists (Magnitude)% of fire damage for (duration) seconds.,2,60,Resist,Resist Fire
+Ashen Grass Pod,Resists (Magnitude)% of fire damage for (duration) seconds.,4,80,Resist,Resist Fire
+Berit’s Ashes,Resists (Magnitude)% of fire damage for (duration) seconds.,3,60,Resist,Resist Fire
+Boar Eye,Resists (Magnitude)% of fire damage for (duration) seconds.,3,60,Resist,Resist Fire
+Bone Meal,Resists (Magnitude)% of fire damage for (duration) seconds.,2,60,Resist,Resist Fire
+Deer Heart,Resists (Magnitude)% of fire damage for (duration) seconds.,3,60,Resist,Resist Fire
+Dragon Heart,Resists (Magnitude)% of fire damage for (duration) seconds.,4,60,Resist,Resist Fire
+Dragon’s Tongue,Resists (Magnitude)% of fire damage for (duration) seconds.,3,80,Resist,Resist Fire
+Elves Ear,Resists (Magnitude)% of fire damage for (duration) seconds.,3,30,Resist,Resist Fire
+Fire Salts,Resists (Magnitude)% of fire damage for (duration) seconds.,3,300,Resist,Resist Fire
+Fly Amanita,Resists (Magnitude)% of fire damage for (duration) seconds.,3,60,Resist,Resist Fire
+Mudcrab Chitin,Resists (Magnitude)% of fire damage for (duration) seconds.,3,60,Resist,Resist Fire
+Polished Sabre Cat Eye,Resists (Magnitude)% of fire damage for (duration) seconds.,3,90,Resist,Resist Fire
+Polished Troll Eye,Resists (Magnitude)% of fire damage for (duration) seconds.,3,60,Resist,Resist Fire
+Snowberries,Resists (Magnitude)% of fire damage for (duration) seconds.,2,60,Resist,Resist Fire
+Spawn Ash,Resists (Magnitude)% of fire damage for (duration) seconds.,2,60,Resist,Resist Fire
+Animal Fat,Resists (Magnitude)% of poison effects for (duration) seconds.,4,180,Resist,Resist Poison
+Beehive Husk,Resists (Magnitude)% of poison effects for (duration) seconds.,2,60,Resist,Resist Poison
+Buck Antlers (Superlative),Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,Resist Poison
+Charred Skeever Hide,Resists (Magnitude)% of poison effects for (duration) seconds.,2,60,Resist,Resist Poison
+Cured Skeever Hide,Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,Resist Poison
+Doe Antlers (Superlative),Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,Resist Poison
+Falmer Ear,Resists (Magnitude)% of poison effects for (duration) seconds.,5,60,Resist,Resist Poison
+Felsaad Tern Feathers,Resists (Magnitude)% of poison effects for (duration) seconds.,5,60,Resist,Resist Poison
+Garlic,Resists (Magnitude)% of poison effects for (duration) seconds.,2,300,Resist,Resist Poison
+Grass Pod,Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,Resist Poison
+Mudcrab Chitin,Resists (Magnitude)% of poison effects for (duration) seconds.,5,60,Resist,Resist Poison
+Polished Fox Eye,Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,Resist Poison
+Polished Slaughterfish Scale,Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,Resist Poison
+Sapphire Glitterdust,Resists (Magnitude)% of poison effects for (duration) seconds.,5,180,Resist,Resist Poison
+Thistle Branch,Resists (Magnitude)% of poison effects for (duration) seconds.,3,0,Resist,Resist Poison
+Troll Fat,Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,Resist Poison
+Werewolf Eye,Resists (Magnitude)% of poison effects for (duration) seconds.,5,60,Resist,Resist Poison
+Yellow Mountain Flower,Resists (Magnitude)% of poison effects for (duration) seconds.,2,60,Resist,Resist Poison
+Ash Hopper Jelly,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Blue Dartwing,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Glowing Mushroom,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Hawk Beak,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Mudcrab Chitin,Resists (Magnitude)% of shock damage for (duration) seconds.,4,60,Resist,Resist Shock
+Panacea,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Pearl,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Pine Thrush Egg,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Polished Mammoth Eye,Resists (Magnitude)% of shock damage for (duration) seconds.,4,60,Resist,Resist Shock
+Snowberries,Resists (Magnitude)% of shock damage for (duration) seconds.,2,60,Resist,Resist Shock
+Strange Remains,Resists (Magnitude)% of shock damage for (duration) seconds.,5,60,Resist,Resist Shock
+Swamp Fungal Pod,Resists (Magnitude)% of shock damage for (duration) seconds.,3,60,Resist,Resist Shock
+Bleeding Crown,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Chicken’s Egg,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Crimson Nirnroot,Resists (Magnitude)% of magic for (duration) seconds.,5,180,Resist,Resist Magic
+Felsaad Tern Feathers,Resists (Magnitude)% of magic for (duration) seconds.,1,120,Resist,Resist Magic
+Gleamblossom,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Hagraven Claw,Resists (Magnitude)% of magic for (duration) seconds.,1,120,Resist,Resist Magic
+Hawk's Egg,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Lavender,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Nirnroot,Resists (Magnitude)% of magic for (duration) seconds.,4,60,Resist,Resist Magic
+Polished Boar Eye,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Polished Dragon Eye,Resists (Magnitude)% of magic for (duration) seconds.,3,60,Resist,Resist Magic
+Polished Werewolf Eye,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Polished Wolf Eye,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Sabre Cat Heart,Resists (Magnitude)% of magic for (duration) seconds.,3,60,Resist,Resist Magic
+Tundra Cotton,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Void Salts,Resists (Magnitude)% of magic for (duration) seconds.,3,300,Resist,Resist Magic
+Wisp Wrappings,Resists (Magnitude)% of magic for (duration) seconds.,1,60,Resist,Resist Magic
+Frost Mirriam,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Frost Salts,Resists (Magnitude)% of frost damage for (duration) seconds.,6,300,Resist,Resist Frost
+Goldfish,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Hawk Beak,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Moon Sugar,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Northern Flax,Resists (Magnitude)% of frost damage for (duration) seconds.,2,60,Resist,Resist Frost
+Pearlfish,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Polished Bear Eye,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Polished Slaughterfish Scale,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Purple Mountain Flower,Resists (Magnitude)% of frost damage for (duration) seconds.,1,60,Resist,Resist Frost
+Silverside Perch,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Slaughterfish Scales,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Small Pearl,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Snowberries,Resists (Magnitude)% of frost damage for (duration) seconds.,2,60,Resist,Resist Frost
+Thistle Branch,Resists (Magnitude)% of frost damage for (duration) seconds.,3,60,Resist,Resist Frost
+Slaughterfish Egg,Resists (Magnitude)% of poison effects for (duration) seconds.,4,60,Resist,resist Poison
+Abecean Longfin,The target is (Magnitude)% weaker to frost damage for (duration) seconds.,3,30,Weakness,Weakness to Frost
+Ash Hopper Jelly,The target is (Magnitude)% weaker to frost damage for (duration) seconds.,3,30,Weakness,Weakness to Frost
+Elves Ear,The target is (Magnitude)% weaker to frost damage for (duration) seconds.,2,30,Weakness,Weakness to Frost
+Fire Salts,The target is (Magnitude)% weaker to frost damage for (duration) seconds.,3,30,Weakness,Weakness to Frost
+Ice Wraith Teeth,The target is (Magnitude)% weaker to frost damage for (duration) seconds.,3,30,Weakness,Weakness to Frost
+White Cap,The target is (Magnitude)% weaker to frost damage for (duration) seconds.,3,30,Weakness,Weakness to Frost
+Abecean Longfin,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Bleeding Crown,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Chaurus Eggs,The target is (Magnitude)% weaker to poison for (duration) seconds.,4,30,Weakness,Weakness to Poison
+Deathbell,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Deer Heart,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Doe Antlers,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Giant Lichen,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Oil of Vitriol,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Pine Thrush Egg,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Powdered Mudcrab Chitin,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Sabre Cat Claws,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Sabre Cat Tooth,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Wolf Claws,The target is (Magnitude)% weaker to poison for (duration) seconds.,2,30,Weakness,Weakness to Poison
+Ashen Grass Pod,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,3,30,Weakness,Weakness to Shock
+Bee,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,3,30,Weakness,Weakness to Shock
+Giant Lichen,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,3,30,Weakness,Weakness to Shock
+Hagraven Feathers,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,3,30,Weakness,Weakness to Shock
+Hare Eye,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,3,30,Weakness,Weakness to Shock
+Polished Hare Eye,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,3,30,Weakness,Weakness to Shock
+Trama Root,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,3,30,Weakness,Weakness to Shock
+Void Salts,The target is (Magnitude)% weaker to shock damage for (duration) seconds.,20,30,Weakness,Weakness to Shock
+Bleeding Crown,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Burnt Spriggan Wood,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Canine Tooth,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Fox Eye,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,60,Weakness,Weakness to Fire
+Frost Salts,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,60,Weakness,Weakness to Fire
+Ice Wraith Teeth,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Juniper Berries,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Moon Sugar,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Polished Fox Eye,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Powdered Mammoth Tusk,The target is (Magnitude)% weaker to fire damage for (duration) seconds.,3,30,Weakness,Weakness to Fire
+Creep Cluster,The target is (Magnitude)% weaker to magic for (duration) seconds.,2,30,Weakness,Weakness to Magic
+Dwarven Oil,The target is (Magnitude)% weaker to magic for (duration) seconds.,2,30,Weakness,Weakness to Magic
+Jazabay Grapes,The target is (Magnitude)% weaker to magic for (duration) seconds.,1,30,Weakness,Weakness to Magic
+Rock Warbler Egg,The target is (Magnitude)% weaker to magic for (duration) seconds.,2,30,Weakness,Weakness to Magic
+Salt,The target is (Magnitude)% weaker to magic for (duration) seconds.,1,30,Weakness,Weakness to Magic
+Salt Pile,The target is (Magnitude)% weaker to magic for (duration) seconds.,2,30,Weakness,Weakness to Magic
+Scaly Pholiota,The target is (Magnitude)% weaker to magic for (duration) seconds.,2,30,Weakness,Weakness to Magic
+Taproot,The target is (Magnitude)% weaker to magic for (duration) seconds.,2,30,Weakness,Weakness to Magic
+Torchbug Abdomen,The target is (Magnitude)% weaker to magic for (duration) seconds.,2,30,Weakness,Weakness to Magic
+Dwarven Oil,Magicka regenerates (Magnitude)% faster for (duration) seconds.,5,300,Other,Fortify Magicka Regen
+Angelfish,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,10,Other,Waterbreathing
+Angler Larvae,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,5,Other,Waterbreathing
+Charred Skeever Hide,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,20,Other,Waterbreathing
+Chicken’s Egg,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,5,Other,Waterbreathing
+Goldfish,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,5,Other,Waterbreathing
+Hawk's Egg,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,5,Other,Waterbreathing
+Histcarp,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,5,Other,Waterbreathing
+Nordic Barnacle,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,5,Other,Waterbreathing
+Polished Slaughterfish Scale,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,10,Other,Waterbreathing
+Salmon Roe,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,60,Other,Waterbreathing
+Sapphire Glitterdust,The imbiber grants the ability to breathe underwater for (duration) seconds.,0,30,Other,Waterbreathing
+Animal Fat,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,1,20,Other,Frenzy
+Bear Heart,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,20,Other,Frenzy
+Blisterwort,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,20,Other,Frenzy
+Boar Heart,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,1,10,Other,Frenzy
+Boar Tusk,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,20,Other,Frenzy
+Boiled Skeever Tail,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,1,10,Other,Frenzy
+Bull Horn,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,10,Other,Frenzy
+Falmer Ear,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,3,20,Other,Frenzy
+Fly Amanita,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,20,Other,Frenzy
+Hagraven Feathers,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,3,20,Other,Frenzy
+Heart,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,3,20,Other,Frenzy
+Large Sabre Cat Claws,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,1,10,Other,Frenzy
+Polished Slaughterfish Scale,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,1,10,Other,Frenzy
+Polished Werewolf Eye,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,10,Other,Frenzy
+Polished Wolf Eye,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,1,10,Other,Frenzy
+Troll Fat,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,20,Other,Frenzy
+Werewolf Heart,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,1,10,Other,Frenzy
+Wolf Heart,Creatures and people up to level (Magnitude) will attack anything nearby for (duration) seconds.,2,20,Other,Frenzy
+Ash Creep Cluster,Grants invisibility for (duration) seconds.,0,4,Other,Invisibility
+Chaurus Eggs,Grants invisibility for (duration) seconds.,0,4,Other,Invisibility
+Crimson Nirnroot,Grants invisibility for (duration) seconds.,0,24,Other,Invisibility
+Glassfish,Grants invisibility for (duration) seconds.,0,4,Other,Invisibility
+Ice Wraith Teeth,Grants invisibility for (duration) seconds.,0,4,Other,Invisibility
+Luna Moth Wing,Grants invisibility for (duration) seconds.,0,4,Other,Invisibility
+Nirnroot,Grants invisibility for (duration) seconds.,0,16,Other,Invisibility
+Polished Fox Eye,Grants invisibility for (duration) seconds.,0,4,Other,Invisibility
+Polished Sabre Cat Eye,Grants invisibility for (duration) seconds.,0,5,Other,Invisibility
+Polished Werewolf Eye,Grants invisibility for (duration) seconds.,0,4,Other,Invisibility
+Strange Remains,Grants invisibility for (duration) seconds.,0,60,Other,Invisibility
+Vampire Dust,Grants invisibility for (duration) seconds.,0,15,Other,Invisibility
+Bear Eye,Nearby living creatures can be sensed while you are outdoors.,0,30,Other,Detect Life
+Dragon Eye,Nearby living creatures can be sensed while you are outdoors.,0,60,Other,Detect Life
+Bear Eye,"Once affected by this poison, further venoming causes the victim to stagger. Lasts (duration) seconds.",0,10,Other,Exploit Weakness
+Boar Eye,"Once affected by this poison, further venoming causes the victim to stagger. Lasts (duration) seconds.",0,10,Other,Exploit Weakness
+Polished Bear Eye,"Once affected by this poison, further venoming causes the victim to stagger. Lasts (duration) seconds.",0,10,Other,Exploit Weakness
+Blue Dartwing,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Cyrodilic Spadetail,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,3,30,Other,Fear
+Deer Heart,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Dragon Eye,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Gleamblossom,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Large Bear Claws,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Namira’s Rot,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Netch Jelly,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Poisonous Bloom,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Polished Dragon Eye,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,3,30,Other,Fear
+Powdered Mammoth Tusk,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Werewolf Eye,Creatures and people up to level (Magnitude) flee from combat for (duration) seconds.,2,30,Other,Fear
+Boar Eye,"For (duration) seconds, you can focus to see farther when aiming a bow.",0,10,Other,Hircine's Sight
+Fox Eye,"For (duration) seconds, you can focus to see farther when aiming a bow.",0,10,Other,Hircine's Sight
+Wolf Eye,"For (duration) seconds, you can focus to see farther when aiming a bow.",0,10,Other,Hircine's Sight
+Boar Heart,"Imbued with the thrill of the hunt, you move more swiftly and your stamina regenerates (Magnitude)% faster. The effect ends indoors.",5,600,Other,Thrill
+Dyed Hawk Feathers,"Imbued with the thrill of the hunt, you move more swiftly and your stamina regenerates (Magnitude)% faster. The effect ends indoors.",5,600,Other,Thrill
+Goat Heart,"Imbued with the thrill of the hunt, you move more swiftly and your stamina regenerates (Magnitude)% faster. The effect ends indoors.",5,600,Other,Thrill
+Boiled Skeever Tail,"For (duration) seconds, may cause stumbling.",0,10,Other,Ineptitude
+Goat Heart,"For (duration) seconds, may cause stumbling.",0,10,Other,Ineptitude
+Moon Moon Sugar,"For (duration) seconds, may cause stumbling.",0,30,Other,Ineptitude
+Moon Moon Sugar,"For (duration) seconds, may cause stumbling.",0,30,Other,Ineptitude
+Moon Moon Sugar,"For (duration) seconds, may cause stumbling.",0,30,Other,Ineptitude
+Moon Moon Sugar,"For (duration) seconds, may cause stumbling.",0,30,Other,Ineptitude
+Polished Boar Eye,"For (duration) seconds, may cause stumbling.",0,10,Other,Ineptitude
+Bonesap,"Within (duration) seconds, you will discern a random effect of the first ingredient you consume. ",1,30,Other,Discerning
+Polished Fox Eye,"Within (duration) seconds, you will discern a random effect of the first ingredient you consume. ",1,30,Other,Discerning
+Bonesap,The target is paralyzed for (duration) seconds.,0,1,Other,Paralysis
+Briar Heart,The target is paralyzed for (duration) seconds.,0,1,Other,Paralysis
+Dragon Heart,The target is paralyzed for (duration) seconds.,0,3,Other,Paralysis
+Flawless Bear Tooth,The target is paralyzed for (duration) seconds.,0,1,Other,Paralysis
+Gleamblossom,The target is paralyzed for (duration) seconds.,0,1,Other,Paralysis
+Human Flesh,The target is paralyzed for (duration) seconds.,0,1,Other,Paralysis
+Venomous Spittle,The target is paralyzed for (duration) seconds.,0,1,Other,Paralysis
+Bonesap,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Buck Antlers,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Buck Antlers (Superlative),Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Burnt Spriggan Wood,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Deathbell,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Mammoth Eye,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Poisonous Bloom,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Polished Mammoth Eye,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Polished Troll Eye,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+River Betty,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Salt,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Salt Pile,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Trama Root,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Troll Eye,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Troll Heart,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Wolf Claws,Decreases the target's movement speed drastically for (duration) seconds.,50,5,Other,Tardiness
+Cured Skeever Hide,You are (Magnitude)% harder to detect. The effect ends indoors.,2,600,Other,Prowling
+Polished Sabre Cat Eye,You are (Magnitude)% harder to detect. The effect ends indoors.,2,600,Other,Prowling
+Doe Antlers (Superlative),Bows do (Magnitude)% more damage. The effect ends indoors.,2,600,Other,Hunter's Boon
+Polished Boar Eye,Bows do (Magnitude)% more damage. The effect ends indoors.,2,600,Other,Hunter's Boon
+Polished Wolf Eye,Bows do (Magnitude)% more damage. The effect ends indoors.,2,600,Other,Hunter's Boon
+Werewolf Eye,Bows do (Magnitude)% more damage. The effect ends indoors.,2,600,Other,Hunter's Boon
+Dyed Hawk Feathers,Cures all diseases.,5,0,Other,Cure Disease
+Hare Eye,Cures all diseases.,5,0,Other,Cure Disease
+Hawk Feathers,Cures all diseases.,100,0,Other,Cure Disease
+Juvenile Mudcrab,Cures all diseases.,100,0,Other,Cure Disease
+Large Mudcrab Chitin,Cures all diseases.,5,0,Other,Cure Disease
+Spadefish,Cures all diseases.,100,0,Other,Cure Disease
+Flawless Sabre Cat Tooth,Any spells cast for the next (duration) seconds cost double mana.,0,10,Other,Muddle
+Goat Heart,Any spells cast for the next (duration) seconds cost double mana.,0,10,Other,Muddle
+Fox Eye,"Very briefly, you sense the path to your goal.",0,3,Other,Pathifinding
+Glassfish,Night Eye for (duration) seconds.,0,60,Other,Night Vision
+Glow Dust,Night Eye for (duration) seconds.,0,45,Other,Night Vision
+Wolf Eye,Night Eye for (duration) seconds.,0,60,Other,Night Vision
+Goat Heart,"Wastes away (Magnitude) health and stamina, per second, over (duration) seconds.",1,60,Other,Consumption
+Powdered Mudcrab Chitin,"Wastes away (Magnitude) health and stamina, per second, over (duration) seconds.",1,60,Other,Consumption
+Hagraven Claw,The target becomes vulnerable to soulgems for (dur) seconds.,0,4,Other,Soulreaping
+Ice Wraith Teeth,The target becomes vulnerable to soulgems for (dur) seconds.,0,2,Other,Soulreaping
+Strange Remains,The target becomes vulnerable to soulgems for (dur) seconds.,0,10,Other,Soulreaping
+Wisp Wrappings,The target becomes vulnerable to soulgems for (dur) seconds.,0,4,Other,Soulreaping
+Pearlfish,Allows you to absorb (Magnitude)% of the Magicka from hostile spells for (duration) seconds.,20,30,Other,Spell Absorption
+Sabre Cat Eye,Predator Vision for (duration) seconds.,0,20,Other,Thermal Vision
+Vampire Dust,Predator Vision for (duration) seconds.,0,20,Other,Thermal Vision
+Sapphire Glitterdust,Stops poison's continuing effects.,5,0,Other,Cure Poison
+Vampire Dust,Stops poison's continuing effects.,5,0,Other,Cure Poison
+Vampire Dust,Chance of contracting the disease,20,4,Other,Sanguinare Vampiris
+Ash Hopper Jelly,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Blisterwort,Restores (Magnitude) points of Health for (duration) seconds.,2,10,Restore,Restore Health
+Blue Dartwing,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Blue Mountain Flower,Restores (Magnitude) points of Health for (duration) seconds.,0,10,Restore,Restore Health
+Charred Skeever Hide,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Cured Skeever Hide,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Daedra Heart,Restores (Magnitude) points of Health for (duration) seconds.,100,30,Restore,Restore Health
+Felsaad Tern Feathers,Restores (Magnitude) points of Health for (duration) seconds.,1,10,Restore,Restore Health
+Imp Stool,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Monarch Wing,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Northern Flax,Restores (Magnitude) points of Health for (duration) seconds.,0,10,Restore,Restore Health
+Rock Warbler Egg,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Sabre Cat Eye,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Spadefish,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Swamp Fungal Pod,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Wheat,Restores (Magnitude) points of Health for (duration) seconds.,1,20,Restore,Restore Health
+Bear Claws,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Bee,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Buck Antlers,Restores (Magnitude) points of Stamina for (duration) seconds.,105,20,Restore,Restore Stamina
+Charred Skeever Hide,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Daedra Heart,Restores (Magnitude) points of Stamina for (duration) seconds.,100,30,Restore,Restore Stamina
+Goldfish,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Hawk Beak,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Histcarp,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Honeycomb,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Mudcrab Chitin,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Netch Jelly,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Orange Dartwing,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Panacea,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Pearl,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Pearlfish,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Pine Thrush Egg,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Polished Troll Eye,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Powdered Mammoth Tusk,Restores (Magnitude) points of Stamina for (duration) seconds.,3,20,Restore,Restore Stamina
+Purple Mountain Flower,Restores (Magnitude) points of Stamina for (duration) seconds.,0,20,Restore,Restore Stamina
+Pygmy Sunfish,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Sabre Cat Eye,Restores (Magnitude) points of Stamina for (duration) seconds.,2,20,Restore,Restore Stamina
+Sabre Cat Tooth,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Salmon Roe,Restores (Magnitude) points of Stamina for (duration) seconds.,2,0,Restore,Restore Stamina
+Silverside Perch,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Small Pearl,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Torchbug Abdomen,Restores (Magnitude) points of Stamina for (duration) seconds.,1,20,Restore,Restore Stamina
+Bear Tooth,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Briar Heart,Restores (Magnitude) Magicka for (duration) seconds.,2,30,Restore,Restore Magicka
+Creep Cluster,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Daedra Heart,Restores (Magnitude) Magicka for (duration) seconds.,100,30,Restore,Restore Magicka
+Dwarven Oil,Restores (Magnitude) Magicka for (duration) seconds.,2,20,Restore,Restore Magicka
+Ectoplasm,Restores (Magnitude) Magicka for (duration) seconds.,3,20,Restore,Restore Magicka
+Elves Ear,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Fire Salts,Restores (Magnitude) Magicka for (duration) seconds.,3,45,Restore,Restore Magicka
+Frost Salts,Restores (Magnitude) Magicka for (duration) seconds.,4,45,Restore,Restore Magicka
+Giant Lichen,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Glassfish,Restores (Magnitude) Magicka for (duration) seconds.,2,20,Restore,Restore Magicka
+Grass Pod,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Human Flesh,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Lyretail Anthias,Restores (Magnitude) Magicka for (duration) seconds.,3,20,Restore,Restore Magicka
+Moon Sugar,Restores (Magnitude) Magicka for (duration) seconds.,3,20,Restore,Restore Magicka
+Mora Tapinella,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Panacea,Restores (Magnitude) Magicka for (duration) seconds.,2,20,Restore,Restore Magicka
+Pearl,Restores (Magnitude) Magicka for (duration) seconds.,2,20,Restore,Restore Magicka
+Red Glitterdust,Restores (Magnitude) Magicka for (duration) seconds.,2,20,Restore,Restore Magicka
+Red Mountain Flower,Restores (Magnitude) Magicka for (duration) seconds.,0,10,Restore,Restore Magicka
+Sabre Cat Claws,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+Taproot,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka
+White Cap,Restores (Magnitude) Magicka for (duration) seconds.,1,20,Restore,Restore Magicka

@@ -2,6 +2,36 @@
 
 This is a Jekyll-based static wiki for the Wildlander Skyrim modlist, deployed via GitHub Pages. All pages are markdown with YAML frontmatter, rendered using the Just-the-Docs theme.
 
+## Important: Airtable Embed Conversion Rules
+
+**NEVER use `{% include %}` for table data in converted Airtable embeds.** Always embed the table content DIRECTLY in the page markdown:
+
+### When Converting Airtable Embeds to Searchable Tables:
+
+1. **Generate markdown table from CSV** using PowerShell script
+2. **Embed table directly in page** - Copy/paste the entire markdown table into the page markdown between HTML wrapper divs
+3. **Add JavaScript search/filter controls** - Script searches the embedded table
+4. **Do NOT use includes** (`{% include TableName.md %}`) - Includes hurt search indexing
+
+### Why Embed, Not Include?
+- ✅ **Embedded tables:** Searchable by Just the Docs, better UX, part of page content
+- ❌ **Included tables:** Not indexed for search, require extra files, harder to maintain
+
+### Exception: Extremely Large Tables (700+ rows)
+- For tables with 700+ rows that would make pages slow, you MAY use includes as a last resort
+- But still prefer embedding when possible
+- Always embed the search/filter controls in the page itself (never in includes)
+
+### Standard Conversion Pattern:
+```
+1. Create CSV → PowerShell script → Generate markdown table
+2. Copy ALL table markdown directly into page markdown
+3. Wrap with: <div class="[page]-table" markdown="1">TABLE</div>
+4. Add search/filter controls with JavaScript
+5. Add CSS to custom.scss
+6. Delete or ignore the generated .md include file - don't use it
+```
+
 ## Important: Git Commit Policy
 **DO NOT make git commits automatically.** Only run `git add` and `git commit` commands when the user explicitly requests it (e.g., "commit this" or "save to git"). Always make code changes, but wait for explicit instruction before committing to version control.
 
