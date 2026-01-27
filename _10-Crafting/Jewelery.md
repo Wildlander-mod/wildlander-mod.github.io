@@ -230,7 +230,7 @@ initJewelryFilters();
   <div id="filterResultCountJewelry" class="filter-result-count-jewelry"></div>
 </div>
 
-<div class="jewelry-table" markdown="1">
+<div class="jewelry-recipes-table" markdown="1">
 
 | Produced Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
 |:---|:---:|:---|:---|:---|:---|:---|
