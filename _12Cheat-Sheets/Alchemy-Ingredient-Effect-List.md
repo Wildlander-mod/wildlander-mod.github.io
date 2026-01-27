@@ -14,17 +14,46 @@ This table contains a complete list of all alchemy ingredients available in Wild
 - Plan your alchemy crafting for desired results
 - Cross-reference ingredients across different effect categories
 
+<style>
+#alchemy-ing-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+#alchemy-ing-tooltip div {
+  margin: 4px 0;
+}
+
+#alchemy-ing-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initAlchemyIngredientFilters();
+  setTimeout(initAlchemyIngredientPage, 300);
 });
 
-function initAlchemyIngredientFilters() {
-  document.getElementById('alchemyIngSearch').addEventListener('keyup', filterAlchemyIngTable);
-  document.getElementById('alchemyIngClearFilters').addEventListener('click', clearAlchemyIngFilters);
-  
+function initAlchemyIngredientPage() {
   const table = document.querySelector('.alchemy-ing-table table');
+  if (!table) return;
+  
+  initAlchemyIngredientFilters(table);
+  initAlchemyIngtooltips(table);
+}
+
+function initAlchemyIngredientFilters(table) {
+  document.getElementById('alchemyIngSearch').addEventListener('keyup', function() { filterAlchemyIngTable(table); });
+  document.getElementById('alchemyIngClearFilters').addEventListener('click', function() { clearAlchemyIngFilters(table); });
+  
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   // Populate Effect filter dropdown (column 1)
@@ -54,18 +83,73 @@ function initAlchemyIngredientFilters() {
     categoryFilter.appendChild(option);
   });
   
-  effectFilter.addEventListener('change', filterAlchemyIngTable);
-  categoryFilter.addEventListener('change', filterAlchemyIngTable);
+  effectFilter.addEventListener('change', function() { filterAlchemyIngTable(table); });
+  categoryFilter.addEventListener('change', function() { filterAlchemyIngTable(table); });
   
-  filterAlchemyIngTable();
+  filterAlchemyIngTable(table);
 }
 
-function filterAlchemyIngTable() {
+function initAlchemyIngtooltips(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const ingredientCell = row.querySelector('td:first-child');
+    if (!ingredientCell) return;
+    
+    ingredientCell.style.cursor = 'pointer';
+    ingredientCell.style.color = '#f77ef1';
+    ingredientCell.style.fontWeight = '500';
+    ingredientCell.addEventListener('mouseenter', (e) => showAlchemyIngtooltip(e, row));
+    ingredientCell.addEventListener('mousemove', updateAlchemyIngtooltipPosition);
+    ingredientCell.addEventListener('mouseleave', hideAlchemyIngtooltip);
+  });
+}
+
+function showAlchemyIngtooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const ingredient = cells[0]?.textContent?.trim() || '';
+  const effect = cells[1]?.textContent?.trim() || '';
+  const magnitude = cells[2]?.textContent?.trim() || '';
+  const duration = cells[3]?.textContent?.trim() || '';
+  const category = cells[5]?.textContent?.trim() || '';
+  
+  let tooltip = document.getElementById('alchemy-ing-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'alchemy-ing-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = '<div><strong>Ingredient:</strong> ' + ingredient + '</div>' +
+    '<div><strong>Effect:</strong> ' + effect + '</div>' +
+    '<div><strong>Magnitude:</strong> ' + magnitude + '</div>' +
+    '<div><strong>Duration:</strong> ' + duration + 's</div>' +
+    '<div><strong>Category:</strong> ' + category + '</div>';
+  
+  tooltip.style.display = 'block';
+  updateAlchemyIngtooltipPosition(event);
+}
+
+function updateAlchemyIngtooltipPosition(event) {
+  const tooltip = document.getElementById('alchemy-ing-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideAlchemyIngtooltip() {
+  const tooltip = document.getElementById('alchemy-ing-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+
+function filterAlchemyIngTable(table) {
   const searchTerm = document.getElementById('alchemyIngSearch').value.toLowerCase();
   const effectFilter = document.getElementById('alchemyIngEffectFilter').value;
   const categoryFilter = document.getElementById('alchemyIngCategoryFilter').value;
   
-  const table = document.querySelector('.alchemy-ing-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   let visibleCount = 0;
   
@@ -90,15 +174,15 @@ function filterAlchemyIngTable() {
 function updateAlchemyIngFilterCount(visible, total) {
   const counter = document.getElementById('alchemyIngFilterResultCount');
   if (counter) {
-    counter.textContent = `Showing ${visible} of ${total} ingredients`;
+    counter.textContent = 'Showing ' + visible + ' of ' + total + ' ingredients';
   }
 }
 
-function clearAlchemyIngFilters() {
+function clearAlchemyIngFilters(table) {
   document.getElementById('alchemyIngSearch').value = '';
   document.getElementById('alchemyIngEffectFilter').value = '';
   document.getElementById('alchemyIngCategoryFilter').value = '';
-  filterAlchemyIngTable();
+  filterAlchemyIngTable(table);
 }
 </script>
 

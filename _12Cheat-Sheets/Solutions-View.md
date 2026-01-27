@@ -20,16 +20,45 @@ Use the search box below to find solutions and their creation paths.
 
 ---
 
+<style>
+#solutions-view-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 350px;
+  word-wrap: break-word;
+}
+
+#solutions-view-tooltip div {
+  margin: 4px 0;
+}
+
+#solutions-view-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initSolutionsViewFilters();
+  setTimeout(initSolutionsViewPage, 300);
 });
 
-function initSolutionsViewFilters() {
+function initSolutionsViewPage() {
+  const table = document.querySelector('.solutions-view-table table');
+  if (!table) return;
+  
+  initSolutionsViewFilters(table);
+  initSolutionsViewtooltips(table);
+}
+
+function initSolutionsViewFilters(table) {
   const archetypes = new Set();
   const baseIngredients = new Set();
-  const table = document.querySelector('.solutions-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -57,44 +86,111 @@ function initSolutionsViewFilters() {
   });
   
   const archetypeSelect = document.getElementById('solutionsViewEffectFilter');
-  Array.from(archetypes).sort().forEach(arch => {
-    const option = document.createElement('option');
-    option.value = arch;
-    option.textContent = arch;
-    archetypeSelect.appendChild(option);
-  });
+  if (archetypeSelect) {
+    Array.from(archetypes).sort().forEach(arch => {
+      const option = document.createElement('option');
+      option.value = arch;
+      option.textContent = arch;
+      archetypeSelect.appendChild(option);
+    });
+    archetypeSelect.addEventListener('change', function() { filterSolutionsViewTable(table); });
+  }
   
   const ingredientSelect = document.getElementById('solutionsViewBaseIngredientFilter');
-  Array.from(baseIngredients).sort().forEach(ing => {
-    const option = document.createElement('option');
-    option.value = ing;
-    option.textContent = ing;
-    ingredientSelect.appendChild(option);
-  });
+  if (ingredientSelect) {
+    Array.from(baseIngredients).sort().forEach(ing => {
+      const option = document.createElement('option');
+      option.value = ing;
+      option.textContent = ing;
+      ingredientSelect.appendChild(option);
+    });
+    ingredientSelect.addEventListener('change', function() { filterSolutionsViewTable(table); });
+  }
   
-  document.getElementById('solutionsViewSearch').addEventListener('keyup', filterSolutionsViewTable);
-  archetypeSelect.addEventListener('change', filterSolutionsViewTable);
-  ingredientSelect.addEventListener('change', filterSolutionsViewTable);
-  document.getElementById('solutionsViewClearFilters').addEventListener('click', clearSolutionsViewFilters);
-  filterSolutionsViewTable();
+  const searchInput = document.getElementById('solutionsViewSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { filterSolutionsViewTable(table); });
+  }
+  
+  const clearButton = document.getElementById('solutionsViewClearFilters');
+  if (clearButton) {
+    clearButton.addEventListener('click', function() { clearSolutionsViewFilters(table); });
+  }
+  
+  filterSolutionsViewTable(table);
 }
 
-function filterSolutionsViewTable() {
-  const searchTerm = document.getElementById('solutionsViewSearch').value.toLowerCase();
-  const archetypeFilter = document.getElementById('solutionsViewEffectFilter').value;
-  const baseIngFilter = document.getElementById('solutionsViewBaseIngredientFilter').value;
+function initSolutionsViewtooltips(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
   
-  const table = document.querySelector('.solutions-view-table table');
+  rows.forEach(row => {
+    const solutionCell = row.querySelector('td:first-child');
+    if (!solutionCell) return;
+    
+    solutionCell.style.cursor = 'pointer';
+    solutionCell.style.color = '#f77ef1';
+    solutionCell.style.fontWeight = '500';
+    solutionCell.addEventListener('mouseenter', (e) => showSolutionsViewtooltip(e, row));
+    solutionCell.addEventListener('mousemove', updateSolutionsViewtooltipPosition);
+    solutionCell.addEventListener('mouseleave', hideSolutionsViewtooltip);
+  });
+}
+
+function showSolutionsViewtooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const solution = cells[0]?.textContent?.trim() || '';
+  const baseIng = cells[1]?.textContent?.trim() || '';
+  const effect = cells[2]?.textContent?.trim() || '';
+  const archetypes = cells[3]?.textContent?.trim() || '';
+  const rank = cells[4]?.textContent?.trim() || '';
+  
+  let tooltip = document.getElementById('solutions-view-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'solutions-view-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = '<div><strong>Solution:</strong> ' + solution + '</div>' +
+    '<div><strong>Base Ingredient:</strong> ' + baseIng + '</div>' +
+    '<div><strong>Primary Effect:</strong> ' + (effect || 'N/A') + '</div>' +
+    '<div><strong>Archetypes:</strong> ' + archetypes + '</div>' +
+    '<div><strong>Rank:</strong> ' + rank + '</div>';
+  
+  tooltip.style.display = 'block';
+  updateSolutionsViewtooltipPosition(event);
+}
+
+function updateSolutionsViewtooltipPosition(event) {
+  const tooltip = document.getElementById('solutions-view-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideSolutionsViewtooltip() {
+  const tooltip = document.getElementById('solutions-view-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+
+function filterSolutionsViewTable(table) {
+  const searchTerm = (document.getElementById('solutionsViewSearch')?.value || '').toLowerCase();
+  const archetypeFilter = document.getElementById('solutionsViewEffectFilter')?.value || '';
+  const baseIngFilter = document.getElementById('solutionsViewBaseIngredientFilter')?.value || '';
+  
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const solution = cells[0]?.textContent.toLowerCase() || '';
-    const baseIng = cells[1]?.textContent.toLowerCase() || '';
-    const effect = cells[2]?.textContent.toLowerCase() || '';
-    const archetypes = cells[3]?.textContent.toLowerCase() || '';
-    const rank = cells[4]?.textContent.toLowerCase() || '';
+    const solution = (cells[0]?.textContent || '').toLowerCase();
+    const baseIng = (cells[1]?.textContent || '').toLowerCase();
+    const effect = (cells[2]?.textContent || '').toLowerCase();
+    const archetypes = (cells[3]?.textContent || '').toLowerCase();
+    const rank = (cells[4]?.textContent || '').toLowerCase();
     
     const searchMatch = solution.includes(searchTerm) || baseIng.includes(searchTerm) || 
                         effect.includes(searchTerm) || archetypes.includes(searchTerm);
@@ -114,15 +210,20 @@ function filterSolutionsViewTable() {
 function updateSolutionsViewFilterCount(visible, total) {
   const counter = document.getElementById('solutionsViewFilterResultCount');
   if (counter) {
-    counter.textContent = `Showing ${visible} of ${total} solutions`;
+    counter.textContent = 'Showing ' + visible + ' of ' + total + ' solutions';
   }
 }
 
-function clearSolutionsViewFilters() {
-  document.getElementById('solutionsViewSearch').value = '';
-  document.getElementById('solutionsViewEffectFilter').value = '';
-  document.getElementById('solutionsViewBaseIngredientFilter').value = '';
-  filterSolutionsViewTable();
+function clearSolutionsViewFilters(table) {
+  const searchInput = document.getElementById('solutionsViewSearch');
+  const archetypeSelect = document.getElementById('solutionsViewEffectFilter');
+  const ingredientSelect = document.getElementById('solutionsViewBaseIngredientFilter');
+  
+  if (searchInput) searchInput.value = '';
+  if (archetypeSelect) archetypeSelect.value = '';
+  if (ingredientSelect) ingredientSelect.value = '';
+  
+  filterSolutionsViewTable(table);
 }
 </script>
 

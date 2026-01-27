@@ -20,15 +20,44 @@ Use the search box below to find recipes by elixir name or ingredient requiremen
 
 ---
 
+<style>
+#elixir-view-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+#elixir-view-tooltip div {
+  margin: 4px 0;
+}
+
+#elixir-view-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initElixirViewFilters();
+  setTimeout(initElixirViewPage, 300);
 });
 
-function initElixirViewFilters() {
-  const effects = new Set();
+function initElixirViewPage() {
   const table = document.querySelector('.elixir-view-table table');
+  if (!table) return;
+  
+  initElixirViewFilters(table);
+  initElixirViewtooltips(table);
+}
+
+function initElixirViewFilters(table) {
+  const effects = new Set();
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -42,31 +71,93 @@ function initElixirViewFilters() {
   });
   
   const select = document.getElementById('elixirViewEffectFilter');
-  Array.from(effects).sort().forEach(effect => {
-    const option = document.createElement('option');
-    option.value = effect;
-    option.textContent = effect;
-    select.appendChild(option);
-  });
+  if (select) {
+    Array.from(effects).sort().forEach(effect => {
+      const option = document.createElement('option');
+      option.value = effect;
+      option.textContent = effect;
+      select.appendChild(option);
+    });
+    select.addEventListener('change', function() { filterElixirViewTable(table); });
+  }
   
-  document.getElementById('elixirViewSearch').addEventListener('keyup', filterElixirViewTable);
-  select.addEventListener('change', filterElixirViewTable);
-  document.getElementById('elixirViewClearFilters').addEventListener('click', clearElixirViewFilters);
+  const searchInput = document.getElementById('elixirViewSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { filterElixirViewTable(table); });
+  }
+  
+  const clearButton = document.getElementById('elixirViewClearFilters');
+  if (clearButton) {
+    clearButton.addEventListener('click', function() { clearElixirViewFilters(table); });
+  }
+  
+  filterElixirViewTable(table);
 }
 
-function filterElixirViewTable() {
-  const searchTerm = document.getElementById('elixirViewSearch').value.toLowerCase();
-  const effectFilter = document.getElementById('elixirViewEffectFilter').value;
+function initElixirViewtooltips(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
   
-  const table = document.querySelector('.elixir-view-table table');
+  rows.forEach(row => {
+    const elixirCell = row.querySelector('td:first-child');
+    if (!elixirCell) return;
+    
+    elixirCell.style.cursor = 'pointer';
+    elixirCell.style.color = '#f77ef1';
+    elixirCell.style.fontWeight = '500';
+    elixirCell.addEventListener('mouseenter', (e) => showElixirViewtooltip(e, row));
+    elixirCell.addEventListener('mousemove', updateElixirViewtooltipPosition);
+    elixirCell.addEventListener('mouseleave', hideElixirViewtooltip);
+  });
+}
+
+function showElixirViewtooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const name = cells[0]?.textContent?.trim() || '';
+  const effect = cells[1]?.textContent?.trim() || '';
+  const solutions = cells[2]?.textContent?.trim() || '';
+  
+  let tooltip = document.getElementById('elixir-view-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'elixir-view-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = '<div><strong>Elixir:</strong> ' + name + '</div>' +
+    '<div><strong>Effect:</strong> ' + effect + '</div>' +
+    '<div><strong>Solutions:</strong> ' + solutions + '</div>';
+  
+  tooltip.style.display = 'block';
+  updateElixirViewtooltipPosition(event);
+}
+
+function updateElixirViewtooltipPosition(event) {
+  const tooltip = document.getElementById('elixir-view-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideElixirViewtooltip() {
+  const tooltip = document.getElementById('elixir-view-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+
+function filterElixirViewTable(table) {
+  const searchTerm = (document.getElementById('elixirViewSearch')?.value || '').toLowerCase();
+  const effectFilter = document.getElementById('elixirViewEffectFilter')?.value || '';
+  
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const name = cells[0]?.textContent.toLowerCase() || '';
-    const effect = cells[1]?.textContent.trim() || '';
-    const solutions = cells[2]?.textContent.toLowerCase() || '';
+    const name = (cells[0]?.textContent || '').toLowerCase();
+    const effect = (cells[1]?.textContent || '').trim();
+    const solutions = (cells[2]?.textContent || '').toLowerCase();
     
     const searchMatch = name.includes(searchTerm) || solutions.includes(searchTerm);
     const filterMatch = !effectFilter || effect === effectFilter;
@@ -82,14 +173,18 @@ function filterElixirViewTable() {
 function updateElixirViewFilterCount(visible, total) {
   const counter = document.getElementById('elixirViewFilterResultCount');
   if (counter) {
-    counter.textContent = `Showing ${visible} of ${total} elixirs`;
+    counter.textContent = 'Showing ' + visible + ' of ' + total + ' elixirs';
   }
 }
 
-function clearElixirViewFilters() {
-  document.getElementById('elixirViewSearch').value = '';
-  document.getElementById('elixirViewEffectFilter').value = '';
-  filterElixirViewTable();
+function clearElixirViewFilters(table) {
+  const searchInput = document.getElementById('elixirViewSearch');
+  const effectSelect = document.getElementById('elixirViewEffectFilter');
+  
+  if (searchInput) searchInput.value = '';
+  if (effectSelect) effectSelect.value = '';
+  
+  filterElixirViewTable(table);
 }
 </script>
 

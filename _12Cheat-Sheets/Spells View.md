@@ -20,17 +20,46 @@ Use the search box below to find spells by name or filter by school of magic.
 
 ---
 
+<style>
+#spells-view-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 350px;
+  word-wrap: break-word;
+}
+
+#spells-view-tooltip div {
+  margin: 4px 0;
+}
+
+#spells-view-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initSpellsViewFilters();
+  setTimeout(initSpellsViewPage, 300);
 });
 
-function initSpellsViewFilters() {
+function initSpellsViewPage() {
+  const table = document.querySelector('.spells-view-table table');
+  if (!table) return;
+  
+  initSpellsViewFilters(table);
+  initSpellsViewtooltips(table);
+}
+
+function initSpellsViewFilters(table) {
   const schools = new Set();
   const elements = new Set();
   const targets = new Set();
-  const table = document.querySelector('.spells-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -66,54 +95,67 @@ function initSpellsViewFilters() {
   });
   
   const schoolSelect = document.getElementById('spellsViewTypeFilter');
-  Array.from(schools).sort().forEach(school => {
-    const option = document.createElement('option');
-    option.value = school;
-    option.textContent = school;
-    schoolSelect.appendChild(option);
-  });
+  if (schoolSelect) {
+    Array.from(schools).sort().forEach(school => {
+      const option = document.createElement('option');
+      option.value = school;
+      option.textContent = school;
+      schoolSelect.appendChild(option);
+    });
+    schoolSelect.addEventListener('change', function() { filterSpellsViewTable(table); });
+  }
   
   const targetSelect = document.getElementById('spellsViewTargetFilter');
-  Array.from(targets).sort().forEach(tgt => {
-    const option = document.createElement('option');
-    option.value = tgt;
-    option.textContent = tgt;
-    targetSelect.appendChild(option);
-  });
+  if (targetSelect) {
+    Array.from(targets).sort().forEach(tgt => {
+      const option = document.createElement('option');
+      option.value = tgt;
+      option.textContent = tgt;
+      targetSelect.appendChild(option);
+    });
+    targetSelect.addEventListener('change', function() { filterSpellsViewTable(table); });
+  }
   
   const elementsSelect = document.getElementById('spellsViewElementsFilter');
-  Array.from(elements).sort().forEach(elm => {
-    const option = document.createElement('option');
-    option.value = elm;
-    option.textContent = elm;
-    elementsSelect.appendChild(option);
-  });
+  if (elementsSelect) {
+    Array.from(elements).sort().forEach(elm => {
+      const option = document.createElement('option');
+      option.value = elm;
+      option.textContent = elm;
+      elementsSelect.appendChild(option);
+    });
+    elementsSelect.addEventListener('change', function() { filterSpellsViewTable(table); });
+  }
   
-  document.getElementById('spellsViewSearch').addEventListener('keyup', filterSpellsViewTable);
-  schoolSelect.addEventListener('change', filterSpellsViewTable);
-  targetSelect.addEventListener('change', filterSpellsViewTable);
-  elementsSelect.addEventListener('change', filterSpellsViewTable);
-  document.getElementById('spellsViewClearFilters').addEventListener('click', clearSpellsViewFilters);
-  filterSpellsViewTable();
+  const searchInput = document.getElementById('spellsViewSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { filterSpellsViewTable(table); });
+  }
+  
+  const clearButton = document.getElementById('spellsViewClearFilters');
+  if (clearButton) {
+    clearButton.addEventListener('click', function() { clearSpellsViewFilters(table); });
+  }
+  
+  filterSpellsViewTable(table);
 }
 
-function filterSpellsViewTable() {
-  const searchTerm = document.getElementById('spellsViewSearch').value.toLowerCase();
-  const schoolFilter = document.getElementById('spellsViewTypeFilter').value;
-  const targetFilter = document.getElementById('spellsViewTargetFilter').value;
-  const elementsFilter = document.getElementById('spellsViewElementsFilter').value;
+function filterSpellsViewTable(table) {
+  const searchTerm = (document.getElementById('spellsViewSearch')?.value || '').toLowerCase();
+  const schoolFilter = document.getElementById('spellsViewTypeFilter')?.value || '';
+  const targetFilter = document.getElementById('spellsViewTargetFilter')?.value || '';
+  const elementsFilter = document.getElementById('spellsViewElementsFilter')?.value || '';
   
-  const table = document.querySelector('.spells-view-table table');
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const spell = cells[0]?.textContent.toLowerCase() || '';
-    const school = cells[1]?.textContent.trim() || '';
-    const castType = cells[2]?.textContent.toLowerCase() || '';
-    const targetText = cells[4]?.textContent.toLowerCase() || '';
-    const elementsText = cells[6]?.textContent.toLowerCase() || '';
+    const spell = (cells[0]?.textContent || '').toLowerCase();
+    const school = (cells[1]?.textContent || '').trim();
+    const castType = (cells[2]?.textContent || '').toLowerCase();
+    const targetText = (cells[4]?.textContent || '').toLowerCase();
+    const elementsText = (cells[6]?.textContent || '').toLowerCase();
     
     const searchMatch = spell.includes(searchTerm) || castType.includes(searchTerm);
     const schoolMatch = !schoolFilter || school === schoolFilter;
@@ -135,16 +177,88 @@ function filterSpellsViewTable() {
 function updateSpellsViewFilterCount(visible, total) {
   const counter = document.getElementById('spellsViewFilterResultCount');
   if (counter) {
-    counter.textContent = `Showing ${visible} of ${total} spells`;
+    counter.textContent = 'Showing ' + visible + ' of ' + total + ' spells';
   }
 }
 
-function clearSpellsViewFilters() {
-  document.getElementById('spellsViewSearch').value = '';
-  document.getElementById('spellsViewTypeFilter').value = '';
-  document.getElementById('spellsViewTargetFilter').value = '';
-  document.getElementById('spellsViewElementsFilter').value = '';
-  filterSpellsViewTable();
+function clearSpellsViewFilters(table) {
+  const searchInput = document.getElementById('spellsViewSearch');
+  const schoolSelect = document.getElementById('spellsViewTypeFilter');
+  const targetSelect = document.getElementById('spellsViewTargetFilter');
+  const elementsSelect = document.getElementById('spellsViewElementsFilter');
+  
+  if (searchInput) searchInput.value = '';
+  if (schoolSelect) schoolSelect.value = '';
+  if (targetSelect) targetSelect.value = '';
+  if (elementsSelect) elementsSelect.value = '';
+  
+  filterSpellsViewTable(table);
+}
+
+function initSpellsViewtooltips(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const spellCell = row.querySelector('td:first-child');
+    if (!spellCell) return;
+    
+    spellCell.style.cursor = 'pointer';
+    spellCell.style.color = '#f77ef1';
+    spellCell.style.fontWeight = '500';
+    spellCell.addEventListener('mouseenter', (e) => showSpellsViewtooltip(e, row));
+    spellCell.addEventListener('mousemove', updateSpellsViewtooltipPosition);
+    spellCell.addEventListener('mouseleave', hideSpellsViewtooltip);
+  });
+}
+
+function showSpellsViewtooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const spellName = cells[0]?.textContent || '';
+  const school = cells[1]?.textContent || '';
+  const castType = cells[2]?.textContent || '';
+  const level = cells[3]?.textContent || '';
+  const target = cells[4]?.textContent || '';
+  const technique = cells[5]?.textContent || '';
+  const elements = cells[6]?.textContent || '';
+  const tomeCrafting = cells[7]?.textContent || '';
+  const scrollCrafting = cells[8]?.textContent || '';
+  const notes = cells[9]?.textContent || '';
+  
+  let tooltip = document.getElementById('spells-view-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'spells-view-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = '<div><strong>Spell:</strong> ' + spellName + '</div>' +
+    '<div><strong>School:</strong> ' + school + '</div>' +
+    '<div><strong>Cast Type:</strong> ' + castType + '</div>' +
+    '<div><strong>Level:</strong> ' + level + '</div>' +
+    '<div><strong>Target:</strong> ' + target + '</div>' +
+    '<div><strong>Technique:</strong> ' + (technique || 'N/A') + '</div>' +
+    '<div><strong>Elements:</strong> ' + elements + '</div>' +
+    '<div><strong>Tome:</strong> ' + (tomeCrafting || 'No') + '</div>' +
+    '<div><strong>Scroll:</strong> ' + (scrollCrafting || 'No') + '</div>' +
+    (notes ? '<div><strong>Notes:</strong> ' + notes + '</div>' : '');
+  
+  tooltip.style.display = 'block';
+  updateSpellsViewtooltipPosition(event);
+}
+
+function updateSpellsViewtooltipPosition(event) {
+  const tooltip = document.getElementById('spells-view-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideSpellsViewtooltip() {
+  const tooltip = document.getElementById('spells-view-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
 }
 </script>
 

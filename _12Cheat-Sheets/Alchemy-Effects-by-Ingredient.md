@@ -27,23 +27,51 @@ Use the search bar and filters below to find specific ingredients by effect type
 
 ---
 
+<style>
+#alchemy-effects-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+#alchemy-effects-tooltip div {
+  margin: 4px 0;
+}
+
+#alchemy-effects-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  // Tooltip and filter initialization
-  initAlchemyEffectstooltips();
-  initAlchemyEffectsFilters();
+  setTimeout(initAlchemyEffectsPage, 300);
 });
 
-function initAlchemyEffectstooltips() {
+function initAlchemyEffectsPage() {
   const table = document.querySelector('.alchemy-effects-table table');
   if (!table) return;
+  
+  initAlchemyEffectstooltips(table);
+  initAlchemyEffectsFilters(table);
+}
+
+function initAlchemyEffectstooltips(table) {
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
     const ingredientCell = row.querySelector('td:first-child');
     if (!ingredientCell) return;
     ingredientCell.style.cursor = 'pointer';
+    ingredientCell.style.color = '#f77ef1';
+    ingredientCell.style.fontWeight = '500';
     ingredientCell.addEventListener('mouseenter', (e) => showAlchemyEffectstooltip(e, row));
     ingredientCell.addEventListener('mousemove', updateAlchemyEffectstooltipPosition);
     ingredientCell.addEventListener('mouseleave', hideAlchemyEffectstooltip);
@@ -52,14 +80,12 @@ function initAlchemyEffectstooltips() {
 
 function showAlchemyEffectstooltip(event, row) {
   const cells = row.querySelectorAll('td');
-  const data = {
-    ingredient: cells[0]?.textContent?.trim() || '',
-    effect: cells[1]?.textContent?.trim() || '',
-    magnitude: cells[2]?.textContent?.trim() || '',
-    duration: cells[3]?.textContent?.trim() || '',
-    description: cells[4]?.textContent?.trim() || '',
-    category: cells[5]?.textContent?.trim() || ''
-  };
+  const ingredient = cells[0]?.textContent?.trim() || '';
+  const effect = cells[1]?.textContent?.trim() || '';
+  const magnitude = cells[2]?.textContent?.trim() || '';
+  const duration = cells[3]?.textContent?.trim() || '';
+  const description = cells[4]?.textContent?.trim() || '';
+  const category = cells[5]?.textContent?.trim() || '';
   
   let tooltip = document.getElementById('alchemy-effects-tooltip');
   if (!tooltip) {
@@ -67,25 +93,16 @@ function showAlchemyEffectstooltip(event, row) {
     tooltip.id = 'alchemy-effects-tooltip';
     tooltip.style.position = 'fixed';
     tooltip.style.zIndex = '10000';
-    tooltip.style.backgroundColor = '#2a2a2a';
-    tooltip.style.border = '1px solid #50098a';
-    tooltip.style.padding = '10px';
-    tooltip.style.borderRadius = '4px';
-    tooltip.style.color = '#e6e6e6';
-    tooltip.style.fontSize = '12px';
-    tooltip.style.maxWidth = '300px';
-    tooltip.style.wordWrap = 'break-word';
     document.body.appendChild(tooltip);
   }
   
-  tooltip.innerHTML = `
-    <div><strong>Ingredient:</strong> ${data.ingredient}</div>
-    <div><strong>Effect:</strong> ${data.effect}</div>
-    <div><strong>Magnitude:</strong> ${data.magnitude}</div>
-    <div><strong>Duration:</strong> ${data.duration}s</div>
-    <div><strong>Category:</strong> ${data.category}</div>
-    <div style="margin-top: 8px; border-top: 1px solid #50098a; padding-top: 8px; font-size: 11px;"><strong>Description:</strong> ${data.description}</div>
-  `;
+  tooltip.innerHTML = '<div><strong>Ingredient:</strong> ' + ingredient + '</div>' +
+    '<div><strong>Effect:</strong> ' + effect + '</div>' +
+    '<div><strong>Magnitude:</strong> ' + magnitude + '</div>' +
+    '<div><strong>Duration:</strong> ' + duration + 's</div>' +
+    '<div><strong>Category:</strong> ' + category + '</div>' +
+    '<div style="margin-top: 8px; border-top: 1px solid #50098a; padding-top: 8px; font-size: 11px;"><strong>Description:</strong> ' + description + '</div>';
+  
   tooltip.style.display = 'block';
   updateAlchemyEffectstooltipPosition(event);
 }
@@ -103,10 +120,7 @@ function hideAlchemyEffectstooltip() {
   if (tooltip) tooltip.style.display = 'none';
 }
 
-function initAlchemyEffectsFilters() {
-  const table = document.querySelector('.alchemy-effects-table table');
-  if (!table) return;
-  
+function initAlchemyEffectsFilters(table) {
   const effectFilter = document.getElementById('alchemyEffectsFilterFilter');
   const categoryFilter = document.getElementById('alchemyEffectsCategoryFilter');
   
@@ -169,7 +183,6 @@ function filterAlchemyEffectsTable() {
   });
   
   updateAlchemyEffectsFilterCount();
-  initAlchemyEffectstooltips();
 }
 
 function updateAlchemyEffectsFilterCount() {

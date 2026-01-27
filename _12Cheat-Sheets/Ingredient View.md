@@ -20,34 +20,126 @@ Use the search box below to find ingredients and their base solutions.
 
 ---
 
+<style>
+#ingredient-view-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+#ingredient-view-tooltip div {
+  margin: 4px 0;
+}
+
+#ingredient-view-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initIngredientViewFilters();
+  setTimeout(initIngredientViewPage, 300);
 });
 
-function initIngredientViewFilters() {
+function initIngredientViewPage() {
   const table = document.querySelector('.ingredient-view-table table');
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  if (!table) return;
   
-  document.getElementById('ingredientViewSearch').addEventListener('keyup', filterIngredientViewTable);
-  document.getElementById('ingredientViewClearFilters').addEventListener('click', clearIngredientViewFilters);
+  initIngredientViewFilters(table);
+  initIngredientViewtooltips(table);
 }
 
-function filterIngredientViewTable() {
-  const searchTerm = document.getElementById('ingredientViewSearch').value.toLowerCase();
+function initIngredientViewFilters(table) {
+  const searchInput = document.getElementById('ingredientViewSearch');
+  const clearButton = document.getElementById('ingredientViewClearFilters');
   
-  const table = document.querySelector('.ingredient-view-table table');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { filterIngredientViewTable(table); });
+  }
+  
+  if (clearButton) {
+    clearButton.addEventListener('click', function() { clearIngredientViewFilters(table); });
+  }
+  
+  filterIngredientViewTable(table);
+}
+
+function initIngredientViewtooltips(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const ingredientCell = row.querySelector('td:first-child');
+    if (!ingredientCell) return;
+    
+    ingredientCell.style.cursor = 'pointer';
+    ingredientCell.style.color = '#f77ef1';
+    ingredientCell.style.fontWeight = '500';
+    ingredientCell.addEventListener('mouseenter', (e) => showIngredientViewtooltip(e, row));
+    ingredientCell.addEventListener('mousemove', updateIngredientViewtooltipPosition);
+    ingredientCell.addEventListener('mouseleave', hideIngredientViewtooltip);
+  });
+}
+
+function showIngredientViewtooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const name = cells[0]?.textContent?.trim() || '';
+  const weight = cells[1]?.textContent?.trim() || '';
+  const baseSolutions = cells[2]?.textContent?.trim() || '';
+  const value = cells[3]?.textContent?.trim() || '';
+  const effects = cells[4]?.textContent?.trim() || '';
+  
+  let tooltip = document.getElementById('ingredient-view-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'ingredient-view-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = '<div><strong>Ingredient:</strong> ' + name + '</div>' +
+    '<div><strong>Weight:</strong> ' + weight + '</div>' +
+    '<div><strong>Base Solutions:</strong> ' + baseSolutions + '</div>' +
+    '<div><strong>Value:</strong> ' + value + '</div>' +
+    '<div><strong>Effects:</strong> ' + effects + '</div>';
+  
+  tooltip.style.display = 'block';
+  updateIngredientViewtooltipPosition(event);
+}
+
+function updateIngredientViewtooltipPosition(event) {
+  const tooltip = document.getElementById('ingredient-view-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideIngredientViewtooltip() {
+  const tooltip = document.getElementById('ingredient-view-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+
+function filterIngredientViewTable(table) {
+  const searchTerm = (document.getElementById('ingredientViewSearch')?.value || '').toLowerCase();
+  
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const name = cells[0]?.textContent.toLowerCase() || '';
-    const weight = cells[1]?.textContent.toLowerCase() || '';
-    const baseSolutions = cells[2]?.textContent.toLowerCase() || '';
-    const value = cells[3]?.textContent.toLowerCase() || '';
-    const effects = cells[4]?.textContent.toLowerCase() || '';
+    const name = (cells[0]?.textContent || '').toLowerCase();
+    const weight = (cells[1]?.textContent || '').toLowerCase();
+    const baseSolutions = (cells[2]?.textContent || '').toLowerCase();
+    const value = (cells[3]?.textContent || '').toLowerCase();
+    const effects = (cells[4]?.textContent || '').toLowerCase();
     
     const searchMatch = name.includes(searchTerm) || weight.includes(searchTerm) || 
                         baseSolutions.includes(searchTerm) || value.includes(searchTerm) || 
@@ -58,6 +150,20 @@ function filterIngredientViewTable() {
   });
   
   updateIngredientViewFilterCount(visibleCount, rows.length);
+}
+
+function updateIngredientViewFilterCount(visible, total) {
+  const counter = document.getElementById('ingredientViewFilterResultCount');
+  if (counter) {
+    counter.textContent = 'Showing ' + visible + ' of ' + total + ' ingredients';
+  }
+}
+
+function clearIngredientViewFilters(table) {
+  const searchInput = document.getElementById('ingredientViewSearch');
+  if (searchInput) searchInput.value = '';
+  
+  filterIngredientViewTable(table);
 }
 
 function updateIngredientViewFilterCount(visible, total) {

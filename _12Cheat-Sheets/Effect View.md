@@ -19,15 +19,44 @@ Use the search box below to find recipes by effect or archetype.
 
 ---
 
+<style>
+#effect-view-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+#effect-view-tooltip div {
+  margin: 4px 0;
+}
+
+#effect-view-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  initEffectViewFilters();
+  setTimeout(initEffectViewPage, 300);
 });
 
-function initEffectViewFilters() {
-  const archetypes = new Set();
+function initEffectViewPage() {
   const table = document.querySelector('.effect-view-table table');
+  if (!table) return;
+  
+  initEffectViewFilters(table);
+  initEffectViewtooltips(table);
+}
+
+function initEffectViewFilters(table) {
+  const archetypes = new Set();
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
@@ -44,30 +73,90 @@ function initEffectViewFilters() {
   });
   
   const select = document.getElementById('effectViewArchetypeFilter');
-  Array.from(archetypes).sort().forEach(arch => {
-    const option = document.createElement('option');
-    option.value = arch;
-    option.textContent = arch;
-    select.appendChild(option);
-  });
+  if (select) {
+    Array.from(archetypes).sort().forEach(arch => {
+      const option = document.createElement('option');
+      option.value = arch;
+      option.textContent = arch;
+      select.appendChild(option);
+    });
+    select.addEventListener('change', function() { filterEffectViewTable(table); });
+  }
   
-  document.getElementById('effectViewSearch').addEventListener('keyup', filterEffectViewTable);
-  select.addEventListener('change', filterEffectViewTable);
-  document.getElementById('effectViewClearFilters').addEventListener('click', clearEffectViewFilters);
+  const searchInput = document.getElementById('effectViewSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { filterEffectViewTable(table); });
+  }
+  
+  const clearButton = document.getElementById('effectViewClearFilters');
+  if (clearButton) {
+    clearButton.addEventListener('click', function() { clearEffectViewFilters(table); });
+  }
+  
+  filterEffectViewTable(table);
 }
 
-function filterEffectViewTable() {
-  const searchTerm = document.getElementById('effectViewSearch').value.toLowerCase();
-  const archetypeFilter = document.getElementById('effectViewArchetypeFilter').value;
+function initEffectViewtooltips(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
   
-  const table = document.querySelector('.effect-view-table table');
+  rows.forEach(row => {
+    const effectCell = row.querySelector('td:first-child');
+    if (!effectCell) return;
+    
+    effectCell.style.cursor = 'pointer';
+    effectCell.style.color = '#f77ef1';
+    effectCell.style.fontWeight = '500';
+    effectCell.addEventListener('mouseenter', (e) => showEffectViewtooltip(e, row));
+    effectCell.addEventListener('mousemove', updateEffectViewtooltipPosition);
+    effectCell.addEventListener('mouseleave', hideEffectViewtooltip);
+  });
+}
+
+function showEffectViewtooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  const effect = cells[0]?.textContent?.trim() || '';
+  const archetypes = cells[1]?.textContent?.trim() || '';
+  
+  let tooltip = document.getElementById('effect-view-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'effect-view-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  tooltip.innerHTML = '<div><strong>Effect:</strong> ' + effect + '</div>' +
+    '<div><strong>Archetypes:</strong> ' + archetypes + '</div>';
+  
+  tooltip.style.display = 'block';
+  updateEffectViewtooltipPosition(event);
+}
+
+function updateEffectViewtooltipPosition(event) {
+  const tooltip = document.getElementById('effect-view-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hideEffectViewtooltip() {
+  const tooltip = document.getElementById('effect-view-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+
+function filterEffectViewTable(table) {
+  const searchTerm = (document.getElementById('effectViewSearch')?.value || '').toLowerCase();
+  const archetypeFilter = document.getElementById('effectViewArchetypeFilter')?.value || '';
+  
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   let visibleCount = 0;
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
-    const effect = cells[0]?.textContent.toLowerCase() || '';
-    const archetypes = cells[1]?.textContent.toLowerCase() || '';
+    const effect = (cells[0]?.textContent || '').toLowerCase();
+    const archetypes = (cells[1]?.textContent || '').toLowerCase();
     
     const searchMatch = effect.includes(searchTerm) || archetypes.includes(searchTerm);
     const filterMatch = !archetypeFilter || archetypes.includes(archetypeFilter.toLowerCase());
@@ -83,14 +172,18 @@ function filterEffectViewTable() {
 function updateEffectViewFilterCount(visible, total) {
   const counter = document.getElementById('effectViewFilterResultCount');
   if (counter) {
-    counter.textContent = `Showing ${visible} of ${total} effects`;
+    counter.textContent = 'Showing ' + visible + ' of ' + total + ' effects';
   }
 }
 
-function clearEffectViewFilters() {
-  document.getElementById('effectViewSearch').value = '';
-  document.getElementById('effectViewArchetypeFilter').value = '';
-  filterEffectViewTable();
+function clearEffectViewFilters(table) {
+  const searchInput = document.getElementById('effectViewSearch');
+  const archetypeSelect = document.getElementById('effectViewArchetypeFilter');
+  
+  if (searchInput) searchInput.value = '';
+  if (archetypeSelect) archetypeSelect.value = '';
+  
+  filterEffectViewTable(table);
 }
 </script>
 
