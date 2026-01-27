@@ -40,14 +40,145 @@ Use the search bar and filters below to find specific jewelry recipes by toolkit
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+  setTimeout(initJewelryPage, 300);
+});
 
-function initJewelrytooltips() {
+function initJewelryPage() {
   const table = document.querySelector('.jewelry-recipes-table table');
+  if (!table) return;
+  
+  initJewelryFilters(table);
+  initJewelrytooltips(table);
+}
+
+function initJewelryFilters(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const toolkits = new Set();
+  const perks = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 4) {
+      const toolkitText = cells[3]?.textContent.trim() || '';
+      const perksText = cells[2]?.textContent.trim() || '';
+      
+      if (toolkitText) {
+        toolkitText.split(',').forEach(toolkit => {
+          const trimmed = toolkit.trim();
+          if (trimmed) toolkits.add(trimmed);
+        });
+      }
+      if (perksText) {
+        perksText.split(',').forEach(perk => {
+          const trimmed = perk.trim();
+          if (trimmed) perks.add(trimmed);
+        });
+      }
+    }
+  });
+  
+  const toolkitFilter = document.getElementById('jewelryToolkitFilter');
+  const perksFilter = document.getElementById('jewelryPerksFilter');
+  
+  if (toolkitFilter) {
+    Array.from(toolkits).sort().forEach(toolkit => {
+      const option = document.createElement('option');
+      option.value = toolkit;
+      option.textContent = toolkit;
+      toolkitFilter.appendChild(option);
+    });
+    toolkitFilter.addEventListener('change', function() { filterJewelryRecipes(table); });
+  }
+  
+  if (perksFilter) {
+    Array.from(perks).sort().forEach(perk => {
+      const option = document.createElement('option');
+      option.value = perk;
+      option.textContent = perk;
+      perksFilter.appendChild(option);
+    });
+    perksFilter.addEventListener('change', function() { filterJewelryRecipes(table); });
+  }
+  
+  const searchInput = document.getElementById('jewelrySearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() { filterJewelryRecipes(table); });
+  }
+  
+  const clearButton = document.getElementById('clearFiltersJewelry');
+  if (clearButton) {
+    clearButton.addEventListener('click', function() { clearJewelryFilters(table); });
+  }
+  
+  updateFilterCountJewelry(table);
+}
+
+function filterJewelryRecipes(table) {
+  const searchInput = document.getElementById('jewelrySearch');
+  const searchTerm = (searchInput?.value || '').toLowerCase();
+  
+  const toolkitFilter = document.getElementById('jewelryToolkitFilter');
+  const toolkitValue = toolkitFilter?.value || '';
+  
+  const perksFilter = document.getElementById('jewelryPerksFilter');
+  const perksValue = perksFilter?.value || '';
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const itemName = (cells[0]?.textContent || '').toLowerCase();
+    const itemsRequired = (cells[5]?.textContent || '').toLowerCase();
+    
+    const matchesSearch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
+    
+    const toolkitCellText = cells[3]?.textContent.trim() || '';
+    const toolkits = toolkitCellText.split(',').map(t => t.trim());
+    const matchesToolkit = !toolkitValue || toolkits.includes(toolkitValue);
+    
+    const perksCellText = cells[2]?.textContent.trim() || '';
+    const perksList = perksCellText.split(',').map(p => p.trim());
+    const matchesPerks = !perksValue || perksList.includes(perksValue);
+    
+    const isVisible = matchesSearch && matchesToolkit && matchesPerks;
+    row.style.display = isVisible ? '' : 'none';
+  });
+  
+  updateFilterCountJewelry(table);
+}
+
+function updateFilterCountJewelry(table) {
+  const allRows = table.querySelectorAll('tbody tr');
+  const visibleRows = Array.from(allRows).filter(row => row.style.display !== 'none');
+  
+  const countElement = document.getElementById('filterResultCountJewelry');
+  if (countElement) {
+    countElement.textContent = `Showing ${visibleRows.length} of ${allRows.length} recipes`;
+  }
+}
+
+function clearJewelryFilters(table) {
+  const searchInput = document.getElementById('jewelrySearch');
+  const toolkitFilter = document.getElementById('jewelryToolkitFilter');
+  const perksFilter = document.getElementById('jewelryPerksFilter');
+  
+  if (searchInput) searchInput.value = '';
+  if (toolkitFilter) toolkitFilter.value = '';
+  if (perksFilter) perksFilter.value = '';
+  
+  filterJewelryRecipes(table);
+}
+
+function initJewelrytooltips(table) {
   const rows = Array.from(table.querySelectorAll('tbody tr'));
   
   rows.forEach(row => {
     const itemCell = row.querySelector('td:first-child');
+    if (!itemCell) return;
+    
     itemCell.style.cursor = 'pointer';
+    itemCell.style.color = '#f77ef1';
+    itemCell.style.fontWeight = '500';
     itemCell.addEventListener('mouseenter', (e) => showJewelrytooltip(e, row));
     itemCell.addEventListener('mousemove', updateJewelrytooltipPosition);
     itemCell.addEventListener('mouseleave', hideJewelrytooltip);
@@ -56,15 +187,13 @@ function initJewelrytooltips() {
 
 function showJewelrytooltip(event, row) {
   const cells = row.querySelectorAll('td');
-  const data = {
-    itemName: cells[0]?.textContent || '',
-    qtyMade: cells[1]?.textContent || '',
-    perksNeeded: cells[2]?.textContent || '',
-    toolkitsRequired: cells[3]?.textContent || '',
-    proximity: cells[4]?.textContent || '',
-    itemsRequired: cells[5]?.textContent || '',
-    additionalRequirements: cells[6]?.textContent || ''
-  };
+  const itemName = cells[0]?.textContent || '';
+  const qtyMade = cells[1]?.textContent || '';
+  const perksNeeded = cells[2]?.textContent || '';
+  const toolkitsRequired = cells[3]?.textContent || '';
+  const proximity = cells[4]?.textContent || '';
+  const itemsRequired = cells[5]?.textContent || '';
+  const additionalRequirements = cells[6]?.textContent || '';
   
   let tooltip = document.getElementById('jewelry-tooltip');
   if (!tooltip) {
@@ -76,15 +205,14 @@ function showJewelrytooltip(event, row) {
     document.body.appendChild(tooltip);
   }
   
-  tooltip.innerHTML = `
-    <div><strong>Item:</strong> ${data.itemName}</div>
-    <div><strong>Qty Made:</strong> ${data.qtyMade}</div>
-    <div><strong>Perks Needed:</strong> ${data.perksNeeded}</div>
-    <div><strong>Toolkits Required:</strong> ${data.toolkitsRequired}</div>
-    <div><strong>Proximity:</strong> ${data.proximity}</div>
-    <div><strong>Items Required:</strong> ${data.itemsRequired}</div>
-    <div><strong>Additional Requirements:</strong> ${data.additionalRequirements}</div>
-  `;
+  tooltip.innerHTML = '<div><strong>Item:</strong> ' + itemName + '</div>' +
+    '<div><strong>Qty:</strong> ' + (qtyMade || 'N/A') + '</div>' +
+    '<div><strong>Perks:</strong> ' + (perksNeeded || 'None') + '</div>' +
+    '<div><strong>Toolkits:</strong> ' + (toolkitsRequired || 'N/A') + '</div>' +
+    '<div><strong>Proximity:</strong> ' + (proximity || 'N/A') + '</div>' +
+    '<div><strong>Items:</strong> ' + (itemsRequired || 'N/A') + '</div>' +
+    '<div><strong>Additional:</strong> ' + (additionalRequirements || 'None') + '</div>';
+  
   tooltip.style.display = 'block';
   updateJewelrytooltipPosition(event);
 }
@@ -101,121 +229,7 @@ function hideJewelrytooltip() {
   const tooltip = document.getElementById('jewelry-tooltip');
   if (tooltip) tooltip.style.display = 'none';
 }
-
-function initJewelryFilters() {
-  const table = document.querySelector('.jewelry-recipes-table table');
-  if (!table) {
-    console.warn('Jewelry Recipes table not found');
-    return;
-  }
-  
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  const toolkits = new Set();
-  const perks = new Set();
-  
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    if (cells.length >= 4) {
-      const toolkitText = cells[3].textContent.trim();
-      const perksText = cells[2].textContent.trim();
-      
-      // Split comma-separated toolkits into individual options
-      if (toolkitText && toolkitText !== '') {
-        toolkitText.split(',').forEach(toolkit => {
-          const trimmed = toolkit.trim();
-          if (trimmed) toolkits.add(trimmed);
-        });
-      }
-      if (perksText && perksText !== '') {
-        perksText.split(',').forEach(perk => {
-          const trimmed = perk.trim();
-          if (trimmed) perks.add(trimmed);
-        });
-      }
-    }
-  });
-  
-  const toolkitFilter = document.getElementById('jewelryToolkitFilter');
-  const perksFilter = document.getElementById('jewelryPerksFilter');
-  
-  Array.from(toolkits).sort().forEach(toolkit => {
-    const option = document.createElement('option');
-    option.value = toolkit;
-    option.textContent = toolkit;
-    toolkitFilter.appendChild(option);
-  });
-  
-  Array.from(perks).sort().forEach(perk => {
-    const option = document.createElement('option');
-    option.value = perk;
-    option.textContent = perk;
-    perksFilter.appendChild(option);
-  });
-  
-  document.getElementById('jewelrySearch').addEventListener('input', filterJewelryRecipes);
-  document.getElementById('jewelryToolkitFilter').addEventListener('change', filterJewelryRecipes);
-  document.getElementById('jewelryPerksFilter').addEventListener('change', filterJewelryRecipes);
-  initJewelrytooltips();
-  updateFilterCountJewelry();
-  filterJewelryRecipes();
-}
-
-function filterJewelryRecipes() {
-  const searchTerm = document.getElementById('jewelrySearch').value.toLowerCase();
-  const toolkitFilter = document.getElementById('jewelryToolkitFilter').value;
-  const perksFilter = document.getElementById('jewelryPerksFilter').value;
-  
-  const table = document.querySelector('.jewelry-recipes-table table');
-  const rows = Array.from(table.querySelectorAll('tbody tr'));
-  
-  let visibleCount = 0;
-  rows.forEach(row => {
-    const cells = row.querySelectorAll('td');
-    const itemName = cells[0]?.textContent.toLowerCase() || '';
-    const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
-    const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    
-    // Split comma-separated toolkits and check if any match the filter
-    const toolkitCellText = cells[3]?.textContent.trim() || '';
-    const toolkits = toolkitCellText.split(',').map(t => t.trim());
-    const toolkitMatch = !toolkitFilter || toolkits.includes(toolkitFilter);
-    
-    const perksCellText = cells[2]?.textContent.trim() || '';
-    const perksList = perksCellText.split(',').map(p => p.trim());
-    const perksMatch = !perksFilter || perksList.includes(perksFilter);
-    
-    const isVisible = searchMatch && toolkitMatch && perksMatch;
-    row.style.display = isVisible ? '' : 'none';
-    if (isVisible) visibleCount++;
-  });
-  
-  updateFilterCountJewelry();
-  initJewelrytooltips();
-}
-
-function updateFilterCountJewelry() {
-  const table = document.querySelector('.jewelry-recipes-table table');
-  if (!table) return;
-  
-  const allRows = table.querySelectorAll('tbody tr');
-  const visibleRows = Array.from(allRows).filter(row => row.style.display !== 'none');
-  
-  const countElement = document.getElementById('filterResultCountJewelry');
-  if (countElement) {
-    countElement.textContent = `Showing ${visibleRows.length} of ${allRows.length} recipes`;
-  }
-}
-
-function clearJewelryFilters() {
-  document.getElementById('jewelrySearch').value = '';
-  document.getElementById('jewelryToolkitFilter').value = '';
-  document.getElementById('jewelryPerksFilter').value = '';
-  filterJewelryRecipes();
-}
-
-initJewelryFilters();
-
-});
+</script>
 </script>
 
 <div class="jewelry-controls">
