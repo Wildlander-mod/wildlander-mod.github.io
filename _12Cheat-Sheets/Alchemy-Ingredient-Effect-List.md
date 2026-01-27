@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alchemy Ingredient effect
 layout: default
 nav_order: 1
