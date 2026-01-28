@@ -481,13 +481,19 @@ initializeFilters();
 1. **All code goes INSIDE `$(document).ready()` block**
 2. **Script must come BEFORE controls and table**
 3. **Script loads jQuery from CDN**
-4. **Use arrow functions and template literals (ES6)**
+4. **Use arrow functions and template literals (ES6) - BUT see critical note below**
 5. **Use `addEventListener` for event binding** (vanilla JavaScript, not jQuery .on())
 6. **Call `initializeFilters()` directly at end of ready block** - NO setTimeout or retry logic
 7. **Controls come after script** (search inputs, dropdowns, buttons)
 8. **Table is in div with `markdown="1"`** to enable Jekyll markdown rendering
 9. **Table closing `</div>` is at the end** (after all markdown table rows)
 10. **Use `document.querySelector()` for DOM access**
+
+**🚨 CRITICAL: NEVER use `//` comments in JavaScript**
+{: .warning}
+> Do NOT add `//` comments inside `<script>` blocks. Jekyll's markdown processor misinterprets them and breaks the entire script with "Unexpected end of input" syntax errors. This took 2+ hours to debug on V1.1.6.
+> 
+> Use `console.warn()` for debugging instead, or simply omit comments. Template literals with backticks (`` ` ``) and string concatenation are also safe alternatives for clarity.
 
 **Critical Pattern:**
 ```javascript
