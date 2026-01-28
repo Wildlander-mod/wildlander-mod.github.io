@@ -20,6 +20,26 @@ foreach ($row in $csv) {
   $paypal = ($row.'Paypal' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|')
   $patreon = ($row.'Patreon' -replace '\n', ' ' -replace '\r', ' ' -replace '\|', '\|')
   
+  # Format URLs as markdown links with vanity labels
+  if ($lookupUrl -and $lookupUrl -ne '' -and $lookupUrl -ne 'N/A' -and $lookupUrl -like 'http*') {
+    $lookupUrl = "[$mo2Name]($lookupUrl)"
+  }
+  if ($nexusUrl -and $nexusUrl -ne '' -and $nexusUrl -ne 'N/A' -and $nexusUrl -like 'http*') {
+    $nexusUrl = "[$nexusModName]($nexusUrl)"
+  }
+  if ($authorUrl -and $authorUrl -ne '' -and $authorUrl -ne 'N/A' -and $authorUrl -like 'http*') {
+    $authorUrl = "[$author]($authorUrl)"
+  }
+  if ($kofi -and $kofi -ne '' -and $kofi -ne 'N/A') {
+    $kofi = "[Ko-fi]($kofi)"
+  }
+  if ($paypal -and $paypal -ne '' -and $paypal -ne 'N/A') {
+    $paypal = "[PayPal]($paypal)"
+  }
+  if ($patreon -and $patreon -ne '' -and $patreon -ne 'N/A') {
+    $patreon = "[Patreon]($patreon)"
+  }
+  
   if ($mo2Name) {
     $output += "| $group | $mo2Name | $lookupUrl | $version | $nexusUrl | $nexusModName | $category | $author | $authorUrl | $kofi | $paypal | $patreon |"
   }
