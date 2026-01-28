@@ -24,6 +24,28 @@ Use the search bar and filter below to find specific armor recipes by perks need
 
 ## Armor Crafting Table Data
 
+<style>
+#armor-table-tooltip {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+#armor-table-tooltip div {
+  margin: 4px 0;
+}
+
+#armor-table-tooltip strong {
+  color: #f77ef1;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 

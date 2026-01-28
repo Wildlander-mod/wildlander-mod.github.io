@@ -416,3 +416,146 @@ Some tables are embedded directly in pages instead of using includes, for better
 - Table stays on same page with all content
 - Manual copy-paste step required (unlike auto-includes), but ensures search visibility
 
+### Tooltip Styling for Recipe and Reference Tables
+
+All recipe pages (`_10-Crafting/`) and reference pages (`_12Cheat-Sheets/`) with interactive tables include hover tooltips that display detailed information. Tooltips must follow a **standardized styling pattern** for consistent user experience.
+
+#### Tooltip CSS Styling Template
+
+Add this `<style>` block **before** the `<script>` tag for every page with tooltips:
+
+```html
+<style>
+#tooltip-id-here {
+  background-color: #2a2a2a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e6e6e6;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+#tooltip-id-here div {
+  margin: 4px 0;
+}
+
+#tooltip-id-here strong {
+  color: #f77ef1;
+}
+</style>
+```
+
+**Replace `tooltip-id-here` with the page's actual tooltip ID** (e.g., `allrecipes-tooltip`, `cooking-tooltip`, `armor-table-tooltip`, etc.)
+
+#### JavaScript Tooltip Implementation Pattern
+
+**Key principles:**
+1. **Delayed initialization** - Use `setTimeout(initPageName, 300)` to ensure table is fully rendered
+2. **Table reference passing** - Pass table reference to functions to avoid repeated DOM queries
+3. **Proper positioning** - Use `clientX/clientY` (NOT `pageX/pageY`) for fixed positioning
+4. **String concatenation** - Use `+` for string building, NOT template literals
+5. **Null checks** - Guard all DOM element queries with null checks
+
+**Standard initialization structure:**
+
+```javascript
+$(document).ready(function(){
+  setTimeout(initPageName, 300);
+});
+
+function initPageName() {
+  const table = document.querySelector('.page-table-class table');
+  if (!table) return;
+  initPageFilters(table);
+  initPagetooltips(table);
+}
+
+function initPagetooltips(table) {
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  rows.forEach(row => {
+    const itemCell = row.querySelector('td:first-child');
+    if (!itemCell) return;
+    itemCell.style.cursor = 'pointer';
+    itemCell.style.color = '#f77ef1';
+    itemCell.addEventListener('mouseenter', (e) => showPagetooltip(e, row));
+    itemCell.addEventListener('mousemove', updatePagetooltipPosition);
+    itemCell.addEventListener('mouseleave', hidePagetooltip);
+  });
+}
+
+function showPagetooltip(event, row) {
+  const cells = row.querySelectorAll('td');
+  let tooltip = document.getElementById('page-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.id = 'page-tooltip';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '10000';
+    document.body.appendChild(tooltip);
+  }
+  
+  // Build tooltip content using string concatenation (NOT template literals)
+  tooltip.innerHTML = '<div><strong>Name:</strong> ' + cells[0]?.textContent?.trim() + '</div>';
+  tooltip.style.display = 'block';
+  updatePagetooltipPosition(event);
+}
+
+function updatePagetooltipPosition(event) {
+  const tooltip = document.getElementById('page-tooltip');
+  if (tooltip && tooltip.style.display === 'block') {
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  }
+}
+
+function hidePagetooltip() {
+  const tooltip = document.getElementById('page-tooltip');
+  if (tooltip) tooltip.style.display = 'none';
+}
+```
+
+#### Color Scheme Consistency
+
+- **Background:** `#2a2a2a` (dark gray - matches Wildlander dark theme)
+- **Border:** `#50098a` (purple - primary brand color)
+- **Text:** `#e6e6e6` (light gray)
+- **Labels:** `#f77ef1` (pink - accent highlighting)
+- **Box shadow:** `0 2px 8px rgba(0, 0, 0, 0.5)` (depth effect)
+
+#### Pages with Implemented Tooltips
+
+**Crafting Recipe Pages (_10-Crafting/):**
+- CraftingSpreadsheet.md
+- AlchIng.md
+- CookingRecipes.md
+- Ammunition.md
+- raw.md (Raw Materials)
+- misc.md (Miscellaneous)
+- blacksmith.md (Forge)
+- Breakdown-Recipes.md
+- Sharpening-Wheel.md
+- Armor-Table-Recipes.md
+- Tailor.md
+- Jewelery.md
+
+**Reference Pages (_12Cheat-Sheets/):**
+- Spells View.md
+- Alchemy-Effects-by-Ingredient.md
+- Alchemy-Ingredient-Effect-List.md
+- Effect View.md
+- Elixir View.md
+- Ingredient View.md
+- Solutions-View.md
+
+**When adding tooltips to a new page:**
+1. Create unique tooltip ID (e.g., `mypage-tooltip`)
+2. Add CSS `<style>` block with that ID before `<script>` tag
+3. Implement `initPageName()`, `initPagetooltips()`, `showPagetooltip()`, `updatePagetooltipPosition()`, and `hidePagetooltip()` functions
+4. Pass table reference to all functions (do NOT query DOM repeatedly)
+5. Use `clientX/clientY` for cursor positioning (never `pageX/pageY`)
+6. Test on live wiki after 10+ minute Jekyll rebuild
+
+
