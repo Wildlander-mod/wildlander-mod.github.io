@@ -341,35 +341,130 @@ The markdown attribute on the opening div (`markdown="1"`) enables markdown rend
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  // Wait for table to render
-  setTimeout(initializeFilters, 500);
-});
 
 function initializeFilters() {
-  // Initialize filters, populate dropdowns, attach listeners
+  const table = document.querySelector('.table-wrapper table');
+  if (!table) {
+    console.warn('Table not found');
+    return;
+  }
+  
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const categories = new Set();
+  const groups = new Set();
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length >= 7) {
+      const group = cells[0].textContent.trim();
+      const category = cells[6].textContent.trim();
+      if (group && group !== 'Group') groups.add(group);
+      if (category && category !== 'Category') categories.add(category);
+    }
+  });
+  
+  const categoryFilter = document.getElementById('categoryFilter');
+  const groupFilter = document.getElementById('groupFilter');
+  
+  Array.from(categories).sort().forEach(cat => {
+    const option = document.createElement('option');
+    option.value = cat;
+    option.textContent = cat;
+    categoryFilter.appendChild(option);
+  });
+  
+  Array.from(groups).sort().forEach(grp => {
+    const option = document.createElement('option');
+    option.value = grp;
+    option.textContent = grp;
+    groupFilter.appendChild(option);
+  });
+  
+  document.getElementById('searchInput').addEventListener('input', applyFilters);
+  categoryFilter.addEventListener('change', applyFilters);
+  groupFilter.addEventListener('change', applyFilters);
+  
+  updateResultCount();
 }
 
 function applyFilters() {
-  // Filter table rows based on search and select values
+  const table = document.querySelector('.table-wrapper table');
+  if (!table) return;
+  
+  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  const categoryFilter = document.getElementById('categoryFilter').value;
+  const groupFilter = document.getElementById('groupFilter').value;
+  
+  const rows = table.querySelectorAll('tbody tr');
+  let visibleCount = 0;
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length < 7) {
+      row.style.display = 'none';
+      return;
+    }
+    
+    const group = cells[0].textContent.trim();
+    const itemName = cells[1].textContent.toLowerCase();
+    const category = cells[6].textContent.trim();
+    const author = cells[7].textContent.toLowerCase();
+    
+    const matchesSearch = !searchTerm || 
+                         itemName.includes(searchTerm) ||
+                         author.includes(searchTerm) ||
+                         category.toLowerCase().includes(searchTerm);
+    
+    const matchesCategory = !categoryFilter || category === categoryFilter;
+    const matchesGroup = !groupFilter || group === groupFilter;
+    
+    const isVisible = matchesSearch && matchesCategory && matchesGroup;
+    row.style.display = isVisible ? '' : 'none';
+    
+    if (isVisible) visibleCount++;
+  });
+  
+  updateResultCount(visibleCount, rows.length);
+}
+
+function updateResultCount(visible, total) {
+  const table = document.querySelector('.table-wrapper table');
+  if (!table) return;
+  
+  if (visible === undefined) {
+    visible = Array.from(table.querySelectorAll('tbody tr')).filter(row => row.style.display !== 'none').length;
+    total = table.querySelectorAll('tbody tr').length;
+  }
+  
+  const countElement = document.getElementById('filterResultCount');
+  if (countElement) {
+    countElement.textContent = `Showing ${visible} of ${total} items`;
+  }
 }
 
 function clearAllFilters() {
-  // Reset form and reapply filters
+  document.getElementById('searchInput').value = '';
+  document.getElementById('categoryFilter').value = '';
+  document.getElementById('groupFilter').value = '';
+  applyFilters();
 }
 
-function updateResultCount() {
-  // Update visible/total count display
-}
+initializeFilters();
+
+});
 </script>
 
 <!-- 3. CONTROLS HTML (search input, select dropdowns, buttons) -->
-<div class="controls">
-  <input type="text" id="search" placeholder="Search..." />
-  <select id="filterSelect">
-    <option value="">All Items</option>
+<div class="table-controls">
+  <input type="text" id="searchInput" placeholder="Search..." />
+  <select id="categoryFilter">
+    <option value="">All Categories</option>
+  </select>
+  <select id="groupFilter">
+    <option value="">All Groups</option>
   </select>
   <button onclick="clearAllFilters()">Clear Filters</button>
-  <div id="resultCount"></div>
+  <div id="filterResultCount"></div>
 </div>
 
 <!-- 4. TABLE (wrapped in markdown="1" for Jekyll) -->
@@ -383,16 +478,33 @@ function updateResultCount() {
 ```
 
 **Key Rules:**
-1. **Script must come first** (before controls and table)
-2. **Script loads jQuery** from CDN
-3. **Use `$(document).ready()`** for proper initialization
-4. **Controls come after script** (search inputs, dropdowns, buttons)
-5. **Table is in div with `markdown="1"`** to enable Jekyll markdown rendering
-6. **Table closing `</div>` is at the end** (after all markdown table rows)
-7. **NO script tags should appear after the table** - all JS goes in the script block at top
+1. **All code goes INSIDE `$(document).ready()` block**
+2. **Script must come BEFORE controls and table**
+3. **Script loads jQuery from CDN**
+4. **Use arrow functions and template literals (ES6)**
+5. **Use `addEventListener` for event binding** (vanilla JavaScript, not jQuery .on())
+6. **Call `initializeFilters()` directly at end of ready block** - NO setTimeout or retry logic
+7. **Controls come after script** (search inputs, dropdowns, buttons)
+8. **Table is in div with `markdown="1"`** to enable Jekyll markdown rendering
+9. **Table closing `</div>` is at the end** (after all markdown table rows)
+10. **Use `document.querySelector()` for DOM access**
+
+**Critical Pattern:**
+```javascript
+$(document).ready(function(){
+  // All functions defined here
+  function initializeFilters() { ... }
+  function applyFilters() { ... }
+  function updateResultCount() { ... }
+  function clearAllFilters() { ... }
+  
+  // Call init function directly at end
+  initializeFilters();
+});
+```
 
 **Reference Pages:**
-- [Cooking Recipes](../../_10-Crafting/CookingRecipes.md) - Embedded table with filtering
+- [Cooking Recipes](../../_10-Crafting/CookingRecipes.md) - Working embedded table with filtering
 - [V1.1.6 Modlist](../../_14ModlistVersions/V1-1-6.md) - Full modlist with search and multi-filter
 
 ### Updating Existing Tables
