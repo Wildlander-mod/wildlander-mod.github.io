@@ -326,7 +326,77 @@ The markdown attribute on the opening div (`markdown="1"`) enables markdown rend
 | Jekyll build fails | Verify YAML frontmatter is valid (syntax: `key: value`, no extra indentation) |
 | Filters not working | Confirm JavaScript function names match IDs (e.g., `#knownIssuesSearch` with `knownIssuesSearch` variable) |
 
+## Standard Page Structure for Tables with Filtering
+
+**All pages with interactive tables and filtering must follow this structure (use Cooking Recipes as the reference):**
+
+```html
+<!-- 1. STYLE BLOCK (CSS for table and controls) -->
+<style>
+/* All CSS here */
+</style>
+
+<!-- 2. SCRIPT BLOCK (jQuery + JavaScript functions) -->
+<!-- Script MUST come BEFORE controls and table -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Wait for table to render
+  setTimeout(initializeFilters, 500);
+});
+
+function initializeFilters() {
+  // Initialize filters, populate dropdowns, attach listeners
+}
+
+function applyFilters() {
+  // Filter table rows based on search and select values
+}
+
+function clearAllFilters() {
+  // Reset form and reapply filters
+}
+
+function updateResultCount() {
+  // Update visible/total count display
+}
+</script>
+
+<!-- 3. CONTROLS HTML (search input, select dropdowns, buttons) -->
+<div class="controls">
+  <input type="text" id="search" placeholder="Search..." />
+  <select id="filterSelect">
+    <option value="">All Items</option>
+  </select>
+  <button onclick="clearAllFilters()">Clear Filters</button>
+  <div id="resultCount"></div>
+</div>
+
+<!-- 4. TABLE (wrapped in markdown="1" for Jekyll) -->
+<div class="table-wrapper" markdown="1">
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Data | Data | Data |
+
+</div>
+```
+
+**Key Rules:**
+1. **Script must come first** (before controls and table)
+2. **Script loads jQuery** from CDN
+3. **Use `$(document).ready()`** for proper initialization
+4. **Controls come after script** (search inputs, dropdowns, buttons)
+5. **Table is in div with `markdown="1"`** to enable Jekyll markdown rendering
+6. **Table closing `</div>` is at the end** (after all markdown table rows)
+7. **NO script tags should appear after the table** - all JS goes in the script block at top
+
+**Reference Pages:**
+- [Cooking Recipes](../../_10-Crafting/CookingRecipes.md) - Embedded table with filtering
+- [V1.1.6 Modlist](../../_14ModlistVersions/V1-1-6.md) - Full modlist with search and multi-filter
+
 ### Updating Existing Tables
+
 
 When CSV source data changes, regenerate from `_includes/` folder:
 1. Export updated CSV from Airtable (same folder path as before)
