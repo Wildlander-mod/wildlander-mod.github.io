@@ -361,6 +361,7 @@ When CSV source data changes, regenerate from `_includes/` folder:
 | `_12Cheat-Sheets/Solutions-View.md` | `Solutions View.csv` | `Convert-SolutionsViewCSV.ps1` | Embedded |
 | `_12Cheat-Sheets/Spells View.md` | `Spells & Archetypes.csv` | `Convert-SpellsViewCSV.ps1` | Embedded |
 | `_12Cheat-Sheets/Elixir View.md` | `Elixirs Chear sheet.csv` | `Convert-ElixirsViewCSV.ps1` | Embedded |
+| `_14ModlistVersions/V1-1-6.md` | `Current Mod list.csv` | `Convert-ModlistCSV.ps1` | Embedded |
 
 **How to use this table:**
 - When updating a table on a wiki page, find the page name in the first column
