@@ -90,17 +90,15 @@ function showCookingRecipestooltip(event, row) {
     document.body.appendChild(tooltip);
   }
   
-  tooltip.innerHTML = `
-    <div><strong>Item:</strong> ${data.itemName}</div>
-    <div><strong>Type:</strong> ${data.type}</div>
-    <div><strong>Effects:</strong> ${data.effects}</div>
-    <div><strong>Items Required:</strong> ${data.itemsRequired}</div>
-    <div><strong>Qty Made:</strong> ${data.qtyMade}</div>
-    <div><strong>Perks Needed:</strong> ${data.perksNeeded}</div>
-    <div><strong>Toolkits Required:</strong> ${data.toolkitsRequired}</div>
-    <div><strong>Proximity:</strong> ${data.proximity}</div>
-    <div><strong>Additional Requirements:</strong> ${data.additionalRequirements}</div>
-  `;
+  tooltip.innerHTML = '<div><strong>Item:</strong> ' + data.itemName + '</div>' +
+    '<div><strong>Type:</strong> ' + data.type + '</div>' +
+    '<div><strong>Effects:</strong> ' + data.effects + '</div>' +
+    '<div><strong>Items Required:</strong> ' + data.itemsRequired + '</div>' +
+    '<div><strong>Qty Made:</strong> ' + data.qtyMade + '</div>' +
+    '<div><strong>Perks Needed:</strong> ' + data.perksNeeded + '</div>' +
+    '<div><strong>Toolkits Required:</strong> ' + data.toolkitsRequired + '</div>' +
+    '<div><strong>Proximity:</strong> ' + data.proximity + '</div>' +
+    '<div><strong>Additional Requirements:</strong> ' + data.additionalRequirements + '</div>';
   tooltip.style.display = 'block';
   updateCookingRecipestooltipPosition(event);
 }

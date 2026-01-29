@@ -96,14 +96,12 @@ function showAlchemyRecipestooltip(event, row) {
     document.body.appendChild(tooltip);
   }
   
-  tooltip.innerHTML = `
-    <div><strong>Item:</strong> ${data.itemName}</div>
-    <div><strong>Qty Made:</strong> ${data.qty}</div>
-    <div><strong>Components:</strong> ${data.components}</div>
-    <div><strong>Perks Needed:</strong> ${data.perks}</div>
-    <div><strong>Proximity:</strong> ${data.proximity}</div>
-    <div><strong>Additional Requirements:</strong> ${data.additional}</div>
-  `;
+  tooltip.innerHTML = '<div><strong>Item:</strong> ' + data.itemName + '</div>' +
+    '<div><strong>Qty Made:</strong> ' + data.qty + '</div>' +
+    '<div><strong>Components:</strong> ' + data.components + '</div>' +
+    '<div><strong>Perks Needed:</strong> ' + data.perks + '</div>' +
+    '<div><strong>Proximity:</strong> ' + data.proximity + '</div>' +
+    '<div><strong>Additional Requirements:</strong> ' + data.additional + '</div>';
   tooltip.style.display = 'block';
   updateAlchemyRecipestooltipPosition(event);
 }
