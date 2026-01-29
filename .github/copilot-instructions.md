@@ -214,6 +214,7 @@ When editing pages, verify they distinguish Requiem mechanics from vanilla.
 - **Publication lag:** Changes can take 10+ minutes to appear on the live site (wiki.wildlandermod.com)
 - **Preview:** Test locally if possible, or rely on GitHub Pages preview URLs
 - **Theme:** Do NOT edit `_config.yml`, `_sass/`, or CSS—Dylan (owner) controls appearance
+- **File encoding:** CRITICAL - All `.md` files MUST be saved as UTF-8. Files with Windows-1252 encoding (smart quotes, non-breaking spaces) will cause Jekyll build failures with "invalid byte sequence in UTF-8" errors. When creating or editing files, ensure they are explicitly saved as UTF-8.
 
 ## Dependency Management
 
