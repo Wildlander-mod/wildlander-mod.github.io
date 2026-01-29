@@ -86,18 +86,16 @@ function showKnownIssuestooltip(event, row) {
     document.body.appendChild(tooltip);
   }
   
-  tooltip.innerHTML = `
-    <div><strong>ID:</strong> ${data.id}</div>
-    <div><strong>Category:</strong> ${data.category}</div>
-    <div><strong>Summary:</strong> ${data.summary}</div>
-    <div><strong>Description:</strong> ${data.description}</div>
-    <div><strong>Status:</strong> ${data.status}</div>
-    <div><strong>Investigation:</strong> ${data.investigation}</div>
-    <div><strong>Notes:</strong> ${data.notes}</div>
-  `;
+  tooltip.innerHTML = '<div><strong>ID:</strong> ' + data.id + '</div>' +
+    '<div><strong>Category:</strong> ' + data.category + '</div>' +
+    '<div><strong>Summary:</strong> ' + data.summary + '</div>' +
+    '<div><strong>Description:</strong> ' + data.description + '</div>' +
+    '<div><strong>Status:</strong> ' + data.status + '</div>' +
+    '<div><strong>Investigation:</strong> ' + data.investigation + '</div>' +
+    '<div><strong>Notes:</strong> ' + data.notes + '</div>';
   tooltip.style.display = 'block';
-  tooltip.style.left = event.pageX + 10 + 'px';
-  tooltip.style.top = event.pageY + 10 + 'px';
+  tooltip.style.left = (event.clientX + 10) + 'px';
+  tooltip.style.top = (event.clientY + 10) + 'px';
 }
 
 function hideKnownIssuestooltip() {
