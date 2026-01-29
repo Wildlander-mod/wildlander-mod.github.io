@@ -47,6 +47,70 @@ For more information on obtaining toolkits, see [Crafting System Overview](https
 #cooking-tooltip strong {
   color: #f77ef1;
 }
+
+#clearFiltersRecipes {
+  padding: 8px 16px;
+  background-color: #50098a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  color: #e6e6e6;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#clearFiltersRecipes:hover {
+  background-color: #f77ef1;
+  color: #222222;
+  border-color: #f77ef1;
+}
+
+#cookingRecipesSearch,
+#typeFilter,
+#toolkitFilter,
+#perksFilter {
+  padding: 8px 12px;
+  background-color: #462b53;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  color: #e6e6e6;
+  font-size: 14px;
+  font-family: inherit;
+  min-width: 150px;
+}
+
+#cookingRecipesSearch::placeholder {
+  color: #999;
+}
+
+#cookingRecipesSearch:focus,
+#typeFilter:focus,
+#toolkitFilter:focus,
+#perksFilter:focus {
+  outline: none;
+  border-color: #f77ef1;
+  box-shadow: 0 0 8px rgba(247, 126, 241, 0.3);
+}
+
+.cooking-recipes-controls {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+  border: 2px solid #50098a;
+  border-radius: 4px;
+}
+
+.filter-result-count-recipes {
+  color: #f77ef1;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
