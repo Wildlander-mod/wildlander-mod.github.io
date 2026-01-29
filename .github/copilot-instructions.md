@@ -81,6 +81,50 @@ has_toc: true             # Optional - adds auto-generated table of contents
 - **Example:** "Press **F11** to open settings" or "Press **Right Shift** + **E**"
 - Backticks create unwanted styling in Jekyll rendering
 
+### JavaScript Critical Rules (⚠️ ENFORCED)
+
+**These rules were established after comprehensive repository audit (V1.1.0 rebuild + codebase review). NEVER violate these.**
+
+1. **🚫 NEVER use backticks (`) in JavaScript code inside Jekyll files**
+   - Problem: Jekyll markdown processor misinterprets backticks in `<script>` blocks, causing "Unexpected end of input" errors
+   - This breaks the ENTIRE page's JavaScript functionality
+   - Violation found in: FullKnownissues.md, CookingRecipes.md, AlchIng.md, Ammunition.md (all 4 FIXED in commit 5a051e9)
+   - ✅ Use: String concatenation with `+` operator instead: `'<div>' + variable + '</div>'`
+   - ❌ Never: Template literals with backticks: `` `<div>${variable}</div>` ``
+
+2. **🚫 NEVER use `event.pageX` / `event.pageY` for fixed positioning tooltips**
+   - Problem: These coordinates are relative to the entire page document; when scrolled, tooltips appear off-screen
+   - Violation found in: FullKnownissues.md (FIXED in commit 5a051e9)
+   - ✅ Use: `event.clientX` and `event.clientY` for viewport-relative positioning (works correctly when page is scrolled)
+   - ❌ Never: `tooltip.style.left = event.pageX + 'px'` — Use `tooltip.style.left = event.clientX + 'px'` instead
+
+3. **ALWAYS use string concatenation for HTML building in JavaScript**
+   - Pattern: `'<div>' + data1 + '</div>' + data2` (combining with `+` operator)
+   - All pages with interactive tables (22 total across _10-Crafting/, _12Cheat-Sheets/, _01Support/) must follow this pattern
+   - See [CookingRecipes.md](../../_10-Crafting/CookingRecipes.md) for reference implementation
+
+4. **NEVER modify frontmatter `---` delimiters when editing files**
+   - These delimiters are CRITICAL for Jekyll parsing and YAML interpretation
+   - Even minor character changes (spaces, encoding) break the entire page build
+   - When rebuilding modlist files (V1.1.0, V1.0.0, etc.), preserve frontmatter EXACTLY as-is
+   - Violation risk: High for large file edits; always validate after any bulk replacements
+
+5. **ALWAYS preserve exact Wildlander color scheme in all styling**
+   - Defined in: `_sass/custom/custom.scss` and `_sass/color_schemes/wildlander-dark.scss`
+   - Required colors for table/button styling:
+     - `#50098a` (Purple) - Primary buttons, headers, borders
+     - `#f77ef1` (Pink) - Hover states, accents, labels
+     - `#3d2454` (Dark Purple) - Table row hover backgrounds (added V1.1.7)
+     - `#462b53` (Control Purple) - Input/select backgrounds
+     - `#2a2a2a` (Dark Gray) - Main backgrounds, dark rows
+     - `#e6e6e6` (Light Text) - Default text color
+   - All new styling MUST use these exact colors; never approximate or substitute
+
+6. **ALWAYS test filter/tooltip pages after Jekyll updates or dependency changes**
+   - JavaScript features (tooltips, filtering) are sensitive to environment changes
+   - Test checklist: Search function works → Filters apply → Dropdowns populate → Tooltips appear → Clear button resets
+   - Reference pages for testing: [Cooking Recipes](../../_10-Crafting/CookingRecipes.md), [Known Issues](../../_01Support/FullKnownissues.md)
+
 ## Wildlander Color Scheme Reference
 
 **Official colors are defined in:** `_sass/custom/custom.scss` and `_sass/color_schemes/wildlander-dark.scss`
