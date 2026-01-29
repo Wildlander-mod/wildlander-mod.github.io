@@ -56,6 +56,11 @@ Use the search bar and filters below to find specific alchemy recipes by perks o
 #alchemy-recipes-tooltip strong {
   color: #f77ef1;
 }
+
+.alchemy-recipes-table table tbody tr:hover {
+  background-color: #3d2454;
+  transition: background-color 0.2s ease;
+}
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

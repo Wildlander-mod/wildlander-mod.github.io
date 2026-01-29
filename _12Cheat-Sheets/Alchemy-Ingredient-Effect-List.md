@@ -34,6 +34,11 @@ This table contains a complete list of all alchemy ingredients available in Wild
 #alchemy-ing-tooltip strong {
   color: #f77ef1;
 }
+
+.alchemy-ing-table table tbody tr:hover {
+  background-color: #3d2454;
+  transition: background-color 0.2s ease;
+}
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

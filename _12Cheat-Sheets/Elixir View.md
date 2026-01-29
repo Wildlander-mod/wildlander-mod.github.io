@@ -40,6 +40,11 @@ Use the search box below to find recipes by elixir name or ingredient requiremen
 #elixir-view-tooltip strong {
   color: #f77ef1;
 }
+
+.elixir-view-table table tbody tr:hover {
+  background-color: #3d2454;
+  transition: background-color 0.2s ease;
+}
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

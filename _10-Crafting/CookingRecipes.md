@@ -111,6 +111,11 @@ For more information on obtaining toolkits, see [Crafting System Overview](https
   font-weight: 500;
   padding-left: 10px;
 }
+
+.cooking-recipes-table table tbody tr:hover {
+  background-color: #3d2454;
+  transition: background-color 0.2s ease;
+}
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

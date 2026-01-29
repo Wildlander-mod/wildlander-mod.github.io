@@ -6,6 +6,75 @@ has_children: false
 description: All Known Issues and Fixes
 ---
 
+<style>
+#clearFilters {
+  padding: 8px 16px;
+  background-color: #50098a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  color: #e6e6e6;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#clearFilters:hover {
+  background-color: #f77ef1;
+  color: #222222;
+  border-color: #f77ef1;
+}
+
+#knownIssuesSearch,
+#categoryFilter,
+#statusFilter {
+  padding: 8px 12px;
+  background-color: #462b53;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  color: #e6e6e6;
+  font-size: 14px;
+  font-family: inherit;
+  min-width: 150px;
+}
+
+#knownIssuesSearch::placeholder {
+  color: #999;
+}
+
+#knownIssuesSearch:focus,
+#categoryFilter:focus,
+#statusFilter:focus {
+  outline: none;
+  border-color: #f77ef1;
+  box-shadow: 0 0 8px rgba(247, 126, 241, 0.3);
+}
+
+.known-issues-controls {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+  border: 2px solid #50098a;
+  border-radius: 4px;
+}
+
+.filter-result-count {
+  color: #f77ef1;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.known-issues-table table tbody tr:hover {
+  background-color: #3d2454;
+  transition: background-color 0.2s ease;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
