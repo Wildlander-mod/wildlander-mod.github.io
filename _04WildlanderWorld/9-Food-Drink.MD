@@ -4,22 +4,150 @@ title: Food & Drink
 nav_order: 7
 description: Food, drinks, and sustenance in Wildlander
 ---
+
+<style>
+#foodDrinkSearch {
+  padding: 8px 12px;
+  background-color: #462b53;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  color: #e6e6e6;
+  font-size: 14px;
+  font-family: inherit;
+  min-width: 200px;
+}
+
+#foodDrinkSearch::placeholder {
+  color: #999;
+}
+
+#foodDrinkSearch:focus {
+  outline: none;
+  border-color: #f77ef1;
+  box-shadow: 0 0 8px rgba(247, 126, 241, 0.3);
+}
+
+#clearFoodDrinkFilters {
+  padding: 8px 16px;
+  background-color: #50098a;
+  border: 2px solid #50098a;
+  border-radius: 4px;
+  color: #e6e6e6;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#clearFoodDrinkFilters:hover {
+  background-color: #f77ef1;
+  color: #222222;
+  border-color: #f77ef1;
+}
+
+.food-drink-controls {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+  border: 2px solid #50098a;
+  border-radius: 4px;
+}
+
+.filter-result-count-food-drink {
+  color: #f77ef1;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.food-drink-table table tbody tr:hover {
+  background-color: #3d2454;
+  transition: background-color 0.2s ease;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("#myInputBox").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myTable tbody tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
+
+function initFoodDrinkFilters() {
+  const table = document.querySelector('.food-drink-table table');
+  if (!table) {
+    console.warn('Food Drink table not found');
+    return;
+  }
+  
+  document.getElementById('foodDrinkSearch').addEventListener('input', filterFoodDrinkTable);
+  updateFilterCountFoodDrink();
+}
+
+function filterFoodDrinkTable() {
+  const table = document.querySelector('.food-drink-table table');
+  if (!table) return;
+  
+  const searchTerm = document.getElementById('foodDrinkSearch').value.toLowerCase();
+  const rows = table.querySelectorAll('tbody tr');
+  let visibleCount = 0;
+  
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    if (cells.length < 3) return;
+    
+    const foodItem = cells[0].textContent.toLowerCase();
+    const ingredients = cells[1].textContent.toLowerCase();
+    const effects = cells[2].textContent.toLowerCase();
+    
+    const matchesSearch = !searchTerm || 
+                         foodItem.includes(searchTerm) ||
+                         ingredients.includes(searchTerm) ||
+                         effects.includes(searchTerm);
+    
+    row.style.display = matchesSearch ? '' : 'none';
+    if (matchesSearch) visibleCount++;
   });
+  
+  updateFilterCountFoodDrink(visibleCount, rows.length);
+}
+
+function updateFilterCountFoodDrink(visible, total) {
+  const table = document.querySelector('.food-drink-table table');
+  if (!table) return;
+  
+  if (visible === undefined) {
+    visible = Array.from(table.querySelectorAll('tbody tr')).filter(row => row.style.display !== 'none').length;
+    total = table.querySelectorAll('tbody tr').length;
+  }
+  
+  const countElement = document.getElementById('filterResultCountFoodDrink');
+  if (countElement) {
+    countElement.textContent = 'Showing ' + visible + ' of ' + total + ' items';
+  }
+}
+
+function clearFoodDrinkFilters() {
+  document.getElementById('foodDrinkSearch').value = '';
+  filterFoodDrinkTable();
+}
+
+initFoodDrinkFilters();
+
 });
 </script>
 
-<input type="text" id="myInputBox" placeholder="Search for Food/Drink.." >
+<div class="food-drink-controls">
+  <input type="text" id="foodDrinkSearch" placeholder="Search food & drink..." />
+  <button id="clearFoodDrinkFilters" onclick="clearFoodDrinkFilters()">Clear</button>
+  <div id="filterResultCountFoodDrink" class="filter-result-count-food-drink"></div>
+</div>
 
-Food Item|Ingredients|Effects
-|--|--|--|
+<div class="food-drink-table" markdown="1">
+
+| Food Item | Ingredients | Effects |
+|-----------|-----------|----------|
 Ale Braised Sabre Cat|1 Ale 1 Raw Sabre Cat Meat|Consumed out of combat, it restores 15 Stamina and Magicka.,Restores 1 points of Stamina per second for 3000 seconds.
 Apple Cabbage Stew|1 Salt 1 Red Apple 1 Cabbage 1 Glass Bottle (Water)|Consumed out of combat, it restores 50 Stamina and Magicka.,Restores 1 points of Stamina per second for 600 seconds.,Your meal improves your warmth
 Apple Dumpling|2 Red Apple 2 Green Apple 1 Honey 1 Flour 1 Butter|Consumed out of combat, it restores 5 Stamina and Magicka.,Ranged weapons deal 5% more damage for 1200 seconds.
@@ -325,7 +453,8 @@ Waterskin |1 Waterskin (Salt Water) Or Fill Empty Waterskin from a fresh water s
 Waterskin (Salt Water)||Drinking saltwater will increase thirst. Distill at a cooking station for drinkable water.
 Wheat Boon Tea|3 Wheat 1 Hanging Moss 1 Glass Bottle (Water)|Consumed out of combat, it restores 15 Stamina and Magicka.,Bitter tasting but reputed for its balsamaceous properties.,Your meal improves your warmth .
 White-Gold Tower|1 Nord Mead 1 Lavender 1 Dragon's Tongue 1 Bottled Milk|Numbs your sense of pain, making you feel 60 points healthier for 600 seconds.,Impairs coordination and focus, slowing the regeneration of Stamina by 30% and twice that for Magicka for 900 seconds. ,Resists 10% of fire damage for 600 seconds.
-{: #myTable }
+
+</div>
 
 ## Next Steps
 
