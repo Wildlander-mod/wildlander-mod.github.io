@@ -31,7 +31,7 @@ Tempering is shown in your inventory with a Tier description. ( currently disabl
 
 You can temper/repair your own weapons with your smithing skills at the grindstone, and armor at the armor workbench. You can also ask the blacksmiths to “upgrade your equipment”. In order to repair your damaged weapons and armor back to “standard” temper, you need to have the perk for the material the piece is made from and sufficient skill in smithing. The Minimum skill to enable tempering is 15 smithing. If your smithing skill is lower than this, then you cannot temper at all. Likewise if your only just have enough skill to "unlock" a material perk, you might not be able to temper it until you improve your skills. This is especially the case with "found gear" as it can already come pre-tempered (up to just below High-grade).
 
-Iequip icons on your UI can be edited to give a visual representation of how close your weapon is to dropping a temper tier.
+iEquip icons on your UI can be edited to give a visual representation of how close your weapon is to dropping a temper tier.
 
 ![image](https://user-images.githubusercontent.com/26418143/162575241-b21c12f0-6c18-471f-b919-4bcdf9cfb0a1.png)
 
@@ -41,7 +41,7 @@ The way tempering works is to increase the durability number of the item. The hi
 
 The Maximum durability is affected by your current blacksmith skill and nothing else. 
 
-The loss of durability is by the materiel its made from, better materiels degrade slower.
+The loss of durability is by the material it's made from, better materials degrade slower.
 
 Even with 100 smithing skill, you won't be able to temper a item if you don't have the item's material perk.
 
@@ -92,10 +92,10 @@ How do you improve Temper tiers that you can do?
 * Weapons degrade on contact with anything (not just enemies).
 * Daedric items do not degrade.
 * The better the materiel the slower it degrades
-* Durability loss for weapons is calulated by the base Weapon hit 0.2% or power attack hit of 3% multiplied by the Weapon materiel table below.
-* Durability loss for armor is calulated by the Armor type Multiplied by 0.2% Weapon hit multiplied by the Armor materiel table below.
+* Durability loss for weapons is calculated by the base Weapon hit 0.2% or power attack hit of 3% multiplied by the Weapon material table below.
+* Durability loss for armor is calculated by the Armor type Multiplied by 0.2% Weapon hit multiplied by the Armor material table below.
 
-E.g Hide cuiass
+E.g Hide cuirass
 
 * 1(light armor) * 2.5(Animal Hide)  * 0.2% = 0.5% Durability loss per standard attack
 
