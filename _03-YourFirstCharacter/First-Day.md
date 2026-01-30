@@ -36,8 +36,9 @@ Dehydration and hunger will kill you faster than enemies. Drink and eat constant
 
 ### 2. Warmth & Sleep (ESSENTIAL)
 
-- **Get a tent** (find a free one, craft one, or buy from a merchant) to sleep in - refunds magicka and stamina
-- Tents restore sleep need but don't provide "Well Rested" bonuses. Inn beds give both sleep restoration AND the Well Rested buff (+10% all skills for 8 hours)
+- **Get a tent** (find a free one, craft one, or buy from a merchant) to sleep in - refunds stamina
+- Tents restore sleep need but at 75% effectiveness compared to inn beds
+- **Inn beds restore full sleep and grant the "Well Rested" buff** (+10% Magicka Regen for 8 hours)
 - **Build a campfire** when traveling to reduce exposure
 - Check your **Exposure gauge** (bottom right of screen) - it rises in cold/wet weather
 
@@ -140,7 +141,7 @@ If you want to level combat skills without risking your life, use **Training Dum
 
 ## Important Notes on Equipment
 
-**Weapons degrade** in combat, so you need a **backup weapon** ready. Tempering improves damage. **Important**: Wood-based bows can break if hit by melee attacks—carry a backup bow or a melee weapon for close combat situations.
+**Weapons and armor degrade** in combat, so you need backups ready. [Tempering](https://wiki.wildlandermod.com/_04WildlanderWorld/1-Tempering/) improves weapon damage and armor resistance. **Important**: Wood-based bows can break if hit by melee attacks—carry a backup bow or a melee weapon for close combat situations.
 
 **Armor & Clothing stats**: Cover protects from wet weather, Warmth protects from cold. Pick appropriate gear for where you're traveling.
 

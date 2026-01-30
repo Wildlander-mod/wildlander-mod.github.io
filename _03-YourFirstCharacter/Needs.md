@@ -133,7 +133,7 @@ Sleep restores exhaustion and magicka. Quality of sleep matters:
 
 | Stage | Time | Effect |
 |-------|------|--------|
-| **Well Rested** | 0 hrs | Magicka Regen +10%, +10% all skills |
+| **Well Rested** | 0 hrs | Magicka Regen +10% |
 | **Rested** | 8 hrs | No effect |
 | **Slightly Tired** | 16 hrs | Magicka Regen -10% |
 | **Tired** | 24 hrs | Magicka Regen -25%, Skill rate -10% |

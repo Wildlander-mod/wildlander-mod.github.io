@@ -62,7 +62,7 @@ When you cast an offensive illusion spell, the game calculates if the enemy can 
 ![image](https://user-images.githubusercontent.com/26418143/160236172-3d312939-14e8-4de5-b9df-4606ac6dcb3b.png)
 
 {: .note}
-Spell specific value is defined as: Novice=1, Apprentice=10, Adept=5, Expert=15, Master=20
+Spell specific value is defined as: Novice=1, Adept=5, Apprentice=10, Expert=15, Master=20
 
 Practical effects shown below:
 

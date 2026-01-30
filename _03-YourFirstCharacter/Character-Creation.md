@@ -125,7 +125,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 
 For more guidance on builds and examples - you can see the class guides section of the Wiki.
 
-The maximum level is 82, with 6 perk points at the start. You can obtain 7 additional perk points by reading the Oghma Infinium. Most players only reach around level 40-45 in a typical playthrough, so plan your builds accordingly.
+The maximum level is 82, with 6 bonus perk points at character start, and an optional 7 additional perk points from the Oghma Infinium. Most players only reach around level 40-45 in a typical playthrough, so plan your builds accordingly.
 
 ---
 

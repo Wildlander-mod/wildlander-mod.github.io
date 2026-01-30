@@ -205,7 +205,7 @@ For more information about horses in Wildlander, see the [Horses page](https://w
 ### 3. Alchemy Potions
 
 - **Fortify Carry Weight potion** (temporary boost)
-- Craft with ingredients: Imp Stool, Namira's Rot, Troll Eye
+- Craft with ingredients that share Fortify Carry Weight effect: Imp Stool, Troll Eye, Creep Cluster, Giant's Toe, Bull Horn, Mammoth Eye, or others
 - Use before looting heavy items
 
 ### 4. Clothing Over Armor

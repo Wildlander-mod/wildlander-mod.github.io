@@ -167,7 +167,7 @@ Certain enemies have **material-based resistances or vulnerabilities** based on 
 - Immune to conventional metal arrows (iron, steel, etc.)
 - Arrow damage reduced to **10% of stated damage** against them
 - With weak metals: effectively 3-5 damage per arrow
-- Solution: Use higher-quality arrow materials or switch to melee
+- Solution: Use silver arrows or other higher-quality materials with the silver keyword (see [Ammunition](https://wiki.wildlandermod.com/_10-Crafting/Ammunition/) page for options) or switch to melee
 
 **Other material vulnerabilities:**
 - Daedric creatures resist certain materials
@@ -182,14 +182,13 @@ Certain enemies have **material-based resistances or vulnerabilities** based on 
 ### Choosing Your Weapons
 
 1. **Against heavy armor:**
-   - Use weapons with high armor penetration (ranged, piercing)
-   - Use power attacks (100% AP bonus vs standard attacks)
-   - Consider using blunt weapons to bypass slashing-resistant enemies
+   - **Melee:** Use blunt weapons to bypass slashing-resistant enemies, dodge and wear enemies down
+   - **Mages and Archers:** Keep at maximum range; let heavily armored enemies struggle to reach you while you attack from safety
 
 2. **Against magic users:**
-   - Build magic resistance (boots, body armor, spells)
-   - Close distance quickly to prevent casting
-   - Use interrupting power attacks
+   - **All classes:** Build magic resistance through enchantments, perks, potions, and race selection to reduce spell damage
+   - **Melee:** Use cover to get close and prioritize killing them before they cast
+   - **Archers and Mages:** Target magic users as top priority from range, preferably from stealth
 
 3. **Against specific creatures:**
    - Research creature resistances before engaging
@@ -199,7 +198,7 @@ Certain enemies have **material-based resistances or vulnerabilities** based on 
 4. **Armor choice:**
    - Heavy armor reaches 80% damage reduction cap
    - Evasion (light armor) provides mobility
-   - Different creatures resist different damage types based on armor materials
+   - Certain creatures have resistances based on weapon materials—research enemy vulnerabilities before engaging (see Material Protection section above)
 
 ---
 

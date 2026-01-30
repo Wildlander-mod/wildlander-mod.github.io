@@ -261,7 +261,7 @@ When you get any of your needs to their max value, your survival skill will incr
   <tr>
     <td>Slumber</td>
     <td>2</td>
-    <td>Sleeping restores 10%/20% more thirst</td>
+    <td>Sleeping restores 10%/20% more fatigue</td>
   </tr>
   <tr>
     <td>Thermal Intensity</td>

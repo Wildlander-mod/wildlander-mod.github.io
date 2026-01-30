@@ -116,7 +116,7 @@ Absorb Health, Absorb Magicka, Absorb Stamina, Banish, Fear, Fire Damage, Frost 
 
 ### Enchantment Potency Reference
 
-High-skill enchanters (Sergius at 100) produce approximately 30-50% stronger effects than player enchanting at 100 with all perks:
+Sergius Turrianus (Winterhold, Skill 100) produces enchantments equivalent to player enchanting at level 100 with all perks (except double enchantments):
 - **Fortify Skill (Combat):** +21% damage/barter improvement
 - **Fortify Skill (Magic):** -17% spell costs
 - **Fortify Skill (Crafting):** +13 points (Alchemy, Smithing)

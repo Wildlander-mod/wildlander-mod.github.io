@@ -72,13 +72,12 @@ Your maximum health is determined by:
 
 | Factor | Impact | Notes |
 |--------|--------|-------|
-| **Base Health** | 100 HP | Starting value for all races |
-| **Endurance Skill** | +1 HP per level | Higher Endurance = higher max health |
-| **Fortify Health Enchantments** | Variable | +5 to +10 HP per enchanted piece |
+| **Base Health** | Varies | Determined by starting race in character creation |
+| **Health Attribute Investments** | +5 HP per point | You allocate points at level-up |
+| **Fortify Health Enchantments** | +20 per piece | Increases max health on enchanted gear |
 | **Perks** | Variable | Some perks increase max health |
-| **Race** | Varies | Orcs and some races start higher |
 
-**Early Game Reality:** You have ~100 HP. Enemies deal 10-30 damage per hit. You can afford 3-10 hits before death. **This is why avoiding damage matters more than healing.**
+**Early Game Reality:** Your health varies based on race. Enemies deal 10-30 damage per hit depending on their level. **This is why avoiding damage matters more than healing.**
 
 ---
 
@@ -165,28 +164,9 @@ Healing Poultice is **pure player crafting**—no workstation required, just you
 
 #### Enchantments (Long-Term Investment)
 
-- **Fortify Health**: Permanently increases max health (+5 to +10 per piece)
-- **Fortify Health Regen**: Increases health regeneration per second (scales with base HealRate)
+- **Fortify Health**: Permanently increases max health 
+- **Fortify Health Regen (Healing Rate)**: Increases health regeneration 
 - Craft on: Boots, gloves, rings, chest piece
-
-#### Fortify Health Regen Ingredients
-
-Craft potions  with these ingredients to passively regenerate health:
-
-- Angelfish
-- Bear Eye
-- Bonesap
-- Emperor Parasol Moss
-- Garlic
-- Gleamblossom
-- Juniper Berries
-- Luna Moth Wing
-- Mammoth Eye
-- Namira's Rot
-- Nordic Barnacle
-- Polished Boar Eye
-- Troll Eye
-- Werewolf Heart
 
 #### Engraved Bones (Kynareth)
 
