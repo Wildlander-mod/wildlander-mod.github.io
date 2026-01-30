@@ -458,8 +458,8 @@ White-Gold Tower|1 Nord Mead 1 Lavender 1 Dragon's Tongue 1 Bottled Milk|Numbs y
 
 ## Next Steps
 
-1. **Read [Trainers](https://wiki.wildlandermod.com/_04WildlanderWorld/6-Trainers/)** - Skill training locations
-2. **Read [The Quests](https://wiki.wildlandermod.com/_04WildlanderWorld/5-The-Quests/)** - Available quests and starts
-3. **Read [Followers and Mercenaries](https://wiki.wildlandermod.com/_04WildlanderWorld/7-Available-Followers/)** - Recruit and manage companions
+1. **Read [Trainers](https://wiki.wildlandermod.com/04WildlanderWorld/6-Trainers/)** - Skill training locations
+2. **Read [The Quests](https://wiki.wildlandermod.com/04WildlanderWorld/5-The-Quests/)** - Available quests and starts
+3. **Read [Followers and Mercenaries](https://wiki.wildlandermod.com/04WildlanderWorld/7-Available-Followers/)** - Recruit and manage companions
 
 **Remember:** Proper nutrition and hydration are survival essentials—always carry food and water.

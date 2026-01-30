@@ -18,7 +18,7 @@ Alchemy allows you to create powerful potions and poisons. Access these recipes 
 
 **Tip:** Alchemy is essential for survivability in Requiem. Stock up on healing potions before dangerous encounters.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/).
 
 ---
 
@@ -422,4 +422,5 @@ initAlchemyRecipesFilters();
 ## Alchemy Ingredients & Effects
 
 For a comprehensive list of collected alchemy ingredients and their effects, see [Alchemy Effects by Ingredient](https://wiki.wildlandermod.com/Cheat-Sheets/Alchemy-Effects-by-Ingredient/) in the Cheat Sheets section.
+
 

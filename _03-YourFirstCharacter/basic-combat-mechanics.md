@@ -50,7 +50,7 @@ Before engaging any enemy:
 **If you don't scout, you will die wondering what happened.**
 
 {: .tip}
-**Instincts (Right Alt)** - All three combat approaches (melee, ranged, magic) can use Instincts to identify hidden or distant targets. This reveals their level, equipment, and position—critical for planning your engagement. See [Keybindings](https://wiki.wildlandermod.com/_02-RecommendedReading/7-Keybindings/) for the full keybind reference.
+**Instincts (Right Alt)** - All three combat approaches (melee, ranged, magic) can use Instincts to identify hidden or distant targets. This reveals their level, equipment, and position—critical for planning your engagement. See [Keybindings](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/) for the full keybind reference.
 
 ---
 
@@ -128,7 +128,7 @@ Use this table to quickly identify how to counter each enemy type:
 | **Sabercat** | Fragile once engaged; ambush only on first hit | Listen for growls; use ranged; get distance if ambushed |
 
 {: .important}
-For other enemy types, check the [Bestiary](https://wiki.wildlandermod.com/_17Bestiary/Beastiary/) section for specialist weapons, spell requirements, and damage resistances.
+For other enemy types, check the [Bestiary](https://wiki.wildlandermod.com/17Bestiary/Beastiary/) section for specialist weapons, spell requirements, and damage resistances.
 
 ---
 
@@ -297,8 +297,9 @@ Here's a simple combat rotation for new players:
 
 You now understand how to approach combat tactically and counter different enemy types. Continue your learning:
 
-1. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Learn how weight affects your combat mobility and gear choices
-2. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/_03-YourFirstCharacter/camping/)** - Set up efficient camps and use perks to your advantage
-3. **Read [Armor Resistances, Penetration & Weapon Types](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Resistances/)** - Deepen your understanding of damage types and resistances
+1. **Read [Carry Weight Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight/)** - Learn how weight affects your combat mobility and gear choices
+2. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/03-YourFirstCharacter/camping/)** - Set up efficient camps and use perks to your advantage
+3. **Read [Armor Resistances, Penetration & Weapon Types](https://wiki.wildlandermod.com/03-YourFirstCharacter/Resistances/)** - Deepen your understanding of damage types and resistances
 
 **Remember:** Combat mastery comes from planning, not reflexes. Scout first, think tactically, and execute strategically.
+

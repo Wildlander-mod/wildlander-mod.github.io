@@ -23,9 +23,18 @@ has_toc: true             # Optional - adds auto-generated table of contents
 
 ### Link Naming Convention (CRITICAL)
 **Use full wiki URLs with trailing slashes, NEVER relative paths or `.md` extensions:**
-- ✅ `[Text](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)`
+- ✅ `[Text](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/)`
 - ❌ `[Text](Needs.md)` or `[Text](#section)` for cross-page linking
+- ❌ `[Text](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)` - NO UNDERSCORES in folder names
 - **Exception:** Only internal page anchors use `#section-name` format
+
+**CRITICAL:** Wiki URLs must use folder names WITHOUT leading underscores:
+- ✅ `https://wiki.wildlandermod.com/03-YourFirstCharacter/` 
+- ✅ `https://wiki.wildlandermod.com/04WildlanderWorld/`
+- ❌ `https://wiki.wildlandermod.com/_03-YourFirstCharacter/`
+- ❌ `https://wiki.wildlandermod.com/_04WildlanderWorld/`
+
+The underscores in folder names are for Jekyll ordering only and must be removed from all wiki link URLs.
 
 ## Content Patterns & Styling
 
@@ -177,9 +186,9 @@ Sections with `0-Start-Here`:
 ```markdown
 ## Next Steps
 
-1. **Read [Next Page](https://wiki.wildlandermod.com/_folder/next-page/)** - What you'll learn
-2. **Read [Page After](https://wiki.wildlandermod.com/_folder/page-after/)** - What you'll learn
-3. **Read [Third Page](https://wiki.wildlandermod.com/_folder/third-page/)** - What you'll learn
+1. **Read [Next Page](https://wiki.wildlandermod.com/folder/next-page/)** - What you'll learn
+2. **Read [Page After](https://wiki.wildlandermod.com/folder/page-after/)** - What you'll learn
+3. **Read [Third Page](https://wiki.wildlandermod.com/folder/third-page/)** - What you'll learn
 
 **Remember:** One-sentence reminder of main concept.
 ```
@@ -229,7 +238,7 @@ When editing pages, verify they distinguish Requiem mechanics from vanilla.
 3. Update the "Next Steps" section in the PREVIOUS page to point to the new page
 
 ### Updating cross-section links
-- Always use full wiki URL format: `https://wiki.wildlandermod.com/_folder/page-name/`
+- Always use full wiki URL format: `https://wiki.wildlandermod.com/folder/page-name/`
 - Search entire repo for old link format before replacing
 
 ### Markdown rendering issues
@@ -791,5 +800,6 @@ function hidePagetooltip() {
 4. Pass table reference to all functions (do NOT query DOM repeatedly)
 5. Use `clientX/clientY` for cursor positioning (never `pageX/pageY`)
 6. Test on live wiki after 10+ minute Jekyll rebuild
+
 
 

@@ -203,9 +203,10 @@ As you gain perks in armor skills:
 
 Once you've mastered stamina management and understand how it affects your combat effectiveness:
 
-1. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Health/)** - Learn about health pools and taking damage
-2. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy patterns and tactics
-3. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Apply stamina knowledge to mobility and combat choices
+1. **Read [Health Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/Health/)** - Learn about health pools and taking damage
+2. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy patterns and tactics
+3. **Read [Carry Weight Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight/)** - Apply stamina knowledge to mobility and combat choices
 
 **Remember:** Stamina isn't just a number—it's your lifeline in combat. Manage it wisely and you'll survive. Ignore it and you'll die.
+
 

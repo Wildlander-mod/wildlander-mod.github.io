@@ -149,8 +149,9 @@ The specific calculation is below (heavy math - i know)
 
 You now understand the fundamentals of magic in Wildlander. Continue your learning:
 
-1. **Read [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)** - Understand how survival needs affect your ability to cast spells
-2. **Read [Derived Attributes](https://wiki.wildlandermod.com/_03-YourFirstCharacter/DA/)** - Learn how Magicka investment improves your magical power and resistances
-3. **Read [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/_03-YourFirstCharacter/npc-services/)** - Discover how to enchant your gear with magical effects
+1. **Read [Needs & Survival](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/)** - Understand how survival needs affect your ability to cast spells
+2. **Read [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/DA/)** - Learn how Magicka investment improves your magical power and resistances
+3. **Read [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/03-YourFirstCharacter/npc-services/)** - Discover how to enchant your gear with magical effects
 
 **Remember:** Perks are more important than skill levels. Prioritize unlocking perks in your chosen magic schools over raw skill grinding.
+

@@ -18,7 +18,7 @@ Create and customize jewelry using the **Forge** workstation. This toolkit allow
 
 **Tip:** Jewelry crafting generates excellent XP and creates items valuable for trading and bartering with merchants.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/).
 
 ---
 
@@ -468,4 +468,5 @@ function hideJewelrytooltip() {
 | Skaal Amulet | 1 | Advanced Blacksmithing | Jewelers | Forge | 1 Ingot: Quicksilver 1 Leather Strips 1 Stalhrim | Dragonborn - The Fate of the Skaal  Complete |
 
 </div>
+
 

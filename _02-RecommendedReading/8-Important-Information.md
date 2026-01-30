@@ -91,8 +91,9 @@ The general rule should be - if using the wiki search bar doesn't find a result 
 
 ## Next Steps
 
-1. **Read [Your First Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Your-First-Character/)** - Begin your gameplay journey
-2. **Read [Character Creation](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Character-Creation/)** - Learn how to build a viable character
-3. **Read [Your First Day](https://wiki.wildlandermod.com/_03-YourFirstCharacter/First-Day/)** - Your first steps in Wildlander with survival priorities
+1. **Read [Your First Character](https://wiki.wildlandermod.com/03-YourFirstCharacter/Your-First-Character/)** - Begin your gameplay journey
+2. **Read [Character Creation](https://wiki.wildlandermod.com/03-YourFirstCharacter/Character-Creation/)** - Learn how to build a viable character
+3. **Read [Your First Day](https://wiki.wildlandermod.com/03-YourFirstCharacter/First-Day/)** - Your first steps in Wildlander with survival priorities
 
 **Remember:** You're prepared—now go forth and embrace the challenge!
+

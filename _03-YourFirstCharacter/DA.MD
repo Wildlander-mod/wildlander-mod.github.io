@@ -74,5 +74,5 @@ The Wildlander team has created an interactive calculator to work out your exact
 
 You've completed the core mechanics guide! Continue your journey:
 
-- [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/_03-YourFirstCharacter/npc-services/) — Learn how to use NPCs for crafting, tempering, and enchanting
+- [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/03-YourFirstCharacter/npc-services/) — Learn how to use NPCs for crafting, tempering, and enchanting
 - [Start Here in Wildlander World](https://wiki.wildlandermod.com/04-WildlanderWorld/0-Start-Here/) — Explore the broader Wildlander world and advanced topics

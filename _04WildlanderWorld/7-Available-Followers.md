@@ -3810,8 +3810,9 @@ Varies
 
 ## Next Steps
 
-1. **Read [Enchantments Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/11-Enchantements/)** - Advanced item crafting
-2. **Read [Shout Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
-3. **Read [Player Homes](https://wiki.wildlandermod.com/_04WildlanderWorld/10-Player-Homes/)** - Purchasable bases and costs
+1. **Read [Enchantments Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/11-Enchantements/)** - Advanced item crafting
+2. **Read [Shout Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
+3. **Read [Player Homes](https://wiki.wildlandermod.com/04WildlanderWorld/10-Player-Homes/)** - Purchasable bases and costs
 
 **Remember:** Choose followers who complement your playstyle and level expectations—they're your lifeline in combat.
+

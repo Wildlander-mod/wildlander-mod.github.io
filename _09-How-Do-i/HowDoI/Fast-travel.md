@@ -33,4 +33,4 @@ Additionally, in version 1.1.0 and later, a SKSE mod disables fast travel global
 {: .warning}
 Disabling survival features may reduce the intended difficulty and immersion. Consider trying at least a few hours of gameplay with travel disabled before enabling it.
 
-See also: [Carry Weight](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight.html) and [Movement & Travel Tips](https://wiki.wildlandermod.com/_05-HintsandTips/Tips-and-Tricks.html).
+See also: [Carry Weight](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight.html) and [Movement & Travel Tips](https://wiki.wildlandermod.com/05-HintsandTips/Tips-and-Tricks.html).

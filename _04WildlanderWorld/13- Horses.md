@@ -78,8 +78,8 @@ Did you know you can fight and cast spells while mounted in Wildlander?  The par
 
 ## Next Steps
 
-1. **Read [Player Homes](https://wiki.wildlandermod.com/_04WildlanderWorld/10-Player-Homes/)** - Purchasable bases and costs
-2. **Back to [Wildlander World - Start Here](https://wiki.wildlandermod.com/_04WildlanderWorld/0-Start-Here/)** - Review other world systems
-3. **Next Section: [Skill Analysis](https://wiki.wildlandermod.com/_08-SkillAnalysis/0-Start-Here/)** - Deep dive into skills
+1. **Read [Player Homes](https://wiki.wildlandermod.com/04WildlanderWorld/10-Player-Homes/)** - Purchasable bases and costs
+2. **Back to [Wildlander World - Start Here](https://wiki.wildlandermod.com/04WildlanderWorld/0-Start-Here/)** - Review other world systems
+3. **Next Section: [Skill Analysis](https://wiki.wildlandermod.com/08-SkillAnalysis/0-Start-Here/)** - Deep dive into skills
 
 **Remember:** Horses provide storage and mobility—they're essential for long expeditions and roleplay.

@@ -10,7 +10,7 @@ description: 712 collected alchemy ingredients and their effects, organized by i
 
 This comprehensive database contains all 712 collected alchemy ingredients found throughout Skyrim and their associated effects. Use this as a reference when searching for ingredients to craft specific potions or poisons, or to identify what effects a collected ingredient provides.
 
-For alchemy recipes you can craft at an alchemy lab workstation, see [Alchemy Crafting Recipes](https://wiki.wildlandermod.com/_10-Crafting/AlchIng/).
+For alchemy recipes you can craft at an alchemy lab workstation, see [Alchemy Crafting Recipes](https://wiki.wildlandermod.com/10-Crafting/AlchIng/).
 
 ---
 

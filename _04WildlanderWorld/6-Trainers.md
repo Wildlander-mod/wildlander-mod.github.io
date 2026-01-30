@@ -185,8 +185,9 @@ Training costs, breakpoints at lvl 36 and 66:
 
 ## Next Steps
 
-1. **Read [Followers and Mercenaries](https://wiki.wildlandermod.com/_04WildlanderWorld/7-Available-Followers/)** - Recruit and manage companions
-2. **Read [Enchantments Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/11-Enchantements/)** - Advanced item crafting
-3. **Read [Shout Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
+1. **Read [Followers and Mercenaries](https://wiki.wildlandermod.com/04WildlanderWorld/7-Available-Followers/)** - Recruit and manage companions
+2. **Read [Enchantments Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/11-Enchantements/)** - Advanced item crafting
+3. **Read [Shout Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
 
 **Remember:** Training costs escalate with level—plan your training strategically around quest rewards and loot.
+

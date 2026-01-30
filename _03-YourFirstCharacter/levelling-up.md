@@ -58,7 +58,7 @@ Each skill has a **leveling multiplier**—skills with higher multipliers (like 
 | Lockpicking | 45 | 0.25 XP for a broken pick. 2-13 XP for successfully picking a lock. |
 | Speech | 0.36 | 1 base XP per gold used in transactions. 75 * Speech level for passing Speech checks. |
 | Alchemy | 0.75 | 1 base XP per gold value created. 1 XP for each successfully created potion. |
-| Smithing | 1 | See [Crafting System - XP Gain](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/). Smithing XP has diminishing returns: first craft = 3x base XP, second craft = 2x. Always craft items at least twice. |
+| Smithing | 1 | See [Crafting System - XP Gain](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/). Smithing XP has diminishing returns: first craft = 3x base XP, second craft = 2x. Always craft items at least twice. |
 | Foraging | Variable | Higher levels let you specify what to forage. |
 | Butchering | Variable | Processing dead animals levels this skill. |
 | Endurance | Variable | Run around in cold areas to passively level. |
@@ -102,7 +102,7 @@ Each skill has a **leveling multiplier**—skills with higher multipliers (like 
 2. **Wildlife (Levels 5-10)**
    - Mudcrabs around Whiterun (careful: Level 10+ Sabercats/Bears also in area)
    - Prey animals, Wolves, basic enemies
-   - Equip a Crossbow as soon as possible—they trivialize many wildlife encounters
+   - Equip a Crossbow as soon as possible—they trivialize many wildlife encounters (Elven crossbows don't break, making them ideal)
 
 3. **Bandit Camps (Open World, Levels 10-15)**
    - Less dangerous than dungeons
@@ -113,7 +113,7 @@ Each skill has a **leveling multiplier**—skills with higher multipliers (like 
    - Helgen (bandits)
    - Embershard Mine (bandits)
    - Halted Stream Camp (bandits)
-   - **DO NOT attempt Bleak Falls Barrow without:** Silver weapons (tempered), perks in both armor and weapon skills, and Level 50+ in both skills
+   - **DO NOT attempt Bleak Falls Barrow without:** Silver weapons (tempered) and reaching at least Level 50 in your primary combat skills
 
 ### Spell Research
 
@@ -146,7 +146,7 @@ Every campfire you build and tent you pitch will level Camping skill. The skills
 
 ### Crafting
 
-- **Smithing:** Craft items from low-cost materials with high sell prices. First craft = 3x XP, second craft = 2x. **Always craft at least twice per item.** See [Crafting Toolkits](https://wiki.wildlandermod.com/_10-Crafting/Crafting-Toolkits/) for more details on efficient smithing setups.
+- **Smithing:** Craft items from low-cost materials with high sell prices. First craft = 3x XP, second craft = 2x. **Always craft at least twice per item.** See [Crafting Toolkits](https://wiki.wildlandermod.com/10-Crafting/Crafting-Toolkits/) for more details on efficient smithing setups.
 - **Alchemy:** Mix potions to gain XP per potion created and per gold value of potions made. Use a portable **mortar and pestle** to craft alchemy recipes anywhere. Spell Research cauldrons and alembics also grant XP by dissolving ingredients.
 - **Enchanting:** Every item enchanted grants XP. Use a portable **enchanting kit** to enchant items in the wild. Cauldrons are used for dissolving **Imbued or Enchanted loot** to extract essences.
 
@@ -187,7 +187,7 @@ See Combat Training section above. Training dummies are your safest, most reliab
 
 **Goals:** Survive basic encounters, get baseline perks, gather starter equipment
 
-1. **Use training dummies** to reach Weapon Skill Level 15
+1. **Use training dummies or Spell Research Journal** to build baseline skills
 2. **Loot battlefields** (Imperial/Stormcloak skirmishes) for starter gear and gold
 3. **Visit Whiterun Sewers** first two rooms only—mudcrabs and skeevers only
 4. **Craft and temper gear** with looted materials (aim for iron or steel weapons/armor)
@@ -198,11 +198,11 @@ See Combat Training section above. Training dummies are your safest, most reliab
 
 **Goals:** Build weapon/armor perks, level combat skills, gather better gear
 
-1. **Continue training dummies** (weapon skills to 25-30)
+1. **Continue training dummies or Spell Research Journal** to build combat skills further
 2. **Hunt wildlife** around Whiterun (avoid bears, sabercats—they're Level 10+)
 3. **Mudcrab hunting** is safest
-4. **Equip a Crossbow** as soon as possible (preferably one that doesn't break—Dawnguard is good)
-5. **Attack Open World Bandit Camps** once you have weapon level 30+ and armor level 20+
+4. **Equip a Crossbow** as soon as possible (Elven crossbows don't break, and are cheap making them ideal)
+5. **Attack Open World Bandit Camps** once you feel confident in combat
 6. **Complete easy Missive quests** for reliable XP and gold
 7. **Aim to reach Level 10** before attempting any dungeons
 
@@ -213,13 +213,12 @@ See Combat Training section above. Training dummies are your safest, most reliab
 1. **Pick easier dungeons:** Helgen, Embershard Mine, Halted Stream Camp (bandit camps, not draugr)
 2. **Never enter Bleak Falls Barrow** without:
    - Silver weapons (tempered)
-   - Armor skill Level 50+
-   - Weapon skill Level 50+
-3. **Continue farming Smithing** to keep gear tempered
+   - At least Level 50 in your primary combat skills
+3. **Keep gear tempered and enchanted** - Either farm Smithing and Enchanting yourself or pay NPCs to do it for you (see [NPC Crafting Services](https://wiki.wildlandermod.com/03-YourFirstCharacter/npc-services/) for details)
 4. **Take on more Missive quests** as difficulty increases
 5. **Join factions** for additional training and perks (Companions, Dark Brotherhood, and others offer good early options)
 
-**Faction Notes:** The College of Winterhold requires 25+ skill in any magic school before joining. The Thieves Guild has additional quest requirements before entry—see the [Thieves Guild requirements](https://wiki.wildlandermod.com/_04WildlanderWorld/5-The-Quests/) for details. The Companions and Dark Brotherhood have no minimum skill requirements and are accessible early.
+**Faction Notes:** The College of Winterhold requires 25+ skill in any magic school before joining. The Thieves Guild has additional quest requirements before entry—see the [Thieves Guild requirements](https://wiki.wildlandermod.com/04WildlanderWorld/5-The-Quests/) for details. The Companions and Dark Brotherhood have no minimum skill requirements and are accessible early.
 
 ---
 
@@ -242,16 +241,17 @@ This chart shows enemy threat levels based on your character progression. **Alwa
 
 Once you've completed the progression path above and reached Level 15-20 with solid perks, continue with the recommended reading order:
 
-1. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Stamina/)** - Understand stamina costs and management for combat
-2. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Health/)** - Learn how to manage your health pool and healing
-3. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Apply perks to detailed tactics and enemy-specific strategies
+1. **Read [Stamina Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/Stamina/)** - Understand stamina costs and management for combat
+2. **Read [Health Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/Health/)** - Learn how to manage your health pool and healing
+3. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/basic-combat-mechanics/)** - Apply perks to detailed tactics and enemy-specific strategies
 
 **Remember:**
 - Perks are the true power scaling in Wildlander. Invest wisely and level steadily
 - Leveling is a marathon, not a sprint. Rushing into high-level content will end in death and frustration
 - Train systematically, use the tools available (training dummies, Spell Research, skill books), and progress through areas at appropriate levels
 
-For a complete guide, see [Your First Character - Start Here](https://wiki.wildlandermod.com/_03-YourFirstCharacter/0-Start-Here/) for the full recommended reading order.
+For a complete guide, see [Your First Character - Start Here](https://wiki.wildlandermod.com/03-YourFirstCharacter/0-Start-Here/) for the full recommended reading order.
+
 
 
 

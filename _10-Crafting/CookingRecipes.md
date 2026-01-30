@@ -23,7 +23,7 @@ Prepare meals and food items at a **Oven**, **Campfire** or **Cooking Pot**. Coo
 
 **Tip:** Start cooking raw meat early - it's an easy way to create valuable, lightweight items Which provide lifesaving stamina regeneration.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/).
 
 ---
 

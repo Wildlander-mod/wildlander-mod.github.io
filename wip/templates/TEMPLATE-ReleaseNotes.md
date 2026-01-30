@@ -257,5 +257,6 @@ initReleaseNotesFilters();
 ## Version History
 
 [Optional: Link to previous versions or release notes]
-- [V1.1.5 Release Notes](https://wiki.wildlandermod.com/_14ModlistVersions/V1-1-5/)
-- [V1.1.4 Release Notes](https://wiki.wildlandermod.com/_14ModlistVersions/V1-1-4/)
+- [V1.1.5 Release Notes](https://wiki.wildlandermod.com/14ModlistVersions/V1-1-5/)
+- [V1.1.4 Release Notes](https://wiki.wildlandermod.com/14ModlistVersions/V1-1-4/)
+

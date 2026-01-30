@@ -17,7 +17,7 @@ The sharpening wheel allows you to maintain and repair your weapons. Use a **Sha
 
 **Tip:** Regular weapon maintenance is essential in Requiem to keep your combat effectiveness high as you progress.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/).
 
 ---
 

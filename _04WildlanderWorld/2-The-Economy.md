@@ -59,8 +59,9 @@ To start marking money,
 
 ## Next Steps
 
-1. **Read [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/_04WildlanderWorld/3-Essential-adventuring-and-travel-gear/)** - Prepare for survival beyond settlements
-2. **Read [The Divines & Daedra](https://wiki.wildlandermod.com/_04WildlanderWorld/4-The-Divines/)** - Understand religion and blessings
-3. **Read [Diseases](https://wiki.wildlandermod.com/_04WildlanderWorld/8-Diseases/)** - Health hazards and cures
+1. **Read [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/04WildlanderWorld/3-Essential-adventuring-and-travel-gear/)** - Prepare for survival beyond settlements
+2. **Read [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-The-Divines/)** - Understand religion and blessings
+3. **Read [Diseases](https://wiki.wildlandermod.com/04WildlanderWorld/8-Diseases/)** - Health hazards and cures
 
 **Remember:** Understanding regional pricing and trade routes helps you maximize profits and minimize losses.
+

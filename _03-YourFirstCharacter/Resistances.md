@@ -167,7 +167,7 @@ Certain enemies have **material-based resistances or vulnerabilities** based on 
 - Immune to conventional metal arrows (iron, steel, etc.)
 - Arrow damage reduced to **10% of stated damage** against them
 - With weak metals: effectively 3-5 damage per arrow
-- Solution: Use silver arrows or other higher-quality materials with the silver keyword (see [Ammunition](https://wiki.wildlandermod.com/_10-Crafting/Ammunition/) page for options) or switch to melee
+- Solution: Use silver arrows or other higher-quality materials with the silver keyword (see [Ammunition](https://wiki.wildlandermod.com/10-Crafting/Ammunition/) page for options) or switch to melee
 
 **Other material vulnerabilities:**
 - Daedric creatures resist certain materials
@@ -206,8 +206,9 @@ Certain enemies have **material-based resistances or vulnerabilities** based on 
 
 You now understand how to calculate damage and armor effectiveness. Continue learning:
 
-1. **Read [Magic Analysis](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/)** - Understand magical damage types and how resistances apply to spells
-2. **Read [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/)** - Consider how survival needs interact with your combat readiness
-3. **Read [Derived Attributes](https://wiki.wildlandermod.com/_03-YourFirstCharacter/DA/)** - Learn how your base attributes affect damage resistances
+1. **Read [Magic Analysis](https://wiki.wildlandermod.com/03-YourFirstCharacter/Magic-Mechanics/)** - Understand magical damage types and how resistances apply to spells
+2. **Read [Needs & Survival](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/)** - Consider how survival needs interact with your combat readiness
+3. **Read [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/DA/)** - Learn how your base attributes affect damage resistances
 
 **Remember:** Armor doesn't stop damage—it reduces it. Understanding resistances means better survival.
+

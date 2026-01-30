@@ -148,8 +148,8 @@ Nocturnal will only bless those who have completed the thieves guild quest.
 
 ## Next Steps
 
-1. **Read [Diseases](https://wiki.wildlandermod.com/_04WildlanderWorld/8-Diseases/)** - Health hazards and cures
-2. **Read [Food & Drink](https://wiki.wildlandermod.com/_04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
-3. **Read [Trainers](https://wiki.wildlandermod.com/_04WildlanderWorld/6-Trainers/)** - Skill training locations
+1. **Read [Diseases](https://wiki.wildlandermod.com/04WildlanderWorld/8-Diseases/)** - Health hazards and cures
+2. **Read [Food & Drink](https://wiki.wildlandermod.com/04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
+3. **Read [Trainers](https://wiki.wildlandermod.com/04WildlanderWorld/6-Trainers/)** - Skill training locations
 
 **Remember:** Your divine blessing shapes your playstyle and unlocks unique bonuses for devoted followers.

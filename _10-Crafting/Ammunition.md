@@ -17,7 +17,7 @@ Craft arrows and bolts for ranged weapons at a **Blacksmith Forge**. Essential f
 
 **Tip:** Archers should regularly craft ammunition to maintain a steady supply. Ammunition is lightweight and can be crafted quickly for good XP.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/).
 
 ---
 
@@ -382,3 +382,4 @@ initAmmunitionFilters();
 
 
 </div>
+

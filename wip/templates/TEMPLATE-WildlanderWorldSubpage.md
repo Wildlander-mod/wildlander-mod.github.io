@@ -72,8 +72,9 @@ Answer with explanation and context.
 
 ## Next Steps
 
-1. **Read [Next Page](https://wiki.wildlandermod.com/_folder/next-page/)** - What you'll learn
-2. **Read [Page After](https://wiki.wildlandermod.com/_folder/page-after/)** - What you'll learn
-3. **Read [Third Page](https://wiki.wildlandermod.com/_folder/third-page/)** - What you'll learn
+1. **Read [Next Page](https://wiki.wildlandermod.com/folder/next-page/)** - What you'll learn
+2. **Read [Page After](https://wiki.wildlandermod.com/folder/page-after/)** - What you'll learn
+3. **Read [Third Page](https://wiki.wildlandermod.com/folder/third-page/)** - What you'll learn
 
 **Remember:** [One-sentence recap of the main concept from this page.]
+

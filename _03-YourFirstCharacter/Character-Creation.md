@@ -244,8 +244,8 @@ Daily power of muffle and invisibility for 300 seconds
 
 You've planned your character build! Now it's time to start playing:
 
-1. **Read [Your First Day](https://wiki.wildlandermod.com/_03-YourFirstCharacter/First-Day/)** - Learn survival priorities and money-making strategies
-2. **Read [Leveling your Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/)** - Understand perk allocation and skill progression
-3. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Stamina/)** - Master resource management for your chosen playstyle
+1. **Read [Your First Day](https://wiki.wildlandermod.com/03-YourFirstCharacter/First-Day/)** - Learn survival priorities and money-making strategies
+2. **Read [Leveling your Character](https://wiki.wildlandermod.com/03-YourFirstCharacter/levelling-up/)** - Understand perk allocation and skill progression
+3. **Read [Stamina Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/Stamina/)** - Master resource management for your chosen playstyle
 
 **Remember:** Your build choice matters less than understanding the game mechanics. Any build can succeed if you play smartly.

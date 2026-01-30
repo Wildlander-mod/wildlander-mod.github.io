@@ -18,7 +18,7 @@ Forge weapons and metal armor at a **Blacksmith Forge** workstation. Create the 
 
 **Tip:** Blacksmithing is one of the most important crafts in Requiem. Invest in this skill early to create better gear as you progress.
 
-For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System/).
+For more information on obtaining toolkits, see [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/).
 
 ---
 
@@ -1332,3 +1332,4 @@ initForgeFilters();
 
 
 </div>
+

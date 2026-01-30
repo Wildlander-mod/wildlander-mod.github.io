@@ -71,7 +71,7 @@ Exposure represents how cold your character is. As exposure increases, you suffe
 
 ### Frostfall UI
 
-Check the [Frostfall temperature gauges](https://wiki.wildlandermod.com/_02-RecommendedReading/3-The-UI/) on the UI page for visual aid to your exposure, wetness, and warmth status.
+Check the [Frostfall temperature gauges](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/) on the UI page for visual aid to your exposure, wetness, and warmth status.
 
 ---
 
@@ -233,11 +233,12 @@ Every vanilla inn in Skyrim and Solstheim has a bathroom with soap baskets. Here
 
 You now understand the core survival mechanics. Continue your learning:
 
-1. **Read [Derived Attributes](https://wiki.wildlandermod.com/_03-YourFirstCharacter/DA/)** - Learn how your Health, Stamina, and Magicka directly support survival and combat effectiveness
-2. **Read [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/_03-YourFirstCharacter/npc-services/)** - Craft food, potions, and survival gear to meet your needs efficiently
+1. **Read [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/DA/)** - Learn how your Health, Stamina, and Magicka directly support survival and combat effectiveness
+2. **Read [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/03-YourFirstCharacter/npc-services/)** - Craft food, potions, and survival gear to meet your needs efficiently
 3. **Explore [Start Here in Wildlander World](https://wiki.wildlandermod.com/04-WildlanderWorld/0-Start-Here/)** - Expand beyond your first character to the broader Wildlander experience
 
 **Remember:** Every journey requires planning. Before leaving a safe location, ensure you have food, water, and shelter materials.
+
 
 
 

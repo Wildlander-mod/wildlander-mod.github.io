@@ -233,11 +233,12 @@ Where:
 
 You now understand health management and have healing strategies for every playstyle. Continue your journey:
 
-1. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy AI and positioning
-2. **Read [Carry Weight Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)** - Learn to carry healing supplies without overencumbering
-3. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/_03-YourFirstCharacter/camping/)** - Prepare healing supplies at camp before dangerous journeys
+1. **Read [Basic Combat Mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/basic-combat-mechanics/)** - Master enemy AI and positioning
+2. **Read [Carry Weight Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight/)** - Learn to carry healing supplies without overencumbering
+3. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/03-YourFirstCharacter/camping/)** - Prepare healing supplies at camp before dangerous journeys
 
 **Remember:** Health is a resource. Manage it wisely, heal proactively, and you'll survive.
+
 
 
 

@@ -46,9 +46,10 @@ For those of a more naughty inclination - Alchemists can provide you with a poti
 
 ## Next Steps
 
-1. **Read [Food & Drink](https://wiki.wildlandermod.com/_04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
-2. **Read [Trainers](https://wiki.wildlandermod.com/_04WildlanderWorld/6-Trainers/)** - Skill training locations
-3. **Read [The Quests](https://wiki.wildlandermod.com/_04WildlanderWorld/5-The-Quests/)** - Available quests and starts
+1. **Read [Food & Drink](https://wiki.wildlandermod.com/04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
+2. **Read [Trainers](https://wiki.wildlandermod.com/04WildlanderWorld/6-Trainers/)** - Skill training locations
+3. **Read [The Quests](https://wiki.wildlandermod.com/04WildlanderWorld/5-The-Quests/)** - Available quests and starts
 
 **Remember:** Prevent diseases through good hygiene and vaccinations—they're harder to cure than prevent.
  
+

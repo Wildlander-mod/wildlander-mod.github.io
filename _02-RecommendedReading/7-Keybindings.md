@@ -134,8 +134,8 @@ Most keybindings can be reconfigured to suit your preferences:
 
 ## Next Steps
 
-1. **Read [Important Information](https://wiki.wildlandermod.com/_02-RecommendedReading/8-Important-Information/)** - Support resources and save tips
-2. **Read [Your First Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Your-First-Character/)** - Begin your gameplay journey
-3. **Read [Character Creation](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Character-Creation/)** - Learn how to build a viable character
+1. **Read [Important Information](https://wiki.wildlandermod.com/02-RecommendedReading/8-Important-Information/)** - Support resources and save tips
+2. **Read [Your First Character](https://wiki.wildlandermod.com/03-YourFirstCharacter/Your-First-Character/)** - Begin your gameplay journey
+3. **Read [Character Creation](https://wiki.wildlandermod.com/03-YourFirstCharacter/Character-Creation/)** - Learn how to build a viable character
 
 **Remember:** Bookmark this page—you'll reference these hotkeys constantly while playing.

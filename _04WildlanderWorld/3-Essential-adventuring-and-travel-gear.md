@@ -60,8 +60,8 @@ It's a big scary world out there beyond Riverwood or wherever your character is 
 
 ## Next Steps
 
-1. **Read [The Divines & Daedra](https://wiki.wildlandermod.com/_04WildlanderWorld/4-The-Divines/)** - Understand religion and blessings
-2. **Read [Diseases](https://wiki.wildlandermod.com/_04WildlanderWorld/8-Diseases/)** - Health hazards and cures
-3. **Read [Food & Drink](https://wiki.wildlandermod.com/_04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
+1. **Read [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-The-Divines/)** - Understand religion and blessings
+2. **Read [Diseases](https://wiki.wildlandermod.com/04WildlanderWorld/8-Diseases/)** - Health hazards and cures
+3. **Read [Food & Drink](https://wiki.wildlandermod.com/04WildlanderWorld/9-Food-Drink/)** - Sustenance and survival
 
 **Remember:** Proper preparation before leaving settlements means survival when things go wrong.

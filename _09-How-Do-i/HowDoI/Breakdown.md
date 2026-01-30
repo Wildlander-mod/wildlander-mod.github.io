@@ -23,7 +23,7 @@ When you break down items, you receive valuable materials such as:
 - **Cloth & Bandages** - From breaking down clothing and fabric items
 - **Bone Fragments** - From breaking down bones and bone items
 - **Kindling** - From breaking down wooden items (useful for starting campfires)
-- **Specialized Materials** - Many other material types available - See the [Breakdown Recipes](https://wiki.wildlandermod.com/_10-Crafting/Breakdown-Recipes.html) spreadsheet for the complete list
+- **Specialized Materials** - Many other material types available - See the [Breakdown Recipes](https://wiki.wildlandermod.com/10-Crafting/Breakdown-Recipes.html) spreadsheet for the complete list
 
 ### Why Breakdown Matters
 
@@ -38,7 +38,8 @@ When you break down items, you receive valuable materials such as:
 - Metal fragments and bandages are very valuable - collect them
 - Cloth and leather scraps are surprisingly valuable - don't waste them
 - Use breakdown to manage weight during long adventures
-- Check the [Breakdown Recipes](https://wiki.wildlandermod.com/_10-Crafting/Breakdown-Recipes.html) spreadsheet to see exactly what each item breaks down into
+- Check the [Breakdown Recipes](https://wiki.wildlandermod.com/10-Crafting/Breakdown-Recipes.html) spreadsheet to see exactly what each item breaks down into
 
-For more details on crafting and resource management, see [Raw Materials](https://wiki.wildlandermod.com/_10-Crafting/raw.html) and [Crafting System Overview](https://wiki.wildlandermod.com/_10-Crafting/1.1-Crafting-System.html).
+For more details on crafting and resource management, see [Raw Materials](https://wiki.wildlandermod.com/10-Crafting/raw.html) and [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System.html).
+
 

@@ -176,10 +176,11 @@ Dragonbone|0.8|
 
 ## Next Steps
 
-1. **Read [The Economy](https://wiki.wildlandermod.com/_04WildlanderWorld/2-The-Economy/)** - Learn regional pricing and trade routes
-2. **Read [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/_04WildlanderWorld/3-Essential-adventuring-and-travel-gear/)** - Prepare for survival beyond settlements
-3. **Read [The Divines & Daedra](https://wiki.wildlandermod.com/_04WildlanderWorld/4-The-Divines/)** - Understand religion and blessings
+1. **Read [The Economy](https://wiki.wildlandermod.com/04WildlanderWorld/2-The-Economy/)** - Learn regional pricing and trade routes
+2. **Read [Essential Adventuring & Travel Gear](https://wiki.wildlandermod.com/04WildlanderWorld/3-Essential-adventuring-and-travel-gear/)** - Prepare for survival beyond settlements
+3. **Read [The Divines & Daedra](https://wiki.wildlandermod.com/04WildlanderWorld/4-The-Divines/)** - Understand religion and blessings
 
 **Remember:** Better tempered gear means better damage, better armor, and a better chance of survival.
+
 
 

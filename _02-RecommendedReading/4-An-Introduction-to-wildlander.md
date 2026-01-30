@@ -61,9 +61,9 @@ One of the most important tip I can give archer type players - is that wooden bo
 
 ## Next Steps
 
-1. **Read [Changes From Vanilla](https://wiki.wildlandermod.com/_02-RecommendedReading/5-Changes-From-Vanilla/)** - See what's different from vanilla Skyrim
-2. **Read [Changes From Ultsky](https://wiki.wildlandermod.com/_02-RecommendedReading/6-Changes-From-Ultsky/)** - Learn what changed if migrating from the previous modlist
-3. **Read [Keybindings](https://wiki.wildlandermod.com/_02-RecommendedReading/7-Keybindings/)** - Master all hotkeys and controls
+1. **Read [Changes From Vanilla](https://wiki.wildlandermod.com/02-RecommendedReading/5-Changes-From-Vanilla/)** - See what's different from vanilla Skyrim
+2. **Read [Changes From Ultsky](https://wiki.wildlandermod.com/02-RecommendedReading/6-Changes-From-Ultsky/)** - Learn what changed if migrating from the previous modlist
+3. **Read [Keybindings](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/)** - Master all hotkeys and controls
 
 **Remember:** Wildlander rewards those who understand its systems—take time to learn them.
 

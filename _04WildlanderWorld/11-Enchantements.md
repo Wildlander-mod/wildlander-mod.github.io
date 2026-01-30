@@ -151,8 +151,8 @@ Numbers in brackets indicate the base values of the enchant.
 
 ## Next Steps
 
-1. **Read [Shout Analysis](https://wiki.wildlandermod.com/_04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
-2. **Read [Horses & Herds](https://wiki.wildlandermod.com/_04WildlanderWorld/13-%20Horses/)** - Mount management and herds
-3. **Back to [Wildlander World - Start Here](https://wiki.wildlandermod.com/_04WildlanderWorld/0-Start-Here/)** - Review other world systems
+1. **Read [Shout Analysis](https://wiki.wildlandermod.com/04WildlanderWorld/12-Shouts/)** - Dragon shout effects and power
+2. **Read [Horses & Herds](https://wiki.wildlandermod.com/04WildlanderWorld/13-%20Horses/)** - Mount management and herds
+3. **Back to [Wildlander World - Start Here](https://wiki.wildlandermod.com/04WildlanderWorld/0-Start-Here/)** - Review other world systems
 
 **Remember:** Strategic enchanting turns good gear into powerful tools—understand the mechanics before you invest resources.

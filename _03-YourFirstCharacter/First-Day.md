@@ -23,18 +23,17 @@ description: Starting your first day
 
 Your FIRST priority is staying alive. Get these items and skills working:
 
-### 1. Food & Water (ESSENTIAL)
+### 1. Food & Water (first priority to to make sure that we have food and drink to meet needs)
 
 | Need | Action | Hotkey |
 |------|--------|--------|
-| **Drinking** | Find a river and drink | **;** |
+| **Drinking** | Find a river or collect milk from cows to drink | **;** (water) / **E** (milk) |
 | **Cooking** | Cook raw meat at a campfire | **Right Shift** |
-| **Milk** | Press E near cows to collect | E |
 
 {: .note}
-Dehydration and hunger will kill you faster than enemies. Drink and eat constantly at first.
+Establish food and water sources before adventuring—once hunger or thirst icons appear, the negative status effects will accumulate quickly. Having reliable access to both prevents complications during exploration or training.
 
-### 2. Warmth & Sleep (ESSENTIAL)
+### 2. Warmth & Sleep (Establish Early)
 
 - **Get a tent** (find a free one, craft one, or buy from a merchant) to sleep in - refunds stamina
 - Tents restore sleep need but at 75% effectiveness compared to inn beds
@@ -47,11 +46,16 @@ Dehydration and hunger will kill you faster than enemies. Drink and eat constant
 | Fur Tent | Protects from cold |
 | Leather Tent | Protects from rain |
 
+{: .note}
+**Exposure is fatal in harsh weather—build a campfire or find shelter immediately when weather turns bad.** Sleep sources (tent/bed) can be established later when the exhaustion icons appear, but warmth cannot be ignored.
+
 ### 3. Cleanliness (IMPORTANT)
 
-- **Bathe in rivers regularly** (Hotkey **'/@**)
+- **Bathe in rivers regularly** (Hotkey **'/@**) - BUT avoid rivers in cold climates as they raise exposure
+- **Use soap when bathing** - Different soaps provide beneficial buffs (see [Cleanliness](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/#cleanliness) on the Needs page for soap types and effects)
+- **Alternatively, hire a bathroom from innkeepers**  Available everywhere and better than bathing in cold rivers (see [Needs & Survival](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/#inn-bathrooms) for a full list of bathroom locations)
 - Dirtiness reduces your speech skill and disease resistance
-- **Always bathe before buying/selling** to get better prices
+- **Always bathe before buying/selling** to get better prices (see [Cleanliness](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/#cleanliness) for dirt effects)
 
 ---
 
@@ -74,9 +78,12 @@ You need gold to buy gear and food. Here are your best options ranked by profit:
 
 ### Okay: Wood Chopping
 
-- Get a wood chopping axe and harvest trees at lumber mills
+- Get a wood chopping axe and harvest trees (by attacking them) or use Wood chopping blocks at lumber mills
 - Sell the wood (1g each - not great but early money)
 - Use leftover wood to make kindling and level Camping skill
+
+{: .note}
+**Attacking trees with weapons degrades them faster.** Chopping blocks at lumber mills are safer for your gear. If you must chop trees, use a dedicated wood-chopping axe and keep a backup weapon ready.
 
 ### Good: Missive Board Quests
 
@@ -85,15 +92,14 @@ You need gold to buy gear and food. Here are your best options ranked by profit:
 
 ### Tip: Always Bathe Before Selling
 
-Dirtiness reduces your speech skill and disease resistance. Always bathe in a river (Hotkey **'/@**) before visiting merchants to get better prices.
+Dirtiness reduces your speech skill and disease resistance, making merchants harder to negotiate with. Always bathe before visiting merchants to get better prices.
 
-**IMPORTANT**: Make sure you're **fully clothed** (at least a chest piece) before selling. Nudity has harsh selling penalties. This is especially critical when handing your primary armor to [NPCs for upgrades](https://wiki.wildlandermod.com/_09-How-Do-i/NPC-Crafting-Services/)—always have backup clothing to wear while they work on your gear.
+**Best bathing options:**
+- **Innkeepers** (12 gold for 12 game hours access, available everywhere) - Safest option and prevents exposure
+- **Rivers** (Hotkey **'/@**, free but avoid cold climates due to exposure) - Use soap for beneficial buffs
+- See [Cleanliness](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/#cleanliness) on the Needs page for soap types and effects
 
----
-
-## Safe Combat Practice
-
-If you want to level combat skills without risking your life, use **Training Dummies** in major cities. These are free, safe, and give you XP for practicing combat. Simply activate them (press **E**) and you can practice combat safely before fighting real enemies.
+**IMPORTANT**: Make sure you're **fully clothed** (at least a chest piece) before selling. Nudity has harsh selling penalties. This is especially critical when handing your primary armor to [NPCs for upgrades](https://wiki.wildlandermod.com/09-How-Do-i/NPC-Crafting-Services/)—always have backup clothing to wear while they work on your gear.
 
 ---
 
@@ -141,21 +147,24 @@ If you want to level combat skills without risking your life, use **Training Dum
 
 ## Important Notes on Equipment
 
-**Weapons and armor degrade** in combat, so you need backups ready. [Tempering](https://wiki.wildlandermod.com/_04WildlanderWorld/1-Tempering/) improves weapon damage and armor resistance. **Important**: Wood-based bows can break if hit by melee attacks—carry a backup bow or a melee weapon for close combat situations.
+**Weapons and armor degrade** in combat, so you need backups ready. [Tempering](https://wiki.wildlandermod.com/04WildlanderWorld/1-Tempering/) improves weapon damage and armor resistance. **Important**: Wood-based bows can break if hit by melee attacks—carry a backup bow or a melee weapon for close combat situations.
 
 **Armor & Clothing stats**: Cover protects from wet weather, Warmth protects from cold. Pick appropriate gear for where you're traveling.
 
 **Waterskins** let you carry portable water (fill from any river or use hotkey **;**). Better than manually drinking every time.
 
+{: .note}
+**In northern regions** (north of Morthal  Horizonal line accross the map), rivers give saltwater instead of freshwater. You'll need a **cookpot** to distill saltwater into drinkable water. If traveling north without a cookpot, carry enough waterskins of fresh water before leaving the south, or ask for refil's at inns.
+
 ---
 
 ## What to Avoid at First Level
 
-- **Don't fight bandits or animals** - They're too strong
+- **Don't fight bandits or animals** - They're too strong at level 1
 - **Don't go to dungeons** - Come back at level 5+
-- **Don't ignore hunger/thirst** - It's your primary threat early on
+- **Don't ignore exposure in harsh weather** - Exposure is fatal and requires immediate action (build a campfire or find shelter)
 - **Don't neglect armor** - Even basic gear makes a huge difference
-- **Don't forget to sleep** - Sleeping refunds resources and is a safe activity
+- **Don't travel north without fresh water** - Rivers give saltwater north of Morthal; you'll need a cookpot or pre-filled waterskins
 
 ---
 
@@ -163,12 +172,12 @@ If you want to level combat skills without risking your life, use **Training Dum
 
 This is a simple routine to follow until level 3-5:
 
-1. **Start in Riverwood** with your gear and waterskins
+1. **Start in the South** with your gear and fresh waterskins (avoid northern regions until you have a cookpot)
 2. **Spend time fishing** - Most profitable, safe activity
 3. **Forage while traveling** - Free money
-4. **Cook meals** when you have raw ingredients
-5. **Sleep in your tent** before heading back to civilization
-6. **Sell your goods** (always bathe first!)
+4. **Cook meals at campfires** - Keep your hunger need managed (bonus: leftover food sells for profit)
+5. **Sleep when exhaustion icons appear** - Rest in your tent or find an inn bed
+6. **Sell your goods** (always bathe first for better prices!)
 7. **Buy new gear** with proceeds
 8. **Repeat until level 5**
 
@@ -180,8 +189,9 @@ By level 5, you'll have: better gear, more perks, full supplies, and be ready fo
 
 You've survived your first day! Continue your journey with recommended reading order:
 
-1. **Read [Leveling your Character](https://wiki.wildlandermod.com/_03-YourFirstCharacter/levelling-up/)** - Master skill and perk progression
-2. **Read [Stamina Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Stamina/)** - Manage your resources for combat effectiveness
-3. **Read [Health Management](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Health/)** - Learn healing strategies for every situation
+1. **Read [Leveling your Character](https://wiki.wildlandermod.com/03-YourFirstCharacter/levelling-up/)** - Master skill and perk progression
+2. **Read [Stamina Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/Stamina/)** - Manage your resources for combat effectiveness
+3. **Read [Health Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/Health/)** - Learn healing strategies for every situation
 
-See also: [Needs & Survival](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Needs/), [Magic Mechanics](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/), [Carry Weight](https://wiki.wildlandermod.com/_03-YourFirstCharacter/carry-weight/)
+See also: [Needs & Survival](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/), [Magic Mechanics](https://wiki.wildlandermod.com/03-YourFirstCharacter/Magic-Mechanics/), [Carry Weight](https://wiki.wildlandermod.com/03-YourFirstCharacter/carry-weight/)
+

@@ -71,8 +71,9 @@ The Pagefile is often used for spill over for the GPU VRAM (as GPU's don't have 
 
 ## Next Steps
 
-1. **Read [Stability Test](https://wiki.wildlandermod.com/_02-RecommendedReading/2-Stability-Test/)** - Verify your installation is stable and crash-free
-2. **Read [The UI](https://wiki.wildlandermod.com/_02-RecommendedReading/3-The-UI/)** - Understand Wildlander's interface and HUD
-3. **Read [Introduction to Wildlander](https://wiki.wildlandermod.com/_02-RecommendedReading/4-An-Introduction-to-wildlander/)** - Learn core survival mechanics and systems
+1. **Read [Stability Test](https://wiki.wildlandermod.com/02-RecommendedReading/2-Stability-Test/)** - Verify your installation is stable and crash-free
+2. **Read [The UI](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/)** - Understand Wildlander's interface and HUD
+3. **Read [Introduction to Wildlander](https://wiki.wildlandermod.com/02-RecommendedReading/4-An-Introduction-to-wildlander/)** - Learn core survival mechanics and systems
 
 **Remember:** A properly configured system and pagefile prevent crashes before they happen.
+

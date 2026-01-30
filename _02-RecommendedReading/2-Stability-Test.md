@@ -71,11 +71,12 @@ If you continue to crash - Please consult with Staff on discord who will take a 
 
 ## Next Steps
 
-1. **Read [The UI](https://wiki.wildlandermod.com/_02-RecommendedReading/3-The-UI/)** - Understand Wildlander's interface and HUD
-2. **Read [Introduction to Wildlander](https://wiki.wildlandermod.com/_02-RecommendedReading/4-An-Introduction-to-wildlander/)** - Learn core survival mechanics and systems
-3. **Read [Changes From Vanilla](https://wiki.wildlandermod.com/_02-RecommendedReading/5-Changes-From-Vanilla/)** - See what's different from vanilla Skyrim
+1. **Read [The UI](https://wiki.wildlandermod.com/02-RecommendedReading/3-The-UI/)** - Understand Wildlander's interface and HUD
+2. **Read [Introduction to Wildlander](https://wiki.wildlandermod.com/02-RecommendedReading/4-An-Introduction-to-wildlander/)** - Learn core survival mechanics and systems
+3. **Read [Changes From Vanilla](https://wiki.wildlandermod.com/02-RecommendedReading/5-Changes-From-Vanilla/)** - See what's different from vanilla Skyrim
 
 **Remember:** A stable install is the foundation for everything—take the time to test thoroughly.
+
 
 
 

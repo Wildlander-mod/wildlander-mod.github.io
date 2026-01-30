@@ -29,7 +29,7 @@ Carry Weight is intentionally at a premium within Wildlander. In addition to red
 
 Weight matters. Everything you carry—armor, weapons, potions, food, supplies—slows you down. Exceed your carry limit and you can't run, sprint, or move effectively. Manage your weight or die tired.
 
-While you will gradually gain carry weight with [Derived Attributes](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Derived-Attributes/), the canny adventurer still needs places to store gear. In Wildlander, carry weight is a critical resource management tool—you can't carry everything, so managing your inventory carefully is essential to successful exploration.
+While you will gradually gain carry weight with [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/Derived-Attributes/), the canny adventurer still needs places to store gear. In Wildlander, carry weight is a critical resource management tool—you can't carry everything, so managing your inventory carefully is essential to successful exploration.
 
 **The fundamental rule:** Keep your total weight as light as possible. Overencumbered characters die in combat.
 
@@ -176,7 +176,7 @@ Containers in the factions (Companions / Dark Brotherhood / Thieves Guild / Mage
 - Dead horses lose all items unless you can find their body and loot it before butchering it. If you have lost your horse, you have lost its inventory.
 - **⚠️ WARNING:** Never store loose potions on horses. NPCs (including horses) will consume potions from their inventory if they're low on health or stamina.
 
-For more information about horses in Wildlander, see the [Horses page](https://wiki.wildlandermod.com/_04WildlanderWorld/13-Horses/)
+For more information about horses in Wildlander, see the [Horses page](https://wiki.wildlandermod.com/04WildlanderWorld/13-Horses/)
 
 **Followers**
 - Followers have their own inventory
@@ -200,7 +200,7 @@ For more information about horses in Wildlander, see the [Horses page](https://w
 - **Beggar's Broth** - Increases carry weight by 35 points for 2 hours (best option)
 - **Beef Stew** - Increases carry weight by 25 points for 30 minutes
 - **Braided Bread** - Increases carry weight by 10 points for 20 minutes
-- See [Food & Drink](https://wiki.wildlandermod.com/_04WildlanderWorld/9-Food-Drink/) page for recipes and preparation
+- See [Food & Drink](https://wiki.wildlandermod.com/04WildlanderWorld/9-Food-Drink/) page for recipes and preparation
 
 ### 3. Alchemy Potions
 
@@ -315,10 +315,11 @@ Bag of Holding locations:
 
 You now understand weight management and inventory strategy. Continue your learning:
 
-1. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/_03-YourFirstCharacter/camping/)** - Set up efficient camps for storage and resource management
-2. **Read [Armor Resistances, Penetration & Weapon Types](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Resistances/)** - Learn how to carry varied weapons for different situations
-3. **Read [Magic Analysis](https://wiki.wildlandermod.com/_03-YourFirstCharacter/Magic-Mechanics/)** - Understand how spell weight and carry capacity interact with casting
+1. **Read [Camping & Campfire Perks](https://wiki.wildlandermod.com/03-YourFirstCharacter/camping/)** - Set up efficient camps for storage and resource management
+2. **Read [Armor Resistances, Penetration & Weapon Types](https://wiki.wildlandermod.com/03-YourFirstCharacter/Resistances/)** - Learn how to carry varied weapons for different situations
+3. **Read [Magic Analysis](https://wiki.wildlandermod.com/03-YourFirstCharacter/Magic-Mechanics/)** - Understand how spell weight and carry capacity interact with casting
 
 **Remember:** Light is fast. Fast is alive. Carry only what you need.
+
 
 
