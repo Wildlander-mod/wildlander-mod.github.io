@@ -147,7 +147,7 @@ You've mastered NPC services and completed the core mechanics guide! Now expand 
 
 1. **Explore [Start Here in Wildlander World](https://wiki.wildlandermod.com/04-WildlanderWorld/0-Start-Here/)** - Learn world systems and advanced mechanics
 2. **Reference [Enchantments Analysis](https://wiki.wildlandermod.com/04-WildlanderWorld/11-Enchantements/)** - Deep dive into specific enchantment effects
-3. **Consult [Tempering](https://wiki.wildlandermod.com/04-WildlanderWorld/1-Tempering/)** - Understand gear progression and durability
+3. **Consult [Tempering](https://wiki.wildlandermod.com/04WildlanderWorld/1-Tempering/)** - Understand gear progression and durability
 
 **Congratulations!** You've completed the core Wildlander mechanics guide. You now understand character building, survival, combat, gear management, and NPC services. Use this knowledge, adapt to challenges, and most importantly—have fun exploring Skyrim's dangerous world.
 

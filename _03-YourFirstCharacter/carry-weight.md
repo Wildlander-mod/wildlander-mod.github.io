@@ -29,7 +29,7 @@ Carry Weight is intentionally at a premium within Wildlander. In addition to red
 
 Weight matters. Everything you carry—armor, weapons, potions, food, supplies—slows you down. Exceed your carry limit and you can't run, sprint, or move effectively. Manage your weight or die tired.
 
-While you will gradually gain carry weight with [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/Derived-Attributes/), the canny adventurer still needs places to store gear. In Wildlander, carry weight is a critical resource management tool—you can't carry everything, so managing your inventory carefully is essential to successful exploration.
+While you will gradually gain carry weight with [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/DA/), the canny adventurer still needs places to store gear. In Wildlander, carry weight is a critical resource management tool—you can't carry everything, so managing your inventory carefully is essential to successful exploration.
 
 **The fundamental rule:** Keep your total weight as light as possible. Overencumbered characters die in combat.
 

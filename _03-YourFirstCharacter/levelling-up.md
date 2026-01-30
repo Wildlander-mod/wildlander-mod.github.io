@@ -146,7 +146,7 @@ Every campfire you build and tent you pitch will level Camping skill. The skills
 
 ### Crafting
 
-- **Smithing:** Craft items from low-cost materials with high sell prices. First craft = 3x XP, second craft = 2x. **Always craft at least twice per item.** See [Crafting Toolkits](https://wiki.wildlandermod.com/10-Crafting/Crafting-Toolkits/) for more details on efficient smithing setups.
+- **Smithing:** Craft items from low-cost materials with high sell prices. First craft = 3x XP, second craft = 2x. **Always craft at least twice per item.** See [Crafting System Overview](https://wiki.wildlandermod.com/10-Crafting/1.1-Crafting-System/) for more details on efficient smithing setups.
 - **Alchemy:** Mix potions to gain XP per potion created and per gold value of potions made. Use a portable **mortar and pestle** to craft alchemy recipes anywhere. Spell Research cauldrons and alembics also grant XP by dissolving ingredients.
 - **Enchanting:** Every item enchanted grants XP. Use a portable **enchanting kit** to enchant items in the wild. Cauldrons are used for dissolving **Imbued or Enchanted loot** to extract essences.
 

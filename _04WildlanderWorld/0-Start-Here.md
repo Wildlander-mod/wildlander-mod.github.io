@@ -78,4 +78,4 @@ Follow this recommended order to understand Wildlander's world:
 
 **Navigation:**
 - [Back to Wiki Home](https://wiki.wildlandermod.com/)
-- [Next Section: Skill Analysis](https://wiki.wildlandermod.com/08-SkillAnalysis/0-Start-Here/)
+

@@ -22,7 +22,7 @@ has_toc: true
 
 # Stamina Management
 
-Stamina is **critical for ALL combat playstyles**—melee, ranchers, casters, and everyone else. Managing stamina effectively is the difference between victory and death.
+Stamina is **critical for ALL combat playstyles**—melee, archers, casters, and anything hybrid. Managing stamina effectively is the difference between victory and death.
 
 ## Why Stamina Matters
 
