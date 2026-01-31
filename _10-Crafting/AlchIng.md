@@ -421,6 +421,6 @@ initAlchemyRecipesFilters();
 
 ## Alchemy Ingredients & Effects
 
-For a comprehensive list of collected alchemy ingredients and their effects, see [Alchemy Effects by Ingredient](https://wiki.wildlandermod.com/Cheat-Sheets/Alchemy-Effects-by-Ingredient/) in the Cheat Sheets section.
+For a comprehensive list of collected alchemy ingredients and their effects, see [Alchemy Effects by Ingredient](https://wiki.wildlandermod.com/12Cheat-Sheets/Alchemy-Effects-by-Ingredient/) in the Cheat Sheets section.
 
 
