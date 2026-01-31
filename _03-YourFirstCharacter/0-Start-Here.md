@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Your First Character - Start Here
+title: Your First Character (Start here)
 nav_order: 0
 description: Start here for your first Wildlander character
 ---
-
-# Welcome: Your First Character
 
 This section is your guide to starting, building, and surviving with your first character in Wildlander.
 

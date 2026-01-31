@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome, Wildlander World Systems
+title: Wildlander World Systems (Start here)
 nav_order: 0
 description: Guide to Wildlander's world systems and mechanics
 ---
