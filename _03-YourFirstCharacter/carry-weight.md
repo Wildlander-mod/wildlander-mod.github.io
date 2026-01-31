@@ -176,7 +176,7 @@ Containers in the factions (Companions / Dark Brotherhood / Thieves Guild / Mage
 - Dead horses lose all items unless you can find their body and loot it before butchering it. If you have lost your horse, you have lost its inventory.
 - **⚠️ WARNING:** Never store loose potions on horses. NPCs (including horses) will consume potions from their inventory if they're low on health or stamina.
 
-For more information about horses in Wildlander, see the [Horses page](https://wiki.wildlandermod.com/04WildlanderWorld/13-Horses/)
+For more information about horses in Wildlander, see the [Horses page](https://wiki.wildlandermod.com/04WildlanderWorld/13-%20Horses/)
 
 **Followers**
 - Followers have their own inventory
