@@ -12,9 +12,9 @@ Version history, changelogs, and modlist references for all Wildlander releases.
 
 ## Main Changelog
 
-- [Change Log](https://wiki.wildlandermod.com/14ModlistVersions/CHANGELOG.md) - All Wildlander version updates and bug fixes
+- [Change Log](https://wiki.wildlandermod.com/14ModlistVersions/CHANGELOG/) - All Wildlander version updates and bug fixes
 
 
 ## Launcher
 
-- [Launcher Change Log](https://wiki.wildlandermod.com/14ModlistVersions/LauncherChangeLog.md) - Wildlander Launcher updates and improvements (maintained separately)
+- [Launcher Change Log](https://wiki.wildlandermod.com/14ModlistVersions/LauncherChangeLog/) - Wildlander Launcher updates and improvements (maintained separately)
