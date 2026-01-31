@@ -499,7 +499,7 @@ Identical to Labyrinthian Undead dragon - Except
 {: .important}
 > **Threat Level: 🔴 High**
 > 
-> The unique named dragons Durnehviir and Vulthuryol are significantly more dangerous than standard counterparts. Durnehviir is exceptionally dangerous with the highest health and damage among regular dragons. However, [Alduin](https://wiki.wildlandermod.com/17Bestiary/Beastiary/Alduin/) - the World-Eater - is in a class of his own with devastating melee damage, meteor storms, and summon abilities. Only encountered in specific questlines and late-game scenarios. Extreme preparation required.
+> The unique named dragons Durnehviir and Vulthuryol are significantly more dangerous than standard counterparts. Durnehviir is exceptionally dangerous with the highest health and damage among regular dragons. However, [Alduin](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Alduin/) - the World-Eater - is in a class of his own with devastating melee damage, meteor storms, and summon abilities. Only encountered in specific questlines and late-game scenarios. Extreme preparation required.
 
 ### Durnehviir
 
@@ -574,7 +574,7 @@ Identical to Labyrinthian Undead dragon - Except
 > 
 > Alduin is not a normal dragon encounter. He combines 1,000 melee damage with meteor storms, flying invulnerability phases, and summon abilities. This is the most lethal encounter in Wildlander. Do not attempt without comprehensive preparation, maximum resistances, and viable escape strategies.
 
-**For complete details, see [Alduin's dedicated page](https://wiki.wildlandermod.com/17Bestiary/Beastiary/Alduin/)**
+**For complete details, see [Alduin's dedicated page](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Alduin/)**
 
 Alduin the World-Eater is fundamentally different from all other dragons in Wildlander and should not be engaged without extreme preparation.
 

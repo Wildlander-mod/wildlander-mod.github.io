@@ -235,7 +235,7 @@ You now understand the core survival mechanics. Continue your learning:
 
 1. **Read [Derived Attributes](https://wiki.wildlandermod.com/03-YourFirstCharacter/DA/)** - Learn how your Health, Stamina, and Magicka directly support survival and combat effectiveness
 2. **Read [NPC Crafting and Enchanting Services](https://wiki.wildlandermod.com/03-YourFirstCharacter/npc-services/)** - Craft food, potions, and survival gear to meet your needs efficiently
-3. **Explore [Start Here in Wildlander World](https://wiki.wildlandermod.com/04-WildlanderWorld/0-Start-Here/)** - Expand beyond your first character to the broader Wildlander experience
+3. **Explore [Start Here in Wildlander World](https://wiki.wildlandermod.com/04WildlanderWorld/0-Start-Here/)** - Expand beyond your first character to the broader Wildlander experience
 
 **Remember:** Every journey requires planning. Before leaving a safe location, ensure you have food, water, and shelter materials.
 

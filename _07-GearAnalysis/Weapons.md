@@ -379,8 +379,6 @@ Steel War Axe|54|55|12|0.9|0.7|49
 Steel Warhammer|120|110|25|0.6|0.91|72
 Stone Hatchet|30|10|7|0.9|0.7|27
 Stone Hunting Knife|12|4|1.5|1.3|0.49|16
-
-</div>
 Stormcloak Heavy Crossbow|60|145|12|0.4445|1|27
 Stormfang|102|500|17|0.8|0.91|82
 Sword of Soulreaping|11|30|11|1|1|11
@@ -417,4 +415,4 @@ Wooden Sword|12|10|3|1|0.7|12
 Wuuthrad|150|15269|25|0.7|0.91|105
 Wuuthrad Replica|138|1585|26|0.7|0.91|97
 Zephyr|60|550|10|0.48152|1|29
-{: #myTable }
+</div>

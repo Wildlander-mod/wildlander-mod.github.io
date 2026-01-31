@@ -87,43 +87,43 @@ Any additional perks that the Enemy may have which affects game play.
 
 ### The Guides 
 
-[Animals](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Animals) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
+[Animals](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Animals/) – Animals comprise various mundane creatures that have no magical or weapon-wielding abilities.
 
         Ash Hopper • Bear • Bristleback • Chicken • Cow • Deer • Dog • Elk • Fox • Goat • Husky •  Horker • Horse 
         • Mammoth • Mudcrab  Rabbit • Sabre Cat • Skeever • Slaughterfish • Wolf
 
-[Monsters](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Monsters) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
+[Monsters](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Monsters/) – Monsters are creatures with various magical abilities, ranging from magical attacks to various magical resistances.
 
              Chaurus • Falmer •  Frostbite Spider • Giant • Hagraven • Ice Wraith 
              • Magic Anomaly • Netch • Riekling • Spiders • Spriggan • Troll • Werewolf • WereBear • Wisp • Wispmother
         
-[Automations](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Automations) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
+[Automations](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Automations/) – Dwarven Automatons are ancient, robot-like machines encountered in Dwarven Ruins.
 
             Dwarven Ballista • Dwarven Centurion • Dwarven Sphere • Dwarven Spider • Enchanted Sphere •  Forgemaster
             
-[Daedra](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Daedra) – Daedra are creatures from the planes of Oblivion.
+[Daedra](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Daedra/) – Daedra are creatures from the planes of Oblivion.
               
             Ash Guardian • Flame Atronach • Frost Atronach • Lurker • Seeker • Storm Atronach • The Slighted • Dremora
             
-[Dragons](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Dragons) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
+[Dragons](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Dragons/) – Dragons (drah-gkon and dov-rha to the ancient Nords, or dov in their native language) are large flying reptilian creatures that are encountered in Skyrim. .
               
             Fire • Fire Spectral Dragon •  Ice • Poison • Skeletal • Serpantine • Durnehviir • Paarthurnax 
             • Vulthuryol  • Krosulhah • Naaslaarum • Sahrotaar • Voslaarum         
             
-[Undead](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Undead) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
+[Undead](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Undead/) – Undead creatures consist of spirits, reanimated skeletons, and reanimated corpses. 
               
             Ash Spawn • Dragon Priest • Draugr • Gargoyles • Ghost • Shades • Skeleton • Vampires       
             
-[Unique and Named creature](http://wiki.wildlandermod.com/17Bestiary/Beastiary/UniqueCreatures) – The various Named Unique Enemies found in Requiems world
+[Unique and Named creature](https://wiki.wildlandermod.com/17Bestiary/Bestiary/UniqueCreatures/) – The various Named Unique Enemies found in Requiems world
   
 Bosses – The Bosses
-* [Ancano](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Ancano)  
-* [Alduin](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Alduin) 
-* [Champion of Boethiah](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Champion-of-Boethiah) 
-* [Ebony Warrior](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Ebony-Warrior)
-* [Lord Harkon](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Lord-Harkon) 
-* [Malkorian](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Malkoran)
-* [Miraak](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Miraak)
-* [Old Orc](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Old-Orc)
-* [Potema](http://wiki.wildlandermod.com/17Bestiary/Beastiary/Potema) 
-* [The Reaper](http://wiki.wildlandermod.com/17Bestiary/Beastiary/The-Reaper)
+* [Ancano](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Ancano/)  
+* [Alduin](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Alduin/) 
+* [Champion of Boethiah](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Champion-of-Boethiah/) 
+* [Ebony Warrior](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Ebony-Warrior/)
+* [Lord Harkon](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Lord-Harkon/) 
+* [Malkorian](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Malkoran/)
+* [Miraak](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Miraak/)
+* [Old Orc](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Old-Orc/)
+* [Potema](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Potema/) 
+* [The Reaper](https://wiki.wildlandermod.com/17Bestiary/Bestiary/The-Reaper/)
