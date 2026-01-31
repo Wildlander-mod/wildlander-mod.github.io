@@ -61,7 +61,7 @@ Lantern Oil |	1 sec	|14 sec
 {: .hint}
 > The time to light a campfire in all weather conditions can be improved with the Firecraft Camping perk if using Strike Stone, or the Destruction skill if using magic.
 
-{: .highlight}
+{: .callout-highlight}
 > Be careful: a starting campfire only lasts for 1 hour! Be sure to add more fuel and build a larger campfire quickly, or else your tinder and fuel will be lost and you will have to start over.
 > 
 > A good strategy is to already have enough fuel for at least a flickering campfire ready before you begin building a campfire. That way you won’t run the risk of your campfire burning out before you can find more fuel.

@@ -55,7 +55,8 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
    
 callouts_level: loud
 callouts:
-  highlight:
+
+  callout-highlight:
     title: Notice
     color: yellow
   notice:

@@ -7,7 +7,7 @@ description: Magic Analysis
 
 ## Quick Reference (TL;DR)
 
-{: .highlight}
+{: .callout-highlight}
 **Most Important Rule:** Perks matter more than skill level. You can have 100 magic skill, but without the matching perks, your spells will be weak and expensive.
 
 ---

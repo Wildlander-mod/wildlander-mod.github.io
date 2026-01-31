@@ -152,14 +152,6 @@ pre.highlight {
     font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
 }
 
-// Override highlighter-rouge plaintext to use custom code styling instead of purple
-.language-plaintext.highlighter-rouge {
-    background-color: transparent !important;
-    border: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
 
 // Top right shortcut settings
 .aux-nav-list-item {
@@ -411,8 +403,17 @@ background: transparent;
 }
 
 // Override highlight callout background from purple to yellow
-.callout.highlight,
-.highlight {
+.callout.callout-highlight,
+.callout-highlight {
+  --callout-color: #7B5F0C !important;
+  background-color: rgba(123, 95, 12, 0.15) !important;
+  border-left-color: #7B5F0C !important;
+  padding: $sp-3 !important;
+  margin: 0 !important;
+}
+
+// Fallback: support legacy .highlight callout notation (if any exist)
+.callout.highlight {
   --callout-color: #7B5F0C !important;
   background-color: rgba(123, 95, 12, 0.15) !important;
   border-left-color: #7B5F0C !important;
@@ -487,8 +488,8 @@ background: transparent;
   border-left-color: #d62828 !important;
 }
 
-.callout.highlight > p,
-.highlight > p {
+.callout.callout-highlight > p,
+.callout-highlight > p {
   color: inherit !important;
 }
 

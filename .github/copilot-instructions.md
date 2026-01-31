@@ -63,7 +63,7 @@ When creating links, check the actual folder structure or existing links in the 
 {: .note}
 > Helpful hint or secondary info.
 
-{: .highlight}
+{: .callout-highlight}
 > Important emphasis.
 
 {: .tip}
