@@ -152,6 +152,14 @@ pre.highlight {
     font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
 }
 
+// Override highlighter-rouge plaintext to use custom code styling instead of purple
+.language-plaintext.highlighter-rouge {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 
 // Top right shortcut settings
 .aux-nav-list-item {
