@@ -40,7 +40,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 - **Key Skills:** Two-Handed, Light Armor, Smithing, Evasion
 - **Stone:** Warrior or Steed
 - **Why for beginners:** Similar to the heavy armor warrior but more mobile, good damage output, easier gear maintenance
-- **[See Milkdrinker's Barbarian Guide →](https://wiki.wildlandermod.com/15-ClassGuides/MilkdrinkerBarbarian/)**
+- **[See Milkdrinker's Barbarian Guide →](https://wiki.wildlandermod.com/15ClassGuides/MilkdrinkerBarbarian/)**
 
 **2. One-Handed + Shield Knight**
 - **Why it works:** Balanced offense and defense, very survivable
@@ -48,7 +48,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 - **Key Skills:** One-Handed, Block, Heavy Armor, Restoration
 - **Stone:** Lord or Lady
 - **Why for beginners:** Block provides damage reduction, easier to kite enemies, Restoration helps with healing
-- **[See Knight of the Iron's Knight Guide →](https://wiki.wildlandermod.com/15-ClassGuides/KnightoftheIron/)**
+- **[See Knight of the Iron's Knight Guide →](https://wiki.wildlandermod.com/15ClassGuides/KnightoftheIron/)**
 
 **3. Two-Handed Warrior**
 - **Why it works:** Simple playstyle, high damage, straightforward perk progression
@@ -56,7 +56,7 @@ General rules for successful build - One ranged ability, One Defense ability, On
 - **Key Skills:** Two-Handed, Heavy Armor, Smithing
 - **Stone:** Warrior or Lord
 - **Why for beginners:** Doesn't require micromanagement, good survivability, clear progression path
-- **[See 2Hand Warrior Guide →](https://wiki.wildlandermod.com/15-ClassGuides/2HandWarrior/)**
+- **[See 2Hand Warrior Guide →](https://wiki.wildlandermod.com/15ClassGuides/2HandWarrior/)**
 
 **4. Restoration Cleric**
 - **Why it works:** Self-healing, support magic, can hold your own in combat
@@ -246,6 +246,6 @@ You've planned your character build! Now it's time to start playing:
 
 1. **Read [Your First Day](https://wiki.wildlandermod.com/03-YourFirstCharacter/First-Day/)** - Learn survival priorities and money-making strategies
 2. **Read [Leveling your Character](https://wiki.wildlandermod.com/03-YourFirstCharacter/levelling-up/)** - Understand perk allocation and skill progression
-3. **Read [Stamina Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/stamina/)** - Master resource management for your chosen playstyle
+3. **Read [Stamina Management](https://wiki.wildlandermod.com/03-YourFirstCharacter/Stamina/)** - Master resource management for your chosen playstyle
 
 **Remember:** Your build choice matters less than understanding the game mechanics. Any build can succeed if you play smartly.
