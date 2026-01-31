@@ -58,13 +58,13 @@ Elixer/Potions of blood in addition to sating your thirst also act as a regenera
 
 In Requiem some areas are deemed 'holy' and will penalize you with a visual shader that will blur your vision, and prevent your stamina from regenerating.
 
-{: .highlight}
-> * Temple of Talos
-> * Temple of the Divines
-> * Temple of Kynareth
-> * Temple of Mara
-> * Temple of Dibella
-> * Stendarr's Beacon
+
+* Temple of Talos
+* Temple of the Divines
+* Temple of Kynareth
+* Temple of Mara
+* Temple of Dibella
+* Stendarr's Beacon
 
 ## --Searing Sun--
 

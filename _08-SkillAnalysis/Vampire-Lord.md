@@ -13,7 +13,7 @@ PLACE HOLDER Needs checking in SSE Edit!
 
 Does not stack with regular Vampire Traits, consider the below to be your only active bonuses from being a vampire while transformed into a Vampire Lord.
 
-{: .highlight}
+{: .callout-code}
 > * Minor Knockdown Immunity
 > * Undead
 > * Base Health adjusted to 300
