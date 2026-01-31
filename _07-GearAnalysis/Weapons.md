@@ -62,11 +62,11 @@ Note: Swing speed is defined as the amount of swings the weapon can do in a seco
 
 <div class="weapons-table" markdown="1">
 
-FULL Name|Base Damage (excluding perks)|Value|Weight|Swing Speed|Reach|Damage Per Second (Not including Enchants)
---|--|--|--|--|--|--|
-Aegisbane|114|60|24|0.6|0.91|68
-Aetherial Staff|0|1250|8|1|1.3|0
-Akaviri Katana|66|315|10|1|0.7|66
+| FULL Name | Base Damage (excluding perks) | Value | Weight | Swing Speed | Reach | Damage Per Second (Not including Enchants) |
+|--|--|--|--|--|--|--|
+| Aegisbane | 114 | 60 | 24 | 0.6 | 0.91 | 68 |
+| Aetherial Staff | 0 | 1250 | 8 | 1 | 1.3 | 0 |
+| Akaviri Katana | 66 | 315 | 10 | 1 | 0.7 | 66 |
 Alessandra's Dagger|24|10|2|1.3|0.49|31
 Alik'ri Fishing Rod|24|75|2|1.2|0.7|29
 Ancient Nordic Battleaxe|108|35|22|0.7|0.91|76
