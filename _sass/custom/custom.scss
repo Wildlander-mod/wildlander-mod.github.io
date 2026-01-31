@@ -113,8 +113,13 @@ td {
 code {
     white-space : pre-wrap !important;
     word-break: break-word;
-    background-color:#462B53;
+    background-color: #000000;
+    border: 2px solid #50098a;
+    border-radius: 4px;
     color: #ffffff;
+    padding: 12px;
+    display: block;
+    margin: 12px 0;
     font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
 }
 
@@ -122,9 +127,20 @@ code {
 pre {
     white-space : pre-wrap !important;
     word-break: break-word;
-    background-color:#462B53;
-    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
     font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
+}
+
+pre code {
+    background-color: #000000;
+    border: 2px solid #50098a;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 12px;
+    display: block;
 }
 
 .highlight,

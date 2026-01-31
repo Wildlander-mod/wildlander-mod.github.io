@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Wildlander World - Start Here
+title: Welcome, Wildlander World Systems
 nav_order: 0
 description: Guide to Wildlander's world systems and mechanics
 ---
-
-# Welcome: Wildlander World Systems
 
 This section covers the essential mechanics and systems that shape your experience in the Wildlander world. Understanding these systems will help you survive and thrive.
 

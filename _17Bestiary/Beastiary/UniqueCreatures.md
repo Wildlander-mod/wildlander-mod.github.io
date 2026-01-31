@@ -891,7 +891,7 @@ NPC :81094B16
 
 Modd:Reqiuem
 
-Named Version of a standard [troll](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Monsters/#troll)
+Named Version of a standard [troll](https://wiki.wildlandermod.com/17Bestiary/Beastiary/Monsters/#troll)
 
 ##  **Thunder** : Giant Storm Atronach
 

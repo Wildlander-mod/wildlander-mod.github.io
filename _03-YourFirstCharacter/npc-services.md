@@ -5,8 +5,6 @@ nav_order: 14
 description: NPC Crafting and Enchanting Services
 ---
 
-# NPC Crafting and Enchanting Services
-
 **You don't have to craft everything yourself.** NPCs across Skyrim offer professional crafting, tempering, and enchanting services—perfect when you've reached max gear and don't have the skills yourself.
 
 ## How NPC Services Work

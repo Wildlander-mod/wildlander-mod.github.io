@@ -128,7 +128,7 @@ Use this table to quickly identify how to counter each enemy type:
 | **Sabercat** | Fragile once engaged; ambush only on first hit | Listen for growls; use ranged; get distance if ambushed |
 
 {: .important}
-For other enemy types, check the [Bestiary](https://wiki.wildlandermod.com/17Bestiary/Bestiary/) section for specialist weapons, spell requirements, and damage resistances.
+For other enemy types, check the [Bestiary](https://wiki.wildlandermod.com/17Bestiary/Beastiary/) section for specialist weapons, spell requirements, and damage resistances.
 
 ---
 

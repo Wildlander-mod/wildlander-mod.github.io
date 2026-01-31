@@ -81,12 +81,12 @@ description: Miraak - Shouts, Spells, Stats
 
 Spells (Last 5 times longer than any durations listed)
 - "Ethereal" Miraak Gains 1000 armor and 1000% magic resistance
-- "Erupt Fire" The evokes an explosion of fire, dealing 100 points of fire damage. The damage increases as the target becomes closer. Summons 2 [Fire Spectral Dragon](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Dragons/#fire-spectral-dragon)  for 8 seconds wherever the caster aims.
+- "Erupt Fire" The evokes an explosion of fire, dealing 100 points of fire damage. The damage increases as the target becomes closer. Summons 2 [Fire Spectral Dragon](https://wiki.wildlandermod.com/17Bestiary/Beastiary/Dragons/#fire-spectral-dragon)  for 8 seconds wherever the caster aims.
 - "Elemental Cloak" For 40 seconds, enemies in melee range receive 15 points of frost, fire, Shock and stamina damage per second. and gain 250% Weakness to Frost, Fire and Shock for 20 Seconds.
 - "Knowledge Drain" The caster drains the soul of the target for 150 Health and magicka damage, dealing a 0.5 Stagger, and Target is 75% weaker to magic for 5 seconds.
 - "Blizzard" Targets receive 50  points of frost and stamina damage for 9 seconds.
 - "Chain Lightning" The caster evokes a lightning bolt that deals 100 points of shock damage to Health and half to Magicka and hits multiple targets at once if they stand close to each other. Dealing a 0.5 Stagger to each person hit.
-- "Summons Thralls" Summon Flame, Frost and Storm Thrall - Summons a potent variant of each [atronoch](https://wiki.wildlandermod.com/17Bestiary/Bestiary/Daedra/#atronach) type for 30 seconds. 
+- "Summons Thralls" Summon Flame, Frost and Storm Thrall - Summons a potent variant of each [atronoch](https://wiki.wildlandermod.com/17Bestiary/Beastiary/Daedra/#atronach) type for 30 seconds. 
 
 
 Perks
