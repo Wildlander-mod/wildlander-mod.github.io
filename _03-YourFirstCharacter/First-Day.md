@@ -99,7 +99,7 @@ Dirtiness reduces your speech skill and disease resistance, making merchants har
 - **Rivers** (Hotkey **'/@**, free but avoid cold climates due to exposure) - Use soap for beneficial buffs
 - See [Cleanliness](https://wiki.wildlandermod.com/03-YourFirstCharacter/Needs/#cleanliness) on the Needs page for soap types and effects
 
-**IMPORTANT**: Make sure you're **fully clothed** (at least a chest piece) before selling. Nudity has harsh selling penalties. This is especially critical when handing your primary armor to [NPCs for upgrades](https://wiki.wildlandermod.com/09-How-Do-i/NPC-Crafting-Services/)—always have backup clothing to wear while they work on your gear.
+**IMPORTANT**: Make sure you're **fully clothed** (at least a chest piece) before selling. Nudity has harsh selling penalties. This is especially critical when handing your primary armor to [NPCs for upgrades](https://wiki.wildlandermod.com/03-YourFirstCharacter/npc-services/)—always have backup clothing to wear while they work on your gear.
 
 ---
 
