@@ -231,6 +231,7 @@ When editing pages, verify they distinguish Requiem mechanics from vanilla.
 - **Preview:** Test locally if possible, or rely on GitHub Pages preview URLs
 - **Theme:** Do NOT edit `_config.yml`, `_sass/`, or CSS—Dylan (owner) controls appearance
 - **File encoding:** CRITICAL - All `.md` files MUST be saved as UTF-8. Files with Windows-1252 encoding (smart quotes, non-breaking spaces) will cause Jekyll build failures with "invalid byte sequence in UTF-8" errors. When creating or editing files, ensure they are explicitly saved as UTF-8.
+- **🚨 CRITICAL: NO AUTOMATIC GIT COMMITS OR PUSHES** - Git commits and pushes MUST NOT happen without explicit user permission. Only commit and push when the user explicitly requests it with commands like "push it" or "commit and push". Never assume permission to modify git history.
 
 ## Dependency Management
 
