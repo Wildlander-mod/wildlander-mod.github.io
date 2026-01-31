@@ -36,6 +36,13 @@ has_toc: true             # Optional - adds auto-generated table of contents
 
 The underscores in folder names are for Jekyll ordering only and must be removed from all wiki link URLs.
 
+**CRITICAL: Case matters in URLs!** Always verify the exact case of folder and file names:
+- ✅ `https://wiki.wildlandermod.com/03-YourFirstCharacter/Character-Creation/` (matches actual folder/file case)
+- ❌ `https://wiki.wildlandermod.com/03-yourfirstcharacter/character-creation/` (wrong case = broken link)
+- ❌ `https://wiki.wildlandermod.com/03-YourFirstCharacter/character-creation/` (wrong page case = broken link)
+
+When creating links, check the actual folder structure or existing links in the repo to ensure case-correct URLs. Case sensitivity varies by platform but Jekyll treats URLs as case-sensitive.
+
 ## Content Patterns & Styling
 
 ### Page Structure Template
