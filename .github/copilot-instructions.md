@@ -43,6 +43,8 @@ The underscores in folder names are for Jekyll ordering only and must be removed
 
 When creating links, check the actual folder structure or existing links in the repo to ensure case-correct URLs. Case sensitivity varies by platform but Jekyll treats URLs as case-sensitive.
 
+**NOTE:** January 31, 2026 - Found 24 broken links using incorrect folder name `Beastiary` (should be `Bestiary`) across wiki. Typos in folder names in URLs are easy to miss and cause silent link breakage. Always double-check folder name spelling against actual file structure.
+
 ## Content Patterns & Styling
 
 ### Page Structure Template

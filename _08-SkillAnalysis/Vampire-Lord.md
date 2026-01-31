@@ -13,61 +13,43 @@ PLACE HOLDER Needs checking in SSE Edit!
 
 Does not stack with regular Vampire Traits, consider the below to be your only active bonuses from being a vampire while transformed into a Vampire Lord.
 
-    Minor Knockdown Immunity
-
-    Undead
-
-    Base Health adjusted to 300
-
-    Base Magicka adjusted to 200
-
-    Base Stamina adjusted to 100
-
-    Base Carry Weight adjusted to 1000
-
-    Poison Resistance increased by 100% (Not Immunity)
-
-    Disease Immunity
-
-    Health fortified by 300
-
-    Stamina fortified by 300
-
-    Waterbreathing
-
-    Taboo items cause detrimental effects.
-
-    Holy Area Penalties
-
-    Searing Sun - Health, Stamina, and Magicka reduced by 100
-
-    Bats spell
-
-    Raise Dead
-
-    Power Attack Bite
-
-    Revert Form
+{: .highlight}
+> * Minor Knockdown Immunity
+> * Undead
+> * Base Health adjusted to 300
+> * Base Magicka adjusted to 200
+> * Base Stamina adjusted to 100
+> * Base Carry Weight adjusted to 1000
+> * Poison Resistance increased by 100% (Not Immunity)
+> * Disease Immunity
+> * Health fortified by 300
+> * Stamina fortified by 300
+> * Waterbreathing
+> * Taboo items cause detrimental effects
+> * Holy Area Penalties
+> * Searing Sun - Health, Stamina, and Magicka reduced by 100
+> * Bats spell
+> * Raise Dead
+> * Power Attack Bite
+> * Revert Form
 
 ### [Equipment] Ring of the Beast
 
-    Unarmed damage improved by 40
-
-    Health fortified by 400
+* Unarmed damage improved by 40
+* Health fortified by 400
 
 ### [Equipment] Ring of the Erudite
 
-    Magicka Regen improved by 2 per second
-
-    Magicka fortified by 100
+* Magicka Regen improved by 2 per second
+* Magicka fortified by 100
 
 ### [Equipment] Amulet of Bats
 
-    Adds 10 damage and a powerful knockback to the Bats spell
+Adds 10 damage and a powerful knockback to the Bats spell
 
 ### [Equipment] Amulet of the Gargoyle
 
-    While wearing this amulet, your Summon Gargoyle spell summons an additional Gargoyle for 30 seconds.
+While wearing this amulet, your Summon Gargoyle spell summons an additional Gargoyle for 30 seconds.
 
 ## --Vampire Lord Perks--
 
