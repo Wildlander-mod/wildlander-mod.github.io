@@ -193,7 +193,7 @@ function clearAlchemyIngFilters(table) {
 </script>
 
 <div class="alchemy-ing-controls">
-  <input type="text" id="alchemyIngSearch" placeholder="Search ingredients or effects..." />
+  <input type="text" id="alchemyIngSearch" placeholder="Search ingredients" />
   <select id="alchemyIngEffectFilter">
     <option value="">All Effects</option>
   </select>
