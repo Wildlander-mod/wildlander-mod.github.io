@@ -60,8 +60,7 @@ function initAlchemyIngredientFilters(table) {
   document.getElementById('alchemyIngClearFilters').addEventListener('click', function() { clearAlchemyIngFilters(table); });
   
   const rows = Array.from(table.querySelectorAll('tbody tr'));
-  
-  // Populate Effect filter dropdown (column 1)
+
   const effectSet = new Set();
   const categorySet = new Set();
   rows.forEach(row => {
