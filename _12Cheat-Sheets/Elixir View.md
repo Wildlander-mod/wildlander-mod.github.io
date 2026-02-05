@@ -161,11 +161,11 @@ function filterElixirViewTable(table) {
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     const name = (cells[0]?.textContent || '').toLowerCase();
-    const effect = (cells[1]?.textContent || '').trim();
+    const effect = (cells[1]?.textContent || '').toLowerCase();
     const solutions = (cells[2]?.textContent || '').toLowerCase();
     
-    const searchMatch = name.includes(searchTerm) || solutions.includes(searchTerm);
-    const filterMatch = !effectFilter || effect === effectFilter;
+    const searchMatch = name.includes(searchTerm) || solutions.includes(searchTerm) || effect.includes(searchTerm);
+    const filterMatch = !effectFilter || cells[1]?.textContent?.trim() === effectFilter;
     
     const isVisible = searchMatch && filterMatch;
     row.style.display = isVisible ? '' : 'none';
@@ -194,7 +194,7 @@ function clearElixirViewFilters(table) {
 </script>
 
 <div class="elixir-view-controls">
-  <input type="text" id="elixirViewSearch" placeholder="Search by elixir name or solutions..." />
+  <input type="text" id="elixirViewSearch" placeholder="Search by elixir name, effects, or solutions..." />
   <select id="elixirViewEffectFilter">
     <option value="">All Effects</option>
   </select>

@@ -161,11 +161,13 @@ function filterAlchemyIngTable(table) {
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     const ingredient = cells[0]?.textContent.toLowerCase() || '';
-    const effect = cells[1]?.textContent.trim();
+    const effect = cells[1]?.textContent.toLowerCase() || '';
+    const magnitude = cells[2]?.textContent.toLowerCase() || '';
+    const duration = cells[3]?.textContent.toLowerCase() || '';
     const category = cells[5]?.textContent.trim();
     
-    const searchMatch = ingredient.includes(searchTerm);
-    const effectMatch = !effectFilter || effect === effectFilter;
+    const searchMatch = ingredient.includes(searchTerm) || effect.includes(searchTerm) || magnitude.includes(searchTerm) || duration.includes(searchTerm);
+    const effectMatch = !effectFilter || effect.trim() === effectFilter.toLowerCase();
     const categoryMatch = !categoryFilter || category === categoryFilter;
     
     const isVisible = searchMatch && effectMatch && categoryMatch;
@@ -192,7 +194,7 @@ function clearAlchemyIngFilters(table) {
 </script>
 
 <div class="alchemy-ing-controls">
-  <input type="text" id="alchemyIngSearch" placeholder="Search ingredients..." />
+  <input type="text" id="alchemyIngSearch" placeholder="Search ingredients or effects..." />
   <select id="alchemyIngEffectFilter">
     <option value="">All Effects</option>
   </select>
