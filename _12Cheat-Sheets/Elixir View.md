@@ -441,12 +441,12 @@ function clearElixirViewFilters(table) {
 | Dilute Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 0.90 | 4 | Dilute |
 | Strong Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 3.00 | 15 | Strong |
 | Potent Elixir | Damage Maxiumum Stamina   | Ghartok,Betayammis,Rellers ry Molag | 4.50 | 23 | Potent |
-| Dilute Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 2.20 | 133 | Dilute |
-| Strong Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 7.50 | 450 | Strong |
-| Mild Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 5.00 | 300 | Mild |
-| Weak Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 3.30 | 200 | Weak |
-| Concentrated Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 16.90 | 1013 | Concentrated |
-| Potent Elixir | Regenerate Health   | Mora,Karan ry Ayammis,Ayammis | 11.30 | 675 | Potent |
+| Dilute Elixir | Regenerate Health   | Mer Garlas,Karan ry Ayammis,Agea Arden | 2.20 | 133 | Dilute |
+| Strong Elixir | Regenerate Health   | Mer Garlas,Karan ry Ayammis,Agea Arden | 7.50 | 450 | Strong |
+| Mild Elixir | Regenerate Health   | Mer Garlas,Karan ry Ayammis,Agea Arden | 5.00 | 300 | Mild |
+| Weak Elixir | Regenerate Health   | Mer Garlas,Karan ry Ayammis,Agea Arden | 3.30 | 200 | Weak |
+| Concentrated Elixir | Regenerate Health   | Mer Garlas,Karan ry Ayammis,Agea Arden | 16.90 | 1013 | Concentrated |
+| Potent Elixir | Regenerate Health   | Mer Garlas,Karan ry Ayammis,Agea Arden | 11.30 | 675 | Potent |
 | Dilute Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 2.20 | 133 | Dilute |
 | Strong Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 7.50 | 450 | Strong |
 | Potent Elixir | Regenerate Magicka   | Mer Garlas,Agea,Agea Arden | 11.30 | 675 | Potent |
