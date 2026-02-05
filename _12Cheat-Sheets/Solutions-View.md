@@ -263,6 +263,7 @@ function clearSolutionsViewFilters(table) {
 | Latta sa Haelia   (Light) | Glowing Mushroom,Luna Moth Wing,Torchbug Abdomen |  | Latta | Haelia |
 | Mafre sa Haelia   (Frost) | Abecean Longfin,Frost Mirriam,Snowberries,Thistle Branch,White Cap |  | Mafre | Haelia |
 | Malatu Magicka sa Haelia   (Arcane Energy) | Chicken's Egg,Lavender,Tundra Cotton |  | Malatu Magicka | Haelia |
+| Mallari sa Haelia   (Metal) | Ingot: Corundum, Ingot: Iron,Ingot: Steel |  | Mallari | Haelia |
 | Mer Garlas sa Haelia   (Flesh) | Abecean Longfin,Bee,Blue Butterfly Wing,Blue Dartwing,Bone Meal,Charred Skeever Hide,Cyrodilic Spadetail,Histcarp,Large Mudcrab Chitin,Luna Moth Wing,Monarch Wing,Mudcrab Chitin,Orange Dartwing,Powdered Mudcrab Chitin,River Betty,Silverside Perch,Skeever Tail,Torchbug Abdomen |  | Mer Garlas | Haelia |
 | Molag sa Haelia   (Fire) | Ashen Grass Pod,Bleeding Crown,Charred Skeever Hide,Dragon's Tongue,Fly Amanita,Juniper Berries,Snowberries,Torchbug Abdomen |  | Molag | Haelia |
 | Mora sa Haelia   (Nature) | Ashen Grass Pod,Bleeding Crown,Blisterwort,Blue Mountain Flower,Chicken's Egg,Creep Cluster,Dragon's Tongue,Elves Ear,Fly Amanita,Frost Mirriam,Garlic,Giant Lichen,Glowing Mushroom,Grass Pod,Hanging Moss,Imp Stool,Jazbay Grapes,Juniper Berries,Lavender,Mora Tapinella,Namira's Rot,Pine Thrush Egg,Purple Mountain Flower,Red Mountain Flower,Scaly Pholiota,Scathecraw,Snowberries,Swamp Fungal Pod,Thistle Branch,Trama Root,Tundra Cotton,Wheat,White Cap,Yellow Mountain Flower |  | Mora | Haelia |
@@ -270,7 +271,7 @@ function clearSolutionsViewFilters(table) {
 | Rellers ry Molag sa Haelia   (Acid) | Creep Cluster,Salt |  | Rellers ry Molag | Haelia |
 | Wel sa Belle sa Haelia   (Shock) | Blue Dartwing,Giant Lichen,Glowing Mushroom,Swamp Fungal Pod,Trama Root |  | Wel sa Belle | Haelia |
 | Wel sa Haelia   (Air) | Bee,Blue Butterfly Wing,Blue Dartwing,Luna Moth Wing,Monarch Wing,Orange Dartwing,Torchbug Abdomen |  | Wel | Haelia |
-| Agea Arden sa Goria   (Resistances) | Beehive Husk,Gleamblossom,Pearl,Small Pearl,Troll Fat | Boar Tusk,Charred Skeever Hide,Chaurus Eggs,Giant Lichen,Ice Wraith Teeth,Pine Thrush Egg,Polished Fox Eye,Polished Slaughterfish Scales,Torchbug Abdomen | Agea Arden | Goria |
+| Agea Arden sa Goria   (Resistances) | Beehive Husk,Gleamblossom,Ice Wraith Essence,Pearl,Small Pearl,Troll Fat | Boar Tusk,Charred Skeever Hide,Chaurus Eggs,Giant Lichen,Ice Wraith Teeth,Pine Thrush Egg,Polished Fox Eye,Polished Slaughterfish Scales,Torchbug Abdomen | Agea Arden | Goria |
 | Agea sa Goria   (Magicka) | Bear Tooth,Flawless Sabre Cat Tooth,Moon Sugar,Sabre Cat Claws | Flawless Sabre Cat Tooth,Red Mountain Flower | Agea | Goria |
 | Altadoon ry Bet sa Goria   (Diseases) | Dyed Hawk Feathers,Hawk Feathers,Panacea | Dragon Heart | Altadoon ry Bet | Goria |
 | Altadoon sa Goria   (Weapons) | Bear Claws,Buck Antlers,Doe Antlers,Hawk Beak,Polished Hare Eye,Polished Werewolf Eye,Powdered Mammoth Tusk,Sabre Cat Tooth |  | Altadoon | Goria |
@@ -285,9 +286,9 @@ function clearSolutionsViewFilters(table) {
 | Karan sa Goria   (Armor) | Buck Antlers,Doe Antlers,Hawk Feathers,Pearl,Polished Slaughterfish Scales,Powdered Mammoth Tusk,Slaughterfish Scales,Small Pearl |  | Karan | Goria |
 | Latta Loria sa Goria   (Shadow) |  | Glassfish | Latta Loria | Goria |
 | Latta sa Goria   (Light) | Chaurus Eggs,Gleamblossom,Polished Sabre Cat Eye,Sabre Cat Eye |  | Latta | Goria |
-| Mafre sa Goria   (Frost) | Ice Wraith Teeth |  | Mafre | Goria |
-| Malatu Magicka sa Goria   (Arcane Energy) | Gleamblossom | Charred Skeever Hide,Dragon Heart,Glassfish,Human Flesh,Northern Flax,Pine Thrush Egg,Polished Fox Eye,Polished Slaughterfish Scales,Purple Mountain Flower,Rock Warbler Egg,Sabre Cat Eye,Swamp Fungal Pod,Torchbug Abdomen | Malatu Magicka | Goria |
-| Mallari sa Goria  (Metal) | Dwarven Oil |  | Mallari | Goria |
+| Mafre sa Goria   (Frost) | Ice Wraith Essence,Ice Wraith Teeth |  | Mafre | Goria |
+| Malatu Magicka sa Goria   (Arcane Energy) | Gleamblossom,Ice Wraith Essence | Charred Skeever Hide,Dragon Heart,Glassfish,Human Flesh,Northern Flax,Pine Thrush Egg,Polished Fox Eye,Polished Slaughterfish Scales,Purple Mountain Flower,Rock Warbler Egg,Sabre Cat Eye,Swamp Fungal Pod,Torchbug Abdomen | Malatu Magicka | Goria |
+| Mallari sa Goria  (Metal) | Dwarven Oil,Ingot: Moonstone,Ingot: Silver |  | Mallari | Goria |
 | Mer Ayammis sa Goria   (Mortals) | Falmer Ear,Heart,Human Flesh,Polished Werewolf Eye,Werewolf Eye,Werewolf Heart |  | Mer Ayammis | Goria |
 | Mer Garlas sa Goria   (Flesh) | Animal Fat,Bear Eye,Bear Heart,Boar Eye,Boar Heart,Boiled Skeever Tail,Bull Horn,Cured Skeever Hide,Deer Heart,Falmer Ear,Fox Eye,Goat Heart,Hare Eye,Hawk Beak,Hawk Feathers,Heart,Human Flesh,Mammoth Eye,Polished Bear Eye,Polished Boar Eye,Polished Fox Eye,Polished Hare Eye,Polished Sabre Cat Eye,Polished Troll Eye,Polished Werewolf Eye,Polished Wolf Eye,Sabre Cat Eye,Sabre Cat Heart,Troll Eye,Troll Fat,Troll Heart,Werewolf Eye,Werewolf Heart,Wolf Eye,Wolf Heart |  | Mer Garlas | Goria |
 | Molag sa Goria   (Fire) | Charred Hawk Beak,Moon Sugar |  | Molag | Goria |
@@ -313,7 +314,7 @@ function clearSolutionsViewFilters(table) {
 | Latta sa Gravia   (Light) | Crimson Nirnroot,Glow Dust,Nirnroot,Strange Remains,Vampire Dust,Wisp Wrappings |  | Latta | Gravia |
 | Mafre sa Gravia   (Frost) | Fire Salts,Frost Salts,Wisp Wrappings |  | Mafre | Gravia |
 | Malatu Magicka sa Gravia   (Arcane Energy) | Briar Heart,Crimson Nirnroot,Fire Salts,Frost Salts,Glow Dust,Hagraven Claw,Hagraven Feathers,Nirnroot,Void Salts,Wisp Wrappings | Ash Hopper Jelly,Bear Tooth,Berit's Ashes,Blue Dartwing,Blue Mountain Flower,Bone Meal,Ectoplasm,Elves Ear,Goldfish,Grass Pod,Hagraven Claw,Lavender,Mudcrab Chitin,Panacea,Pearl,Polished Werewolf Eye,Sabre Cat Claws,Small Pearl,Snowberries,Spawn Ash,Strange Remains,Thistle Branch | Malatu Magicka | Gravia |
-| Mallari sa Gravia   (Metal) |  | Polished Hare Eye | Mallari | Gravia |
+| Mallari sa Gravia   (Metal) | Ingot: Ebony,Ingot: Gold,Ingot: Malachite,Ingot: Quicksilver | Polished Hare Eye | Mallari | Gravia |
 | Mer Ayammis sa Gravia   (Mortals) | Briar Heart,Ectoplasm,Giant's Toe,Hagraven Claw,Hagraven Feathers,Vampire Dust |  | Mer Ayammis | Gravia |
 | Mer Garlas sa Gravia   (Flesh) | Berit's Ashes,Briar Heart,Daedra Heart,Giant's Toe,Hagraven Feathers,Mammoth Heart,Polished Mammoth Eye,Vampire Dust |  | Mer Garlas | Gravia |
 | Mer ry Wel sa Gravia   (Apparitions) | Ectoplasm,Glow Dust,Wisp Wrappings |  | Mer ry Wel | Gravia |
@@ -354,13 +355,13 @@ function clearSolutionsViewFilters(table) {
 | Altadoon ry Bet sa Sila (Diseases) |  | Doe Antlers (Superlative) | Altadoon ry Bet | Sila |
 | Ayammis sa Sila (Life) |  | Cured Skeever Hide,Daedra Heart,Polished Troll Eye,Wheat | Ayammis | Sila |
 | Betaltadoon sa Sila (Poisons) |  | Ancestor Moth Wing,Blue Butterfly Wing,Boar Heart,Chaurus Hunter Antennae,Crimson Nirnroot,Giant's Toe,Glow Dust,Hanging Moss,Heart,Nightshade,Red Glitterdust,Yellow Mountain Flower | Betaltadoon | Sila |
-| Betayammis sa Sila   (Creatures) | Dragon Eye,Dragon Heart,Polished Dragon Eye |  | Betayammis | Sila |
+| Betayammis sa Sila   (Creatures) | Dragon Bone,Dragon Eye,Dragon Heart,Dragon Scale,Polished Dragon Eye |  | Betayammis | Sila |
 | Ghartok sa Sila (Stamina) |  | Bear Claws,Buck Antlers,Dyed Hawk Feathers,Giant's Toe,Histcarp,Silverside Perch,Troll Heart | Ghartok | Sila |
 | Karan Kogo sa Sila (Force) |  | Ancestor Moth Wing,Bear Claws,Bonesap,Buck Antlers,Burnt Spriggan Wood,Chaurus Hunter Antennae,Creep Cluster,Deathbell,Fire Salts,Frost Salts,Poisonous Bloom,Polished Mammoth Eye,Salmon Roe,Troll Heart,Wolf Claws | Karan Kogo | Sila |
 | Karan ry Ayammis sa Sila (Health) |  | Cured Skeever Hide,Daedra Heart,Wheat | Karan ry Ayammis | Sila |
 | Malatu Magicka sa Sila (Arcane Energy) |  | Crimson Nirnroot,Cured Skeever Hide,Daedra Heart,Fire Salts,Frost Salts,Polished Troll Eye,Pygmy Sunfish,Salt,Scaly Pholiota,Silverside Perch,Spriggan Sap,Yellow Mountain Flower | Malatu Magicka | Sila |
 | Mer Garlas sa Sila   (Flesh) | Dragon Eye,Dragon Heart,Polished Dragon Eye |  | Mer Garlas | Sila |
-| Wel sa Sila   (Air) |  | Angelfish | Wel | Sila |
+| Wel sa Sila   (Air) | Dragon Bone,Dragon Scale | Angelfish | Wel | Sila |
 
 </div>
 
