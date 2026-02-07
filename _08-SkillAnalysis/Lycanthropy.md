@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Werewolf Analysis
-nav_order: 11
+nav_order: 20
 has_children: false
 description: Werewolf transformation analysis, mechanics, and perk progression.
 ---
