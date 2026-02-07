@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blacksmithing Analysis
+title: Smithing Analysis
 nav_order: 16
 has_children: false
 description: Smithing skill tree analysis, crafting mechanics, and perk progression.
