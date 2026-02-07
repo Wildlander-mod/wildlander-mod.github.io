@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vampire Lord Analysis
-nav_order: 20
+nav_order: 21
 has_children: false
 description: Vampire Lord transformation analysis, mechanics, and perk progression.
 ---
