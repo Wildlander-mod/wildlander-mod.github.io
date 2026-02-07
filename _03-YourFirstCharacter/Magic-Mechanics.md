@@ -18,7 +18,7 @@ Wildlander makes significant changes to how magic works compared to vanilla Skyr
 
 ### Perks are Essential
 
-- **Skill level alone does nothing** - Your magic skill only determines which perks you can unlock
+- **Skill level alone means nothing without perks** - Your magic skill determines which perks you can unlock, and the magnitude of some perks scales with your skill level.
 - **Perks unlock spells** - Each tier (Novice, Apprentice, Adept, Expert, Master) grants you free spells when you learn the perk
 - **Perks reduce costs** - Without perks in a school, spells cost much more to cast
 - **Example:** Casting Novice spells without the Novice perk costs 2x as much magicka
@@ -43,30 +43,6 @@ Some spells now drain magicka continuously while active:
 - Upkeep increases with more powerful spells
 - **Cannot be reduced** by items that reduce spell costs (only by magicka regen)
 - Plan ahead before casting long-duration spells
-
----
-
-## Illusion Spells and Resistance
-
-Illusion spells work differently in Requiem - enemies can break free from your spells based on their willpower.
-
-### How Break-Free Chance Works
-
-When you cast an offensive illusion spell, the game calculates if the enemy can resist it:
-
-1. **Comparison:** Your illusion skill vs the enemy's willpower
-2. **Dice Roll:** Every 2 seconds, a 100-sided die is rolled  
-3. **Success/Failure:** If roll exceeds break-free chance, spell continues; otherwise enemy breaks free
-4. **Tier Bonus:** Master spells are much harder to resist than Novice spells
-
-![image](https://user-images.githubusercontent.com/26418143/160236172-3d312939-14e8-4de5-b9df-4606ac6dcb3b.png)
-
-{: .note}
-Spell specific value is defined as: Novice=1, Adept=5, Apprentice=10, Expert=15, Master=20
-
-Practical effects shown below:
-
-![image](https://user-images.githubusercontent.com/26418143/160236228-5a2ca016-8293-45a4-9f4c-939826855661.png)
 
 ---
 
@@ -102,7 +78,7 @@ Reference chart:
 
 ### 4. Skill Level
 
-Your skill in the school increases spell duration and effectiveness (scales 1% per skill point).
+With the appropriate perks, your skill level in a magic school increases the duration and effectiveness of its spells (scales 1-5% per skill point, depending on rank of perk).
 
 ---
 
@@ -136,12 +112,37 @@ To minimize costs as a mage: **Get perks, wear robes, and manage your stamina ca
 - Invest in Alchemy for cheaper potions
 - Pre-cast potions before difficult encounters
 - Stay out of melee to keep stamina high
+- Running and/or getting hit without appropriate perks/enchants temporarily reduces magicka regeneration
 
 Whenever an offensive illusion spell is cast, the game calculates a ”break-free chance” for the victim. 
 
 The calculation of the break-free chance is a comparison between the caster’s spell power, determined by her illusion skill, and the willpower of the target, determined by level, magicka pool, illusion skill and magic resistance. Once this break free chance has been calculated, then a 100-sided dice is thrown in game to on the initial cast and every two seconds afterwards. If the initial dice throw is less than the break free chance, the spell fails and the victim is unaffected completed, otherwise the victim suffers the effects until the next dice throw.  If the target does not break free from the spell on the next dice throw, the effect continues until the victim breaks free or its duration expires.
 
 The specific calculation is below (heavy math - i know)
+
+---
+
+## Illusion Spells and Resistance
+
+Illusion spells work differently in Requiem - enemies can break free from your spells based on their willpower.
+
+### How Break-Free Chance Works
+
+When you cast an offensive illusion spell, the game calculates if the enemy can resist it:
+
+1. **Comparison:** Your illusion skill vs the enemy's willpower
+2. **Dice Roll:** Every 2 seconds, a 100-sided die is rolled  
+3. **Success/Failure:** If roll exceeds break-free chance, spell continues; otherwise enemy breaks free
+4. **Tier Bonus:** Master spells are much harder to resist than Novice spells
+
+![image](https://user-images.githubusercontent.com/26418143/160236172-3d312939-14e8-4de5-b9df-4606ac6dcb3b.png)
+
+{: .note}
+Spell specific value is defined as: Novice=1, Adept=5, Apprentice=10, Expert=15, Master=20
+
+Practical effects shown below:
+
+![image](https://user-images.githubusercontent.com/26418143/160236228-5a2ca016-8293-45a4-9f4c-939826855661.png)
 
 ---
 
