@@ -10,7 +10,7 @@ description: Armor and weapon enchantments analysis
 
 Armor enchantments improve the player's attributes, or provide the player with useful new abilities or resistances. An enchantment's base magnitude is the number shown when you hover over that enchantment (in the enchanting menu) without selecting it. This number specifies the magnitude of the enchantment when a Grand soul is used by a player with level 0 enchanting skill and no enchanting perks.
 
-| Enchantment | Head | Neck | Chest | Hands | Finger | Feet | Shield | Effect | Cost |
+| Enchantment | Head | Neck | Chest | Hands | Finger | Feet | Shield | Effect | Cost[^1] |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---:|
 | <span style="color: #0066cc; font-weight: bold;">Fortify Skill</span> | | | | | | | | | |
 | Alchemy | ✓ | ✓ | | ✓ | ✓ | | | +3% potion strength | 56 |
@@ -32,60 +32,76 @@ Armor enchantments improve the player's attributes, or provide the player with u
 | Two-Handed | | ✓ | | ✓ | ✓ | ✓ | | +5% damage | 100 |
 | <span style="color: #00aa44; font-weight: bold;">Fortify Attribute</span> | | | | | | | | | |
 | Healing Rate | | ✓ | ✓ | | ✓ | | | +20% | 200 |
-| Health | | ✓ | ✓ | | ✓ | | ✓ | +20 | 150 |
-| Magicka | ✓ | ✓ | | ✓ | ✓ | | | +20 | 150 |
+| Health | | ✓ | ✓ | | ✓ | | ✓ | +20 Health | 150 |
+| Magicka | ✓ | ✓ | | ✓ | ✓ | | | +20 Magicka | 150 |
 | Magicka Regen | ✓ | | ✓ | | ✓ | | | +25% | 100 |
-| Stamina | | ✓ | ✓ | | ✓ | ✓ | | +20 | 150 |
-| Stamina Regen | | ✓ | ✓ | | ✓ | ✓ | | +10% | 150 |
+| Stamina | | ✓ | ✓ | | ✓ | ✓ | | +20 Stamina | 150 |
+| Stamina Regen | | ✓ | ✓ | | ✓ | ✓ | | +10%[^3] | 150 |
+| Health 2 | | ✓ | ✓ | | ✓ | | ✓ | +20 Health + Immunity to Drain Health | 150 |
+| Magicka 2 | ✓ | ✓ | | ✓ | ✓ | | | +20 Magicka + Immunity to Drain Magicka & Paralysis | 150 |
+| Stamina 2 | | ✓ | ✓ | | ✓ | ✓ | | +20 Stamina + Immunity to Drain Stamina | 150 |
 | <span style="color: #9900cc; font-weight: bold;">Fortify Other</span> | | | | | | | | | |
 | Carry Weight | | ✓ | | ✓ | ✓ | ✓ | | +10 | 100 |
-| Potent Alteration | | | ✓ | | | | | -4% casting cost & +20% Magicka Regen | 250 |
-| Potent Conjuration | | | ✓ | | | | | -4% casting cost +20% Magicka Regen | 199 |
-| Potent Destruction | | | ✓ | | | | | -4% casting cost +20% Magicka Regen | 250 |
-| Potent Illusion | | | ✓ | | | | | -4% casting cost +20% Magicka Regen | 250 |
-| Potent Restoration | | | ✓ | | | | | -4% casting cost +20% Magicka Regen | 250 |
+| Potent Alteration | | | ✓ | | | | | -4% casting cost & +20% Magicka Regen[^4] | 250 |
+| Potent Conjuration | | | ✓ | | | | | -4% casting cost +20% Magicka Regen[^4] | 199 |
+| Potent Destruction | | | ✓ | | | | | -4% casting cost +20% Magicka Regen[^4] | 250 |
+| Potent Illusion | | | ✓ | | | | | -4% casting cost +20% Magicka Regen[^4] | 250 |
+| Potent Restoration | | | ✓ | | | | | -4% casting cost +20% Magicka Regen[^4] | 250 |
 | Unarmed | | | | ✓ | ✓ | | | +5 damage | 100 |
 | <span style="color: #cc0000; font-weight: bold;">Resist</span> | | | | | | | | | |
 | Disease | | ✓ | ✓ | | ✓ | | ✓ | +25% | 100 |
 | Fire | | ✓ | | | ✓ | ✓ | ✓ | +10% | 200 |
 | Frost | | ✓ | | | ✓ | ✓ | ✓ | +10% | 200 |
-| Magic | | ✓ | | | ✓ | | ✓ | +8% | 500 |
+| Magic | | ✓ | | | ✓ | | ✓ | +8%[^5] | 500 |
 | Poison | | ✓ | ✓ | | ✓ | | ✓ | +15% | 150 |
 | Shock | | ✓ | | | ✓ | ✓ | ✓ | +10% | 200 |
 | <span style="color: #666666; font-weight: bold;">Other</span> | | | | | | | | | |
 | Muffle | | | | | | ✓ | | 0.15 | 500 |
 | Waterbreathing | ✓ | ✓ | | | ✓ | | | n/a | 100 |
 
+[^1]: Rounded down.
+[^3]: Although armors, necklaces and *rings* can be disenchanted to gain the enchantment, armors, necklaces and *foot apparel* can be enchanted. Therefore you can equip four items (neck, chest, finger, feet) with that enchantment.
+[^4]: The magnitude of this part of the effect is fixed regardless of skill, soul used, or perks.
+[^5]: There are two versions of this effect, allowing it to be applied twice. The second version is from the [Shield of Solitude](http://en.uesp.net/wiki/Skyrim:Shield_of_Solitude) and has a base magnitude of 10%.
+
 
 ## Weapon Enchantments
 
 Base magnitude is the number shown when you hover over an enchantment without selecting it, if you have no perks. It is equivalent to the magnitude with a Grand soul, 0 skill, and no perks. Base uses is defined the same way but cannot be seen directly without the use of the console.
 
-| Weapon Effect | School | Base Magnitude | Base Cost |
+| Weapon Effect | School | Base Magnitude | Base Cost[^2] |
 |:---|:---|:---|:---:|
 | <span style="color: #ff8800; font-weight: bold;">Absorb</span> | | | |
 | Health | Destruction | 10 | 40 |
-| Magicka | Destruction | 10 | 21 |
-| Stamina | Destruction | 10 | 22 |
+| Magicka | Destruction | 10[^6] | 21 |
+| Stamina | Destruction | 10[^6] | 22 |
 | <span style="color: #cc0000; font-weight: bold;">Damage</span> | | | |
 | Chaos | Destruction | 12 | 19 |
 | Fire | Destruction | 10 (plus 1/dps for 4 seconds) | 11 |
-| Frost | Destruction | 10 + 25% slow for 2 seconds | 13 |
+| Frost | Destruction | 10[^7] + 25% slow for 2 seconds[^11] | 13 |
 | Spellbane | Destruction | 15 | 15 |
-| Lightning (Rank I) | Destruction | 10 | 14 |
+| Lightning (Rank I) | Destruction | 10[^9] | 14 |
 | Effeteness | Destruction | 15 | 29 |
 | <span style="color: #0066cc; font-weight: bold;">Repel</span> | | | |
 | Banish | Conjuration | Level 10 Plus deals 20 damage | 35 |
 | Fear | Illusion | Level 10, for 3 seconds | 10 |
 | Turn Undead | Restoration | Level 10, for 5 seconds, plus 10 damage | 20 |
 | <span style="color: #00aa44; font-weight: bold;">Apply Effect</span> | | | |
-| Paralyze | Alteration | 26% chance for 1 second | 100 |
-| Soulreaping | Conjuration | 4 seconds | 9 |
+| Paralyze | Alteration | 26%[^8] chance for 1 second[^10] | 100 |
+| Soulreaping | Conjuration | 4 seconds[^10] | 9 |
 | <span style="color: #9900cc; font-weight: bold;">Special</span> | | | |
-| Fiery Soul Trap | Conjuration | 5 seconds + 10 fire damage | 11 |
+| Fiery Soul Trap | Conjuration | 5 seconds[^10] + 10 fire damage[^8] | 11 |
 | Huntsman's Prowess | Destruction | +3 damage vs. Animals | 3 |
 | Moonfire | Destruction | +10 damage between 9pm and 5am | 5 |
-| Smithing Expertise | Destruction | 5 shock damage + 5 Smithing | 11 |
+| Smithing Expertise | Destruction | 5 shock damage + 5 Smithing[^8] | 11 |
+
+[^2]: Rounded down.
+[^6]: There are two versions of this effect, allowing it to be applied twice.
+[^7]: The magnitude of this effect applies to both damage and stamina damage.
+[^8]: The magnitude of this part of the effect is fixed regardless of skill, soul used, or perks.
+[^9]: The magnitude of this effect applies to both damage and, at half value rounding down, magicka damage.
+[^10]: Only the duration is affected by Enchanting level and perks. Additional note for Frost: The duration of the slow effect is fixed regardless of skill, soul used, or perks.
+[^11]: The duration of this part of the effect is fixed regardless of skill, soul used, or perks.
 
 
 
