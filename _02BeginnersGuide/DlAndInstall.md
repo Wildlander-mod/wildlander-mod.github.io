@@ -46,7 +46,7 @@ You’ll need a few things before we begin. Please ensure that you have:
 * At least <strong>135GB* </strong>of free space. (*You can delete 45GB of downloads after the install, if you don't mind downloading them again for updates.)
 * The <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/" target="_blank" rel="noopener noreferrer">latest English Steam version <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> of <em>Skyrim Special Edition.</em>
  
-(If you need to change your Steam language, <a href="https://imgur.com/PwCNDF5" target="_blank" rel="noopener noreferrer">click here for instructions. <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>)
+(If you need to change your Steam language, <a href="https://wiki.wildlandermod.com/Assets/Language.png" target="_blank" rel="noopener noreferrer">click here for instructions. <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a>)
 
 <strong class="bold-text">Warning:</strong> The Gamepass, GOG and Epic Games version of <em>Skyrim Special Edition </em>are not compatible!
 

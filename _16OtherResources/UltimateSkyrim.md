@@ -115,7 +115,7 @@ This generates necessary files for Ultimate Skyrim installation.
 
 13. Navigate to your Skyrim root folder and paste files
 
-14. Open the pasted `enblocal.ini` and configure according to [this guide](https://imgur.com/yfBDnJI)
+14. Open the pasted `enblocal.ini` and configure according to [this guide](https://wiki.wildlandermod.com/Assets/ENB.png)
 
 </details>
 

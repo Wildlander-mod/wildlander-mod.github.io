@@ -213,7 +213,7 @@ If you get the following error - Make sure Skyrim is installed in English, valid
 
 - Unable to download Skyrim_Default.ini
 
-![image](https://i.imgur.com/PwCNDF5.png)
+![image](https://wiki.wildlandermod.com/Assets/Language.png)
 
 For any other default Skyrim file, Wildlander requires  a specific version of the Anniversary edition update of skyrim SE (version 1.6.1170 at time of writing) on steam. If you are running a older version of skyrim - E.G (1.5.97) you will need to update to the current version before you can install. We do not support GOG, Epic games or Gamepass versions of skyrim.
 

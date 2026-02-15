@@ -98,7 +98,7 @@ Animal and creature appearances will now display realistic visual variety across
 
 5. Install the Resources mod and enable like a normal mod (apply FOMOD settings as shown)
 
-6. [Click "Modify Executables"](https://i.imgur.com/urDHApv.jpg), enter "DynDOLOD" as Title
+6. [Click "Modify Executables"](https://wiki.wildlandermod.com/Assets/Dyndlod.jpg), enter "DynDOLOD" as Title
 
 7. Click ellipses next to "Binary" field and navigate to your DynDOLOD.exe file
 

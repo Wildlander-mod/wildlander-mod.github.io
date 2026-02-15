@@ -517,7 +517,7 @@ For *kFs_3DNPC_-_Requiem_Patch.esp*
 > - between Requiem.esp and Ultimate Skyrim.esp
 
 Finally, in ETAC's MCM menu (below) check Morthal Blacksmith fix
-![Blacksmith Fix](https://i.imgur.com/cepn8aX.png)
+![Blacksmith Fix](https://wiki.wildlandermod.com/Assets/Blacksmith.png)
 
 If you would like to add some beauty/customization
 
