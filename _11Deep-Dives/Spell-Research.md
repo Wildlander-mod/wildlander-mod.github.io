@@ -8,7 +8,7 @@ description: Spell Research mod mechanics, research system, and progression.
 
 The bulk of this page was originally posted by u/hazardoss on the Ultimate Skyrim Reddit page. I've retained as much the original post that is still relevant, however have made edits specific to wildlander itself.
 
-Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to <a href="https://www.reddit.com/u/Alexandregd" target="_blank" rel="noopener noreferrer">u/Alexandregd <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for creating this very useful[ reference sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
+Spell Research can be somewhat intimidating to new players, so I thought I would share what I’ve learned so far. Thank you to <a href="https://www.reddit.com/u/Alexandregd" target="_blank" rel="noopener noreferrer">u/Alexandregd <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> for creating this very useful[ reference sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Spells View/), and to all the users who have contributed to it. The 'cheat' sheet makes the mod more accessible to newcomers, since the in-game guides do not provide sufficient information. Without such a reference, the amount of guesswork involved in composing spells can be too prohibitive. 
 
 You may also find this video tutorial useful.
 
@@ -116,7 +116,7 @@ Means you are too low on magicka to craft the scroll / tome.
 
 Researching and composing spells is the core feature of the mod. It allows mages to level up the magic schools and learn almost any spell in the game including master-level spells. This means that mage characters no longer need to join the College of Winterhold in order to master the mage craft, which is ideal for role-playing as a freelancer or a rogue mage.
 
-Analyzing spells with the research journal reveals the associated archetypes, in the format shown below. [The reference sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Spells)) contains all known spells and their archetypes.
+Analyzing spells with the research journal reveals the associated archetypes, in the format shown below. [The reference sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Spells View/) contains all known spells and their archetypes.
 
 1. Casting / School techniques
 2. Elements
@@ -225,7 +225,7 @@ When composing a spell - it will sometimes fail. The below are the reasons why
 
 ### Enchanted artifacts
 
-There are many artifacts found in loot, such as broken weapon parts and soul fragments. Activating an enchanted item in the inventory opens the following options: [Cheat Sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Artefact))
+There are many artifacts found in loot, such as broken weapon parts and soul fragments. Activating an enchanted item in the inventory opens the following options: [Cheat Sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Spell-Research-Cheat-Sheet/#artifacts)
 
 1. Analyze - this will reveal clues about the associated archetypes
 2. Study (disenchant) Item – requires tongs . Grants XP in archetypes and enchanting. Has a chance of destroying the item (details below)
@@ -285,7 +285,7 @@ Potent | sa Adonai
 Concentrated | sa Sila
 
 
- Refer to the[ cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)) for a list of solutions and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading solutions requires 3 of the same kind to produce one stronger solution, or each one can be reduced to 2 weaker solutions.
+ Refer to the[ cheat sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Solutions-View/) for a list of solutions and the corresponding archetypes. Each one can be upgraded or downgraded using an alembic (_Mix ingredients_ menu). Upgrading solutions requires 3 of the same kind to produce one stronger solution, or each one can be reduced to 2 weaker solutions.
  
 ### Analyzing solutions
 
@@ -299,7 +299,7 @@ Analyzing solutions in bulk grants **exponentially higher XP** than analyzing th
 
 Elixirs are not potions, as the name may suggest. They are in fact ingredients that can be used to craft potions. Elixirs are created from magical solutions in the _Mix Ingredients_ menu of the alembic.
 
-There are 6 tiers of elixirs based on potency: Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different solutions of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Gravia_ solutions. Refer to the table of elixir recipes that I've added to the alchemy section of the [cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)).
+There are 6 tiers of elixirs based on potency: Dilute, Weak, Mild, Strong, Potent, Concentrated_. Each one is crafted from 3 different solutions of an equivalent tier. For example, a _Mild_ elixir (rank 3) is crafted from three different _Gravia_ solutions. Refer to the table of elixir recipes that I've added to the alchemy section of the [cheat sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Elixir View/).
 
 **Note**: many of the elixir recipes will not appear in the alembic menu until you have at least one of the required solutions for the recipe.
 
@@ -313,9 +313,9 @@ One drawback when working with elixirs is the naming convention. All elixirs of 
 
 ### Other Alembic recipes
 
-The _Mix Ingredients_ menu provides various other recipes for items such as inkwell, paper rolls, different kinds of salts (fire/frost/void), glow dust. The [Elixir cheat sheet](/12Cheat-Sheets/Spell-Research-Cheat-Sheet-(Elixirs)#other-recipes) had the specific recipes if you prefer not to discover them yourselves.
+The _Mix Ingredients_ menu provides various other recipes for items such as inkwell, paper rolls, different kinds of salts (fire/frost/void), glow dust. The [Elixir cheat sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Elixir View/) had the specific recipes if you prefer not to discover them yourselves.
 
-For example, if you are short on paper rolls, you can make some by mixing a wood with one of these solutions Betayammis sa Haelia, Mer Garlas sa Haelia or Mora sa Haelia. for more info on  how to produce these items, refer to the Alchemy tab of the [cheat sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy)). 
+For example, if you are short on paper rolls, you can make some by mixing a wood with one of these solutions Betayammis sa Haelia, Mer Garlas sa Haelia or Mora sa Haelia. for more info on  how to produce these items, refer to the Alchemy tab of the [cheat sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Ingredient View/). 
 
 ### Breaking down materials with an alembic or a cauldron
 
@@ -323,7 +323,7 @@ Ingredients, potions _[v2.0]_, and enchanted artifacts can be dissolved into mag
 
 The alembic can dissolve small quantities of materials - **up to 0.5 units of weight** at a time, e.g. a single potion, or 5 Blue Mountain flowers (0.1 each), or 25 Orange dartwings (0.02 each), etc.
 
-A cauldron can break down large quantities of material including heavy items like enchanted artifacts. The downside of using a cauldron is that it is not very portable (100 weight), and it requires **fuel** to work. Most ingredients or poisons with a _weakness_ effect, e.g. Arcane Disruption, Cryolysis, Electrolysis, Pyrolysis, Toxicity, can be used as fuel (see [alchemy sheet](/12Cheat-Sheets/Spell-Research---Cheat-Sheet-(Alchemy))  for a list of fuels). Salt pies are an abundant source of fuel, found in many containers. With at least one perk in alchemy, crafted weakness poisons become **more efficient** at fueling the cauldron than raw ingredients like salt. For example, a Salt pie and a Creep cluster provide a total of 0.6 units of fuel, when used directly (Salt=0.2, Creep=0.4). However, if you first combine them into a poison (10% Arcane Disruption with alchemy 5 and one point in the base perk), it will provide 2.0 units of fuel which is higher than the original 0.6. In general, a poison with 'X% weakness' effect will provide [X/5] units of fuel, which goes up with alchemy level and perks, whereas the fuel from raw ingredients remains constant.
+A cauldron can break down large quantities of material including heavy items like enchanted artifacts. The downside of using a cauldron is that it is not very portable (100 weight), and it requires **fuel** to work. Most ingredients or poisons with a _weakness_ effect, e.g. Arcane Disruption, Cryolysis, Electrolysis, Pyrolysis, Toxicity, can be used as fuel (see [alchemy sheet](https://wiki.wildlandermod.com/12Cheat-Sheets/Ingredient View/)  for a list of fuels). Salt pies are an abundant source of fuel, found in many containers. With at least one perk in alchemy, crafted weakness poisons become **more efficient** at fueling the cauldron than raw ingredients like salt. For example, a Salt pie and a Creep cluster provide a total of 0.6 units of fuel, when used directly (Salt=0.2, Creep=0.4). However, if you first combine them into a poison (10% Arcane Disruption with alchemy 5 and one point in the base perk), it will provide 2.0 units of fuel which is higher than the original 0.6. In general, a poison with 'X% weakness' effect will provide [X/5] units of fuel, which goes up with alchemy level and perks, whereas the fuel from raw ingredients remains constant.
 
 Note: Fuel is measured in units of material weight. For example, 2.0 units of fuel will dissolve 2.0 units (pounds) of material.
 
