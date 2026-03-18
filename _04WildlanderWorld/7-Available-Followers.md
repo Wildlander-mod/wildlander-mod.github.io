@@ -74,19 +74,19 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
 
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 
 ***
 
@@ -114,19 +114,19 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Heavy Armor</p>
  
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Marksman</p>
  
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration. 
  
 <p class="text-delta">One Handed</p>
  
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 
 ***
 </div>
@@ -150,27 +150,23 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
- 
-<p class="text-delta">Marksman</p>
-
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
-|War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
-|Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
-|Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
+|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
 
 ***
 
@@ -198,20 +194,20 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
 
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties.
-|War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties.
+|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
 
 ***
 
@@ -241,19 +237,19 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
 
 ***
 
@@ -283,19 +279,19 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 
 ***
 
@@ -325,19 +321,19 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 
 ***
@@ -372,24 +368,24 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Cryomancy |
+|Cryomancy I|All frost spells deal 15% more damage.
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Casting |Casting penalties are reduced for Novice and Apprentice spells.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Casting |Concentration is less affected by heavy armor, reducing penalties for Novice and Apprentice spells.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
  
 <p class="text-delta">Restoration</p>
 
@@ -436,7 +432,6 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-gamma">Perks</p>
 
 <p class="text-delta">Alteration</p>
-
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Expert Alteration |Expert spells cost 55% less magicka, and improve 4% per skill level.
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
@@ -517,12 +512,12 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Empowered Elements |Can dual-cast Destruction spells to augment their power by 125% for double magicka cost.
-|Electromancy
+|Electromancy I |All lightning spells deal 15% more damage.
 |Pyromancy I|All fire spells deal 15% more damage.
-
+ 
 <p class="text-delta">Heavy Armor</p>
 
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
  
 <p class="text-delta">Restoration</p>
 
@@ -603,7 +598,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Adept Destruction |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Expert Destruction |Expert spells cost 55% less magicka, and improve 4% per skill level.
 |Empowered Elements |Can dual-cast Destruction spells to augment their power by 125% for double magicka cost.
 |Impact|Dual-casted projectile Destruction spells have 25% chance of staggering your foes.
@@ -666,7 +661,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina. 
 
 <p class="text-delta">Evasion</p>
@@ -679,13 +674,13 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration. 
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Eagle Eye|Adds armor penetration.
-|Rapid Reload|+10 armor penetration, +50% reload speed with crossbows.
+|Rapid Reload|+50% reload speed with crossbows.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Quick Shot|+10 armor penetration, +50% draw speed with bows.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Quick Shot|+50% draw speed with bows.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
 |Stunning Precision |Staggering hits will also stun your target.
@@ -693,18 +688,18 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|Dagger Focus II |Irresistible sneak attack damage x 1.55, +20 armor penetration
-|Powerful Strike |Power attack damage x 1.2.
+|Dagger Focus II |Irresistible sneak attack damage increased by 55%, +3.5 armor penetration per Dagger
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
 <p class="text-delta">Sneak</p>
 
-|Stealth II|Sneaking ability is 35% more effective. Heavy armor nullifies this bonus. |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
-|Muffled Movement |While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
-|Light Steps|Will not trigger traps.
+|Stealth II|Sneaking ability is adjusted as if they had 35 extra points in it. Heavy armor nullifies this bonus.
+|Muffled Movement |While not wearing any Heavy Armor, adjusts skill to behave as if they had an extra 15 points in it. Stacks with similar effects.
+|Light Steps|Will not trigger any traps.
 |Shadowrunner|While not wearing Heavy Armor, decreases your overall chance to be detected by 10%, adds another bonus to your Sneak skill as if you had an extra 10 points in it, and reduces fall damage by 25%.
 |Deft Strike|Sneak attacks with Crossbows, Bows, Daggers, and Swords will gain 50% Armor penetration.
 |Anatomical Lore |Against humanoid targets, Crossbows and Bows will deal 200% more damage in sneak attacks, while everything else will deal 500% more damage.
@@ -739,7 +734,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
  
 <p class="text-delta">Evasion</p>
 
@@ -751,22 +746,22 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Eagle Eye|Adds armor penetration.
 
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|Sword Focus II |+16% attack speed, +14 armor penetration with Swords.
-|Mace Focus II|Power attack damage x 1.1, +30 armor penetration with Maces.
-|War Axe Focus II |Damage x 1.15, +20 armor penetration with War Axes.
+|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
+|Mace Focus II|Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|War Axe Focus II |Base Damage increased by 15%, +5 armor penetration per War Axe.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Powerful Strike |Power attack damage x 1.2.
+|Powerful Strike |Power attack damage increased by 20%.
 |Stunning Charge |Forward power attacks can knock down.
  
 ***
@@ -795,44 +790,44 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
  
 <p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
-|Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
-|Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
+|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
  
 <p class="text-delta">Two Handed</p>
 
-|Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
+|Great Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus II |Damage +15%, +20 armor penetration with Battleaxes.
-|Greatsword Focus III |Attack speed +30%, +21 armor penetration with Greatswords.
-|Warhammer Focus II |Power attack damage +10%, +30 armor penetration with Warhammers.
+|Battleaxe Focus II |Damage increased by 15%, +20 armor penetration.
+|Greatsword Focus III |Attack speed +30%, +21 armor penetration.
+|Warhammer Focus II |Power attack damage increased by 10%, +30 armor penetration.
 |Devastating Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Devastating Strike |Power attack damage +25%.
 |Cleave|Sideways power attack can hit multiple targets.
 |Devastating Cleave |Sideways power attacks can knock down.
-|Mighty Strike|Damage +25%, +20 armor penetration.
+|Mighty Strike|Damage +25%.
  
 <p class="text-delta">Unique</p>
 
@@ -862,7 +857,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -872,27 +867,27 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced. 
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced. 
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Eagle Eye|Adds armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
  
 <p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus II |Damage x 1.15, +20 armor penetration with War Axes.
-|Mace Focus II|Power attack damage x 1.1, +30 armor penetration with Maces.
-|Sword Focus III |+24% attack speed, +21 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus II |Base Damage increased by 15%, +5 armor penetration per War Axe.
+|Mace Focus II|Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Sword Focus III |+24% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
 ***
@@ -919,7 +914,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
  
 <p class="text-delta">Evasion</p>
@@ -932,18 +927,19 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration. 
+
 |Marksman's Focus |-25% weapon weight penalties.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
-|Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
-|Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
+|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
  
 ***
 
@@ -969,31 +965,31 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Eagle Eye|Adds armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus II |Damage x 1.15, +20 armor penetration with War Axes.
-|Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
-|Sword Focus I |+8% attack speed, +7 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus II |Base Damage increased by 15%, +5 armor penetration per War Axe.
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
 ***
@@ -1020,47 +1016,48 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
  
 <p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
-|Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
-|Sword Focus I |+8% attack speed, +7 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
 <p class="text-delta">Two Handed</p>
 
-|Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
+|Great Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus III |Damage +30%, +30 armor penetration with Battleaxes.
-|Greatsword Focus II |Attack speed +20%, +14 armor penetration with Greatswords.
-|Warhammer Focus II |Power attack damage +10%, +30 armor penetration with Warhammers.
+|Battleaxe Focus III |Damage increased by 30%, +30 armor penetration.
+|Greatsword Focus II |Attack speed +20%, +14 armor penetration.
+|Warhammer Focus II |Power attack damage increased by 10%, +30 armor penetration.
 |Devastating Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Devastating Strike |Power attack damage +25%.
 |Cleave|Sideways power attack can hit multiple targets.
 |Devastating Cleave |Sideways power attacks can knock down.
-|Mighty Strike|Damage +25%, +20 armor penetration.
+|Mighty Strike|Damage +25%.
  
 <p class="text-delta">Unique</p>
 
@@ -1091,9 +1088,9 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
-|Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
-|Masterly Lockpicking |Gain 35 points of Lockpicking expertise. Expert locks are effortless for you, and you can now attempt Master locks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
+|Locksmithing Lore |Meticulous study of lockpicking boosts expertise by 25 points. Can pick adept locks effortlessly, and can attempt to open Expert Locks.
+|Masterly Lockpicking |Gains 35 points of Lockpicking expertise. Expert locks are effortless, and can now attempt Master locks.
  
 Unique
 
@@ -1122,13 +1119,13 @@ Unique
 
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
-|Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
+|Locksmithing Lore |Meticulous study of lockpicking boosts expertise by 25 points. Can pick adept locks effortlessly, and can attempt to open Expert Locks.
 
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
@@ -1159,8 +1156,8 @@ Unique
 
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
-|Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
+|Locksmithing Lore |Meticulous study of lockpicking boosts expertise by 25 points. Can pick adept locks effortlessly, and can attempt to open Expert Locks.
  
 <p class="text-delta">Unique</p>
 
@@ -1193,7 +1190,7 @@ Unique
  
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -1203,35 +1200,35 @@ Unique
 
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
-|Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
+|Combat Reflexes |Can enter a combat trance, slowing the world around him by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
-|Rapid Reload|+10 armor penetration, +50% reload speed with crossbows. 
-|Quick Shot|+10 armor penetration, +50% draw speed with bows.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Rapid Reload|+50% reload speed with crossbows. 
+|Quick Shot|+50% draw speed with bows.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
  
 <p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus II |Damage x 1.15, +20 armor penetration with War Axes.
-|Mace Focus II|Power attack damage x 1.1, +30 armor penetration with Maces.
-|Sword Focus II |+16% attack speed, +14 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus II |Base Damage increased by 15%, +5 armor penetration per War Axe.
+|Mace Focus II|Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Flurry I|One-handed and unarmed attacks are 10% faster.
  
@@ -1264,7 +1261,7 @@ Unique
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
  
@@ -1274,35 +1271,35 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
-|Rapid Reload|+10 armor penetration, +50% reload speed with crossbows.
+|Rapid Reload|+50% reload speed with crossbows.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Quick Shot|+10 armor penetration, +50% draw speed with bows.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Quick Shot|+50% draw speed with bows.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
 |Stunning Precision |Staggering hits will also stun your target.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
@@ -1336,7 +1333,7 @@ Unique
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -1351,16 +1348,16 @@ Unique
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Agile Spellcastsing
 |Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves.
-|Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
+|Combat Reflexes |Can enter a combat trance, slowing the world around him by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
+|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|Powerful Strike |Power attack damage x 1.2.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Stunning Charge |Forward power attacks can knock down.
  
@@ -1419,7 +1416,7 @@ Unique
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experience Blocking
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -1432,32 +1429,32 @@ Unique
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
-|Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
+|Combat Reflexes |Can enter a combat trance, slowing the world around him by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
-|Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
+|Locksmithing Lore |Meticulous study of lockpicking boosts expertise by 25 points. Can pick adept locks effortlessly, and can attempt to open Expert Locks.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
-|Rapid Reload|+10 armor penetration, +50% reload speed with crossbows.
+|Rapid Reload|+50% reload speed with crossbows.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
-|Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
-|Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
 <p class="text-delta">Unique</p>
@@ -1497,31 +1494,31 @@ Unique
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
-|Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
+|Combat Reflexes |Can enter a combat trance, slowing the world around her by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration. 
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration. 
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
-|Rapid Reload|+10 armor penetration, +50% reload speed with crossbows.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Rapid Reload|+50% reload speed with crossbows.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
  
 <p class="text-delta">Two Handed</p>
 
-|Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
+|Great Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus I |Damage +5%, +10 armor penetration with Battleaxes.
-|Greatsword Focus II |Attack speed +20%, +14 armor penetration with Greatswords.
-|Warhammer Focus II |Power attack damage +10%, +30 armor penetration with Warhammers.
+|Battleaxe Focus I |Damage increased by 5%, +10 armor penetration.
+|Greatsword Focus II |Attack speed +20%, +14 armor penetration.
+|Warhammer Focus II |Power attack damage increased by 10%, +30 armor penetration.
 |Devastating Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Devastating Strike |Power attack damage +25%.
 |Cleave|Sideways power attack can hit multiple targets.
 |Devastating Cleave |Sideways power attacks can knock down.
-|Mighty Strike|Damage +25%, +20 armor penetration.
+|Mighty Strike|Damage +25%.
  
 <p class="text-delta">Unique</p>
 
@@ -1572,7 +1569,7 @@ Unique
  
 <p class="text-delta">Alteration</p>
 
-|Magic Resistance I |Gain 10% Magic Resist
+|Magic Resistance I |She has 10% Magic Resistance
  
 <p class="text-delta">Evasion</p>
 
@@ -1580,9 +1577,9 @@ Unique
  
 <p class="text-delta">One Handed</p>
 
-|War Axe Focus II |Damage x 1.15, +20 armor penetration with War Axes.
-|Mace Focus II|Power attack damage x 1.1, +30 armor penetration with Maces.
-|Sword Focus II |+16% attack speed, +14 armor penetration with Swords.
+|War Axe Focus II |Base Damage increased by 15%, +5 armor penetration per War Axe.
+|Mace Focus II|Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration 
  
 <p class="text-delta">Conjuration</p>
@@ -1631,10 +1628,10 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
 
 ***
 
@@ -1684,11 +1681,11 @@ Unique
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 
 ***
@@ -1717,7 +1714,7 @@ Unique
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
-|Magic Resistance III |Gain 30% Magic Resist
+|Magic Resistance III |She has 30% Magic Resistance
  
 <p class="text-delta">Conjuration</p>
 
@@ -1733,7 +1730,7 @@ Unique
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Adept Destruction |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Cryomancy I|All frost spells deal 15% more damage.
 |Electromancy I |All lightning spells deal 15% more damage.
 |Electrostatic Discharge|Your shock spells damage your opponent's Magicka alongside their Health.
@@ -1823,15 +1820,15 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning |Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught
-|Combat Training|Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
+|Conditioning |After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training|Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">One Handed</p>
 
 |Penetrating Strikes|-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
+|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
  
 <p class="text-delta">Restoration</p>
 
@@ -1879,10 +1876,10 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
 
 ***
 
@@ -1908,7 +1905,7 @@ Unique
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -1916,28 +1913,28 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
-|Mace Focus III |Power attack damage x 1.15, +45 armor penetration with Maces.
-|Sword Focus III |+24% attack speed, +21 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
+|Mace Focus III |Power attack damage increased by 15%, +7.5 armor penetration per Mace.
+|Sword Focus III |+24% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Stunning Charge |Forward power attacks can knock down.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
@@ -2001,7 +1998,7 @@ Unique
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
  
 <p class="text-delta">Marksman</p>
 
@@ -2035,7 +2032,7 @@ Unique
 <p class="text-delta">Alteration</p>
 
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
-|Magic Resistance I |Gain 10% Magic Resist
+|Magic Resistance I |She has 10% Magic Resistance
  
 <p class="text-delta">Destruction</p>
 
@@ -2097,7 +2094,7 @@ Unique
  
 <p class="text-delta">Alteration</p>
 
-|Magic Resistance III |Gain 30% Magic Resist
+|Magic Resistance III |He has 30% Magic Resistance
  
 <p class="text-delta">Conjuration</p>
 
@@ -2173,10 +2170,10 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Unique</p>
 
@@ -2206,7 +2203,7 @@ Unique
 
 |Stability|All Alteration spells last 50% longer.
 |Metamagical Thesis |Decreases magicka cost for all spells by 10%.
-|Magic Resistance II |Gain 20% Magic Resist
+|Magic Resistance II |She has 20% Magic Resistance
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
 |Spell Armor|Mage Armor spells reduce incoming elemental damage by 15%.
  
@@ -2217,27 +2214,27 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Casting |Casting penalties are reduced for Novice and Apprentice spells.
-|Combat Trance|Casting penalties are reduced for Adept Spells.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Casting |Your concentration is less affected by heavy armor, reducing penalties for Novice and Apprentice spells.
+|Combat Trance|You are less distracted while wearing Heavy Armor, allowing you to cast Adept spells at almost no penalty.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Eagle Eye|Adds armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
  
 <p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
@@ -2286,7 +2283,7 @@ Unique
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -2294,29 +2291,29 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
-|Mace Focus III |Power attack damage x 1.15, +45 armor penetration with Maces.
-|Sword Focus III |+24% attack speed, +21 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
+|Mace Focus III |Power attack damage increased by 15%, +7.5 armor penetration per Mace.
+|Sword Focus III |+24% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Stunning Charge |Forward power attacks can knock down.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
@@ -2350,7 +2347,7 @@ Unique
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
 |Defensive Stance |Blocking no longer slows you down.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
@@ -2360,30 +2357,30 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Quick Shot|+10 armor penetration, +50% draw speed with bows.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Quick Shot|+50% draw speed with bows.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
-|Mace Focus II|Power attack damage x 1.1, +30 armor penetration with Maces.
-|Sword Focus II |+16% attack speed, +14 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
+|Mace Focus II|Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Stunning Charge |Forward power attacks can knock down.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
@@ -2418,7 +2415,7 @@ Unique
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
-|Magic Resistance III |Gain 30% Magic Resist
+|Magic Resistance III |She has 30% Magic Resistance
  
 <p class="text-delta">Conjuration</p>
 
@@ -2429,7 +2426,7 @@ Unique
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Adept Destruction |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Cryomancy I|All frost spells deal 15% more damage.
 |Deep Freeze|Many of your ice spells can freeze enemies who are susceptible to frost.
  
@@ -2507,26 +2504,26 @@ Unique
  
 <p class="text-delta">Alchemy</p>
 
-|Immunization | Gain +50% Disease Resist and +25% Poison Resist.
+|Immunization | She has +50% Disease Resistance & +25% Poison Resistance
  
 <p class="text-delta">Block</p>
 
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
  
 <p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
-|Combat Reflexes |Can enter a Combat Trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
+|Combat Reflexes |Can enter a combat trance, slowing the world around her by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
-|Locksmithing Lore |Boosts your expertise by 25 points. You can pick adept locks effortlessly, and you can attempt to open Expert Locks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
+|Locksmithing Lore |Meticulous study of lockpicking boosts expertise by 25 points. Can pick adept locks effortlessly, and can attempt to open Expert Locks.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
 |Piercing Shot|+50% armor penetration from ammunition.
@@ -2534,7 +2531,7 @@ Unique
 <p class="text-delta">One Handed</p>
 
 |Weapon Mastery I |Damage x 120%, -50% weapon weight penalties.
-|Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
+|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
 |Flurry I|One-handed and unarmed attacks are 10% faster.
  
  
@@ -2569,22 +2566,22 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Meditation |Casting penalties are reduced for Expert spells.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Meditation |Heavy armor is barely noticeable. Casting penalties are reduced for Expert spells.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Gain 20 skill expertise. You can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques you can forge steel ingots into lockpicks.
+|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
  
 <p class="text-delta">One Handed</p>
 
-|War Axe Focus I |Damage x 1.05, +10 Armor Penetration with War Axes.
-|Mace Focus I|Power attack damage x 1.05, +15 armor penetration with Maces.
-|Sword Focus I|+8% attack speed, +7 armor penetration with Swords.
+|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
 |Flurry I|One-handed and unarmed attacks are 10% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
 
@@ -2631,7 +2628,7 @@ Unique
 <p class="text-delta">Alteration</p>
 
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
-|Magic Resistance I |Gain 10% Magic Resist
+|Magic Resistance I |He has 10% Magic Resistance
  
 <p class="text-delta">Destruction</p>
 
@@ -2688,19 +2685,19 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Two Handed</p>
 
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus I |Damage +5%, +10 armor penetration with Battleaxes.
-|Greatsword Focus I |Attack speed +10%, +7 armor penetration with Greatswords.
-|Warhammer Focus III |Power attack damage +15%, +45 armor penetration with Warhammers.
+|Battleaxe Focus I |Damage increased by 5%, +10 armor penetration.
+|Greatsword Focus I |Attack speed +10%, +7 armor penetration.
+|Warhammer Focus III |Power attack damage +15%, +45 armor penetration.
  
 <p class="text-delta">Unique</p>
 
@@ -2765,10 +2762,10 @@ Unique
 <p class="text-delta">One Handed</p>
 
 |Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
 |War Axe Focus III |+24% attack speed, +21 armor penetration with War Axes.
-|Powerful Strike |Power attack damage x 1.2.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 
@@ -2814,10 +2811,10 @@ Unique
 
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
  
 ***
 
@@ -2840,7 +2837,7 @@ Unique
  
 <p class="text-delta">Alteration</p>
 
-|Magic Resistance II |Gain 20% Magic Resist
+|Magic Resistance II |He has 20% Magic Resistance
 |Stability|All Alteration spells last 50% longer.
  
 <p class="text-delta">Conjuration</p>
@@ -2924,16 +2921,16 @@ Unique
 |Agile Spellcasting |Specialized training allows you to cast spells in light armor without penalties.
 |Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
 |Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves.
-|Combat Reflexes |Can enter a combat trance, slowing the world around you by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
+|Combat Reflexes |Can enter a combat trance, slowing the world around him by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
 |Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage x 1.4, -50% weapon weight penalties
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
 |Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
 |Sword Focus III |+24% attack speed, +21 armor penetration with Swords.
-|Powerful Strike |Power attack damage x 1.2.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
  
 <p class="text-delta">Restoration</p>
@@ -2978,11 +2975,11 @@ Unique
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
 
 ***
 
@@ -3007,25 +3004,25 @@ Unique
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
 |Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
 |Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|Stamina drain from wearing heavy armor is negated. Armor weight penalties are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty and allows you to deflect 80% of all incoming melee damage when doing so. Armor weight penalties are further reduced.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and your heavy gauntlets improve unarmed damage based on material. Armor weight penalties are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Armor weight penalties are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Armor weight penalties are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Armor weight penalties are also further reduced.
+|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
+|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
+|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
@@ -3035,16 +3032,16 @@ Unique
  
 <p class="text-delta">Two Handed</p>
 
-|Great Weapon Mastery II|Damage +40%, -50% weapon weight penalties.
+|Great Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties.
 |Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus III |Damage +30%, +30 armor penetration with Battleaxes.
-|Greatsword Focus III |Attack speed +30%, +21 armor penetration with Greatswords.
-|Warhammer Focus III |Power attack damage +15%, +45 armor penetration with Warhammers.
+|Battleaxe Focus III |Damage increased by 30%, +30 armor penetration.
+|Greatsword Focus III |Attack speed +30%, +21 armor penetration.
+|Warhammer Focus III |Power attack damage +15%, +45 armor penetration.
 |Devastating Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Devastating Strike |Power attack damage +25%.
 |Cleave|Sideways power attack can hit multiple targets.
 |Devastating Cleave |Sideways power attacks can knock down.
-|Mighty Strike|Damage +25%, +20 armor penetration.
+|Mighty Strike|Damage +25%.
  
 <p class="text-delta">Sneak</p>
 
@@ -3095,8 +3092,8 @@ Unique
 
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
@@ -3136,8 +3133,8 @@ Unique
 
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage x 1.2, -50% weapon weight penalties, ammunition grants armor penetration.
-|Precise Aim|Damage x 1.2 with bow and crossbow attacks.
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
  
@@ -3220,7 +3217,7 @@ Unique
  
 <p class="text-delta">One Handed</p>
 
-|Sword Focus II |+16% attack speed, +14 armor penetration with Swords.
+|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
  
 <p class="text-delta">Sneak</p>
 
@@ -3815,4 +3812,14 @@ Varies
 3. **Read [Player Homes](https://wiki.wildlandermod.com/04WildlanderWorld/10-Player-Homes/)** - Purchasable bases and costs
 
 **Remember:** Choose followers who complement your playstyle and level expectations—they're your lifeline in combat.
+
+
+
+
+
+
+
+
+
+
 
