@@ -135,7 +135,7 @@ Instead: **Observe. Sidestep. Attack when you'll hit. Recover when low.**
 #### Enchantments
 - **Fortify Stamina Regen** - Your best early-game enchantment
 - Reduces reliance on consumables
-- Apply to boots, gloves, or rings
+- Apply to Boots, Body, Necklaces or Rings
 - Pairs well with stew consumables
 
 #### Cooking Stews
