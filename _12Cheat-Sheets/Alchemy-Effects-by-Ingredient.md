@@ -174,12 +174,12 @@ function filterAlchemyEffectsTable() {
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     const ingredient = cells[0]?.textContent?.toLowerCase() || '';
-    const effect = cells[1]?.textContent?.toLowerCase() || '';
+    const effect = cells[1]?.textContent?.trim() || '';
     const description = cells[4]?.textContent?.toLowerCase() || '';
     const category = cells[5]?.textContent?.trim() || '';
     
-    const searchMatch = ingredient.includes(searchTerm) || effect.includes(searchTerm) || description.includes(searchTerm);
-    const effectMatch = !effectFilter || effect.trim() === effectFilter;
+    const searchMatch = ingredient.includes(searchTerm) || effect.toLowerCase().includes(searchTerm) || description.includes(searchTerm);
+    const effectMatch = !effectFilter || effect === effectFilter;
     const categoryMatch = !categoryFilter || category === categoryFilter;
     
     const isVisible = searchMatch && effectMatch && categoryMatch;
