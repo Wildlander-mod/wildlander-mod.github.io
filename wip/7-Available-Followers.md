@@ -597,12 +597,8 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
-|Expert Alteration |Expert spells cost 55% less magicka, and improve 4% per skill level.
-|Master Alteration |Master spells cost 55% less magicka, and improve 5% per skill level.
 |Magic Resistance Rank I |10% resistance to hostile magic.
 |Magic Resistance Rank II |20% resistance to hostile magic.
-|Magic Resistance Rank III |30% resistance to hostile magic.
-|Improved Mage Armor |Mage Armor provides an additional 50% damage resistance if the caster is not wearing armor.
 
 <p class="text-delta">Conjuration</p>
 
@@ -610,8 +606,6 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Apprentice Conjuration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Conjuration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Expert Conjuration |Expert spells cost 55% less magicka, and improve 4% per skill level.
-|Master Conjuration |Master spells cost 55% less magicka, and improve 5% per skill level.
-|Summoner's Insight |Dual-cast Conjuration spells to increase their duration by 125%.
 |Extended Binding |Summon Daedra and Spirits from 5 times farther away for 25% less magicka.
 
 <p class="text-delta">Destruction</p>
@@ -619,19 +613,24 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Destruction |Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Expert Destruction |Expert spells cost 55% less magicka, and improve 4% per skill level.
 |Empowered Elements |Dual-cast Destruction spells to augment their power by 125% for double magicka cost.
 |Impact |25% chance to stagger targets when dual-casting projectile Destruction spells.
+|Pyromancy Rank I |All fire spells deal 15% more damage.
+|Cryomancy Rank I |All frost spells deal 15% more damage.
+|Electromancy Rank I |All lightning spells deal 15% more damage.
+|Electromancy Rank II |All lightning spells deal 30% more damage.
 
-<p class="text-delta">Illusion</p>
+<p class="text-delta">Evasion</p>
 
-|Apprentice Illusion |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Adept Illusion |Adept spells cost 55% less magicka, and improve 3% per skill level.
-|Expert Illusion |Expert spells cost 55% less magicka, and improve 4% per skill level.
-|Visual Manipulation |Darkvision, Invisibility, and Blur are 30% more effective, last longer, and can be dual-cast.
-|Acoustic Manipulation |Muffle, Arcane Resonance, and Rune of Dampening are 30% more effective, last longer, and can be dual-cast.
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 
 <p class="text-delta">Restoration</p>
 
+|Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Restoration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Focused Mind |Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 |Improved Healing |Healing spells are 25% more effective.
 
 <p class="text-gamma">Spells</p>
@@ -682,20 +681,28 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <p class="text-delta">Marksman</p>
 
 |Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
-|Eagle Eye |Zoom in on a target by holding the right mouse button. Grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
 |Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
 |Ranger |Allows running and strafing while attacking with light bows and crossbows.
 |Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
 |Marksman's Focus |Aiming precisely seems to slow time by 75% while zooming, -25% weapon weight penalties.
-|Acrobatics |Perform a silent forward roll to avoid most physical knockdowns. Sneaking ability is 10% more effective. Heavy armor nullifies these effects.
+|Piercing Shot |Piercing arrows penetrate through multiple targets.
+|Penetrating Shot |Arrows penetrate through targets effectively.
+|Rapid Reload |Reload crossbows 50% faster.
+|Stunning Precision |Shots land with precise impact, occasionally staggering foes.
 
 <p class="text-delta">One-Handed</p>
 
 |Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties.
 |Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
 |Flurry Rank I |One-handed and unarmed attacks are 10% faster.
 |Flurry Rank II |One-handed and unarmed attacks are 25% faster.
+|Martial Arts |Unarmed power attacks deal 30 more damage and cost 66% less stamina.
+|Dagger Focus I |Irresistible sneak attack damage increased by 25%, +3.5 armor penetration per Dagger.
+|Dagger Focus II |Irresistible sneak attack damage increased by 55%, +3.5 armor penetration per Dagger.
 
 <p class="text-delta">Block</p>
 
@@ -709,17 +716,23 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Combat Reflexes |Enter a combat trance, slowing the world by 50% for 30 seconds. Costs 90 stamina initially, and 5 stamina per second.
-|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
+|Dodge |Press Sprint while moving to dodge. Expends 15 stamina for a burst of speed in the chosen direction.
 |Windrunner |Maximize the benefits of light armor. Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
 |Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing equipped, up to 16% total. Immune to killmoves.
 
 <p class="text-delta">Sneak</p>
 
 |Light Steps |Will not trigger any traps.
+|Deft Strike |Sneak attacks with Crossbows, Bows, Daggers, and Swords will gain 50% Armor penetration.
 |Muffled Movement |Move 15% more quietly, provided you are not wearing any heavy armor.
 |Shadowrunner |15% harder to detect, movement is 10% less audible, take 25% less damage from falling. Heavy armor nullifies these bonuses.
+|Stealth Rank I |Sneaking ability is 15% more effective. Heavy armor nullifies this bonus.
+|Stealth Rank II |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
+|Anatomical Lore |Practiced study unveils vital weak points. Sneak attacks with daggers, swords, bows, and crossbows are deadlier.
+|Acrobatics |Perform a silent forward roll to avoid most physical knockdowns. Sneaking ability is 10% more effective. Heavy armor nullifies these effects.
 
-<p class="text-delta">Unique</p>
+<p class="text-gamma">Unique</p>
 
 |Resist Magic 75%
  
@@ -734,7 +747,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p>
  
-|Race/Class |Male Dunmer Warrior |Location |Jorrvaskr
+|Race/Class |Male Dunmer Warrior-Scout |Location |Jorrvaskr
 |Level Min/Max |1/25 |Prerequisite |Glory of the Dead
 |Blades |Yes|Marriage |Yes
 |Steward |No|RefID |0001A6D6
@@ -743,32 +756,39 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">Marksman</p>
+|Eagle Eye |Grants armor penetration with ranged attacks. 
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+|Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
+|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
+
 <p class="text-delta">One-Handed</p>
 
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties.
 |Powerful Strike |Power attack damage increased by 20%.
-|Stunning Charge |Forward power attacks can knock down.
-|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
 |Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
-|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
-|Eagle Eye |Zoom in on a target by holding the right mouse button. Grants armor penetration.
-|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
-|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
-|Mace Focus III |Power attack damage increased by 15%, +7.5 armor penetration per Mace.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
 |Dagger Focus I |Irresistible sneak attack damage increased by 25%, +3.5 armor penetration per Dagger.
 |Dagger Focus II |Irresistible sneak attack damage increased by 55%, +3.5 armor penetration per Dagger.
 |Dagger Focus III |Master the deadly art of the dagger. Irresistible sneak attack damage increased by 100%, +3.5 armor penetration per Dagger.
+|Dual Flurry I |One-handed and unarmed attacks are 15% faster when dual-wielding.
+|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
 
 <p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+
+<p class="text-delta">Destruction</p>
+
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Pyromancy Rank I |All fire spells deal 15% more damage.
+|Cryomancy Rank I |All frost spells deal 15% more damage.
+|Electromancy Rank I |All lightning spells deal 15% more damage.
+|Electromancy Rank II |All lightning spells deal 30% more damage.
+|Electromancy Rank III |All lightning spells deal 45% more damage.
 
 <p class="text-delta">Evasion</p>
 
@@ -776,7 +796,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
 |Dodge |Press Sprint while moving to dodge. Expends 15 stamina for a burst of speed in the chosen direction.
-|Windrunner |Maximize the benefits of light armor. Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
+|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing equipped, up to 16% total. Immune to killmoves.
 
 <p class="text-delta">Sneak</p>
 
@@ -804,58 +824,49 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
 <p class="text-gamma">Perks</p>
- 
-<p class="text-delta">Two-Handed</p>
 
-|Great Weapon Mastery I |Damage +20%, -50% weapon weight penalties.
-|Powerful Strike |Power attack damage increased by 20%.
-|Cleave |Power attacks can cut down multiple foes with a single sweeping blow.
-|Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
-|War Axe Focus |Base Damage increased by 5%, +10 armor penetration per War Axe.
-|Piercing Strikes |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+<p class="text-delta">Marksman</p>
+
+|Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
 |Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
-|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
-|Devastating Cleave |Enhanced cleave with terrifying finesse and power. Sideways power attacks can knock down.
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+
+<p class="text-delta">One-Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Powerful Strike |Power attack damage increased by 20%.
+|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
+|Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
+|Dagger Focus I |Irresistible sneak attack damage increased by 25%, +3.5 armor penetration per Dagger.
+|Martial Arts |Unarmed power attacks deal 30 more damage and cost 66% less stamina.
 
 <p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
 |Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+|Shield Wall |Raise shield to mitigate 50% more melee damage.
 
 <p class="text-delta">Heavy Armor</p>
 
+|Novice Heavy Armor |Heavy armor training reduces incoming damage.
+|Apprentice Heavy Armor |Continued study improves heavy armor protection.
+|Expert Heavy Armor |Mastery of combat in heavy armor increases defense.
+|Master Heavy Armor |Expert heavy armor wielder. Damage from two-handed melee weapons is reduced by 40%.
 |Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
-|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
 |Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Juggernaut |Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided wearing a full set of heavy armor.
 
-|Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
-|Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
-|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
-|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
- 
-<p class="text-delta">Two Handed</p>
+<p class="text-delta">Destruction</p>
 
-|Great Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties.
-|Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus II |Damage increased by 15%, +20 armor penetration.
-|Greatsword Focus III |Attack speed +30%, +21 armor penetration.
-|Warhammer Focus II |Power attack damage increased by 10%, +30 armor penetration.
-|Devastating Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Devastating Strike |Power attack damage +25%.
-|Cleave|Sideways power attack can hit multiple targets.
-|Devastating Cleave |Sideways power attacks can knock down.
-|Mighty Strike|Damage +25%.
- 
-<p class="text-delta">Unique</p>
-
-|Resist Magic 75%
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Pyromancy Rank I |All fire spells deal 15% more damage.
+|Cryomancy Rank I |All frost spells deal 15% more damage.
+|Electromancy Rank I |All lightning spells deal 15% more damage.
+|Impact |25% chance to stagger targets when dual-casting projectile Destruction spells.
+|Spell Armor |Mage Armor reduces elemental damage by 15%.
  
 ***
 
@@ -877,27 +888,45 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">Marksman</p>
+
+|Eagle Eye |Grants armor penetration with ranged attacks. 
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
+
 <p class="text-delta">One-Handed</p>
 
-|Powerful Strike |Power attack damage increased by 20%.
-|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
 |Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Powerful Strike |Power attack damage increased by 20%.
+|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
-|Eagle Eye |Zoom in on a target by holding the right mouse button. Grants armor penetration.
-|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
-|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Mace Focus III |Power attack damage increased by 15%, +7.5 armor penetration per Mace.
 |Flurry Rank I |One-handed and unarmed attacks are 10% faster.
 |Flurry Rank II |One-handed and unarmed attacks are 25% faster.
 
 <p class="text-delta">Two-Handed</p>
 
-|Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Great Weapon Mastery I |Damage +20%, -50% weapon weight penalties.
 |Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
-|Battle Axe Focus I |Damage +5%, +10 armor penetration with two-handed War Axes.
-|Battle Axe Focus II |Damage +15%, +20 armor penetration with two-handed War Axes.
+|Disarming Bash |Precise bashes have a chance to disarm opponents. (25% chance with a shield, 6% chance with a weapon.)
+|Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Devastating Cleave |Enhanced cleave with terrifying finesse and power. Sideways power attacks can knock down.
+
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+|Defensive Stance |Blocking no longer slows movement.
+
+<p class="text-delta">Heavy Armor</p>
+
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
 
 <p class="text-delta">Evasion</p>
 
@@ -930,35 +959,53 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">Marksman</p>
+
+|Eagle Eye |Grants armor penetration with ranged attacks.
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
+|Marksman's Focus |Aiming precisely seems to slow time by 75% while zooming, -25% weapon weight penalties.
+
 <p class="text-delta">One-Handed</p>
 
-|Powerful Strike |Power attack damage increased by 20%.
-|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
 |Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
-|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
-|Eagle Eye |Zoom in on a target by holding the right mouse button. Grants armor penetration.
-|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
-|Ranger |Allows running and strafing while attacking with light bows and crossbows.
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
+|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
 |Flurry Rank I |One-handed and unarmed attacks are 10% faster.
-|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
 
 <p class="text-delta">Two-Handed</p>
 
 |Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Great Weapon Mastery I |Damage +20%, -50% weapon weight penalties.
+
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Defensive Stance |Blocking no longer slows movement.
+
+<p class="text-delta">Heavy Armor</p>
+
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
 
 <p class="text-delta">Evasion</p>
 
 |Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Dodge |Press Sprint while moving to dodge. Expends 15 stamina for a burst of speed in the chosen direction.
+|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing equipped, up to 16% total. Immune to killmoves.
 
 <p class="text-delta">Sneak</p>
 
 |Light Steps |Will not trigger any traps.
 |Muffled Movement |Move 15% more quietly, provided you are not wearing any heavy armor.
+|Stealth Rank I |Sneaking ability is 15% more effective. Heavy armor nullifies this bonus.
+|Stealth Rank II |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
  
 ***
 
@@ -979,27 +1026,42 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
 <p class="text-gamma">Perks</p>
- 
+
+<p class="text-delta">Marksman</p>
+|Eagle Eye |Grants armor penetration with ranged attacks. 
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+
 <p class="text-delta">One-Handed</p>
 
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
 |Powerful Strike |Power attack damage increased by 20%.
 |Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
 |Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
-|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
 |Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
-|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
-|Eagle Eye |Zoom in on a target by holding the right mouse button. Grants armor penetration.
-|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Flurry Rank I |One-handed and unarmed attacks are 10% faster.
-|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
 
 <p class="text-delta">Two-Handed</p>
 
+|Great Weapon Mastery I |Damage +20%, -50% weapon weight penalties.
 |Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Warhammer Focus II |Power attack damage increased by 10%, +30 armor penetration.
 |Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
+|Battle Axe Focus I |Damage +5%, +10 armor penetration with two-handed War Axes.
+
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+|Defensive Stance |Blocking no longer slows movement.
+
+<p class="text-delta">Heavy Armor</p>
+
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
 
 <p class="text-delta">Evasion</p>
 
@@ -1010,6 +1072,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 |Light Steps |Will not trigger any traps.
 |Muffled Movement |Move 15% more quietly, provided you are not wearing any heavy armor.
+|Martial Arts |Unarmed power attacks deal 30 more damage and cost 66% less stamina.
  
 ***
 
@@ -1031,53 +1094,78 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">Marksman</p>
+
+|Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
+|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+
 <p class="text-delta">One-Handed</p>
 
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
 |Powerful Strike |Power attack damage increased by 20%.
 |Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
 |Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
 |Sword Focus III |+24% attack speed, +3.5 armor penetration per Sword.
-|Cleave |Power attacks can cut down multiple foes with a single sweeping blow.
-|Devastating Cleave |Enhanced cleave with terrifying finesse and power. Sideways power attacks can knock down.
-|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
-|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
 |Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
-|Eagle Eye |Zoom in on a target by holding the right mouse button. Grants armor penetration.
-|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
-|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Dagger Focus I |Irresistible sneak attack damage increased by 25%, +3.5 armor penetration per Dagger.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
+|Dual Wield Blocking |Raise shields or weapons in both hands to block incoming damage.
+|Dual Flurry I |One-handed and unarmed attacks are 15% faster when dual-wielding.
+|Dual Flurry II |One-handed and unarmed attacks are 30% faster when dual-wielding.
 |Flurry Rank I |One-handed and unarmed attacks are 10% faster.
 |Flurry Rank II |One-handed and unarmed attacks are 25% faster.
+|Flurry Rank III |One-handed and unarmed attacks are 40% faster.
+|Master One-Handed |Melee weapons do 140% damage.
 
 <p class="text-delta">Two-Handed</p>
 
+|Cleave |Power attacks can cut down multiple foes with a single sweeping blow.
+|Devastating Cleave |Enhanced cleave with terrifying finesse and power. Sideways power attacks can knock down.
 |Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
 |Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
 
-<p class="text-delta">Alteration</p>
+<p class="text-delta">Block</p>
 
-|Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
-|Expert Alteration |Expert spells cost 55% less magicka, and improve 4% per skill level.
-|Magic Resistance Rank I |10% resistance to hostile magic.
-|Magic Resistance Rank II |20% resistance to hostile magic.
-|Magic Resistance Rank III |30% resistance to hostile magic.
-|Improved Mage Armor |Mage Armor provides an additional 50% damage resistance if the caster is not wearing armor.
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Shield Wall |Raise shield to mitigate 50% more melee damage.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+|Disarming Bash |Precise bashes have a chance to disarm opponents. (25% chance with a shield, 6% chance with a weapon.)
+
+<p class="text-delta">Heavy Armor</p>
+
+|Novice Heavy Armor |Basic heavy armor training. Damage from two-handed weapons is reduced by 20%.
+|Apprentice Heavy Armor |Continued study in the ways of heavy armor. Damage from two-handed weapons is reduced by 25%.
+|Expert Heavy Armor |Mastery of combat in heavy armor. Damage reduction from two-handed weapons is increased to 30%.
+|Master Heavy Armor |Expert heavy armor wielder. Damage from two-handed melee weapons is reduced by 40%.
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Juggernaut |Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided wearing a full set of heavy armor.
+
+<p class="text-delta\">Destruction</p>
+
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Pyromancy Rank I |All fire spells deal 15% more damage.
+|Cryomancy Rank I |All frost spells deal 15% more damage.
+|Electromancy Rank I |All lightning spells deal 15% more damage.
+|Impact |25% chance to stagger targets when dual-casting projectile Destruction spells.
 |Spell Armor |Mage Armor reduces elemental damage by 15%.
 
-<p class="text-delta">Conjuration</p>
+<p class="text-delta">Alteration</p>
 
-|Summoner's Insight |Dual-cast Conjuration spells to increase their duration by 125%.
-|Extended Binding |Summon Daedra and Spirits from 5 times farther away for 25% less magicka.
+|Spell Armor |Mage Armor reduces elemental damage by 15%.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
 
 <p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
 |Mysticism |Spells that affect the Undead and Daedra are 10% more effective and last 25% longer.
 |Focused Mind |Can keep concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
- 
+
 <p class="text-delta">Unique</p>
 
 |Resist Magic 75%
@@ -1300,7 +1388,7 @@ Unique
 
 <p class="text-delta">Marksman</p>
 
-|Eagle Eye |Zoom in on a target by holding the right mouse button. Grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. 
 |Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
 |Ranger |Allows running and strafing while attacking with light bows and crossbows.
 |Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
@@ -1353,6 +1441,7 @@ Unique
  
 <p class="text-delta">Evasion</p>
 
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
  
 <p class="text-delta">Heavy Armor</p>
@@ -1371,6 +1460,7 @@ Unique
 <p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
 |Ranger|Allows running and strafing while attacking with light bows and crossbows.
 |Rapid Reload|+50% reload speed with crossbows.
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
@@ -1389,6 +1479,10 @@ Unique
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
 |Flurry II|One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
+ 
+<p class="text-delta">Two Handed</p>
+
+|Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
  
 <p class="text-delta">Unique</p>
 
@@ -1739,7 +1833,33 @@ Unique
 
 <p class="text-gamma">Perks</p>
  
- None
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+ 
+<p class="text-delta">One Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
+|Flurry Rank III |One-handed and unarmed attacks are 40% faster.
+ 
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
+|Precise Aim |Damage increased by 20% with bow and crossbow attacks.
+ 
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 ***
 
@@ -2074,26 +2194,68 @@ Unique
  
 <p class="text-delta">Block</p>
 
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
  
 <p class="text-delta">Evasion</p>
 
-|Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
-|Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
-|Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
+|Combat Reflexes |Enter a combat trance, slowing the world by 50% for 30 seconds. Costs 90 stamina initially, and 5 stamina per second.
+|Dodge |Press Sprint while moving to dodge. Expends 15 stamina for a burst of speed in the chosen direction.
+|Windrunner |Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
+|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing equipped, up to 16% total. Immune to killmoves.
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
+|Cheap Tricks |Learn basic lock picking and gain 20 skill expertise. Pick novice and apprentice locks easily, adept locks remain challenging. Forge iron ingots into lockpicks with basic smithing.
  
 <p class="text-delta">Marksman</p>
 
-|Ranger|Allows running and strafing while attacking with light bows and crossbows.
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
+ 
+<p class="text-delta">One Handed</p>
+
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+|War Axe Focus II |Base Damage increased by 15%, +20 armor penetration per War Axe.
+|Powerful Strike |Power attack damage increased by 20%.
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Dagger Focus I |Your basic dagger skill increases sneak attack damage and expertise. (Irresistable sneak attack damage x 1.25, +10 armor penetration)
+|Dagger Focus II |Your advanced dagger skill increases sneak attack damage and expertise. (Irresistable sneak attack damage x 1.55, +20 armor penetration)
  
 <p class="text-delta">Sneak</p>
 
-|Light Steps|Will not trigger traps.
-|Muffled Movement |While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
+|Light Steps |Will not trigger any traps.
+|Muffled Movement |Move 15% more quietly, provided you are not wearing any heavy armor.
+|Stealth Rank II |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
+ 
+<p class="text-delta">Alteration (Aquatic)**</p>
+
+|Improved Mage Armor |All Mage Armor on Self spells provide additional damage resistance when not wearing armor.
+|Stability |Duration of Alteration spells is increased by 50% (up to 75% with Stability Rank II).
+|Detect Life Mastery |Detect Life spells pierce invisibility and reveal hidden creatures. Improved range and duration.
+ 
+<p class="text-delta">Illusion</p>
+
+|Novice Illusion |Novice spells cost 55% less magicka, and improve 1% per skill level.
+ 
+<p class="text-delta">Restoration</p>
+
+|Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Restoration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+ 
+<p class="text-delta">Unique</p>
+
+|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing equipped, up to 16% total. Immune to killmoves.
+ 
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 ***
 
@@ -2115,20 +2277,61 @@ Unique
 
 <p class="text-gamma">Perks</p>
  
-<p class="text-delta">Alteration</p>
+<p class="text-delta\">Alteration</p>
 
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance when not wearing armor.
-|Magic Resistance I |10% resistance to hostile magic
+|Magic Resistance I |10% resistance to hostile magic.
+|Magic Resistance III |30% Magic Resistance.
+|Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Stability |Duration of Alteration spells is increased by 50% (up to 75% with Stability Rank II).
+|Telekinesis Mastery I |Magicka cost is reduced by 50%. Increased range of 500 points and increased carrying capacity of 3 items.
+|Telekinesis Mastery II |Magicka cost is reduced by an additional 50%, and range increased by 500 points.
+|Telekinesis Mastery III |Magicka cost is reduced by an additional 50%, and range increased by 500 points.
+ 
+<p class="text-delta">Conjuration</p>
+
+|Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Conjuration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Stabilized Binding |Extends the duration of summoned Spirits and Daedra by 50%.
+|Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
+|Elemental Binding |Summoned Atronachs are much stronger, and high-level Thralls are immune to Banishment and Control spells.
+|Summoner's Insight |Can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
  
 <p class="text-delta">Destruction</p>
 
 |Electromancy I |All lightning spells deal 15% more damage.
-|Pyromancy I|All fire spells deal 15% more damage.
+|Pyromancy I |All fire spells deal 15% more damage.
+|Cryomancy I |All frost spells deal 15% more damage.
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Adept Destruction |Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Electrostatic Discharge |Shock spells damage opponent Magicka alongside Health.
+|Rune Mastery |Cast and maintain more powerful runes. May maintain 3 runes simultaneously.
+ 
+<p class="text-delta">Evasion</p>
+
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Agile Spellcasting |Specialized training allows casting spells in light armor without penalties.
+|Windrunner |Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
+ 
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
  
 <p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
-|Focused Mind|Can maintain concentration while running or sustaining damage. All magicka penalties are nullified. Magicka regenerates 50% faster.
+|Focused Mind |Can maintain concentration while running or sustaining damage. All magicka penalties are nullified. Magicka regenerates 50% faster.
+|Respite |Healing spells restore both health and stamina.
+ 
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 <p class="text-gamma">Spells</p>
  
@@ -2180,19 +2383,30 @@ Unique
  
 <p class="text-delta">Alteration</p>
 
-|Magic Resistance III |30% Magic Resistance
+|Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Magic Resistance I |10% resistance to hostile magic.
+|Magic Resistance III |30% Magic Resistance.
+|Stability |Duration of Alteration spells is increased by 50% (up to 75% with Stability Rank II).
+|Telekinesis Mastery I |Magicka cost is reduced by 50%. Increased range of 500 points and increased carrying capacity of 3 items.
+|Telekinesis Mastery II |Magicka cost is reduced by an additional 50%, and range increased by 500 points.
+|Telekinesis Mastery III |Magicka cost is reduced by an additional 50%, and range increased by 500 points.
  
 <p class="text-delta">Conjuration</p>
 
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Apprentice Conjuration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Stabilized Binding |Extends the duration of summoned Spirits and Daedra by 50%.
 |Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
 |Elemental Binding |Summoned Atronachs are much stronger, and high-level Thralls are immune to Banishment and Control spells.
 |Summoner's Insight |Can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
-|Cognitive Flexibility |Can maintain two/three summons at once, including those outside the school of Conjuration. II
+|Cognitive Flexibility |Can maintain two/three summons at once, including those outside the school of Conjuration.
  
-<p class="text-delta">Evasion</p>
+<p class="text-delta">Destruction</p>
+
+|Rune Mastery |Cast and maintain more powerful runes. May maintain 3 runes simultaneously.
+ 
+<p class="text-delta\">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
 |Agile Spellcasting |Specialized training allows you to cast spells in light armor without penalties.
@@ -2201,15 +2415,20 @@ Unique
 <p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Apprentice Restoration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Restoration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
-|Respite|Healing spells restore both health and stamina.
-|Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
+|Respite |Healing spells restore both health and stamina.
+|Focused Mind |Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
  
 <p class="text-delta">Sneak</p>
 
-|Light Steps|Will not trigger traps.
+|Light Steps |Will not trigger any traps.
+ 
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 <p class="text-gamma">Spells</p>
  
@@ -2254,16 +2473,50 @@ Unique
 
 <p class="text-gamma">Perks</p>
  
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+ 
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Mass of Equipped gear is further reduced. Sprinting in a full set of heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+|Power of the Combatant |Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear is further reduced.
+|Juggernaut |Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear is also further reduced.
  
-<p class="text-delta">Unique</p>
+<p class="text-delta">Marksman</p>
 
-|Armsman|One-Handed weapons do 140% damage.
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
+|Precise Aim |Damage increased by 20% with bow and crossbow attacks.
+|Piercing Shot |+50% armor penetration from ammunition.
+|Penetrating Shot |+100% armor penetration from ammunition.
+ 
+<p class="text-delta">One Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Powerful Strike |Power attack damage increased by 20%.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+|Martial Arts |Unarmed power attacks deal 30 more damage and cost 66% less stamina.
+ 
+<p class="text-delta">Restoration</p>
+
+|Improved Healing |Healing spells are 25% more effective.
+|Respite |Healing spells restore both health and stamina.
+|Focused Mind |Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
+ 
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 ***
 
@@ -2284,46 +2537,65 @@ Unique
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
 <p class="text-gamma">Perks</p>
- 
-<p class="text-delta">Alteration</p>
 
-|Stability|All Alteration spells last 50% longer.
-|Metamagical Thesis |Decreases magicka cost for all spells by 10%.
-|Magic Resistance II |20% Magic Resistance
-|Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
-|Spell Armor|Mage Armor spells reduce incoming elemental damage by 15%.
- 
+<p class="text-delta">One-Handed</p>
+
+|Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
+|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
+|Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
+|Finesse Rank I |Enhances power attack damage by 3% for every piece of light armor equipped (not clothing), for a maximum of 12%.
+|Finesse Rank II |Enhances power attack damage by 5% for every piece of light armor equipped (not clothing), for a maximum of 20%.
+
+<p class="text-delta">Two-Handed</p>
+
+|Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Great Weapon Mastery I |Damage +20%, -50% weapon weight penalties.
+|Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
+|Warhammer Focus I |Damage increased by 5%, -30 stamina cost to power attacks, +20 armor penetration.
+
 <p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
-|Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
- 
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
-|Combat Casting |Your concentration is less affected by heavy armor, reducing penalties for Novice and Apprentice spells.
-|Combat Trance|You are less distracted while wearing Heavy Armor, allowing you to cast Adept spells at almost no penalty.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
- 
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+
+<p class="text-delta">Destruction</p>
+
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+
+<p class="text-delta">Alteration</p>
+
+|Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
+|Stability |Duration of Alteration spells is increased by 50% (up to 75% with Stability Rank II).
+|Density |Raises armor rating by 50 points and grants 25% frost resistance when under the effects of an Alteration spell.
+|Telekinesis Mastery I |Magicka cost is reduced by 50%. Increased range of 500 points and increased carrying capacity of 3 items.
+
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
-|Eagle Eye|Adds armor penetration.
-|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Precise Aim |Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
- 
-<p class="text-delta">One Handed</p>
 
-|Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
-|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
-|Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
-|Powerful Strike |Power attack damage increased by 20%.
-|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Flurry II|One-handed and unarmed attacks are 25% faster.
-|Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
+<p class="text-delta">Evasion</p>
+
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Dodge |Press Sprint while moving to dodge. Expends 15 stamina for a burst of speed in the chosen direction.
+
+<p class="text-delta">Unique</p>
+
+|Toughen Up |50% resistance to magic. Cannot be healed by resting.
  
 <p class="text-delta">Restoration</p>
 
@@ -2364,56 +2636,66 @@ Unique
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
 <p class="text-gamma">Perks</p>
- 
+
+<p class="text-delta">One-Handed</p>
+
+|Powerful Strike |Power attack damage increased by 20%.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
+|Flurry Rank III |One-handed and unarmed attacks are 40% faster.
+|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
+
+<p class="text-delta">Two-Handed</p>
+
+|Penetrating Strikes |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
+
 <p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
-|Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
-|Defensive Stance |Blocking no longer slows you down.
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
-|Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
- 
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+|Defensive Stance |Blocking no longer slows movement.
+
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
- 
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+
+<p class="text-delta">Evasion</p>
+
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Dodge |Press Sprint while moving to dodge. Expends 15 stamina for a burst of speed in the chosen direction.
+
+<p class="text-delta">Alteration</p>
+
+|Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
+|Stability |Duration of Alteration spells is increased by 50% (up to 75% with Stability Rank II).
+
+<p class="text-delta">Destruction</p>
+
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
-|Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
-|Piercing Shot|+50% armor penetration from ammunition.
-|Penetrating Shot |+100% armor penetration from ammunition.
- 
-<p class="text-delta">One Handed</p>
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
 
-|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
-|Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
-|Mace Focus III |Power attack damage increased by 15%, +7.5 armor penetration per Mace.
-|Sword Focus III |+24% attack speed, +3.5 armor penetration per Sword.
-|Powerful Strike |Power attack damage increased by 20%.
-|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Stunning Charge |Forward power attacks can knock down.
-|Flurry II|One-handed and unarmed attacks are 25% faster.
-|Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
- 
 <p class="text-delta">Sneak</p>
 
-|Light Steps|Will not trigger traps.
+|Light Steps |Will not trigger any traps.
 
 ***
 
 </div>
 </details>
-
 <details>
  <summary> Golldir </summary>
  
@@ -2428,49 +2710,71 @@ Unique
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
 <p class="text-gamma">Perks</p>
- 
+
+<p class="text-delta">One-Handed</p>
+
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
+|Dexterity Rank I |Lessens stamina cost of power attacks by 6% for every piece of Light Armor equipped (not clothing), to 24% maximum.
+|Dexterity Rank II |Lessens stamina cost of power attacks by 10% for every piece of light armor (not clothing), to 40% maximum.
+|Powerful Strike |Power attack damage increased by 20%.
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+
+<p class="text-delta">Two-Handed</p>
+
+|Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Great Weapon Mastery II |Damage +40%, -50% weapon weight penalties.
+|Devastating Charge |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
+|Warhammer Focus I |Damage increased by 5%, -30 stamina cost to power attacks, +20 armor penetration.
+|Warhammer Focus II |Power attack damage increased by 10%, +30 armor penetration.
+
 <p class="text-delta">Block</p>
 
 |Improved Blocking |Blocking technique mitigates 25% more damage.
-|Experienced Blocking |Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
-|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
 |Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
-|Defensive Stance |Blocking no longer slows you down.
-|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes, and cost additional stamina.
-|Overpowering Bashes |Power bashing with your shield will sometimes knock opponent over. Wearing heavier gear improves the chance of success.
-|Disarming Bash |Chance to disarm opponents. 25% chance with a shield, 6% chance with a weapon.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+|Defensive Stance |Blocking no longer slows movement.
+|Disarming Bash |Precise bashes have a chance to disarm opponents. (25% chance with a shield, 6% chance with a weapon.)
 |Unstoppable Charge |Can now sprint with shield raised, knocking down enemies in path. Wearing heavier gear increases the damage inflicted on the target.
- 
+|Stunning Charge |Forward power attacks can knock down.
+
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
- 
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+|Power of the Combatant |Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear is further reduced.
+|Juggernaut |Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear is also further reduced.
+
+<p class="text-delta">Alteration</p>
+
+|Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
+|Mage's Endurance |Increases magicka by 50.
+|Stability |Duration of Alteration spells is increased by 50% (up to 75% with Stability Rank II).
+
+<p class="text-delta">Destruction</p>
+
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Pyromancy I |All fire spells deal 15% more damage.
+|Electromancy I |All lightning spells deal 15% more damage.
+
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
-|Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Quick Shot|+50% draw speed with bows.
-|Precise Aim|Damage increased by 20% with bow and crossbow attacks.
-|Piercing Shot|+50% armor penetration from ammunition.
-|Penetrating Shot |+100% armor penetration from ammunition.
- 
-<p class="text-delta">One Handed</p>
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
+|Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
+|Precise Aim |Damage increased by 20% with bow and crossbow attacks.
+|Piercing Shot |Piercing arrows penetrate through multiple targets.
 
-|Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties
-|Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
-|War Axe Focus III |Base Damage increased by 30%, +5 armor penetration per War Axe.
-|Mace Focus II|Power attack damage increased by 10%, +7.5 armor penetration per Mace.
-|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
-|Powerful Strike |Power attack damage increased by 20%.
-|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Stunning Charge |Forward power attacks can knock down.
-|Flurry II|One-handed and unarmed attacks are 25% faster.
- 
+<p class="text-delta">Evasion</p>
+
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+
 <p class="text-delta">Sneak</p>
 
 |Light Steps|Will not trigger traps.
@@ -2500,40 +2804,45 @@ Unique
 |Novice Alteration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Alteration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Alteration |Adept spells cost 55% less magicka, and improve 3% per skill level.
-|Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
-|Magic Resistance III |30% Magic Resistance
+|Improved Mage Armor |Mage Armor provides an additional 50% damage resistance if the caster is not wearing armor.
+|Magic Resistance III |30% resistance to hostile magic.
  
 <p class="text-delta">Conjuration</p>
 
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Apprentice Conjuration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Adept Conjuration |Adept spells cost 55% less magicka, and improve 3% per skill level.
  
 <p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Destruction |Adept spells cost 55% less magicka, and improve 3% per skill level.
-|Cryomancy I|All frost spells deal 15% more damage.
-|Deep Freeze|Many of your ice spells can freeze enemies who are susceptible to frost.
+|Cryomancy I |All frost spells deal 15% more damage.
+|Deep Freeze |Frost spells temporary paralyze targets.
  
 <p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
-|Agile Spellcasting |Specialized training allows you to cast spells in light armor without penalties.
-|Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
+|Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
+|Agile Spellcasting |Cast spells in light armor without penalties.
+|Windrunner |Maximize the benefits of light armor. Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
  
 <p class="text-delta">Restoration</p>
 
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Apprentice Restoration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Restoration |Adept spells cost 55% less magicka, and improve 3% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
-|Respite|Healing spells restore both health and stamina.
-|Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
+|Respite |Healing spells restore both health and stamina.
+|Focused Mind |Can keep concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
  
 <p class="text-delta">Sneak</p>
 
-|Light Steps|Will not trigger traps.
+|Light Steps |Will not trigger any traps.
+|Muffled Movement |Move 15% more quietly, provided you are not wearing any heavy armor.
+|Stealth Rank II |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
 
 <p class="text-gamma">Spells</p>
  
@@ -2546,7 +2855,7 @@ Unique
 <p class="text-delta">Conjuration</p>
 
 |Banish Daedra (Rank I)
-|Specral Arrow
+|Spectral Arrow
 |Summon Flame Atronach
 |Summon Spectral Warhound
  
@@ -2590,41 +2899,56 @@ Unique
  
 <p class="text-delta">Alchemy</p>
 
-|Immunization |+50% Disease Resistance & +25% Poison Resistance
+|Immunization |50% Disease Resistance & 25% Poison Resistance.
  
 <p class="text-delta">Block</p>
 
-|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
  
 <p class="text-delta">Evasion</p>
 
 |Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
-|Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
-|Combat Reflexes |Can enter a combat trance, slowing the world around her by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
+|Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
+|Combat Reflexes |Enter a combat trance, slowing the world by 50% for 30 seconds. Costs 90 stamina initially, and 5 stamina per second.
+|Windrunner |Maximize the benefits of light armor. Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
-|Locksmithing Lore |Meticulous study of lockpicking boosts expertise by 25 points. Can pick adept locks effortlessly, and can attempt to open Expert Locks.
+|Cheap Tricks |Learn basic lock picking and gain 20 skill expertise. Pick novice and apprentice locks easily, adept locks remain challenging. Forge iron ingots into lockpicks with basic smithing.
+|Locksmithing Lore |Meticulous study of lockpicking boosts expertise by 25 points. Pick adept locks effortlessly. Attempt to open Expert locks.
+|Masterly Lockpicking |Gain 35 points of Lockpicking expertise. Expert locks are effortless. Attempt Master locks.
  
 <p class="text-delta">Marksman</p>
 
-|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
-|Ranger|Allows running and strafing while attacking with light bows and crossbows.
-|Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
-|Piercing Shot|+50% armor penetration from ammunition.
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Ranger |Allows running and strafing while attacking with light bows and crossbows.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
+|Marksman's Focus |Aiming precisely seems to slow time by 75% while zooming, -25% weapon weight penalties.
+|Quick Shot |Draw and fire in one single movement, increasing rate of fire with all bows by 50%.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery I |Damage x 120%, -50% weapon weight penalties.
-|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
-|Flurry I|One-handed and unarmed attacks are 10% faster.
- 
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Powerful Strike |Power attack damage increased by 20%.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
  
 <p class="text-delta">Sneak</p>
 
-|Stealth II|Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
-|Light Steps|Will not trigger traps.
+|Light Steps |Will not trigger any traps.
+|Muffled Movement |Move 15% more quietly, provided you are not wearing any heavy armor.
+|Stealth Rank II |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
+
+<p class="text-gamma">Requiem Perks</p>
+
+|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing equipped, up to 16% total. Immune to killmoves.
 
 ***
 
@@ -2648,28 +2972,45 @@ Unique
  
 <p class="text-delta">Block</p>
 
-|Defensive Stance |Blocking no longer slows you down.
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Defensive Stance |Blocking no longer slows movement.
  
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
-|Combat Meditation |Heavy armor is barely noticeable. Casting penalties are reduced for Expert spells.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Mass of Equipped gear is further reduced. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+|Power of the Combatant |Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear is further reduced.
  
 <p class="text-delta">Lockpicking</p>
 
-|Cheap Tricks|Has learned the basics of picking locks and gains 20 skill expertise. Can pick novice and apprentice locks without difficulty, and adept locks remain challenging but not impossible. With basic smithing techniques can forge Iron ingots into lockpicks.
+|Cheap Tricks |Learn basic lock picking and gain 20 skill expertise. Pick novice and apprentice locks easily, adept locks remain challenging. Forge iron ingots into lockpicks with basic smithing.
+ 
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Marksman's Focus |Aiming precisely seems to slow time by 75% while zooming, -25% weapon weight penalties.
  
 <p class="text-delta">One Handed</p>
 
-|War Axe Focus I |Base Damage increased by 5%, +5 armor penetration per War Axe.
-|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
-|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
-|Flurry I|One-handed and unarmed attacks are 10% faster.
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
 |Storm of Steel |Power attacks deal 25% more damage when dual-wielding one-handed weapons.
+ 
+<p class="text-delta">Two Handed</p>
+
+|Great Weapon Mastery I |Diligent practice bolsters the damage and ease of your two-handed weapon attacks. Damage +20%, -50% weapon weight penalties.
+|Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Great Weapon Mastery II |Damage +40%, -50% weapon weight penalties.
 
 ***
 
@@ -2689,9 +3030,42 @@ Unique
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own. 
 
 <p class="text-gamma">Perks</p>
- 
- None
 
+<p class="text-delta">Marksman</p>
+
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.)
+
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+
+<p class="text-delta">Heavy Armor</p>
+
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+
+<p class="text-delta">Evasion</p>
+
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
+|Dodge |Press Sprint while moving to dodge. Expends 15 stamina for a burst of speed in the chosen direction.
+
+<p class="text-delta">One-Handed</p>
+
+|Martial Arts |Unarmed power attacks deal 30 more damage and cost 66% less stamina.
+
+<p class="text-delta">Alteration</p>
+
+|Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
+
+<p class="text-delta">Restoration</p>
+
+|Respite |Healing spells restore both health and stamina.
+ 
 ***
 
 </div>
@@ -2710,26 +3084,47 @@ Unique
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
 <p class="text-gamma">Perks</p>
+
+<p class="text-delta">Evasion</p>
+
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses.
  
 <p class="text-delta">Alteration</p>
 
 |Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
-|Magic Resistance I |10% Magic Resistance
+|Mage's Endurance |Increases magicka by 50.
+|Stability |Duration of Alteration spells is increased by 50% (up to 75% with Stability Rank II).
+|Density |Raises armor rating by 50 points and grants 25% frost resistance when under the effects of an Alteration spell.
+|Telekinesis Mastery I |Magicka cost is reduced by 50%. Increased range of 500 points and increased carrying capacity of 3 items.
+|Telekinesis Mastery II |Magicka cost is reduced by an additional 50%, and range increased by 500 points.
+|Telekinesis Mastery III |Magicka cost is reduced by an additional 50%, and range increased by 500 points.
+|Spellmaking |Can craft custom spells at Altars of Spellcraft.
  
 <p class="text-delta">Destruction</p>
 
 |Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Pyromancy I|All fire spells deal 15% more damage.
+|Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Pyromancy I |All fire spells deal 15% more damage.
 |Electromancy I |All lightning spells deal 15% more damage.
+|Savage Impact |Destruction spells deal 10% more damage. Every point of stamina costs 0.04 magicka for dual-cast spells.
+|Blast Wave I |Destruction spell projectiles have 10% more knockback.
+|Blast Wave II |Destruction spell projectiles have 20% more knockback.
+|Blast Wave III |Destruction spell projectiles have 30% more knockback.
 |Empowered Elements |Can dual-cast Destruction spells to augment their power by 125% for double magicka cost.
  
 <p class="text-delta">Restoration</p>
 
-|Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Apprentice Restoration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Improved Healing |Healing spells are 25% more effective.
-|Respite|Healing spells restore both health and stamina.
+|Respite |Healing spells restore both health and stamina.
 |Improved Wards |Arcane wards are 25% more effective, absorb 25% Magicka from hostile spells, and cost 5% less Magicka to cast.
+|Magic Resistance II |20% Magic Resistance.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+
+<p class="text-delta">Unique</p>
+
+|Spellcaster's Synergy |50% chance for spells to cost no magicka. Critical radius of targeted spell AoE is increased by 50%.
 
 <p class="text-gamma">Spells</p>
  
@@ -2768,26 +3163,53 @@ Unique
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
 <p class="text-gamma">Perks</p>
- 
-<p class="text-delta">Heavy Armor</p>
 
-|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
-|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
- 
-<p class="text-delta">Two Handed</p>
+<p class="text-delta">One-Handed</p>
 
-|Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus I |Damage increased by 5%, +10 armor penetration.
-|Greatsword Focus I |Attack speed +10%, +7 armor penetration.
+|Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
+|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
+|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+
+<p class="text-delta">Two-Handed</p>
+
+|Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Penetrating Strikes |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Devastating Charge |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
+|Greatsword Focus I |Attack speed +10%, +7 armor penetration per Greatsword.
 |Warhammer Focus III |Power attack damage +15%, +45 armor penetration.
  
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+|Defensive Stance |Blocking no longer slows movement.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+
+<p class="text-delta">Heavy Armor</p>
+
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Expert Training |Heavy armor weight is reduced by 25%. Each piece of heavy armor grants 5% increased stamina.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+|Juggernaut |Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear is also further reduced.
+
+<p class="text-delta">Destruction</p>
+
+|Novice Destruction |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Destruction |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Pyromancy I |All fire spells deal 15% more damage.
+|Electromancy I |All lightning spells deal 15% more damage.
+
+<p class="text-delta">Alteration</p>
+
+|Improved Mage Armor |All "Mage Armor on Self" spells provide additional damage resistance, if you aren't wearing any armor.
+
 <p class="text-delta">Unique</p>
 
-|Barbarian|Two-Handed weapons deal 150% damage.
+|Barbarian |Two-Handed weapons deal 150% damage.
 
 ***
 
@@ -2808,7 +3230,39 @@ Unique
 
 <p class="text-gamma">Perks</p>
 
- None
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+ 
+<p class="text-delta">Heavy Armor</p>
+
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+|Expert Training |Heavy armor weight is reduced by 25%. Each piece of heavy armor grants 5% increased stamina.
+ 
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
+|Precise Aim |Damage increased by 20% with bow and crossbow attacks.
+ 
+<p class="text-delta">One Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+ 
+<p class="text-delta">Evasion</p>
+
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
+ 
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 ***
 
@@ -2874,7 +3328,33 @@ Unique
 
 <p class="text-gamma">Perks</p>
 
- None
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+ 
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
+ 
+<p class="text-delta">One Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+ 
+<p class="text-delta">Evasion</p>
+
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
+ 
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 ***
 
@@ -2895,13 +3375,51 @@ Unique
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">Block</p>
+
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+ 
 <p class="text-delta">Heavy Armor</p>
 
-|Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
-|Relentless Onslaught |Can sprint in heavy armor at no stamina penalty. Mass of Equipped gear are further reduced. Sprinting in a full set of heavy armor allows deflection of 80% of all incoming melee damage.
-|Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Mass of Equipped gear is further reduced. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+|Juggernaut |Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided wearing a full set of heavy armor.
  
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Marksman's Focus |Aiming precisely seems to slow time by 75% while zooming, -25% weapon weight penalties.
+ 
+<p class="text-delta">One Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Mace Focus III |Power attack damage increased by 15%, +7.5 armor penetration per Mace.
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+ 
+<p class="text-delta">Two Handed</p>
+
+|Great Weapon Mastery I |Diligent practice bolsters the damage and ease of two-handed weapon attacks. Damage +20%, -50% weapon weight penalties.
+|Cleave |Power attacks can cut down multiple foes with a single sweeping blow.
+|Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
+|Devastating Charge |Perform a leaping power attack while sprinting, reducing enemies to smithereens. Unlocks sprinting power attack, -25% weapon weight penalties.
+|Battle Axe Focus I |Damage +5%, +10 armor penetration with two-handed War Axes.
+
+<p class="text-gamma">Requiem Perks (Universal)</p>
+
+|Trait Follower |Grants +60 carry weight (+100 more if option enabled). Followers can benefit from bags of holding.
+|Charisma Bonus |If player has Leadership perk, fortifies follower skills based on player's bonuses (see universal perks reference).
+
 ***
 
 </div>
@@ -2913,42 +3431,55 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Male Dunmer Conjurer |Location |Tel Mithryn
-|Level Min/Max |1/25 |Prerequisite |From the Ashes
+|Level Min/Max |25/50 |Prerequisite |From the Ashes
 |Blades |Yes|Marriage |No
-|Steward |Yes|RefID |040177DB
+|Steward |Yes|RefID |017777
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
 <p class="text-gamma">Perks</p>
- 
+
 <p class="text-delta">Alteration</p>
 
 |Magic Resistance II |20% Magic Resistance
 |Stability|All Alteration spells last 50% longer.
- 
+
 <p class="text-delta">Conjuration</p>
 
+|Novice Conjuration|Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Adept Conjuration|Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Expert Conjuration|Expert spells cost 55% less magicka, and improve 4% per skill level.
+|Master Conjuration|Master spells cost 55% less magicka, and improve 5% per skill level.
 |Stabilized Binding |Extends the duration of summoned Spirits and Daedra by 50%.
 |Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
  
 <p class="text-delta">Destruction</p>
 
 |Pyromancy I|All fire spells deal 15% more damage.
+|Pyromancy II|All fire spells deal 30% more damage.
 |Cryomancy I|All frost spells deal 15% more damage.
-|Impact|Dual-casted projectile Destruction spells have 25% chance of staggering targets.
+|Cryomancy II|All frost spells deal 30% more damage.
+|Impact I|Dual-casted projectile Destruction spells have 25% chance of staggering targets.
+|Impact II|Dual-casted projectile Destruction spells have 50% chance of staggering targets.
+|Rune Mastery|Cast and maintain more powerful runes. May maintain 3 runes simultaneously.
  
+<p class="text-delta">Lockpicking</p>
+
+|Locksmithing Lore|Meticulous study of lockpicking boosts expertise by 25 points. Pick adept locks effortlessly. Attempt to open Expert locks.
+
 <p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
 |Respite|Healing spells restore both health and stamina.
 |Mysticism|Spells that affect the Undead and Daedra are 10% more effective and last 25% longer.
 |Improved Wards |Arcane wards are 25% more effective, absorb 25% Magicka from hostile spells, and cost 5% less Magicka to cast.
- 
+
 <p class="text-delta">Sneak</p>
 
 |Muffled Movement |While not wearing any Heavy Armor, adjusts your skill to behave as if you had an extra 15 points in it. Stacks with similar effects.
 |Light Steps|Will not trigger traps.
- 
+
 <p class="text-gamma">Spells</p>
  
 <p class="text-delta">Alteration</p>
@@ -2982,9 +3513,9 @@ Unique
 <p class="text-gamma">Info</p>
  
 |Race/Class |Male Dunmer Spellsword |Location |Raven Rock
-|Level Min/Max |1/60 |Prerequisite |Pay them
+|Level Min/Max |45/80 |Prerequisite |Pay them
 |Blades |Yes|Marriage |No
-|Steward |No|RefID |04038565
+|Steward |No|RefID |038560
 
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
@@ -2995,6 +3526,7 @@ Unique
 |Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Adept Conjuration |Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Expert Conjuration |Expert spells cost 55% less magicka, and improve 4% per skill level.
 |Stabilized Binding |Extends the duration of summoned Spirits and Daedra by 50%.
 |Extended Binding |Can summon Daedra and Spirits up to five times farther away for 25% less magicka.
 |Summoner's Insight |Can dual-cast Conjuration spells to increase their duration by 125% for double magicka cost.
@@ -3006,15 +3538,16 @@ Unique
 |Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
 |Agile Spellcasting |Specialized training allows you to cast spells in light armor without penalties.
 |Windrunner|Stamina regenerates 50% faster when standing still or walking, and the stamina penalty for running is nullified.
-|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves.
+|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves. (FormID: 18F5A8)
 |Combat Reflexes |Can enter a combat trance, slowing the world around him by 50% for 30 seconds. The ability costs 90 stamina initially, and 5 stamina per second after. Wearing any Heavy Armor blocks this ability.
 |Meteoric Reflexes |Lightning-fast reflexes grant a 50% chance to mitigate 95% of all incoming melee damage, provided you are not wearing any heavy armor.
-|Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina
+|Dodge |Your trained reflexes allow you to dodge incoming attacks. Press Sprint while moving to dodge. Expends 15 points of stamina.
  
 <p class="text-delta">One Handed</p>
 
-|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties
-|Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration
+|Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties.
+|Penetrating Strikes |-50% power attack stamina cost, +5 armor penetration.
 |Sword Focus III |+24% attack speed, +21 armor penetration with Swords.
 |Powerful Strike |Power attack damage increased by 20%.
 |Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
@@ -3024,6 +3557,10 @@ Unique
 |Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
 |Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
 |Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
+
+<p class="text-gamma">Requiem Perks (Universal)</p>
+
+|Trait Follower |+60 carry weight (Immersive Jewelry option: +100). Benefit from bags of holding. (FormID: 270B76)
 
 <p class="text-gamma">Spells</p>
  
@@ -3050,15 +3587,21 @@ Unique
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p>
  
-|Race/Class |Orismer Ranger|Location |Largashbur
-|Level Min/Max |1/30 |Prerequisite |The Cursed Tribe
+|Race/Class |Female Orc Ranger|Location |Largashbur
+|Level Min/Max |30/60 |Prerequisite |The Cursed Tribe
 |Blades |Yes|Marriage |No
-|Steward |Yes|RefID |00019E1B
+|Steward |Yes|RefID |019E1A
 
 |Morality: 3 – No crime, where the follower will refuse to commit crimes. However, they will not report crimes you commit even if they are witnesses, unless you steal items they own.
 
 <p class="text-gamma">Perks</p>
- 
+
+<p class="text-delta">Block</p>
+
+|Improved Blocking|Blocking technique mitigates 25% more damage.
+|Expert Blocking|Blocks 50% more damage with weapon or shield. Each successful block restores 12 points of stamina.
+|Strong Grip|Blocking with shield or weapon is 40% more effective. The equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+
 <p class="text-delta">Heavy Armor</p>
 
 |Conditioning|After some basic training, stamina drain from wearing heavy armor is negated. Mass of Equipped gear are reduced.
@@ -3066,6 +3609,33 @@ Unique
 |Combat Training |Heavy armor power attacks require less stamina to execute, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear are further reduced.
 |Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear are further reduced.
 |Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear are further reduced.
+|Juggernaut|Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided you are wearing a full set of heavy armor. Mass of Equipped gear are also further reduced.
+
+<p class="text-delta">Lockpicking</p>
+
+|Locksmithing Lore|Meticulous study of lockpicking boosts expertise by 25 points. Pick adept locks effortlessly. Attempt to open Expert locks.
+
+<p class="text-delta">Mace</p>
+
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
+|Piercing Shot|+50% armor penetration from ammunition.
+|Penetrating Shot |+100% armor penetration from ammunition.
+
+<p class="text-delta">Restoration</p>
+
+|Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Adept Restoration|Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Expert Restoration|Expert spells cost 55% less magicka, and improve 4% per skill level.
+
+<p class="text-delta">Evasion</p>
+
+|Vexing Flanker |Running melee attacks receive 4% damage bonus for every piece of Evasion armor or clothing currently equipped, for up to 16% total bonus. Immune to killmoves. (FormID: 18F5A8)
 
 ***
 
@@ -3107,6 +3677,7 @@ Unique
 <p class="text-delta">Marksman</p>
 
 |Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
 |Power Shot|70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
 |Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
@@ -3114,25 +3685,48 @@ Unique
  
 <p class="text-delta">One Handed</p>
 
-|Martial Arts|Unarmed power attacks deal 30 more damage and cost 66% less stamina.
+|Sword Focus I |+8% attack speed, +3.5 armor penetration per Sword.
+|Sword Focus II |+16% attack speed, +3.5 armor penetration per Sword.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+|War Axe Focus II |Base Damage increased by 15%, +20 armor penetration per War Axe.
+|War Axe Focus III |Base Damage increased by 30%, +30 armor penetration per War Axe.
+|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
+|Flurry Rank III |One-handed and unarmed attacks are 40% faster.
+|Powerful Strike |Power attack damage increased by 20%.
+|Powerful Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Weapon Mastery II |Damage increased by 40%, -50% weapon weight penalties.
+|Martial Arts |Unarmed power attacks deal 30 more damage and cost 66% less stamina.
  
 <p class="text-delta">Two Handed</p>
 
-|Great Weapon Mastery II|Damage increased by 40%, -50% weapon weight penalties.
-|Barbaric Might |-50% power attack stamina cost, +5 armor penetration.
-|Battleaxe Focus III |Damage increased by 30%, +30 armor penetration.
-|Greatsword Focus III |Attack speed +30%, +21 armor penetration.
+|Barbaric Might |Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|Cleave |Power attacks can cut down multiple foes with a single sweeping blow.
+|Devastating Cleave |Enhanced cleave with terrifying finesse and power. Sideways power attacks can knock down.
+|Devastating Strike |Two-handed power attacks are even deadlier, dealing 25% more power attack damage.
+|Great Weapon Mastery I |Damage +20%, -50% weapon weight penalties.
+|Great Weapon Mastery II |Damage +40%, -50% weapon weight penalties.
+|Greatsword Focus |Attack speed increased with two-handed bladed weapons. Armor penetration increased.
+|Warhammer Focus I |Power attack damage +5%, +15 armor penetration with two-handed blunt weapons.
+|Warhammer Focus II |Power attack damage +10%, +30 armor penetration.
 |Warhammer Focus III |Power attack damage +15%, +45 armor penetration.
-|Devastating Charge |Unlocks sprinting power attack, -25% weapon weight penalties.
-|Devastating Strike |Power attack damage +25%.
-|Cleave|Sideways power attack can hit multiple targets.
-|Devastating Cleave |Sideways power attacks can knock down.
-|Mighty Strike|Damage +25%.
+|Mighty Strike |A single strike from your two-handed weapon can fell almost any foe. (Damage x1.25)
  
 <p class="text-delta">Sneak</p>
 
-|Light Steps|Will not trigger traps.
+|Light Steps|Will not trigger any traps.
+|Muffled Movement |Move quietly without triggering sound alarms.
  
+<p class="text-delta">Two Handed</p>
+
+|Mighty Strike |A single strike from your two-handed weapon can fell almost any foe. (Damage x1.25)
+ 
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
+
 ***
 
 </div>
@@ -3151,8 +3745,58 @@ Unique
 |Morality: 0 – Any crime, where the follower will commit any requested crime.
 
 <p class="text-gamma">Perks</p>
+ 
+<p class="text-delta">Block</p>
 
- None
+|Improved Blocking |Blocking technique mitigates 25% more damage.
+|Experienced Blocking |Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Strong Grip |Blocking with shield or weapon is 40% more effective. Equipped shield can deflect arrows, grants 10% more armor rating, and weighs 75% less.
+|Powerful Bashes |Unlocks Power Bashing with a weapon or shield. Successful Power Bashes stagger most foes.
+|Elemental Protection |Raised shield negates 50% of all incoming elemental damage.
+|Overpowering Bashes |Power bashing with shield will sometimes knock opponents over. Wearing heavier gear improves the chance of success.
+ 
+<p class="text-delta">Heavy Armor</p>
+
+|Conditioning |Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
+|Combat Training |Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
+|Relentless Onslaught |Sprint in heavy armor at no stamina penalty. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
+|Expert Training |Heavy armor weight is reduced by 25%. Each piece of heavy armor grants 5% increased stamina.
+|Power of the Combatant |Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear is further reduced.
+ 
+<p class="text-delta">Marksman</p>
+
+|Ranged Combat Training |Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
+|Eagle Eye |Grants armor penetration with ranged attacks. (Zoom feature applies only to player.)
+|Power Shot |70% chance to stagger targets (Exceptions are very large or tough enemies like giants, mammoths, Centurions, etc.).
+|Precise Aim |Damage increased by 20% with bow and crossbow attacks.
+|Piercing Shot |+50% armor penetration from ammunition.
+|Penetrating Shot |+100% armor penetration from ammunition.
+ 
+<p class="text-delta">One Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+|War Axe Focus I |Base Damage increased by 5%, +10 armor penetration per War Axe.
+|War Axe Focus II |Base Damage increased by 15%, +20 armor penetration per War Axe.
+|War Axe Focus III |Base Damage increased by 30%, +30 armor penetration per War Axe.
+|Mace Focus I |Power attack damage increased by 5%, +7.5 armor penetration per Mace.
+|Mace Focus II |Power attack damage increased by 10%, +7.5 armor penetration per Mace.
+|Flurry Rank I |One-handed and unarmed attacks are 10% faster.
+|Flurry Rank II |One-handed and unarmed attacks are 25% faster.
+|Flurry Rank III |One-handed and unarmed attacks are 40% faster.
+|Powerful Strike |Power attack damage increased by 20%.
+ |Stunning Charge |Forward power attacks can knock down.
+ 
+<p class="text-delta">Restoration</p>
+
+|Respite |Healing spells restore both health and stamina.
+|Focused Mind |Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
+
+<p class="text-delta">Requiem Perks (Universal)</p>
+
+|Trait Follower (270B76) |+60 carry weight (+100 with option), bags of holding.
+|Charisma Bonus (270B77) |Skill fortification with Leadership perk.
 
 </div>
 </details>
@@ -3182,14 +3826,11 @@ Unique
 |Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
- 
+|Overdraw|Bows do 140% damage
+
 <p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
- 
-<p class="text-delta">Unique</p>
-
-|Overdraw|Bows do 140% damage
 
 <p class="text-gamma">Spells</p>
 
@@ -3223,14 +3864,11 @@ Unique
 |Precise Aim|Damage increased by 20% with bow and crossbow attacks.
 |Piercing Shot|+50% armor penetration from ammunition.
 |Penetrating Shot |+100% armor penetration from ammunition.
- 
+|Overdraw|Bows do 140% damage
+
 <p class="text-delta">Restoration</p>
 
 |Improved Healing |Healing spells are 25% more effective.
- 
-<p class="text-delta">Unique</p>
-
-|Overdraw|Bows do 140% damage
 
 <p class="text-gamma">Spells</p>
 
@@ -3258,26 +3896,29 @@ Unique
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">Alchemy</p>
+
+|Improved Poisons |Expert distillation produces 25% deadlier poisons.
+|Improved Elixirs |Growing knowledge improves the efficacy of beneficial potions by 25%. Restore spells grant additional 25% boost.
+|Purification Process |Advanced filtration enhances all effects, purifies mixtures: poisons have no positive effects, potions have no negative effects.
+ 
+<p class="text-delta">Conjuration</p>
+
+|Novice Conjuration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Conjuration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Adept Conjuration |Adept spells cost 55% less magicka, and improve 3% per skill level.
+ 
 <p class="text-delta">Restoration</p>
 
-|Mysticism|Spells that affect the Undead and Daedra are 10% more effective and last 25% longer.
-|Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
-|Improved Healing|Healing spells are 25% more effective.
-|Respite|Healing spells restore both health and stamina.
-|Apprentice Restoration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Adept Restoration|Adept spells cost 55% less magicka, and improve 3% per skill level.
-|Expert Restoration|Expert spells cost 55% less magicka, and improve 4% per skill level.
-|Master Restoration|Master spells cost 55% less magicka, and improve 5% per skill level.
-
-<p class="text-delta">Alteration</p>
-
-|Novice Alteration|Novice spells cost 55% less magicka, and improve 1% per skill level.
-
-<p class="text-delta">Destruction</p>
-
-|Novice Destruction|Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Adept Destruction|Adept spells cost 55% less magicka, and improve 3% per skill level.
-|Expert Destruction|Expert spells cost 55% less magicka, and improve 4% per skill level.
+|Novice Restoration |Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Restoration |Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Adept Restoration |Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Expert Restoration |Expert spells cost 55% less magicka, and improve 4% per skill level.
+|Master Restoration |Master spells cost 55% less magicka, and improve 5% per skill level.
+|Improved Healing |Healing spells are 25% more effective.
+|Respite |Healing spells restore both health and stamina.
+|Mysticism |Spells that affect the Undead and Daedra are 10% more effective and last 25% longer.
+|Focused Mind |Can keep concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
 
 ***
 
@@ -3299,32 +3940,41 @@ Unique
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">Alteration</p>
+
+|Telekinesis Mastery |Telekinesis grants a permanent +50 carry weight bonus and 50% faster lifting speed.
+ 
 <p class="text-delta">Evasion</p>
 
-|Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
-|Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
-|Agility|Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
-
-<p class="text-delta">Sneak</p>
-
-|Light Steps|Will not trigger any traps.
-|Deft Strike|Sneak attacks with Crossbows, Bows, Daggers, and Swords will gain 50% Armor penetration.
-|Stealth|Practiced finesse allows moving silently and remaining unseen.
-
-<p class="text-delta">One Handed</p>
-
-|Sword Focus I|+8% attack speed, +3.5 armor penetration per Sword.
-|Weapon Mastery I|Damage increased by 20%, -50% weapon weight penalties
-
+|Agility |Light armor weight penalties are reduced. Take 25% less damage from falling. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
+|Finesse |Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
+|Dexterity |Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
+ 
 <p class="text-delta">Lockpicking</p>
 
-|Locksmithing Lore|Meticulous study of lockpicking boosts expertise by 25 points. Adept locks can be picked with ease and their opening position is found much faster.
+|Cheap Tricks |Learn basic lock picking and gain 20 skill expertise. Pick novice and apprentice locks easily, adept locks remain challenging. Forge iron ingots into lockpicks with basic smithing.
+ 
+<p class="text-delta">One Handed</p>
+
+|Weapon Mastery I |Damage increased by 20%, -50% weapon weight penalties.
+|Powerful Strike |Power attack damage increased by 20%.
+ 
+<p class="text-delta">Sneak</p>
+
+|Light Steps |Will not trigger any traps.
+|Acrobatics |Perform a silent forward roll to avoid most physical knockdowns. Sneaking ability is 10% more effective. Heavy armor nullifies these effects.
+|Stealth Rank II |Sneaking ability is 35% more effective. Heavy armor nullifies this bonus.
 
 <p class="text-delta">Unique</p>
 
-|Backstab|Exploit weaknesses in foes' armor for +25 damage when sneak attacking with daggers, swords and ranged weapons.
-|Reduce Damage|Reduce incoming damage by 90% while escaping Cidhna Mine.
+|Backstab |Exploit weaknesses in foes' armor for +25 damage when sneak attacking with daggers, swords and ranged weapons.
+|Reduce Damage |Reduce incoming damage by 90% while escaping Cidhna Mine.
 |Increase Damage |Increase damage dealt by 1000% while escaping Cidhna Mine.
+
+<p class="text-gamma">Requiem Perks (Universal)</p>
+
+|Trait Follower |Grants +60 carry weight (+100 more if option enabled). Followers can benefit from bags of holding.
+|Charisma Bonus |If player has Leadership perk, fortifies follower skills based on player's bonuses (see universal perks reference).
 
 ***
 
@@ -3337,19 +3987,22 @@ Unique
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p>
  
-|Finesse|Enhances power attack damage by 3% for every piece of Evasion armor or clothing currently equipped, for a maximum of 12%.
-|Dexterity|Lessens the stamina cost of power attacks by 6% for every piece of light armor or clothing equipped, up to 24% maximum reduction.
-|Agility|Light armor weight penalties are reduced. Damage from falling reduced by 25%. Wearing heavy armor negates all bonuses. Each Evasion perk grants: +25% skill XP when taking damage, and -2% reduction to incoming physical damage.
+|Race/Class |Argonian Male Spellsword|Location |Cidhna Mine / Karthwasten
+|Level Min/Max |1/50|Prerequisite |Cidhna Mine Expanded
+|Blades |No|Marriage |No
+|Steward |No|RefID |00ED93
 
-<p class="text-delta">Sneak</p>
+|Morality: 0 – Any crime, where the follower will commit any requested crime.
 
-|Light Steps|Will not trigger any traps.
-|Stealth|Practiced finesse allows moving silently and remaining unseen.
+<p class="text-gamma">Perks</p>
 
-<p class="text-delta">One Handed</p>
+<p class="text-delta">Lockpicking</p>
 
-|Sword Focus II|+16% attack speed, +3.5 armor penetration per Sword.
-|Weapon Mastery I|Damage increased by 20%, -50% weapon weight penalties
+|Locksmithing Lore|Meticulous study of lockpicking boosts expertise by 25 points. Pick adept locks effortlessly. Attempt to open Expert locks.
+
+<p class="text-delta">One-Handed</p>
+
+|Mace Focus I|Power attack damage increased by 5%, +7.5 armor penetration per Mace.
 
 <p class="text-delta">Conjuration</p>
 
@@ -3360,19 +4013,21 @@ Unique
 
 |Novice Destruction|Novice spells cost 55% less magicka, and improve 1% per skill level.
 
-<p class="text-delta">Restoration</p>
+<p class="text-delta">Unique</p>
 
-|Agile Spellcasting|Spellcasting in evasion armor does not prevent receiving the benefits of Evasion perks. Casting speed is reduced by 1% per Destruction, Conjuration, Restoration, and Illusion skill level.
- 
-<p class="text-delta">Sneak</p>
+|Cidhna Exile Fortitude|Survivor of Cidhna Mine imprisonment. Fortitude grants +50 health, 10% reduced magic damage, and +15 poison resistance from escape.
 
-|Light Steps|Will not trigger traps.
+<p class="text-gamma">Requiem Perks (Universal)</p>
+
+|Trait Follower|+60 carry weight (Immersive Jewelry option: +100). Benefit from bags of holding. (FormID: 270B76)
+|Charisma Bonus|If player has Leadership perk, this follower's skills are fortified. (FormID: 270B77)
 
 <p class="text-gamma">Spells</p>
  
 <p class="text-delta">Conjuration</p>
 
 |Bound Sword
+|Bound Dagger
 
 ***
 
@@ -3385,17 +4040,40 @@ Unique
 <div class="Info" markdown="1"> 
 <p class="text-gamma">Info</p>
  
-|Race/Class |Breton Elemental Mage |Location |College of Winterhold
-|Level Min/Max |25/75 |Prerequisite |None(?)
-|Blades |?|Marriage |Yes(?)
-|Steward |?|RefID |FE03BD63
+|Race/Class |Breton Elemental Mage|Location |College of Winterhold
+|Level Min/Max |25/75|Prerequisite |Immersive College NPCs
+|Blades |No|Marriage |Yes
+|Steward |No|RefID |000D62
 
-|Morality: ?
+|Morality: 50 – Will not commit any crime but may commit assault, theft, trespassing, pickpocketing.
 
 <p class="text-gamma">Perks</p>
- 
- None
- 
+
+<p class="text-delta">Alteration</p>
+
+|Novice Alteration|Novice spells cost 55% less magicka, and improve 1% per skill level.
+
+<p class="text-delta">Conjuration</p>
+
+|Novice Conjuration|Novice spells cost 55% less magicka, and improve 1% per skill level.
+|Apprentice Conjuration|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
+|Adept Conjuration|Adept spells cost 55% less magicka, and improve 3% per skill level.
+|Expert Conjuration|Expert spells cost 55% less magicka, and improve 4% per skill level.
+|Master Conjuration|Master spells cost 55% less magicka, and improve 5% per skill level.
+|Rune Mastery|Cast and maintain more powerful runes. May maintain 3 runes simultaneously.
+
+<p class="text-delta">Destruction</p>
+
+|Novice Destruction|Novice spells cost 55% less magicka, and improve 1% per skill level.
+
+<p class="text-delta">Unique</p>
+
+|College of Winterhold Initiate|College education grants +10% Magicka regeneration and +2% spell effectiveness from arcane training.
+
+<p class="text-gamma">Requiem Perks (Universal)</p>
+
+|Trait Follower|+60 carry weight (Immersive Jewelry option: +100). Benefit from bags of holding. (FormID: 270B76)
+
 <p class="text-gamma">Spells</p>
  
 <p class="text-delta">Alteration</p>
@@ -3403,9 +4081,15 @@ Unique
 |Mage Armor on Self (Rank II)
 |Paralyze (Rank I)
  
+<p class="text-delta">Conjuration</p>
+
+|Conjured Dremora Lord
+|Summon Storm Atronach
+ 
 <p class="text-delta">Destruction</p>
 
 |Firebolt
+|Fire Rune
  
 <p class="text-delta">Restoration</p>
 
@@ -3702,20 +4386,7 @@ Varies
  <summary> Missing/Inappropriate Perks </summary>
 
 <div class="Info" markdown="1"> 
-##### Housecarls
-
- Valdimar
- 
- |Has "Focused Mind" w/o having the "Apprentice Restoration" perk.
- |Has Apprentice level Destruction Spell "Ice Spike" (assuming this is Icy Shard) but not the "Apprentice Destruction" perk.
- |Lacks the HA casting perks, making his magicka usage astronomical.
-
-
 ##### Brotherhood
- 
- Cicero
- 
- |Lacks any weapon perks outside of "Armsman", nor does he have any armor perks.
  
  Dark Brotherhood Initiate Female
  
@@ -3728,38 +4399,7 @@ Varies
  
 ##### College
  
- J'zargo
- 
- |Has "Improved Mage Armor" with none of the pre-reqs, nor does he have any rank of the Mage Armor spell.
- |Has "Paralyze (Rank I)" and "Magelight", but no Alteration casting perks, point-of-fact, he has no alteration perks whatsoever
- |Has "Enraging Orb" and "Soul Trap (Rank I)" with no appropriate perks for either spell.
- |J'zargo is a very confused magic cat man...
- 
- Brelyna
- 
- |Doesn't have the "Novice Alteration" or "Apprentice Alteration" perks, but has ones beyond them.
- |Doesn't have the "Novive Conjuration" perk, but has ones beyond it.
- |Has the "Flames" spell, not Firesparks. Imagine it still does the same thing though.
-
-##### Companions
- 
- Njada Stonearm
- 
- |Doesn't have "Power of the Combatant" like other HA Companions.
- 
- Ria
- 
- |Has "Marksmans Focus" w/o having "Eagle Eye".
- |Doesn't have "Ranger" like other companions.
-
- Torvar
- 
- |Doesn't have "Power of the Combatant" like other HA Companions.
- 
-
-##### Dawnguard
-
- Ingjard
+ Celann
  
  |Don't know if they need "Vexing Flanker" to take "Combat Reflexes".
  |Has "Rapid Reload" and "Power Shot" w/o "Eagle Eye".
@@ -3778,11 +4418,6 @@ Varies
  |Has "Finesse", "Dexterity", and "Combat Reflexes" w/o "Agility".
  |Has "Rapid Reload" and "Quick Shot" w/o "Eagle Eye".
  
- Beleval
- 
- |Has "Rapid Reload", "Power Shot", "Quick Shot", and "Stunning Precision" w/o "Eagle Eye".
- |Has "Dexterity" despite being specialized in HA and w/o pre-req perks.
- 
  Celann
  
  |Has "Meteoric Reflexes" w/o "Windrunner".
@@ -3797,21 +4432,6 @@ Varies
  
 ##### Misc Followers
  
- Adelasia Vendicci
- 
- |Lacks any perks, save the 4 they have in HA.
- 
- Annekke Crag-Jumper
- 
- |Only possesses 4 perks in total, all are correct but maybe they need a few more?
- 
- Aranea Lenith
- 
- |Has "Agility", "Agile Spellcasting", and "Windrunner" but no other perks between them.
- |Has "Light Steps" but no other perks.
- |Despite only being an Apprentice Conjurer, possesses multiple high-level spells, including the master-tier "Summon Storm Thrall".
- |Same issue as above but with Destruction, lacking the appropriate perks for their expert-tier shock spell.
- 
  Belrand
  
  |Dude's a fuckin mess.
@@ -3821,69 +4441,18 @@ Varies
  |Specializes in HA and magic, but lacks any of the HA Casting perks.
  |Has "Penetrating Strikes" and "War Axe Focus I" but not "Weapon Mastery".
  
- Benor
- 
- |Lacks weapon perks, only has HA perks.
- 
- Borgakh the Steel Heart
- 
- |Has "Light Steps" w/o any pre-req perks.
- 
  Derkeethus
  
  |Has multiple perks w/o their pre-reqs and in-fact lacks the first perk in any tree they have perks in. (O_o)
  
- Eola
- 
- |Same problem, lacks many pre-req perks.
- |Has no cost-reduction perks despite possessing a few powerful spells.
- 
  Erandur
  
- |These mages' be fuckin cheatin!
- |Has "Magic Resistance III" w/o any pre-reqs.
- |Has "Agile Spellcasting" and "Windrunner" w/o "Finesse" and "Dexterity".
- |Has "Light Steps" w/o any pre-reqs.
- |Has Destruction spells w/o cost-reduction perks.
- |Has Expert-tier Conjuration spells w/o the appropriate cost-reduction perks.
- 
- Erik The Slayer
- 
- |Lacks any weapons perks save for the unique "Armsman".
+ |Has Destruction spells (Firebolt/Firesparks) w/o Novice Destruction cost-reduction perk.
  
  Frea
  
  |Lacks cost-reduction perks for Alteration (Expert) and Restoration (Adept) despite having spells in those schools.
  |Same as above, has many Alteration and Restoration perks w/o their pre-reqs.
- 
- Ghorbash the Iron Hand
- 
- |Has "Power Shot" w/o "Eagle Eye".
- 
- Golldir
- 
- |Has "Power Shot" and "Quick Shot" w/o "Eagle Eye".
- 
- Illia
- 
- |Has "Windrunner" and "Agile Spellcasting" w/o "Dexterity" and "Finesse".
- |Has "Light Steps" w/o any pre-reqs.
- |Has Expert-tier Restoration spells w/o cost-reduction perks.
- |Has Adept-tier Conjuration spell w/o cost-reduction perks.
- 
- Jenassa
- 
- |Has "Strong Grip" but w/o "Improved Blocking".
- |Has "Power Shot" and "Piercing Shot" w/o "Eagle Eye" and "Precise Aim" respectively.
- |Has "Combat Reflexes" w/o "Vexing Flanker".
- |Has "Light Steps" w/o "Muffled Movement".
- |Has "Immunization" w/o any pre-reqs.
- 
- Kharjo
- 
- |Has "Combat Meditation" w/o pre-reqs and despite having no spells at all... Must have been a career change?
- |Has "Defensive Stance" w/o any other block perks.
- |Lacks the "Weapon Mastery" and "Penetrating Strikes" perks for One-Handed.
  
  Marcurio
  
@@ -3898,12 +4467,7 @@ Varies
  
  Ralis Sedarys
  
- |"Dexterity" on the way to "Windrunner".
- |Must be one cold, heartless bitch cause she's got "Cryomancy I" but no spells.
- 
- Stenvar
- 
- |Lacks any weapon perks.
+ |Has Frost spell school training but lacks cost-reduction perks for ice magic.
  
  Talvas Fathryon
  
@@ -3916,53 +4480,12 @@ Varies
  
  |SO close. Has Destruction spells but no Destruction perks.
  
- Ugor
- 
- |Has no weapon perks.
- 
- Uthgerd the Unbroken
- 
- |Has "Power Shot" w/o "Eagle Eye".
- |Has "Light Steps" w/o any pre-reqs.
- 
 ##### Mod-added Followers
 
- Ralya
- 
- |Has "Cutpurse" w/o "Nimble Fingers". How's she succeeding w/o the first perk? Can followers even pickpocket?
- 
- Runs-With-Sticks
- 
- |Has "Light Steps" w/o any pre-reqs.
- |Has "Finesse" w/o "Agillity".
- |Has "Master Conjuration" but only a single, novice-tier spell (Bound Sword).
- |Has "Sword Focus II" w/o "Weapon Mastery".
- 
- Amanra Solas
- 
- |Has "Respite" w/o "Improved Healing".
- 
- Soh'ja Zahan
- 
- |Has "Light Steps" w/o any pre-reqs.
- |Lacks any other perks.
- 
- Tae-Ja
- 
- |Has "Light Steps" w/o any pre-reqs.
- |Lacks any other perks.
+
  
 ### HAS NO PERKS AT ALL
  
-##### Misc Followers
- 
-* Ahtar the Jailer
-* Lob
-* Ogol
-* Roggi Knot-Beard
-* Vorstag
-* Sameth
-
 ##### Dawnguard Followers
 * Knight-Paladin Gelebor 
 

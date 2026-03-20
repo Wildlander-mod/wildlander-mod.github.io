@@ -241,6 +241,9 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | **Stability** | All Alteration spells last 50% longer. |
 | **Spell Armor** | Mage Armor reduces elemental damage by 15%. |
 | **Magical Absorption** | 30% chance to absorb spells as magicka. |
+| **Mage's Endurance** | Increases magicka by 50. | TBD_MARCURIO_ALT1 |
+| **Density** | Raises armor rating by 50 points and grants 25% frost resistance when under the effects of an Alteration spell. | TBD_MARCURIO_ALT2 |
+| **Spellmaking** | Can craft custom spells at Altars of Spellcraft. | TBD_MARCURIO_ALT3 |
 | **Metamagical Thesis** | All spells cost 10% less magicka. | 21792B |
 | **Metamagical Empowerment** | Duration and magnitude of all spells are enhanced by 20%. | 21792C |
 
@@ -290,6 +293,10 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | **Electromancy Rank II** | All lightning spells deal 30% more damage. |
 | **Electrostatic Discharge** | Lightning spells can chain between nearby targets. |
 | **Lightning Mastery** | Lightning spells reduce target resistances. |
+| **Savage Impact** | Destruction spells deal 10% more damage. Every point of stamina costs 0.04 magicka for dual-cast spells. | TBD_MARCURIO_DEST1 |
+| **Blast Wave I** | Destruction spell projectiles have 10% more knockback. | TBD_MARCURIO_DEST2 |
+| **Blast Wave II** | Destruction spell projectiles have 20% more knockback. | TBD_MARCURIO_DEST3 |
+| **Blast Wave III** | Destruction spell projectiles have 30% more knockback. | TBD_MARCURIO_DEST4 |
 | **Rune Mastery** | Cast and maintain more powerful runes. May maintain 3 runes simultaneously. |
 
 ---
