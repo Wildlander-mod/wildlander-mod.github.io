@@ -1,0 +1,12 @@
+﻿=== RECIPE DATA AVAILABLE FOR PHASE 3 ===
+
+Alch-recipes.csv - 121 records
+AlchFood-recipes.csv - 422 records
+Ammo-recipes.csv - 237 records
+Armor-recipes.csv - 3339 records
+Book-recipes.csv - 874 records
+Ingr-recipes.csv - 54 records
+Misc-recipes.csv - 899 records
+OTHER-recipes.csv - 1314 records
+UNRESOLVED-ITEMS.csv - 12 records
+Weap-recipes.csv - 1102 records

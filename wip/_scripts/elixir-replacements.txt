@@ -1,0 +1,333 @@
+﻿Old Name | New Name
+================================================================================
+Cure Disease (Dilute) | Diluted Glowing Elixir
+Cure Disease (Weak) | Weak Glowing Elixir
+Cure Disease (Mild) | Mild Glowing Elixir
+Cure Disease (Strong) | Strong Glowing Elixir
+Cure Disease (Potent) | Potent Glowing Elixir
+Cure Disease (Concentrated) | Concentrated Glowing Elixir
+Damage Health (Dilute) | Diluted Grainy Elixir
+Damage Health (Weak) | Weak Grainy Elixir
+Damage Health (Mild) | Mild Grainy Elixir
+Damage Health (Strong) | Strong Grainy Elixir
+Damage Health (Potent) | Potent Grainy Elixir
+Damage Health (Concentrated) | Concentrated Grainy Elixir
+Damage Health Duration (Dilute) | Diluted Neon Elixir
+Damage Health Duration (Weak) | Weak Neon Elixir
+Damage Health Duration (Mild) | Mild Neon Elixir
+Damage Health Duration (Strong) | Strong Neon Elixir
+Damage Health Duration (Potent) | Potent Neon Elixir
+Damage Health Duration (Concentrated) | Concentrated Neon Elixir
+Damage Health Ravage (Dilute) | Diluted Stale Elixir
+Damage Health Ravage (Weak) | Weak Stale Elixir
+Damage Health Ravage (Mild) | Mild Stale Elixir
+Damage Health Ravage (Strong) | Strong Stale Elixir
+Damage Health Ravage (Potent) | Potent Stale Elixir
+Damage Health Ravage (Concentrated) | Concentrated Stale Elixir
+Damage Magicka (Dilute) | Diluted Chunky Elixir
+Damage Magicka (Weak) | Weak Chunky Elixir
+Damage Magicka (Mild) | Mild Chunky Elixir
+Damage Magicka (Strong) | Strong Chunky Elixir
+Damage Magicka (Potent) | Potent Chunky Elixir
+Damage Magicka (Concentrated) | Concentrated Chunky Elixir
+Damage Magicka Duration (Dilute) | Diluted Mushy Elixir
+Damage Magicka Duration (Weak) | Weak Mushy Elixir
+Damage Magicka Duration (Mild) | Mild Mushy Elixir
+Damage Magicka Duration (Strong) | Strong Mushy Elixir
+Damage Magicka Duration (Potent) | Potent Mushy Elixir
+Damage Magicka Duration (Concentrated) | Concentrated Mushy Elixir
+Damage Magicka Rate (Dilute) | Diluted Pale Elixir
+Damage Magicka Rate (Weak) | Weak Pale Elixir
+Damage Magicka Rate (Mild) | Mild Pale Elixir
+Damage Magicka Rate (Strong) | Strong Pale Elixir
+Damage Magicka Rate (Potent) | Potent Pale Elixir
+Damage Magicka Rate (Concentrated) | Concentrated Pale Elixir
+Damage Magicka Ravage (Dilute) | Diluted Golden Elixir
+Damage Magicka Ravage (Weak) | Weak Golden Elixir
+Damage Magicka Ravage (Mild) | Mild Golden Elixir
+Damage Magicka Ravage (Strong) | Strong Golden Elixir
+Damage Magicka Ravage (Potent) | Potent Golden Elixir
+Damage Magicka Ravage (Concentrated) | Concentrated Golden Elixir
+Damage Speed (Dilute) | Diluted Gelatinous Elixir
+Damage Speed (Weak) | Weak Gelatinous Elixir
+Damage Speed (Mild) | Mild Gelatinous Elixir
+Damage Speed (Strong) | Strong Gelatinous Elixir
+Damage Speed (Potent) | Potent Gelatinous Elixir
+Damage Speed (Concentrated) | Concentrated Gelatinous Elixir
+Damage Stamina (Dilute) | Diluted Bitter Elixir
+Damage Stamina (Weak) | Weak Bitter Elixir
+Damage Stamina (Mild) | Mild Bitter Elixir
+Damage Stamina (Strong) | Strong Bitter Elixir
+Damage Stamina (Potent) | Potent Bitter Elixir
+Damage Stamina (Concentrated) | Concentrated Bitter Elixir
+Damage Stamina Duration (Dilute) | Diluted Runny Elixir
+Damage Stamina Duration (Weak) | Weak Runny Elixir
+Damage Stamina Duration (Mild) | Mild Runny Elixir
+Damage Stamina Duration (Strong) | Strong Runny Elixir
+Damage Stamina Duration (Potent) | Potent Runny Elixir
+Damage Stamina Duration (Concentrated) | Concentrated Runny Elixir
+Damage Stamina Rate (Dilute) | Diluted Rancid Elixir
+Damage Stamina Rate (Weak) | Weak Rancid Elixir
+Damage Stamina Rate (Mild) | Mild Rancid Elixir
+Damage Stamina Rate (Strong) | Strong Rancid Elixir
+Damage Stamina Rate (Potent) | Potent Rancid Elixir
+Damage Stamina Rate (Concentrated) | Concentrated Rancid Elixir
+Damage Stamina Ravage (Dilute) | Diluted Acidic Elixir
+Damage Stamina Ravage (Weak) | Weak Acidic Elixir
+Damage Stamina Ravage (Mild) | Mild Acidic Elixir
+Damage Stamina Ravage (Strong) | Strong Acidic Elixir
+Damage Stamina Ravage (Potent) | Potent Acidic Elixir
+Damage Stamina Ravage (Concentrated) | Concentrated Acidic Elixir
+Fear (Dilute) | Diluted Cold Elixir
+Fear (Weak) | Weak Cold Elixir
+Fear (Mild) | Mild Cold Elixir
+Fear (Strong) | Strong Cold Elixir
+Fear (Potent) | Potent Cold Elixir
+Fear (Concentrated) | Concentrated Cold Elixir
+Fortify Alteration (Dilute) | Diluted Sticky Elixir
+Fortify Alteration (Weak) | Weak Sticky Elixir
+Fortify Alteration (Mild) | Mild Sticky Elixir
+Fortify Alteration (Strong) | Strong Sticky Elixir
+Fortify Alteration (Potent) | Potent Sticky Elixir
+Fortify Alteration (Concentrated) | Concentrated Sticky Elixir
+Fortify Barter (Dilute) | Diluted Shimmering Elixir
+Fortify Barter (Weak) | Weak Shimmering Elixir
+Fortify Barter (Mild) | Mild Shimmering Elixir
+Fortify Barter (Strong) | Strong Shimmering Elixir
+Fortify Barter (Potent) | Potent Shimmering Elixir
+Fortify Barter (Concentrated) | Concentrated Shimmering Elixir
+Fortify Block (Dilute) | Diluted Smoky Elixir
+Fortify Block (Weak) | Weak Smoky Elixir
+Fortify Block (Mild) | Mild Smoky Elixir
+Fortify Block (Strong) | Strong Smoky Elixir
+Fortify Block (Potent) | Potent Smoky Elixir
+Fortify Block (Concentrated) | Concentrated Smoky Elixir
+Fortify Carry Weight (Dilute) | Diluted Weighty Elixir
+Fortify Carry Weight (Weak) | Weak Weighty Elixir
+Fortify Carry Weight (Mild) | Mild Weighty Elixir
+Fortify Carry Weight (Strong) | Strong Weighty Elixir
+Fortify Carry Weight (Potent) | Potent Weighty Elixir
+Fortify Carry Weight (Concentrated) | Concentrated Weighty Elixir
+Fortify Conjuration (Dilute) | Diluted Ghostly Elixir
+Fortify Conjuration (Weak) | Weak Ghostly Elixir
+Fortify Conjuration (Mild) | Mild Ghostly Elixir
+Fortify Conjuration (Strong) | Strong Ghostly Elixir
+Fortify Conjuration (Potent) | Potent Ghostly Elixir
+Fortify Conjuration (Concentrated) | Concentrated Ghostly Elixir
+Fortify Destruction (Dilute) | Diluted Sparking Elixir
+Fortify Destruction (Weak) | Weak Sparking Elixir
+Fortify Destruction (Mild) | Mild Sparking Elixir
+Fortify Destruction (Strong) | Strong Sparking Elixir
+Fortify Destruction (Potent) | Potent Sparking Elixir
+Fortify Destruction (Concentrated) | Concentrated Sparking Elixir
+Fortify Enchanting (Dilute) | Diluted Glossy Elixir
+Fortify Enchanting (Weak) | Weak Glossy Elixir
+Fortify Enchanting (Mild) | Mild Glossy Elixir
+Fortify Enchanting (Strong) | Strong Glossy Elixir
+Fortify Enchanting (Potent) | Potent Glossy Elixir
+Fortify Enchanting (Concentrated) | Concentrated Glossy Elixir
+Fortify Heal Rate (Dilute) | Diluted Color-shifting Elixir
+Fortify Heal Rate (Weak) | Weak Color-shifting Elixir
+Fortify Heal Rate (Mild) | Mild Color-shifting Elixir
+Fortify Heal Rate (Strong) | Strong Color-shifting Elixir
+Fortify Heal Rate (Potent) | Potent Color-shifting Elixir
+Fortify Heal Rate (Concentrated) | Concentrated Color-shifting Elixir
+Fortify Health (Dilute) | Diluted Metallic Elixir
+Fortify Health (Weak) | Weak Metallic Elixir
+Fortify Health (Mild) | Mild Metallic Elixir
+Fortify Health (Strong) | Strong Metallic Elixir
+Fortify Health (Potent) | Potent Metallic Elixir
+Fortify Health (Concentrated) | Concentrated Metallic Elixir
+Fortify Heavy Armor (Dilute) | Diluted Fizzy Elixir
+Fortify Heavy Armor (Weak) | Weak Fizzy Elixir
+Fortify Heavy Armor (Mild) | Mild Fizzy Elixir
+Fortify Heavy Armor (Strong) | Strong Fizzy Elixir
+Fortify Heavy Armor (Potent) | Potent Fizzy Elixir
+Fortify Heavy Armor (Concentrated) | Concentrated Fizzy Elixir
+Fortify Illusion (Dilute) | Diluted Shiny Elixir
+Fortify Illusion (Weak) | Weak Shiny Elixir
+Fortify Illusion (Mild) | Mild Shiny Elixir
+Fortify Illusion (Strong) | Strong Shiny Elixir
+Fortify Illusion (Potent) | Potent Shiny Elixir
+Fortify Illusion (Concentrated) | Concentrated Shiny Elixir
+Fortify Light Armor (Dilute) | Diluted Dull Elixir
+Fortify Light Armor (Weak) | Weak Dull Elixir
+Fortify Light Armor (Mild) | Mild Dull Elixir
+Fortify Light Armor (Strong) | Strong Dull Elixir
+Fortify Light Armor (Potent) | Potent Dull Elixir
+Fortify Light Armor (Concentrated) | Concentrated Dull Elixir
+Fortify Lockpicking (Dilute) | Diluted Glinting Elixir
+Fortify Lockpicking (Weak) | Weak Glinting Elixir
+Fortify Lockpicking (Mild) | Mild Glinting Elixir
+Fortify Lockpicking (Strong) | Strong Glinting Elixir
+Fortify Lockpicking (Potent) | Potent Glinting Elixir
+Fortify Lockpicking (Concentrated) | Concentrated Glinting Elixir
+Fortify Magicka (Dilute) | Diluted Rubbery Elixir
+Fortify Magicka (Weak) | Weak Rubbery Elixir
+Fortify Magicka (Mild) | Mild Rubbery Elixir
+Fortify Magicka (Strong) | Strong Rubbery Elixir
+Fortify Magicka (Potent) | Potent Rubbery Elixir
+Fortify Magicka (Concentrated) | Concentrated Rubbery Elixir
+Fortify Magicka Rate (Dilute) | Diluted Silky Elixir
+Fortify Magicka Rate (Weak) | Weak Silky Elixir
+Fortify Magicka Rate (Mild) | Mild Silky Elixir
+Fortify Magicka Rate (Strong) | Strong Silky Elixir
+Fortify Magicka Rate (Potent) | Potent Silky Elixir
+Fortify Magicka Rate (Concentrated) | Concentrated Silky Elixir
+Fortify Marksman (Dilute) | Diluted Hazy Elixir
+Fortify Marksman (Weak) | Weak Hazy Elixir
+Fortify Marksman (Mild) | Mild Hazy Elixir
+Fortify Marksman (Strong) | Strong Hazy Elixir
+Fortify Marksman (Potent) | Potent Hazy Elixir
+Fortify Marksman (Concentrated) | Concentrated Hazy Elixir
+Fortify One Handed (Dilute) | Diluted Beige Elixir
+Fortify One Handed (Weak) | Weak Beige Elixir
+Fortify One Handed (Mild) | Mild Beige Elixir
+Fortify One Handed (Strong) | Strong Beige Elixir
+Fortify One Handed (Potent) | Potent Beige Elixir
+Fortify One Handed (Concentrated) | Concentrated Beige Elixir
+Fortify Pickpocket (Dilute) | Diluted Gleaming Elixir
+Fortify Pickpocket (Weak) | Weak Gleaming Elixir
+Fortify Pickpocket (Mild) | Mild Gleaming Elixir
+Fortify Pickpocket (Strong) | Strong Gleaming Elixir
+Fortify Pickpocket (Potent) | Potent Gleaming Elixir
+Fortify Pickpocket (Concentrated) | Concentrated Gleaming Elixir
+Fortify Restoration (Dilute) | Diluted Silver Elixir
+Fortify Restoration (Weak) | Weak Silver Elixir
+Fortify Restoration (Mild) | Mild Silver Elixir
+Fortify Restoration (Strong) | Strong Silver Elixir
+Fortify Restoration (Potent) | Potent Silver Elixir
+Fortify Restoration (Concentrated) | Concentrated Silver Elixir
+Fortify Smithing (Dilute) | Diluted Molten Elixir
+Fortify Smithing (Weak) | Weak Molten Elixir
+Fortify Smithing (Mild) | Mild Molten Elixir
+Fortify Smithing (Strong) | Strong Molten Elixir
+Fortify Smithing (Potent) | Potent Molten Elixir
+Fortify Smithing (Concentrated) | Concentrated Molten Elixir
+Fortify Sneak (Dilute) | Diluted Reflective Elixir
+Fortify Sneak (Weak) | Weak Reflective Elixir
+Fortify Sneak (Mild) | Mild Reflective Elixir
+Fortify Sneak (Strong) | Strong Reflective Elixir
+Fortify Sneak (Potent) | Potent Reflective Elixir
+Fortify Sneak (Concentrated) | Concentrated Reflective Elixir
+Fortify Stamina (Dilute) | Diluted Spicy Elixir
+Fortify Stamina (Weak) | Weak Spicy Elixir
+Fortify Stamina (Mild) | Mild Spicy Elixir
+Fortify Stamina (Strong) | Strong Spicy Elixir
+Fortify Stamina (Potent) | Potent Spicy Elixir
+Fortify Stamina (Concentrated) | Concentrated Spicy Elixir
+Fortify Stamina Rate (Dilute) | Diluted Peppery Elixir
+Fortify Stamina Rate (Weak) | Weak Peppery Elixir
+Fortify Stamina Rate (Mild) | Mild Peppery Elixir
+Fortify Stamina Rate (Strong) | Strong Peppery Elixir
+Fortify Stamina Rate (Potent) | Potent Peppery Elixir
+Fortify Stamina Rate (Concentrated) | Concentrated Peppery Elixir
+Fortify Two Handed (Dilute) | Diluted Pungent Elixir
+Fortify Two Handed (Weak) | Weak Pungent Elixir
+Fortify Two Handed (Mild) | Mild Pungent Elixir
+Fortify Two Handed (Strong) | Strong Pungent Elixir
+Fortify Two Handed (Potent) | Potent Pungent Elixir
+Fortify Two Handed (Concentrated) | Concentrated Pungent Elixir
+Frenzy (Dilute) | Diluted Glittery Elixir
+Frenzy (Weak) | Weak Glittery Elixir
+Frenzy (Mild) | Mild Glittery Elixir
+Frenzy (Strong) | Strong Glittery Elixir
+Frenzy (Potent) | Potent Glittery Elixir
+Frenzy (Concentrated) | Concentrated Glittery Elixir
+Invisibility (Dilute) | Diluted Colorless Elixir
+Invisibility (Weak) | Weak Colorless Elixir
+Invisibility (Mild) | Mild Colorless Elixir
+Invisibility (Strong) | Strong Colorless Elixir
+Invisibility (Potent) | Potent Colorless Elixir
+Invisibility (Concentrated) | Concentrated Colorless Elixir
+Paralysis (Dilute) | Diluted Numbing Elixir
+Paralysis (Weak) | Weak Numbing Elixir
+Paralysis (Mild) | Mild Numbing Elixir
+Paralysis (Strong) | Strong Numbing Elixir
+Paralysis (Potent) | Potent Numbing Elixir
+Paralysis (Concentrated) | Concentrated Numbing Elixir
+Resist Fire (Dilute) | Diluted Blue Elixir
+Resist Fire (Weak) | Weak Blue Elixir
+Resist Fire (Mild) | Mild Blue Elixir
+Resist Fire (Strong) | Strong Blue Elixir
+Resist Fire (Potent) | Potent Blue Elixir
+Resist Fire (Concentrated) | Concentrated Blue Elixir
+Resist Frost (Dilute) | Diluted Crimson Elixir
+Resist Frost (Weak) | Weak Crimson Elixir
+Resist Frost (Mild) | Mild Crimson Elixir
+Resist Frost (Strong) | Strong Crimson Elixir
+Resist Frost (Potent) | Potent Crimson Elixir
+Resist Frost (Concentrated) | Concentrated Crimson Elixir
+Resist Magic (Dilute) | Diluted White Elixir
+Resist Magic (Weak) | Weak White Elixir
+Resist Magic (Mild) | Mild White Elixir
+Resist Magic (Strong) | Strong White Elixir
+Resist Magic (Potent) | Potent White Elixir
+Resist Magic (Concentrated) | Concentrated White Elixir
+Resist Poison (Dilute) | Diluted Green Elixir
+Resist Poison (Weak) | Weak Green Elixir
+Resist Poison (Mild) | Mild Green Elixir
+Resist Poison (Strong) | Strong Green Elixir
+Resist Poison (Potent) | Potent Green Elixir
+Resist Poison (Concentrated) | Concentrated Green Elixir
+Resist Shock (Dilute) | Diluted Grey Elixir
+Resist Shock (Weak) | Weak Grey Elixir
+Resist Shock (Mild) | Mild Grey Elixir
+Resist Shock (Strong) | Strong Grey Elixir
+Resist Shock (Potent) | Potent Grey Elixir
+Resist Shock (Concentrated) | Concentrated Grey Elixir
+Restore Health (Dilute) | Diluted Sweet Elixir
+Restore Health (Weak) | Weak Sweet Elixir
+Restore Health (Mild) | Mild Sweet Elixir
+Restore Health (Strong) | Strong Sweet Elixir
+Restore Health (Potent) | Potent Sweet Elixir
+Restore Health (Concentrated) | Concentrated Sweet Elixir
+Restore Magicka (Dilute) | Diluted Fruity Elixir
+Restore Magicka (Weak) | Weak Fruity Elixir
+Restore Magicka (Mild) | Mild Fruity Elixir
+Restore Magicka (Strong) | Strong Fruity Elixir
+Restore Magicka (Potent) | Potent Fruity Elixir
+Restore Magicka (Concentrated) | Concentrated Fruity Elixir
+Restore Stamina (Dilute) | Diluted Salty Elixir
+Restore Stamina (Weak) | Weak Salty Elixir
+Restore Stamina (Mild) | Mild Salty Elixir
+Restore Stamina (Strong) | Strong Salty Elixir
+Restore Stamina (Potent) | Potent Salty Elixir
+Restore Stamina (Concentrated) | Concentrated Salty Elixir
+Waterbreathing (Dilute) | Diluted Sapphire Elixir
+Waterbreathing (Weak) | Weak Sapphire Elixir
+Waterbreathing (Mild) | Mild Sapphire Elixir
+Waterbreathing (Strong) | Strong Sapphire Elixir
+Waterbreathing (Potent) | Potent Sapphire Elixir
+Waterbreathing (Concentrated) | Concentrated Sapphire Elixir
+Weakness Fire (Dilute) | Diluted Boiling Elixir
+Weakness Fire (Weak) | Weak Boiling Elixir
+Weakness Fire (Mild) | Mild Boiling Elixir
+Weakness Fire (Strong) | Strong Boiling Elixir
+Weakness Fire (Potent) | Potent Boiling Elixir
+Weakness Fire (Concentrated) | Concentrated Boiling Elixir
+Weakness Frost (Dilute) | Diluted Frozen Elixir
+Weakness Frost (Weak) | Weak Frozen Elixir
+Weakness Frost (Mild) | Mild Frozen Elixir
+Weakness Frost (Strong) | Strong Frozen Elixir
+Weakness Frost (Potent) | Potent Frozen Elixir
+Weakness Frost (Concentrated) | Concentrated Frozen Elixir
+Weakness Magic (Dilute) | Diluted Viscous Elixir
+Weakness Magic (Weak) | Weak Viscous Elixir
+Weakness Magic (Mild) | Mild Viscous Elixir
+Weakness Magic (Strong) | Strong Viscous Elixir
+Weakness Magic (Potent) | Potent Viscous Elixir
+Weakness Magic (Concentrated) | Concentrated Viscous Elixir
+Weakness Poison (Dilute) | Diluted Putrid Elixir
+Weakness Poison (Weak) | Weak Putrid Elixir
+Weakness Poison (Mild) | Mild Putrid Elixir
+Weakness Poison (Strong) | Strong Putrid Elixir
+Weakness Poison (Potent) | Potent Putrid Elixir
+Weakness Poison (Concentrated) | Concentrated Putrid Elixir
+Weakness Shock (Dilute) | Diluted Pulsating Elixir
+Weakness Shock (Weak) | Weak Pulsating Elixir
+Weakness Shock (Mild) | Mild Pulsating Elixir
+Weakness Shock (Strong) | Strong Pulsating Elixir
+Weakness Shock (Potent) | Potent Pulsating Elixir
+Weakness Shock (Concentrated) | Concentrated Pulsating Elixir
+
