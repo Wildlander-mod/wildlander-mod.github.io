@@ -1616,4 +1616,7 @@ initForgeFilters();
 | Wooden Walking Stick |  | Player Crafting | 1 | 2 Leather Strips 4 Deadwood |  |
 | Wooden Walking Stick |  | Player Crafting | 1 | 2 Wood 2 Leather Strips |  |
 | Wuuthrad Replica | Ebony Blacksmithing | Forge | 1 | 3 Ingot: Ebony 3 Leather Strips 2 Ingot: Galatite | Companions - Glory of the Dead Complete |
+
+
 </div>
+
