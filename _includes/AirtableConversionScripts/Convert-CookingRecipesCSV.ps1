@@ -24,8 +24,8 @@ foreach ($item in $ingestibles) {
 
 # Build markdown table
 $output = @()
-$output += "| Item Name | Type | Effects | Items Required | Qty Made | Perks Needed | Toolkits Required | Proximity | Additional Requirements |"
-$output += "|-----------|------|---------|-----------------|----------|--------------|-------------------|-----------|-------------------------|"
+$output += "| Item Name | Type | Effects | Items Required | Qty Made | Perks Needed | Proximity | Additional Requirements |"
+$output += "|-----------|------|---------|-----------------|----------|--------------|-----------|-------------------------|"
 
 foreach ($recipe in $recipes) {
     $itemName = $recipe.'Produced Item Name' -replace '\|', '\|'
@@ -45,12 +45,11 @@ foreach ($recipe in $recipes) {
     $itemsRequired = $recipe.'Items Required' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     $qtyMade = $recipe.'Qty Made' -replace '\|', '\|'
     $perksNeeded = $recipe.'Perks Needed' -replace '\|', '\|'
-    $toolkitsRequired = $recipe.'Toolkits Required' -replace '\|', '\|'
     $proximity = $recipe.'Proximity (When None)' -replace '\|', '\|'
     $additionalRequirements = $recipe.'Additional Requirements' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     
     if ($itemName) {
-        $output += "| $itemName | $itemType | $effects | $itemsRequired | $qtyMade | $perksNeeded | $toolkitsRequired | $proximity | $additionalRequirements |"
+        $output += "| $itemName | $itemType | $effects | $itemsRequired | $qtyMade | $perksNeeded | $proximity | $additionalRequirements |"
     }
 }
 

@@ -1,169 +1,163 @@
-﻿Item Name,Qty Made,Components,Perks Needed,Proximity (When None),Additional Requirements
-Blood of the Hunt (Strange Brew),1,1 Bear Heart 1 Deer Heart 1 Goat Heart 1 Wolf Heart 1 Mammoth Heart,,Cook pot,Brewing Skill Greater or Equal to 2
-Blood of the Hunt (Strange Brew),1,1 Bear Heart 1 Deer Heart 1 Goat Heart 1 Wolf Heart 1 Mammoth Heart,,Cook pot,Brewing Skill Greater or Equal to 2
-Chaurus Venom (Good),1,2 Chaurus Venom (Crude),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Chaurus Venom (Good),1,2 Chaurus Venom (Crude),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Chaurus Venom (Great),1,1 Falmer Ear 1 Chaurus Venom (Good) 1 Chaurus Venom (Crude),,Cook pot,Animal Harvesting Skill Greater or Equal to 4
-Chaurus Venom (Great),1,1 Falmer Ear 1 Chaurus Venom (Good) 1 Chaurus Venom (Crude),,Cook pot,Animal Harvesting Skill Greater or Equal to 4
-Chaurus Venom (Superlative),1,1 Chaurus Eggs 1 Chaurus Venom (Great),,Cook pot,Animal Harvesting Skill Greater or Equal to 6
-Chaurus Venom (Superlative),1,1 Chaurus Eggs 1 Chaurus Venom (Great),,Cook pot,Animal Harvesting Skill Greater or Equal to 6
-Dragon's Blood Poison (Crude),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 1
-Dragon's Blood Poison (Crude),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 1
-Dragon's Blood Poison (Decent),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Dragon's Blood Poison (Decent),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Dragon's Blood Poison (Good),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Dragon's Blood Poison (Good),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Dragon's Blood Poison (Great),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Dragon's Blood Poison (Great),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Dragon's Blood Poison (Remarkable),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Dragon's Blood Poison (Remarkable),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Dragon's Blood Potion (Decent),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Dragon's Blood Potion (Decent),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Dragon's Blood Potion (Good),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Dragon's Blood Potion (Good),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Dragon's Blood Potion (Great),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Dragon's Blood Potion (Great),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Dragon's Blood Potion (Remarkable),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Dragon's Blood Potion (Remarkable),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Dragon's Elixir of Firebloom,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Firebloom,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Furious Speed,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Furious Speed,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Ghostly Passage,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Ghostly Passage,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Kyne's Peace,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Kyne's Peace,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Slowed Time,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Slowed Time,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Swiftness,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of Swiftness,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Living Circle,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Living Circle,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Shade,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Shade,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Storm,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Storm,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Unseen,2,1 Dragon's Blood,,Cook pot,
-Dragon's Elixir of the Unseen,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Death,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Death,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Disarming,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Disarming,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Explosive Force,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Explosive Force,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Terrible Frost,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Terrible Frost,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Torpor,2,1 Dragon's Blood,,Cook pot,
-Dragon's Venom of Torpor,2,1 Dragon's Blood,,Cook pot,
-Flare Coating,1,3 Torchbug Thorax,,Cook pot,Animal Harvesting Skill Greater or Equal to 1
-Flare Coating,1,3 Torchbug Thorax,,Cook pot,Animal Harvesting Skill Greater or Equal to 1
-Mild Acid,1,1 Chaurus Venom (Crude),,Cook pot,
-Mild Acid,1,2 Spider Venom (Crude),,Cook pot,
-Mild Acid,1,5 Spider Egg,,Cook pot,
-Mild Acid,1,1 Chaurus Venom (Crude),,Cook pot,
+﻿Produced Item Name,Qty Made,Items Required,Perks Needed,Proximity (When None),Additional Requirements
+Ink,1,2 Inkwell,,Cook pot,Forage Skill Greater or Equal to 1
+White Bonesap,1,1 Bonesap 1 Powdered Albino Spider Pod,,Cook pot,Forage Skill Greater or Equal to 3
+Red Bonesap,1,1 Bonesap 1 Powdered Shellbug Chitin,,Cook pot,Forage Skill Greater or Equal to 5
+Shellbug Resin,1,1 Dwarven Oil 1 Powdered Shellbug Chitin,,Cook pot,Forage Skill Greater or Equal to 3
+Wolfsap,1,1 Wolf Claws 1 Bonesap 2 Powdered Canine Teeth,,Cook pot,Forage Skill Greater or Equal to 7
+Wyrmsap,1,1 Bonesap 1 Powdered Dragon Scales 1 Dragon Bonemeal,,Cook pot,Forage Skill Greater or Equal to 8
+Salt,1,1 Waterskin (Salt Water),,Cook pot,
+Salt,1,1 Glass Bottle (Salt Water),,Cook pot,
+Snowberry Extract,1,20 Snowberries,Alchemical Lore 1,Cook pot,Forage Skill Greater or Equal to 1
+Werebear's Blood Poison (Remarkable),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Forage Skill Greater or Equal to 5
+Werebear's Blood Poison (Great),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Forage Skill Equal to 4
+Werebear's Blood Poison (Good),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Forage Skill Equal to 3
+Werebear's Blood Poison (Decent),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Forage Skill Equal to 2
+Werebear's Blood Poison (Crude),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Forage Skill Equal to 1
+Werebear's Blood Potion (Remarkable),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Forage Skill Greater or Equal to 5
+Werebear's Blood Potion (Great),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Forage Skill Equal to 4
+Werebear's Blood Potion (Good),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Forage Skill Equal to 3
+Werebear's Blood Potion (Decent),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Forage Skill Equal to 2
+Strong Acid,1,3 Chaurus Eggs,,Cook pot,Forage Skill Greater or Equal to 2
+Strong Acid,1,1 Spider Venom (Great),,Cook pot,Forage Skill Greater or Equal to 2
+Strong Acid,1,1 Chaurus Venom (Good),,Cook pot,Forage Skill Greater or Equal to 2
 Mild Acid,1,5 Spider Egg,,Cook pot,
 Mild Acid,1,2 Spider Venom (Crude),,Cook pot,
+Mild Acid,1,1 Chaurus Venom (Crude),,Cook pot,
+Potion of Boneblood,1,10 Bone Meal 1 Blood of the Hunt (Strange Brew),,Cook pot,Forage Skill Greater or Equal to 1
+Strange Brew,3,2 Nightshade 1 Sleeping Tree Sap 2 Mora Tapinella,,Cook pot,Forage Skill Greater or Equal to 1
+Spriggan Sap,1,1 Taproot,,Cook pot,Forage Skill Greater or Equal to 2
+Potion of Arcane Metabolisis,2,2 Polished Fox Eye 1 Dragon's Blood,,Cook pot,Forage Skill Greater or Equal to 3
+Dragon's Elixir of Swiftness,2,1 Dragon's Blood,,Cook pot,
+Dragon's Venom of Explosive Force,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of Ghostly Passage,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of the Storm,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of Slowed Time,2,1 Dragon's Blood,,Cook pot,
+Dragon's Venom of Death,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of Kyne's Peace,2,1 Dragon's Blood,,Cook pot,
+Dragon's Venom of Terrible Frost,2,1 Dragon's Blood,,Cook pot,
+Dragon's Venom of Torpor,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of Firebloom,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of Furious Speed,2,1 Dragon's Blood,,Cook pot,
 Poison of Fear (Remarkable),2,1 Dragon's Blood,,Cook pot,
-Poison of Fear (Remarkable),2,1 Dragon's Blood,,Cook pot,
-Potion of Arcane Metabolisis,2,2 Polished Fox Eye 1 Dragon's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 3
-Potion of Arcane Metabolisis,2,2 Polished Fox Eye 1 Dragon's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 3
-Potion of Boneblood,1,10 Bone Meal 1 Blood of the Hunt (Strange Brew),,Cook pot,Animal Harvesting Skill Greater or Equal to 1
-Potion of Boneblood,1,10 Bone Meal 1 Blood of the Hunt (Strange Brew),,Cook pot,Animal Harvesting Skill Greater or Equal to 1
-Potion of Hircine's Agony (Strange Brew),2,1 Nord Mead 2 Wolf Claws 2 Buck Antlers (Superlative),,Cook pot,Brewing Skill Greater or Equal to 0
-Potion of Hircine's Agony (Strange Brew),2,1 Nord Mead 2 Wolf Claws 2 Buck Antlers (Superlative),,Cook pot,Brewing Skill Greater or Equal to 0
+Dragon's Venom of Disarming,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of the Unseen,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of the Living Circle,2,1 Dragon's Blood,,Cook pot,
+Dragon's Elixir of the Shade,2,1 Dragon's Blood,,Cook pot,
+Werewolf's Blood Poison (Remarkable),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Forage Skill Greater or Equal to 5
+Werewolf's Blood Poison (Great),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Forage Skill Equal to 4
+Werewolf's Blood Poison (Good),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Forage Skill Equal to 3
+Werewolf's Blood Poison (Decent),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Forage Skill Equal to 2
+Werewolf's Blood Poison (Crude),2,1 Wolf Eye 1 Werewolf's Blood,,Cook pot,Forage Skill Equal to 1
+Werewolf's Blood Potion (Remarkable),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Forage Skill Greater or Equal to 5
+Werewolf's Blood Potion (Great),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Forage Skill Equal to 4
+Werewolf's Blood Potion (Good),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Forage Skill Equal to 3
+Werewolf's Blood Potion (Decent),2,1 Luna Moth Wing 1 Werewolf's Blood,,Cook pot,Forage Skill Equal to 2
+Troll's Blood Poison (Remarkable),2,1 Troll Fat 1 Troll Blood,,Cook pot,Forage Skill Greater or Equal to 5
+Troll's Blood Poison (Great),2,1 Troll Fat 1 Troll Blood,,Cook pot,Forage Skill Equal to 4
+Troll's Blood Poison (Good),2,1 Troll Fat 1 Troll Blood,,Cook pot,Forage Skill Equal to 3
+Troll's Blood Poison (Decent),2,1 Troll Fat 1 Troll Blood,,Cook pot,Forage Skill Equal to 2
+Troll's Blood Poison (Crude),2,1 Troll Fat 1 Troll Blood,,Cook pot,Forage Skill Equal to 1
+Troll's Blood Potion (Remarkable),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Forage Skill Greater or Equal to 5
+Troll's Blood Potion (Great),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Forage Skill Equal to 4
+Troll's Blood Potion (Good),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Forage Skill Equal to 3
+Troll's Blood Potion (Decent),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Forage Skill Equal to 2
+Troll's Blood Potion (Crude),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Forage Skill Equal to 1
+Chaurus Venom (Superlative),1,1 Chaurus Eggs 1 Chaurus Venom (Great),,Cook pot,Forage Skill Greater or Equal to 6
+Chaurus Venom (Great),1,1 Falmer Ear 1 Chaurus Venom (Good) 1 Chaurus Venom (Crude),,Cook pot,Forage Skill Greater or Equal to 4
+Chaurus Venom (Good),1,2 Chaurus Venom (Crude),,Cook pot,Forage Skill Greater or Equal to 2
+Spider Venom (Superlative),1,1 Spider Egg 1 Spider Venom (Great),,Cook pot,Forage Skill Greater or Equal to 3
+Spider Venom (Great),1,3 Bleeding Crown 1 Spider Venom (Good),,Cook pot,Forage Skill Greater or Equal to 2
+Spider Venom (Good),1,2 Spider Venom (Crude),,Cook pot,Forage Skill Greater or Equal to 1
+Dyed Hawk Feathers,3,3 Hawk Feathers 1 Dye - Black,,Cook pot,Forage Skill Greater or Equal to 1
+Charred Hawk Beak,1,1 Hawk Beak,,Cook pot,
+Charred Skeever Hide,1,1 Pelt: Skeever (Poor),,Cook pot,
+Flare Coating,1,3 Torchbug Thorax,,Cook pot,Forage Skill Greater or Equal to 1
 Potion of Hircine's Cloak (Strange Brew),2,1 Wolf Heart 2 Polished Sabre Cat Eye,,Cook pot,Brewing Skill Greater or Equal to 1
-Potion of Hircine's Cloak (Strange Brew),2,1 Wolf Heart 2 Polished Sabre Cat Eye,,Cook pot,Brewing Skill Greater or Equal to 1
-Spider Venom (Good),1,2 Spider Venom (Crude),,Cook pot,Animal Harvesting Skill Greater or Equal to 1
-Spider Venom (Good),1,2 Spider Venom (Crude),,Cook pot,Animal Harvesting Skill Greater or Equal to 1
-Spider Venom (Great),1,3 Bleeding Crown 1 Spider Venom (Good),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Spider Venom (Great),1,3 Bleeding Crown 1 Spider Venom (Good),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Spider Venom (Superlative),1,1 Spider Egg 1 Spider Venom (Great),,Cook pot,Animal Harvesting Skill Greater or Equal to 3
-Spider Venom (Superlative),1,1 Spider Egg 1 Spider Venom (Great),,Cook pot,Animal Harvesting Skill Greater or Equal to 3
-Strong Acid,1,1 Spider Venom (Great),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Strong Acid,1,3 Chaurus Eggs,,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Strong Acid,1,1 Chaurus Venom (Good),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Strong Acid,1,1 Spider Venom (Great),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Strong Acid,1,3 Chaurus Eggs,,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Strong Acid,1,1 Chaurus Venom (Good),,Cook pot,Animal Harvesting Skill Greater or Equal to 2
-Troll's Blood Poison (Crude),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 1
-Troll's Blood Poison (Crude),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 1
-Troll's Blood Poison (Decent),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Troll's Blood Poison (Decent),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Troll's Blood Poison (Good),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Troll's Blood Poison (Good),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Troll's Blood Poison (Great),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Troll's Blood Poison (Great),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Troll's Blood Poison (Remarkable),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Troll's Blood Poison (Remarkable),2,1 Troll Fat 1 Troll Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Troll's Blood Potion (Crude),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 1
-Troll's Blood Potion (Crude),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 1
-Troll's Blood Potion (Decent),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 2
-Troll's Blood Potion (Decent),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 2
-Troll's Blood Potion (Good),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 3
-Troll's Blood Potion (Good),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 3
-Troll's Blood Potion (Great),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 4
-Troll's Blood Potion (Great),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Equal to 4
-Troll's Blood Potion (Remarkable),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Troll's Blood Potion (Remarkable),2,1 Troll Blood 1 Medicinal Salve,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Werebear's Blood Poison (Crude),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 1
-Werebear's Blood Poison (Crude),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 1
-Werebear's Blood Poison (Decent),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Werebear's Blood Poison (Decent),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Werebear's Blood Poison (Good),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Werebear's Blood Poison (Good),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Werebear's Blood Poison (Great),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Werebear's Blood Poison (Great),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Werebear's Blood Poison (Remarkable),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Werebear's Blood Poison (Remarkable),2,1 Bear Eye 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Werebear's Blood Potion (Decent),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Werebear's Blood Potion (Decent),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 2
-Werebear's Blood Potion (Good),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Werebear's Blood Potion (Good),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 3
-Werebear's Blood Potion (Great),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Werebear's Blood Potion (Great),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Equal to 4
-Werebear's Blood Potion (Remarkable),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Werebear's Blood Potion (Remarkable),2,1 Luna Moth Wing 1 Werebear's Blood,,Cook pot,Animal Harvesting Skill Greater or Equal to 5
-Red Glitterdust,4,2 Gem: Garnet (Flawless),Advanced Blacksmithing,Forge,
-Red Glitterdust,4,1 Gem: Ruby,Advanced Blacksmithing,Forge,
-Red Glitterdust,5,1 Gem: Ruby (Flawless),Advanced Blacksmithing,Forge,
-Red Glitterdust,4,3 Gem: Garnet,Advanced Blacksmithing,Forge,
-Sapphire Glitterdust,3,1 Gem: Sapphire,Advanced Blacksmithing,Forge,
-Sapphire Glitterdust,5,1 Gem: Sapphire (Flawless),Advanced Blacksmithing,Forge,
-Boiled Skeever Tail,1,1 Skeever Tail,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Bone Meal,1,3 Fragment: Bone,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Bonesap,1,1 Bone Meal 1 Spriggan Sap,,N/A,Animal Harvesting Skill Greater or Equal to 3
-Charred Hawk Beak,1,1 Hawk Beak,,N/A,
-Charred Skeever Hide,1,1 Pelt: Skeever (Poor),,N/A,
-Cured Skeever Hide,1,1 Salt 1 Pelt: Skeever,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Dyed Hawk Feathers,3,3 Hawk Feathers 1 Dye - Black,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Polished Bear Eye,1,1 Bear Eye,,N/A,Animal Harvesting Skill Greater or Equal to 3
-Polished Boar Eye,1,1 Boar Eye,,N/A,Animal Harvesting Skill Greater or Equal to 2
-Polished Dragon Eye,1,1 Dragon Eye,,N/A,Animal Harvesting Skill Greater or Equal to 5
-Polished Fox Eye,1,1 Fox Eye,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Polished Hare Eye,1,1 Hare Eye,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Polished Mammoth Eye,1,1 Mammoth Eye,,N/A,Animal Harvesting Skill Greater or Equal to 4
-Polished Sabre Cat Eye,1,1 Sabre Cat Eye,,N/A,Animal Harvesting Skill Greater or Equal to 2
-Polished Slaughterfish Scales,1,1 Slaughterfish Scales,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Polished Troll Eye,1,1 Troll Eye,,N/A,Animal Harvesting Skill Greater or Equal to 4
-Polished Werewolf Eye,1,1 Werewolf Eye,,N/A,Animal Harvesting Skill Greater or Equal to 3
-Polished Wolf Eye,1,1 Wolf Eye,,N/A,Animal Harvesting Skill Greater or Equal to 2
-Powdered Mammoth Tusk,1,1 Mammoth Tusk,,N/A,
-Powdered Mudcrab Chitin,2,1 Large Mudcrab Chitin,,N/A,Animal Harvesting Skill Greater or Equal to 1
-Slaughterfish Scales,5,1 Raw Slaughterfish,,N/A,
-Soul Gem: Black,1,1 Soul Gem: Grand 1 Human Skull,Soul Gem Mastery,N/A,"Between 11pm -  Midnight, Must be Carrying Necromacers Amulet.
-must have 100+ Enchanting skill"
-Soul Gem: Common,1,1 Ingot: Moonstone 1 Ingot: Quicksilver,Soul Gem Mastery,N/A,
-Soul Gem: Grand,1,3 Ingot: Moonstone 3 Ingot: Quicksilver,Soul Gem Mastery,N/A,
-Soul Gem: Greater,1,2 Ingot: Moonstone 2 Ingot: Quicksilver,Soul Gem Mastery,N/A,
-Soul Gem: Lesser,2,1 Ingot: Moonstone 1 Ingot: Quicksilver,Soul Gem Mastery,N/A,
-Soul Gem: Petty,4,1 Ingot: Moonstone 1 Ingot: Quicksilver,Soul Gem Mastery,N/A,
-Soul Tomato: Common,1,1 Soul Gem: Lesser 1 Tomato,,N/A,
-Soul Tomato: Corrupted,1,1 Soul Gem: Grand 1 Tomato,,N/A,
-Soul Tomato: Grand,1,1 Soul Gem: Greater 1 Tomato,,N/A,
-Soul Tomato: Greater,1,1 Soul Gem: Common 1 Tomato,,N/A,
-Soul Tomato: Lesser,1,1 Soul Gem: Petty 1 Tomato,,N/A,
-Soul Tomato: Petty,1,1 Tomato,,N/A,
-Spriggan Sap,1,1 Taproot,,N/A,Animal Harvesting Skill Greater or Equal to 2
-Throwable Flame Powder,3,1 Fire Salts 1 Dwarven Oil,Alchemical Lore 2,N/A,
-Throwable Frost Powder,3,1 Frost Salts 1 Dwarven Oil,Alchemical Lore 2,N/A,
-Throwable Shock Powder,3,1 Void Salts 1 Dwarven Oil,Alchemical Lore 2,N/A,
+Potion of Hircine's Agony (Strange Brew),2,1 Nord Mead 2 Wolf Claws 2 Buck Antlers (Superlative),,Cook pot,Brewing Skill Greater or Equal to 0
+Cured Skeever Hide,1,1 Salt 1 Pelt: Skeever,,Cook pot,Forage Skill Greater or Equal to 1
+Blood of the Hunt (Strange Brew),1,1 Bear Heart 1 Deer Heart 1 Goat Heart 1 Wolf Heart 1 Mammoth Heart,,Cook pot,Brewing Skill Greater or Equal to 2
+Strange Brew,1,2 Nightshade 1 Nord Mead 1 Wolf Eye,,Cook pot,Forage Skill Greater or Equal to 1
+Soap - Superior Mountain Flower,3,1 Salt 2 Blue Mountain Flower 2 Red Mountain Flower 2 Purple Mountain Flower 1 Animal Fat,Craftsmanship,Cook pot,
+Soap - Red Mountain Flower,3,1 Salt 3 Red Mountain Flower 1 Animal Fat,Craftsmanship,Cook pot,
+Soap - Purple Mountain Flower,3,1 Salt 3 Purple Mountain Flower 1 Animal Fat,Craftsmanship,Cook pot,
+Soap - Plain,3,1 Salt 1 Animal Fat,Craftsmanship,Cook pot,
+Soap - Lavender,3,1 Salt 3 Lavender 1 Animal Fat,Craftsmanship,Cook pot,
+Soap - Dragon's Tongue,3,1 Salt 3 Dragon's Tongue 1 Animal Fat,Craftsmanship,Cook pot,
+Soap - Blue Mountain,3,1 Salt 3 Blue Mountain Flower 1 Animal Fat,Craftsmanship,Cook pot,
+Ink,1,1 Spider Venom (Crude) 1 Powdered Charcoal,,Player Crafting,Forage Skill Greater or Equal to 1
+Powdered Bone Hawk Beak,1,1 Bone Hawk Skull,,Player Crafting,Forage Skill Greater or Equal to 3
+Chitin Resin,1,1 Spriggan Sap 1 Powdered Chitin Plate,,Player Crafting,Forage Skill Greater or Equal to 3
+Chitin Resin,1,1 Spriggan Sap 1 Powdered Shellbug Chitin,,Player Crafting,Forage Skill Greater or Equal to 3
+Powdered Shellbug Chitin,3,1 Shellbug Chitin,,Player Crafting,Forage Skill Greater or Equal to 3
+Powdered Chitin Plate,3,1 Chitin Plate,,Player Crafting,Forage Skill Greater or Equal to 3
+Powdered Bone Hawk Claw,1,1 Bone Hawk Claw,,Player Crafting,Forage Skill Greater or Equal to 3
+Powdered Charcoal,1,1 Charcoal,,Player Crafting,Forage Skill Greater or Equal to 3
+Powdered Charcoal,1,1 Charcoal,,Player Crafting,Forage Skill Greater or Equal to 3
+Powdered Canine Teeth,1,5 Canine Tooth,,Player Crafting,Forage Skill Greater or Equal to 5
+Black Bonesap,1,1 Bonesap 1 Powdered Charcoal,,Player Crafting,Forage Skill Greater or Equal to 5
+Netch Resin,1,3 Netch Jelly,,Player Crafting,Forage Skill Greater or Equal to 5
+Falmer Resin,1,1 Dwarven Oil 1 Powdered Chaurus Chitin,,Player Crafting,Forage Skill Greater or Equal to 3
+Chitin Resin,1,1 Spriggan Sap 1 Powdered Chaurus Chitin,,Player Crafting,Forage Skill Greater or Equal to 3
+Dragon Bonemeal,2,1 Dragon Bone,,Player Crafting,Forage Skill Greater or Equal to 5
+Antler Paste,1,1 Spriggan Sap 1 Powdered Antler,,Player Crafting,Forage Skill Greater or Equal to 5
+Powdered Antler,4,1 Buck Antlers (Superlative),,Player Crafting,
+Powdered Antler,2,1 Doe Antlers (Superlative),,Player Crafting,
+Powdered Antler,3,1 Buck Antlers,,Player Crafting,
+Powdered Antler,1,1 Doe Antlers,,Player Crafting,
+Powdered Albino Spider Pod,5,1 Albino Spider Pod,,Player Crafting,Forage Skill Greater or Equal to 3
+Powdered Chaurus Chitin,5,1 Chaurus Chitin,,Player Crafting,Forage Skill Greater or Equal to 3
+Charred Skeever Hide,1,1 Pelt: Skeever (Poor),,Player Crafting,
+Charred Hawk Beak,1,1 Hawk Beak,,Player Crafting,
+Powdered Mammoth Tusk,1,1 Mammoth Tusk,,Player Crafting,
+Medicinal Salve,1,1 Panacea,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Cured Skeever Hide,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Wheat,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Swamp Fungal Pod,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Sabre Cat Eye,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Blisterwort,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Imp Stool,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Blue Mountain Flower,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Monarch Wing,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Blue Dartwing,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,30,1 Daedra Heart,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Charred Skeever Hide,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Rock Warbler Egg,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Medicinal Salve,1,1 Northern Flax,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Slaughterfish Scales,5,1 Raw Slaughterfish,,Player Crafting,
+Soul Tomato: Grand (Empty),1,1 Soul Gem: Greater (Empty) 1 Tomato,,Player Crafting,
+Soul Tomato: Greater (Empty),1,1 Soul Gem: Common (Empty) 1 Tomato,,Player Crafting,
+Soul Tomato: Common (Empty),1,1 Soul Gem: Lesser (Empty) 1 Tomato,,Player Crafting,
+Soul Tomato: Lesser (Empty),1,1 Soul Gem: Petty (Empty) 1 Tomato,,Player Crafting,
+Soul Tomato: Corrupted (Empty),1,1 Soul Gem: Grand (Empty) 1 Tomato,,Player Crafting,
+Sapphire Glitterdust,5,1 Gem: Sapphire (Flawless),Advanced Blacksmithing,Player Crafting,
+Sapphire Glitterdust,3,1 Gem: Sapphire,Advanced Blacksmithing,Player Crafting,
+Red Glitterdust,5,1 Gem: Ruby (Flawless),Advanced Blacksmithing,Player Crafting,
+Red Glitterdust,4,1 Gem: Ruby,Advanced Blacksmithing,Player Crafting,
+Red Glitterdust,4,2 Gem: Garnet (Flawless),Advanced Blacksmithing,Player Crafting,
+Red Glitterdust,4,3 Gem: Garnet,Advanced Blacksmithing,Player Crafting,
+Soul Gem: Black (Empty),1,1 Soul Gem: Grand (Empty) 1 Human Skull,Soul Gem Mastery,Player Crafting,
+Soul Gem: Grand (Empty),1,3 Ingot: Moonstone 3 Ingot: Quicksilver,Soul Gem Mastery,Player Crafting,
+Soul Gem: Greater (Empty),1,2 Ingot: Moonstone 2 Ingot: Quicksilver,Soul Gem Mastery,Player Crafting,
+Soul Gem: Common (Empty),1,1 Ingot: Moonstone 1 Ingot: Quicksilver,Soul Gem Mastery,Player Crafting,
+Soul Gem: Lesser (Empty),2,1 Ingot: Moonstone 1 Ingot: Quicksilver,Soul Gem Mastery,Player Crafting,
+Soul Gem: Petty (Empty),4,1 Ingot: Moonstone 1 Ingot: Quicksilver,Soul Gem Mastery,Player Crafting,
+Soul Tomato: Petty (Empty),1,1 Tomato,,Player Crafting,
+Healing Poultice,1,5 Medicinal Salve 1 Bandage,"Craftsmanship,Alchemical Lore 1",Player Crafting,
+Throwable Frost Powder,3,1 Frost Salts 1 Dwarven Oil,Alchemical Lore 2,Player Crafting,
+Throwable Shock Powder,3,1 Void Salts 1 Dwarven Oil,Alchemical Lore 2,Player Crafting,
+Throwable Flame Powder,3,1 Fire Salts 1 Dwarven Oil,Alchemical Lore 2,Player Crafting,
+Polished Boar Eye,1,1 Boar Eye,,Player Crafting,Forage Skill Greater or Equal to 2
+Bonesap,1,1 Bone Meal 1 Spriggan Sap,,Player Crafting,Forage Skill Greater or Equal to 3
+Bone Meal,1,3 Fragment: Bone,,Player Crafting,Forage Skill Greater or Equal to 1
+Polished Dragon Eye,1,1 Dragon Eye,,Player Crafting,Forage Skill Greater or Equal to 5
+Polished Troll Eye,1,1 Troll Eye,,Player Crafting,Forage Skill Greater or Equal to 4
+Polished Werewolf Eye,1,1 Werewolf Eye,,Player Crafting,Forage Skill Greater or Equal to 3
+Boiled Skeever Tail,1,1 Skeever Tail,,Player Crafting,Forage Skill Greater or Equal to 1
+Polished Wolf Eye,1,1 Wolf Eye,,Player Crafting,Forage Skill Greater or Equal to 2
+Polished Sabre Cat Eye,1,1 Sabre Cat Eye,,Player Crafting,Forage Skill Greater or Equal to 2
+Polished Mammoth Eye,1,1 Mammoth Eye,,Player Crafting,Forage Skill Greater or Equal to 4
+Polished Hare Eye,1,1 Hare Eye,,Player Crafting,Forage Skill Greater or Equal to 1
+Polished Fox Eye,1,1 Fox Eye,,Player Crafting,Forage Skill Greater or Equal to 1
+Polished Bear Eye,1,1 Bear Eye,,Player Crafting,Forage Skill Greater or Equal to 3
+Polished Slaughterfish Scales,1,1 Slaughterfish Scales,,Player Crafting,Forage Skill Greater or Equal to 1
+Powdered Mudcrab Chitin,2,1 Large Mudcrab Chitin,,Player Crafting,Forage Skill Greater or Equal to 1

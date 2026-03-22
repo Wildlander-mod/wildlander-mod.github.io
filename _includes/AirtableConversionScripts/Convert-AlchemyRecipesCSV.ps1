@@ -9,8 +9,8 @@ $md += '| Item Name | Qty | Components | Perks Needed | Proximity | Additional R
 $md += '|:---|:---:|:---|:---|:---|:---|'
 
 foreach ($row in $data) {
-  if ($row.'Item Name') {
-    $itemName = $row.'Item Name' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
+  if ($row.'Produced Item Name') {
+    $itemName = $row.'Produced Item Name' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     $qty = $row.'Qty Made' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     $components = $row.'Components' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     $perks = $row.'Perks Needed' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '

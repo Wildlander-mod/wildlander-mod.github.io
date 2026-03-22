@@ -81,10 +81,9 @@ function showSharpeningWheeltooltip(event, row) {
     itemName: cells[0]?.textContent || '',
     qtyMade: cells[1]?.textContent || '',
     perksNeeded: cells[2]?.textContent || '',
-    toolkitsRequired: cells[3]?.textContent || '',
-    proximity: cells[4]?.textContent || '',
-    itemsRequired: cells[5]?.textContent || '',
-    additionalRequirements: cells[6]?.textContent || ''
+    proximity: cells[3]?.textContent || '',
+    itemsRequired: cells[4]?.textContent || '',
+    additionalRequirements: cells[5]?.textContent || ''
   };
   
   let tooltip = document.getElementById('sharpening-wheel-tooltip');
@@ -101,7 +100,6 @@ function showSharpeningWheeltooltip(event, row) {
     <div><strong>Item:</strong> ${data.itemName}</div>
     <div><strong>Qty Made:</strong> ${data.qtyMade}</div>
     <div><strong>Perks Needed:</strong> ${data.perksNeeded}</div>
-    <div><strong>Toolkits Required:</strong> ${data.toolkitsRequired}</div>
     <div><strong>Proximity:</strong> ${data.proximity}</div>
     <div><strong>Items Required:</strong> ${data.itemsRequired}</div>
     <div><strong>Additional Requirements:</strong> ${data.additionalRequirements}</div>
@@ -223,284 +221,364 @@ initSharpeningWheelFilters();
 
 <div class="sharpening-wheel-recipes-table" markdown="1">
 
-| Produced Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
-|:---|:---:|:---|:---|:---|:---|:---|
-| Aegisbane |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Akaviri Katana |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Battleaxe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic Dagger |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Ancient Nordic Greatsword |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic Hero Battleaxe |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Hero Dagger |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Hero Greatsword |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Hero Heavy Bow |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum 2 Hide Lace |  |
-| Ancient Nordic Hero Heavy Crossbow |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Hero Mace |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Hero Sword |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Hero War Axe |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Hero Warhammer |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Honed Battleaxe |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Honed Dagger |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Ancient Nordic Honed Greatsword |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Honed Heavy Bow |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Honed Mace |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Ancient Nordic Honed Sword |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Honed War Axe |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Ancient Nordic Honed Warhammer |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Ancient Nordic Light Bow |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic Mace |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Ancient Nordic Pickaxe |  | Advanced Blacksmithing |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic Sword |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic Sword - Ceremonial |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic War Axe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic War Axe - Ceremonial |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ancient Nordic Warhammer |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Angi's Light Bow |  | Craftsmanship |  |  | 1 Ingot: Steel 2 Hide Lace |  |
-| Auriel's Bow |  | Legendary Blacksmithing |  |  | 1 Ingot: Moonstone 2 Hide Lace |  |
-| Auriel's Bow Replica |  | Elven Blacksmithing |  |  | 1 Ingot: Moonstone |  |
-| Blade of Sacrifice |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Blade of Sacrifice Replica |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Blade of the Rourken |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Blade of Woe |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Blade of Woe Awakened |  | Advanced Blacksmithing |  |  | 1 Ingot: Steel |  |
-| Blade of Woe Replica |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Bloodscythe |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Bloodskal Blade |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Bloodskal Blade Replica |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Bloodthorn |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Bolar's Oathblade |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Bone Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Animal Bone (Large) |  |
-| Bouncer |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Bow of the Hunt |  | Craftsmanship |  |  | 1 Ingot: Steel 2 Hide Lace |  |
-| Champion's Cudgel |  | Advanced Blacksmithing |  |  | 1 Ingot: Steel |  |
-| Champion's Cudgel Replica |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Chillrend |  | Glass Blacksmithing |  |  | 1 Frost Salts |  |
-| Chillrend Replica |  | Advanced Blacksmithing |  |  | 1 Frost Salts |  |
-| Daedric Battleaxe |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric Battlestaff |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric Dagger |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric Greatsword |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric Heavy Bow |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric Heavy Crossbow |  | Daedric Smithing |  |  | 1 Ingot: Ebony 2 Silk Thread |  |
-| Daedric Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Daedric Mace |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric Sword |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric War Axe |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Daedric Warhammer |  | Daedric Smithing |  |  | 1 Daedra Heart |  |
-| Dark Brotherhood Heavy Crossbow |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Dawnbreaker |  | Legendary Blacksmithing |  |  | 1 Ingot: Silver |  |
-| Dawnbreaker Replica |  | Advanced Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Dawnguard Improved Light Crossbow |  | Craftsmanship |  |  | 1 Ingot: Steel 2 Hide Lace | Read Improved Crossbow Schematic |
-| Dawnguard Light Crossbow |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Dawnguard Rune War Axe |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Dawnguard Rune War Axe Replica |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Dawnguard Rune Warhammer |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Dawnguard Rune Warhammer Replica |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Dawnguard War Axe |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Dawnguard Warhammer |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Dragon Priest Dagger |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Dragonbane |  | Craftsmanship |  |  | 1 Ingot: Corundum |  |
-| Dragonbone Battleaxe |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dragonbone Dagger |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dragonbone Greatsword |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dragonbone Heavy Bow |  | Draconic Blacksmithing |  |  | 1 Dragon Bone 2 Hide Lace |  |
-| Dragonbone Heavy Crossbow |  | Draconic Blacksmithing |  |  | 1 Dragon Bone 2 Hide Lace |  |
-| Dragonbone Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dragonbone Mace |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dragonbone Sword |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dragonbone War Axe |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dragonbone Warhammer |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Dwarven Battleaxe |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Dwarven Dagger |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Dwarven Greatsword |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Dwarven Heavy Black Bow of Fate |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony 2 Hide Lace |  |
-| Dwarven Heavy Bow |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven 2 Hide Lace |  |
-| Dwarven Heavy Crossbow |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven 2 Hide Lace |  |
-| Dwarven Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Dwarven Improved Light Crossbow |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven 2 Hide Lace |  |
-| Dwarven Mace |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Dwarven Masterwork Light Crossbow |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven 2 Hide Lace |  |
-| Dwarven Sword |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Dwarven War Axe |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Dwarven Warhammer |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Ebony Battleaxe |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Battlestaff |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Blade |  | Legendary Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Blade Replica |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Dagger |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Greatsword |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Heavy Bow |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony 2 Hide Lace |  |
-| Ebony Heavy Crossbow |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony 2 Hide Lace |  |
-| Ebony Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Mace |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Sword |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony War Axe |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ebony Warhammer |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Eduj |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Elven Battleaxe |  | Elven Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Elven Dagger |  | Elven Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Elven Greatsword |  | Elven Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Elven Light Bow |  | Elven Blacksmithing |  |  | 2 Hide Lace 1 Ingot: Calcinium |  |
-| Elven Light Crossbow |  | Elven Blacksmithing |  |  | 1 Ingot: Moonstone 1 Hide Lace |  |
-| Elven Mace |  | Elven Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Elven Sword |  | Elven Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Elven War Axe |  | Elven Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Elven Warhammer |  | Elven Blacksmithing |  |  | 1 Ingot: Calcinium |  |
-| Falmer Heavy Bow |  | Craftsmanship |  |  | 1 Chaurus Chitin 2 Hide Lace |  |
-| Falmer Honed Light Bow |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Falmer Honed Light Bow |  | Advanced Blacksmithing |  |  | 1 Chaurus Chitin |  |
-| Falmer Honed Sword |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Falmer Honed War Axe |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Falmer Sword |  | Craftsmanship |  |  | 1 Chaurus Chitin |  |
-| Falmer War Axe |  | Craftsmanship |  |  | 1 Chaurus Chitin |  |
-| Fang of Haynekhtnamet |  | Draconic Blacksmithing |  |  | 1 Dragon Bone |  |
-| Firiniel's End |  | Elven Blacksmithing |  |  | 1 Hide Lace 1 Ingot: Calcinium |  |
-| Forsworn Light Bow |  | Craftsmanship |  |  | 1 Ingot: Steel 2 Hide Lace |  |
-| Forsworn Sword |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Forsworn War Axe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Forsworn War Axe |  | Advanced Blacksmithing |  |  | 1 Quarried Stone |  |
-| Froki's Heavy Bow |  | Craftsmanship |  |  | 1 Wood 2 Hide Lace |  |
-| Gauldur Blackblade |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Gauldur Heavy Blackbow |  | Craftsmanship |  |  | 1 Ingot: Steel 2 Hide Lace |  |
-| General Tullius' Sword |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Ghostblade |  | Arcane Craftsmanship |  |  | 1 Ectoplasm |  |
-| Glass Battleaxe |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass Battlestaff |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass Dagger |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass Greatsword |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass Light Bow |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite 1 Hide Lace |  |
-| Glass Light Bow of the Stag Prince |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite 1 Hide Lace |  |
-| Glass Light Crossbow |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite 1 Hide Lace |  |
-| Glass Mace |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass Sword |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass War Axe |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Glass Warhammer |  | Glass Blacksmithing |  |  | 1 Ingot: Malachite |  |
-| Gorak's Troll Gutting Knife |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Harkon's Sword |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Harkon's Sword Replica |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Hoarfrost |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Honorblade of Whiterun |  | Advanced Blacksmithing |  |  | 1 Ingot: Steel |  |
-| Horksbane |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Imperial Heavy Bow |  | Craftsmanship |  |  | 1 Ingot: Steel 2 Hide Lace |  |
-| Imperial Heavy Crossbow |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Imperial Sword |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Irkngthand War Axe |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Iron Battleaxe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Battlestaff |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Dagger |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Greatsword |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Headsman's Axe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Heavy Crossbow |  | Craftsmanship |  |  | 1 Ingot: Iron 2 Hide Lace |  |
-| Iron Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Iron |  |
-| Iron Mace |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Pickaxe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Shiv |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Sword |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron War Axe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Iron Warhammer |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Jon's Heavy Crossbow |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Jon's Twohander |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Kahvozein's Fang |  | Advanced Blacksmithing |  |  | 1 Ingot: Steel |  |
-| Keening |  | Legendary Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Keening Replica |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven |  |
-| Mace of Molag Bal |  | Legendary Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Mace of Molag Bal Replica |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Mehrunes' Razor |  | Legendary Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Mehrunes' Razor Replica |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Miraak's Sword |  | Legendary Blacksmithing |  |  | 1 Daedra Heart 1 Ingot: Ebony |  |
-| Miraak's Sword Replica |  | Legendary Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Mournbringer |  | Advanced Blacksmithing |  |  | 1 Ingot: Silver |  |
-| Nettlebane |  | Ebony Blacksmithing |  |  | 1 Spriggan Sap |  |
-| Nightingale Blade |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Nightingale Blade |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Nightingale Bow |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Nightingale Bow |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony 2 Hide Lace |  |
-| Nordic Battleaxe |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Nordic Dagger |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Nordic Greatsword |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Nordic Heavy Bow |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Nordic Heavy Crossbow |  | Nordic Blacksmithing |  |  | 1 Ingot: Quicksilver 1 Hide Lace |  |
-| Nordic Mace |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Nordic Sword |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Nordic War Axe |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Nordic Warhammer |  | Nordic Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Notched Pickaxe |  | Craftsmanship |  |  | 1 Gem: Diamond |  |
-| Okin |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Orcish Battleaxe |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Orcish Dagger |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Orcish Greatsword |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Orcish Heavy Bow |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum 2 Hide Lace |  |
-| Orcish Heavy Crossbow |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum 2 Hide Lace |  |
-| Orcish Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Orcish Mace |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Orcish Sword |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Orcish War Axe |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Orcish Warhammer |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| Poacher's Axe |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Ragnok's Toothpick |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Red Eagle's Bane |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Red Eagle's Fury |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Rocksplinter |  | Advanced Blacksmithing |  |  | 1 Ingot: Iron |  |
-| Rueful Axe |  | Legendary Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Rueful Axe Replica |  | Advanced Blacksmithing |  |  | 1 Ingot: Steel |  |
-| Shardsword |  | Advanced Blacksmithing |  |  | 1 Ingot: Steel |  |
-| Silver Battlestaff |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Silver Greatsword |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Silver Sword |  | Craftsmanship |  |  | 1 Ingot: Silver |  |
-| Skyforge Steel Battleaxe |  | Advanced Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Skyforge Steel Dagger |  | Craftsmanship |  |  | 1 Ingot: Galatite |  |
-| Skyforge Steel Greatsword |  | Advanced Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Skyforge Steel Heavy Bow |  | Advanced Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Skyforge Steel Mace |  | Advanced Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Skyforge Steel Sword |  | Advanced Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Skyforge Steel War Axe |  | Advanced Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Skyforge Steel Warhammer |  | Advanced Blacksmithing |  |  | 1 Ingot: Galatite |  |
-| Soulrender |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Stalhrim Battleaxe |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim Battlestaff |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim Dagger |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim Greatsword |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim Heavy Crossbow |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim Light Bow |  | Stalhrim Smithing |  |  | 1 Hide Lace 1 Stalhrim |  |
-| Stalhrim Mace |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim Sword |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim War Axe |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Stalhrim Warhammer |  | Stalhrim Smithing |  |  | 1 Stalhrim |  |
-| Steel Battleaxe |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel Battlestaff |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel Crossbow of Banishing |  | Advanced Blacksmithing |  |  | 1 Ingot: Silver 2 Leather Strips |  |
-| Steel Dagger |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel Greatsword |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel Heavy Crossbow |  | Craftsmanship |  |  | 1 Ingot: Steel 2 Hide Lace |  |
-| Steel Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Ingot: Steel |  |
-| Steel Mace |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel Scimitar |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel Sword |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel War Axe |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Steel Warhammer |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Stone Hunting Knife |  | Advanced Blacksmithing |  |  | 1 Sharp Rock |  |
-| Stormcloak Heavy Crossbow |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Stormfang |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| The Longhammer |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| The Pale Blade |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| The Warhammer of Inebriation |  | Orcish Blacksmithing |  |  | 1 Ingot: Orichalcum |  |
-| The Woodsman's Friend |  | Craftsmanship |  |  | 1 Ingot: Iron |  |
-| Thieves Guild Light Crossbow |  | Advanced Blacksmithing |  |  | 1 Ingot: Corundum |  |
-| Trollsbane |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Valdr's Lucky Dagger |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Volendrung |  | Legendary Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Volendrung Replica |  | Advanced Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Windshear |  | Craftsmanship |  |  | 1 Ingot: Steel |  |
-| Wooden Battlestaff |  | Craftsmanship |  |  | 1 Wood |  |
-| Wooden Heavy Bow |  | Craftsmanship |  |  | 1 Wood 2 Hide Lace |  |
-| Wooden Light Bow |  | Craftsmanship |  |  | 1 Wood 2 Hide Lace |  |
-| Wooden Light Bow |  | Craftsmanship |  |  | 1 Hide Lace |  |
-| Wooden Light Crossbow |  | Craftsmanship |  |  | 1 Wood 1 Hide Lace |  |
-| Wooden Sword |  | Craftsmanship |  |  | 1 Wood |  |
-| Wuuthrad |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Wuuthrad Replica |  | Ebony Blacksmithing |  |  | 1 Ingot: Ebony |  |
-| Zephyr |  | Dwarven Blacksmithing |  |  | 1 Ingot: Dwarven 2 Hide Lace |  |
-
+| Produced Item Name | Qty Made | Perks Needed | Proximity | Items Required | Additional Requirements |
+|:---|:---:|:---|:---|:---|:---|
+| Falmer Waraxe (Superlative) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Waraxe (Good) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Waraxe (Crude) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Sword (Superlative) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Sword (Good) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Sword (Crude) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Light Bow (Superlative) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Light Bow (Good) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Light Bow (Crude) |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Dragonbone Warhammer (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Warhammer (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Warhammer (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Waraxe (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Waraxe (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Waraxe (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Sword (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Sword (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Sword (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Mace (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Mace (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Mace (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Heavy Bow (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Heavy Bow (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Heavy Bow (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Greatsword (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Greatsword (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Greatsword (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Dagger (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Dagger (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Dagger (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Battleaxe (Superlative) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Battleaxe (Good) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Battleaxe (Crude) |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Chitin Warhammer (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Warhammer (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Warhammer (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Waraxe (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Waraxe (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Waraxe (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Sword (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Sword (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Sword (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Mace (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Mace (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Mace (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Greatsword (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Greatsword (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Greatsword (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Dagger (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Dagger (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Dagger (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Bow (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Bow (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Bow (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Battleaxe (Superlative) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Battleaxe (Good) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Chitin Battleaxe (Crude) |  | Morrowind Smithing 2 |  | 1 Chitin Plate |  |
+| Bonemold Warhammer (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Warhammer (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Warhammer (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Waraxe (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Waraxe (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Waraxe (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Sword (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Sword (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Sword (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Mace (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Mace (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Mace (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Greatsword (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Greatsword (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Greatsword (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Dagger (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Dagger (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Dagger (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Bow (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Bow (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Bow (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Battleaxe (Superlative) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Battleaxe (Good) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Bonemold Battleaxe (Crude) |  | Morrowind Smithing 1 |  | 2 Bone Meal |  |
+| Falmer Honed Light Bow |  | Advanced Blacksmithing |  | 1 Chaurus Chitin |  |
+| Steel Crossbow of Banishing |  | Advanced Blacksmithing |  | 1 Ingot: Silver 2 Leather Strips |  |
+| Nordic Heavy Crossbow |  | Nordic Blacksmithing |  | 2 Hide Lace 1 Ingot: Galatite |  |
+| Stalhrim Battlestaff |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Stalhrim Heavy Crossbow |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Ebony Blade |  | Legendary Blacksmithing |  | 1 Ingot: Ebony |  |
+| General Tullius' Sword |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Jon's Twohander |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Jon's Heavy Crossbow |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Ragnok's Toothpick |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| The Warhammer of Inebriation |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Gorak's Troll Gutting Knife |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Bouncer |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Dragonbone Heavy Crossbow |  | Draconic Blacksmithing |  | 1 Dragon Bone 2 Hide Lace |  |
+| Daedric Heavy Crossbow |  | Daedric Smithing |  | 1 Ingot: Ebony 2 Silk Thread |  |
+| Ebony Heavy Crossbow |  | Ebony Blacksmithing |  | 1 Ingot: Ebony 2 Hide Lace |  |
+| Orcish Heavy Crossbow |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum 2 Hide Lace |  |
+| Glass Light Crossbow |  | Glass Blacksmithing |  | 1 Ingot: Malachite 1 Hide Lace |  |
+| Elven Light Crossbow |  | Elven Blacksmithing |  | 1 Ingot: Moonstone 1 Hide Lace |  |
+| Imperial Crossbow |  | Craftsmanship |  | 1 Wood 1 Hide Lace |  |
+| Iron Heavy Crossbow |  | Craftsmanship |  | 1 Ingot: Iron 2 Hide Lace |  |
+| Dwarven Improved Light Crossbow |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven 2 Hide Lace |  |
+| Dawnguard Light Crossbow |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Silver Battlestaff |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Iron Pickaxe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Ebony Battlestaff |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Daedric Battlestaff |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Glass Battlestaff |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Steel Battlestaff |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Wooden Battlestaff |  | Craftsmanship |  | 1 Wood |  |
+| Iron Battlestaff |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Skyforge Steel Heavy Bow |  | Advanced Blacksmithing |  | 1 Ingot: Galatite |  |
+| Skyforge Steel Warhammer |  | Advanced Blacksmithing |  | 1 Ingot: Galatite |  |
+| Skyforge Steel Mace |  | Advanced Blacksmithing |  | 1 Ingot: Galatite |  |
+| Wuuthrad Replica |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Volendrung Replica |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Rueful Axe Replica |  | Advanced Blacksmithing |  | 1 Ingot: Steel |  |
+| Ebony Blade Replica |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Keening Replica |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Blade of Sacrifice Replica |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Blade of Woe Replica |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Chillrend Replica |  | Advanced Blacksmithing |  | 1 Frost Salts |  |
+| Miraak's Sword Replica |  | Legendary Blacksmithing |  | 1 Ingot: Ebony |  |
+| Bloodskal Blade Replica |  | Advanced Blacksmithing |  | 1 Ingot: Silver |  |
+| Champion's Cudgel Replica |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Forsworn War Axe |  | Advanced Blacksmithing |  | 1 Quarried Stone |  |
+| Mehrunes' Razor Replica |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Mace of Molag Bal Replica |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Dawnbreaker Replica |  | Advanced Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Harkon's Sword Replica |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Dawnguard Rune War Axe Replica |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Dawnguard Rune Warhammer Replica |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Auriel's Bow Replica |  | Elven Blacksmithing |  | 1 Ingot: Moonstone |  |
+| Kahvozein's Fang |  | Advanced Blacksmithing |  | 1 Ingot: Steel |  |
+| Falmer Honed Light Bow |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Nightingale Bow |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Nightingale Blade |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Rocksplinter |  | Advanced Blacksmithing |  | 1 Ingot: Iron |  |
+| Thieves Guild Light Crossbow |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Stormcloak Heavy Crossbow |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Imperial Heavy Crossbow |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Dark Brotherhood Heavy Crossbow |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Ancient Nordic Hero Heavy Crossbow |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Blade of the Rourken |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Shardsword |  | Advanced Blacksmithing |  | 1 Ingot: Steel |  |
+| Honorblade of Whiterun |  | Advanced Blacksmithing |  | 1 Ingot: Steel |  |
+| Mournbringer |  | Advanced Blacksmithing |  | 1 Ingot: Silver |  |
+| Bone Hunting Knife |  | Advanced Blacksmithing |  | 1 Animal Bone (Large) |  |
+| Stone Hunting Knife |  | Advanced Blacksmithing |  | 1 Sharp Rock |  |
+| Dragonbone Hunting Knife |  | Advanced Blacksmithing |  | 1 Dragon Bone |  |
+| Steel Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Steel |  |
+| Orcish Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Glass Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Malachite |  |
+| Ebony Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Ebony Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Dwarven Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Daedric Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Ebony |  |
+| Iron Hunting Knife |  | Advanced Blacksmithing |  | 1 Ingot: Iron |  |
+| Fang of Haynekhtnamet |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Ancient Nordic Hero Warhammer |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Hero Mace |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Hero Dagger |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Honed Warhammer |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Ancient Nordic Honed Mace |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Ancient Nordic Honed Dagger |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Ancient Nordic Warhammer |  | Craftsmanship |  | 2 Ingot: Iron |  |
+| Ancient Nordic Mace |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Ancient Nordic Dagger |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Irkngthand War Axe |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Wooden Light Bow |  | Craftsmanship |  | 1 Hide Lace |  |
+| Wuuthrad |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Woodsman's Friend |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Skyforge Steel Dagger |  | Craftsmanship |  | 1 Ingot: Galatite |  |
+| Iron Shiv |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Falmer Honed War Axe |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Falmer Honed Sword |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Iron Headsman's Axe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Dragon Priest Dagger |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Honed Heavy Bow |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Silver Greatsword |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Silver Sword |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Champion's Cudgel |  | Advanced Blacksmithing |  | 1 Ingot: Steel |  |
+| Hoarfrost |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Ancient Nordic Pickaxe |  | Advanced Blacksmithing |  | 1 Ingot: Iron |  |
+| Glass Light Bow of the Stag Prince |  | Glass Blacksmithing |  | 1 Ingot: Malachite 1 Hide Lace |  |
+| Soulrender |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Bloodscythe |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Dwarven Heavy Black Bow of Fate |  | Ebony Blacksmithing |  | 1 Ingot: Ebony 2 Hide Lace |  |
+| Stormfang |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Horksbane |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Nordic Warhammer |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Nordic War Axe |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Nordic Sword |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Nordic Mace |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Nordic Greatsword |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Nordic Dagger |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Nordic Heavy Bow |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Nordic Battleaxe |  | Nordic Blacksmithing |  | 1 Ingot: Galatite |  |
+| Stalhrim Warhammer |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Stalhrim War Axe |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Stalhrim Sword |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Stalhrim Mace |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Stalhrim Greatsword |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Stalhrim Dagger |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Stalhrim Light Bow |  | Stalhrim Smithing |  | 1 Hide Lace 1 Stalhrim |  |
+| Stalhrim Battleaxe |  | Stalhrim Smithing |  | 1 Stalhrim |  |
+| Bloodskal Blade |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Miraak's Sword |  | Legendary Blacksmithing |  | 1 Daedra Heart 1 Ingot: Ebony |  |
+| Wooden Sword |  | Craftsmanship |  | 1 Wood |  |
+| Dawnguard Rune Warhammer |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Dawnguard Rune War Axe |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Dawnguard Warhammer |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Dawnguard War Axe |  | Craftsmanship |  | 1 Ingot: Silver |  |
+| Dwarven Masterwork Light Crossbow |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven 2 Hide Lace |  |
+| Dwarven Heavy Crossbow |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven 2 Hide Lace |  |
+| Dragonbone Warhammer |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone War Axe |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Sword |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Mace |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Greatsword |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Dagger |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dragonbone Heavy Bow |  | Draconic Blacksmithing |  | 1 Dragon Bone 2 Hide Lace |  |
+| Dragonbone Battleaxe |  | Draconic Blacksmithing |  | 1 Dragon Bone |  |
+| Dawnguard Improved Light Crossbow |  | Craftsmanship |  | 1 Ingot: Steel 2 Hide Lace | Read Improved Crossbow Schematic |
+| Steel Heavy Crossbow |  | Craftsmanship |  | 1 Ingot: Steel 2 Hide Lace |  |
+| Auriel's Bow |  | Legendary Blacksmithing |  | 1 Ingot: Moonstone 2 Hide Lace |  |
+| Zephyr |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven 2 Hide Lace |  |
+| Harkon's Sword |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Keening |  | Legendary Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Steel Scimitar |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Wooden Heavy Bow |  | Craftsmanship |  | 1 Wood 2 Hide Lace |  |
+| Wooden Light Bow |  | Craftsmanship |  | 1 Wood 2 Hide Lace |  |
+| Nettlebane |  | Ebony Blacksmithing |  | 1 Spriggan Sap |  |
+| Angi's Bow |  | Craftsmanship |  | 1 Ingot: Steel 2 Hide Lace |  |
+| Dragonbane |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Forsworn Sword |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Forsworn Light Bow |  | Craftsmanship |  | 1 Ingot: Steel 2 Hide Lace |  |
+| Forsworn War Axe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Poacher's Axe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| The Longhammer |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Ghostblade |  | Arcane Craftsmanship |  | 1 Ectoplasm |  |
+| Ancient Nordic Sword - Ceremonial |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Ancient Nordic War Axe - Ceremonial |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Notched Pickaxe |  | Craftsmanship |  | 1 Gem: Diamond |  |
+| Okin |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Eduj |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Froki's Heavy Bow |  | Craftsmanship |  | 1 Wood 2 Hide Lace |  |
+| Bloodthorn |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Valdr's Lucky Dagger |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| The Pale Blade |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Bow of the Hawk |  | Craftsmanship |  | 1 Ingot: Steel 2 Hide Lace |  |
+| Gauldur Heavy Blackbow |  | Craftsmanship |  | 1 Ingot: Steel 2 Hide Lace |  |
+| Gauldur Blackblade |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Bolar's Oathblade |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Red Eagle's Bane |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Red Eagle's Fury |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Windshear |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Trollsbane |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Dawnbreaker |  | Legendary Blacksmithing |  | 1 Ingot: Silver |  |
+| Mace of Molag Bal |  | Legendary Blacksmithing |  | 1 Ingot: Ebony |  |
+| Mehrunes' Razor |  | Legendary Blacksmithing |  | 1 Ingot: Ebony |  |
+| Rueful Axe |  | Legendary Blacksmithing |  | 1 Ingot: Ebony |  |
+| Volendrung |  | Legendary Blacksmithing |  | 1 Ingot: Ebony |  |
+| Orcish Heavy Bow |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum 2 Hide Lace |  |
+| Imperial Heavy Bow |  | Craftsmanship |  | 1 Ingot: Steel 2 Hide Lace |  |
+| Glass Light Bow |  | Glass Blacksmithing |  | 1 Ingot: Malachite 1 Hide Lace |  |
+| Falmer Heavy Bow |  | Craftsmanship |  | 1 Chaurus Chitin 2 Hide Lace |  |
+| Elven Light Bow |  | Elven Blacksmithing |  | 2 Hide Lace 1 Ingot: Calcinium |  |
+| Ebony Heavy Bow |  | Ebony Blacksmithing |  | 1 Ingot: Ebony 2 Hide Lace |  |
+| Dwarven Heavy Bow |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven 2 Hide Lace |  |
+| Ancient Nordic Light Bow |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Daedric Heavy Bow |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Nightingale Bow |  | Ebony Blacksmithing |  | 1 Ingot: Ebony 2 Hide Lace |  |
+| Nightingale Blade |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Chillrend |  | Glass Blacksmithing |  | 1 Frost Salts |  |
+| Aegisbane |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Firiniel's End |  | Elven Blacksmithing |  | 1 Hide Lace 1 Ingot: Calcinium |  |
+| Blade of Woe Awakened |  | Advanced Blacksmithing |  | 1 Ingot: Steel |  |
+| Blade of Woe |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Falmer War Axe |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Falmer Sword |  | Craftsmanship |  | 1 Chaurus Chitin |  |
+| Blade of Sacrifice |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Ancient Nordic Honed War Axe |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Ancient Nordic War Axe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Ancient Nordic Honed Sword |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Sword |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Ancient Nordic Honed Greatsword |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Greatsword |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Ancient Nordic Honed Battleaxe |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Battleaxe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Imperial Sword |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Elven Warhammer |  | Elven Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Elven War Axe |  | Elven Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Elven Sword |  | Elven Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Elven Mace |  | Elven Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Elven Greatsword |  | Elven Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Elven Dagger |  | Elven Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Elven Battleaxe |  | Elven Blacksmithing |  | 1 Ingot: Calcinium |  |
+| Ebony Warhammer |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Dwarven Warhammer |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Ebony War Axe |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Ebony Sword |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Ebony Mace |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Dwarven War Axe |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Ebony Greatsword |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Ebony Dagger |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Ebony Battleaxe |  | Ebony Blacksmithing |  | 1 Ingot: Ebony |  |
+| Glass Warhammer |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Glass War Axe |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Glass Sword |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Glass Mace |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Glass Greatsword |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Glass Dagger |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Glass Battleaxe |  | Glass Blacksmithing |  | 1 Ingot: Malachite |  |
+| Steel Warhammer |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Steel War Axe |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Steel Sword |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Steel Mace |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Steel Greatsword |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Steel Dagger |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Steel Battleaxe |  | Craftsmanship |  | 1 Ingot: Steel |  |
+| Orcish Warhammer |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Orcish War Axe |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Orcish Sword |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Orcish Mace |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Orcish Greatsword |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Orcish Dagger |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Orcish Battleaxe |  | Orcish Blacksmithing |  | 1 Ingot: Orichalcum |  |
+| Dwarven Sword |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Dwarven Mace |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Dwarven Greatsword |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Dwarven Dagger |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Dwarven Battleaxe |  | Dwarven Blacksmithing |  | 1 Ingot: Dwarven |  |
+| Daedric Warhammer |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Daedric War Axe |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Daedric Sword |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Daedric Mace |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Daedric Greatsword |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Daedric Dagger |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Daedric Battleaxe |  | Daedric Smithing |  | 1 Daedra Heart |  |
+| Iron Warhammer |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Iron Mace |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Iron Greatsword |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Iron Dagger |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Iron Battleaxe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Iron Sword |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Iron War Axe |  | Craftsmanship |  | 1 Ingot: Iron |  |
+| Akaviri Katana |  | Craftsmanship |  | 1 Ingot: Corundum |  |
+| Skyforge Steel War Axe |  | Advanced Blacksmithing |  | 1 Ingot: Galatite |  |
+| Skyforge Steel Sword |  | Advanced Blacksmithing |  | 1 Ingot: Galatite |  |
+| Skyforge Steel Greatsword |  | Advanced Blacksmithing |  | 1 Ingot: Galatite |  |
+| Skyforge Steel Battleaxe |  | Advanced Blacksmithing |  | 1 Ingot: Galatite |  |
+| Ancient Nordic Hero War Axe |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Hero Sword |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Hero Greatsword |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
+| Ancient Nordic Hero Heavy Bow |  | Advanced Blacksmithing |  | 1 Ingot: Corundum 2 Hide Lace |  |
+| Ancient Nordic Hero Battleaxe |  | Advanced Blacksmithing |  | 1 Ingot: Corundum |  |
 </div>

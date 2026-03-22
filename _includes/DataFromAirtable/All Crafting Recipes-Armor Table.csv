@@ -1,13 +1,16 @@
 ﻿Produced Item Name,Perks Needed,Items Required
-Aetherial Shield,Dwarven Blacksmithing,1 Ingot: Dwarven
-Aetherium Boots,Legendary Blacksmithing,1 Ingot: Gold
-Aetherium Cuirass,Legendary Blacksmithing,1 Ingot: Gold
-Aetherium Gauntlets,Legendary Blacksmithing,1 Ingot: Gold
-Aetherium Helmet,Legendary Blacksmithing,1 Ingot: Gold
+Aetherium Shield,Dwarven Blacksmithing,1 Ingot: Dwarven
 Ahzidal's Boots,Advanced Blacksmithing,1 Ingot: Steel
 Ahzidal's Cuirass,Advanced Blacksmithing,1 Ingot: Steel
 Ahzidal's Gauntlets,Advanced Blacksmithing,1 Ingot: Steel
 Ahzidal's Helmet,Advanced Blacksmithing,1 Ingot: Steel
+Ancient Dawnguard Shield,Craftsmanship,1 Ingot: Steel
+Ancient Falmer Boots,Elven Blacksmithing,1 Ingot: Moonstone
+Ancient Falmer Crown,Elven Blacksmithing,1 Ingot: Moonstone
+Ancient Falmer Cuirass,Elven Blacksmithing,1 Ingot: Moonstone
+Ancient Falmer Gauntlets,Elven Blacksmithing,1 Ingot: Moonstone
+Ancient Helmet of the Unburned,Craftsmanship,1 Ingot: Steel
+Ancient Helmet of the Unfrozen,Ebony Blacksmithing,1 Stalhrim
 Ancient Nordic Boots,Craftsmanship,1 Ingot: Iron
 Ancient Nordic Cuirass,Craftsmanship,1 Ingot: Iron
 Ancient Nordic Gauntlets,Craftsmanship,1 Ingot: Iron
@@ -17,6 +20,10 @@ Ancient Nordic Hero Boots,Advanced Blacksmithing,1 Ingot: Corundum
 Ancient Nordic Hero Cuirass,Advanced Blacksmithing,1 Ingot: Corundum
 Ancient Nordic Hero Gauntlets,Advanced Blacksmithing,1 Ingot: Corundum
 Ancient Nordic Hero Helm,Advanced Blacksmithing,1 Ingot: Corundum
+Armor of the Midnight Hunt,Advanced Light Smithing,1 Pelt: Cave Bear 1 Ingot: Steel
+Armor of the Midnight Hunt,Advanced Light Smithing,1 Ingot: Steel 1 Fur Plate
+Armor of the Northern Hunt,Advanced Light Smithing,1 Pelt: Snow Bear 1 Ingot: Steel
+Armor of the Northern Hunt,Advanced Light Smithing,1 Ingot: Steel 1 Fur Plate
 Armor of the Old Gods,Craftsmanship,1 Leather
 Auriel's Shield,Legendary Blacksmithing,1 Ingot: Moonstone
 Auriel's Shield Replica,Elven Blacksmithing,1 Ingot: Moonstone
@@ -30,28 +37,95 @@ Blades Gauntlets,Craftsmanship,1 Ingot: Corundum
 Blades Helmet,Craftsmanship,1 Ingot: Corundum
 Blades Shield,Craftsmanship,1 Ingot: Corundum
 Bonemold Boots,Morrowind Smithing 1,2 Bone Meal
+Bonemold Boots (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Boots (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Boots (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Cuirass,Morrowind Smithing 1,2 Bone Meal
+Bonemold Cuirass (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Cuirass (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Cuirass (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Gauntlets,Morrowind Smithing 1,2 Bone Meal
+Bonemold Gauntlets (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Gauntlets (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Gauntlets (Superlative),Morrowind Smithing 1,2 Bone Meal
+Bonemold Guard Cuirass (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Guard Cuirass (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Guard Cuirass (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Helmet,Morrowind Smithing 1,2 Bone Meal
+Bonemold Helmet (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Helmet (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Helmet (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Improved Boots,Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Boots (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Boots (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Boots (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Boots (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Improved Cuirass,Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Cuirass (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Cuirass (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Cuirass (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Cuirass (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Improved Gauntlets,Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Gauntlets (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Gauntlets (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Gauntlets (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Gauntlets (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Improved Helmet,Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Helmet (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Helmet (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Helmet (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Helmet (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Improved Pauldroned Cuirass,Morrowind Smithing 1,2 Bone Meal
 Bonemold Improved Shield,Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Shield (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Shield (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Shield (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Improved Shield (Superlative),Morrowind Smithing 1,2 Bone Meal
+Bonemold Pauldron Cuirass (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Pauldron Cuirass (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Pauldron Cuirass (Superlative),Morrowind Smithing 1,2 Bone Meal
 Bonemold Pauldroned Cuirass,Morrowind Smithing 1,2 Bone Meal
 Bonemold Pauldroned Cuirass - Guard's,Morrowind Smithing 1,2 Bone Meal
 Bonemold Shield,Morrowind Smithing 1,2 Bone Meal
+Bonemold Shield (Crude),Morrowind Smithing 1,2 Bone Meal
+Bonemold Shield (Good),Morrowind Smithing 1,2 Bone Meal
+Bonemold Shield (Superlative),Morrowind Smithing 1,2 Bone Meal
 Boots of the Old Gods,Craftsmanship,1 Leather
 Chitin Heavy Boots,Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Boots (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Boots (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Boots (Superlative),Morrowind Smithing 2,1 Chitin Plate
 Chitin Heavy Cuirass,Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Cuirass (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Cuirass (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Cuirass (Superlative),Morrowind Smithing 2,1 Chitin Plate
 Chitin Heavy Gauntlets,Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Gauntlets (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Gauntlets (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Gauntlets (Superlative),Morrowind Smithing 2,1 Chitin Plate
 Chitin Heavy Helmet,Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Helmet (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Helmet (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Heavy Helmet (Superlative),Morrowind Smithing 2,1 Chitin Plate
 Chitin Light Boots,Morrowind Smithing 2,1 Chitin Plate
-Chitin Light Bracers,Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Boots (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Boots (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Boots (Superlative),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Bracers (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Bracers (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Bracers (Superlative),Morrowind Smithing 2,1 Chitin Plate
 Chitin Light Cuirass,Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Cuirass (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Cuirass (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Cuirass (Superlative),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Gauntlets,Morrowind Smithing 2,1 Chitin Plate
 Chitin Light Helmet,Morrowind Smithing 2,1 Chitin Plate
-Chitin Light Shield,Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Helmet (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Helmet (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Helmet (Superlative),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Shield (Crude),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Shield (Good),Morrowind Smithing 2,1 Chitin Plate
+Chitin Light Shield (Superlative),Morrowind Smithing 2,1 Chitin Plate
 Chitin Morag Tong Boots,Morrowind Smithing 2,1 Chitin Plate
 Chitin Morag Tong Bracers,Morrowind Smithing 2,1 Chitin Plate
 Chitin Morag Tong Cuirass,Morrowind Smithing 2,1 Chitin Plate
@@ -60,6 +134,7 @@ Chitin Morag Tong Elite Bracers,Morrowind Smithing 2,1 Leather
 Chitin Morag Tong Elite Cuirass,Morrowind Smithing 2,1 Leather
 Chitin Morag Tong Elite Hood,Morrowind Smithing 2,1 Leather
 Chitin Morag Tong Hood,Morrowind Smithing 2,1 Chitin Plate
+Chitin Shield,Morrowind Smithing 2,1 Chitin Plate
 Circle Boots,Advanced Blacksmithing,1 Ingot: Galatite
 Circle Cuirass,Advanced Blacksmithing,1 Ingot: Galatite
 Circle Gauntlets,Advanced Blacksmithing,1 Ingot: Galatite
@@ -71,19 +146,18 @@ Daedric Gauntlets,Daedric Smithing,1 Ingot: Ebony
 Daedric Helmet,Daedric Smithing,1 Ingot: Ebony
 Daedric Shield,Daedric Smithing,1 Ingot: Ebony
 Dawnguard Heavy Boots,Craftsmanship,1 Ingot: Steel
-Dawnguard Heavy Cuirass - Black,Craftsmanship,1 Ingot: Steel
-Dawnguard Heavy Cuirass - Grey,Craftsmanship,1 Ingot: Steel
+Dawnguard Heavy Cuirass,Craftsmanship,1 Ingot: Steel
+Dawnguard Heavy Cuirass,Craftsmanship,1 Ingot: Steel
 Dawnguard Heavy Gauntlets,Craftsmanship,1 Ingot: Steel
 Dawnguard Heavy Helmet,Craftsmanship,1 Ingot: Steel
-Dawnguard Heavy Shield,Craftsmanship,1 Ingot: Steel
 Dawnguard Light Boots,Craftsmanship,1 Ingot: Steel
-Dawnguard Light Cuirass - Black,Craftsmanship,1 Ingot: Steel
-Dawnguard Light Cuirass - Red,Craftsmanship,1 Ingot: Steel
+Dawnguard Light Cuirass,Craftsmanship,1 Ingot: Steel
+Dawnguard Light Cuirass,Craftsmanship,1 Ingot: Steel
+Dawnguard Light Cuirass,Craftsmanship,1 Ingot: Steel
 Dawnguard Light Gauntlets,Craftsmanship,1 Ingot: Steel
 Dawnguard Light Helmet,Craftsmanship,1 Ingot: Steel
-Dawnguard Reinforced Light Cuirass - Blue,Craftsmanship,1 Ingot: Steel
-Dawnguard Rune Shield,Craftsmanship,1 Ingot: Steel
 Dawnguard Rune Shield Replica,Ebony Blacksmithing,1 Ingot: Ebony
+Dawnguard Shield,Craftsmanship,1 Ingot: Steel
 Deathbrand Boots,Stalhrim Smithing,1 Stalhrim
 Deathbrand Cuirass,Stalhrim Smithing,1 Stalhrim
 Deathbrand Gauntlets,Stalhrim Smithing,1 Stalhrim
@@ -98,10 +172,25 @@ Dragonplate Bearskin Hood - Trimmed Brown,Craftsmanship,1 Dragon Scales
 Dragonplate Bearskin Hood - Trimmed White,Craftsmanship,1 Dragon Scales
 Dragonplate Bearskin Hood - White,Craftsmanship,1 Dragon Scales
 Dragonplate Boots,Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Boots (Crude),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Boots (Good),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Boots (Superlative),Draconic Blacksmithing,1 Dragon Bone
 Dragonplate Cuirass,Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Cuirass (Crude),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Cuirass (Good),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Cuirass (Superlative),Draconic Blacksmithing,1 Dragon Bone
 Dragonplate Gauntlets,Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Gauntlets (Crude),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Gauntlets (Good),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Gauntlets (Superlative),Draconic Blacksmithing,1 Dragon Bone
 Dragonplate Helmet,Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Helmet (Crude),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Helmet (Good),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Helmet (Superlative),Draconic Blacksmithing,1 Dragon Bone
 Dragonplate Shield,Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Shield (Crude),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Shield (Good),Draconic Blacksmithing,1 Dragon Bone
+Dragonplate Shield (Superlative),Draconic Blacksmithing,1 Dragon Bone
 Dragonplate Wolfskin Hood - Black,Craftsmanship,1 Dragon Scales
 Dragonplate Wolfskin Hood - Brown,Craftsmanship,1 Dragon Scales
 Dragonplate Wolfskin Hood - Dark Trimmed Black,Craftsmanship,1 Dragon Scales
@@ -127,10 +216,25 @@ Dragonscale Bearskin Hood - Trimmed Brown,Craftsmanship,1 Dragon Scales
 Dragonscale Bearskin Hood - Trimmed White,Craftsmanship,1 Dragon Scales
 Dragonscale Bearskin Hood - White,Craftsmanship,1 Dragon Scales
 Dragonscale Boots,Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Boots (Crude),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Boots (Good),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Boots (Superlative),Draconic Blacksmithing,1 Dragon Scales
 Dragonscale Cuirass,Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Cuirass (Crude),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Cuirass (Good),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Cuirass (Superlative),Draconic Blacksmithing,1 Dragon Scales
 Dragonscale Gauntlets,Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Gauntlets (Crude),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Gauntlets (Good),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Gauntlets (Superlative),Draconic Blacksmithing,1 Dragon Scales
 Dragonscale Helmet,Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Helmet (Crude),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Helmet (Good),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Helmet (Superlative),Draconic Blacksmithing,1 Dragon Scales
 Dragonscale Shield,Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Shield (Crude),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Shield (Good),Draconic Blacksmithing,1 Dragon Scales
+Dragonscale Shield (Superlative),Draconic Blacksmithing,1 Dragon Scales
 Dragonscale Wolfskin Hood - Black,Craftsmanship,1 Dragon Scales
 Dragonscale Wolfskin Hood - Brown,Craftsmanship,1 Dragon Scales
 Dragonscale Wolfskin Hood - Dark Trimmed Black,Craftsmanship,1 Dragon Scales
@@ -146,10 +250,14 @@ Dragonscale Wolfskin Hood - Ornate Black,Craftsmanship,1 Dragon Scales
 Dragonscale Wolfskin Hood - Ornate Brown,Craftsmanship,1 Dragon Scales
 Dragonscale Wolfskin Hood - Ornate White,Craftsmanship,1 Dragon Scales
 Dragonscale Wolfskin Hood - White,Craftsmanship,1 Dragon Scales
-Dwarven Boots,Dwarven Blacksmithing,1 Ingot: Dwarven
-Dwarven Cuirass,Dwarven Blacksmithing,1 Ingot: Dwarven
-Dwarven Gauntlets,Dwarven Blacksmithing,1 Ingot: Dwarven
-Dwarven Helmet,Dwarven Blacksmithing,1 Ingot: Dwarven
+Dwarven Boots of Bthar-zel,Legendary Blacksmithing,1 Ingot: Gold
+Dwarven Cuirass of Mzulft,Legendary Blacksmithing,1 Ingot: Gold
+Dwarven Gauntlets of Raldbthar,Legendary Blacksmithing,1 Ingot: Gold
+Dwarven Heavy Boots,Dwarven Blacksmithing,1 Ingot: Dwarven
+Dwarven Heavy Cuirass,Dwarven Blacksmithing,1 Ingot: Dwarven
+Dwarven Heavy Gauntlets,Dwarven Blacksmithing,1 Ingot: Dwarven
+Dwarven Heavy Helmet,Dwarven Blacksmithing,1 Ingot: Dwarven
+Dwarven Helmet of Arkngthamz,Legendary Blacksmithing,1 Ingot: Gold
 Dwarven Shield,Dwarven Blacksmithing,1 Ingot: Dwarven
 Ebony Boots,Ebony Blacksmithing,1 Ingot: Ebony
 Ebony Boots - Gilded,Ebony Blacksmithing,1 Ingot: Ebony
@@ -190,9 +298,9 @@ Elven Helmet,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Helmet - Gilded,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Helmet - Thalmor,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Helmet - Thalmor Gilded,Elven Blacksmithing,1 Ingot: Calcinium
+Elven Light Armor,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Light Boots,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Light Boots - Thalmor,Advanced Blacksmithing,1 Ingot: Calcinium
-Elven Light Cuirass,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Light Cuirass - Thalmor,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Light Gauntlets,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Light Gauntlets - Thalmor,Elven Blacksmithing,1 Ingot: Calcinium
@@ -202,19 +310,54 @@ Elven Shield,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Shield - Gilded,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Shield - Thalmor,Elven Blacksmithing,1 Ingot: Calcinium
 Elven Shield - Thalmor Gilded,Elven Blacksmithing,1 Ingot: Calcinium
-Falmer Boots,Craftsmanship,1 Chaurus Chitin
-Falmer Bracers,Craftsmanship,1 Chaurus Chitin
-Falmer Cuirass,Craftsmanship,1 Chaurus Chitin
-Falmer Hardened Boots,Ebony Blacksmithing,1 Ingot: Ebony
-Falmer Hardened Cuirass,Ebony Blacksmithing,1 Ingot: Ebony
-Falmer Hardened Gauntlets,Ebony Blacksmithing,1 Ingot: Ebony
-Falmer Hardened Helmet,Ebony Blacksmithing,1 Ingot: Ebony
+Falmer Boots (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Boots (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Boots (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Boots (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Boots (Superlative),Craftsmanship,1 Chaurus Chitin
+Falmer Boots (Superlative),Craftsmanship,1 Chaurus Chitin
+Falmer Bracers (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Bracers (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Bracers (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Bracers (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Bracers (Superlative),Craftsmanship,1 Chaurus Chitin
+Falmer Bracers (Superlative),Craftsmanship,1 Chaurus Chitin
+Falmer Cuirass (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Cuirass (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Cuirass (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Cuirass (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Cuirass (Superlative),Craftsmanship,1 Chaurus Chitin
+Falmer Cuirass (Superlative),Craftsmanship,1 Chaurus Chitin
 Falmer Heavy Boots,Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Boots (Crude),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Boots (Good),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Boots (Superlative),Advanced Blacksmithing,1 Chaurus Chitin
 Falmer Heavy Cuirass,Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Cuirass (Crude),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Cuirass (Good),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Cuirass (Superlative),Advanced Blacksmithing,1 Chaurus Chitin
 Falmer Heavy Gauntlets,Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Gauntlets (Crude),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Gauntlets (Good),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Gauntlets (Superlative),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Helm (Crude),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Helm (Good),Advanced Blacksmithing,1 Chaurus Chitin
+Falmer Heavy Helm (Superlative),Advanced Blacksmithing,1 Chaurus Chitin
 Falmer Heavy Helmet,Advanced Blacksmithing,1 Chaurus Chitin
-Falmer Helmet,Craftsmanship,1 Chaurus Chitin
+Falmer Helmet (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Helmet (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Helmet (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Helmet (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Helmet (Superlative),Craftsmanship,1 Chaurus Chitin
+Falmer Helmet (Superlative),Craftsmanship,1 Chaurus Chitin
+Falmer Light Boots,Craftsmanship,1 Chaurus Chitin
+Falmer Light Bracers,Craftsmanship,1 Chaurus Chitin
+Falmer Light Cuirass,Craftsmanship,1 Chaurus Chitin
+Falmer Light Helmet,Craftsmanship,1 Chaurus Chitin
 Falmer Shield,Craftsmanship,1 Chaurus Chitin
+Falmer Shield  (Good),Craftsmanship,1 Chaurus Chitin
+Falmer Shield (Crude),Craftsmanship,1 Chaurus Chitin
+Falmer Shield (Superlative),Craftsmanship,1 Chaurus Chitin
 Forsworn Boots,Craftsmanship,1 Leather
 Forsworn Cuirass,Craftsmanship,1 Leather
 Forsworn Gauntlets,Craftsmanship,1 Leather
@@ -324,6 +467,7 @@ Iron Heavy Shield,Craftsmanship,1 Ingot: Iron
 Iron Helmet,Craftsmanship,1 Ingot: Iron
 Iron Helmet - Engraved,Craftsmanship,1 Ingot: Iron
 Iron Helmet - Ram,Craftsmanship,1 Ingot: Iron
+Iron Light Guard's Helmet,Craftsmanship,1 Ingot: Iron
 Iron Light Guard's Helmet - Falkreath,Craftsmanship,1 Ingot: Iron
 Iron Light Guard's Helmet - Haafingar,Craftsmanship,1 Ingot: Iron
 Iron Light Guard's Helmet - Hjaalmarch,Craftsmanship,1 Ingot: Iron
@@ -403,6 +547,18 @@ Linwe's Boots,Craftsmanship,1 Leather
 Linwe's Cuirass,Craftsmanship,1 Leather
 Linwe's Gloves,Craftsmanship,1 Leather
 Linwe's Hood,Craftsmanship,1 Leather
+Mammoth Hide Boots (Basic Level 4),Craftsmanship,1 Pelt: Mammoth Section (Flawless)
+Mammoth Hide Boots (Crude),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Boots (Good),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Boots (Superlative),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Cuirass (Basic Level 4),Craftsmanship,1 Pelt: Mammoth Section (Flawless)
+Mammoth Hide Cuirass (Crude),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Cuirass (Good),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Cuirass (Superlative),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Gauntlets (Crude),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Gauntlets (Good),Craftsmanship,1 Pelt: Mammoth Section
+Mammoth Hide Gauntlets (Superlative),Craftsmanship,1 Pelt: Mammoth Section (Flawless)
+Mammoth Hide Gauntlets (Superlative),Craftsmanship,1 Pelt: Mammoth Section
 Nightingale Armor,Advanced Blacksmithing,1 Void Salts
 Nightingale Boots,Advanced Blacksmithing,1 Void Salts
 Nightingale Boots,Advanced Light Smithing,1 Void Salts
@@ -411,42 +567,39 @@ Nightingale Gloves,Advanced Light Smithing,1 Void Salts
 Nightingale Gloves,Advanced Blacksmithing,1 Void Salts
 Nightingale Hood,Advanced Light Smithing,1 Void Salts
 Nightingale Hood,Advanced Blacksmithing,1 Void Salts
-Nordic Boots - Black,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Boots - Brown,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Boots - White,Nordic Blacksmithing,1 Ingot: Galatite
-Nordic Cuirass - Black,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Cuirass - Brown,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Cuirass - White,Nordic Blacksmithing,1 Ingot: Galatite
-Nordic Gauntlets - Black,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Gauntlets - Brown,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Gauntlets - White,Nordic Blacksmithing,1 Ingot: Galatite
-Nordic Helmet - Black,Nordic Blacksmithing,1 Ingot: Galatite
-Nordic Shield - Black,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Shield - Brown,Nordic Blacksmithing,1 Ingot: Galatite
 Nordic Shield - White,Nordic Blacksmithing,1 Ingot: Galatite
-Orcish Boots,Orcish Blacksmithing,1 Ingot: Orichalcum
-Orcish Cuirass,Orcish Blacksmithing,1 Ingot: Orichalcum
-Orcish Gauntlets,Orcish Blacksmithing,1 Ingot: Orichalcum
-Orcish Helmet,Orcish Blacksmithing,1 Ingot: Orichalcum
+Orcish Heavy Boots,Orcish Blacksmithing,1 Ingot: Orichalcum
+Orcish Heavy Cuirass,Orcish Blacksmithing,1 Ingot: Orichalcum
+Orcish Heavy Gauntlets,Orcish Blacksmithing,1 Ingot: Orichalcum
+Orcish Heavy Helmet,Orcish Blacksmithing,1 Ingot: Orichalcum
 Orcish Shield,Orcish Blacksmithing,1 Ingot: Orichalcum
 Penitus Oculatus Boots,Craftsmanship,1 Leather
 Penitus Oculatus Bracers,Craftsmanship,1 Leather
 Penitus Oculatus Cuirass,Craftsmanship,1 Leather
 Penitus Oculatus Helmet,Craftsmanship,1 Leather
 Predator's Grace,Craftsmanship,1 Leather
+Quicksilver Boots,Nordic Blacksmithing,1 Ingot: Galatite
+Quicksilver Cuirass,Nordic Blacksmithing,1 Ingot: Galatite
+Quicksilver Gauntlets,Nordic Blacksmithing,1 Ingot: Galatite
+Quicksilver Helmet,Nordic Blacksmithing,1 Ingot: Galatite
+Quicksilver Shield,Nordic Blacksmithing,1 Ingot: Galatite
 Savior's Hide,Legendary Blacksmithing,1 Pelt: Werewolf
 Savior's Hide - Black,Legendary Blacksmithing,1 Pelt: Cave Bear
 Savior's Hide - White,Legendary Blacksmithing,1 Pelt: Snow Bear
 Savior's Hide Replica,Advanced Blacksmithing,1 Pelt: Bear 1 Ingot: Steel
 Savior's Hide Replica,Advanced Blacksmithing,1 Ingot: Steel 1 Fur Plate
-Savior's Hide Replica - Black,Advanced Light Smithing,1 Pelt: Cave Bear 1 Ingot: Steel
-Savior's Hide Replica - Black,Advanced Light Smithing,1 Ingot: Steel 1 Fur Plate
-Savior's Hide Replica - White,Advanced Light Smithing,1 Pelt: Snow Bear 1 Ingot: Steel
-Savior's Hide Replica - White,Advanced Light Smithing,1 Ingot: Steel 1 Fur Plate
 Scaled Boots,Advanced Light Smithing,1 Ingot: Corundum
 Scaled Bracers,Advanced Light Smithing,1 Ingot: Corundum
 Scaled Cuirass,Advanced Light Smithing,1 Ingot: Corundum
 Scaled Cuirass - Horned,Advanced Light Smithing,1 Ingot: Corundum
+Scaled Cuirass of the Traveler,Advanced Light Smithing,1 Ingot: Corundum
 Scaled Helmet,Advanced Light Smithing,1 Ingot: Corundum
 Shellbug Helmet,Ebony Blacksmithing,1 Ingot: Ebony
 Shield of Solitude,Craftsmanship,1 Ingot: Iron
@@ -462,9 +615,9 @@ Shrouded Cowl,Craftsmanship,1 Leather: Dark
 Shrouded Cowl,Craftsmanship,1 Leather: Dark
 Shrouded Cowl - Maskless,Craftsmanship,1 Leather: Dark
 Shrouded Cowl - Maskless,Craftsmanship,1 Leather: Dark
+Shrouded Cuirass,Craftsmanship,1 Leather: Dark
+Shrouded Cuirass,Craftsmanship,1 Leather: Dark
 Shrouded Cuirass,Advanced Light Smithing,1 Leather: Dark
-Shrouded Cuirass,Craftsmanship,1 Leather: Dark
-Shrouded Cuirass,Craftsmanship,1 Leather: Dark
 Shrouded Gloves,Craftsmanship,1 Leather: Red
 Shrouded Gloves,Craftsmanship,1 Leather: Red
 Shrouded Sleeveless Cuirass,Craftsmanship,1 Leather: Dark
@@ -479,10 +632,6 @@ Shrouded Worn Cowl - Maskless,Craftsmanship,1 Leather: Dark
 Shrouded Worn Cuirass,Craftsmanship,1 Leather: Dark
 Shrouded Worn Gloves,Craftsmanship,1 Leather: Red
 Skyforge Steel Aegis,Advanced Blacksmithing,1 Ingot: Galatite
-Snow Elf Boots,Elven Blacksmithing,1 Ingot: Moonstone
-Snow Elf Crown,Elven Blacksmithing,1 Ingot: Moonstone
-Snow Elf Cuirass,Elven Blacksmithing,1 Ingot: Moonstone
-Snow Elf Gauntlets,Elven Blacksmithing,1 Ingot: Moonstone
 Spellbreaker,Legendary Blacksmithing,1 Ingot: Dwarven
 Spellbreaker Replica,Advanced Blacksmithing,1 Ingot: Dwarven
 Stalhrim Heavy Boots,Stalhrim Smithing,1 Stalhrim
@@ -508,6 +657,7 @@ Steel Boots - White,Craftsmanship,1 Ingot: Steel
 Steel Bracers,Craftsmanship,1 Ingot: Steel
 Steel Cuirass,Craftsmanship,1 Ingot: Steel
 Steel Cuirass - White,Craftsmanship,1 Ingot: Steel
+Steel Furred Plate Cuirass,Advanced Blacksmithing,1 Ingot: Corundum
 Steel Gauntlets,Craftsmanship,1 Ingot: Steel
 Steel Gauntlets - White,Craftsmanship,1 Ingot: Steel
 Steel Greaves,Craftsmanship,1 Ingot: Steel
@@ -522,6 +672,7 @@ Steel Plate Cuirass,Advanced Blacksmithing,1 Ingot: Corundum
 Steel Plate Gauntlets,Advanced Blacksmithing,1 Ingot: Corundum
 Steel Plate Helmet,Advanced Blacksmithing,1 Ingot: Corundum
 Steel Plate Shield,Advanced Blacksmithing,1 Ingot: Corundum
+Steel Robed Plate Cuirass,Advanced Blacksmithing,1 Ingot: Corundum
 Steel Shield,Craftsmanship,1 Ingot: Steel
 Steel Wolfskin Hood - Black,Craftsmanship,1 Ingot: Steel 2 Leather Strips
 Steel Wolfskin Hood - Brown,Craftsmanship,1 Ingot: Steel 2 Leather Strips
@@ -582,12 +733,12 @@ Thieves Guild Improved Sleeveless Cuirass - Grey,Advanced Light Smithing,1 Leath
 Thieves Guild Master's Boots,Advanced Light Smithing,1 Leather: Dark
 Thieves Guild Master's Boots,Craftsmanship,1 Leather: Dark
 Thieves Guild Master's Cowl,Advanced Light Smithing,1 Leather: Dark
-Thieves Guild Master's Cuirass,Craftsmanship,1 Leather: Dark
 Thieves Guild Master's Cuirass,Advanced Light Smithing,1 Leather: Dark
-Thieves Guild Master's Gloves,Advanced Light Smithing,1 Leather: Dark
+Thieves Guild Master's Cuirass,Craftsmanship,1 Leather: Dark
 Thieves Guild Master's Gloves,Craftsmanship,1 Leather: Dark
-Thieves Guild Master's Hood,Advanced Light Smithing,1 Leather: Dark
+Thieves Guild Master's Gloves,Advanced Light Smithing,1 Leather: Dark
 Thieves Guild Master's Hood,Craftsmanship,1 Leather: Dark
+Thieves Guild Master's Hood,Advanced Light Smithing,1 Leather: Dark
 Thieves Guild Master's Sleeveless Cuirass,Advanced Light Smithing,1 Leather: Dark
 Thieves Guild Sleeveless Cuirass,Craftsmanship,1 Leather
 Thieves Guild Sleeveless Cuirass - Grey,Craftsmanship,1 Leather
@@ -597,9 +748,9 @@ Ulfric's Boots,Advanced Blacksmithing,1 Ingot: Corundum
 Ulfric's Bracers,Advanced Blacksmithing,1 Ingot: Corundum
 Ulfric's Cuirass,Advanced Blacksmithing,1 Ingot: Corundum
 Vampire Boots,Craftsmanship,1 Leather: Dark
-Vampire Cuirass - Dark,Craftsmanship,1 Leather: Dark
-Vampire Cuirass - Grey,Craftsmanship,1 Leather
-Vampire Cuirass - Red,Craftsmanship,1 Leather: Red
+Vampire Cuirass,Craftsmanship,1 Leather: Red
+Vampire Cuirass,Craftsmanship,1 Leather
+Vampire Cuirass,Craftsmanship,1 Leather: Dark
 Vampire Gauntlets,Craftsmanship,1 Leather: Dark
 Vampire Hood,Craftsmanship,1 Leather: Dark
 Vampire Royal Cuirass,Craftsmanship,1 Leather: Dark

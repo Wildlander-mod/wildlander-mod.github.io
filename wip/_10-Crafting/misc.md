@@ -1,4 +1,4 @@
----
+﻿---
 title: Miscellaneous Recipes
 layout: default
 nav_order: 10
@@ -81,10 +81,9 @@ function showMiscRecipestooltip(event, row) {
     itemName: cells[0]?.textContent || '',
     qtyMade: cells[1]?.textContent || '',
     perksNeeded: cells[2]?.textContent || '',
-    toolkitsRequired: cells[3]?.textContent || '',
-    proximity: cells[4]?.textContent || '',
-    itemsRequired: cells[5]?.textContent || '',
-    additionalRequirements: cells[6]?.textContent || ''
+    proximity: cells[3]?.textContent || '',
+    itemsRequired: cells[4]?.textContent || '',
+    additionalRequirements: cells[5]?.textContent || ''
   };
   
   let tooltip = document.getElementById('misc-tooltip');
@@ -101,7 +100,6 @@ function showMiscRecipestooltip(event, row) {
     <div><strong>Item:</strong> ${data.itemName}</div>
     <div><strong>Qty Made:</strong> ${data.qtyMade}</div>
     <div><strong>Perks Needed:</strong> ${data.perksNeeded}</div>
-    <div><strong>Toolkits Required:</strong> ${data.toolkitsRequired}</div>
     <div><strong>Proximity:</strong> ${data.proximity}</div>
     <div><strong>Items Required:</strong> ${data.itemsRequired}</div>
     <div><strong>Additional Requirements:</strong> ${data.additionalRequirements}</div>
@@ -137,15 +135,8 @@ function initMiscRecipesFilters() {
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     if (cells.length >= 4) {
-      const toolkitText = cells[3].textContent.trim();
       const perksText = cells[2].textContent.trim();
       
-      if (toolkitText) {
-        toolkitText.split(',').forEach(toolkit => {
-          const trimmed = toolkit.trim();
-          if (trimmed) toolkits.add(trimmed);
-        });
-      }
       if (perksText) {
         perksText.split(',').forEach(perk => {
           const trimmed = perk.trim();
@@ -155,15 +146,7 @@ function initMiscRecipesFilters() {
     }
   });
   
-  const toolkitFilter = document.getElementById('miscToolkitFilter');
   const perksFilter = document.getElementById('miscPerksFilter');
-  
-  Array.from(toolkits).sort().forEach(toolkit => {
-    const option = document.createElement('option');
-    option.value = toolkit;
-    option.textContent = toolkit;
-    toolkitFilter.appendChild(option);
-  });
   
   Array.from(perks).sort().forEach(perk => {
     const option = document.createElement('option');
@@ -173,7 +156,7 @@ function initMiscRecipesFilters() {
   });
   
   document.getElementById('miscRecipesSearch').addEventListener('input', filterMiscRecipesTable);
-  document.getElementById('miscToolkitFilter').addEventListener('change', filterMiscRecipesTable);
+
   document.getElementById('miscPerksFilter').addEventListener('change', filterMiscRecipesTable);
   initMiscRecipestooltips();
   updateFilterCountMisc();
@@ -181,7 +164,6 @@ function initMiscRecipesFilters() {
 
 function filterMiscRecipesTable() {
   const searchTerm = document.getElementById('miscRecipesSearch').value.toLowerCase();
-  const toolkitFilter = document.getElementById('miscToolkitFilter').value;
   const perksFilter = document.getElementById('miscPerksFilter').value;
   
   const table = document.querySelector('.misc-recipes-table table');
@@ -191,16 +173,13 @@ function filterMiscRecipesTable() {
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     const itemName = cells[0]?.textContent.toLowerCase() || '';
-    const itemsRequired = cells[5]?.textContent.toLowerCase() || '';
+    const itemsRequired = cells[4]?.textContent.toLowerCase() || '';
     const searchMatch = itemName.includes(searchTerm) || itemsRequired.includes(searchTerm);
-    const toolkitCellText = cells[3]?.textContent.trim() || '';
-    const toolkitList = toolkitCellText.split(',').map(t => t.trim());
-    const toolkitMatch = !toolkitFilter || toolkitList.includes(toolkitFilter);
     const perksCellText = cells[2]?.textContent.trim() || '';
     const perksList = perksCellText.split(',').map(p => p.trim());
     const perksMatch = !perksFilter || perksList.includes(perksFilter);
     
-    const isVisible = searchMatch && toolkitMatch && perksMatch;
+    const isVisible = searchMatch && perksMatch;
     row.style.display = isVisible ? '' : 'none';
     if (isVisible) visibleCount++;
   });
@@ -224,7 +203,6 @@ function updateFilterCountMisc() {
 
 function clearMiscRecipesFilters() {
   document.getElementById('miscRecipesSearch').value = '';
-  document.getElementById('miscToolkitFilter').value = '';
   document.getElementById('miscPerksFilter').value = '';
   filterMiscRecipesTable();
 }
@@ -236,9 +214,6 @@ initMiscRecipesFilters();
 
 <div class="misc-recipes-controls">
   <input type="text" id="miscRecipesSearch" placeholder="Search (Item Name, Ingredients, Requirements)..." />
-  <select id="miscToolkitFilter">
-    <option value="">All Toolkits</option>
-  </select>
   <select id="miscPerksFilter">
     <option value="">All Perks</option>
   </select>
@@ -248,242 +223,295 @@ initMiscRecipesFilters();
 
 <div class="misc-recipes-table" markdown="1">
 
-| Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |
-|:---|:---:|:---|:---|:---|:---|:---|
-| Flammable Oil | 1 |  | N/A | Cook pot | 2 Animal Fat |  |
-| Glass Bottle (Water) | 1 |  | N/A | Cook pot | 1 Glass Bottle (Salt Water) |  |
-| Salt | 1 |  | N/A | Cook pot | 1 Waterskin (Salt Water) |  |
-| Salt | 1 |  | N/A | Cook pot | 1 Glass Bottle (Salt Water) |  |
-| Waterskin (3/3) | 1 |  | N/A | Cook pot | 1 Waterskin (Salt Water) |  |
-| Soap - Blue Mountain | 3 | Craftsmanship | Survivalists | Cook pot | 1 Salt 3 Blue Mountain Flower 1 Animal Fat |  |
-| Soap - Dragon's Tongue | 3 | Craftsmanship | Survivalists | Cook pot | 1 Salt 3 Dragon's Tongue 1 Animal Fat |  |
-| Soap - Lavender | 3 | Craftsmanship | Survivalists | Cook pot | 1 Salt 3 Lavender 1 Animal Fat |  |
-| Soap - Plain | 3 | Craftsmanship | Survivalists | Cook pot | 1 Salt 1 Animal Fat |  |
-| Soap - Purple Mountain Flower | 3 | Craftsmanship | Survivalists | Cook pot | 1 Salt 3 Purple Mountain Flower 1 Animal Fat |  |
-| Soap - Red Mountain Flower | 3 | Craftsmanship | Survivalists | Cook pot | 1 Salt 3 Red Mountain Flower 1 Animal Fat |  |
-| Soap - Superior Mountain Flower | 3 | Craftsmanship | Survivalists | Cook pot | 1 Salt 2 Blue Mountain Flower 2 Red Mountain Flower 2 Purple Mountain Flower 1 Animal Fat |  |
-| Blood of the Hunt (Strange Brew) | 1 |  | Alchemists | Cook pot | 1 Bear Heart 1 Deer Heart 1 Goat Heart 1 Wolf Heart 1 Mammoth Heart | Brewing Skill Greater or Equal to 2 |
-| Chaurus Venom (Good) | 1 |  | Alchemists | Cook pot | 2 Chaurus Venom (Crude) | Animal Harvesting Skill Greater or Equal to 2 |
-| Chaurus Venom (Great) | 1 |  | Alchemists | Cook pot | 1 Falmer Ear 1 Chaurus Venom (Good) 1 Chaurus Venom (Crude) | Animal Harvesting Skill Greater or Equal to 4 |
-| Chaurus Venom (Superlative) | 1 |  | Alchemists | Cook pot | 1 Chaurus Eggs 1 Chaurus Venom (Great) | Animal Harvesting Skill Greater or Equal to 6 |
-| Dragon's Blood Poison (Crude) | 2 |  | Alchemists | Cook pot | 1 Wolf Eye 1 Werewolf's Blood | Animal Harvesting Skill Equal to 1 |
-| Dragon's Blood Poison (Decent) | 2 |  | Alchemists | Cook pot | 1 Wolf Eye 1 Werewolf's Blood | Animal Harvesting Skill Equal to 2 |
-| Dragon's Blood Poison (Good) | 2 |  | Alchemists | Cook pot | 1 Wolf Eye 1 Werewolf's Blood | Animal Harvesting Skill Equal to 3 |
-| Dragon's Blood Poison (Great) | 2 |  | Alchemists | Cook pot | 1 Wolf Eye 1 Werewolf's Blood | Animal Harvesting Skill Equal to 4 |
-| Dragon's Blood Poison (Remarkable) | 2 |  | Alchemists | Cook pot | 1 Wolf Eye 1 Werewolf's Blood | Animal Harvesting Skill Greater or Equal to 5 |
-| Dragon's Blood Potion (Decent) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werewolf's Blood | Animal Harvesting Skill Equal to 2 |
-| Dragon's Blood Potion (Good) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werewolf's Blood | Animal Harvesting Skill Equal to 3 |
-| Dragon's Blood Potion (Great) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werewolf's Blood | Animal Harvesting Skill Equal to 4 |
-| Dragon's Blood Potion (Remarkable) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werewolf's Blood | Animal Harvesting Skill Greater or Equal to 5 |
-| Dragon's Elixir of Firebloom | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of Furious Speed | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of Ghostly Passage | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of Kyne's Peace | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of Slowed Time | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of Swiftness | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of the Living Circle | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of the Shade | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of the Storm | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Elixir of the Unseen | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Venom of Death | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Venom of Disarming | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Venom of Explosive Force | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Venom of Terrible Frost | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Dragon's Venom of Torpor | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Flare Coating | 1 |  | Alchemists | Cook pot | 3 Torchbug Thorax | Animal Harvesting Skill Greater or Equal to 1 |
-| Mild Acid | 1 |  | Alchemists | Cook pot | 1 Chaurus Venom (Crude) |  |
-| Mild Acid | 1 |  | Alchemists | Cook pot | 5 Spider Egg |  |
-| Mild Acid | 1 |  | Alchemists | Cook pot | 2 Spider Venom (Crude) |  |
-| Poison of Fear (Remarkable) | 2 |  | Alchemists | Cook pot | 1 Dragon's Blood |  |
-| Potion of Arcane Metabolisis | 2 |  | Alchemists | Cook pot | 2 Polished Fox Eye 1 Dragon's Blood | Animal Harvesting Skill Greater or Equal to 3 |
-| Potion of Boneblood | 1 |  | Alchemists | Cook pot | 10 Bone Meal 1 Blood of the Hunt (Strange Brew) | Animal Harvesting Skill Greater or Equal to 1 |
-| Potion of Hircine's Agony (Strange Brew) | 2 |  | Alchemists | Cook pot | 1 Nord Mead 2 Wolf Claws 2 Buck Antlers (Superlative) | Brewing Skill Greater or Equal to 0 |
-| Potion of Hircine's Cloak (Strange Brew) | 2 |  | Alchemists | Cook pot | 1 Wolf Heart 2 Polished Sabre Cat Eye | Brewing Skill Greater or Equal to 1 |
-| Spider Venom (Good) | 1 |  | Alchemists | Cook pot | 2 Spider Venom (Crude) | Animal Harvesting Skill Greater or Equal to 1 |
-| Spider Venom (Great) | 1 |  | Alchemists | Cook pot | 3 Bleeding Crown 1 Spider Venom (Good) | Animal Harvesting Skill Greater or Equal to 2 |
-| Spider Venom (Superlative) | 1 |  | Alchemists | Cook pot | 1 Spider Egg 1 Spider Venom (Great) | Animal Harvesting Skill Greater or Equal to 3 |
-| Strong Acid | 1 |  | Alchemists | Cook pot | 1 Spider Venom (Great) | Animal Harvesting Skill Greater or Equal to 2 |
-| Strong Acid | 1 |  | Alchemists | Cook pot | 3 Chaurus Eggs | Animal Harvesting Skill Greater or Equal to 2 |
-| Strong Acid | 1 |  | Alchemists | Cook pot | 1 Chaurus Venom (Good) | Animal Harvesting Skill Greater or Equal to 2 |
-| Troll's Blood Poison (Crude) | 2 |  | Alchemists | Cook pot | 1 Troll Fat 1 Troll Blood | Animal Harvesting Skill Equal to 1 |
-| Troll's Blood Poison (Decent) | 2 |  | Alchemists | Cook pot | 1 Troll Fat 1 Troll Blood | Animal Harvesting Skill Equal to 2 |
-| Troll's Blood Poison (Good) | 2 |  | Alchemists | Cook pot | 1 Troll Fat 1 Troll Blood | Animal Harvesting Skill Equal to 3 |
-| Troll's Blood Poison (Great) | 2 |  | Alchemists | Cook pot | 1 Troll Fat 1 Troll Blood | Animal Harvesting Skill Equal to 4 |
-| Troll's Blood Poison (Remarkable) | 2 |  | Alchemists | Cook pot | 1 Troll Fat 1 Troll Blood | Animal Harvesting Skill Greater or Equal to 5 |
-| Troll's Blood Potion (Crude) | 2 |  | Alchemists | Cook pot | 1 Troll Blood 1 Medicinal Salve | Animal Harvesting Skill Equal to 1 |
-| Troll's Blood Potion (Decent) | 2 |  | Alchemists | Cook pot | 1 Troll Blood 1 Medicinal Salve | Animal Harvesting Skill Equal to 2 |
-| Troll's Blood Potion (Good) | 2 |  | Alchemists | Cook pot | 1 Troll Blood 1 Medicinal Salve | Animal Harvesting Skill Equal to 3 |
-| Troll's Blood Potion (Great) | 2 |  | Alchemists | Cook pot | 1 Troll Blood 1 Medicinal Salve | Animal Harvesting Skill Equal to 4 |
-| Troll's Blood Potion (Remarkable) | 2 |  | Alchemists | Cook pot | 1 Troll Blood 1 Medicinal Salve | Animal Harvesting Skill Greater or Equal to 5 |
-| Werebear's Blood Poison (Crude) | 2 |  | Alchemists | Cook pot | 1 Bear Eye 1 Werebear's Blood | Animal Harvesting Skill Equal to 1 |
-| Werebear's Blood Poison (Decent) | 2 |  | Alchemists | Cook pot | 1 Bear Eye 1 Werebear's Blood | Animal Harvesting Skill Equal to 2 |
-| Werebear's Blood Poison (Good) | 2 |  | Alchemists | Cook pot | 1 Bear Eye 1 Werebear's Blood | Animal Harvesting Skill Equal to 3 |
-| Werebear's Blood Poison (Great) | 2 |  | Alchemists | Cook pot | 1 Bear Eye 1 Werebear's Blood | Animal Harvesting Skill Equal to 4 |
-| Werebear's Blood Poison (Remarkable) | 2 |  | Alchemists | Cook pot | 1 Bear Eye 1 Werebear's Blood | Animal Harvesting Skill Greater or Equal to 5 |
-| Werebear's Blood Potion (Decent) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werebear's Blood | Animal Harvesting Skill Equal to 2 |
-| Werebear's Blood Potion (Good) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werebear's Blood | Animal Harvesting Skill Equal to 3 |
-| Werebear's Blood Potion (Great) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werebear's Blood | Animal Harvesting Skill Equal to 4 |
-| Werebear's Blood Potion (Remarkable) | 2 |  | Alchemists | Cook pot | 1 Luna Moth Wing 1 Werebear's Blood | Animal Harvesting Skill Greater or Equal to 5 |
-| Blood-Conserving Phial | 2 | Craftsmanship,Alchemical Lore 1 | Alchemists | Forge | 3 Salt 1 Ingot: Gold 1 Building Glass 3 Mild Acid | Player Must be a vampire |
-| Blood-Conserving Phial | 2 | Craftsmanship,Alchemical Lore 1 | Alchemists | Forge | 3 Salt 1 Ingot: Gold 1 Building Glass 3 Strong Acid | Player Must be a vampire |
-| Glass Alembic | 1 | Craftsmanship | Alchemists | Forge | 1 Ingot: Steel 5 Building Glass |  |
-| Red Glitterdust | 4 | Advanced Blacksmithing | Alchemists | Forge | 2 Gem: Garnet (Flawless) |  |
-| Red Glitterdust | 4 | Advanced Blacksmithing | Alchemists | Forge | 1 Gem: Ruby |  |
-| Red Glitterdust | 5 | Advanced Blacksmithing | Alchemists | Forge | 1 Gem: Ruby (Flawless) |  |
-| Red Glitterdust | 4 | Advanced Blacksmithing | Alchemists | Forge | 3 Gem: Garnet |  |
-| Sapphire Glitterdust | 3 | Advanced Blacksmithing | Alchemists | Forge | 1 Gem: Sapphire |  |
-| Sapphire Glitterdust | 5 | Advanced Blacksmithing | Alchemists | Forge | 1 Gem: Sapphire (Flawless) |  |
-| Barrel | 2 |  | N/A | Furniture Workbench | 5 Wood 1 Iron Nails |  |
-| Chest | 1 |  | N/A | Furniture Workbench | 5 Wood |  |
-| Chest | 1 |  | N/A | Furniture Workbench | 5 Wood |  |
-| Chest | 1 |  | N/A | Furniture Workbench | 5 Wood |  |
-| Child's Chest | 1 |  | N/A | Furniture Workbench | 5 Wood |  |
-| Child's Chest | 1 |  | N/A | Furniture Workbench | 5 Wood |  |
-| Small Chest | 1 |  | N/A | Furniture Workbench | 5 Wood |  |
-| Small Chest | 1 |  | N/A | Furniture Workbench | 5 Wood |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Orange |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Tan |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Green |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Black |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Orange |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Purple |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Purple |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Tan |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Yellow |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Green |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Indigo |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Red |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Black |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Indigo |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Red |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Grey |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Blue |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Grey |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Blue |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth |  |
-| Bandage | 1 |  | N/A | N/A | 1 Cotton Cloth - Brown |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Yellow |  |
-| Bandage | 1 |  | N/A | N/A | 1 Linen Cloth - Brown |  |
-| Ebony Mail | 1 |  | N/A | N/A | 1 Ebony Mail |  |
-| Ebony Mail | 1 |  | N/A | N/A | 1 Ebony Mail |  |
-| Toolkit: Alchemist's | 1 | Craftsmanship | N/A | N/A | 2 Wood |  |
-| Toolkit: Brewer's | 1 | Craftsmanship | N/A | N/A | 2 Wood |  |
-| Toolkit: Survivalist's | 1 | Craftsmanship | N/A | N/A | 2 Wood |  |
-| Toolkit: Tailor's | 1 | Craftsmanship | N/A | N/A | 2 Wood |  |
-| Bone Idol of the Elm Rite (Strange Brew) | 1 |  | Survivalists | N/A | 1 Elm Ritual Bone | Animal Harvesting Skill Greater or Equal to 7 |
-| Bone Idol of the Oak Rite (Strange Brew) | 1 |  | Survivalists | N/A | 1 Oak Ritual Bone | Animal Harvesting Skill Greater or Equal to 9 |
-| Bone Idol of the Yew Rite (Strange Brew) | 1 |  | Survivalists | N/A | 1 Yew Ritual Bone | Animal Harvesting Skill Greater or Equal to 5 |
-| Engraved Bone of Hircine | 1 |  | Survivalists | N/A | 1 Animal Bone (Large) | Animal Harvesting Skill Greater or Equal to 1 |
-| Engraved Bone of Julianos | 1 |  | Survivalists | N/A | 1 Animal Bone (Large) | Animal Harvesting Skill Greater or Equal to 1 |
-| Engraved Bone of Kynareth | 1 |  | Survivalists | N/A | 1 Animal Bone (Large) | Animal Harvesting Skill Greater or Equal to 1 |
-| Fur Backpack - Black | 1 | Craftsmanship | Survivalists | N/A | 4 Leather Strips 4 Hide Lace 2 Fur Plate |  |
-| Fur Backpack - Brown | 1 | Craftsmanship | Survivalists | N/A | 4 Leather Strips 4 Hide Lace 2 Fur Plate |  |
-| Fur Backpack - White | 1 | Craftsmanship | Survivalists | N/A | 4 Leather Strips 4 Hide Lace 2 Fur Plate |  |
-| Fur Bedroll | 1 | Craftsmanship | Survivalists | N/A | 2 Hide Lace 2 Fur Plate |  |
-| Fur Large Tent | 1 | Craftsmanship | Survivalists | N/A | 4 Wood 2 Leather 12 Fur Plate 1 Fur Bedroll |  |
-| Fur Large Tent | 1 |  | Survivalists | N/A | 1 Fur Large Tent (Two Bedrolls) |  |
-| Fur Large Tent (Four Bedrolls) | 1 | Craftsmanship | Survivalists | N/A | 1 Fur Large Tent (Three Bedrolls) 1 Fur Bedroll |  |
-| Fur Large Tent (Three Bedrolls) | 1 | Craftsmanship | Survivalists | N/A | 1 Fur Large Tent (Two Bedrolls) 1 Fur Bedroll |  |
-| Fur Large Tent (Three Bedrolls) | 1 |  | Survivalists | N/A | 1 Fur Large Tent (Four Bedrolls) |  |
-| Fur Large Tent (Two Bedrolls) | 1 | Craftsmanship | Survivalists | N/A | 1 Fur Large Tent 1 Fur Bedroll |  |
-| Fur Large Tent (Two Bedrolls) | 1 |  | Survivalists | N/A | 1 Fur Large Tent (Three Bedrolls) |  |
-| Fur Small Tent | 1 | Craftsmanship | Survivalists | N/A | 2 Wood 2 Leather 6 Fur Plate 1 Fur Bedroll |  |
-| Fur Small Tent | 1 |  | Survivalists | N/A | 1 Fur Small Tent (Two Bedrolls) |  |
-| Fur Small Tent (Two Bedrolls) | 1 | Craftsmanship | Survivalists | N/A | 1 Fur Small Tent 1 Fur Bedroll |  |
-| Healing Poultice | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 5 Medicinal Salve 1 Bandage |  |
-| Kindling | 2 |  | Survivalists | N/A | 1 Deadwood |  |
-| Kindling | 4 |  | Survivalists | N/A | 1 Wood |  |
-| Kindling | 1 |  | Survivalists | N/A | 1 Branches |  |
-| Knucklebones (Strange Brew) | 1 |  | Survivalists | N/A | 3 Fragment: Bone | Brewing Skill Greater or Equal to 3,Animal Harvesting Skill Greater or Equal to 3 |
-| Leather Large Tent | 1 | Craftsmanship | Survivalists | N/A | 2 Wood 12 Leather 4 Fur Plate 1 Fur Bedroll |  |
-| Leather Large Tent | 1 |  | Survivalists | N/A | 1 Leather Large Tent (Two Bedrolls) |  |
-| Leather Large Tent (Three Bedrolls) | 1 | Craftsmanship | Survivalists | N/A | 1 Leather Large Tent (Two Bedrolls) 1 Fur Bedroll |  |
-| Leather Large Tent (Two Bedrolls) | 1 |  | Survivalists | N/A | 1 Leather Large Tent (Three Bedrolls) |  |
-| Leather Large Tent (Two Bedrolls) | 1 | Craftsmanship | Survivalists | N/A | 1 Leather Large Tent 1 Fur Bedroll |  |
-| Leather Small Tent | 1 |  | Survivalists | N/A | 1 Leather Small Tent (Two Bedrolls) |  |
-| Leather Small Tent | 1 | Craftsmanship | Survivalists | N/A | 2 Wood 6 Leather 2 Fur Plate 1 Fur Bedroll |  |
-| Leather Small Tent (Two Bedrolls) | 1 | Craftsmanship | Survivalists | N/A | 1 Leather Small Tent 1 Fur Bedroll |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Blisterwort |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Imp Stool |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Blue Mountain Flower |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Panacea |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Blue Dartwing |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Cured Skeever Hide |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Wheat |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Charred Skeever Hide |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Sabre Cat Eye |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Monarch Wing |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Rock Warbler Egg |  |
-| Medicinal Salve | 30 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Daedra Heart |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Northern Flax |  |
-| Medicinal Salve | 1 | Craftsmanship,Alchemical Lore 1 | Survivalists | N/A | 1 Swamp Fungal Pod |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Green |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Yellow |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Kindling |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Brown |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Red |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Tan |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Indigo |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Purple |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Black |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Blue |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Northern Flax |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Grey |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Wrap |  |
-| Tinder (Crude) | 1 |  | Survivalists | N/A | 1 Linen Cloth - Orange |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Purple |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Canis Root |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Black |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Tan |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Brown |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Mora Tapinella |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Red |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Blue |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Green |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Indigo |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Orange |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Yellow |  |
-| Tinder (Decent) | 1 |  | Survivalists | N/A | 1 Silk Cloth - Grey |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Blue |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Green |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Tundra Cotton |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Purple |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Hanging Moss |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Indigo |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Brown |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Yellow |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Tan |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Tree Bark |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Paper Roll |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Grey |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Red |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Black |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Animal Fat |  |
-| Tinder (Good) | 1 |  | Survivalists | N/A | 1 Cotton Cloth - Orange |  |
-| Tinder (Great) | 1 |  | Survivalists | N/A | 1 Straw |  |
-| Tinder (Great) | 1 |  | Survivalists | N/A | 1 Beehive Husk |  |
-| Tinder (Superlative) | 1 |  | Survivalists | N/A | 1 Dwarven Oil |  |
-| Tinder (Superlative) | 1 |  | Survivalists | N/A | 1 Flammable Oil |  |
-| Waterskin (Empty) | 1 | Craftsmanship | Survivalists | N/A | 1 Leather Strips 1 Leather |  |
-| Wooden Torch | 1 |  | Survivalists | N/A | 1 Linen Wrap 1 Wood 1 Flammable Oil |  |
-| Wooden Torch (5) | 1 |  | Survivalists | N/A | 5 Linen Wrap 5 Wood 5 Flammable Oil |  |
-| Wooden Torch (10) | 1 |  | Survivalists | N/A | 10 Linen Wrap 10 Wood 10 Flammable Oil |  |
-| Wooden Torch (Bright) | 1 |  | Survivalists | N/A | 1 Linen Wrap 1 Wood 1 Dwarven Oil |  |
-| Wooden Torch (Bright) (5) | 1 |  | Survivalists | N/A | 5 Linen Wrap 5 Wood 5 Dwarven Oil |  |
-| Wooden Walking Stick | 1 |  | Survivalists | N/A | 2 Wood 2 Leather Strips |  |
-| Wooden Walking Stick | 1 |  | Survivalists | N/A | 2 Leather Strips 4 Deadwood |  |
-| Spinning Wheel | 1 | Craftsmanship | Builders,Survivalists | N/A | 8 Wood 5 Iron Nails |  |
-| Wooden Barrel | 1 | Craftsmanship | Builders,Survivalists | N/A | 5 Wood |  |
-| Wooden Chest | 1 | Craftsmanship | Builders,Survivalists | N/A | 5 Wood |  |
-| Wooden Common Bed | 1 | Craftsmanship | Builders,Survivalists | N/A | 5 Wood 2 Fur Plate |  |
-| Wooden Common Chair | 1 | Craftsmanship | Builders,Survivalists | N/A | 5 Wood |  |
-| Wooden Common Table | 1 | Craftsmanship | Builders,Survivalists | N/A | 5 Wood |  |
-| Decorative War Horn | 1 |  | Builders | N/A | 1 Ingot: Iron 1 Animal Bone (Superlative) | Animal Harvesting Skill Greater or Equal to 3 |
-| Wooden Flute | 1 | Craftsmanship | Builders | N/A | 1 Salt 1 Wood 1 Bottled Milk |  |
+| Item Name | Qty Made | Perks Needed | Proximity | Items Required | Additional Requirements |
+|:---|:---:|:---|:---|:---|:---|
+| Enchanters Infusion | 1 | Enchantment Mastery |  | 1 Soul Gem: Grand (Filled) 2 Bone Meal 1 Fire Salts 1 Glass Bottle (Water) |  |
+| Enchanters Infusion | 1 | Enchantment Mastery |  | 1 Soul Gem: Grand (Filled) 2 Bone Meal 1 Fire Salts 1 Glass Bottle (Water) |  |
+| Enchanters Infusion | 1 | Enchantment Mastery |  | 1 Soul Gem: Grand (Filled) 2 Bone Meal 1 Fire Salts 1 Glass Bottle (Water) |  |
+| Enchanters Infusion | 1 | Enchantment Mastery |  | 1 Soul Gem: Grand (Filled) 2 Bone Meal 1 Fire Salts 1 Glass Bottle (Water) |  |
+| Enchanters Infusion | 1 | Enchantment Mastery |  | 1 Soul Gem: Grand (Filled) 2 Bone Meal 1 Fire Salts 1 Glass Bottle (Water) |  |
+| Dye - Grey | 5 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Giant Lichen |  |
+| Dye - Green | 1 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Hanging Moss |  |
+| Dye - Black | 5 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Nightshade |  |
+| Dye - Bleach | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Salt |  |
+| Dye - Purple | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Purple Mountain Flower |  |
+| Dye - Red | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Red Mountain Flower |  |
+| Dye - Blue | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Blue Mountain Flower |  |
+| Dye - Blue | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Indigo 1 Dye - Bleach |  |
+| Dye - Tan | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Brown 1 Dye - Bleach |  |
+| Dye - Grey | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Black 1 Dye - Bleach |  |
+| Dye - Brown | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Black 1 Dye - Tan |  |
+| Dye - Indigo | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Black 1 Dye - Blue |  |
+| Dye - Green | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Blue 1 Dye - Yellow |  |
+| Dye - Purple | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Blue 1 Dye - Red |  |
+| Dye - Orange | 2 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dye - Red 1 Dye - Yellow |  |
+| Dye - Yellow | 5 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Dragon's Tongue |  |
+| Dye - Orange | 1 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Creep Cluster |  |
+| Dye - Tan | 1 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Grass Pod |  |
+| Dye - Brown | 5 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Canis Root |  |
+| Dye - Indigo | 4 | Craftsmanship,Alchemical Lore 1 | Cook pot | 1 Deathbell |  |
+| Flammable Oil | 1 |  | Cook pot | 2 Animal Fat |  |
+| Ornate Chest | 1 | Craftsmanship | Forge | 2 Ingot: Iron 5 Wood |  |
+| Small Chest | 1 | Craftsmanship | Forge | 1 Ingot: Iron 4 Wood |  |
+| Ale Barrel | 1 | Craftsmanship | Forge | 2 Ingot: Iron 5 Wood |  |
+| Strong Box | 1 | Craftsmanship | Forge | 3 Ingot: Iron |  |
+| Noble Chest | 1 | Craftsmanship | Forge | 2 Ingot: Iron 6 Wood |  |
+| Iron Cooking Pot | 1 | Craftsmanship | Forge | 1 Iron Large Pot |  |
+| Iron Cooking Pot | 1 | Craftsmanship | Forge | 1 Iron Pot |  |
+| Iron Cooking Pot | 1 | Craftsmanship | Forge | 2 Ingot: Iron |  |
+| Enchanted Ring Armor of Drain Protection | 1 | Arcane Experimentation | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring Armor of Resist Pestilence (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Pestilence | 1 | Arcane Experimentation | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Marksman (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Two-Handed (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify One-Handed (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Magic (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Shock (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Frost (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Fire (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Stamina Regeneration (Rank II) | 1 | Arcane Experimentation | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Magicka Regeneration (Rank II) | 1 | Arcane Experimentation | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Health Regeneration (Rank II) | 1 | Arcane Experimentation | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Stamina (Rank III) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Magicka (Rank III) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Health (Rank III) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Restoration | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Illusion | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Destruction | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Conjuration | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Alteration | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Restoration (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Illusion (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Destruction (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Conjuration (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Alteration (Rank II) | 1 | Artificer's Insight | Forge | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Iron Dagger of Arcane Power | 1 | Arcane Experimentation | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Iron Dagger of Toxicity | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Annihilation | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Greater Force | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Elemental Fury | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Spellbreaking | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Shockbursting | 1 | Arcane Experimentation | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Force | 1 | Arcane Experimentation | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Frostbursting | 1 | Arcane Experimentation | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Flamebursting | 1 | Arcane Experimentation | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Hunters Iron Dagger | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Toxic Life | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Annihilating | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Holy Iron Dagger | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Storms | 1 | Artificer's Insight | Forge | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Potent Enchanters Infusion | 1 | Enchantment Mastery | Forge | 8 Soul Gem: Grand (Filled) 6 Fire Salts 6 Frost Salts 6 Void Salts |  |
+| Carpenter's Workbench | 1 | Craftsmanship | Forge | 10 Wood 5 Iron Nails |  |
+| Iron Lantern | 1 | Craftsmanship | Forge | 1 Ingot: Iron |  |
+| Lockpick | 1 | Cheap Tricks,Craftsmanship | Forge | 4 Fragment: Iron |  |
+| Gem: Opal | 1 | Advanced Blacksmithing | Forge | 1 Gem: Opal (Rough) |  |
+| Aquamarine | 1 | Advanced Blacksmithing | Forge | 1 Gem: Aquamarine (Rough) |  |
+| Peridot | 1 | Advanced Blacksmithing | Forge | 1 Gem: Peridot (Rough) |  |
+| Gem: Onyx | 1 | Advanced Blacksmithing | Forge | 1 Gem: Onyx (Rough) |  |
+| Gem: Amber | 1 | Advanced Blacksmithing | Forge | 1 Gem: Amber (Rough) |  |
+| Iron Nails | 100 | Craftsmanship | Forge | 10 Ingot: Iron |  |
+| Iron Lock | 10 | Craftsmanship | Forge | 10 Ingot: Iron 10 Ingot: Corundum |  |
+| Iron Hinge | 20 | Craftsmanship | Forge | 10 Ingot: Iron |  |
+| Iron Nails | 50 | Craftsmanship | Forge | 5 Ingot: Iron |  |
+| Iron Lock | 5 | Craftsmanship | Forge | 5 Ingot: Iron 5 Ingot: Corundum |  |
+| Iron Hinge | 10 | Craftsmanship | Forge | 5 Ingot: Iron |  |
+| Iron Fittings | 10 | Craftsmanship | Forge | 10 Ingot: Iron |  |
+| Iron Fittings | 5 | Craftsmanship | Forge | 5 Ingot: Iron |  |
+| Garnet | 1 | Advanced Blacksmithing | Forge | 1 Gem: Garnet (Rough) |  |
+| Diamond | 1 | Advanced Blacksmithing | Forge | 1 Gem: Diamond (Rough) |  |
+| Amethyst | 1 | Advanced Blacksmithing | Forge | 1 Gem: Amethyst (Rough) |  |
+| Emerald | 1 | Advanced Blacksmithing | Forge | 1 Gem: Emerald (Rough) |  |
+| Ruby | 1 | Advanced Blacksmithing | Forge | 1 Gem: Ruby (Rough) |  |
+| Sapphire | 1 | Advanced Blacksmithing | Forge | 1 Gem: Sapphire (Rough) |  |
+| Lockpick | 5 | Cheap Tricks,Craftsmanship | Forge | 1 Ingot: Iron |  |
+| Iron Hammer | 1 | Craftsmanship | Forge | 1 Ingot: Iron 1 Wood |  |
+| Iron Tongs | 1 | Craftsmanship | Forge | 1 Ingot: Iron |  |
+| Iron Cauldron | 1 | Craftsmanship | Forge | 8 Ingot: Iron |  |
+| Glass Alembic | 1 | Craftsmanship | Forge | 1 Ingot: Steel 5 Building Glass |  |
+| Decorative War Horn | 1 |  | Forge | 1 Ingot: Iron 1 Animal Bone (Superlative) | Forage Skill Greater or Equal to 3 |
+| Iron Lock | 1 | Craftsmanship | Forge | 1 Ingot: Iron 1 Ingot: Corundum |  |
+| Iron Hinge | 2 | Craftsmanship | Forge | 1 Ingot: Iron |  |
+| Iron Nails | 10 | Craftsmanship | Forge | 1 Ingot: Iron |  |
+| Iron Fittings | 1 | Craftsmanship | Forge | 1 Ingot: Iron |  |
+| Small Chest | 1 |  | Furniture Workbench | 5 Wood |  |
+| Small Chest | 1 |  | Furniture Workbench | 5 Wood |  |
+| Child's Chest | 1 |  | Furniture Workbench | 5 Wood |  |
+| Child's Chest | 1 |  | Furniture Workbench | 5 Wood |  |
+| Chest | 1 |  | Furniture Workbench | 5 Wood |  |
+| Chest | 1 |  | Furniture Workbench | 5 Wood |  |
+| Chest | 1 |  | Furniture Workbench | 5 Wood |  |
+| Barrel | 2 |  | Furniture Workbench | 5 Wood 1 Iron Nails |  |
+| Staff of Thunderbolts | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 4 Heart Stone |  |
+| Staff of the Storm Wall | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 4 Heart Stone |  |
+| Staff of the Frost Wall | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 4 Heart Stone |  |
+| Staff of the Flame Wall | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 4 Heart Stone |  |
+| Staff of Minor Turning | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Restoration 2 Heart Stone |  |
+| Staff of Turning | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Restoration 3 Heart Stone |  |
+| Staff of Grand Turning | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Restoration 4 Heart Stone |  |
+| Staff of Sparks | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 1 Heart Stone |  |
+| Staff of Soul Trapping | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 2 Heart Stone |  |
+| Staff of Vanquishing | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Illusion 4 Heart Stone |  |
+| Staff of Revenants | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 3 Heart Stone |  |
+| Staff of Repulsion | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Restoration 4 Heart Stone |  |
+| Staff of Repulsion | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Restoration 3 Heart Stone |  |
+| Staff of Reanimation | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 2 Heart Stone |  |
+| Staff of Inspiration | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Illusion 3 Heart Stone |  |
+| Staff of Zombies | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 1 Heart Stone |  |
+| Staff of Paralysis | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Alteration 4 Heart Stone |  |
+| Staff of Magelight | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Alteration 2 Heart Stone |  |
+| Staff of Incineration | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 4 Heart Stone |  |
+| Staff of Icy Spears | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 4 Heart Stone |  |
+| Staff of Ice Storms | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 3 Heart Stone |  |
+| Staff of Ice Spikes | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 2 Heart Stone |  |
+| Staff of Heal Other | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Restoration 3 Heart Stone |  |
+| Staff of the Healing Hand | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Restoration 2 Heart Stone |  |
+| Staff of Fury | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Illusion 2 Heart Stone |  |
+| Staff of Icewind | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 1 Heart Stone |  |
+| Staff of Frenzy | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Illusion 3 Heart Stone |  |
+| Staff of Flames | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 1 Heart Stone |  |
+| Staff of Firebolts | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 2 Heart Stone |  |
+| Staff of Fireballs | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 3 Heart Stone |  |
+| Staff of Fear | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Illusion 2 Heart Stone |  |
+| Staff of Expulsion | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 4 Heart Stone |  |
+| Staff of Dread Zombies | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 4 Heart Stone |  |
+| Staff of Courage | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Illusion 1 Heart Stone |  |
+| Staff of the Storm Atronach | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 4 Heart Stone |  |
+| Staff of the Frost Atronach | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 3 Heart Stone |  |
+| Staff of the Flame Atronach | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 2 Heart Stone |  |
+| Staff of the Spirit Wolf | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 1 Heart Stone |  |
+| Staff of Daedric Command | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 4 Heart Stone |  |
+| Staff of Chain Lightning | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 3 Heart Stone |  |
+| Staff of Calm | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Illusion 2 Heart Stone |  |
+| Staff of Banishing | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Conjuration 3 Heart Stone |  |
+| Staff of Lightning Bolts | 1 | Enchanter's Insight | Staff Enchanter | 1 Unenchanted Staff of Destruction 2 Heart Stone |  |
+| Iron Shiv | 1 | Craftsmanship | Sharpening Wheel | 1 Ingot: Iron |  |
+| Blacksmithing Supplies | 1 | Craftsmanship | Player Crafting | 4 Wood |  |
+| Alchemists Pouch | 1 |  | Player Crafting | 2 Leather |  |
+| Nord War Horn | 1 |  | Player Crafting | 2 Polished Ivory 1 Silver Paint | Forage Skill Greater or Equal to 3 |
+| Fox Figurine | 1 |  | Player Crafting | 1 Polished Ivory | Forage Skill Greater or Equal to 2 |
+| Silver Paint | 1 |  | Player Crafting | 1 Ore: Silver 1 Spriggan Sap | Forage Skill Greater or Equal to 2 |
+| Gold Paint | 1 |  | Player Crafting | 1 Ore: Gold 1 Spriggan Sap | Forage Skill Greater or Equal to 2 |
+| Queen Bee Statue | 1 |  | Player Crafting | 2 Polished Ivory 1 Gold Paint | Forage Skill Greater or Equal to 3 |
+| Drinking Horn | 1 |  | Player Crafting | 1 Goat Horns | Forage Skill Greater or Equal to 3 |
+| Golden Ship Model | 1 |  | Player Crafting | 1 Wood 2 Polished Ivory 1 Gold Paint | Forage Skill Greater or Equal to 3 |
+| Ivory Dragon Claw Replica | 1 |  | Player Crafting | 3 Polished Ivory | Forage Skill Greater or Equal to 3 |
+| Golden Claw Replica | 1 |  | Player Crafting | 3 Polished Ivory 1 Gold Paint | Forage Skill Greater or Equal to 3 |
+| Masterwork Flute | 1 |  | Player Crafting | 1 Polished Ivory | Forage Skill Greater or Equal to 6 |
+| Toy Flute | 1 |  | Player Crafting | 1 Wood | Forage Skill Greater or Equal to 2 |
+| Gray Fox Sculpture | 1 |  | Player Crafting | 4 Polished Ivory | Forage Skill Greater or Equal to 5 |
+| Toy Boat | 1 |  | Player Crafting | 1 Wood | Forage Skill Greater or Equal to 2 |
+| Statue of Dibella | 1 |  | Player Crafting | 3 Polished Ivory 1 Gold Paint | Forage Skill Greater or Equal to 5 |
+| Chitin Plate | 2 |  | Player Crafting | 1 Large Mudcrab Chitin | Forage Skill Greater or Equal to 1 |
+| Chitin Plate | 1 |  | Player Crafting | 1 Chaurus Chitin | Forage Skill Greater or Equal to 1 |
+| Chitin Plate | 2 |  | Player Crafting | 1 Shellbug Chitin | Forage Skill Greater or Equal to 1 |
+| Fragment: Chitin | 5 |  | Player Crafting | 1 Large Mudcrab Chitin | Forage Skill Greater or Equal to 1 |
+| Inkwell | 1 |  | Player Crafting | 1 Animal Bone (Large) 1 Ink | Forage Skill Greater or Equal to 1 |
+| Polished Ivory | 2 |  | Player Crafting | 1 Boar Tusk | Forage Skill Greater or Equal to 1 |
+| Ivory Candlestick | 1 |  | Player Crafting | 1 Polished Ivory | Forage Skill Greater or Equal to 1 |
+| Quill | 1 |  | Player Crafting | 1 Felsaad Tern Feathers | Forage Skill Greater or Equal to 1 |
+| Quill | 1 |  | Player Crafting | 1 Bone Hawk Feathers | Forage Skill Greater or Equal to 1 |
+| Quill | 1 |  | Player Crafting | 1 Hagraven Feathers | Forage Skill Greater or Equal to 1 |
+| Quill | 1 |  | Player Crafting | 1 Hawk Feathers | Forage Skill Greater or Equal to 1 |
+| Fragment: Dragonbone | 3 |  | Player Crafting | 1 Dragon Bone |  |
+| Fragment: Chitin | 2 |  | Player Crafting | 1 Mudcrab Chitin | Forage Skill Greater or Equal to 1 |
+| Fragment: Chitin | 3 |  | Player Crafting | 1 Chaurus Chitin | Forage Skill Greater or Equal to 1 |
+| Fragment: Chitin | 4 |  | Player Crafting | 1 Shellbug Chitin | Forage Skill Greater or Equal to 1 |
+| Fragment: Chitin | 2 |  | Player Crafting | 1 Chitin Plate | Forage Skill Greater or Equal to 1 |
+| Polished Ivory | 1 |  | Player Crafting | 1 Horker Tusk | Forage Skill Greater or Equal to 1 |
+| Fragment: Ivory | 3 |  | Player Crafting | 1 Polished Ivory |  |
+| Polished Ivory | 6 |  | Player Crafting | 1 Mammoth Tusk (Superlative) |  |
+| Polished Ivory | 3 |  | Player Crafting | 1 Mammoth Tusk |  |
+| Mortar and Pestle | 1 |  | Player Crafting | 1 Animal Bone (Small) 1 Animal Bone (Large) | Forage Skill Greater than 0 |
+| Iron Dagger of Toxicity | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Annihilation | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Greater Force | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Elemental Fury | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Spellbreaking | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Shockbursting | 1 | Arcane Experimentation | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Force | 1 | Arcane Experimentation | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Frostbursting | 1 | Arcane Experimentation | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Flamebursting | 1 | Arcane Experimentation | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Arcane Power | 1 | Arcane Experimentation | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Hide Lace | 2 | Craftsmanship | Player Crafting | 1 Fur Plate |  |
+| Hide Lace | 1 | Craftsmanship | Player Crafting | 1 Pelt: Ruined |  |
+| Waterskin (Empty) | 1 | Craftsmanship | Player Crafting | 1 Leather Strips 1 Animal Bladder |  |
+| Carpenter's Workbench | 1 | Craftsmanship | Player Crafting | 10 Wood 5 Iron Nails |  |
+| Furniture Workbench | 1 | Craftsmanship | Player Crafting | 10 Wood 5 Iron Nails |  |
+| Spinning Wheel | 1 | Craftsmanship | Player Crafting | 8 Wood 5 Iron Nails |  |
+| Tinder (Superlative) | 1 |  | Player Crafting | 1 Flammable Oil |  |
+| Tinder (Superlative) | 1 |  | Player Crafting | 1 Dwarven Oil |  |
+| Tinder (Great) | 1 |  | Player Crafting | 1 Straw |  |
+| Tinder (Great) | 1 |  | Player Crafting | 1 Beehive Husk |  |
+| Tinder (Good) | 1 |  | Player Crafting | 1 Paper Roll |  |
+| Tinder (Good) | 1 |  | Player Crafting | 1 Hanging Moss |  |
+| Tinder (Good) | 1 |  | Player Crafting | 1 Animal Fat |  |
+| Tinder (Decent) | 1 |  | Player Crafting | 1 Mora Tapinella |  |
+| Tinder (Decent) | 1 |  | Player Crafting | 1 Canis Root |  |
+| Tinder (Crude) | 1 |  | Player Crafting | 1 Northern Flax |  |
+| Tinder (Crude) | 1 |  | Player Crafting | 1 Kindling |  |
+| Enchanted Ring Armor of Drain Protection | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring Armor of Resist Pestilence (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Pestilence | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Marksman (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Two-Handed (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify One-Handed (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Magic (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Shock (Rank II) | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Frost (Rank II) | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Resist Fire (Rank II) | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Stamina Regeneration (Rank II) | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Magicka Regeneration (Rank II) | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Fortify Health Regeneration (Rank II) | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Stamina (Rank III) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Magicka (Rank III) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Health (Rank III) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Restoration | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Illusion | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Destruction | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Conjuration | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Alteration | 1 | Arcane Experimentation | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Restoration (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Illusion (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Destruction (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Conjuration (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Ring of Potent Alteration (Rank II) | 1 | Artificer's Insight | Player Crafting | 1 Soul Gem: Grand (Filled) 1 Silver Ring |  |
+| Enchanted Hunters Iron Dagger | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Toxic Life | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Annihilating | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Holy Iron Dagger | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Enchanted Iron Dagger of Storms | 1 | Artificer's Insight | Player Crafting | 1 Iron Dagger 1 Soul Gem: Grand (Filled) |  |
+| Potent Enchanters Infusion | 1 | Enchantment Mastery | Player Crafting | 8 Soul Gem: Grand (Filled) 6 Fire Salts 6 Frost Salts 6 Void Salts |  |
+| Fur Bedroll | 1 | Craftsmanship | Player Crafting | 2 Hide Lace 2 Fur Plate |  |
+| Wooden Barrel | 1 | Craftsmanship | Player Crafting | 5 Wood |  |
+| Wooden Chest | 1 | Craftsmanship | Player Crafting | 5 Wood |  |
+| Wooden Common Table | 1 | Craftsmanship | Player Crafting | 5 Wood |  |
+| Wooden Common Chair | 1 | Craftsmanship | Player Crafting | 5 Wood |  |
+| Wooden Common Bed | 1 | Craftsmanship | Player Crafting | 5 Wood 2 Fur Plate |  |
+| Waterskin (Empty) | 1 | Craftsmanship | Player Crafting | 1 Leather Strips 1 Leather |  |
+| Tinder (Good) | 1 |  | Player Crafting | 1 Tree Bark |  |
+| Wooden Flute | 1 | Craftsmanship | Player Crafting | 1 Salt 1 Wood 1 Bottled Milk |  |
+| Knucklebones (Strange Brew) | 1 |  | Player Crafting | 3 Fragment: Bone | Brewing Skill Greater or Equal to 3,Forage Skill Greater or Equal to 3 |
+| Bone Idol of the Oak Rite (Strange Brew) | 1 |  | Player Crafting | 1 Oak Ritual Bone | Forage Skill Greater or Equal to 9 |
+| Bone Idol of the Elm Rite (Strange Brew) | 1 |  | Player Crafting | 1 Elm Ritual Bone | Forage Skill Greater or Equal to 7 |
+| Bone Idol of the Yew Rite (Strange Brew) | 1 |  | Player Crafting | 1 Yew Ritual Bone | Forage Skill Greater or Equal to 5 |
+| Engraved Bone of Kynareth | 1 |  | Player Crafting | 1 Animal Bone (Large) | Forage Skill Greater or Equal to 1 |
+| Engraved Bone of Julianos | 1 |  | Player Crafting | 1 Animal Bone (Large) | Forage Skill Greater or Equal to 1 |
+| Engraved Bone of Hircine | 1 |  | Player Crafting | 1 Animal Bone (Large) | Forage Skill Greater or Equal to 1 |
+| Fur Small Tent | 1 |  | Player Crafting | 1 Fur Small Tent (Two Bedrolls) |  |
+| Fur Small Tent (Two Bedrolls) | 1 | Craftsmanship | Player Crafting | 1 Fur Small Tent 1 Fur Bedroll |  |
+| Kindling | 1 |  | Player Crafting | 1 Branches |  |
+| Portable Enchanting Supplies | 1 | Enchanter's Insight | Player Crafting | 1 Troll Skull 4 Spriggan Sap 1 Gem: Amethyst (Flawless) |  |
+| Fur Small Tent | 1 | Craftsmanship | Player Crafting | 2 Wood 2 Leather 6 Fur Plate 1 Fur Bedroll |  |
+| Kindling | 4 |  | Player Crafting | 1 Wood |  |
+| Kindling | 2 |  | Player Crafting | 1 Deadwood |  |
+| Fur Large Tent | 1 |  | Player Crafting | 1 Fur Large Tent (Two Bedrolls) |  |
+| Fur Large Tent (Two Bedrolls) | 1 |  | Player Crafting | 1 Fur Large Tent (Three Bedrolls) |  |
+| Fur Large Tent (Three Bedrolls) | 1 |  | Player Crafting | 1 Fur Large Tent (Four Bedrolls) |  |
+| Fur Large Tent (Four Bedrolls) | 1 | Craftsmanship | Player Crafting | 1 Fur Large Tent (Three Bedrolls) 1 Fur Bedroll |  |
+| Fur Large Tent (Three Bedrolls) | 1 | Craftsmanship | Player Crafting | 1 Fur Large Tent (Two Bedrolls) 1 Fur Bedroll |  |
+| Fur Large Tent (Two Bedrolls) | 1 | Craftsmanship | Player Crafting | 1 Fur Large Tent 1 Fur Bedroll |  |
+| Fur Large Tent | 1 | Craftsmanship | Player Crafting | 4 Wood 2 Leather 12 Fur Plate 1 Fur Bedroll |  |
 
-</div>
+
+
 

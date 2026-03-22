@@ -7,20 +7,19 @@ $data = Import-Csv $csvPath
 
 # Create markdown table
 $md = @()
-$md += '| Item Name | Qty Made | Perks Needed | Toolkits Required | Proximity | Items Required | Additional Requirements |'
-$md += '|:---|:---:|:---|:---|:---|:---|:---|'
+$md += '| Item Name | Qty Made | Perks Needed | Proximity | Items Required | Additional Requirements |'
+$md += '|:---|:---:|:---|:---|:---|:---|'
 
 foreach ($row in $data) {
   if ($row.'Produced Item Name') {
     $itemName = $row.'Produced Item Name' -replace '\|', '\|'
     $qtyMade = $row.'Qty Made'
     $perksNeeded = $row.'Perks Needed' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
-    $toolkits = $row.'Toolkits Required' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     $proximity = $row.'Proximity (When None)' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     $itemsRequired = $row.'Items Required' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     $additional = $row.'Additional Requirements' -replace '\|', '\|' -replace '\n', ' ' -replace '\r', ' '
     
-    $md += "| $itemName | $qtyMade | $perksNeeded | $toolkits | $proximity | $itemsRequired | $additional |"
+    $md += "| $itemName | $qtyMade | $perksNeeded | $proximity | $itemsRequired | $additional |"
   }
 }
 
