@@ -11,6 +11,10 @@ url: https://wildlander-mod.github.io/
 # Pages in following directories will be excluded from the Export
 exclude:
   - wip/
+  - .git/
+  - .github/
+  - .vscode/
+  - .venv
 
 search:
   heading_level: 4
