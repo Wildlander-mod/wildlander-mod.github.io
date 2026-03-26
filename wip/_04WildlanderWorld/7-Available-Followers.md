@@ -463,61 +463,39 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 
 <p class="text-gamma">Perks</p>
 
+<p class="text-delta">One-Handed</p>
+
+|Powerful Strike |Power attack damage increased by 20%.
+|Penetrating Strikes |One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration)
+
 <p class="text-delta">Alteration</p>
 
-|Novice Alteration|Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Magic Resistance I|You gain 10% resistance to hostile magic effects.
-
-<p class="text-delta">Block</p>
-
-|Improved Blocking|Blocking technique mitigates 25% more damage.
-|Experienced Blocking|Block 50% more damage with weapon or shield. Each successful block restores 12 stamina.
+|Magic Resistance I |Reduce magic damage by 5% and increase active spell duration by 5%.
 
 <p class="text-delta">Destruction</p>
 
-|Novice Destruction|Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Apprentice Destruction|Apprentice spells cost 55% less magicka, and improve 2% per skill level.
-|Cryomancy Rank I|All frost spells deal 15% more damage.
-
-<p class="text-delta">Heavy Armor</p>
-
-|Conditioning|Stamina drain from wearing heavy armor is negated. Mass of Equipped gear is reduced.
-|Relentless Onslaught|Sprint in heavy armor at no stamina penalty. Mass of Equipped gear is further reduced. Sprinting in full heavy armor deflects 80% of all incoming melee damage.
-|Combat Meditation|You barely notice your heavy armor. Casting penalties are reduced for Expert spells.
-|Combat Casting|Your concentration is less affected by heavy armor, reducing penalties for Novice and Apprentice spells.
-|Combat Training|Heavy armor power attacks require less stamina, and heavy gauntlets improve unarmed damage based on material. Mass of Equipped gear is further reduced.
-|Fortitude|Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced.
-|Power of the Combatant|Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear is further reduced.
-|Battlemage|Your heavy armor is like a second skin. Casting penalties for Master spells are significantly reduced. Magicka cost for all spells is reduced by 15% while wearing a full set of heavy armor.
-
-<p class="text-delta">One-Handed</p>
-
-|Weapon Mastery I|Damage increased by 20%, -50% weapon weight penalties.
-|Mace Focus II|Power attack damage increased by 10%, +7.5 armor penetration per Mace.
-|Powerful Charge|Unlocks sprinting power attack, -25% weapon weight penalties.
-
-<p class="text-delta">Marksman</p>
-
-|Ranged Combat Training|Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration.
-|Eagle Eye|Zoom in on a target by holding the right mouse button. Grants armor penetration.
+|Cyromancy I |Frost spells deal 10% more damage and have -5% magicka cost.
 
 <p class="text-delta">Restoration</p>
 
-|Novice Restoration|Novice spells cost 55% less magicka, and improve 1% per skill level.
-|Improved Healing|Healing spells are 25% more effective.
-|Focused Mind|Can keep your concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster.
+|Focused Mind |Resting is 25% more effective.
+|Improved Healing |All healing spells cost 25% and restore 25% more health.
 
-<p class="text-delta">Requiem</p>
+<p class="text-delta">Heavy Armor</p>
 
-|Trait: Follower|Enhanced companion effectiveness.
-|Charisma Bonus|Increased persuasiveness in dialogue
+|Fortitude |Receive a permanent bonus of 40 stamina and 20 carry weight.
 
-<p class="text-gamma">Spells</p>
+<p class="text-gamma">Requiem Perks (Universal)</p>
 
-<p class="text-delta">Alteration</p>
+|Trait: Follower |Enhanced companion effectiveness.
 
-|Mage Armor on Self (Rank I)
- 
+***
+
+</div>
+</details>
+
+<details>
+ <summary> Brelyna </summary>
 <p class="text-delta">Destruction</p>
 
 |Ice Spike
@@ -5376,22 +5354,10 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
 </details>
 
 <details>
- <summary> Riekling </summary>
- <div class="Info" markdown="1"> 
-|Race |Riekling|Location |Thirsk Mead Hall
-|Prerequisite |The Chief of Thirsk Hall |RefID |???
-
-
-***
-
-</div>
-</details>
-
-<details>
  <summary> Steadfast Dwarven Spider </summary>
 <div class="Info" markdown="1"> 
 |Race |Dwemer Automaton |Location |Kagrumez
-|Prerequisite |The Kagrumez Gauntlet (First Trial)|RefID |???
+|Prerequisite |The Kagrumez Gauntlet (First Trial)|RefID |04031D94
  
 |Note: Should it be killed, it will respawn after a day. Pulling the lever in front of the place where it was first found and waiting one day will make it respawn.
 
@@ -5421,7 +5387,7 @@ All Housecarls are warriors, with the exception of Valdimar, who is a sorcerer. 
  <summary> Steadfast Dwarven Sphere </summary>
 <div class="Info" markdown="1"> 
 |Race |Dwemer Automaton |Location |Kagrumez
-|Prerequisite |The Kagrumez Gauntlet (Second Trial)|RefID |???
+|Prerequisite |The Kagrumez Gauntlet (Second Trial)|RefID |04031D95
  
 |Note: Should it be killed, it will respawn after a day. Pulling the lever in front of the place where it was first found and waiting one day will make it respawn.
 
