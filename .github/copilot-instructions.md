@@ -7,6 +7,8 @@ This is a Jekyll-based static wiki for the Wildlander Skyrim modlist, deployed v
 ### Folder Structure & Navigation
 - **Top-level folders:** Numbered `_NN-SectionName/` (e.g., `_03-YourFirstCharacter/`, `_04WildlanderWorld/`). The number determines nav bar order.
 - **Special folder:** `wip/` is excluded from builds and acts as the development folder.
+  - **`wip/documentation/`** — Store completed project documentation, task guides, reference materials, audit reports (permanent)
+  - **`wip/temp/`** — Store working files, intermediate outputs, temporary extraction reports (cleaned up after project completion)
 - **Page ordering:** Within each section, `nav_order` in frontmatter controls the reading sequence. Page 0 is the section hub (e.g., `0-Start-Here.md`).
 
 ### Frontmatter Requirements

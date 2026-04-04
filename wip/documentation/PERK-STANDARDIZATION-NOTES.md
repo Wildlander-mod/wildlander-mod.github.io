@@ -226,21 +226,21 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 
 ### ALTERATION SCHOOL
 
-| Tier/Perk | Standard Description |
-|-----------|---------------------|
-| **Novice Alteration** | Novice spells cost 55% less magicka, and improve 1% per skill level. |
-| **Apprentice Alteration** | Apprentice spells cost 55% less magicka, and improve 2% per skill level. |
-| **Adept Alteration** | Adept spells cost 55% less magicka, and improve 3% per skill level. |
-| **Expert Alteration** | Expert spells cost 55% less magicka, and improve 4% per skill level. |
-| **Master Alteration** | Master spells cost 55% less magicka, and improve 5% per skill level. |
-| **Empowered Alterations** | Dual-cast Alteration spells to increase their duration by 125%. |
-| **Improved Mage Armor** | Mage Armor provides an additional 50% damage resistance if the caster is not wearing armor. |
-| **Magic Resistance Rank I** | 10% resistance to hostile magic. |
-| **Magic Resistance Rank II** | 20% resistance to hostile magic. |
-| **Magic Resistance Rank III** | 30% resistance to hostile magic. |
-| **Stability** | All Alteration spells last 50% longer. |
-| **Spell Armor** | Mage Armor reduces elemental damage by 15%. |
-| **Magical Absorption** | 30% chance to absorb spells as magicka. |
+| Tier/Perk | Standard Description | FormID |
+|-----------|---------------------|--------|
+| **Novice Alteration** | Novice spells cost 55% less magicka, and improve 1% per skill level. | 0F2CA6 |
+| **Apprentice Alteration** | Apprentice spells cost 55% less magicka, and improve 2% per skill level. | 0F2CA7 |
+| **Adept Alteration** | Adept spells cost 55% less magicka, and improve 3% per skill level. | 0F2CA8 |
+| **Expert Alteration** | Expert spells cost 55% less magicka, and improve 4% per skill level. | 0F2CA9 |
+| **Master Alteration** | Master spells cost 55% less magicka, and improve 5% per skill level. | 0F2CAA |
+| **Empowered Alterations** | Dual-cast Alteration spells to augment them by 125% for double magicka cost. | 0153CD |
+| **Improved Mage Armor** | Mage Armor provides an additional 50% damage resistance if the caster is not wearing armor. | 0D7999 |
+| **Magic Resistance Rank I** | 10% resistance to hostile magic. | 053128 |
+| **Magic Resistance Rank II** | 20% resistance to hostile magic. | 053129 |
+| **Magic Resistance Rank III** | 30% resistance to hostile magic. | 05312A |
+| **Stability** | All Alteration spells last 50% longer. | 0581FC |
+| **Spell Armor** | Mage Armor reduces elemental damage by 15%. | 21792A |
+| **Magical Absorption** | 30% chance to absorb spells as magicka. | 0581F7 |
 | **Mage's Endurance** | Increases magicka by 50. | TBD_MARCURIO_ALT1 |
 | **Density** | Raises armor rating by 50 points and grants 25% frost resistance when under the effects of an Alteration spell. | TBD_MARCURIO_ALT2 |
 | **Spellmaking** | Can craft custom spells at Altars of Spellcraft. | TBD_MARCURIO_ALT3 |
@@ -272,49 +272,50 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 
 ### DESTRUCTION SCHOOL
 
-| Tier/Perk | Standard Description |
-|-----------|---------------------|
-| **Novice Destruction** | Novice spells cost 55% less magicka, and improve 1% per skill level. |
-| **Apprentice Destruction** | Apprentice spells cost 55% less magicka, and improve 2% per skill level. |
-| **Adept Destruction** | Adept spells cost 55% less magicka, and improve 3% per skill level. |
-| **Expert Destruction** | Expert spells cost 55% less magicka, and improve 4% per skill level. |
-| **Master Destruction** | Master spells cost 55% less magicka, and improve 5% per skill level. |
-| **Empowered Elements** | Dual-cast Destruction spells to augment their power by 125%. |
-| **Impact** | 25% chance to stagger targets when dual-casting projectile Destruction spells. |
-| **Pyromancy Rank I** | All fire spells deal 15% more damage. |
-| **Pyromancy Rank II** | All fire spells deal 30% more damage. |
-| **Cremation** | Incinerate corpses with fire spells, leaving no remains. |
-| **Fire Mastery** | Fire spells cause additional burning damage over time. |
-| **Cryomancy Rank I** | All frost spells deal 15% more damage. |
-| **Cryomancy Rank II** | All frost spells deal 30% more damage. |
-| **Deep Freeze** | Frost spells temporary paralyze targets. |
-| **Frost Mastery** | Frost spells slow movement up to a complete freeze. |
-| **Electromancy Rank I** | All lightning spells deal 15% more damage. |
-| **Electromancy Rank II** | All lightning spells deal 30% more damage. |
-| **Electrostatic Discharge** | Lightning spells can chain between nearby targets. |
-| **Lightning Mastery** | Lightning spells reduce target resistances. |
+| Tier/Perk | Standard Description | FormID |
+|-----------|---------------------|--------|
+| **Novice Destruction** | Novice spells cost 55% less magicka, and improve 1% per skill level. | 0F2CA8 |
+| **Apprentice Destruction** | Apprentice spells cost 55% less magicka, and improve 2% per skill level. | 0C44BF |
+| **Adept Destruction** | Adept spells cost 55% less magicka, and improve 3% per skill level. | 0C44C0 |
+| **Expert Destruction** | Expert spells cost 55% less magicka, and improve 4% per skill level. | 0C44C1 |
+| **Master Destruction** | Master spells cost 55% less magicka, and improve 5% per skill level. | 0C44C2 |
+| **Empowered Elements** | Dual-cast Destruction spells to augment their power by 125%. | 0153CF |
+| **Impact** | 25% chance to stagger targets when dual-casting projectile Destruction spells. | 0153D2 |
+| **Pyromancy Rank I** | All fire spells deal 15% more damage. | 0581E7 |
+| **Pyromancy Rank II** | All fire spells deal 30% more damage. | 10FCF8 |
+| **Cremation** | Incinerate corpses with fire spells, leaving no remains. | 0F392E |
+| **Fire Mastery** | Fire spells cause additional burning damage over time. | 179121 |
+| **Cryomancy Rank I** | All frost spells deal 15% more damage. | 0581EA |
+| **Cryomancy Rank II** | All frost spells deal 30% more damage. | 10FCF9 |
+| **Deep Freeze** | Frost spells temporary paralyze targets. | 0F3933 |
+| **Frost Mastery** | Frost spells slow movement up to a complete freeze. | 179123 |
+| **Electromancy Rank I** | All lightning spells deal 15% more damage. | 058200 |
+| **Electromancy Rank II** | All lightning spells deal 30% more damage. | 10FCFA |
+| **Electrostatic Discharge** | Lightning spells can chain between nearby targets. | 0F3F0E |
+| **Lightning Mastery** | Lightning spells reduce target resistances. | 179124 |
 | **Savage Impact** | Destruction spells deal 10% more damage. Every point of stamina costs 0.04 magicka for dual-cast spells. | TBD_MARCURIO_DEST1 |
 | **Blast Wave I** | Destruction spell projectiles have 10% more knockback. | TBD_MARCURIO_DEST2 |
 | **Blast Wave II** | Destruction spell projectiles have 20% more knockback. | TBD_MARCURIO_DEST3 |
 | **Blast Wave III** | Destruction spell projectiles have 30% more knockback. | TBD_MARCURIO_DEST4 |
-| **Rune Mastery** | Cast and maintain more powerful runes. May maintain 3 runes simultaneously. |
+| **Rune Mastery** | Cast and maintain more powerful runes. May maintain 3 runes simultaneously. | 105F32 |
 
 ---
 
 ### RESTORATION SCHOOL
 
-| Tier/Perk | Standard Description |
-|-----------|---------------------|
-| **Novice Restoration** | Novice spells cost 55% less magicka, and improve 1% per skill level. |
-| **Apprentice Restoration** | Apprentice spells cost 55% less magicka, and improve 2% per skill level. |
-| **Adept Restoration** | Adept spells cost 55% less magicka, and improve 3% per skill level. |
-| **Expert Restoration** | Expert spells cost 55% less magicka, and improve 4% per skill level. |
-| **Master Restoration** | Master spells cost 55% less magicka, and improve 5% per skill level. |
-| **Improved Healing** | Healing spells are 25% more effective. |
-| **Respite** | Healing spells restore both health and stamina. |
-| **Mysticism** | Spells that affect the Undead and Daedra are 10% more effective and last 25% longer. |
+| Tier/Perk | Standard Description | FormID |
+|-----------|---------------------|--------|
+| **Novice Restoration** | Novice spells cost 55% less magicka, and improve 1% per skill level. | 0F2CAA |
+| **Apprentice Restoration** | Apprentice spells cost 55% less magicka, and improve 2% per skill level. | 0C44C7 |
+| **Adept Restoration** | Adept spells cost 55% less magicka, and improve 3% per skill level. | 0C44C8 |
+| **Expert Restoration** | Expert spells cost 55% less magicka, and improve 4% per skill level. | 0C44C9 |
+| **Master Restoration** | Master spells cost 55% less magicka, and improve 5% per skill level. | 0C44CA |
+| **Improved Healing** | Healing spells are 25% more effective. | 0581F8 |
+| **Respite** | Healing spells restore both health and stamina. | 0581F9 |
+| **Mysticism** | Spells that affect the Undead and Daedra are 10% more effective and last 25% longer. | 0581E4 |
+| **Focused Mind** | Can keep concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster. | 0581F4 |
 | **Focused Mind** | Can keep concentration when running or sustaining damage, thus all magicka penalties are nullified. Magicka regenerates 50% faster. |
-| **Improved Wards** | Ward spells are more powerful and last longer. |
+| **Improved Wards** | Ward spells are 25% more effective, absorb 25% Magicka from hostile spells, and cost 5% less Magicka to cast. | 068BCC |
 | **Power of Life** | Increased healing effectiveness over time. |
 | **Painful Regrets** | Healing magic harms the Undead more effectively. |
 | **Benefactor's Insights** | Can dual-cast Restoration spells to augment their power by 125% for double magicka cost. | 0153D1 |
@@ -363,6 +364,9 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | **Fortitude** | Receive a permanent bonus of 40 stamina and 20 carry weight. Mass of Equipped gear is further reduced. | 058F6C |
 | **Power of the Combatant** | Once a day, can use Power of the Combatant to restore 100 stamina instantly and 25 stamina per second for 30 seconds. Mass of Equipped gear is further reduced. | 107832 |
 | **Juggernaut** | Armor rating is increased by 10%, weight is reduced by 15%, and incoming stagger effects are reduced by 90%, provided wearing a full set of heavy armor. | 105F33 |
+| **Combat Meditation** | You barely notice your heavy armor. Casting penalties are reduced for Expert spells. | 058F6D |
+| **Combat Casting** | Your concentration is less affected by heavy armor, reducing penalties for Novice and Apprentice spells. | 058F6E |
+| **Battlemage** | Your heavy armor is like a second skin. Casting penalties for Master spells are significantly reduced. Magicka cost for all spells is reduced by 15% while wearing a full set of heavy armor. | 187ED2 |
 
 ---
 
@@ -370,7 +374,7 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 
 | Tier/Perk | Standard Description | FormID |
 |-----------|---------------------|--------|
-| **Novice Illusion** | Novice spells cost 55% less magicka, and improve 1% per skill level. | NOT_FOUND |
+| **Novice Illusion** | Novice spells cost 55% less magicka, and improve 1% per skill level. | 0F2CA9 |
 | **Apprentice Illusion** | Apprentice spells cost 55% less magicka, and improve 2% per skill level. | 0C44C3 |
 | **Adept Illusion** | Adept spells cost 55% less magicka, and improve 3% per skill level. | 0C44C4 |
 | **Expert Illusion** | Expert spells cost 55% less magicka, and improve 4% per skill level. | 0C44C5 |
@@ -394,11 +398,15 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 |-----------|---------------------|--------|
 | **Ranged Combat Training** | Damage increased by 20%, -50% weapon weight penalties, ammunition grants armor penetration. | 0BABED |
 | **Ranger** | Allows running and strafing while attacking with light bows and crossbows. | 058F63 |
+| **Piercing Shot** | +50% armor penetration from ammunition. | 105F1C |
+| **Penetrating Shot** | You keenly spot the gaps in armor, further increasing armor penetration with ranged weapons. (+50% armor penetration from ammunition) | 105F1E |
 | **Eagle Eye** | Zoom in on a target by holding the right mouse button. Grants armor penetration. | 058F61 |
+| **Precise Aim** | Damage increased by 20% with bow and crossbow attacks. | 07934A |
 | **Marksman's Focus** | Aiming precisely seems to slow time by 75% while zooming, -25% weapon weight penalties. | 103ADA |
 | **Quick Shot** | Draw and fire in one single movement, increasing rate of fire with all bows by 50%. | 105F19 |
 | **Rapid Reload** | Reload crossbows 50% faster. | 17B8C1 |
 | **Power Shot** | Shots land with tremendous impact, occasionally staggering foes. (70% chance to stagger.) | 058F62 |
+| **Stunning Precision** | Shots land with precise impact, occasionally staggering foes. | 058F64 |
 
 ---
 
@@ -406,18 +414,18 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 
 | Tier/Perk | Standard Description | FormID |
 |-----------|---------------------|--------|
-| **Weapon Mastery I** | Damage increased by 20%, -50% weapon weight penalties. | 079343 |
+| **Weapon Mastery I** | Damage increased by 20%, -50% weapon weight penalties. | 079343 / 0BABE4 |
 | **Weapon Mastery II** | Damage increased by 40%, -50% weapon weight penalties. | 079343 |
 | **Martial Arts** | Unarmed power attacks deal 30 more damage and cost 66% less stamina. | 0AD7A3 |
 | **Penetrating Strikes** | One-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration) | 052D50 |
-| **Dagger Focus I** | Irresistible sneak attack damage increased by 25%, +3.5 armor penetration per Dagger. | AD3998 |
-| **Dagger Focus II** | Irresistible sneak attack damage increased by 55%, +3.5 armor penetration per Dagger. | AD3998 |
+| **Dagger Focus I** | Irresistible sneak attack damage increased by 25%, +3.5 armor penetration per Dagger. | AD399A |
+| **Dagger Focus II** | Irresistible sneak attack damage increased by 55%, +3.5 armor penetration per Dagger. | AD3999 |
 | **Dagger Focus III** | Master the deadly art of the dagger. Irresistible sneak attack damage increased by 100%, +3.5 armor penetration per Dagger. | AD3998 |
 | **Mace Focus I** | Power attack damage increased by 5%, +7.5 armor penetration per Mace. | 05F592 |
 | **Mace Focus II** | Power attack damage increased by 10%, +7.5 armor penetration per Mace. | 0C1E92 |
 | **Mace Focus III** | Power attack damage increased by 15%, +7.5 armor penetration per Mace. | 0C1E93 |
 | **War Axe Focus I** | Base Damage increased by 5%, +10 armor penetration per War Axe. | 03FFFA |
-| **War Axe Focus II** | Base Damage increased by 15%, +20 armor penetration per War Axe. | 03FFFA |
+| **War Axe Focus II** | Base Damage increased by 15%, +20 armor penetration per War Axe. | 0C3678 |
 | **War Axe Focus III** | Base Damage increased by 30%, +30 armor penetration per War Axe. | 03FFFA |
 | **Powerful Strike** | Power attack damage increased by 20%. | 03AF81 |
 | **Powerful Charge** | Unlocks sprinting power attack, -25% weapon weight penalties. | 0CB406 |
@@ -425,9 +433,9 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | **Flurry Rank I** | One-handed and unarmed attacks are 10% faster. | 106256 |
 | **Flurry Rank II** | One-handed and unarmed attacks are 25% faster. | 106257 |
 | **Storm of Steel** | Power attacks deal 25% more damage when dual-wielding one-handed weapons. | 106258 |
-| **Sword Focus I** | +8% attack speed, +3.5 armor penetration per Sword. | 03AF83 |
-| **Sword Focus II** | +16% attack speed, +3.5 armor penetration per Sword. | 03AF83 |
-| **Sword Focus III** | +24% attack speed, +3.5 armor penetration per Sword. | 03AF83 |
+| **Sword Focus I** | +8% attack speed, +3.5 armor penetration per Sword. | 03AF83 / 05F56F |
+| **Sword Focus II** | +16% attack speed, +3.5 armor penetration per Sword. | 03AF83 / 0C1E90 |
+| **Sword Focus III** | +24% attack speed, +3.5 armor penetration per Sword. | 03AF83 / 0C1E91 |
 | **Stunning Charge** | Forward power attacks expertly utilize weight and momentum. Forward power attacks can knock down. | 03AFA6 |
 
 ---
@@ -473,9 +481,11 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | Tier/Perk | Standard Description | FormID |
 |-----------|---------------------|--------|
 | **Stealth Rank I** | Sneaking ability is 15% more effective. Heavy armor nullifies this bonus. | 0BE126 |
-| **Stealth Rank II** | Sneaking ability is 35% more effective. Heavy armor nullifies this bonus. | 0BE126 |
+| **Stealth Rank II** | Sneaking ability is 35% more effective. Heavy armor nullifies this bonus. | 0C07C6 |
 | **Muffled Movement** | Move 15% more quietly, provided you are not wearing any heavy armor. | 058213 |
 | **Light Steps** | Will not trigger any traps. | 05820C |
+| **Deft Strike** | Sneak attacks with Crossbows, Bows, Daggers, and Swords will gain 50% Armor penetration. | 058210 |
+| **Anatomical Lore** | Practiced study unveils vital weak points. Sneak attacks with daggers, swords, bows, and crossbows are deadlier. | 1036F0 |
 | **Acrobatics** | Perform a silent forward roll to avoid most physical knockdowns. Sneaking ability is 10% more effective. Heavy armor nullifies these effects. | 105F23 |
 | **Shadowrunner** | 15% harder to detect, movement is 10% less audible, take 25% less damage from falling. Heavy armor nullifies these bonuses. | 058214 |
 
@@ -488,7 +498,7 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | **Haggling** | Convincing appraisals net you better prices for goods. (1% per Speech level.) | 0BE128 |
 | **Silver Tongue** | Prices are 10% better with the opposite gender. You are 3x more intimidating in conversation. | 058F72 |
 | **Merchant** | Merchants will buy anything from you except stolen goods. Selling prices are 15% better. You can invest in shops to permanently increase their available gold. | 058F7A |
-| **Fence** | You can sell stolen goods to almost any merchant. | NOT_FOUND |
+| **Fence** | You can sell stolen goods to almost any merchant. | 058F79 |
 | **Leadership** | Followers deal 20% more damage, block 75% more damage, and cast spells for 15% less magicka. Magicka and stamina increased by 100, regenerate 50% faster. Carry weight increased by 50. | 427139 |
 | **Masquerade Rank I** | Wear faction-specific armor to blend in and become undetectable. Works for Forsworn, Imperials, Necromancers, Stormcloaks, Thalmor, and Warlocks. | 30EC6A |
 | **Masquerade Rank II** | There is no role you cannot play. Enemies are less suspicious and don't check affiliation every few seconds. | 30EC6A |
@@ -505,8 +515,8 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 
 | Tier/Perk | Standard Description | FormID |
 |-----------|---------------------|--------|
-| **Great Weapon Mastery I** | Diligent practice bolsters the damage and ease of your two-handed weapon attacks. Damage +20%, -50% weapon weight penalties. | 079346 |
-| **Great Weapon Mastery II** | Improved fighting techniques bolster the damage and ease of your two-handed weapon attacks. Damage +40%, -50% weapon weight penalties. | 079346 |
+| **Great Weapon Mastery I** | Damage +20%, -50% weapon weight penalties. | 079346 / 0BABE8 |
+| **Great Weapon Mastery II** | Damage +40%, -50% weapon weight penalties. | 079346 |
 | **Barbaric Might** | Two-handed power attacks are easier to execute, and further penetrate enemy armor. (-50% power attack stamina cost, +5 armor penetration) | 052D51 |
 | **Devastating Charge** | Perform a leaping power attack while sprinting, reducing enemies to smithereens. Unlocks sprinting power attack, -25% weapon weight penalties. | 0CB407 |
 | **Devastating Strike** | Two-handed power attacks are even deadlier, dealing 25% more power attack damage. | 052D52 |
@@ -514,9 +524,11 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | **Devastating Cleave** | Enhanced cleave with terrifying finesse and power. Sideways power attacks can knock down. | 03AFA7 |
 | **Mighty Strike** | A single strike can fell almost any foe. Damage +25%. | 182F9B |
 | **Battle Axe Focus I** | Damage +5%, +10 armor penetration with two-handed War Axes. | 0C5C05 |
-| **Battle Axe Focus II** | Damage +15%, +20 armor penetration with two-handed War Axes. | 0C5C05 |
+| **Battle Axe Focus II** | Damage +15%, +20 armor penetration with two-handed War Axes. | 0C5C05 / 0C5C06 |
 | **Battle Axe Focus III** | Damage +30%, +30 armor penetration with two-handed War Axes. | 0C5C05 |
 | **Greatsword Focus** | Attack speed increased with two-handed bladed weapons. Armor penetration increased. | 03AF83 |
+| **Greatsword Focus II** | Attack speed +20%, +14 armor penetration. | 0C1E94 |
+| **Greatsword Focus III** | Attack speed +30%, +21 armor penetration. | 0C1E95 |
 | **Warhammer Focus I** | Power attack damage +5%, +15 armor penetration with two-handed blunt weapons. | 03AF84 |
 | **Warhammer Focus II** | Power attack damage +10%, +30 armor penetration with two-handed blunt weapons. | 0C1E96 |
 | **Warhammer Focus III** | Power attack damage +15%, +45 armor penetration with two-handed blunt weapons. | 0C1E97 |
@@ -580,9 +592,9 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 | **Bestial Strength IV** | Deal 100% more damage as a werewolf. | 0059A4 |
 | **Gorging** | Flesh and blood of the fallen are a welcome feast. Feeding heals twice as much health. | 0059A7 |
 | **Savage Feeding** | Stomach has become unworldly sturdy. Feed on most creatures. Creature feeding extends werewolf form only half as much as humanoid feeding. | 0059A6 |
-| **Totem of Ice Brothers** | Werewolf Totem of Brotherhood Howl is now able to call Ice Wolves to its aid. | NOT_FOUND |
+| **Totem of Ice Brothers** | Werewolf Totem of Brotherhood Howl is now able to call Ice Wolves to its aid. | 0059AA |
 | **Totem of Terror** | Werewolf Howl of Terror strikes fear into higher level foes. | 0059A8 |
-| **Totem of Moon** | Totem of Brotherhood can now call werewolf brethren to its aid. | NOT_FOUND |
+| **Totem of Moon** | Totem of Brotherhood can now call werewolf brethren to its aid. | 0059AB |
 | **Totem of the Predator** | Totem of the Hunt receives extended range, and shows targets' combat state (in combat, searching, or not in combat). | 0059A9 |
 
 ---
@@ -593,12 +605,12 @@ Standardized perk descriptions across 5 mod-added followers (Amanra Solas, Ralya
 |-----------|---------------------|--------|
 | **Power of the Grave** | Power of undeath grants greater resistance to wounds, stronger mind, and much more endurance. (Health +200, Stamina +300, Magicka +100) | 005998 |
 | **Blood Healing** | Sweet taste of the juice of life restores body. Killing mortals with bite heals all wounds as they drain dry. | 005994 |
-| **Detect All Creatures** | Ability to detect about any entity nearby gained. | NOT_FOUND |
+| **Detect All Creatures** | Ability to detect about any entity nearby gained. | 00599B |
 | **Mist Form** | Ability to transform into a practically invulnerable cloud of mist that boosts regeneration gained. (15 seconds: 250 HP/s, 100 Magicka/s, 50 Stamina/s) | 00599C |
 | **Supernatural Reflexes** | Power to move incredibly fast, thereby also slowing down enemies gained. (Time slows down by 80% for 10 seconds.) | 00599E |
 | **Unearthly Will** | Power allows ruling over dark magic, decreasing the cost of all Night Powers and Blood Magic. | 005995 |
-| **Poison Talons** | Your fearsome talons become even more deadly, as they now drain the life forces of those they strike. (Drains 75 HP from the target.) | NOT_FOUND |
-| **Night Cloak** | In combat, you are surrounded by swarms of bats that feed on those foolish enough to come within reach. Between 7PM-5AM you resist 50% magic damage, absorb 10 health per second from nearby hostile targets. | NOT_FOUND |
+| **Poison Talons** | Your fearsome talons become even more deadly, as they now drain the life forces of those they strike. (Drains 75 HP from the target.) | 005996 |
+| **Night Cloak** | In combat, you are surrounded by swarms of bats that feed on those foolish enough to come within reach. Between 7PM-5AM you resist 50% magic damage, absorb 10 health per second from nearby hostile targets. | 005997 |
 | **Vampiric Grip** | Blood Magic now allows grabbing a target from afar, choking it to death when it is close. (Absorbs 20 HP/second from the gripped target.) | 00599A |
 | **Summon Gargoyle** | Your knowledge about Blood Magic now grants you the ability to call forth a gargoyle to your aid. (Summons for 60 seconds, 1000 HP.) | 016908 |
 | **Corpse Curse** | Your deep insights in Blood Magic now allow you to evoke a magical blast that paralyzes hit targets. (10 second paralyze.) | 008A70 |
