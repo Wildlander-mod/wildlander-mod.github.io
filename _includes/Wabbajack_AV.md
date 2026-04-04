@@ -61,10 +61,10 @@ There are no options you can tick, and no exclusions you can apply to make this 
 
 ### McAfee Antivirus.
 
-It is known to cause a corruption in the Skyrim downgrade during installation process from Wabbajack - even when the anti-virus has finished its subscription. If it's still installed (even expired) it can and DOES cause issues.
+It is known to cause a corruption during installation process from Wabbajack - ESPECIALLY when the anti-virus has finished its subscription. If it's still installed and active (even when expired) it can and DOES cause issues.
 
-1. Disable McAfee (if its expired, just uninstall the thing)
-1. Delete game-files\Stock game
+1. Disable McAfee completely (if its expired, just uninstall the thing - you cant disable it while its expired)
+1. Delete game-files\Stock game and game-files\Mods
 1. Reinstall Wildlander from Wabbajack, choosing Overwrite installation and wait for install to complete.
 1. you should now be able to launch.
 
