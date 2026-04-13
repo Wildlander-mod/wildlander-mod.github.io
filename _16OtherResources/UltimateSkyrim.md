@@ -92,7 +92,7 @@ This generates necessary files for Ultimate Skyrim installation.
 
 3. [Download latest Wabbajack](https://www.wabbajack.org/) and place in `UltSky\installer\` folder
 
-4. Download Manually the Wabbajack File <a href="http://tinyurl.com/UltSkyWabbajack" target="_blank">from here</a>
+4. Download Manually the Wabbajack File <a href="https://build.wabbajack.org/authored_files/download/Ultimate%20Skyrim.wabbajack_4b99a0c2-7207-44d7-998d-6dadaa890591" target="_blank">from here</a>
 
 5. Double-click Wabbajack.exe to run
 
