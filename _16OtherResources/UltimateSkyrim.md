@@ -92,30 +92,32 @@ This generates necessary files for Ultimate Skyrim installation.
 
 3. [Download latest Wabbajack](https://www.wabbajack.org/) and place in `UltSky\installer\` folder
 
-4. Double-click Wabbajack.exe to run
+4. Download Manually the Wabbajack File <a href="http://tinyurl.com/UltSkyWabbajack" target="_blank">from here</a>
 
-5. Click "Install From Disk" and locate the Wabbajack file you downloaded
+5. Double-click Wabbajack.exe to run
 
-6. Select your `content` folder as installation location (NOT the Skyrim folder)
+6. Click "Install From Disk" and locate the Wabbajack file you downloaded
+
+7. Select your `content` folder as installation location (NOT the Skyrim folder)
 
    {: .important}
    > **WARNING:** Select the `content` folder, NOT `Skyrim\TESV.exe`. Selecting wrong folder will break your install!
 
-7. (Optional) If upgrading, select your old Downloads folder to reuse existing downloads
+8. (Optional) If upgrading, select your old Downloads folder to reuse existing downloads
 
-8. Click the install button to begin
+9. Click the install button to begin
 
-9. If prompted, click "Accept" for Nexus API
+10. If prompted, click "Accept" for Nexus API
 
-10. (Optional) If not a Nexus Premium member, [follow this guide](https://streamable.com/5uuzo) for manual downloads
+11. (Optional) If not a Nexus Premium member, [follow this guide](https://streamable.com/5uuzo) for manual downloads
 
-11. When complete, click "Install Folder"
+12. When complete, click "Install Folder"
 
-12. Open "Game Folder Files" and copy all files inside
+13. Open "Game Folder Files" and copy all files inside
 
-13. Navigate to your Skyrim root folder and paste files
+14. Navigate to your Skyrim root folder and paste files
 
-14. Open the pasted `enblocal.ini` and configure according to [this guide](https://wiki.wildlandermod.com/Assets/ENB.png)
+15. Open the pasted `enblocal.ini` and configure according to [this guide](https://wiki.wildlandermod.com/Assets/ENB.png)
 
 </details>
 
