@@ -15,7 +15,7 @@ Save Safe
 
 ### Highlights
 
-* **NPC Follower Database Complete** — 82 followers verified and synchronized with database perks, abilities, and spells
+* **NPC Follower Overhaul Complete** — 82 followers verified and synchronized with database perks, abilities, and spells
 * **Expanded Script Optimizations** — Performance improvements through script reworking and optimization suite (SCROTE)
 * **Enhanced NPC Expressions** — Dialogue animations expanded with 50+ gesture variants based on NPC personality and role
 * **Improved Facegen** — Regenerated NPC facegen to fix appearance glitches and character spawning issues
