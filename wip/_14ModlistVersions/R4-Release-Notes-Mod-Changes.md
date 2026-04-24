@@ -665,9 +665,9 @@ description: Mod changes for Wildlander R4
 | Mod Name | Reason | Impact |
 |----------|--------|--------|
 | Expanded cities and Towns (ETaC) | Cell conflicts and NPC issues | Resolves WL-237, WL-424, WL-1266, WL-1709, WL-1979 |
-| JK's and Dawn of Skyrim | Compatibility conflicts | Reduces cell conflicts |
+| JK's and Dawn of Skyrim | Compatibility conflicts | Reduces cell conflicts & performance slowdowns|
 | Forts of Skyrim Rebuilt | ELE lighting conflicts | Resolves WL-1032 |
-| Dynamic Animation Replacer (DAR) | Replaced with OAR | Better performance |
+| Dynamic Animation Replacer (DAR) | Replaced with OAR | Better performance, more mods. |
 | Follower Live package | Replaced with Nether's Follower Framework | Resolves WL-239, WL-891 |
 
 **Total Mods Removed:** 5
@@ -685,7 +685,7 @@ description: Mod changes for Wildlander R4
 
 | Mod Name | Description | Reason |
 |----------|-----------|----------|
-| WL-1821 - Male dunmer look terrible. | Starsight skins needs reinstalling using the "younger" option See https://airtable.com/app6IMUkhDQiSdL0B/tbln0wE3ffVnUk2ML/viwGFdBIx5NoRNxBU/recEQVnLSDr54pECM?blocks=hide | Reinstalled using the Younger skin variant. |
+|Starsight skins| WL-1821 - Male dunmer look terrible. | Starsight skins needs reinstalling using the "younger" option, Reinstalled using the Younger skin variant. |
 
 **Total Mods Updated:** 1
 
