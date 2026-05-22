@@ -20,11 +20,6 @@ In general, any Requiem resources you find online will be applicable to Wildland
 
 Wildlander can be overwhelming at first, so I highly recommend reading up on it. Start with The Recommended reading section on this wiki and work down from there.
 
-If videos are more your speed, then <a href="https://www.youtube.com/channel/UCnVgWmZbuZxl2QFVapKjd3w" target="_blank" rel="noopener noreferrer">Liam (Parz) <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title" width="1em" height="1em"><use xlink:href="#svg-external-link"></use></svg></a> has turned the wiki introduction into a video, which you can access clicking the image below.
-
-
-<iframe class="yt-embed" width="640" height="360" src="https://www.youtube.com/embed/vXRurA0h6NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Getting Help
 
 1. Make sure to follow the installation guide and follow in order - There are images to help you.
