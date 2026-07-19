@@ -50,7 +50,7 @@ Before engaging any enemy:
 **If you don't scout, you will die wondering what happened.**
 
 {: .tip}
-**Instincts (Right Alt)** - All three combat approaches (melee, ranged, magic) can use Instincts to identify hidden or distant targets. This reveals their level, equipment, and position—critical for planning your engagement. See [Keybindings](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/) for the full keybind reference.
+**Instincts (Right Alt)** - All three combat approaches (melee, ranged, magic) can use Instincts to identify hidden or distant targets. This reveals their position - characterised by a while glow - critical for planning your engagement. It can also be used to identify useful materiels and herbs, fallen enemies and arrows. See [Keybindings](https://wiki.wildlandermod.com/02-RecommendedReading/7-Keybindings/) for the full keybind reference.
 
 ---
 
