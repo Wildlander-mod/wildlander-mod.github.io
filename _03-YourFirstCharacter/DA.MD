@@ -25,7 +25,7 @@ Every time you level up and invest points in Health, Stamina, or Magicka (+5 per
 * Two-handed damage
 * Bow/dagger/unarmed damage
 
-**Key principle:** Each derived attribute has a **threshold**—a minimum base value before bonuses start calculating. For example, you need 150 base Magicka before Magic Resistance begins increasing. Below the threshold, the formula returns 0.
+**Key principle:** Each derived attribute has a **threshold**—a minimum base value before bonuses start calculating. For example, you need more than 150 base Magicka before Magic Resistance begins increasing. Below the threshold, the formula returns 0.
 
 ## Derived Attributes Formula Table
 
@@ -53,9 +53,9 @@ Every time you level up and invest points in Health, Stamina, or Magicka (+5 per
 
 The "Based On" column is crucial for build planning:
 
-- **Stamina-heavy builds** (archer, melee) get more movement speed and 2H/bow damage
-- **Health-heavy builds** get more carry weight (80% Health) but trade offense for defense
-- **Magicka builds** get magic resistance and magicka regeneration, but less physical damage
+- **Stamina-heavy builds** (archer, melee) get more movement speed, disease resistance and bow/1H damage
+- **Health-heavy builds** get more carry weight (80% Health), poison resistance and 2H/1H damage
+- **Magicka builds** get magic resistance and magicka regeneration, but less physical damage and fortitude
 - **Balanced builds** scale moderately in all damage types
 
 You can calculate your exact bonuses in the interactive calculator below, or check your current values in-game via Requiem's MCM menu.
