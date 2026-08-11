@@ -18,7 +18,7 @@ description: Miraak - Shouts, Spells, Stats
 
 **Ethereal Invulnerability Phases**: Miraak casts "Ethereal" gaining 1000 armor rating and 1000% magic resistance (essentially complete immunity). These phases are mandatory waiting periods where NO damage can be applied—you must survive passively.
 
-**Elemental Cloak + Weakness Application**: Applies 250% weakness to Frost, Fire, and Shock for 20 seconds while dealing 15/s elemental damage in melee. Your resistances become liabilities; every resist you have triggers harder damage.
+**Elemental Cloak + Weakness Application**: Applies 250% weakness to Frost, Fire, and Shock for 20 seconds while dealing 15/s elemental damage in melee. 
 
 **Knowledge Drain Spell**: Deals 150 Health + Magicka damage simultaneously with 75% magic weakness debuff. Stacks with Elemental Cloak weakness to create cascading vulnerability.
 
