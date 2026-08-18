@@ -3,26 +3,26 @@ title: Armor Temper Recipes
 layout: default
 nav_order: 4
 has_children: false
-description: Armor crafting recipes and materials.
+description: Armor Temper recipes and materials.
 ---
 
-## Armor Crafting Reference
+## Armor Temper Reference
 
-Quick lookup table showing the perks and materials required to craft different armor types. For detailed crafting instructions, see [Blacksmith Recipes](https://wiki.wildlandermod.com/10-Crafting/blacksmith/).
+Quick lookup table showing the perks and materials required to temper different armor types. For detailed crafting instructions, see [Blacksmith Recipes](https://wiki.wildlandermod.com/10-Crafting/blacksmith/).
 
 ---
 
 ## How to Use This Page
 
 **Hover over any Produced Item Name** to see the complete details including:
-- All perks required for crafting
+- All perks required to temper
 - Complete list of materials needed
 
 Use the search bar and filter below to find specific armor recipes by perks needed.
 
 ---
 
-## Armor Crafting Table Data
+## Armor Temper Table Data
 
 <style>
 #armor-table-tooltip {
