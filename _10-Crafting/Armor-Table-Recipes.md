@@ -301,64 +301,64 @@ $(document).ready(function(){
 | Deathbrand Cuirass | Stalhrim Smithing | 1 Stalhrim |
 | Deathbrand Gauntlets | Stalhrim Smithing | 1 Stalhrim |
 | Deathbrand Helm | Stalhrim Smithing | 1 Stalhrim |
-| Dragonplate Bearskin Hood - Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - Ornate Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - Ornate Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - Ornate White | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - Trimmed Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - Trimmed Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - Trimmed White | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Bearskin Hood - White | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Boots | Draconic Blacksmithing | 1 Dragon Bone |
-| Dragonplate Cuirass | Draconic Blacksmithing | 1 Dragon Bone |
-| Dragonplate Gauntlets | Draconic Blacksmithing | 1 Dragon Bone |
-| Dragonplate Helmet | Draconic Blacksmithing | 1 Dragon Bone |
-| Dragonplate Shield | Draconic Blacksmithing | 1 Dragon Bone |
-| Dragonplate Wolfskin Hood - Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Dark Trimmed Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Dark Trimmed Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Dark Trimmed White | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Light Trimmed Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Light Trimmed Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Light Trimmed White | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Noble Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Noble Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Noble White | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Ornate Black | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Ornate Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - Ornate White | Craftsmanship | 1 Dragon Scales |
-| Dragonplate Wolfskin Hood - White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Ornate Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Ornate Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Ornate White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Trimmed Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Trimmed Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - Trimmed White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Bearskin Hood - White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Boots | Draconic Blacksmithing | 1 Dragon Scales |
-| Dragonscale Cuirass | Draconic Blacksmithing | 1 Dragon Scales |
-| Dragonscale Gauntlets | Draconic Blacksmithing | 1 Dragon Scales |
-| Dragonscale Helmet | Draconic Blacksmithing | 1 Dragon Scales |
-| Dragonscale Shield | Draconic Blacksmithing | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Dark Trimmed Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Dark Trimmed Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Dark Trimmed White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Light Trimmed Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Light Trimmed Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Light Trimmed White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Noble Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Noble Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Noble White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Ornate Black | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Ornate Brown | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - Ornate White | Craftsmanship | 1 Dragon Scales |
-| Dragonscale Wolfskin Hood - White | Craftsmanship | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Ornate Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Ornate Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Ornate White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Trimmed Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Trimmed Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - Trimmed White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Bearskin Hood - White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Boots | Draconic Blacksmithing, Ebony Blacksmithing | 1 Dragon Bone |
+| Dragonplate Cuirass | Draconic Blacksmithing, Ebony Blacksmithing | 1 Dragon Bone |
+| Dragonplate Gauntlets | Draconic Blacksmithing, Ebony Blacksmithing | 1 Dragon Bone |
+| Dragonplate Helmet | Draconic Blacksmithing, Ebony Blacksmithing | 1 Dragon Bone |
+| Dragonplate Shield | Draconic Blacksmithing, Ebony Blacksmithing | 1 Dragon Bone |
+| Dragonplate Wolfskin Hood - Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Dark Trimmed Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Dark Trimmed Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Dark Trimmed White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Light Trimmed Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Light Trimmed Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Light Trimmed White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Noble Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Noble Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Noble White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Ornate Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Ornate Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - Ornate White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonplate Wolfskin Hood - White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Ornate Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Ornate Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Ornate White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Trimmed Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Trimmed Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - Trimmed White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Bearskin Hood - White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Boots | Draconic Blacksmithing, Glass Blacksmithing | 1 Dragon Scales |
+| Dragonscale Cuirass | Draconic Blacksmithing, Glass Blacksmithing | 1 Dragon Scales |
+| Dragonscale Gauntlets | Draconic Blacksmithing, Glass Blacksmithing | 1 Dragon Scales |
+| Dragonscale Helmet | Draconic Blacksmithing, Glass Blacksmithing | 1 Dragon Scales |
+| Dragonscale Shield | Draconic Blacksmithing, Glass Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Dark Trimmed Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Dark Trimmed Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Dark Trimmed White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Light Trimmed Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Light Trimmed Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Light Trimmed White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Noble Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Noble Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Noble White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Ornate Black | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Ornate Brown | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - Ornate White | Draconic Blacksmithing | 1 Dragon Scales |
+| Dragonscale Wolfskin Hood - White | Draconic Blacksmithing | 1 Dragon Scales |
 | Dwarven Boots | Dwarven Blacksmithing | 1 Ingot: Dwarven |
 | Dwarven Cuirass | Dwarven Blacksmithing | 1 Ingot: Dwarven |
 | Dwarven Gauntlets | Dwarven Blacksmithing | 1 Ingot: Dwarven |
