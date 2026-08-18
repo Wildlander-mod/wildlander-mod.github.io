@@ -189,7 +189,7 @@ Once you take a stone from given group, you will become locked to that group. Fo
 50% faster Stamina regen
 
 * Lord: The Stone of the Lord grants those who possess its blessing increased damage resistance and weakened hostile spells.
-120% damage resistance, 15% magic resistance
+120 Armor rating (constitutes to 12% damage resistance), 15% magic resistance
 
 * Steed: The Steed grants those who bear its blessing increased Stamina.
 Fortify Stamina 100 points
