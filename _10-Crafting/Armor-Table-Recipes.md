@@ -1,5 +1,5 @@
 ---
-title: Armor Crafting Recipes
+title: Armor Temper Recipes
 layout: default
 nav_order: 4
 has_children: false
