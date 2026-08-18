@@ -228,8 +228,8 @@ Daily power of muffle and invisibility for 300 seconds
 * Thief: The Thief grants wide-spread abilities to those who bear her blessing. It improves sneaking, pickpocketing and lockpicking skills and grants lockpicking expertise. Furthermore it increases armor penetration with one-handed and ranged weapons.
 +5 Armor Penetration, +15 Fortify Sneak, +15 Fortify Pickpocket, +5 Fortify Lockpicking, +20 Fortify Lockpicking Expertise
 
-* Tower: The Tower grants a blessing of 20 extra carry weight and supernatural lockpicking skills. Expertise is increased by 40 and any effortless lock can be picked in plain sight with nobody noticing, creating a wax-molded copy of the key, if one exists.
-+20 Carry Weight, +40 Lockpicking
+* Tower: The Tower grants a blessing of 20 extra carry weight and supernatural lockpicking skills. Lockpicking expertise is increased by 40 and any effortless lock can be picked in plain sight with nobody noticing, creating a wax-molded copy of the key, if one exists.
++20 Carry Weight, +40 Lockpicking Expertise
 
 ---
 
