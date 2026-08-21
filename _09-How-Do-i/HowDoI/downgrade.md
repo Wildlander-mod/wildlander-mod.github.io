@@ -41,11 +41,11 @@ If you don't trust a 3rd party tool, you can use steam itself to download a olde
 this will open console tab on your Steam
 
 2. On the bottom will have a space for you to enter the code. Enter these codes, one at a time, and **WAIT FOR THEM TO CONFIRM THAT THEY ARE DONE DOWNLOADING** before entering the next one
-> download_depot 489830 489831 3660787314279169352
+> download_depot 489830 489831 8442952117333549665
 >
-> download_depot 489830 489832 2756691988703496654
+> download_depot 489830 489832 8042843504692938467
 >
-> download_depot 489830 489833 5291801952219815735
+> download_depot 489830 489833 1914580699073641964
 
 3. Check each depot has downloaded successfully, It will download the files to your "\Steam\steamapps\content\app_489830\" folder. If you cannot find it, just search on the steam folder: "depot 489831" "depot 489832" and "depot 489833" after download is done. If you are missing files - simply redo the depot command until you have all the files. **DO NOT SKIP THIS CHECKING STEP**
 > depot 489831 should contain 16 files
