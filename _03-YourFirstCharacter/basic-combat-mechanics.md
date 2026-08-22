@@ -38,7 +38,7 @@ Before engaging any enemy:
 
 1. **Look around** - What enemies are present? How many?
 2. **Listen** - Use your ears to locate unseen enemies (everything makes noise)
-3. **Use Instincts** (default: **Right Alt**) - See enemy levels and equipment from range
+3. **Use Instincts** (default: **Right Alt**) - Highlights fallen enemies (purple), moving enemies (white), and nearby herbs, wood, and weapons (various colors) from range
 4. **Ask yourself:**
    - What are they wearing?
    - What are they wielding?
