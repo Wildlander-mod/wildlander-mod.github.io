@@ -91,6 +91,12 @@ Firstly, The Wabbajack installation tool does not support it. Secondly, it has t
 
 # Installation & Management
 
+## How much space does Wildlander need?
+
+Wildlander requires 90 GB of disk space for the installed modlist, plus approximately 45 GB of space for downloads during installation.
+
+A total of 135 GB of free disk space is therefore required to install Wildlander.
+
 ## How long does it take to download Wildlander without Nexus Premium?
 
 There have been reports of anywhere from 4 hours to 4 days, depending on how much attention you are paying to the Wabbajack downloader and the speeds you are getting from your ISP. Times may also differ based on whether you are downloading to an SSD or an HDD.
