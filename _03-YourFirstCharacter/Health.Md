@@ -49,19 +49,20 @@ This fundamental change means:
 | Method | Speed | Effectiveness | Notes |
 |--------|-------|-----------------|-------|
 | **Restoration Spells** | Fast | Scales with skill | Requires magicka; scales with Restoration skill |
+| **Restoration Scrolls** | Fast | Depends on the scroll | Luck dependant to find these at vendors or in chests |
 | **Health Potions** | Instant | Varies by strength | Can be expensive; easiest backup |
-| **Healing Poultice** | Very slow (1+ hours) | High per-second regen | Safe-only; used before risky areas |
-| **Raw Ingredients** | Moderate | Low but steady | Instant restoration; always available in wilderness |
-| **Cooked Meat/Food** | Moderate | Low but steady | Out-of-combat healing; slower than raw |
+| **Healing Poultice** | Very slow (1+ hours) | High per-second regen | Safe-only; used before sleeping, deactivates in combat. |
+| **Raw Ingredients** | Moderate | Low  | Instant restoration; always available in wilderness. On average restores only small amounts of health. |
+| **Cooked Meat/Food** | Moderate | Low  | Out-of-combat healing; useful only to top you off..  |
 | **Fortify Health Enchantments** | Passive | Scales with gear | Fortify Health or Health Regen enchantments |
-| **Engraved Bones (Kynareth)** | Passive | 1-2 HP/sec | Permanent item; passive regen while carried |
+| **Engraved Bones (Kynareth)** | Passive | 1-2 HP/sec | Consumable item, crafted. gives you a buff when the item is consumed. Can fail |
 
 ### For Vampires (Vampire Races)
 
 **Only superlative-level (highest potency) healing potions work on vampires.** This means:
 - Restoration spells don't work on you
 - Regular health potions are useless
-- You must rely on potions and other methods
+- You must rely on Superlative potions and other methods
 - Plan accordingly before becoming a vampire
 
 ---
@@ -83,7 +84,7 @@ Your maximum health is determined by:
 
 ## Healing Methods Explained
 
-### Method 1: Restoration Spells (Best for Mages)
+### Method 1: Restoration Spells (Best for Mages) or Scrolls (best for everyone else)
 
 - Spell costs magicka but scales with your Restoration skill
 - Higher Restoration skill = larger heals
@@ -112,8 +113,8 @@ Your maximum health is determined by:
 Healing Poultices are **slow but powerful sustained healers**:
 
 - Heal 1-2 HP/second for **1+ hours**
-- **Cannot be used in combat** - Engaging in combat or sprinting cancels the effect
-- **Use in safe locations only** - Before entering dangerous areas or after escaping combat
+- **Cannot be used in combat** - Engaging in combat or sprinting cancels the effect and does not restore when you stop conmbat
+- **Use in safe locations only** - Before entering dangerous areas, waiting or after escaping combat
 - Must wait for the full duration to work
 
 **How to Craft Healing Poultice:**
@@ -170,9 +171,10 @@ Healing Poultice is **pure player crafting**—no workstation required, just you
 
 #### Engraved Bones (Kynareth)
 
-- Passive health regen item (+1-2 HP/sec while carried)
-- Permanent benefit; highly valuable early game
-- Seek these out if you find them
+- Passive health regen item (+1-2 HP/sec after being consumed)
+- long-term benefit; highly valuable early game
+- Craft them from the bones of animals you kill. Always carry a few. 
+- Caution: consuming these items has a small chance to fail. 
 
 ---
 
@@ -184,6 +186,8 @@ Healing Poultice is **pure player crafting**—no workstation required, just you
 - Carry **Healing Poultice** for afterward
 - Know your retreat route
 - Scout enemy positions before engaging
+- Activate a Engraved Bone.
+- Activate a healing aura if you have one.
 
 ### During Combat
 
@@ -198,6 +202,7 @@ Healing Poultice is **pure player crafting**—no workstation required, just you
 
 - Use Healing Poultice in safe location if available
 - Wait 1+ hour for full effect if using Poultice
+- Activate a healing aura if you have one
 
 ---
 
@@ -222,9 +227,9 @@ Where:
 ## Key Principles
 
 1. **Avoid damage is better than healing damage** - Defensive play saves resources
-2. **Always carry backup healing** - Potions + spells + poultices
+2. **Always carry backup healing** - Potions + spells/scrolls + poultices 
 3. **Don't tank hits** - Sidestep, block, retreat when low
-4. **Healing Poultice is your friend** - Use before risky areas
+4. **Healing Poultice is your friend** - Use before risky areas if at low health and wait for it to take effect
 5. **Raw food is free emergency healing** - Pick ingredients as you travel
 
 ---
