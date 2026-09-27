@@ -80,15 +80,23 @@ If using Norton, and it blocks the launcher for intrusive activity (During start
 
 #### Surfshark
 
-Surfshark Anti-virus is completely incompatible with the Crash logging mod we use in the pack. It will cause a crash on Startup. 
+Surfshark Anti-virus is completely incompatible with .NET Script Framework (NetScriptFramework.Runtime.dll), part of the Crash logging mod we use in the pack. It will cause a crash on Startup. 
 
 There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice. The only known Fix is to Uninstall.
 
 ----
 
+#### Kaspersky
+
+As of July 2026 - Kaspersky Anti-virus is incompatible with .NET Script Framework (NetScriptFramework.Runtime.dll), part of the Crash logging mod we use in the pack. It will cause the game to hang indefinatly or crash on Startup.
+
+There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice. Adding exclusions or trusted applications does not help, and neither does disabling all of Kaspersky's protection components (including AMSI protection and Self-Defense) and rebooting. The only known Fix is to Uninstall.
+
+----
+
 #### F-secure
 
-F-secure Anti-virus is completely incompatible with the Crash logging mod we use in the pack. It will cause a crash on Startup. 
+F-secure Anti-virus is completely incompatible with .NET Script Framework (NetScriptFramework.Runtime.dll), part of the Crash logging mod we use in the pack. It will cause a crash on Startup. 
 
 There are no options you can tick, and no exclusions you can apply to make this anti-virus play nice. The only known Fix is to Uninstall.
 
